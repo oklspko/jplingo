@@ -16,12 +16,22 @@ export function getTokenRomaji(token: JpToken): string {
   return toRomaji(token.kana).toLowerCase();
 }
 
-// 一个假名可能对应多种可接受的罗马字（如 ぢ 既可打 di 也可打 ji）
+// 一个假名可能对应多种可接受的罗马字（主形式 + 别名）。
+// 别名覆盖训令式与ヘボン式差异，以及 IME 的特殊输入：
+//   し/ち/つ/ふ → si/ti/tu/hu；ん → nn；ぢ → ji；づ → zu
+const ROMAJI_ALIASES: Record<string, string[]> = {
+  "し": ["si"],
+  "ち": ["ti"],
+  "つ": ["tu"],
+  "ふ": ["hu"],
+  "ん": ["nn"],
+  "ぢ": ["ji"],
+  "づ": ["zu"],
+};
+
 export function getTokenRomajiAlternatives(token: JpToken): string[] {
   const primary = getTokenRomaji(token);
-  if (token.kana === "ぢ") return [primary, "ji"];
-  if (token.kana === "づ") return [primary, "zu"];
-  return [primary];
+  return [primary, ...(ROMAJI_ALIASES[token.kana] || [])];
 }
 
 export function checkToken(
