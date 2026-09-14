@@ -2,7 +2,15 @@
   <div class="jp-page-wrap">
     <JpSidebar />
     <main class="jp-page-main">
-      <div class="kana-container">
+      <div class="guide-container">
+        <JpGrammarGuide />
+
+        <div class="kana-divider">
+          <span class="kana-divider-line"></span>
+          <span class="kana-divider-text">附：日语输入表（罗马字 → 假名）</span>
+          <span class="kana-divider-line"></span>
+        </div>
+
         <JpKanaChart />
       </div>
     </main>
@@ -11,6 +19,7 @@
 
 <script setup lang="ts">
 import JpSidebar from "~/components/jp/JpSidebar.vue";
+import JpGrammarGuide from "~/components/jp/JpGrammarGuide.vue";
 import JpKanaChart from "~/components/jp/JpKanaChart.vue";
 </script>
 
@@ -29,16 +38,40 @@ import JpKanaChart from "~/components/jp/JpKanaChart.vue";
   }
 }
 
-.kana-container {
+.guide-container {
   max-width: 900px;
   margin: 0 auto;
   padding: 48px 40px 80px;
   font-family: -apple-system, "Segoe UI", "Noto Sans JP", sans-serif;
 }
 
+.kana-divider {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 8px 0 24px;
+}
+
+.kana-divider-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #bae6fd, transparent);
+}
+
+.kana-divider-text {
+  font-size: 13px;
+  color: #7dd3fc;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
 @media (max-width: 768px) {
-  .kana-container {
-    padding: 40px 20px 60px;
+  .guide-container {
+    padding: 32px 20px 60px;
+  }
+
+  .kana-divider {
+    gap: 10px;
   }
 }
 </style>

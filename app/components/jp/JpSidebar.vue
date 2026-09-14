@@ -47,7 +47,7 @@ async function onLogout() {
 const menuItems = [
   { key: "me", label: "我的", icon: "👤", path: "/jp-me" },
   { key: "home", label: "课程", icon: "📚", path: "/jp-home" },
-  { key: "kana", label: "输入表", icon: "🔤", path: "/jp-kana-chart" },
+  { key: "grammar", label: "语法", icon: "📖", path: "/jp-kana-chart" },
   { key: "editor", label: "编辑器", icon: "✏️", path: "/jp-editor" },
 ];
 
