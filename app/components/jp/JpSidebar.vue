@@ -188,4 +188,60 @@ function isActive(path: string) {
   border-color: #fca5a5;
   color: #dc2626;
 }
+
+/* 移动端：固定侧栏转为顶部导航 */
+@media (max-width: 768px) {
+  .jp-sidebar {
+    position: static;
+    width: 100%;
+    min-height: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 12px;
+    border-right: none;
+    border-bottom: 1px solid #e8f6ff;
+    gap: 8px 12px;
+  }
+
+  .sidebar-header {
+    padding: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+    gap: 8px;
+  }
+
+  .title-block h2 { font-size: 15px; }
+  .subtitle { display: none; }
+
+  .sidebar-nav {
+    flex: 1 1 100%;
+    order: 3;
+    flex-direction: row;
+    padding: 0;
+    gap: 6px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .nav-item {
+    padding: 7px 12px;
+    font-size: 13px;
+    gap: 6px;
+    white-space: nowrap;
+  }
+
+  .nav-icon { font-size: 15px; width: auto; }
+  .nav-label { flex: 0 0 auto; }
+
+  .sidebar-footer {
+    padding: 0;
+    border-top: none;
+    margin-left: auto;
+  }
+
+  .version { display: none; }
+  .user-email { display: none; }
+  .logout-btn { padding: 6px 12px; font-size: 12px; }
+}
 </style>

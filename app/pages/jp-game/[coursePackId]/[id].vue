@@ -40,7 +40,7 @@
           </div>
         </transition>
 
-        <div class="jp-input-area">
+        <div class="jp-input-area" @click="focusInput">
           <div class="jp-words">
             <div
               v-for="(word, i) in words"
@@ -468,6 +468,10 @@ function reset() {
   nextTick(() => inputRef.value?.focus());
 }
 
+function focusInput() {
+  inputRef.value?.focus();
+}
+
 function next() {
   if (currentIndex.value < statements.value.length - 1) currentIndex.value++;
 }
@@ -605,9 +609,12 @@ function playAudio() {
 .jp-word-answer { font-size: clamp(12px, 1.5vw, 19px); color: #ef4444; margin-top: 6px; }
 
 .jp-hidden-input {
-  position: absolute; top: 0; left: 0;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
   width: 100%; height: 100%;
   opacity: 0; cursor: text;
+  font-size: 16px;
+  touch-action: manipulation;
 }
 
 .jp-result-slot {
