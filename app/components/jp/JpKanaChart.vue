@@ -60,7 +60,7 @@
         <div class="kana-tips">
           <span class="kana-tips-title">💡 输入技巧：</span>
           ん 输入 <b>n</b>（后接元音或な行时用 <b>nn</b>）；っ（促音）双写下一辅音，如 <b>kka</b> → っか；
-          し / ち / つ / ふ 也可输入 <b>si / ti / tu / hu</b>；を = <b>wo</b>，ぢ = <b>ji</b>，づ = <b>zu</b>。
+          し / ち / つ / ふ 也可输入 <b>si / ti / tu / hu</b>；を = <b>wo</b>，ぢ = <b>di</b>，づ = <b>du</b>。
         </div>
       </div>
     </transition>
@@ -123,7 +123,7 @@ const dakuon: KanaRow[] = [
     { kana: "ざ", romaji: "za" }, { kana: "じ", romaji: "ji" }, { kana: "ず", romaji: "zu" }, { kana: "ぜ", romaji: "ze" }, { kana: "ぞ", romaji: "zo" },
   ]},
   { label: "だ", kana: [
-    { kana: "だ", romaji: "da" }, { kana: "ぢ", romaji: "ji" }, { kana: "づ", romaji: "zu" }, { kana: "で", romaji: "de" }, { kana: "ど", romaji: "do" },
+    { kana: "だ", romaji: "da" }, { kana: "ぢ", romaji: "di" }, { kana: "づ", romaji: "du" }, { kana: "で", romaji: "de" }, { kana: "ど", romaji: "do" },
   ]},
   { label: "ば", kana: [
     { kana: "ば", romaji: "ba" }, { kana: "び", romaji: "bi" }, { kana: "ぶ", romaji: "bu" }, { kana: "べ", romaji: "be" }, { kana: "ぼ", romaji: "bo" },

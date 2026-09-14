@@ -10,6 +10,9 @@ export function isSingleKanaCourseId(courseId: string): boolean {
 }
 
 export function getTokenRomaji(token: JpToken): string {
+  // ぢ / づ 的输入罗马字是 di / du（wanakana 默认按 Hepburn 转成 ji / zu，会与 じ / ず 混淆）
+  if (token.kana === "ぢ") return "di";
+  if (token.kana === "づ") return "du";
   return toRomaji(token.kana).toLowerCase();
 }
 
