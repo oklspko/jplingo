@@ -13,6 +13,17 @@ pnpm build      # 生产构建
 pnpm preview    # 预览生产构建
 ```
 
+## 部署（线上登录）
+
+纯 SPA（`ssr: false`）+ Supabase 邮箱密码认证，生产构建后即可托管。完整部署文档见 **[DEPLOY.md](./DEPLOY.md)**。
+
+要点速览：
+
+- 环境变量：复制 `.env.example` 为 `.env`，填 Supabase URL 与 anon key（`sb_publishable_` 开头）。
+- Supabase：执行 `supabase/migrations/0001_study_records.sql` 建表；关闭邮箱确认（注册即登录）；确认 anon key 的 Allowed domains 未受限。
+- 部署：推代码到 GitHub → Vercel 导入仓库（自动识别 Nuxt）→ 配同样的两个环境变量 → Deploy。
+- 常见坑：线上 500（旧代码缺鉴权修复）、登录 401（anon key 域名受限）。
+
 ## 目录结构
 
 ```
