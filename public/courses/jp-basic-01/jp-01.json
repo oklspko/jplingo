@@ -1,0 +1,46 @@
+{
+  "id": "jp-01",
+  "coursePackId": "jp-basic-01",
+  "title": "第一课",
+  "order": 1,
+  "statements": [
+    {
+      "id": "jp-01-01",
+      "chinese": "我",
+      "japanese": "私 は",
+      "kana": "わたし は",
+      "romaji": "watashi ha",
+      "tokens": [
+        { "text": "私", "kana": "わたし" },
+        { "text": "は", "kana": "は" }
+      ]
+    },
+    {
+      "id": "jp-01-02",
+      "chinese": "我喝水",
+      "japanese": "私 は 水 を 飲みます",
+      "kana": "わたし は みず を のみます",
+      "romaji": "watashi ha mizu wo nomimasu",
+      "tokens": [
+        { "text": "私", "kana": "わたし" },
+        { "text": "は", "kana": "は" },
+        { "text": "水", "kana": "みず" },
+        { "text": "を", "kana": "を" },
+        { "text": "飲みます", "kana": "のみます" }
+      ]
+    },
+    {
+      "id": "jp-01-03",
+      "chinese": "你是学生",
+      "japanese": "あなた は 学生 です",
+      "kana": "あなた は がくせい です",
+      "romaji": "anata ha gakusei desu",
+      "tokens": [
+        { "text": "あなた", "kana": "あなた" },
+        { "text": "は", "kana": "は" },
+        { "text": "学生", "kana": "がくせい" },
+        { "text": "です", "kana": "です" }
+      ]
+    }
+  ]
+}

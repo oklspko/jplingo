@@ -1,0 +1,33 @@
+{
+  "id": "jp-kana-02",
+  "coursePackId": "jp-kana",
+  "title": "浊音・半浊音",
+  "order": 2,
+  "statements": [
+    { "id": "jp-kana-02-01", "chinese": "が", "japanese": "が", "kana": "が", "romaji": "ga", "tokens": [{ "text": "が", "kana": "が" }] },
+    { "id": "jp-kana-02-02", "chinese": "ぎ", "japanese": "ぎ", "kana": "ぎ", "romaji": "gi", "tokens": [{ "text": "ぎ", "kana": "ぎ" }] },
+    { "id": "jp-kana-02-03", "chinese": "ぐ", "japanese": "ぐ", "kana": "ぐ", "romaji": "gu", "tokens": [{ "text": "ぐ", "kana": "ぐ" }] },
+    { "id": "jp-kana-02-04", "chinese": "げ", "japanese": "げ", "kana": "げ", "romaji": "ge", "tokens": [{ "text": "げ", "kana": "げ" }] },
+    { "id": "jp-kana-02-05", "chinese": "ご", "japanese": "ご", "kana": "ご", "romaji": "go", "tokens": [{ "text": "ご", "kana": "ご" }] },
+    { "id": "jp-kana-02-06", "chinese": "ざ", "japanese": "ざ", "kana": "ざ", "romaji": "za", "tokens": [{ "text": "ざ", "kana": "ざ" }] },
+    { "id": "jp-kana-02-07", "chinese": "じ", "japanese": "じ", "kana": "じ", "romaji": "ji", "tokens": [{ "text": "じ", "kana": "じ" }] },
+    { "id": "jp-kana-02-08", "chinese": "ず", "japanese": "ず", "kana": "ず", "romaji": "zu", "tokens": [{ "text": "ず", "kana": "ず" }] },
+    { "id": "jp-kana-02-09", "chinese": "ぜ", "japanese": "ぜ", "kana": "ぜ", "romaji": "ze", "tokens": [{ "text": "ぜ", "kana": "ぜ" }] },
+    { "id": "jp-kana-02-10", "chinese": "ぞ", "japanese": "ぞ", "kana": "ぞ", "romaji": "zo", "tokens": [{ "text": "ぞ", "kana": "ぞ" }] },
+    { "id": "jp-kana-02-11", "chinese": "だ", "japanese": "だ", "kana": "だ", "romaji": "da", "tokens": [{ "text": "だ", "kana": "だ" }] },
+    { "id": "jp-kana-02-12", "chinese": "ぢ", "japanese": "ぢ", "kana": "ぢ", "romaji": "ji", "tokens": [{ "text": "ぢ", "kana": "ぢ" }] },
+    { "id": "jp-kana-02-13", "chinese": "づ", "japanese": "づ", "kana": "づ", "romaji": "zu", "tokens": [{ "text": "づ", "kana": "づ" }] },
+    { "id": "jp-kana-02-14", "chinese": "で", "japanese": "で", "kana": "で", "romaji": "de", "tokens": [{ "text": "で", "kana": "で" }] },
+    { "id": "jp-kana-02-15", "chinese": "ど", "japanese": "ど", "kana": "ど", "romaji": "do", "tokens": [{ "text": "ど", "kana": "ど" }] },
+    { "id": "jp-kana-02-16", "chinese": "ば", "japanese": "ば", "kana": "ば", "romaji": "ba", "tokens": [{ "text": "ば", "kana": "ば" }] },
+    { "id": "jp-kana-02-17", "chinese": "び", "japanese": "び", "kana": "び", "romaji": "bi", "tokens": [{ "text": "び", "kana": "び" }] },
+    { "id": "jp-kana-02-18", "chinese": "ぶ", "japanese": "ぶ", "kana": "ぶ", "romaji": "bu", "tokens": [{ "text": "ぶ", "kana": "ぶ" }] },
+    { "id": "jp-kana-02-19", "chinese": "べ", "japanese": "べ", "kana": "べ", "romaji": "be", "tokens": [{ "text": "べ", "kana": "べ" }] },
+    { "id": "jp-kana-02-20", "chinese": "ぼ", "japanese": "ぼ", "kana": "ぼ", "romaji": "bo", "tokens": [{ "text": "ぼ", "kana": "ぼ" }] },
+    { "id": "jp-kana-02-21", "chinese": "ぱ", "japanese": "ぱ", "kana": "ぱ", "romaji": "pa", "tokens": [{ "text": "ぱ", "kana": "ぱ" }] },
+    { "id": "jp-kana-02-22", "chinese": "ぴ", "japanese": "ぴ", "kana": "ぴ", "romaji": "pi", "tokens": [{ "text": "ぴ", "kana": "ぴ" }] },
+    { "id": "jp-kana-02-23", "chinese": "ぷ", "japanese": "ぷ", "kana": "ぷ", "romaji": "pu", "tokens": [{ "text": "ぷ", "kana": "ぷ" }] },
+    { "id": "jp-kana-02-24", "chinese": "ぺ", "japanese": "ぺ", "kana": "ぺ", "romaji": "pe", "tokens": [{ "text": "ぺ", "kana": "ぺ" }] },
+    { "id": "jp-kana-02-25", "chinese": "ぽ", "japanese": "ぽ", "kana": "ぽ", "romaji": "po", "tokens": [{ "text": "ぽ", "kana": "ぽ" }] }
+  ]
+}

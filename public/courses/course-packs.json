@@ -1,0 +1,20 @@
+{
+  "coursePacks": [
+    {
+      "id": "jp-basic-01",
+      "title": "日语基础 第一册",
+      "language": "ja",
+      "level": "N5",
+      "description": "日语入门，涵盖基本助词和动词",
+      "courses": ["jp-01", "jp-02"]
+    },
+    {
+      "id": "jp-kana",
+      "title": "五十音",
+      "language": "ja",
+      "level": "入门",
+      "description": "从清音到拗音，系统掌握日语五十音输入",
+      "courses": ["jp-kana-01", "jp-kana-02", "jp-kana-03", "jp-kana-04", "jp-kana-05"]
+    }
+  ]
+}
