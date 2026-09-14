@@ -55,7 +55,7 @@
           </div>
           <input
             ref="inputRef"
-            v-model="rawInput"
+            :value="rawInput"
             class="jp-hidden-input"
             type="text"
             autocapitalize="off"
@@ -65,7 +65,7 @@
             @keydown="handleKeydown"
             @compositionstart="isComposing = true"
             @compositionend="isComposing = false"
-            @input="playTypingSound"
+            @input="onInput"
           />
         </div>
 
@@ -404,38 +404,64 @@ function jumpToNextError() {
 }
 
 function handleKeydown(e: KeyboardEvent) {
+  if (e.code === "Enter") {
+    e.preventDefault();
+    handleEnter();
+  }
+}
+
+function handleEnter() {
   if (isComposing.value) return;
   if (showCompleteModal.value) return;
 
-  if (result.value === "correct" && (e.code === "Space" || e.code === "Enter")) {
-    e.preventDefault();
+  if (result.value === "correct") {
+    if (isLastQuestion.value) { pickRandomMotivation(); showCompleteModal.value = true; }
+    else next();
+    return;
+  }
+  if (result.value === "wrong") { submitAnswer(); return; }
+
+  const parts = rawInput.value.split(" ");
+  const total = currentStatement.value?.tokens.length || 0;
+  const allFilled =
+    parts.length >= total && parts.slice(0, total).every((p) => p.trim() !== "");
+  if (allFilled) submitAnswer();
+}
+
+function handleSpace() {
+  if (isComposing.value) return;
+  if (showCompleteModal.value) return;
+
+  if (result.value === "correct") {
     if (isLastQuestion.value) { pickRandomMotivation(); showCompleteModal.value = true; }
     else next();
     return;
   }
 
-  if (result.value === "wrong" && e.code === "Space") {
-    e.preventDefault();
+  if (result.value === "wrong") {
     if (checkAllCorrect()) submitAnswer();
     else { jumpToNextError(); playJumpSound(); }
     return;
   }
 
-  if (result.value === "wrong" && e.code === "Enter") {
-    e.preventDefault();
-    submitAnswer();
-    return;
-  }
+  const parts = rawInput.value.split(" ");
+  const total = currentStatement.value?.tokens.length || 0;
+  const allFilled =
+    parts.length >= total && parts.slice(0, total).every((p) => p.trim() !== "");
+  if (allFilled) submitAnswer();
+  else if (rawInput.value && !rawInput.value.endsWith(" "))
+    rawInput.value += " ";
+}
 
-  if (e.code === "Enter" || e.code === "Space") {
-    e.preventDefault();
-    const parts = rawInput.value.split(" ");
-    const total = currentStatement.value?.tokens.length || 0;
-    const allFilled =
-      parts.length >= total && parts.slice(0, total).every((p) => p.trim() !== "");
-    if (allFilled) submitAnswer();
-    else if (e.code === "Space" && rawInput.value && !rawInput.value.endsWith(" "))
-      rawInput.value += " ";
+function onInput(e: Event) {
+  playTypingSound();
+  const el = e.target as HTMLInputElement;
+  if (!isComposing.value && el.value.endsWith(" ")) {
+    // 手机虚拟键盘按空格常不触发 keydown，这里从 input 事件兜底
+    rawInput.value = el.value.replace(/ +$/, "");
+    handleSpace();
+  } else {
+    rawInput.value = el.value;
   }
 }
 
