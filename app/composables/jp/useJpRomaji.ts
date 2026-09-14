@@ -16,14 +16,22 @@ export function getTokenRomaji(token: JpToken): string {
   return toRomaji(token.kana).toLowerCase();
 }
 
+// 一个假名可能对应多种可接受的罗马字（如 ぢ 既可打 di 也可打 ji）
+export function getTokenRomajiAlternatives(token: JpToken): string[] {
+  const primary = getTokenRomaji(token);
+  if (token.kana === "ぢ") return [primary, "ji"];
+  if (token.kana === "づ") return [primary, "zu"];
+  return [primary];
+}
+
 export function checkToken(
   raw: string,
   token: JpToken,
   isSingleKana: boolean,
 ): boolean {
-  const trimmed = raw.trim();
+  const trimmed = raw.trim().toLowerCase();
   if (isSingleKana) {
-    return trimmed.toLowerCase() === getTokenRomaji(token);
+    return getTokenRomajiAlternatives(token).includes(trimmed);
   }
   return toHiragana(trimmed) === token.kana;
 }

@@ -84,7 +84,7 @@
           </transition>
         </div>
 
-        <div class="jp-actions">
+        <div class="jp-actions" :class="{ 'jp-actions--floating': keyboardOpen }">
           <button class="jp-btn primary" @click="submitAnswer">
             提交<span class="shortcut">↵</span>
           </button>
@@ -156,7 +156,6 @@ import { useJpTimer } from "~/composables/jp/useJpTimer";
 import { useJpStorage } from "~/composables/jp/useJpStorage";
 import {
   isSingleKanaCourseId,
-  getTokenRomaji,
   checkToken,
   calcWordWidth,
 } from "~/composables/jp/useJpRomaji";
@@ -179,6 +178,7 @@ const showKanaHint = ref(false);
 const courseTitle = ref("");
 const showSpaceHint = ref(true);
 const hadWrongAttempt = ref(false);
+const keyboardOpen = ref(false);
 
 const coursePackId = computed(() => route.params.coursePackId as string);
 const courseId = computed(() => route.params.id as string);
@@ -229,10 +229,9 @@ const words = computed(() => {
   return stmt.tokens.map((token, i) => {
     const raw = parts[i] || "";
     if (isSingleKana.value) {
-      const target = getTokenRomaji(token);
       return {
         text: token.text, kana: token.kana, userInput: raw,
-        incorrect: result.value === "wrong" && raw.trim().toLowerCase() !== target,
+        incorrect: result.value === "wrong" && !checkToken(raw, token, true),
       };
     }
     const userInput = toHiragana(raw);
@@ -290,12 +289,17 @@ onMounted(async () => {
   startTimer();
   timeHeartbeat = setInterval(flushStudyTime, 5000);
   window.addEventListener("beforeunload", flushStudyTime);
+  window.addEventListener("resize", syncKeyboard);
+  window.visualViewport?.addEventListener("resize", syncKeyboard);
+  syncKeyboard();
 });
 
 onUnmounted(() => {
   flushStudyTime();
   if (timeHeartbeat) clearInterval(timeHeartbeat);
   window.removeEventListener("beforeunload", flushStudyTime);
+  window.removeEventListener("resize", syncKeyboard);
+  window.visualViewport?.removeEventListener("resize", syncKeyboard);
 });
 
 watch(showRomajiHint, (v) => localStorage.setItem("jp-romaji-hint", v ? "true" : "false"));
@@ -496,6 +500,13 @@ function reset() {
 
 function focusInput() {
   inputRef.value?.focus();
+}
+
+function syncKeyboard() {
+  const vv = window.visualViewport;
+  if (!vv) { keyboardOpen.value = false; return; }
+  // 可视高度明显小于窗口高度 → 判定软键盘弹出
+  keyboardOpen.value = vv.height < window.innerHeight * 0.85;
 }
 
 function next() {
@@ -778,6 +789,21 @@ function playAudio() {
   .jp-result-slot { min-height: 140px; }
   .jp-result { border-radius: 16px; padding: 16px; }
   .jp-actions { margin-top: 20px; gap: 8px; }
+  .jp-actions--floating {
+    position: fixed;
+    top: 8px;
+    left: 12px;
+    right: 12px;
+    width: auto;
+    z-index: 60;
+    margin-top: 0;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(186, 230, 253, 0.45);
+  }
   .jp-btn {
     padding: 10px 16px; font-size: 14px;
     border-radius: 12px; border-width: 2px; gap: 5px;

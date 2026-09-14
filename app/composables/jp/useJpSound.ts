@@ -7,6 +7,32 @@ function ensureAudioCtx(): AudioContext {
   return audioCtx;
 }
 
+/* ============ 移动端音频解锁 ============ */
+let audioUnlocked = false;
+
+function unlockAudio() {
+  if (audioUnlocked) return;
+  audioUnlocked = true;
+  try {
+    ensureAudioCtx();
+  } catch {}
+  // 预热 speechSynthesis（iOS 首次需要用户手势才会初始化）
+  try {
+    if (window.speechSynthesis) {
+      const warm = new SpeechSynthesisUtterance(" ");
+      warm.volume = 0;
+      speechSynthesis.speak(warm);
+    }
+  } catch {}
+}
+
+if (typeof window !== "undefined") {
+  const unlock = () => unlockAudio();
+  window.addEventListener("pointerdown", unlock, { once: true });
+  window.addEventListener("touchstart", unlock, { once: true });
+  window.addEventListener("keydown", unlock, { once: true });
+}
+
 /* ============ 打字音效 ============ */
 export function playTypingSound() {
   const now = Date.now();
@@ -195,7 +221,7 @@ export function speakJapanese(text: string, rate = 0.9) {
   if (!text) return;
   if (typeof window === "undefined" || !window.speechSynthesis) return;
 
-  speechSynthesis.cancel();
+  unlockAudio();
 
   const utt = new SpeechSynthesisUtterance(text);
   const voice = pickBestJapaneseVoice();
@@ -211,7 +237,15 @@ export function speakJapanese(text: string, rate = 0.9) {
   utt.pitch = 1.0;      // 音调
   utt.volume = 1.0;     // 音量
 
-  speechSynthesis.speak(utt);
+  try {
+    speechSynthesis.cancel();
+    // iOS Safari 在 cancel 后立即 speak 可能被吞掉，延时一小段时间再播
+    setTimeout(() => {
+      try { speechSynthesis.speak(utt); } catch {}
+    }, 60);
+  } catch {
+    try { speechSynthesis.speak(utt); } catch {}
+  }
 }
 
 /**
