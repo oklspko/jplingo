@@ -13,6 +13,51 @@ pnpm build      # 生产构建
 pnpm preview    # 预览生产构建
 ```
 
+## 部署（线上登录）
+
+应用是纯 SPA（`ssr: false`），生产构建后即可静态/无服务器托管；登录用 Supabase 邮箱密码认证。下面以 Vercel 为例，Netlify / Cloudflare Pages 同理。
+
+### 1. 准备环境变量
+
+复制 `.env.example` 为 `.env`，填入 Supabase 项目信息（`.env` 已被 `.gitignore` 忽略，勿提交）：
+
+```bash
+cp .env.example .env
+```
+
+```ini
+NUXT_SUPABASE_URL=https://your-project.supabase.co
+NUXT_SUPABASE_ANON_KEY=your-anon-key
+```
+
+### 2. 配置 Supabase
+
+1. 在 Supabase 新建项目，记下 **Project Settings → API** 里的 URL 与 anon key（填入上面 `.env`）。
+2. 建表：在 SQL Editor 执行 `supabase/migrations/0001_study_records.sql`（`study_records` 表 + RLS 行级安全策略，按用户隔离学习记录）。
+3. 关闭邮箱确认（注册即登录）：**Authentication → Sign In / Up → Email → 关闭 "Confirm email"**。
+4. 确认 anon key 的 **Allowed domains** 未限制（留空或含 `*`），否则线上登录会 401。
+
+### 3. 本地验证
+
+```bash
+pnpm build      # 生产构建
+pnpm preview    # 本地预览，确认 /login、/jp-home 等深链可直接访问
+```
+
+### 4. 部署到 Vercel
+
+1. 把代码推到 GitHub 默认分支（main）。
+2. Vercel → **Add New → Project** → 导入该仓库，框架自动识别为 Nuxt（构建命令 `nuxt build`）。
+3. **Environment Variables** 加两个（公开值）：
+   - `NUXT_SUPABASE_URL` → `https://your-project.supabase.co`
+   - `NUXT_SUPABASE_ANON_KEY` → `your-anon-key`
+4. **Deploy**，拿到 `https://xxx.vercel.app` 后注册账号即可进入学习页。
+
+### 常见问题
+
+- **线上打开 500**：确认部署的是包含鉴权修复（`app/middleware/auth.global.ts` 显式导入 `useJpAuth`）的代码。
+- **登录 401**：检查 anon key 的 **Allowed domains** 是否把生产域名排除在外。
+
 ## 目录结构
 
 ```
