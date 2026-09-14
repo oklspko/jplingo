@@ -74,12 +74,8 @@ async function onSubmit() {
       await signIn(email.value.trim(), password.value);
       window.location.href = "/jp-home";
     } else {
-      const { session } = await signUp(email.value.trim(), password.value);
-      if (session) {
-        window.location.href = "/jp-home";
-      } else {
-        error.value = "注册成功！请查收邮箱完成验证后再登录。";
-      }
+      await signUp(email.value.trim(), password.value);
+      window.location.href = "/jp-home";
     }
   } catch (e: any) {
     error.value = e?.message || "操作失败，请重试";
