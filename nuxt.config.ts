@@ -1,5 +1,9 @@
 export default defineNuxtConfig({
   ssr: false,
+  // 纯 SPA，产出静态文件，方便 EdgeOne Pages / 静态托管部署
+  nitro: {
+    preset: "static",
+  },
   devtools: { enabled: true },
   runtimeConfig: {
     public: {

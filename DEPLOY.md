@@ -134,6 +134,46 @@ Netlify、Cloudflare Pages 同样可部署：导入仓库 → 框架自动识别
 /*  /index.html  200
 ```
 
+## 腾讯云 EdgeOne Pages 部署（国内访问推荐）
+
+本项目是纯前端 SPA（`ssr: false`），已配置 `nitro.preset: "static"`，`pnpm generate` 直接产出纯静态文件（`.output/public`），可托管到 EdgeOne Pages。
+
+### 1. 本地构建
+
+```bash
+pnpm generate      # 产出 .output/public（静态文件）
+```
+
+### 2. 控制台连接 Git 部署（推荐）
+
+1. 打开 EdgeOne Pages 控制台，**连接本 GitHub 仓库**（`oklspko/jplingo`）。
+2. 构建配置：
+   - 构建命令：`pnpm generate`
+   - 输出目录：`.output/public`
+3. 环境变量（构建时注入，都是公开值）：
+   - `NUXT_SUPABASE_URL` = Supabase Project URL
+   - `NUXT_SUPABASE_ANON_KEY` = anon / publishable key（`sb_publishable_` 开头）
+4. 点部署，完成后拿到 `https://xxx.edgeone.app`（或绑定自定义域名）。
+
+连接 Git 后，push 到 main 会自动重新部署。
+
+### 3. SPA 回退（深链刷新）
+
+`/jp-home`、`/jp-me`、`/jp-kana-chart` 等静态路由已由 Nuxt 预生成 `index.html`，可直接访问；只有动态路由 `/jp-game/[coursePackId]/[id]`（直接打开某节课链接时）需要 SPA 回退，否则刷新会 404。
+
+按优先级任选其一：
+
+1. 控制台若有「单页应用 / SPA」开关，直接打开即可。
+2. 或在项目根目录放 `edgeone.json`：
+   ```json
+   { "rewrites": [ { "src": "/.*", "dest": "/index.html" } ] }
+   ```
+   > 说明：EdgeOne 对 `rewrites` 是否覆盖前端路由的说法不一，若无效，需改用 EdgeOne Pages 的 `middleware.js` 中间件做回退，或以其当前控制台为准。
+
+### 4. 备案
+
+若绑定自定义域名且主要受众在大陆，需在腾讯云完成 ICP 备案后再绑定域名。
+
 ## 国内访问
 
 `*.vercel.app`、`*.netlify.app`、`*.pages.dev` 在大陆可能慢或不稳定。若主要受众在国内：
