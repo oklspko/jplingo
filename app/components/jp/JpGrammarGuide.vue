@@ -214,6 +214,8 @@ const roles = [
   border-radius: 16px;
   margin-bottom: 20px;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
 }
 
 .gg-formula {

@@ -201,6 +201,8 @@ const verbRows: string[][] = [
 /* 表格 */
 .ps-table-scroll {
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
   margin-bottom: 12px;
 }
 

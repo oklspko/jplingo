@@ -243,6 +243,8 @@ const yoon: KanaRow[] = [
 
 .kana-scroll {
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
 }
 
 .kana-table {
