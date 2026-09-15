@@ -11,21 +11,51 @@
 
         <!-- 一、日语输入法 -->
         <section class="page-section">
-          <h2 class="page-section-title"><span class="page-num">一</span>日语输入法</h2>
-          <p class="page-section-intro">输入罗马字 → 打出对应假名，这是打日语的第一步。</p>
-          <JpKanaChart />
+          <h2 class="page-section-title">
+            <span class="page-num">一</span>
+            <span class="page-title-text">日语输入法</span>
+            <button class="section-toggle" type="button" @click="openInput = !openInput" :aria-expanded="openInput">
+              {{ openInput ? "收起" : "展开" }}
+            </button>
+          </h2>
+          <transition name="fold">
+            <div v-show="openInput" class="page-section-body">
+              <p class="page-section-intro">输入罗马字 → 打出对应假名，这是打日语的第一步。</p>
+              <JpKanaChart />
+            </div>
+          </transition>
         </section>
 
         <!-- 二、三类谓语句 -->
         <section class="page-section">
-          <h2 class="page-section-title"><span class="page-num">二</span>三类谓语句</h2>
-          <JpPredicateSentences />
+          <h2 class="page-section-title">
+            <span class="page-num">二</span>
+            <span class="page-title-text">三类谓语句</span>
+            <button class="section-toggle" type="button" @click="openPredicate = !openPredicate" :aria-expanded="openPredicate">
+              {{ openPredicate ? "收起" : "展开" }}
+            </button>
+          </h2>
+          <transition name="fold">
+            <div v-show="openPredicate" class="page-section-body">
+              <JpPredicateSentences />
+            </div>
+          </transition>
         </section>
 
         <!-- 三、核心逻辑 -->
         <section class="page-section">
-          <h2 class="page-section-title"><span class="page-num">三</span>核心逻辑</h2>
-          <JpGrammarGuide />
+          <h2 class="page-section-title">
+            <span class="page-num">三</span>
+            <span class="page-title-text">核心逻辑</span>
+            <button class="section-toggle" type="button" @click="openLogic = !openLogic" :aria-expanded="openLogic">
+              {{ openLogic ? "收起" : "展开" }}
+            </button>
+          </h2>
+          <transition name="fold">
+            <div v-show="openLogic" class="page-section-body">
+              <JpGrammarGuide />
+            </div>
+          </transition>
         </section>
       </div>
     </main>
@@ -33,10 +63,15 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from "vue";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
 import JpGrammarGuide from "~/components/jp/JpGrammarGuide.vue";
 import JpPredicateSentences from "~/components/jp/JpPredicateSentences.vue";
 import JpKanaChart from "~/components/jp/JpKanaChart.vue";
+
+const openInput = ref(true);
+const openPredicate = ref(true);
+const openLogic = ref(true);
 </script>
 
 <style scoped>
@@ -95,7 +130,7 @@ import JpKanaChart from "~/components/jp/JpKanaChart.vue";
 
 /* ===== 区块 ===== */
 .page-section {
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 
 .page-section-title {
@@ -122,11 +157,56 @@ import JpKanaChart from "~/components/jp/JpKanaChart.vue";
   font-weight: 700;
 }
 
+.page-title-text {
+  flex: 1;
+}
+
+.section-toggle {
+  flex-shrink: 0;
+  margin-left: auto;
+  padding: 8px 18px;
+  border-radius: 10px;
+  border: 1px solid #e0f2fe;
+  background: #f5fbff;
+  color: #0369a1;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+  white-space: nowrap;
+}
+
+.section-toggle:hover {
+  background: #e0f2fe;
+  border-color: #bae6fd;
+  color: #0284c7;
+}
+
 .page-section-intro {
   font-size: 14px;
   color: #5b7a8c;
   margin: 0 0 16px;
   line-height: 1.7;
+}
+
+/* 折叠动画 */
+.fold-enter-active,
+.fold-leave-active {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+
+.fold-enter-from,
+.fold-leave-to {
+  opacity: 0;
+  max-height: 0;
+}
+
+.fold-enter-to,
+.fold-leave-from {
+  opacity: 1;
+  max-height: 4000px;
 }
 
 @media (max-width: 768px) {
@@ -147,11 +227,15 @@ import JpKanaChart from "~/components/jp/JpKanaChart.vue";
   }
 
   .page-section {
-    margin-bottom: 32px;
+    margin-bottom: 18px;
   }
 
   .page-section-title {
     font-size: 19px;
+  }
+
+  .section-toggle {
+    padding: 6px 14px;
   }
 }
 </style>
