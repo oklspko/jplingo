@@ -7,7 +7,7 @@
 
     <!-- 笔记 ① 名词作谓语 -->
     <div class="ps-card">
-      <h3 class="ps-title"><span class="ps-num">①</span>名词作谓语<span class="ps-tag">A2 同理</span></h3>
+      <h3 class="ps-title"><span class="ps-num">1</span>名词作谓语<span class="ps-tag">A2 同理</span></h3>
 
       <div class="ps-table-scroll">
         <div class="ps-table ps-table--4">
@@ -36,7 +36,7 @@
 
     <!-- 笔记 ② A1 作谓语句 -->
     <div class="ps-card">
-      <h3 class="ps-title"><span class="ps-num">②</span>A1 作谓语句<span class="ps-tag">い形容词</span></h3>
+      <h3 class="ps-title"><span class="ps-num">2</span>A1 作谓语句<span class="ps-tag">い形容词</span></h3>
 
       <div class="ps-table-scroll">
         <div class="ps-table ps-table--4">
@@ -81,7 +81,7 @@
 
     <!-- 笔记 ③ 动词谓语句 -->
     <div class="ps-card">
-      <h3 class="ps-title"><span class="ps-num">③</span>动词谓语句<span class="ps-tag">動詞</span></h3>
+      <h3 class="ps-title"><span class="ps-num">3</span>动词谓语句<span class="ps-tag">動詞</span></h3>
 
       <div class="ps-table-scroll">
         <div class="ps-table ps-table--4">
@@ -142,10 +142,10 @@ const verbRows: string[][] = [
 }
 
 .ps-intro {
-  margin: 0 0 20px;
-  font-size: 14px;
+  margin: 0 0 28px;
+  font-size: 15px;
   line-height: 1.8;
-  color: #5b7a8c;
+  color: #0369a1;
 }
 
 .ps-intro b {
@@ -166,8 +166,8 @@ const verbRows: string[][] = [
 .ps-title {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 18px;
+  gap: 12px;
+  font-size: 22px;
   color: #075985;
   font-weight: 700;
   margin: 0 0 14px;
@@ -175,15 +175,15 @@ const verbRows: string[][] = [
 
 .ps-num {
   flex-shrink: 0;
-  width: 30px;
-  height: 30px;
+  width: 34px;
+  height: 34px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
   color: #075985;
-  border-radius: 9px;
-  font-size: 16px;
+  border-radius: 10px;
+  font-size: 17px;
   font-weight: 700;
 }
 
@@ -313,6 +313,10 @@ const verbRows: string[][] = [
 @media (max-width: 768px) {
   .ps-card {
     padding: 18px;
+  }
+
+  .ps-title {
+    font-size: 19px;
   }
 
   .ps-table--4 .ps-row {
