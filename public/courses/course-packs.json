@@ -1,20 +1,20 @@
 {
   "coursePacks": [
     {
-      "id": "jp-basic-01",
-      "title": "日语基础 第一册",
-      "language": "ja",
-      "level": "N5",
-      "description": "日语入门，涵盖基本助词和动词",
-      "courses": ["jp-01", "jp-02"]
-    },
-    {
       "id": "jp-kana",
       "title": "五十音",
       "language": "ja",
       "level": "入门",
-      "description": "从清音到拗音，系统掌握日语五十音输入",
+      "description": "从清音到拗音，系统掌握五十音输入",
       "courses": ["jp-kana-01", "jp-kana-02", "jp-kana-03", "jp-kana-04", "jp-kana-05"]
+    },
+    {
+      "id": "jp-growing",
+      "title": "句子生长",
+      "language": "ja",
+      "level": "入门",
+      "description": "从 1 个单词开始，通过接续规则不断生长，直到复杂句",
+      "courses": ["jp-grow-01", "jp-grow-02", "jp-grow-03", "jp-grow-04", "jp-grow-05", "jp-grow-06", "jp-grow-07", "jp-grow-08", "jp-grow-09", "jp-grow-10", "jp-grow-11", "jp-grow-12", "jp-grow-13", "jp-grow-14"]
     }
   ]
 }

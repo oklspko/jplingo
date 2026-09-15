@@ -1,14 +1,10 @@
 <template>
   <div class="grammar-guide">
-    <header class="gg-header">
-      <span class="gg-badge">📖 内容学习</span>
-      <h1 class="gg-title">日语连词成句 · 核心逻辑</h1>
-      <p class="gg-sub">一句话记住：语法就是单词的惯用搭配，接续取决于后面跟着什么词。</p>
-    </header>
+    <p class="gg-lead">一句话记住：语法就是单词的<strong>惯用搭配</strong>，怎么接续取决于<strong>后面跟着什么词</strong>。</p>
 
     <!-- 一、核心原则 -->
     <section class="gg-section">
-      <h2 class="gg-section-title"><span class="gg-num">一</span>核心原则</h2>
+      <h2 class="gg-section-title"><span class="gg-num">1</span>核心原则</h2>
       <div class="gg-principles">
         <div class="gg-principle">
           <span class="gg-principle-icon">🔗</span>
@@ -23,7 +19,7 @@
 
     <!-- 二、句子基本结构 -->
     <section class="gg-section">
-      <h2 class="gg-section-title"><span class="gg-num">二</span>句子基本结构</h2>
+      <h2 class="gg-section-title"><span class="gg-num">2</span>句子基本结构</h2>
       <div class="gg-formula-card">
         <div class="gg-formula">
           <span class="gg-chip"><span class="gg-chip-txt">主题</span><b class="gg-p">は</b></span>
@@ -52,7 +48,7 @@
 
     <!-- 三、单词的连接规则（接续） -->
     <section class="gg-section">
-      <h2 class="gg-section-title"><span class="gg-num">三</span>单词的连接规则（接续）</h2>
+      <h2 class="gg-section-title"><span class="gg-num">3</span>单词的连接规则（接续）</h2>
       <p class="gg-section-intro">日语是黏着语，单词后面要加助词提示作用。怎么接，看词性：</p>
 
       <div class="gg-rules">
@@ -133,36 +129,17 @@ const roles = [
   color: #075985;
 }
 
-/* ===== 头部 ===== */
-.gg-header {
-  text-align: center;
-  padding: 8px 0 40px;
-}
-
-.gg-badge {
-  display: inline-block;
-  padding: 6px 16px;
-  background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
-  color: #075985;
-  font-size: 13px;
-  font-weight: 600;
-  border-radius: 999px;
-  margin-bottom: 16px;
-}
-
-.gg-title {
-  font-size: clamp(26px, 4vw, 40px);
-  margin: 0 0 12px;
-  color: #075985;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
-.gg-sub {
-  color: #7dd3fc;
+/* ===== 引言 ===== */
+.gg-lead {
+  margin: 0 0 28px;
   font-size: 15px;
-  margin: 0;
-  line-height: 1.7;
+  line-height: 1.8;
+  color: #0369a1;
+}
+
+.gg-lead strong {
+  color: #0284c7;
+  font-weight: 700;
 }
 
 /* ===== 区块 ===== */
@@ -422,16 +399,8 @@ const roles = [
 
 /* ===== 响应式 ===== */
 @media (max-width: 768px) {
-  .gg-header {
-    padding: 4px 0 28px;
-  }
-
-  .gg-title {
-    font-size: 26px;
-  }
-
-  .gg-sub {
-    font-size: 13px;
+  .gg-lead {
+    font-size: 14px;
   }
 
   .gg-section {
