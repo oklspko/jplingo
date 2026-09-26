@@ -7,16 +7,30 @@ import { katakanaToHiragana } from "~/composables/jp/useJpRomaji";
 // 本地词典目录（public/dict，离线可用，不再依赖 CDN）
 const CDN_DICT_BASE = "/dict/";
 
-// Android WebView 不支持 DecompressionStream，改用纯 JS 的 pako 解压 gzip 词典，
-// 保证离线 App 内分词词典能正常加载。
+// gzip 魔数：1f 8b。用于识别数据是否仍是 gzip 压缩态。
+// 某些静态托管 / Android WebView 会对 .gz 资源自动做 Content-Encoding: gzip 解压，
+// 此时 fetch 拿到的已经是解压后的字节，再解压会报错，需要跳过。
+function isGzip(bytes: Uint8Array): boolean {
+  return bytes.length >= 2 && bytes[0] === 0x1f && bytes[1] === 0x8b;
+}
+
+// Android WebView 不支持 DecompressionStream，改用纯 JS 的 pako 解压 gzip 词典。
+// 兼容「服务器已自动解压」与「仍为原始 gzip」两种情况。
 async function decompressGzip(data: ArrayBuffer): Promise<ArrayBuffer> {
-  const inflated = ungzip(new Uint8Array(data));
-  const buf = inflated.buffer;
-  return (
-    buf.byteLength === inflated.byteLength
-      ? buf
-      : buf.slice(inflated.byteOffset, inflated.byteOffset + inflated.byteLength)
-  ) as ArrayBuffer;
+  const bytes = new Uint8Array(data);
+  if (!isGzip(bytes)) return data; // 已被服务器/WebView 自动解压，直接使用
+  try {
+    const inflated = ungzip(bytes);
+    const buf = inflated.buffer;
+    return (
+      buf.byteLength === inflated.byteLength
+        ? buf
+        : buf.slice(inflated.byteOffset, inflated.byteOffset + inflated.byteLength)
+    ) as ArrayBuffer;
+  } catch (err) {
+    console.error("词典 gzip 解压失败，退回原始数据：", err);
+    return data;
+  }
 }
 
 const customLoader = {
@@ -37,6 +51,7 @@ interface Segment {
 
 export function useJpTokenizer() {
   const ready = ref(false);
+  const error = ref("");
   let tokenizer: any = null;
 
   onMounted(async () => {
@@ -46,7 +61,7 @@ export function useJpTokenizer() {
       ready.value = true;
     } catch (err) {
       console.error("词典加载失败：", err);
-      alert("词典加载失败：" + (err as Error).message);
+      error.value = (err as Error).message || String(err);
     }
   });
 
@@ -58,5 +73,5 @@ export function useJpTokenizer() {
     return { text: seg, kana, romaji: toRomaji(kana) };
   }
 
-  return { ready, analyzeSegment };
+  return { ready, error, analyzeSegment };
 }

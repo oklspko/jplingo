@@ -10,12 +10,17 @@
             <p class="editor-subtitle">创建、编辑、导出日语课程</p>
           </div>
           <div class="editor-actions">
-            <input
-              v-model="courseId"
-              placeholder="课程 ID（如 jp-03）"
-              class="editor-input"
-            />
-            <button class="editor-btn" @click="loadCourse">加载</button>
+            <select
+              v-model="selectedKey"
+              class="editor-input editor-select"
+              @change="loadSelectedCourse"
+            >
+              <option value="" disabled>选择课程…</option>
+              <option v-for="opt in courseOptions" :key="opt.key" :value="opt.key">
+                {{ opt.label }}
+              </option>
+            </select>
+            <button class="editor-btn" @click="loadSelectedCourse">加载</button>
             <button class="editor-btn" @click="showCreateModal = true">
               ➕ 新建
             </button>
@@ -41,6 +46,13 @@
               :disabled="!course"
             >
               📦 导出课程包
+            </button>
+            <button
+              class="editor-btn primary"
+              @click="exportAllCourses"
+              :disabled="exportingAll"
+            >
+              {{ exportingAll ? "导出中…" : "📦 导出全部课程" }}
             </button>
           </div>
         </header>
@@ -71,22 +83,25 @@
             <div class="help-step">
               <h3>③ 导出成课程包，导入 App/网页学习</h3>
               <p>
-                编辑完成后点「📦 导出课程包」，得到一个可直接导入的单文件课程包；到首页点「导入课程包」
-                选择该文件，即可在网页或 App 里学习。要一次打包多课，可把多个课程合并进同一
-                <code>courses</code> 里（键为 <code>"包ID/课ID"</code>，格式与「课程包格式文档」一致）。
+                编辑完成后点「📦 导出课程包」导出当前这一课，得到一个可直接导入的单文件课程包；
+                点「📦 导出全部课程」可把课程页上的全部课程（内置 + 已导入）一次性打包。
+                到首页点「导入课程包」选择该文件，即可在网页或 App 里学习。
               </p>
             </div>
           </div>
         </section>
 
-        <!-- ===== 词典加载中 ===== -->
-        <div v-if="!tokenizerReady" class="editor-empty">
-          <div class="loading-spinner"></div>
-          <p>词典加载中… 请稍候</p>
+        <!-- ===== 词典状态（不阻塞编辑） ===== -->
+        <div v-if="tokenizerError" class="dict-warning">
+          ⚠️ 词典加载失败：自动「生成假名」不可用，请手动填写假名/罗马字，或检查网络后刷新重试。
+        </div>
+        <div v-else-if="!tokenizerReady" class="dict-loading-note">
+          <span class="loading-spinner small"></span>
+          <span>词典加载中… 期间可先手动编辑。</span>
         </div>
 
         <!-- ===== 编辑主体 ===== -->
-        <div v-else-if="course" class="editor-body">
+        <div v-if="course" class="editor-body">
           <section class="editor-section">
             <h2>课程信息</h2>
             <div class="editor-row">
@@ -245,8 +260,8 @@
         <!-- ===== 空状态 ===== -->
         <div v-else class="editor-empty">
           <div class="empty-icon">📝</div>
-          <p>输入课程 ID 点「加载」，或点「➕ 新建」创建新课程</p>
-          <p class="hint">已有课程：jp-01、jp-02（位于 /courses/jp-basic-01/）</p>
+          <p>从上方下拉选择一个课程点「加载」，或点「➕ 新建」创建新课程</p>
+          <p class="hint">支持编辑内置课程、已导入课程，也可新建自定义课程</p>
         </div>
       </div>
     </main>
@@ -277,7 +292,7 @@
             <input
               v-model="newCourse.coursePackId"
               class="editor-input"
-              placeholder="如 jp-basic-01"
+              placeholder="如 my-pack"
             />
           </div>
           <div class="modal-actions">
@@ -291,23 +306,38 @@
 </template>
 
 <script setup lang="ts">
-import { nextTick, reactive, ref } from "vue";
+import { nextTick, onMounted, reactive, ref } from "vue";
+import { toHiragana, toRomaji } from "wanakana";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
-import { fetchCourse } from "~/composables/jp/useJpCourses";
+import { fetchCourse, fetchCoursePacks } from "~/composables/jp/useJpCourses";
 import { useJpTokenizer } from "~/composables/jp/useJpTokenizer";
 import { splitSegments } from "~/composables/jp/useJpRomaji";
-import type { JpCourse, JpStatement } from "~/types/jp";
+import {
+  saveOrShareJson,
+  buildSingleCoursePack,
+  buildAllCoursesPack,
+} from "~/composables/jp/useJpExport";
+import type { JpCourse, JpCoursePack, JpStatement } from "~/types/jp";
 
-const courseId = ref("jp-01");
-const coursePackId = ref("jp-basic-01");
 const course = ref<JpCourse | null>(null);
+
+// 课程选择器：列出「内置 + 已导入」的所有课程
+const packs = ref<JpCoursePack[]>([]);
+const selectedKey = ref("");
+interface CourseOption {
+  key: string;
+  packId: string;
+  courseId: string;
+  label: string;
+}
+const courseOptions = ref<CourseOption[]>([]);
 
 // 新建弹窗
 const showCreateModal = ref(false);
 const newCourse = reactive({
   id: "",
   title: "",
-  coursePackId: "jp-basic-01",
+  coursePackId: "my-pack",
 });
 
 // 使用说明：默认展开，便于首次使用快速上手
@@ -362,17 +392,50 @@ const aiPrompt = `请帮我制作一个日语学习课程包，主题是「<在�
 4. 句子要地道、实用，适合目标水平，避免生僻或超纲表达。
 5. 只输出 JSON，不要输出 Markdown 代码块或多余说明。`;
 
-const { ready: tokenizerReady, analyzeSegment } = useJpTokenizer();
+const {
+  ready: tokenizerReady,
+  error: tokenizerError,
+  analyzeSegment,
+} = useJpTokenizer();
 
 // ===== 加载已有课程 =====
-async function loadCourse() {
-  if (!courseId.value) return;
+onMounted(loadCourseOptions);
+
+async function loadCourseOptions() {
   try {
-    course.value = await fetchCourse(coursePackId.value, courseId.value);
-    // 同步到输入框
-    if (course.value?.coursePackId) {
-      coursePackId.value = course.value.coursePackId;
+    packs.value = await fetchCoursePacks();
+    const opts: CourseOption[] = [];
+    for (const p of packs.value) {
+      for (const cid of p.courses || []) {
+        opts.push({
+          key: `${p.id}/${cid}`,
+          packId: p.id,
+          courseId: cid,
+          label: `[${p.title}] ${cid}`,
+        });
+      }
     }
+    courseOptions.value = opts;
+    if (opts.length && !selectedKey.value) {
+      selectedKey.value = opts[0].key;
+      await loadSelectedCourse();
+    }
+  } catch (err) {
+    console.error("加载课程列表失败：", err);
+  }
+}
+
+function loadSelectedCourse() {
+  if (!selectedKey.value) return;
+  const idx = selectedKey.value.indexOf("/");
+  const packId = selectedKey.value.slice(0, idx);
+  const courseId = selectedKey.value.slice(idx + 1);
+  loadCourse(packId, courseId);
+}
+
+async function loadCourse(packId: string, courseId: string) {
+  try {
+    course.value = await fetchCourse(packId, courseId);
   } catch (err) {
     alert("加载失败：" + (err as Error).message);
     course.value = null;
@@ -390,17 +453,26 @@ function createCourse() {
     return;
   }
 
+  const packId = newCourse.coursePackId || "my-pack";
   course.value = {
     id: newCourse.id,
-    coursePackId: newCourse.coursePackId || "jp-basic-01",
+    coursePackId: packId,
     title: newCourse.title,
     order: 1,
     statements: [],
   };
 
-  // 同步到顶部输入框
-  courseId.value = newCourse.id;
-  coursePackId.value = newCourse.coursePackId;
+  // 同步到选择器
+  const key = `${packId}/${newCourse.id}`;
+  if (!courseOptions.value.some((o) => o.key === key)) {
+    courseOptions.value.push({
+      key,
+      packId,
+      courseId: newCourse.id,
+      label: `[${packId}] ${newCourse.id}`,
+    });
+  }
+  selectedKey.value = key;
 
   // 自动加一条空句子
   addStatement();
@@ -409,7 +481,7 @@ function createCourse() {
   showCreateModal.value = false;
   newCourse.id = "";
   newCourse.title = "";
-  newCourse.coursePackId = "jp-basic-01";
+  newCourse.coursePackId = "my-pack";
 
   nextTick(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -449,8 +521,17 @@ async function importJson(event: Event) {
     }
 
     course.value = courseData;
-    courseId.value = courseData.id;
-    coursePackId.value = courseData.coursePackId || "jp-basic-01";
+    const importedPackId = courseData.coursePackId || "my-pack";
+    const key = `${importedPackId}/${courseData.id}`;
+    if (!courseOptions.value.some((o) => o.key === key)) {
+      courseOptions.value.push({
+        key,
+        packId: importedPackId,
+        courseId: courseData.id,
+        label: `[${importedPackId}] ${courseData.id}`,
+      });
+    }
+    selectedKey.value = key;
 
     alert("导入成功！" + note);
   } catch (err) {
@@ -503,15 +584,22 @@ function removeToken(stmt: JpStatement, ti: number) {
 
 // ===== 日语生成 =====
 function onJapaneseBlur(stmt: JpStatement) {
-  if (!stmt.japanese || !tokenizerReady.value) return;
+  if (!stmt.japanese) return;
 
   try {
-    const segments = splitSegments(stmt.japanese).map((seg) =>
-      analyzeSegment(seg),
-    );
-    stmt.kana = segments.map((s) => s.kana).join(" ");
-    stmt.romaji = segments.map((s) => s.romaji).join(" ");
-    stmt.tokens = segments.map((s) => ({ text: s.text, kana: s.kana }));
+    const segs = splitSegments(stmt.japanese);
+    if (tokenizerReady.value) {
+      const segments = segs.map((seg) => analyzeSegment(seg));
+      stmt.kana = segments.map((s) => s.kana).join(" ");
+      stmt.romaji = segments.map((s) => s.romaji).join(" ");
+      stmt.tokens = segments.map((s) => ({ text: s.text, kana: s.kana }));
+    } else {
+      // 词典未就绪：用 wanakana 降级生成（汉字无法自动注音，需手动补假名）
+      const kanas = segs.map((seg) => toHiragana(seg));
+      stmt.kana = kanas.join(" ");
+      stmt.romaji = kanas.map((k) => toRomaji(k)).join(" ");
+      stmt.tokens = segs.map((seg, i) => ({ text: seg, kana: kanas[i] }));
+    }
   } catch (err) {
     console.error("生成失败：", err);
     alert("生成失败：" + (err as Error).message);
@@ -560,43 +648,33 @@ function getValidationMessage(stmt: JpStatement) {
 }
 
 // ===== 导出 =====
-function downloadJson(obj: unknown, filename: string) {
-  const json = JSON.stringify(obj, null, 2);
-  const blob = new Blob([json], { type: "application/json" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = filename;
-  a.click();
-  URL.revokeObjectURL(url);
-}
+const exportingAll = ref(false);
 
-function exportJson() {
+async function exportJson() {
   if (!course.value) return;
-  downloadJson(course.value, `${course.value.id}.json`);
+  await saveOrShareJson(course.value, `${course.value.id}.json`);
 }
 
 // 把当前单课包装成「单文件课程包」，可直接在首页「导入课程包」导入
-function exportCoursePack() {
+async function exportCoursePack() {
   if (!course.value) return;
+  const pack = buildSingleCoursePack(course.value);
   const packId = course.value.coursePackId || "my-pack";
-  const courseId = course.value.id || "lesson-01";
-  const pack = {
-    coursePacks: [
-      {
-        id: packId,
-        title: course.value.title || packId,
-        language: "ja",
-        level: "N5",
-        description: "",
-        courses: [courseId],
-      },
-    ],
-    courses: {
-      [`${packId}/${courseId}`]: course.value,
-    },
-  };
-  downloadJson(pack, `${packId}.json`);
+  await saveOrShareJson(pack, `${packId}.json`);
+}
+
+// 导出课程页上的全部课程（内置 + 已导入）
+async function exportAllCourses() {
+  if (exportingAll.value) return;
+  exportingAll.value = true;
+  try {
+    const pack = await buildAllCoursesPack();
+    await saveOrShareJson(pack, "jplingo-all-courses.json");
+  } catch (err) {
+    alert("导出失败：" + (err as Error).message);
+  } finally {
+    exportingAll.value = false;
+  }
 }
 
 // ===== 复制 AI 提示词 =====
@@ -1118,5 +1196,47 @@ async function copyPrompt() {
 .modal-enter-from,
 .modal-leave-to {
   opacity: 0;
+}
+
+/* ===== 课程选择器 ===== */
+.editor-select {
+  width: auto;
+  min-width: 220px;
+  max-width: 340px;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+/* ===== 词典状态提示 ===== */
+.dict-warning {
+  margin-bottom: 24px;
+  padding: 12px 16px;
+  border: 1px solid #fde68a;
+  border-radius: 10px;
+  background: #fffbeb;
+  color: #92400e;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.dict-loading-note {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 24px;
+  padding: 10px 16px;
+  border: 1px dashed #bae6fd;
+  border-radius: 10px;
+  background: #f8fcff;
+  color: #0369a1;
+  font-size: 13px;
+}
+
+.loading-spinner.small {
+  width: 16px;
+  height: 16px;
+  border-width: 2px;
+  margin: 0;
+  flex-shrink: 0;
 }
 </style>

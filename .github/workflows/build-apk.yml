@@ -51,6 +51,9 @@ jobs:
           NUXT_SUPABASE_URL: ${{ secrets.NUXT_SUPABASE_URL }}
           NUXT_SUPABASE_ANON_KEY: ${{ secrets.NUXT_SUPABASE_ANON_KEY }}
 
+      - name: Sync APK version from package.json
+        run: node scripts/sync-apk-version.cjs
+
       - name: Sync Capacitor web assets
         run: npx cap sync android
 

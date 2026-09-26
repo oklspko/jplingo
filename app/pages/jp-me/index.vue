@@ -109,6 +109,38 @@
           </div>
         </section>
 
+        <!-- ===== 版本更新 ===== -->
+        <section class="me-section">
+          <h2>🔄 版本更新</h2>
+          <div class="update-card">
+            <div class="update-info">
+              <div class="update-current">当前版本 v{{ appVersion }}</div>
+              <div v-if="checking" class="update-msg">检查中…</div>
+              <div v-else-if="hasUpdate" class="update-msg update-msg--new">
+                发现新版本 v{{ latestVersion }}
+              </div>
+              <div v-else-if="checked" class="update-msg">已是最新版本 ✅</div>
+              <div v-if="errorMsg" class="update-msg update-msg--err">{{ errorMsg }}</div>
+            </div>
+            <div class="update-actions">
+              <button
+                class="update-btn"
+                :disabled="checking"
+                @click="onCheckUpdate"
+              >
+                {{ checking ? "检查中…" : "检查更新" }}
+              </button>
+              <button
+                v-if="hasUpdate"
+                class="update-btn update-btn--go"
+                @click="onUpdateNow"
+              >
+                立即更新
+              </button>
+            </div>
+          </div>
+        </section>
+
         <!-- ===== 关于 ===== -->
         <section class="me-section me-about">
           <a v-if="!isNative" href="/release" class="about-link">📱 下载 Android App</a>
@@ -135,11 +167,12 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { computed, onMounted, ref } from "vue";
 import { Capacitor } from "@capacitor/core";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
 import JpCheckinCalendar from "~/components/jp/JpCheckinCalendar.vue";
 import { useJpAuth } from "~/composables/jp/useJpAuth";
+import { useJpUpdate } from "~/composables/jp/useJpUpdate";
 import {
   useJpStorage,
   calcStreak,
@@ -149,6 +182,27 @@ const { record, resetRecord, syncNow } = useJpStorage();
 const { user, signOut } = useJpAuth();
 const isNative = Capacitor.isNativePlatform();
 const appVersion = useRuntimeConfig().public.appVersion;
+
+const {
+  checking,
+  checked,
+  hasUpdate,
+  latestVersion,
+  errorMsg,
+  checkUpdate,
+  openDownload,
+} = useJpUpdate(appVersion);
+
+// 进入页面自动检测一次更新；用户也可点「检查更新」手动再查
+onMounted(checkUpdate);
+
+function onCheckUpdate() {
+  checkUpdate();
+}
+
+function onUpdateNow() {
+  openDownload();
+}
 
 const syncing = ref(false);
 const syncMsg = ref("");
@@ -363,6 +417,90 @@ function doReset() {
 .about-version {
   font-size: 12px;
   color: #bae6fd;
+}
+
+/* 版本更新 */
+.update-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px 24px;
+  background: #fff;
+  border: 1px solid #e0f2fe;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(186, 230, 253, 0.15);
+}
+
+.update-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.update-current {
+  font-size: 15px;
+  font-weight: 600;
+  color: #075985;
+  margin-bottom: 6px;
+}
+
+.update-msg {
+  font-size: 13px;
+  color: #7dd3fc;
+}
+
+.update-msg--new {
+  color: #059669;
+  font-weight: 600;
+}
+
+.update-msg--err {
+  color: #dc2626;
+}
+
+.update-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.update-btn {
+  padding: 10px 20px;
+  border: 1px solid #e0f2fe;
+  border-radius: 10px;
+  background: #f5fbff;
+  color: #0369a1;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+  font-family: inherit;
+}
+
+.update-btn:hover {
+  background: #e0f2fe;
+  border-color: #bae6fd;
+  color: #0284c7;
+}
+
+.update-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.update-btn--go {
+  background: linear-gradient(135deg, #7dd3fc 0%, #0284c7 100%);
+  border: none;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
+}
+
+.update-btn--go:hover {
+  background: linear-gradient(135deg, #38bdf8 0%, #0369a1 100%);
+  color: #fff;
+  transform: translateY(-2px);
 }
 
 /* 统计卡片 */
@@ -620,6 +758,11 @@ function doReset() {
   }
 
   .danger-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .update-card {
     flex-direction: column;
     text-align: center;
   }
