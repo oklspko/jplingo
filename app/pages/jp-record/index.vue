@@ -216,7 +216,7 @@ async function doLoad() {
           japanese: stmt.japanese,
           kana: stmt.kana,
           chinese: stmt.chinese,
-          kind: classifyKind(course.coursePackId, stmt.tokens.length),
+          kind: classifyKind(course.coursePackId, cid, stmt.tokens.length),
         });
       }
       if (masteredSet.has(key)) mastered++;

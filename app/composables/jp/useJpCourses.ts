@@ -1,15 +1,21 @@
 import type { JpCourse, JpCoursePack, JpStatement } from "~/types/jp";
+import { isSingleKanaCourseId } from "~/composables/jp/useJpRomaji";
 
 const PACK_PRIORITY = ["jp-kana", "jp-basic-01"];
 
 export type LearnedKind = "word" | "sentence" | "kana";
 
-// 按课程包归类：高考必背单词=单词，句子生长=句子，五十音=假名；
-// 未知包退化为按词数启发式（多词算句子）。
-export function classifyKind(packId: string, tokensCount = 1): LearnedKind {
-  if (packId === "jp-gaokao") return "word";
-  if (packId === "jp-growing") return "sentence";
-  if (packId === "jp-kana") return "kana";
+// 词句分类：单个词=单词，多个词=句子。
+// 五十音包内特殊处理：单字课（清音/浊音/拗音）=假名；
+// 练习测试课里一个词拆成多个意群（多个 token）仍应算「单词」而非「句子」。
+export function classifyKind(
+  packId: string,
+  courseId: string,
+  tokensCount = 1,
+): LearnedKind {
+  if (packId === "jp-kana") {
+    return isSingleKanaCourseId(courseId) ? "kana" : "word";
+  }
   return tokensCount > 1 ? "sentence" : "word";
 }
 
