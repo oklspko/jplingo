@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-30",
+  "coursePackId": "jp-gaokao",
+  "title": "名词高频 2",
+  "order": 30,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "某次；每次",
+      "japanese": "度",
+      "kana": "たび",
+      "romaji": "tabi",
+      "tokens": [
+        {
+          "text": "度",
+          "kana": "たび"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "人气、受欢迎",
+      "japanese": "人気",
+      "kana": "にんき",
+      "romaji": "ninki",
+      "tokens": [
+        {
+          "text": "人気",
+          "kana": "にんき"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "途中、中途",
+      "japanese": "途中",
+      "kana": "とちゅう",
+      "romaji": "tochuu",
+      "tokens": [
+        {
+          "text": "途中",
+          "kana": "とちゅう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "全部、所有",
+      "japanese": "全て",
+      "kana": "すべて",
+      "romaji": "subete",
+      "tokens": [
+        {
+          "text": "全て",
+          "kana": "すべて"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "发表、演讲、报告",
+      "japanese": "発表",
+      "kana": "はっぴょう",
+      "romaji": "happyou",
+      "tokens": [
+        {
+          "text": "発表",
+          "kana": "はっぴょう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "通路；按照～",
+      "japanese": "通り",
+      "kana": "とおり",
+      "romaji": "toori",
+      "tokens": [
+        {
+          "text": "通り",
+          "kana": "とおり"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "附近、近处",
+      "japanese": "近く",
+      "kana": "ちかく",
+      "romaji": "chikaku",
+      "tokens": [
+        {
+          "text": "近く",
+          "kana": "ちかく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "信",
+      "japanese": "手紙",
+      "kana": "てがみ",
+      "romaji": "tegami",
+      "tokens": [
+        {
+          "text": "手紙",
+          "kana": "てがみ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "乐趣、期待",
+      "japanese": "楽しみ",
+      "kana": "たのしみ",
+      "romaji": "tanoshimi",
+      "tokens": [
+        {
+          "text": "楽しみ",
+          "kana": "たのしみ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "错误",
+      "japanese": "間違い",
+      "kana": "まちがい",
+      "romaji": "machigai",
+      "tokens": [
+        {
+          "text": "間違い",
+          "kana": "まちがい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "附近、四周、周围",
+      "japanese": "周り",
+      "kana": "まわり",
+      "romaji": "mawari",
+      "tokens": [
+        {
+          "text": "周り",
+          "kana": "まわり"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "船",
+      "japanese": "船",
+      "kana": "ふね",
+      "romaji": "fune",
+      "tokens": [
+        {
+          "text": "船",
+          "kana": "ふね"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "外面、外侧",
+      "japanese": "外",
+      "kana": "そと",
+      "romaji": "soto",
+      "tokens": [
+        {
+          "text": "外",
+          "kana": "そと"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "作业",
+      "japanese": "宿題",
+      "kana": "しゅくだい",
+      "romaji": "shukudai",
+      "tokens": [
+        {
+          "text": "宿題",
+          "kana": "しゅくだい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "城镇、街道",
+      "japanese": "町",
+      "kana": "まち",
+      "romaji": "machi",
+      "tokens": [
+        {
+          "text": "町",
+          "kana": "まち"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "毕业",
+      "japanese": "卒業",
+      "kana": "そつぎょう",
+      "romaji": "sotsugyou",
+      "tokens": [
+        {
+          "text": "卒業",
+          "kana": "そつぎょう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "鸟类总称",
+      "japanese": "鳥",
+      "kana": "とり",
+      "romaji": "tori",
+      "tokens": [
+        {
+          "text": "鳥",
+          "kana": "とり"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "天、日、日子、时候",
+      "japanese": "日",
+      "kana": "ひ",
+      "romaji": "hi",
+      "tokens": [
+        {
+          "text": "日",
+          "kana": "ひ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "夜晚、晚上",
+      "japanese": "夜",
+      "kana": "よる",
+      "romaji": "yoru",
+      "tokens": [
+        {
+          "text": "夜",
+          "kana": "よる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "反对；相反",
+      "japanese": "反対",
+      "kana": "はんたい",
+      "romaji": "hantai",
+      "tokens": [
+        {
+          "text": "反対",
+          "kana": "はんたい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "妨碍、阻碍",
+      "japanese": "邪魔",
+      "kana": "じゃま",
+      "romaji": "jama",
+      "tokens": [
+        {
+          "text": "邪魔",
+          "kana": "じゃま"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "一个人、独自一人",
+      "japanese": "一人",
+      "kana": "いちにん",
+      "romaji": "ichinin",
+      "tokens": [
+        {
+          "text": "一人",
+          "kana": "いちにん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "点、要点、分数",
+      "japanese": "点",
+      "kana": "てん",
+      "romaji": "ten",
+      "tokens": [
+        {
+          "text": "点",
+          "kana": "てん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "我",
+      "japanese": "僕",
+      "kana": "ぼく",
+      "romaji": "boku",
+      "tokens": [
+        {
+          "text": "僕",
+          "kana": "ぼく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "隔壁、旁边、同桌",
+      "japanese": "隣",
+      "kana": "となり",
+      "romaji": "tonari",
+      "tokens": [
+        {
+          "text": "隣",
+          "kana": "となり"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "晚上",
+      "japanese": "晩",
+      "kana": "ばん",
+      "romaji": "ban",
+      "tokens": [
+        {
+          "text": "晩",
+          "kana": "ばん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "桌子",
+      "japanese": "机",
+      "kana": "つくえ",
+      "romaji": "tsukue",
+      "tokens": [
+        {
+          "text": "机",
+          "kana": "つくえ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "差别、差异、不同",
+      "japanese": "違い",
+      "kana": "ちがい",
+      "romaji": "chigai",
+      "tokens": [
+        {
+          "text": "違い",
+          "kana": "ちがい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "存在",
+      "japanese": "存在",
+      "kana": "そんざい",
+      "romaji": "sonzai",
+      "tokens": [
+        {
+          "text": "存在",
+          "kana": "そんざい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "就餐、吃饭、食物",
+      "japanese": "食事",
+      "kana": "しょくじ",
+      "romaji": "shokuji",
+      "tokens": [
+        {
+          "text": "食事",
+          "kana": "しょくじ"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "发表、演讲、报告",
+      "japanese": "発表",
+      "kana": "はっぴょう",
+      "romaji": "happyou",
+      "tokens": [
+        {
+          "text": "発表",
+          "kana": "はっぴょう"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "毕业",
+      "japanese": "卒業",
+      "kana": "そつぎょう",
+      "romaji": "sotsugyou",
+      "tokens": [
+        {
+          "text": "卒業",
+          "kana": "そつぎょう"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "城镇、街道",
+      "japanese": "町",
+      "kana": "まち",
+      "romaji": "machi",
+      "tokens": [
+        {
+          "text": "町",
+          "kana": "まち"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "点、要点、分数",
+      "japanese": "点",
+      "kana": "てん",
+      "romaji": "ten",
+      "tokens": [
+        {
+          "text": "点",
+          "kana": "てん"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "乐趣、期待",
+      "japanese": "楽しみ",
+      "kana": "たのしみ",
+      "romaji": "tanoshimi",
+      "tokens": [
+        {
+          "text": "楽しみ",
+          "kana": "たのしみ"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "全部、所有",
+      "japanese": "全て",
+      "kana": "すべて",
+      "romaji": "subete",
+      "tokens": [
+        {
+          "text": "全て",
+          "kana": "すべて"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "附近、近处",
+      "japanese": "近く",
+      "kana": "ちかく",
+      "romaji": "chikaku",
+      "tokens": [
+        {
+          "text": "近く",
+          "kana": "ちかく"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "就餐、吃饭、食物",
+      "japanese": "食事",
+      "kana": "しょくじ",
+      "romaji": "shokuji",
+      "tokens": [
+        {
+          "text": "食事",
+          "kana": "しょくじ"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "反对；相反",
+      "japanese": "反対",
+      "kana": "はんたい",
+      "romaji": "hantai",
+      "tokens": [
+        {
+          "text": "反対",
+          "kana": "はんたい"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "某次；每次",
+      "japanese": "度",
+      "kana": "たび",
+      "romaji": "tabi",
+      "tokens": [
+        {
+          "text": "度",
+          "kana": "たび"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "天、日、日子、时候",
+      "japanese": "日",
+      "kana": "ひ",
+      "romaji": "hi",
+      "tokens": [
+        {
+          "text": "日",
+          "kana": "ひ"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "外面、外侧",
+      "japanese": "外",
+      "kana": "そと",
+      "romaji": "soto",
+      "tokens": [
+        {
+          "text": "外",
+          "kana": "そと"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "晚上",
+      "japanese": "晩",
+      "kana": "ばん",
+      "romaji": "ban",
+      "tokens": [
+        {
+          "text": "晩",
+          "kana": "ばん"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "附近、四周、周围",
+      "japanese": "周り",
+      "kana": "まわり",
+      "romaji": "mawari",
+      "tokens": [
+        {
+          "text": "周り",
+          "kana": "まわり"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "鸟类总称",
+      "japanese": "鳥",
+      "kana": "とり",
+      "romaji": "tori",
+      "tokens": [
+        {
+          "text": "鳥",
+          "kana": "とり"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "存在",
+      "japanese": "存在",
+      "kana": "そんざい",
+      "romaji": "sonzai",
+      "tokens": [
+        {
+          "text": "存在",
+          "kana": "そんざい"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "人气、受欢迎",
+      "japanese": "人気",
+      "kana": "にんき",
+      "romaji": "ninki",
+      "tokens": [
+        {
+          "text": "人気",
+          "kana": "にんき"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "途中、中途",
+      "japanese": "途中",
+      "kana": "とちゅう",
+      "romaji": "tochuu",
+      "tokens": [
+        {
+          "text": "途中",
+          "kana": "とちゅう"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "信",
+      "japanese": "手紙",
+      "kana": "てがみ",
+      "romaji": "tegami",
+      "tokens": [
+        {
+          "text": "手紙",
+          "kana": "てがみ"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "我",
+      "japanese": "僕",
+      "kana": "ぼく",
+      "romaji": "boku",
+      "tokens": [
+        {
+          "text": "僕",
+          "kana": "ぼく"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "桌子",
+      "japanese": "机",
+      "kana": "つくえ",
+      "romaji": "tsukue",
+      "tokens": [
+        {
+          "text": "机",
+          "kana": "つくえ"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "一个人、独自一人",
+      "japanese": "一人",
+      "kana": "いちにん",
+      "romaji": "ichinin",
+      "tokens": [
+        {
+          "text": "一人",
+          "kana": "いちにん"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "夜晚、晚上",
+      "japanese": "夜",
+      "kana": "よる",
+      "romaji": "yoru",
+      "tokens": [
+        {
+          "text": "夜",
+          "kana": "よる"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "通路；按照～",
+      "japanese": "通り",
+      "kana": "とおり",
+      "romaji": "toori",
+      "tokens": [
+        {
+          "text": "通り",
+          "kana": "とおり"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "差别、差异、不同",
+      "japanese": "違い",
+      "kana": "ちがい",
+      "romaji": "chigai",
+      "tokens": [
+        {
+          "text": "違い",
+          "kana": "ちがい"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "船",
+      "japanese": "船",
+      "kana": "ふね",
+      "romaji": "fune",
+      "tokens": [
+        {
+          "text": "船",
+          "kana": "ふね"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "妨碍、阻碍",
+      "japanese": "邪魔",
+      "kana": "じゃま",
+      "romaji": "jama",
+      "tokens": [
+        {
+          "text": "邪魔",
+          "kana": "じゃま"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "错误",
+      "japanese": "間違い",
+      "kana": "まちがい",
+      "romaji": "machigai",
+      "tokens": [
+        {
+          "text": "間違い",
+          "kana": "まちがい"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "隔壁、旁边、同桌",
+      "japanese": "隣",
+      "kana": "となり",
+      "romaji": "tonari",
+      "tokens": [
+        {
+          "text": "隣",
+          "kana": "となり"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "作业",
+      "japanese": "宿題",
+      "kana": "しゅくだい",
+      "romaji": "shukudai",
+      "tokens": [
+        {
+          "text": "宿題",
+          "kana": "しゅくだい"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "隔壁、旁边、同桌",
+      "japanese": "隣",
+      "kana": "となり",
+      "romaji": "tonari",
+      "tokens": [
+        {
+          "text": "隣",
+          "kana": "となり"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "发表、演讲、报告",
+      "japanese": "発表",
+      "kana": "はっぴょう",
+      "romaji": "happyou",
+      "tokens": [
+        {
+          "text": "発表",
+          "kana": "はっぴょう"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "错误",
+      "japanese": "間違い",
+      "kana": "まちがい",
+      "romaji": "machigai",
+      "tokens": [
+        {
+          "text": "間違い",
+          "kana": "まちがい"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "附近、四周、周围",
+      "japanese": "周り",
+      "kana": "まわり",
+      "romaji": "mawari",
+      "tokens": [
+        {
+          "text": "周り",
+          "kana": "まわり"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "反对；相反",
+      "japanese": "反対",
+      "kana": "はんたい",
+      "romaji": "hantai",
+      "tokens": [
+        {
+          "text": "反対",
+          "kana": "はんたい"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "通路；按照～",
+      "japanese": "通り",
+      "kana": "とおり",
+      "romaji": "toori",
+      "tokens": [
+        {
+          "text": "通り",
+          "kana": "とおり"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "途中、中途",
+      "japanese": "途中",
+      "kana": "とちゅう",
+      "romaji": "tochuu",
+      "tokens": [
+        {
+          "text": "途中",
+          "kana": "とちゅう"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "人气、受欢迎",
+      "japanese": "人気",
+      "kana": "にんき",
+      "romaji": "ninki",
+      "tokens": [
+        {
+          "text": "人気",
+          "kana": "にんき"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "信",
+      "japanese": "手紙",
+      "kana": "てがみ",
+      "romaji": "tegami",
+      "tokens": [
+        {
+          "text": "手紙",
+          "kana": "てがみ"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "点、要点、分数",
+      "japanese": "点",
+      "kana": "てん",
+      "romaji": "ten",
+      "tokens": [
+        {
+          "text": "点",
+          "kana": "てん"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "桌子",
+      "japanese": "机",
+      "kana": "つくえ",
+      "romaji": "tsukue",
+      "tokens": [
+        {
+          "text": "机",
+          "kana": "つくえ"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "鸟类总称",
+      "japanese": "鳥",
+      "kana": "とり",
+      "romaji": "tori",
+      "tokens": [
+        {
+          "text": "鳥",
+          "kana": "とり"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "一个人、独自一人",
+      "japanese": "一人",
+      "kana": "いちにん",
+      "romaji": "ichinin",
+      "tokens": [
+        {
+          "text": "一人",
+          "kana": "いちにん"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "天、日、日子、时候",
+      "japanese": "日",
+      "kana": "ひ",
+      "romaji": "hi",
+      "tokens": [
+        {
+          "text": "日",
+          "kana": "ひ"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "船",
+      "japanese": "船",
+      "kana": "ふね",
+      "romaji": "fune",
+      "tokens": [
+        {
+          "text": "船",
+          "kana": "ふね"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "存在",
+      "japanese": "存在",
+      "kana": "そんざい",
+      "romaji": "sonzai",
+      "tokens": [
+        {
+          "text": "存在",
+          "kana": "そんざい"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "夜晚、晚上",
+      "japanese": "夜",
+      "kana": "よる",
+      "romaji": "yoru",
+      "tokens": [
+        {
+          "text": "夜",
+          "kana": "よる"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "全部、所有",
+      "japanese": "全て",
+      "kana": "すべて",
+      "romaji": "subete",
+      "tokens": [
+        {
+          "text": "全て",
+          "kana": "すべて"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "外面、外侧",
+      "japanese": "外",
+      "kana": "そと",
+      "romaji": "soto",
+      "tokens": [
+        {
+          "text": "外",
+          "kana": "そと"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "妨碍、阻碍",
+      "japanese": "邪魔",
+      "kana": "じゃま",
+      "romaji": "jama",
+      "tokens": [
+        {
+          "text": "邪魔",
+          "kana": "じゃま"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "作业",
+      "japanese": "宿題",
+      "kana": "しゅくだい",
+      "romaji": "shukudai",
+      "tokens": [
+        {
+          "text": "宿題",
+          "kana": "しゅくだい"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "附近、近处",
+      "japanese": "近く",
+      "kana": "ちかく",
+      "romaji": "chikaku",
+      "tokens": [
+        {
+          "text": "近く",
+          "kana": "ちかく"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "乐趣、期待",
+      "japanese": "楽しみ",
+      "kana": "たのしみ",
+      "romaji": "tanoshimi",
+      "tokens": [
+        {
+          "text": "楽しみ",
+          "kana": "たのしみ"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "我",
+      "japanese": "僕",
+      "kana": "ぼく",
+      "romaji": "boku",
+      "tokens": [
+        {
+          "text": "僕",
+          "kana": "ぼく"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "就餐、吃饭、食物",
+      "japanese": "食事",
+      "kana": "しょくじ",
+      "romaji": "shokuji",
+      "tokens": [
+        {
+          "text": "食事",
+          "kana": "しょくじ"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "某次；每次",
+      "japanese": "度",
+      "kana": "たび",
+      "romaji": "tabi",
+      "tokens": [
+        {
+          "text": "度",
+          "kana": "たび"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "差别、差异、不同",
+      "japanese": "違い",
+      "kana": "ちがい",
+      "romaji": "chigai",
+      "tokens": [
+        {
+          "text": "違い",
+          "kana": "ちがい"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "毕业",
+      "japanese": "卒業",
+      "kana": "そつぎょう",
+      "romaji": "sotsugyou",
+      "tokens": [
+        {
+          "text": "卒業",
+          "kana": "そつぎょう"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "晚上",
+      "japanese": "晩",
+      "kana": "ばん",
+      "romaji": "ban",
+      "tokens": [
+        {
+          "text": "晩",
+          "kana": "ばん"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "城镇、街道",
+      "japanese": "町",
+      "kana": "まち",
+      "romaji": "machi",
+      "tokens": [
+        {
+          "text": "町",
+          "kana": "まち"
+        }
+      ]
+    }
+  ]
+}

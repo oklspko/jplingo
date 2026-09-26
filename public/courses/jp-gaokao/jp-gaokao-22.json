@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-22",
+  "coursePackId": "jp-gaokao",
+  "title": "副词高频 2",
+  "order": 22,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "很多、满是、充满",
+      "japanese": "いっぱい",
+      "kana": "いっぱい",
+      "romaji": "ippai",
+      "tokens": [
+        {
+          "text": "いっぱい",
+          "kana": "いっぱい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "果然、仍然",
+      "japanese": "やはり",
+      "kana": "やはり",
+      "romaji": "yahari",
+      "tokens": [
+        {
+          "text": "やはり",
+          "kana": "やはり"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "好好地、认真地",
+      "japanese": "ちゃんと",
+      "kana": "ちゃんと",
+      "romaji": "chanto",
+      "tokens": [
+        {
+          "text": "ちゃんと",
+          "kana": "ちゃんと"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "即便再~也~",
+      "japanese": "いくら",
+      "kana": "いくら",
+      "romaji": "ikura",
+      "tokens": [
+        {
+          "text": "いくら",
+          "kana": "いくら"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "更加、再~点儿",
+      "japanese": "もっと",
+      "kana": "もっと",
+      "romaji": "motto",
+      "tokens": [
+        {
+          "text": "もっと",
+          "kana": "もっと"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "更加、越发、进一步",
+      "japanese": "さらに",
+      "kana": "さらに",
+      "romaji": "sarani",
+      "tokens": [
+        {
+          "text": "さらに",
+          "kana": "さらに"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "该、马上、就",
+      "japanese": "そろそろ",
+      "kana": "そろそろ",
+      "romaji": "sorosoro",
+      "tokens": [
+        {
+          "text": "そろそろ",
+          "kana": "そろそろ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "各自、分别、各个",
+      "japanese": "それぞれ",
+      "kana": "それぞれ",
+      "romaji": "sorezore",
+      "tokens": [
+        {
+          "text": "それぞれ",
+          "kana": "それぞれ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "快；早",
+      "japanese": "早く・速く",
+      "kana": "はやく",
+      "romaji": "hayaku",
+      "tokens": [
+        {
+          "text": "早く・速く",
+          "kana": "はやく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "正好、恰好",
+      "japanese": "ちょうど",
+      "kana": "ちょうど",
+      "romaji": "choudo",
+      "tokens": [
+        {
+          "text": "ちょうど",
+          "kana": "ちょうど"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "一同、共同",
+      "japanese": "共に",
+      "kana": "ともに",
+      "romaji": "tomoni",
+      "tokens": [
+        {
+          "text": "共に",
+          "kana": "ともに"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "当然、不言而喻",
+      "japanese": "もちろん",
+      "kana": "もちろん",
+      "romaji": "mochiron",
+      "tokens": [
+        {
+          "text": "もちろん",
+          "kana": "もちろん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "务必、一定",
+      "japanese": "ぜひ",
+      "kana": "ぜひ",
+      "romaji": "zehi",
+      "tokens": [
+        {
+          "text": "ぜひ",
+          "kana": "ぜひ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "吃惊、吓了一跳",
+      "japanese": "びっくり",
+      "kana": "びっくり",
+      "romaji": "bikkuri",
+      "tokens": [
+        {
+          "text": "びっくり",
+          "kana": "びっくり"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "果然、原来如此",
+      "japanese": "なるほど",
+      "kana": "なるほど",
+      "romaji": "naruhodo",
+      "tokens": [
+        {
+          "text": "なるほど",
+          "kana": "なるほど"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "多少",
+      "japanese": "どのくらい",
+      "kana": "どのくらい",
+      "romaji": "donokurai",
+      "tokens": [
+        {
+          "text": "どのくらい",
+          "kana": "どのくらい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "先、首先",
+      "japanese": "先に",
+      "kana": "さきに",
+      "romaji": "sakini",
+      "tokens": [
+        {
+          "text": "先に",
+          "kana": "さきに"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "慢慢、安稳、舒适",
+      "japanese": "ゆっくり",
+      "kana": "ゆっくり",
+      "romaji": "yukkuri",
+      "tokens": [
+        {
+          "text": "ゆっくり",
+          "kana": "ゆっくり"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "请、请用",
+      "japanese": "どうぞ",
+      "kana": "どうぞ",
+      "romaji": "douzo",
+      "tokens": [
+        {
+          "text": "どうぞ",
+          "kana": "どうぞ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "逐渐、渐渐",
+      "japanese": "段々",
+      "kana": "だんだん",
+      "romaji": "dandan",
+      "tokens": [
+        {
+          "text": "段々",
+          "kana": "だんだん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "相当、颇为、很",
+      "japanese": "かなり",
+      "kana": "かなり",
+      "romaji": "kanari",
+      "tokens": [
+        {
+          "text": "かなり",
+          "kana": "かなり"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "应该、一定",
+      "japanese": "きっと",
+      "kana": "きっと",
+      "romaji": "kitto",
+      "tokens": [
+        {
+          "text": "きっと",
+          "kana": "きっと"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "好好、恰当、规矩地",
+      "japanese": "きちんと",
+      "kana": "きちんと",
+      "romaji": "kichinto",
+      "tokens": [
+        {
+          "text": "きちんと",
+          "kana": "きちんと"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "熟练地、顺利地",
+      "japanese": "うまく",
+      "kana": "うまく",
+      "romaji": "umaku",
+      "tokens": [
+        {
+          "text": "うまく",
+          "kana": "うまく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "要是、如果、假如",
+      "japanese": "もし",
+      "kana": "もし",
+      "romaji": "moshi",
+      "tokens": [
+        {
+          "text": "もし",
+          "kana": "もし"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "一直；~得多",
+      "japanese": "ずっと",
+      "kana": "ずっと",
+      "romaji": "zutto",
+      "tokens": [
+        {
+          "text": "ずっと",
+          "kana": "ずっと"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "第一次、头一次",
+      "japanese": "初めて",
+      "kana": "はじめて",
+      "romaji": "hajimete",
+      "tokens": [
+        {
+          "text": "初めて",
+          "kana": "はじめて"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "全、所有、全都",
+      "japanese": "全て",
+      "kana": "すべて",
+      "romaji": "subete",
+      "tokens": [
+        {
+          "text": "全て",
+          "kana": "すべて"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "完全不~",
+      "japanese": "全然",
+      "kana": "ぜんぜん",
+      "romaji": "zenzen",
+      "tokens": [
+        {
+          "text": "全然",
+          "kana": "ぜんぜん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "牢固、可靠、坚强等",
+      "japanese": "しっかり",
+      "kana": "しっかり",
+      "romaji": "shikkari",
+      "tokens": [
+        {
+          "text": "しっかり",
+          "kana": "しっかり"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "熟练地、顺利地",
+      "japanese": "うまく",
+      "kana": "うまく",
+      "romaji": "umaku",
+      "tokens": [
+        {
+          "text": "うまく",
+          "kana": "うまく"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "好好地、认真地",
+      "japanese": "ちゃんと",
+      "kana": "ちゃんと",
+      "romaji": "chanto",
+      "tokens": [
+        {
+          "text": "ちゃんと",
+          "kana": "ちゃんと"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "好好、恰当、规矩地",
+      "japanese": "きちんと",
+      "kana": "きちんと",
+      "romaji": "kichinto",
+      "tokens": [
+        {
+          "text": "きちんと",
+          "kana": "きちんと"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "完全不~",
+      "japanese": "全然",
+      "kana": "ぜんぜん",
+      "romaji": "zenzen",
+      "tokens": [
+        {
+          "text": "全然",
+          "kana": "ぜんぜん"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "慢慢、安稳、舒适",
+      "japanese": "ゆっくり",
+      "kana": "ゆっくり",
+      "romaji": "yukkuri",
+      "tokens": [
+        {
+          "text": "ゆっくり",
+          "kana": "ゆっくり"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "快；早",
+      "japanese": "早く・速く",
+      "kana": "はやく",
+      "romaji": "hayaku",
+      "tokens": [
+        {
+          "text": "早く・速く",
+          "kana": "はやく"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "当然、不言而喻",
+      "japanese": "もちろん",
+      "kana": "もちろん",
+      "romaji": "mochiron",
+      "tokens": [
+        {
+          "text": "もちろん",
+          "kana": "もちろん"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "逐渐、渐渐",
+      "japanese": "段々",
+      "kana": "だんだん",
+      "romaji": "dandan",
+      "tokens": [
+        {
+          "text": "段々",
+          "kana": "だんだん"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "一直；~得多",
+      "japanese": "ずっと",
+      "kana": "ずっと",
+      "romaji": "zutto",
+      "tokens": [
+        {
+          "text": "ずっと",
+          "kana": "ずっと"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "即便再~也~",
+      "japanese": "いくら",
+      "kana": "いくら",
+      "romaji": "ikura",
+      "tokens": [
+        {
+          "text": "いくら",
+          "kana": "いくら"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "正好、恰好",
+      "japanese": "ちょうど",
+      "kana": "ちょうど",
+      "romaji": "choudo",
+      "tokens": [
+        {
+          "text": "ちょうど",
+          "kana": "ちょうど"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "果然、原来如此",
+      "japanese": "なるほど",
+      "kana": "なるほど",
+      "romaji": "naruhodo",
+      "tokens": [
+        {
+          "text": "なるほど",
+          "kana": "なるほど"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "第一次、头一次",
+      "japanese": "初めて",
+      "kana": "はじめて",
+      "romaji": "hajimete",
+      "tokens": [
+        {
+          "text": "初めて",
+          "kana": "はじめて"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "更加、再~点儿",
+      "japanese": "もっと",
+      "kana": "もっと",
+      "romaji": "motto",
+      "tokens": [
+        {
+          "text": "もっと",
+          "kana": "もっと"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "各自、分别、各个",
+      "japanese": "それぞれ",
+      "kana": "それぞれ",
+      "romaji": "sorezore",
+      "tokens": [
+        {
+          "text": "それぞれ",
+          "kana": "それぞれ"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "一同、共同",
+      "japanese": "共に",
+      "kana": "ともに",
+      "romaji": "tomoni",
+      "tokens": [
+        {
+          "text": "共に",
+          "kana": "ともに"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "多少",
+      "japanese": "どのくらい",
+      "kana": "どのくらい",
+      "romaji": "donokurai",
+      "tokens": [
+        {
+          "text": "どのくらい",
+          "kana": "どのくらい"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "要是、如果、假如",
+      "japanese": "もし",
+      "kana": "もし",
+      "romaji": "moshi",
+      "tokens": [
+        {
+          "text": "もし",
+          "kana": "もし"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "吃惊、吓了一跳",
+      "japanese": "びっくり",
+      "kana": "びっくり",
+      "romaji": "bikkuri",
+      "tokens": [
+        {
+          "text": "びっくり",
+          "kana": "びっくり"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "更加、越发、进一步",
+      "japanese": "さらに",
+      "kana": "さらに",
+      "romaji": "sarani",
+      "tokens": [
+        {
+          "text": "さらに",
+          "kana": "さらに"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "先、首先",
+      "japanese": "先に",
+      "kana": "さきに",
+      "romaji": "sakini",
+      "tokens": [
+        {
+          "text": "先に",
+          "kana": "さきに"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "果然、仍然",
+      "japanese": "やはり",
+      "kana": "やはり",
+      "romaji": "yahari",
+      "tokens": [
+        {
+          "text": "やはり",
+          "kana": "やはり"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "牢固、可靠、坚强等",
+      "japanese": "しっかり",
+      "kana": "しっかり",
+      "romaji": "shikkari",
+      "tokens": [
+        {
+          "text": "しっかり",
+          "kana": "しっかり"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "相当、颇为、很",
+      "japanese": "かなり",
+      "kana": "かなり",
+      "romaji": "kanari",
+      "tokens": [
+        {
+          "text": "かなり",
+          "kana": "かなり"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "务必、一定",
+      "japanese": "ぜひ",
+      "kana": "ぜひ",
+      "romaji": "zehi",
+      "tokens": [
+        {
+          "text": "ぜひ",
+          "kana": "ぜひ"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "很多、满是、充满",
+      "japanese": "いっぱい",
+      "kana": "いっぱい",
+      "romaji": "ippai",
+      "tokens": [
+        {
+          "text": "いっぱい",
+          "kana": "いっぱい"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "全、所有、全都",
+      "japanese": "全て",
+      "kana": "すべて",
+      "romaji": "subete",
+      "tokens": [
+        {
+          "text": "全て",
+          "kana": "すべて"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "该、马上、就",
+      "japanese": "そろそろ",
+      "kana": "そろそろ",
+      "romaji": "sorosoro",
+      "tokens": [
+        {
+          "text": "そろそろ",
+          "kana": "そろそろ"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "应该、一定",
+      "japanese": "きっと",
+      "kana": "きっと",
+      "romaji": "kitto",
+      "tokens": [
+        {
+          "text": "きっと",
+          "kana": "きっと"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "请、请用",
+      "japanese": "どうぞ",
+      "kana": "どうぞ",
+      "romaji": "douzo",
+      "tokens": [
+        {
+          "text": "どうぞ",
+          "kana": "どうぞ"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "牢固、可靠、坚强等",
+      "japanese": "しっかり",
+      "kana": "しっかり",
+      "romaji": "shikkari",
+      "tokens": [
+        {
+          "text": "しっかり",
+          "kana": "しっかり"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "先、首先",
+      "japanese": "先に",
+      "kana": "さきに",
+      "romaji": "sakini",
+      "tokens": [
+        {
+          "text": "先に",
+          "kana": "さきに"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "慢慢、安稳、舒适",
+      "japanese": "ゆっくり",
+      "kana": "ゆっくり",
+      "romaji": "yukkuri",
+      "tokens": [
+        {
+          "text": "ゆっくり",
+          "kana": "ゆっくり"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "吃惊、吓了一跳",
+      "japanese": "びっくり",
+      "kana": "びっくり",
+      "romaji": "bikkuri",
+      "tokens": [
+        {
+          "text": "びっくり",
+          "kana": "びっくり"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "正好、恰好",
+      "japanese": "ちょうど",
+      "kana": "ちょうど",
+      "romaji": "choudo",
+      "tokens": [
+        {
+          "text": "ちょうど",
+          "kana": "ちょうど"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "逐渐、渐渐",
+      "japanese": "段々",
+      "kana": "だんだん",
+      "romaji": "dandan",
+      "tokens": [
+        {
+          "text": "段々",
+          "kana": "だんだん"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "很多、满是、充满",
+      "japanese": "いっぱい",
+      "kana": "いっぱい",
+      "romaji": "ippai",
+      "tokens": [
+        {
+          "text": "いっぱい",
+          "kana": "いっぱい"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "第一次、头一次",
+      "japanese": "初めて",
+      "kana": "はじめて",
+      "romaji": "hajimete",
+      "tokens": [
+        {
+          "text": "初めて",
+          "kana": "はじめて"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "熟练地、顺利地",
+      "japanese": "うまく",
+      "kana": "うまく",
+      "romaji": "umaku",
+      "tokens": [
+        {
+          "text": "うまく",
+          "kana": "うまく"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "快；早",
+      "japanese": "早く・速く",
+      "kana": "はやく",
+      "romaji": "hayaku",
+      "tokens": [
+        {
+          "text": "早く・速く",
+          "kana": "はやく"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "完全不~",
+      "japanese": "全然",
+      "kana": "ぜんぜん",
+      "romaji": "zenzen",
+      "tokens": [
+        {
+          "text": "全然",
+          "kana": "ぜんぜん"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "好好、恰当、规矩地",
+      "japanese": "きちんと",
+      "kana": "きちんと",
+      "romaji": "kichinto",
+      "tokens": [
+        {
+          "text": "きちんと",
+          "kana": "きちんと"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "全、所有、全都",
+      "japanese": "全て",
+      "kana": "すべて",
+      "romaji": "subete",
+      "tokens": [
+        {
+          "text": "全て",
+          "kana": "すべて"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "相当、颇为、很",
+      "japanese": "かなり",
+      "kana": "かなり",
+      "romaji": "kanari",
+      "tokens": [
+        {
+          "text": "かなり",
+          "kana": "かなり"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "好好地、认真地",
+      "japanese": "ちゃんと",
+      "kana": "ちゃんと",
+      "romaji": "chanto",
+      "tokens": [
+        {
+          "text": "ちゃんと",
+          "kana": "ちゃんと"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "务必、一定",
+      "japanese": "ぜひ",
+      "kana": "ぜひ",
+      "romaji": "zehi",
+      "tokens": [
+        {
+          "text": "ぜひ",
+          "kana": "ぜひ"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "应该、一定",
+      "japanese": "きっと",
+      "kana": "きっと",
+      "romaji": "kitto",
+      "tokens": [
+        {
+          "text": "きっと",
+          "kana": "きっと"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "要是、如果、假如",
+      "japanese": "もし",
+      "kana": "もし",
+      "romaji": "moshi",
+      "tokens": [
+        {
+          "text": "もし",
+          "kana": "もし"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "一直；~得多",
+      "japanese": "ずっと",
+      "kana": "ずっと",
+      "romaji": "zutto",
+      "tokens": [
+        {
+          "text": "ずっと",
+          "kana": "ずっと"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "果然、仍然",
+      "japanese": "やはり",
+      "kana": "やはり",
+      "romaji": "yahari",
+      "tokens": [
+        {
+          "text": "やはり",
+          "kana": "やはり"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "当然、不言而喻",
+      "japanese": "もちろん",
+      "kana": "もちろん",
+      "romaji": "mochiron",
+      "tokens": [
+        {
+          "text": "もちろん",
+          "kana": "もちろん"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "请、请用",
+      "japanese": "どうぞ",
+      "kana": "どうぞ",
+      "romaji": "douzo",
+      "tokens": [
+        {
+          "text": "どうぞ",
+          "kana": "どうぞ"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "更加、越发、进一步",
+      "japanese": "さらに",
+      "kana": "さらに",
+      "romaji": "sarani",
+      "tokens": [
+        {
+          "text": "さらに",
+          "kana": "さらに"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "一同、共同",
+      "japanese": "共に",
+      "kana": "ともに",
+      "romaji": "tomoni",
+      "tokens": [
+        {
+          "text": "共に",
+          "kana": "ともに"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "多少",
+      "japanese": "どのくらい",
+      "kana": "どのくらい",
+      "romaji": "donokurai",
+      "tokens": [
+        {
+          "text": "どのくらい",
+          "kana": "どのくらい"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "该、马上、就",
+      "japanese": "そろそろ",
+      "kana": "そろそろ",
+      "romaji": "sorosoro",
+      "tokens": [
+        {
+          "text": "そろそろ",
+          "kana": "そろそろ"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "更加、再~点儿",
+      "japanese": "もっと",
+      "kana": "もっと",
+      "romaji": "motto",
+      "tokens": [
+        {
+          "text": "もっと",
+          "kana": "もっと"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "即便再~也~",
+      "japanese": "いくら",
+      "kana": "いくら",
+      "romaji": "ikura",
+      "tokens": [
+        {
+          "text": "いくら",
+          "kana": "いくら"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "各自、分别、各个",
+      "japanese": "それぞれ",
+      "kana": "それぞれ",
+      "romaji": "sorezore",
+      "tokens": [
+        {
+          "text": "それぞれ",
+          "kana": "それぞれ"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "果然、原来如此",
+      "japanese": "なるほど",
+      "kana": "なるほど",
+      "romaji": "naruhodo",
+      "tokens": [
+        {
+          "text": "なるほど",
+          "kana": "なるほど"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-19",
+  "coursePackId": "jp-gaokao",
+  "title": "动词低频 5",
+  "order": 19,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "过剩、残留",
+      "japanese": "余る",
+      "kana": "あまる",
+      "romaji": "amaru",
+      "tokens": [
+        {
+          "text": "余る",
+          "kana": "あまる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "抱、怀有、怀抱",
+      "japanese": "抱く",
+      "kana": "いだく",
+      "romaji": "idaku",
+      "tokens": [
+        {
+          "text": "抱く",
+          "kana": "いだく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "把～弄响",
+      "japanese": "鳴らす",
+      "kana": "ならす",
+      "romaji": "narasu",
+      "tokens": [
+        {
+          "text": "鳴らす",
+          "kana": "ならす"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "搭话",
+      "japanese": "話しかける",
+      "kana": "はなしかける",
+      "romaji": "hanashikakeru",
+      "tokens": [
+        {
+          "text": "話しかける",
+          "kana": "はなしかける"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "想起",
+      "japanese": "思い浮かべる",
+      "kana": "おもいうかべる",
+      "romaji": "omoiukaberu",
+      "tokens": [
+        {
+          "text": "思い浮かべる",
+          "kana": "おもいうかべる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "俯视、小瞧",
+      "japanese": "見下ろす",
+      "kana": "みおろす",
+      "romaji": "miorosu",
+      "tokens": [
+        {
+          "text": "見下ろす",
+          "kana": "みおろす"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "持续给",
+      "japanese": "与え続ける",
+      "kana": "あたえつづける",
+      "romaji": "ataetsuzukeru",
+      "tokens": [
+        {
+          "text": "与え続ける",
+          "kana": "あたえつづける"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "争夺、竞争",
+      "japanese": "争う",
+      "kana": "あらそう",
+      "romaji": "arasou",
+      "tokens": [
+        {
+          "text": "争う",
+          "kana": "あらそう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "搓",
+      "japanese": "擦る",
+      "kana": "こする",
+      "romaji": "kosuru",
+      "tokens": [
+        {
+          "text": "擦る",
+          "kana": "こする"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "使～靠近",
+      "japanese": "寄せる",
+      "kana": "よせる",
+      "romaji": "yoseru",
+      "tokens": [
+        {
+          "text": "寄せる",
+          "kana": "よせる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "称量、丈量",
+      "japanese": "量る",
+      "kana": "はかる",
+      "romaji": "hakaru",
+      "tokens": [
+        {
+          "text": "量る",
+          "kana": "はかる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "让～休息、让～停下",
+      "japanese": "休める",
+      "kana": "やすめる",
+      "romaji": "yasumeru",
+      "tokens": [
+        {
+          "text": "休める",
+          "kana": "やすめる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "装载；刊登、登载",
+      "japanese": "載せる",
+      "kana": "のせる",
+      "romaji": "noseru",
+      "tokens": [
+        {
+          "text": "載せる",
+          "kana": "のせる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "测量",
+      "japanese": "計る",
+      "kana": "はかる",
+      "romaji": "hakaru",
+      "tokens": [
+        {
+          "text": "計る",
+          "kana": "はかる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "加、添加",
+      "japanese": "足す",
+      "kana": "たす",
+      "romaji": "tasu",
+      "tokens": [
+        {
+          "text": "足す",
+          "kana": "たす"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "揉成一团",
+      "japanese": "丸める",
+      "kana": "まるめる",
+      "romaji": "marumeru",
+      "tokens": [
+        {
+          "text": "丸める",
+          "kana": "まるめる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "怜悯",
+      "japanese": "哀れむ",
+      "kana": "あわれむ",
+      "romaji": "awaremu",
+      "tokens": [
+        {
+          "text": "哀れむ",
+          "kana": "あわれむ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "下潜",
+      "japanese": "潜る",
+      "kana": "もぐる",
+      "romaji": "moguru",
+      "tokens": [
+        {
+          "text": "潜る",
+          "kana": "もぐる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "提出",
+      "japanese": "申し出る",
+      "kana": "もうしでる",
+      "romaji": "moushideru",
+      "tokens": [
+        {
+          "text": "申し出る",
+          "kana": "もうしでる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "注入",
+      "japanese": "注ぐ",
+      "kana": "そそぐ",
+      "romaji": "sosogu",
+      "tokens": [
+        {
+          "text": "注ぐ",
+          "kana": "そそぐ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "划分",
+      "japanese": "区切る",
+      "kana": "くぎる",
+      "romaji": "kugiru",
+      "tokens": [
+        {
+          "text": "区切る",
+          "kana": "くぎる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "扫、打扫",
+      "japanese": "掃く",
+      "kana": "はく",
+      "romaji": "haku",
+      "tokens": [
+        {
+          "text": "掃く",
+          "kana": "はく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "生长",
+      "japanese": "生える",
+      "kana": "はえる",
+      "romaji": "haeru",
+      "tokens": [
+        {
+          "text": "生える",
+          "kana": "はえる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "煮熟、煮烂",
+      "japanese": "煮える",
+      "kana": "にえる",
+      "romaji": "nieru",
+      "tokens": [
+        {
+          "text": "煮える",
+          "kana": "にえる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "漱口",
+      "japanese": "すずぐ",
+      "kana": "すずぐ",
+      "romaji": "suzugu",
+      "tokens": [
+        {
+          "text": "すずぐ",
+          "kana": "すずぐ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "联结",
+      "japanese": "結びつける",
+      "kana": "むすびつける",
+      "romaji": "musubitsukeru",
+      "tokens": [
+        {
+          "text": "結びつける",
+          "kana": "むすびつける"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "让步、转让、让给",
+      "japanese": "譲る",
+      "kana": "ゆずる",
+      "romaji": "yuzuru",
+      "tokens": [
+        {
+          "text": "譲る",
+          "kana": "ゆずる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "刺",
+      "japanese": "刺す",
+      "kana": "さす",
+      "romaji": "sasu",
+      "tokens": [
+        {
+          "text": "刺す",
+          "kana": "さす"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "进攻",
+      "japanese": "攻める",
+      "kana": "せめる",
+      "romaji": "semeru",
+      "tokens": [
+        {
+          "text": "攻める",
+          "kana": "せめる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "弄倒、推倒、打倒",
+      "japanese": "倒す",
+      "kana": "たおす",
+      "romaji": "taosu",
+      "tokens": [
+        {
+          "text": "倒す",
+          "kana": "たおす"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "漱口",
+      "japanese": "すずぐ",
+      "kana": "すずぐ",
+      "romaji": "suzugu",
+      "tokens": [
+        {
+          "text": "すずぐ",
+          "kana": "すずぐ"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "持续给",
+      "japanese": "与え続ける",
+      "kana": "あたえつづける",
+      "romaji": "ataetsuzukeru",
+      "tokens": [
+        {
+          "text": "与え続ける",
+          "kana": "あたえつづける"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "测量",
+      "japanese": "計る",
+      "kana": "はかる",
+      "romaji": "hakaru",
+      "tokens": [
+        {
+          "text": "計る",
+          "kana": "はかる"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "怜悯",
+      "japanese": "哀れむ",
+      "kana": "あわれむ",
+      "romaji": "awaremu",
+      "tokens": [
+        {
+          "text": "哀れむ",
+          "kana": "あわれむ"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "让步、转让、让给",
+      "japanese": "譲る",
+      "kana": "ゆずる",
+      "romaji": "yuzuru",
+      "tokens": [
+        {
+          "text": "譲る",
+          "kana": "ゆずる"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "加、添加",
+      "japanese": "足す",
+      "kana": "たす",
+      "romaji": "tasu",
+      "tokens": [
+        {
+          "text": "足す",
+          "kana": "たす"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "联结",
+      "japanese": "結びつける",
+      "kana": "むすびつける",
+      "romaji": "musubitsukeru",
+      "tokens": [
+        {
+          "text": "結びつける",
+          "kana": "むすびつける"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "搭话",
+      "japanese": "話しかける",
+      "kana": "はなしかける",
+      "romaji": "hanashikakeru",
+      "tokens": [
+        {
+          "text": "話しかける",
+          "kana": "はなしかける"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "让～休息、让～停下",
+      "japanese": "休める",
+      "kana": "やすめる",
+      "romaji": "yasumeru",
+      "tokens": [
+        {
+          "text": "休める",
+          "kana": "やすめる"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "装载；刊登、登载",
+      "japanese": "載せる",
+      "kana": "のせる",
+      "romaji": "noseru",
+      "tokens": [
+        {
+          "text": "載せる",
+          "kana": "のせる"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "煮熟、煮烂",
+      "japanese": "煮える",
+      "kana": "にえる",
+      "romaji": "nieru",
+      "tokens": [
+        {
+          "text": "煮える",
+          "kana": "にえる"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "生长",
+      "japanese": "生える",
+      "kana": "はえる",
+      "romaji": "haeru",
+      "tokens": [
+        {
+          "text": "生える",
+          "kana": "はえる"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "揉成一团",
+      "japanese": "丸める",
+      "kana": "まるめる",
+      "romaji": "marumeru",
+      "tokens": [
+        {
+          "text": "丸める",
+          "kana": "まるめる"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "扫、打扫",
+      "japanese": "掃く",
+      "kana": "はく",
+      "romaji": "haku",
+      "tokens": [
+        {
+          "text": "掃く",
+          "kana": "はく"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "想起",
+      "japanese": "思い浮かべる",
+      "kana": "おもいうかべる",
+      "romaji": "omoiukaberu",
+      "tokens": [
+        {
+          "text": "思い浮かべる",
+          "kana": "おもいうかべる"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "争夺、竞争",
+      "japanese": "争う",
+      "kana": "あらそう",
+      "romaji": "arasou",
+      "tokens": [
+        {
+          "text": "争う",
+          "kana": "あらそう"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "注入",
+      "japanese": "注ぐ",
+      "kana": "そそぐ",
+      "romaji": "sosogu",
+      "tokens": [
+        {
+          "text": "注ぐ",
+          "kana": "そそぐ"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "过剩、残留",
+      "japanese": "余る",
+      "kana": "あまる",
+      "romaji": "amaru",
+      "tokens": [
+        {
+          "text": "余る",
+          "kana": "あまる"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "刺",
+      "japanese": "刺す",
+      "kana": "さす",
+      "romaji": "sasu",
+      "tokens": [
+        {
+          "text": "刺す",
+          "kana": "さす"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "俯视、小瞧",
+      "japanese": "見下ろす",
+      "kana": "みおろす",
+      "romaji": "miorosu",
+      "tokens": [
+        {
+          "text": "見下ろす",
+          "kana": "みおろす"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "抱、怀有、怀抱",
+      "japanese": "抱く",
+      "kana": "いだく",
+      "romaji": "idaku",
+      "tokens": [
+        {
+          "text": "抱く",
+          "kana": "いだく"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "弄倒、推倒、打倒",
+      "japanese": "倒す",
+      "kana": "たおす",
+      "romaji": "taosu",
+      "tokens": [
+        {
+          "text": "倒す",
+          "kana": "たおす"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "搓",
+      "japanese": "擦る",
+      "kana": "こする",
+      "romaji": "kosuru",
+      "tokens": [
+        {
+          "text": "擦る",
+          "kana": "こする"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "把～弄响",
+      "japanese": "鳴らす",
+      "kana": "ならす",
+      "romaji": "narasu",
+      "tokens": [
+        {
+          "text": "鳴らす",
+          "kana": "ならす"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "划分",
+      "japanese": "区切る",
+      "kana": "くぎる",
+      "romaji": "kugiru",
+      "tokens": [
+        {
+          "text": "区切る",
+          "kana": "くぎる"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "进攻",
+      "japanese": "攻める",
+      "kana": "せめる",
+      "romaji": "semeru",
+      "tokens": [
+        {
+          "text": "攻める",
+          "kana": "せめる"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "称量、丈量",
+      "japanese": "量る",
+      "kana": "はかる",
+      "romaji": "hakaru",
+      "tokens": [
+        {
+          "text": "量る",
+          "kana": "はかる"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "下潜",
+      "japanese": "潜る",
+      "kana": "もぐる",
+      "romaji": "moguru",
+      "tokens": [
+        {
+          "text": "潜る",
+          "kana": "もぐる"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "使～靠近",
+      "japanese": "寄せる",
+      "kana": "よせる",
+      "romaji": "yoseru",
+      "tokens": [
+        {
+          "text": "寄せる",
+          "kana": "よせる"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "提出",
+      "japanese": "申し出る",
+      "kana": "もうしでる",
+      "romaji": "moushideru",
+      "tokens": [
+        {
+          "text": "申し出る",
+          "kana": "もうしでる"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "下潜",
+      "japanese": "潜る",
+      "kana": "もぐる",
+      "romaji": "moguru",
+      "tokens": [
+        {
+          "text": "潜る",
+          "kana": "もぐる"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "争夺、竞争",
+      "japanese": "争う",
+      "kana": "あらそう",
+      "romaji": "arasou",
+      "tokens": [
+        {
+          "text": "争う",
+          "kana": "あらそう"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "煮熟、煮烂",
+      "japanese": "煮える",
+      "kana": "にえる",
+      "romaji": "nieru",
+      "tokens": [
+        {
+          "text": "煮える",
+          "kana": "にえる"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "搓",
+      "japanese": "擦る",
+      "kana": "こする",
+      "romaji": "kosuru",
+      "tokens": [
+        {
+          "text": "擦る",
+          "kana": "こする"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "刺",
+      "japanese": "刺す",
+      "kana": "さす",
+      "romaji": "sasu",
+      "tokens": [
+        {
+          "text": "刺す",
+          "kana": "さす"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "划分",
+      "japanese": "区切る",
+      "kana": "くぎる",
+      "romaji": "kugiru",
+      "tokens": [
+        {
+          "text": "区切る",
+          "kana": "くぎる"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "搭话",
+      "japanese": "話しかける",
+      "kana": "はなしかける",
+      "romaji": "hanashikakeru",
+      "tokens": [
+        {
+          "text": "話しかける",
+          "kana": "はなしかける"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "揉成一团",
+      "japanese": "丸める",
+      "kana": "まるめる",
+      "romaji": "marumeru",
+      "tokens": [
+        {
+          "text": "丸める",
+          "kana": "まるめる"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "使～靠近",
+      "japanese": "寄せる",
+      "kana": "よせる",
+      "romaji": "yoseru",
+      "tokens": [
+        {
+          "text": "寄せる",
+          "kana": "よせる"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "生长",
+      "japanese": "生える",
+      "kana": "はえる",
+      "romaji": "haeru",
+      "tokens": [
+        {
+          "text": "生える",
+          "kana": "はえる"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "过剩、残留",
+      "japanese": "余る",
+      "kana": "あまる",
+      "romaji": "amaru",
+      "tokens": [
+        {
+          "text": "余る",
+          "kana": "あまる"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "称量、丈量",
+      "japanese": "量る",
+      "kana": "はかる",
+      "romaji": "hakaru",
+      "tokens": [
+        {
+          "text": "量る",
+          "kana": "はかる"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "联结",
+      "japanese": "結びつける",
+      "kana": "むすびつける",
+      "romaji": "musubitsukeru",
+      "tokens": [
+        {
+          "text": "結びつける",
+          "kana": "むすびつける"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "怜悯",
+      "japanese": "哀れむ",
+      "kana": "あわれむ",
+      "romaji": "awaremu",
+      "tokens": [
+        {
+          "text": "哀れむ",
+          "kana": "あわれむ"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "测量",
+      "japanese": "計る",
+      "kana": "はかる",
+      "romaji": "hakaru",
+      "tokens": [
+        {
+          "text": "計る",
+          "kana": "はかる"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "想起",
+      "japanese": "思い浮かべる",
+      "kana": "おもいうかべる",
+      "romaji": "omoiukaberu",
+      "tokens": [
+        {
+          "text": "思い浮かべる",
+          "kana": "おもいうかべる"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "让～休息、让～停下",
+      "japanese": "休める",
+      "kana": "やすめる",
+      "romaji": "yasumeru",
+      "tokens": [
+        {
+          "text": "休める",
+          "kana": "やすめる"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "装载；刊登、登载",
+      "japanese": "載せる",
+      "kana": "のせる",
+      "romaji": "noseru",
+      "tokens": [
+        {
+          "text": "載せる",
+          "kana": "のせる"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "扫、打扫",
+      "japanese": "掃く",
+      "kana": "はく",
+      "romaji": "haku",
+      "tokens": [
+        {
+          "text": "掃く",
+          "kana": "はく"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "让步、转让、让给",
+      "japanese": "譲る",
+      "kana": "ゆずる",
+      "romaji": "yuzuru",
+      "tokens": [
+        {
+          "text": "譲る",
+          "kana": "ゆずる"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "进攻",
+      "japanese": "攻める",
+      "kana": "せめる",
+      "romaji": "semeru",
+      "tokens": [
+        {
+          "text": "攻める",
+          "kana": "せめる"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "持续给",
+      "japanese": "与え続ける",
+      "kana": "あたえつづける",
+      "romaji": "ataetsuzukeru",
+      "tokens": [
+        {
+          "text": "与え続ける",
+          "kana": "あたえつづける"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "注入",
+      "japanese": "注ぐ",
+      "kana": "そそぐ",
+      "romaji": "sosogu",
+      "tokens": [
+        {
+          "text": "注ぐ",
+          "kana": "そそぐ"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "提出",
+      "japanese": "申し出る",
+      "kana": "もうしでる",
+      "romaji": "moushideru",
+      "tokens": [
+        {
+          "text": "申し出る",
+          "kana": "もうしでる"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "俯视、小瞧",
+      "japanese": "見下ろす",
+      "kana": "みおろす",
+      "romaji": "miorosu",
+      "tokens": [
+        {
+          "text": "見下ろす",
+          "kana": "みおろす"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "弄倒、推倒、打倒",
+      "japanese": "倒す",
+      "kana": "たおす",
+      "romaji": "taosu",
+      "tokens": [
+        {
+          "text": "倒す",
+          "kana": "たおす"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "加、添加",
+      "japanese": "足す",
+      "kana": "たす",
+      "romaji": "tasu",
+      "tokens": [
+        {
+          "text": "足す",
+          "kana": "たす"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "把～弄响",
+      "japanese": "鳴らす",
+      "kana": "ならす",
+      "romaji": "narasu",
+      "tokens": [
+        {
+          "text": "鳴らす",
+          "kana": "ならす"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "抱、怀有、怀抱",
+      "japanese": "抱く",
+      "kana": "いだく",
+      "romaji": "idaku",
+      "tokens": [
+        {
+          "text": "抱く",
+          "kana": "いだく"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "漱口",
+      "japanese": "すずぐ",
+      "kana": "すずぐ",
+      "romaji": "suzugu",
+      "tokens": [
+        {
+          "text": "すずぐ",
+          "kana": "すずぐ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,827 @@
+{
+  "id": "jp-gaokao-62",
+  "coursePackId": "jp-gaokao",
+  "title": "量词 1",
+  "order": 62,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "书籍、杂志、笔记本等",
+      "japanese": "冊",
+      "kana": "さつ",
+      "romaji": "satsu",
+      "tokens": [
+        {
+          "text": "冊",
+          "kana": "さつ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "东西",
+      "japanese": "個",
+      "kana": "こ",
+      "romaji": "ko",
+      "tokens": [
+        {
+          "text": "個",
+          "kana": "こ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "小动物（鱼、虫、猫、狗等）",
+      "japanese": "匹",
+      "kana": "ひき",
+      "romaji": "hiki",
+      "tokens": [
+        {
+          "text": "匹",
+          "kana": "ひき"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "书信、明信片、电话、邮件等",
+      "japanese": "通",
+      "kana": "つう",
+      "romaji": "tsuu",
+      "tokens": [
+        {
+          "text": "通",
+          "kana": "つう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "种类",
+      "japanese": "種",
+      "kana": "しゅ",
+      "romaji": "shu",
+      "tokens": [
+        {
+          "text": "種",
+          "kana": "しゅ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "存疑、不确信",
+      "japanese": "かしかかな",
+      "kana": "かしかかな",
+      "romaji": "kashikakana",
+      "tokens": [
+        {
+          "text": "かしかかな",
+          "kana": "かしかかな"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "号、序号",
+      "japanese": "番",
+      "kana": "ばん",
+      "romaji": "ban",
+      "tokens": [
+        {
+          "text": "番",
+          "kana": "ばん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "大动物",
+      "japanese": "頭",
+      "kana": "とう",
+      "romaji": "tou",
+      "tokens": [
+        {
+          "text": "頭",
+          "kana": "とう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "薄的、扁平的东西",
+      "japanese": "枚",
+      "kana": "まい",
+      "romaji": "mai",
+      "tokens": [
+        {
+          "text": "枚",
+          "kana": "まい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "倍数",
+      "japanese": "倍",
+      "kana": "ばい",
+      "romaji": "bai",
+      "tokens": [
+        {
+          "text": "倍",
+          "kana": "ばい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "年龄",
+      "japanese": "歳",
+      "kana": "さい",
+      "romaji": "sai",
+      "tokens": [
+        {
+          "text": "歳",
+          "kana": "さい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "楼层",
+      "japanese": "階",
+      "kana": "かい",
+      "romaji": "kai",
+      "tokens": [
+        {
+          "text": "階",
+          "kana": "かい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "汽车、自行车等交通工具；电话机、照相机、电视机、冰箱等电器；钢琴、床等器具",
+      "japanese": "台",
+      "kana": "だい",
+      "romaji": "dai",
+      "tokens": [
+        {
+          "text": "台",
+          "kana": "だい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "名次、旧官位",
+      "japanese": "位",
+      "kana": "い",
+      "romaji": "i",
+      "tokens": [
+        {
+          "text": "位",
+          "kana": "い"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "树木、笔、瓶子等各种细长的东西。略抽象的牙齿、桥梁、录音带、录像带、电影（几部）、广告、视频、通话次数、论文篇数、车趟次等",
+      "japanese": "本",
+      "kana": "ほん",
+      "romaji": "hon",
+      "tokens": [
+        {
+          "text": "本",
+          "kana": "ほん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "茶、咖啡、酒、面条等杯装饮食",
+      "japanese": "杯",
+      "kana": "はい",
+      "romaji": "hai",
+      "tokens": [
+        {
+          "text": "杯",
+          "kana": "はい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "次数；漫画章节",
+      "japanese": "回",
+      "kana": "かい",
+      "romaji": "kai",
+      "tokens": [
+        {
+          "text": "回",
+          "kana": "かい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "房屋、店铺",
+      "japanese": "軒",
+      "kana": "けん",
+      "romaji": "ken",
+      "tokens": [
+        {
+          "text": "軒",
+          "kana": "けん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "次。主要用在“一、二”次上，更多的用「回」",
+      "japanese": "度",
+      "kana": "ど",
+      "romaji": "do",
+      "tokens": [
+        {
+          "text": "度",
+          "kana": "ど"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "月数",
+      "japanese": "ヶ月",
+      "kana": "かげつ",
+      "romaji": "kagetsu",
+      "tokens": [
+        {
+          "text": "ヶ月",
+          "kana": "かげつ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "颗粒状物品",
+      "japanese": "粒",
+      "kana": "つぶ",
+      "romaji": "tsubu",
+      "tokens": [
+        {
+          "text": "粒",
+          "kana": "つぶ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "汽车、自行车等交通工具；电话机、照相机、电视机、冰箱等电器；钢琴、床等器具",
+      "japanese": "台",
+      "kana": "だい",
+      "romaji": "dai",
+      "tokens": [
+        {
+          "text": "台",
+          "kana": "だい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "年龄",
+      "japanese": "歳",
+      "kana": "さい",
+      "romaji": "sai",
+      "tokens": [
+        {
+          "text": "歳",
+          "kana": "さい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "树木、笔、瓶子等各种细长的东西。略抽象的牙齿、桥梁、录音带、录像带、电影（几部）、广告、视频、通话次数、论文篇数、车趟次等",
+      "japanese": "本",
+      "kana": "ほん",
+      "romaji": "hon",
+      "tokens": [
+        {
+          "text": "本",
+          "kana": "ほん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "大动物",
+      "japanese": "頭",
+      "kana": "とう",
+      "romaji": "tou",
+      "tokens": [
+        {
+          "text": "頭",
+          "kana": "とう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "书信、明信片、电话、邮件等",
+      "japanese": "通",
+      "kana": "つう",
+      "romaji": "tsuu",
+      "tokens": [
+        {
+          "text": "通",
+          "kana": "つう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "次。主要用在“一、二”次上，更多的用「回」",
+      "japanese": "度",
+      "kana": "ど",
+      "romaji": "do",
+      "tokens": [
+        {
+          "text": "度",
+          "kana": "ど"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "号、序号",
+      "japanese": "番",
+      "kana": "ばん",
+      "romaji": "ban",
+      "tokens": [
+        {
+          "text": "番",
+          "kana": "ばん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "种类",
+      "japanese": "種",
+      "kana": "しゅ",
+      "romaji": "shu",
+      "tokens": [
+        {
+          "text": "種",
+          "kana": "しゅ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "月数",
+      "japanese": "ヶ月",
+      "kana": "かげつ",
+      "romaji": "kagetsu",
+      "tokens": [
+        {
+          "text": "ヶ月",
+          "kana": "かげつ"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "名次、旧官位",
+      "japanese": "位",
+      "kana": "い",
+      "romaji": "i",
+      "tokens": [
+        {
+          "text": "位",
+          "kana": "い"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "倍数",
+      "japanese": "倍",
+      "kana": "ばい",
+      "romaji": "bai",
+      "tokens": [
+        {
+          "text": "倍",
+          "kana": "ばい"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "房屋、店铺",
+      "japanese": "軒",
+      "kana": "けん",
+      "romaji": "ken",
+      "tokens": [
+        {
+          "text": "軒",
+          "kana": "けん"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "次数；漫画章节",
+      "japanese": "回",
+      "kana": "かい",
+      "romaji": "kai",
+      "tokens": [
+        {
+          "text": "回",
+          "kana": "かい"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "楼层",
+      "japanese": "階",
+      "kana": "かい",
+      "romaji": "kai",
+      "tokens": [
+        {
+          "text": "階",
+          "kana": "かい"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "颗粒状物品",
+      "japanese": "粒",
+      "kana": "つぶ",
+      "romaji": "tsubu",
+      "tokens": [
+        {
+          "text": "粒",
+          "kana": "つぶ"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "薄的、扁平的东西",
+      "japanese": "枚",
+      "kana": "まい",
+      "romaji": "mai",
+      "tokens": [
+        {
+          "text": "枚",
+          "kana": "まい"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "存疑、不确信",
+      "japanese": "かしかかな",
+      "kana": "かしかかな",
+      "romaji": "kashikakana",
+      "tokens": [
+        {
+          "text": "かしかかな",
+          "kana": "かしかかな"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "东西",
+      "japanese": "個",
+      "kana": "こ",
+      "romaji": "ko",
+      "tokens": [
+        {
+          "text": "個",
+          "kana": "こ"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "小动物（鱼、虫、猫、狗等）",
+      "japanese": "匹",
+      "kana": "ひき",
+      "romaji": "hiki",
+      "tokens": [
+        {
+          "text": "匹",
+          "kana": "ひき"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "书籍、杂志、笔记本等",
+      "japanese": "冊",
+      "kana": "さつ",
+      "romaji": "satsu",
+      "tokens": [
+        {
+          "text": "冊",
+          "kana": "さつ"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "茶、咖啡、酒、面条等杯装饮食",
+      "japanese": "杯",
+      "kana": "はい",
+      "romaji": "hai",
+      "tokens": [
+        {
+          "text": "杯",
+          "kana": "はい"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "种类",
+      "japanese": "種",
+      "kana": "しゅ",
+      "romaji": "shu",
+      "tokens": [
+        {
+          "text": "種",
+          "kana": "しゅ"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "薄的、扁平的东西",
+      "japanese": "枚",
+      "kana": "まい",
+      "romaji": "mai",
+      "tokens": [
+        {
+          "text": "枚",
+          "kana": "まい"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "东西",
+      "japanese": "個",
+      "kana": "こ",
+      "romaji": "ko",
+      "tokens": [
+        {
+          "text": "個",
+          "kana": "こ"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "房屋、店铺",
+      "japanese": "軒",
+      "kana": "けん",
+      "romaji": "ken",
+      "tokens": [
+        {
+          "text": "軒",
+          "kana": "けん"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "汽车、自行车等交通工具；电话机、照相机、电视机、冰箱等电器；钢琴、床等器具",
+      "japanese": "台",
+      "kana": "だい",
+      "romaji": "dai",
+      "tokens": [
+        {
+          "text": "台",
+          "kana": "だい"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "号、序号",
+      "japanese": "番",
+      "kana": "ばん",
+      "romaji": "ban",
+      "tokens": [
+        {
+          "text": "番",
+          "kana": "ばん"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "月数",
+      "japanese": "ヶ月",
+      "kana": "かげつ",
+      "romaji": "kagetsu",
+      "tokens": [
+        {
+          "text": "ヶ月",
+          "kana": "かげつ"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "大动物",
+      "japanese": "頭",
+      "kana": "とう",
+      "romaji": "tou",
+      "tokens": [
+        {
+          "text": "頭",
+          "kana": "とう"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "书籍、杂志、笔记本等",
+      "japanese": "冊",
+      "kana": "さつ",
+      "romaji": "satsu",
+      "tokens": [
+        {
+          "text": "冊",
+          "kana": "さつ"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "存疑、不确信",
+      "japanese": "かしかかな",
+      "kana": "かしかかな",
+      "romaji": "kashikakana",
+      "tokens": [
+        {
+          "text": "かしかかな",
+          "kana": "かしかかな"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "书信、明信片、电话、邮件等",
+      "japanese": "通",
+      "kana": "つう",
+      "romaji": "tsuu",
+      "tokens": [
+        {
+          "text": "通",
+          "kana": "つう"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "树木、笔、瓶子等各种细长的东西。略抽象的牙齿、桥梁、录音带、录像带、电影（几部）、广告、视频、通话次数、论文篇数、车趟次等",
+      "japanese": "本",
+      "kana": "ほん",
+      "romaji": "hon",
+      "tokens": [
+        {
+          "text": "本",
+          "kana": "ほん"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "楼层",
+      "japanese": "階",
+      "kana": "かい",
+      "romaji": "kai",
+      "tokens": [
+        {
+          "text": "階",
+          "kana": "かい"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "倍数",
+      "japanese": "倍",
+      "kana": "ばい",
+      "romaji": "bai",
+      "tokens": [
+        {
+          "text": "倍",
+          "kana": "ばい"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "次数；漫画章节",
+      "japanese": "回",
+      "kana": "かい",
+      "romaji": "kai",
+      "tokens": [
+        {
+          "text": "回",
+          "kana": "かい"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "次。主要用在“一、二”次上，更多的用「回」",
+      "japanese": "度",
+      "kana": "ど",
+      "romaji": "do",
+      "tokens": [
+        {
+          "text": "度",
+          "kana": "ど"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "颗粒状物品",
+      "japanese": "粒",
+      "kana": "つぶ",
+      "romaji": "tsubu",
+      "tokens": [
+        {
+          "text": "粒",
+          "kana": "つぶ"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "茶、咖啡、酒、面条等杯装饮食",
+      "japanese": "杯",
+      "kana": "はい",
+      "romaji": "hai",
+      "tokens": [
+        {
+          "text": "杯",
+          "kana": "はい"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "年龄",
+      "japanese": "歳",
+      "kana": "さい",
+      "romaji": "sai",
+      "tokens": [
+        {
+          "text": "歳",
+          "kana": "さい"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "名次、旧官位",
+      "japanese": "位",
+      "kana": "い",
+      "romaji": "i",
+      "tokens": [
+        {
+          "text": "位",
+          "kana": "い"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "小动物（鱼、虫、猫、狗等）",
+      "japanese": "匹",
+      "kana": "ひき",
+      "romaji": "hiki",
+      "tokens": [
+        {
+          "text": "匹",
+          "kana": "ひき"
+        }
+      ]
+    }
+  ]
+}

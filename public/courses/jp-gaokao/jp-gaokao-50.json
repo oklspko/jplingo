@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-50",
+  "coursePackId": "jp-gaokao",
+  "title": "名词低频 17",
+  "order": 50,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "有效",
+      "japanese": "有効",
+      "kana": "ゆうこう",
+      "romaji": "yuukou",
+      "tokens": [
+        {
+          "text": "有効",
+          "kana": "ゆうこう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "邮局",
+      "japanese": "郵便局",
+      "kana": "ゆうびんきょく",
+      "romaji": "yuubinkyoku",
+      "tokens": [
+        {
+          "text": "郵便局",
+          "kana": "ゆうびんきょく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "有名",
+      "japanese": "有名",
+      "kana": "ゆうめい",
+      "romaji": "yuumei",
+      "tokens": [
+        {
+          "text": "有名",
+          "kana": "ゆうめい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "预测",
+      "japanese": "予測",
+      "kana": "よそく",
+      "romaji": "yosoku",
+      "tokens": [
+        {
+          "text": "予測",
+          "kana": "よそく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "野生",
+      "japanese": "野生",
+      "kana": "やせい",
+      "romaji": "yasei",
+      "tokens": [
+        {
+          "text": "野生",
+          "kana": "やせい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "宿舍",
+      "japanese": "寮",
+      "kana": "りょう",
+      "romaji": "ryou",
+      "tokens": [
+        {
+          "text": "寮",
+          "kana": "りょう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "旅馆",
+      "japanese": "旅館",
+      "kana": "りょかん",
+      "romaji": "ryokan",
+      "tokens": [
+        {
+          "text": "旅館",
+          "kana": "りょかん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "明年",
+      "japanese": "来年",
+      "kana": "らいねん",
+      "romaji": "rainen",
+      "tokens": [
+        {
+          "text": "来年",
+          "kana": "らいねん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "傍晚",
+      "japanese": "夕方",
+      "kana": "ゆうがた",
+      "romaji": "yuugata",
+      "tokens": [
+        {
+          "text": "夕方",
+          "kana": "ゆうがた"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "费用",
+      "japanese": "料金",
+      "kana": "りょうきん",
+      "romaji": "ryoukin",
+      "tokens": [
+        {
+          "text": "料金",
+          "kana": "りょうきん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "地板",
+      "japanese": "床",
+      "kana": "ゆか",
+      "romaji": "yuka",
+      "tokens": [
+        {
+          "text": "床",
+          "kana": "ゆか"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "预习",
+      "japanese": "予習",
+      "kana": "よしゅう",
+      "romaji": "yoshuu",
+      "tokens": [
+        {
+          "text": "予習",
+          "kana": "よしゅう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "优先",
+      "japanese": "優先",
+      "kana": "ゆうせん",
+      "romaji": "yuusen",
+      "tokens": [
+        {
+          "text": "優先",
+          "kana": "ゆうせん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "冰箱",
+      "japanese": "冷蔵庫",
+      "kana": "れいぞうこ",
+      "romaji": "reizouko",
+      "tokens": [
+        {
+          "text": "冷蔵庫",
+          "kana": "れいぞうこ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "立春",
+      "japanese": "立春",
+      "kana": "りっしゅん",
+      "romaji": "risshun",
+      "tokens": [
+        {
+          "text": "立春",
+          "kana": "りっしゅん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "要求",
+      "japanese": "要求",
+      "kana": "ようきゅう",
+      "romaji": "youkyuu",
+      "tokens": [
+        {
+          "text": "要求",
+          "kana": "ようきゅう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "勇气",
+      "japanese": "勇気",
+      "kana": "ゆうき",
+      "romaji": "yuuki",
+      "tokens": [
+        {
+          "text": "勇気",
+          "kana": "ゆうき"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "雪",
+      "japanese": "雪",
+      "kana": "ゆき",
+      "romaji": "yuki",
+      "tokens": [
+        {
+          "text": "雪",
+          "kana": "ゆき"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "容器",
+      "japanese": "容器",
+      "kana": "ようき",
+      "romaji": "youki",
+      "tokens": [
+        {
+          "text": "容器",
+          "kana": "ようき"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "预想、预料",
+      "japanese": "予想",
+      "kana": "よそう",
+      "romaji": "yosou",
+      "tokens": [
+        {
+          "text": "予想",
+          "kana": "よそう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "优秀",
+      "japanese": "優秀",
+      "kana": "ゆうしゅう",
+      "romaji": "yuushuu",
+      "tokens": [
+        {
+          "text": "優秀",
+          "kana": "ゆうしゅう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "下个月",
+      "japanese": "来月",
+      "kana": "らいげつ",
+      "romaji": "raigetsu",
+      "tokens": [
+        {
+          "text": "来月",
+          "kana": "らいげつ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "理科",
+      "japanese": "理科",
+      "kana": "りか",
+      "romaji": "rika",
+      "tokens": [
+        {
+          "text": "理科",
+          "kana": "りか"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "理想",
+      "japanese": "理想",
+      "kana": "りそう",
+      "romaji": "risou",
+      "tokens": [
+        {
+          "text": "理想",
+          "kana": "りそう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "出口",
+      "japanese": "輸出",
+      "kana": "ゆしゅつ",
+      "romaji": "yushutsu",
+      "tokens": [
+        {
+          "text": "輸出",
+          "kana": "ゆしゅつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "两国",
+      "japanese": "兩國",
+      "kana": "りょうこく",
+      "romaji": "ryoukoku",
+      "tokens": [
+        {
+          "text": "兩國",
+          "kana": "りょうこく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "手指",
+      "japanese": "指",
+      "kana": "ゆび",
+      "romaji": "yubi",
+      "tokens": [
+        {
+          "text": "指",
+          "kana": "ゆび"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "双方",
+      "japanese": "両方",
+      "kana": "りょうほう",
+      "romaji": "ryouhou",
+      "tokens": [
+        {
+          "text": "両方",
+          "kana": "りょうほう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "苹果",
+      "japanese": "林檎",
+      "kana": "りんご",
+      "romaji": "ringo",
+      "tokens": [
+        {
+          "text": "林檎",
+          "kana": "りんご"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "有害",
+      "japanese": "有害",
+      "kana": "ゆうがい",
+      "romaji": "yuugai",
+      "tokens": [
+        {
+          "text": "有害",
+          "kana": "ゆうがい"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "雪",
+      "japanese": "雪",
+      "kana": "ゆき",
+      "romaji": "yuki",
+      "tokens": [
+        {
+          "text": "雪",
+          "kana": "ゆき"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "优先",
+      "japanese": "優先",
+      "kana": "ゆうせん",
+      "romaji": "yuusen",
+      "tokens": [
+        {
+          "text": "優先",
+          "kana": "ゆうせん"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "苹果",
+      "japanese": "林檎",
+      "kana": "りんご",
+      "romaji": "ringo",
+      "tokens": [
+        {
+          "text": "林檎",
+          "kana": "りんご"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "有名",
+      "japanese": "有名",
+      "kana": "ゆうめい",
+      "romaji": "yuumei",
+      "tokens": [
+        {
+          "text": "有名",
+          "kana": "ゆうめい"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "优秀",
+      "japanese": "優秀",
+      "kana": "ゆうしゅう",
+      "romaji": "yuushuu",
+      "tokens": [
+        {
+          "text": "優秀",
+          "kana": "ゆうしゅう"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "邮局",
+      "japanese": "郵便局",
+      "kana": "ゆうびんきょく",
+      "romaji": "yuubinkyoku",
+      "tokens": [
+        {
+          "text": "郵便局",
+          "kana": "ゆうびんきょく"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "下个月",
+      "japanese": "来月",
+      "kana": "らいげつ",
+      "romaji": "raigetsu",
+      "tokens": [
+        {
+          "text": "来月",
+          "kana": "らいげつ"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "野生",
+      "japanese": "野生",
+      "kana": "やせい",
+      "romaji": "yasei",
+      "tokens": [
+        {
+          "text": "野生",
+          "kana": "やせい"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "地板",
+      "japanese": "床",
+      "kana": "ゆか",
+      "romaji": "yuka",
+      "tokens": [
+        {
+          "text": "床",
+          "kana": "ゆか"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "旅馆",
+      "japanese": "旅館",
+      "kana": "りょかん",
+      "romaji": "ryokan",
+      "tokens": [
+        {
+          "text": "旅館",
+          "kana": "りょかん"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "要求",
+      "japanese": "要求",
+      "kana": "ようきゅう",
+      "romaji": "youkyuu",
+      "tokens": [
+        {
+          "text": "要求",
+          "kana": "ようきゅう"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "宿舍",
+      "japanese": "寮",
+      "kana": "りょう",
+      "romaji": "ryou",
+      "tokens": [
+        {
+          "text": "寮",
+          "kana": "りょう"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "冰箱",
+      "japanese": "冷蔵庫",
+      "kana": "れいぞうこ",
+      "romaji": "reizouko",
+      "tokens": [
+        {
+          "text": "冷蔵庫",
+          "kana": "れいぞうこ"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "预测",
+      "japanese": "予測",
+      "kana": "よそく",
+      "romaji": "yosoku",
+      "tokens": [
+        {
+          "text": "予測",
+          "kana": "よそく"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "立春",
+      "japanese": "立春",
+      "kana": "りっしゅん",
+      "romaji": "risshun",
+      "tokens": [
+        {
+          "text": "立春",
+          "kana": "りっしゅん"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "费用",
+      "japanese": "料金",
+      "kana": "りょうきん",
+      "romaji": "ryoukin",
+      "tokens": [
+        {
+          "text": "料金",
+          "kana": "りょうきん"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "出口",
+      "japanese": "輸出",
+      "kana": "ゆしゅつ",
+      "romaji": "yushutsu",
+      "tokens": [
+        {
+          "text": "輸出",
+          "kana": "ゆしゅつ"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "理科",
+      "japanese": "理科",
+      "kana": "りか",
+      "romaji": "rika",
+      "tokens": [
+        {
+          "text": "理科",
+          "kana": "りか"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "手指",
+      "japanese": "指",
+      "kana": "ゆび",
+      "romaji": "yubi",
+      "tokens": [
+        {
+          "text": "指",
+          "kana": "ゆび"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "理想",
+      "japanese": "理想",
+      "kana": "りそう",
+      "romaji": "risou",
+      "tokens": [
+        {
+          "text": "理想",
+          "kana": "りそう"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "预习",
+      "japanese": "予習",
+      "kana": "よしゅう",
+      "romaji": "yoshuu",
+      "tokens": [
+        {
+          "text": "予習",
+          "kana": "よしゅう"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "两国",
+      "japanese": "兩國",
+      "kana": "りょうこく",
+      "romaji": "ryoukoku",
+      "tokens": [
+        {
+          "text": "兩國",
+          "kana": "りょうこく"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "明年",
+      "japanese": "来年",
+      "kana": "らいねん",
+      "romaji": "rainen",
+      "tokens": [
+        {
+          "text": "来年",
+          "kana": "らいねん"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "有效",
+      "japanese": "有効",
+      "kana": "ゆうこう",
+      "romaji": "yuukou",
+      "tokens": [
+        {
+          "text": "有効",
+          "kana": "ゆうこう"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "傍晚",
+      "japanese": "夕方",
+      "kana": "ゆうがた",
+      "romaji": "yuugata",
+      "tokens": [
+        {
+          "text": "夕方",
+          "kana": "ゆうがた"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "双方",
+      "japanese": "両方",
+      "kana": "りょうほう",
+      "romaji": "ryouhou",
+      "tokens": [
+        {
+          "text": "両方",
+          "kana": "りょうほう"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "有害",
+      "japanese": "有害",
+      "kana": "ゆうがい",
+      "romaji": "yuugai",
+      "tokens": [
+        {
+          "text": "有害",
+          "kana": "ゆうがい"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "预想、预料",
+      "japanese": "予想",
+      "kana": "よそう",
+      "romaji": "yosou",
+      "tokens": [
+        {
+          "text": "予想",
+          "kana": "よそう"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "容器",
+      "japanese": "容器",
+      "kana": "ようき",
+      "romaji": "youki",
+      "tokens": [
+        {
+          "text": "容器",
+          "kana": "ようき"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "勇气",
+      "japanese": "勇気",
+      "kana": "ゆうき",
+      "romaji": "yuuki",
+      "tokens": [
+        {
+          "text": "勇気",
+          "kana": "ゆうき"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "立春",
+      "japanese": "立春",
+      "kana": "りっしゅん",
+      "romaji": "risshun",
+      "tokens": [
+        {
+          "text": "立春",
+          "kana": "りっしゅん"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "手指",
+      "japanese": "指",
+      "kana": "ゆび",
+      "romaji": "yubi",
+      "tokens": [
+        {
+          "text": "指",
+          "kana": "ゆび"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "预想、预料",
+      "japanese": "予想",
+      "kana": "よそう",
+      "romaji": "yosou",
+      "tokens": [
+        {
+          "text": "予想",
+          "kana": "よそう"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "理科",
+      "japanese": "理科",
+      "kana": "りか",
+      "romaji": "rika",
+      "tokens": [
+        {
+          "text": "理科",
+          "kana": "りか"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "预习",
+      "japanese": "予習",
+      "kana": "よしゅう",
+      "romaji": "yoshuu",
+      "tokens": [
+        {
+          "text": "予習",
+          "kana": "よしゅう"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "旅馆",
+      "japanese": "旅館",
+      "kana": "りょかん",
+      "romaji": "ryokan",
+      "tokens": [
+        {
+          "text": "旅館",
+          "kana": "りょかん"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "优秀",
+      "japanese": "優秀",
+      "kana": "ゆうしゅう",
+      "romaji": "yuushuu",
+      "tokens": [
+        {
+          "text": "優秀",
+          "kana": "ゆうしゅう"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "勇气",
+      "japanese": "勇気",
+      "kana": "ゆうき",
+      "romaji": "yuuki",
+      "tokens": [
+        {
+          "text": "勇気",
+          "kana": "ゆうき"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "有害",
+      "japanese": "有害",
+      "kana": "ゆうがい",
+      "romaji": "yuugai",
+      "tokens": [
+        {
+          "text": "有害",
+          "kana": "ゆうがい"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "苹果",
+      "japanese": "林檎",
+      "kana": "りんご",
+      "romaji": "ringo",
+      "tokens": [
+        {
+          "text": "林檎",
+          "kana": "りんご"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "地板",
+      "japanese": "床",
+      "kana": "ゆか",
+      "romaji": "yuka",
+      "tokens": [
+        {
+          "text": "床",
+          "kana": "ゆか"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "预测",
+      "japanese": "予測",
+      "kana": "よそく",
+      "romaji": "yosoku",
+      "tokens": [
+        {
+          "text": "予測",
+          "kana": "よそく"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "下个月",
+      "japanese": "来月",
+      "kana": "らいげつ",
+      "romaji": "raigetsu",
+      "tokens": [
+        {
+          "text": "来月",
+          "kana": "らいげつ"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "费用",
+      "japanese": "料金",
+      "kana": "りょうきん",
+      "romaji": "ryoukin",
+      "tokens": [
+        {
+          "text": "料金",
+          "kana": "りょうきん"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "双方",
+      "japanese": "両方",
+      "kana": "りょうほう",
+      "romaji": "ryouhou",
+      "tokens": [
+        {
+          "text": "両方",
+          "kana": "りょうほう"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "优先",
+      "japanese": "優先",
+      "kana": "ゆうせん",
+      "romaji": "yuusen",
+      "tokens": [
+        {
+          "text": "優先",
+          "kana": "ゆうせん"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "容器",
+      "japanese": "容器",
+      "kana": "ようき",
+      "romaji": "youki",
+      "tokens": [
+        {
+          "text": "容器",
+          "kana": "ようき"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "野生",
+      "japanese": "野生",
+      "kana": "やせい",
+      "romaji": "yasei",
+      "tokens": [
+        {
+          "text": "野生",
+          "kana": "やせい"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "宿舍",
+      "japanese": "寮",
+      "kana": "りょう",
+      "romaji": "ryou",
+      "tokens": [
+        {
+          "text": "寮",
+          "kana": "りょう"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "冰箱",
+      "japanese": "冷蔵庫",
+      "kana": "れいぞうこ",
+      "romaji": "reizouko",
+      "tokens": [
+        {
+          "text": "冷蔵庫",
+          "kana": "れいぞうこ"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "两国",
+      "japanese": "兩國",
+      "kana": "りょうこく",
+      "romaji": "ryoukoku",
+      "tokens": [
+        {
+          "text": "兩國",
+          "kana": "りょうこく"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "有效",
+      "japanese": "有効",
+      "kana": "ゆうこう",
+      "romaji": "yuukou",
+      "tokens": [
+        {
+          "text": "有効",
+          "kana": "ゆうこう"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "傍晚",
+      "japanese": "夕方",
+      "kana": "ゆうがた",
+      "romaji": "yuugata",
+      "tokens": [
+        {
+          "text": "夕方",
+          "kana": "ゆうがた"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "邮局",
+      "japanese": "郵便局",
+      "kana": "ゆうびんきょく",
+      "romaji": "yuubinkyoku",
+      "tokens": [
+        {
+          "text": "郵便局",
+          "kana": "ゆうびんきょく"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "雪",
+      "japanese": "雪",
+      "kana": "ゆき",
+      "romaji": "yuki",
+      "tokens": [
+        {
+          "text": "雪",
+          "kana": "ゆき"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "要求",
+      "japanese": "要求",
+      "kana": "ようきゅう",
+      "romaji": "youkyuu",
+      "tokens": [
+        {
+          "text": "要求",
+          "kana": "ようきゅう"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "明年",
+      "japanese": "来年",
+      "kana": "らいねん",
+      "romaji": "rainen",
+      "tokens": [
+        {
+          "text": "来年",
+          "kana": "らいねん"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "理想",
+      "japanese": "理想",
+      "kana": "りそう",
+      "romaji": "risou",
+      "tokens": [
+        {
+          "text": "理想",
+          "kana": "りそう"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "有名",
+      "japanese": "有名",
+      "kana": "ゆうめい",
+      "romaji": "yuumei",
+      "tokens": [
+        {
+          "text": "有名",
+          "kana": "ゆうめい"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "出口",
+      "japanese": "輸出",
+      "kana": "ゆしゅつ",
+      "romaji": "yushutsu",
+      "tokens": [
+        {
+          "text": "輸出",
+          "kana": "ゆしゅつ"
+        }
+      ]
+    }
+  ]
+}

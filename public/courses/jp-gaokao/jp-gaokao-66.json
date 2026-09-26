@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-66",
+  "coursePackId": "jp-gaokao",
+  "title": "常用惯用表达 2",
+  "order": 66,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "费神、耗费精力",
+      "japanese": "神経を使う",
+      "kana": "しんけいをつかう",
+      "romaji": "shinkeiwotsukau",
+      "tokens": [
+        {
+          "text": "神経を使う",
+          "kana": "しんけいをつかう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "神经粗、心大",
+      "japanese": "神経が太い",
+      "kana": "しんけいがふとい",
+      "romaji": "shinkeigafutoi",
+      "tokens": [
+        {
+          "text": "神経が太い",
+          "kana": "しんけいがふとい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "警惕、注意",
+      "japanese": "気を配る",
+      "kana": "きをくばる",
+      "romaji": "kiwokubaru",
+      "tokens": [
+        {
+          "text": "気を配る",
+          "kana": "きをくばる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "找茬吵架、挑衅",
+      "japanese": "けんかを売る",
+      "kana": "けんかをうる",
+      "romaji": "kenkawouru",
+      "tokens": [
+        {
+          "text": "けんかを売る",
+          "kana": "けんかをうる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "时间流逝",
+      "japanese": "時が経つ",
+      "kana": "ときがたつ",
+      "romaji": "tokigatatsu",
+      "tokens": [
+        {
+          "text": "時が経つ",
+          "kana": "ときがたつ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "没完没了",
+      "japanese": "切りがない",
+      "kana": "きりがない",
+      "romaji": "kiriganai",
+      "tokens": [
+        {
+          "text": "切りがない",
+          "kana": "きりがない"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "时间流逝",
+      "japanese": "時が流れる",
+      "kana": "ときがながれる",
+      "romaji": "tokiganagareru",
+      "tokens": [
+        {
+          "text": "時が流れる",
+          "kana": "ときがながれる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "惊叹不已",
+      "japanese": "舌を巻く",
+      "kana": "したをまく",
+      "romaji": "shitawomaku",
+      "tokens": [
+        {
+          "text": "舌を巻く",
+          "kana": "したをまく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "架子大",
+      "japanese": "態度が大きい",
+      "kana": "たいどがおおきい",
+      "romaji": "taidogaookii",
+      "tokens": [
+        {
+          "text": "態度が大きい",
+          "kana": "たいどがおおきい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "炒～鱿鱼",
+      "japanese": "首をする",
+      "kana": "くびをする",
+      "romaji": "kubiwosuru",
+      "tokens": [
+        {
+          "text": "首をする",
+          "kana": "くびをする"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "采取措施",
+      "japanese": "手を打つ",
+      "kana": "てをうつ",
+      "romaji": "tewoutsu",
+      "tokens": [
+        {
+          "text": "手を打つ",
+          "kana": "てをうつ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "异口同声",
+      "japanese": "口を揃える",
+      "kana": "くちをそろえる",
+      "romaji": "kuchiwosoroeru",
+      "tokens": [
+        {
+          "text": "口を揃える",
+          "kana": "くちをそろえる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "嘴滑、说漏嘴",
+      "japanese": "口が滑る",
+      "kana": "くちがすべる",
+      "romaji": "kuchigasuberu",
+      "tokens": [
+        {
+          "text": "口が滑る",
+          "kana": "くちがすべる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "白眼、冷眼对待",
+      "japanese": "白い目で見る",
+      "kana": "しろいめでみる",
+      "romaji": "shiroimedemiru",
+      "tokens": [
+        {
+          "text": "白い目で見る",
+          "kana": "しろいめでみる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "受到～照顾",
+      "japanese": "世話になる",
+      "kana": "せわになる",
+      "romaji": "sewaninaru",
+      "tokens": [
+        {
+          "text": "世話になる",
+          "kana": "せわになる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "帮忙、出力",
+      "japanese": "手・力を貸す",
+      "kana": "て・ちからをかす",
+      "romaji": "te chikarawokasu",
+      "tokens": [
+        {
+          "text": "手・力を貸す",
+          "kana": "て・ちからをかす"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "被吸引、被迷住",
+      "japanese": "心を奪われる",
+      "kana": "こころをうばわれる",
+      "romaji": "kokorowoubawareru",
+      "tokens": [
+        {
+          "text": "心を奪われる",
+          "kana": "こころをうばわれる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "被炒鱿鱼",
+      "japanese": "首になる",
+      "kana": "くびになる",
+      "romaji": "kubininaru",
+      "tokens": [
+        {
+          "text": "首になる",
+          "kana": "くびになる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "小心",
+      "japanese": "気を付ける",
+      "kana": "きをつける",
+      "romaji": "kiwotsukeru",
+      "tokens": [
+        {
+          "text": "気を付ける",
+          "kana": "きをつける"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "动身去旅行",
+      "japanese": "旅に立つ",
+      "kana": "たびにたつ",
+      "romaji": "tabinitatsu",
+      "tokens": [
+        {
+          "text": "旅に立つ",
+          "kana": "たびにたつ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "断绝关系",
+      "japanese": "手を切る",
+      "kana": "てをきる",
+      "romaji": "tewokiru",
+      "tokens": [
+        {
+          "text": "手を切る",
+          "kana": "てをきる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "偷工减料",
+      "japanese": "手を抜く",
+      "kana": "てをぬく",
+      "romaji": "tewonuku",
+      "tokens": [
+        {
+          "text": "手を抜く",
+          "kana": "てをぬく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "提前安排",
+      "japanese": "手を回す",
+      "kana": "てをまわす",
+      "romaji": "tewomawasu",
+      "tokens": [
+        {
+          "text": "手を回す",
+          "kana": "てをまわす"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "照顾",
+      "japanese": "世話をする・見る",
+      "kana": "せわをする・みる",
+      "romaji": "sewawosuru miru",
+      "tokens": [
+        {
+          "text": "世話をする・見る",
+          "kana": "せわをする・みる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "电话听不清",
+      "japanese": "電話が遠い",
+      "kana": "でんわがとおい",
+      "romaji": "denwagatooi",
+      "tokens": [
+        {
+          "text": "電話が遠い",
+          "kana": "でんわがとおい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "让～担心",
+      "japanese": "心配をかける",
+      "kana": "しんぱいをかける",
+      "romaji": "shinpaiwokakeru",
+      "tokens": [
+        {
+          "text": "心配をかける",
+          "kana": "しんぱいをかける"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "束手无策",
+      "japanese": "手も足も出ない",
+      "kana": "てもあしもでない",
+      "romaji": "temoashimodenai",
+      "tokens": [
+        {
+          "text": "手も足も出ない",
+          "kana": "てもあしもでない"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "接受挑衅而干架",
+      "japanese": "けんかを買う",
+      "kana": "けんかをかう",
+      "romaji": "kenkawokau",
+      "tokens": [
+        {
+          "text": "けんかを買う",
+          "kana": "けんかをかう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "束手无策",
+      "japanese": "手を焼く",
+      "kana": "てをやく",
+      "romaji": "tewoyaku",
+      "tokens": [
+        {
+          "text": "手を焼く",
+          "kana": "てをやく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "照顾",
+      "japanese": "世話を焼く",
+      "kana": "せわをやく",
+      "romaji": "sewawoyaku",
+      "tokens": [
+        {
+          "text": "世話を焼く",
+          "kana": "せわをやく"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "架子大",
+      "japanese": "態度が大きい",
+      "kana": "たいどがおおきい",
+      "romaji": "taidogaookii",
+      "tokens": [
+        {
+          "text": "態度が大きい",
+          "kana": "たいどがおおきい"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "警惕、注意",
+      "japanese": "気を配る",
+      "kana": "きをくばる",
+      "romaji": "kiwokubaru",
+      "tokens": [
+        {
+          "text": "気を配る",
+          "kana": "きをくばる"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "嘴滑、说漏嘴",
+      "japanese": "口が滑る",
+      "kana": "くちがすべる",
+      "romaji": "kuchigasuberu",
+      "tokens": [
+        {
+          "text": "口が滑る",
+          "kana": "くちがすべる"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "时间流逝",
+      "japanese": "時が流れる",
+      "kana": "ときがながれる",
+      "romaji": "tokiganagareru",
+      "tokens": [
+        {
+          "text": "時が流れる",
+          "kana": "ときがながれる"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "让～担心",
+      "japanese": "心配をかける",
+      "kana": "しんぱいをかける",
+      "romaji": "shinpaiwokakeru",
+      "tokens": [
+        {
+          "text": "心配をかける",
+          "kana": "しんぱいをかける"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "照顾",
+      "japanese": "世話を焼く",
+      "kana": "せわをやく",
+      "romaji": "sewawoyaku",
+      "tokens": [
+        {
+          "text": "世話を焼く",
+          "kana": "せわをやく"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "白眼、冷眼对待",
+      "japanese": "白い目で見る",
+      "kana": "しろいめでみる",
+      "romaji": "shiroimedemiru",
+      "tokens": [
+        {
+          "text": "白い目で見る",
+          "kana": "しろいめでみる"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "找茬吵架、挑衅",
+      "japanese": "けんかを売る",
+      "kana": "けんかをうる",
+      "romaji": "kenkawouru",
+      "tokens": [
+        {
+          "text": "けんかを売る",
+          "kana": "けんかをうる"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "惊叹不已",
+      "japanese": "舌を巻く",
+      "kana": "したをまく",
+      "romaji": "shitawomaku",
+      "tokens": [
+        {
+          "text": "舌を巻く",
+          "kana": "したをまく"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "束手无策",
+      "japanese": "手を焼く",
+      "kana": "てをやく",
+      "romaji": "tewoyaku",
+      "tokens": [
+        {
+          "text": "手を焼く",
+          "kana": "てをやく"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "断绝关系",
+      "japanese": "手を切る",
+      "kana": "てをきる",
+      "romaji": "tewokiru",
+      "tokens": [
+        {
+          "text": "手を切る",
+          "kana": "てをきる"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "电话听不清",
+      "japanese": "電話が遠い",
+      "kana": "でんわがとおい",
+      "romaji": "denwagatooi",
+      "tokens": [
+        {
+          "text": "電話が遠い",
+          "kana": "でんわがとおい"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "接受挑衅而干架",
+      "japanese": "けんかを買う",
+      "kana": "けんかをかう",
+      "romaji": "kenkawokau",
+      "tokens": [
+        {
+          "text": "けんかを買う",
+          "kana": "けんかをかう"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "采取措施",
+      "japanese": "手を打つ",
+      "kana": "てをうつ",
+      "romaji": "tewoutsu",
+      "tokens": [
+        {
+          "text": "手を打つ",
+          "kana": "てをうつ"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "提前安排",
+      "japanese": "手を回す",
+      "kana": "てをまわす",
+      "romaji": "tewomawasu",
+      "tokens": [
+        {
+          "text": "手を回す",
+          "kana": "てをまわす"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "束手无策",
+      "japanese": "手も足も出ない",
+      "kana": "てもあしもでない",
+      "romaji": "temoashimodenai",
+      "tokens": [
+        {
+          "text": "手も足も出ない",
+          "kana": "てもあしもでない"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "小心",
+      "japanese": "気を付ける",
+      "kana": "きをつける",
+      "romaji": "kiwotsukeru",
+      "tokens": [
+        {
+          "text": "気を付ける",
+          "kana": "きをつける"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "偷工减料",
+      "japanese": "手を抜く",
+      "kana": "てをぬく",
+      "romaji": "tewonuku",
+      "tokens": [
+        {
+          "text": "手を抜く",
+          "kana": "てをぬく"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "没完没了",
+      "japanese": "切りがない",
+      "kana": "きりがない",
+      "romaji": "kiriganai",
+      "tokens": [
+        {
+          "text": "切りがない",
+          "kana": "きりがない"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "被炒鱿鱼",
+      "japanese": "首になる",
+      "kana": "くびになる",
+      "romaji": "kubininaru",
+      "tokens": [
+        {
+          "text": "首になる",
+          "kana": "くびになる"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "异口同声",
+      "japanese": "口を揃える",
+      "kana": "くちをそろえる",
+      "romaji": "kuchiwosoroeru",
+      "tokens": [
+        {
+          "text": "口を揃える",
+          "kana": "くちをそろえる"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "神经粗、心大",
+      "japanese": "神経が太い",
+      "kana": "しんけいがふとい",
+      "romaji": "shinkeigafutoi",
+      "tokens": [
+        {
+          "text": "神経が太い",
+          "kana": "しんけいがふとい"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "帮忙、出力",
+      "japanese": "手・力を貸す",
+      "kana": "て・ちからをかす",
+      "romaji": "te chikarawokasu",
+      "tokens": [
+        {
+          "text": "手・力を貸す",
+          "kana": "て・ちからをかす"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "被吸引、被迷住",
+      "japanese": "心を奪われる",
+      "kana": "こころをうばわれる",
+      "romaji": "kokorowoubawareru",
+      "tokens": [
+        {
+          "text": "心を奪われる",
+          "kana": "こころをうばわれる"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "照顾",
+      "japanese": "世話をする・見る",
+      "kana": "せわをする・みる",
+      "romaji": "sewawosuru miru",
+      "tokens": [
+        {
+          "text": "世話をする・見る",
+          "kana": "せわをする・みる"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "受到～照顾",
+      "japanese": "世話になる",
+      "kana": "せわになる",
+      "romaji": "sewaninaru",
+      "tokens": [
+        {
+          "text": "世話になる",
+          "kana": "せわになる"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "炒～鱿鱼",
+      "japanese": "首をする",
+      "kana": "くびをする",
+      "romaji": "kubiwosuru",
+      "tokens": [
+        {
+          "text": "首をする",
+          "kana": "くびをする"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "费神、耗费精力",
+      "japanese": "神経を使う",
+      "kana": "しんけいをつかう",
+      "romaji": "shinkeiwotsukau",
+      "tokens": [
+        {
+          "text": "神経を使う",
+          "kana": "しんけいをつかう"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "时间流逝",
+      "japanese": "時が経つ",
+      "kana": "ときがたつ",
+      "romaji": "tokigatatsu",
+      "tokens": [
+        {
+          "text": "時が経つ",
+          "kana": "ときがたつ"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "动身去旅行",
+      "japanese": "旅に立つ",
+      "kana": "たびにたつ",
+      "romaji": "tabinitatsu",
+      "tokens": [
+        {
+          "text": "旅に立つ",
+          "kana": "たびにたつ"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "费神、耗费精力",
+      "japanese": "神経を使う",
+      "kana": "しんけいをつかう",
+      "romaji": "shinkeiwotsukau",
+      "tokens": [
+        {
+          "text": "神経を使う",
+          "kana": "しんけいをつかう"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "小心",
+      "japanese": "気を付ける",
+      "kana": "きをつける",
+      "romaji": "kiwotsukeru",
+      "tokens": [
+        {
+          "text": "気を付ける",
+          "kana": "きをつける"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "接受挑衅而干架",
+      "japanese": "けんかを買う",
+      "kana": "けんかをかう",
+      "romaji": "kenkawokau",
+      "tokens": [
+        {
+          "text": "けんかを買う",
+          "kana": "けんかをかう"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "架子大",
+      "japanese": "態度が大きい",
+      "kana": "たいどがおおきい",
+      "romaji": "taidogaookii",
+      "tokens": [
+        {
+          "text": "態度が大きい",
+          "kana": "たいどがおおきい"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "异口同声",
+      "japanese": "口を揃える",
+      "kana": "くちをそろえる",
+      "romaji": "kuchiwosoroeru",
+      "tokens": [
+        {
+          "text": "口を揃える",
+          "kana": "くちをそろえる"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "受到～照顾",
+      "japanese": "世話になる",
+      "kana": "せわになる",
+      "romaji": "sewaninaru",
+      "tokens": [
+        {
+          "text": "世話になる",
+          "kana": "せわになる"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "被炒鱿鱼",
+      "japanese": "首になる",
+      "kana": "くびになる",
+      "romaji": "kubininaru",
+      "tokens": [
+        {
+          "text": "首になる",
+          "kana": "くびになる"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "惊叹不已",
+      "japanese": "舌を巻く",
+      "kana": "したをまく",
+      "romaji": "shitawomaku",
+      "tokens": [
+        {
+          "text": "舌を巻く",
+          "kana": "したをまく"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "照顾",
+      "japanese": "世話を焼く",
+      "kana": "せわをやく",
+      "romaji": "sewawoyaku",
+      "tokens": [
+        {
+          "text": "世話を焼く",
+          "kana": "せわをやく"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "偷工减料",
+      "japanese": "手を抜く",
+      "kana": "てをぬく",
+      "romaji": "tewonuku",
+      "tokens": [
+        {
+          "text": "手を抜く",
+          "kana": "てをぬく"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "束手无策",
+      "japanese": "手を焼く",
+      "kana": "てをやく",
+      "romaji": "tewoyaku",
+      "tokens": [
+        {
+          "text": "手を焼く",
+          "kana": "てをやく"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "采取措施",
+      "japanese": "手を打つ",
+      "kana": "てをうつ",
+      "romaji": "tewoutsu",
+      "tokens": [
+        {
+          "text": "手を打つ",
+          "kana": "てをうつ"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "时间流逝",
+      "japanese": "時が経つ",
+      "kana": "ときがたつ",
+      "romaji": "tokigatatsu",
+      "tokens": [
+        {
+          "text": "時が経つ",
+          "kana": "ときがたつ"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "帮忙、出力",
+      "japanese": "手・力を貸す",
+      "kana": "て・ちからをかす",
+      "romaji": "te chikarawokasu",
+      "tokens": [
+        {
+          "text": "手・力を貸す",
+          "kana": "て・ちからをかす"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "照顾",
+      "japanese": "世話をする・見る",
+      "kana": "せわをする・みる",
+      "romaji": "sewawosuru miru",
+      "tokens": [
+        {
+          "text": "世話をする・見る",
+          "kana": "せわをする・みる"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "没完没了",
+      "japanese": "切りがない",
+      "kana": "きりがない",
+      "romaji": "kiriganai",
+      "tokens": [
+        {
+          "text": "切りがない",
+          "kana": "きりがない"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "被吸引、被迷住",
+      "japanese": "心を奪われる",
+      "kana": "こころをうばわれる",
+      "romaji": "kokorowoubawareru",
+      "tokens": [
+        {
+          "text": "心を奪われる",
+          "kana": "こころをうばわれる"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "神经粗、心大",
+      "japanese": "神経が太い",
+      "kana": "しんけいがふとい",
+      "romaji": "shinkeigafutoi",
+      "tokens": [
+        {
+          "text": "神経が太い",
+          "kana": "しんけいがふとい"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "电话听不清",
+      "japanese": "電話が遠い",
+      "kana": "でんわがとおい",
+      "romaji": "denwagatooi",
+      "tokens": [
+        {
+          "text": "電話が遠い",
+          "kana": "でんわがとおい"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "动身去旅行",
+      "japanese": "旅に立つ",
+      "kana": "たびにたつ",
+      "romaji": "tabinitatsu",
+      "tokens": [
+        {
+          "text": "旅に立つ",
+          "kana": "たびにたつ"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "断绝关系",
+      "japanese": "手を切る",
+      "kana": "てをきる",
+      "romaji": "tewokiru",
+      "tokens": [
+        {
+          "text": "手を切る",
+          "kana": "てをきる"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "白眼、冷眼对待",
+      "japanese": "白い目で見る",
+      "kana": "しろいめでみる",
+      "romaji": "shiroimedemiru",
+      "tokens": [
+        {
+          "text": "白い目で見る",
+          "kana": "しろいめでみる"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "嘴滑、说漏嘴",
+      "japanese": "口が滑る",
+      "kana": "くちがすべる",
+      "romaji": "kuchigasuberu",
+      "tokens": [
+        {
+          "text": "口が滑る",
+          "kana": "くちがすべる"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "让～担心",
+      "japanese": "心配をかける",
+      "kana": "しんぱいをかける",
+      "romaji": "shinpaiwokakeru",
+      "tokens": [
+        {
+          "text": "心配をかける",
+          "kana": "しんぱいをかける"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "时间流逝",
+      "japanese": "時が流れる",
+      "kana": "ときがながれる",
+      "romaji": "tokiganagareru",
+      "tokens": [
+        {
+          "text": "時が流れる",
+          "kana": "ときがながれる"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "炒～鱿鱼",
+      "japanese": "首をする",
+      "kana": "くびをする",
+      "romaji": "kubiwosuru",
+      "tokens": [
+        {
+          "text": "首をする",
+          "kana": "くびをする"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "警惕、注意",
+      "japanese": "気を配る",
+      "kana": "きをくばる",
+      "romaji": "kiwokubaru",
+      "tokens": [
+        {
+          "text": "気を配る",
+          "kana": "きをくばる"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "束手无策",
+      "japanese": "手も足も出ない",
+      "kana": "てもあしもでない",
+      "romaji": "temoashimodenai",
+      "tokens": [
+        {
+          "text": "手も足も出ない",
+          "kana": "てもあしもでない"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "提前安排",
+      "japanese": "手を回す",
+      "kana": "てをまわす",
+      "romaji": "tewomawasu",
+      "tokens": [
+        {
+          "text": "手を回す",
+          "kana": "てをまわす"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "找茬吵架、挑衅",
+      "japanese": "けんかを売る",
+      "kana": "けんかをうる",
+      "romaji": "kenkawouru",
+      "tokens": [
+        {
+          "text": "けんかを売る",
+          "kana": "けんかをうる"
+        }
+      ]
+    }
+  ]
+}

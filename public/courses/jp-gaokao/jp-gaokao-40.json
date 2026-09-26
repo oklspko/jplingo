@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-40",
+  "coursePackId": "jp-gaokao",
+  "title": "名词低频 7",
+  "order": 40,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "铅笔",
+      "japanese": "鉛筆",
+      "kana": "えんぴつ",
+      "romaji": "enpitsu",
+      "tokens": [
+        {
+          "text": "鉛筆",
+          "kana": "えんぴつ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "外交",
+      "japanese": "外交",
+      "kana": "がいこう",
+      "romaji": "gaikou",
+      "tokens": [
+        {
+          "text": "外交",
+          "kana": "がいこう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "笑颜、微笑、笑脸",
+      "japanese": "笑顔",
+      "kana": "えがお",
+      "romaji": "egao",
+      "tokens": [
+        {
+          "text": "笑顔",
+          "kana": "えがお"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "比例",
+      "japanese": "割",
+      "kana": "わり",
+      "romaji": "wari",
+      "tokens": [
+        {
+          "text": "割",
+          "kana": "わり"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "历史",
+      "japanese": "歴史",
+      "kana": "れきし",
+      "romaji": "rekishi",
+      "tokens": [
+        {
+          "text": "歴史",
+          "kana": "れきし"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "营养",
+      "japanese": "栄養",
+      "kana": "えいよう",
+      "romaji": "eiyou",
+      "tokens": [
+        {
+          "text": "栄養",
+          "kana": "えいよう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "急事、重要的事",
+      "japanese": "用事",
+      "kana": "ようじ",
+      "romaji": "youji",
+      "tokens": [
+        {
+          "text": "用事",
+          "kana": "ようじ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "音乐",
+      "japanese": "音楽",
+      "kana": "おんがく",
+      "romaji": "ongaku",
+      "tokens": [
+        {
+          "text": "音楽",
+          "kana": "おんがく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "走廊",
+      "japanese": "廊下",
+      "kana": "ろうか",
+      "romaji": "rouka",
+      "tokens": [
+        {
+          "text": "廊下",
+          "kana": "ろうか"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "健谈、聊天",
+      "japanese": "おしゃべり",
+      "kana": "おしゃべり",
+      "romaji": "oshaberi",
+      "tokens": [
+        {
+          "text": "おしゃべり",
+          "kana": "おしゃべり"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "客人",
+      "japanese": "お客様",
+      "kana": "おきゃくさま",
+      "romaji": "okyakusama",
+      "tokens": [
+        {
+          "text": "お客様",
+          "kana": "おきゃくさま"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "镜子",
+      "japanese": "鏡",
+      "kana": "かがみ",
+      "romaji": "kagami",
+      "tokens": [
+        {
+          "text": "鏡",
+          "kana": "かがみ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "红色",
+      "japanese": "赤",
+      "kana": "あか",
+      "romaji": "aka",
+      "tokens": [
+        {
+          "text": "赤",
+          "kana": "あか"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "温度",
+      "japanese": "温度",
+      "kana": "おんど",
+      "romaji": "ondo",
+      "tokens": [
+        {
+          "text": "温度",
+          "kana": "おんど"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "绘画",
+      "japanese": "絵画",
+      "kana": "かいが",
+      "romaji": "kaiga",
+      "tokens": [
+        {
+          "text": "絵画",
+          "kana": "かいが"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "不在家",
+      "japanese": "留守",
+      "kana": "るす",
+      "romaji": "rusu",
+      "tokens": [
+        {
+          "text": "留守",
+          "kana": "るす"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "比例",
+      "japanese": "割合",
+      "kana": "わりあい",
+      "romaji": "wariai",
+      "tokens": [
+        {
+          "text": "割合",
+          "kana": "わりあい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "横着、旁边",
+      "japanese": "横",
+      "kana": "よこ",
+      "romaji": "yoko",
+      "tokens": [
+        {
+          "text": "横",
+          "kana": "よこ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "礼物、土特产",
+      "japanese": "お土産",
+      "kana": "おみやげ",
+      "romaji": "omiyage",
+      "tokens": [
+        {
+          "text": "お土産",
+          "kana": "おみやげ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "御节料理",
+      "japanese": "お節料理",
+      "kana": "おせちりょうり",
+      "romaji": "osechiryouri",
+      "tokens": [
+        {
+          "text": "お節料理",
+          "kana": "おせちりょうり"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "演奏会",
+      "japanese": "演奏会",
+      "kana": "えんそうかい",
+      "romaji": "ensoukai",
+      "tokens": [
+        {
+          "text": "演奏会",
+          "kana": "えんそうかい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "爱、爱情",
+      "japanese": "愛",
+      "kana": "あい",
+      "romaji": "ai",
+      "tokens": [
+        {
+          "text": "愛",
+          "kana": "あい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "钱、金钱",
+      "japanese": "お金",
+      "kana": "おかね",
+      "romaji": "okane",
+      "tokens": [
+        {
+          "text": "お金",
+          "kana": "おかね"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "联系、联络",
+      "japanese": "連絡",
+      "kana": "れんらく",
+      "romaji": "renraku",
+      "tokens": [
+        {
+          "text": "連絡",
+          "kana": "れんらく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "点心",
+      "japanese": "お菓子",
+      "kana": "おかし",
+      "romaji": "okashi",
+      "tokens": [
+        {
+          "text": "お菓子",
+          "kana": "おかし"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "枝、树枝",
+      "japanese": "枝",
+      "kana": "えだ",
+      "romaji": "eda",
+      "tokens": [
+        {
+          "text": "枝",
+          "kana": "えだ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "海岸、海边",
+      "japanese": "海岸",
+      "kana": "かいがん",
+      "romaji": "kaigan",
+      "tokens": [
+        {
+          "text": "海岸",
+          "kana": "かいがん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "例子；之前的；惯例",
+      "japanese": "例",
+      "kana": "れい",
+      "romaji": "rei",
+      "tokens": [
+        {
+          "text": "例",
+          "kana": "れい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "压岁钱",
+      "japanese": "お年玉",
+      "kana": "おとしだま",
+      "romaji": "otoshidama",
+      "tokens": [
+        {
+          "text": "お年玉",
+          "kana": "おとしだま"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "温泉",
+      "japanese": "温泉",
+      "kana": "おんせん",
+      "romaji": "onsen",
+      "tokens": [
+        {
+          "text": "温泉",
+          "kana": "おんせん"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "绘画",
+      "japanese": "絵画",
+      "kana": "かいが",
+      "romaji": "kaiga",
+      "tokens": [
+        {
+          "text": "絵画",
+          "kana": "かいが"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "温泉",
+      "japanese": "温泉",
+      "kana": "おんせん",
+      "romaji": "onsen",
+      "tokens": [
+        {
+          "text": "温泉",
+          "kana": "おんせん"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "海岸、海边",
+      "japanese": "海岸",
+      "kana": "かいがん",
+      "romaji": "kaigan",
+      "tokens": [
+        {
+          "text": "海岸",
+          "kana": "かいがん"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "音乐",
+      "japanese": "音楽",
+      "kana": "おんがく",
+      "romaji": "ongaku",
+      "tokens": [
+        {
+          "text": "音楽",
+          "kana": "おんがく"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "健谈、聊天",
+      "japanese": "おしゃべり",
+      "kana": "おしゃべり",
+      "romaji": "oshaberi",
+      "tokens": [
+        {
+          "text": "おしゃべり",
+          "kana": "おしゃべり"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "不在家",
+      "japanese": "留守",
+      "kana": "るす",
+      "romaji": "rusu",
+      "tokens": [
+        {
+          "text": "留守",
+          "kana": "るす"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "枝、树枝",
+      "japanese": "枝",
+      "kana": "えだ",
+      "romaji": "eda",
+      "tokens": [
+        {
+          "text": "枝",
+          "kana": "えだ"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "急事、重要的事",
+      "japanese": "用事",
+      "kana": "ようじ",
+      "romaji": "youji",
+      "tokens": [
+        {
+          "text": "用事",
+          "kana": "ようじ"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "点心",
+      "japanese": "お菓子",
+      "kana": "おかし",
+      "romaji": "okashi",
+      "tokens": [
+        {
+          "text": "お菓子",
+          "kana": "おかし"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "爱、爱情",
+      "japanese": "愛",
+      "kana": "あい",
+      "romaji": "ai",
+      "tokens": [
+        {
+          "text": "愛",
+          "kana": "あい"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "御节料理",
+      "japanese": "お節料理",
+      "kana": "おせちりょうり",
+      "romaji": "osechiryouri",
+      "tokens": [
+        {
+          "text": "お節料理",
+          "kana": "おせちりょうり"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "红色",
+      "japanese": "赤",
+      "kana": "あか",
+      "romaji": "aka",
+      "tokens": [
+        {
+          "text": "赤",
+          "kana": "あか"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "礼物、土特产",
+      "japanese": "お土産",
+      "kana": "おみやげ",
+      "romaji": "omiyage",
+      "tokens": [
+        {
+          "text": "お土産",
+          "kana": "おみやげ"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "历史",
+      "japanese": "歴史",
+      "kana": "れきし",
+      "romaji": "rekishi",
+      "tokens": [
+        {
+          "text": "歴史",
+          "kana": "れきし"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "温度",
+      "japanese": "温度",
+      "kana": "おんど",
+      "romaji": "ondo",
+      "tokens": [
+        {
+          "text": "温度",
+          "kana": "おんど"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "演奏会",
+      "japanese": "演奏会",
+      "kana": "えんそうかい",
+      "romaji": "ensoukai",
+      "tokens": [
+        {
+          "text": "演奏会",
+          "kana": "えんそうかい"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "镜子",
+      "japanese": "鏡",
+      "kana": "かがみ",
+      "romaji": "kagami",
+      "tokens": [
+        {
+          "text": "鏡",
+          "kana": "かがみ"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "钱、金钱",
+      "japanese": "お金",
+      "kana": "おかね",
+      "romaji": "okane",
+      "tokens": [
+        {
+          "text": "お金",
+          "kana": "おかね"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "营养",
+      "japanese": "栄養",
+      "kana": "えいよう",
+      "romaji": "eiyou",
+      "tokens": [
+        {
+          "text": "栄養",
+          "kana": "えいよう"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "压岁钱",
+      "japanese": "お年玉",
+      "kana": "おとしだま",
+      "romaji": "otoshidama",
+      "tokens": [
+        {
+          "text": "お年玉",
+          "kana": "おとしだま"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "横着、旁边",
+      "japanese": "横",
+      "kana": "よこ",
+      "romaji": "yoko",
+      "tokens": [
+        {
+          "text": "横",
+          "kana": "よこ"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "外交",
+      "japanese": "外交",
+      "kana": "がいこう",
+      "romaji": "gaikou",
+      "tokens": [
+        {
+          "text": "外交",
+          "kana": "がいこう"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "比例",
+      "japanese": "割",
+      "kana": "わり",
+      "romaji": "wari",
+      "tokens": [
+        {
+          "text": "割",
+          "kana": "わり"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "联系、联络",
+      "japanese": "連絡",
+      "kana": "れんらく",
+      "romaji": "renraku",
+      "tokens": [
+        {
+          "text": "連絡",
+          "kana": "れんらく"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "客人",
+      "japanese": "お客様",
+      "kana": "おきゃくさま",
+      "romaji": "okyakusama",
+      "tokens": [
+        {
+          "text": "お客様",
+          "kana": "おきゃくさま"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "笑颜、微笑、笑脸",
+      "japanese": "笑顔",
+      "kana": "えがお",
+      "romaji": "egao",
+      "tokens": [
+        {
+          "text": "笑顔",
+          "kana": "えがお"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "走廊",
+      "japanese": "廊下",
+      "kana": "ろうか",
+      "romaji": "rouka",
+      "tokens": [
+        {
+          "text": "廊下",
+          "kana": "ろうか"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "例子；之前的；惯例",
+      "japanese": "例",
+      "kana": "れい",
+      "romaji": "rei",
+      "tokens": [
+        {
+          "text": "例",
+          "kana": "れい"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "比例",
+      "japanese": "割合",
+      "kana": "わりあい",
+      "romaji": "wariai",
+      "tokens": [
+        {
+          "text": "割合",
+          "kana": "わりあい"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "铅笔",
+      "japanese": "鉛筆",
+      "kana": "えんぴつ",
+      "romaji": "enpitsu",
+      "tokens": [
+        {
+          "text": "鉛筆",
+          "kana": "えんぴつ"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "营养",
+      "japanese": "栄養",
+      "kana": "えいよう",
+      "romaji": "eiyou",
+      "tokens": [
+        {
+          "text": "栄養",
+          "kana": "えいよう"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "健谈、聊天",
+      "japanese": "おしゃべり",
+      "kana": "おしゃべり",
+      "romaji": "oshaberi",
+      "tokens": [
+        {
+          "text": "おしゃべり",
+          "kana": "おしゃべり"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "礼物、土特产",
+      "japanese": "お土産",
+      "kana": "おみやげ",
+      "romaji": "omiyage",
+      "tokens": [
+        {
+          "text": "お土産",
+          "kana": "おみやげ"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "压岁钱",
+      "japanese": "お年玉",
+      "kana": "おとしだま",
+      "romaji": "otoshidama",
+      "tokens": [
+        {
+          "text": "お年玉",
+          "kana": "おとしだま"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "急事、重要的事",
+      "japanese": "用事",
+      "kana": "ようじ",
+      "romaji": "youji",
+      "tokens": [
+        {
+          "text": "用事",
+          "kana": "ようじ"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "比例",
+      "japanese": "割",
+      "kana": "わり",
+      "romaji": "wari",
+      "tokens": [
+        {
+          "text": "割",
+          "kana": "わり"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "铅笔",
+      "japanese": "鉛筆",
+      "kana": "えんぴつ",
+      "romaji": "enpitsu",
+      "tokens": [
+        {
+          "text": "鉛筆",
+          "kana": "えんぴつ"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "联系、联络",
+      "japanese": "連絡",
+      "kana": "れんらく",
+      "romaji": "renraku",
+      "tokens": [
+        {
+          "text": "連絡",
+          "kana": "れんらく"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "例子；之前的；惯例",
+      "japanese": "例",
+      "kana": "れい",
+      "romaji": "rei",
+      "tokens": [
+        {
+          "text": "例",
+          "kana": "れい"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "温度",
+      "japanese": "温度",
+      "kana": "おんど",
+      "romaji": "ondo",
+      "tokens": [
+        {
+          "text": "温度",
+          "kana": "おんど"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "御节料理",
+      "japanese": "お節料理",
+      "kana": "おせちりょうり",
+      "romaji": "osechiryouri",
+      "tokens": [
+        {
+          "text": "お節料理",
+          "kana": "おせちりょうり"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "温泉",
+      "japanese": "温泉",
+      "kana": "おんせん",
+      "romaji": "onsen",
+      "tokens": [
+        {
+          "text": "温泉",
+          "kana": "おんせん"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "音乐",
+      "japanese": "音楽",
+      "kana": "おんがく",
+      "romaji": "ongaku",
+      "tokens": [
+        {
+          "text": "音楽",
+          "kana": "おんがく"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "客人",
+      "japanese": "お客様",
+      "kana": "おきゃくさま",
+      "romaji": "okyakusama",
+      "tokens": [
+        {
+          "text": "お客様",
+          "kana": "おきゃくさま"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "横着、旁边",
+      "japanese": "横",
+      "kana": "よこ",
+      "romaji": "yoko",
+      "tokens": [
+        {
+          "text": "横",
+          "kana": "よこ"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "钱、金钱",
+      "japanese": "お金",
+      "kana": "おかね",
+      "romaji": "okane",
+      "tokens": [
+        {
+          "text": "お金",
+          "kana": "おかね"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "红色",
+      "japanese": "赤",
+      "kana": "あか",
+      "romaji": "aka",
+      "tokens": [
+        {
+          "text": "赤",
+          "kana": "あか"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "镜子",
+      "japanese": "鏡",
+      "kana": "かがみ",
+      "romaji": "kagami",
+      "tokens": [
+        {
+          "text": "鏡",
+          "kana": "かがみ"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "笑颜、微笑、笑脸",
+      "japanese": "笑顔",
+      "kana": "えがお",
+      "romaji": "egao",
+      "tokens": [
+        {
+          "text": "笑顔",
+          "kana": "えがお"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "海岸、海边",
+      "japanese": "海岸",
+      "kana": "かいがん",
+      "romaji": "kaigan",
+      "tokens": [
+        {
+          "text": "海岸",
+          "kana": "かいがん"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "比例",
+      "japanese": "割合",
+      "kana": "わりあい",
+      "romaji": "wariai",
+      "tokens": [
+        {
+          "text": "割合",
+          "kana": "わりあい"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "走廊",
+      "japanese": "廊下",
+      "kana": "ろうか",
+      "romaji": "rouka",
+      "tokens": [
+        {
+          "text": "廊下",
+          "kana": "ろうか"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "外交",
+      "japanese": "外交",
+      "kana": "がいこう",
+      "romaji": "gaikou",
+      "tokens": [
+        {
+          "text": "外交",
+          "kana": "がいこう"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "绘画",
+      "japanese": "絵画",
+      "kana": "かいが",
+      "romaji": "kaiga",
+      "tokens": [
+        {
+          "text": "絵画",
+          "kana": "かいが"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "枝、树枝",
+      "japanese": "枝",
+      "kana": "えだ",
+      "romaji": "eda",
+      "tokens": [
+        {
+          "text": "枝",
+          "kana": "えだ"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "历史",
+      "japanese": "歴史",
+      "kana": "れきし",
+      "romaji": "rekishi",
+      "tokens": [
+        {
+          "text": "歴史",
+          "kana": "れきし"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "不在家",
+      "japanese": "留守",
+      "kana": "るす",
+      "romaji": "rusu",
+      "tokens": [
+        {
+          "text": "留守",
+          "kana": "るす"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "爱、爱情",
+      "japanese": "愛",
+      "kana": "あい",
+      "romaji": "ai",
+      "tokens": [
+        {
+          "text": "愛",
+          "kana": "あい"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "点心",
+      "japanese": "お菓子",
+      "kana": "おかし",
+      "romaji": "okashi",
+      "tokens": [
+        {
+          "text": "お菓子",
+          "kana": "おかし"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "演奏会",
+      "japanese": "演奏会",
+      "kana": "えんそうかい",
+      "romaji": "ensoukai",
+      "tokens": [
+        {
+          "text": "演奏会",
+          "kana": "えんそうかい"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-26",
+  "coursePackId": "jp-gaokao",
+  "title": "名词必考 1",
+  "order": 26,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "小孩子",
+      "japanese": "子",
+      "kana": "こ",
+      "romaji": "ko",
+      "tokens": [
+        {
+          "text": "子",
+          "kana": "こ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "谁",
+      "japanese": "誰",
+      "kana": "だれ",
+      "romaji": "dare",
+      "tokens": [
+        {
+          "text": "誰",
+          "kana": "だれ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "现在；立马",
+      "japanese": "今",
+      "kana": "いま",
+      "romaji": "ima",
+      "tokens": [
+        {
+          "text": "今",
+          "kana": "いま"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "时间",
+      "japanese": "時間",
+      "kana": "じかん",
+      "romaji": "jikan",
+      "tokens": [
+        {
+          "text": "時間",
+          "kana": "じかん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "日元；圆",
+      "japanese": "円",
+      "kana": "えん",
+      "romaji": "en",
+      "tokens": [
+        {
+          "text": "円",
+          "kana": "えん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "家人、家庭",
+      "japanese": "家族",
+      "kana": "かぞく",
+      "romaji": "kazoku",
+      "tokens": [
+        {
+          "text": "家族",
+          "kana": "かぞく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "家",
+      "japanese": "家",
+      "kana": "いえ",
+      "romaji": "ie",
+      "tokens": [
+        {
+          "text": "家",
+          "kana": "いえ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "、女（おんな）男；女",
+      "japanese": "男",
+      "kana": "おとこ",
+      "romaji": "otoko",
+      "tokens": [
+        {
+          "text": "男",
+          "kana": "おとこ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "自己、自身",
+      "japanese": "自分",
+      "kana": "じぶん",
+      "romaji": "jibun",
+      "tokens": [
+        {
+          "text": "自分",
+          "kana": "じぶん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "父亲",
+      "japanese": "父",
+      "kana": "ちち",
+      "romaji": "chichi",
+      "tokens": [
+        {
+          "text": "父",
+          "kana": "ちち"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "语言、词汇、话",
+      "japanese": "言葉",
+      "kana": "ことば",
+      "romaji": "kotoba",
+      "tokens": [
+        {
+          "text": "言葉",
+          "kana": "ことば"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "考试",
+      "japanese": "試験",
+      "kana": "しけん",
+      "romaji": "shiken",
+      "tokens": [
+        {
+          "text": "試験",
+          "kana": "しけん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "这次、下次",
+      "japanese": "今度",
+      "kana": "こんど",
+      "romaji": "kondo",
+      "tokens": [
+        {
+          "text": "今度",
+          "kana": "こんど"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "母亲",
+      "japanese": "母",
+      "kana": "はは",
+      "romaji": "haha",
+      "tokens": [
+        {
+          "text": "母",
+          "kana": "はは"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "意思",
+      "japanese": "意味",
+      "kana": "いみ",
+      "romaji": "imi",
+      "tokens": [
+        {
+          "text": "意味",
+          "kana": "いみ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "内心、心灵",
+      "japanese": "心",
+      "kana": "こころ",
+      "romaji": "kokoro",
+      "tokens": [
+        {
+          "text": "心",
+          "kana": "こころ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "方法；人",
+      "japanese": "方",
+      "kana": "かた",
+      "romaji": "kata",
+      "tokens": [
+        {
+          "text": "方",
+          "kana": "かた"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "身体",
+      "japanese": "体",
+      "kana": "からだ",
+      "romaji": "karada",
+      "tokens": [
+        {
+          "text": "体",
+          "kana": "からだ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "心情；状况；氛围",
+      "japanese": "気分",
+      "kana": "きぶん",
+      "romaji": "kibun",
+      "tokens": [
+        {
+          "text": "気分",
+          "kana": "きぶん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "时刻、左右",
+      "japanese": "頃",
+      "kana": "ころ",
+      "romaji": "koro",
+      "tokens": [
+        {
+          "text": "頃",
+          "kana": "ころ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "家、自己家",
+      "japanese": "家",
+      "kana": "うち",
+      "romaji": "uchi",
+      "tokens": [
+        {
+          "text": "家",
+          "kana": "うち"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "很多",
+      "japanese": "沢山",
+      "kana": "たくさん",
+      "romaji": "takusan",
+      "tokens": [
+        {
+          "text": "沢山",
+          "kana": "たくさん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "老师；医生；律师",
+      "japanese": "先生",
+      "kana": "せんせい",
+      "romaji": "sensei",
+      "tokens": [
+        {
+          "text": "先生",
+          "kana": "せんせい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "下一个",
+      "japanese": "次",
+      "kana": "つぎ",
+      "romaji": "tsugi",
+      "tokens": [
+        {
+          "text": "次",
+          "kana": "つぎ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "学生",
+      "japanese": "学生",
+      "kana": "がくせい",
+      "romaji": "gakusei",
+      "tokens": [
+        {
+          "text": "学生",
+          "kana": "がくせい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "家；内部",
+      "japanese": "内",
+      "kana": "うち",
+      "romaji": "uchi",
+      "tokens": [
+        {
+          "text": "内",
+          "kana": "うち"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "感受、心情；舒适程度",
+      "japanese": "気持ち",
+      "kana": "きもち",
+      "romaji": "kimochi",
+      "tokens": [
+        {
+          "text": "気持ち",
+          "kana": "きもち"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "上面、正上方",
+      "japanese": "上",
+      "kana": "うえ",
+      "romaji": "ue",
+      "tokens": [
+        {
+          "text": "上",
+          "kana": "うえ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "气",
+      "japanese": "気",
+      "kana": "き",
+      "romaji": "ki",
+      "tokens": [
+        {
+          "text": "気",
+          "kana": "き"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "为了",
+      "japanese": "為",
+      "kana": "ため",
+      "romaji": "tame",
+      "tokens": [
+        {
+          "text": "為",
+          "kana": "ため"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "时间",
+      "japanese": "時間",
+      "kana": "じかん",
+      "romaji": "jikan",
+      "tokens": [
+        {
+          "text": "時間",
+          "kana": "じかん"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "家人、家庭",
+      "japanese": "家族",
+      "kana": "かぞく",
+      "romaji": "kazoku",
+      "tokens": [
+        {
+          "text": "家族",
+          "kana": "かぞく"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "母亲",
+      "japanese": "母",
+      "kana": "はは",
+      "romaji": "haha",
+      "tokens": [
+        {
+          "text": "母",
+          "kana": "はは"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "现在；立马",
+      "japanese": "今",
+      "kana": "いま",
+      "romaji": "ima",
+      "tokens": [
+        {
+          "text": "今",
+          "kana": "いま"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "这次、下次",
+      "japanese": "今度",
+      "kana": "こんど",
+      "romaji": "kondo",
+      "tokens": [
+        {
+          "text": "今度",
+          "kana": "こんど"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "为了",
+      "japanese": "為",
+      "kana": "ため",
+      "romaji": "tame",
+      "tokens": [
+        {
+          "text": "為",
+          "kana": "ため"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "内心、心灵",
+      "japanese": "心",
+      "kana": "こころ",
+      "romaji": "kokoro",
+      "tokens": [
+        {
+          "text": "心",
+          "kana": "こころ"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "老师；医生；律师",
+      "japanese": "先生",
+      "kana": "せんせい",
+      "romaji": "sensei",
+      "tokens": [
+        {
+          "text": "先生",
+          "kana": "せんせい"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "学生",
+      "japanese": "学生",
+      "kana": "がくせい",
+      "romaji": "gakusei",
+      "tokens": [
+        {
+          "text": "学生",
+          "kana": "がくせい"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "下一个",
+      "japanese": "次",
+      "kana": "つぎ",
+      "romaji": "tsugi",
+      "tokens": [
+        {
+          "text": "次",
+          "kana": "つぎ"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "谁",
+      "japanese": "誰",
+      "kana": "だれ",
+      "romaji": "dare",
+      "tokens": [
+        {
+          "text": "誰",
+          "kana": "だれ"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "自己、自身",
+      "japanese": "自分",
+      "kana": "じぶん",
+      "romaji": "jibun",
+      "tokens": [
+        {
+          "text": "自分",
+          "kana": "じぶん"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "身体",
+      "japanese": "体",
+      "kana": "からだ",
+      "romaji": "karada",
+      "tokens": [
+        {
+          "text": "体",
+          "kana": "からだ"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "考试",
+      "japanese": "試験",
+      "kana": "しけん",
+      "romaji": "shiken",
+      "tokens": [
+        {
+          "text": "試験",
+          "kana": "しけん"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "心情；状况；氛围",
+      "japanese": "気分",
+      "kana": "きぶん",
+      "romaji": "kibun",
+      "tokens": [
+        {
+          "text": "気分",
+          "kana": "きぶん"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "气",
+      "japanese": "気",
+      "kana": "き",
+      "romaji": "ki",
+      "tokens": [
+        {
+          "text": "気",
+          "kana": "き"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "方法；人",
+      "japanese": "方",
+      "kana": "かた",
+      "romaji": "kata",
+      "tokens": [
+        {
+          "text": "方",
+          "kana": "かた"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "父亲",
+      "japanese": "父",
+      "kana": "ちち",
+      "romaji": "chichi",
+      "tokens": [
+        {
+          "text": "父",
+          "kana": "ちち"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "家、自己家",
+      "japanese": "家",
+      "kana": "うち",
+      "romaji": "uchi",
+      "tokens": [
+        {
+          "text": "家",
+          "kana": "うち"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "很多",
+      "japanese": "沢山",
+      "kana": "たくさん",
+      "romaji": "takusan",
+      "tokens": [
+        {
+          "text": "沢山",
+          "kana": "たくさん"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "语言、词汇、话",
+      "japanese": "言葉",
+      "kana": "ことば",
+      "romaji": "kotoba",
+      "tokens": [
+        {
+          "text": "言葉",
+          "kana": "ことば"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "家",
+      "japanese": "家",
+      "kana": "いえ",
+      "romaji": "ie",
+      "tokens": [
+        {
+          "text": "家",
+          "kana": "いえ"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "小孩子",
+      "japanese": "子",
+      "kana": "こ",
+      "romaji": "ko",
+      "tokens": [
+        {
+          "text": "子",
+          "kana": "こ"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "日元；圆",
+      "japanese": "円",
+      "kana": "えん",
+      "romaji": "en",
+      "tokens": [
+        {
+          "text": "円",
+          "kana": "えん"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "感受、心情；舒适程度",
+      "japanese": "気持ち",
+      "kana": "きもち",
+      "romaji": "kimochi",
+      "tokens": [
+        {
+          "text": "気持ち",
+          "kana": "きもち"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "意思",
+      "japanese": "意味",
+      "kana": "いみ",
+      "romaji": "imi",
+      "tokens": [
+        {
+          "text": "意味",
+          "kana": "いみ"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "家；内部",
+      "japanese": "内",
+      "kana": "うち",
+      "romaji": "uchi",
+      "tokens": [
+        {
+          "text": "内",
+          "kana": "うち"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "、女（おんな）男；女",
+      "japanese": "男",
+      "kana": "おとこ",
+      "romaji": "otoko",
+      "tokens": [
+        {
+          "text": "男",
+          "kana": "おとこ"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "时刻、左右",
+      "japanese": "頃",
+      "kana": "ころ",
+      "romaji": "koro",
+      "tokens": [
+        {
+          "text": "頃",
+          "kana": "ころ"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "上面、正上方",
+      "japanese": "上",
+      "kana": "うえ",
+      "romaji": "ue",
+      "tokens": [
+        {
+          "text": "上",
+          "kana": "うえ"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "身体",
+      "japanese": "体",
+      "kana": "からだ",
+      "romaji": "karada",
+      "tokens": [
+        {
+          "text": "体",
+          "kana": "からだ"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "时刻、左右",
+      "japanese": "頃",
+      "kana": "ころ",
+      "romaji": "koro",
+      "tokens": [
+        {
+          "text": "頃",
+          "kana": "ころ"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "老师；医生；律师",
+      "japanese": "先生",
+      "kana": "せんせい",
+      "romaji": "sensei",
+      "tokens": [
+        {
+          "text": "先生",
+          "kana": "せんせい"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "父亲",
+      "japanese": "父",
+      "kana": "ちち",
+      "romaji": "chichi",
+      "tokens": [
+        {
+          "text": "父",
+          "kana": "ちち"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "小孩子",
+      "japanese": "子",
+      "kana": "こ",
+      "romaji": "ko",
+      "tokens": [
+        {
+          "text": "子",
+          "kana": "こ"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "语言、词汇、话",
+      "japanese": "言葉",
+      "kana": "ことば",
+      "romaji": "kotoba",
+      "tokens": [
+        {
+          "text": "言葉",
+          "kana": "ことば"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "心情；状况；氛围",
+      "japanese": "気分",
+      "kana": "きぶん",
+      "romaji": "kibun",
+      "tokens": [
+        {
+          "text": "気分",
+          "kana": "きぶん"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "方法；人",
+      "japanese": "方",
+      "kana": "かた",
+      "romaji": "kata",
+      "tokens": [
+        {
+          "text": "方",
+          "kana": "かた"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "家、自己家",
+      "japanese": "家",
+      "kana": "うち",
+      "romaji": "uchi",
+      "tokens": [
+        {
+          "text": "家",
+          "kana": "うち"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "气",
+      "japanese": "気",
+      "kana": "き",
+      "romaji": "ki",
+      "tokens": [
+        {
+          "text": "気",
+          "kana": "き"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "学生",
+      "japanese": "学生",
+      "kana": "がくせい",
+      "romaji": "gakusei",
+      "tokens": [
+        {
+          "text": "学生",
+          "kana": "がくせい"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "现在；立马",
+      "japanese": "今",
+      "kana": "いま",
+      "romaji": "ima",
+      "tokens": [
+        {
+          "text": "今",
+          "kana": "いま"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "母亲",
+      "japanese": "母",
+      "kana": "はは",
+      "romaji": "haha",
+      "tokens": [
+        {
+          "text": "母",
+          "kana": "はは"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "自己、自身",
+      "japanese": "自分",
+      "kana": "じぶん",
+      "romaji": "jibun",
+      "tokens": [
+        {
+          "text": "自分",
+          "kana": "じぶん"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "日元；圆",
+      "japanese": "円",
+      "kana": "えん",
+      "romaji": "en",
+      "tokens": [
+        {
+          "text": "円",
+          "kana": "えん"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "意思",
+      "japanese": "意味",
+      "kana": "いみ",
+      "romaji": "imi",
+      "tokens": [
+        {
+          "text": "意味",
+          "kana": "いみ"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "考试",
+      "japanese": "試験",
+      "kana": "しけん",
+      "romaji": "shiken",
+      "tokens": [
+        {
+          "text": "試験",
+          "kana": "しけん"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "很多",
+      "japanese": "沢山",
+      "kana": "たくさん",
+      "romaji": "takusan",
+      "tokens": [
+        {
+          "text": "沢山",
+          "kana": "たくさん"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "下一个",
+      "japanese": "次",
+      "kana": "つぎ",
+      "romaji": "tsugi",
+      "tokens": [
+        {
+          "text": "次",
+          "kana": "つぎ"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "谁",
+      "japanese": "誰",
+      "kana": "だれ",
+      "romaji": "dare",
+      "tokens": [
+        {
+          "text": "誰",
+          "kana": "だれ"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "家人、家庭",
+      "japanese": "家族",
+      "kana": "かぞく",
+      "romaji": "kazoku",
+      "tokens": [
+        {
+          "text": "家族",
+          "kana": "かぞく"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "、女（おんな）男；女",
+      "japanese": "男",
+      "kana": "おとこ",
+      "romaji": "otoko",
+      "tokens": [
+        {
+          "text": "男",
+          "kana": "おとこ"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "内心、心灵",
+      "japanese": "心",
+      "kana": "こころ",
+      "romaji": "kokoro",
+      "tokens": [
+        {
+          "text": "心",
+          "kana": "こころ"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "上面、正上方",
+      "japanese": "上",
+      "kana": "うえ",
+      "romaji": "ue",
+      "tokens": [
+        {
+          "text": "上",
+          "kana": "うえ"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "家",
+      "japanese": "家",
+      "kana": "いえ",
+      "romaji": "ie",
+      "tokens": [
+        {
+          "text": "家",
+          "kana": "いえ"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "为了",
+      "japanese": "為",
+      "kana": "ため",
+      "romaji": "tame",
+      "tokens": [
+        {
+          "text": "為",
+          "kana": "ため"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "时间",
+      "japanese": "時間",
+      "kana": "じかん",
+      "romaji": "jikan",
+      "tokens": [
+        {
+          "text": "時間",
+          "kana": "じかん"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "家；内部",
+      "japanese": "内",
+      "kana": "うち",
+      "romaji": "uchi",
+      "tokens": [
+        {
+          "text": "内",
+          "kana": "うち"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "这次、下次",
+      "japanese": "今度",
+      "kana": "こんど",
+      "romaji": "kondo",
+      "tokens": [
+        {
+          "text": "今度",
+          "kana": "こんど"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "感受、心情；舒适程度",
+      "japanese": "気持ち",
+      "kana": "きもち",
+      "romaji": "kimochi",
+      "tokens": [
+        {
+          "text": "気持ち",
+          "kana": "きもち"
+        }
+      ]
+    }
+  ]
+}

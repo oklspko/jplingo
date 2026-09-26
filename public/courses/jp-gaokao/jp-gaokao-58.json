@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-58",
+  "coursePackId": "jp-gaokao",
+  "title": "外来语 5",
+  "order": 58,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "企鹅",
+      "japanese": "ペンギン",
+      "kana": "ぺんぎん",
+      "romaji": "pengin",
+      "tokens": [
+        {
+          "text": "ペンギン",
+          "kana": "ぺんぎん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "寄宿家庭",
+      "japanese": "ホームステイ",
+      "kana": "ほーむすてい",
+      "romaji": "hoomusutei",
+      "tokens": [
+        {
+          "text": "ホームステイ",
+          "kana": "ほーむすてい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "正的，加",
+      "japanese": "プラス",
+      "kana": "ぷらす",
+      "romaji": "purasu",
+      "tokens": [
+        {
+          "text": "プラス",
+          "kana": "ぷらす"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "塑料",
+      "japanese": "ビニール",
+      "kana": "びにーる",
+      "romaji": "biniiru",
+      "tokens": [
+        {
+          "text": "ビニール",
+          "kana": "びにーる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "塑料袋",
+      "japanese": "ビニール袋",
+      "kana": "びにーるぶくろ",
+      "romaji": "biniirubukuro",
+      "tokens": [
+        {
+          "text": "ビニール袋",
+          "kana": "びにーるぶくろ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "页",
+      "japanese": "ページ",
+      "kana": "ぺーじ",
+      "romaji": "peeji",
+      "tokens": [
+        {
+          "text": "ページ",
+          "kana": "ぺーじ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "阳台",
+      "japanese": "ベランダ",
+      "kana": "べらんだ",
+      "romaji": "beranda",
+      "tokens": [
+        {
+          "text": "ベランダ",
+          "kana": "べらんだ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "圆珠笔",
+      "japanese": "ボールペン",
+      "kana": "ぼーるぺん",
+      "romaji": "boorupen",
+      "tokens": [
+        {
+          "text": "ボールペン",
+          "kana": "ぼーるぺん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "巴士站",
+      "japanese": "バス停",
+      "kana": "ばすてい",
+      "romaji": "basutei",
+      "tokens": [
+        {
+          "text": "バス停",
+          "kana": "ばすてい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "签证",
+      "japanese": "ビザ",
+      "kana": "びざ",
+      "romaji": "biza",
+      "tokens": [
+        {
+          "text": "ビザ",
+          "kana": "びざ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "个人电脑",
+      "japanese": "パソコン",
+      "kana": "ぱそこん",
+      "romaji": "pasokon",
+      "tokens": [
+        {
+          "text": "パソコン",
+          "kana": "ぱそこん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "游泳池",
+      "japanese": "プール",
+      "kana": "ぷーる",
+      "romaji": "puuru",
+      "tokens": [
+        {
+          "text": "プール",
+          "kana": "ぷーる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "塑料瓶",
+      "japanese": "ペットボトル",
+      "kana": "ぺっとぼとる",
+      "romaji": "pettobotoru",
+      "tokens": [
+        {
+          "text": "ペットボトル",
+          "kana": "ぺっとぼとる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "排球",
+      "japanese": "バレーボール",
+      "kana": "ばれーぼーる",
+      "romaji": "bareebooru",
+      "tokens": [
+        {
+          "text": "バレーボール",
+          "kana": "ばれーぼーる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "商业",
+      "japanese": "ビジネス",
+      "kana": "びじねす",
+      "romaji": "bijinesu",
+      "tokens": [
+        {
+          "text": "ビジネス",
+          "kana": "びじねす"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "钢琴",
+      "japanese": "ピアノ",
+      "kana": "ぴあの",
+      "romaji": "piano",
+      "tokens": [
+        {
+          "text": "ピアノ",
+          "kana": "ぴあの"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "啤酒",
+      "japanese": "ビール",
+      "kana": "びーる",
+      "romaji": "biiru",
+      "tokens": [
+        {
+          "text": "ビール",
+          "kana": "びーる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "球",
+      "japanese": "ボール",
+      "kana": "ぼーる",
+      "romaji": "booru",
+      "tokens": [
+        {
+          "text": "ボール",
+          "kana": "ぼーる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "塑料",
+      "japanese": "プラスチック",
+      "kana": "ぷらすちっく",
+      "romaji": "purasuchikku",
+      "tokens": [
+        {
+          "text": "プラスチック",
+          "kana": "ぷらすちっく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "大厦",
+      "japanese": "ビル",
+      "kana": "びる",
+      "romaji": "biru",
+      "tokens": [
+        {
+          "text": "ビル",
+          "kana": "びる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "汉堡包",
+      "japanese": "ハンバーガー",
+      "kana": "はんばーがー",
+      "romaji": "hanbaagaa",
+      "tokens": [
+        {
+          "text": "ハンバーガー",
+          "kana": "はんばーがー"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "要点",
+      "japanese": "ポイント",
+      "kana": "ぽいんと",
+      "romaji": "pointo",
+      "tokens": [
+        {
+          "text": "ポイント",
+          "kana": "ぽいんと"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "礼物",
+      "japanese": "プレゼント",
+      "kana": "ぷれぜんと",
+      "romaji": "purezento",
+      "tokens": [
+        {
+          "text": "プレゼント",
+          "kana": "ぷれぜんと"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "面包",
+      "japanese": "パン",
+      "kana": "ぱん",
+      "romaji": "pan",
+      "tokens": [
+        {
+          "text": "パン",
+          "kana": "ぱん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "铃",
+      "japanese": "ベル",
+      "kana": "べる",
+      "romaji": "beru",
+      "tokens": [
+        {
+          "text": "ベル",
+          "kana": "べる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "纽扣",
+      "japanese": "ボタン",
+      "kana": "ぼたん",
+      "romaji": "botan",
+      "tokens": [
+        {
+          "text": "ボタン",
+          "kana": "ぼたん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "越南",
+      "japanese": "ベトナム",
+      "kana": "べとなむ",
+      "romaji": "betonamu",
+      "tokens": [
+        {
+          "text": "ベトナム",
+          "kana": "べとなむ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "笔",
+      "japanese": "ペン",
+      "kana": "ぺん",
+      "romaji": "pen",
+      "tokens": [
+        {
+          "text": "ペン",
+          "kana": "ぺん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "月台，家",
+      "japanese": "ホーム",
+      "kana": "ほーむ",
+      "romaji": "hoomu",
+      "tokens": [
+        {
+          "text": "ホーム",
+          "kana": "ほーむ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "录像，视频",
+      "japanese": "ビデオ",
+      "kana": "びでお",
+      "romaji": "bideo",
+      "tokens": [
+        {
+          "text": "ビデオ",
+          "kana": "びでお"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "巴士站",
+      "japanese": "バス停",
+      "kana": "ばすてい",
+      "romaji": "basutei",
+      "tokens": [
+        {
+          "text": "バス停",
+          "kana": "ばすてい"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "礼物",
+      "japanese": "プレゼント",
+      "kana": "ぷれぜんと",
+      "romaji": "purezento",
+      "tokens": [
+        {
+          "text": "プレゼント",
+          "kana": "ぷれぜんと"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "寄宿家庭",
+      "japanese": "ホームステイ",
+      "kana": "ほーむすてい",
+      "romaji": "hoomusutei",
+      "tokens": [
+        {
+          "text": "ホームステイ",
+          "kana": "ほーむすてい"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "塑料瓶",
+      "japanese": "ペットボトル",
+      "kana": "ぺっとぼとる",
+      "romaji": "pettobotoru",
+      "tokens": [
+        {
+          "text": "ペットボトル",
+          "kana": "ぺっとぼとる"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "面包",
+      "japanese": "パン",
+      "kana": "ぱん",
+      "romaji": "pan",
+      "tokens": [
+        {
+          "text": "パン",
+          "kana": "ぱん"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "球",
+      "japanese": "ボール",
+      "kana": "ぼーる",
+      "romaji": "booru",
+      "tokens": [
+        {
+          "text": "ボール",
+          "kana": "ぼーる"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "签证",
+      "japanese": "ビザ",
+      "kana": "びざ",
+      "romaji": "biza",
+      "tokens": [
+        {
+          "text": "ビザ",
+          "kana": "びざ"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "圆珠笔",
+      "japanese": "ボールペン",
+      "kana": "ぼーるぺん",
+      "romaji": "boorupen",
+      "tokens": [
+        {
+          "text": "ボールペン",
+          "kana": "ぼーるぺん"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "排球",
+      "japanese": "バレーボール",
+      "kana": "ばれーぼーる",
+      "romaji": "bareebooru",
+      "tokens": [
+        {
+          "text": "バレーボール",
+          "kana": "ばれーぼーる"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "塑料袋",
+      "japanese": "ビニール袋",
+      "kana": "びにーるぶくろ",
+      "romaji": "biniirubukuro",
+      "tokens": [
+        {
+          "text": "ビニール袋",
+          "kana": "びにーるぶくろ"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "商业",
+      "japanese": "ビジネス",
+      "kana": "びじねす",
+      "romaji": "bijinesu",
+      "tokens": [
+        {
+          "text": "ビジネス",
+          "kana": "びじねす"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "铃",
+      "japanese": "ベル",
+      "kana": "べる",
+      "romaji": "beru",
+      "tokens": [
+        {
+          "text": "ベル",
+          "kana": "べる"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "啤酒",
+      "japanese": "ビール",
+      "kana": "びーる",
+      "romaji": "biiru",
+      "tokens": [
+        {
+          "text": "ビール",
+          "kana": "びーる"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "阳台",
+      "japanese": "ベランダ",
+      "kana": "べらんだ",
+      "romaji": "beranda",
+      "tokens": [
+        {
+          "text": "ベランダ",
+          "kana": "べらんだ"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "纽扣",
+      "japanese": "ボタン",
+      "kana": "ぼたん",
+      "romaji": "botan",
+      "tokens": [
+        {
+          "text": "ボタン",
+          "kana": "ぼたん"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "企鹅",
+      "japanese": "ペンギン",
+      "kana": "ぺんぎん",
+      "romaji": "pengin",
+      "tokens": [
+        {
+          "text": "ペンギン",
+          "kana": "ぺんぎん"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "钢琴",
+      "japanese": "ピアノ",
+      "kana": "ぴあの",
+      "romaji": "piano",
+      "tokens": [
+        {
+          "text": "ピアノ",
+          "kana": "ぴあの"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "塑料",
+      "japanese": "ビニール",
+      "kana": "びにーる",
+      "romaji": "biniiru",
+      "tokens": [
+        {
+          "text": "ビニール",
+          "kana": "びにーる"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "正的，加",
+      "japanese": "プラス",
+      "kana": "ぷらす",
+      "romaji": "purasu",
+      "tokens": [
+        {
+          "text": "プラス",
+          "kana": "ぷらす"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "游泳池",
+      "japanese": "プール",
+      "kana": "ぷーる",
+      "romaji": "puuru",
+      "tokens": [
+        {
+          "text": "プール",
+          "kana": "ぷーる"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "月台，家",
+      "japanese": "ホーム",
+      "kana": "ほーむ",
+      "romaji": "hoomu",
+      "tokens": [
+        {
+          "text": "ホーム",
+          "kana": "ほーむ"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "录像，视频",
+      "japanese": "ビデオ",
+      "kana": "びでお",
+      "romaji": "bideo",
+      "tokens": [
+        {
+          "text": "ビデオ",
+          "kana": "びでお"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "个人电脑",
+      "japanese": "パソコン",
+      "kana": "ぱそこん",
+      "romaji": "pasokon",
+      "tokens": [
+        {
+          "text": "パソコン",
+          "kana": "ぱそこん"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "塑料",
+      "japanese": "プラスチック",
+      "kana": "ぷらすちっく",
+      "romaji": "purasuchikku",
+      "tokens": [
+        {
+          "text": "プラスチック",
+          "kana": "ぷらすちっく"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "页",
+      "japanese": "ページ",
+      "kana": "ぺーじ",
+      "romaji": "peeji",
+      "tokens": [
+        {
+          "text": "ページ",
+          "kana": "ぺーじ"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "汉堡包",
+      "japanese": "ハンバーガー",
+      "kana": "はんばーがー",
+      "romaji": "hanbaagaa",
+      "tokens": [
+        {
+          "text": "ハンバーガー",
+          "kana": "はんばーがー"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "要点",
+      "japanese": "ポイント",
+      "kana": "ぽいんと",
+      "romaji": "pointo",
+      "tokens": [
+        {
+          "text": "ポイント",
+          "kana": "ぽいんと"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "大厦",
+      "japanese": "ビル",
+      "kana": "びる",
+      "romaji": "biru",
+      "tokens": [
+        {
+          "text": "ビル",
+          "kana": "びる"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "越南",
+      "japanese": "ベトナム",
+      "kana": "べとなむ",
+      "romaji": "betonamu",
+      "tokens": [
+        {
+          "text": "ベトナム",
+          "kana": "べとなむ"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "笔",
+      "japanese": "ペン",
+      "kana": "ぺん",
+      "romaji": "pen",
+      "tokens": [
+        {
+          "text": "ペン",
+          "kana": "ぺん"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "录像，视频",
+      "japanese": "ビデオ",
+      "kana": "びでお",
+      "romaji": "bideo",
+      "tokens": [
+        {
+          "text": "ビデオ",
+          "kana": "びでお"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "排球",
+      "japanese": "バレーボール",
+      "kana": "ばれーぼーる",
+      "romaji": "bareebooru",
+      "tokens": [
+        {
+          "text": "バレーボール",
+          "kana": "ばれーぼーる"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "寄宿家庭",
+      "japanese": "ホームステイ",
+      "kana": "ほーむすてい",
+      "romaji": "hoomusutei",
+      "tokens": [
+        {
+          "text": "ホームステイ",
+          "kana": "ほーむすてい"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "纽扣",
+      "japanese": "ボタン",
+      "kana": "ぼたん",
+      "romaji": "botan",
+      "tokens": [
+        {
+          "text": "ボタン",
+          "kana": "ぼたん"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "阳台",
+      "japanese": "ベランダ",
+      "kana": "べらんだ",
+      "romaji": "beranda",
+      "tokens": [
+        {
+          "text": "ベランダ",
+          "kana": "べらんだ"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "商业",
+      "japanese": "ビジネス",
+      "kana": "びじねす",
+      "romaji": "bijinesu",
+      "tokens": [
+        {
+          "text": "ビジネス",
+          "kana": "びじねす"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "个人电脑",
+      "japanese": "パソコン",
+      "kana": "ぱそこん",
+      "romaji": "pasokon",
+      "tokens": [
+        {
+          "text": "パソコン",
+          "kana": "ぱそこん"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "笔",
+      "japanese": "ペン",
+      "kana": "ぺん",
+      "romaji": "pen",
+      "tokens": [
+        {
+          "text": "ペン",
+          "kana": "ぺん"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "圆珠笔",
+      "japanese": "ボールペン",
+      "kana": "ぼーるぺん",
+      "romaji": "boorupen",
+      "tokens": [
+        {
+          "text": "ボールペン",
+          "kana": "ぼーるぺん"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "巴士站",
+      "japanese": "バス停",
+      "kana": "ばすてい",
+      "romaji": "basutei",
+      "tokens": [
+        {
+          "text": "バス停",
+          "kana": "ばすてい"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "铃",
+      "japanese": "ベル",
+      "kana": "べる",
+      "romaji": "beru",
+      "tokens": [
+        {
+          "text": "ベル",
+          "kana": "べる"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "塑料",
+      "japanese": "プラスチック",
+      "kana": "ぷらすちっく",
+      "romaji": "purasuchikku",
+      "tokens": [
+        {
+          "text": "プラスチック",
+          "kana": "ぷらすちっく"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "大厦",
+      "japanese": "ビル",
+      "kana": "びる",
+      "romaji": "biru",
+      "tokens": [
+        {
+          "text": "ビル",
+          "kana": "びる"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "钢琴",
+      "japanese": "ピアノ",
+      "kana": "ぴあの",
+      "romaji": "piano",
+      "tokens": [
+        {
+          "text": "ピアノ",
+          "kana": "ぴあの"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "要点",
+      "japanese": "ポイント",
+      "kana": "ぽいんと",
+      "romaji": "pointo",
+      "tokens": [
+        {
+          "text": "ポイント",
+          "kana": "ぽいんと"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "塑料",
+      "japanese": "ビニール",
+      "kana": "びにーる",
+      "romaji": "biniiru",
+      "tokens": [
+        {
+          "text": "ビニール",
+          "kana": "びにーる"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "礼物",
+      "japanese": "プレゼント",
+      "kana": "ぷれぜんと",
+      "romaji": "purezento",
+      "tokens": [
+        {
+          "text": "プレゼント",
+          "kana": "ぷれぜんと"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "正的，加",
+      "japanese": "プラス",
+      "kana": "ぷらす",
+      "romaji": "purasu",
+      "tokens": [
+        {
+          "text": "プラス",
+          "kana": "ぷらす"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "越南",
+      "japanese": "ベトナム",
+      "kana": "べとなむ",
+      "romaji": "betonamu",
+      "tokens": [
+        {
+          "text": "ベトナム",
+          "kana": "べとなむ"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "签证",
+      "japanese": "ビザ",
+      "kana": "びざ",
+      "romaji": "biza",
+      "tokens": [
+        {
+          "text": "ビザ",
+          "kana": "びざ"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "塑料袋",
+      "japanese": "ビニール袋",
+      "kana": "びにーるぶくろ",
+      "romaji": "biniirubukuro",
+      "tokens": [
+        {
+          "text": "ビニール袋",
+          "kana": "びにーるぶくろ"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "汉堡包",
+      "japanese": "ハンバーガー",
+      "kana": "はんばーがー",
+      "romaji": "hanbaagaa",
+      "tokens": [
+        {
+          "text": "ハンバーガー",
+          "kana": "はんばーがー"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "页",
+      "japanese": "ページ",
+      "kana": "ぺーじ",
+      "romaji": "peeji",
+      "tokens": [
+        {
+          "text": "ページ",
+          "kana": "ぺーじ"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "游泳池",
+      "japanese": "プール",
+      "kana": "ぷーる",
+      "romaji": "puuru",
+      "tokens": [
+        {
+          "text": "プール",
+          "kana": "ぷーる"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "月台，家",
+      "japanese": "ホーム",
+      "kana": "ほーむ",
+      "romaji": "hoomu",
+      "tokens": [
+        {
+          "text": "ホーム",
+          "kana": "ほーむ"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "面包",
+      "japanese": "パン",
+      "kana": "ぱん",
+      "romaji": "pan",
+      "tokens": [
+        {
+          "text": "パン",
+          "kana": "ぱん"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "塑料瓶",
+      "japanese": "ペットボトル",
+      "kana": "ぺっとぼとる",
+      "romaji": "pettobotoru",
+      "tokens": [
+        {
+          "text": "ペットボトル",
+          "kana": "ぺっとぼとる"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "啤酒",
+      "japanese": "ビール",
+      "kana": "びーる",
+      "romaji": "biiru",
+      "tokens": [
+        {
+          "text": "ビール",
+          "kana": "びーる"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "企鹅",
+      "japanese": "ペンギン",
+      "kana": "ぺんぎん",
+      "romaji": "pengin",
+      "tokens": [
+        {
+          "text": "ペンギン",
+          "kana": "ぺんぎん"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "球",
+      "japanese": "ボール",
+      "kana": "ぼーる",
+      "romaji": "booru",
+      "tokens": [
+        {
+          "text": "ボール",
+          "kana": "ぼーる"
+        }
+      ]
+    }
+  ]
+}

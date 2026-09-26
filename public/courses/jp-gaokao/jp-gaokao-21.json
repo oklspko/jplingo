@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-21",
+  "coursePackId": "jp-gaokao",
+  "title": "副词高频 1",
+  "order": 21,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "真、真的、实在",
+      "japanese": "本当に",
+      "kana": "ほんとうに",
+      "romaji": "hontouni",
+      "tokens": [
+        {
+          "text": "本当に",
+          "kana": "ほんとうに"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "许多",
+      "japanese": "沢山",
+      "kana": "たくさん",
+      "romaji": "takusan",
+      "tokens": [
+        {
+          "text": "沢山",
+          "kana": "たくさん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "下次、此次",
+      "japanese": "今度",
+      "kana": "こんど",
+      "romaji": "kondo",
+      "tokens": [
+        {
+          "text": "今度",
+          "kana": "こんど"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "这样、如此",
+      "japanese": "こう",
+      "kana": "こう",
+      "romaji": "kou",
+      "tokens": [
+        {
+          "text": "こう",
+          "kana": "こう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "稍微、有点儿",
+      "japanese": "少し",
+      "kana": "すこし",
+      "romaji": "sukoshi",
+      "tokens": [
+        {
+          "text": "少し",
+          "kana": "すこし"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "怎样、如何",
+      "japanese": "どう",
+      "kana": "どう",
+      "romaji": "dou",
+      "tokens": [
+        {
+          "text": "どう",
+          "kana": "どう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "完全（不）",
+      "japanese": "全く",
+      "kana": "まったく",
+      "romaji": "mattaku",
+      "tokens": [
+        {
+          "text": "全く",
+          "kana": "まったく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "经常、总是",
+      "japanese": "いつも",
+      "kana": "いつも",
+      "romaji": "itsumo",
+      "tokens": [
+        {
+          "text": "いつも",
+          "kana": "いつも"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "最近、近来",
+      "japanese": "最近",
+      "kana": "さいきん",
+      "romaji": "saikin",
+      "tokens": [
+        {
+          "text": "最近",
+          "kana": "さいきん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "首先；不管怎样、总之",
+      "japanese": "まず",
+      "kana": "まず",
+      "romaji": "mazu",
+      "tokens": [
+        {
+          "text": "まず",
+          "kana": "まず"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "一同、一起",
+      "japanese": "一緒に",
+      "kana": "いっしょに",
+      "romaji": "isshoni",
+      "tokens": [
+        {
+          "text": "一緒に",
+          "kana": "いっしょに"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "非常、很",
+      "japanese": "とても",
+      "kana": "とても",
+      "romaji": "totemo",
+      "tokens": [
+        {
+          "text": "とても",
+          "kana": "とても"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "第一、最",
+      "japanese": "一番",
+      "kana": "いちばん",
+      "romaji": "ichiban",
+      "tokens": [
+        {
+          "text": "一番",
+          "kana": "いちばん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "必然、必须、肯定",
+      "japanese": "必ず",
+      "kana": "かならず",
+      "romaji": "kanarazu",
+      "tokens": [
+        {
+          "text": "必ず",
+          "kana": "かならず"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "还、还在、还未",
+      "japanese": "まだ",
+      "kana": "まだ",
+      "romaji": "mada",
+      "tokens": [
+        {
+          "text": "まだ",
+          "kana": "まだ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "现在、目前；刚刚",
+      "japanese": "今",
+      "kana": "いま",
+      "romaji": "ima",
+      "tokens": [
+        {
+          "text": "今",
+          "kana": "いま"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "那样的、那么",
+      "japanese": "そう",
+      "kana": "そう",
+      "romaji": "sou",
+      "tokens": [
+        {
+          "text": "そう",
+          "kana": "そう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "为何、为什么",
+      "japanese": "どうして",
+      "kana": "どうして",
+      "romaji": "doushite",
+      "tokens": [
+        {
+          "text": "どうして",
+          "kana": "どうして"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "为什么、为何",
+      "japanese": "なぜ",
+      "kana": "なぜ",
+      "romaji": "naze",
+      "tokens": [
+        {
+          "text": "なぜ",
+          "kana": "なぜ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "那样、那么",
+      "japanese": "ああ",
+      "kana": "ああ",
+      "romaji": "aa",
+      "tokens": [
+        {
+          "text": "ああ",
+          "kana": "ああ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "一点、稍微、有点",
+      "japanese": "ちょっと",
+      "kana": "ちょっと",
+      "romaji": "chotto",
+      "tokens": [
+        {
+          "text": "ちょっと",
+          "kana": "ちょっと"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "从现在起、今后、将来",
+      "japanese": "これから",
+      "kana": "これから",
+      "romaji": "korekara",
+      "tokens": [
+        {
+          "text": "これから",
+          "kana": "これから"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "立刻、马上；很快、附近",
+      "japanese": "すぐ",
+      "kana": "すぐ",
+      "romaji": "sugu",
+      "tokens": [
+        {
+          "text": "すぐ",
+          "kana": "すぐ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "立刻、马上",
+      "japanese": "すぐに",
+      "kana": "すぐに",
+      "romaji": "suguni",
+      "tokens": [
+        {
+          "text": "すぐに",
+          "kana": "すぐに"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "各种各样",
+      "japanese": "色々",
+      "kana": "いろいろ",
+      "romaji": "iroiro",
+      "tokens": [
+        {
+          "text": "色々",
+          "kana": "いろいろ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "已经；还要",
+      "japanese": "もう",
+      "kana": "もう",
+      "romaji": "mou",
+      "tokens": [
+        {
+          "text": "もう",
+          "kana": "もう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "经常；好好地",
+      "japanese": "よく",
+      "kana": "よく",
+      "romaji": "yoku",
+      "tokens": [
+        {
+          "text": "よく",
+          "kana": "よく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "不怎么；太过于",
+      "japanese": "あまり",
+      "kana": "あまり",
+      "romaji": "amari",
+      "tokens": [
+        {
+          "text": "あまり",
+          "kana": "あまり"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "再、还、又",
+      "japanese": "また",
+      "kana": "また",
+      "romaji": "mata",
+      "tokens": [
+        {
+          "text": "また",
+          "kana": "また"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "相当；难以",
+      "japanese": "なかなか",
+      "kana": "なかなか",
+      "romaji": "nakanaka",
+      "tokens": [
+        {
+          "text": "なかなか",
+          "kana": "なかなか"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "为什么、为何",
+      "japanese": "なぜ",
+      "kana": "なぜ",
+      "romaji": "naze",
+      "tokens": [
+        {
+          "text": "なぜ",
+          "kana": "なぜ"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "许多",
+      "japanese": "沢山",
+      "kana": "たくさん",
+      "romaji": "takusan",
+      "tokens": [
+        {
+          "text": "沢山",
+          "kana": "たくさん"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "各种各样",
+      "japanese": "色々",
+      "kana": "いろいろ",
+      "romaji": "iroiro",
+      "tokens": [
+        {
+          "text": "色々",
+          "kana": "いろいろ"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "下次、此次",
+      "japanese": "今度",
+      "kana": "こんど",
+      "romaji": "kondo",
+      "tokens": [
+        {
+          "text": "今度",
+          "kana": "こんど"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "第一、最",
+      "japanese": "一番",
+      "kana": "いちばん",
+      "romaji": "ichiban",
+      "tokens": [
+        {
+          "text": "一番",
+          "kana": "いちばん"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "必然、必须、肯定",
+      "japanese": "必ず",
+      "kana": "かならず",
+      "romaji": "kanarazu",
+      "tokens": [
+        {
+          "text": "必ず",
+          "kana": "かならず"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "经常；好好地",
+      "japanese": "よく",
+      "kana": "よく",
+      "romaji": "yoku",
+      "tokens": [
+        {
+          "text": "よく",
+          "kana": "よく"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "稍微、有点儿",
+      "japanese": "少し",
+      "kana": "すこし",
+      "romaji": "sukoshi",
+      "tokens": [
+        {
+          "text": "少し",
+          "kana": "すこし"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "再、还、又",
+      "japanese": "また",
+      "kana": "また",
+      "romaji": "mata",
+      "tokens": [
+        {
+          "text": "また",
+          "kana": "また"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "首先；不管怎样、总之",
+      "japanese": "まず",
+      "kana": "まず",
+      "romaji": "mazu",
+      "tokens": [
+        {
+          "text": "まず",
+          "kana": "まず"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "真、真的、实在",
+      "japanese": "本当に",
+      "kana": "ほんとうに",
+      "romaji": "hontouni",
+      "tokens": [
+        {
+          "text": "本当に",
+          "kana": "ほんとうに"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "立刻、马上",
+      "japanese": "すぐに",
+      "kana": "すぐに",
+      "romaji": "suguni",
+      "tokens": [
+        {
+          "text": "すぐに",
+          "kana": "すぐに"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "从现在起、今后、将来",
+      "japanese": "これから",
+      "kana": "これから",
+      "romaji": "korekara",
+      "tokens": [
+        {
+          "text": "これから",
+          "kana": "これから"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "不怎么；太过于",
+      "japanese": "あまり",
+      "kana": "あまり",
+      "romaji": "amari",
+      "tokens": [
+        {
+          "text": "あまり",
+          "kana": "あまり"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "为何、为什么",
+      "japanese": "どうして",
+      "kana": "どうして",
+      "romaji": "doushite",
+      "tokens": [
+        {
+          "text": "どうして",
+          "kana": "どうして"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "一点、稍微、有点",
+      "japanese": "ちょっと",
+      "kana": "ちょっと",
+      "romaji": "chotto",
+      "tokens": [
+        {
+          "text": "ちょっと",
+          "kana": "ちょっと"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "一同、一起",
+      "japanese": "一緒に",
+      "kana": "いっしょに",
+      "romaji": "isshoni",
+      "tokens": [
+        {
+          "text": "一緒に",
+          "kana": "いっしょに"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "最近、近来",
+      "japanese": "最近",
+      "kana": "さいきん",
+      "romaji": "saikin",
+      "tokens": [
+        {
+          "text": "最近",
+          "kana": "さいきん"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "经常、总是",
+      "japanese": "いつも",
+      "kana": "いつも",
+      "romaji": "itsumo",
+      "tokens": [
+        {
+          "text": "いつも",
+          "kana": "いつも"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "那样、那么",
+      "japanese": "ああ",
+      "kana": "ああ",
+      "romaji": "aa",
+      "tokens": [
+        {
+          "text": "ああ",
+          "kana": "ああ"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "相当；难以",
+      "japanese": "なかなか",
+      "kana": "なかなか",
+      "romaji": "nakanaka",
+      "tokens": [
+        {
+          "text": "なかなか",
+          "kana": "なかなか"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "还、还在、还未",
+      "japanese": "まだ",
+      "kana": "まだ",
+      "romaji": "mada",
+      "tokens": [
+        {
+          "text": "まだ",
+          "kana": "まだ"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "已经；还要",
+      "japanese": "もう",
+      "kana": "もう",
+      "romaji": "mou",
+      "tokens": [
+        {
+          "text": "もう",
+          "kana": "もう"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "那样的、那么",
+      "japanese": "そう",
+      "kana": "そう",
+      "romaji": "sou",
+      "tokens": [
+        {
+          "text": "そう",
+          "kana": "そう"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "非常、很",
+      "japanese": "とても",
+      "kana": "とても",
+      "romaji": "totemo",
+      "tokens": [
+        {
+          "text": "とても",
+          "kana": "とても"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "现在、目前；刚刚",
+      "japanese": "今",
+      "kana": "いま",
+      "romaji": "ima",
+      "tokens": [
+        {
+          "text": "今",
+          "kana": "いま"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "这样、如此",
+      "japanese": "こう",
+      "kana": "こう",
+      "romaji": "kou",
+      "tokens": [
+        {
+          "text": "こう",
+          "kana": "こう"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "怎样、如何",
+      "japanese": "どう",
+      "kana": "どう",
+      "romaji": "dou",
+      "tokens": [
+        {
+          "text": "どう",
+          "kana": "どう"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "完全（不）",
+      "japanese": "全く",
+      "kana": "まったく",
+      "romaji": "mattaku",
+      "tokens": [
+        {
+          "text": "全く",
+          "kana": "まったく"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "立刻、马上；很快、附近",
+      "japanese": "すぐ",
+      "kana": "すぐ",
+      "romaji": "sugu",
+      "tokens": [
+        {
+          "text": "すぐ",
+          "kana": "すぐ"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "立刻、马上",
+      "japanese": "すぐに",
+      "kana": "すぐに",
+      "romaji": "suguni",
+      "tokens": [
+        {
+          "text": "すぐに",
+          "kana": "すぐに"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "稍微、有点儿",
+      "japanese": "少し",
+      "kana": "すこし",
+      "romaji": "sukoshi",
+      "tokens": [
+        {
+          "text": "少し",
+          "kana": "すこし"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "下次、此次",
+      "japanese": "今度",
+      "kana": "こんど",
+      "romaji": "kondo",
+      "tokens": [
+        {
+          "text": "今度",
+          "kana": "こんど"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "真、真的、实在",
+      "japanese": "本当に",
+      "kana": "ほんとうに",
+      "romaji": "hontouni",
+      "tokens": [
+        {
+          "text": "本当に",
+          "kana": "ほんとうに"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "相当；难以",
+      "japanese": "なかなか",
+      "kana": "なかなか",
+      "romaji": "nakanaka",
+      "tokens": [
+        {
+          "text": "なかなか",
+          "kana": "なかなか"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "为什么、为何",
+      "japanese": "なぜ",
+      "kana": "なぜ",
+      "romaji": "naze",
+      "tokens": [
+        {
+          "text": "なぜ",
+          "kana": "なぜ"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "一点、稍微、有点",
+      "japanese": "ちょっと",
+      "kana": "ちょっと",
+      "romaji": "chotto",
+      "tokens": [
+        {
+          "text": "ちょっと",
+          "kana": "ちょっと"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "再、还、又",
+      "japanese": "また",
+      "kana": "また",
+      "romaji": "mata",
+      "tokens": [
+        {
+          "text": "また",
+          "kana": "また"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "还、还在、还未",
+      "japanese": "まだ",
+      "kana": "まだ",
+      "romaji": "mada",
+      "tokens": [
+        {
+          "text": "まだ",
+          "kana": "まだ"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "怎样、如何",
+      "japanese": "どう",
+      "kana": "どう",
+      "romaji": "dou",
+      "tokens": [
+        {
+          "text": "どう",
+          "kana": "どう"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "已经；还要",
+      "japanese": "もう",
+      "kana": "もう",
+      "romaji": "mou",
+      "tokens": [
+        {
+          "text": "もう",
+          "kana": "もう"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "第一、最",
+      "japanese": "一番",
+      "kana": "いちばん",
+      "romaji": "ichiban",
+      "tokens": [
+        {
+          "text": "一番",
+          "kana": "いちばん"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "这样、如此",
+      "japanese": "こう",
+      "kana": "こう",
+      "romaji": "kou",
+      "tokens": [
+        {
+          "text": "こう",
+          "kana": "こう"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "一同、一起",
+      "japanese": "一緒に",
+      "kana": "いっしょに",
+      "romaji": "isshoni",
+      "tokens": [
+        {
+          "text": "一緒に",
+          "kana": "いっしょに"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "为何、为什么",
+      "japanese": "どうして",
+      "kana": "どうして",
+      "romaji": "doushite",
+      "tokens": [
+        {
+          "text": "どうして",
+          "kana": "どうして"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "许多",
+      "japanese": "沢山",
+      "kana": "たくさん",
+      "romaji": "takusan",
+      "tokens": [
+        {
+          "text": "沢山",
+          "kana": "たくさん"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "那样、那么",
+      "japanese": "ああ",
+      "kana": "ああ",
+      "romaji": "aa",
+      "tokens": [
+        {
+          "text": "ああ",
+          "kana": "ああ"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "完全（不）",
+      "japanese": "全く",
+      "kana": "まったく",
+      "romaji": "mattaku",
+      "tokens": [
+        {
+          "text": "全く",
+          "kana": "まったく"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "立刻、马上；很快、附近",
+      "japanese": "すぐ",
+      "kana": "すぐ",
+      "romaji": "sugu",
+      "tokens": [
+        {
+          "text": "すぐ",
+          "kana": "すぐ"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "现在、目前；刚刚",
+      "japanese": "今",
+      "kana": "いま",
+      "romaji": "ima",
+      "tokens": [
+        {
+          "text": "今",
+          "kana": "いま"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "非常、很",
+      "japanese": "とても",
+      "kana": "とても",
+      "romaji": "totemo",
+      "tokens": [
+        {
+          "text": "とても",
+          "kana": "とても"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "首先；不管怎样、总之",
+      "japanese": "まず",
+      "kana": "まず",
+      "romaji": "mazu",
+      "tokens": [
+        {
+          "text": "まず",
+          "kana": "まず"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "各种各样",
+      "japanese": "色々",
+      "kana": "いろいろ",
+      "romaji": "iroiro",
+      "tokens": [
+        {
+          "text": "色々",
+          "kana": "いろいろ"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "经常、总是",
+      "japanese": "いつも",
+      "kana": "いつも",
+      "romaji": "itsumo",
+      "tokens": [
+        {
+          "text": "いつも",
+          "kana": "いつも"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "最近、近来",
+      "japanese": "最近",
+      "kana": "さいきん",
+      "romaji": "saikin",
+      "tokens": [
+        {
+          "text": "最近",
+          "kana": "さいきん"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "那样的、那么",
+      "japanese": "そう",
+      "kana": "そう",
+      "romaji": "sou",
+      "tokens": [
+        {
+          "text": "そう",
+          "kana": "そう"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "从现在起、今后、将来",
+      "japanese": "これから",
+      "kana": "これから",
+      "romaji": "korekara",
+      "tokens": [
+        {
+          "text": "これから",
+          "kana": "これから"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "必然、必须、肯定",
+      "japanese": "必ず",
+      "kana": "かならず",
+      "romaji": "kanarazu",
+      "tokens": [
+        {
+          "text": "必ず",
+          "kana": "かならず"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "不怎么；太过于",
+      "japanese": "あまり",
+      "kana": "あまり",
+      "romaji": "amari",
+      "tokens": [
+        {
+          "text": "あまり",
+          "kana": "あまり"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "经常；好好地",
+      "japanese": "よく",
+      "kana": "よく",
+      "romaji": "yoku",
+      "tokens": [
+        {
+          "text": "よく",
+          "kana": "よく"
+        }
+      ]
+    }
+  ]
+}

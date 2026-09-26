@@ -1,0 +1,632 @@
+{
+  "id": "jp-gaokao-33",
+  "coursePackId": "jp-gaokao",
+  "title": "名词高频 5",
+  "order": 33,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "衣服、服装",
+      "japanese": "服",
+      "kana": "ふく",
+      "romaji": "fuku",
+      "tokens": [
+        {
+          "text": "服",
+          "kana": "ふく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "计划、安排",
+      "japanese": "予定",
+      "kana": "よてい",
+      "romaji": "yotei",
+      "tokens": [
+        {
+          "text": "予定",
+          "kana": "よてい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "文化",
+      "japanese": "文化",
+      "kana": "ぶんか",
+      "romaji": "bunka",
+      "tokens": [
+        {
+          "text": "文化",
+          "kana": "ぶんか"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "行李",
+      "japanese": "荷物",
+      "kana": "にもつ",
+      "romaji": "nimotsu",
+      "tokens": [
+        {
+          "text": "荷物",
+          "kana": "にもつ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "场所、位置",
+      "japanese": "場所",
+      "kana": "ばしょ",
+      "romaji": "basho",
+      "tokens": [
+        {
+          "text": "場所",
+          "kana": "ばしょ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "箱子",
+      "japanese": "箱",
+      "kana": "はこ",
+      "romaji": "hako",
+      "tokens": [
+        {
+          "text": "箱",
+          "kana": "はこ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "故乡、家乡、老家",
+      "japanese": "故郷",
+      "kana": "ふるさと",
+      "romaji": "furusato",
+      "tokens": [
+        {
+          "text": "故郷",
+          "kana": "ふるさと"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "晚饭",
+      "japanese": "夕食",
+      "kana": "ゆうしょく",
+      "romaji": "yuushoku",
+      "tokens": [
+        {
+          "text": "夕食",
+          "kana": "ゆうしょく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "目的",
+      "japanese": "目的",
+      "kana": "もくてき",
+      "romaji": "mokuteki",
+      "tokens": [
+        {
+          "text": "目的",
+          "kana": "もくてき"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "下周",
+      "japanese": "来週",
+      "kana": "らいしゅう",
+      "romaji": "raishuu",
+      "tokens": [
+        {
+          "text": "来週",
+          "kana": "らいしゅう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "房间",
+      "japanese": "部屋",
+      "kana": "へや",
+      "romaji": "heya",
+      "tokens": [
+        {
+          "text": "部屋",
+          "kana": "へや"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "每个人，人人",
+      "japanese": "人々",
+      "kana": "ひとびと",
+      "romaji": "hitobito",
+      "tokens": [
+        {
+          "text": "人々",
+          "kana": "ひとびと"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "表现、表达",
+      "japanese": "表現",
+      "kana": "ひょうげん",
+      "romaji": "hyougen",
+      "tokens": [
+        {
+          "text": "表現",
+          "kana": "ひょうげん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "春天、春季",
+      "japanese": "春",
+      "kana": "はる",
+      "romaji": "haru",
+      "tokens": [
+        {
+          "text": "春",
+          "kana": "はる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "理解",
+      "japanese": "理解",
+      "kana": "りかい",
+      "romaji": "rikai",
+      "tokens": [
+        {
+          "text": "理解",
+          "kana": "りかい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "山",
+      "japanese": "山",
+      "kana": "やま",
+      "romaji": "yama",
+      "tokens": [
+        {
+          "text": "山",
+          "kana": "やま"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "行李",
+      "japanese": "荷物",
+      "kana": "にもつ",
+      "romaji": "nimotsu",
+      "tokens": [
+        {
+          "text": "荷物",
+          "kana": "にもつ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "场所、位置",
+      "japanese": "場所",
+      "kana": "ばしょ",
+      "romaji": "basho",
+      "tokens": [
+        {
+          "text": "場所",
+          "kana": "ばしょ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "春天、春季",
+      "japanese": "春",
+      "kana": "はる",
+      "romaji": "haru",
+      "tokens": [
+        {
+          "text": "春",
+          "kana": "はる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "箱子",
+      "japanese": "箱",
+      "kana": "はこ",
+      "romaji": "hako",
+      "tokens": [
+        {
+          "text": "箱",
+          "kana": "はこ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "衣服、服装",
+      "japanese": "服",
+      "kana": "ふく",
+      "romaji": "fuku",
+      "tokens": [
+        {
+          "text": "服",
+          "kana": "ふく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "目的",
+      "japanese": "目的",
+      "kana": "もくてき",
+      "romaji": "mokuteki",
+      "tokens": [
+        {
+          "text": "目的",
+          "kana": "もくてき"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "下周",
+      "japanese": "来週",
+      "kana": "らいしゅう",
+      "romaji": "raishuu",
+      "tokens": [
+        {
+          "text": "来週",
+          "kana": "らいしゅう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "房间",
+      "japanese": "部屋",
+      "kana": "へや",
+      "romaji": "heya",
+      "tokens": [
+        {
+          "text": "部屋",
+          "kana": "へや"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "晚饭",
+      "japanese": "夕食",
+      "kana": "ゆうしょく",
+      "romaji": "yuushoku",
+      "tokens": [
+        {
+          "text": "夕食",
+          "kana": "ゆうしょく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "理解",
+      "japanese": "理解",
+      "kana": "りかい",
+      "romaji": "rikai",
+      "tokens": [
+        {
+          "text": "理解",
+          "kana": "りかい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "表现、表达",
+      "japanese": "表現",
+      "kana": "ひょうげん",
+      "romaji": "hyougen",
+      "tokens": [
+        {
+          "text": "表現",
+          "kana": "ひょうげん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "计划、安排",
+      "japanese": "予定",
+      "kana": "よてい",
+      "romaji": "yotei",
+      "tokens": [
+        {
+          "text": "予定",
+          "kana": "よてい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "每个人，人人",
+      "japanese": "人々",
+      "kana": "ひとびと",
+      "romaji": "hitobito",
+      "tokens": [
+        {
+          "text": "人々",
+          "kana": "ひとびと"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "故乡、家乡、老家",
+      "japanese": "故郷",
+      "kana": "ふるさと",
+      "romaji": "furusato",
+      "tokens": [
+        {
+          "text": "故郷",
+          "kana": "ふるさと"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "山",
+      "japanese": "山",
+      "kana": "やま",
+      "romaji": "yama",
+      "tokens": [
+        {
+          "text": "山",
+          "kana": "やま"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "文化",
+      "japanese": "文化",
+      "kana": "ぶんか",
+      "romaji": "bunka",
+      "tokens": [
+        {
+          "text": "文化",
+          "kana": "ぶんか"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "晚饭",
+      "japanese": "夕食",
+      "kana": "ゆうしょく",
+      "romaji": "yuushoku",
+      "tokens": [
+        {
+          "text": "夕食",
+          "kana": "ゆうしょく"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "房间",
+      "japanese": "部屋",
+      "kana": "へや",
+      "romaji": "heya",
+      "tokens": [
+        {
+          "text": "部屋",
+          "kana": "へや"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "山",
+      "japanese": "山",
+      "kana": "やま",
+      "romaji": "yama",
+      "tokens": [
+        {
+          "text": "山",
+          "kana": "やま"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "目的",
+      "japanese": "目的",
+      "kana": "もくてき",
+      "romaji": "mokuteki",
+      "tokens": [
+        {
+          "text": "目的",
+          "kana": "もくてき"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "春天、春季",
+      "japanese": "春",
+      "kana": "はる",
+      "romaji": "haru",
+      "tokens": [
+        {
+          "text": "春",
+          "kana": "はる"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "故乡、家乡、老家",
+      "japanese": "故郷",
+      "kana": "ふるさと",
+      "romaji": "furusato",
+      "tokens": [
+        {
+          "text": "故郷",
+          "kana": "ふるさと"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "文化",
+      "japanese": "文化",
+      "kana": "ぶんか",
+      "romaji": "bunka",
+      "tokens": [
+        {
+          "text": "文化",
+          "kana": "ぶんか"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "每个人，人人",
+      "japanese": "人々",
+      "kana": "ひとびと",
+      "romaji": "hitobito",
+      "tokens": [
+        {
+          "text": "人々",
+          "kana": "ひとびと"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "衣服、服装",
+      "japanese": "服",
+      "kana": "ふく",
+      "romaji": "fuku",
+      "tokens": [
+        {
+          "text": "服",
+          "kana": "ふく"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "箱子",
+      "japanese": "箱",
+      "kana": "はこ",
+      "romaji": "hako",
+      "tokens": [
+        {
+          "text": "箱",
+          "kana": "はこ"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "下周",
+      "japanese": "来週",
+      "kana": "らいしゅう",
+      "romaji": "raishuu",
+      "tokens": [
+        {
+          "text": "来週",
+          "kana": "らいしゅう"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "场所、位置",
+      "japanese": "場所",
+      "kana": "ばしょ",
+      "romaji": "basho",
+      "tokens": [
+        {
+          "text": "場所",
+          "kana": "ばしょ"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "计划、安排",
+      "japanese": "予定",
+      "kana": "よてい",
+      "romaji": "yotei",
+      "tokens": [
+        {
+          "text": "予定",
+          "kana": "よてい"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "行李",
+      "japanese": "荷物",
+      "kana": "にもつ",
+      "romaji": "nimotsu",
+      "tokens": [
+        {
+          "text": "荷物",
+          "kana": "にもつ"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "理解",
+      "japanese": "理解",
+      "kana": "りかい",
+      "romaji": "rikai",
+      "tokens": [
+        {
+          "text": "理解",
+          "kana": "りかい"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "表现、表达",
+      "japanese": "表現",
+      "kana": "ひょうげん",
+      "romaji": "hyougen",
+      "tokens": [
+        {
+          "text": "表現",
+          "kana": "ひょうげん"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "id": "jp-gaokao-60",
+  "coursePackId": "jp-gaokao",
+  "title": "外来语 7",
+  "order": 60,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "大厅",
+      "japanese": "ロビー",
+      "kana": "ろびー",
+      "romaji": "robii",
+      "tokens": [
+        {
+          "text": "ロビー",
+          "kana": "ろびー"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "口罩",
+      "japanese": "マスク",
+      "kana": "ますく",
+      "romaji": "masuku",
+      "tokens": [
+        {
+          "text": "マスク",
+          "kana": "ますく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "病毒",
+      "japanese": "ウイルス",
+      "kana": "ういるす",
+      "romaji": "uirusu",
+      "tokens": [
+        {
+          "text": "ウイルス",
+          "kana": "ういるす"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "机器人",
+      "japanese": "ロボット",
+      "kana": "ろぼっと",
+      "romaji": "robotto",
+      "tokens": [
+        {
+          "text": "ロボット",
+          "kana": "ろぼっと"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "储物柜",
+      "japanese": "ロッカー",
+      "kana": "ろっかー",
+      "romaji": "rokkaa",
+      "tokens": [
+        {
+          "text": "ロッカー",
+          "kana": "ろっかー"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "连衣裙",
+      "japanese": "ワンピース",
+      "kana": "わんぴーす",
+      "romaji": "wanpiisu",
+      "tokens": [
+        {
+          "text": "ワンピース",
+          "kana": "わんぴーす"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "新冠病毒",
+      "japanese": "コロナウイルス",
+      "kana": "ころなういるす",
+      "romaji": "koronauirusu",
+      "tokens": [
+        {
+          "text": "コロナウイルス",
+          "kana": "ころなういるす"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "口罩",
+      "japanese": "マスク",
+      "kana": "ますく",
+      "romaji": "masuku",
+      "tokens": [
+        {
+          "text": "マスク",
+          "kana": "ますく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "新冠病毒",
+      "japanese": "コロナウイルス",
+      "kana": "ころなういるす",
+      "romaji": "koronauirusu",
+      "tokens": [
+        {
+          "text": "コロナウイルス",
+          "kana": "ころなういるす"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "大厅",
+      "japanese": "ロビー",
+      "kana": "ろびー",
+      "romaji": "robii",
+      "tokens": [
+        {
+          "text": "ロビー",
+          "kana": "ろびー"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "病毒",
+      "japanese": "ウイルス",
+      "kana": "ういるす",
+      "romaji": "uirusu",
+      "tokens": [
+        {
+          "text": "ウイルス",
+          "kana": "ういるす"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "机器人",
+      "japanese": "ロボット",
+      "kana": "ろぼっと",
+      "romaji": "robotto",
+      "tokens": [
+        {
+          "text": "ロボット",
+          "kana": "ろぼっと"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "连衣裙",
+      "japanese": "ワンピース",
+      "kana": "わんぴーす",
+      "romaji": "wanpiisu",
+      "tokens": [
+        {
+          "text": "ワンピース",
+          "kana": "わんぴーす"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "储物柜",
+      "japanese": "ロッカー",
+      "kana": "ろっかー",
+      "romaji": "rokkaa",
+      "tokens": [
+        {
+          "text": "ロッカー",
+          "kana": "ろっかー"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "储物柜",
+      "japanese": "ロッカー",
+      "kana": "ろっかー",
+      "romaji": "rokkaa",
+      "tokens": [
+        {
+          "text": "ロッカー",
+          "kana": "ろっかー"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "新冠病毒",
+      "japanese": "コロナウイルス",
+      "kana": "ころなういるす",
+      "romaji": "koronauirusu",
+      "tokens": [
+        {
+          "text": "コロナウイルス",
+          "kana": "ころなういるす"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "病毒",
+      "japanese": "ウイルス",
+      "kana": "ういるす",
+      "romaji": "uirusu",
+      "tokens": [
+        {
+          "text": "ウイルス",
+          "kana": "ういるす"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "连衣裙",
+      "japanese": "ワンピース",
+      "kana": "わんぴーす",
+      "romaji": "wanpiisu",
+      "tokens": [
+        {
+          "text": "ワンピース",
+          "kana": "わんぴーす"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "大厅",
+      "japanese": "ロビー",
+      "kana": "ろびー",
+      "romaji": "robii",
+      "tokens": [
+        {
+          "text": "ロビー",
+          "kana": "ろびー"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "口罩",
+      "japanese": "マスク",
+      "kana": "ますく",
+      "romaji": "masuku",
+      "tokens": [
+        {
+          "text": "マスク",
+          "kana": "ますく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "机器人",
+      "japanese": "ロボット",
+      "kana": "ろぼっと",
+      "romaji": "robotto",
+      "tokens": [
+        {
+          "text": "ロボット",
+          "kana": "ろぼっと"
+        }
+      ]
+    }
+  ]
+}

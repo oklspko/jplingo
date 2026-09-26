@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-48",
+  "coursePackId": "jp-gaokao",
+  "title": "名词低频 15",
+  "order": 48,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "表情",
+      "japanese": "表情",
+      "kana": "ひょうじょう",
+      "romaji": "hyoujou",
+      "tokens": [
+        {
+          "text": "表情",
+          "kana": "ひょうじょう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "评价、口碑",
+      "japanese": "評判",
+      "kana": "ひょうばん",
+      "romaji": "hyouban",
+      "tokens": [
+        {
+          "text": "評判",
+          "kana": "ひょうばん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "空闲、闲暇",
+      "japanese": "暇",
+      "kana": "ひま",
+      "romaji": "hima",
+      "tokens": [
+        {
+          "text": "暇",
+          "kana": "ひま"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "封面",
+      "japanese": "表紙",
+      "kana": "ひょうし",
+      "romaji": "hyoushi",
+      "tokens": [
+        {
+          "text": "表紙",
+          "kana": "ひょうし"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "每个人、一个一个",
+      "japanese": "一人一人",
+      "kana": "ひとりひとり",
+      "romaji": "hitorihitori",
+      "tokens": [
+        {
+          "text": "一人一人",
+          "kana": "ひとりひとり"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "费用",
+      "japanese": "費用",
+      "kana": "ひよう",
+      "romaji": "hiyou",
+      "tokens": [
+        {
+          "text": "費用",
+          "kana": "ひよう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "号码",
+      "japanese": "番号",
+      "kana": "ばんごう",
+      "romaji": "bangou",
+      "tokens": [
+        {
+          "text": "番号",
+          "kana": "ばんごう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "医院",
+      "japanese": "病院",
+      "kana": "びょういん",
+      "romaji": "byouin",
+      "tokens": [
+        {
+          "text": "病院",
+          "kana": "びょういん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "两个人",
+      "japanese": "二人",
+      "kana": "ふたり",
+      "romaji": "futari",
+      "tokens": [
+        {
+          "text": "二人",
+          "kana": "ふたり"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "表面",
+      "japanese": "表面",
+      "kana": "ひょうめん",
+      "romaji": "hyoumen",
+      "tokens": [
+        {
+          "text": "表面",
+          "kana": "ひょうめん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "福利",
+      "japanese": "福祉",
+      "kana": "ふくし",
+      "romaji": "fukushi",
+      "tokens": [
+        {
+          "text": "福祉",
+          "kana": "ふくし"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "午睡",
+      "japanese": "昼寝",
+      "kana": "ひるね",
+      "romaji": "hirune",
+      "tokens": [
+        {
+          "text": "昼寝",
+          "kana": "ひるね"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "评价",
+      "japanese": "評価",
+      "kana": "ひょうか",
+      "romaji": "hyouka",
+      "tokens": [
+        {
+          "text": "評価",
+          "kana": "ひょうか"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "瓶子",
+      "japanese": "瓶",
+      "kana": "びん",
+      "romaji": "bin",
+      "tokens": [
+        {
+          "text": "瓶",
+          "kana": "びん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "美术",
+      "japanese": "美術",
+      "kana": "びじゅつ",
+      "romaji": "bijutsu",
+      "tokens": [
+        {
+          "text": "美術",
+          "kana": "びじゅつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "飞机",
+      "japanese": "飛行機",
+      "kana": "ひこうき",
+      "romaji": "hikouki",
+      "tokens": [
+        {
+          "text": "飛行機",
+          "kana": "ひこうき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "午饭",
+      "japanese": "昼ご飯",
+      "kana": "ひるごはん",
+      "romaji": "hirugohan",
+      "tokens": [
+        {
+          "text": "昼ご飯",
+          "kana": "ひるごはん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "复习",
+      "japanese": "復習",
+      "kana": "ふくしゅう",
+      "romaji": "fukushuu",
+      "tokens": [
+        {
+          "text": "復習",
+          "kana": "ふくしゅう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "一个、一岁",
+      "japanese": "一つ",
+      "kana": "ひとつ",
+      "romaji": "hitotsu",
+      "tokens": [
+        {
+          "text": "一つ",
+          "kana": "ひとつ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "否定",
+      "japanese": "否定",
+      "kana": "ひてい",
+      "romaji": "hitei",
+      "tokens": [
+        {
+          "text": "否定",
+          "kana": "ひてい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "倒霉、吃苦头",
+      "japanese": "ひどい目",
+      "kana": "ひどいめ",
+      "romaji": "hidoime",
+      "tokens": [
+        {
+          "text": "ひどい目",
+          "kana": "ひどいめ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "晚饭",
+      "japanese": "晩ご飯",
+      "kana": "ばんごはん",
+      "romaji": "bangohan",
+      "tokens": [
+        {
+          "text": "晩ご飯",
+          "kana": "ばんごはん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "平时，平常",
+      "japanese": "普段",
+      "kana": "ふだん",
+      "romaji": "fudan",
+      "tokens": [
+        {
+          "text": "普段",
+          "kana": "ふだん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "不充分",
+      "japanese": "不十分",
+      "kana": "ふじゅうぶん",
+      "romaji": "fujuubun",
+      "tokens": [
+        {
+          "text": "不十分",
+          "kana": "ふじゅうぶん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "判断",
+      "japanese": "判断",
+      "kana": "はんだん",
+      "romaji": "handan",
+      "tokens": [
+        {
+          "text": "判断",
+          "kana": "はんだん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "半年",
+      "japanese": "半年",
+      "kana": "はんとし",
+      "romaji": "hantoshi",
+      "tokens": [
+        {
+          "text": "半年",
+          "kana": "はんとし"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "袋子",
+      "japanese": "袋",
+      "kana": "ふくろ",
+      "romaji": "fukuro",
+      "tokens": [
+        {
+          "text": "袋",
+          "kana": "ふくろ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "东、东方",
+      "japanese": "東",
+      "kana": "ひがし",
+      "romaji": "higashi",
+      "tokens": [
+        {
+          "text": "東",
+          "kana": "ひがし"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "广场",
+      "japanese": "広場",
+      "kana": "ひろば",
+      "romaji": "hiroba",
+      "tokens": [
+        {
+          "text": "広場",
+          "kana": "ひろば"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "秘密",
+      "japanese": "秘密",
+      "kana": "ひみつ",
+      "romaji": "himitsu",
+      "tokens": [
+        {
+          "text": "秘密",
+          "kana": "ひみつ"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "袋子",
+      "japanese": "袋",
+      "kana": "ふくろ",
+      "romaji": "fukuro",
+      "tokens": [
+        {
+          "text": "袋",
+          "kana": "ふくろ"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "晚饭",
+      "japanese": "晩ご飯",
+      "kana": "ばんごはん",
+      "romaji": "bangohan",
+      "tokens": [
+        {
+          "text": "晩ご飯",
+          "kana": "ばんごはん"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "半年",
+      "japanese": "半年",
+      "kana": "はんとし",
+      "romaji": "hantoshi",
+      "tokens": [
+        {
+          "text": "半年",
+          "kana": "はんとし"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "秘密",
+      "japanese": "秘密",
+      "kana": "ひみつ",
+      "romaji": "himitsu",
+      "tokens": [
+        {
+          "text": "秘密",
+          "kana": "ひみつ"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "福利",
+      "japanese": "福祉",
+      "kana": "ふくし",
+      "romaji": "fukushi",
+      "tokens": [
+        {
+          "text": "福祉",
+          "kana": "ふくし"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "美术",
+      "japanese": "美術",
+      "kana": "びじゅつ",
+      "romaji": "bijutsu",
+      "tokens": [
+        {
+          "text": "美術",
+          "kana": "びじゅつ"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "医院",
+      "japanese": "病院",
+      "kana": "びょういん",
+      "romaji": "byouin",
+      "tokens": [
+        {
+          "text": "病院",
+          "kana": "びょういん"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "表情",
+      "japanese": "表情",
+      "kana": "ひょうじょう",
+      "romaji": "hyoujou",
+      "tokens": [
+        {
+          "text": "表情",
+          "kana": "ひょうじょう"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "两个人",
+      "japanese": "二人",
+      "kana": "ふたり",
+      "romaji": "futari",
+      "tokens": [
+        {
+          "text": "二人",
+          "kana": "ふたり"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "广场",
+      "japanese": "広場",
+      "kana": "ひろば",
+      "romaji": "hiroba",
+      "tokens": [
+        {
+          "text": "広場",
+          "kana": "ひろば"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "午睡",
+      "japanese": "昼寝",
+      "kana": "ひるね",
+      "romaji": "hirune",
+      "tokens": [
+        {
+          "text": "昼寝",
+          "kana": "ひるね"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "表面",
+      "japanese": "表面",
+      "kana": "ひょうめん",
+      "romaji": "hyoumen",
+      "tokens": [
+        {
+          "text": "表面",
+          "kana": "ひょうめん"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "一个、一岁",
+      "japanese": "一つ",
+      "kana": "ひとつ",
+      "romaji": "hitotsu",
+      "tokens": [
+        {
+          "text": "一つ",
+          "kana": "ひとつ"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "封面",
+      "japanese": "表紙",
+      "kana": "ひょうし",
+      "romaji": "hyoushi",
+      "tokens": [
+        {
+          "text": "表紙",
+          "kana": "ひょうし"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "午饭",
+      "japanese": "昼ご飯",
+      "kana": "ひるごはん",
+      "romaji": "hirugohan",
+      "tokens": [
+        {
+          "text": "昼ご飯",
+          "kana": "ひるごはん"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "倒霉、吃苦头",
+      "japanese": "ひどい目",
+      "kana": "ひどいめ",
+      "romaji": "hidoime",
+      "tokens": [
+        {
+          "text": "ひどい目",
+          "kana": "ひどいめ"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "东、东方",
+      "japanese": "東",
+      "kana": "ひがし",
+      "romaji": "higashi",
+      "tokens": [
+        {
+          "text": "東",
+          "kana": "ひがし"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "空闲、闲暇",
+      "japanese": "暇",
+      "kana": "ひま",
+      "romaji": "hima",
+      "tokens": [
+        {
+          "text": "暇",
+          "kana": "ひま"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "飞机",
+      "japanese": "飛行機",
+      "kana": "ひこうき",
+      "romaji": "hikouki",
+      "tokens": [
+        {
+          "text": "飛行機",
+          "kana": "ひこうき"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "评价、口碑",
+      "japanese": "評判",
+      "kana": "ひょうばん",
+      "romaji": "hyouban",
+      "tokens": [
+        {
+          "text": "評判",
+          "kana": "ひょうばん"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "平时，平常",
+      "japanese": "普段",
+      "kana": "ふだん",
+      "romaji": "fudan",
+      "tokens": [
+        {
+          "text": "普段",
+          "kana": "ふだん"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "不充分",
+      "japanese": "不十分",
+      "kana": "ふじゅうぶん",
+      "romaji": "fujuubun",
+      "tokens": [
+        {
+          "text": "不十分",
+          "kana": "ふじゅうぶん"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "费用",
+      "japanese": "費用",
+      "kana": "ひよう",
+      "romaji": "hiyou",
+      "tokens": [
+        {
+          "text": "費用",
+          "kana": "ひよう"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "否定",
+      "japanese": "否定",
+      "kana": "ひてい",
+      "romaji": "hitei",
+      "tokens": [
+        {
+          "text": "否定",
+          "kana": "ひてい"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "号码",
+      "japanese": "番号",
+      "kana": "ばんごう",
+      "romaji": "bangou",
+      "tokens": [
+        {
+          "text": "番号",
+          "kana": "ばんごう"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "复习",
+      "japanese": "復習",
+      "kana": "ふくしゅう",
+      "romaji": "fukushuu",
+      "tokens": [
+        {
+          "text": "復習",
+          "kana": "ふくしゅう"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "评价",
+      "japanese": "評価",
+      "kana": "ひょうか",
+      "romaji": "hyouka",
+      "tokens": [
+        {
+          "text": "評価",
+          "kana": "ひょうか"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "判断",
+      "japanese": "判断",
+      "kana": "はんだん",
+      "romaji": "handan",
+      "tokens": [
+        {
+          "text": "判断",
+          "kana": "はんだん"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "瓶子",
+      "japanese": "瓶",
+      "kana": "びん",
+      "romaji": "bin",
+      "tokens": [
+        {
+          "text": "瓶",
+          "kana": "びん"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "每个人、一个一个",
+      "japanese": "一人一人",
+      "kana": "ひとりひとり",
+      "romaji": "hitorihitori",
+      "tokens": [
+        {
+          "text": "一人一人",
+          "kana": "ひとりひとり"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "秘密",
+      "japanese": "秘密",
+      "kana": "ひみつ",
+      "romaji": "himitsu",
+      "tokens": [
+        {
+          "text": "秘密",
+          "kana": "ひみつ"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "广场",
+      "japanese": "広場",
+      "kana": "ひろば",
+      "romaji": "hiroba",
+      "tokens": [
+        {
+          "text": "広場",
+          "kana": "ひろば"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "表面",
+      "japanese": "表面",
+      "kana": "ひょうめん",
+      "romaji": "hyoumen",
+      "tokens": [
+        {
+          "text": "表面",
+          "kana": "ひょうめん"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "评价、口碑",
+      "japanese": "評判",
+      "kana": "ひょうばん",
+      "romaji": "hyouban",
+      "tokens": [
+        {
+          "text": "評判",
+          "kana": "ひょうばん"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "平时，平常",
+      "japanese": "普段",
+      "kana": "ふだん",
+      "romaji": "fudan",
+      "tokens": [
+        {
+          "text": "普段",
+          "kana": "ふだん"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "判断",
+      "japanese": "判断",
+      "kana": "はんだん",
+      "romaji": "handan",
+      "tokens": [
+        {
+          "text": "判断",
+          "kana": "はんだん"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "评价",
+      "japanese": "評価",
+      "kana": "ひょうか",
+      "romaji": "hyouka",
+      "tokens": [
+        {
+          "text": "評価",
+          "kana": "ひょうか"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "复习",
+      "japanese": "復習",
+      "kana": "ふくしゅう",
+      "romaji": "fukushuu",
+      "tokens": [
+        {
+          "text": "復習",
+          "kana": "ふくしゅう"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "费用",
+      "japanese": "費用",
+      "kana": "ひよう",
+      "romaji": "hiyou",
+      "tokens": [
+        {
+          "text": "費用",
+          "kana": "ひよう"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "空闲、闲暇",
+      "japanese": "暇",
+      "kana": "ひま",
+      "romaji": "hima",
+      "tokens": [
+        {
+          "text": "暇",
+          "kana": "ひま"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "医院",
+      "japanese": "病院",
+      "kana": "びょういん",
+      "romaji": "byouin",
+      "tokens": [
+        {
+          "text": "病院",
+          "kana": "びょういん"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "瓶子",
+      "japanese": "瓶",
+      "kana": "びん",
+      "romaji": "bin",
+      "tokens": [
+        {
+          "text": "瓶",
+          "kana": "びん"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "午饭",
+      "japanese": "昼ご飯",
+      "kana": "ひるごはん",
+      "romaji": "hirugohan",
+      "tokens": [
+        {
+          "text": "昼ご飯",
+          "kana": "ひるごはん"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "飞机",
+      "japanese": "飛行機",
+      "kana": "ひこうき",
+      "romaji": "hikouki",
+      "tokens": [
+        {
+          "text": "飛行機",
+          "kana": "ひこうき"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "每个人、一个一个",
+      "japanese": "一人一人",
+      "kana": "ひとりひとり",
+      "romaji": "hitorihitori",
+      "tokens": [
+        {
+          "text": "一人一人",
+          "kana": "ひとりひとり"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "不充分",
+      "japanese": "不十分",
+      "kana": "ふじゅうぶん",
+      "romaji": "fujuubun",
+      "tokens": [
+        {
+          "text": "不十分",
+          "kana": "ふじゅうぶん"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "东、东方",
+      "japanese": "東",
+      "kana": "ひがし",
+      "romaji": "higashi",
+      "tokens": [
+        {
+          "text": "東",
+          "kana": "ひがし"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "美术",
+      "japanese": "美術",
+      "kana": "びじゅつ",
+      "romaji": "bijutsu",
+      "tokens": [
+        {
+          "text": "美術",
+          "kana": "びじゅつ"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "福利",
+      "japanese": "福祉",
+      "kana": "ふくし",
+      "romaji": "fukushi",
+      "tokens": [
+        {
+          "text": "福祉",
+          "kana": "ふくし"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "封面",
+      "japanese": "表紙",
+      "kana": "ひょうし",
+      "romaji": "hyoushi",
+      "tokens": [
+        {
+          "text": "表紙",
+          "kana": "ひょうし"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "否定",
+      "japanese": "否定",
+      "kana": "ひてい",
+      "romaji": "hitei",
+      "tokens": [
+        {
+          "text": "否定",
+          "kana": "ひてい"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "半年",
+      "japanese": "半年",
+      "kana": "はんとし",
+      "romaji": "hantoshi",
+      "tokens": [
+        {
+          "text": "半年",
+          "kana": "はんとし"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "号码",
+      "japanese": "番号",
+      "kana": "ばんごう",
+      "romaji": "bangou",
+      "tokens": [
+        {
+          "text": "番号",
+          "kana": "ばんごう"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "午睡",
+      "japanese": "昼寝",
+      "kana": "ひるね",
+      "romaji": "hirune",
+      "tokens": [
+        {
+          "text": "昼寝",
+          "kana": "ひるね"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "两个人",
+      "japanese": "二人",
+      "kana": "ふたり",
+      "romaji": "futari",
+      "tokens": [
+        {
+          "text": "二人",
+          "kana": "ふたり"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "倒霉、吃苦头",
+      "japanese": "ひどい目",
+      "kana": "ひどいめ",
+      "romaji": "hidoime",
+      "tokens": [
+        {
+          "text": "ひどい目",
+          "kana": "ひどいめ"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "表情",
+      "japanese": "表情",
+      "kana": "ひょうじょう",
+      "romaji": "hyoujou",
+      "tokens": [
+        {
+          "text": "表情",
+          "kana": "ひょうじょう"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "袋子",
+      "japanese": "袋",
+      "kana": "ふくろ",
+      "romaji": "fukuro",
+      "tokens": [
+        {
+          "text": "袋",
+          "kana": "ふくろ"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "一个、一岁",
+      "japanese": "一つ",
+      "kana": "ひとつ",
+      "romaji": "hitotsu",
+      "tokens": [
+        {
+          "text": "一つ",
+          "kana": "ひとつ"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "晚饭",
+      "japanese": "晩ご飯",
+      "kana": "ばんごはん",
+      "romaji": "bangohan",
+      "tokens": [
+        {
+          "text": "晩ご飯",
+          "kana": "ばんごはん"
+        }
+      ]
+    }
+  ]
+}

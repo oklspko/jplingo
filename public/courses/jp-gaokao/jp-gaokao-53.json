@@ -1,0 +1,749 @@
+{
+  "id": "jp-gaokao-53",
+  "coursePackId": "jp-gaokao",
+  "title": "接续词 2",
+  "order": 53,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "那么、那就",
+      "japanese": "それでは",
+      "kana": "それでは",
+      "romaji": "soredeha",
+      "tokens": [
+        {
+          "text": "それでは",
+          "kana": "それでは"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "欸、话说",
+      "japanese": "ところで",
+      "kana": "ところで",
+      "romaji": "tokorode",
+      "tokens": [
+        {
+          "text": "ところで",
+          "kana": "ところで"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "话虽如此",
+      "japanese": "もともと",
+      "kana": "もともと",
+      "romaji": "motomoto",
+      "tokens": [
+        {
+          "text": "もともと",
+          "kana": "もともと"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "或者",
+      "japanese": "あるいは",
+      "kana": "あるいは",
+      "romaji": "aruiha",
+      "tokens": [
+        {
+          "text": "あるいは",
+          "kana": "あるいは"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "或、或者",
+      "japanese": "もしくは",
+      "kana": "もしくは",
+      "romaji": "moshikuha",
+      "tokens": [
+        {
+          "text": "もしくは",
+          "kana": "もしくは"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "那么、那",
+      "japanese": "では",
+      "kana": "では",
+      "romaji": "deha",
+      "tokens": [
+        {
+          "text": "では",
+          "kana": "では"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "比如、例如",
+      "japanese": "例えば",
+      "kana": "たとえば",
+      "romaji": "tatoeba",
+      "tokens": [
+        {
+          "text": "例えば",
+          "kana": "たとえば"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "总之",
+      "japanese": "要するに",
+      "kana": "ようするに",
+      "romaji": "yousuruni",
+      "tokens": [
+        {
+          "text": "要するに",
+          "kana": "ようするに"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "为何、何故",
+      "japanese": "なぜなら",
+      "kana": "なぜなら",
+      "romaji": "nazenara",
+      "tokens": [
+        {
+          "text": "なぜなら",
+          "kana": "なぜなら"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "还是、或者",
+      "japanese": "それも",
+      "kana": "それも",
+      "romaji": "soremo",
+      "tokens": [
+        {
+          "text": "それも",
+          "kana": "それも"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "说起来",
+      "japanese": "そもそも",
+      "kana": "そもそも",
+      "romaji": "somosomo",
+      "tokens": [
+        {
+          "text": "そもそも",
+          "kana": "そもそも"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "另一方面",
+      "japanese": "一方",
+      "kana": "いっぽう",
+      "romaji": "ippou",
+      "tokens": [
+        {
+          "text": "一方",
+          "kana": "いっぽう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "反过来",
+      "japanese": "逆に",
+      "kana": "ぎゃくに",
+      "romaji": "gyakuni",
+      "tokens": [
+        {
+          "text": "逆に",
+          "kana": "ぎゃくに"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "那么",
+      "japanese": "さて",
+      "kana": "さて",
+      "romaji": "sate",
+      "tokens": [
+        {
+          "text": "さて",
+          "kana": "さて"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "唉、对了",
+      "japanese": "ときに",
+      "kana": "ときに",
+      "romaji": "tokini",
+      "tokens": [
+        {
+          "text": "ときに",
+          "kana": "ときに"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "但、但是",
+      "japanese": "ただし",
+      "kana": "ただし",
+      "romaji": "tadashi",
+      "tokens": [
+        {
+          "text": "ただし",
+          "kana": "ただし"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "是因为",
+      "japanese": "というのは",
+      "kana": "というのは",
+      "romaji": "toiunoha",
+      "tokens": [
+        {
+          "text": "というのは",
+          "kana": "というのは"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "即、正是",
+      "japanese": "すなわち",
+      "kana": "すなわち",
+      "romaji": "sunawachi",
+      "tokens": [
+        {
+          "text": "すなわち",
+          "kana": "すなわち"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "或者、要么",
+      "japanese": "または",
+      "kana": "または",
+      "romaji": "mataha",
+      "tokens": [
+        {
+          "text": "または",
+          "kana": "または"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "那么",
+      "japanese": "さて",
+      "kana": "さて",
+      "romaji": "sate",
+      "tokens": [
+        {
+          "text": "さて",
+          "kana": "さて"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "反过来",
+      "japanese": "逆に",
+      "kana": "ぎゃくに",
+      "romaji": "gyakuni",
+      "tokens": [
+        {
+          "text": "逆に",
+          "kana": "ぎゃくに"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "是因为",
+      "japanese": "というのは",
+      "kana": "というのは",
+      "romaji": "toiunoha",
+      "tokens": [
+        {
+          "text": "というのは",
+          "kana": "というのは"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "但、但是",
+      "japanese": "ただし",
+      "kana": "ただし",
+      "romaji": "tadashi",
+      "tokens": [
+        {
+          "text": "ただし",
+          "kana": "ただし"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "欸、话说",
+      "japanese": "ところで",
+      "kana": "ところで",
+      "romaji": "tokorode",
+      "tokens": [
+        {
+          "text": "ところで",
+          "kana": "ところで"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "或者、要么",
+      "japanese": "または",
+      "kana": "または",
+      "romaji": "mataha",
+      "tokens": [
+        {
+          "text": "または",
+          "kana": "または"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "话虽如此",
+      "japanese": "もともと",
+      "kana": "もともと",
+      "romaji": "motomoto",
+      "tokens": [
+        {
+          "text": "もともと",
+          "kana": "もともと"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "那么、那就",
+      "japanese": "それでは",
+      "kana": "それでは",
+      "romaji": "soredeha",
+      "tokens": [
+        {
+          "text": "それでは",
+          "kana": "それでは"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "另一方面",
+      "japanese": "一方",
+      "kana": "いっぽう",
+      "romaji": "ippou",
+      "tokens": [
+        {
+          "text": "一方",
+          "kana": "いっぽう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "总之",
+      "japanese": "要するに",
+      "kana": "ようするに",
+      "romaji": "yousuruni",
+      "tokens": [
+        {
+          "text": "要するに",
+          "kana": "ようするに"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "唉、对了",
+      "japanese": "ときに",
+      "kana": "ときに",
+      "romaji": "tokini",
+      "tokens": [
+        {
+          "text": "ときに",
+          "kana": "ときに"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "即、正是",
+      "japanese": "すなわち",
+      "kana": "すなわち",
+      "romaji": "sunawachi",
+      "tokens": [
+        {
+          "text": "すなわち",
+          "kana": "すなわち"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "或者",
+      "japanese": "あるいは",
+      "kana": "あるいは",
+      "romaji": "aruiha",
+      "tokens": [
+        {
+          "text": "あるいは",
+          "kana": "あるいは"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "比如、例如",
+      "japanese": "例えば",
+      "kana": "たとえば",
+      "romaji": "tatoeba",
+      "tokens": [
+        {
+          "text": "例えば",
+          "kana": "たとえば"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "还是、或者",
+      "japanese": "それも",
+      "kana": "それも",
+      "romaji": "soremo",
+      "tokens": [
+        {
+          "text": "それも",
+          "kana": "それも"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "说起来",
+      "japanese": "そもそも",
+      "kana": "そもそも",
+      "romaji": "somosomo",
+      "tokens": [
+        {
+          "text": "そもそも",
+          "kana": "そもそも"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "为何、何故",
+      "japanese": "なぜなら",
+      "kana": "なぜなら",
+      "romaji": "nazenara",
+      "tokens": [
+        {
+          "text": "なぜなら",
+          "kana": "なぜなら"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "或、或者",
+      "japanese": "もしくは",
+      "kana": "もしくは",
+      "romaji": "moshikuha",
+      "tokens": [
+        {
+          "text": "もしくは",
+          "kana": "もしくは"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "那么、那",
+      "japanese": "では",
+      "kana": "では",
+      "romaji": "deha",
+      "tokens": [
+        {
+          "text": "では",
+          "kana": "では"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "总之",
+      "japanese": "要するに",
+      "kana": "ようするに",
+      "romaji": "yousuruni",
+      "tokens": [
+        {
+          "text": "要するに",
+          "kana": "ようするに"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "那么、那",
+      "japanese": "では",
+      "kana": "では",
+      "romaji": "deha",
+      "tokens": [
+        {
+          "text": "では",
+          "kana": "では"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "比如、例如",
+      "japanese": "例えば",
+      "kana": "たとえば",
+      "romaji": "tatoeba",
+      "tokens": [
+        {
+          "text": "例えば",
+          "kana": "たとえば"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "是因为",
+      "japanese": "というのは",
+      "kana": "というのは",
+      "romaji": "toiunoha",
+      "tokens": [
+        {
+          "text": "というのは",
+          "kana": "というのは"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "或者",
+      "japanese": "あるいは",
+      "kana": "あるいは",
+      "romaji": "aruiha",
+      "tokens": [
+        {
+          "text": "あるいは",
+          "kana": "あるいは"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "唉、对了",
+      "japanese": "ときに",
+      "kana": "ときに",
+      "romaji": "tokini",
+      "tokens": [
+        {
+          "text": "ときに",
+          "kana": "ときに"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "说起来",
+      "japanese": "そもそも",
+      "kana": "そもそも",
+      "romaji": "somosomo",
+      "tokens": [
+        {
+          "text": "そもそも",
+          "kana": "そもそも"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "或、或者",
+      "japanese": "もしくは",
+      "kana": "もしくは",
+      "romaji": "moshikuha",
+      "tokens": [
+        {
+          "text": "もしくは",
+          "kana": "もしくは"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "另一方面",
+      "japanese": "一方",
+      "kana": "いっぽう",
+      "romaji": "ippou",
+      "tokens": [
+        {
+          "text": "一方",
+          "kana": "いっぽう"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "还是、或者",
+      "japanese": "それも",
+      "kana": "それも",
+      "romaji": "soremo",
+      "tokens": [
+        {
+          "text": "それも",
+          "kana": "それも"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "那么、那就",
+      "japanese": "それでは",
+      "kana": "それでは",
+      "romaji": "soredeha",
+      "tokens": [
+        {
+          "text": "それでは",
+          "kana": "それでは"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "那么",
+      "japanese": "さて",
+      "kana": "さて",
+      "romaji": "sate",
+      "tokens": [
+        {
+          "text": "さて",
+          "kana": "さて"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "话虽如此",
+      "japanese": "もともと",
+      "kana": "もともと",
+      "romaji": "motomoto",
+      "tokens": [
+        {
+          "text": "もともと",
+          "kana": "もともと"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "欸、话说",
+      "japanese": "ところで",
+      "kana": "ところで",
+      "romaji": "tokorode",
+      "tokens": [
+        {
+          "text": "ところで",
+          "kana": "ところで"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "即、正是",
+      "japanese": "すなわち",
+      "kana": "すなわち",
+      "romaji": "sunawachi",
+      "tokens": [
+        {
+          "text": "すなわち",
+          "kana": "すなわち"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "为何、何故",
+      "japanese": "なぜなら",
+      "kana": "なぜなら",
+      "romaji": "nazenara",
+      "tokens": [
+        {
+          "text": "なぜなら",
+          "kana": "なぜなら"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "但、但是",
+      "japanese": "ただし",
+      "kana": "ただし",
+      "romaji": "tadashi",
+      "tokens": [
+        {
+          "text": "ただし",
+          "kana": "ただし"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "反过来",
+      "japanese": "逆に",
+      "kana": "ぎゃくに",
+      "romaji": "gyakuni",
+      "tokens": [
+        {
+          "text": "逆に",
+          "kana": "ぎゃくに"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "或者、要么",
+      "japanese": "または",
+      "kana": "または",
+      "romaji": "mataha",
+      "tokens": [
+        {
+          "text": "または",
+          "kana": "または"
+        }
+      ]
+    }
+  ]
+}

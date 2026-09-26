@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-45",
+  "coursePackId": "jp-gaokao",
+  "title": "名词低频 12",
+  "order": 45,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "主食",
+      "japanese": "主食",
+      "kana": "しゅしょく",
+      "romaji": "shushoku",
+      "tokens": [
+        {
+          "text": "主食",
+          "kana": "しゅしょく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "岛",
+      "japanese": "島",
+      "kana": "しま",
+      "romaji": "shima",
+      "tokens": [
+        {
+          "text": "島",
+          "kana": "しま"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "阻碍、障碍",
+      "japanese": "障害",
+      "kana": "しょうがい",
+      "romaji": "shougai",
+      "tokens": [
+        {
+          "text": "障害",
+          "kana": "しょうがい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "事物、办公",
+      "japanese": "事務",
+      "kana": "じむ",
+      "romaji": "jimu",
+      "tokens": [
+        {
+          "text": "事務",
+          "kana": "じむ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "主人公",
+      "japanese": "主人公",
+      "kana": "しゅじんこう",
+      "romaji": "shujinkou",
+      "tokens": [
+        {
+          "text": "主人公",
+          "kana": "しゅじんこう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "切实、实际感受",
+      "japanese": "実感",
+      "kana": "じっかん",
+      "romaji": "jikkan",
+      "tokens": [
+        {
+          "text": "実感",
+          "kana": "じっかん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "周末",
+      "japanese": "週末",
+      "kana": "しゅうまつ",
+      "romaji": "shuumatsu",
+      "tokens": [
+        {
+          "text": "週末",
+          "kana": "しゅうまつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "收入",
+      "japanese": "収入",
+      "kana": "しゅうにゅう",
+      "romaji": "shuunyuu",
+      "tokens": [
+        {
+          "text": "収入",
+          "kana": "しゅうにゅう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "集合",
+      "japanese": "集合",
+      "kana": "しゅうごう",
+      "romaji": "shuugou",
+      "tokens": [
+        {
+          "text": "集合",
+          "kana": "しゅうごう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "舌头",
+      "japanese": "舌",
+      "kana": "した",
+      "romaji": "shita",
+      "tokens": [
+        {
+          "text": "舌",
+          "kana": "した"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "同级生",
+      "japanese": "同級生",
+      "kana": "どうきゅうせい",
+      "romaji": "doukyuusei",
+      "tokens": [
+        {
+          "text": "同級生",
+          "kana": "どうきゅうせい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "下、下面",
+      "japanese": "下",
+      "kana": "した",
+      "romaji": "shita",
+      "tokens": [
+        {
+          "text": "下",
+          "kana": "した"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "实现",
+      "japanese": "実現",
+      "kana": "じつげん",
+      "romaji": "jitsugen",
+      "tokens": [
+        {
+          "text": "実現",
+          "kana": "じつげん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "商品",
+      "japanese": "品物",
+      "kana": "しなもの",
+      "romaji": "shinamono",
+      "tokens": [
+        {
+          "text": "品物",
+          "kana": "しなもの"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "种类",
+      "japanese": "種類",
+      "kana": "しゅるい",
+      "romaji": "shurui",
+      "tokens": [
+        {
+          "text": "種類",
+          "kana": "しゅるい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "首都",
+      "japanese": "首都",
+      "kana": "しゅと",
+      "romaji": "shuto",
+      "tokens": [
+        {
+          "text": "首都",
+          "kana": "しゅと"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "主张",
+      "japanese": "主張",
+      "kana": "しゅちょう",
+      "romaji": "shuchou",
+      "tokens": [
+        {
+          "text": "主張",
+          "kana": "しゅちょう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "出席",
+      "japanese": "出席",
+      "kana": "しゅっせき",
+      "romaji": "shusseki",
+      "tokens": [
+        {
+          "text": "出席",
+          "kana": "しゅっせき"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "自动",
+      "japanese": "自動",
+      "kana": "じどう",
+      "romaji": "jidou",
+      "tokens": [
+        {
+          "text": "自動",
+          "kana": "じどう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "住所、住址",
+      "japanese": "住所",
+      "kana": "じゅうしょ",
+      "romaji": "juusho",
+      "tokens": [
+        {
+          "text": "住所",
+          "kana": "じゅうしょ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "正月",
+      "japanese": "正月",
+      "kana": "しょうがつ",
+      "romaji": "shougatsu",
+      "tokens": [
+        {
+          "text": "正月",
+          "kana": "しょうがつ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "社长",
+      "japanese": "社長",
+      "kana": "しゃちょう",
+      "romaji": "shachou",
+      "tokens": [
+        {
+          "text": "社長",
+          "kana": "しゃちょう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "失败",
+      "japanese": "失敗",
+      "kana": "しっぱい",
+      "romaji": "shippai",
+      "tokens": [
+        {
+          "text": "失敗",
+          "kana": "しっぱい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "就职",
+      "japanese": "就職",
+      "kana": "しゅうしょく",
+      "romaji": "shuushoku",
+      "tokens": [
+        {
+          "text": "就職",
+          "kana": "しゅうしょく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "充实",
+      "japanese": "充実",
+      "kana": "じゅうじつ",
+      "romaji": "juujitsu",
+      "tokens": [
+        {
+          "text": "充実",
+          "kana": "じゅうじつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "出差",
+      "japanese": "出張",
+      "kana": "しゅっちょう",
+      "romaji": "shutchou",
+      "tokens": [
+        {
+          "text": "出張",
+          "kana": "しゅっちょう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "事实",
+      "japanese": "事実",
+      "kana": "じじつ",
+      "romaji": "jijitsu",
+      "tokens": [
+        {
+          "text": "事実",
+          "kana": "じじつ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "介绍",
+      "japanese": "紹介",
+      "kana": "しょうかい",
+      "romaji": "shoukai",
+      "tokens": [
+        {
+          "text": "紹介",
+          "kana": "しょうかい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "修学旅行",
+      "japanese": "修学旅行",
+      "kana": "しゅうがくりょこう",
+      "romaji": "shuugakuryokou",
+      "tokens": [
+        {
+          "text": "修学旅行",
+          "kana": "しゅうがくりょこう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "市内",
+      "japanese": "市内",
+      "kana": "しない",
+      "romaji": "shinai",
+      "tokens": [
+        {
+          "text": "市内",
+          "kana": "しない"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "自动",
+      "japanese": "自動",
+      "kana": "じどう",
+      "romaji": "jidou",
+      "tokens": [
+        {
+          "text": "自動",
+          "kana": "じどう"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "主人公",
+      "japanese": "主人公",
+      "kana": "しゅじんこう",
+      "romaji": "shujinkou",
+      "tokens": [
+        {
+          "text": "主人公",
+          "kana": "しゅじんこう"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "舌头",
+      "japanese": "舌",
+      "kana": "した",
+      "romaji": "shita",
+      "tokens": [
+        {
+          "text": "舌",
+          "kana": "した"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "主食",
+      "japanese": "主食",
+      "kana": "しゅしょく",
+      "romaji": "shushoku",
+      "tokens": [
+        {
+          "text": "主食",
+          "kana": "しゅしょく"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "充实",
+      "japanese": "充実",
+      "kana": "じゅうじつ",
+      "romaji": "juujitsu",
+      "tokens": [
+        {
+          "text": "充実",
+          "kana": "じゅうじつ"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "种类",
+      "japanese": "種類",
+      "kana": "しゅるい",
+      "romaji": "shurui",
+      "tokens": [
+        {
+          "text": "種類",
+          "kana": "しゅるい"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "下、下面",
+      "japanese": "下",
+      "kana": "した",
+      "romaji": "shita",
+      "tokens": [
+        {
+          "text": "下",
+          "kana": "した"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "社长",
+      "japanese": "社長",
+      "kana": "しゃちょう",
+      "romaji": "shachou",
+      "tokens": [
+        {
+          "text": "社長",
+          "kana": "しゃちょう"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "出席",
+      "japanese": "出席",
+      "kana": "しゅっせき",
+      "romaji": "shusseki",
+      "tokens": [
+        {
+          "text": "出席",
+          "kana": "しゅっせき"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "正月",
+      "japanese": "正月",
+      "kana": "しょうがつ",
+      "romaji": "shougatsu",
+      "tokens": [
+        {
+          "text": "正月",
+          "kana": "しょうがつ"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "市内",
+      "japanese": "市内",
+      "kana": "しない",
+      "romaji": "shinai",
+      "tokens": [
+        {
+          "text": "市内",
+          "kana": "しない"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "周末",
+      "japanese": "週末",
+      "kana": "しゅうまつ",
+      "romaji": "shuumatsu",
+      "tokens": [
+        {
+          "text": "週末",
+          "kana": "しゅうまつ"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "事实",
+      "japanese": "事実",
+      "kana": "じじつ",
+      "romaji": "jijitsu",
+      "tokens": [
+        {
+          "text": "事実",
+          "kana": "じじつ"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "同级生",
+      "japanese": "同級生",
+      "kana": "どうきゅうせい",
+      "romaji": "doukyuusei",
+      "tokens": [
+        {
+          "text": "同級生",
+          "kana": "どうきゅうせい"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "商品",
+      "japanese": "品物",
+      "kana": "しなもの",
+      "romaji": "shinamono",
+      "tokens": [
+        {
+          "text": "品物",
+          "kana": "しなもの"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "出差",
+      "japanese": "出張",
+      "kana": "しゅっちょう",
+      "romaji": "shutchou",
+      "tokens": [
+        {
+          "text": "出張",
+          "kana": "しゅっちょう"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "修学旅行",
+      "japanese": "修学旅行",
+      "kana": "しゅうがくりょこう",
+      "romaji": "shuugakuryokou",
+      "tokens": [
+        {
+          "text": "修学旅行",
+          "kana": "しゅうがくりょこう"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "切实、实际感受",
+      "japanese": "実感",
+      "kana": "じっかん",
+      "romaji": "jikkan",
+      "tokens": [
+        {
+          "text": "実感",
+          "kana": "じっかん"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "首都",
+      "japanese": "首都",
+      "kana": "しゅと",
+      "romaji": "shuto",
+      "tokens": [
+        {
+          "text": "首都",
+          "kana": "しゅと"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "收入",
+      "japanese": "収入",
+      "kana": "しゅうにゅう",
+      "romaji": "shuunyuu",
+      "tokens": [
+        {
+          "text": "収入",
+          "kana": "しゅうにゅう"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "事物、办公",
+      "japanese": "事務",
+      "kana": "じむ",
+      "romaji": "jimu",
+      "tokens": [
+        {
+          "text": "事務",
+          "kana": "じむ"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "就职",
+      "japanese": "就職",
+      "kana": "しゅうしょく",
+      "romaji": "shuushoku",
+      "tokens": [
+        {
+          "text": "就職",
+          "kana": "しゅうしょく"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "岛",
+      "japanese": "島",
+      "kana": "しま",
+      "romaji": "shima",
+      "tokens": [
+        {
+          "text": "島",
+          "kana": "しま"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "介绍",
+      "japanese": "紹介",
+      "kana": "しょうかい",
+      "romaji": "shoukai",
+      "tokens": [
+        {
+          "text": "紹介",
+          "kana": "しょうかい"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "主张",
+      "japanese": "主張",
+      "kana": "しゅちょう",
+      "romaji": "shuchou",
+      "tokens": [
+        {
+          "text": "主張",
+          "kana": "しゅちょう"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "实现",
+      "japanese": "実現",
+      "kana": "じつげん",
+      "romaji": "jitsugen",
+      "tokens": [
+        {
+          "text": "実現",
+          "kana": "じつげん"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "阻碍、障碍",
+      "japanese": "障害",
+      "kana": "しょうがい",
+      "romaji": "shougai",
+      "tokens": [
+        {
+          "text": "障害",
+          "kana": "しょうがい"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "集合",
+      "japanese": "集合",
+      "kana": "しゅうごう",
+      "romaji": "shuugou",
+      "tokens": [
+        {
+          "text": "集合",
+          "kana": "しゅうごう"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "住所、住址",
+      "japanese": "住所",
+      "kana": "じゅうしょ",
+      "romaji": "juusho",
+      "tokens": [
+        {
+          "text": "住所",
+          "kana": "じゅうしょ"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "失败",
+      "japanese": "失敗",
+      "kana": "しっぱい",
+      "romaji": "shippai",
+      "tokens": [
+        {
+          "text": "失敗",
+          "kana": "しっぱい"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "周末",
+      "japanese": "週末",
+      "kana": "しゅうまつ",
+      "romaji": "shuumatsu",
+      "tokens": [
+        {
+          "text": "週末",
+          "kana": "しゅうまつ"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "主人公",
+      "japanese": "主人公",
+      "kana": "しゅじんこう",
+      "romaji": "shujinkou",
+      "tokens": [
+        {
+          "text": "主人公",
+          "kana": "しゅじんこう"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "阻碍、障碍",
+      "japanese": "障害",
+      "kana": "しょうがい",
+      "romaji": "shougai",
+      "tokens": [
+        {
+          "text": "障害",
+          "kana": "しょうがい"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "主张",
+      "japanese": "主張",
+      "kana": "しゅちょう",
+      "romaji": "shuchou",
+      "tokens": [
+        {
+          "text": "主張",
+          "kana": "しゅちょう"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "正月",
+      "japanese": "正月",
+      "kana": "しょうがつ",
+      "romaji": "shougatsu",
+      "tokens": [
+        {
+          "text": "正月",
+          "kana": "しょうがつ"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "充实",
+      "japanese": "充実",
+      "kana": "じゅうじつ",
+      "romaji": "juujitsu",
+      "tokens": [
+        {
+          "text": "充実",
+          "kana": "じゅうじつ"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "社长",
+      "japanese": "社長",
+      "kana": "しゃちょう",
+      "romaji": "shachou",
+      "tokens": [
+        {
+          "text": "社長",
+          "kana": "しゃちょう"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "就职",
+      "japanese": "就職",
+      "kana": "しゅうしょく",
+      "romaji": "shuushoku",
+      "tokens": [
+        {
+          "text": "就職",
+          "kana": "しゅうしょく"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "市内",
+      "japanese": "市内",
+      "kana": "しない",
+      "romaji": "shinai",
+      "tokens": [
+        {
+          "text": "市内",
+          "kana": "しない"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "主食",
+      "japanese": "主食",
+      "kana": "しゅしょく",
+      "romaji": "shushoku",
+      "tokens": [
+        {
+          "text": "主食",
+          "kana": "しゅしょく"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "出差",
+      "japanese": "出張",
+      "kana": "しゅっちょう",
+      "romaji": "shutchou",
+      "tokens": [
+        {
+          "text": "出張",
+          "kana": "しゅっちょう"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "介绍",
+      "japanese": "紹介",
+      "kana": "しょうかい",
+      "romaji": "shoukai",
+      "tokens": [
+        {
+          "text": "紹介",
+          "kana": "しょうかい"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "同级生",
+      "japanese": "同級生",
+      "kana": "どうきゅうせい",
+      "romaji": "doukyuusei",
+      "tokens": [
+        {
+          "text": "同級生",
+          "kana": "どうきゅうせい"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "住所、住址",
+      "japanese": "住所",
+      "kana": "じゅうしょ",
+      "romaji": "juusho",
+      "tokens": [
+        {
+          "text": "住所",
+          "kana": "じゅうしょ"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "商品",
+      "japanese": "品物",
+      "kana": "しなもの",
+      "romaji": "shinamono",
+      "tokens": [
+        {
+          "text": "品物",
+          "kana": "しなもの"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "舌头",
+      "japanese": "舌",
+      "kana": "した",
+      "romaji": "shita",
+      "tokens": [
+        {
+          "text": "舌",
+          "kana": "した"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "切实、实际感受",
+      "japanese": "実感",
+      "kana": "じっかん",
+      "romaji": "jikkan",
+      "tokens": [
+        {
+          "text": "実感",
+          "kana": "じっかん"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "修学旅行",
+      "japanese": "修学旅行",
+      "kana": "しゅうがくりょこう",
+      "romaji": "shuugakuryokou",
+      "tokens": [
+        {
+          "text": "修学旅行",
+          "kana": "しゅうがくりょこう"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "收入",
+      "japanese": "収入",
+      "kana": "しゅうにゅう",
+      "romaji": "shuunyuu",
+      "tokens": [
+        {
+          "text": "収入",
+          "kana": "しゅうにゅう"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "岛",
+      "japanese": "島",
+      "kana": "しま",
+      "romaji": "shima",
+      "tokens": [
+        {
+          "text": "島",
+          "kana": "しま"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "自动",
+      "japanese": "自動",
+      "kana": "じどう",
+      "romaji": "jidou",
+      "tokens": [
+        {
+          "text": "自動",
+          "kana": "じどう"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "事实",
+      "japanese": "事実",
+      "kana": "じじつ",
+      "romaji": "jijitsu",
+      "tokens": [
+        {
+          "text": "事実",
+          "kana": "じじつ"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "下、下面",
+      "japanese": "下",
+      "kana": "した",
+      "romaji": "shita",
+      "tokens": [
+        {
+          "text": "下",
+          "kana": "した"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "种类",
+      "japanese": "種類",
+      "kana": "しゅるい",
+      "romaji": "shurui",
+      "tokens": [
+        {
+          "text": "種類",
+          "kana": "しゅるい"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "实现",
+      "japanese": "実現",
+      "kana": "じつげん",
+      "romaji": "jitsugen",
+      "tokens": [
+        {
+          "text": "実現",
+          "kana": "じつげん"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "出席",
+      "japanese": "出席",
+      "kana": "しゅっせき",
+      "romaji": "shusseki",
+      "tokens": [
+        {
+          "text": "出席",
+          "kana": "しゅっせき"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "集合",
+      "japanese": "集合",
+      "kana": "しゅうごう",
+      "romaji": "shuugou",
+      "tokens": [
+        {
+          "text": "集合",
+          "kana": "しゅうごう"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "失败",
+      "japanese": "失敗",
+      "kana": "しっぱい",
+      "romaji": "shippai",
+      "tokens": [
+        {
+          "text": "失敗",
+          "kana": "しっぱい"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "首都",
+      "japanese": "首都",
+      "kana": "しゅと",
+      "romaji": "shuto",
+      "tokens": [
+        {
+          "text": "首都",
+          "kana": "しゅと"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "事物、办公",
+      "japanese": "事務",
+      "kana": "じむ",
+      "romaji": "jimu",
+      "tokens": [
+        {
+          "text": "事務",
+          "kana": "じむ"
+        }
+      ]
+    }
+  ]
+}

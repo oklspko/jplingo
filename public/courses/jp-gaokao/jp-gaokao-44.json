@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-44",
+  "coursePackId": "jp-gaokao",
+  "title": "名词低频 11",
+  "order": 44,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "材料",
+      "japanese": "材料",
+      "kana": "ざいりょう",
+      "romaji": "zairyou",
+      "tokens": [
+        {
+          "text": "材料",
+          "kana": "ざいりょう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "灾害",
+      "japanese": "災害",
+      "kana": "さいがい",
+      "romaji": "saigai",
+      "tokens": [
+        {
+          "text": "災害",
+          "kana": "さいがい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "刺激",
+      "japanese": "刺激",
+      "kana": "しげき",
+      "romaji": "shigeki",
+      "tokens": [
+        {
+          "text": "刺激",
+          "kana": "しげき"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "樱、樱花",
+      "japanese": "桜",
+      "kana": "さくら",
+      "romaji": "sakura",
+      "tokens": [
+        {
+          "text": "桜",
+          "kana": "さくら"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "作物",
+      "japanese": "作物",
+      "kana": "さくもつ",
+      "romaji": "sakumotsu",
+      "tokens": [
+        {
+          "text": "作物",
+          "kana": "さくもつ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "碟子、盘子",
+      "japanese": "皿",
+      "kana": "さら",
+      "romaji": "sara",
+      "tokens": [
+        {
+          "text": "皿",
+          "kana": "さら"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "杂志",
+      "japanese": "雑誌",
+      "kana": "ざっし",
+      "romaji": "zasshi",
+      "tokens": [
+        {
+          "text": "雑誌",
+          "kana": "ざっし"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "诗、诗歌",
+      "japanese": "詩",
+      "kana": "し",
+      "romaji": "shi",
+      "tokens": [
+        {
+          "text": "詩",
+          "kana": "し"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "酒",
+      "japanese": "酒",
+      "kana": "さけ",
+      "romaji": "sake",
+      "tokens": [
+        {
+          "text": "酒",
+          "kana": "さけ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "砂糖",
+      "japanese": "砂糖",
+      "kana": "さとう",
+      "romaji": "satou",
+      "tokens": [
+        {
+          "text": "砂糖",
+          "kana": "さとう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "困难",
+      "japanese": "困難",
+      "kana": "こんなん",
+      "romaji": "konnan",
+      "tokens": [
+        {
+          "text": "困難",
+          "kana": "こんなん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "幸福",
+      "japanese": "幸せ",
+      "kana": "しあわせ",
+      "romaji": "shiawase",
+      "tokens": [
+        {
+          "text": "幸せ",
+          "kana": "しあわせ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "大下周",
+      "japanese": "再来週",
+      "kana": "さらいしゅう",
+      "romaji": "saraishuu",
+      "tokens": [
+        {
+          "text": "再来週",
+          "kana": "さらいしゅう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "这个周、本周",
+      "japanese": "今週",
+      "kana": "こんしゅう",
+      "romaji": "konshuu",
+      "tokens": [
+        {
+          "text": "今週",
+          "kana": "こんしゅう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "比赛",
+      "japanese": "試合",
+      "kana": "しあい",
+      "romaji": "shiai",
+      "tokens": [
+        {
+          "text": "試合",
+          "kana": "しあい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "茶道",
+      "japanese": "茶道",
+      "kana": "さどう",
+      "romaji": "sadou",
+      "tokens": [
+        {
+          "text": "茶道",
+          "kana": "さどう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "钱包",
+      "japanese": "財布",
+      "kana": "さいふ",
+      "romaji": "saifu",
+      "tokens": [
+        {
+          "text": "財布",
+          "kana": "さいふ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "参加",
+      "japanese": "参加",
+      "kana": "さんか",
+      "romaji": "sanka",
+      "tokens": [
+        {
+          "text": "参加",
+          "kana": "さんか"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "产业",
+      "japanese": "産業",
+      "kana": "さんぎょう",
+      "romaji": "sangyou",
+      "tokens": [
+        {
+          "text": "産業",
+          "kana": "さんぎょう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "时期",
+      "japanese": "時期",
+      "kana": "じき",
+      "romaji": "jiki",
+      "tokens": [
+        {
+          "text": "時期",
+          "kana": "じき"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "散步",
+      "japanese": "散歩",
+      "kana": "さんぽ",
+      "romaji": "sanpo",
+      "tokens": [
+        {
+          "text": "散歩",
+          "kana": "さんぽ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "作文",
+      "japanese": "作文",
+      "kana": "さくぶん",
+      "romaji": "sakubun",
+      "tokens": [
+        {
+          "text": "作文",
+          "kana": "さくぶん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "才能",
+      "japanese": "才能",
+      "kana": "さいのう",
+      "romaji": "sainou",
+      "tokens": [
+        {
+          "text": "才能",
+          "kana": "さいのう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "作家",
+      "japanese": "作家",
+      "kana": "さっか",
+      "romaji": "sakka",
+      "tokens": [
+        {
+          "text": "作家",
+          "kana": "さっか"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "四角",
+      "japanese": "四角",
+      "kana": "しかく",
+      "romaji": "shikaku",
+      "tokens": [
+        {
+          "text": "四角",
+          "kana": "しかく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "沙漠",
+      "japanese": "砂漠",
+      "kana": "さばく",
+      "romaji": "sabaku",
+      "tokens": [
+        {
+          "text": "砂漠",
+          "kana": "さばく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "今后、从今往后",
+      "japanese": "今後",
+      "kana": "こんご",
+      "romaji": "kongo",
+      "tokens": [
+        {
+          "text": "今後",
+          "kana": "こんご"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "氧、氧气",
+      "japanese": "酸素",
+      "kana": "さんそ",
+      "romaji": "sanso",
+      "tokens": [
+        {
+          "text": "酸素",
+          "kana": "さんそ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "资源",
+      "japanese": "資源",
+      "kana": "しげん",
+      "romaji": "shigen",
+      "tokens": [
+        {
+          "text": "資源",
+          "kana": "しげん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "赞成",
+      "japanese": "賛成",
+      "kana": "さんせい",
+      "romaji": "sansei",
+      "tokens": [
+        {
+          "text": "賛成",
+          "kana": "さんせい"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "参加",
+      "japanese": "参加",
+      "kana": "さんか",
+      "romaji": "sanka",
+      "tokens": [
+        {
+          "text": "参加",
+          "kana": "さんか"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "作文",
+      "japanese": "作文",
+      "kana": "さくぶん",
+      "romaji": "sakubun",
+      "tokens": [
+        {
+          "text": "作文",
+          "kana": "さくぶん"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "今后、从今往后",
+      "japanese": "今後",
+      "kana": "こんご",
+      "romaji": "kongo",
+      "tokens": [
+        {
+          "text": "今後",
+          "kana": "こんご"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "材料",
+      "japanese": "材料",
+      "kana": "ざいりょう",
+      "romaji": "zairyou",
+      "tokens": [
+        {
+          "text": "材料",
+          "kana": "ざいりょう"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "诗、诗歌",
+      "japanese": "詩",
+      "kana": "し",
+      "romaji": "shi",
+      "tokens": [
+        {
+          "text": "詩",
+          "kana": "し"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "沙漠",
+      "japanese": "砂漠",
+      "kana": "さばく",
+      "romaji": "sabaku",
+      "tokens": [
+        {
+          "text": "砂漠",
+          "kana": "さばく"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "作物",
+      "japanese": "作物",
+      "kana": "さくもつ",
+      "romaji": "sakumotsu",
+      "tokens": [
+        {
+          "text": "作物",
+          "kana": "さくもつ"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "资源",
+      "japanese": "資源",
+      "kana": "しげん",
+      "romaji": "shigen",
+      "tokens": [
+        {
+          "text": "資源",
+          "kana": "しげん"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "比赛",
+      "japanese": "試合",
+      "kana": "しあい",
+      "romaji": "shiai",
+      "tokens": [
+        {
+          "text": "試合",
+          "kana": "しあい"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "杂志",
+      "japanese": "雑誌",
+      "kana": "ざっし",
+      "romaji": "zasshi",
+      "tokens": [
+        {
+          "text": "雑誌",
+          "kana": "ざっし"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "酒",
+      "japanese": "酒",
+      "kana": "さけ",
+      "romaji": "sake",
+      "tokens": [
+        {
+          "text": "酒",
+          "kana": "さけ"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "氧、氧气",
+      "japanese": "酸素",
+      "kana": "さんそ",
+      "romaji": "sanso",
+      "tokens": [
+        {
+          "text": "酸素",
+          "kana": "さんそ"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "灾害",
+      "japanese": "災害",
+      "kana": "さいがい",
+      "romaji": "saigai",
+      "tokens": [
+        {
+          "text": "災害",
+          "kana": "さいがい"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "产业",
+      "japanese": "産業",
+      "kana": "さんぎょう",
+      "romaji": "sangyou",
+      "tokens": [
+        {
+          "text": "産業",
+          "kana": "さんぎょう"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "茶道",
+      "japanese": "茶道",
+      "kana": "さどう",
+      "romaji": "sadou",
+      "tokens": [
+        {
+          "text": "茶道",
+          "kana": "さどう"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "幸福",
+      "japanese": "幸せ",
+      "kana": "しあわせ",
+      "romaji": "shiawase",
+      "tokens": [
+        {
+          "text": "幸せ",
+          "kana": "しあわせ"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "赞成",
+      "japanese": "賛成",
+      "kana": "さんせい",
+      "romaji": "sansei",
+      "tokens": [
+        {
+          "text": "賛成",
+          "kana": "さんせい"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "刺激",
+      "japanese": "刺激",
+      "kana": "しげき",
+      "romaji": "shigeki",
+      "tokens": [
+        {
+          "text": "刺激",
+          "kana": "しげき"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "樱、樱花",
+      "japanese": "桜",
+      "kana": "さくら",
+      "romaji": "sakura",
+      "tokens": [
+        {
+          "text": "桜",
+          "kana": "さくら"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "散步",
+      "japanese": "散歩",
+      "kana": "さんぽ",
+      "romaji": "sanpo",
+      "tokens": [
+        {
+          "text": "散歩",
+          "kana": "さんぽ"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "作家",
+      "japanese": "作家",
+      "kana": "さっか",
+      "romaji": "sakka",
+      "tokens": [
+        {
+          "text": "作家",
+          "kana": "さっか"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "困难",
+      "japanese": "困難",
+      "kana": "こんなん",
+      "romaji": "konnan",
+      "tokens": [
+        {
+          "text": "困難",
+          "kana": "こんなん"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "才能",
+      "japanese": "才能",
+      "kana": "さいのう",
+      "romaji": "sainou",
+      "tokens": [
+        {
+          "text": "才能",
+          "kana": "さいのう"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "砂糖",
+      "japanese": "砂糖",
+      "kana": "さとう",
+      "romaji": "satou",
+      "tokens": [
+        {
+          "text": "砂糖",
+          "kana": "さとう"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "这个周、本周",
+      "japanese": "今週",
+      "kana": "こんしゅう",
+      "romaji": "konshuu",
+      "tokens": [
+        {
+          "text": "今週",
+          "kana": "こんしゅう"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "碟子、盘子",
+      "japanese": "皿",
+      "kana": "さら",
+      "romaji": "sara",
+      "tokens": [
+        {
+          "text": "皿",
+          "kana": "さら"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "时期",
+      "japanese": "時期",
+      "kana": "じき",
+      "romaji": "jiki",
+      "tokens": [
+        {
+          "text": "時期",
+          "kana": "じき"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "钱包",
+      "japanese": "財布",
+      "kana": "さいふ",
+      "romaji": "saifu",
+      "tokens": [
+        {
+          "text": "財布",
+          "kana": "さいふ"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "四角",
+      "japanese": "四角",
+      "kana": "しかく",
+      "romaji": "shikaku",
+      "tokens": [
+        {
+          "text": "四角",
+          "kana": "しかく"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "大下周",
+      "japanese": "再来週",
+      "kana": "さらいしゅう",
+      "romaji": "saraishuu",
+      "tokens": [
+        {
+          "text": "再来週",
+          "kana": "さらいしゅう"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "钱包",
+      "japanese": "財布",
+      "kana": "さいふ",
+      "romaji": "saifu",
+      "tokens": [
+        {
+          "text": "財布",
+          "kana": "さいふ"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "刺激",
+      "japanese": "刺激",
+      "kana": "しげき",
+      "romaji": "shigeki",
+      "tokens": [
+        {
+          "text": "刺激",
+          "kana": "しげき"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "沙漠",
+      "japanese": "砂漠",
+      "kana": "さばく",
+      "romaji": "sabaku",
+      "tokens": [
+        {
+          "text": "砂漠",
+          "kana": "さばく"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "幸福",
+      "japanese": "幸せ",
+      "kana": "しあわせ",
+      "romaji": "shiawase",
+      "tokens": [
+        {
+          "text": "幸せ",
+          "kana": "しあわせ"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "砂糖",
+      "japanese": "砂糖",
+      "kana": "さとう",
+      "romaji": "satou",
+      "tokens": [
+        {
+          "text": "砂糖",
+          "kana": "さとう"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "产业",
+      "japanese": "産業",
+      "kana": "さんぎょう",
+      "romaji": "sangyou",
+      "tokens": [
+        {
+          "text": "産業",
+          "kana": "さんぎょう"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "酒",
+      "japanese": "酒",
+      "kana": "さけ",
+      "romaji": "sake",
+      "tokens": [
+        {
+          "text": "酒",
+          "kana": "さけ"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "材料",
+      "japanese": "材料",
+      "kana": "ざいりょう",
+      "romaji": "zairyou",
+      "tokens": [
+        {
+          "text": "材料",
+          "kana": "ざいりょう"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "赞成",
+      "japanese": "賛成",
+      "kana": "さんせい",
+      "romaji": "sansei",
+      "tokens": [
+        {
+          "text": "賛成",
+          "kana": "さんせい"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "作文",
+      "japanese": "作文",
+      "kana": "さくぶん",
+      "romaji": "sakubun",
+      "tokens": [
+        {
+          "text": "作文",
+          "kana": "さくぶん"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "才能",
+      "japanese": "才能",
+      "kana": "さいのう",
+      "romaji": "sainou",
+      "tokens": [
+        {
+          "text": "才能",
+          "kana": "さいのう"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "参加",
+      "japanese": "参加",
+      "kana": "さんか",
+      "romaji": "sanka",
+      "tokens": [
+        {
+          "text": "参加",
+          "kana": "さんか"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "碟子、盘子",
+      "japanese": "皿",
+      "kana": "さら",
+      "romaji": "sara",
+      "tokens": [
+        {
+          "text": "皿",
+          "kana": "さら"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "氧、氧气",
+      "japanese": "酸素",
+      "kana": "さんそ",
+      "romaji": "sanso",
+      "tokens": [
+        {
+          "text": "酸素",
+          "kana": "さんそ"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "作家",
+      "japanese": "作家",
+      "kana": "さっか",
+      "romaji": "sakka",
+      "tokens": [
+        {
+          "text": "作家",
+          "kana": "さっか"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "散步",
+      "japanese": "散歩",
+      "kana": "さんぽ",
+      "romaji": "sanpo",
+      "tokens": [
+        {
+          "text": "散歩",
+          "kana": "さんぽ"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "杂志",
+      "japanese": "雑誌",
+      "kana": "ざっし",
+      "romaji": "zasshi",
+      "tokens": [
+        {
+          "text": "雑誌",
+          "kana": "ざっし"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "时期",
+      "japanese": "時期",
+      "kana": "じき",
+      "romaji": "jiki",
+      "tokens": [
+        {
+          "text": "時期",
+          "kana": "じき"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "灾害",
+      "japanese": "災害",
+      "kana": "さいがい",
+      "romaji": "saigai",
+      "tokens": [
+        {
+          "text": "災害",
+          "kana": "さいがい"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "茶道",
+      "japanese": "茶道",
+      "kana": "さどう",
+      "romaji": "sadou",
+      "tokens": [
+        {
+          "text": "茶道",
+          "kana": "さどう"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "困难",
+      "japanese": "困難",
+      "kana": "こんなん",
+      "romaji": "konnan",
+      "tokens": [
+        {
+          "text": "困難",
+          "kana": "こんなん"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "四角",
+      "japanese": "四角",
+      "kana": "しかく",
+      "romaji": "shikaku",
+      "tokens": [
+        {
+          "text": "四角",
+          "kana": "しかく"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "作物",
+      "japanese": "作物",
+      "kana": "さくもつ",
+      "romaji": "sakumotsu",
+      "tokens": [
+        {
+          "text": "作物",
+          "kana": "さくもつ"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "今后、从今往后",
+      "japanese": "今後",
+      "kana": "こんご",
+      "romaji": "kongo",
+      "tokens": [
+        {
+          "text": "今後",
+          "kana": "こんご"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "资源",
+      "japanese": "資源",
+      "kana": "しげん",
+      "romaji": "shigen",
+      "tokens": [
+        {
+          "text": "資源",
+          "kana": "しげん"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "这个周、本周",
+      "japanese": "今週",
+      "kana": "こんしゅう",
+      "romaji": "konshuu",
+      "tokens": [
+        {
+          "text": "今週",
+          "kana": "こんしゅう"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "樱、樱花",
+      "japanese": "桜",
+      "kana": "さくら",
+      "romaji": "sakura",
+      "tokens": [
+        {
+          "text": "桜",
+          "kana": "さくら"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "大下周",
+      "japanese": "再来週",
+      "kana": "さらいしゅう",
+      "romaji": "saraishuu",
+      "tokens": [
+        {
+          "text": "再来週",
+          "kana": "さらいしゅう"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "比赛",
+      "japanese": "試合",
+      "kana": "しあい",
+      "romaji": "shiai",
+      "tokens": [
+        {
+          "text": "試合",
+          "kana": "しあい"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "诗、诗歌",
+      "japanese": "詩",
+      "kana": "し",
+      "romaji": "shi",
+      "tokens": [
+        {
+          "text": "詩",
+          "kana": "し"
+        }
+      ]
+    }
+  ]
+}

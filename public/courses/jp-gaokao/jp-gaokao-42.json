@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-42",
+  "coursePackId": "jp-gaokao",
+  "title": "名词低频 9",
+  "order": 42,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "期间",
+      "japanese": "期間",
+      "kana": "きかん",
+      "romaji": "kikan",
+      "tokens": [
+        {
+          "text": "期間",
+          "kana": "きかん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "共同拥有",
+      "japanese": "共有",
+      "kana": "きょうゆう",
+      "romaji": "kyouyuu",
+      "tokens": [
+        {
+          "text": "共有",
+          "kana": "きょうゆう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "教授",
+      "japanese": "教授",
+      "kana": "きょうじゅ",
+      "romaji": "kyouju",
+      "tokens": [
+        {
+          "text": "教授",
+          "kana": "きょうじゅ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "义务",
+      "japanese": "義務",
+      "kana": "ぎむ",
+      "romaji": "gimu",
+      "tokens": [
+        {
+          "text": "義務",
+          "kana": "ぎむ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "黄色",
+      "japanese": "黄色",
+      "kana": "きいろ",
+      "romaji": "kiiro",
+      "tokens": [
+        {
+          "text": "黄色",
+          "kana": "きいろ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "紧张",
+      "japanese": "緊張",
+      "kana": "きんちょう",
+      "romaji": "kinchou",
+      "tokens": [
+        {
+          "text": "緊張",
+          "kana": "きんちょう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "教师",
+      "japanese": "教師",
+      "kana": "きょうし",
+      "romaji": "kyoushi",
+      "tokens": [
+        {
+          "text": "教師",
+          "kana": "きょうし"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "记忆",
+      "japanese": "記憶",
+      "kana": "きおく",
+      "romaji": "kioku",
+      "tokens": [
+        {
+          "text": "記憶",
+          "kana": "きおく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "基础",
+      "japanese": "基礎",
+      "kana": "きそ",
+      "romaji": "kiso",
+      "tokens": [
+        {
+          "text": "基礎",
+          "kana": "きそ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "关联、联系",
+      "japanese": "関連",
+      "kana": "かんれん",
+      "romaji": "kanren",
+      "tokens": [
+        {
+          "text": "関連",
+          "kana": "かんれん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "云、云彩",
+      "japanese": "雲",
+      "kana": "くも",
+      "romaji": "kumo",
+      "tokens": [
+        {
+          "text": "雲",
+          "kana": "くも"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "禁止",
+      "japanese": "禁止",
+      "kana": "きんし",
+      "romaji": "kinshi",
+      "tokens": [
+        {
+          "text": "禁止",
+          "kana": "きんし"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "元旦",
+      "japanese": "元旦",
+      "kana": "がんたん",
+      "romaji": "gantan",
+      "tokens": [
+        {
+          "text": "元旦",
+          "kana": "がんたん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "纪念",
+      "japanese": "記念",
+      "kana": "きねん",
+      "romaji": "kinen",
+      "tokens": [
+        {
+          "text": "記念",
+          "kana": "きねん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "气温",
+      "japanese": "気温",
+      "kana": "きおん",
+      "romaji": "kion",
+      "tokens": [
+        {
+          "text": "気温",
+          "kana": "きおん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "曲子",
+      "japanese": "曲",
+      "kana": "きょく",
+      "romaji": "kyoku",
+      "tokens": [
+        {
+          "text": "曲",
+          "kana": "きょく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "规则",
+      "japanese": "規則",
+      "kana": "きそく",
+      "romaji": "kisoku",
+      "tokens": [
+        {
+          "text": "規則",
+          "kana": "きそく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "气候",
+      "japanese": "気候",
+      "kana": "きこう",
+      "romaji": "kikou",
+      "tokens": [
+        {
+          "text": "気候",
+          "kana": "きこう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "干燥",
+      "japanese": "乾燥",
+      "kana": "かんそう",
+      "romaji": "kansou",
+      "tokens": [
+        {
+          "text": "乾燥",
+          "kana": "かんそう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "期待",
+      "japanese": "期待",
+      "kana": "きたい",
+      "romaji": "kitai",
+      "tokens": [
+        {
+          "text": "期待",
+          "kana": "きたい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "机能",
+      "japanese": "機能",
+      "kana": "きのう",
+      "romaji": "kinou",
+      "tokens": [
+        {
+          "text": "機能",
+          "kana": "きのう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "佩服、钦佩",
+      "japanese": "感心",
+      "kana": "かんしん",
+      "romaji": "kanshin",
+      "tokens": [
+        {
+          "text": "感心",
+          "kana": "かんしん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "北",
+      "japanese": "北",
+      "kana": "きた",
+      "romaji": "kita",
+      "tokens": [
+        {
+          "text": "北",
+          "kana": "きた"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "去年",
+      "japanese": "去年",
+      "kana": "きょねん",
+      "romaji": "kyonen",
+      "tokens": [
+        {
+          "text": "去年",
+          "kana": "きょねん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "竞争",
+      "japanese": "競争",
+      "kana": "きょうそう",
+      "romaji": "kyousou",
+      "tokens": [
+        {
+          "text": "競争",
+          "kana": "きょうそう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "距离",
+      "japanese": "距離",
+      "kana": "きょり",
+      "romaji": "kyori",
+      "tokens": [
+        {
+          "text": "距離",
+          "kana": "きょり"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "观察",
+      "japanese": "観察",
+      "kana": "かんさつ",
+      "romaji": "kansatsu",
+      "tokens": [
+        {
+          "text": "観察",
+          "kana": "かんさつ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "机械",
+      "japanese": "機械",
+      "kana": "きかい",
+      "romaji": "kikai",
+      "tokens": [
+        {
+          "text": "機械",
+          "kana": "きかい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "记号",
+      "japanese": "記号",
+      "kana": "きごう",
+      "romaji": "kigou",
+      "tokens": [
+        {
+          "text": "記号",
+          "kana": "きごう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "管理",
+      "japanese": "管理",
+      "kana": "かんり",
+      "romaji": "kanri",
+      "tokens": [
+        {
+          "text": "管理",
+          "kana": "かんり"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "期间",
+      "japanese": "期間",
+      "kana": "きかん",
+      "romaji": "kikan",
+      "tokens": [
+        {
+          "text": "期間",
+          "kana": "きかん"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "竞争",
+      "japanese": "競争",
+      "kana": "きょうそう",
+      "romaji": "kyousou",
+      "tokens": [
+        {
+          "text": "競争",
+          "kana": "きょうそう"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "教师",
+      "japanese": "教師",
+      "kana": "きょうし",
+      "romaji": "kyoushi",
+      "tokens": [
+        {
+          "text": "教師",
+          "kana": "きょうし"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "距离",
+      "japanese": "距離",
+      "kana": "きょり",
+      "romaji": "kyori",
+      "tokens": [
+        {
+          "text": "距離",
+          "kana": "きょり"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "关联、联系",
+      "japanese": "関連",
+      "kana": "かんれん",
+      "romaji": "kanren",
+      "tokens": [
+        {
+          "text": "関連",
+          "kana": "かんれん"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "观察",
+      "japanese": "観察",
+      "kana": "かんさつ",
+      "romaji": "kansatsu",
+      "tokens": [
+        {
+          "text": "観察",
+          "kana": "かんさつ"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "记号",
+      "japanese": "記号",
+      "kana": "きごう",
+      "romaji": "kigou",
+      "tokens": [
+        {
+          "text": "記号",
+          "kana": "きごう"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "曲子",
+      "japanese": "曲",
+      "kana": "きょく",
+      "romaji": "kyoku",
+      "tokens": [
+        {
+          "text": "曲",
+          "kana": "きょく"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "机能",
+      "japanese": "機能",
+      "kana": "きのう",
+      "romaji": "kinou",
+      "tokens": [
+        {
+          "text": "機能",
+          "kana": "きのう"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "佩服、钦佩",
+      "japanese": "感心",
+      "kana": "かんしん",
+      "romaji": "kanshin",
+      "tokens": [
+        {
+          "text": "感心",
+          "kana": "かんしん"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "元旦",
+      "japanese": "元旦",
+      "kana": "がんたん",
+      "romaji": "gantan",
+      "tokens": [
+        {
+          "text": "元旦",
+          "kana": "がんたん"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "北",
+      "japanese": "北",
+      "kana": "きた",
+      "romaji": "kita",
+      "tokens": [
+        {
+          "text": "北",
+          "kana": "きた"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "纪念",
+      "japanese": "記念",
+      "kana": "きねん",
+      "romaji": "kinen",
+      "tokens": [
+        {
+          "text": "記念",
+          "kana": "きねん"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "气温",
+      "japanese": "気温",
+      "kana": "きおん",
+      "romaji": "kion",
+      "tokens": [
+        {
+          "text": "気温",
+          "kana": "きおん"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "禁止",
+      "japanese": "禁止",
+      "kana": "きんし",
+      "romaji": "kinshi",
+      "tokens": [
+        {
+          "text": "禁止",
+          "kana": "きんし"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "管理",
+      "japanese": "管理",
+      "kana": "かんり",
+      "romaji": "kanri",
+      "tokens": [
+        {
+          "text": "管理",
+          "kana": "かんり"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "黄色",
+      "japanese": "黄色",
+      "kana": "きいろ",
+      "romaji": "kiiro",
+      "tokens": [
+        {
+          "text": "黄色",
+          "kana": "きいろ"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "共同拥有",
+      "japanese": "共有",
+      "kana": "きょうゆう",
+      "romaji": "kyouyuu",
+      "tokens": [
+        {
+          "text": "共有",
+          "kana": "きょうゆう"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "紧张",
+      "japanese": "緊張",
+      "kana": "きんちょう",
+      "romaji": "kinchou",
+      "tokens": [
+        {
+          "text": "緊張",
+          "kana": "きんちょう"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "基础",
+      "japanese": "基礎",
+      "kana": "きそ",
+      "romaji": "kiso",
+      "tokens": [
+        {
+          "text": "基礎",
+          "kana": "きそ"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "教授",
+      "japanese": "教授",
+      "kana": "きょうじゅ",
+      "romaji": "kyouju",
+      "tokens": [
+        {
+          "text": "教授",
+          "kana": "きょうじゅ"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "规则",
+      "japanese": "規則",
+      "kana": "きそく",
+      "romaji": "kisoku",
+      "tokens": [
+        {
+          "text": "規則",
+          "kana": "きそく"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "机械",
+      "japanese": "機械",
+      "kana": "きかい",
+      "romaji": "kikai",
+      "tokens": [
+        {
+          "text": "機械",
+          "kana": "きかい"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "干燥",
+      "japanese": "乾燥",
+      "kana": "かんそう",
+      "romaji": "kansou",
+      "tokens": [
+        {
+          "text": "乾燥",
+          "kana": "かんそう"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "期待",
+      "japanese": "期待",
+      "kana": "きたい",
+      "romaji": "kitai",
+      "tokens": [
+        {
+          "text": "期待",
+          "kana": "きたい"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "义务",
+      "japanese": "義務",
+      "kana": "ぎむ",
+      "romaji": "gimu",
+      "tokens": [
+        {
+          "text": "義務",
+          "kana": "ぎむ"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "记忆",
+      "japanese": "記憶",
+      "kana": "きおく",
+      "romaji": "kioku",
+      "tokens": [
+        {
+          "text": "記憶",
+          "kana": "きおく"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "去年",
+      "japanese": "去年",
+      "kana": "きょねん",
+      "romaji": "kyonen",
+      "tokens": [
+        {
+          "text": "去年",
+          "kana": "きょねん"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "云、云彩",
+      "japanese": "雲",
+      "kana": "くも",
+      "romaji": "kumo",
+      "tokens": [
+        {
+          "text": "雲",
+          "kana": "くも"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "气候",
+      "japanese": "気候",
+      "kana": "きこう",
+      "romaji": "kikou",
+      "tokens": [
+        {
+          "text": "気候",
+          "kana": "きこう"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "竞争",
+      "japanese": "競争",
+      "kana": "きょうそう",
+      "romaji": "kyousou",
+      "tokens": [
+        {
+          "text": "競争",
+          "kana": "きょうそう"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "干燥",
+      "japanese": "乾燥",
+      "kana": "かんそう",
+      "romaji": "kansou",
+      "tokens": [
+        {
+          "text": "乾燥",
+          "kana": "かんそう"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "义务",
+      "japanese": "義務",
+      "kana": "ぎむ",
+      "romaji": "gimu",
+      "tokens": [
+        {
+          "text": "義務",
+          "kana": "ぎむ"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "机械",
+      "japanese": "機械",
+      "kana": "きかい",
+      "romaji": "kikai",
+      "tokens": [
+        {
+          "text": "機械",
+          "kana": "きかい"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "元旦",
+      "japanese": "元旦",
+      "kana": "がんたん",
+      "romaji": "gantan",
+      "tokens": [
+        {
+          "text": "元旦",
+          "kana": "がんたん"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "观察",
+      "japanese": "観察",
+      "kana": "かんさつ",
+      "romaji": "kansatsu",
+      "tokens": [
+        {
+          "text": "観察",
+          "kana": "かんさつ"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "关联、联系",
+      "japanese": "関連",
+      "kana": "かんれん",
+      "romaji": "kanren",
+      "tokens": [
+        {
+          "text": "関連",
+          "kana": "かんれん"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "黄色",
+      "japanese": "黄色",
+      "kana": "きいろ",
+      "romaji": "kiiro",
+      "tokens": [
+        {
+          "text": "黄色",
+          "kana": "きいろ"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "紧张",
+      "japanese": "緊張",
+      "kana": "きんちょう",
+      "romaji": "kinchou",
+      "tokens": [
+        {
+          "text": "緊張",
+          "kana": "きんちょう"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "曲子",
+      "japanese": "曲",
+      "kana": "きょく",
+      "romaji": "kyoku",
+      "tokens": [
+        {
+          "text": "曲",
+          "kana": "きょく"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "教师",
+      "japanese": "教師",
+      "kana": "きょうし",
+      "romaji": "kyoushi",
+      "tokens": [
+        {
+          "text": "教師",
+          "kana": "きょうし"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "距离",
+      "japanese": "距離",
+      "kana": "きょり",
+      "romaji": "kyori",
+      "tokens": [
+        {
+          "text": "距離",
+          "kana": "きょり"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "纪念",
+      "japanese": "記念",
+      "kana": "きねん",
+      "romaji": "kinen",
+      "tokens": [
+        {
+          "text": "記念",
+          "kana": "きねん"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "管理",
+      "japanese": "管理",
+      "kana": "かんり",
+      "romaji": "kanri",
+      "tokens": [
+        {
+          "text": "管理",
+          "kana": "かんり"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "禁止",
+      "japanese": "禁止",
+      "kana": "きんし",
+      "romaji": "kinshi",
+      "tokens": [
+        {
+          "text": "禁止",
+          "kana": "きんし"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "记忆",
+      "japanese": "記憶",
+      "kana": "きおく",
+      "romaji": "kioku",
+      "tokens": [
+        {
+          "text": "記憶",
+          "kana": "きおく"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "去年",
+      "japanese": "去年",
+      "kana": "きょねん",
+      "romaji": "kyonen",
+      "tokens": [
+        {
+          "text": "去年",
+          "kana": "きょねん"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "期待",
+      "japanese": "期待",
+      "kana": "きたい",
+      "romaji": "kitai",
+      "tokens": [
+        {
+          "text": "期待",
+          "kana": "きたい"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "基础",
+      "japanese": "基礎",
+      "kana": "きそ",
+      "romaji": "kiso",
+      "tokens": [
+        {
+          "text": "基礎",
+          "kana": "きそ"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "记号",
+      "japanese": "記号",
+      "kana": "きごう",
+      "romaji": "kigou",
+      "tokens": [
+        {
+          "text": "記号",
+          "kana": "きごう"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "气候",
+      "japanese": "気候",
+      "kana": "きこう",
+      "romaji": "kikou",
+      "tokens": [
+        {
+          "text": "気候",
+          "kana": "きこう"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "气温",
+      "japanese": "気温",
+      "kana": "きおん",
+      "romaji": "kion",
+      "tokens": [
+        {
+          "text": "気温",
+          "kana": "きおん"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "云、云彩",
+      "japanese": "雲",
+      "kana": "くも",
+      "romaji": "kumo",
+      "tokens": [
+        {
+          "text": "雲",
+          "kana": "くも"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "佩服、钦佩",
+      "japanese": "感心",
+      "kana": "かんしん",
+      "romaji": "kanshin",
+      "tokens": [
+        {
+          "text": "感心",
+          "kana": "かんしん"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "期间",
+      "japanese": "期間",
+      "kana": "きかん",
+      "romaji": "kikan",
+      "tokens": [
+        {
+          "text": "期間",
+          "kana": "きかん"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "北",
+      "japanese": "北",
+      "kana": "きた",
+      "romaji": "kita",
+      "tokens": [
+        {
+          "text": "北",
+          "kana": "きた"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "机能",
+      "japanese": "機能",
+      "kana": "きのう",
+      "romaji": "kinou",
+      "tokens": [
+        {
+          "text": "機能",
+          "kana": "きのう"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "教授",
+      "japanese": "教授",
+      "kana": "きょうじゅ",
+      "romaji": "kyouju",
+      "tokens": [
+        {
+          "text": "教授",
+          "kana": "きょうじゅ"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "共同拥有",
+      "japanese": "共有",
+      "kana": "きょうゆう",
+      "romaji": "kyouyuu",
+      "tokens": [
+        {
+          "text": "共有",
+          "kana": "きょうゆう"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "规则",
+      "japanese": "規則",
+      "kana": "きそく",
+      "romaji": "kisoku",
+      "tokens": [
+        {
+          "text": "規則",
+          "kana": "きそく"
+        }
+      ]
+    }
+  ]
+}

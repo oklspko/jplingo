@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-06",
+  "coursePackId": "jp-gaokao",
+  "title": "二类形容词 2",
+  "order": 6,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "方便、便利",
+      "japanese": "便利",
+      "kana": "べんり",
+      "romaji": "benri",
+      "tokens": [
+        {
+          "text": "便利",
+          "kana": "べんり"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "危险",
+      "japanese": "危険",
+      "kana": "きけん",
+      "romaji": "kiken",
+      "tokens": [
+        {
+          "text": "危険",
+          "kana": "きけん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "漂亮；干净",
+      "japanese": "綺麗",
+      "kana": "きれい",
+      "romaji": "kirei",
+      "tokens": [
+        {
+          "text": "綺麗",
+          "kana": "きれい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "健康、健全",
+      "japanese": "健康",
+      "kana": "けんこう",
+      "romaji": "kenkou",
+      "tokens": [
+        {
+          "text": "健康",
+          "kana": "けんこう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "自由、随意",
+      "japanese": "自由",
+      "kana": "じゆう",
+      "romaji": "jiyuu",
+      "tokens": [
+        {
+          "text": "自由",
+          "kana": "じゆう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "帅、漂亮、极好",
+      "japanese": "素敵",
+      "kana": "すてき",
+      "romaji": "suteki",
+      "tokens": [
+        {
+          "text": "素敵",
+          "kana": "すてき"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "明显、显然",
+      "japanese": "明らか",
+      "kana": "あきらか",
+      "romaji": "akiraka",
+      "tokens": [
+        {
+          "text": "明らか",
+          "kana": "あきらか"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "逆、倒、反过来",
+      "japanese": "逆",
+      "kana": "ぎゃく",
+      "romaji": "gyaku",
+      "tokens": [
+        {
+          "text": "逆",
+          "kana": "ぎゃく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "不安、不放心",
+      "japanese": "不安",
+      "kana": "ふあん",
+      "romaji": "fuan",
+      "tokens": [
+        {
+          "text": "不安",
+          "kana": "ふあん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "徒劳、白费、无益",
+      "japanese": "無駄",
+      "kana": "むだ",
+      "romaji": "muda",
+      "tokens": [
+        {
+          "text": "無駄",
+          "kana": "むだ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "健康、健壮、结实",
+      "japanese": "丈夫",
+      "kana": "じょうぶ",
+      "romaji": "joubu",
+      "tokens": [
+        {
+          "text": "丈夫",
+          "kana": "じょうぶ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "轻松、容易、宽裕、舒适",
+      "japanese": "楽",
+      "kana": "らく",
+      "romaji": "raku",
+      "tokens": [
+        {
+          "text": "楽",
+          "kana": "らく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "单纯、简单",
+      "japanese": "単純",
+      "kana": "たんじゅん",
+      "romaji": "tanjun",
+      "tokens": [
+        {
+          "text": "単純",
+          "kana": "たんじゅん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "不要紧、可以",
+      "japanese": "大丈夫",
+      "kana": "だいじょうぶ",
+      "romaji": "daijoubu",
+      "tokens": [
+        {
+          "text": "大丈夫",
+          "kana": "だいじょうぶ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "有害",
+      "japanese": "有害",
+      "kana": "ゆうがい",
+      "romaji": "yuugai",
+      "tokens": [
+        {
+          "text": "有害",
+          "kana": "ゆうがい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "遗憾、可惜、抱歉",
+      "japanese": "残念",
+      "kana": "ざんねん",
+      "romaji": "zannen",
+      "tokens": [
+        {
+          "text": "残念",
+          "kana": "ざんねん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "非常；紧急",
+      "japanese": "非常",
+      "kana": "ひじょう",
+      "romaji": "hijou",
+      "tokens": [
+        {
+          "text": "非常",
+          "kana": "ひじょう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "紧急、突然；陡、急",
+      "japanese": "急",
+      "kana": "きゅう",
+      "romaji": "kyuu",
+      "tokens": [
+        {
+          "text": "急",
+          "kana": "きゅう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "安静、平静、平稳",
+      "japanese": "静か",
+      "kana": "しずか",
+      "romaji": "shizuka",
+      "tokens": [
+        {
+          "text": "静か",
+          "kana": "しずか"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "简单、轻而易举、容易",
+      "japanese": "簡単",
+      "kana": "かんたん",
+      "romaji": "kantan",
+      "tokens": [
+        {
+          "text": "簡単",
+          "kana": "かんたん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "足够",
+      "japanese": "十分・充分",
+      "kana": "じゅうぶん",
+      "romaji": "juubun",
+      "tokens": [
+        {
+          "text": "十分・充分",
+          "kana": "じゅうぶん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "有效的",
+      "japanese": "有効",
+      "kana": "ゆうこう",
+      "romaji": "yuukou",
+      "tokens": [
+        {
+          "text": "有効",
+          "kana": "ゆうこう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "精神、朝气、健康",
+      "japanese": "元気",
+      "kana": "げんき",
+      "romaji": "genki",
+      "tokens": [
+        {
+          "text": "元気",
+          "kana": "げんき"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "可能",
+      "japanese": "可能",
+      "kana": "かのう",
+      "romaji": "kanou",
+      "tokens": [
+        {
+          "text": "可能",
+          "kana": "かのう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "重要；珍惜",
+      "japanese": "大切",
+      "kana": "たいせつ",
+      "romaji": "taisetsu",
+      "tokens": [
+        {
+          "text": "大切",
+          "kana": "たいせつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "可爱、讨人喜欢",
+      "japanese": "かわいい",
+      "kana": "かわいい",
+      "romaji": "kawaii",
+      "tokens": [
+        {
+          "text": "かわいい",
+          "kana": "かわいい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "重要、要紧",
+      "japanese": "重要",
+      "kana": "じゅうよう",
+      "romaji": "juuyou",
+      "tokens": [
+        {
+          "text": "重要",
+          "kana": "じゅうよう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "不合理、勉强",
+      "japanese": "無理",
+      "kana": "むり",
+      "romaji": "muri",
+      "tokens": [
+        {
+          "text": "無理",
+          "kana": "むり"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "重要、保重",
+      "japanese": "大事",
+      "kana": "だいじ",
+      "romaji": "daiji",
+      "tokens": [
+        {
+          "text": "大事",
+          "kana": "だいじ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "繁盛、繁荣、兴盛",
+      "japanese": "盛ん",
+      "kana": "さかん",
+      "romaji": "sakan",
+      "tokens": [
+        {
+          "text": "盛ん",
+          "kana": "さかん"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "繁盛、繁荣、兴盛",
+      "japanese": "盛ん",
+      "kana": "さかん",
+      "romaji": "sakan",
+      "tokens": [
+        {
+          "text": "盛ん",
+          "kana": "さかん"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "轻松、容易、宽裕、舒适",
+      "japanese": "楽",
+      "kana": "らく",
+      "romaji": "raku",
+      "tokens": [
+        {
+          "text": "楽",
+          "kana": "らく"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "重要；珍惜",
+      "japanese": "大切",
+      "kana": "たいせつ",
+      "romaji": "taisetsu",
+      "tokens": [
+        {
+          "text": "大切",
+          "kana": "たいせつ"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "有害",
+      "japanese": "有害",
+      "kana": "ゆうがい",
+      "romaji": "yuugai",
+      "tokens": [
+        {
+          "text": "有害",
+          "kana": "ゆうがい"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "足够",
+      "japanese": "十分・充分",
+      "kana": "じゅうぶん",
+      "romaji": "juubun",
+      "tokens": [
+        {
+          "text": "十分・充分",
+          "kana": "じゅうぶん"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "单纯、简单",
+      "japanese": "単純",
+      "kana": "たんじゅん",
+      "romaji": "tanjun",
+      "tokens": [
+        {
+          "text": "単純",
+          "kana": "たんじゅん"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "简单、轻而易举、容易",
+      "japanese": "簡単",
+      "kana": "かんたん",
+      "romaji": "kantan",
+      "tokens": [
+        {
+          "text": "簡単",
+          "kana": "かんたん"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "不合理、勉强",
+      "japanese": "無理",
+      "kana": "むり",
+      "romaji": "muri",
+      "tokens": [
+        {
+          "text": "無理",
+          "kana": "むり"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "精神、朝气、健康",
+      "japanese": "元気",
+      "kana": "げんき",
+      "romaji": "genki",
+      "tokens": [
+        {
+          "text": "元気",
+          "kana": "げんき"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "健康、健全",
+      "japanese": "健康",
+      "kana": "けんこう",
+      "romaji": "kenkou",
+      "tokens": [
+        {
+          "text": "健康",
+          "kana": "けんこう"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "遗憾、可惜、抱歉",
+      "japanese": "残念",
+      "kana": "ざんねん",
+      "romaji": "zannen",
+      "tokens": [
+        {
+          "text": "残念",
+          "kana": "ざんねん"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "安静、平静、平稳",
+      "japanese": "静か",
+      "kana": "しずか",
+      "romaji": "shizuka",
+      "tokens": [
+        {
+          "text": "静か",
+          "kana": "しずか"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "方便、便利",
+      "japanese": "便利",
+      "kana": "べんり",
+      "romaji": "benri",
+      "tokens": [
+        {
+          "text": "便利",
+          "kana": "べんり"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "不要紧、可以",
+      "japanese": "大丈夫",
+      "kana": "だいじょうぶ",
+      "romaji": "daijoubu",
+      "tokens": [
+        {
+          "text": "大丈夫",
+          "kana": "だいじょうぶ"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "明显、显然",
+      "japanese": "明らか",
+      "kana": "あきらか",
+      "romaji": "akiraka",
+      "tokens": [
+        {
+          "text": "明らか",
+          "kana": "あきらか"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "有效的",
+      "japanese": "有効",
+      "kana": "ゆうこう",
+      "romaji": "yuukou",
+      "tokens": [
+        {
+          "text": "有効",
+          "kana": "ゆうこう"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "自由、随意",
+      "japanese": "自由",
+      "kana": "じゆう",
+      "romaji": "jiyuu",
+      "tokens": [
+        {
+          "text": "自由",
+          "kana": "じゆう"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "重要、保重",
+      "japanese": "大事",
+      "kana": "だいじ",
+      "romaji": "daiji",
+      "tokens": [
+        {
+          "text": "大事",
+          "kana": "だいじ"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "紧急、突然；陡、急",
+      "japanese": "急",
+      "kana": "きゅう",
+      "romaji": "kyuu",
+      "tokens": [
+        {
+          "text": "急",
+          "kana": "きゅう"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "不安、不放心",
+      "japanese": "不安",
+      "kana": "ふあん",
+      "romaji": "fuan",
+      "tokens": [
+        {
+          "text": "不安",
+          "kana": "ふあん"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "可爱、讨人喜欢",
+      "japanese": "かわいい",
+      "kana": "かわいい",
+      "romaji": "kawaii",
+      "tokens": [
+        {
+          "text": "かわいい",
+          "kana": "かわいい"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "危险",
+      "japanese": "危険",
+      "kana": "きけん",
+      "romaji": "kiken",
+      "tokens": [
+        {
+          "text": "危険",
+          "kana": "きけん"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "可能",
+      "japanese": "可能",
+      "kana": "かのう",
+      "romaji": "kanou",
+      "tokens": [
+        {
+          "text": "可能",
+          "kana": "かのう"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "漂亮；干净",
+      "japanese": "綺麗",
+      "kana": "きれい",
+      "romaji": "kirei",
+      "tokens": [
+        {
+          "text": "綺麗",
+          "kana": "きれい"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "重要、要紧",
+      "japanese": "重要",
+      "kana": "じゅうよう",
+      "romaji": "juuyou",
+      "tokens": [
+        {
+          "text": "重要",
+          "kana": "じゅうよう"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "帅、漂亮、极好",
+      "japanese": "素敵",
+      "kana": "すてき",
+      "romaji": "suteki",
+      "tokens": [
+        {
+          "text": "素敵",
+          "kana": "すてき"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "健康、健壮、结实",
+      "japanese": "丈夫",
+      "kana": "じょうぶ",
+      "romaji": "joubu",
+      "tokens": [
+        {
+          "text": "丈夫",
+          "kana": "じょうぶ"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "徒劳、白费、无益",
+      "japanese": "無駄",
+      "kana": "むだ",
+      "romaji": "muda",
+      "tokens": [
+        {
+          "text": "無駄",
+          "kana": "むだ"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "逆、倒、反过来",
+      "japanese": "逆",
+      "kana": "ぎゃく",
+      "romaji": "gyaku",
+      "tokens": [
+        {
+          "text": "逆",
+          "kana": "ぎゃく"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "非常；紧急",
+      "japanese": "非常",
+      "kana": "ひじょう",
+      "romaji": "hijou",
+      "tokens": [
+        {
+          "text": "非常",
+          "kana": "ひじょう"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "危险",
+      "japanese": "危険",
+      "kana": "きけん",
+      "romaji": "kiken",
+      "tokens": [
+        {
+          "text": "危険",
+          "kana": "きけん"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "漂亮；干净",
+      "japanese": "綺麗",
+      "kana": "きれい",
+      "romaji": "kirei",
+      "tokens": [
+        {
+          "text": "綺麗",
+          "kana": "きれい"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "遗憾、可惜、抱歉",
+      "japanese": "残念",
+      "kana": "ざんねん",
+      "romaji": "zannen",
+      "tokens": [
+        {
+          "text": "残念",
+          "kana": "ざんねん"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "精神、朝气、健康",
+      "japanese": "元気",
+      "kana": "げんき",
+      "romaji": "genki",
+      "tokens": [
+        {
+          "text": "元気",
+          "kana": "げんき"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "非常；紧急",
+      "japanese": "非常",
+      "kana": "ひじょう",
+      "romaji": "hijou",
+      "tokens": [
+        {
+          "text": "非常",
+          "kana": "ひじょう"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "可能",
+      "japanese": "可能",
+      "kana": "かのう",
+      "romaji": "kanou",
+      "tokens": [
+        {
+          "text": "可能",
+          "kana": "かのう"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "重要；珍惜",
+      "japanese": "大切",
+      "kana": "たいせつ",
+      "romaji": "taisetsu",
+      "tokens": [
+        {
+          "text": "大切",
+          "kana": "たいせつ"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "紧急、突然；陡、急",
+      "japanese": "急",
+      "kana": "きゅう",
+      "romaji": "kyuu",
+      "tokens": [
+        {
+          "text": "急",
+          "kana": "きゅう"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "足够",
+      "japanese": "十分・充分",
+      "kana": "じゅうぶん",
+      "romaji": "juubun",
+      "tokens": [
+        {
+          "text": "十分・充分",
+          "kana": "じゅうぶん"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "安静、平静、平稳",
+      "japanese": "静か",
+      "kana": "しずか",
+      "romaji": "shizuka",
+      "tokens": [
+        {
+          "text": "静か",
+          "kana": "しずか"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "不安、不放心",
+      "japanese": "不安",
+      "kana": "ふあん",
+      "romaji": "fuan",
+      "tokens": [
+        {
+          "text": "不安",
+          "kana": "ふあん"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "方便、便利",
+      "japanese": "便利",
+      "kana": "べんり",
+      "romaji": "benri",
+      "tokens": [
+        {
+          "text": "便利",
+          "kana": "べんり"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "帅、漂亮、极好",
+      "japanese": "素敵",
+      "kana": "すてき",
+      "romaji": "suteki",
+      "tokens": [
+        {
+          "text": "素敵",
+          "kana": "すてき"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "徒劳、白费、无益",
+      "japanese": "無駄",
+      "kana": "むだ",
+      "romaji": "muda",
+      "tokens": [
+        {
+          "text": "無駄",
+          "kana": "むだ"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "逆、倒、反过来",
+      "japanese": "逆",
+      "kana": "ぎゃく",
+      "romaji": "gyaku",
+      "tokens": [
+        {
+          "text": "逆",
+          "kana": "ぎゃく"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "单纯、简单",
+      "japanese": "単純",
+      "kana": "たんじゅん",
+      "romaji": "tanjun",
+      "tokens": [
+        {
+          "text": "単純",
+          "kana": "たんじゅん"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "不合理、勉强",
+      "japanese": "無理",
+      "kana": "むり",
+      "romaji": "muri",
+      "tokens": [
+        {
+          "text": "無理",
+          "kana": "むり"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "重要、保重",
+      "japanese": "大事",
+      "kana": "だいじ",
+      "romaji": "daiji",
+      "tokens": [
+        {
+          "text": "大事",
+          "kana": "だいじ"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "繁盛、繁荣、兴盛",
+      "japanese": "盛ん",
+      "kana": "さかん",
+      "romaji": "sakan",
+      "tokens": [
+        {
+          "text": "盛ん",
+          "kana": "さかん"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "轻松、容易、宽裕、舒适",
+      "japanese": "楽",
+      "kana": "らく",
+      "romaji": "raku",
+      "tokens": [
+        {
+          "text": "楽",
+          "kana": "らく"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "不要紧、可以",
+      "japanese": "大丈夫",
+      "kana": "だいじょうぶ",
+      "romaji": "daijoubu",
+      "tokens": [
+        {
+          "text": "大丈夫",
+          "kana": "だいじょうぶ"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "有害",
+      "japanese": "有害",
+      "kana": "ゆうがい",
+      "romaji": "yuugai",
+      "tokens": [
+        {
+          "text": "有害",
+          "kana": "ゆうがい"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "可爱、讨人喜欢",
+      "japanese": "かわいい",
+      "kana": "かわいい",
+      "romaji": "kawaii",
+      "tokens": [
+        {
+          "text": "かわいい",
+          "kana": "かわいい"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "自由、随意",
+      "japanese": "自由",
+      "kana": "じゆう",
+      "romaji": "jiyuu",
+      "tokens": [
+        {
+          "text": "自由",
+          "kana": "じゆう"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "健康、健全",
+      "japanese": "健康",
+      "kana": "けんこう",
+      "romaji": "kenkou",
+      "tokens": [
+        {
+          "text": "健康",
+          "kana": "けんこう"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "明显、显然",
+      "japanese": "明らか",
+      "kana": "あきらか",
+      "romaji": "akiraka",
+      "tokens": [
+        {
+          "text": "明らか",
+          "kana": "あきらか"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "健康、健壮、结实",
+      "japanese": "丈夫",
+      "kana": "じょうぶ",
+      "romaji": "joubu",
+      "tokens": [
+        {
+          "text": "丈夫",
+          "kana": "じょうぶ"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "重要、要紧",
+      "japanese": "重要",
+      "kana": "じゅうよう",
+      "romaji": "juuyou",
+      "tokens": [
+        {
+          "text": "重要",
+          "kana": "じゅうよう"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "有效的",
+      "japanese": "有効",
+      "kana": "ゆうこう",
+      "romaji": "yuukou",
+      "tokens": [
+        {
+          "text": "有効",
+          "kana": "ゆうこう"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "简单、轻而易举、容易",
+      "japanese": "簡単",
+      "kana": "かんたん",
+      "romaji": "kantan",
+      "tokens": [
+        {
+          "text": "簡単",
+          "kana": "かんたん"
+        }
+      ]
+    }
+  ]
+}

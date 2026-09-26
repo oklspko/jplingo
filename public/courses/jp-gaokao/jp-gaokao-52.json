@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-52",
+  "coursePackId": "jp-gaokao",
+  "title": "接续词 1",
+  "order": 52,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "而且、还有",
+      "japanese": "また",
+      "kana": "また",
+      "romaji": "mata",
+      "tokens": [
+        {
+          "text": "また",
+          "kana": "また"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "所以、故而",
+      "japanese": "ゆえに",
+      "kana": "ゆえに",
+      "romaji": "yueni",
+      "tokens": [
+        {
+          "text": "ゆえに",
+          "kana": "ゆえに"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "但是",
+      "japanese": "しかし",
+      "kana": "しかし",
+      "romaji": "shikashi",
+      "tokens": [
+        {
+          "text": "しかし",
+          "kana": "しかし"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "因此、为此",
+      "japanese": "そのため",
+      "kana": "そのため",
+      "romaji": "sonotame",
+      "tokens": [
+        {
+          "text": "そのため",
+          "kana": "そのため"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "以及、和",
+      "japanese": "および",
+      "kana": "および",
+      "romaji": "oyobi",
+      "tokens": [
+        {
+          "text": "および",
+          "kana": "および"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "即、就是",
+      "japanese": "つまり",
+      "kana": "つまり",
+      "romaji": "tsumari",
+      "tokens": [
+        {
+          "text": "つまり",
+          "kana": "つまり"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "然后；而且",
+      "japanese": "そうして",
+      "kana": "そうして",
+      "romaji": "soushite",
+      "tokens": [
+        {
+          "text": "そうして",
+          "kana": "そうして"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "那样的话",
+      "japanese": "それなら",
+      "kana": "それなら",
+      "romaji": "sorenara",
+      "tokens": [
+        {
+          "text": "それなら",
+          "kana": "それなら"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "但是",
+      "japanese": "でも",
+      "kana": "でも",
+      "romaji": "demo",
+      "tokens": [
+        {
+          "text": "でも",
+          "kana": "でも"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "因此、所以",
+      "japanese": "だから",
+      "kana": "だから",
+      "romaji": "dakara",
+      "tokens": [
+        {
+          "text": "だから",
+          "kana": "だから"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "而且、加上",
+      "japanese": "そのうえ",
+      "kana": "そのうえ",
+      "romaji": "sonoue",
+      "tokens": [
+        {
+          "text": "そのうえ",
+          "kana": "そのうえ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "这样的话",
+      "japanese": "そうすると",
+      "kana": "そうすると",
+      "romaji": "sousuruto",
+      "tokens": [
+        {
+          "text": "そうすると",
+          "kana": "そうすると"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "再有、更加",
+      "japanese": "さらに",
+      "kana": "さらに",
+      "romaji": "sarani",
+      "tokens": [
+        {
+          "text": "さらに",
+          "kana": "さらに"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "然后；而且",
+      "japanese": "そして",
+      "kana": "そして",
+      "romaji": "soshite",
+      "tokens": [
+        {
+          "text": "そして",
+          "kana": "そして"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "因此；那么",
+      "japanese": "そこで",
+      "kana": "そこで",
+      "romaji": "sokode",
+      "tokens": [
+        {
+          "text": "そこで",
+          "kana": "そこで"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "但是",
+      "japanese": "けれども",
+      "kana": "けれども",
+      "romaji": "keredomo",
+      "tokens": [
+        {
+          "text": "けれども",
+          "kana": "けれども"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "但是",
+      "japanese": "だけど",
+      "kana": "だけど",
+      "romaji": "dakedo",
+      "tokens": [
+        {
+          "text": "だけど",
+          "kana": "だけど"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "因此；后来",
+      "japanese": "それで",
+      "kana": "それで",
+      "romaji": "sorede",
+      "tokens": [
+        {
+          "text": "それで",
+          "kana": "それで"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "可是",
+      "japanese": "それが",
+      "kana": "それが",
+      "romaji": "sorega",
+      "tokens": [
+        {
+          "text": "それが",
+          "kana": "それが"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "然后；还有",
+      "japanese": "それから",
+      "kana": "それから",
+      "romaji": "sorekara",
+      "tokens": [
+        {
+          "text": "それから",
+          "kana": "それから"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "再者、此外",
+      "japanese": "なお",
+      "kana": "なお",
+      "romaji": "nao",
+      "tokens": [
+        {
+          "text": "なお",
+          "kana": "なお"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "可是",
+      "japanese": "ところが",
+      "kana": "ところが",
+      "romaji": "tokoroga",
+      "tokens": [
+        {
+          "text": "ところが",
+          "kana": "ところが"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "尽管那样",
+      "japanese": "とはいうものの",
+      "kana": "とはいうものの",
+      "romaji": "tohaiumonono",
+      "tokens": [
+        {
+          "text": "とはいうものの",
+          "kana": "とはいうものの"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "尽管那样",
+      "japanese": "それなのに",
+      "kana": "それなのに",
+      "romaji": "sorenanoni",
+      "tokens": [
+        {
+          "text": "それなのに",
+          "kana": "それなのに"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "因此、从而",
+      "japanese": "したがって",
+      "kana": "したがって",
+      "romaji": "shitagatte",
+      "tokens": [
+        {
+          "text": "したがって",
+          "kana": "したがって"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "尽管那样",
+      "japanese": "とはいえ",
+      "kana": "とはいえ",
+      "romaji": "tohaie",
+      "tokens": [
+        {
+          "text": "とはいえ",
+          "kana": "とはいえ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "但是",
+      "japanese": "だが",
+      "kana": "だが",
+      "romaji": "daga",
+      "tokens": [
+        {
+          "text": "だが",
+          "kana": "だが"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "而且、还有",
+      "japanese": "それに",
+      "kana": "それに",
+      "romaji": "soreni",
+      "tokens": [
+        {
+          "text": "それに",
+          "kana": "それに"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "而且；却",
+      "japanese": "しかも",
+      "kana": "しかも",
+      "romaji": "shikamo",
+      "tokens": [
+        {
+          "text": "しかも",
+          "kana": "しかも"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "于是；那么",
+      "japanese": "すると",
+      "kana": "すると",
+      "romaji": "suruto",
+      "tokens": [
+        {
+          "text": "すると",
+          "kana": "すると"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "那样的话",
+      "japanese": "それなら",
+      "kana": "それなら",
+      "romaji": "sorenara",
+      "tokens": [
+        {
+          "text": "それなら",
+          "kana": "それなら"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "而且、还有",
+      "japanese": "それに",
+      "kana": "それに",
+      "romaji": "soreni",
+      "tokens": [
+        {
+          "text": "それに",
+          "kana": "それに"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "因此、所以",
+      "japanese": "だから",
+      "kana": "だから",
+      "romaji": "dakara",
+      "tokens": [
+        {
+          "text": "だから",
+          "kana": "だから"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "再有、更加",
+      "japanese": "さらに",
+      "kana": "さらに",
+      "romaji": "sarani",
+      "tokens": [
+        {
+          "text": "さらに",
+          "kana": "さらに"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "尽管那样",
+      "japanese": "とはいうものの",
+      "kana": "とはいうものの",
+      "romaji": "tohaiumonono",
+      "tokens": [
+        {
+          "text": "とはいうものの",
+          "kana": "とはいうものの"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "再者、此外",
+      "japanese": "なお",
+      "kana": "なお",
+      "romaji": "nao",
+      "tokens": [
+        {
+          "text": "なお",
+          "kana": "なお"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "但是",
+      "japanese": "だけど",
+      "kana": "だけど",
+      "romaji": "dakedo",
+      "tokens": [
+        {
+          "text": "だけど",
+          "kana": "だけど"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "因此、从而",
+      "japanese": "したがって",
+      "kana": "したがって",
+      "romaji": "shitagatte",
+      "tokens": [
+        {
+          "text": "したがって",
+          "kana": "したがって"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "即、就是",
+      "japanese": "つまり",
+      "kana": "つまり",
+      "romaji": "tsumari",
+      "tokens": [
+        {
+          "text": "つまり",
+          "kana": "つまり"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "但是",
+      "japanese": "しかし",
+      "kana": "しかし",
+      "romaji": "shikashi",
+      "tokens": [
+        {
+          "text": "しかし",
+          "kana": "しかし"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "这样的话",
+      "japanese": "そうすると",
+      "kana": "そうすると",
+      "romaji": "sousuruto",
+      "tokens": [
+        {
+          "text": "そうすると",
+          "kana": "そうすると"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "而且、还有",
+      "japanese": "また",
+      "kana": "また",
+      "romaji": "mata",
+      "tokens": [
+        {
+          "text": "また",
+          "kana": "また"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "但是",
+      "japanese": "けれども",
+      "kana": "けれども",
+      "romaji": "keredomo",
+      "tokens": [
+        {
+          "text": "けれども",
+          "kana": "けれども"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "以及、和",
+      "japanese": "および",
+      "kana": "および",
+      "romaji": "oyobi",
+      "tokens": [
+        {
+          "text": "および",
+          "kana": "および"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "但是",
+      "japanese": "でも",
+      "kana": "でも",
+      "romaji": "demo",
+      "tokens": [
+        {
+          "text": "でも",
+          "kana": "でも"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "而且；却",
+      "japanese": "しかも",
+      "kana": "しかも",
+      "romaji": "shikamo",
+      "tokens": [
+        {
+          "text": "しかも",
+          "kana": "しかも"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "然后；还有",
+      "japanese": "それから",
+      "kana": "それから",
+      "romaji": "sorekara",
+      "tokens": [
+        {
+          "text": "それから",
+          "kana": "それから"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "然后；而且",
+      "japanese": "そして",
+      "kana": "そして",
+      "romaji": "soshite",
+      "tokens": [
+        {
+          "text": "そして",
+          "kana": "そして"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "可是",
+      "japanese": "それが",
+      "kana": "それが",
+      "romaji": "sorega",
+      "tokens": [
+        {
+          "text": "それが",
+          "kana": "それが"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "可是",
+      "japanese": "ところが",
+      "kana": "ところが",
+      "romaji": "tokoroga",
+      "tokens": [
+        {
+          "text": "ところが",
+          "kana": "ところが"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "因此、为此",
+      "japanese": "そのため",
+      "kana": "そのため",
+      "romaji": "sonotame",
+      "tokens": [
+        {
+          "text": "そのため",
+          "kana": "そのため"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "尽管那样",
+      "japanese": "とはいえ",
+      "kana": "とはいえ",
+      "romaji": "tohaie",
+      "tokens": [
+        {
+          "text": "とはいえ",
+          "kana": "とはいえ"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "而且、加上",
+      "japanese": "そのうえ",
+      "kana": "そのうえ",
+      "romaji": "sonoue",
+      "tokens": [
+        {
+          "text": "そのうえ",
+          "kana": "そのうえ"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "于是；那么",
+      "japanese": "すると",
+      "kana": "すると",
+      "romaji": "suruto",
+      "tokens": [
+        {
+          "text": "すると",
+          "kana": "すると"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "但是",
+      "japanese": "だが",
+      "kana": "だが",
+      "romaji": "daga",
+      "tokens": [
+        {
+          "text": "だが",
+          "kana": "だが"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "因此；那么",
+      "japanese": "そこで",
+      "kana": "そこで",
+      "romaji": "sokode",
+      "tokens": [
+        {
+          "text": "そこで",
+          "kana": "そこで"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "尽管那样",
+      "japanese": "それなのに",
+      "kana": "それなのに",
+      "romaji": "sorenanoni",
+      "tokens": [
+        {
+          "text": "それなのに",
+          "kana": "それなのに"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "然后；而且",
+      "japanese": "そうして",
+      "kana": "そうして",
+      "romaji": "soushite",
+      "tokens": [
+        {
+          "text": "そうして",
+          "kana": "そうして"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "所以、故而",
+      "japanese": "ゆえに",
+      "kana": "ゆえに",
+      "romaji": "yueni",
+      "tokens": [
+        {
+          "text": "ゆえに",
+          "kana": "ゆえに"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "因此；后来",
+      "japanese": "それで",
+      "kana": "それで",
+      "romaji": "sorede",
+      "tokens": [
+        {
+          "text": "それで",
+          "kana": "それで"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "因此、为此",
+      "japanese": "そのため",
+      "kana": "そのため",
+      "romaji": "sonotame",
+      "tokens": [
+        {
+          "text": "そのため",
+          "kana": "そのため"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "因此；那么",
+      "japanese": "そこで",
+      "kana": "そこで",
+      "romaji": "sokode",
+      "tokens": [
+        {
+          "text": "そこで",
+          "kana": "そこで"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "再者、此外",
+      "japanese": "なお",
+      "kana": "なお",
+      "romaji": "nao",
+      "tokens": [
+        {
+          "text": "なお",
+          "kana": "なお"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "但是",
+      "japanese": "だが",
+      "kana": "だが",
+      "romaji": "daga",
+      "tokens": [
+        {
+          "text": "だが",
+          "kana": "だが"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "因此、从而",
+      "japanese": "したがって",
+      "kana": "したがって",
+      "romaji": "shitagatte",
+      "tokens": [
+        {
+          "text": "したがって",
+          "kana": "したがって"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "这样的话",
+      "japanese": "そうすると",
+      "kana": "そうすると",
+      "romaji": "sousuruto",
+      "tokens": [
+        {
+          "text": "そうすると",
+          "kana": "そうすると"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "而且；却",
+      "japanese": "しかも",
+      "kana": "しかも",
+      "romaji": "shikamo",
+      "tokens": [
+        {
+          "text": "しかも",
+          "kana": "しかも"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "而且、还有",
+      "japanese": "また",
+      "kana": "また",
+      "romaji": "mata",
+      "tokens": [
+        {
+          "text": "また",
+          "kana": "また"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "然后；还有",
+      "japanese": "それから",
+      "kana": "それから",
+      "romaji": "sorekara",
+      "tokens": [
+        {
+          "text": "それから",
+          "kana": "それから"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "尽管那样",
+      "japanese": "とはいうものの",
+      "kana": "とはいうものの",
+      "romaji": "tohaiumonono",
+      "tokens": [
+        {
+          "text": "とはいうものの",
+          "kana": "とはいうものの"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "因此；后来",
+      "japanese": "それで",
+      "kana": "それで",
+      "romaji": "sorede",
+      "tokens": [
+        {
+          "text": "それで",
+          "kana": "それで"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "即、就是",
+      "japanese": "つまり",
+      "kana": "つまり",
+      "romaji": "tsumari",
+      "tokens": [
+        {
+          "text": "つまり",
+          "kana": "つまり"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "然后；而且",
+      "japanese": "そうして",
+      "kana": "そうして",
+      "romaji": "soushite",
+      "tokens": [
+        {
+          "text": "そうして",
+          "kana": "そうして"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "然后；而且",
+      "japanese": "そして",
+      "kana": "そして",
+      "romaji": "soshite",
+      "tokens": [
+        {
+          "text": "そして",
+          "kana": "そして"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "尽管那样",
+      "japanese": "とはいえ",
+      "kana": "とはいえ",
+      "romaji": "tohaie",
+      "tokens": [
+        {
+          "text": "とはいえ",
+          "kana": "とはいえ"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "因此、所以",
+      "japanese": "だから",
+      "kana": "だから",
+      "romaji": "dakara",
+      "tokens": [
+        {
+          "text": "だから",
+          "kana": "だから"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "可是",
+      "japanese": "ところが",
+      "kana": "ところが",
+      "romaji": "tokoroga",
+      "tokens": [
+        {
+          "text": "ところが",
+          "kana": "ところが"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "而且、加上",
+      "japanese": "そのうえ",
+      "kana": "そのうえ",
+      "romaji": "sonoue",
+      "tokens": [
+        {
+          "text": "そのうえ",
+          "kana": "そのうえ"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "但是",
+      "japanese": "けれども",
+      "kana": "けれども",
+      "romaji": "keredomo",
+      "tokens": [
+        {
+          "text": "けれども",
+          "kana": "けれども"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "再有、更加",
+      "japanese": "さらに",
+      "kana": "さらに",
+      "romaji": "sarani",
+      "tokens": [
+        {
+          "text": "さらに",
+          "kana": "さらに"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "可是",
+      "japanese": "それが",
+      "kana": "それが",
+      "romaji": "sorega",
+      "tokens": [
+        {
+          "text": "それが",
+          "kana": "それが"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "但是",
+      "japanese": "だけど",
+      "kana": "だけど",
+      "romaji": "dakedo",
+      "tokens": [
+        {
+          "text": "だけど",
+          "kana": "だけど"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "尽管那样",
+      "japanese": "それなのに",
+      "kana": "それなのに",
+      "romaji": "sorenanoni",
+      "tokens": [
+        {
+          "text": "それなのに",
+          "kana": "それなのに"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "但是",
+      "japanese": "しかし",
+      "kana": "しかし",
+      "romaji": "shikashi",
+      "tokens": [
+        {
+          "text": "しかし",
+          "kana": "しかし"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "以及、和",
+      "japanese": "および",
+      "kana": "および",
+      "romaji": "oyobi",
+      "tokens": [
+        {
+          "text": "および",
+          "kana": "および"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "于是；那么",
+      "japanese": "すると",
+      "kana": "すると",
+      "romaji": "suruto",
+      "tokens": [
+        {
+          "text": "すると",
+          "kana": "すると"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "那样的话",
+      "japanese": "それなら",
+      "kana": "それなら",
+      "romaji": "sorenara",
+      "tokens": [
+        {
+          "text": "それなら",
+          "kana": "それなら"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "所以、故而",
+      "japanese": "ゆえに",
+      "kana": "ゆえに",
+      "romaji": "yueni",
+      "tokens": [
+        {
+          "text": "ゆえに",
+          "kana": "ゆえに"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "但是",
+      "japanese": "でも",
+      "kana": "でも",
+      "romaji": "demo",
+      "tokens": [
+        {
+          "text": "でも",
+          "kana": "でも"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "而且、还有",
+      "japanese": "それに",
+      "kana": "それに",
+      "romaji": "soreni",
+      "tokens": [
+        {
+          "text": "それに",
+          "kana": "それに"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-31",
+  "coursePackId": "jp-gaokao",
+  "title": "名词高频 3",
+  "order": 31,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "大人、成年人",
+      "japanese": "大人",
+      "kana": "おとな",
+      "romaji": "otona",
+      "tokens": [
+        {
+          "text": "大人",
+          "kana": "おとな"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "健康",
+      "japanese": "健康",
+      "kana": "けんこう",
+      "romaji": "kenkou",
+      "tokens": [
+        {
+          "text": "健康",
+          "kana": "けんこう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "休息、假期、休假",
+      "japanese": "休み",
+      "kana": "やすみ",
+      "romaji": "yasumi",
+      "tokens": [
+        {
+          "text": "休み",
+          "kana": "やすみ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "声音（物）",
+      "japanese": "音",
+      "kana": "おと",
+      "romaji": "oto",
+      "tokens": [
+        {
+          "text": "音",
+          "kana": "おと"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "耳朵、耳",
+      "japanese": "耳",
+      "kana": "みみ",
+      "romaji": "mimi",
+      "tokens": [
+        {
+          "text": "耳",
+          "kana": "みみ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "我们",
+      "japanese": "我々",
+      "kana": "われわれ",
+      "romaji": "wareware",
+      "tokens": [
+        {
+          "text": "我々",
+          "kana": "われわれ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "便携、携带",
+      "japanese": "携帯",
+      "kana": "けいたい",
+      "romaji": "keitai",
+      "tokens": [
+        {
+          "text": "携帯",
+          "kana": "けいたい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "习惯",
+      "japanese": "習慣",
+      "kana": "しゅうかん",
+      "romaji": "shuukan",
+      "tokens": [
+        {
+          "text": "習慣",
+          "kana": "しゅうかん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "职位、角色",
+      "japanese": "役",
+      "kana": "やく",
+      "romaji": "yaku",
+      "tokens": [
+        {
+          "text": "役",
+          "kana": "やく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "自由",
+      "japanese": "自由",
+      "kana": "じゆう",
+      "romaji": "jiyuu",
+      "tokens": [
+        {
+          "text": "自由",
+          "kana": "じゆう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "男性",
+      "japanese": "男性",
+      "kana": "だんせい",
+      "romaji": "dansei",
+      "tokens": [
+        {
+          "text": "男性",
+          "kana": "だんせい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "过去、曾经",
+      "japanese": "昔",
+      "kana": "むかし",
+      "romaji": "mukashi",
+      "tokens": [
+        {
+          "text": "昔",
+          "kana": "むかし"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "课程",
+      "japanese": "授業",
+      "kana": "じゅぎょう",
+      "romaji": "jugyou",
+      "tokens": [
+        {
+          "text": "授業",
+          "kana": "じゅぎょう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "现在、目前",
+      "japanese": "現在",
+      "kana": "げんざい",
+      "romaji": "genzai",
+      "tokens": [
+        {
+          "text": "現在",
+          "kana": "げんざい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "经验",
+      "japanese": "経験",
+      "kana": "けいけん",
+      "romaji": "keiken",
+      "tokens": [
+        {
+          "text": "経験",
+          "kana": "けいけん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "理由、辩解、缘由",
+      "japanese": "申し訳",
+      "kana": "もうしわけ",
+      "romaji": "moushiwake",
+      "tokens": [
+        {
+          "text": "申し訳",
+          "kana": "もうしわけ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "社会",
+      "japanese": "社会",
+      "kana": "しゃかい",
+      "romaji": "shakai",
+      "tokens": [
+        {
+          "text": "社会",
+          "kana": "しゃかい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "画",
+      "japanese": "絵",
+      "kana": "え",
+      "romaji": "e",
+      "tokens": [
+        {
+          "text": "絵",
+          "kana": "え"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "茶",
+      "japanese": "お茶",
+      "kana": "おちゃ",
+      "romaji": "ocha",
+      "tokens": [
+        {
+          "text": "お茶",
+          "kana": "おちゃ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "力量、能力",
+      "japanese": "力",
+      "kana": "ちから",
+      "romaji": "chikara",
+      "tokens": [
+        {
+          "text": "力",
+          "kana": "ちから"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "样子",
+      "japanese": "様子",
+      "kana": "ようす",
+      "romaji": "yousu",
+      "tokens": [
+        {
+          "text": "様子",
+          "kana": "ようす"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "大家",
+      "japanese": "皆さん",
+      "kana": "みなさん",
+      "romaji": "minasan",
+      "tokens": [
+        {
+          "text": "皆さん",
+          "kana": "みなさん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "歌、歌曲",
+      "japanese": "歌",
+      "kana": "うた",
+      "romaji": "uta",
+      "tokens": [
+        {
+          "text": "歌",
+          "kana": "うた"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "生日",
+      "japanese": "誕生日",
+      "kana": "たんじょうび",
+      "romaji": "tanjoubi",
+      "tokens": [
+        {
+          "text": "誕生日",
+          "kana": "たんじょうび"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "汽车",
+      "japanese": "自動車",
+      "kana": "じどうしゃ",
+      "romaji": "jidousha",
+      "tokens": [
+        {
+          "text": "自動車",
+          "kana": "じどうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "根源、源头",
+      "japanese": "元",
+      "kana": "もと",
+      "romaji": "moto",
+      "tokens": [
+        {
+          "text": "元",
+          "kana": "もと"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "医生",
+      "japanese": "医者",
+      "kana": "いしゃ",
+      "romaji": "isha",
+      "tokens": [
+        {
+          "text": "医者",
+          "kana": "いしゃ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "研究",
+      "japanese": "研究",
+      "kana": "けんきゅう",
+      "romaji": "kenkyuu",
+      "tokens": [
+        {
+          "text": "研究",
+          "kana": "けんきゅう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "地铁",
+      "japanese": "地下鉄",
+      "kana": "ちかてつ",
+      "romaji": "chikatetsu",
+      "tokens": [
+        {
+          "text": "地下鉄",
+          "kana": "ちかてつ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "照片",
+      "japanese": "写真",
+      "kana": "しゃしん",
+      "romaji": "shashin",
+      "tokens": [
+        {
+          "text": "写真",
+          "kana": "しゃしん"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "大人、成年人",
+      "japanese": "大人",
+      "kana": "おとな",
+      "romaji": "otona",
+      "tokens": [
+        {
+          "text": "大人",
+          "kana": "おとな"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "自由",
+      "japanese": "自由",
+      "kana": "じゆう",
+      "romaji": "jiyuu",
+      "tokens": [
+        {
+          "text": "自由",
+          "kana": "じゆう"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "医生",
+      "japanese": "医者",
+      "kana": "いしゃ",
+      "romaji": "isha",
+      "tokens": [
+        {
+          "text": "医者",
+          "kana": "いしゃ"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "地铁",
+      "japanese": "地下鉄",
+      "kana": "ちかてつ",
+      "romaji": "chikatetsu",
+      "tokens": [
+        {
+          "text": "地下鉄",
+          "kana": "ちかてつ"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "样子",
+      "japanese": "様子",
+      "kana": "ようす",
+      "romaji": "yousu",
+      "tokens": [
+        {
+          "text": "様子",
+          "kana": "ようす"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "男性",
+      "japanese": "男性",
+      "kana": "だんせい",
+      "romaji": "dansei",
+      "tokens": [
+        {
+          "text": "男性",
+          "kana": "だんせい"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "健康",
+      "japanese": "健康",
+      "kana": "けんこう",
+      "romaji": "kenkou",
+      "tokens": [
+        {
+          "text": "健康",
+          "kana": "けんこう"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "社会",
+      "japanese": "社会",
+      "kana": "しゃかい",
+      "romaji": "shakai",
+      "tokens": [
+        {
+          "text": "社会",
+          "kana": "しゃかい"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "研究",
+      "japanese": "研究",
+      "kana": "けんきゅう",
+      "romaji": "kenkyuu",
+      "tokens": [
+        {
+          "text": "研究",
+          "kana": "けんきゅう"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "生日",
+      "japanese": "誕生日",
+      "kana": "たんじょうび",
+      "romaji": "tanjoubi",
+      "tokens": [
+        {
+          "text": "誕生日",
+          "kana": "たんじょうび"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "茶",
+      "japanese": "お茶",
+      "kana": "おちゃ",
+      "romaji": "ocha",
+      "tokens": [
+        {
+          "text": "お茶",
+          "kana": "おちゃ"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "声音（物）",
+      "japanese": "音",
+      "kana": "おと",
+      "romaji": "oto",
+      "tokens": [
+        {
+          "text": "音",
+          "kana": "おと"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "汽车",
+      "japanese": "自動車",
+      "kana": "じどうしゃ",
+      "romaji": "jidousha",
+      "tokens": [
+        {
+          "text": "自動車",
+          "kana": "じどうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "理由、辩解、缘由",
+      "japanese": "申し訳",
+      "kana": "もうしわけ",
+      "romaji": "moushiwake",
+      "tokens": [
+        {
+          "text": "申し訳",
+          "kana": "もうしわけ"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "照片",
+      "japanese": "写真",
+      "kana": "しゃしん",
+      "romaji": "shashin",
+      "tokens": [
+        {
+          "text": "写真",
+          "kana": "しゃしん"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "便携、携带",
+      "japanese": "携帯",
+      "kana": "けいたい",
+      "romaji": "keitai",
+      "tokens": [
+        {
+          "text": "携帯",
+          "kana": "けいたい"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "画",
+      "japanese": "絵",
+      "kana": "え",
+      "romaji": "e",
+      "tokens": [
+        {
+          "text": "絵",
+          "kana": "え"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "耳朵、耳",
+      "japanese": "耳",
+      "kana": "みみ",
+      "romaji": "mimi",
+      "tokens": [
+        {
+          "text": "耳",
+          "kana": "みみ"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "力量、能力",
+      "japanese": "力",
+      "kana": "ちから",
+      "romaji": "chikara",
+      "tokens": [
+        {
+          "text": "力",
+          "kana": "ちから"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "习惯",
+      "japanese": "習慣",
+      "kana": "しゅうかん",
+      "romaji": "shuukan",
+      "tokens": [
+        {
+          "text": "習慣",
+          "kana": "しゅうかん"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "歌、歌曲",
+      "japanese": "歌",
+      "kana": "うた",
+      "romaji": "uta",
+      "tokens": [
+        {
+          "text": "歌",
+          "kana": "うた"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "过去、曾经",
+      "japanese": "昔",
+      "kana": "むかし",
+      "romaji": "mukashi",
+      "tokens": [
+        {
+          "text": "昔",
+          "kana": "むかし"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "大家",
+      "japanese": "皆さん",
+      "kana": "みなさん",
+      "romaji": "minasan",
+      "tokens": [
+        {
+          "text": "皆さん",
+          "kana": "みなさん"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "现在、目前",
+      "japanese": "現在",
+      "kana": "げんざい",
+      "romaji": "genzai",
+      "tokens": [
+        {
+          "text": "現在",
+          "kana": "げんざい"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "我们",
+      "japanese": "我々",
+      "kana": "われわれ",
+      "romaji": "wareware",
+      "tokens": [
+        {
+          "text": "我々",
+          "kana": "われわれ"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "根源、源头",
+      "japanese": "元",
+      "kana": "もと",
+      "romaji": "moto",
+      "tokens": [
+        {
+          "text": "元",
+          "kana": "もと"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "职位、角色",
+      "japanese": "役",
+      "kana": "やく",
+      "romaji": "yaku",
+      "tokens": [
+        {
+          "text": "役",
+          "kana": "やく"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "课程",
+      "japanese": "授業",
+      "kana": "じゅぎょう",
+      "romaji": "jugyou",
+      "tokens": [
+        {
+          "text": "授業",
+          "kana": "じゅぎょう"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "休息、假期、休假",
+      "japanese": "休み",
+      "kana": "やすみ",
+      "romaji": "yasumi",
+      "tokens": [
+        {
+          "text": "休み",
+          "kana": "やすみ"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "经验",
+      "japanese": "経験",
+      "kana": "けいけん",
+      "romaji": "keiken",
+      "tokens": [
+        {
+          "text": "経験",
+          "kana": "けいけん"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "理由、辩解、缘由",
+      "japanese": "申し訳",
+      "kana": "もうしわけ",
+      "romaji": "moushiwake",
+      "tokens": [
+        {
+          "text": "申し訳",
+          "kana": "もうしわけ"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "大家",
+      "japanese": "皆さん",
+      "kana": "みなさん",
+      "romaji": "minasan",
+      "tokens": [
+        {
+          "text": "皆さん",
+          "kana": "みなさん"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "健康",
+      "japanese": "健康",
+      "kana": "けんこう",
+      "romaji": "kenkou",
+      "tokens": [
+        {
+          "text": "健康",
+          "kana": "けんこう"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "习惯",
+      "japanese": "習慣",
+      "kana": "しゅうかん",
+      "romaji": "shuukan",
+      "tokens": [
+        {
+          "text": "習慣",
+          "kana": "しゅうかん"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "自由",
+      "japanese": "自由",
+      "kana": "じゆう",
+      "romaji": "jiyuu",
+      "tokens": [
+        {
+          "text": "自由",
+          "kana": "じゆう"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "力量、能力",
+      "japanese": "力",
+      "kana": "ちから",
+      "romaji": "chikara",
+      "tokens": [
+        {
+          "text": "力",
+          "kana": "ちから"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "职位、角色",
+      "japanese": "役",
+      "kana": "やく",
+      "romaji": "yaku",
+      "tokens": [
+        {
+          "text": "役",
+          "kana": "やく"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "经验",
+      "japanese": "経験",
+      "kana": "けいけん",
+      "romaji": "keiken",
+      "tokens": [
+        {
+          "text": "経験",
+          "kana": "けいけん"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "过去、曾经",
+      "japanese": "昔",
+      "kana": "むかし",
+      "romaji": "mukashi",
+      "tokens": [
+        {
+          "text": "昔",
+          "kana": "むかし"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "照片",
+      "japanese": "写真",
+      "kana": "しゃしん",
+      "romaji": "shashin",
+      "tokens": [
+        {
+          "text": "写真",
+          "kana": "しゃしん"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "社会",
+      "japanese": "社会",
+      "kana": "しゃかい",
+      "romaji": "shakai",
+      "tokens": [
+        {
+          "text": "社会",
+          "kana": "しゃかい"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "便携、携带",
+      "japanese": "携帯",
+      "kana": "けいたい",
+      "romaji": "keitai",
+      "tokens": [
+        {
+          "text": "携帯",
+          "kana": "けいたい"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "耳朵、耳",
+      "japanese": "耳",
+      "kana": "みみ",
+      "romaji": "mimi",
+      "tokens": [
+        {
+          "text": "耳",
+          "kana": "みみ"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "男性",
+      "japanese": "男性",
+      "kana": "だんせい",
+      "romaji": "dansei",
+      "tokens": [
+        {
+          "text": "男性",
+          "kana": "だんせい"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "我们",
+      "japanese": "我々",
+      "kana": "われわれ",
+      "romaji": "wareware",
+      "tokens": [
+        {
+          "text": "我々",
+          "kana": "われわれ"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "地铁",
+      "japanese": "地下鉄",
+      "kana": "ちかてつ",
+      "romaji": "chikatetsu",
+      "tokens": [
+        {
+          "text": "地下鉄",
+          "kana": "ちかてつ"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "生日",
+      "japanese": "誕生日",
+      "kana": "たんじょうび",
+      "romaji": "tanjoubi",
+      "tokens": [
+        {
+          "text": "誕生日",
+          "kana": "たんじょうび"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "画",
+      "japanese": "絵",
+      "kana": "え",
+      "romaji": "e",
+      "tokens": [
+        {
+          "text": "絵",
+          "kana": "え"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "根源、源头",
+      "japanese": "元",
+      "kana": "もと",
+      "romaji": "moto",
+      "tokens": [
+        {
+          "text": "元",
+          "kana": "もと"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "汽车",
+      "japanese": "自動車",
+      "kana": "じどうしゃ",
+      "romaji": "jidousha",
+      "tokens": [
+        {
+          "text": "自動車",
+          "kana": "じどうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "医生",
+      "japanese": "医者",
+      "kana": "いしゃ",
+      "romaji": "isha",
+      "tokens": [
+        {
+          "text": "医者",
+          "kana": "いしゃ"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "茶",
+      "japanese": "お茶",
+      "kana": "おちゃ",
+      "romaji": "ocha",
+      "tokens": [
+        {
+          "text": "お茶",
+          "kana": "おちゃ"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "声音（物）",
+      "japanese": "音",
+      "kana": "おと",
+      "romaji": "oto",
+      "tokens": [
+        {
+          "text": "音",
+          "kana": "おと"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "样子",
+      "japanese": "様子",
+      "kana": "ようす",
+      "romaji": "yousu",
+      "tokens": [
+        {
+          "text": "様子",
+          "kana": "ようす"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "课程",
+      "japanese": "授業",
+      "kana": "じゅぎょう",
+      "romaji": "jugyou",
+      "tokens": [
+        {
+          "text": "授業",
+          "kana": "じゅぎょう"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "现在、目前",
+      "japanese": "現在",
+      "kana": "げんざい",
+      "romaji": "genzai",
+      "tokens": [
+        {
+          "text": "現在",
+          "kana": "げんざい"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "歌、歌曲",
+      "japanese": "歌",
+      "kana": "うた",
+      "romaji": "uta",
+      "tokens": [
+        {
+          "text": "歌",
+          "kana": "うた"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "研究",
+      "japanese": "研究",
+      "kana": "けんきゅう",
+      "romaji": "kenkyuu",
+      "tokens": [
+        {
+          "text": "研究",
+          "kana": "けんきゅう"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "休息、假期、休假",
+      "japanese": "休み",
+      "kana": "やすみ",
+      "romaji": "yasumi",
+      "tokens": [
+        {
+          "text": "休み",
+          "kana": "やすみ"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "大人、成年人",
+      "japanese": "大人",
+      "kana": "おとな",
+      "romaji": "otona",
+      "tokens": [
+        {
+          "text": "大人",
+          "kana": "おとな"
+        }
+      ]
+    }
+  ]
+}

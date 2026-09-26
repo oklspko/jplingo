@@ -1,0 +1,788 @@
+{
+  "id": "jp-gaokao-14",
+  "coursePackId": "jp-gaokao",
+  "title": "动词高频 3",
+  "order": 14,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "怀疑、疑惑、猜疑",
+      "japanese": "疑う",
+      "kana": "うたがう",
+      "romaji": "utagau",
+      "tokens": [
+        {
+          "text": "疑う",
+          "kana": "うたがう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "取下、拿下、卸下",
+      "japanese": "下ろす",
+      "kana": "おろす",
+      "romaji": "orosu",
+      "tokens": [
+        {
+          "text": "下ろす",
+          "kana": "おろす"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "（自他一）笑；嘲笑",
+      "japanese": "笑う",
+      "kana": "わらう",
+      "romaji": "warau",
+      "tokens": [
+        {
+          "text": "笑う",
+          "kana": "わらう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "煮",
+      "japanese": "煮る",
+      "kana": "にる",
+      "romaji": "niru",
+      "tokens": [
+        {
+          "text": "煮る",
+          "kana": "にる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "煮、烫、焯",
+      "japanese": "茹ける",
+      "kana": "ゆでる",
+      "romaji": "yuderu",
+      "tokens": [
+        {
+          "text": "茹ける",
+          "kana": "ゆでる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "对待、使用、处理",
+      "japanese": "扱う",
+      "kana": "あつかう",
+      "romaji": "atsukau",
+      "tokens": [
+        {
+          "text": "扱う",
+          "kana": "あつかう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "修饰、装饰、粉饰",
+      "japanese": "飾る",
+      "kana": "かざる",
+      "romaji": "kazaru",
+      "tokens": [
+        {
+          "text": "飾る",
+          "kana": "かざる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "把～加上、给～施加",
+      "japanese": "加える",
+      "kana": "くわえる",
+      "romaji": "kuwaeru",
+      "tokens": [
+        {
+          "text": "加える",
+          "kana": "くわえる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "杀死；埋没",
+      "japanese": "殺す",
+      "kana": "ころす",
+      "romaji": "korosu",
+      "tokens": [
+        {
+          "text": "殺す",
+          "kana": "ころす"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "活用、发挥",
+      "japanese": "生かす",
+      "kana": "いかす",
+      "romaji": "ikasu",
+      "tokens": [
+        {
+          "text": "生かす",
+          "kana": "いかす"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "茂盛",
+      "japanese": "茂る",
+      "kana": "しげる",
+      "romaji": "shigeru",
+      "tokens": [
+        {
+          "text": "茂る",
+          "kana": "しげる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "忘记、落下",
+      "japanese": "忘れる",
+      "kana": "わすれる",
+      "romaji": "wasureru",
+      "tokens": [
+        {
+          "text": "忘れる",
+          "kana": "わすれる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "摔倒、摔跟头、跌倒",
+      "japanese": "転ぶ",
+      "kana": "ころぶ",
+      "romaji": "korobu",
+      "tokens": [
+        {
+          "text": "転ぶ",
+          "kana": "ころぶ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "躲避",
+      "japanese": "避ける",
+      "kana": "さける",
+      "romaji": "sakeru",
+      "tokens": [
+        {
+          "text": "避ける",
+          "kana": "さける"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（花）开",
+      "japanese": "咲く",
+      "kana": "さく",
+      "romaji": "saku",
+      "tokens": [
+        {
+          "text": "咲く",
+          "kana": "さく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "赢、获胜、强过",
+      "japanese": "勝つ",
+      "kana": "かつ",
+      "romaji": "katsu",
+      "tokens": [
+        {
+          "text": "勝つ",
+          "kana": "かつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "听得到、听清",
+      "japanese": "聞こえる",
+      "kana": "きこえる",
+      "romaji": "kikoeru",
+      "tokens": [
+        {
+          "text": "聞こえる",
+          "kana": "きこえる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "收拾、整理",
+      "japanese": "片付ける",
+      "kana": "かたづける",
+      "romaji": "katazukeru",
+      "tokens": [
+        {
+          "text": "片付ける",
+          "kana": "かたづける"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "大声喊、喊叫",
+      "japanese": "叫ぶ",
+      "kana": "さけぶ",
+      "romaji": "sakebu",
+      "tokens": [
+        {
+          "text": "叫ぶ",
+          "kana": "さけぶ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "追赶、追逐、追求",
+      "japanese": "追う",
+      "kana": "おう",
+      "romaji": "ou",
+      "tokens": [
+        {
+          "text": "追う",
+          "kana": "おう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "大声喊、喊叫",
+      "japanese": "叫ぶ",
+      "kana": "さけぶ",
+      "romaji": "sakebu",
+      "tokens": [
+        {
+          "text": "叫ぶ",
+          "kana": "さけぶ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "收拾、整理",
+      "japanese": "片付ける",
+      "kana": "かたづける",
+      "romaji": "katazukeru",
+      "tokens": [
+        {
+          "text": "片付ける",
+          "kana": "かたづける"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "躲避",
+      "japanese": "避ける",
+      "kana": "さける",
+      "romaji": "sakeru",
+      "tokens": [
+        {
+          "text": "避ける",
+          "kana": "さける"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "赢、获胜、强过",
+      "japanese": "勝つ",
+      "kana": "かつ",
+      "romaji": "katsu",
+      "tokens": [
+        {
+          "text": "勝つ",
+          "kana": "かつ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "对待、使用、处理",
+      "japanese": "扱う",
+      "kana": "あつかう",
+      "romaji": "atsukau",
+      "tokens": [
+        {
+          "text": "扱う",
+          "kana": "あつかう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "听得到、听清",
+      "japanese": "聞こえる",
+      "kana": "きこえる",
+      "romaji": "kikoeru",
+      "tokens": [
+        {
+          "text": "聞こえる",
+          "kana": "きこえる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "煮、烫、焯",
+      "japanese": "茹ける",
+      "kana": "ゆでる",
+      "romaji": "yuderu",
+      "tokens": [
+        {
+          "text": "茹ける",
+          "kana": "ゆでる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "摔倒、摔跟头、跌倒",
+      "japanese": "転ぶ",
+      "kana": "ころぶ",
+      "romaji": "korobu",
+      "tokens": [
+        {
+          "text": "転ぶ",
+          "kana": "ころぶ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "煮",
+      "japanese": "煮る",
+      "kana": "にる",
+      "romaji": "niru",
+      "tokens": [
+        {
+          "text": "煮る",
+          "kana": "にる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（自他一）笑；嘲笑",
+      "japanese": "笑う",
+      "kana": "わらう",
+      "romaji": "warau",
+      "tokens": [
+        {
+          "text": "笑う",
+          "kana": "わらう"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "忘记、落下",
+      "japanese": "忘れる",
+      "kana": "わすれる",
+      "romaji": "wasureru",
+      "tokens": [
+        {
+          "text": "忘れる",
+          "kana": "わすれる"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "活用、发挥",
+      "japanese": "生かす",
+      "kana": "いかす",
+      "romaji": "ikasu",
+      "tokens": [
+        {
+          "text": "生かす",
+          "kana": "いかす"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "怀疑、疑惑、猜疑",
+      "japanese": "疑う",
+      "kana": "うたがう",
+      "romaji": "utagau",
+      "tokens": [
+        {
+          "text": "疑う",
+          "kana": "うたがう"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "茂盛",
+      "japanese": "茂る",
+      "kana": "しげる",
+      "romaji": "shigeru",
+      "tokens": [
+        {
+          "text": "茂る",
+          "kana": "しげる"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "修饰、装饰、粉饰",
+      "japanese": "飾る",
+      "kana": "かざる",
+      "romaji": "kazaru",
+      "tokens": [
+        {
+          "text": "飾る",
+          "kana": "かざる"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "（花）开",
+      "japanese": "咲く",
+      "kana": "さく",
+      "romaji": "saku",
+      "tokens": [
+        {
+          "text": "咲く",
+          "kana": "さく"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "把～加上、给～施加",
+      "japanese": "加える",
+      "kana": "くわえる",
+      "romaji": "kuwaeru",
+      "tokens": [
+        {
+          "text": "加える",
+          "kana": "くわえる"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "追赶、追逐、追求",
+      "japanese": "追う",
+      "kana": "おう",
+      "romaji": "ou",
+      "tokens": [
+        {
+          "text": "追う",
+          "kana": "おう"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "杀死；埋没",
+      "japanese": "殺す",
+      "kana": "ころす",
+      "romaji": "korosu",
+      "tokens": [
+        {
+          "text": "殺す",
+          "kana": "ころす"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "取下、拿下、卸下",
+      "japanese": "下ろす",
+      "kana": "おろす",
+      "romaji": "orosu",
+      "tokens": [
+        {
+          "text": "下ろす",
+          "kana": "おろす"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "修饰、装饰、粉饰",
+      "japanese": "飾る",
+      "kana": "かざる",
+      "romaji": "kazaru",
+      "tokens": [
+        {
+          "text": "飾る",
+          "kana": "かざる"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "大声喊、喊叫",
+      "japanese": "叫ぶ",
+      "kana": "さけぶ",
+      "romaji": "sakebu",
+      "tokens": [
+        {
+          "text": "叫ぶ",
+          "kana": "さけぶ"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "摔倒、摔跟头、跌倒",
+      "japanese": "転ぶ",
+      "kana": "ころぶ",
+      "romaji": "korobu",
+      "tokens": [
+        {
+          "text": "転ぶ",
+          "kana": "ころぶ"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "活用、发挥",
+      "japanese": "生かす",
+      "kana": "いかす",
+      "romaji": "ikasu",
+      "tokens": [
+        {
+          "text": "生かす",
+          "kana": "いかす"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "杀死；埋没",
+      "japanese": "殺す",
+      "kana": "ころす",
+      "romaji": "korosu",
+      "tokens": [
+        {
+          "text": "殺す",
+          "kana": "ころす"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "赢、获胜、强过",
+      "japanese": "勝つ",
+      "kana": "かつ",
+      "romaji": "katsu",
+      "tokens": [
+        {
+          "text": "勝つ",
+          "kana": "かつ"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "（自他一）笑；嘲笑",
+      "japanese": "笑う",
+      "kana": "わらう",
+      "romaji": "warau",
+      "tokens": [
+        {
+          "text": "笑う",
+          "kana": "わらう"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "把～加上、给～施加",
+      "japanese": "加える",
+      "kana": "くわえる",
+      "romaji": "kuwaeru",
+      "tokens": [
+        {
+          "text": "加える",
+          "kana": "くわえる"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "取下、拿下、卸下",
+      "japanese": "下ろす",
+      "kana": "おろす",
+      "romaji": "orosu",
+      "tokens": [
+        {
+          "text": "下ろす",
+          "kana": "おろす"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "（花）开",
+      "japanese": "咲く",
+      "kana": "さく",
+      "romaji": "saku",
+      "tokens": [
+        {
+          "text": "咲く",
+          "kana": "さく"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "忘记、落下",
+      "japanese": "忘れる",
+      "kana": "わすれる",
+      "romaji": "wasureru",
+      "tokens": [
+        {
+          "text": "忘れる",
+          "kana": "わすれる"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "收拾、整理",
+      "japanese": "片付ける",
+      "kana": "かたづける",
+      "romaji": "katazukeru",
+      "tokens": [
+        {
+          "text": "片付ける",
+          "kana": "かたづける"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "煮",
+      "japanese": "煮る",
+      "kana": "にる",
+      "romaji": "niru",
+      "tokens": [
+        {
+          "text": "煮る",
+          "kana": "にる"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "听得到、听清",
+      "japanese": "聞こえる",
+      "kana": "きこえる",
+      "romaji": "kikoeru",
+      "tokens": [
+        {
+          "text": "聞こえる",
+          "kana": "きこえる"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "对待、使用、处理",
+      "japanese": "扱う",
+      "kana": "あつかう",
+      "romaji": "atsukau",
+      "tokens": [
+        {
+          "text": "扱う",
+          "kana": "あつかう"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "煮、烫、焯",
+      "japanese": "茹ける",
+      "kana": "ゆでる",
+      "romaji": "yuderu",
+      "tokens": [
+        {
+          "text": "茹ける",
+          "kana": "ゆでる"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "躲避",
+      "japanese": "避ける",
+      "kana": "さける",
+      "romaji": "sakeru",
+      "tokens": [
+        {
+          "text": "避ける",
+          "kana": "さける"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "追赶、追逐、追求",
+      "japanese": "追う",
+      "kana": "おう",
+      "romaji": "ou",
+      "tokens": [
+        {
+          "text": "追う",
+          "kana": "おう"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "茂盛",
+      "japanese": "茂る",
+      "kana": "しげる",
+      "romaji": "shigeru",
+      "tokens": [
+        {
+          "text": "茂る",
+          "kana": "しげる"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "怀疑、疑惑、猜疑",
+      "japanese": "疑う",
+      "kana": "うたがう",
+      "romaji": "utagau",
+      "tokens": [
+        {
+          "text": "疑う",
+          "kana": "うたがう"
+        }
+      ]
+    }
+  ]
+}

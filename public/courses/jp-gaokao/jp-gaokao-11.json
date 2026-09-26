@@ -1,0 +1,788 @@
+{
+  "id": "jp-gaokao-11",
+  "coursePackId": "jp-gaokao",
+  "title": "动词必考 3",
+  "order": 11,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "打开",
+      "japanese": "開ける",
+      "kana": "あける",
+      "romaji": "akeru",
+      "tokens": [
+        {
+          "text": "開ける",
+          "kana": "あける"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "回答",
+      "japanese": "答える",
+      "kana": "こたえる",
+      "romaji": "kotaeru",
+      "tokens": [
+        {
+          "text": "答える",
+          "kana": "こたえる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "知道、了解、发觉",
+      "japanese": "知る",
+      "kana": "しる",
+      "romaji": "shiru",
+      "tokens": [
+        {
+          "text": "知る",
+          "kana": "しる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "做、造、创作",
+      "japanese": "作る",
+      "kana": "つくる",
+      "romaji": "tsukuru",
+      "tokens": [
+        {
+          "text": "作る",
+          "kana": "つくる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "想、思考、认为",
+      "japanese": "思う",
+      "kana": "おもう",
+      "romaji": "omou",
+      "tokens": [
+        {
+          "text": "思う",
+          "kana": "おもう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "记住",
+      "japanese": "覚える",
+      "kana": "おぼえる",
+      "romaji": "oboeru",
+      "tokens": [
+        {
+          "text": "覚える",
+          "kana": "おぼえる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "乘坐、开（车）",
+      "japanese": "乗る",
+      "kana": "のる",
+      "romaji": "noru",
+      "tokens": [
+        {
+          "text": "乗る",
+          "kana": "のる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "附上、写上、注上",
+      "japanese": "付ける",
+      "kana": "つける",
+      "romaji": "tsukeru",
+      "tokens": [
+        {
+          "text": "付ける",
+          "kana": "つける"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "表扬、赞扬",
+      "japanese": "褒める",
+      "kana": "ほめる",
+      "romaji": "homeru",
+      "tokens": [
+        {
+          "text": "褒める",
+          "kana": "ほめる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "指向、指示、指出",
+      "japanese": "指す",
+      "kana": "さす",
+      "romaji": "sasu",
+      "tokens": [
+        {
+          "text": "指す",
+          "kana": "さす"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "站、立、起身",
+      "japanese": "立つ",
+      "kana": "たつ",
+      "romaji": "tatsu",
+      "tokens": [
+        {
+          "text": "立つ",
+          "kana": "たつ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "（自他一）开门、窗、店、会议",
+      "japanese": "開く",
+      "kana": "ひらく",
+      "romaji": "hiraku",
+      "tokens": [
+        {
+          "text": "開く",
+          "kana": "ひらく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "开、开门、开张",
+      "japanese": "開く",
+      "kana": "ひらく",
+      "romaji": "hiraku",
+      "tokens": [
+        {
+          "text": "開く",
+          "kana": "ひらく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（自他一）限定",
+      "japanese": "限る",
+      "kana": "かぎる",
+      "romaji": "kagiru",
+      "tokens": [
+        {
+          "text": "限る",
+          "kana": "かぎる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "变成、成为",
+      "japanese": "自一",
+      "kana": "じいち",
+      "romaji": "jiichi",
+      "tokens": [
+        {
+          "text": "自一",
+          "kana": "じいち"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "做；给",
+      "japanese": "他一",
+      "kana": "たいち",
+      "romaji": "taichi",
+      "tokens": [
+        {
+          "text": "他一",
+          "kana": "たいち"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "把～放进、插入",
+      "japanese": "入れる",
+      "kana": "いれる",
+      "romaji": "ireru",
+      "tokens": [
+        {
+          "text": "入れる",
+          "kana": "いれる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "附着、贴着",
+      "japanese": "付く",
+      "kana": "つく",
+      "romaji": "tsuku",
+      "tokens": [
+        {
+          "text": "付く",
+          "kana": "つく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "睡觉、就寝",
+      "japanese": "寝る",
+      "kana": "ねる",
+      "romaji": "neru",
+      "tokens": [
+        {
+          "text": "寝る",
+          "kana": "ねる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "思考、研究、想",
+      "japanese": "考える",
+      "kana": "かんがえる",
+      "romaji": "kangaeru",
+      "tokens": [
+        {
+          "text": "考える",
+          "kana": "かんがえる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "乘坐、开（车）",
+      "japanese": "乗る",
+      "kana": "のる",
+      "romaji": "noru",
+      "tokens": [
+        {
+          "text": "乗る",
+          "kana": "のる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "打开",
+      "japanese": "開ける",
+      "kana": "あける",
+      "romaji": "akeru",
+      "tokens": [
+        {
+          "text": "開ける",
+          "kana": "あける"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "把～放进、插入",
+      "japanese": "入れる",
+      "kana": "いれる",
+      "romaji": "ireru",
+      "tokens": [
+        {
+          "text": "入れる",
+          "kana": "いれる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "指向、指示、指出",
+      "japanese": "指す",
+      "kana": "さす",
+      "romaji": "sasu",
+      "tokens": [
+        {
+          "text": "指す",
+          "kana": "さす"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "想、思考、认为",
+      "japanese": "思う",
+      "kana": "おもう",
+      "romaji": "omou",
+      "tokens": [
+        {
+          "text": "思う",
+          "kana": "おもう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "知道、了解、发觉",
+      "japanese": "知る",
+      "kana": "しる",
+      "romaji": "shiru",
+      "tokens": [
+        {
+          "text": "知る",
+          "kana": "しる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "表扬、赞扬",
+      "japanese": "褒める",
+      "kana": "ほめる",
+      "romaji": "homeru",
+      "tokens": [
+        {
+          "text": "褒める",
+          "kana": "ほめる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "站、立、起身",
+      "japanese": "立つ",
+      "kana": "たつ",
+      "romaji": "tatsu",
+      "tokens": [
+        {
+          "text": "立つ",
+          "kana": "たつ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "开、开门、开张",
+      "japanese": "開く",
+      "kana": "ひらく",
+      "romaji": "hiraku",
+      "tokens": [
+        {
+          "text": "開く",
+          "kana": "ひらく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（自他一）限定",
+      "japanese": "限る",
+      "kana": "かぎる",
+      "romaji": "kagiru",
+      "tokens": [
+        {
+          "text": "限る",
+          "kana": "かぎる"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "思考、研究、想",
+      "japanese": "考える",
+      "kana": "かんがえる",
+      "romaji": "kangaeru",
+      "tokens": [
+        {
+          "text": "考える",
+          "kana": "かんがえる"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "回答",
+      "japanese": "答える",
+      "kana": "こたえる",
+      "romaji": "kotaeru",
+      "tokens": [
+        {
+          "text": "答える",
+          "kana": "こたえる"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "附着、贴着",
+      "japanese": "付く",
+      "kana": "つく",
+      "romaji": "tsuku",
+      "tokens": [
+        {
+          "text": "付く",
+          "kana": "つく"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "变成、成为",
+      "japanese": "自一",
+      "kana": "じいち",
+      "romaji": "jiichi",
+      "tokens": [
+        {
+          "text": "自一",
+          "kana": "じいち"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "做、造、创作",
+      "japanese": "作る",
+      "kana": "つくる",
+      "romaji": "tsukuru",
+      "tokens": [
+        {
+          "text": "作る",
+          "kana": "つくる"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "睡觉、就寝",
+      "japanese": "寝る",
+      "kana": "ねる",
+      "romaji": "neru",
+      "tokens": [
+        {
+          "text": "寝る",
+          "kana": "ねる"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "记住",
+      "japanese": "覚える",
+      "kana": "おぼえる",
+      "romaji": "oboeru",
+      "tokens": [
+        {
+          "text": "覚える",
+          "kana": "おぼえる"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "附上、写上、注上",
+      "japanese": "付ける",
+      "kana": "つける",
+      "romaji": "tsukeru",
+      "tokens": [
+        {
+          "text": "付ける",
+          "kana": "つける"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "（自他一）开门、窗、店、会议",
+      "japanese": "開く",
+      "kana": "ひらく",
+      "romaji": "hiraku",
+      "tokens": [
+        {
+          "text": "開く",
+          "kana": "ひらく"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "做；给",
+      "japanese": "他一",
+      "kana": "たいち",
+      "romaji": "taichi",
+      "tokens": [
+        {
+          "text": "他一",
+          "kana": "たいち"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "做；给",
+      "japanese": "他一",
+      "kana": "たいち",
+      "romaji": "taichi",
+      "tokens": [
+        {
+          "text": "他一",
+          "kana": "たいち"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "做、造、创作",
+      "japanese": "作る",
+      "kana": "つくる",
+      "romaji": "tsukuru",
+      "tokens": [
+        {
+          "text": "作る",
+          "kana": "つくる"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "乘坐、开（车）",
+      "japanese": "乗る",
+      "kana": "のる",
+      "romaji": "noru",
+      "tokens": [
+        {
+          "text": "乗る",
+          "kana": "のる"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "睡觉、就寝",
+      "japanese": "寝る",
+      "kana": "ねる",
+      "romaji": "neru",
+      "tokens": [
+        {
+          "text": "寝る",
+          "kana": "ねる"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "（自他一）限定",
+      "japanese": "限る",
+      "kana": "かぎる",
+      "romaji": "kagiru",
+      "tokens": [
+        {
+          "text": "限る",
+          "kana": "かぎる"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "打开",
+      "japanese": "開ける",
+      "kana": "あける",
+      "romaji": "akeru",
+      "tokens": [
+        {
+          "text": "開ける",
+          "kana": "あける"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "表扬、赞扬",
+      "japanese": "褒める",
+      "kana": "ほめる",
+      "romaji": "homeru",
+      "tokens": [
+        {
+          "text": "褒める",
+          "kana": "ほめる"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "开、开门、开张",
+      "japanese": "開く",
+      "kana": "ひらく",
+      "romaji": "hiraku",
+      "tokens": [
+        {
+          "text": "開く",
+          "kana": "ひらく"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "附上、写上、注上",
+      "japanese": "付ける",
+      "kana": "つける",
+      "romaji": "tsukeru",
+      "tokens": [
+        {
+          "text": "付ける",
+          "kana": "つける"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "回答",
+      "japanese": "答える",
+      "kana": "こたえる",
+      "romaji": "kotaeru",
+      "tokens": [
+        {
+          "text": "答える",
+          "kana": "こたえる"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "记住",
+      "japanese": "覚える",
+      "kana": "おぼえる",
+      "romaji": "oboeru",
+      "tokens": [
+        {
+          "text": "覚える",
+          "kana": "おぼえる"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "知道、了解、发觉",
+      "japanese": "知る",
+      "kana": "しる",
+      "romaji": "shiru",
+      "tokens": [
+        {
+          "text": "知る",
+          "kana": "しる"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "指向、指示、指出",
+      "japanese": "指す",
+      "kana": "さす",
+      "romaji": "sasu",
+      "tokens": [
+        {
+          "text": "指す",
+          "kana": "さす"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "把～放进、插入",
+      "japanese": "入れる",
+      "kana": "いれる",
+      "romaji": "ireru",
+      "tokens": [
+        {
+          "text": "入れる",
+          "kana": "いれる"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "思考、研究、想",
+      "japanese": "考える",
+      "kana": "かんがえる",
+      "romaji": "kangaeru",
+      "tokens": [
+        {
+          "text": "考える",
+          "kana": "かんがえる"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "（自他一）开门、窗、店、会议",
+      "japanese": "開く",
+      "kana": "ひらく",
+      "romaji": "hiraku",
+      "tokens": [
+        {
+          "text": "開く",
+          "kana": "ひらく"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "变成、成为",
+      "japanese": "自一",
+      "kana": "じいち",
+      "romaji": "jiichi",
+      "tokens": [
+        {
+          "text": "自一",
+          "kana": "じいち"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "站、立、起身",
+      "japanese": "立つ",
+      "kana": "たつ",
+      "romaji": "tatsu",
+      "tokens": [
+        {
+          "text": "立つ",
+          "kana": "たつ"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "想、思考、认为",
+      "japanese": "思う",
+      "kana": "おもう",
+      "romaji": "omou",
+      "tokens": [
+        {
+          "text": "思う",
+          "kana": "おもう"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "附着、贴着",
+      "japanese": "付く",
+      "kana": "つく",
+      "romaji": "tsuku",
+      "tokens": [
+        {
+          "text": "付く",
+          "kana": "つく"
+        }
+      ]
+    }
+  ]
+}

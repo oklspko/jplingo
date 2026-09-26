@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-43",
+  "coursePackId": "jp-gaokao",
+  "title": "名词低频 10",
+  "order": 43,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "轮椅",
+      "japanese": "車椅子",
+      "kana": "くるまいす",
+      "romaji": "kurumaisu",
+      "tokens": [
+        {
+          "text": "車椅子",
+          "kana": "くるまいす"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "个人",
+      "japanese": "個人",
+      "kana": "こじん",
+      "romaji": "kojin",
+      "tokens": [
+        {
+          "text": "個人",
+          "kana": "こじん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "鞋子",
+      "japanese": "靴",
+      "kana": "くつ",
+      "romaji": "kutsu",
+      "tokens": [
+        {
+          "text": "靴",
+          "kana": "くつ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "后者",
+      "japanese": "後者",
+      "kana": "こうしゃ",
+      "romaji": "kousha",
+      "tokens": [
+        {
+          "text": "後者",
+          "kana": "こうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "派出所、警亭",
+      "japanese": "交番",
+      "kana": "こうばん",
+      "romaji": "kouban",
+      "tokens": [
+        {
+          "text": "交番",
+          "kana": "こうばん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "交流、沟通",
+      "japanese": "交流",
+      "kana": "こうりゅう",
+      "romaji": "kouryuu",
+      "tokens": [
+        {
+          "text": "交流",
+          "kana": "こうりゅう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "这边、这里",
+      "japanese": "こっち",
+      "kana": "こっち",
+      "romaji": "kotchi",
+      "tokens": [
+        {
+          "text": "こっち",
+          "kana": "こっち"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "语言学",
+      "japanese": "語学",
+      "kana": "ごがく",
+      "romaji": "gogaku",
+      "tokens": [
+        {
+          "text": "語学",
+          "kana": "ごがく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "方法、窍门、动脑筋",
+      "japanese": "工夫",
+      "kana": "くふう",
+      "romaji": "kufuu",
+      "tokens": [
+        {
+          "text": "工夫",
+          "kana": "くふう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "讲座",
+      "japanese": "講座",
+      "kana": "こうざ",
+      "romaji": "kouza",
+      "tokens": [
+        {
+          "text": "講座",
+          "kana": "こうざ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "交通",
+      "japanese": "交通",
+      "kana": "こうつう",
+      "romaji": "koutsuu",
+      "tokens": [
+        {
+          "text": "交通",
+          "kana": "こうつう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "黑板",
+      "japanese": "黒板",
+      "kana": "こくばん",
+      "romaji": "kokuban",
+      "tokens": [
+        {
+          "text": "黒板",
+          "kana": "こくばん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "校长",
+      "japanese": "校長",
+      "kana": "こうちょう",
+      "romaji": "kouchou",
+      "tokens": [
+        {
+          "text": "校長",
+          "kana": "こうちょう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "构成，结构",
+      "japanese": "構成",
+      "kana": "こうせい",
+      "romaji": "kousei",
+      "tokens": [
+        {
+          "text": "構成",
+          "kana": "こうせい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "红茶",
+      "japanese": "紅茶",
+      "kana": "こうちゃ",
+      "romaji": "koucha",
+      "tokens": [
+        {
+          "text": "紅茶",
+          "kana": "こうちゃ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "冰",
+      "japanese": "冰",
+      "kana": "こおり",
+      "romaji": "koori",
+      "tokens": [
+        {
+          "text": "冰",
+          "kana": "こおり"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "误解",
+      "japanese": "誤解",
+      "kana": "ごかい",
+      "romaji": "gokai",
+      "tokens": [
+        {
+          "text": "誤解",
+          "kana": "ごかい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "呼吸",
+      "japanese": "呼吸",
+      "kana": "こきゅう",
+      "romaji": "kokyuu",
+      "tokens": [
+        {
+          "text": "呼吸",
+          "kana": "こきゅう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "回答、应答、答案",
+      "japanese": "答え",
+      "kana": "こたえ",
+      "romaji": "kotae",
+      "tokens": [
+        {
+          "text": "答え",
+          "kana": "こたえ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "后辈、晚辈",
+      "japanese": "後輩",
+      "kana": "こうはい",
+      "romaji": "kouhai",
+      "tokens": [
+        {
+          "text": "後輩",
+          "kana": "こうはい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "多云、阴天",
+      "japanese": "雲り",
+      "kana": "くもり",
+      "romaji": "kumori",
+      "tokens": [
+        {
+          "text": "雲り",
+          "kana": "くもり"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "敬语",
+      "japanese": "敬語",
+      "kana": "けいご",
+      "romaji": "keigo",
+      "tokens": [
+        {
+          "text": "敬語",
+          "kana": "けいご"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "高中生",
+      "japanese": "高校生",
+      "kana": "こうこうせい",
+      "romaji": "koukousei",
+      "tokens": [
+        {
+          "text": "高校生",
+          "kana": "こうこうせい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "这个月、本月",
+      "japanese": "今月",
+      "kana": "こんげつ",
+      "romaji": "kongetsu",
+      "tokens": [
+        {
+          "text": "今月",
+          "kana": "こんげつ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "垃圾箱",
+      "japanese": "ゴミ箱",
+      "kana": "ごみばこ",
+      "romaji": "gomibako",
+      "tokens": [
+        {
+          "text": "ゴミ箱",
+          "kana": "ごみばこ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "古代",
+      "japanese": "古代",
+      "kana": "こだい",
+      "romaji": "kodai",
+      "tokens": [
+        {
+          "text": "古代",
+          "kana": "こだい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "国产",
+      "japanese": "国産",
+      "kana": "こくさん",
+      "romaji": "kokusan",
+      "tokens": [
+        {
+          "text": "国産",
+          "kana": "こくさん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "国际",
+      "japanese": "国際",
+      "kana": "こくさい",
+      "romaji": "kokusai",
+      "tokens": [
+        {
+          "text": "国際",
+          "kana": "こくさい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "小麦",
+      "japanese": "小麦",
+      "kana": "こむぎ",
+      "romaji": "komugi",
+      "tokens": [
+        {
+          "text": "小麦",
+          "kana": "こむぎ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "米、稻米",
+      "japanese": "米",
+      "kana": "こめ",
+      "romaji": "kome",
+      "tokens": [
+        {
+          "text": "米",
+          "kana": "こめ"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "红茶",
+      "japanese": "紅茶",
+      "kana": "こうちゃ",
+      "romaji": "koucha",
+      "tokens": [
+        {
+          "text": "紅茶",
+          "kana": "こうちゃ"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "回答、应答、答案",
+      "japanese": "答え",
+      "kana": "こたえ",
+      "romaji": "kotae",
+      "tokens": [
+        {
+          "text": "答え",
+          "kana": "こたえ"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "语言学",
+      "japanese": "語学",
+      "kana": "ごがく",
+      "romaji": "gogaku",
+      "tokens": [
+        {
+          "text": "語学",
+          "kana": "ごがく"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "个人",
+      "japanese": "個人",
+      "kana": "こじん",
+      "romaji": "kojin",
+      "tokens": [
+        {
+          "text": "個人",
+          "kana": "こじん"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "这边、这里",
+      "japanese": "こっち",
+      "kana": "こっち",
+      "romaji": "kotchi",
+      "tokens": [
+        {
+          "text": "こっち",
+          "kana": "こっち"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "敬语",
+      "japanese": "敬語",
+      "kana": "けいご",
+      "romaji": "keigo",
+      "tokens": [
+        {
+          "text": "敬語",
+          "kana": "けいご"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "黑板",
+      "japanese": "黒板",
+      "kana": "こくばん",
+      "romaji": "kokuban",
+      "tokens": [
+        {
+          "text": "黒板",
+          "kana": "こくばん"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "冰",
+      "japanese": "冰",
+      "kana": "こおり",
+      "romaji": "koori",
+      "tokens": [
+        {
+          "text": "冰",
+          "kana": "こおり"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "米、稻米",
+      "japanese": "米",
+      "kana": "こめ",
+      "romaji": "kome",
+      "tokens": [
+        {
+          "text": "米",
+          "kana": "こめ"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "古代",
+      "japanese": "古代",
+      "kana": "こだい",
+      "romaji": "kodai",
+      "tokens": [
+        {
+          "text": "古代",
+          "kana": "こだい"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "方法、窍门、动脑筋",
+      "japanese": "工夫",
+      "kana": "くふう",
+      "romaji": "kufuu",
+      "tokens": [
+        {
+          "text": "工夫",
+          "kana": "くふう"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "误解",
+      "japanese": "誤解",
+      "kana": "ごかい",
+      "romaji": "gokai",
+      "tokens": [
+        {
+          "text": "誤解",
+          "kana": "ごかい"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "国际",
+      "japanese": "国際",
+      "kana": "こくさい",
+      "romaji": "kokusai",
+      "tokens": [
+        {
+          "text": "国際",
+          "kana": "こくさい"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "多云、阴天",
+      "japanese": "雲り",
+      "kana": "くもり",
+      "romaji": "kumori",
+      "tokens": [
+        {
+          "text": "雲り",
+          "kana": "くもり"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "后辈、晚辈",
+      "japanese": "後輩",
+      "kana": "こうはい",
+      "romaji": "kouhai",
+      "tokens": [
+        {
+          "text": "後輩",
+          "kana": "こうはい"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "交通",
+      "japanese": "交通",
+      "kana": "こうつう",
+      "romaji": "koutsuu",
+      "tokens": [
+        {
+          "text": "交通",
+          "kana": "こうつう"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "鞋子",
+      "japanese": "靴",
+      "kana": "くつ",
+      "romaji": "kutsu",
+      "tokens": [
+        {
+          "text": "靴",
+          "kana": "くつ"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "国产",
+      "japanese": "国産",
+      "kana": "こくさん",
+      "romaji": "kokusan",
+      "tokens": [
+        {
+          "text": "国産",
+          "kana": "こくさん"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "呼吸",
+      "japanese": "呼吸",
+      "kana": "こきゅう",
+      "romaji": "kokyuu",
+      "tokens": [
+        {
+          "text": "呼吸",
+          "kana": "こきゅう"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "轮椅",
+      "japanese": "車椅子",
+      "kana": "くるまいす",
+      "romaji": "kurumaisu",
+      "tokens": [
+        {
+          "text": "車椅子",
+          "kana": "くるまいす"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "垃圾箱",
+      "japanese": "ゴミ箱",
+      "kana": "ごみばこ",
+      "romaji": "gomibako",
+      "tokens": [
+        {
+          "text": "ゴミ箱",
+          "kana": "ごみばこ"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "交流、沟通",
+      "japanese": "交流",
+      "kana": "こうりゅう",
+      "romaji": "kouryuu",
+      "tokens": [
+        {
+          "text": "交流",
+          "kana": "こうりゅう"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "派出所、警亭",
+      "japanese": "交番",
+      "kana": "こうばん",
+      "romaji": "kouban",
+      "tokens": [
+        {
+          "text": "交番",
+          "kana": "こうばん"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "这个月、本月",
+      "japanese": "今月",
+      "kana": "こんげつ",
+      "romaji": "kongetsu",
+      "tokens": [
+        {
+          "text": "今月",
+          "kana": "こんげつ"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "高中生",
+      "japanese": "高校生",
+      "kana": "こうこうせい",
+      "romaji": "koukousei",
+      "tokens": [
+        {
+          "text": "高校生",
+          "kana": "こうこうせい"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "后者",
+      "japanese": "後者",
+      "kana": "こうしゃ",
+      "romaji": "kousha",
+      "tokens": [
+        {
+          "text": "後者",
+          "kana": "こうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "讲座",
+      "japanese": "講座",
+      "kana": "こうざ",
+      "romaji": "kouza",
+      "tokens": [
+        {
+          "text": "講座",
+          "kana": "こうざ"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "小麦",
+      "japanese": "小麦",
+      "kana": "こむぎ",
+      "romaji": "komugi",
+      "tokens": [
+        {
+          "text": "小麦",
+          "kana": "こむぎ"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "构成，结构",
+      "japanese": "構成",
+      "kana": "こうせい",
+      "romaji": "kousei",
+      "tokens": [
+        {
+          "text": "構成",
+          "kana": "こうせい"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "校长",
+      "japanese": "校長",
+      "kana": "こうちょう",
+      "romaji": "kouchou",
+      "tokens": [
+        {
+          "text": "校長",
+          "kana": "こうちょう"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "个人",
+      "japanese": "個人",
+      "kana": "こじん",
+      "romaji": "kojin",
+      "tokens": [
+        {
+          "text": "個人",
+          "kana": "こじん"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "红茶",
+      "japanese": "紅茶",
+      "kana": "こうちゃ",
+      "romaji": "koucha",
+      "tokens": [
+        {
+          "text": "紅茶",
+          "kana": "こうちゃ"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "交流、沟通",
+      "japanese": "交流",
+      "kana": "こうりゅう",
+      "romaji": "kouryuu",
+      "tokens": [
+        {
+          "text": "交流",
+          "kana": "こうりゅう"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "米、稻米",
+      "japanese": "米",
+      "kana": "こめ",
+      "romaji": "kome",
+      "tokens": [
+        {
+          "text": "米",
+          "kana": "こめ"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "后者",
+      "japanese": "後者",
+      "kana": "こうしゃ",
+      "romaji": "kousha",
+      "tokens": [
+        {
+          "text": "後者",
+          "kana": "こうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "国际",
+      "japanese": "国際",
+      "kana": "こくさい",
+      "romaji": "kokusai",
+      "tokens": [
+        {
+          "text": "国際",
+          "kana": "こくさい"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "冰",
+      "japanese": "冰",
+      "kana": "こおり",
+      "romaji": "koori",
+      "tokens": [
+        {
+          "text": "冰",
+          "kana": "こおり"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "交通",
+      "japanese": "交通",
+      "kana": "こうつう",
+      "romaji": "koutsuu",
+      "tokens": [
+        {
+          "text": "交通",
+          "kana": "こうつう"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "讲座",
+      "japanese": "講座",
+      "kana": "こうざ",
+      "romaji": "kouza",
+      "tokens": [
+        {
+          "text": "講座",
+          "kana": "こうざ"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "这个月、本月",
+      "japanese": "今月",
+      "kana": "こんげつ",
+      "romaji": "kongetsu",
+      "tokens": [
+        {
+          "text": "今月",
+          "kana": "こんげつ"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "语言学",
+      "japanese": "語学",
+      "kana": "ごがく",
+      "romaji": "gogaku",
+      "tokens": [
+        {
+          "text": "語学",
+          "kana": "ごがく"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "误解",
+      "japanese": "誤解",
+      "kana": "ごかい",
+      "romaji": "gokai",
+      "tokens": [
+        {
+          "text": "誤解",
+          "kana": "ごかい"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "国产",
+      "japanese": "国産",
+      "kana": "こくさん",
+      "romaji": "kokusan",
+      "tokens": [
+        {
+          "text": "国産",
+          "kana": "こくさん"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "方法、窍门、动脑筋",
+      "japanese": "工夫",
+      "kana": "くふう",
+      "romaji": "kufuu",
+      "tokens": [
+        {
+          "text": "工夫",
+          "kana": "くふう"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "后辈、晚辈",
+      "japanese": "後輩",
+      "kana": "こうはい",
+      "romaji": "kouhai",
+      "tokens": [
+        {
+          "text": "後輩",
+          "kana": "こうはい"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "这边、这里",
+      "japanese": "こっち",
+      "kana": "こっち",
+      "romaji": "kotchi",
+      "tokens": [
+        {
+          "text": "こっち",
+          "kana": "こっち"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "古代",
+      "japanese": "古代",
+      "kana": "こだい",
+      "romaji": "kodai",
+      "tokens": [
+        {
+          "text": "古代",
+          "kana": "こだい"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "小麦",
+      "japanese": "小麦",
+      "kana": "こむぎ",
+      "romaji": "komugi",
+      "tokens": [
+        {
+          "text": "小麦",
+          "kana": "こむぎ"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "多云、阴天",
+      "japanese": "雲り",
+      "kana": "くもり",
+      "romaji": "kumori",
+      "tokens": [
+        {
+          "text": "雲り",
+          "kana": "くもり"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "黑板",
+      "japanese": "黒板",
+      "kana": "こくばん",
+      "romaji": "kokuban",
+      "tokens": [
+        {
+          "text": "黒板",
+          "kana": "こくばん"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "校长",
+      "japanese": "校長",
+      "kana": "こうちょう",
+      "romaji": "kouchou",
+      "tokens": [
+        {
+          "text": "校長",
+          "kana": "こうちょう"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "敬语",
+      "japanese": "敬語",
+      "kana": "けいご",
+      "romaji": "keigo",
+      "tokens": [
+        {
+          "text": "敬語",
+          "kana": "けいご"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "鞋子",
+      "japanese": "靴",
+      "kana": "くつ",
+      "romaji": "kutsu",
+      "tokens": [
+        {
+          "text": "靴",
+          "kana": "くつ"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "呼吸",
+      "japanese": "呼吸",
+      "kana": "こきゅう",
+      "romaji": "kokyuu",
+      "tokens": [
+        {
+          "text": "呼吸",
+          "kana": "こきゅう"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "高中生",
+      "japanese": "高校生",
+      "kana": "こうこうせい",
+      "romaji": "koukousei",
+      "tokens": [
+        {
+          "text": "高校生",
+          "kana": "こうこうせい"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "垃圾箱",
+      "japanese": "ゴミ箱",
+      "kana": "ごみばこ",
+      "romaji": "gomibako",
+      "tokens": [
+        {
+          "text": "ゴミ箱",
+          "kana": "ごみばこ"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "构成，结构",
+      "japanese": "構成",
+      "kana": "こうせい",
+      "romaji": "kousei",
+      "tokens": [
+        {
+          "text": "構成",
+          "kana": "こうせい"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "轮椅",
+      "japanese": "車椅子",
+      "kana": "くるまいす",
+      "romaji": "kurumaisu",
+      "tokens": [
+        {
+          "text": "車椅子",
+          "kana": "くるまいす"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "回答、应答、答案",
+      "japanese": "答え",
+      "kana": "こたえ",
+      "romaji": "kotae",
+      "tokens": [
+        {
+          "text": "答え",
+          "kana": "こたえ"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "派出所、警亭",
+      "japanese": "交番",
+      "kana": "こうばん",
+      "romaji": "kouban",
+      "tokens": [
+        {
+          "text": "交番",
+          "kana": "こうばん"
+        }
+      ]
+    }
+  ]
+}

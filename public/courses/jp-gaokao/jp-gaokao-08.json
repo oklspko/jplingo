@@ -1,0 +1,710 @@
+{
+  "id": "jp-gaokao-08",
+  "coursePackId": "jp-gaokao",
+  "title": "二类形容词 4",
+  "order": 8,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "多样、多种多样",
+      "japanese": "多様",
+      "kana": "たよう",
+      "romaji": "tayou",
+      "tokens": [
+        {
+          "text": "多様",
+          "kana": "たよう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "饿、空",
+      "japanese": "ぺこぺこ",
+      "kana": "ぺこぺこ",
+      "romaji": "pekopeko",
+      "tokens": [
+        {
+          "text": "ぺこぺこ",
+          "kana": "ぺこぺこ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "无聊、厌倦",
+      "japanese": "退屈",
+      "kana": "たいくつ",
+      "romaji": "taikutsu",
+      "tokens": [
+        {
+          "text": "退屈",
+          "kana": "たいくつ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "雪白、纯白",
+      "japanese": "真っ白",
+      "kana": "まっしろ",
+      "romaji": "masshiro",
+      "tokens": [
+        {
+          "text": "真っ白",
+          "kana": "まっしろ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "帅、有风度",
+      "japanese": "ハンサム",
+      "kana": "はんさむ",
+      "romaji": "hansamu",
+      "tokens": [
+        {
+          "text": "ハンサム",
+          "kana": "はんさむ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "确实、确凿、准确",
+      "japanese": "確かに",
+      "kana": "たしかに",
+      "romaji": "tashikani",
+      "tokens": [
+        {
+          "text": "確かに",
+          "kana": "たしかに"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "开朗、爽快、明朗",
+      "japanese": "朗らか",
+      "kana": "ほがらか",
+      "romaji": "hogaraka",
+      "tokens": [
+        {
+          "text": "朗らか",
+          "kana": "ほがらか"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "花哨、艳丽",
+      "japanese": "派手",
+      "kana": "はで",
+      "romaji": "hade",
+      "tokens": [
+        {
+          "text": "派手",
+          "kana": "はで"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "歪斜、倾斜",
+      "japanese": "斜め",
+      "kana": "ななめ",
+      "romaji": "naname",
+      "tokens": [
+        {
+          "text": "斜め",
+          "kana": "ななめ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "平坦、坦然、平静",
+      "japanese": "平ら",
+      "kana": "たいら",
+      "romaji": "taira",
+      "tokens": [
+        {
+          "text": "平ら",
+          "kana": "たいら"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "理所当然、应当",
+      "japanese": "当然",
+      "kana": "とうぜん",
+      "romaji": "touzen",
+      "tokens": [
+        {
+          "text": "当然",
+          "kana": "とうぜん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "客气、谨慎；节制",
+      "japanese": "控えめ",
+      "kana": "ひかえめ",
+      "romaji": "hikaeme",
+      "tokens": [
+        {
+          "text": "控えめ",
+          "kana": "ひかえめ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "切身、近旁",
+      "japanese": "身近",
+      "kana": "みぢか",
+      "romaji": "mijika",
+      "tokens": [
+        {
+          "text": "身近",
+          "kana": "みぢか"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "大量",
+      "japanese": "大量",
+      "kana": "たいりょう",
+      "romaji": "tairyou",
+      "tokens": [
+        {
+          "text": "大量",
+          "kana": "たいりょう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "利益、有利",
+      "japanese": "得",
+      "kana": "とく",
+      "romaji": "toku",
+      "tokens": [
+        {
+          "text": "得",
+          "kana": "とく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "贫穷、贫困",
+      "japanese": "貧乏",
+      "kana": "びんぼう",
+      "romaji": "binbou",
+      "tokens": [
+        {
+          "text": "貧乏",
+          "kana": "びんぼう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "华丽、辉煌、欢快",
+      "japanese": "華やか",
+      "kana": "はなやか",
+      "romaji": "hanayaka",
+      "tokens": [
+        {
+          "text": "華やか",
+          "kana": "はなやか"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "光滑；流畅、通畅",
+      "japanese": "滑らか",
+      "kana": "なめらか",
+      "romaji": "nameraka",
+      "tokens": [
+        {
+          "text": "滑らか",
+          "kana": "なめらか"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "确实、确凿、准确",
+      "japanese": "確かに",
+      "kana": "たしかに",
+      "romaji": "tashikani",
+      "tokens": [
+        {
+          "text": "確かに",
+          "kana": "たしかに"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "利益、有利",
+      "japanese": "得",
+      "kana": "とく",
+      "romaji": "toku",
+      "tokens": [
+        {
+          "text": "得",
+          "kana": "とく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "多样、多种多样",
+      "japanese": "多様",
+      "kana": "たよう",
+      "romaji": "tayou",
+      "tokens": [
+        {
+          "text": "多様",
+          "kana": "たよう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "帅、有风度",
+      "japanese": "ハンサム",
+      "kana": "はんさむ",
+      "romaji": "hansamu",
+      "tokens": [
+        {
+          "text": "ハンサム",
+          "kana": "はんさむ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "理所当然、应当",
+      "japanese": "当然",
+      "kana": "とうぜん",
+      "romaji": "touzen",
+      "tokens": [
+        {
+          "text": "当然",
+          "kana": "とうぜん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "无聊、厌倦",
+      "japanese": "退屈",
+      "kana": "たいくつ",
+      "romaji": "taikutsu",
+      "tokens": [
+        {
+          "text": "退屈",
+          "kana": "たいくつ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "饿、空",
+      "japanese": "ぺこぺこ",
+      "kana": "ぺこぺこ",
+      "romaji": "pekopeko",
+      "tokens": [
+        {
+          "text": "ぺこぺこ",
+          "kana": "ぺこぺこ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "平坦、坦然、平静",
+      "japanese": "平ら",
+      "kana": "たいら",
+      "romaji": "taira",
+      "tokens": [
+        {
+          "text": "平ら",
+          "kana": "たいら"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "开朗、爽快、明朗",
+      "japanese": "朗らか",
+      "kana": "ほがらか",
+      "romaji": "hogaraka",
+      "tokens": [
+        {
+          "text": "朗らか",
+          "kana": "ほがらか"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "雪白、纯白",
+      "japanese": "真っ白",
+      "kana": "まっしろ",
+      "romaji": "masshiro",
+      "tokens": [
+        {
+          "text": "真っ白",
+          "kana": "まっしろ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "贫穷、贫困",
+      "japanese": "貧乏",
+      "kana": "びんぼう",
+      "romaji": "binbou",
+      "tokens": [
+        {
+          "text": "貧乏",
+          "kana": "びんぼう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "花哨、艳丽",
+      "japanese": "派手",
+      "kana": "はで",
+      "romaji": "hade",
+      "tokens": [
+        {
+          "text": "派手",
+          "kana": "はで"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "歪斜、倾斜",
+      "japanese": "斜め",
+      "kana": "ななめ",
+      "romaji": "naname",
+      "tokens": [
+        {
+          "text": "斜め",
+          "kana": "ななめ"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "光滑；流畅、通畅",
+      "japanese": "滑らか",
+      "kana": "なめらか",
+      "romaji": "nameraka",
+      "tokens": [
+        {
+          "text": "滑らか",
+          "kana": "なめらか"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "大量",
+      "japanese": "大量",
+      "kana": "たいりょう",
+      "romaji": "tairyou",
+      "tokens": [
+        {
+          "text": "大量",
+          "kana": "たいりょう"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "华丽、辉煌、欢快",
+      "japanese": "華やか",
+      "kana": "はなやか",
+      "romaji": "hanayaka",
+      "tokens": [
+        {
+          "text": "華やか",
+          "kana": "はなやか"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "切身、近旁",
+      "japanese": "身近",
+      "kana": "みぢか",
+      "romaji": "mijika",
+      "tokens": [
+        {
+          "text": "身近",
+          "kana": "みぢか"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "客气、谨慎；节制",
+      "japanese": "控えめ",
+      "kana": "ひかえめ",
+      "romaji": "hikaeme",
+      "tokens": [
+        {
+          "text": "控えめ",
+          "kana": "ひかえめ"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "平坦、坦然、平静",
+      "japanese": "平ら",
+      "kana": "たいら",
+      "romaji": "taira",
+      "tokens": [
+        {
+          "text": "平ら",
+          "kana": "たいら"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "饿、空",
+      "japanese": "ぺこぺこ",
+      "kana": "ぺこぺこ",
+      "romaji": "pekopeko",
+      "tokens": [
+        {
+          "text": "ぺこぺこ",
+          "kana": "ぺこぺこ"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "歪斜、倾斜",
+      "japanese": "斜め",
+      "kana": "ななめ",
+      "romaji": "naname",
+      "tokens": [
+        {
+          "text": "斜め",
+          "kana": "ななめ"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "大量",
+      "japanese": "大量",
+      "kana": "たいりょう",
+      "romaji": "tairyou",
+      "tokens": [
+        {
+          "text": "大量",
+          "kana": "たいりょう"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "无聊、厌倦",
+      "japanese": "退屈",
+      "kana": "たいくつ",
+      "romaji": "taikutsu",
+      "tokens": [
+        {
+          "text": "退屈",
+          "kana": "たいくつ"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "帅、有风度",
+      "japanese": "ハンサム",
+      "kana": "はんさむ",
+      "romaji": "hansamu",
+      "tokens": [
+        {
+          "text": "ハンサム",
+          "kana": "はんさむ"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "确实、确凿、准确",
+      "japanese": "確かに",
+      "kana": "たしかに",
+      "romaji": "tashikani",
+      "tokens": [
+        {
+          "text": "確かに",
+          "kana": "たしかに"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "开朗、爽快、明朗",
+      "japanese": "朗らか",
+      "kana": "ほがらか",
+      "romaji": "hogaraka",
+      "tokens": [
+        {
+          "text": "朗らか",
+          "kana": "ほがらか"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "贫穷、贫困",
+      "japanese": "貧乏",
+      "kana": "びんぼう",
+      "romaji": "binbou",
+      "tokens": [
+        {
+          "text": "貧乏",
+          "kana": "びんぼう"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "客气、谨慎；节制",
+      "japanese": "控えめ",
+      "kana": "ひかえめ",
+      "romaji": "hikaeme",
+      "tokens": [
+        {
+          "text": "控えめ",
+          "kana": "ひかえめ"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "华丽、辉煌、欢快",
+      "japanese": "華やか",
+      "kana": "はなやか",
+      "romaji": "hanayaka",
+      "tokens": [
+        {
+          "text": "華やか",
+          "kana": "はなやか"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "花哨、艳丽",
+      "japanese": "派手",
+      "kana": "はで",
+      "romaji": "hade",
+      "tokens": [
+        {
+          "text": "派手",
+          "kana": "はで"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "切身、近旁",
+      "japanese": "身近",
+      "kana": "みぢか",
+      "romaji": "mijika",
+      "tokens": [
+        {
+          "text": "身近",
+          "kana": "みぢか"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "理所当然、应当",
+      "japanese": "当然",
+      "kana": "とうぜん",
+      "romaji": "touzen",
+      "tokens": [
+        {
+          "text": "当然",
+          "kana": "とうぜん"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "雪白、纯白",
+      "japanese": "真っ白",
+      "kana": "まっしろ",
+      "romaji": "masshiro",
+      "tokens": [
+        {
+          "text": "真っ白",
+          "kana": "まっしろ"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "利益、有利",
+      "japanese": "得",
+      "kana": "とく",
+      "romaji": "toku",
+      "tokens": [
+        {
+          "text": "得",
+          "kana": "とく"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "光滑；流畅、通畅",
+      "japanese": "滑らか",
+      "kana": "なめらか",
+      "romaji": "nameraka",
+      "tokens": [
+        {
+          "text": "滑らか",
+          "kana": "なめらか"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "多样、多种多样",
+      "japanese": "多様",
+      "kana": "たよう",
+      "romaji": "tayou",
+      "tokens": [
+        {
+          "text": "多様",
+          "kana": "たよう"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-36",
+  "coursePackId": "jp-gaokao",
+  "title": "名词低频 3",
+  "order": 36,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "伤、伤口、伤痕、创伤",
+      "japanese": "傷",
+      "kana": "きず",
+      "romaji": "kizu",
+      "tokens": [
+        {
+          "text": "傷",
+          "kana": "きず"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "季节",
+      "japanese": "季節",
+      "kana": "きせつ",
+      "romaji": "kisetsu",
+      "tokens": [
+        {
+          "text": "季節",
+          "kana": "きせつ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "下午",
+      "japanese": "午後",
+      "kana": "ごご",
+      "romaji": "gogo",
+      "tokens": [
+        {
+          "text": "午後",
+          "kana": "ごご"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "希望",
+      "japanese": "希望",
+      "kana": "きぼう",
+      "romaji": "kibou",
+      "tokens": [
+        {
+          "text": "希望",
+          "kana": "きぼう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "癖好、习惯",
+      "japanese": "癖",
+      "kana": "くせ",
+      "romaji": "kuse",
+      "tokens": [
+        {
+          "text": "癖",
+          "kana": "くせ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "倾向、趋势",
+      "japanese": "傾向",
+      "kana": "けいこう",
+      "romaji": "keikou",
+      "tokens": [
+        {
+          "text": "傾向",
+          "kana": "けいこう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "感想",
+      "japanese": "感想",
+      "kana": "かんそう",
+      "romaji": "kansou",
+      "tokens": [
+        {
+          "text": "感想",
+          "kana": "かんそう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "辛苦、艰辛",
+      "japanese": "苦労",
+      "kana": "くろう",
+      "romaji": "kurou",
+      "tokens": [
+        {
+          "text": "苦労",
+          "kana": "くろう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "街坊、邻居",
+      "japanese": "近所",
+      "kana": "きんじょ",
+      "romaji": "kinjo",
+      "tokens": [
+        {
+          "text": "近所",
+          "kana": "きんじょ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "兴趣、爱好",
+      "japanese": "趣味",
+      "kana": "しゅみ",
+      "romaji": "shumi",
+      "tokens": [
+        {
+          "text": "趣味",
+          "kana": "しゅみ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "仪式、活动",
+      "japanese": "行事",
+      "kana": "ぎょうじ",
+      "romaji": "gyouji",
+      "tokens": [
+        {
+          "text": "行事",
+          "kana": "ぎょうじ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "兴趣、爱好",
+      "japanese": "興味",
+      "kana": "きょうみ",
+      "romaji": "kyoumi",
+      "tokens": [
+        {
+          "text": "興味",
+          "kana": "きょうみ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "协助、帮助、合作",
+      "japanese": "協力",
+      "kana": "きょうりょく",
+      "romaji": "kyouryoku",
+      "tokens": [
+        {
+          "text": "協力",
+          "kana": "きょうりょく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "自夸、自大、骄傲",
+      "japanese": "自慢",
+      "kana": "じまん",
+      "romaji": "jiman",
+      "tokens": [
+        {
+          "text": "自慢",
+          "kana": "じまん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "契机、机会",
+      "japanese": "きっかけ",
+      "kana": "きっかけ",
+      "romaji": "kikkake",
+      "tokens": [
+        {
+          "text": "きっかけ",
+          "kana": "きっかけ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "受伤、受创",
+      "japanese": "怪我",
+      "kana": "けが",
+      "romaji": "kega",
+      "tokens": [
+        {
+          "text": "怪我",
+          "kana": "けが"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "记录",
+      "japanese": "記録",
+      "kana": "きろく",
+      "romaji": "kiroku",
+      "tokens": [
+        {
+          "text": "記録",
+          "kana": "きろく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "兄弟姐妹",
+      "japanese": "兄弟",
+      "kana": "きょうだい",
+      "romaji": "kyoudai",
+      "tokens": [
+        {
+          "text": "兄弟",
+          "kana": "きょうだい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "关怀、关心、感兴趣",
+      "japanese": "関心",
+      "kana": "かんしん",
+      "romaji": "kanshin",
+      "tokens": [
+        {
+          "text": "関心",
+          "kana": "かんしん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "角、拐角",
+      "japanese": "角",
+      "kana": "かど",
+      "romaji": "kado",
+      "tokens": [
+        {
+          "text": "角",
+          "kana": "かど"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "结算、结账",
+      "japanese": "勘定",
+      "kana": "かんじょう",
+      "romaji": "kanjou",
+      "tokens": [
+        {
+          "text": "勘定",
+          "kana": "かんじょう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "款待、宴请、酒菜",
+      "japanese": "ご馳走",
+      "kana": "ごちそう",
+      "romaji": "gochisou",
+      "tokens": [
+        {
+          "text": "ご馳走",
+          "kana": "ごちそう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "经济",
+      "japanese": "経済",
+      "kana": "けいざい",
+      "romaji": "keizai",
+      "tokens": [
+        {
+          "text": "経済",
+          "kana": "けいざい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "许可、同意、允许",
+      "japanese": "許可",
+      "kana": "きょか",
+      "romaji": "kyoka",
+      "tokens": [
+        {
+          "text": "許可",
+          "kana": "きょか"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "装饰、修饰",
+      "japanese": "飾り",
+      "kana": "かざり",
+      "romaji": "kazari",
+      "tokens": [
+        {
+          "text": "飾り",
+          "kana": "かざり"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "研究、探讨、讨论、审核",
+      "japanese": "検討",
+      "kana": "けんとう",
+      "romaji": "kentou",
+      "tokens": [
+        {
+          "text": "検討",
+          "kana": "けんとう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "新闻、报道、消息",
+      "japanese": "記事",
+      "kana": "きじ",
+      "romaji": "kiji",
+      "tokens": [
+        {
+          "text": "記事",
+          "kana": "きじ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "看、读",
+      "japanese": "ご覧",
+      "kana": "ごらん",
+      "romaji": "goran",
+      "tokens": [
+        {
+          "text": "ご覧",
+          "kana": "ごらん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "药",
+      "japanese": "薬",
+      "kana": "くすり",
+      "romaji": "kusuri",
+      "tokens": [
+        {
+          "text": "薬",
+          "kana": "くすり"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "空气",
+      "japanese": "空気",
+      "kana": "くうき",
+      "romaji": "kuuki",
+      "tokens": [
+        {
+          "text": "空気",
+          "kana": "くうき"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "辛苦、艰辛",
+      "japanese": "苦労",
+      "kana": "くろう",
+      "romaji": "kurou",
+      "tokens": [
+        {
+          "text": "苦労",
+          "kana": "くろう"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "自夸、自大、骄傲",
+      "japanese": "自慢",
+      "kana": "じまん",
+      "romaji": "jiman",
+      "tokens": [
+        {
+          "text": "自慢",
+          "kana": "じまん"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "协助、帮助、合作",
+      "japanese": "協力",
+      "kana": "きょうりょく",
+      "romaji": "kyouryoku",
+      "tokens": [
+        {
+          "text": "協力",
+          "kana": "きょうりょく"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "结算、结账",
+      "japanese": "勘定",
+      "kana": "かんじょう",
+      "romaji": "kanjou",
+      "tokens": [
+        {
+          "text": "勘定",
+          "kana": "かんじょう"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "记录",
+      "japanese": "記録",
+      "kana": "きろく",
+      "romaji": "kiroku",
+      "tokens": [
+        {
+          "text": "記録",
+          "kana": "きろく"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "看、读",
+      "japanese": "ご覧",
+      "kana": "ごらん",
+      "romaji": "goran",
+      "tokens": [
+        {
+          "text": "ご覧",
+          "kana": "ごらん"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "兴趣、爱好",
+      "japanese": "興味",
+      "kana": "きょうみ",
+      "romaji": "kyoumi",
+      "tokens": [
+        {
+          "text": "興味",
+          "kana": "きょうみ"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "药",
+      "japanese": "薬",
+      "kana": "くすり",
+      "romaji": "kusuri",
+      "tokens": [
+        {
+          "text": "薬",
+          "kana": "くすり"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "关怀、关心、感兴趣",
+      "japanese": "関心",
+      "kana": "かんしん",
+      "romaji": "kanshin",
+      "tokens": [
+        {
+          "text": "関心",
+          "kana": "かんしん"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "受伤、受创",
+      "japanese": "怪我",
+      "kana": "けが",
+      "romaji": "kega",
+      "tokens": [
+        {
+          "text": "怪我",
+          "kana": "けが"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "经济",
+      "japanese": "経済",
+      "kana": "けいざい",
+      "romaji": "keizai",
+      "tokens": [
+        {
+          "text": "経済",
+          "kana": "けいざい"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "倾向、趋势",
+      "japanese": "傾向",
+      "kana": "けいこう",
+      "romaji": "keikou",
+      "tokens": [
+        {
+          "text": "傾向",
+          "kana": "けいこう"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "下午",
+      "japanese": "午後",
+      "kana": "ごご",
+      "romaji": "gogo",
+      "tokens": [
+        {
+          "text": "午後",
+          "kana": "ごご"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "许可、同意、允许",
+      "japanese": "許可",
+      "kana": "きょか",
+      "romaji": "kyoka",
+      "tokens": [
+        {
+          "text": "許可",
+          "kana": "きょか"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "契机、机会",
+      "japanese": "きっかけ",
+      "kana": "きっかけ",
+      "romaji": "kikkake",
+      "tokens": [
+        {
+          "text": "きっかけ",
+          "kana": "きっかけ"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "角、拐角",
+      "japanese": "角",
+      "kana": "かど",
+      "romaji": "kado",
+      "tokens": [
+        {
+          "text": "角",
+          "kana": "かど"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "款待、宴请、酒菜",
+      "japanese": "ご馳走",
+      "kana": "ごちそう",
+      "romaji": "gochisou",
+      "tokens": [
+        {
+          "text": "ご馳走",
+          "kana": "ごちそう"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "感想",
+      "japanese": "感想",
+      "kana": "かんそう",
+      "romaji": "kansou",
+      "tokens": [
+        {
+          "text": "感想",
+          "kana": "かんそう"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "季节",
+      "japanese": "季節",
+      "kana": "きせつ",
+      "romaji": "kisetsu",
+      "tokens": [
+        {
+          "text": "季節",
+          "kana": "きせつ"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "研究、探讨、讨论、审核",
+      "japanese": "検討",
+      "kana": "けんとう",
+      "romaji": "kentou",
+      "tokens": [
+        {
+          "text": "検討",
+          "kana": "けんとう"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "街坊、邻居",
+      "japanese": "近所",
+      "kana": "きんじょ",
+      "romaji": "kinjo",
+      "tokens": [
+        {
+          "text": "近所",
+          "kana": "きんじょ"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "兴趣、爱好",
+      "japanese": "趣味",
+      "kana": "しゅみ",
+      "romaji": "shumi",
+      "tokens": [
+        {
+          "text": "趣味",
+          "kana": "しゅみ"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "伤、伤口、伤痕、创伤",
+      "japanese": "傷",
+      "kana": "きず",
+      "romaji": "kizu",
+      "tokens": [
+        {
+          "text": "傷",
+          "kana": "きず"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "新闻、报道、消息",
+      "japanese": "記事",
+      "kana": "きじ",
+      "romaji": "kiji",
+      "tokens": [
+        {
+          "text": "記事",
+          "kana": "きじ"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "兄弟姐妹",
+      "japanese": "兄弟",
+      "kana": "きょうだい",
+      "romaji": "kyoudai",
+      "tokens": [
+        {
+          "text": "兄弟",
+          "kana": "きょうだい"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "装饰、修饰",
+      "japanese": "飾り",
+      "kana": "かざり",
+      "romaji": "kazari",
+      "tokens": [
+        {
+          "text": "飾り",
+          "kana": "かざり"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "空气",
+      "japanese": "空気",
+      "kana": "くうき",
+      "romaji": "kuuki",
+      "tokens": [
+        {
+          "text": "空気",
+          "kana": "くうき"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "希望",
+      "japanese": "希望",
+      "kana": "きぼう",
+      "romaji": "kibou",
+      "tokens": [
+        {
+          "text": "希望",
+          "kana": "きぼう"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "仪式、活动",
+      "japanese": "行事",
+      "kana": "ぎょうじ",
+      "romaji": "gyouji",
+      "tokens": [
+        {
+          "text": "行事",
+          "kana": "ぎょうじ"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "癖好、习惯",
+      "japanese": "癖",
+      "kana": "くせ",
+      "romaji": "kuse",
+      "tokens": [
+        {
+          "text": "癖",
+          "kana": "くせ"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "角、拐角",
+      "japanese": "角",
+      "kana": "かど",
+      "romaji": "kado",
+      "tokens": [
+        {
+          "text": "角",
+          "kana": "かど"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "看、读",
+      "japanese": "ご覧",
+      "kana": "ごらん",
+      "romaji": "goran",
+      "tokens": [
+        {
+          "text": "ご覧",
+          "kana": "ごらん"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "结算、结账",
+      "japanese": "勘定",
+      "kana": "かんじょう",
+      "romaji": "kanjou",
+      "tokens": [
+        {
+          "text": "勘定",
+          "kana": "かんじょう"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "新闻、报道、消息",
+      "japanese": "記事",
+      "kana": "きじ",
+      "romaji": "kiji",
+      "tokens": [
+        {
+          "text": "記事",
+          "kana": "きじ"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "许可、同意、允许",
+      "japanese": "許可",
+      "kana": "きょか",
+      "romaji": "kyoka",
+      "tokens": [
+        {
+          "text": "許可",
+          "kana": "きょか"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "兴趣、爱好",
+      "japanese": "興味",
+      "kana": "きょうみ",
+      "romaji": "kyoumi",
+      "tokens": [
+        {
+          "text": "興味",
+          "kana": "きょうみ"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "伤、伤口、伤痕、创伤",
+      "japanese": "傷",
+      "kana": "きず",
+      "romaji": "kizu",
+      "tokens": [
+        {
+          "text": "傷",
+          "kana": "きず"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "款待、宴请、酒菜",
+      "japanese": "ご馳走",
+      "kana": "ごちそう",
+      "romaji": "gochisou",
+      "tokens": [
+        {
+          "text": "ご馳走",
+          "kana": "ごちそう"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "协助、帮助、合作",
+      "japanese": "協力",
+      "kana": "きょうりょく",
+      "romaji": "kyouryoku",
+      "tokens": [
+        {
+          "text": "協力",
+          "kana": "きょうりょく"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "记录",
+      "japanese": "記録",
+      "kana": "きろく",
+      "romaji": "kiroku",
+      "tokens": [
+        {
+          "text": "記録",
+          "kana": "きろく"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "街坊、邻居",
+      "japanese": "近所",
+      "kana": "きんじょ",
+      "romaji": "kinjo",
+      "tokens": [
+        {
+          "text": "近所",
+          "kana": "きんじょ"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "仪式、活动",
+      "japanese": "行事",
+      "kana": "ぎょうじ",
+      "romaji": "gyouji",
+      "tokens": [
+        {
+          "text": "行事",
+          "kana": "ぎょうじ"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "辛苦、艰辛",
+      "japanese": "苦労",
+      "kana": "くろう",
+      "romaji": "kurou",
+      "tokens": [
+        {
+          "text": "苦労",
+          "kana": "くろう"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "关怀、关心、感兴趣",
+      "japanese": "関心",
+      "kana": "かんしん",
+      "romaji": "kanshin",
+      "tokens": [
+        {
+          "text": "関心",
+          "kana": "かんしん"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "倾向、趋势",
+      "japanese": "傾向",
+      "kana": "けいこう",
+      "romaji": "keikou",
+      "tokens": [
+        {
+          "text": "傾向",
+          "kana": "けいこう"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "癖好、习惯",
+      "japanese": "癖",
+      "kana": "くせ",
+      "romaji": "kuse",
+      "tokens": [
+        {
+          "text": "癖",
+          "kana": "くせ"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "感想",
+      "japanese": "感想",
+      "kana": "かんそう",
+      "romaji": "kansou",
+      "tokens": [
+        {
+          "text": "感想",
+          "kana": "かんそう"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "自夸、自大、骄傲",
+      "japanese": "自慢",
+      "kana": "じまん",
+      "romaji": "jiman",
+      "tokens": [
+        {
+          "text": "自慢",
+          "kana": "じまん"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "装饰、修饰",
+      "japanese": "飾り",
+      "kana": "かざり",
+      "romaji": "kazari",
+      "tokens": [
+        {
+          "text": "飾り",
+          "kana": "かざり"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "药",
+      "japanese": "薬",
+      "kana": "くすり",
+      "romaji": "kusuri",
+      "tokens": [
+        {
+          "text": "薬",
+          "kana": "くすり"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "契机、机会",
+      "japanese": "きっかけ",
+      "kana": "きっかけ",
+      "romaji": "kikkake",
+      "tokens": [
+        {
+          "text": "きっかけ",
+          "kana": "きっかけ"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "研究、探讨、讨论、审核",
+      "japanese": "検討",
+      "kana": "けんとう",
+      "romaji": "kentou",
+      "tokens": [
+        {
+          "text": "検討",
+          "kana": "けんとう"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "希望",
+      "japanese": "希望",
+      "kana": "きぼう",
+      "romaji": "kibou",
+      "tokens": [
+        {
+          "text": "希望",
+          "kana": "きぼう"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "兴趣、爱好",
+      "japanese": "趣味",
+      "kana": "しゅみ",
+      "romaji": "shumi",
+      "tokens": [
+        {
+          "text": "趣味",
+          "kana": "しゅみ"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "空气",
+      "japanese": "空気",
+      "kana": "くうき",
+      "romaji": "kuuki",
+      "tokens": [
+        {
+          "text": "空気",
+          "kana": "くうき"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "经济",
+      "japanese": "経済",
+      "kana": "けいざい",
+      "romaji": "keizai",
+      "tokens": [
+        {
+          "text": "経済",
+          "kana": "けいざい"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "季节",
+      "japanese": "季節",
+      "kana": "きせつ",
+      "romaji": "kisetsu",
+      "tokens": [
+        {
+          "text": "季節",
+          "kana": "きせつ"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "下午",
+      "japanese": "午後",
+      "kana": "ごご",
+      "romaji": "gogo",
+      "tokens": [
+        {
+          "text": "午後",
+          "kana": "ごご"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "受伤、受创",
+      "japanese": "怪我",
+      "kana": "けが",
+      "romaji": "kega",
+      "tokens": [
+        {
+          "text": "怪我",
+          "kana": "けが"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "兄弟姐妹",
+      "japanese": "兄弟",
+      "kana": "きょうだい",
+      "romaji": "kyoudai",
+      "tokens": [
+        {
+          "text": "兄弟",
+          "kana": "きょうだい"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-35",
+  "coursePackId": "jp-gaokao",
+  "title": "名词低频 2",
+  "order": 35,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "伞",
+      "japanese": "傘",
+      "kana": "かさ",
+      "romaji": "kasa",
+      "tokens": [
+        {
+          "text": "傘",
+          "kana": "かさ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "河流",
+      "japanese": "川",
+      "kana": "かわ",
+      "romaji": "kawa",
+      "tokens": [
+        {
+          "text": "川",
+          "kana": "かわ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "肚子",
+      "japanese": "お腹",
+      "kana": "おなか",
+      "romaji": "onaka",
+      "tokens": [
+        {
+          "text": "お腹",
+          "kana": "おなか"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "科学",
+      "japanese": "科学",
+      "kana": "かがく",
+      "romaji": "kagaku",
+      "tokens": [
+        {
+          "text": "科学",
+          "kana": "かがく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "回去、返回、返还",
+      "japanese": "帰り",
+      "kana": "かえり",
+      "romaji": "kaeri",
+      "tokens": [
+        {
+          "text": "帰り",
+          "kana": "かえり"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "相互",
+      "japanese": "お互い",
+      "kana": "おたがい",
+      "romaji": "otagai",
+      "tokens": [
+        {
+          "text": "お互い",
+          "kana": "おたがい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "感谢、回礼",
+      "japanese": "お礼",
+      "kana": "おれい",
+      "romaji": "orei",
+      "tokens": [
+        {
+          "text": "お礼",
+          "kana": "おれい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "爷爷",
+      "japanese": "お爺さん",
+      "kana": "おじいさん",
+      "romaji": "ojiisan",
+      "tokens": [
+        {
+          "text": "お爺さん",
+          "kana": "おじいさん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "各地",
+      "japanese": "各地",
+      "kana": "かくち",
+      "romaji": "kakuchi",
+      "tokens": [
+        {
+          "text": "各地",
+          "kana": "かくち"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "姐姐",
+      "japanese": "お姉さん",
+      "kana": "おねえさん",
+      "romaji": "oneesan",
+      "tokens": [
+        {
+          "text": "お姉さん",
+          "kana": "おねえさん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "过去",
+      "japanese": "過去",
+      "kana": "かこ",
+      "romaji": "kako",
+      "tokens": [
+        {
+          "text": "過去",
+          "kana": "かこ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "姐姐",
+      "japanese": "姉",
+      "kana": "あね",
+      "romaji": "ane",
+      "tokens": [
+        {
+          "text": "姉",
+          "kana": "あね"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "楼梯；阶段",
+      "japanese": "階段",
+      "kana": "かいだん",
+      "romaji": "kaidan",
+      "tokens": [
+        {
+          "text": "階段",
+          "kana": "かいだん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "你",
+      "japanese": "お前",
+      "kana": "おまえ",
+      "romaji": "omae",
+      "tokens": [
+        {
+          "text": "お前",
+          "kana": "おまえ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "每个人、诸位",
+      "japanese": "方々",
+      "kana": "かたがた",
+      "romaji": "katagata",
+      "tokens": [
+        {
+          "text": "方々",
+          "kana": "かたがた"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "奶奶",
+      "japanese": "お婆さん",
+      "kana": "おばあさん",
+      "romaji": "obaasan",
+      "tokens": [
+        {
+          "text": "お婆さん",
+          "kana": "おばあさん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "阿姨、姑妈、舅妈",
+      "japanese": "おばさん",
+      "kana": "おばさん",
+      "romaji": "obasan",
+      "tokens": [
+        {
+          "text": "おばさん",
+          "kana": "おばさん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "弟弟",
+      "japanese": "弟",
+      "kana": "おとうと",
+      "romaji": "otouto",
+      "tokens": [
+        {
+          "text": "弟",
+          "kana": "おとうと"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "里面、深处",
+      "japanese": "奥",
+      "kana": "おく",
+      "romaji": "oku",
+      "tokens": [
+        {
+          "text": "奥",
+          "kana": "おく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "哥哥",
+      "japanese": "兄",
+      "kana": "あに",
+      "romaji": "ani",
+      "tokens": [
+        {
+          "text": "兄",
+          "kana": "あに"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "数量、数目",
+      "japanese": "数",
+      "kana": "かず",
+      "romaji": "kazu",
+      "tokens": [
+        {
+          "text": "数",
+          "kana": "かず"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "确认",
+      "japanese": "確認",
+      "kana": "かくにん",
+      "romaji": "kakunin",
+      "tokens": [
+        {
+          "text": "確認",
+          "kana": "かくにん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "解决",
+      "japanese": "解決",
+      "kana": "かいけつ",
+      "romaji": "kaiketsu",
+      "tokens": [
+        {
+          "text": "解決",
+          "kana": "かいけつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "学习",
+      "japanese": "学習",
+      "kana": "がくしゅう",
+      "romaji": "gakushuu",
+      "tokens": [
+        {
+          "text": "学習",
+          "kana": "がくしゅう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "妹妹",
+      "japanese": "妹",
+      "kana": "いもうと",
+      "romaji": "imouto",
+      "tokens": [
+        {
+          "text": "妹",
+          "kana": "いもうと"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "緩和、消除",
+      "japanese": "解消",
+      "kana": "かいしょう",
+      "romaji": "kaishou",
+      "tokens": [
+        {
+          "text": "解消",
+          "kana": "かいしょう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "包",
+      "japanese": "鞄",
+      "kana": "かばん",
+      "romaji": "kaban",
+      "tokens": [
+        {
+          "text": "鞄",
+          "kana": "かばん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "钥匙、锁",
+      "japanese": "鍵",
+      "kana": "かぎ",
+      "romaji": "kagi",
+      "tokens": [
+        {
+          "text": "鍵",
+          "kana": "かぎ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "学年",
+      "japanese": "学年",
+      "kana": "がくねん",
+      "romaji": "gakunen",
+      "tokens": [
+        {
+          "text": "学年",
+          "kana": "がくねん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "叔叔、伯伯、姨夫",
+      "japanese": "おじさん",
+      "kana": "おじさん",
+      "romaji": "ojisan",
+      "tokens": [
+        {
+          "text": "おじさん",
+          "kana": "おじさん"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "回去、返回、返还",
+      "japanese": "帰り",
+      "kana": "かえり",
+      "romaji": "kaeri",
+      "tokens": [
+        {
+          "text": "帰り",
+          "kana": "かえり"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "学习",
+      "japanese": "学習",
+      "kana": "がくしゅう",
+      "romaji": "gakushuu",
+      "tokens": [
+        {
+          "text": "学習",
+          "kana": "がくしゅう"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "楼梯；阶段",
+      "japanese": "階段",
+      "kana": "かいだん",
+      "romaji": "kaidan",
+      "tokens": [
+        {
+          "text": "階段",
+          "kana": "かいだん"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "妹妹",
+      "japanese": "妹",
+      "kana": "いもうと",
+      "romaji": "imouto",
+      "tokens": [
+        {
+          "text": "妹",
+          "kana": "いもうと"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "你",
+      "japanese": "お前",
+      "kana": "おまえ",
+      "romaji": "omae",
+      "tokens": [
+        {
+          "text": "お前",
+          "kana": "おまえ"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "学年",
+      "japanese": "学年",
+      "kana": "がくねん",
+      "romaji": "gakunen",
+      "tokens": [
+        {
+          "text": "学年",
+          "kana": "がくねん"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "过去",
+      "japanese": "過去",
+      "kana": "かこ",
+      "romaji": "kako",
+      "tokens": [
+        {
+          "text": "過去",
+          "kana": "かこ"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "奶奶",
+      "japanese": "お婆さん",
+      "kana": "おばあさん",
+      "romaji": "obaasan",
+      "tokens": [
+        {
+          "text": "お婆さん",
+          "kana": "おばあさん"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "各地",
+      "japanese": "各地",
+      "kana": "かくち",
+      "romaji": "kakuchi",
+      "tokens": [
+        {
+          "text": "各地",
+          "kana": "かくち"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "姐姐",
+      "japanese": "お姉さん",
+      "kana": "おねえさん",
+      "romaji": "oneesan",
+      "tokens": [
+        {
+          "text": "お姉さん",
+          "kana": "おねえさん"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "每个人、诸位",
+      "japanese": "方々",
+      "kana": "かたがた",
+      "romaji": "katagata",
+      "tokens": [
+        {
+          "text": "方々",
+          "kana": "かたがた"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "数量、数目",
+      "japanese": "数",
+      "kana": "かず",
+      "romaji": "kazu",
+      "tokens": [
+        {
+          "text": "数",
+          "kana": "かず"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "阿姨、姑妈、舅妈",
+      "japanese": "おばさん",
+      "kana": "おばさん",
+      "romaji": "obasan",
+      "tokens": [
+        {
+          "text": "おばさん",
+          "kana": "おばさん"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "确认",
+      "japanese": "確認",
+      "kana": "かくにん",
+      "romaji": "kakunin",
+      "tokens": [
+        {
+          "text": "確認",
+          "kana": "かくにん"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "伞",
+      "japanese": "傘",
+      "kana": "かさ",
+      "romaji": "kasa",
+      "tokens": [
+        {
+          "text": "傘",
+          "kana": "かさ"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "河流",
+      "japanese": "川",
+      "kana": "かわ",
+      "romaji": "kawa",
+      "tokens": [
+        {
+          "text": "川",
+          "kana": "かわ"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "包",
+      "japanese": "鞄",
+      "kana": "かばん",
+      "romaji": "kaban",
+      "tokens": [
+        {
+          "text": "鞄",
+          "kana": "かばん"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "爷爷",
+      "japanese": "お爺さん",
+      "kana": "おじいさん",
+      "romaji": "ojiisan",
+      "tokens": [
+        {
+          "text": "お爺さん",
+          "kana": "おじいさん"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "弟弟",
+      "japanese": "弟",
+      "kana": "おとうと",
+      "romaji": "otouto",
+      "tokens": [
+        {
+          "text": "弟",
+          "kana": "おとうと"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "感谢、回礼",
+      "japanese": "お礼",
+      "kana": "おれい",
+      "romaji": "orei",
+      "tokens": [
+        {
+          "text": "お礼",
+          "kana": "おれい"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "科学",
+      "japanese": "科学",
+      "kana": "かがく",
+      "romaji": "kagaku",
+      "tokens": [
+        {
+          "text": "科学",
+          "kana": "かがく"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "緩和、消除",
+      "japanese": "解消",
+      "kana": "かいしょう",
+      "romaji": "kaishou",
+      "tokens": [
+        {
+          "text": "解消",
+          "kana": "かいしょう"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "姐姐",
+      "japanese": "姉",
+      "kana": "あね",
+      "romaji": "ane",
+      "tokens": [
+        {
+          "text": "姉",
+          "kana": "あね"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "肚子",
+      "japanese": "お腹",
+      "kana": "おなか",
+      "romaji": "onaka",
+      "tokens": [
+        {
+          "text": "お腹",
+          "kana": "おなか"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "解决",
+      "japanese": "解決",
+      "kana": "かいけつ",
+      "romaji": "kaiketsu",
+      "tokens": [
+        {
+          "text": "解決",
+          "kana": "かいけつ"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "钥匙、锁",
+      "japanese": "鍵",
+      "kana": "かぎ",
+      "romaji": "kagi",
+      "tokens": [
+        {
+          "text": "鍵",
+          "kana": "かぎ"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "里面、深处",
+      "japanese": "奥",
+      "kana": "おく",
+      "romaji": "oku",
+      "tokens": [
+        {
+          "text": "奥",
+          "kana": "おく"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "叔叔、伯伯、姨夫",
+      "japanese": "おじさん",
+      "kana": "おじさん",
+      "romaji": "ojisan",
+      "tokens": [
+        {
+          "text": "おじさん",
+          "kana": "おじさん"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "哥哥",
+      "japanese": "兄",
+      "kana": "あに",
+      "romaji": "ani",
+      "tokens": [
+        {
+          "text": "兄",
+          "kana": "あに"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "相互",
+      "japanese": "お互い",
+      "kana": "おたがい",
+      "romaji": "otagai",
+      "tokens": [
+        {
+          "text": "お互い",
+          "kana": "おたがい"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "你",
+      "japanese": "お前",
+      "kana": "おまえ",
+      "romaji": "omae",
+      "tokens": [
+        {
+          "text": "お前",
+          "kana": "おまえ"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "阿姨、姑妈、舅妈",
+      "japanese": "おばさん",
+      "kana": "おばさん",
+      "romaji": "obasan",
+      "tokens": [
+        {
+          "text": "おばさん",
+          "kana": "おばさん"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "确认",
+      "japanese": "確認",
+      "kana": "かくにん",
+      "romaji": "kakunin",
+      "tokens": [
+        {
+          "text": "確認",
+          "kana": "かくにん"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "科学",
+      "japanese": "科学",
+      "kana": "かがく",
+      "romaji": "kagaku",
+      "tokens": [
+        {
+          "text": "科学",
+          "kana": "かがく"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "河流",
+      "japanese": "川",
+      "kana": "かわ",
+      "romaji": "kawa",
+      "tokens": [
+        {
+          "text": "川",
+          "kana": "かわ"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "过去",
+      "japanese": "過去",
+      "kana": "かこ",
+      "romaji": "kako",
+      "tokens": [
+        {
+          "text": "過去",
+          "kana": "かこ"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "伞",
+      "japanese": "傘",
+      "kana": "かさ",
+      "romaji": "kasa",
+      "tokens": [
+        {
+          "text": "傘",
+          "kana": "かさ"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "包",
+      "japanese": "鞄",
+      "kana": "かばん",
+      "romaji": "kaban",
+      "tokens": [
+        {
+          "text": "鞄",
+          "kana": "かばん"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "里面、深处",
+      "japanese": "奥",
+      "kana": "おく",
+      "romaji": "oku",
+      "tokens": [
+        {
+          "text": "奥",
+          "kana": "おく"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "緩和、消除",
+      "japanese": "解消",
+      "kana": "かいしょう",
+      "romaji": "kaishou",
+      "tokens": [
+        {
+          "text": "解消",
+          "kana": "かいしょう"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "妹妹",
+      "japanese": "妹",
+      "kana": "いもうと",
+      "romaji": "imouto",
+      "tokens": [
+        {
+          "text": "妹",
+          "kana": "いもうと"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "奶奶",
+      "japanese": "お婆さん",
+      "kana": "おばあさん",
+      "romaji": "obaasan",
+      "tokens": [
+        {
+          "text": "お婆さん",
+          "kana": "おばあさん"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "姐姐",
+      "japanese": "お姉さん",
+      "kana": "おねえさん",
+      "romaji": "oneesan",
+      "tokens": [
+        {
+          "text": "お姉さん",
+          "kana": "おねえさん"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "叔叔、伯伯、姨夫",
+      "japanese": "おじさん",
+      "kana": "おじさん",
+      "romaji": "ojisan",
+      "tokens": [
+        {
+          "text": "おじさん",
+          "kana": "おじさん"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "各地",
+      "japanese": "各地",
+      "kana": "かくち",
+      "romaji": "kakuchi",
+      "tokens": [
+        {
+          "text": "各地",
+          "kana": "かくち"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "弟弟",
+      "japanese": "弟",
+      "kana": "おとうと",
+      "romaji": "otouto",
+      "tokens": [
+        {
+          "text": "弟",
+          "kana": "おとうと"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "钥匙、锁",
+      "japanese": "鍵",
+      "kana": "かぎ",
+      "romaji": "kagi",
+      "tokens": [
+        {
+          "text": "鍵",
+          "kana": "かぎ"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "每个人、诸位",
+      "japanese": "方々",
+      "kana": "かたがた",
+      "romaji": "katagata",
+      "tokens": [
+        {
+          "text": "方々",
+          "kana": "かたがた"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "学习",
+      "japanese": "学習",
+      "kana": "がくしゅう",
+      "romaji": "gakushuu",
+      "tokens": [
+        {
+          "text": "学習",
+          "kana": "がくしゅう"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "姐姐",
+      "japanese": "姉",
+      "kana": "あね",
+      "romaji": "ane",
+      "tokens": [
+        {
+          "text": "姉",
+          "kana": "あね"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "爷爷",
+      "japanese": "お爺さん",
+      "kana": "おじいさん",
+      "romaji": "ojiisan",
+      "tokens": [
+        {
+          "text": "お爺さん",
+          "kana": "おじいさん"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "学年",
+      "japanese": "学年",
+      "kana": "がくねん",
+      "romaji": "gakunen",
+      "tokens": [
+        {
+          "text": "学年",
+          "kana": "がくねん"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "感谢、回礼",
+      "japanese": "お礼",
+      "kana": "おれい",
+      "romaji": "orei",
+      "tokens": [
+        {
+          "text": "お礼",
+          "kana": "おれい"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "哥哥",
+      "japanese": "兄",
+      "kana": "あに",
+      "romaji": "ani",
+      "tokens": [
+        {
+          "text": "兄",
+          "kana": "あに"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "解决",
+      "japanese": "解決",
+      "kana": "かいけつ",
+      "romaji": "kaiketsu",
+      "tokens": [
+        {
+          "text": "解決",
+          "kana": "かいけつ"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "回去、返回、返还",
+      "japanese": "帰り",
+      "kana": "かえり",
+      "romaji": "kaeri",
+      "tokens": [
+        {
+          "text": "帰り",
+          "kana": "かえり"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "肚子",
+      "japanese": "お腹",
+      "kana": "おなか",
+      "romaji": "onaka",
+      "tokens": [
+        {
+          "text": "お腹",
+          "kana": "おなか"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "相互",
+      "japanese": "お互い",
+      "kana": "おたがい",
+      "romaji": "otagai",
+      "tokens": [
+        {
+          "text": "お互い",
+          "kana": "おたがい"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "数量、数目",
+      "japanese": "数",
+      "kana": "かず",
+      "romaji": "kazu",
+      "tokens": [
+        {
+          "text": "数",
+          "kana": "かず"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "楼梯；阶段",
+      "japanese": "階段",
+      "kana": "かいだん",
+      "romaji": "kaidan",
+      "tokens": [
+        {
+          "text": "階段",
+          "kana": "かいだん"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-29",
+  "coursePackId": "jp-gaokao",
+  "title": "名词高频 1",
+  "order": 29,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "车站",
+      "japanese": "駅",
+      "kana": "えき",
+      "romaji": "eki",
+      "tokens": [
+        {
+          "text": "駅",
+          "kana": "えき"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "做法",
+      "japanese": "仕方",
+      "kana": "しかた",
+      "romaji": "shikata",
+      "tokens": [
+        {
+          "text": "仕方",
+          "kana": "しかた"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "脚",
+      "japanese": "足",
+      "kana": "あし",
+      "romaji": "ashi",
+      "tokens": [
+        {
+          "text": "足",
+          "kana": "あし"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "今年",
+      "japanese": "今年",
+      "kana": "ことし",
+      "romaji": "kotoshi",
+      "tokens": [
+        {
+          "text": "今年",
+          "kana": "ことし"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "除了～以外",
+      "japanese": "以外",
+      "kana": "いがい",
+      "romaji": "igai",
+      "tokens": [
+        {
+          "text": "以外",
+          "kana": "いがい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "你",
+      "japanese": "君",
+      "kana": "きみ",
+      "romaji": "kimi",
+      "tokens": [
+        {
+          "text": "君",
+          "kana": "きみ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "代替、补偿",
+      "japanese": "代わり",
+      "kana": "かわり",
+      "romaji": "kawari",
+      "tokens": [
+        {
+          "text": "代わり",
+          "kana": "かわり"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "嘴、口",
+      "japanese": "口",
+      "kana": "くち",
+      "romaji": "kuchi",
+      "tokens": [
+        {
+          "text": "口",
+          "kana": "くち"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "优先；目的地",
+      "japanese": "先",
+      "kana": "さき",
+      "romaji": "saki",
+      "tokens": [
+        {
+          "text": "先",
+          "kana": "さき"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "形状、外形",
+      "japanese": "形",
+      "kana": "かたち",
+      "romaji": "katachi",
+      "tokens": [
+        {
+          "text": "形",
+          "kana": "かたち"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "仪式、方式、形式",
+      "japanese": "式",
+      "kana": "しき",
+      "romaji": "shiki",
+      "tokens": [
+        {
+          "text": "式",
+          "kana": "しき"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "风",
+      "japanese": "風",
+      "kana": "かぜ",
+      "romaji": "kaze",
+      "tokens": [
+        {
+          "text": "風",
+          "kana": "かぜ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "庇护、保佑",
+      "japanese": "お陰",
+      "kana": "おかげ",
+      "romaji": "okage",
+      "tokens": [
+        {
+          "text": "お陰",
+          "kana": "おかげ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "感觉、感受",
+      "japanese": "感じ",
+      "kana": "かんじ",
+      "romaji": "kanji",
+      "tokens": [
+        {
+          "text": "感じ",
+          "kana": "かんじ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "招呼、寒暄",
+      "japanese": "挨拶",
+      "kana": "あいさつ",
+      "romaji": "aisatsu",
+      "tokens": [
+        {
+          "text": "挨拶",
+          "kana": "あいさつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "最近",
+      "japanese": "最近",
+      "kana": "さいきん",
+      "romaji": "saikin",
+      "tokens": [
+        {
+          "text": "最近",
+          "kana": "さいきん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "周五",
+      "japanese": "金曜日",
+      "kana": "きんようび",
+      "romaji": "kinyoubi",
+      "tokens": [
+        {
+          "text": "金曜日",
+          "kana": "きんようび"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "脸、表情",
+      "japanese": "顔",
+      "kana": "かお",
+      "romaji": "kao",
+      "tokens": [
+        {
+          "text": "顔",
+          "kana": "かお"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "后面、背后",
+      "japanese": "後ろ",
+      "kana": "うしろ",
+      "romaji": "ushiro",
+      "tokens": [
+        {
+          "text": "後ろ",
+          "kana": "うしろ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "情况、状况",
+      "japanese": "具合",
+      "kana": "ぐあい",
+      "romaji": "guai",
+      "tokens": [
+        {
+          "text": "具合",
+          "kana": "ぐあい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "时代",
+      "japanese": "時代",
+      "kana": "じだい",
+      "romaji": "jidai",
+      "tokens": [
+        {
+          "text": "時代",
+          "kana": "じだい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "感觉",
+      "japanese": "感覚",
+      "kana": "かんかく",
+      "romaji": "kankaku",
+      "tokens": [
+        {
+          "text": "感覚",
+          "kana": "かんかく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "某一侧",
+      "japanese": "側",
+      "kana": "かわ",
+      "romaji": "kawa",
+      "tokens": [
+        {
+          "text": "側",
+          "kana": "かわ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "感冒、伤寒",
+      "japanese": "風邪",
+      "kana": "かぜ",
+      "romaji": "kaze",
+      "tokens": [
+        {
+          "text": "風邪",
+          "kana": "かぜ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "影响",
+      "japanese": "影響",
+      "kana": "えいきょう",
+      "romaji": "eikyou",
+      "tokens": [
+        {
+          "text": "影響",
+          "kana": "えいきょう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "声音",
+      "japanese": "声",
+      "kana": "こえ",
+      "romaji": "koe",
+      "tokens": [
+        {
+          "text": "声",
+          "kana": "こえ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "提问、询问",
+      "japanese": "質問",
+      "kana": "しつもん",
+      "romaji": "shitsumon",
+      "tokens": [
+        {
+          "text": "質問",
+          "kana": "しつもん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "计划",
+      "japanese": "計画",
+      "kana": "けいかく",
+      "romaji": "keikaku",
+      "tokens": [
+        {
+          "text": "計画",
+          "kana": "けいかく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "你",
+      "japanese": "あなた",
+      "kana": "あなた",
+      "romaji": "anata",
+      "tokens": [
+        {
+          "text": "あなた",
+          "kana": "あなた"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "她、女朋友",
+      "japanese": "彼女",
+      "kana": "かのじょ",
+      "romaji": "kanojo",
+      "tokens": [
+        {
+          "text": "彼女",
+          "kana": "かのじょ"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "庇护、保佑",
+      "japanese": "お陰",
+      "kana": "おかげ",
+      "romaji": "okage",
+      "tokens": [
+        {
+          "text": "お陰",
+          "kana": "おかげ"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "你",
+      "japanese": "あなた",
+      "kana": "あなた",
+      "romaji": "anata",
+      "tokens": [
+        {
+          "text": "あなた",
+          "kana": "あなた"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "嘴、口",
+      "japanese": "口",
+      "kana": "くち",
+      "romaji": "kuchi",
+      "tokens": [
+        {
+          "text": "口",
+          "kana": "くち"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "感觉",
+      "japanese": "感覚",
+      "kana": "かんかく",
+      "romaji": "kankaku",
+      "tokens": [
+        {
+          "text": "感覚",
+          "kana": "かんかく"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "影响",
+      "japanese": "影響",
+      "kana": "えいきょう",
+      "romaji": "eikyou",
+      "tokens": [
+        {
+          "text": "影響",
+          "kana": "えいきょう"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "最近",
+      "japanese": "最近",
+      "kana": "さいきん",
+      "romaji": "saikin",
+      "tokens": [
+        {
+          "text": "最近",
+          "kana": "さいきん"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "情况、状况",
+      "japanese": "具合",
+      "kana": "ぐあい",
+      "romaji": "guai",
+      "tokens": [
+        {
+          "text": "具合",
+          "kana": "ぐあい"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "代替、补偿",
+      "japanese": "代わり",
+      "kana": "かわり",
+      "romaji": "kawari",
+      "tokens": [
+        {
+          "text": "代わり",
+          "kana": "かわり"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "脸、表情",
+      "japanese": "顔",
+      "kana": "かお",
+      "romaji": "kao",
+      "tokens": [
+        {
+          "text": "顔",
+          "kana": "かお"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "风",
+      "japanese": "風",
+      "kana": "かぜ",
+      "romaji": "kaze",
+      "tokens": [
+        {
+          "text": "風",
+          "kana": "かぜ"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "除了～以外",
+      "japanese": "以外",
+      "kana": "いがい",
+      "romaji": "igai",
+      "tokens": [
+        {
+          "text": "以外",
+          "kana": "いがい"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "做法",
+      "japanese": "仕方",
+      "kana": "しかた",
+      "romaji": "shikata",
+      "tokens": [
+        {
+          "text": "仕方",
+          "kana": "しかた"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "招呼、寒暄",
+      "japanese": "挨拶",
+      "kana": "あいさつ",
+      "romaji": "aisatsu",
+      "tokens": [
+        {
+          "text": "挨拶",
+          "kana": "あいさつ"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "形状、外形",
+      "japanese": "形",
+      "kana": "かたち",
+      "romaji": "katachi",
+      "tokens": [
+        {
+          "text": "形",
+          "kana": "かたち"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "车站",
+      "japanese": "駅",
+      "kana": "えき",
+      "romaji": "eki",
+      "tokens": [
+        {
+          "text": "駅",
+          "kana": "えき"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "提问、询问",
+      "japanese": "質問",
+      "kana": "しつもん",
+      "romaji": "shitsumon",
+      "tokens": [
+        {
+          "text": "質問",
+          "kana": "しつもん"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "感觉、感受",
+      "japanese": "感じ",
+      "kana": "かんじ",
+      "romaji": "kanji",
+      "tokens": [
+        {
+          "text": "感じ",
+          "kana": "かんじ"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "今年",
+      "japanese": "今年",
+      "kana": "ことし",
+      "romaji": "kotoshi",
+      "tokens": [
+        {
+          "text": "今年",
+          "kana": "ことし"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "时代",
+      "japanese": "時代",
+      "kana": "じだい",
+      "romaji": "jidai",
+      "tokens": [
+        {
+          "text": "時代",
+          "kana": "じだい"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "她、女朋友",
+      "japanese": "彼女",
+      "kana": "かのじょ",
+      "romaji": "kanojo",
+      "tokens": [
+        {
+          "text": "彼女",
+          "kana": "かのじょ"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "某一侧",
+      "japanese": "側",
+      "kana": "かわ",
+      "romaji": "kawa",
+      "tokens": [
+        {
+          "text": "側",
+          "kana": "かわ"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "声音",
+      "japanese": "声",
+      "kana": "こえ",
+      "romaji": "koe",
+      "tokens": [
+        {
+          "text": "声",
+          "kana": "こえ"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "你",
+      "japanese": "君",
+      "kana": "きみ",
+      "romaji": "kimi",
+      "tokens": [
+        {
+          "text": "君",
+          "kana": "きみ"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "计划",
+      "japanese": "計画",
+      "kana": "けいかく",
+      "romaji": "keikaku",
+      "tokens": [
+        {
+          "text": "計画",
+          "kana": "けいかく"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "优先；目的地",
+      "japanese": "先",
+      "kana": "さき",
+      "romaji": "saki",
+      "tokens": [
+        {
+          "text": "先",
+          "kana": "さき"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "感冒、伤寒",
+      "japanese": "風邪",
+      "kana": "かぜ",
+      "romaji": "kaze",
+      "tokens": [
+        {
+          "text": "風邪",
+          "kana": "かぜ"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "仪式、方式、形式",
+      "japanese": "式",
+      "kana": "しき",
+      "romaji": "shiki",
+      "tokens": [
+        {
+          "text": "式",
+          "kana": "しき"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "后面、背后",
+      "japanese": "後ろ",
+      "kana": "うしろ",
+      "romaji": "ushiro",
+      "tokens": [
+        {
+          "text": "後ろ",
+          "kana": "うしろ"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "周五",
+      "japanese": "金曜日",
+      "kana": "きんようび",
+      "romaji": "kinyoubi",
+      "tokens": [
+        {
+          "text": "金曜日",
+          "kana": "きんようび"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "脚",
+      "japanese": "足",
+      "kana": "あし",
+      "romaji": "ashi",
+      "tokens": [
+        {
+          "text": "足",
+          "kana": "あし"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "你",
+      "japanese": "君",
+      "kana": "きみ",
+      "romaji": "kimi",
+      "tokens": [
+        {
+          "text": "君",
+          "kana": "きみ"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "嘴、口",
+      "japanese": "口",
+      "kana": "くち",
+      "romaji": "kuchi",
+      "tokens": [
+        {
+          "text": "口",
+          "kana": "くち"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "感觉、感受",
+      "japanese": "感じ",
+      "kana": "かんじ",
+      "romaji": "kanji",
+      "tokens": [
+        {
+          "text": "感じ",
+          "kana": "かんじ"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "后面、背后",
+      "japanese": "後ろ",
+      "kana": "うしろ",
+      "romaji": "ushiro",
+      "tokens": [
+        {
+          "text": "後ろ",
+          "kana": "うしろ"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "庇护、保佑",
+      "japanese": "お陰",
+      "kana": "おかげ",
+      "romaji": "okage",
+      "tokens": [
+        {
+          "text": "お陰",
+          "kana": "おかげ"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "最近",
+      "japanese": "最近",
+      "kana": "さいきん",
+      "romaji": "saikin",
+      "tokens": [
+        {
+          "text": "最近",
+          "kana": "さいきん"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "优先；目的地",
+      "japanese": "先",
+      "kana": "さき",
+      "romaji": "saki",
+      "tokens": [
+        {
+          "text": "先",
+          "kana": "さき"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "做法",
+      "japanese": "仕方",
+      "kana": "しかた",
+      "romaji": "shikata",
+      "tokens": [
+        {
+          "text": "仕方",
+          "kana": "しかた"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "车站",
+      "japanese": "駅",
+      "kana": "えき",
+      "romaji": "eki",
+      "tokens": [
+        {
+          "text": "駅",
+          "kana": "えき"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "脸、表情",
+      "japanese": "顔",
+      "kana": "かお",
+      "romaji": "kao",
+      "tokens": [
+        {
+          "text": "顔",
+          "kana": "かお"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "声音",
+      "japanese": "声",
+      "kana": "こえ",
+      "romaji": "koe",
+      "tokens": [
+        {
+          "text": "声",
+          "kana": "こえ"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "时代",
+      "japanese": "時代",
+      "kana": "じだい",
+      "romaji": "jidai",
+      "tokens": [
+        {
+          "text": "時代",
+          "kana": "じだい"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "感冒、伤寒",
+      "japanese": "風邪",
+      "kana": "かぜ",
+      "romaji": "kaze",
+      "tokens": [
+        {
+          "text": "風邪",
+          "kana": "かぜ"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "风",
+      "japanese": "風",
+      "kana": "かぜ",
+      "romaji": "kaze",
+      "tokens": [
+        {
+          "text": "風",
+          "kana": "かぜ"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "影响",
+      "japanese": "影響",
+      "kana": "えいきょう",
+      "romaji": "eikyou",
+      "tokens": [
+        {
+          "text": "影響",
+          "kana": "えいきょう"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "代替、补偿",
+      "japanese": "代わり",
+      "kana": "かわり",
+      "romaji": "kawari",
+      "tokens": [
+        {
+          "text": "代わり",
+          "kana": "かわり"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "情况、状况",
+      "japanese": "具合",
+      "kana": "ぐあい",
+      "romaji": "guai",
+      "tokens": [
+        {
+          "text": "具合",
+          "kana": "ぐあい"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "除了～以外",
+      "japanese": "以外",
+      "kana": "いがい",
+      "romaji": "igai",
+      "tokens": [
+        {
+          "text": "以外",
+          "kana": "いがい"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "你",
+      "japanese": "あなた",
+      "kana": "あなた",
+      "romaji": "anata",
+      "tokens": [
+        {
+          "text": "あなた",
+          "kana": "あなた"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "仪式、方式、形式",
+      "japanese": "式",
+      "kana": "しき",
+      "romaji": "shiki",
+      "tokens": [
+        {
+          "text": "式",
+          "kana": "しき"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "今年",
+      "japanese": "今年",
+      "kana": "ことし",
+      "romaji": "kotoshi",
+      "tokens": [
+        {
+          "text": "今年",
+          "kana": "ことし"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "脚",
+      "japanese": "足",
+      "kana": "あし",
+      "romaji": "ashi",
+      "tokens": [
+        {
+          "text": "足",
+          "kana": "あし"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "形状、外形",
+      "japanese": "形",
+      "kana": "かたち",
+      "romaji": "katachi",
+      "tokens": [
+        {
+          "text": "形",
+          "kana": "かたち"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "她、女朋友",
+      "japanese": "彼女",
+      "kana": "かのじょ",
+      "romaji": "kanojo",
+      "tokens": [
+        {
+          "text": "彼女",
+          "kana": "かのじょ"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "周五",
+      "japanese": "金曜日",
+      "kana": "きんようび",
+      "romaji": "kinyoubi",
+      "tokens": [
+        {
+          "text": "金曜日",
+          "kana": "きんようび"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "招呼、寒暄",
+      "japanese": "挨拶",
+      "kana": "あいさつ",
+      "romaji": "aisatsu",
+      "tokens": [
+        {
+          "text": "挨拶",
+          "kana": "あいさつ"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "某一侧",
+      "japanese": "側",
+      "kana": "かわ",
+      "romaji": "kawa",
+      "tokens": [
+        {
+          "text": "側",
+          "kana": "かわ"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "感觉",
+      "japanese": "感覚",
+      "kana": "かんかく",
+      "romaji": "kankaku",
+      "tokens": [
+        {
+          "text": "感覚",
+          "kana": "かんかく"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "提问、询问",
+      "japanese": "質問",
+      "kana": "しつもん",
+      "romaji": "shitsumon",
+      "tokens": [
+        {
+          "text": "質問",
+          "kana": "しつもん"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "计划",
+      "japanese": "計画",
+      "kana": "けいかく",
+      "romaji": "keikaku",
+      "tokens": [
+        {
+          "text": "計画",
+          "kana": "けいかく"
+        }
+      ]
+    }
+  ]
+}

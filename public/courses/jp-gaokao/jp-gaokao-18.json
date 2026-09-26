@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-18",
+  "coursePackId": "jp-gaokao",
+  "title": "动词低频 4",
+  "order": 18,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "更换",
+      "japanese": "替える",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "tokens": [
+        {
+          "text": "替える",
+          "kana": "かえる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "削",
+      "japanese": "削る",
+      "kana": "けずる",
+      "romaji": "kezuru",
+      "tokens": [
+        {
+          "text": "削る",
+          "kana": "けずる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "进入",
+      "japanese": "立ち入る",
+      "kana": "たちいる",
+      "romaji": "tachiiru",
+      "tokens": [
+        {
+          "text": "立ち入る",
+          "kana": "たちいる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "挤出、拧",
+      "japanese": "絞る",
+      "kana": "しぼる",
+      "romaji": "shiboru",
+      "tokens": [
+        {
+          "text": "絞る",
+          "kana": "しぼる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "袭击",
+      "japanese": "襲う",
+      "kana": "おそう",
+      "romaji": "osou",
+      "tokens": [
+        {
+          "text": "襲う",
+          "kana": "おそう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "治理、平定",
+      "japanese": "治める",
+      "kana": "おさめる",
+      "romaji": "osameru",
+      "tokens": [
+        {
+          "text": "治める",
+          "kana": "おさめる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "覆盖",
+      "japanese": "覆う",
+      "kana": "おおう",
+      "romaji": "oou",
+      "tokens": [
+        {
+          "text": "覆う",
+          "kana": "おおう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "(自他一) 组织；合伙",
+      "japanese": "組む",
+      "kana": "くむ",
+      "romaji": "kumu",
+      "tokens": [
+        {
+          "text": "組む",
+          "kana": "くむ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "划 (船)、蹬",
+      "japanese": "漕ぐ",
+      "kana": "こぐ",
+      "romaji": "kogu",
+      "tokens": [
+        {
+          "text": "漕ぐ",
+          "kana": "こぐ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "踢",
+      "japanese": "蹴る",
+      "kana": "ける",
+      "romaji": "keru",
+      "tokens": [
+        {
+          "text": "蹴る",
+          "kana": "ける"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "结冰",
+      "japanese": "凍る",
+      "kana": "こおる",
+      "romaji": "kooru",
+      "tokens": [
+        {
+          "text": "凍る",
+          "kana": "こおる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "完成",
+      "japanese": "仕上げる",
+      "kana": "しあげる",
+      "romaji": "shiageru",
+      "tokens": [
+        {
+          "text": "仕上げる",
+          "kana": "しあげる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "织、编织",
+      "japanese": "編る",
+      "kana": "へんる",
+      "romaji": "henru",
+      "tokens": [
+        {
+          "text": "編る",
+          "kana": "へんる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "消沉",
+      "japanese": "落ち込む",
+      "kana": "おちこむ",
+      "romaji": "ochikomu",
+      "tokens": [
+        {
+          "text": "落ち込む",
+          "kana": "おちこむ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "靠近",
+      "japanese": "近づける",
+      "kana": "ちかづける",
+      "romaji": "chikazukeru",
+      "tokens": [
+        {
+          "text": "近づける",
+          "kana": "ちかづける"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "受教、跟～学",
+      "japanese": "教わる",
+      "kana": "おそわる",
+      "romaji": "osowaru",
+      "tokens": [
+        {
+          "text": "教わる",
+          "kana": "おそわる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "忘带、遗失",
+      "japanese": "置き忘れる",
+      "kana": "おきわすれる",
+      "romaji": "okiwasureru",
+      "tokens": [
+        {
+          "text": "置き忘れる",
+          "kana": "おきわすれる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "组合",
+      "japanese": "組み合わせる",
+      "kana": "くみあわせる",
+      "romaji": "kumiawaseru",
+      "tokens": [
+        {
+          "text": "組み合わせる",
+          "kana": "くみあわせる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "麻痹",
+      "japanese": "痺れる",
+      "kana": "しびれる",
+      "romaji": "shibireru",
+      "tokens": [
+        {
+          "text": "痺れる",
+          "kana": "しびれる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "坐下",
+      "japanese": "腰掛ける",
+      "kana": "こしかける",
+      "romaji": "koshikakeru",
+      "tokens": [
+        {
+          "text": "腰掛ける",
+          "kana": "こしかける"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "冻僵",
+      "japanese": "凍える",
+      "kana": "こごえる",
+      "romaji": "kogoeru",
+      "tokens": [
+        {
+          "text": "凍える",
+          "kana": "こごえる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "收",
+      "japanese": "収める",
+      "kana": "おさめる",
+      "romaji": "osameru",
+      "tokens": [
+        {
+          "text": "収める",
+          "kana": "おさめる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "发誓",
+      "japanese": "誓う",
+      "kana": "ちかう",
+      "romaji": "chikau",
+      "tokens": [
+        {
+          "text": "誓う",
+          "kana": "ちかう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "起名、取名",
+      "japanese": "名付ける",
+      "kana": "なづける",
+      "romaji": "nazukeru",
+      "tokens": [
+        {
+          "text": "名付ける",
+          "kana": "なづける"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "努力、致力",
+      "japanese": "取り組む",
+      "kana": "とりくむ",
+      "romaji": "torikumu",
+      "tokens": [
+        {
+          "text": "取り組む",
+          "kana": "とりくむ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "为了",
+      "japanese": "慰める",
+      "kana": "なぐさめる",
+      "romaji": "nagusameru",
+      "tokens": [
+        {
+          "text": "慰める",
+          "kana": "なぐさめる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "互相推搡",
+      "japanese": "押し合う",
+      "kana": "おしあう",
+      "romaji": "oshiau",
+      "tokens": [
+        {
+          "text": "押し合う",
+          "kana": "おしあう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "摁、压、捂",
+      "japanese": "押さえる",
+      "kana": "おさえる",
+      "romaji": "osaeru",
+      "tokens": [
+        {
+          "text": "押さえる",
+          "kana": "おさえる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "用心、注意",
+      "japanese": "心がける",
+      "kana": "こころがける",
+      "romaji": "kokorogakeru",
+      "tokens": [
+        {
+          "text": "心がける",
+          "kana": "こころがける"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "引进",
+      "japanese": "取り入れる",
+      "kana": "とりいれる",
+      "romaji": "toriireru",
+      "tokens": [
+        {
+          "text": "取り入れる",
+          "kana": "とりいれる"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "袭击",
+      "japanese": "襲う",
+      "kana": "おそう",
+      "romaji": "osou",
+      "tokens": [
+        {
+          "text": "襲う",
+          "kana": "おそう"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "引进",
+      "japanese": "取り入れる",
+      "kana": "とりいれる",
+      "romaji": "toriireru",
+      "tokens": [
+        {
+          "text": "取り入れる",
+          "kana": "とりいれる"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "发誓",
+      "japanese": "誓う",
+      "kana": "ちかう",
+      "romaji": "chikau",
+      "tokens": [
+        {
+          "text": "誓う",
+          "kana": "ちかう"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "削",
+      "japanese": "削る",
+      "kana": "けずる",
+      "romaji": "kezuru",
+      "tokens": [
+        {
+          "text": "削る",
+          "kana": "けずる"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "治理、平定",
+      "japanese": "治める",
+      "kana": "おさめる",
+      "romaji": "osameru",
+      "tokens": [
+        {
+          "text": "治める",
+          "kana": "おさめる"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "互相推搡",
+      "japanese": "押し合う",
+      "kana": "おしあう",
+      "romaji": "oshiau",
+      "tokens": [
+        {
+          "text": "押し合う",
+          "kana": "おしあう"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "结冰",
+      "japanese": "凍る",
+      "kana": "こおる",
+      "romaji": "kooru",
+      "tokens": [
+        {
+          "text": "凍る",
+          "kana": "こおる"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "努力、致力",
+      "japanese": "取り組む",
+      "kana": "とりくむ",
+      "romaji": "torikumu",
+      "tokens": [
+        {
+          "text": "取り組む",
+          "kana": "とりくむ"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "为了",
+      "japanese": "慰める",
+      "kana": "なぐさめる",
+      "romaji": "nagusameru",
+      "tokens": [
+        {
+          "text": "慰める",
+          "kana": "なぐさめる"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "摁、压、捂",
+      "japanese": "押さえる",
+      "kana": "おさえる",
+      "romaji": "osaeru",
+      "tokens": [
+        {
+          "text": "押さえる",
+          "kana": "おさえる"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "用心、注意",
+      "japanese": "心がける",
+      "kana": "こころがける",
+      "romaji": "kokorogakeru",
+      "tokens": [
+        {
+          "text": "心がける",
+          "kana": "こころがける"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "收",
+      "japanese": "収める",
+      "kana": "おさめる",
+      "romaji": "osameru",
+      "tokens": [
+        {
+          "text": "収める",
+          "kana": "おさめる"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "麻痹",
+      "japanese": "痺れる",
+      "kana": "しびれる",
+      "romaji": "shibireru",
+      "tokens": [
+        {
+          "text": "痺れる",
+          "kana": "しびれる"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "更换",
+      "japanese": "替える",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "tokens": [
+        {
+          "text": "替える",
+          "kana": "かえる"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "受教、跟～学",
+      "japanese": "教わる",
+      "kana": "おそわる",
+      "romaji": "osowaru",
+      "tokens": [
+        {
+          "text": "教わる",
+          "kana": "おそわる"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "进入",
+      "japanese": "立ち入る",
+      "kana": "たちいる",
+      "romaji": "tachiiru",
+      "tokens": [
+        {
+          "text": "立ち入る",
+          "kana": "たちいる"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "挤出、拧",
+      "japanese": "絞る",
+      "kana": "しぼる",
+      "romaji": "shiboru",
+      "tokens": [
+        {
+          "text": "絞る",
+          "kana": "しぼる"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "冻僵",
+      "japanese": "凍える",
+      "kana": "こごえる",
+      "romaji": "kogoeru",
+      "tokens": [
+        {
+          "text": "凍える",
+          "kana": "こごえる"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "织、编织",
+      "japanese": "編る",
+      "kana": "へんる",
+      "romaji": "henru",
+      "tokens": [
+        {
+          "text": "編る",
+          "kana": "へんる"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "划 (船)、蹬",
+      "japanese": "漕ぐ",
+      "kana": "こぐ",
+      "romaji": "kogu",
+      "tokens": [
+        {
+          "text": "漕ぐ",
+          "kana": "こぐ"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "覆盖",
+      "japanese": "覆う",
+      "kana": "おおう",
+      "romaji": "oou",
+      "tokens": [
+        {
+          "text": "覆う",
+          "kana": "おおう"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "起名、取名",
+      "japanese": "名付ける",
+      "kana": "なづける",
+      "romaji": "nazukeru",
+      "tokens": [
+        {
+          "text": "名付ける",
+          "kana": "なづける"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "组合",
+      "japanese": "組み合わせる",
+      "kana": "くみあわせる",
+      "romaji": "kumiawaseru",
+      "tokens": [
+        {
+          "text": "組み合わせる",
+          "kana": "くみあわせる"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "坐下",
+      "japanese": "腰掛ける",
+      "kana": "こしかける",
+      "romaji": "koshikakeru",
+      "tokens": [
+        {
+          "text": "腰掛ける",
+          "kana": "こしかける"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "消沉",
+      "japanese": "落ち込む",
+      "kana": "おちこむ",
+      "romaji": "ochikomu",
+      "tokens": [
+        {
+          "text": "落ち込む",
+          "kana": "おちこむ"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "完成",
+      "japanese": "仕上げる",
+      "kana": "しあげる",
+      "romaji": "shiageru",
+      "tokens": [
+        {
+          "text": "仕上げる",
+          "kana": "しあげる"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "(自他一) 组织；合伙",
+      "japanese": "組む",
+      "kana": "くむ",
+      "romaji": "kumu",
+      "tokens": [
+        {
+          "text": "組む",
+          "kana": "くむ"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "靠近",
+      "japanese": "近づける",
+      "kana": "ちかづける",
+      "romaji": "chikazukeru",
+      "tokens": [
+        {
+          "text": "近づける",
+          "kana": "ちかづける"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "忘带、遗失",
+      "japanese": "置き忘れる",
+      "kana": "おきわすれる",
+      "romaji": "okiwasureru",
+      "tokens": [
+        {
+          "text": "置き忘れる",
+          "kana": "おきわすれる"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "踢",
+      "japanese": "蹴る",
+      "kana": "ける",
+      "romaji": "keru",
+      "tokens": [
+        {
+          "text": "蹴る",
+          "kana": "ける"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "进入",
+      "japanese": "立ち入る",
+      "kana": "たちいる",
+      "romaji": "tachiiru",
+      "tokens": [
+        {
+          "text": "立ち入る",
+          "kana": "たちいる"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "划 (船)、蹬",
+      "japanese": "漕ぐ",
+      "kana": "こぐ",
+      "romaji": "kogu",
+      "tokens": [
+        {
+          "text": "漕ぐ",
+          "kana": "こぐ"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "引进",
+      "japanese": "取り入れる",
+      "kana": "とりいれる",
+      "romaji": "toriireru",
+      "tokens": [
+        {
+          "text": "取り入れる",
+          "kana": "とりいれる"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "受教、跟～学",
+      "japanese": "教わる",
+      "kana": "おそわる",
+      "romaji": "osowaru",
+      "tokens": [
+        {
+          "text": "教わる",
+          "kana": "おそわる"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "挤出、拧",
+      "japanese": "絞る",
+      "kana": "しぼる",
+      "romaji": "shiboru",
+      "tokens": [
+        {
+          "text": "絞る",
+          "kana": "しぼる"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "坐下",
+      "japanese": "腰掛ける",
+      "kana": "こしかける",
+      "romaji": "koshikakeru",
+      "tokens": [
+        {
+          "text": "腰掛ける",
+          "kana": "こしかける"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "袭击",
+      "japanese": "襲う",
+      "kana": "おそう",
+      "romaji": "osou",
+      "tokens": [
+        {
+          "text": "襲う",
+          "kana": "おそう"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "踢",
+      "japanese": "蹴る",
+      "kana": "ける",
+      "romaji": "keru",
+      "tokens": [
+        {
+          "text": "蹴る",
+          "kana": "ける"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "为了",
+      "japanese": "慰める",
+      "kana": "なぐさめる",
+      "romaji": "nagusameru",
+      "tokens": [
+        {
+          "text": "慰める",
+          "kana": "なぐさめる"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "发誓",
+      "japanese": "誓う",
+      "kana": "ちかう",
+      "romaji": "chikau",
+      "tokens": [
+        {
+          "text": "誓う",
+          "kana": "ちかう"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "摁、压、捂",
+      "japanese": "押さえる",
+      "kana": "おさえる",
+      "romaji": "osaeru",
+      "tokens": [
+        {
+          "text": "押さえる",
+          "kana": "おさえる"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "织、编织",
+      "japanese": "編る",
+      "kana": "へんる",
+      "romaji": "henru",
+      "tokens": [
+        {
+          "text": "編る",
+          "kana": "へんる"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "覆盖",
+      "japanese": "覆う",
+      "kana": "おおう",
+      "romaji": "oou",
+      "tokens": [
+        {
+          "text": "覆う",
+          "kana": "おおう"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "完成",
+      "japanese": "仕上げる",
+      "kana": "しあげる",
+      "romaji": "shiageru",
+      "tokens": [
+        {
+          "text": "仕上げる",
+          "kana": "しあげる"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "消沉",
+      "japanese": "落ち込む",
+      "kana": "おちこむ",
+      "romaji": "ochikomu",
+      "tokens": [
+        {
+          "text": "落ち込む",
+          "kana": "おちこむ"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "削",
+      "japanese": "削る",
+      "kana": "けずる",
+      "romaji": "kezuru",
+      "tokens": [
+        {
+          "text": "削る",
+          "kana": "けずる"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "用心、注意",
+      "japanese": "心がける",
+      "kana": "こころがける",
+      "romaji": "kokorogakeru",
+      "tokens": [
+        {
+          "text": "心がける",
+          "kana": "こころがける"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "收",
+      "japanese": "収める",
+      "kana": "おさめる",
+      "romaji": "osameru",
+      "tokens": [
+        {
+          "text": "収める",
+          "kana": "おさめる"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "组合",
+      "japanese": "組み合わせる",
+      "kana": "くみあわせる",
+      "romaji": "kumiawaseru",
+      "tokens": [
+        {
+          "text": "組み合わせる",
+          "kana": "くみあわせる"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "互相推搡",
+      "japanese": "押し合う",
+      "kana": "おしあう",
+      "romaji": "oshiau",
+      "tokens": [
+        {
+          "text": "押し合う",
+          "kana": "おしあう"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "麻痹",
+      "japanese": "痺れる",
+      "kana": "しびれる",
+      "romaji": "shibireru",
+      "tokens": [
+        {
+          "text": "痺れる",
+          "kana": "しびれる"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "努力、致力",
+      "japanese": "取り組む",
+      "kana": "とりくむ",
+      "romaji": "torikumu",
+      "tokens": [
+        {
+          "text": "取り組む",
+          "kana": "とりくむ"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "(自他一) 组织；合伙",
+      "japanese": "組む",
+      "kana": "くむ",
+      "romaji": "kumu",
+      "tokens": [
+        {
+          "text": "組む",
+          "kana": "くむ"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "结冰",
+      "japanese": "凍る",
+      "kana": "こおる",
+      "romaji": "kooru",
+      "tokens": [
+        {
+          "text": "凍る",
+          "kana": "こおる"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "更换",
+      "japanese": "替える",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "tokens": [
+        {
+          "text": "替える",
+          "kana": "かえる"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "靠近",
+      "japanese": "近づける",
+      "kana": "ちかづける",
+      "romaji": "chikazukeru",
+      "tokens": [
+        {
+          "text": "近づける",
+          "kana": "ちかづける"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "治理、平定",
+      "japanese": "治める",
+      "kana": "おさめる",
+      "romaji": "osameru",
+      "tokens": [
+        {
+          "text": "治める",
+          "kana": "おさめる"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "起名、取名",
+      "japanese": "名付ける",
+      "kana": "なづける",
+      "romaji": "nazukeru",
+      "tokens": [
+        {
+          "text": "名付ける",
+          "kana": "なづける"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "忘带、遗失",
+      "japanese": "置き忘れる",
+      "kana": "おきわすれる",
+      "romaji": "okiwasureru",
+      "tokens": [
+        {
+          "text": "置き忘れる",
+          "kana": "おきわすれる"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "冻僵",
+      "japanese": "凍える",
+      "kana": "こごえる",
+      "romaji": "kogoeru",
+      "tokens": [
+        {
+          "text": "凍える",
+          "kana": "こごえる"
+        }
+      ]
+    }
+  ]
+}

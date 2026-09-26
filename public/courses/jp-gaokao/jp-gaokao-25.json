@@ -1,0 +1,944 @@
+{
+  "id": "jp-gaokao-25",
+  "coursePackId": "jp-gaokao",
+  "title": "副词低频 1",
+  "order": 25,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "禁不住、情不自禁",
+      "japanese": "思わず",
+      "kana": "おもわず",
+      "romaji": "omowazu",
+      "tokens": [
+        {
+          "text": "思わず",
+          "kana": "おもわず"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "难道、莫非是",
+      "japanese": "まさか",
+      "kana": "まさか",
+      "romaji": "masaka",
+      "tokens": [
+        {
+          "text": "まさか",
+          "kana": "まさか"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "不留神、稀里糊涂、粗心",
+      "japanese": "うっかり",
+      "kana": "うっかり",
+      "romaji": "ukkari",
+      "tokens": [
+        {
+          "text": "うっかり",
+          "kana": "うっかり"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "刚刚、现在、立马",
+      "japanese": "ただいま",
+      "kana": "ただいま",
+      "romaji": "tadaima",
+      "tokens": [
+        {
+          "text": "ただいま",
+          "kana": "ただいま"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "焦急、急躁",
+      "japanese": "いらっしゃ",
+      "kana": "いらっしゃ",
+      "romaji": "irassha",
+      "tokens": [
+        {
+          "text": "いらっしゃ",
+          "kana": "いらっしゃ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "不知不觉就～",
+      "japanese": "いつの間にか",
+      "kana": "いつのまにか",
+      "romaji": "itsunomanika",
+      "tokens": [
+        {
+          "text": "いつの間にか",
+          "kana": "いつのまにか"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "转来转去、彷徨、徘徊",
+      "japanese": "うろうろ",
+      "kana": "うろうろ",
+      "romaji": "urouro",
+      "tokens": [
+        {
+          "text": "うろうろ",
+          "kana": "うろうろ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "清淡、淡然、爽快",
+      "japanese": "あっさり",
+      "kana": "あっさり",
+      "romaji": "assari",
+      "tokens": [
+        {
+          "text": "あっさり",
+          "kana": "あっさり"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "也许、或许",
+      "japanese": "もしかしたら",
+      "kana": "もしかしたら",
+      "romaji": "moshikashitara",
+      "tokens": [
+        {
+          "text": "もしかしたら",
+          "kana": "もしかしたら"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "实在、完全是",
+      "japanese": "いかにも",
+      "kana": "いかにも",
+      "romaji": "ikanimo",
+      "tokens": [
+        {
+          "text": "いかにも",
+          "kana": "いかにも"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "太、过于、过火",
+      "japanese": "あまり",
+      "kana": "あまり",
+      "romaji": "amari",
+      "tokens": [
+        {
+          "text": "あまり",
+          "kana": "あまり"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "照常、依旧",
+      "japanese": "相変わらず",
+      "kana": "あいかわらず",
+      "romaji": "aikawarazu",
+      "tokens": [
+        {
+          "text": "相変わらず",
+          "kana": "あいかわらず"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "总觉得、不由得",
+      "japanese": "何だか",
+      "kana": "なんだか",
+      "romaji": "nandaka",
+      "tokens": [
+        {
+          "text": "何だか",
+          "kana": "なんだか"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "现在、此时、如今",
+      "japanese": "今頃",
+      "kana": "いまごろ",
+      "romaji": "imagoro",
+      "tokens": [
+        {
+          "text": "今頃",
+          "kana": "いまごろ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "无意中、一不留神",
+      "japanese": "つい",
+      "kana": "つい",
+      "romaji": "tsui",
+      "tokens": [
+        {
+          "text": "つい",
+          "kana": "つい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "老实、正直",
+      "japanese": "正直に",
+      "kana": "しょうじきに",
+      "romaji": "shoujikini",
+      "tokens": [
+        {
+          "text": "正直に",
+          "kana": "しょうじきに"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "栩栩如生、活泼",
+      "japanese": "生き生き",
+      "kana": "いきいき",
+      "romaji": "ikiiki",
+      "tokens": [
+        {
+          "text": "生き生き",
+          "kana": "いきいき"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "以前、过去",
+      "japanese": "以前",
+      "kana": "いぜん",
+      "romaji": "izen",
+      "tokens": [
+        {
+          "text": "以前",
+          "kana": "いぜん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "稍微、一点点",
+      "japanese": "僅かに",
+      "kana": "わずかに",
+      "romaji": "wazukani",
+      "tokens": [
+        {
+          "text": "僅かに",
+          "kana": "わずかに"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "大概、大体上、大约",
+      "japanese": "凡そ",
+      "kana": "およそ",
+      "romaji": "oyoso",
+      "tokens": [
+        {
+          "text": "凡そ",
+          "kana": "およそ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "悄悄地、偷偷地",
+      "japanese": "そっと",
+      "kana": "そっと",
+      "romaji": "sotto",
+      "tokens": [
+        {
+          "text": "そっと",
+          "kana": "そっと"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "～什么；总觉得～",
+      "japanese": "なんだか",
+      "kana": "なんだか",
+      "romaji": "nandaka",
+      "tokens": [
+        {
+          "text": "なんだか",
+          "kana": "なんだか"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "多少",
+      "japanese": "いくつ",
+      "kana": "いくつ",
+      "romaji": "ikutsu",
+      "tokens": [
+        {
+          "text": "いくつ",
+          "kana": "いくつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "到什么时候",
+      "japanese": "いつまで",
+      "kana": "いつまで",
+      "romaji": "itsumade",
+      "tokens": [
+        {
+          "text": "いつまで",
+          "kana": "いつまで"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "以前、过去",
+      "japanese": "以前",
+      "kana": "いぜん",
+      "romaji": "izen",
+      "tokens": [
+        {
+          "text": "以前",
+          "kana": "いぜん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "无意中、一不留神",
+      "japanese": "つい",
+      "kana": "つい",
+      "romaji": "tsui",
+      "tokens": [
+        {
+          "text": "つい",
+          "kana": "つい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "总觉得、不由得",
+      "japanese": "何だか",
+      "kana": "なんだか",
+      "romaji": "nandaka",
+      "tokens": [
+        {
+          "text": "何だか",
+          "kana": "なんだか"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "栩栩如生、活泼",
+      "japanese": "生き生き",
+      "kana": "いきいき",
+      "romaji": "ikiiki",
+      "tokens": [
+        {
+          "text": "生き生き",
+          "kana": "いきいき"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "转来转去、彷徨、徘徊",
+      "japanese": "うろうろ",
+      "kana": "うろうろ",
+      "romaji": "urouro",
+      "tokens": [
+        {
+          "text": "うろうろ",
+          "kana": "うろうろ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "清淡、淡然、爽快",
+      "japanese": "あっさり",
+      "kana": "あっさり",
+      "romaji": "assari",
+      "tokens": [
+        {
+          "text": "あっさり",
+          "kana": "あっさり"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "悄悄地、偷偷地",
+      "japanese": "そっと",
+      "kana": "そっと",
+      "romaji": "sotto",
+      "tokens": [
+        {
+          "text": "そっと",
+          "kana": "そっと"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "多少",
+      "japanese": "いくつ",
+      "kana": "いくつ",
+      "romaji": "ikutsu",
+      "tokens": [
+        {
+          "text": "いくつ",
+          "kana": "いくつ"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "到什么时候",
+      "japanese": "いつまで",
+      "kana": "いつまで",
+      "romaji": "itsumade",
+      "tokens": [
+        {
+          "text": "いつまで",
+          "kana": "いつまで"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "现在、此时、如今",
+      "japanese": "今頃",
+      "kana": "いまごろ",
+      "romaji": "imagoro",
+      "tokens": [
+        {
+          "text": "今頃",
+          "kana": "いまごろ"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "稍微、一点点",
+      "japanese": "僅かに",
+      "kana": "わずかに",
+      "romaji": "wazukani",
+      "tokens": [
+        {
+          "text": "僅かに",
+          "kana": "わずかに"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "大概、大体上、大约",
+      "japanese": "凡そ",
+      "kana": "およそ",
+      "romaji": "oyoso",
+      "tokens": [
+        {
+          "text": "凡そ",
+          "kana": "およそ"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "不知不觉就～",
+      "japanese": "いつの間にか",
+      "kana": "いつのまにか",
+      "romaji": "itsunomanika",
+      "tokens": [
+        {
+          "text": "いつの間にか",
+          "kana": "いつのまにか"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "不留神、稀里糊涂、粗心",
+      "japanese": "うっかり",
+      "kana": "うっかり",
+      "romaji": "ukkari",
+      "tokens": [
+        {
+          "text": "うっかり",
+          "kana": "うっかり"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "焦急、急躁",
+      "japanese": "いらっしゃ",
+      "kana": "いらっしゃ",
+      "romaji": "irassha",
+      "tokens": [
+        {
+          "text": "いらっしゃ",
+          "kana": "いらっしゃ"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "也许、或许",
+      "japanese": "もしかしたら",
+      "kana": "もしかしたら",
+      "romaji": "moshikashitara",
+      "tokens": [
+        {
+          "text": "もしかしたら",
+          "kana": "もしかしたら"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "老实、正直",
+      "japanese": "正直に",
+      "kana": "しょうじきに",
+      "romaji": "shoujikini",
+      "tokens": [
+        {
+          "text": "正直に",
+          "kana": "しょうじきに"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "难道、莫非是",
+      "japanese": "まさか",
+      "kana": "まさか",
+      "romaji": "masaka",
+      "tokens": [
+        {
+          "text": "まさか",
+          "kana": "まさか"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "～什么；总觉得～",
+      "japanese": "なんだか",
+      "kana": "なんだか",
+      "romaji": "nandaka",
+      "tokens": [
+        {
+          "text": "なんだか",
+          "kana": "なんだか"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "实在、完全是",
+      "japanese": "いかにも",
+      "kana": "いかにも",
+      "romaji": "ikanimo",
+      "tokens": [
+        {
+          "text": "いかにも",
+          "kana": "いかにも"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "照常、依旧",
+      "japanese": "相変わらず",
+      "kana": "あいかわらず",
+      "romaji": "aikawarazu",
+      "tokens": [
+        {
+          "text": "相変わらず",
+          "kana": "あいかわらず"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "禁不住、情不自禁",
+      "japanese": "思わず",
+      "kana": "おもわず",
+      "romaji": "omowazu",
+      "tokens": [
+        {
+          "text": "思わず",
+          "kana": "おもわず"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "太、过于、过火",
+      "japanese": "あまり",
+      "kana": "あまり",
+      "romaji": "amari",
+      "tokens": [
+        {
+          "text": "あまり",
+          "kana": "あまり"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "刚刚、现在、立马",
+      "japanese": "ただいま",
+      "kana": "ただいま",
+      "romaji": "tadaima",
+      "tokens": [
+        {
+          "text": "ただいま",
+          "kana": "ただいま"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "以前、过去",
+      "japanese": "以前",
+      "kana": "いぜん",
+      "romaji": "izen",
+      "tokens": [
+        {
+          "text": "以前",
+          "kana": "いぜん"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "刚刚、现在、立马",
+      "japanese": "ただいま",
+      "kana": "ただいま",
+      "romaji": "tadaima",
+      "tokens": [
+        {
+          "text": "ただいま",
+          "kana": "ただいま"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "实在、完全是",
+      "japanese": "いかにも",
+      "kana": "いかにも",
+      "romaji": "ikanimo",
+      "tokens": [
+        {
+          "text": "いかにも",
+          "kana": "いかにも"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "太、过于、过火",
+      "japanese": "あまり",
+      "kana": "あまり",
+      "romaji": "amari",
+      "tokens": [
+        {
+          "text": "あまり",
+          "kana": "あまり"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "大概、大体上、大约",
+      "japanese": "凡そ",
+      "kana": "およそ",
+      "romaji": "oyoso",
+      "tokens": [
+        {
+          "text": "凡そ",
+          "kana": "およそ"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "焦急、急躁",
+      "japanese": "いらっしゃ",
+      "kana": "いらっしゃ",
+      "romaji": "irassha",
+      "tokens": [
+        {
+          "text": "いらっしゃ",
+          "kana": "いらっしゃ"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "无意中、一不留神",
+      "japanese": "つい",
+      "kana": "つい",
+      "romaji": "tsui",
+      "tokens": [
+        {
+          "text": "つい",
+          "kana": "つい"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "清淡、淡然、爽快",
+      "japanese": "あっさり",
+      "kana": "あっさり",
+      "romaji": "assari",
+      "tokens": [
+        {
+          "text": "あっさり",
+          "kana": "あっさり"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "不知不觉就～",
+      "japanese": "いつの間にか",
+      "kana": "いつのまにか",
+      "romaji": "itsunomanika",
+      "tokens": [
+        {
+          "text": "いつの間にか",
+          "kana": "いつのまにか"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "现在、此时、如今",
+      "japanese": "今頃",
+      "kana": "いまごろ",
+      "romaji": "imagoro",
+      "tokens": [
+        {
+          "text": "今頃",
+          "kana": "いまごろ"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "难道、莫非是",
+      "japanese": "まさか",
+      "kana": "まさか",
+      "romaji": "masaka",
+      "tokens": [
+        {
+          "text": "まさか",
+          "kana": "まさか"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "多少",
+      "japanese": "いくつ",
+      "kana": "いくつ",
+      "romaji": "ikutsu",
+      "tokens": [
+        {
+          "text": "いくつ",
+          "kana": "いくつ"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "悄悄地、偷偷地",
+      "japanese": "そっと",
+      "kana": "そっと",
+      "romaji": "sotto",
+      "tokens": [
+        {
+          "text": "そっと",
+          "kana": "そっと"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "照常、依旧",
+      "japanese": "相変わらず",
+      "kana": "あいかわらず",
+      "romaji": "aikawarazu",
+      "tokens": [
+        {
+          "text": "相変わらず",
+          "kana": "あいかわらず"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "不留神、稀里糊涂、粗心",
+      "japanese": "うっかり",
+      "kana": "うっかり",
+      "romaji": "ukkari",
+      "tokens": [
+        {
+          "text": "うっかり",
+          "kana": "うっかり"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "到什么时候",
+      "japanese": "いつまで",
+      "kana": "いつまで",
+      "romaji": "itsumade",
+      "tokens": [
+        {
+          "text": "いつまで",
+          "kana": "いつまで"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "禁不住、情不自禁",
+      "japanese": "思わず",
+      "kana": "おもわず",
+      "romaji": "omowazu",
+      "tokens": [
+        {
+          "text": "思わず",
+          "kana": "おもわず"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "转来转去、彷徨、徘徊",
+      "japanese": "うろうろ",
+      "kana": "うろうろ",
+      "romaji": "urouro",
+      "tokens": [
+        {
+          "text": "うろうろ",
+          "kana": "うろうろ"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "稍微、一点点",
+      "japanese": "僅かに",
+      "kana": "わずかに",
+      "romaji": "wazukani",
+      "tokens": [
+        {
+          "text": "僅かに",
+          "kana": "わずかに"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "栩栩如生、活泼",
+      "japanese": "生き生き",
+      "kana": "いきいき",
+      "romaji": "ikiiki",
+      "tokens": [
+        {
+          "text": "生き生き",
+          "kana": "いきいき"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "总觉得、不由得",
+      "japanese": "何だか",
+      "kana": "なんだか",
+      "romaji": "nandaka",
+      "tokens": [
+        {
+          "text": "何だか",
+          "kana": "なんだか"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "老实、正直",
+      "japanese": "正直に",
+      "kana": "しょうじきに",
+      "romaji": "shoujikini",
+      "tokens": [
+        {
+          "text": "正直に",
+          "kana": "しょうじきに"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "～什么；总觉得～",
+      "japanese": "なんだか",
+      "kana": "なんだか",
+      "romaji": "nandaka",
+      "tokens": [
+        {
+          "text": "なんだか",
+          "kana": "なんだか"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "也许、或许",
+      "japanese": "もしかしたら",
+      "kana": "もしかしたら",
+      "romaji": "moshikashitara",
+      "tokens": [
+        {
+          "text": "もしかしたら",
+          "kana": "もしかしたら"
+        }
+      ]
+    }
+  ]
+}

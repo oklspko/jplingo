@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-46",
+  "coursePackId": "jp-gaokao",
+  "title": "名词低频 13",
+  "order": 46,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "值班",
+      "japanese": "当番",
+      "kana": "とうばん",
+      "romaji": "touban",
+      "tokens": [
+        {
+          "text": "当番",
+          "kana": "とうばん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "特产",
+      "japanese": "特産",
+      "kana": "とくさん",
+      "romaji": "tokusan",
+      "tokens": [
+        {
+          "text": "特産",
+          "kana": "とくさん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "钟、表",
+      "japanese": "時計",
+      "kana": "とけい",
+      "romaji": "tokei",
+      "tokens": [
+        {
+          "text": "時計",
+          "kana": "とけい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "道具",
+      "japanese": "道具",
+      "kana": "どうぐ",
+      "romaji": "dougu",
+      "tokens": [
+        {
+          "text": "道具",
+          "kana": "どうぐ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "火锅",
+      "japanese": "鍋料理",
+      "kana": "なべりょうり",
+      "romaji": "naberyouri",
+      "tokens": [
+        {
+          "text": "鍋料理",
+          "kana": "なべりょうり"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "朋友、伙伴",
+      "japanese": "仲間",
+      "kana": "なかま",
+      "romaji": "nakama",
+      "tokens": [
+        {
+          "text": "仲間",
+          "kana": "なかま"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "烦恼",
+      "japanese": "悩み",
+      "kana": "なやみ",
+      "romaji": "nayami",
+      "tokens": [
+        {
+          "text": "悩み",
+          "kana": "なやみ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "都市、城市",
+      "japanese": "都市",
+      "kana": "とし",
+      "romaji": "toshi",
+      "tokens": [
+        {
+          "text": "都市",
+          "kana": "とし"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "关系",
+      "japanese": "仲",
+      "kana": "なか",
+      "romaji": "naka",
+      "tokens": [
+        {
+          "text": "仲",
+          "kana": "なか"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "独特",
+      "japanese": "独特",
+      "kana": "どくとく",
+      "romaji": "dokutoku",
+      "tokens": [
+        {
+          "text": "独特",
+          "kana": "どくとく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "泪、泪水",
+      "japanese": "涙",
+      "kana": "なみだ",
+      "romaji": "namida",
+      "tokens": [
+        {
+          "text": "涙",
+          "kana": "なみだ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "特征",
+      "japanese": "特徴",
+      "kana": "とくちょう",
+      "romaji": "tokuchou",
+      "tokens": [
+        {
+          "text": "特徴",
+          "kana": "とくちょう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "哪个",
+      "japanese": "どっち",
+      "kana": "どっち",
+      "romaji": "dotchi",
+      "tokens": [
+        {
+          "text": "どっち",
+          "kana": "どっち"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "西、西方、西边",
+      "japanese": "西",
+      "kana": "にし",
+      "romaji": "nishi",
+      "tokens": [
+        {
+          "text": "西",
+          "kana": "にし"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "動作",
+      "japanese": "動作",
+      "kana": "どうさ",
+      "romaji": "dousa",
+      "tokens": [
+        {
+          "text": "動作",
+          "kana": "どうさ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "登山",
+      "japanese": "登山",
+      "kana": "とざん",
+      "romaji": "tozan",
+      "tokens": [
+        {
+          "text": "登山",
+          "kana": "とざん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "鸡肉",
+      "japanese": "鳥肉",
+      "kana": "とりにく",
+      "romaji": "toriniku",
+      "tokens": [
+        {
+          "text": "鳥肉",
+          "kana": "とりにく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "登录",
+      "japanese": "登録",
+      "kana": "とうろく",
+      "romaji": "touroku",
+      "tokens": [
+        {
+          "text": "登録",
+          "kana": "とうろく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "同时",
+      "japanese": "同時",
+      "kana": "どうじ",
+      "romaji": "douji",
+      "tokens": [
+        {
+          "text": "同時",
+          "kana": "どうじ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "入学",
+      "japanese": "入学式",
+      "kana": "にゅうがくしき",
+      "romaji": "nyuugakushiki",
+      "tokens": [
+        {
+          "text": "入学式",
+          "kana": "にゅうがくしき"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "读书",
+      "japanese": "読書",
+      "kana": "どくしょ",
+      "romaji": "dokusho",
+      "tokens": [
+        {
+          "text": "読書",
+          "kana": "どくしょ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "暑假",
+      "japanese": "夏休み",
+      "kana": "なつやすみ",
+      "romaji": "natsuyasumi",
+      "tokens": [
+        {
+          "text": "夏休み",
+          "kana": "なつやすみ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "都会、城市",
+      "japanese": "都会",
+      "kana": "とかい",
+      "romaji": "tokai",
+      "tokens": [
+        {
+          "text": "都会",
+          "kana": "とかい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "同事、同伴、伙伴",
+      "japanese": "同士",
+      "kana": "どうし",
+      "romaji": "doushi",
+      "tokens": [
+        {
+          "text": "同士",
+          "kana": "どうし"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "流动、水流",
+      "japanese": "流れ",
+      "kana": "ながれ",
+      "romaji": "nagare",
+      "tokens": [
+        {
+          "text": "流れ",
+          "kana": "ながれ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "入场",
+      "japanese": "入场",
+      "kana": "にゅうじょう",
+      "romaji": "nyuujou",
+      "tokens": [
+        {
+          "text": "入场",
+          "kana": "にゅうじょう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "锅；火锅",
+      "japanese": "鍋",
+      "kana": "なべ",
+      "romaji": "nabe",
+      "tokens": [
+        {
+          "text": "鍋",
+          "kana": "なべ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "土地",
+      "japanese": "土地",
+      "kana": "とち",
+      "romaji": "tochi",
+      "tokens": [
+        {
+          "text": "土地",
+          "kana": "とち"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "入学",
+      "japanese": "入学",
+      "kana": "にゅうがく",
+      "romaji": "nyuugaku",
+      "tokens": [
+        {
+          "text": "入学",
+          "kana": "にゅうがく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "日程",
+      "japanese": "日程",
+      "kana": "にってい",
+      "romaji": "nittei",
+      "tokens": [
+        {
+          "text": "日程",
+          "kana": "にってい"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "朋友、伙伴",
+      "japanese": "仲間",
+      "kana": "なかま",
+      "romaji": "nakama",
+      "tokens": [
+        {
+          "text": "仲間",
+          "kana": "なかま"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "登山",
+      "japanese": "登山",
+      "kana": "とざん",
+      "romaji": "tozan",
+      "tokens": [
+        {
+          "text": "登山",
+          "kana": "とざん"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "值班",
+      "japanese": "当番",
+      "kana": "とうばん",
+      "romaji": "touban",
+      "tokens": [
+        {
+          "text": "当番",
+          "kana": "とうばん"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "读书",
+      "japanese": "読書",
+      "kana": "どくしょ",
+      "romaji": "dokusho",
+      "tokens": [
+        {
+          "text": "読書",
+          "kana": "どくしょ"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "流动、水流",
+      "japanese": "流れ",
+      "kana": "ながれ",
+      "romaji": "nagare",
+      "tokens": [
+        {
+          "text": "流れ",
+          "kana": "ながれ"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "鸡肉",
+      "japanese": "鳥肉",
+      "kana": "とりにく",
+      "romaji": "toriniku",
+      "tokens": [
+        {
+          "text": "鳥肉",
+          "kana": "とりにく"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "火锅",
+      "japanese": "鍋料理",
+      "kana": "なべりょうり",
+      "romaji": "naberyouri",
+      "tokens": [
+        {
+          "text": "鍋料理",
+          "kana": "なべりょうり"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "日程",
+      "japanese": "日程",
+      "kana": "にってい",
+      "romaji": "nittei",
+      "tokens": [
+        {
+          "text": "日程",
+          "kana": "にってい"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "锅；火锅",
+      "japanese": "鍋",
+      "kana": "なべ",
+      "romaji": "nabe",
+      "tokens": [
+        {
+          "text": "鍋",
+          "kana": "なべ"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "入场",
+      "japanese": "入场",
+      "kana": "にゅうじょう",
+      "romaji": "nyuujou",
+      "tokens": [
+        {
+          "text": "入场",
+          "kana": "にゅうじょう"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "钟、表",
+      "japanese": "時計",
+      "kana": "とけい",
+      "romaji": "tokei",
+      "tokens": [
+        {
+          "text": "時計",
+          "kana": "とけい"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "烦恼",
+      "japanese": "悩み",
+      "kana": "なやみ",
+      "romaji": "nayami",
+      "tokens": [
+        {
+          "text": "悩み",
+          "kana": "なやみ"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "登录",
+      "japanese": "登録",
+      "kana": "とうろく",
+      "romaji": "touroku",
+      "tokens": [
+        {
+          "text": "登録",
+          "kana": "とうろく"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "道具",
+      "japanese": "道具",
+      "kana": "どうぐ",
+      "romaji": "dougu",
+      "tokens": [
+        {
+          "text": "道具",
+          "kana": "どうぐ"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "土地",
+      "japanese": "土地",
+      "kana": "とち",
+      "romaji": "tochi",
+      "tokens": [
+        {
+          "text": "土地",
+          "kana": "とち"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "关系",
+      "japanese": "仲",
+      "kana": "なか",
+      "romaji": "naka",
+      "tokens": [
+        {
+          "text": "仲",
+          "kana": "なか"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "暑假",
+      "japanese": "夏休み",
+      "kana": "なつやすみ",
+      "romaji": "natsuyasumi",
+      "tokens": [
+        {
+          "text": "夏休み",
+          "kana": "なつやすみ"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "都会、城市",
+      "japanese": "都会",
+      "kana": "とかい",
+      "romaji": "tokai",
+      "tokens": [
+        {
+          "text": "都会",
+          "kana": "とかい"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "同时",
+      "japanese": "同時",
+      "kana": "どうじ",
+      "romaji": "douji",
+      "tokens": [
+        {
+          "text": "同時",
+          "kana": "どうじ"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "入学",
+      "japanese": "入学式",
+      "kana": "にゅうがくしき",
+      "romaji": "nyuugakushiki",
+      "tokens": [
+        {
+          "text": "入学式",
+          "kana": "にゅうがくしき"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "西、西方、西边",
+      "japanese": "西",
+      "kana": "にし",
+      "romaji": "nishi",
+      "tokens": [
+        {
+          "text": "西",
+          "kana": "にし"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "特征",
+      "japanese": "特徴",
+      "kana": "とくちょう",
+      "romaji": "tokuchou",
+      "tokens": [
+        {
+          "text": "特徴",
+          "kana": "とくちょう"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "特产",
+      "japanese": "特産",
+      "kana": "とくさん",
+      "romaji": "tokusan",
+      "tokens": [
+        {
+          "text": "特産",
+          "kana": "とくさん"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "都市、城市",
+      "japanese": "都市",
+      "kana": "とし",
+      "romaji": "toshi",
+      "tokens": [
+        {
+          "text": "都市",
+          "kana": "とし"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "哪个",
+      "japanese": "どっち",
+      "kana": "どっち",
+      "romaji": "dotchi",
+      "tokens": [
+        {
+          "text": "どっち",
+          "kana": "どっち"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "同事、同伴、伙伴",
+      "japanese": "同士",
+      "kana": "どうし",
+      "romaji": "doushi",
+      "tokens": [
+        {
+          "text": "同士",
+          "kana": "どうし"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "独特",
+      "japanese": "独特",
+      "kana": "どくとく",
+      "romaji": "dokutoku",
+      "tokens": [
+        {
+          "text": "独特",
+          "kana": "どくとく"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "泪、泪水",
+      "japanese": "涙",
+      "kana": "なみだ",
+      "romaji": "namida",
+      "tokens": [
+        {
+          "text": "涙",
+          "kana": "なみだ"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "動作",
+      "japanese": "動作",
+      "kana": "どうさ",
+      "romaji": "dousa",
+      "tokens": [
+        {
+          "text": "動作",
+          "kana": "どうさ"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "入学",
+      "japanese": "入学",
+      "kana": "にゅうがく",
+      "romaji": "nyuugaku",
+      "tokens": [
+        {
+          "text": "入学",
+          "kana": "にゅうがく"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "烦恼",
+      "japanese": "悩み",
+      "kana": "なやみ",
+      "romaji": "nayami",
+      "tokens": [
+        {
+          "text": "悩み",
+          "kana": "なやみ"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "日程",
+      "japanese": "日程",
+      "kana": "にってい",
+      "romaji": "nittei",
+      "tokens": [
+        {
+          "text": "日程",
+          "kana": "にってい"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "道具",
+      "japanese": "道具",
+      "kana": "どうぐ",
+      "romaji": "dougu",
+      "tokens": [
+        {
+          "text": "道具",
+          "kana": "どうぐ"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "暑假",
+      "japanese": "夏休み",
+      "kana": "なつやすみ",
+      "romaji": "natsuyasumi",
+      "tokens": [
+        {
+          "text": "夏休み",
+          "kana": "なつやすみ"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "钟、表",
+      "japanese": "時計",
+      "kana": "とけい",
+      "romaji": "tokei",
+      "tokens": [
+        {
+          "text": "時計",
+          "kana": "とけい"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "特产",
+      "japanese": "特産",
+      "kana": "とくさん",
+      "romaji": "tokusan",
+      "tokens": [
+        {
+          "text": "特産",
+          "kana": "とくさん"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "西、西方、西边",
+      "japanese": "西",
+      "kana": "にし",
+      "romaji": "nishi",
+      "tokens": [
+        {
+          "text": "西",
+          "kana": "にし"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "火锅",
+      "japanese": "鍋料理",
+      "kana": "なべりょうり",
+      "romaji": "naberyouri",
+      "tokens": [
+        {
+          "text": "鍋料理",
+          "kana": "なべりょうり"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "入学",
+      "japanese": "入学",
+      "kana": "にゅうがく",
+      "romaji": "nyuugaku",
+      "tokens": [
+        {
+          "text": "入学",
+          "kana": "にゅうがく"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "土地",
+      "japanese": "土地",
+      "kana": "とち",
+      "romaji": "tochi",
+      "tokens": [
+        {
+          "text": "土地",
+          "kana": "とち"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "動作",
+      "japanese": "動作",
+      "kana": "どうさ",
+      "romaji": "dousa",
+      "tokens": [
+        {
+          "text": "動作",
+          "kana": "どうさ"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "朋友、伙伴",
+      "japanese": "仲間",
+      "kana": "なかま",
+      "romaji": "nakama",
+      "tokens": [
+        {
+          "text": "仲間",
+          "kana": "なかま"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "关系",
+      "japanese": "仲",
+      "kana": "なか",
+      "romaji": "naka",
+      "tokens": [
+        {
+          "text": "仲",
+          "kana": "なか"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "都市、城市",
+      "japanese": "都市",
+      "kana": "とし",
+      "romaji": "toshi",
+      "tokens": [
+        {
+          "text": "都市",
+          "kana": "とし"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "入场",
+      "japanese": "入场",
+      "kana": "にゅうじょう",
+      "romaji": "nyuujou",
+      "tokens": [
+        {
+          "text": "入场",
+          "kana": "にゅうじょう"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "同时",
+      "japanese": "同時",
+      "kana": "どうじ",
+      "romaji": "douji",
+      "tokens": [
+        {
+          "text": "同時",
+          "kana": "どうじ"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "都会、城市",
+      "japanese": "都会",
+      "kana": "とかい",
+      "romaji": "tokai",
+      "tokens": [
+        {
+          "text": "都会",
+          "kana": "とかい"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "登山",
+      "japanese": "登山",
+      "kana": "とざん",
+      "romaji": "tozan",
+      "tokens": [
+        {
+          "text": "登山",
+          "kana": "とざん"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "泪、泪水",
+      "japanese": "涙",
+      "kana": "なみだ",
+      "romaji": "namida",
+      "tokens": [
+        {
+          "text": "涙",
+          "kana": "なみだ"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "特征",
+      "japanese": "特徴",
+      "kana": "とくちょう",
+      "romaji": "tokuchou",
+      "tokens": [
+        {
+          "text": "特徴",
+          "kana": "とくちょう"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "独特",
+      "japanese": "独特",
+      "kana": "どくとく",
+      "romaji": "dokutoku",
+      "tokens": [
+        {
+          "text": "独特",
+          "kana": "どくとく"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "同事、同伴、伙伴",
+      "japanese": "同士",
+      "kana": "どうし",
+      "romaji": "doushi",
+      "tokens": [
+        {
+          "text": "同士",
+          "kana": "どうし"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "鸡肉",
+      "japanese": "鳥肉",
+      "kana": "とりにく",
+      "romaji": "toriniku",
+      "tokens": [
+        {
+          "text": "鳥肉",
+          "kana": "とりにく"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "值班",
+      "japanese": "当番",
+      "kana": "とうばん",
+      "romaji": "touban",
+      "tokens": [
+        {
+          "text": "当番",
+          "kana": "とうばん"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "入学",
+      "japanese": "入学式",
+      "kana": "にゅうがくしき",
+      "romaji": "nyuugakushiki",
+      "tokens": [
+        {
+          "text": "入学式",
+          "kana": "にゅうがくしき"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "登录",
+      "japanese": "登録",
+      "kana": "とうろく",
+      "romaji": "touroku",
+      "tokens": [
+        {
+          "text": "登録",
+          "kana": "とうろく"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "读书",
+      "japanese": "読書",
+      "kana": "どくしょ",
+      "romaji": "dokusho",
+      "tokens": [
+        {
+          "text": "読書",
+          "kana": "どくしょ"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "锅；火锅",
+      "japanese": "鍋",
+      "kana": "なべ",
+      "romaji": "nabe",
+      "tokens": [
+        {
+          "text": "鍋",
+          "kana": "なべ"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "哪个",
+      "japanese": "どっち",
+      "kana": "どっち",
+      "romaji": "dotchi",
+      "tokens": [
+        {
+          "text": "どっち",
+          "kana": "どっち"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "流动、水流",
+      "japanese": "流れ",
+      "kana": "ながれ",
+      "romaji": "nagare",
+      "tokens": [
+        {
+          "text": "流れ",
+          "kana": "ながれ"
+        }
+      ]
+    }
+  ]
+}

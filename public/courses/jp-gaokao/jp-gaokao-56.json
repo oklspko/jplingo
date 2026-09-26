@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-56",
+  "coursePackId": "jp-gaokao",
+  "title": "外来语 3",
+  "order": 56,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "软件",
+      "japanese": "ソフト",
+      "kana": "そふと",
+      "romaji": "sofuto",
+      "tokens": [
+        {
+          "text": "ソフト",
+          "kana": "そふと"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "短裙",
+      "japanese": "スカート",
+      "kana": "すかーと",
+      "romaji": "sukaato",
+      "tokens": [
+        {
+          "text": "スカート",
+          "kana": "すかーと"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "速度",
+      "japanese": "スピード",
+      "kana": "すぴーど",
+      "romaji": "supiido",
+      "tokens": [
+        {
+          "text": "スピード",
+          "kana": "すぴーど"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "超市",
+      "japanese": "スーパー",
+      "kana": "すーぱー",
+      "romaji": "suupaa",
+      "tokens": [
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "日程",
+      "japanese": "スケジュール",
+      "kana": "すけじゅーる",
+      "romaji": "sukejuuru",
+      "tokens": [
+        {
+          "text": "スケジュール",
+          "kana": "すけじゅーる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "滑冰",
+      "japanese": "スケート",
+      "kana": "すけーと",
+      "romaji": "sukeeto",
+      "tokens": [
+        {
+          "text": "スケート",
+          "kana": "すけーと"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "滑雪",
+      "japanese": "スキー",
+      "kana": "すきー",
+      "romaji": "sukii",
+      "tokens": [
+        {
+          "text": "スキー",
+          "kana": "すきー"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "果汁",
+      "japanese": "ジュース",
+      "kana": "じゅーす",
+      "romaji": "juusu",
+      "tokens": [
+        {
+          "text": "ジュース",
+          "kana": "じゅーす"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "时间",
+      "japanese": "タイム",
+      "kana": "たいむ",
+      "romaji": "taimu",
+      "tokens": [
+        {
+          "text": "タイム",
+          "kana": "たいむ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "慢跑",
+      "japanese": "ジョギング",
+      "kana": "じょぎんぐ",
+      "romaji": "jogingu",
+      "tokens": [
+        {
+          "text": "ジョギング",
+          "kana": "じょぎんぐ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "压力",
+      "japanese": "ストレス",
+      "kana": "すとれす",
+      "romaji": "sutoresu",
+      "tokens": [
+        {
+          "text": "ストレス",
+          "kana": "すとれす"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "风格，样式",
+      "japanese": "スタイル",
+      "kana": "すたいる",
+      "romaji": "sutairu",
+      "tokens": [
+        {
+          "text": "スタイル",
+          "kana": "すたいる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "毛衣",
+      "japanese": "セーター",
+      "kana": "せーたー",
+      "romaji": "seetaa",
+      "tokens": [
+        {
+          "text": "セーター",
+          "kana": "せーたー"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "团队",
+      "japanese": "チーム",
+      "kana": "ちーむ",
+      "romaji": "chiimu",
+      "tokens": [
+        {
+          "text": "チーム",
+          "kana": "ちーむ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "出租车",
+      "japanese": "タクシー",
+      "kana": "たくしー",
+      "romaji": "takushii",
+      "tokens": [
+        {
+          "text": "タクシー",
+          "kana": "たくしー"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "体育中心",
+      "japanese": "スポーツセンター",
+      "kana": "すぽーつせんたー",
+      "romaji": "supootsusentaa",
+      "tokens": [
+        {
+          "text": "スポーツセンター",
+          "kana": "すぽーつせんたー"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "开关",
+      "japanese": "スイッチ",
+      "kana": "すいっち",
+      "romaji": "suitchi",
+      "tokens": [
+        {
+          "text": "スイッチ",
+          "kana": "すいっち"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "立体声",
+      "japanese": "ステレオ",
+      "kana": "すてれお",
+      "romaji": "sutereo",
+      "tokens": [
+        {
+          "text": "ステレオ",
+          "kana": "すてれお"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "句子",
+      "japanese": "センテンス",
+      "kana": "せんてんす",
+      "romaji": "sentensu",
+      "tokens": [
+        {
+          "text": "センテンス",
+          "kana": "せんてんす"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "开始",
+      "japanese": "スタート",
+      "kana": "すたーと",
+      "romaji": "sutaato",
+      "tokens": [
+        {
+          "text": "スタート",
+          "kana": "すたーと"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "演讲",
+      "japanese": "スピーチ",
+      "kana": "すぴーち",
+      "romaji": "supiichi",
+      "tokens": [
+        {
+          "text": "スピーチ",
+          "kana": "すぴーち"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "厘米",
+      "japanese": "センチ",
+      "kana": "せんち",
+      "romaji": "senchi",
+      "tokens": [
+        {
+          "text": "センチ",
+          "kana": "せんち"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "写生，素描",
+      "japanese": "スケッチ",
+      "kana": "すけっち",
+      "romaji": "suketchi",
+      "tokens": [
+        {
+          "text": "スケッチ",
+          "kana": "すけっち"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "中心",
+      "japanese": "センター",
+      "kana": "せんたー",
+      "romaji": "sentaa",
+      "tokens": [
+        {
+          "text": "センター",
+          "kana": "せんたー"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "裤子",
+      "japanese": "ズボン",
+      "kana": "ずぼん",
+      "romaji": "zubon",
+      "tokens": [
+        {
+          "text": "ズボン",
+          "kana": "ずぼん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "衬衫",
+      "japanese": "シャツ",
+      "kana": "しゃつ",
+      "romaji": "shatsu",
+      "tokens": [
+        {
+          "text": "シャツ",
+          "kana": "しゃつ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "体育",
+      "japanese": "スポーツ",
+      "kana": "すぽーつ",
+      "romaji": "supootsu",
+      "tokens": [
+        {
+          "text": "スポーツ",
+          "kana": "すぽーつ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "零",
+      "japanese": "ゼロ",
+      "kana": "ぜろ",
+      "romaji": "zero",
+      "tokens": [
+        {
+          "text": "ゼロ",
+          "kana": "ぜろ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "汤",
+      "japanese": "スープ",
+      "kana": "すーぷ",
+      "romaji": "suupu",
+      "tokens": [
+        {
+          "text": "スープ",
+          "kana": "すーぷ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "暖炉",
+      "japanese": "ストーブ",
+      "kana": "すとーぶ",
+      "romaji": "sutoobu",
+      "tokens": [
+        {
+          "text": "ストーブ",
+          "kana": "すとーぶ"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "果汁",
+      "japanese": "ジュース",
+      "kana": "じゅーす",
+      "romaji": "juusu",
+      "tokens": [
+        {
+          "text": "ジュース",
+          "kana": "じゅーす"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "出租车",
+      "japanese": "タクシー",
+      "kana": "たくしー",
+      "romaji": "takushii",
+      "tokens": [
+        {
+          "text": "タクシー",
+          "kana": "たくしー"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "软件",
+      "japanese": "ソフト",
+      "kana": "そふと",
+      "romaji": "sofuto",
+      "tokens": [
+        {
+          "text": "ソフト",
+          "kana": "そふと"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "压力",
+      "japanese": "ストレス",
+      "kana": "すとれす",
+      "romaji": "sutoresu",
+      "tokens": [
+        {
+          "text": "ストレス",
+          "kana": "すとれす"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "中心",
+      "japanese": "センター",
+      "kana": "せんたー",
+      "romaji": "sentaa",
+      "tokens": [
+        {
+          "text": "センター",
+          "kana": "せんたー"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "速度",
+      "japanese": "スピード",
+      "kana": "すぴーど",
+      "romaji": "supiido",
+      "tokens": [
+        {
+          "text": "スピード",
+          "kana": "すぴーど"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "暖炉",
+      "japanese": "ストーブ",
+      "kana": "すとーぶ",
+      "romaji": "sutoobu",
+      "tokens": [
+        {
+          "text": "ストーブ",
+          "kana": "すとーぶ"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "句子",
+      "japanese": "センテンス",
+      "kana": "せんてんす",
+      "romaji": "sentensu",
+      "tokens": [
+        {
+          "text": "センテンス",
+          "kana": "せんてんす"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "短裙",
+      "japanese": "スカート",
+      "kana": "すかーと",
+      "romaji": "sukaato",
+      "tokens": [
+        {
+          "text": "スカート",
+          "kana": "すかーと"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "衬衫",
+      "japanese": "シャツ",
+      "kana": "しゃつ",
+      "romaji": "shatsu",
+      "tokens": [
+        {
+          "text": "シャツ",
+          "kana": "しゃつ"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "滑冰",
+      "japanese": "スケート",
+      "kana": "すけーと",
+      "romaji": "sukeeto",
+      "tokens": [
+        {
+          "text": "スケート",
+          "kana": "すけーと"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "毛衣",
+      "japanese": "セーター",
+      "kana": "せーたー",
+      "romaji": "seetaa",
+      "tokens": [
+        {
+          "text": "セーター",
+          "kana": "せーたー"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "体育",
+      "japanese": "スポーツ",
+      "kana": "すぽーつ",
+      "romaji": "supootsu",
+      "tokens": [
+        {
+          "text": "スポーツ",
+          "kana": "すぽーつ"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "开始",
+      "japanese": "スタート",
+      "kana": "すたーと",
+      "romaji": "sutaato",
+      "tokens": [
+        {
+          "text": "スタート",
+          "kana": "すたーと"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "慢跑",
+      "japanese": "ジョギング",
+      "kana": "じょぎんぐ",
+      "romaji": "jogingu",
+      "tokens": [
+        {
+          "text": "ジョギング",
+          "kana": "じょぎんぐ"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "时间",
+      "japanese": "タイム",
+      "kana": "たいむ",
+      "romaji": "taimu",
+      "tokens": [
+        {
+          "text": "タイム",
+          "kana": "たいむ"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "日程",
+      "japanese": "スケジュール",
+      "kana": "すけじゅーる",
+      "romaji": "sukejuuru",
+      "tokens": [
+        {
+          "text": "スケジュール",
+          "kana": "すけじゅーる"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "演讲",
+      "japanese": "スピーチ",
+      "kana": "すぴーち",
+      "romaji": "supiichi",
+      "tokens": [
+        {
+          "text": "スピーチ",
+          "kana": "すぴーち"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "零",
+      "japanese": "ゼロ",
+      "kana": "ぜろ",
+      "romaji": "zero",
+      "tokens": [
+        {
+          "text": "ゼロ",
+          "kana": "ぜろ"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "超市",
+      "japanese": "スーパー",
+      "kana": "すーぱー",
+      "romaji": "suupaa",
+      "tokens": [
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "体育中心",
+      "japanese": "スポーツセンター",
+      "kana": "すぽーつせんたー",
+      "romaji": "supootsusentaa",
+      "tokens": [
+        {
+          "text": "スポーツセンター",
+          "kana": "すぽーつせんたー"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "裤子",
+      "japanese": "ズボン",
+      "kana": "ずぼん",
+      "romaji": "zubon",
+      "tokens": [
+        {
+          "text": "ズボン",
+          "kana": "ずぼん"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "风格，样式",
+      "japanese": "スタイル",
+      "kana": "すたいる",
+      "romaji": "sutairu",
+      "tokens": [
+        {
+          "text": "スタイル",
+          "kana": "すたいる"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "写生，素描",
+      "japanese": "スケッチ",
+      "kana": "すけっち",
+      "romaji": "suketchi",
+      "tokens": [
+        {
+          "text": "スケッチ",
+          "kana": "すけっち"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "汤",
+      "japanese": "スープ",
+      "kana": "すーぷ",
+      "romaji": "suupu",
+      "tokens": [
+        {
+          "text": "スープ",
+          "kana": "すーぷ"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "开关",
+      "japanese": "スイッチ",
+      "kana": "すいっち",
+      "romaji": "suitchi",
+      "tokens": [
+        {
+          "text": "スイッチ",
+          "kana": "すいっち"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "厘米",
+      "japanese": "センチ",
+      "kana": "せんち",
+      "romaji": "senchi",
+      "tokens": [
+        {
+          "text": "センチ",
+          "kana": "せんち"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "立体声",
+      "japanese": "ステレオ",
+      "kana": "すてれお",
+      "romaji": "sutereo",
+      "tokens": [
+        {
+          "text": "ステレオ",
+          "kana": "すてれお"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "滑雪",
+      "japanese": "スキー",
+      "kana": "すきー",
+      "romaji": "sukii",
+      "tokens": [
+        {
+          "text": "スキー",
+          "kana": "すきー"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "团队",
+      "japanese": "チーム",
+      "kana": "ちーむ",
+      "romaji": "chiimu",
+      "tokens": [
+        {
+          "text": "チーム",
+          "kana": "ちーむ"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "短裙",
+      "japanese": "スカート",
+      "kana": "すかーと",
+      "romaji": "sukaato",
+      "tokens": [
+        {
+          "text": "スカート",
+          "kana": "すかーと"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "立体声",
+      "japanese": "ステレオ",
+      "kana": "すてれお",
+      "romaji": "sutereo",
+      "tokens": [
+        {
+          "text": "ステレオ",
+          "kana": "すてれお"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "开关",
+      "japanese": "スイッチ",
+      "kana": "すいっち",
+      "romaji": "suitchi",
+      "tokens": [
+        {
+          "text": "スイッチ",
+          "kana": "すいっち"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "时间",
+      "japanese": "タイム",
+      "kana": "たいむ",
+      "romaji": "taimu",
+      "tokens": [
+        {
+          "text": "タイム",
+          "kana": "たいむ"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "团队",
+      "japanese": "チーム",
+      "kana": "ちーむ",
+      "romaji": "chiimu",
+      "tokens": [
+        {
+          "text": "チーム",
+          "kana": "ちーむ"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "慢跑",
+      "japanese": "ジョギング",
+      "kana": "じょぎんぐ",
+      "romaji": "jogingu",
+      "tokens": [
+        {
+          "text": "ジョギング",
+          "kana": "じょぎんぐ"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "毛衣",
+      "japanese": "セーター",
+      "kana": "せーたー",
+      "romaji": "seetaa",
+      "tokens": [
+        {
+          "text": "セーター",
+          "kana": "せーたー"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "开始",
+      "japanese": "スタート",
+      "kana": "すたーと",
+      "romaji": "sutaato",
+      "tokens": [
+        {
+          "text": "スタート",
+          "kana": "すたーと"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "零",
+      "japanese": "ゼロ",
+      "kana": "ぜろ",
+      "romaji": "zero",
+      "tokens": [
+        {
+          "text": "ゼロ",
+          "kana": "ぜろ"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "句子",
+      "japanese": "センテンス",
+      "kana": "せんてんす",
+      "romaji": "sentensu",
+      "tokens": [
+        {
+          "text": "センテンス",
+          "kana": "せんてんす"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "速度",
+      "japanese": "スピード",
+      "kana": "すぴーど",
+      "romaji": "supiido",
+      "tokens": [
+        {
+          "text": "スピード",
+          "kana": "すぴーど"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "体育中心",
+      "japanese": "スポーツセンター",
+      "kana": "すぽーつせんたー",
+      "romaji": "supootsusentaa",
+      "tokens": [
+        {
+          "text": "スポーツセンター",
+          "kana": "すぽーつせんたー"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "压力",
+      "japanese": "ストレス",
+      "kana": "すとれす",
+      "romaji": "sutoresu",
+      "tokens": [
+        {
+          "text": "ストレス",
+          "kana": "すとれす"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "汤",
+      "japanese": "スープ",
+      "kana": "すーぷ",
+      "romaji": "suupu",
+      "tokens": [
+        {
+          "text": "スープ",
+          "kana": "すーぷ"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "暖炉",
+      "japanese": "ストーブ",
+      "kana": "すとーぶ",
+      "romaji": "sutoobu",
+      "tokens": [
+        {
+          "text": "ストーブ",
+          "kana": "すとーぶ"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "写生，素描",
+      "japanese": "スケッチ",
+      "kana": "すけっち",
+      "romaji": "suketchi",
+      "tokens": [
+        {
+          "text": "スケッチ",
+          "kana": "すけっち"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "衬衫",
+      "japanese": "シャツ",
+      "kana": "しゃつ",
+      "romaji": "shatsu",
+      "tokens": [
+        {
+          "text": "シャツ",
+          "kana": "しゃつ"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "软件",
+      "japanese": "ソフト",
+      "kana": "そふと",
+      "romaji": "sofuto",
+      "tokens": [
+        {
+          "text": "ソフト",
+          "kana": "そふと"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "中心",
+      "japanese": "センター",
+      "kana": "せんたー",
+      "romaji": "sentaa",
+      "tokens": [
+        {
+          "text": "センター",
+          "kana": "せんたー"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "裤子",
+      "japanese": "ズボン",
+      "kana": "ずぼん",
+      "romaji": "zubon",
+      "tokens": [
+        {
+          "text": "ズボン",
+          "kana": "ずぼん"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "滑冰",
+      "japanese": "スケート",
+      "kana": "すけーと",
+      "romaji": "sukeeto",
+      "tokens": [
+        {
+          "text": "スケート",
+          "kana": "すけーと"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "日程",
+      "japanese": "スケジュール",
+      "kana": "すけじゅーる",
+      "romaji": "sukejuuru",
+      "tokens": [
+        {
+          "text": "スケジュール",
+          "kana": "すけじゅーる"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "演讲",
+      "japanese": "スピーチ",
+      "kana": "すぴーち",
+      "romaji": "supiichi",
+      "tokens": [
+        {
+          "text": "スピーチ",
+          "kana": "すぴーち"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "厘米",
+      "japanese": "センチ",
+      "kana": "せんち",
+      "romaji": "senchi",
+      "tokens": [
+        {
+          "text": "センチ",
+          "kana": "せんち"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "超市",
+      "japanese": "スーパー",
+      "kana": "すーぱー",
+      "romaji": "suupaa",
+      "tokens": [
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "出租车",
+      "japanese": "タクシー",
+      "kana": "たくしー",
+      "romaji": "takushii",
+      "tokens": [
+        {
+          "text": "タクシー",
+          "kana": "たくしー"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "风格，样式",
+      "japanese": "スタイル",
+      "kana": "すたいる",
+      "romaji": "sutairu",
+      "tokens": [
+        {
+          "text": "スタイル",
+          "kana": "すたいる"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "果汁",
+      "japanese": "ジュース",
+      "kana": "じゅーす",
+      "romaji": "juusu",
+      "tokens": [
+        {
+          "text": "ジュース",
+          "kana": "じゅーす"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "滑雪",
+      "japanese": "スキー",
+      "kana": "すきー",
+      "romaji": "sukii",
+      "tokens": [
+        {
+          "text": "スキー",
+          "kana": "すきー"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "体育",
+      "japanese": "スポーツ",
+      "kana": "すぽーつ",
+      "romaji": "supootsu",
+      "tokens": [
+        {
+          "text": "スポーツ",
+          "kana": "すぽーつ"
+        }
+      ]
+    }
+  ]
+}

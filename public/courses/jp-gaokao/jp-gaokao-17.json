@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-17",
+  "coursePackId": "jp-gaokao",
+  "title": "动词低频 3",
+  "order": 17,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（自他一）说话、闲谈",
+      "japanese": "喋る",
+      "kana": "しゃべる",
+      "romaji": "shaberu",
+      "tokens": [
+        {
+          "text": "喋る",
+          "kana": "しゃべる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "浮现、让~浮起来",
+      "japanese": "浮かべる",
+      "kana": "うかべる",
+      "romaji": "ukaberu",
+      "tokens": [
+        {
+          "text": "浮かべる",
+          "kana": "うかべる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "点头",
+      "japanese": "頷く",
+      "kana": "うなずく",
+      "romaji": "unazuku",
+      "tokens": [
+        {
+          "text": "頷く",
+          "kana": "うなずく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "说完",
+      "japanese": "言い終わる",
+      "kana": "いいおわる",
+      "romaji": "iiowaru",
+      "tokens": [
+        {
+          "text": "言い終わる",
+          "kana": "いいおわる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "下沉",
+      "japanese": "沈む",
+      "kana": "しずむ",
+      "romaji": "shizumu",
+      "tokens": [
+        {
+          "text": "沈む",
+          "kana": "しずむ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "扔、投、掷",
+      "japanese": "投げる",
+      "kana": "なげる",
+      "romaji": "nageru",
+      "tokens": [
+        {
+          "text": "投げる",
+          "kana": "なげる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "飞起来",
+      "japanese": "飛び立つ",
+      "kana": "とびたつ",
+      "romaji": "tobitatsu",
+      "tokens": [
+        {
+          "text": "飛び立つ",
+          "kana": "とびたつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "发射",
+      "japanese": "打ち上げる",
+      "kana": "うちあげる",
+      "romaji": "uchiageru",
+      "tokens": [
+        {
+          "text": "打ち上げる",
+          "kana": "うちあげる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "毁坏、破产、崩溃",
+      "japanese": "潰れる",
+      "kana": "つぶれる",
+      "romaji": "tsubureru",
+      "tokens": [
+        {
+          "text": "潰れる",
+          "kana": "つぶれる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "演出",
+      "japanese": "演じる",
+      "kana": "えんじる",
+      "romaji": "enjiru",
+      "tokens": [
+        {
+          "text": "演じる",
+          "kana": "えんじる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "希望",
+      "japanese": "望む",
+      "kana": "のぞむ",
+      "romaji": "nozomu",
+      "tokens": [
+        {
+          "text": "望む",
+          "kana": "のぞむ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "表示、表达",
+      "japanese": "言い表す",
+      "kana": "いいあらわす",
+      "romaji": "iiarawasu",
+      "tokens": [
+        {
+          "text": "言い表す",
+          "kana": "いいあらわす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "竭尽全力",
+      "japanese": "尽くす",
+      "kana": "つくす",
+      "romaji": "tsukusu",
+      "tokens": [
+        {
+          "text": "尽くす",
+          "kana": "つくす"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "亲近",
+      "japanese": "親しむ",
+      "kana": "したしむ",
+      "romaji": "shitashimu",
+      "tokens": [
+        {
+          "text": "親しむ",
+          "kana": "したしむ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "战胜",
+      "japanese": "打ち勝つ",
+      "kana": "うちかつ",
+      "romaji": "uchikatsu",
+      "tokens": [
+        {
+          "text": "打ち勝つ",
+          "kana": "うちかつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "让～住宿",
+      "japanese": "泊まる",
+      "kana": "とまる",
+      "romaji": "tomaru",
+      "tokens": [
+        {
+          "text": "泊まる",
+          "kana": "とまる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "拯救",
+      "japanese": "救う",
+      "kana": "すくう",
+      "romaji": "sukuu",
+      "tokens": [
+        {
+          "text": "救う",
+          "kana": "すくう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "重新考虑、重新看、检查",
+      "japanese": "見直す",
+      "kana": "みなおす",
+      "romaji": "minaosu",
+      "tokens": [
+        {
+          "text": "見直す",
+          "kana": "みなおす"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "占",
+      "japanese": "占める",
+      "kana": "しめる",
+      "romaji": "shimeru",
+      "tokens": [
+        {
+          "text": "占める",
+          "kana": "しめる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "继承",
+      "japanese": "受け継ぐ",
+      "kana": "うけつぐ",
+      "romaji": "uketsugu",
+      "tokens": [
+        {
+          "text": "受け継ぐ",
+          "kana": "うけつぐ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "赶上",
+      "japanese": "追いつく",
+      "kana": "おいつく",
+      "romaji": "oitsuku",
+      "tokens": [
+        {
+          "text": "追いつく",
+          "kana": "おいつく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "炒",
+      "japanese": "炒める",
+      "kana": "いためる",
+      "romaji": "itameru",
+      "tokens": [
+        {
+          "text": "炒める",
+          "kana": "いためる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "赶出、轰出",
+      "japanese": "追い出す",
+      "kana": "おいだす",
+      "romaji": "oidasu",
+      "tokens": [
+        {
+          "text": "追い出す",
+          "kana": "おいだす"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "丢失、消失、不见",
+      "japanese": "無くなる",
+      "kana": "なくなる",
+      "romaji": "nakunaru",
+      "tokens": [
+        {
+          "text": "無くなる",
+          "kana": "なくなる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "变迁",
+      "japanese": "移り変わる",
+      "kana": "うつりかわる",
+      "romaji": "utsurikawaru",
+      "tokens": [
+        {
+          "text": "移り変わる",
+          "kana": "うつりかわる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "捕捉；领会、理解",
+      "japanese": "捉える",
+      "kana": "とらえる",
+      "romaji": "toraeru",
+      "tokens": [
+        {
+          "text": "捉える",
+          "kana": "とらえる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "承担",
+      "japanese": "負う",
+      "kana": "おう",
+      "romaji": "ou",
+      "tokens": [
+        {
+          "text": "負う",
+          "kana": "おう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "集中、概括",
+      "japanese": "纏まる",
+      "kana": "まとまる",
+      "romaji": "matomaru",
+      "tokens": [
+        {
+          "text": "纏まる",
+          "kana": "まとまる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "跳出来、突然出现",
+      "japanese": "飛び出す",
+      "kana": "とびだす",
+      "romaji": "tobidasu",
+      "tokens": [
+        {
+          "text": "飛び出す",
+          "kana": "とびだす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "守护、看护",
+      "japanese": "見守る",
+      "kana": "みまもる",
+      "romaji": "mimamoru",
+      "tokens": [
+        {
+          "text": "見守る",
+          "kana": "みまもる"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "守护、看护",
+      "japanese": "見守る",
+      "kana": "みまもる",
+      "romaji": "mimamoru",
+      "tokens": [
+        {
+          "text": "見守る",
+          "kana": "みまもる"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "下沉",
+      "japanese": "沈む",
+      "kana": "しずむ",
+      "romaji": "shizumu",
+      "tokens": [
+        {
+          "text": "沈む",
+          "kana": "しずむ"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "（自他一）说话、闲谈",
+      "japanese": "喋る",
+      "kana": "しゃべる",
+      "romaji": "shaberu",
+      "tokens": [
+        {
+          "text": "喋る",
+          "kana": "しゃべる"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "竭尽全力",
+      "japanese": "尽くす",
+      "kana": "つくす",
+      "romaji": "tsukusu",
+      "tokens": [
+        {
+          "text": "尽くす",
+          "kana": "つくす"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "继承",
+      "japanese": "受け継ぐ",
+      "kana": "うけつぐ",
+      "romaji": "uketsugu",
+      "tokens": [
+        {
+          "text": "受け継ぐ",
+          "kana": "うけつぐ"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "浮现、让~浮起来",
+      "japanese": "浮かべる",
+      "kana": "うかべる",
+      "romaji": "ukaberu",
+      "tokens": [
+        {
+          "text": "浮かべる",
+          "kana": "うかべる"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "赶上",
+      "japanese": "追いつく",
+      "kana": "おいつく",
+      "romaji": "oitsuku",
+      "tokens": [
+        {
+          "text": "追いつく",
+          "kana": "おいつく"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "演出",
+      "japanese": "演じる",
+      "kana": "えんじる",
+      "romaji": "enjiru",
+      "tokens": [
+        {
+          "text": "演じる",
+          "kana": "えんじる"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "变迁",
+      "japanese": "移り変わる",
+      "kana": "うつりかわる",
+      "romaji": "utsurikawaru",
+      "tokens": [
+        {
+          "text": "移り変わる",
+          "kana": "うつりかわる"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "拯救",
+      "japanese": "救う",
+      "kana": "すくう",
+      "romaji": "sukuu",
+      "tokens": [
+        {
+          "text": "救う",
+          "kana": "すくう"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "赶出、轰出",
+      "japanese": "追い出す",
+      "kana": "おいだす",
+      "romaji": "oidasu",
+      "tokens": [
+        {
+          "text": "追い出す",
+          "kana": "おいだす"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "跳出来、突然出现",
+      "japanese": "飛び出す",
+      "kana": "とびだす",
+      "romaji": "tobidasu",
+      "tokens": [
+        {
+          "text": "飛び出す",
+          "kana": "とびだす"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "发射",
+      "japanese": "打ち上げる",
+      "kana": "うちあげる",
+      "romaji": "uchiageru",
+      "tokens": [
+        {
+          "text": "打ち上げる",
+          "kana": "うちあげる"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "飞起来",
+      "japanese": "飛び立つ",
+      "kana": "とびたつ",
+      "romaji": "tobitatsu",
+      "tokens": [
+        {
+          "text": "飛び立つ",
+          "kana": "とびたつ"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "炒",
+      "japanese": "炒める",
+      "kana": "いためる",
+      "romaji": "itameru",
+      "tokens": [
+        {
+          "text": "炒める",
+          "kana": "いためる"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "重新考虑、重新看、检查",
+      "japanese": "見直す",
+      "kana": "みなおす",
+      "romaji": "minaosu",
+      "tokens": [
+        {
+          "text": "見直す",
+          "kana": "みなおす"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "说完",
+      "japanese": "言い終わる",
+      "kana": "いいおわる",
+      "romaji": "iiowaru",
+      "tokens": [
+        {
+          "text": "言い終わる",
+          "kana": "いいおわる"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "战胜",
+      "japanese": "打ち勝つ",
+      "kana": "うちかつ",
+      "romaji": "uchikatsu",
+      "tokens": [
+        {
+          "text": "打ち勝つ",
+          "kana": "うちかつ"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "亲近",
+      "japanese": "親しむ",
+      "kana": "したしむ",
+      "romaji": "shitashimu",
+      "tokens": [
+        {
+          "text": "親しむ",
+          "kana": "したしむ"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "占",
+      "japanese": "占める",
+      "kana": "しめる",
+      "romaji": "shimeru",
+      "tokens": [
+        {
+          "text": "占める",
+          "kana": "しめる"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "毁坏、破产、崩溃",
+      "japanese": "潰れる",
+      "kana": "つぶれる",
+      "romaji": "tsubureru",
+      "tokens": [
+        {
+          "text": "潰れる",
+          "kana": "つぶれる"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "丢失、消失、不见",
+      "japanese": "無くなる",
+      "kana": "なくなる",
+      "romaji": "nakunaru",
+      "tokens": [
+        {
+          "text": "無くなる",
+          "kana": "なくなる"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "承担",
+      "japanese": "負う",
+      "kana": "おう",
+      "romaji": "ou",
+      "tokens": [
+        {
+          "text": "負う",
+          "kana": "おう"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "捕捉；领会、理解",
+      "japanese": "捉える",
+      "kana": "とらえる",
+      "romaji": "toraeru",
+      "tokens": [
+        {
+          "text": "捉える",
+          "kana": "とらえる"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "让～住宿",
+      "japanese": "泊まる",
+      "kana": "とまる",
+      "romaji": "tomaru",
+      "tokens": [
+        {
+          "text": "泊まる",
+          "kana": "とまる"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "希望",
+      "japanese": "望む",
+      "kana": "のぞむ",
+      "romaji": "nozomu",
+      "tokens": [
+        {
+          "text": "望む",
+          "kana": "のぞむ"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "表示、表达",
+      "japanese": "言い表す",
+      "kana": "いいあらわす",
+      "romaji": "iiarawasu",
+      "tokens": [
+        {
+          "text": "言い表す",
+          "kana": "いいあらわす"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "扔、投、掷",
+      "japanese": "投げる",
+      "kana": "なげる",
+      "romaji": "nageru",
+      "tokens": [
+        {
+          "text": "投げる",
+          "kana": "なげる"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "点头",
+      "japanese": "頷く",
+      "kana": "うなずく",
+      "romaji": "unazuku",
+      "tokens": [
+        {
+          "text": "頷く",
+          "kana": "うなずく"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "集中、概括",
+      "japanese": "纏まる",
+      "kana": "まとまる",
+      "romaji": "matomaru",
+      "tokens": [
+        {
+          "text": "纏まる",
+          "kana": "まとまる"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "丢失、消失、不见",
+      "japanese": "無くなる",
+      "kana": "なくなる",
+      "romaji": "nakunaru",
+      "tokens": [
+        {
+          "text": "無くなる",
+          "kana": "なくなる"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "说完",
+      "japanese": "言い終わる",
+      "kana": "いいおわる",
+      "romaji": "iiowaru",
+      "tokens": [
+        {
+          "text": "言い終わる",
+          "kana": "いいおわる"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "（自他一）说话、闲谈",
+      "japanese": "喋る",
+      "kana": "しゃべる",
+      "romaji": "shaberu",
+      "tokens": [
+        {
+          "text": "喋る",
+          "kana": "しゃべる"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "点头",
+      "japanese": "頷く",
+      "kana": "うなずく",
+      "romaji": "unazuku",
+      "tokens": [
+        {
+          "text": "頷く",
+          "kana": "うなずく"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "捕捉；领会、理解",
+      "japanese": "捉える",
+      "kana": "とらえる",
+      "romaji": "toraeru",
+      "tokens": [
+        {
+          "text": "捉える",
+          "kana": "とらえる"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "扔、投、掷",
+      "japanese": "投げる",
+      "kana": "なげる",
+      "romaji": "nageru",
+      "tokens": [
+        {
+          "text": "投げる",
+          "kana": "なげる"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "表示、表达",
+      "japanese": "言い表す",
+      "kana": "いいあらわす",
+      "romaji": "iiarawasu",
+      "tokens": [
+        {
+          "text": "言い表す",
+          "kana": "いいあらわす"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "浮现、让~浮起来",
+      "japanese": "浮かべる",
+      "kana": "うかべる",
+      "romaji": "ukaberu",
+      "tokens": [
+        {
+          "text": "浮かべる",
+          "kana": "うかべる"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "赶出、轰出",
+      "japanese": "追い出す",
+      "kana": "おいだす",
+      "romaji": "oidasu",
+      "tokens": [
+        {
+          "text": "追い出す",
+          "kana": "おいだす"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "下沉",
+      "japanese": "沈む",
+      "kana": "しずむ",
+      "romaji": "shizumu",
+      "tokens": [
+        {
+          "text": "沈む",
+          "kana": "しずむ"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "战胜",
+      "japanese": "打ち勝つ",
+      "kana": "うちかつ",
+      "romaji": "uchikatsu",
+      "tokens": [
+        {
+          "text": "打ち勝つ",
+          "kana": "うちかつ"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "飞起来",
+      "japanese": "飛び立つ",
+      "kana": "とびたつ",
+      "romaji": "tobitatsu",
+      "tokens": [
+        {
+          "text": "飛び立つ",
+          "kana": "とびたつ"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "承担",
+      "japanese": "負う",
+      "kana": "おう",
+      "romaji": "ou",
+      "tokens": [
+        {
+          "text": "負う",
+          "kana": "おう"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "发射",
+      "japanese": "打ち上げる",
+      "kana": "うちあげる",
+      "romaji": "uchiageru",
+      "tokens": [
+        {
+          "text": "打ち上げる",
+          "kana": "うちあげる"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "竭尽全力",
+      "japanese": "尽くす",
+      "kana": "つくす",
+      "romaji": "tsukusu",
+      "tokens": [
+        {
+          "text": "尽くす",
+          "kana": "つくす"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "亲近",
+      "japanese": "親しむ",
+      "kana": "したしむ",
+      "romaji": "shitashimu",
+      "tokens": [
+        {
+          "text": "親しむ",
+          "kana": "したしむ"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "变迁",
+      "japanese": "移り変わる",
+      "kana": "うつりかわる",
+      "romaji": "utsurikawaru",
+      "tokens": [
+        {
+          "text": "移り変わる",
+          "kana": "うつりかわる"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "集中、概括",
+      "japanese": "纏まる",
+      "kana": "まとまる",
+      "romaji": "matomaru",
+      "tokens": [
+        {
+          "text": "纏まる",
+          "kana": "まとまる"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "守护、看护",
+      "japanese": "見守る",
+      "kana": "みまもる",
+      "romaji": "mimamoru",
+      "tokens": [
+        {
+          "text": "見守る",
+          "kana": "みまもる"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "占",
+      "japanese": "占める",
+      "kana": "しめる",
+      "romaji": "shimeru",
+      "tokens": [
+        {
+          "text": "占める",
+          "kana": "しめる"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "毁坏、破产、崩溃",
+      "japanese": "潰れる",
+      "kana": "つぶれる",
+      "romaji": "tsubureru",
+      "tokens": [
+        {
+          "text": "潰れる",
+          "kana": "つぶれる"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "重新考虑、重新看、检查",
+      "japanese": "見直す",
+      "kana": "みなおす",
+      "romaji": "minaosu",
+      "tokens": [
+        {
+          "text": "見直す",
+          "kana": "みなおす"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "赶上",
+      "japanese": "追いつく",
+      "kana": "おいつく",
+      "romaji": "oitsuku",
+      "tokens": [
+        {
+          "text": "追いつく",
+          "kana": "おいつく"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "炒",
+      "japanese": "炒める",
+      "kana": "いためる",
+      "romaji": "itameru",
+      "tokens": [
+        {
+          "text": "炒める",
+          "kana": "いためる"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "演出",
+      "japanese": "演じる",
+      "kana": "えんじる",
+      "romaji": "enjiru",
+      "tokens": [
+        {
+          "text": "演じる",
+          "kana": "えんじる"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "让～住宿",
+      "japanese": "泊まる",
+      "kana": "とまる",
+      "romaji": "tomaru",
+      "tokens": [
+        {
+          "text": "泊まる",
+          "kana": "とまる"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "继承",
+      "japanese": "受け継ぐ",
+      "kana": "うけつぐ",
+      "romaji": "uketsugu",
+      "tokens": [
+        {
+          "text": "受け継ぐ",
+          "kana": "うけつぐ"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "希望",
+      "japanese": "望む",
+      "kana": "のぞむ",
+      "romaji": "nozomu",
+      "tokens": [
+        {
+          "text": "望む",
+          "kana": "のぞむ"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "拯救",
+      "japanese": "救う",
+      "kana": "すくう",
+      "romaji": "sukuu",
+      "tokens": [
+        {
+          "text": "救う",
+          "kana": "すくう"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "跳出来、突然出现",
+      "japanese": "飛び出す",
+      "kana": "とびだす",
+      "romaji": "tobidasu",
+      "tokens": [
+        {
+          "text": "飛び出す",
+          "kana": "とびだす"
+        }
+      ]
+    }
+  ]
+}

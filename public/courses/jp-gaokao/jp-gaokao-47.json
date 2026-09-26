@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-47",
+  "coursePackId": "jp-gaokao",
+  "title": "名词低频 14",
+  "order": 47,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "入场券",
+      "japanese": "入场券",
+      "kana": "にゅうじょうけん",
+      "romaji": "nyuujouken",
+      "tokens": [
+        {
+          "text": "入场券",
+          "kana": "にゅうじょうけん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "筷子",
+      "japanese": "箸",
+      "kana": "はし",
+      "romaji": "hashi",
+      "tokens": [
+        {
+          "text": "箸",
+          "kana": "はし"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "拍手、鼓掌",
+      "japanese": "拍手",
+      "kana": "はくしゅ",
+      "romaji": "hakushu",
+      "tokens": [
+        {
+          "text": "拍手",
+          "kana": "はくしゅ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "发现",
+      "japanese": "発見",
+      "kana": "はっけん",
+      "romaji": "hakken",
+      "tokens": [
+        {
+          "text": "発見",
+          "kana": "はっけん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "小卖铺",
+      "japanese": "売店",
+      "kana": "ばいてん",
+      "romaji": "baiten",
+      "tokens": [
+        {
+          "text": "売店",
+          "kana": "ばいてん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "庭院",
+      "japanese": "庭",
+      "kana": "にわ",
+      "romaji": "niwa",
+      "tokens": [
+        {
+          "text": "庭",
+          "kana": "にわ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "范围",
+      "japanese": "範囲",
+      "kana": "はんい",
+      "romaji": "hani",
+      "tokens": [
+        {
+          "text": "範囲",
+          "kana": "はんい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "饮品、饮料",
+      "japanese": "飲み物",
+      "kana": "のみもの",
+      "romaji": "nomimono",
+      "tokens": [
+        {
+          "text": "飲み物",
+          "kana": "のみもの"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "破坏",
+      "japanese": "破壊",
+      "kana": "はかい",
+      "romaji": "hakai",
+      "tokens": [
+        {
+          "text": "破壊",
+          "kana": "はかい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "明信片",
+      "japanese": "葉書",
+      "kana": "はがき",
+      "romaji": "hagaki",
+      "tokens": [
+        {
+          "text": "葉書",
+          "kana": "はがき"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "农业",
+      "japanese": "農業",
+      "kana": "のうぎょう",
+      "romaji": "nougyou",
+      "tokens": [
+        {
+          "text": "農業",
+          "kana": "のうぎょう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "叶子",
+      "japanese": "葉",
+      "kana": "は",
+      "romaji": "ha",
+      "tokens": [
+        {
+          "text": "葉",
+          "kana": "は"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "发音",
+      "japanese": "発音",
+      "kana": "はつおん",
+      "romaji": "hatsuon",
+      "tokens": [
+        {
+          "text": "発音",
+          "kana": "はつおん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "发明",
+      "japanese": "発明",
+      "kana": "はつめい",
+      "romaji": "hatsumei",
+      "tokens": [
+        {
+          "text": "発明",
+          "kana": "はつめい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "场面、场景",
+      "japanese": "場面",
+      "kana": "ばめん",
+      "romaji": "bamen",
+      "tokens": [
+        {
+          "text": "場面",
+          "kana": "ばめん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "发达",
+      "japanese": "発達",
+      "kana": "はったつ",
+      "romaji": "hattatsu",
+      "tokens": [
+        {
+          "text": "発達",
+          "kana": "はったつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "农户、农家",
+      "japanese": "農家",
+      "kana": "のうか",
+      "romaji": "nouka",
+      "tokens": [
+        {
+          "text": "農家",
+          "kana": "のうか"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "布",
+      "japanese": "布",
+      "kana": "ぬの",
+      "romaji": "nuno",
+      "tokens": [
+        {
+          "text": "布",
+          "kana": "ぬの"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "场地、场所",
+      "japanese": "場",
+      "kana": "ば",
+      "romaji": "ba",
+      "tokens": [
+        {
+          "text": "場",
+          "kana": "ば"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "桥",
+      "japanese": "橋",
+      "kana": "はし",
+      "romaji": "hashi",
+      "tokens": [
+        {
+          "text": "橋",
+          "kana": "はし"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "睡懶觉",
+      "japanese": "寝坊",
+      "kana": "ねぼう",
+      "romaji": "nebou",
+      "tokens": [
+        {
+          "text": "寝坊",
+          "kana": "ねぼう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "年末",
+      "japanese": "年末",
+      "kana": "ねんまつ",
+      "romaji": "nenmatsu",
+      "tokens": [
+        {
+          "text": "年末",
+          "kana": "ねんまつ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "早起",
+      "japanese": "早起き",
+      "kana": "はやおき",
+      "romaji": "hayaoki",
+      "tokens": [
+        {
+          "text": "早起き",
+          "kana": "はやおき"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "猫",
+      "japanese": "猫",
+      "kana": "ねこ",
+      "romaji": "neko",
+      "tokens": [
+        {
+          "text": "猫",
+          "kana": "ねこ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "背景",
+      "japanese": "背景",
+      "kana": "はいけい",
+      "romaji": "haikei",
+      "tokens": [
+        {
+          "text": "背景",
+          "kana": "はいけい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "晴、晴天",
+      "japanese": "晴",
+      "kana": "はれ",
+      "romaji": "hare",
+      "tokens": [
+        {
+          "text": "晴",
+          "kana": "はれ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "葱",
+      "japanese": "葱",
+      "kana": "ねぎ",
+      "romaji": "negi",
+      "tokens": [
+        {
+          "text": "葱",
+          "kana": "ねぎ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "人偶",
+      "japanese": "人形",
+      "kana": "にんぎょう",
+      "romaji": "ningyou",
+      "tokens": [
+        {
+          "text": "人形",
+          "kana": "にんぎょう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "赏花、赏樱",
+      "japanese": "花見",
+      "kana": "はなみ",
+      "romaji": "hanami",
+      "tokens": [
+        {
+          "text": "花見",
+          "kana": "はなみ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "鼻子",
+      "japanese": "鼻",
+      "kana": "はな",
+      "romaji": "hana",
+      "tokens": [
+        {
+          "text": "鼻",
+          "kana": "はな"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "赏花、赏樱",
+      "japanese": "花見",
+      "kana": "はなみ",
+      "romaji": "hanami",
+      "tokens": [
+        {
+          "text": "花見",
+          "kana": "はなみ"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "鼻子",
+      "japanese": "鼻",
+      "kana": "はな",
+      "romaji": "hana",
+      "tokens": [
+        {
+          "text": "鼻",
+          "kana": "はな"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "农业",
+      "japanese": "農業",
+      "kana": "のうぎょう",
+      "romaji": "nougyou",
+      "tokens": [
+        {
+          "text": "農業",
+          "kana": "のうぎょう"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "发达",
+      "japanese": "発達",
+      "kana": "はったつ",
+      "romaji": "hattatsu",
+      "tokens": [
+        {
+          "text": "発達",
+          "kana": "はったつ"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "场地、场所",
+      "japanese": "場",
+      "kana": "ば",
+      "romaji": "ba",
+      "tokens": [
+        {
+          "text": "場",
+          "kana": "ば"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "晴、晴天",
+      "japanese": "晴",
+      "kana": "はれ",
+      "romaji": "hare",
+      "tokens": [
+        {
+          "text": "晴",
+          "kana": "はれ"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "入场券",
+      "japanese": "入场券",
+      "kana": "にゅうじょうけん",
+      "romaji": "nyuujouken",
+      "tokens": [
+        {
+          "text": "入场券",
+          "kana": "にゅうじょうけん"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "桥",
+      "japanese": "橋",
+      "kana": "はし",
+      "romaji": "hashi",
+      "tokens": [
+        {
+          "text": "橋",
+          "kana": "はし"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "发明",
+      "japanese": "発明",
+      "kana": "はつめい",
+      "romaji": "hatsumei",
+      "tokens": [
+        {
+          "text": "発明",
+          "kana": "はつめい"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "场面、场景",
+      "japanese": "場面",
+      "kana": "ばめん",
+      "romaji": "bamen",
+      "tokens": [
+        {
+          "text": "場面",
+          "kana": "ばめん"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "饮品、饮料",
+      "japanese": "飲み物",
+      "kana": "のみもの",
+      "romaji": "nomimono",
+      "tokens": [
+        {
+          "text": "飲み物",
+          "kana": "のみもの"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "筷子",
+      "japanese": "箸",
+      "kana": "はし",
+      "romaji": "hashi",
+      "tokens": [
+        {
+          "text": "箸",
+          "kana": "はし"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "早起",
+      "japanese": "早起き",
+      "kana": "はやおき",
+      "romaji": "hayaoki",
+      "tokens": [
+        {
+          "text": "早起き",
+          "kana": "はやおき"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "明信片",
+      "japanese": "葉書",
+      "kana": "はがき",
+      "romaji": "hagaki",
+      "tokens": [
+        {
+          "text": "葉書",
+          "kana": "はがき"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "农户、农家",
+      "japanese": "農家",
+      "kana": "のうか",
+      "romaji": "nouka",
+      "tokens": [
+        {
+          "text": "農家",
+          "kana": "のうか"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "猫",
+      "japanese": "猫",
+      "kana": "ねこ",
+      "romaji": "neko",
+      "tokens": [
+        {
+          "text": "猫",
+          "kana": "ねこ"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "小卖铺",
+      "japanese": "売店",
+      "kana": "ばいてん",
+      "romaji": "baiten",
+      "tokens": [
+        {
+          "text": "売店",
+          "kana": "ばいてん"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "葱",
+      "japanese": "葱",
+      "kana": "ねぎ",
+      "romaji": "negi",
+      "tokens": [
+        {
+          "text": "葱",
+          "kana": "ねぎ"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "庭院",
+      "japanese": "庭",
+      "kana": "にわ",
+      "romaji": "niwa",
+      "tokens": [
+        {
+          "text": "庭",
+          "kana": "にわ"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "发现",
+      "japanese": "発見",
+      "kana": "はっけん",
+      "romaji": "hakken",
+      "tokens": [
+        {
+          "text": "発見",
+          "kana": "はっけん"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "范围",
+      "japanese": "範囲",
+      "kana": "はんい",
+      "romaji": "hani",
+      "tokens": [
+        {
+          "text": "範囲",
+          "kana": "はんい"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "睡懶觉",
+      "japanese": "寝坊",
+      "kana": "ねぼう",
+      "romaji": "nebou",
+      "tokens": [
+        {
+          "text": "寝坊",
+          "kana": "ねぼう"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "人偶",
+      "japanese": "人形",
+      "kana": "にんぎょう",
+      "romaji": "ningyou",
+      "tokens": [
+        {
+          "text": "人形",
+          "kana": "にんぎょう"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "背景",
+      "japanese": "背景",
+      "kana": "はいけい",
+      "romaji": "haikei",
+      "tokens": [
+        {
+          "text": "背景",
+          "kana": "はいけい"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "叶子",
+      "japanese": "葉",
+      "kana": "は",
+      "romaji": "ha",
+      "tokens": [
+        {
+          "text": "葉",
+          "kana": "は"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "破坏",
+      "japanese": "破壊",
+      "kana": "はかい",
+      "romaji": "hakai",
+      "tokens": [
+        {
+          "text": "破壊",
+          "kana": "はかい"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "拍手、鼓掌",
+      "japanese": "拍手",
+      "kana": "はくしゅ",
+      "romaji": "hakushu",
+      "tokens": [
+        {
+          "text": "拍手",
+          "kana": "はくしゅ"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "年末",
+      "japanese": "年末",
+      "kana": "ねんまつ",
+      "romaji": "nenmatsu",
+      "tokens": [
+        {
+          "text": "年末",
+          "kana": "ねんまつ"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "发音",
+      "japanese": "発音",
+      "kana": "はつおん",
+      "romaji": "hatsuon",
+      "tokens": [
+        {
+          "text": "発音",
+          "kana": "はつおん"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "布",
+      "japanese": "布",
+      "kana": "ぬの",
+      "romaji": "nuno",
+      "tokens": [
+        {
+          "text": "布",
+          "kana": "ぬの"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "饮品、饮料",
+      "japanese": "飲み物",
+      "kana": "のみもの",
+      "romaji": "nomimono",
+      "tokens": [
+        {
+          "text": "飲み物",
+          "kana": "のみもの"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "发音",
+      "japanese": "発音",
+      "kana": "はつおん",
+      "romaji": "hatsuon",
+      "tokens": [
+        {
+          "text": "発音",
+          "kana": "はつおん"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "入场券",
+      "japanese": "入场券",
+      "kana": "にゅうじょうけん",
+      "romaji": "nyuujouken",
+      "tokens": [
+        {
+          "text": "入场券",
+          "kana": "にゅうじょうけん"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "桥",
+      "japanese": "橋",
+      "kana": "はし",
+      "romaji": "hashi",
+      "tokens": [
+        {
+          "text": "橋",
+          "kana": "はし"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "场面、场景",
+      "japanese": "場面",
+      "kana": "ばめん",
+      "romaji": "bamen",
+      "tokens": [
+        {
+          "text": "場面",
+          "kana": "ばめん"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "明信片",
+      "japanese": "葉書",
+      "kana": "はがき",
+      "romaji": "hagaki",
+      "tokens": [
+        {
+          "text": "葉書",
+          "kana": "はがき"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "发明",
+      "japanese": "発明",
+      "kana": "はつめい",
+      "romaji": "hatsumei",
+      "tokens": [
+        {
+          "text": "発明",
+          "kana": "はつめい"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "拍手、鼓掌",
+      "japanese": "拍手",
+      "kana": "はくしゅ",
+      "romaji": "hakushu",
+      "tokens": [
+        {
+          "text": "拍手",
+          "kana": "はくしゅ"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "发达",
+      "japanese": "発達",
+      "kana": "はったつ",
+      "romaji": "hattatsu",
+      "tokens": [
+        {
+          "text": "発達",
+          "kana": "はったつ"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "范围",
+      "japanese": "範囲",
+      "kana": "はんい",
+      "romaji": "hani",
+      "tokens": [
+        {
+          "text": "範囲",
+          "kana": "はんい"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "赏花、赏樱",
+      "japanese": "花見",
+      "kana": "はなみ",
+      "romaji": "hanami",
+      "tokens": [
+        {
+          "text": "花見",
+          "kana": "はなみ"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "发现",
+      "japanese": "発見",
+      "kana": "はっけん",
+      "romaji": "hakken",
+      "tokens": [
+        {
+          "text": "発見",
+          "kana": "はっけん"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "葱",
+      "japanese": "葱",
+      "kana": "ねぎ",
+      "romaji": "negi",
+      "tokens": [
+        {
+          "text": "葱",
+          "kana": "ねぎ"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "早起",
+      "japanese": "早起き",
+      "kana": "はやおき",
+      "romaji": "hayaoki",
+      "tokens": [
+        {
+          "text": "早起き",
+          "kana": "はやおき"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "破坏",
+      "japanese": "破壊",
+      "kana": "はかい",
+      "romaji": "hakai",
+      "tokens": [
+        {
+          "text": "破壊",
+          "kana": "はかい"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "猫",
+      "japanese": "猫",
+      "kana": "ねこ",
+      "romaji": "neko",
+      "tokens": [
+        {
+          "text": "猫",
+          "kana": "ねこ"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "场地、场所",
+      "japanese": "場",
+      "kana": "ば",
+      "romaji": "ba",
+      "tokens": [
+        {
+          "text": "場",
+          "kana": "ば"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "布",
+      "japanese": "布",
+      "kana": "ぬの",
+      "romaji": "nuno",
+      "tokens": [
+        {
+          "text": "布",
+          "kana": "ぬの"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "晴、晴天",
+      "japanese": "晴",
+      "kana": "はれ",
+      "romaji": "hare",
+      "tokens": [
+        {
+          "text": "晴",
+          "kana": "はれ"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "睡懶觉",
+      "japanese": "寝坊",
+      "kana": "ねぼう",
+      "romaji": "nebou",
+      "tokens": [
+        {
+          "text": "寝坊",
+          "kana": "ねぼう"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "叶子",
+      "japanese": "葉",
+      "kana": "は",
+      "romaji": "ha",
+      "tokens": [
+        {
+          "text": "葉",
+          "kana": "は"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "农业",
+      "japanese": "農業",
+      "kana": "のうぎょう",
+      "romaji": "nougyou",
+      "tokens": [
+        {
+          "text": "農業",
+          "kana": "のうぎょう"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "小卖铺",
+      "japanese": "売店",
+      "kana": "ばいてん",
+      "romaji": "baiten",
+      "tokens": [
+        {
+          "text": "売店",
+          "kana": "ばいてん"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "筷子",
+      "japanese": "箸",
+      "kana": "はし",
+      "romaji": "hashi",
+      "tokens": [
+        {
+          "text": "箸",
+          "kana": "はし"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "鼻子",
+      "japanese": "鼻",
+      "kana": "はな",
+      "romaji": "hana",
+      "tokens": [
+        {
+          "text": "鼻",
+          "kana": "はな"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "农户、农家",
+      "japanese": "農家",
+      "kana": "のうか",
+      "romaji": "nouka",
+      "tokens": [
+        {
+          "text": "農家",
+          "kana": "のうか"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "背景",
+      "japanese": "背景",
+      "kana": "はいけい",
+      "romaji": "haikei",
+      "tokens": [
+        {
+          "text": "背景",
+          "kana": "はいけい"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "庭院",
+      "japanese": "庭",
+      "kana": "にわ",
+      "romaji": "niwa",
+      "tokens": [
+        {
+          "text": "庭",
+          "kana": "にわ"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "人偶",
+      "japanese": "人形",
+      "kana": "にんぎょう",
+      "romaji": "ningyou",
+      "tokens": [
+        {
+          "text": "人形",
+          "kana": "にんぎょう"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "年末",
+      "japanese": "年末",
+      "kana": "ねんまつ",
+      "romaji": "nenmatsu",
+      "tokens": [
+        {
+          "text": "年末",
+          "kana": "ねんまつ"
+        }
+      ]
+    }
+  ]
+}

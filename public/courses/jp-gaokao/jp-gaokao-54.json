@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-54",
+  "coursePackId": "jp-gaokao",
+  "title": "外来语 1",
+  "order": 54,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "能量",
+      "japanese": "エネルギー",
+      "kana": "えねるぎー",
+      "romaji": "enerugii",
+      "tokens": [
+        {
+          "text": "エネルギー",
+          "kana": "えねるぎー"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "相册",
+      "japanese": "アルバム",
+      "kana": "あるばむ",
+      "romaji": "arubamu",
+      "tokens": [
+        {
+          "text": "アルバム",
+          "kana": "あるばむ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "互联网",
+      "japanese": "インターネット",
+      "kana": "いんたーねっと",
+      "romaji": "intaanetto",
+      "tokens": [
+        {
+          "text": "インターネット",
+          "kana": "いんたーねっと"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "卡拉 OK",
+      "japanese": "カラオケ",
+      "kana": "からおけ",
+      "romaji": "karaoke",
+      "tokens": [
+        {
+          "text": "カラオケ",
+          "kana": "からおけ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "电梯",
+      "japanese": "エレベーター",
+      "kana": "えれべーたー",
+      "romaji": "erebeetaa",
+      "tokens": [
+        {
+          "text": "エレベーター",
+          "kana": "えれべーたー"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "卡片",
+      "japanese": "カード",
+      "kana": "かーど",
+      "romaji": "kaado",
+      "tokens": [
+        {
+          "text": "カード",
+          "kana": "かーど"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "日历",
+      "japanese": "カレンダー",
+      "kana": "かれんだー",
+      "romaji": "karendaa",
+      "tokens": [
+        {
+          "text": "カレンダー",
+          "kana": "かれんだー"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "卷心菜",
+      "japanese": "キャベツ",
+      "kana": "きゃべつ",
+      "romaji": "kyabetsu",
+      "tokens": [
+        {
+          "text": "キャベツ",
+          "kana": "きゃべつ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "校园",
+      "japanese": "キャンパス",
+      "kana": "きゃんぱす",
+      "romaji": "kyanpasu",
+      "tokens": [
+        {
+          "text": "キャンパス",
+          "kana": "きゃんぱす"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "汽油",
+      "japanese": "ガソリン",
+      "kana": "がそりん",
+      "romaji": "gasorin",
+      "tokens": [
+        {
+          "text": "ガソリン",
+          "kana": "がそりん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "问卷",
+      "japanese": "アンケート",
+      "kana": "あんけーと",
+      "romaji": "ankeeto",
+      "tokens": [
+        {
+          "text": "アンケート",
+          "kana": "あんけーと"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "建议",
+      "japanese": "アドバイス",
+      "kana": "あどばいす",
+      "romaji": "adobaisu",
+      "tokens": [
+        {
+          "text": "アドバイス",
+          "kana": "あどばいす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "点子，创意",
+      "japanese": "アイデア",
+      "kana": "あいであ",
+      "romaji": "aidea",
+      "tokens": [
+        {
+          "text": "アイデア",
+          "kana": "あいであ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "磁带",
+      "japanese": "カセット",
+      "kana": "かせっと",
+      "romaji": "kasetto",
+      "tokens": [
+        {
+          "text": "カセット",
+          "kana": "かせっと"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "澳大利亚",
+      "japanese": "オーストラリア",
+      "kana": "おーすとらりあ",
+      "romaji": "oosutoraria",
+      "tokens": [
+        {
+          "text": "オーストラリア",
+          "kana": "おーすとらりあ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "开放",
+      "japanese": "オープン",
+      "kana": "おーぷん",
+      "romaji": "oopun",
+      "tokens": [
+        {
+          "text": "オープン",
+          "kana": "おーぷん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "公寓",
+      "japanese": "アパート",
+      "kana": "あぱーと",
+      "romaji": "apaato",
+      "tokens": [
+        {
+          "text": "アパート",
+          "kana": "あぱーと"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "千克，公里",
+      "japanese": "キロ",
+      "kana": "きろ",
+      "romaji": "kiro",
+      "tokens": [
+        {
+          "text": "キロ",
+          "kana": "きろ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "照相机",
+      "japanese": "カメラ",
+      "kana": "かめら",
+      "romaji": "kamera",
+      "tokens": [
+        {
+          "text": "カメラ",
+          "kana": "かめら"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "非洲",
+      "japanese": "アフリカ",
+      "kana": "あふりか",
+      "romaji": "afurika",
+      "tokens": [
+        {
+          "text": "アフリカ",
+          "kana": "あふりか"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "气体",
+      "japanese": "ガス",
+      "kana": "がす",
+      "romaji": "gasu",
+      "tokens": [
+        {
+          "text": "ガス",
+          "kana": "がす"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "英文字母",
+      "japanese": "アルファベット",
+      "kana": "あるふぁべっと",
+      "romaji": "arufuabetto",
+      "tokens": [
+        {
+          "text": "アルファベット",
+          "kana": "あるふぁべっと"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "动画片",
+      "japanese": "アニメ",
+      "kana": "あにめ",
+      "romaji": "anime",
+      "tokens": [
+        {
+          "text": "アニメ",
+          "kana": "あにめ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "形象",
+      "japanese": "イメージ",
+      "kana": "いめーじ",
+      "romaji": "imeeji",
+      "tokens": [
+        {
+          "text": "イメージ",
+          "kana": "いめーじ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "窗帘",
+      "japanese": "カーテン",
+      "kana": "かーてん",
+      "romaji": "kaaten",
+      "tokens": [
+        {
+          "text": "カーテン",
+          "kana": "かーてん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "亚洲",
+      "japanese": "アジア",
+      "kana": "あじあ",
+      "romaji": "ajia",
+      "tokens": [
+        {
+          "text": "アジア",
+          "kana": "あじあ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "空调",
+      "japanese": "エアコン",
+      "kana": "えあこん",
+      "romaji": "eakon",
+      "tokens": [
+        {
+          "text": "エアコン",
+          "kana": "えあこん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "向导",
+      "japanese": "ガイド",
+      "kana": "がいど",
+      "romaji": "gaido",
+      "tokens": [
+        {
+          "text": "ガイド",
+          "kana": "がいど"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "打工",
+      "japanese": "アルバイト",
+      "kana": "あるばいと",
+      "romaji": "arubaito",
+      "tokens": [
+        {
+          "text": "アルバイト",
+          "kana": "あるばいと"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "奥运会",
+      "japanese": "オリンピック",
+      "kana": "おりんぴっく",
+      "romaji": "orinpikku",
+      "tokens": [
+        {
+          "text": "オリンピック",
+          "kana": "おりんぴっく"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "空调",
+      "japanese": "エアコン",
+      "kana": "えあこん",
+      "romaji": "eakon",
+      "tokens": [
+        {
+          "text": "エアコン",
+          "kana": "えあこん"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "校园",
+      "japanese": "キャンパス",
+      "kana": "きゃんぱす",
+      "romaji": "kyanpasu",
+      "tokens": [
+        {
+          "text": "キャンパス",
+          "kana": "きゃんぱす"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "问卷",
+      "japanese": "アンケート",
+      "kana": "あんけーと",
+      "romaji": "ankeeto",
+      "tokens": [
+        {
+          "text": "アンケート",
+          "kana": "あんけーと"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "磁带",
+      "japanese": "カセット",
+      "kana": "かせっと",
+      "romaji": "kasetto",
+      "tokens": [
+        {
+          "text": "カセット",
+          "kana": "かせっと"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "窗帘",
+      "japanese": "カーテン",
+      "kana": "かーてん",
+      "romaji": "kaaten",
+      "tokens": [
+        {
+          "text": "カーテン",
+          "kana": "かーてん"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "澳大利亚",
+      "japanese": "オーストラリア",
+      "kana": "おーすとらりあ",
+      "romaji": "oosutoraria",
+      "tokens": [
+        {
+          "text": "オーストラリア",
+          "kana": "おーすとらりあ"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "向导",
+      "japanese": "ガイド",
+      "kana": "がいど",
+      "romaji": "gaido",
+      "tokens": [
+        {
+          "text": "ガイド",
+          "kana": "がいど"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "能量",
+      "japanese": "エネルギー",
+      "kana": "えねるぎー",
+      "romaji": "enerugii",
+      "tokens": [
+        {
+          "text": "エネルギー",
+          "kana": "えねるぎー"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "奥运会",
+      "japanese": "オリンピック",
+      "kana": "おりんぴっく",
+      "romaji": "orinpikku",
+      "tokens": [
+        {
+          "text": "オリンピック",
+          "kana": "おりんぴっく"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "相册",
+      "japanese": "アルバム",
+      "kana": "あるばむ",
+      "romaji": "arubamu",
+      "tokens": [
+        {
+          "text": "アルバム",
+          "kana": "あるばむ"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "动画片",
+      "japanese": "アニメ",
+      "kana": "あにめ",
+      "romaji": "anime",
+      "tokens": [
+        {
+          "text": "アニメ",
+          "kana": "あにめ"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "汽油",
+      "japanese": "ガソリン",
+      "kana": "がそりん",
+      "romaji": "gasorin",
+      "tokens": [
+        {
+          "text": "ガソリン",
+          "kana": "がそりん"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "千克，公里",
+      "japanese": "キロ",
+      "kana": "きろ",
+      "romaji": "kiro",
+      "tokens": [
+        {
+          "text": "キロ",
+          "kana": "きろ"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "电梯",
+      "japanese": "エレベーター",
+      "kana": "えれべーたー",
+      "romaji": "erebeetaa",
+      "tokens": [
+        {
+          "text": "エレベーター",
+          "kana": "えれべーたー"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "开放",
+      "japanese": "オープン",
+      "kana": "おーぷん",
+      "romaji": "oopun",
+      "tokens": [
+        {
+          "text": "オープン",
+          "kana": "おーぷん"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "公寓",
+      "japanese": "アパート",
+      "kana": "あぱーと",
+      "romaji": "apaato",
+      "tokens": [
+        {
+          "text": "アパート",
+          "kana": "あぱーと"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "打工",
+      "japanese": "アルバイト",
+      "kana": "あるばいと",
+      "romaji": "arubaito",
+      "tokens": [
+        {
+          "text": "アルバイト",
+          "kana": "あるばいと"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "非洲",
+      "japanese": "アフリカ",
+      "kana": "あふりか",
+      "romaji": "afurika",
+      "tokens": [
+        {
+          "text": "アフリカ",
+          "kana": "あふりか"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "建议",
+      "japanese": "アドバイス",
+      "kana": "あどばいす",
+      "romaji": "adobaisu",
+      "tokens": [
+        {
+          "text": "アドバイス",
+          "kana": "あどばいす"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "卡拉 OK",
+      "japanese": "カラオケ",
+      "kana": "からおけ",
+      "romaji": "karaoke",
+      "tokens": [
+        {
+          "text": "カラオケ",
+          "kana": "からおけ"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "日历",
+      "japanese": "カレンダー",
+      "kana": "かれんだー",
+      "romaji": "karendaa",
+      "tokens": [
+        {
+          "text": "カレンダー",
+          "kana": "かれんだー"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "英文字母",
+      "japanese": "アルファベット",
+      "kana": "あるふぁべっと",
+      "romaji": "arufuabetto",
+      "tokens": [
+        {
+          "text": "アルファベット",
+          "kana": "あるふぁべっと"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "卷心菜",
+      "japanese": "キャベツ",
+      "kana": "きゃべつ",
+      "romaji": "kyabetsu",
+      "tokens": [
+        {
+          "text": "キャベツ",
+          "kana": "きゃべつ"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "亚洲",
+      "japanese": "アジア",
+      "kana": "あじあ",
+      "romaji": "ajia",
+      "tokens": [
+        {
+          "text": "アジア",
+          "kana": "あじあ"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "卡片",
+      "japanese": "カード",
+      "kana": "かーど",
+      "romaji": "kaado",
+      "tokens": [
+        {
+          "text": "カード",
+          "kana": "かーど"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "形象",
+      "japanese": "イメージ",
+      "kana": "いめーじ",
+      "romaji": "imeeji",
+      "tokens": [
+        {
+          "text": "イメージ",
+          "kana": "いめーじ"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "互联网",
+      "japanese": "インターネット",
+      "kana": "いんたーねっと",
+      "romaji": "intaanetto",
+      "tokens": [
+        {
+          "text": "インターネット",
+          "kana": "いんたーねっと"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "气体",
+      "japanese": "ガス",
+      "kana": "がす",
+      "romaji": "gasu",
+      "tokens": [
+        {
+          "text": "ガス",
+          "kana": "がす"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "照相机",
+      "japanese": "カメラ",
+      "kana": "かめら",
+      "romaji": "kamera",
+      "tokens": [
+        {
+          "text": "カメラ",
+          "kana": "かめら"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "点子，创意",
+      "japanese": "アイデア",
+      "kana": "あいであ",
+      "romaji": "aidea",
+      "tokens": [
+        {
+          "text": "アイデア",
+          "kana": "あいであ"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "非洲",
+      "japanese": "アフリカ",
+      "kana": "あふりか",
+      "romaji": "afurika",
+      "tokens": [
+        {
+          "text": "アフリカ",
+          "kana": "あふりか"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "公寓",
+      "japanese": "アパート",
+      "kana": "あぱーと",
+      "romaji": "apaato",
+      "tokens": [
+        {
+          "text": "アパート",
+          "kana": "あぱーと"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "空调",
+      "japanese": "エアコン",
+      "kana": "えあこん",
+      "romaji": "eakon",
+      "tokens": [
+        {
+          "text": "エアコン",
+          "kana": "えあこん"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "开放",
+      "japanese": "オープン",
+      "kana": "おーぷん",
+      "romaji": "oopun",
+      "tokens": [
+        {
+          "text": "オープン",
+          "kana": "おーぷん"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "形象",
+      "japanese": "イメージ",
+      "kana": "いめーじ",
+      "romaji": "imeeji",
+      "tokens": [
+        {
+          "text": "イメージ",
+          "kana": "いめーじ"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "卡片",
+      "japanese": "カード",
+      "kana": "かーど",
+      "romaji": "kaado",
+      "tokens": [
+        {
+          "text": "カード",
+          "kana": "かーど"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "向导",
+      "japanese": "ガイド",
+      "kana": "がいど",
+      "romaji": "gaido",
+      "tokens": [
+        {
+          "text": "ガイド",
+          "kana": "がいど"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "窗帘",
+      "japanese": "カーテン",
+      "kana": "かーてん",
+      "romaji": "kaaten",
+      "tokens": [
+        {
+          "text": "カーテン",
+          "kana": "かーてん"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "电梯",
+      "japanese": "エレベーター",
+      "kana": "えれべーたー",
+      "romaji": "erebeetaa",
+      "tokens": [
+        {
+          "text": "エレベーター",
+          "kana": "えれべーたー"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "千克，公里",
+      "japanese": "キロ",
+      "kana": "きろ",
+      "romaji": "kiro",
+      "tokens": [
+        {
+          "text": "キロ",
+          "kana": "きろ"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "磁带",
+      "japanese": "カセット",
+      "kana": "かせっと",
+      "romaji": "kasetto",
+      "tokens": [
+        {
+          "text": "カセット",
+          "kana": "かせっと"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "动画片",
+      "japanese": "アニメ",
+      "kana": "あにめ",
+      "romaji": "anime",
+      "tokens": [
+        {
+          "text": "アニメ",
+          "kana": "あにめ"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "亚洲",
+      "japanese": "アジア",
+      "kana": "あじあ",
+      "romaji": "ajia",
+      "tokens": [
+        {
+          "text": "アジア",
+          "kana": "あじあ"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "澳大利亚",
+      "japanese": "オーストラリア",
+      "kana": "おーすとらりあ",
+      "romaji": "oosutoraria",
+      "tokens": [
+        {
+          "text": "オーストラリア",
+          "kana": "おーすとらりあ"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "卷心菜",
+      "japanese": "キャベツ",
+      "kana": "きゃべつ",
+      "romaji": "kyabetsu",
+      "tokens": [
+        {
+          "text": "キャベツ",
+          "kana": "きゃべつ"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "英文字母",
+      "japanese": "アルファベット",
+      "kana": "あるふぁべっと",
+      "romaji": "arufuabetto",
+      "tokens": [
+        {
+          "text": "アルファベット",
+          "kana": "あるふぁべっと"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "互联网",
+      "japanese": "インターネット",
+      "kana": "いんたーねっと",
+      "romaji": "intaanetto",
+      "tokens": [
+        {
+          "text": "インターネット",
+          "kana": "いんたーねっと"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "日历",
+      "japanese": "カレンダー",
+      "kana": "かれんだー",
+      "romaji": "karendaa",
+      "tokens": [
+        {
+          "text": "カレンダー",
+          "kana": "かれんだー"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "校园",
+      "japanese": "キャンパス",
+      "kana": "きゃんぱす",
+      "romaji": "kyanpasu",
+      "tokens": [
+        {
+          "text": "キャンパス",
+          "kana": "きゃんぱす"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "气体",
+      "japanese": "ガス",
+      "kana": "がす",
+      "romaji": "gasu",
+      "tokens": [
+        {
+          "text": "ガス",
+          "kana": "がす"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "卡拉 OK",
+      "japanese": "カラオケ",
+      "kana": "からおけ",
+      "romaji": "karaoke",
+      "tokens": [
+        {
+          "text": "カラオケ",
+          "kana": "からおけ"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "相册",
+      "japanese": "アルバム",
+      "kana": "あるばむ",
+      "romaji": "arubamu",
+      "tokens": [
+        {
+          "text": "アルバム",
+          "kana": "あるばむ"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "能量",
+      "japanese": "エネルギー",
+      "kana": "えねるぎー",
+      "romaji": "enerugii",
+      "tokens": [
+        {
+          "text": "エネルギー",
+          "kana": "えねるぎー"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "建议",
+      "japanese": "アドバイス",
+      "kana": "あどばいす",
+      "romaji": "adobaisu",
+      "tokens": [
+        {
+          "text": "アドバイス",
+          "kana": "あどばいす"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "点子，创意",
+      "japanese": "アイデア",
+      "kana": "あいであ",
+      "romaji": "aidea",
+      "tokens": [
+        {
+          "text": "アイデア",
+          "kana": "あいであ"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "问卷",
+      "japanese": "アンケート",
+      "kana": "あんけーと",
+      "romaji": "ankeeto",
+      "tokens": [
+        {
+          "text": "アンケート",
+          "kana": "あんけーと"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "汽油",
+      "japanese": "ガソリン",
+      "kana": "がそりん",
+      "romaji": "gasorin",
+      "tokens": [
+        {
+          "text": "ガソリン",
+          "kana": "がそりん"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "打工",
+      "japanese": "アルバイト",
+      "kana": "あるばいと",
+      "romaji": "arubaito",
+      "tokens": [
+        {
+          "text": "アルバイト",
+          "kana": "あるばいと"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "奥运会",
+      "japanese": "オリンピック",
+      "kana": "おりんぴっく",
+      "romaji": "orinpikku",
+      "tokens": [
+        {
+          "text": "オリンピック",
+          "kana": "おりんぴっく"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "照相机",
+      "japanese": "カメラ",
+      "kana": "かめら",
+      "romaji": "kamera",
+      "tokens": [
+        {
+          "text": "カメラ",
+          "kana": "かめら"
+        }
+      ]
+    }
+  ]
+}

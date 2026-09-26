@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-57",
+  "coursePackId": "jp-gaokao",
+  "title": "外来语 4",
+  "order": 57,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "西红柿",
+      "japanese": "トマト",
+      "kana": "とまと",
+      "romaji": "tomato",
+      "tokens": [
+        {
+          "text": "トマト",
+          "kana": "とまと"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "检查",
+      "japanese": "チェック",
+      "kana": "ちぇっく",
+      "romaji": "chiekku",
+      "tokens": [
+        {
+          "text": "チェック",
+          "kana": "ちぇっく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "篮球",
+      "japanese": "バスケットボール",
+      "kana": "ばすけっとぼーる",
+      "romaji": "basukettobooru",
+      "tokens": [
+        {
+          "text": "バスケットボール",
+          "kana": "ばすけっとぼーる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "电子游戏",
+      "japanese": "テレビゲーム",
+      "kana": "てれびげーむ",
+      "romaji": "terebigeemu",
+      "tokens": [
+        {
+          "text": "テレビゲーム",
+          "kana": "てれびげーむ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "电视剧",
+      "japanese": "ドラマ",
+      "kana": "どらま",
+      "romaji": "dorama",
+      "tokens": [
+        {
+          "text": "ドラマ",
+          "kana": "どらま"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "DVD",
+      "japanese": "ディーブイディー",
+      "kana": "でぃーぶいでぃー",
+      "romaji": "deiibuideii",
+      "tokens": [
+        {
+          "text": "ディーブイディー",
+          "kana": "でぃーぶいでぃー"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "新闻",
+      "japanese": "ニュース",
+      "kana": "にゅーす",
+      "romaji": "nyuusu",
+      "tokens": [
+        {
+          "text": "ニュース",
+          "kana": "にゅーす"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "测验",
+      "japanese": "テスト",
+      "kana": "てすと",
+      "romaji": "tesuto",
+      "tokens": [
+        {
+          "text": "テスト",
+          "kana": "てすと"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "百货商店",
+      "japanese": "デパート",
+      "kana": "でぱーと",
+      "romaji": "depaato",
+      "tokens": [
+        {
+          "text": "デパート",
+          "kana": "でぱーと"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "隧道",
+      "japanese": "トンネル",
+      "kana": "とんねる",
+      "romaji": "tonneru",
+      "tokens": [
+        {
+          "text": "トンネル",
+          "kana": "とんねる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "数据",
+      "japanese": "データ",
+      "kana": "でーた",
+      "romaji": "deeta",
+      "tokens": [
+        {
+          "text": "データ",
+          "kana": "でーた"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "笔记本",
+      "japanese": "ノート",
+      "kana": "のーと",
+      "romaji": "nooto",
+      "tokens": [
+        {
+          "text": "ノート",
+          "kana": "のーと"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "网球",
+      "japanese": "テニス",
+      "kana": "てにす",
+      "romaji": "tenisu",
+      "tokens": [
+        {
+          "text": "テニス",
+          "kana": "てにす"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "磁带",
+      "japanese": "テープ",
+      "kana": "てーぷ",
+      "romaji": "teepu",
+      "tokens": [
+        {
+          "text": "テープ",
+          "kana": "てーぷ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "郊游，远足",
+      "japanese": "ハイキング",
+      "kana": "はいきんぐ",
+      "romaji": "haikingu",
+      "tokens": [
+        {
+          "text": "ハイキング",
+          "kana": "はいきんぐ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "频道",
+      "japanese": "チャンネル",
+      "kana": "ちゃんねる",
+      "romaji": "channeru",
+      "tokens": [
+        {
+          "text": "チャンネル",
+          "kana": "ちゃんねる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "门",
+      "japanese": "ドア",
+      "kana": "どあ",
+      "romaji": "doa",
+      "tokens": [
+        {
+          "text": "ドア",
+          "kana": "どあ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "桌子",
+      "japanese": "テーブル",
+      "kana": "てーぶる",
+      "romaji": "teeburu",
+      "tokens": [
+        {
+          "text": "テーブル",
+          "kana": "てーぶる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "巴士",
+      "japanese": "バス",
+      "kana": "ばす",
+      "romaji": "basu",
+      "tokens": [
+        {
+          "text": "バス",
+          "kana": "ばす"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "电视",
+      "japanese": "テレビ",
+      "kana": "てれび",
+      "romaji": "terebi",
+      "tokens": [
+        {
+          "text": "テレビ",
+          "kana": "てれび"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "课本",
+      "japanese": "テキスト",
+      "kana": "てきすと",
+      "romaji": "tekisuto",
+      "tokens": [
+        {
+          "text": "テキスト",
+          "kana": "てきすと"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "高科技",
+      "japanese": "ハイテク",
+      "kana": "はいてく",
+      "romaji": "haiteku",
+      "tokens": [
+        {
+          "text": "ハイテク",
+          "kana": "はいてく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "刀",
+      "japanese": "ナイフ",
+      "kana": "ないふ",
+      "romaji": "naifu",
+      "tokens": [
+        {
+          "text": "ナイフ",
+          "kana": "ないふ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "设计",
+      "japanese": "デザイン",
+      "kana": "でざいん",
+      "romaji": "dezain",
+      "tokens": [
+        {
+          "text": "デザイン",
+          "kana": "でざいん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "晚会",
+      "japanese": "パーティー",
+      "kana": "ぱーてぃー",
+      "romaji": "paateii",
+      "tokens": [
+        {
+          "text": "パーティー",
+          "kana": "ぱーてぃー"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "领带",
+      "japanese": "ネクタイ",
+      "kana": "ねくたい",
+      "romaji": "nekutai",
+      "tokens": [
+        {
+          "text": "ネクタイ",
+          "kana": "ねくたい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "厕所",
+      "japanese": "トイレ",
+      "kana": "といれ",
+      "romaji": "toire",
+      "tokens": [
+        {
+          "text": "トイレ",
+          "kana": "といれ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "主题",
+      "japanese": "テーマ",
+      "kana": "てーま",
+      "romaji": "teema",
+      "tokens": [
+        {
+          "text": "テーマ",
+          "kana": "てーま"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "机会",
+      "japanese": "チャンス",
+      "kana": "ちゃんす",
+      "romaji": "chansu",
+      "tokens": [
+        {
+          "text": "チャンス",
+          "kana": "ちゃんす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "卡车",
+      "japanese": "トラック",
+      "kana": "とらっく",
+      "romaji": "torakku",
+      "tokens": [
+        {
+          "text": "トラック",
+          "kana": "とらっく"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "刀",
+      "japanese": "ナイフ",
+      "kana": "ないふ",
+      "romaji": "naifu",
+      "tokens": [
+        {
+          "text": "ナイフ",
+          "kana": "ないふ"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "卡车",
+      "japanese": "トラック",
+      "kana": "とらっく",
+      "romaji": "torakku",
+      "tokens": [
+        {
+          "text": "トラック",
+          "kana": "とらっく"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "频道",
+      "japanese": "チャンネル",
+      "kana": "ちゃんねる",
+      "romaji": "channeru",
+      "tokens": [
+        {
+          "text": "チャンネル",
+          "kana": "ちゃんねる"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "主题",
+      "japanese": "テーマ",
+      "kana": "てーま",
+      "romaji": "teema",
+      "tokens": [
+        {
+          "text": "テーマ",
+          "kana": "てーま"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "百货商店",
+      "japanese": "デパート",
+      "kana": "でぱーと",
+      "romaji": "depaato",
+      "tokens": [
+        {
+          "text": "デパート",
+          "kana": "でぱーと"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "隧道",
+      "japanese": "トンネル",
+      "kana": "とんねる",
+      "romaji": "tonneru",
+      "tokens": [
+        {
+          "text": "トンネル",
+          "kana": "とんねる"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "DVD",
+      "japanese": "ディーブイディー",
+      "kana": "でぃーぶいでぃー",
+      "romaji": "deiibuideii",
+      "tokens": [
+        {
+          "text": "ディーブイディー",
+          "kana": "でぃーぶいでぃー"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "检查",
+      "japanese": "チェック",
+      "kana": "ちぇっく",
+      "romaji": "chiekku",
+      "tokens": [
+        {
+          "text": "チェック",
+          "kana": "ちぇっく"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "机会",
+      "japanese": "チャンス",
+      "kana": "ちゃんす",
+      "romaji": "chansu",
+      "tokens": [
+        {
+          "text": "チャンス",
+          "kana": "ちゃんす"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "电子游戏",
+      "japanese": "テレビゲーム",
+      "kana": "てれびげーむ",
+      "romaji": "terebigeemu",
+      "tokens": [
+        {
+          "text": "テレビゲーム",
+          "kana": "てれびげーむ"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "西红柿",
+      "japanese": "トマト",
+      "kana": "とまと",
+      "romaji": "tomato",
+      "tokens": [
+        {
+          "text": "トマト",
+          "kana": "とまと"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "测验",
+      "japanese": "テスト",
+      "kana": "てすと",
+      "romaji": "tesuto",
+      "tokens": [
+        {
+          "text": "テスト",
+          "kana": "てすと"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "晚会",
+      "japanese": "パーティー",
+      "kana": "ぱーてぃー",
+      "romaji": "paateii",
+      "tokens": [
+        {
+          "text": "パーティー",
+          "kana": "ぱーてぃー"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "设计",
+      "japanese": "デザイン",
+      "kana": "でざいん",
+      "romaji": "dezain",
+      "tokens": [
+        {
+          "text": "デザイン",
+          "kana": "でざいん"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "门",
+      "japanese": "ドア",
+      "kana": "どあ",
+      "romaji": "doa",
+      "tokens": [
+        {
+          "text": "ドア",
+          "kana": "どあ"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "新闻",
+      "japanese": "ニュース",
+      "kana": "にゅーす",
+      "romaji": "nyuusu",
+      "tokens": [
+        {
+          "text": "ニュース",
+          "kana": "にゅーす"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "巴士",
+      "japanese": "バス",
+      "kana": "ばす",
+      "romaji": "basu",
+      "tokens": [
+        {
+          "text": "バス",
+          "kana": "ばす"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "网球",
+      "japanese": "テニス",
+      "kana": "てにす",
+      "romaji": "tenisu",
+      "tokens": [
+        {
+          "text": "テニス",
+          "kana": "てにす"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "数据",
+      "japanese": "データ",
+      "kana": "でーた",
+      "romaji": "deeta",
+      "tokens": [
+        {
+          "text": "データ",
+          "kana": "でーた"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "篮球",
+      "japanese": "バスケットボール",
+      "kana": "ばすけっとぼーる",
+      "romaji": "basukettobooru",
+      "tokens": [
+        {
+          "text": "バスケットボール",
+          "kana": "ばすけっとぼーる"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "桌子",
+      "japanese": "テーブル",
+      "kana": "てーぶる",
+      "romaji": "teeburu",
+      "tokens": [
+        {
+          "text": "テーブル",
+          "kana": "てーぶる"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "磁带",
+      "japanese": "テープ",
+      "kana": "てーぷ",
+      "romaji": "teepu",
+      "tokens": [
+        {
+          "text": "テープ",
+          "kana": "てーぷ"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "电视",
+      "japanese": "テレビ",
+      "kana": "てれび",
+      "romaji": "terebi",
+      "tokens": [
+        {
+          "text": "テレビ",
+          "kana": "てれび"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "郊游，远足",
+      "japanese": "ハイキング",
+      "kana": "はいきんぐ",
+      "romaji": "haikingu",
+      "tokens": [
+        {
+          "text": "ハイキング",
+          "kana": "はいきんぐ"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "高科技",
+      "japanese": "ハイテク",
+      "kana": "はいてく",
+      "romaji": "haiteku",
+      "tokens": [
+        {
+          "text": "ハイテク",
+          "kana": "はいてく"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "领带",
+      "japanese": "ネクタイ",
+      "kana": "ねくたい",
+      "romaji": "nekutai",
+      "tokens": [
+        {
+          "text": "ネクタイ",
+          "kana": "ねくたい"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "笔记本",
+      "japanese": "ノート",
+      "kana": "のーと",
+      "romaji": "nooto",
+      "tokens": [
+        {
+          "text": "ノート",
+          "kana": "のーと"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "课本",
+      "japanese": "テキスト",
+      "kana": "てきすと",
+      "romaji": "tekisuto",
+      "tokens": [
+        {
+          "text": "テキスト",
+          "kana": "てきすと"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "电视剧",
+      "japanese": "ドラマ",
+      "kana": "どらま",
+      "romaji": "dorama",
+      "tokens": [
+        {
+          "text": "ドラマ",
+          "kana": "どらま"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "厕所",
+      "japanese": "トイレ",
+      "kana": "といれ",
+      "romaji": "toire",
+      "tokens": [
+        {
+          "text": "トイレ",
+          "kana": "といれ"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "网球",
+      "japanese": "テニス",
+      "kana": "てにす",
+      "romaji": "tenisu",
+      "tokens": [
+        {
+          "text": "テニス",
+          "kana": "てにす"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "西红柿",
+      "japanese": "トマト",
+      "kana": "とまと",
+      "romaji": "tomato",
+      "tokens": [
+        {
+          "text": "トマト",
+          "kana": "とまと"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "百货商店",
+      "japanese": "デパート",
+      "kana": "でぱーと",
+      "romaji": "depaato",
+      "tokens": [
+        {
+          "text": "デパート",
+          "kana": "でぱーと"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "电视剧",
+      "japanese": "ドラマ",
+      "kana": "どらま",
+      "romaji": "dorama",
+      "tokens": [
+        {
+          "text": "ドラマ",
+          "kana": "どらま"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "领带",
+      "japanese": "ネクタイ",
+      "kana": "ねくたい",
+      "romaji": "nekutai",
+      "tokens": [
+        {
+          "text": "ネクタイ",
+          "kana": "ねくたい"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "检查",
+      "japanese": "チェック",
+      "kana": "ちぇっく",
+      "romaji": "chiekku",
+      "tokens": [
+        {
+          "text": "チェック",
+          "kana": "ちぇっく"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "DVD",
+      "japanese": "ディーブイディー",
+      "kana": "でぃーぶいでぃー",
+      "romaji": "deiibuideii",
+      "tokens": [
+        {
+          "text": "ディーブイディー",
+          "kana": "でぃーぶいでぃー"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "篮球",
+      "japanese": "バスケットボール",
+      "kana": "ばすけっとぼーる",
+      "romaji": "basukettobooru",
+      "tokens": [
+        {
+          "text": "バスケットボール",
+          "kana": "ばすけっとぼーる"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "机会",
+      "japanese": "チャンス",
+      "kana": "ちゃんす",
+      "romaji": "chansu",
+      "tokens": [
+        {
+          "text": "チャンス",
+          "kana": "ちゃんす"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "电视",
+      "japanese": "テレビ",
+      "kana": "てれび",
+      "romaji": "terebi",
+      "tokens": [
+        {
+          "text": "テレビ",
+          "kana": "てれび"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "主题",
+      "japanese": "テーマ",
+      "kana": "てーま",
+      "romaji": "teema",
+      "tokens": [
+        {
+          "text": "テーマ",
+          "kana": "てーま"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "厕所",
+      "japanese": "トイレ",
+      "kana": "といれ",
+      "romaji": "toire",
+      "tokens": [
+        {
+          "text": "トイレ",
+          "kana": "といれ"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "门",
+      "japanese": "ドア",
+      "kana": "どあ",
+      "romaji": "doa",
+      "tokens": [
+        {
+          "text": "ドア",
+          "kana": "どあ"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "郊游，远足",
+      "japanese": "ハイキング",
+      "kana": "はいきんぐ",
+      "romaji": "haikingu",
+      "tokens": [
+        {
+          "text": "ハイキング",
+          "kana": "はいきんぐ"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "设计",
+      "japanese": "デザイン",
+      "kana": "でざいん",
+      "romaji": "dezain",
+      "tokens": [
+        {
+          "text": "デザイン",
+          "kana": "でざいん"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "巴士",
+      "japanese": "バス",
+      "kana": "ばす",
+      "romaji": "basu",
+      "tokens": [
+        {
+          "text": "バス",
+          "kana": "ばす"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "隧道",
+      "japanese": "トンネル",
+      "kana": "とんねる",
+      "romaji": "tonneru",
+      "tokens": [
+        {
+          "text": "トンネル",
+          "kana": "とんねる"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "桌子",
+      "japanese": "テーブル",
+      "kana": "てーぶる",
+      "romaji": "teeburu",
+      "tokens": [
+        {
+          "text": "テーブル",
+          "kana": "てーぶる"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "测验",
+      "japanese": "テスト",
+      "kana": "てすと",
+      "romaji": "tesuto",
+      "tokens": [
+        {
+          "text": "テスト",
+          "kana": "てすと"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "高科技",
+      "japanese": "ハイテク",
+      "kana": "はいてく",
+      "romaji": "haiteku",
+      "tokens": [
+        {
+          "text": "ハイテク",
+          "kana": "はいてく"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "笔记本",
+      "japanese": "ノート",
+      "kana": "のーと",
+      "romaji": "nooto",
+      "tokens": [
+        {
+          "text": "ノート",
+          "kana": "のーと"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "晚会",
+      "japanese": "パーティー",
+      "kana": "ぱーてぃー",
+      "romaji": "paateii",
+      "tokens": [
+        {
+          "text": "パーティー",
+          "kana": "ぱーてぃー"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "卡车",
+      "japanese": "トラック",
+      "kana": "とらっく",
+      "romaji": "torakku",
+      "tokens": [
+        {
+          "text": "トラック",
+          "kana": "とらっく"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "新闻",
+      "japanese": "ニュース",
+      "kana": "にゅーす",
+      "romaji": "nyuusu",
+      "tokens": [
+        {
+          "text": "ニュース",
+          "kana": "にゅーす"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "磁带",
+      "japanese": "テープ",
+      "kana": "てーぷ",
+      "romaji": "teepu",
+      "tokens": [
+        {
+          "text": "テープ",
+          "kana": "てーぷ"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "频道",
+      "japanese": "チャンネル",
+      "kana": "ちゃんねる",
+      "romaji": "channeru",
+      "tokens": [
+        {
+          "text": "チャンネル",
+          "kana": "ちゃんねる"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "课本",
+      "japanese": "テキスト",
+      "kana": "てきすと",
+      "romaji": "tekisuto",
+      "tokens": [
+        {
+          "text": "テキスト",
+          "kana": "てきすと"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "刀",
+      "japanese": "ナイフ",
+      "kana": "ないふ",
+      "romaji": "naifu",
+      "tokens": [
+        {
+          "text": "ナイフ",
+          "kana": "ないふ"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "数据",
+      "japanese": "データ",
+      "kana": "でーた",
+      "romaji": "deeta",
+      "tokens": [
+        {
+          "text": "データ",
+          "kana": "でーた"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "电子游戏",
+      "japanese": "テレビゲーム",
+      "kana": "てれびげーむ",
+      "romaji": "terebigeemu",
+      "tokens": [
+        {
+          "text": "テレビゲーム",
+          "kana": "てれびげーむ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-55",
+  "coursePackId": "jp-gaokao",
+  "title": "外来语 2",
+  "order": 55,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "成本",
+      "japanese": "コスト",
+      "kana": "こすと",
+      "romaji": "kosuto",
+      "tokens": [
+        {
+          "text": "コスト",
+          "kana": "こすと"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "路线，学科",
+      "japanese": "コース",
+      "kana": "こーす",
+      "romaji": "koosu",
+      "tokens": [
+        {
+          "text": "コース",
+          "kana": "こーす"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "服务",
+      "japanese": "サービス",
+      "kana": "さーびす",
+      "romaji": "saabisu",
+      "tokens": [
+        {
+          "text": "サービス",
+          "kana": "さーびす"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "克",
+      "japanese": "グラム",
+      "kana": "ぐらむ",
+      "romaji": "guramu",
+      "tokens": [
+        {
+          "text": "グラム",
+          "kana": "ぐらむ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "色拉",
+      "japanese": "サラダ",
+      "kana": "さらだ",
+      "romaji": "sarada",
+      "tokens": [
+        {
+          "text": "サラダ",
+          "kana": "さらだ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "同班同学",
+      "japanese": "クラスメート",
+      "kana": "くらすめーと",
+      "romaji": "kurasumeeto",
+      "tokens": [
+        {
+          "text": "クラスメート",
+          "kana": "くらすめーと"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "音乐会",
+      "japanese": "コンサート",
+      "kana": "こんさーと",
+      "romaji": "konsaato",
+      "tokens": [
+        {
+          "text": "コンサート",
+          "kana": "こんさーと"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "杯子",
+      "japanese": "コップ",
+      "kana": "こっぷ",
+      "romaji": "koppu",
+      "tokens": [
+        {
+          "text": "コップ",
+          "kana": "こっぷ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "自动笔",
+      "japanese": "シャープペンシル",
+      "kana": "しゃーぷぺんしる",
+      "romaji": "shaapupenshiru",
+      "tokens": [
+        {
+          "text": "シャープペンシル",
+          "kana": "しゃーぷぺんしる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "公斤",
+      "japanese": "キログラム",
+      "kana": "きろぐらむ",
+      "romaji": "kiroguramu",
+      "tokens": [
+        {
+          "text": "キログラム",
+          "kana": "きろぐらむ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "计算机",
+      "japanese": "コンピュータ",
+      "kana": "こんぴゅーた",
+      "romaji": "konpyuuta",
+      "tokens": [
+        {
+          "text": "コンピュータ",
+          "kana": "こんぴゅーた"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "便利店",
+      "japanese": "コンビニ",
+      "kana": "こんびに",
+      "romaji": "konbini",
+      "tokens": [
+        {
+          "text": "コンビニ",
+          "kana": "こんびに"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "橡皮",
+      "japanese": "消しゴム",
+      "kana": "けしごむ",
+      "romaji": "keshigomu",
+      "tokens": [
+        {
+          "text": "消しゴム",
+          "kana": "けしごむ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "班级",
+      "japanese": "クラス",
+      "kana": "くらす",
+      "romaji": "kurasu",
+      "tokens": [
+        {
+          "text": "クラス",
+          "kana": "くらす"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "小组",
+      "japanese": "グループ",
+      "kana": "ぐるーぷ",
+      "romaji": "guruupu",
+      "tokens": [
+        {
+          "text": "グループ",
+          "kana": "ぐるーぷ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "蛋糕",
+      "japanese": "ケーキ",
+      "kana": "けーき",
+      "romaji": "keeki",
+      "tokens": [
+        {
+          "text": "ケーキ",
+          "kana": "けーき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "游戏",
+      "japanese": "ゲーム",
+      "kana": "げーむ",
+      "romaji": "geemu",
+      "tokens": [
+        {
+          "text": "ゲーム",
+          "kana": "げーむ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "可乐",
+      "japanese": "コーラ",
+      "kana": "こーら",
+      "romaji": "koora",
+      "tokens": [
+        {
+          "text": "コーラ",
+          "kana": "こーら"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "广告",
+      "japanese": "コマーシャル",
+      "kana": "こまーしゃる",
+      "romaji": "komaasharu",
+      "tokens": [
+        {
+          "text": "コマーシャル",
+          "kana": "こまーしゃる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "三明治",
+      "japanese": "サンドイッチ",
+      "kana": "さんどいっち",
+      "romaji": "sandoitchi",
+      "tokens": [
+        {
+          "text": "サンドイッチ",
+          "kana": "さんどいっち"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "CD",
+      "japanese": "シーディー",
+      "kana": "しーでぃー",
+      "romaji": "shiideii",
+      "tokens": [
+        {
+          "text": "シーディー",
+          "kana": "しーでぃー"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "图表",
+      "japanese": "グラフ",
+      "kana": "ぐらふ",
+      "romaji": "gurafu",
+      "tokens": [
+        {
+          "text": "グラフ",
+          "kana": "ぐらふ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "沟通",
+      "japanese": "コミュニケーション",
+      "kana": "こみゅにけーしょん",
+      "romaji": "komyunikeeshon",
+      "tokens": [
+        {
+          "text": "コミュニケーション",
+          "kana": "こみゅにけーしょん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "足球",
+      "japanese": "サッカー",
+      "kana": "さっかー",
+      "romaji": "sakkaa",
+      "tokens": [
+        {
+          "text": "サッカー",
+          "kana": "さっかー"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "大衣",
+      "japanese": "コート",
+      "kana": "こーと",
+      "romaji": "kooto",
+      "tokens": [
+        {
+          "text": "コート",
+          "kana": "こーと"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "季节",
+      "japanese": "シーズン",
+      "kana": "しーずん",
+      "romaji": "shiizun",
+      "tokens": [
+        {
+          "text": "シーズン",
+          "kana": "しーずん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "俱乐部",
+      "japanese": "クラブ",
+      "kana": "くらぶ",
+      "romaji": "kurabu",
+      "tokens": [
+        {
+          "text": "クラブ",
+          "kana": "くらぶ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "复印件",
+      "japanese": "コピー",
+      "kana": "こぴー",
+      "romaji": "kopii",
+      "tokens": [
+        {
+          "text": "コピー",
+          "kana": "こぴー"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "咖啡",
+      "japanese": "コーヒー",
+      "kana": "こーひー",
+      "romaji": "koohii",
+      "tokens": [
+        {
+          "text": "コーヒー",
+          "kana": "こーひー"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "上班族",
+      "japanese": "サラリーマン",
+      "kana": "さらりーまん",
+      "romaji": "sarariiman",
+      "tokens": [
+        {
+          "text": "サラリーマン",
+          "kana": "さらりーまん"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "咖啡",
+      "japanese": "コーヒー",
+      "kana": "こーひー",
+      "romaji": "koohii",
+      "tokens": [
+        {
+          "text": "コーヒー",
+          "kana": "こーひー"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "杯子",
+      "japanese": "コップ",
+      "kana": "こっぷ",
+      "romaji": "koppu",
+      "tokens": [
+        {
+          "text": "コップ",
+          "kana": "こっぷ"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "小组",
+      "japanese": "グループ",
+      "kana": "ぐるーぷ",
+      "romaji": "guruupu",
+      "tokens": [
+        {
+          "text": "グループ",
+          "kana": "ぐるーぷ"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "广告",
+      "japanese": "コマーシャル",
+      "kana": "こまーしゃる",
+      "romaji": "komaasharu",
+      "tokens": [
+        {
+          "text": "コマーシャル",
+          "kana": "こまーしゃる"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "大衣",
+      "japanese": "コート",
+      "kana": "こーと",
+      "romaji": "kooto",
+      "tokens": [
+        {
+          "text": "コート",
+          "kana": "こーと"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "公斤",
+      "japanese": "キログラム",
+      "kana": "きろぐらむ",
+      "romaji": "kiroguramu",
+      "tokens": [
+        {
+          "text": "キログラム",
+          "kana": "きろぐらむ"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "班级",
+      "japanese": "クラス",
+      "kana": "くらす",
+      "romaji": "kurasu",
+      "tokens": [
+        {
+          "text": "クラス",
+          "kana": "くらす"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "三明治",
+      "japanese": "サンドイッチ",
+      "kana": "さんどいっち",
+      "romaji": "sandoitchi",
+      "tokens": [
+        {
+          "text": "サンドイッチ",
+          "kana": "さんどいっち"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "服务",
+      "japanese": "サービス",
+      "kana": "さーびす",
+      "romaji": "saabisu",
+      "tokens": [
+        {
+          "text": "サービス",
+          "kana": "さーびす"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "克",
+      "japanese": "グラム",
+      "kana": "ぐらむ",
+      "romaji": "guramu",
+      "tokens": [
+        {
+          "text": "グラム",
+          "kana": "ぐらむ"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "音乐会",
+      "japanese": "コンサート",
+      "kana": "こんさーと",
+      "romaji": "konsaato",
+      "tokens": [
+        {
+          "text": "コンサート",
+          "kana": "こんさーと"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "上班族",
+      "japanese": "サラリーマン",
+      "kana": "さらりーまん",
+      "romaji": "sarariiman",
+      "tokens": [
+        {
+          "text": "サラリーマン",
+          "kana": "さらりーまん"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "足球",
+      "japanese": "サッカー",
+      "kana": "さっかー",
+      "romaji": "sakkaa",
+      "tokens": [
+        {
+          "text": "サッカー",
+          "kana": "さっかー"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "自动笔",
+      "japanese": "シャープペンシル",
+      "kana": "しゃーぷぺんしる",
+      "romaji": "shaapupenshiru",
+      "tokens": [
+        {
+          "text": "シャープペンシル",
+          "kana": "しゃーぷぺんしる"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "计算机",
+      "japanese": "コンピュータ",
+      "kana": "こんぴゅーた",
+      "romaji": "konpyuuta",
+      "tokens": [
+        {
+          "text": "コンピュータ",
+          "kana": "こんぴゅーた"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "同班同学",
+      "japanese": "クラスメート",
+      "kana": "くらすめーと",
+      "romaji": "kurasumeeto",
+      "tokens": [
+        {
+          "text": "クラスメート",
+          "kana": "くらすめーと"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "橡皮",
+      "japanese": "消しゴム",
+      "kana": "けしごむ",
+      "romaji": "keshigomu",
+      "tokens": [
+        {
+          "text": "消しゴム",
+          "kana": "けしごむ"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "路线，学科",
+      "japanese": "コース",
+      "kana": "こーす",
+      "romaji": "koosu",
+      "tokens": [
+        {
+          "text": "コース",
+          "kana": "こーす"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "色拉",
+      "japanese": "サラダ",
+      "kana": "さらだ",
+      "romaji": "sarada",
+      "tokens": [
+        {
+          "text": "サラダ",
+          "kana": "さらだ"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "沟通",
+      "japanese": "コミュニケーション",
+      "kana": "こみゅにけーしょん",
+      "romaji": "komyunikeeshon",
+      "tokens": [
+        {
+          "text": "コミュニケーション",
+          "kana": "こみゅにけーしょん"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "成本",
+      "japanese": "コスト",
+      "kana": "こすと",
+      "romaji": "kosuto",
+      "tokens": [
+        {
+          "text": "コスト",
+          "kana": "こすと"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "俱乐部",
+      "japanese": "クラブ",
+      "kana": "くらぶ",
+      "romaji": "kurabu",
+      "tokens": [
+        {
+          "text": "クラブ",
+          "kana": "くらぶ"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "游戏",
+      "japanese": "ゲーム",
+      "kana": "げーむ",
+      "romaji": "geemu",
+      "tokens": [
+        {
+          "text": "ゲーム",
+          "kana": "げーむ"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "图表",
+      "japanese": "グラフ",
+      "kana": "ぐらふ",
+      "romaji": "gurafu",
+      "tokens": [
+        {
+          "text": "グラフ",
+          "kana": "ぐらふ"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "可乐",
+      "japanese": "コーラ",
+      "kana": "こーら",
+      "romaji": "koora",
+      "tokens": [
+        {
+          "text": "コーラ",
+          "kana": "こーら"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "季节",
+      "japanese": "シーズン",
+      "kana": "しーずん",
+      "romaji": "shiizun",
+      "tokens": [
+        {
+          "text": "シーズン",
+          "kana": "しーずん"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "CD",
+      "japanese": "シーディー",
+      "kana": "しーでぃー",
+      "romaji": "shiideii",
+      "tokens": [
+        {
+          "text": "シーディー",
+          "kana": "しーでぃー"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "复印件",
+      "japanese": "コピー",
+      "kana": "こぴー",
+      "romaji": "kopii",
+      "tokens": [
+        {
+          "text": "コピー",
+          "kana": "こぴー"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "蛋糕",
+      "japanese": "ケーキ",
+      "kana": "けーき",
+      "romaji": "keeki",
+      "tokens": [
+        {
+          "text": "ケーキ",
+          "kana": "けーき"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "便利店",
+      "japanese": "コンビニ",
+      "kana": "こんびに",
+      "romaji": "konbini",
+      "tokens": [
+        {
+          "text": "コンビニ",
+          "kana": "こんびに"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "克",
+      "japanese": "グラム",
+      "kana": "ぐらむ",
+      "romaji": "guramu",
+      "tokens": [
+        {
+          "text": "グラム",
+          "kana": "ぐらむ"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "路线，学科",
+      "japanese": "コース",
+      "kana": "こーす",
+      "romaji": "koosu",
+      "tokens": [
+        {
+          "text": "コース",
+          "kana": "こーす"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "大衣",
+      "japanese": "コート",
+      "kana": "こーと",
+      "romaji": "kooto",
+      "tokens": [
+        {
+          "text": "コート",
+          "kana": "こーと"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "自动笔",
+      "japanese": "シャープペンシル",
+      "kana": "しゃーぷぺんしる",
+      "romaji": "shaapupenshiru",
+      "tokens": [
+        {
+          "text": "シャープペンシル",
+          "kana": "しゃーぷぺんしる"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "班级",
+      "japanese": "クラス",
+      "kana": "くらす",
+      "romaji": "kurasu",
+      "tokens": [
+        {
+          "text": "クラス",
+          "kana": "くらす"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "游戏",
+      "japanese": "ゲーム",
+      "kana": "げーむ",
+      "romaji": "geemu",
+      "tokens": [
+        {
+          "text": "ゲーム",
+          "kana": "げーむ"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "色拉",
+      "japanese": "サラダ",
+      "kana": "さらだ",
+      "romaji": "sarada",
+      "tokens": [
+        {
+          "text": "サラダ",
+          "kana": "さらだ"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "三明治",
+      "japanese": "サンドイッチ",
+      "kana": "さんどいっち",
+      "romaji": "sandoitchi",
+      "tokens": [
+        {
+          "text": "サンドイッチ",
+          "kana": "さんどいっち"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "小组",
+      "japanese": "グループ",
+      "kana": "ぐるーぷ",
+      "romaji": "guruupu",
+      "tokens": [
+        {
+          "text": "グループ",
+          "kana": "ぐるーぷ"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "服务",
+      "japanese": "サービス",
+      "kana": "さーびす",
+      "romaji": "saabisu",
+      "tokens": [
+        {
+          "text": "サービス",
+          "kana": "さーびす"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "便利店",
+      "japanese": "コンビニ",
+      "kana": "こんびに",
+      "romaji": "konbini",
+      "tokens": [
+        {
+          "text": "コンビニ",
+          "kana": "こんびに"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "橡皮",
+      "japanese": "消しゴム",
+      "kana": "けしごむ",
+      "romaji": "keshigomu",
+      "tokens": [
+        {
+          "text": "消しゴム",
+          "kana": "けしごむ"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "复印件",
+      "japanese": "コピー",
+      "kana": "こぴー",
+      "romaji": "kopii",
+      "tokens": [
+        {
+          "text": "コピー",
+          "kana": "こぴー"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "咖啡",
+      "japanese": "コーヒー",
+      "kana": "こーひー",
+      "romaji": "koohii",
+      "tokens": [
+        {
+          "text": "コーヒー",
+          "kana": "こーひー"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "公斤",
+      "japanese": "キログラム",
+      "kana": "きろぐらむ",
+      "romaji": "kiroguramu",
+      "tokens": [
+        {
+          "text": "キログラム",
+          "kana": "きろぐらむ"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "俱乐部",
+      "japanese": "クラブ",
+      "kana": "くらぶ",
+      "romaji": "kurabu",
+      "tokens": [
+        {
+          "text": "クラブ",
+          "kana": "くらぶ"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "上班族",
+      "japanese": "サラリーマン",
+      "kana": "さらりーまん",
+      "romaji": "sarariiman",
+      "tokens": [
+        {
+          "text": "サラリーマン",
+          "kana": "さらりーまん"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "季节",
+      "japanese": "シーズン",
+      "kana": "しーずん",
+      "romaji": "shiizun",
+      "tokens": [
+        {
+          "text": "シーズン",
+          "kana": "しーずん"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "计算机",
+      "japanese": "コンピュータ",
+      "kana": "こんぴゅーた",
+      "romaji": "konpyuuta",
+      "tokens": [
+        {
+          "text": "コンピュータ",
+          "kana": "こんぴゅーた"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "音乐会",
+      "japanese": "コンサート",
+      "kana": "こんさーと",
+      "romaji": "konsaato",
+      "tokens": [
+        {
+          "text": "コンサート",
+          "kana": "こんさーと"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "杯子",
+      "japanese": "コップ",
+      "kana": "こっぷ",
+      "romaji": "koppu",
+      "tokens": [
+        {
+          "text": "コップ",
+          "kana": "こっぷ"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "图表",
+      "japanese": "グラフ",
+      "kana": "ぐらふ",
+      "romaji": "gurafu",
+      "tokens": [
+        {
+          "text": "グラフ",
+          "kana": "ぐらふ"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "成本",
+      "japanese": "コスト",
+      "kana": "こすと",
+      "romaji": "kosuto",
+      "tokens": [
+        {
+          "text": "コスト",
+          "kana": "こすと"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "可乐",
+      "japanese": "コーラ",
+      "kana": "こーら",
+      "romaji": "koora",
+      "tokens": [
+        {
+          "text": "コーラ",
+          "kana": "こーら"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "足球",
+      "japanese": "サッカー",
+      "kana": "さっかー",
+      "romaji": "sakkaa",
+      "tokens": [
+        {
+          "text": "サッカー",
+          "kana": "さっかー"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "沟通",
+      "japanese": "コミュニケーション",
+      "kana": "こみゅにけーしょん",
+      "romaji": "komyunikeeshon",
+      "tokens": [
+        {
+          "text": "コミュニケーション",
+          "kana": "こみゅにけーしょん"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "CD",
+      "japanese": "シーディー",
+      "kana": "しーでぃー",
+      "romaji": "shiideii",
+      "tokens": [
+        {
+          "text": "シーディー",
+          "kana": "しーでぃー"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "广告",
+      "japanese": "コマーシャル",
+      "kana": "こまーしゃる",
+      "romaji": "komaasharu",
+      "tokens": [
+        {
+          "text": "コマーシャル",
+          "kana": "こまーしゃる"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "同班同学",
+      "japanese": "クラスメート",
+      "kana": "くらすめーと",
+      "romaji": "kurasumeeto",
+      "tokens": [
+        {
+          "text": "クラスメート",
+          "kana": "くらすめーと"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "蛋糕",
+      "japanese": "ケーキ",
+      "kana": "けーき",
+      "romaji": "keeki",
+      "tokens": [
+        {
+          "text": "ケーキ",
+          "kana": "けーき"
+        }
+      ]
+    }
+  ]
+}

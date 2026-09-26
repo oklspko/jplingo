@@ -1,0 +1,203 @@
+{
+  "id": "jp-gaokao-51",
+  "coursePackId": "jp-gaokao",
+  "title": "名词低频 18",
+  "order": 51,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "劳动",
+      "japanese": "労働",
+      "kana": "ろうどう",
+      "romaji": "roudou",
+      "tokens": [
+        {
+          "text": "労働",
+          "kana": "ろうどう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "連休",
+      "japanese": "連休",
+      "kana": "れんきゅう",
+      "romaji": "renkyuu",
+      "tokens": [
+        {
+          "text": "連休",
+          "kana": "れんきゅう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "老人",
+      "japanese": "老人",
+      "kana": "ろうじん",
+      "romaji": "roujin",
+      "tokens": [
+        {
+          "text": "老人",
+          "kana": "ろうじん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "论文",
+      "japanese": "論文",
+      "kana": "ろんぶん",
+      "romaji": "ronbun",
+      "tokens": [
+        {
+          "text": "論文",
+          "kana": "ろんぶん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "话题",
+      "japanese": "話題",
+      "kana": "わだい",
+      "romaji": "wadai",
+      "tokens": [
+        {
+          "text": "話題",
+          "kana": "わだい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "老人",
+      "japanese": "老人",
+      "kana": "ろうじん",
+      "romaji": "roujin",
+      "tokens": [
+        {
+          "text": "老人",
+          "kana": "ろうじん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "话题",
+      "japanese": "話題",
+      "kana": "わだい",
+      "romaji": "wadai",
+      "tokens": [
+        {
+          "text": "話題",
+          "kana": "わだい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "劳动",
+      "japanese": "労働",
+      "kana": "ろうどう",
+      "romaji": "roudou",
+      "tokens": [
+        {
+          "text": "労働",
+          "kana": "ろうどう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "連休",
+      "japanese": "連休",
+      "kana": "れんきゅう",
+      "romaji": "renkyuu",
+      "tokens": [
+        {
+          "text": "連休",
+          "kana": "れんきゅう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "论文",
+      "japanese": "論文",
+      "kana": "ろんぶん",
+      "romaji": "ronbun",
+      "tokens": [
+        {
+          "text": "論文",
+          "kana": "ろんぶん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "劳动",
+      "japanese": "労働",
+      "kana": "ろうどう",
+      "romaji": "roudou",
+      "tokens": [
+        {
+          "text": "労働",
+          "kana": "ろうどう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "话题",
+      "japanese": "話題",
+      "kana": "わだい",
+      "romaji": "wadai",
+      "tokens": [
+        {
+          "text": "話題",
+          "kana": "わだい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "论文",
+      "japanese": "論文",
+      "kana": "ろんぶん",
+      "romaji": "ronbun",
+      "tokens": [
+        {
+          "text": "論文",
+          "kana": "ろんぶん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "連休",
+      "japanese": "連休",
+      "kana": "れんきゅう",
+      "romaji": "renkyuu",
+      "tokens": [
+        {
+          "text": "連休",
+          "kana": "れんきゅう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "老人",
+      "japanese": "老人",
+      "kana": "ろうじん",
+      "romaji": "roujin",
+      "tokens": [
+        {
+          "text": "老人",
+          "kana": "ろうじん"
+        }
+      ]
+    }
+  ]
+}

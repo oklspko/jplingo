@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-38",
+  "coursePackId": "jp-gaokao",
+  "title": "名词低频 5",
+  "order": 38,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "澡池、澡盆、泡澡",
+      "japanese": "風呂",
+      "kana": "ふろ",
+      "romaji": "furo",
+      "tokens": [
+        {
+          "text": "風呂",
+          "kana": "ふろ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "火",
+      "japanese": "火",
+      "kana": "ひ",
+      "romaji": "hi",
+      "tokens": [
+        {
+          "text": "火",
+          "kana": "ひ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "左、左边、左侧",
+      "japanese": "左",
+      "kana": "ひだり",
+      "romaji": "hidari",
+      "tokens": [
+        {
+          "text": "左",
+          "kana": "ひだり"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "利益、好处",
+      "japanese": "得",
+      "kana": "とく",
+      "romaji": "toku",
+      "tokens": [
+        {
+          "text": "得",
+          "kana": "とく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "牙齿",
+      "japanese": "歯",
+      "kana": "は",
+      "romaji": "ha",
+      "tokens": [
+        {
+          "text": "歯",
+          "kana": "は"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "热度、热",
+      "japanese": "熱",
+      "kana": "ねつ",
+      "romaji": "netsu",
+      "tokens": [
+        {
+          "text": "熱",
+          "kana": "ねつ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "烟、烟草",
+      "japanese": "煙草",
+      "kana": "たばこ",
+      "romaji": "tabako",
+      "tokens": [
+        {
+          "text": "煙草",
+          "kana": "たばこ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "旁边",
+      "japanese": "側・傍",
+      "kana": "そば",
+      "romaji": "soba",
+      "tokens": [
+        {
+          "text": "側・傍",
+          "kana": "そば"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "男女",
+      "japanese": "男女",
+      "kana": "だんじょ",
+      "romaji": "danjo",
+      "tokens": [
+        {
+          "text": "男女",
+          "kana": "だんじょ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "负责人、担当",
+      "japanese": "担当",
+      "kana": "たんとう",
+      "romaji": "tantou",
+      "tokens": [
+        {
+          "text": "担当",
+          "kana": "たんとう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "转圈；四周、周围一圈",
+      "japanese": "回り",
+      "kana": "まわり",
+      "romaji": "mawari",
+      "tokens": [
+        {
+          "text": "回り",
+          "kana": "まわり"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "生的、鲜的、未加工过的",
+      "japanese": "生",
+      "kana": "なま",
+      "romaji": "nama",
+      "tokens": [
+        {
+          "text": "生",
+          "kana": "なま"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "天空",
+      "japanese": "空",
+      "kana": "そら",
+      "romaji": "sora",
+      "tokens": [
+        {
+          "text": "空",
+          "kana": "そら"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "迟到",
+      "japanese": "遅刻",
+      "kana": "ちこく",
+      "romaji": "chikoku",
+      "tokens": [
+        {
+          "text": "遅刻",
+          "kana": "ちこく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "电、电气",
+      "japanese": "電気",
+      "kana": "でんき",
+      "romaji": "denki",
+      "tokens": [
+        {
+          "text": "電気",
+          "kana": "でんき"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "节日、祭日",
+      "japanese": "祭り",
+      "kana": "まつり",
+      "romaji": "matsuri",
+      "tokens": [
+        {
+          "text": "祭り",
+          "kana": "まつり"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "进出",
+      "japanese": "出入り",
+      "kana": "でいり",
+      "romaji": "deiri",
+      "tokens": [
+        {
+          "text": "出入り",
+          "kana": "でいり"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "对面、对方、另一侧",
+      "japanese": "向こう",
+      "kana": "むこう",
+      "romaji": "mukou",
+      "tokens": [
+        {
+          "text": "向こう",
+          "kana": "むこう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "种子",
+      "japanese": "種",
+      "kana": "たね",
+      "romaji": "tane",
+      "tokens": [
+        {
+          "text": "種",
+          "kana": "たね"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "大家",
+      "japanese": "皆",
+      "kana": "みんな",
+      "romaji": "minna",
+      "tokens": [
+        {
+          "text": "皆",
+          "kana": "みんな"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "那之后",
+      "japanese": "その後",
+      "kana": "そのあと",
+      "romaji": "sonoato",
+      "tokens": [
+        {
+          "text": "その後",
+          "kana": "そのあと"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "荞麦面",
+      "japanese": "蕎麦",
+      "kana": "そば",
+      "romaji": "soba",
+      "tokens": [
+        {
+          "text": "蕎麦",
+          "kana": "そば"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "妻子、爱人",
+      "japanese": "妻",
+      "kana": "つま",
+      "romaji": "tsuma",
+      "tokens": [
+        {
+          "text": "妻",
+          "kana": "つま"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "原因、合适、方便",
+      "japanese": "都合",
+      "kana": "つごう",
+      "romaji": "tsugou",
+      "tokens": [
+        {
+          "text": "都合",
+          "kana": "つごう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "认识、认知",
+      "japanese": "認識",
+      "kana": "にんしき",
+      "romaji": "ninshiki",
+      "tokens": [
+        {
+          "text": "認識",
+          "kana": "にんしき"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "负责",
+      "japanese": "担任",
+      "kana": "たんにん",
+      "romaji": "tannin",
+      "tokens": [
+        {
+          "text": "担任",
+          "kana": "たんにん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "愿望、拜托、希望",
+      "japanese": "願い",
+      "kana": "ねがい",
+      "romaji": "negai",
+      "tokens": [
+        {
+          "text": "願い",
+          "kana": "ねがい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "零钱",
+      "japanese": "お釣り",
+      "kana": "おつり",
+      "romaji": "otsuri",
+      "tokens": [
+        {
+          "text": "お釣り",
+          "kana": "おつり"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "效率",
+      "japanese": "能率",
+      "kana": "のうりつ",
+      "romaji": "nouritsu",
+      "tokens": [
+        {
+          "text": "能率",
+          "kana": "のうりつ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "远处、远方",
+      "japanese": "遠く",
+      "kana": "とおく",
+      "romaji": "tooku",
+      "tokens": [
+        {
+          "text": "遠く",
+          "kana": "とおく"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "对面、对方、另一侧",
+      "japanese": "向こう",
+      "kana": "むこう",
+      "romaji": "mukou",
+      "tokens": [
+        {
+          "text": "向こう",
+          "kana": "むこう"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "原因、合适、方便",
+      "japanese": "都合",
+      "kana": "つごう",
+      "romaji": "tsugou",
+      "tokens": [
+        {
+          "text": "都合",
+          "kana": "つごう"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "荞麦面",
+      "japanese": "蕎麦",
+      "kana": "そば",
+      "romaji": "soba",
+      "tokens": [
+        {
+          "text": "蕎麦",
+          "kana": "そば"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "左、左边、左侧",
+      "japanese": "左",
+      "kana": "ひだり",
+      "romaji": "hidari",
+      "tokens": [
+        {
+          "text": "左",
+          "kana": "ひだり"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "旁边",
+      "japanese": "側・傍",
+      "kana": "そば",
+      "romaji": "soba",
+      "tokens": [
+        {
+          "text": "側・傍",
+          "kana": "そば"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "节日、祭日",
+      "japanese": "祭り",
+      "kana": "まつり",
+      "romaji": "matsuri",
+      "tokens": [
+        {
+          "text": "祭り",
+          "kana": "まつり"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "妻子、爱人",
+      "japanese": "妻",
+      "kana": "つま",
+      "romaji": "tsuma",
+      "tokens": [
+        {
+          "text": "妻",
+          "kana": "つま"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "热度、热",
+      "japanese": "熱",
+      "kana": "ねつ",
+      "romaji": "netsu",
+      "tokens": [
+        {
+          "text": "熱",
+          "kana": "ねつ"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "进出",
+      "japanese": "出入り",
+      "kana": "でいり",
+      "romaji": "deiri",
+      "tokens": [
+        {
+          "text": "出入り",
+          "kana": "でいり"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "零钱",
+      "japanese": "お釣り",
+      "kana": "おつり",
+      "romaji": "otsuri",
+      "tokens": [
+        {
+          "text": "お釣り",
+          "kana": "おつり"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "澡池、澡盆、泡澡",
+      "japanese": "風呂",
+      "kana": "ふろ",
+      "romaji": "furo",
+      "tokens": [
+        {
+          "text": "風呂",
+          "kana": "ふろ"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "转圈；四周、周围一圈",
+      "japanese": "回り",
+      "kana": "まわり",
+      "romaji": "mawari",
+      "tokens": [
+        {
+          "text": "回り",
+          "kana": "まわり"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "生的、鲜的、未加工过的",
+      "japanese": "生",
+      "kana": "なま",
+      "romaji": "nama",
+      "tokens": [
+        {
+          "text": "生",
+          "kana": "なま"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "种子",
+      "japanese": "種",
+      "kana": "たね",
+      "romaji": "tane",
+      "tokens": [
+        {
+          "text": "種",
+          "kana": "たね"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "迟到",
+      "japanese": "遅刻",
+      "kana": "ちこく",
+      "romaji": "chikoku",
+      "tokens": [
+        {
+          "text": "遅刻",
+          "kana": "ちこく"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "火",
+      "japanese": "火",
+      "kana": "ひ",
+      "romaji": "hi",
+      "tokens": [
+        {
+          "text": "火",
+          "kana": "ひ"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "大家",
+      "japanese": "皆",
+      "kana": "みんな",
+      "romaji": "minna",
+      "tokens": [
+        {
+          "text": "皆",
+          "kana": "みんな"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "利益、好处",
+      "japanese": "得",
+      "kana": "とく",
+      "romaji": "toku",
+      "tokens": [
+        {
+          "text": "得",
+          "kana": "とく"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "远处、远方",
+      "japanese": "遠く",
+      "kana": "とおく",
+      "romaji": "tooku",
+      "tokens": [
+        {
+          "text": "遠く",
+          "kana": "とおく"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "认识、认知",
+      "japanese": "認識",
+      "kana": "にんしき",
+      "romaji": "ninshiki",
+      "tokens": [
+        {
+          "text": "認識",
+          "kana": "にんしき"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "效率",
+      "japanese": "能率",
+      "kana": "のうりつ",
+      "romaji": "nouritsu",
+      "tokens": [
+        {
+          "text": "能率",
+          "kana": "のうりつ"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "天空",
+      "japanese": "空",
+      "kana": "そら",
+      "romaji": "sora",
+      "tokens": [
+        {
+          "text": "空",
+          "kana": "そら"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "电、电气",
+      "japanese": "電気",
+      "kana": "でんき",
+      "romaji": "denki",
+      "tokens": [
+        {
+          "text": "電気",
+          "kana": "でんき"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "负责人、担当",
+      "japanese": "担当",
+      "kana": "たんとう",
+      "romaji": "tantou",
+      "tokens": [
+        {
+          "text": "担当",
+          "kana": "たんとう"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "烟、烟草",
+      "japanese": "煙草",
+      "kana": "たばこ",
+      "romaji": "tabako",
+      "tokens": [
+        {
+          "text": "煙草",
+          "kana": "たばこ"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "男女",
+      "japanese": "男女",
+      "kana": "だんじょ",
+      "romaji": "danjo",
+      "tokens": [
+        {
+          "text": "男女",
+          "kana": "だんじょ"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "愿望、拜托、希望",
+      "japanese": "願い",
+      "kana": "ねがい",
+      "romaji": "negai",
+      "tokens": [
+        {
+          "text": "願い",
+          "kana": "ねがい"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "那之后",
+      "japanese": "その後",
+      "kana": "そのあと",
+      "romaji": "sonoato",
+      "tokens": [
+        {
+          "text": "その後",
+          "kana": "そのあと"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "负责",
+      "japanese": "担任",
+      "kana": "たんにん",
+      "romaji": "tannin",
+      "tokens": [
+        {
+          "text": "担任",
+          "kana": "たんにん"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "牙齿",
+      "japanese": "歯",
+      "kana": "は",
+      "romaji": "ha",
+      "tokens": [
+        {
+          "text": "歯",
+          "kana": "は"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "节日、祭日",
+      "japanese": "祭り",
+      "kana": "まつり",
+      "romaji": "matsuri",
+      "tokens": [
+        {
+          "text": "祭り",
+          "kana": "まつり"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "对面、对方、另一侧",
+      "japanese": "向こう",
+      "kana": "むこう",
+      "romaji": "mukou",
+      "tokens": [
+        {
+          "text": "向こう",
+          "kana": "むこう"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "进出",
+      "japanese": "出入り",
+      "kana": "でいり",
+      "romaji": "deiri",
+      "tokens": [
+        {
+          "text": "出入り",
+          "kana": "でいり"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "远处、远方",
+      "japanese": "遠く",
+      "kana": "とおく",
+      "romaji": "tooku",
+      "tokens": [
+        {
+          "text": "遠く",
+          "kana": "とおく"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "旁边",
+      "japanese": "側・傍",
+      "kana": "そば",
+      "romaji": "soba",
+      "tokens": [
+        {
+          "text": "側・傍",
+          "kana": "そば"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "左、左边、左侧",
+      "japanese": "左",
+      "kana": "ひだり",
+      "romaji": "hidari",
+      "tokens": [
+        {
+          "text": "左",
+          "kana": "ひだり"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "原因、合适、方便",
+      "japanese": "都合",
+      "kana": "つごう",
+      "romaji": "tsugou",
+      "tokens": [
+        {
+          "text": "都合",
+          "kana": "つごう"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "热度、热",
+      "japanese": "熱",
+      "kana": "ねつ",
+      "romaji": "netsu",
+      "tokens": [
+        {
+          "text": "熱",
+          "kana": "ねつ"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "牙齿",
+      "japanese": "歯",
+      "kana": "は",
+      "romaji": "ha",
+      "tokens": [
+        {
+          "text": "歯",
+          "kana": "は"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "负责人、担当",
+      "japanese": "担当",
+      "kana": "たんとう",
+      "romaji": "tantou",
+      "tokens": [
+        {
+          "text": "担当",
+          "kana": "たんとう"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "转圈；四周、周围一圈",
+      "japanese": "回り",
+      "kana": "まわり",
+      "romaji": "mawari",
+      "tokens": [
+        {
+          "text": "回り",
+          "kana": "まわり"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "迟到",
+      "japanese": "遅刻",
+      "kana": "ちこく",
+      "romaji": "chikoku",
+      "tokens": [
+        {
+          "text": "遅刻",
+          "kana": "ちこく"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "澡池、澡盆、泡澡",
+      "japanese": "風呂",
+      "kana": "ふろ",
+      "romaji": "furo",
+      "tokens": [
+        {
+          "text": "風呂",
+          "kana": "ふろ"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "天空",
+      "japanese": "空",
+      "kana": "そら",
+      "romaji": "sora",
+      "tokens": [
+        {
+          "text": "空",
+          "kana": "そら"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "电、电气",
+      "japanese": "電気",
+      "kana": "でんき",
+      "romaji": "denki",
+      "tokens": [
+        {
+          "text": "電気",
+          "kana": "でんき"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "那之后",
+      "japanese": "その後",
+      "kana": "そのあと",
+      "romaji": "sonoato",
+      "tokens": [
+        {
+          "text": "その後",
+          "kana": "そのあと"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "生的、鲜的、未加工过的",
+      "japanese": "生",
+      "kana": "なま",
+      "romaji": "nama",
+      "tokens": [
+        {
+          "text": "生",
+          "kana": "なま"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "零钱",
+      "japanese": "お釣り",
+      "kana": "おつり",
+      "romaji": "otsuri",
+      "tokens": [
+        {
+          "text": "お釣り",
+          "kana": "おつり"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "大家",
+      "japanese": "皆",
+      "kana": "みんな",
+      "romaji": "minna",
+      "tokens": [
+        {
+          "text": "皆",
+          "kana": "みんな"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "种子",
+      "japanese": "種",
+      "kana": "たね",
+      "romaji": "tane",
+      "tokens": [
+        {
+          "text": "種",
+          "kana": "たね"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "负责",
+      "japanese": "担任",
+      "kana": "たんにん",
+      "romaji": "tannin",
+      "tokens": [
+        {
+          "text": "担任",
+          "kana": "たんにん"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "认识、认知",
+      "japanese": "認識",
+      "kana": "にんしき",
+      "romaji": "ninshiki",
+      "tokens": [
+        {
+          "text": "認識",
+          "kana": "にんしき"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "妻子、爱人",
+      "japanese": "妻",
+      "kana": "つま",
+      "romaji": "tsuma",
+      "tokens": [
+        {
+          "text": "妻",
+          "kana": "つま"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "火",
+      "japanese": "火",
+      "kana": "ひ",
+      "romaji": "hi",
+      "tokens": [
+        {
+          "text": "火",
+          "kana": "ひ"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "烟、烟草",
+      "japanese": "煙草",
+      "kana": "たばこ",
+      "romaji": "tabako",
+      "tokens": [
+        {
+          "text": "煙草",
+          "kana": "たばこ"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "男女",
+      "japanese": "男女",
+      "kana": "だんじょ",
+      "romaji": "danjo",
+      "tokens": [
+        {
+          "text": "男女",
+          "kana": "だんじょ"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "愿望、拜托、希望",
+      "japanese": "願い",
+      "kana": "ねがい",
+      "romaji": "negai",
+      "tokens": [
+        {
+          "text": "願い",
+          "kana": "ねがい"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "利益、好处",
+      "japanese": "得",
+      "kana": "とく",
+      "romaji": "toku",
+      "tokens": [
+        {
+          "text": "得",
+          "kana": "とく"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "荞麦面",
+      "japanese": "蕎麦",
+      "kana": "そば",
+      "romaji": "soba",
+      "tokens": [
+        {
+          "text": "蕎麦",
+          "kana": "そば"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "效率",
+      "japanese": "能率",
+      "kana": "のうりつ",
+      "romaji": "nouritsu",
+      "tokens": [
+        {
+          "text": "能率",
+          "kana": "のうりつ"
+        }
+      ]
+    }
+  ]
+}

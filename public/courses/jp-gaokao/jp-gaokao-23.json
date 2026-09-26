@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-23",
+  "coursePackId": "jp-gaokao",
+  "title": "副词高频 3",
+  "order": 23,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "无论如何も～、一定～",
+      "japanese": "どうしても",
+      "kana": "どうしても",
+      "romaji": "doushitemo",
+      "tokens": [
+        {
+          "text": "どうしても",
+          "kana": "どうしても"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "再稍微",
+      "japanese": "もう少し",
+      "kana": "もうすこし",
+      "romaji": "mousukoshi",
+      "tokens": [
+        {
+          "text": "もう少し",
+          "kana": "もうすこし"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "非常、十分",
+      "japanese": "非常に",
+      "kana": "ひじょうに",
+      "romaji": "hijouni",
+      "tokens": [
+        {
+          "text": "非常に",
+          "kana": "ひじょうに"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "好不容易、终于、才",
+      "japanese": "やっと",
+      "kana": "やっと",
+      "romaji": "yatto",
+      "tokens": [
+        {
+          "text": "やっと",
+          "kana": "やっと"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "特别、专门",
+      "japanese": "特に",
+      "kana": "とくに",
+      "romaji": "tokuni",
+      "tokens": [
+        {
+          "text": "特に",
+          "kana": "とくに"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "突然、冷不防",
+      "japanese": "急に",
+      "kana": "きゅうに",
+      "romaji": "kyuuni",
+      "tokens": [
+        {
+          "text": "急に",
+          "kana": "きゅうに"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "只不过、仅仅；免费",
+      "japanese": "ただ",
+      "kana": "ただ",
+      "romaji": "tada",
+      "tokens": [
+        {
+          "text": "ただ",
+          "kana": "ただ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "最初、起初、一开始",
+      "japanese": "最初",
+      "kana": "さいしょ",
+      "romaji": "saisho",
+      "tokens": [
+        {
+          "text": "最初",
+          "kana": "さいしょ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "互相、彼此",
+      "japanese": "お互いに",
+      "kana": "おたがいに",
+      "romaji": "otagaini",
+      "tokens": [
+        {
+          "text": "お互いに",
+          "kana": "おたがいに"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "这么、如此",
+      "japanese": "こんなに",
+      "kana": "こんなに",
+      "romaji": "konnani",
+      "tokens": [
+        {
+          "text": "こんなに",
+          "kana": "こんなに"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "大约、大体",
+      "japanese": "約",
+      "kana": "やく",
+      "romaji": "yaku",
+      "tokens": [
+        {
+          "text": "約",
+          "kana": "やく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "刚才、方才",
+      "japanese": "さっき",
+      "kana": "さっき",
+      "romaji": "sakki",
+      "tokens": [
+        {
+          "text": "さっき",
+          "kana": "さっき"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "灰心、失望、丧气",
+      "japanese": "がっかり",
+      "kana": "がっかり",
+      "romaji": "gakkari",
+      "tokens": [
+        {
+          "text": "がっかり",
+          "kana": "がっかり"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "连续不断、一个劲儿",
+      "japanese": "どんどん",
+      "kana": "どんどん",
+      "romaji": "dondon",
+      "tokens": [
+        {
+          "text": "どんどん",
+          "kana": "どんどん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "大体上、大致、大部分",
+      "japanese": "ほとんど",
+      "kana": "ほとんど",
+      "romaji": "hotondo",
+      "tokens": [
+        {
+          "text": "ほとんど",
+          "kana": "ほとんど"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "非常、很",
+      "japanese": "大変",
+      "kana": "たいへん",
+      "romaji": "taihen",
+      "tokens": [
+        {
+          "text": "大変",
+          "kana": "たいへん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "完全、全部、彻底",
+      "japanese": "すっかり",
+      "kana": "すっかり",
+      "romaji": "sukkari",
+      "tokens": [
+        {
+          "text": "すっかり",
+          "kana": "すっかり"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "或者、或是",
+      "japanese": "或いは",
+      "kana": "あるいは",
+      "romaji": "aruiha",
+      "tokens": [
+        {
+          "text": "或いは",
+          "kana": "あるいは"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "大概、大致、基本上",
+      "japanese": "大体",
+      "kana": "だいたい",
+      "romaji": "daitai",
+      "tokens": [
+        {
+          "text": "大体",
+          "kana": "だいたい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "暂时、不久；一段时间",
+      "japanese": "暫く",
+      "kana": "しばらく",
+      "romaji": "shibaraku",
+      "tokens": [
+        {
+          "text": "暫く",
+          "kana": "しばらく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "(ぜったい) 绝对",
+      "japanese": "絶対",
+      "kana": "ぜったい",
+      "romaji": "zettai",
+      "tokens": [
+        {
+          "text": "絶対",
+          "kana": "ぜったい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "主要",
+      "japanese": "主に",
+      "kana": "おもに",
+      "romaji": "omoni",
+      "tokens": [
+        {
+          "text": "主に",
+          "kana": "おもに"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "最后、结果",
+      "japanese": "結局",
+      "kana": "けっきょく",
+      "romaji": "kekkyoku",
+      "tokens": [
+        {
+          "text": "結局",
+          "kana": "けっきょく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "那么、那样（程度）",
+      "japanese": "それほど",
+      "kana": "それほど",
+      "romaji": "sorehodo",
+      "tokens": [
+        {
+          "text": "それほど",
+          "kana": "それほど"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "普通、一般",
+      "japanese": "普通",
+      "kana": "ふつう",
+      "romaji": "futsuu",
+      "tokens": [
+        {
+          "text": "普通",
+          "kana": "ふつう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "众多的人",
+      "japanese": "大勢",
+      "kana": "おおぜい",
+      "romaji": "oozei",
+      "tokens": [
+        {
+          "text": "大勢",
+          "kana": "おおぜい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "非常、很、相当",
+      "japanese": "随分",
+      "kana": "ずいぶん",
+      "romaji": "zuibun",
+      "tokens": [
+        {
+          "text": "随分",
+          "kana": "ずいぶん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "决不～",
+      "japanese": "決して",
+      "kana": "けっして",
+      "romaji": "kesshite",
+      "tokens": [
+        {
+          "text": "決して",
+          "kana": "けっして"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "清楚、明确",
+      "japanese": "はっきり",
+      "kana": "はっきり",
+      "romaji": "hakkiri",
+      "tokens": [
+        {
+          "text": "はっきり",
+          "kana": "はっきり"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "拼命、努力",
+      "japanese": "一生懸命",
+      "kana": "いっしょうけんめい",
+      "romaji": "isshoukenmei",
+      "tokens": [
+        {
+          "text": "一生懸命",
+          "kana": "いっしょうけんめい"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "或者、或是",
+      "japanese": "或いは",
+      "kana": "あるいは",
+      "romaji": "aruiha",
+      "tokens": [
+        {
+          "text": "或いは",
+          "kana": "あるいは"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "暂时、不久；一段时间",
+      "japanese": "暫く",
+      "kana": "しばらく",
+      "romaji": "shibaraku",
+      "tokens": [
+        {
+          "text": "暫く",
+          "kana": "しばらく"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "这么、如此",
+      "japanese": "こんなに",
+      "kana": "こんなに",
+      "romaji": "konnani",
+      "tokens": [
+        {
+          "text": "こんなに",
+          "kana": "こんなに"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "最初、起初、一开始",
+      "japanese": "最初",
+      "kana": "さいしょ",
+      "romaji": "saisho",
+      "tokens": [
+        {
+          "text": "最初",
+          "kana": "さいしょ"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "拼命、努力",
+      "japanese": "一生懸命",
+      "kana": "いっしょうけんめい",
+      "romaji": "isshoukenmei",
+      "tokens": [
+        {
+          "text": "一生懸命",
+          "kana": "いっしょうけんめい"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "非常、很",
+      "japanese": "大変",
+      "kana": "たいへん",
+      "romaji": "taihen",
+      "tokens": [
+        {
+          "text": "大変",
+          "kana": "たいへん"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "连续不断、一个劲儿",
+      "japanese": "どんどん",
+      "kana": "どんどん",
+      "romaji": "dondon",
+      "tokens": [
+        {
+          "text": "どんどん",
+          "kana": "どんどん"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "众多的人",
+      "japanese": "大勢",
+      "kana": "おおぜい",
+      "romaji": "oozei",
+      "tokens": [
+        {
+          "text": "大勢",
+          "kana": "おおぜい"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "大概、大致、基本上",
+      "japanese": "大体",
+      "kana": "だいたい",
+      "romaji": "daitai",
+      "tokens": [
+        {
+          "text": "大体",
+          "kana": "だいたい"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "再稍微",
+      "japanese": "もう少し",
+      "kana": "もうすこし",
+      "romaji": "mousukoshi",
+      "tokens": [
+        {
+          "text": "もう少し",
+          "kana": "もうすこし"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "主要",
+      "japanese": "主に",
+      "kana": "おもに",
+      "romaji": "omoni",
+      "tokens": [
+        {
+          "text": "主に",
+          "kana": "おもに"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "好不容易、终于、才",
+      "japanese": "やっと",
+      "kana": "やっと",
+      "romaji": "yatto",
+      "tokens": [
+        {
+          "text": "やっと",
+          "kana": "やっと"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "普通、一般",
+      "japanese": "普通",
+      "kana": "ふつう",
+      "romaji": "futsuu",
+      "tokens": [
+        {
+          "text": "普通",
+          "kana": "ふつう"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "完全、全部、彻底",
+      "japanese": "すっかり",
+      "kana": "すっかり",
+      "romaji": "sukkari",
+      "tokens": [
+        {
+          "text": "すっかり",
+          "kana": "すっかり"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "特别、专门",
+      "japanese": "特に",
+      "kana": "とくに",
+      "romaji": "tokuni",
+      "tokens": [
+        {
+          "text": "特に",
+          "kana": "とくに"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "非常、很、相当",
+      "japanese": "随分",
+      "kana": "ずいぶん",
+      "romaji": "zuibun",
+      "tokens": [
+        {
+          "text": "随分",
+          "kana": "ずいぶん"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "只不过、仅仅；免费",
+      "japanese": "ただ",
+      "kana": "ただ",
+      "romaji": "tada",
+      "tokens": [
+        {
+          "text": "ただ",
+          "kana": "ただ"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "灰心、失望、丧气",
+      "japanese": "がっかり",
+      "kana": "がっかり",
+      "romaji": "gakkari",
+      "tokens": [
+        {
+          "text": "がっかり",
+          "kana": "がっかり"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "决不～",
+      "japanese": "決して",
+      "kana": "けっして",
+      "romaji": "kesshite",
+      "tokens": [
+        {
+          "text": "決して",
+          "kana": "けっして"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "非常、十分",
+      "japanese": "非常に",
+      "kana": "ひじょうに",
+      "romaji": "hijouni",
+      "tokens": [
+        {
+          "text": "非常に",
+          "kana": "ひじょうに"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "大约、大体",
+      "japanese": "約",
+      "kana": "やく",
+      "romaji": "yaku",
+      "tokens": [
+        {
+          "text": "約",
+          "kana": "やく"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "最后、结果",
+      "japanese": "結局",
+      "kana": "けっきょく",
+      "romaji": "kekkyoku",
+      "tokens": [
+        {
+          "text": "結局",
+          "kana": "けっきょく"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "那么、那样（程度）",
+      "japanese": "それほど",
+      "kana": "それほど",
+      "romaji": "sorehodo",
+      "tokens": [
+        {
+          "text": "それほど",
+          "kana": "それほど"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "清楚、明确",
+      "japanese": "はっきり",
+      "kana": "はっきり",
+      "romaji": "hakkiri",
+      "tokens": [
+        {
+          "text": "はっきり",
+          "kana": "はっきり"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "大体上、大致、大部分",
+      "japanese": "ほとんど",
+      "kana": "ほとんど",
+      "romaji": "hotondo",
+      "tokens": [
+        {
+          "text": "ほとんど",
+          "kana": "ほとんど"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "无论如何も～、一定～",
+      "japanese": "どうしても",
+      "kana": "どうしても",
+      "romaji": "doushitemo",
+      "tokens": [
+        {
+          "text": "どうしても",
+          "kana": "どうしても"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "互相、彼此",
+      "japanese": "お互いに",
+      "kana": "おたがいに",
+      "romaji": "otagaini",
+      "tokens": [
+        {
+          "text": "お互いに",
+          "kana": "おたがいに"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "(ぜったい) 绝对",
+      "japanese": "絶対",
+      "kana": "ぜったい",
+      "romaji": "zettai",
+      "tokens": [
+        {
+          "text": "絶対",
+          "kana": "ぜったい"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "刚才、方才",
+      "japanese": "さっき",
+      "kana": "さっき",
+      "romaji": "sakki",
+      "tokens": [
+        {
+          "text": "さっき",
+          "kana": "さっき"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "突然、冷不防",
+      "japanese": "急に",
+      "kana": "きゅうに",
+      "romaji": "kyuuni",
+      "tokens": [
+        {
+          "text": "急に",
+          "kana": "きゅうに"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "好不容易、终于、才",
+      "japanese": "やっと",
+      "kana": "やっと",
+      "romaji": "yatto",
+      "tokens": [
+        {
+          "text": "やっと",
+          "kana": "やっと"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "普通、一般",
+      "japanese": "普通",
+      "kana": "ふつう",
+      "romaji": "futsuu",
+      "tokens": [
+        {
+          "text": "普通",
+          "kana": "ふつう"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "最后、结果",
+      "japanese": "結局",
+      "kana": "けっきょく",
+      "romaji": "kekkyoku",
+      "tokens": [
+        {
+          "text": "結局",
+          "kana": "けっきょく"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "清楚、明确",
+      "japanese": "はっきり",
+      "kana": "はっきり",
+      "romaji": "hakkiri",
+      "tokens": [
+        {
+          "text": "はっきり",
+          "kana": "はっきり"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "大约、大体",
+      "japanese": "約",
+      "kana": "やく",
+      "romaji": "yaku",
+      "tokens": [
+        {
+          "text": "約",
+          "kana": "やく"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "最初、起初、一开始",
+      "japanese": "最初",
+      "kana": "さいしょ",
+      "romaji": "saisho",
+      "tokens": [
+        {
+          "text": "最初",
+          "kana": "さいしょ"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "这么、如此",
+      "japanese": "こんなに",
+      "kana": "こんなに",
+      "romaji": "konnani",
+      "tokens": [
+        {
+          "text": "こんなに",
+          "kana": "こんなに"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "只不过、仅仅；免费",
+      "japanese": "ただ",
+      "kana": "ただ",
+      "romaji": "tada",
+      "tokens": [
+        {
+          "text": "ただ",
+          "kana": "ただ"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "无论如何も～、一定～",
+      "japanese": "どうしても",
+      "kana": "どうしても",
+      "romaji": "doushitemo",
+      "tokens": [
+        {
+          "text": "どうしても",
+          "kana": "どうしても"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "(ぜったい) 绝对",
+      "japanese": "絶対",
+      "kana": "ぜったい",
+      "romaji": "zettai",
+      "tokens": [
+        {
+          "text": "絶対",
+          "kana": "ぜったい"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "或者、或是",
+      "japanese": "或いは",
+      "kana": "あるいは",
+      "romaji": "aruiha",
+      "tokens": [
+        {
+          "text": "或いは",
+          "kana": "あるいは"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "那么、那样（程度）",
+      "japanese": "それほど",
+      "kana": "それほど",
+      "romaji": "sorehodo",
+      "tokens": [
+        {
+          "text": "それほど",
+          "kana": "それほど"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "刚才、方才",
+      "japanese": "さっき",
+      "kana": "さっき",
+      "romaji": "sakki",
+      "tokens": [
+        {
+          "text": "さっき",
+          "kana": "さっき"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "灰心、失望、丧气",
+      "japanese": "がっかり",
+      "kana": "がっかり",
+      "romaji": "gakkari",
+      "tokens": [
+        {
+          "text": "がっかり",
+          "kana": "がっかり"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "连续不断、一个劲儿",
+      "japanese": "どんどん",
+      "kana": "どんどん",
+      "romaji": "dondon",
+      "tokens": [
+        {
+          "text": "どんどん",
+          "kana": "どんどん"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "非常、十分",
+      "japanese": "非常に",
+      "kana": "ひじょうに",
+      "romaji": "hijouni",
+      "tokens": [
+        {
+          "text": "非常に",
+          "kana": "ひじょうに"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "再稍微",
+      "japanese": "もう少し",
+      "kana": "もうすこし",
+      "romaji": "mousukoshi",
+      "tokens": [
+        {
+          "text": "もう少し",
+          "kana": "もうすこし"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "大概、大致、基本上",
+      "japanese": "大体",
+      "kana": "だいたい",
+      "romaji": "daitai",
+      "tokens": [
+        {
+          "text": "大体",
+          "kana": "だいたい"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "拼命、努力",
+      "japanese": "一生懸命",
+      "kana": "いっしょうけんめい",
+      "romaji": "isshoukenmei",
+      "tokens": [
+        {
+          "text": "一生懸命",
+          "kana": "いっしょうけんめい"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "主要",
+      "japanese": "主に",
+      "kana": "おもに",
+      "romaji": "omoni",
+      "tokens": [
+        {
+          "text": "主に",
+          "kana": "おもに"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "突然、冷不防",
+      "japanese": "急に",
+      "kana": "きゅうに",
+      "romaji": "kyuuni",
+      "tokens": [
+        {
+          "text": "急に",
+          "kana": "きゅうに"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "特别、专门",
+      "japanese": "特に",
+      "kana": "とくに",
+      "romaji": "tokuni",
+      "tokens": [
+        {
+          "text": "特に",
+          "kana": "とくに"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "非常、很、相当",
+      "japanese": "随分",
+      "kana": "ずいぶん",
+      "romaji": "zuibun",
+      "tokens": [
+        {
+          "text": "随分",
+          "kana": "ずいぶん"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "决不～",
+      "japanese": "決して",
+      "kana": "けっして",
+      "romaji": "kesshite",
+      "tokens": [
+        {
+          "text": "決して",
+          "kana": "けっして"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "完全、全部、彻底",
+      "japanese": "すっかり",
+      "kana": "すっかり",
+      "romaji": "sukkari",
+      "tokens": [
+        {
+          "text": "すっかり",
+          "kana": "すっかり"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "互相、彼此",
+      "japanese": "お互いに",
+      "kana": "おたがいに",
+      "romaji": "otagaini",
+      "tokens": [
+        {
+          "text": "お互いに",
+          "kana": "おたがいに"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "众多的人",
+      "japanese": "大勢",
+      "kana": "おおぜい",
+      "romaji": "oozei",
+      "tokens": [
+        {
+          "text": "大勢",
+          "kana": "おおぜい"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "暂时、不久；一段时间",
+      "japanese": "暫く",
+      "kana": "しばらく",
+      "romaji": "shibaraku",
+      "tokens": [
+        {
+          "text": "暫く",
+          "kana": "しばらく"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "非常、很",
+      "japanese": "大変",
+      "kana": "たいへん",
+      "romaji": "taihen",
+      "tokens": [
+        {
+          "text": "大変",
+          "kana": "たいへん"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "大体上、大致、大部分",
+      "japanese": "ほとんど",
+      "kana": "ほとんど",
+      "romaji": "hotondo",
+      "tokens": [
+        {
+          "text": "ほとんど",
+          "kana": "ほとんど"
+        }
+      ]
+    }
+  ]
+}
