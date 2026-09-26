@@ -9,24 +9,26 @@
 
 ## 一、准备讯飞账号（一次性）
 
-1. 打开 [讯飞开放平台](https://www.xfyun.cn/)，注册/登录，创建「语音合成」应用，得到：
+1. 打开 [讯飞开放平台](https://www.xfyun.cn/)，注册/登录，创建「语音合成」应用，得到同一应用下的三个值：
    - **AppID**
-   - **APIKey**（旧版 HTTP 接口用的是 APIKey，不是 APISecret）
+   - **APIKey**
+   - **APISecret**（WebSocket 流式接口鉴权签名用）
 2. 在控制台「语音合成 → 发音人」里**添加日语发音人**（日语属于小语种，需手动添加）。添加后记录它的 `voice_name` 参数值。
    - 未添加就调用会报 `11200`（未授权发音人）。
 3. 建议先到「在线体验发音人」页面试听，确认该日语发音人音色是否满意。
 
 ## 二、配置密钥
 
-在 `scripts/.tts.env`（新建，已在 .gitignore 之外，请勿提交密钥到公开仓库）写入：
+在 `scripts/.tts.env`（新建，已被 .gitignore 忽略，请勿提交密钥到公开仓库）写入：
 
 ```ini
 XF_APPID=你的AppID
 XF_API_KEY=你的APIKey
+XF_API_SECRET=你的APISecret
 XF_VOICE=日语发音人的voice_name
 ```
 
-> 也可用环境变量 `XF_APPID` / `XF_API_KEY` / `XF_VOICE` 传入。
+> 也可用环境变量 `XF_APPID` / `XF_API_KEY` / `XF_API_SECRET` / `XF_VOICE` 传入。
 
 ## 三、先试听一句，验证可用
 
@@ -71,5 +73,6 @@ npm run build
 | --- | --- |
 | `11200` 未授权发音人 | 控制台「语音合成→发音人」添加日语发音人 |
 | `10114` / 参数错误 | 检查 `XF_VOICE` 是否与控制台发音人参数完全一致 |
+| `HMAC signature does not match` | APISecret 填错，或 AppID/APIKey/APISecret 不是同一应用下的，回控制台重新核对复制 |
 | 返回的不是音频而是 JSON | 看 `code/desc`；多为密钥错误或发音人未授权 |
 | 手机仍无声 | 确认 mp3 已部署；部分浏览器首次播放需用户手势，点一下「🔊 发音」再试 |
