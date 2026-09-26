@@ -1,5 +1,5 @@
-import { ref, onMounted } from "vue";
-import { useJpSupabaseClient, getCurrentUserId } from "~/composables/jp/useJpAuth";
+import { ref, onMounted, watch } from "vue";
+import { useJpSupabaseClient, getCurrentUserId, currentUser } from "~/composables/jp/useJpAuth";
 
 const STORAGE_KEY = "jp-lingo-study-record";
 
@@ -88,25 +88,61 @@ async function loadCloudRecord(userId: string): Promise<StudyRecord | null> {
   return (data?.data as StudyRecord) ?? null;
 }
 
+function union<T>(a: T[], b: T[]): T[] {
+  return Array.from(new Set([...a, ...b]));
+}
+
+// 合并「本地离线记录」与「云端记录」：数组取并集，计数据此重算，
+// 总时长取较大值，避免离线进度被云端覆盖或时长重复累加。
+function mergeRecords(local: StudyRecord, cloud: StudyRecord): StudyRecord {
+  const studiedCourses = union(local.studiedCourses, cloud.studiedCourses);
+  const studiedStatements = union(local.studiedStatements, cloud.studiedStatements);
+  const masteredStatements = union(local.masteredStatements, cloud.masteredStatements);
+  const completedCourses = union(local.completedCourses, cloud.completedCourses);
+  return {
+    ...defaultRecord(),
+    ...cloud,
+    ...local,
+    days: union(local.days, cloud.days),
+    studiedCourses,
+    studiedStatements,
+    masteredStatements,
+    completedCourses,
+    courseCount: studiedCourses.length,
+    statementCount: studiedStatements.length,
+    masteredCount: masteredStatements.length,
+    totalSeconds: Math.max(local.totalSeconds, cloud.totalSeconds),
+  };
+}
+
 export function useJpStorage() {
   const record = ref<StudyRecord>(defaultRecord());
 
-  onMounted(async () => {
-    record.value = loadRecord();
-    const userId = getCurrentUserId();
-    if (userId) {
-      try {
-        const cloud = await loadCloudRecord(userId);
-        if (cloud) {
-          record.value = { ...defaultRecord(), ...cloud };
-          saveRecord(record.value);
-        } else {
-          scheduleCloudSave(userId, record.value);
-        }
-      } catch (err) {
-        console.error("加载云端学习记录失败：", err);
+  // 登录后从云端拉取记录并与本地合并（本地离线进度不丢失），再回写云端
+  async function syncFromCloud(userId: string) {
+    try {
+      const cloud = await loadCloudRecord(userId);
+      if (cloud) {
+        record.value = mergeRecords(record.value, cloud);
       }
+      saveRecord(record.value);
+    } catch (err) {
+      console.error("加载云端学习记录失败：", err);
     }
+  }
+
+  onMounted(() => {
+    record.value = loadRecord();
+
+    // 已登录（会话恢复）则立即同步
+    const userId = getCurrentUserId();
+    if (userId) syncFromCloud(userId);
+
+    // 监听登录状态：登录 → 同步云端；退出 → 继续纯本地
+    watch(currentUser, (u) => {
+      const id = u?.id ?? null;
+      if (id) syncFromCloud(id);
+    });
   });
 
   function recordStatement(courseId: string, statementId: string) {

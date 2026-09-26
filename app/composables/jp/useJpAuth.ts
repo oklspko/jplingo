@@ -8,7 +8,7 @@ import {
 let client: SupabaseClient | null = null;
 let initPromise: Promise<void> | null = null;
 
-const currentUser = ref<User | null>(null);
+export const currentUser = ref<User | null>(null);
 const authLoading = ref(true);
 
 function getClient(): SupabaseClient {
@@ -25,19 +25,25 @@ function getClient(): SupabaseClient {
 
 function ensureAuthInit(): Promise<void> {
   if (!initPromise) {
-    const c = getClient();
-    initPromise = c.auth
-      .getSession()
-      .then(({ data }) => {
+    initPromise = (async () => {
+      try {
+        const c = getClient();
+        c.auth.onAuthStateChange((_event, session) => {
+          currentUser.value = session?.user ?? null;
+          authLoading.value = false;
+        });
+        const { data } = await c.auth.getSession();
         currentUser.value = data.session?.user ?? null;
-      })
-      .finally(() => {
+      } catch (err) {
+        // 部分浏览器（Safari 无痕/隐私模式、存储受限的国产浏览器/微信 WebView）
+        // 读取 localStorage 会抛 SecurityError，导致 getSession() reject。
+        // 这里兜底：把鉴权初始化失败视为「未登录」，绝不让它把整站带崩成 500 页。
+        console.error("[jp-lingo] 初始化登录状态失败：", err);
+        currentUser.value = null;
+      } finally {
         authLoading.value = false;
-      });
-    c.auth.onAuthStateChange((_event, session) => {
-      currentUser.value = session?.user ?? null;
-      authLoading.value = false;
-    });
+      }
+    })();
   }
   return initPromise;
 }

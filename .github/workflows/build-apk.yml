@@ -41,6 +41,11 @@ jobs:
 
       - name: Generate static site
         run: pnpm generate
+        env:
+          # 登录/云同步所需的 Supabase 凭据，需在仓库 Secrets 中配置
+          # （未配置时登录不可用，但离线功能不受影响）
+          NUXT_SUPABASE_URL: ${{ secrets.NUXT_SUPABASE_URL }}
+          NUXT_SUPABASE_ANON_KEY: ${{ secrets.NUXT_SUPABASE_ANON_KEY }}
 
       - name: Sync Capacitor web assets
         run: npx cap sync android
