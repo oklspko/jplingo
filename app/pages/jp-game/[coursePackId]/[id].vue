@@ -163,8 +163,7 @@ import { useJpGlobalKeyboard } from "~/composables/jp/useJpKeyboard";
 import {
   fetchCoursePacks,
   fetchCourse,
-  buildChunkedOrder,
-  getCourseExposures,
+  buildPracticeOrder,
 } from "~/composables/jp/useJpCourses";
 import type { JpStatement } from "~/types/jp";
 
@@ -333,11 +332,7 @@ async function loadCourseData() {
     }
   } catch {}
   const data = await fetchCourse(packId, id);
-  statements.value = buildChunkedOrder(
-    data.statements || [],
-    6,
-    getCourseExposures(packId),
-  );
+  statements.value = buildPracticeOrder(packId, data.statements || [], 6);
   courseTitle.value = data.title || id;
   currentIndex.value = 0;
   nextTick(() => {

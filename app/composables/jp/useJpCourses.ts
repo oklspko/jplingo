@@ -95,10 +95,10 @@ export function dedupeStatements(statements: JpStatement[]): JpStatement[] {
   return out;
 }
 
-// 每项内容在整节课里的出现总次数
+// 每项内容在整节课里的出现总次数（高考单词课 3 遍；句子生长走 buildGrowingOrder，不在此计数）
 export function getCourseExposures(packId: string): number {
   if (packId === "jp-gaokao") return 3; // 高考单词：学 1 遍 + 分组循环 + 整体复习
-  return 1; // 句子生长/五十音等：每词每句只考 1 遍，不再循环重复
+  return 1; // 五十音等：每词每句只考 1 遍，不再循环重复
 }
 
 export function buildChunkedOrder(
@@ -126,7 +126,84 @@ export function buildChunkedOrder(
   return out;
 }
 
-// 实际练习题数（含复习循环）
+function chunkArray<T>(arr: T[], size: number): T[][] {
+  const out: T[][] = [];
+  for (let i = 0; i < arr.length; i += size) {
+    out.push(arr.slice(i, i + size));
+  }
+  return out;
+}
+
+// 收集一批句子中「已作为独立单词学过」的词（按 japanese 去重、保持句子出现顺序）
+function collectUsedWords(
+  sentences: JpStatement[],
+  wordByText: Map<string, JpStatement>,
+): JpStatement[] {
+  const seen = new Set<string>();
+  const out: JpStatement[] = [];
+  for (const s of sentences) {
+    for (const t of s.tokens || []) {
+      const w = wordByText.get(t.text);
+      if (w && !seen.has(w.japanese)) {
+        seen.add(w.japanese);
+        out.push(w);
+      }
+    }
+  }
+  return out;
+}
+
+// ===== 句子生长底层逻辑：词先句后 + 词句循环 =====
+// 「每个词在句子出现之前先被学习」：先把全部单词分块学完（含短间隔复习），
+// 再进入句子；每学一批句子前，先把这批句子会复用到的单词循环回来（长间隔），
+// 通过单词与句子的循环出现强化记忆，训练看到词能快速反应句子的听说读写能力。
+export function buildGrowingOrder(
+  statements: JpStatement[],
+  chunkSize = 6,
+): JpStatement[] {
+  const unique = dedupeStatements(statements);
+  if (unique.length === 0) return [];
+
+  const words: JpStatement[] = [];
+  const sentences: JpStatement[] = [];
+  for (const s of unique) {
+    if ((s.tokens?.length || 1) > 1) sentences.push(s);
+    else words.push(s);
+  }
+
+  const wordByText = new Map<string, JpStatement>();
+  for (const w of words) wordByText.set(w.japanese, w);
+
+  const out: JpStatement[] = [];
+
+  // 1) 先学全部单词：分块，每块学完立即复习（短间隔）
+  for (const chunk of chunkArray(words, chunkSize)) {
+    out.push(...chunk);
+    out.push(...shuffle(chunk));
+  }
+
+  // 2) 再学句子：分块推进，每块前先把该块会用到的单词循环回来（长间隔）
+  for (const chunk of chunkArray(sentences, chunkSize)) {
+    const used = collectUsedWords(chunk, wordByText);
+    if (used.length) out.push(...shuffle(used));
+    out.push(...chunk);
+    out.push(...shuffle(chunk));
+  }
+
+  return out;
+}
+
+// 统一练习顺序入口：句子生长走词句循环，高考走分块循环，其余保持数据原序
+export function buildPracticeOrder(
+  packId: string,
+  statements: JpStatement[],
+  chunkSize = 6,
+): JpStatement[] {
+  if (packId === "jp-growing") return buildGrowingOrder(statements, chunkSize);
+  return buildChunkedOrder(statements, chunkSize, getCourseExposures(packId));
+}
+
+// 实际练习题数（含记忆曲线复习循环）
 export function getPracticeCount(packId: string, statements: JpStatement[]): number {
-  return dedupeStatements(statements).length * getCourseExposures(packId);
+  return buildPracticeOrder(packId, statements).length;
 }
