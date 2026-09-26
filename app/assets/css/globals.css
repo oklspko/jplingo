@@ -58,12 +58,10 @@ body {
   border-radius: 7px;
 }
 
-/* 移动端固定底部 Tab 栏占位，避免页面内容/页脚被导航栏遮挡 */
+/* 移动端固定底部 Tab 栏占位，避免页面内容被导航栏遮挡
+   （页脚 .site-footer 的占位在 app.vue 的 scoped 样式里处理，否则会被那里的 padding 简写覆盖） */
 @media (max-width: 768px) {
   .jp-page-main {
     padding-bottom: calc(64px + env(safe-area-inset-bottom));
-  }
-  .site-footer {
-    padding-bottom: calc(76px + env(safe-area-inset-bottom));
   }
 }

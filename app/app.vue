@@ -38,4 +38,11 @@
   font-size: 12px;
   color: #7dd3fc;
 }
+
+/* 移动端：底部固定 Tab 栏会盖住页脚，留出底部空间让备案号/意见反馈可完整显示 */
+@media (max-width: 768px) {
+  .site-footer {
+    padding-bottom: calc(76px + env(safe-area-inset-bottom));
+  }
+}
 </style>
