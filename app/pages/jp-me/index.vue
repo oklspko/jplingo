@@ -112,7 +112,7 @@
         <!-- ===== 关于 ===== -->
         <section class="me-section me-about">
           <a v-if="!isNative" href="/release" class="about-link">📱 下载 Android App</a>
-          <div class="about-version">jp-lingo v1.0.0</div>
+          <div class="about-version">jp-lingo v{{ appVersion }}</div>
         </section>
       </div>
     </main>
@@ -148,6 +148,7 @@ import {
 const { record, resetRecord, syncNow } = useJpStorage();
 const { user, signOut } = useJpAuth();
 const isNative = Capacitor.isNativePlatform();
+const appVersion = useRuntimeConfig().public.appVersion;
 
 const syncing = ref(false);
 const syncMsg = ref("");

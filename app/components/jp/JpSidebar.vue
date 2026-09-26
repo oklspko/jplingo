@@ -36,7 +36,7 @@
         <button class="logout-btn" @click="onLogout">退出</button>
       </div>
       <a v-else href="/login" class="login-link">登录 / 注册</a>
-      <div class="version">v1.0.0</div>
+      <div class="version">v{{ appVersion }}</div>
     </div>
   </aside>
 </template>
@@ -48,6 +48,7 @@ import JpLogo from "./JpLogo.vue";
 import { useJpAuth } from "~/composables/jp/useJpAuth";
 
 const route = useRoute();
+const appVersion = useRuntimeConfig().public.appVersion;
 const { user, signOut } = useJpAuth();
 
 // 原生 App（Capacitor）内不显示「下载 App」入口

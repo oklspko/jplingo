@@ -1,3 +1,9 @@
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
+
+// 版本号唯一来源：package.json。发布页 / 侧栏 / 关于页统一读取，改版本只需改 package.json。
+const pkg = JSON.parse(readFileSync(resolve(process.cwd(), "package.json"), "utf8"));
+
 export default defineNuxtConfig({
   ssr: false,
   // 纯 SPA，产出静态文件，方便 EdgeOne Pages / 静态托管部署
@@ -7,6 +13,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   runtimeConfig: {
     public: {
+      appVersion: pkg.version || "1.0.0",
       supabaseUrl: process.env.NUXT_SUPABASE_URL || "",
       supabaseAnonKey: process.env.NUXT_SUPABASE_ANON_KEY || "",
       // 发布页 APK 下载地址，可通过 NUXT_APK_URL 覆盖

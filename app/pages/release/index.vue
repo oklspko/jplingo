@@ -7,7 +7,7 @@
           <div class="release-icon">📱</div>
           <h1>jp-lingo 安卓 App</h1>
           <p class="subtitle">离线也能学的日语连词成句</p>
-          <div class="version-badge">v1.0.0</div>
+          <div class="version-badge">v{{ appVersion }}</div>
         </header>
 
         <section class="release-features">
@@ -74,6 +74,7 @@ import JpSidebar from "~/components/jp/JpSidebar.vue";
 
 const config = useRuntimeConfig();
 const apkUrl = config.public.apkUrl as string;
+const appVersion = config.public.appVersion as string;
 
 // 原生 App 内不再展示下载页，直接回主页
 onMounted(() => {
