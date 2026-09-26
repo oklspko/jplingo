@@ -1,7 +1,9 @@
 <template>
   <div class="login-wrap">
     <div class="login-card">
-      <div class="login-logo">🗾</div>
+      <div class="login-logo">
+        <JpLogo :size="64" />
+      </div>
       <h1 class="login-title">jp-lingo</h1>
       <p class="login-sub">日语连词成句 · 登录同步进度，也可离线学习</p>
 
@@ -52,6 +54,7 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
+import JpLogo from "~/components/jp/JpLogo.vue";
 import { useJpAuth } from "~/composables/jp/useJpAuth";
 
 const { signIn, signUp } = useJpAuth();
@@ -110,7 +113,8 @@ async function onSubmit() {
 }
 
 .login-logo {
-  font-size: 48px;
+  display: flex;
+  justify-content: center;
   margin-bottom: 8px;
 }
 
