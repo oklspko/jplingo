@@ -160,7 +160,12 @@ import {
   calcWordWidth,
 } from "~/composables/jp/useJpRomaji";
 import { useJpGlobalKeyboard } from "~/composables/jp/useJpKeyboard";
-import { fetchCoursePacks, fetchCourse } from "~/composables/jp/useJpCourses";
+import {
+  fetchCoursePacks,
+  fetchCourse,
+  buildChunkedOrder,
+  getCourseExposures,
+} from "~/composables/jp/useJpCourses";
 import type { JpStatement } from "~/types/jp";
 
 const route = useRoute();
@@ -334,7 +339,11 @@ async function loadCourseData() {
     }
   } catch {}
   const data = await fetchCourse(packId, id);
-  statements.value = data.statements || [];
+  statements.value = buildChunkedOrder(
+    data.statements || [],
+    6,
+    getCourseExposures(packId),
+  );
   courseTitle.value = data.title || id;
   currentIndex.value = 0;
   nextTick(() => {

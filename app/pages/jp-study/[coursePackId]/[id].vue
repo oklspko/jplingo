@@ -13,7 +13,7 @@
             <a class="study-enter" :href="gameUrl">进入练习 →</a>
           </div>
           <p class="study-meta">
-            学习 {{ uniqueStatements.length }} 项 · 练习 {{ statements.length }} 题
+            学习 {{ uniqueStatements.length }} 项 · 练习 {{ practiceCount }} 题
           </p>
         </header>
 
@@ -62,7 +62,12 @@
 import { computed, onMounted, ref } from "vue";
 import { useRoute } from "vue-router";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
-import { fetchCoursePacks, fetchCourse } from "~/composables/jp/useJpCourses";
+import {
+  fetchCoursePacks,
+  fetchCourse,
+  dedupeStatements,
+  getPracticeCount,
+} from "~/composables/jp/useJpCourses";
 import { isSingleKanaCourseId } from "~/composables/jp/useJpRomaji";
 import type { JpStatement } from "~/types/jp";
 
@@ -93,17 +98,12 @@ const nextUrl = computed(
 const gameUrl = computed(() => `/jp-game/${coursePackId.value}/${courseId.value}`);
 
 // 高考单词课同一词循环 3 遍，学习页按词去重展示
-const uniqueStatements = computed<JpStatement[]>(() => {
-  const seen = new Set<string>();
-  const out: JpStatement[] = [];
-  for (const s of statements.value) {
-    if (!seen.has(s.japanese)) {
-      seen.add(s.japanese);
-      out.push(s);
-    }
-  }
-  return out;
-});
+const uniqueStatements = computed<JpStatement[]>(() => dedupeStatements(statements.value));
+
+// 实际练习题数（含记忆曲线复习循环）
+const practiceCount = computed(() =>
+  getPracticeCount(coursePackId.value, statements.value),
+);
 
 onMounted(async () => {
   const packId = coursePackId.value;

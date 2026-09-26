@@ -1,4 +1,4 @@
-import type { JpCourse, JpCoursePack } from "~/types/jp";
+import type { JpCourse, JpCoursePack, JpStatement } from "~/types/jp";
 
 const PACK_PRIORITY = ["jp-kana", "jp-basic-01"];
 
@@ -36,7 +36,7 @@ export async function fetchCourseMeta(
     const course = await fetchCourse(packId, courseId);
     return {
       title: course.title || courseId,
-      count: course.statements?.length || 0,
+      count: getPracticeCount(course.coursePackId || packId, course.statements || []),
     };
   } catch {
     return { title: courseId, count: 0 };
@@ -51,4 +51,67 @@ export function sortCoursePacks(packs: JpCoursePack[]): JpCoursePack[] {
     const bRank = bi === -1 ? 999 : bi;
     return aRank - bRank;
   });
+}
+
+// ===== 记忆曲线分块复习 =====
+// 按「每 chunkSize 个一组：先学新内容 → 紧接着循环复习该组 → 最后整体复习」重排，
+// 用短间隔强化贴合遗忘曲线，避免「整课从头到尾学一遍」导致记忆效率差。
+
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// 按 japanese 去重，保持首次出现顺序（高考单词课同词循环 3 遍，先归一到 30 词）
+export function dedupeStatements(statements: JpStatement[]): JpStatement[] {
+  const seen = new Set<string>();
+  const out: JpStatement[] = [];
+  for (const s of statements) {
+    if (!seen.has(s.japanese)) {
+      seen.add(s.japanese);
+      out.push(s);
+    }
+  }
+  return out;
+}
+
+// 每项内容在整节课里的出现总次数
+export function getCourseExposures(packId: string): number {
+  if (packId === "jp-gaokao") return 3; // 高考单词：学 1 遍 + 分组循环 + 整体复习
+  if (packId === "jp-growing") return 2; // 句子生长：学 1 遍 + 分组循环 1 遍
+  return 1; // 五十音等保持原样
+}
+
+export function buildChunkedOrder(
+  statements: JpStatement[],
+  chunkSize = 6,
+  exposures = 3,
+): JpStatement[] {
+  if (exposures <= 1) return statements;
+  const unique = dedupeStatements(statements);
+  if (unique.length === 0) return [];
+
+  const chunks: JpStatement[][] = [];
+  for (let i = 0; i < unique.length; i += chunkSize) {
+    chunks.push(unique.slice(i, i + chunkSize));
+  }
+
+  const out: JpStatement[] = [];
+  for (const chunk of chunks) {
+    out.push(...chunk); // 学习新内容
+    out.push(...shuffle(chunk)); // 立即循环复习该组（短间隔）
+  }
+  for (let i = 0; i < exposures - 2; i++) {
+    out.push(...shuffle(unique)); // 整体复习（长间隔）
+  }
+  return out;
+}
+
+// 实际练习题数（含复习循环）
+export function getPracticeCount(packId: string, statements: JpStatement[]): number {
+  return dedupeStatements(statements).length * getCourseExposures(packId);
 }
