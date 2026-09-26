@@ -73,6 +73,6 @@ npm run build
 | --- | --- |
 | `11200` 未授权发音人 | 控制台「语音合成→发音人」添加日语发音人 |
 | `10114` / 参数错误 | 检查 `XF_VOICE` 是否与控制台发音人参数完全一致 |
-| `HMAC signature does not match` | APISecret 填错，或 AppID/APIKey/APISecret 不是同一应用下的，回控制台重新核对复制 |
+| `HMAC signature does not match` | **APISecret 填错**（此时 APIKey 已被服务端识别，但签名对不上）。到控制台找到与 APIKey **同一个应用**下的 APISecret 原样复制，注意 `l/1/I`、`0/O` 等形近字符；仍不对就点「重置密钥」拿新的 APISecret 再填一次。APISecret 直接原样用，**不要 Base64 解码** |
 | 返回的不是音频而是 JSON | 看 `code/desc`；多为密钥错误或发音人未授权 |
 | 手机仍无声 | 确认 mp3 已部署；部分浏览器首次播放需用户手势，点一下「🔊 发音」再试 |

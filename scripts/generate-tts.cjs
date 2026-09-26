@@ -107,6 +107,7 @@ function xfTtsOnce(appid, apiKey, apiSecret, voice, text, tte) {
           volume: 50,
           pitch: 50,
           tte,
+          ent: "mtts", // 小语种（日语）合成引擎；中文才用 intp65
         },
         data: { status: 2, text: encodeText(text, tte) },
       };
