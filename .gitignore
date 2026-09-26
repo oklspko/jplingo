@@ -4,6 +4,7 @@ node_modules
 .nitro
 .vercel
 .env
+.tts.env
 *.log
 .DS_Store
 .claude

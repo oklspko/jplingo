@@ -100,12 +100,45 @@ export function playErrorSound() {
 }
 
 /* ============================================================
-   日语 TTS —— 自动选择最高质量的语音
+   日语发音 —— 优先播放预生成的讯飞音频，未生成时退回浏览器 TTS
    ============================================================ */
+
+// 音频静态目录。若以后把音频挪到自托管服务器，改这里即可（如 https://api.jplingo.cn/audio）
+const AUDIO_BASE = "/audio";
+
+let manifest: Record<string, string> | null = null;
+let manifestPromise: Promise<Record<string, string> | null> | null = null;
+let audioEl: HTMLAudioElement | null = null;
+
+// 懒加载 public/audio/manifest.json（kana → 文件名），失败返回 null
+function loadManifest(): Promise<Record<string, string> | null> {
+  if (manifest) return Promise.resolve(manifest);
+  if (!manifestPromise) {
+    manifestPromise = fetch(`${AUDIO_BASE}/manifest.json`)
+      .then((r) => (r.ok ? r.json() : null))
+      .catch(() => null)
+      .then((m) => {
+        manifest = m && typeof m === "object" ? (m as Record<string, string>) : null;
+        return manifest;
+      });
+  }
+  return manifestPromise;
+}
+
+// 与生成脚本保持一致：去掉所有空白后的假名串作为查表键
+function normalizeKey(text: string): string {
+  return text.replace(/\s+/g, "");
+}
+
+function ensureAudioEl(): HTMLAudioElement {
+  if (!audioEl) audioEl = new Audio();
+  return audioEl;
+}
+
+/* ---- 兜底：浏览器自带 TTS ---- */
 
 // 优先级列表：越靠前越优先
 const PREFERRED_VOICES = [
-  // 微软云端 Natural 语音（Edge 浏览器，音质最好）
   "Microsoft Nanami Online (Natural) - Japanese (Japan)",
   "Microsoft Keita Online (Natural) - Japanese (Japan)",
   "Microsoft Aoi Online (Natural) - Japanese (Japan)",
@@ -113,25 +146,18 @@ const PREFERRED_VOICES = [
   "Microsoft Mayu Online (Natural) - Japanese (Japan)",
   "Microsoft Shiori Online (Natural) - Japanese (Japan)",
   "Microsoft Ichiro Online (Natural) - Japanese (Japan)",
-  // 微软云端（旧命名）
   "Microsoft Nanami Online",
   "Microsoft Keita Online",
   "Microsoft Aoi Online",
-  // Google 日语
   "Google 日本語",
   "Google Japanese",
-  // macOS / iOS
   "Kyoko",
   "Otoya",
   "Hattori",
 ];
 
 let cachedVoice: SpeechSynthesisVoice | null = null;
-let voicesLoaded = false;
 
-/**
- * 选一个最佳日语语音
- */
 function pickBestJapaneseVoice(): SpeechSynthesisVoice | null {
   if (cachedVoice) return cachedVoice;
   if (typeof window === "undefined" || !window.speechSynthesis) return null;
@@ -139,26 +165,17 @@ function pickBestJapaneseVoice(): SpeechSynthesisVoice | null {
   const voices = speechSynthesis.getVoices();
   if (voices.length === 0) return null;
 
-  voicesLoaded = true;
-  const jaVoices = voices.filter((v) =>
-    v.lang.toLowerCase().startsWith("ja"),
-  );
-
+  const jaVoices = voices.filter((v) => v.lang.toLowerCase().startsWith("ja"));
   if (jaVoices.length === 0) return null;
 
-  // 1. 白名单精确匹配
   for (const name of PREFERRED_VOICES) {
-    const match = jaVoices.find(
-      (v) => v.name === name || v.name.includes(name),
-    );
+    const match = jaVoices.find((v) => v.name === name || v.name.includes(name));
     if (match) {
       cachedVoice = match;
-      console.log("[jp-lingo] 使用语音：", match.name);
       return match;
     }
   }
 
-  // 2. 名字里带 Natural / Online（云端高质量）
   const natural = jaVoices.find(
     (v) =>
       v.name.toLowerCase().includes("natural") ||
@@ -166,19 +183,14 @@ function pickBestJapaneseVoice(): SpeechSynthesisVoice | null {
   );
   if (natural) {
     cachedVoice = natural;
-    console.log("[jp-lingo] 使用语音（Natural/Online）：", natural.name);
     return natural;
   }
 
-  // 3. 退到第一个日语语音
   cachedVoice = jaVoices[0];
-  console.log("[jp-lingo] 使用语音（降级）：", jaVoices[0].name);
   return cachedVoice;
 }
 
-// 页面加载时预加载 voices
 if (typeof window !== "undefined" && window.speechSynthesis) {
-  // 先加载一次（部分浏览器首次为空）
   speechSynthesis.getVoices();
   speechSynthesis.onvoiceschanged = () => {
     cachedVoice = null;
@@ -186,20 +198,12 @@ if (typeof window !== "undefined" && window.speechSynthesis) {
   };
 }
 
-/**
- * 日语发音
- * @param text 要发音的文本（假名或句子）
- * @param rate 语速（0.5 ~ 2.0，默认 0.9）
- */
-export function speakJapanese(text: string, rate = 0.9) {
-  if (!text) return;
+function speakViaWebSpeech(text: string, rate: number) {
   if (typeof window === "undefined" || !window.speechSynthesis) return;
-
   speechSynthesis.cancel();
 
   const utt = new SpeechSynthesisUtterance(text);
   const voice = pickBestJapaneseVoice();
-
   if (voice) {
     utt.voice = voice;
     utt.lang = voice.lang;
@@ -207,11 +211,36 @@ export function speakJapanese(text: string, rate = 0.9) {
     utt.lang = "ja-JP";
   }
 
-  utt.rate = rate;      // 语速
-  utt.pitch = 1.0;      // 音调
-  utt.volume = 1.0;     // 音量
-
+  utt.rate = rate;
+  utt.pitch = 1.0;
+  utt.volume = 1.0;
   speechSynthesis.speak(utt);
+}
+
+/**
+ * 日语发音
+ * @param text 要发音的文本（假名或句子）
+ * @param rate 语速（仅兜底 TTS 使用；讯飞音频为 1.0 正常速度）
+ */
+export function speakJapanese(text: string, rate = 1.0) {
+  if (!text) return;
+  if (typeof window === "undefined") return;
+
+  const key = normalizeKey(text);
+  loadManifest()
+    .then(() => {
+      const file = manifest?.[key];
+      if (file) {
+        const el = ensureAudioEl();
+        el.src = `${AUDIO_BASE}/${file}`;
+        el.playbackRate = rate;
+        el.currentTime = 0;
+        el.play().catch(() => {});
+      } else {
+        speakViaWebSpeech(text, rate);
+      }
+    })
+    .catch(() => speakViaWebSpeech(text, rate));
 }
 
 /**
