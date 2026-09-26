@@ -22,10 +22,6 @@
     </nav>
 
     <div class="sidebar-footer">
-      <div v-if="user" class="user-info">
-        <span class="user-email">{{ user.email }}</span>
-        <button class="logout-btn" @click="onLogout">退出</button>
-      </div>
       <div class="version">v1.0.0</div>
     </div>
   </aside>
@@ -34,15 +30,8 @@
 <script setup lang="ts">
 import { useRoute } from "vue-router";
 import JpLogo from "./JpLogo.vue";
-import { useJpAuth } from "~/composables/jp/useJpAuth";
 
 const route = useRoute();
-const { user, signOut } = useJpAuth();
-
-async function onLogout() {
-  await signOut();
-  window.location.href = "/login";
-}
 
 const menuItems = [
   { key: "me", label: "我的", icon: "👤", path: "/jp-me" },
@@ -50,6 +39,7 @@ const menuItems = [
   { key: "record", label: "记录", icon: "📋", path: "/jp-record" },
   { key: "grammar", label: "语法", icon: "📖", path: "/jp-kana-chart" },
   { key: "editor", label: "编辑器", icon: "✏️", path: "/jp-editor" },
+  { key: "release", label: "下载 App", icon: "📱", path: "/release" },
 ];
 
 function isActive(path: string) {
@@ -154,42 +144,6 @@ function isActive(path: string) {
   color: #bae6fd;
 }
 
-.user-info {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  margin-bottom: 8px;
-}
-
-.user-email {
-  font-size: 11px;
-  color: #5b7a8c;
-  max-width: 140px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.logout-btn {
-  padding: 4px 10px;
-  border: 1px solid #e0f2fe;
-  background: #f5fbff;
-  color: #0369a1;
-  border-radius: 8px;
-  font-size: 11px;
-  cursor: pointer;
-  font-family: inherit;
-  transition: all 0.2s;
-  white-space: nowrap;
-}
-
-.logout-btn:hover {
-  background: #fee2e2;
-  border-color: #fca5a5;
-  color: #dc2626;
-}
-
 /* 移动端：固定侧栏转为顶部导航 */
 @media (max-width: 768px) {
   .jp-sidebar {
@@ -242,7 +196,5 @@ function isActive(path: string) {
   }
 
   .version { display: none; }
-  .user-email { display: none; }
-  .logout-btn { padding: 6px 12px; font-size: 12px; }
 }
 </style>

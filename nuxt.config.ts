@@ -9,6 +9,10 @@ export default defineNuxtConfig({
     public: {
       supabaseUrl: process.env.NUXT_SUPABASE_URL || "",
       supabaseAnonKey: process.env.NUXT_SUPABASE_ANON_KEY || "",
+      // 发布页 APK 下载地址，可通过 NUXT_APK_URL 覆盖
+      apkUrl:
+        process.env.NUXT_APK_URL ||
+        "https://github.com/oklspko/jplingo/releases/latest/download/jp-lingo.apk",
     },
   },
   app: {

@@ -12,6 +12,9 @@
               不会日语输入法？从 <strong>五十音</strong> 开始，边练边熟悉罗马字输入
             </span>
           </div>
+          <div class="home-actions">
+            <button class="import-btn" @click="openImport">📥 导入课程包</button>
+          </div>
         </header>
 
         <main class="home-main">
@@ -25,9 +28,12 @@
               :class="{ expanded: isExpanded(pack.id) }"
             >
               <!-- 课程包标题（可点击折叠） -->
-              <button
+              <div
                 class="pack-header"
+                role="button"
+                tabindex="0"
                 @click="togglePack(pack.id)"
+                @keydown.enter.prevent="togglePack(pack.id)"
                 :aria-expanded="isExpanded(pack.id)"
               >
                 <div class="pack-header-left">
@@ -36,9 +42,15 @@
                   <span class="pack-level">{{ pack.level }}</span>
                 </div>
                 <div class="pack-header-right">
+                  <span v-if="isImported(pack.id)" class="imported-badge">已导入</span>
+                  <button
+                    v-if="isImported(pack.id)"
+                    class="remove-pack-btn"
+                    @click.stop="removePack(pack.id)"
+                  >删除</button>
                   <span class="pack-count">{{ pack.courses.length }} 课</span>
                 </div>
-              </button>
+              </div>
 
               <!-- 课程列表（可折叠区域） -->
               <transition name="fold">
@@ -63,6 +75,47 @@
           </template>
         </main>
       </div>
+
+      <!-- 导入课程包弹窗 -->
+      <div v-if="showImport" class="import-overlay" @click.self="showImport = false">
+        <div class="import-modal" role="dialog" aria-modal="true">
+          <h3>导入课程包</h3>
+          <div class="import-tabs">
+            <button :class="{ active: importTab === 'url' }" @click="importTab = 'url'">粘贴 URL</button>
+            <button :class="{ active: importTab === 'file' }" @click="importTab = 'file'">选择文件</button>
+          </div>
+
+          <div v-if="importTab === 'url'" class="import-field">
+            <input
+              v-model="importUrl"
+              type="text"
+              placeholder="https://example.com/course-pack.json"
+              @keyup.enter="doImportUrl"
+            />
+            <button class="import-submit" :disabled="importing" @click="doImportUrl">
+              {{ importing ? "导入中…" : "导入" }}
+            </button>
+          </div>
+
+          <div v-else class="import-field">
+            <input
+              type="file"
+              accept=".json,application/json"
+              :disabled="importing"
+              @change="doImportFile"
+            />
+            <p class="import-hint">选择「单文件打包」课程包 JSON</p>
+          </div>
+
+          <p v-if="importError" class="import-msg import-error">{{ importError }}</p>
+          <p v-if="importOk" class="import-msg import-ok">{{ importOk }}</p>
+
+          <div class="import-footer">
+            <a href="https://github.com/oklspko/jplingo/blob/main/docs/course-pack-format.md" target="_blank" class="import-link">课程包格式说明 ↗</a>
+            <button class="import-close" @click="showImport = false">关闭</button>
+          </div>
+        </div>
+      </div>
     </main>
   </div>
 </template>
@@ -75,6 +128,12 @@ import {
   fetchCourseMeta,
   sortCoursePacks,
 } from "~/composables/jp/useJpCourses";
+import {
+  importPackFromUrl,
+  importPackFromFile,
+  removeImportedPack,
+  listImportedPacks,
+} from "~/composables/jp/useJpImportedPacks";
 import type { JpCoursePack } from "~/types/jp";
 
 interface CourseIndex {
@@ -84,6 +143,15 @@ interface CourseIndex {
 const coursePacks = ref<JpCoursePack[]>([]);
 const courseIndex = ref<CourseIndex>({});
 const loading = ref(true);
+const importedPackIds = ref<Set<string>>(new Set());
+
+// 导入弹窗状态
+const showImport = ref(false);
+const importTab = ref<"url" | "file">("url");
+const importUrl = ref("");
+const importing = ref(false);
+const importError = ref("");
+const importOk = ref("");
 
 // 展开状态：默认第一个展开
 const expandedPacks = ref<Set<string>>(new Set());
@@ -102,17 +170,19 @@ function togglePack(packId: string) {
   expandedPacks.value = newSet;
 }
 
-onMounted(async () => {
+async function loadAll() {
+  loading.value = true;
   try {
     const packs = sortCoursePacks(await fetchCoursePacks());
     coursePacks.value = packs;
+    importedPackIds.value = new Set(listImportedPacks().map((p) => p.id));
 
-    // 默认展开第一个（排序后是五十音）
-    if (coursePacks.value.length > 0) {
-      expandedPacks.value = new Set([coursePacks.value[0].id]);
+    // 默认展开第一个（排序后是五十音）；已展开过则不重置
+    if (expandedPacks.value.size === 0 && packs.length > 0) {
+      expandedPacks.value = new Set([packs[0].id]);
     }
 
-    for (const pack of coursePacks.value) {
+    for (const pack of packs) {
       for (const courseId of pack.courses) {
         courseIndex.value[`${pack.id}/${courseId}`] = await fetchCourseMeta(
           pack.id,
@@ -125,7 +195,9 @@ onMounted(async () => {
   } finally {
     loading.value = false;
   }
-});
+}
+
+onMounted(loadAll);
 
 function getCourseTitle(packId: string, courseId: string) {
   return courseIndex.value[`${packId}/${courseId}`]?.title || courseId;
@@ -133,6 +205,62 @@ function getCourseTitle(packId: string, courseId: string) {
 
 function getCourseCount(packId: string, courseId: string) {
   return courseIndex.value[`${packId}/${courseId}`]?.count || 0;
+}
+
+function isImported(packId: string): boolean {
+  return importedPackIds.value.has(packId);
+}
+
+function openImport() {
+  showImport.value = true;
+  importError.value = "";
+  importOk.value = "";
+}
+
+async function doImportUrl() {
+  const url = importUrl.value.trim();
+  if (!url) {
+    importError.value = "请输入课程包 URL";
+    return;
+  }
+  importing.value = true;
+  importError.value = "";
+  importOk.value = "";
+  try {
+    const added = await importPackFromUrl(url);
+    importOk.value = `已导入：${added.map((p) => p.title).join("、")}`;
+    importUrl.value = "";
+    await loadAll();
+  } catch (err) {
+    importError.value = (err as Error).message || "导入失败";
+  } finally {
+    importing.value = false;
+  }
+}
+
+async function doImportFile(event: Event) {
+  const input = event.target as HTMLInputElement;
+  const file = input.files?.[0];
+  if (!file) return;
+  importing.value = true;
+  importError.value = "";
+  importOk.value = "";
+  try {
+    const added = await importPackFromFile(file);
+    importOk.value = `已导入：${added.map((p) => p.title).join("、")}`;
+    await loadAll();
+  } catch (err) {
+    importError.value = (err as Error).message || "导入失败";
+  } finally {
+    importing.value = false;
+    input.value = "";
+  }
+}
+
+async function removePack(packId: string) {
+  if (!confirm("确定删除该课程包？")) return;
+  removeImportedPack(packId);
+  await loadAll();
 }
 </script>
 
@@ -321,6 +449,9 @@ function getCourseCount(packId: string, courseId: string) {
 
 .pack-header-right {
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .pack-count {
@@ -446,5 +577,191 @@ function getCourseCount(packId: string, courseId: string) {
   .course-title {
     font-size: 16px;
   }
+}
+
+/* ===== 导入课程包 ===== */
+.home-actions {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.import-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 22px;
+  border: 2px dashed #7dd3fc;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #0284c7;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.import-btn:hover {
+  background: #f0f9ff;
+  border-color: #0284c7;
+  box-shadow: 0 4px 16px rgba(125, 211, 252, 0.25);
+}
+
+.imported-badge {
+  font-size: 12px;
+  color: #059669;
+  background: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  padding: 2px 8px;
+  border-radius: 8px;
+}
+
+.remove-pack-btn {
+  padding: 4px 12px;
+  border: 1px solid #fca5a5;
+  border-radius: 8px;
+  background: #fff;
+  color: #dc2626;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.remove-pack-btn:hover {
+  background: #fef2f2;
+  border-color: #ef4444;
+}
+
+/* 弹窗 */
+.import-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(7, 89, 133, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.import-modal {
+  width: 100%;
+  max-width: 480px;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 20px 60px rgba(7, 89, 133, 0.3);
+}
+
+.import-modal h3 {
+  margin: 0 0 16px;
+  color: #075985;
+  font-size: 20px;
+}
+
+.import-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.import-tabs button {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #e8f6ff;
+  border-radius: 10px;
+  background: #f8fcff;
+  color: #5b7a8c;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.import-tabs button.active {
+  background: linear-gradient(135deg, #e8f6ff 0%, #d4efff 100%);
+  color: #075985;
+  font-weight: 600;
+  border-color: #bae6fd;
+}
+
+.import-field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.import-field input[type="text"] {
+  padding: 12px 14px;
+  border: 1px solid #e8f6ff;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #075985;
+  outline: none;
+}
+
+.import-field input[type="text"]:focus {
+  border-color: #7dd3fc;
+  box-shadow: 0 0 0 3px rgba(125, 211, 252, 0.2);
+}
+
+.import-submit {
+  padding: 11px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.import-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.import-hint {
+  margin: 0;
+  font-size: 13px;
+  color: #7dd3fc;
+}
+
+.import-msg {
+  margin: 12px 0 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.import-error {
+  color: #dc2626;
+}
+
+.import-ok {
+  color: #059669;
+}
+
+.import-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.import-link {
+  font-size: 13px;
+  color: #0284c7;
+  text-decoration: none;
+}
+
+.import-link:hover {
+  text-decoration: underline;
+}
+
+.import-close {
+  padding: 8px 18px;
+  border: 1px solid #e8f6ff;
+  border-radius: 10px;
+  background: #f8fcff;
+  color: #5b7a8c;
+  font-size: 14px;
+  cursor: pointer;
 }
 </style>

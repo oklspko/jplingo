@@ -1,0 +1,68 @@
+name: build-apk
+
+# 离线安卓 App 打包：本机无 Android 工具链时，由 GitHub Actions 代为编译。
+# - push 到 main：构建 debug APK 并上传为 artifact（便于快速下载验证）
+# - 打 v* 标签：额外发布到 GitHub Release，资产固定命名为 jp-lingo.apk，
+#   供发布页 https://github.com/oklspko/jplingo/releases/latest/download/jp-lingo.apk 下载。
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      # 安装 compileSdk 36 对应的 platform 与 build-tools（自动接受许可）
+      - uses: android-actions/setup-android@v3
+        with:
+          packages: "platforms;android-36 build-tools;36.0.0"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Generate static site
+        run: pnpm generate
+
+      - name: Sync Capacitor web assets
+        run: npx cap sync android
+
+      - name: Build debug APK
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleDebug --no-daemon
+
+      - name: Rename APK
+        run: cp android/app/build/outputs/apk/debug/app-debug.apk jp-lingo.apk
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: jp-lingo-apk
+          path: jp-lingo.apk
+
+      - name: Publish to GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: jp-lingo.apk
+          generate_release_notes: true

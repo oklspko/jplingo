@@ -3,7 +3,8 @@ import * as kuromoji from "@patdx/kuromoji";
 import { toRomaji } from "wanakana";
 import { katakanaToHiragana } from "~/composables/jp/useJpRomaji";
 
-const CDN_DICT_BASE = "https://cdn.jsdelivr.net/npm/kuromoji@0.1.2/dict/";
+// 本地词典目录（public/dict，离线可用，不再依赖 CDN）
+const CDN_DICT_BASE = "/dict/";
 
 async function decompressGzip(data: ArrayBuffer): Promise<ArrayBuffer> {
   const ds = new DecompressionStream("gzip");
