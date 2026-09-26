@@ -1,6 +1,10 @@
 ﻿<template>
   <NuxtPage />
   <footer class="site-footer">
+    <p class="footer-feedback">
+      📮 意见反馈：
+      <a class="beian-link" href="mailto:1661769641@qq.com">1661769641@qq.com</a>
+    </p>
     <a
       class="beian-link"
       href="https://beian.miit.gov.cn/"
@@ -27,5 +31,11 @@
 
 .beian-link:hover {
   color: #0284c7;
+}
+
+.footer-feedback {
+  margin: 0 0 8px;
+  font-size: 12px;
+  color: #7dd3fc;
 }
 </style>

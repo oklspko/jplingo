@@ -12,41 +12,11 @@
 
     <transition name="fold">
       <div v-show="open" class="kana-chart-body">
-        <section class="kana-group">
-          <h3 class="kana-group-title">清音</h3>
+        <section v-for="g in groups" :key="g.title" class="kana-group">
+          <h3 class="kana-group-title">{{ g.title }}</h3>
           <div class="kana-scroll">
             <div class="kana-table">
-              <div v-for="row in seion" :key="row.label" class="kana-row">
-                <span class="kana-row-label">{{ row.label }}</span>
-                <div v-for="k in row.kana" :key="k.kana" class="kana-cell">
-                  <span class="kana-char">{{ k.kana }}</span>
-                  <span class="kana-romaji">{{ k.romaji }}</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="kana-group">
-          <h3 class="kana-group-title">浊音・半浊音</h3>
-          <div class="kana-scroll">
-            <div class="kana-table">
-              <div v-for="row in dakuon" :key="row.label" class="kana-row">
-                <span class="kana-row-label">{{ row.label }}</span>
-                <div v-for="k in row.kana" :key="k.kana" class="kana-cell">
-                  <span class="kana-char">{{ k.kana }}</span>
-                  <span class="kana-romaji">{{ k.romaji }}</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="kana-group">
-          <h3 class="kana-group-title">拗音</h3>
-          <div class="kana-scroll">
-            <div class="kana-table">
-              <div v-for="row in yoon" :key="row.label" class="kana-row">
+              <div v-for="row in g.rows" :key="row.label" class="kana-row">
                 <span class="kana-row-label">{{ row.label }}</span>
                 <div v-for="k in row.kana" :key="k.kana" class="kana-cell">
                   <span class="kana-char">{{ k.kana }}</span>
@@ -167,6 +137,31 @@ const yoon: KanaRow[] = [
   { label: "ぴ", kana: [
     { kana: "ぴゃ", romaji: "pya" }, { kana: "ぴゅ", romaji: "pyu" }, { kana: "ぴょ", romaji: "pyo" },
   ]},
+];
+
+// 平假名 → 片假名（Unicode 一字对应，偏移 0x60）
+function toKatakana(s: string): string {
+  return s.replace(/[ぁ-ゖ]/g, (c) => String.fromCharCode(c.charCodeAt(0) + 0x60));
+}
+
+function toKatakanaRow(row: KanaRow): KanaRow {
+  return {
+    label: toKatakana(row.label),
+    kana: row.kana.map((k) => ({ kana: toKatakana(k.kana), romaji: k.romaji })),
+  };
+}
+
+const katakanaSeion = seion.map(toKatakanaRow);
+const katakanaDakuon = dakuon.map(toKatakanaRow);
+const katakanaYoon = yoon.map(toKatakanaRow);
+
+const groups: { title: string; rows: KanaRow[] }[] = [
+  { title: "清音（平假名）", rows: seion },
+  { title: "清音（片假名）", rows: katakanaSeion },
+  { title: "浊音・半浊音（平假名）", rows: dakuon },
+  { title: "浊音・半浊音（片假名）", rows: katakanaDakuon },
+  { title: "拗音（平假名）", rows: yoon },
+  { title: "拗音（片假名）", rows: katakanaYoon },
 ];
 </script>
 
