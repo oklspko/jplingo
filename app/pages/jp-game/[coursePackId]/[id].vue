@@ -72,8 +72,8 @@
         <div class="jp-result-slot">
           <transition name="pop">
             <div v-if="result" class="jp-result" :class="result">
-              <span v-if="result === 'correct'">✅ 正确！按 <kbd>空格</kbd> 进入下一句</span>
-              <span v-else>❌ 错误，按 <kbd>空格</kbd> 跳到错误处修改</span>
+              <span v-if="result === 'correct'" class="jp-result-status">✅ 正确！按 <kbd>空格</kbd> 进入下一句</span>
+              <span v-else class="jp-result-status">❌ 错误，按 <kbd>空格</kbd> 跳到错误处修改</span>
               <p v-if="!isSingleKana" class="jp-answer">
                 <ruby v-for="(t, i) in currentStatement.tokens" :key="i">
                   {{ t.text }}<rt>{{ t.kana }}</rt>
@@ -662,29 +662,42 @@ function playAudio() {
 }
 
 .jp-result {
-  padding: clamp(16px, 2vw, 30px);
-  border-radius: 24px; text-align: center;
-  font-size: clamp(16px, 2vw, 24px); font-weight: 600;
+  padding: clamp(20px, 2.6vw, 30px);
+  border-radius: 20px; text-align: center;
+  font-weight: 600;
   width: 100%; box-sizing: border-box; word-break: break-word;
+  background: #ffffff;
+  border: 1px solid #e0f2fe;
+  box-shadow: 0 6px 20px rgba(186, 230, 253, 0.16);
 }
 
-.jp-result.correct { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); color: #16a34a; }
-.jp-result.wrong { background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%); color: #dc2626; }
+.jp-result-status {
+  display: block;
+  font-size: clamp(16px, 2vw, 20px);
+  line-height: 1.7;
+}
+
+.jp-result.correct { border-color: #a7f3d0; box-shadow: 0 6px 20px rgba(110, 231, 183, 0.22); }
+.jp-result.correct .jp-result-status { color: #059669; }
+
+.jp-result.wrong { border-color: #fecaca; box-shadow: 0 6px 20px rgba(252, 165, 165, 0.22); }
+.jp-result.wrong .jp-result-status { color: #dc2626; }
 
 .jp-result kbd {
-  display: inline-block; padding: 2px 8px; background: #fff;
-  border: 1px solid #fecaca; border-radius: 6px;
-  font-family: monospace; font-size: 0.85em;
-  color: #dc2626; margin: 0 4px;
-  box-shadow: 0 2px 0 #fecaca;
+  display: inline-block; padding: 2px 8px; background: #f5fbff;
+  border: 1px solid #e0f2fe; border-radius: 6px;
+  font-family: ui-monospace, "SF Mono", "Consolas", "Courier New", monospace;
+  font-size: 0.8em; font-weight: 600;
+  color: #0369a1; margin: 0 4px;
+  box-shadow: 0 2px 0 #e0f2fe;
 }
-
-.jp-result.correct kbd { border-color: #bbf7d0; color: #16a34a; box-shadow: 0 2px 0 #bbf7d0; }
 
 .jp-answer {
   font-size: clamp(24px, 3vw, 45px);
-  margin: 14px 0 0; color: #075985;
-  font-family: "Noto Sans JP", sans-serif;
+  margin: 16px 0 0; padding-top: 14px;
+  border-top: 1px dashed #e0f2fe;
+  color: #075985;
+  font-family: "Yu Gothic UI", "Meiryo", "Hiragino Kaku Gothic ProN", "Hiragino Sans GB", "Noto Sans JP", sans-serif;
   font-weight: 400; word-break: break-word;
 }
 
@@ -692,8 +705,10 @@ function playAudio() {
 
 .jp-answer-romaji {
   font-size: clamp(24px, 3vw, 45px);
-  margin: 14px 0 0; color: #075985;
-  font-family: "JetBrains Mono", "SF Mono", Consolas, monospace;
+  margin: 16px 0 0; padding-top: 14px;
+  border-top: 1px dashed #e0f2fe;
+  color: #075985;
+  font-family: ui-monospace, "SF Mono", "Consolas", "Courier New", monospace;
   font-weight: 600; letter-spacing: 3px; word-break: break-all;
 }
 
@@ -758,14 +773,14 @@ function playAudio() {
   background: linear-gradient(135deg, #f5fbff 0%, #e8f6ff 100%);
   border: 1px solid #e0f2fe; border-radius: 21px;
   text-align: center; font-size: clamp(24px, 3vw, 42px);
-  color: #075985; font-family: "Noto Sans JP", sans-serif;
+  color: #075985; font-family: "Yu Gothic UI", "Meiryo", "Hiragino Kaku Gothic ProN", "Hiragino Sans GB", "Noto Sans JP", sans-serif;
   width: 100%; box-sizing: border-box; word-break: break-word;
 }
 
 .jp-answer-tip ruby rt { font-size: 0.45em; color: #0284c7; }
 
 .tip-romaji {
-  font-family: "JetBrains Mono", "SF Mono", Consolas, monospace;
+  font-family: ui-monospace, "SF Mono", "Consolas", "Courier New", monospace;
   font-weight: 600; letter-spacing: 4px; color: #0284c7;
 }
 

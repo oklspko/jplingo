@@ -572,16 +572,22 @@ function onQuizEnter() {
 
 .kana-quiz-feedback {
   text-align: center;
-  margin-top: 12px;
+  margin-top: 14px;
+  padding: 12px 16px;
+  border-radius: 12px;
   font-size: 14px;
   font-weight: 600;
+  background: #ffffff;
+  border: 1px solid #e0f2fe;
 }
 
 .kana-quiz-feedback.correct {
+  border-color: #a7f3d0;
   color: #059669;
 }
 
 .kana-quiz-feedback.wrong {
+  border-color: #fecaca;
   color: #dc2626;
 }
 
