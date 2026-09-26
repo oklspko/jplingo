@@ -11,6 +11,10 @@ on:
     tags: ["v*"]
   workflow_dispatch:
 
+# 发布 Release 需要写权限（默认 GITHUB_TOKEN 常为只读，会导致 Publish 步骤 403）
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
