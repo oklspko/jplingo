@@ -243,4 +243,13 @@ const faviconIco = encodeIco(
 );
 fs.writeFileSync(path.resolve("public/favicon.ico"), faviconIco);
 console.log("已生成 public/favicon.ico（16/32/48）");
+
+// ===== 生成高分辨率 PNG，供 ICP/APP 备案上传 =====
+for (const size of [512, 1024]) {
+  fs.writeFileSync(
+    path.resolve(`public/app-icon-${size}.png`),
+    render(size, 64, sampleFull),
+  );
+}
+console.log("已生成 public/app-icon-512.png 与 public/app-icon-1024.png（备案用）");
 console.log("请同步确认 android/app/src/main/res/values/ic_launcher_background.xml 为蓝色 #7DD3FC");
