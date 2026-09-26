@@ -2,6 +2,17 @@ import type { JpCourse, JpCoursePack } from "~/types/jp";
 
 const PACK_PRIORITY = ["jp-kana", "jp-basic-01"];
 
+export type LearnedKind = "word" | "sentence" | "kana";
+
+// 按课程包归类：高考必背单词=单词，句子生长=句子，五十音=假名；
+// 未知包退化为按词数启发式（多词算句子）。
+export function classifyKind(packId: string, tokensCount = 1): LearnedKind {
+  if (packId === "jp-gaokao") return "word";
+  if (packId === "jp-growing") return "sentence";
+  if (packId === "jp-kana") return "kana";
+  return tokensCount > 1 ? "sentence" : "word";
+}
+
 export async function fetchCoursePacks(): Promise<JpCoursePack[]> {
   const res = await fetch("/courses/course-packs.json");
   const data = await res.json();

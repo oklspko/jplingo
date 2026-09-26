@@ -60,7 +60,17 @@
               <span class="daily-label">累计打卡</span>
               <span class="daily-value">{{ record.days.length }} 天</span>
             </div>
+            <div class="daily-item">
+              <span class="daily-label">已完成</span>
+              <span class="daily-value">{{ record.completedCourses.length }} 课</span>
+            </div>
           </div>
+        </section>
+
+        <!-- ===== 打卡日历 ===== -->
+        <section class="me-section">
+          <h2>📅 打卡日历</h2>
+          <JpCheckinCalendar :days="record.days" />
         </section>
 
         <!-- ===== 数据管理 ===== -->
@@ -97,6 +107,7 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
+import JpCheckinCalendar from "~/components/jp/JpCheckinCalendar.vue";
 import {
   useJpStorage,
   calcStreak,

@@ -202,7 +202,7 @@ const isLastQuestion = computed(
 );
 
 const { formattedTime, elapsedSeconds, start: startTimer } = useJpTimer();
-const { recordStatement, recordMastered, addStudyTime } = useJpStorage();
+const { recordStatement, recordMastered, recordCourseCompleted, addStudyTime } = useJpStorage();
 
 // ===== 学习时长上报 =====
 let lastFlushedSeconds = 0;
@@ -482,6 +482,7 @@ function submitAnswer() {
     recordStatement(courseId.value, stmt.id);
     if (!hadWrongAttempt.value) recordMastered(courseId.value, stmt.id);
     if (isLastQuestion.value) {
+      recordCourseCompleted(courseId.value);
       pickRandomMotivation();
       setTimeout(() => (showCompleteModal.value = true), 800);
     }

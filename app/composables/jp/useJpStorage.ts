@@ -15,6 +15,7 @@ export interface StudyRecord {
   studiedCourses: string[];
   studiedStatements: string[];
   masteredStatements: string[];
+  completedCourses: string[];
 }
 
 const defaultRecord = (): StudyRecord => ({
@@ -29,6 +30,7 @@ const defaultRecord = (): StudyRecord => ({
   studiedCourses: [],
   studiedStatements: [],
   masteredStatements: [],
+  completedCourses: [],
 });
 
 function todayStr(): string {
@@ -129,6 +131,14 @@ export function useJpStorage() {
     saveRecord(r);
   }
 
+  function recordCourseCompleted(courseId: string) {
+    const r = record.value;
+    if (!r.completedCourses.includes(courseId)) {
+      r.completedCourses.push(courseId);
+      saveRecord(r);
+    }
+  }
+
   function recordMastered(courseId: string, statementId: string) {
     const key = `${courseId}/${statementId}`;
     const r = record.value;
@@ -156,7 +166,7 @@ export function useJpStorage() {
     saveRecord(record.value);
   }
 
-  return { record, recordStatement, recordMastered, addStudyTime, resetRecord };
+  return { record, recordStatement, recordMastered, recordCourseCompleted, addStudyTime, resetRecord };
 }
 
 export function formatDuration(seconds: number): string {
