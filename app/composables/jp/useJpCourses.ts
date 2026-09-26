@@ -126,40 +126,15 @@ export function buildChunkedOrder(
   return out;
 }
 
-function chunkArray<T>(arr: T[], size: number): T[][] {
-  const out: T[][] = [];
-  for (let i = 0; i < arr.length; i += size) {
-    out.push(arr.slice(i, i + size));
-  }
-  return out;
-}
-
-// 收集一批句子中「已作为独立单词学过」的词（按 japanese 去重、保持句子出现顺序）
-function collectUsedWords(
-  sentences: JpStatement[],
-  wordByText: Map<string, JpStatement>,
-): JpStatement[] {
-  const seen = new Set<string>();
-  const out: JpStatement[] = [];
-  for (const s of sentences) {
-    for (const t of s.tokens || []) {
-      const w = wordByText.get(t.text);
-      if (w && !seen.has(w.japanese)) {
-        seen.add(w.japanese);
-        out.push(w);
-      }
-    }
-  }
-  return out;
-}
-
-// ===== 句子生长底层逻辑：词先句后 + 词句循环 =====
-// 「每个词在句子出现之前先被学习」：先把全部单词分块学完（含短间隔复习），
-// 再进入句子；每学一批句子前，先把这批句子会复用到的单词循环回来（长间隔），
-// 通过单词与句子的循环出现强化记忆，训练看到词能快速反应句子的听说读写能力。
+// ===== 句子生长底层逻辑：词先句后，逐句循环 =====
+// 「每个词在它第一次进入句子之前先被学习」，而不是把所有单词一次性学完。
+// 逐句推进：写某个句子（如 AをB）前，先把该句用到的、尚未单独练过的单词
+// （A、B）按句中顺序练一遍，再进入句子；更长的句子（CでAをB）同理先练 C、A、B。
+// 已练过的词不再重复单练（避免「同一个词刚练完紧接着又出现」），
+// 而是之后在句子里以「出现在句子中」的方式被反复复习，形成词→句→词→句的循环。
 export function buildGrowingOrder(
   statements: JpStatement[],
-  chunkSize = 6,
+  _chunkSize = 6,
 ): JpStatement[] {
   const unique = dedupeStatements(statements);
   if (unique.length === 0) return [];
@@ -174,20 +149,32 @@ export function buildGrowingOrder(
   const wordByText = new Map<string, JpStatement>();
   for (const w of words) wordByText.set(w.japanese, w);
 
+  const learned = new Set<string>(); // 已作为单词单独练过的词
   const out: JpStatement[] = [];
 
-  // 1) 先学全部单词：分块，每块学完立即复习（短间隔）
-  for (const chunk of chunkArray(words, chunkSize)) {
-    out.push(...chunk);
-    out.push(...shuffle(chunk));
+  for (const sentence of sentences) {
+    // 本句会用到、且尚未单独练过的单词（按句中出现顺序，同词去重）
+    const used: JpStatement[] = [];
+    for (const t of sentence.tokens || []) {
+      const w = wordByText.get(t.text);
+      if (
+        w &&
+        !learned.has(w.japanese) &&
+        !used.some((u) => u.japanese === w.japanese)
+      ) {
+        used.push(w);
+      }
+    }
+    for (const w of used) {
+      out.push(w);
+      learned.add(w.japanese);
+    }
+    out.push(sentence);
   }
 
-  // 2) 再学句子：分块推进，每块前先把该块会用到的单词循环回来（长间隔）
-  for (const chunk of chunkArray(sentences, chunkSize)) {
-    const used = collectUsedWords(chunk, wordByText);
-    if (used.length) out.push(...shuffle(used));
-    out.push(...chunk);
-    out.push(...shuffle(chunk));
+  // 没有被任何句子用到的孤立单词，放到最后统一学习
+  for (const w of words) {
+    if (!learned.has(w.japanese)) out.push(w);
   }
 
   return out;

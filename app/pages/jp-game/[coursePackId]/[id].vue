@@ -32,7 +32,7 @@
           <div v-if="showSpaceHint && showSpaceHintCard" class="space-hint">
             <div class="space-hint-icon">⌨️</div>
             <div class="space-hint-text">
-              输入完一个假名后按
+              输入完一个意群后按
               <span class="key">空格</span>
               跳到下一空
             </div>
@@ -428,6 +428,8 @@ function handleEnter() {
   const allFilled =
     parts.length >= total && parts.slice(0, total).every((p) => p.trim() !== "");
   if (allFilled) submitAnswer();
+  // 未填完也允许回车提交（判为错误并显示答案），避免「卡在某个意群上无法前进」
+  else if (rawInput.value.trim()) submitAnswer();
 }
 
 function handleSpace() {
@@ -446,13 +448,21 @@ function handleSpace() {
     return;
   }
 
+  const stmt = currentStatement.value;
+  const total = stmt?.tokens.length || 0;
   const parts = rawInput.value.split(" ");
-  const total = currentStatement.value?.tokens.length || 0;
   const allFilled =
     parts.length >= total && parts.slice(0, total).every((p) => p.trim() !== "");
-  if (allFilled) submitAnswer();
-  else if (rawInput.value && !rawInput.value.endsWith(" "))
-    rawInput.value += " ";
+  if (allFilled) { submitAnswer(); return; }
+
+  // 只有「当前这个意群已输入完整」才按空格跳到下一空；
+  // 没拼完整时空格不生效，避免把单个假名误当成一个意群。
+  if (!rawInput.value || rawInput.value.endsWith(" ")) return;
+  const lastIdx = parts.length - 1;
+  if (lastIdx >= total) return;
+  const token = stmt?.tokens[lastIdx];
+  if (!token || !checkToken(parts[lastIdx], token, isSingleKana.value)) return;
+  rawInput.value += " ";
 }
 
 function onInput(e: Event) {
