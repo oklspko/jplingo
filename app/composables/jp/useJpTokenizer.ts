@@ -1,15 +1,22 @@
 import { onMounted, ref } from "vue";
 import * as kuromoji from "@patdx/kuromoji";
 import { toRomaji } from "wanakana";
+import { ungzip } from "pako";
 import { katakanaToHiragana } from "~/composables/jp/useJpRomaji";
 
 // 本地词典目录（public/dict，离线可用，不再依赖 CDN）
 const CDN_DICT_BASE = "/dict/";
 
+// Android WebView 不支持 DecompressionStream，改用纯 JS 的 pako 解压 gzip 词典，
+// 保证离线 App 内分词词典能正常加载。
 async function decompressGzip(data: ArrayBuffer): Promise<ArrayBuffer> {
-  const ds = new DecompressionStream("gzip");
-  const stream = new Response(data).body!.pipeThrough(ds);
-  return new Response(stream).arrayBuffer();
+  const inflated = ungzip(new Uint8Array(data));
+  const buf = inflated.buffer;
+  return (
+    buf.byteLength === inflated.byteLength
+      ? buf
+      : buf.slice(inflated.byteOffset, inflated.byteOffset + inflated.byteLength)
+  ) as ArrayBuffer;
 }
 
 const customLoader = {

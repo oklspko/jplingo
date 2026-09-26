@@ -19,7 +19,6 @@
     { "id": "13", "chinese": "难", "japanese": "難しい", "kana": "むずかしい", "romaji": "muzukashii", "tokens": [{ "text": "難しい", "kana": "むずかしい" }] },
     { "id": "14", "chinese": "讨厌", "japanese": "嫌い", "kana": "きらい", "romaji": "kirai", "tokens": [{ "text": "嫌い", "kana": "きらい" }] },
     { "id": "15", "chinese": "长", "japanese": "長い", "kana": "ながい", "romaji": "nagai", "tokens": [{ "text": "長い", "kana": "ながい" }] },
-
     { "id": "16", "chinese": "面包好吃", "japanese": "パンはおいしい", "kana": "ぱんはおいしい", "romaji": "pan wa oishii", "tokens": [{ "text": "パン", "kana": "ぱん" }, { "text": "は", "kana": "は" }, { "text": "おいしい", "kana": "おいしい" }] },
     { "id": "17", "chinese": "公园漂亮", "japanese": "公園はきれいだ", "kana": "こうえんはきれいだ", "romaji": "kouen wa kirei da", "tokens": [{ "text": "公園", "kana": "こうえん" }, { "text": "は", "kana": "は" }, { "text": "きれい", "kana": "きれい" }, { "text": "だ", "kana": "だ" }] },
     { "id": "18", "chinese": "家很大", "japanese": "家は大きい", "kana": "いえはおおきい", "romaji": "ie wa ookii", "tokens": [{ "text": "家", "kana": "いえ" }, { "text": "は", "kana": "は" }, { "text": "大きい", "kana": "おおきい" }] },
@@ -49,11 +48,6 @@
     { "id": "42", "chinese": "我不喜欢寿司", "japanese": "私はお寿司が好きじゃない", "kana": "わたしはおすしがすきじゃない", "romaji": "watashi wa osushi ga suki janai", "tokens": [{ "text": "私", "kana": "わたし" }, { "text": "は", "kana": "は" }, { "text": "お寿司", "kana": "おすし" }, { "text": "が", "kana": "が" }, { "text": "好き", "kana": "すき" }, { "text": "じゃない", "kana": "じゃない" }] },
     { "id": "43", "chinese": "问题不难", "japanese": "問題は難しくない", "kana": "もんだいはむずかしくない", "romaji": "mondai wa muzukashikunai", "tokens": [{ "text": "問題", "kana": "もんだい" }, { "text": "は", "kana": "は" }, { "text": "難しくない", "kana": "むずかしくない" }] },
     { "id": "44", "chinese": "我不讨厌蔬菜", "japanese": "私は野菜が嫌いじゃない", "kana": "わたしはやさいがきらいじゃない", "romaji": "watashi wa yasai ga kirai janai", "tokens": [{ "text": "私", "kana": "わたし" }, { "text": "は", "kana": "は" }, { "text": "野菜", "kana": "やさい" }, { "text": "が", "kana": "が" }, { "text": "嫌い", "kana": "きらい" }, { "text": "じゃない", "kana": "じゃない" }] },
-    { "id": "45", "chinese": "电影不长", "japanese": "映画は長くない", "kana": "えいがはながくない", "romaji": "eiga wa nagakunai", "tokens": [{ "text": "映画", "kana": "えいが" }, { "text": "は", "kana": "は" }, { "text": "長くない", "kana": "ながくない" }] },
-    { "id": "46", "chinese": "面包好吃", "japanese": "パンはおいしい", "kana": "ぱんはおいしい", "romaji": "pan wa oishii", "tokens": [{ "text": "パン", "kana": "ぱん" }, { "text": "は", "kana": "は" }, { "text": "おいしい", "kana": "おいしい" }] },
-    { "id": "47", "chinese": "公园漂亮", "japanese": "公園はきれいだ", "kana": "こうえんはきれいだ", "romaji": "kouen wa kirei da", "tokens": [{ "text": "公園", "kana": "こうえん" }, { "text": "は", "kana": "は" }, { "text": "きれい", "kana": "きれい" }, { "text": "だ", "kana": "だ" }] },
-    { "id": "48", "chinese": "家很大", "japanese": "家は大きい", "kana": "いえはおおきい", "romaji": "ie wa ookii", "tokens": [{ "text": "家", "kana": "いえ" }, { "text": "は", "kana": "は" }, { "text": "大きい", "kana": "おおきい" }] },
-    { "id": "49", "chinese": "图书馆安静", "japanese": "図書館は静かだ", "kana": "としょかんはしずかだ", "romaji": "toshokan wa shizuka da", "tokens": [{ "text": "図書館", "kana": "としょかん" }, { "text": "は", "kana": "は" }, { "text": "静か", "kana": "しずか" }, { "text": "だ", "kana": "だ" }] },
-    { "id": "50", "chinese": "书新", "japanese": "本は新しい", "kana": "ほんはあたらしい", "romaji": "hon wa atarashii", "tokens": [{ "text": "本", "kana": "ほん" }, { "text": "は", "kana": "は" }, { "text": "新しい", "kana": "あたらしい" }] }
+    { "id": "45", "chinese": "电影不长", "japanese": "映画は長くない", "kana": "えいがはながくない", "romaji": "eiga wa nagakunai", "tokens": [{ "text": "映画", "kana": "えいが" }, { "text": "は", "kana": "は" }, { "text": "長くない", "kana": "ながくない" }] }
   ]
 }

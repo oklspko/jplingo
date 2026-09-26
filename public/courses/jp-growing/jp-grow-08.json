@@ -31,7 +31,6 @@
     { "id": "25", "chinese": "早点回家", "japanese": "早く家に帰る", "kana": "はやくいえにかえる", "romaji": "hayaku ie ni kaeru", "tokens": [{ "text": "早く", "kana": "はやく" }, { "text": "家", "kana": "いえ" }, { "text": "に", "kana": "に" }, { "text": "帰る", "kana": "かえる" }] },
     { "id": "26", "chinese": "好吃地吃", "japanese": "おいしく食べる", "kana": "おいしくたべる", "romaji": "oishiku taberu", "tokens": [{ "text": "おいしく", "kana": "おいしく" }, { "text": "食べる", "kana": "たべる" }] },
     { "id": "27", "chinese": "安静地走", "japanese": "静かに歩く", "kana": "しずかにあるく", "romaji": "shizuka ni aruku", "tokens": [{ "text": "静か", "kana": "しずか" }, { "text": "に", "kana": "に" }, { "text": "歩く", "kana": "あるく" }] },
-    { "id": "28", "chinese": "早早起床", "japanese": "早く起きる", "kana": "はやくおきる", "romaji": "hayaku okiru", "tokens": [{ "text": "早く", "kana": "はやく" }, { "text": "起きる", "kana": "おきる" }] },
     { "id": "29", "chinese": "热情地做", "japanese": "楽しくする", "kana": "たのしくする", "romaji": "tanoshiku suru", "tokens": [{ "text": "楽しく", "kana": "たのしく" }, { "text": "する", "kana": "する" }] },
     { "id": "30", "chinese": "认真地工作", "japanese": "真面目に仕事をする", "kana": "まじめにしごとをする", "romaji": "majime ni shigoto wo suru", "tokens": [{ "text": "真面目", "kana": "まじめ" }, { "text": "に", "kana": "に" }, { "text": "仕事", "kana": "しごと" }, { "text": "を", "kana": "を" }, { "text": "する", "kana": "する" }] },
     { "id": "31", "chinese": "早上早起", "japanese": "朝、早く起きる", "kana": "あさ、はやくおきる", "romaji": "asa, hayaku okiru", "tokens": [{ "text": "朝", "kana": "あさ" }, { "text": "早く", "kana": "はやく" }, { "text": "起きる", "kana": "おきる" }] },

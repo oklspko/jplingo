@@ -35,8 +35,49 @@
             >
               导出 JSON
             </button>
+            <button
+              class="editor-btn"
+              @click="exportCoursePack"
+              :disabled="!course"
+            >
+              📦 导出课程包
+            </button>
           </div>
         </header>
+
+        <!-- ===== 使用说明 ===== -->
+        <section class="editor-help">
+          <button class="help-toggle" @click="showHelp = !showHelp">
+            <span>📖 使用说明：编辑器 + AI 制作自定义课程包</span>
+            <span class="help-toggle-arrow">{{ showHelp ? "▲ 收起" : "▼ 展开" }}</span>
+          </button>
+          <div v-if="showHelp" class="help-body">
+            <div class="help-step">
+              <h3>① 手动制作</h3>
+              <p>
+                点「➕ 新建」建课程 → 填中文与日语（日语用空格分隔意群，如「私 は 水 を
+                飲みます」）→ 点「→ 生成」自动补全假名 / 罗马字 / 意群 → 确认每句显示「✅
+                校验通过」→ 导出。
+              </p>
+            </div>
+            <div class="help-step">
+              <h3>② 用 AI 批量生成</h3>
+              <p>复制下面提示词发给 AI（Claude / ChatGPT 等），让它按格式生成课程 JSON，再「📂 导入」到编辑器微调：</p>
+              <div class="prompt-box">
+                <pre>{{ aiPrompt }}</pre>
+                <button class="editor-btn small primary" @click="copyPrompt">📋 复制提示词</button>
+              </div>
+            </div>
+            <div class="help-step">
+              <h3>③ 导出成课程包，导入 App/网页学习</h3>
+              <p>
+                编辑完成后点「📦 导出课程包」，得到一个可直接导入的单文件课程包；到首页点「导入课程包」
+                选择该文件，即可在网页或 App 里学习。要一次打包多课，可把多个课程合并进同一
+                <code>courses</code> 里（键为 <code>"包ID/课ID"</code>，格式与「课程包格式文档」一致）。
+              </p>
+            </div>
+          </div>
+        </section>
 
         <!-- ===== 词典加载中 ===== -->
         <div v-if="!tokenizerReady" class="editor-empty">
@@ -269,6 +310,58 @@ const newCourse = reactive({
   coursePackId: "jp-basic-01",
 });
 
+// 使用说明：默认展开，便于首次使用快速上手
+const showHelp = ref(true);
+
+// 发给 AI 的生成提示词模板（复制后自行替换 <> 里的占位符）
+const aiPrompt = `请帮我制作一个日语学习课程包，主题是「<在这里填写主题，例如：校园生活>」，适合 <N5/N4> 水平，共 <N> 句话。
+
+请严格按下面的 JSON 格式输出（不要输出任何解释文字，只输出一个合法 JSON）：
+
+{
+  "coursePacks": [
+    {
+      "id": "my-pack",
+      "title": "<课程包标题>",
+      "language": "ja",
+      "level": "N5",
+      "description": "<一句话简介>",
+      "courses": ["lesson-01"]
+    }
+  ],
+  "courses": {
+    "my-pack/lesson-01": {
+      "id": "lesson-01",
+      "coursePackId": "my-pack",
+      "title": "第一课",
+      "order": 1,
+      "statements": [
+        {
+          "id": "lesson-01-01",
+          "chinese": "我喝水。",
+          "japanese": "私 は 水 を 飲みます",
+          "kana": "わたし は みず を のみます",
+          "romaji": "watashi wa mizu wo nomimasu",
+          "tokens": [
+            { "text": "私", "kana": "わたし" },
+            { "text": "は", "kana": "は" },
+            { "text": "水", "kana": "みず" },
+            { "text": "を", "kana": "を" },
+            { "text": "飲みます", "kana": "のみます" }
+          ]
+        }
+      ]
+    }
+  }
+}
+
+要求：
+1. japanese 用空格把整句拆成「意群」，每个意群对应 tokens 里的一个 token。
+2. kana、romaji 也用空格与意群一一对应。
+3. tokens 中 text 必须与 japanese 的意群完全一致，kana 为该意群的假名。
+4. 句子要地道、实用，适合目标水平，避免生僻或超纲表达。
+5. 只输出 JSON，不要输出 Markdown 代码块或多余说明。`;
+
 const { ready: tokenizerReady, analyzeSegment } = useJpTokenizer();
 
 // ===== 加载已有课程 =====
@@ -324,6 +417,7 @@ function createCourse() {
 }
 
 // ===== 导入 JSON =====
+// 同时支持「单课 JSON」和「单文件课程包 JSON」（取第一课编辑，其余可分别导入）
 async function importJson(event: Event) {
   const input = event.target as HTMLInputElement;
   const file = input.files?.[0];
@@ -333,16 +427,32 @@ async function importJson(event: Event) {
     const text = await file.text();
     const data = JSON.parse(text);
 
-    if (!data.id || !data.statements) {
-      alert("JSON 格式不对，缺少 id 或 statements");
+    let courseData: any;
+    let note = "";
+    if (data && data.courses && typeof data.courses === "object") {
+      const keys = Object.keys(data.courses);
+      if (keys.length === 0) {
+        alert("课程包内没有课程");
+        return;
+      }
+      courseData = data.courses[keys[0]];
+      if (keys.length > 1) {
+        note = `（课程包共 ${keys.length} 课，已载入第 1 课，其余可分别导入）`;
+      }
+    } else {
+      courseData = data;
+    }
+
+    if (!courseData?.id || !Array.isArray(courseData.statements)) {
+      alert("JSON 格式不对：缺少 id 或 statements");
       return;
     }
 
-    course.value = data;
-    courseId.value = data.id;
-    coursePackId.value = data.coursePackId || "jp-basic-01";
+    course.value = courseData;
+    courseId.value = courseData.id;
+    coursePackId.value = courseData.coursePackId || "jp-basic-01";
 
-    alert("导入成功！");
+    alert("导入成功！" + note);
   } catch (err) {
     alert("导入失败：" + (err as Error).message);
   } finally {
@@ -450,16 +560,59 @@ function getValidationMessage(stmt: JpStatement) {
 }
 
 // ===== 导出 =====
-function exportJson() {
-  if (!course.value) return;
-  const json = JSON.stringify(course.value, null, 2);
+function downloadJson(obj: unknown, filename: string) {
+  const json = JSON.stringify(obj, null, 2);
   const blob = new Blob([json], { type: "application/json" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;
-  a.download = `${course.value.id}.json`;
+  a.download = filename;
   a.click();
   URL.revokeObjectURL(url);
+}
+
+function exportJson() {
+  if (!course.value) return;
+  downloadJson(course.value, `${course.value.id}.json`);
+}
+
+// 把当前单课包装成「单文件课程包」，可直接在首页「导入课程包」导入
+function exportCoursePack() {
+  if (!course.value) return;
+  const packId = course.value.coursePackId || "my-pack";
+  const courseId = course.value.id || "lesson-01";
+  const pack = {
+    coursePacks: [
+      {
+        id: packId,
+        title: course.value.title || packId,
+        language: "ja",
+        level: "N5",
+        description: "",
+        courses: [courseId],
+      },
+    ],
+    courses: {
+      [`${packId}/${courseId}`]: course.value,
+    },
+  };
+  downloadJson(pack, `${packId}.json`);
+}
+
+// ===== 复制 AI 提示词 =====
+async function copyPrompt() {
+  try {
+    await navigator.clipboard.writeText(aiPrompt);
+    alert("已复制提示词，去粘贴给 AI 吧");
+  } catch {
+    const ta = document.createElement("textarea");
+    ta.value = aiPrompt;
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand("copy");
+    document.body.removeChild(ta);
+    alert("已复制提示词");
+  }
 }
 </script>
 
@@ -806,6 +959,94 @@ function exportJson() {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* ===== 使用说明 ===== */
+.editor-help {
+  margin-bottom: 32px;
+  border: 1px solid #e8f6ff;
+  border-radius: 16px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.help-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  color: #075985;
+  font-family: inherit;
+}
+
+.help-toggle-arrow {
+  font-size: 13px;
+  color: #0369a1;
+}
+
+.help-body {
+  padding: 8px 20px 20px;
+}
+
+.help-step {
+  padding: 16px 0;
+  border-bottom: 1px dashed #e8f6ff;
+}
+
+.help-step:last-child {
+  border-bottom: none;
+}
+
+.help-step h3 {
+  font-size: 15px;
+  color: #075985;
+  margin: 0 0 8px;
+  font-weight: 600;
+}
+
+.help-step p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #0369a1;
+  margin: 0;
+}
+
+.help-step code {
+  background: #f0f9ff;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #0284c7;
+}
+
+.prompt-box {
+  margin-top: 12px;
+}
+
+.prompt-box pre {
+  margin: 0;
+  padding: 16px;
+  background: #f8fcff;
+  border: 1px solid #e8f6ff;
+  border-radius: 10px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #075985;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 320px;
+  overflow-y: auto;
+  font-family: "SF Mono", "Consolas", monospace;
+}
+
+.prompt-box .editor-btn {
+  margin-top: 10px;
 }
 
 /* ===== 弹窗 ===== */

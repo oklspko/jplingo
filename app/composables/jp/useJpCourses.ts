@@ -98,8 +98,7 @@ export function dedupeStatements(statements: JpStatement[]): JpStatement[] {
 // 每项内容在整节课里的出现总次数
 export function getCourseExposures(packId: string): number {
   if (packId === "jp-gaokao") return 3; // 高考单词：学 1 遍 + 分组循环 + 整体复习
-  if (packId === "jp-growing") return 2; // 句子生长：学 1 遍 + 分组循环 1 遍
-  return 1; // 五十音等保持原样
+  return 1; // 句子生长/五十音等：每词每句只考 1 遍，不再循环重复
 }
 
 export function buildChunkedOrder(

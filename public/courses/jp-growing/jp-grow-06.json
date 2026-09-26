@@ -33,7 +33,6 @@
     { "id": "27", "chinese": "好吃的料理", "japanese": "おいしい料理", "kana": "おいしいりょうり", "romaji": "oishii ryouri", "tokens": [{ "text": "おいしい", "kana": "おいしい" }, { "text": "料理", "kana": "りょうり" }] },
     { "id": "28", "chinese": "难的书", "japanese": "難しい本", "kana": "むずかしいほん", "romaji": "muzukashii hon", "tokens": [{ "text": "難しい", "kana": "むずかしい" }, { "text": "本", "kana": "ほん" }] },
     { "id": "29", "chinese": "长电影", "japanese": "長い映画", "kana": "ながいえいが", "romaji": "nagai eiga", "tokens": [{ "text": "長い", "kana": "ながい" }, { "text": "映画", "kana": "えいが" }] },
-    { "id": "30", "chinese": "好吃的面包", "japanese": "おいしいパン", "kana": "おいしいぱん", "romaji": "oishii pan", "tokens": [{ "text": "おいしい", "kana": "おいしい" }, { "text": "パン", "kana": "ぱん" }] },
     { "id": "31", "chinese": "寒冷的早上", "japanese": "寒い朝", "kana": "さむいあさ", "romaji": "samui asa", "tokens": [{ "text": "寒い", "kana": "さむい" }, { "text": "朝", "kana": "あさ" }] },
     { "id": "32", "chinese": "炎热的晚上", "japanese": "暑い夜", "kana": "あついよる", "romaji": "atsui yoru", "tokens": [{ "text": "暑い", "kana": "あつい" }, { "text": "夜", "kana": "よる" }] },
     { "id": "33", "chinese": "在吃好吃的面包", "japanese": "おいしいパンを食べる", "kana": "おいしいぱんをたべる", "romaji": "oishii pan wo taberu", "tokens": [{ "text": "おいしい", "kana": "おいしい" }, { "text": "パン", "kana": "ぱん" }, { "text": "を", "kana": "を" }, { "text": "食べる", "kana": "たべる" }] },
