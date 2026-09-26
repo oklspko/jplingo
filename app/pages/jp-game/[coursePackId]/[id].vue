@@ -84,7 +84,11 @@
           </transition>
         </div>
 
-        <div class="jp-actions" :class="{ 'jp-actions--floating': keyboardOpen }">
+        <div
+          class="jp-actions"
+          :class="{ 'jp-actions--floating': keyboardOpen }"
+          :style="keyboardOpen ? { bottom: keyboardHeight + 'px' } : undefined"
+        >
           <button class="jp-btn primary" @click="submitAnswer">
             提交<span class="shortcut">↵</span>
           </button>
@@ -184,6 +188,7 @@ const courseTitle = ref("");
 const showSpaceHint = ref(true);
 const hadWrongAttempt = ref(false);
 const keyboardOpen = ref(false);
+const keyboardHeight = ref(0);
 
 const coursePackId = computed(() => route.params.coursePackId as string);
 const courseId = computed(() => route.params.id as string);
@@ -512,11 +517,16 @@ function focusInput() {
   inputRef.value?.focus();
 }
 
+// 记录键盘关闭时的最大可视高度。软键盘弹出（adjustResize）后 window.innerHeight
+// 与 visualViewport.height 会同时缩小，用「历史最大高度」作基准才不会被误判为未弹出。
+let fullViewportHeight = 0;
 function syncKeyboard() {
   const vv = window.visualViewport;
-  if (!vv) { keyboardOpen.value = false; return; }
-  // 可视高度明显小于窗口高度 → 判定软键盘弹出
-  keyboardOpen.value = vv.height < window.innerHeight * 0.85;
+  if (!vv) { keyboardOpen.value = false; keyboardHeight.value = 0; return; }
+  fullViewportHeight = Math.max(fullViewportHeight, window.innerHeight);
+  const open = vv.height < fullViewportHeight * 0.85;
+  keyboardOpen.value = open;
+  keyboardHeight.value = open ? Math.max(0, fullViewportHeight - vv.height) : 0;
 }
 
 function next() {
@@ -665,7 +675,7 @@ function playAudio() {
 }
 
 .jp-result-slot {
-  width: 100%; min-height: 180px;
+  width: 100%; min-height: 120px;
   display: flex; flex-direction: column;
   justify-content: flex-end; align-items: center;
 }
@@ -811,12 +821,12 @@ function playAudio() {
   .jp-words { gap: 12px; min-height: 70px; }
   .jp-word { padding: 0 5px; border-bottom-width: 3px; }
   .jp-word-answer { font-size: 12px; margin-top: 3px; }
-  .jp-result-slot { min-height: 140px; }
+  .jp-result-slot { min-height: 96px; }
   .jp-result { border-radius: 16px; padding: 16px; }
   .jp-actions { margin-top: 20px; gap: 8px; }
   .jp-actions--floating {
     position: fixed;
-    top: 8px;
+    bottom: 0;
     left: 12px;
     right: 12px;
     width: auto;

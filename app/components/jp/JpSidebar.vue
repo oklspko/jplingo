@@ -10,7 +10,7 @@
 
     <nav class="sidebar-nav">
       <a
-        v-for="item in menuItems"
+        v-for="item in mainTabs"
         :key="item.key"
         :href="item.path"
         class="nav-item"
@@ -18,6 +18,15 @@
       >
         <span class="nav-icon">{{ item.icon }}</span>
         <span class="nav-label">{{ item.label }}</span>
+      </a>
+      <a
+        v-if="!isNative"
+        href="/release"
+        class="nav-item nav-item--release"
+        :class="{ active: isActive('/release') }"
+      >
+        <span class="nav-icon">📱</span>
+        <span class="nav-label">下载 App</span>
       </a>
     </nav>
 
@@ -34,24 +43,27 @@
 
 <script setup lang="ts">
 import { useRoute } from "vue-router";
+import { Capacitor } from "@capacitor/core";
 import JpLogo from "./JpLogo.vue";
 import { useJpAuth } from "~/composables/jp/useJpAuth";
 
 const route = useRoute();
 const { user, signOut } = useJpAuth();
 
+// 原生 App（Capacitor）内不显示「下载 App」入口
+const isNative = Capacitor.isNativePlatform();
+
 async function onLogout() {
   await signOut();
   // 退出后留在当前页继续离线使用，不再强制跳登录
 }
 
-const menuItems = [
+const mainTabs = [
   { key: "me", label: "我的", icon: "👤", path: "/jp-me" },
   { key: "home", label: "课程", icon: "📚", path: "/jp-home" },
   { key: "record", label: "记录", icon: "📋", path: "/jp-record" },
   { key: "grammar", label: "语法", icon: "📖", path: "/jp-kana-chart" },
   { key: "editor", label: "编辑器", icon: "✏️", path: "/jp-editor" },
-  { key: "release", label: "下载 App", icon: "📱", path: "/release" },
 ];
 
 function isActive(path: string) {
@@ -203,59 +215,67 @@ function isActive(path: string) {
   text-decoration: underline;
 }
 
-/* 移动端：固定侧栏转为顶部导航 */
+/* 移动端：侧栏转为固定底部 Tab 栏（5 个主入口，无横向滚动） */
 @media (max-width: 768px) {
   .jp-sidebar {
-    position: static;
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     min-height: 0;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 10px 12px;
-    border-right: none;
-    border-bottom: 1px solid #e8f6ff;
-    gap: 8px 12px;
-  }
-
-  .sidebar-header {
+    align-items: stretch;
     padding: 0;
-    margin-bottom: 0;
-    border-bottom: none;
-    gap: 8px;
+    padding-bottom: env(safe-area-inset-bottom);
+    border-right: none;
+    border-top: 1px solid #e8f6ff;
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 -4px 16px rgba(186, 230, 253, 0.25);
   }
 
-  .title-block h2 { font-size: 15px; }
-  .subtitle { display: none; }
+  .sidebar-header { display: none; }
 
   .sidebar-nav {
-    flex: 1 1 100%;
-    order: 3;
+    flex: 1;
     flex-direction: row;
     padding: 0;
-    gap: 6px;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    gap: 0;
+    overflow: visible;
   }
 
   .nav-item {
-    padding: 7px 12px;
-    font-size: 13px;
-    gap: 6px;
+    flex: 1;
+    flex-direction: column;
+    gap: 3px;
+    padding: 7px 2px 6px;
+    font-size: 11px;
     white-space: nowrap;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0;
   }
 
-  .nav-icon { font-size: 15px; width: auto; }
-  .nav-label { flex: 0 0 auto; }
-
-  .sidebar-footer {
-    padding: 0;
-    border-top: none;
-    margin-left: auto;
+  .nav-item:hover {
+    background: transparent;
+    transform: none;
+    box-shadow: none;
   }
 
-  .version { display: none; }
-  .user-email { display: none; }
-  .logout-btn { padding: 6px 12px; font-size: 12px; }
+  .nav-item.active {
+    background: transparent;
+    box-shadow: none;
+    color: #0284c7;
+  }
+
+  .nav-item--release { display: none; }
+
+  .nav-icon { font-size: 20px; width: auto; }
+  .nav-label { flex: 0 0 auto; font-size: 11px; line-height: 1; }
+
+  .sidebar-footer { display: none; }
 }
 </style>

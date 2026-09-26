@@ -68,10 +68,19 @@
 </template>
 
 <script setup lang="ts">
+import { onMounted } from "vue";
+import { Capacitor } from "@capacitor/core";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
 
 const config = useRuntimeConfig();
 const apkUrl = config.public.apkUrl as string;
+
+// 原生 App 内不再展示下载页，直接回主页
+onMounted(() => {
+  if (Capacitor.isNativePlatform()) {
+    navigateTo("/jp-home", { replace: true });
+  }
+});
 </script>
 
 <style scoped>

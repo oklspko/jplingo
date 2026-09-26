@@ -9,6 +9,30 @@
           <p class="subtitle">学习数据</p>
         </header>
 
+        <!-- ===== 账号 / 登录 ===== -->
+        <section class="me-section me-account">
+          <div v-if="user" class="account-card">
+            <div class="account-info">
+              <div class="account-label">已登录</div>
+              <div class="account-email">{{ user.email }}</div>
+              <div v-if="syncMsg" class="account-sync-status">{{ syncMsg }}</div>
+            </div>
+            <div class="account-actions">
+              <button class="account-btn account-btn--sync" :disabled="syncing" @click="onSync">
+                {{ syncing ? "同步中…" : "立即同步" }}
+              </button>
+              <button class="account-btn account-btn--logout" @click="onLogout">退出登录</button>
+            </div>
+          </div>
+          <a v-else href="/login" class="account-card">
+            <div class="account-info">
+              <div class="account-label">未登录</div>
+              <div class="account-email">登录后学习记录云端同步、换设备不丢</div>
+            </div>
+            <span class="account-btn">登录 / 注册</span>
+          </a>
+        </section>
+
         <!-- ===== 学习统计 ===== -->
         <section class="me-section">
           <h2>📊 学习统计</h2>
@@ -84,6 +108,12 @@
             <button class="danger-btn" @click="confirmReset">重置</button>
           </div>
         </section>
+
+        <!-- ===== 关于 ===== -->
+        <section class="me-section me-about">
+          <a v-if="!isNative" href="/release" class="about-link">📱 下载 Android App</a>
+          <div class="about-version">jp-lingo v1.0.0</div>
+        </section>
       </div>
     </main>
 
@@ -106,14 +136,39 @@
 
 <script setup lang="ts">
 import { computed, ref } from "vue";
+import { Capacitor } from "@capacitor/core";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
 import JpCheckinCalendar from "~/components/jp/JpCheckinCalendar.vue";
+import { useJpAuth } from "~/composables/jp/useJpAuth";
 import {
   useJpStorage,
   calcStreak,
 } from "~/composables/jp/useJpStorage";
 
-const { record, resetRecord } = useJpStorage();
+const { record, resetRecord, syncNow } = useJpStorage();
+const { user, signOut } = useJpAuth();
+const isNative = Capacitor.isNativePlatform();
+
+const syncing = ref(false);
+const syncMsg = ref("");
+
+async function onLogout() {
+  await signOut();
+}
+
+async function onSync() {
+  if (syncing.value) return;
+  syncing.value = true;
+  syncMsg.value = "";
+  const r = await syncNow();
+  syncing.value = false;
+  if (r === "synced") syncMsg.value = "✅ 已同步到云端";
+  else if (r === "noop") syncMsg.value = "请先登录后再同步";
+  else syncMsg.value = "⚠️ 同步失败，请检查网络后重试";
+  setTimeout(() => {
+    syncMsg.value = "";
+  }, 3000);
+}
 
 const streak = computed(() => calcStreak(record.value.days));
 const todayMinutes = computed(() => Math.floor(record.value.todaySeconds / 60));
@@ -200,6 +255,113 @@ function doReset() {
   color: #075985;
   margin-bottom: 20px;
   font-weight: 600;
+}
+
+/* 账号卡片 */
+.me-account { margin-bottom: 32px; }
+
+.account-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 20px;
+  background: #fff;
+  border: 1px solid #e8f6ff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(186, 230, 253, 0.15);
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s;
+}
+
+.account-info { flex: 1; min-width: 0; }
+
+.account-label {
+  font-size: 12px;
+  color: #7dd3fc;
+  margin-bottom: 4px;
+}
+
+.account-email {
+  font-size: 15px;
+  font-weight: 600;
+  color: #075985;
+  word-break: break-all;
+}
+
+.account-btn {
+  flex-shrink: 0;
+  padding: 9px 16px;
+  border: 1px solid #e0f2fe;
+  border-radius: 10px;
+  background: #f5fbff;
+  color: #0369a1;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+  font-family: inherit;
+}
+
+.account-btn:hover {
+  background: #e0f2fe;
+  border-color: #bae6fd;
+  color: #0284c7;
+}
+
+.account-btn--logout:hover {
+  background: #fee2e2;
+  border-color: #fca5a5;
+  color: #dc2626;
+}
+
+.account-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.account-btn--sync:hover {
+  background: #ecfdf5;
+  border-color: #a7f3d0;
+  color: #059669;
+}
+
+.account-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.account-sync-status {
+  font-size: 12px;
+  color: #059669;
+  margin-top: 6px;
+}
+
+/* 关于 */
+.me-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.about-link {
+  font-size: 14px;
+  color: #0284c7;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.about-link:hover { text-decoration: underline; }
+
+.about-version {
+  font-size: 12px;
+  color: #bae6fd;
 }
 
 /* 统计卡片 */
@@ -459,6 +621,12 @@ function doReset() {
   .danger-card {
     flex-direction: column;
     text-align: center;
+  }
+
+  .account-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
   }
 
   .modal-box {

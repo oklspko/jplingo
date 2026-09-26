@@ -202,7 +202,27 @@ export function useJpStorage() {
     saveRecord(record.value);
   }
 
-  return { record, recordStatement, recordMastered, recordCourseCompleted, addStudyTime, resetRecord };
+  // 主动同步：登录用户手动把本地记录与云端双向合并（拉取云端 → 合并 → 回写云端）
+  async function syncNow(): Promise<"synced" | "noop" | "error"> {
+    const userId = getCurrentUserId();
+    if (!userId) return "noop";
+    try {
+      const cloud = await loadCloudRecord(userId);
+      if (cloud) {
+        record.value = mergeRecords(record.value, cloud);
+      }
+      await useJpSupabaseClient()
+        .from("study_records")
+        .upsert({ user_id: userId, data: record.value, updated_at: new Date().toISOString() });
+      saveRecord(record.value);
+      return "synced";
+    } catch (err) {
+      console.error("手动同步失败：", err);
+      return "error";
+    }
+  }
+
+  return { record, recordStatement, recordMastered, recordCourseCompleted, addStudyTime, resetRecord, syncNow };
 }
 
 export function formatDuration(seconds: number): string {

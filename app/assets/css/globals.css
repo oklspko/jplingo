@@ -57,3 +57,13 @@ body {
   background: #3b3c46;
   border-radius: 7px;
 }
+
+/* 移动端固定底部 Tab 栏占位，避免页面内容/页脚被导航栏遮挡 */
+@media (max-width: 768px) {
+  .jp-page-main {
+    padding-bottom: calc(64px + env(safe-area-inset-bottom));
+  }
+  .site-footer {
+    padding-bottom: calc(76px + env(safe-area-inset-bottom));
+  }
+}
