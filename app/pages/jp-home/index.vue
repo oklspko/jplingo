@@ -49,7 +49,7 @@
                       v-for="courseId in pack.courses"
                       :key="courseId"
                       class="course-card"
-                      :href="`/jp-game/${pack.id}/${courseId}`"
+                      :href="`/jp-study/${pack.id}/${courseId}`"
                     >
                       <div class="course-title">{{ getCourseTitle(pack.id, courseId) }}</div>
                       <div class="course-meta">

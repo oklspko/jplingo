@@ -346,13 +346,13 @@ async function loadCourseData() {
 function gotoPrevCourse() {
   if (!hasPrevCourse.value) return;
   const prevId = allCourses.value[courseIndex.value - 1];
-  window.location.href = `/jp-game/${coursePackId.value}/${prevId}`;
+  window.location.href = `/jp-study/${coursePackId.value}/${prevId}`;
 }
 
 function gotoNextCourse() {
   if (!hasNextCourse.value) { goHome(); return; }
   const nextId = allCourses.value[courseIndex.value + 1];
-  window.location.href = `/jp-game/${coursePackId.value}/${nextId}`;
+  window.location.href = `/jp-study/${coursePackId.value}/${nextId}`;
 }
 
 function goHome() { window.location.href = "/jp-home"; }
