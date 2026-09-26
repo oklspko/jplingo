@@ -89,7 +89,7 @@ function isActive(path: string) {
   color: #075985;
   font-weight: 700;
   letter-spacing: 0.5px;
-  font-family: -apple-system, "Segoe UI", sans-serif;
+  font-family: system-ui, -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Yu Gothic UI", "Meiryo", "Noto Sans JP", sans-serif;
 }
 
 .subtitle {

@@ -70,7 +70,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
-const open = ref(true);
+const open = ref(false);
 
 interface KanaCell {
   kana: string;
@@ -271,7 +271,7 @@ const yoon: KanaRow[] = [
   font-weight: 700;
   background: #f5fbff;
   border-radius: 10px;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Yu Gothic UI", "Meiryo", "Hiragino Kaku Gothic ProN", "Hiragino Sans GB", "Noto Sans JP", sans-serif;
 }
 
 .kana-cell {
@@ -299,14 +299,14 @@ const yoon: KanaRow[] = [
   color: #075985;
   font-weight: 600;
   line-height: 1.2;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Yu Gothic UI", "Meiryo", "Hiragino Kaku Gothic ProN", "Hiragino Sans GB", "Noto Sans JP", sans-serif;
 }
 
 .kana-romaji {
   font-size: 11px;
   color: #7dd3fc;
   margin-top: 2px;
-  font-family: "JetBrains Mono", "SF Mono", Consolas, monospace;
+  font-family: ui-monospace, "SF Mono", "Consolas", "Courier New", monospace;
   letter-spacing: 0.5px;
 }
 
@@ -326,7 +326,7 @@ const yoon: KanaRow[] = [
 }
 
 .kana-tips b {
-  font-family: "JetBrains Mono", "SF Mono", Consolas, monospace;
+  font-family: ui-monospace, "SF Mono", "Consolas", "Courier New", monospace;
   color: #0284c7;
   font-weight: 600;
 }

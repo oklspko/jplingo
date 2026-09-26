@@ -258,7 +258,7 @@ const roles = [
   font-size: 20px;
   color: #0284c7;
   font-weight: 700;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Yu Gothic UI", "Meiryo", "Hiragino Kaku Gothic ProN", "Hiragino Sans GB", "Noto Sans JP", sans-serif;
   line-height: 1;
 }
 
@@ -372,7 +372,7 @@ const roles = [
   font-size: 13px;
   font-weight: 700;
   border-radius: 8px;
-  font-family: "JetBrains Mono", "SF Mono", Consolas, monospace;
+  font-family: ui-monospace, "SF Mono", "Consolas", "Courier New", monospace;
 }
 
 .gg-rule-body {

@@ -6,17 +6,23 @@
         <header class="page-header">
           <span class="page-badge">📖 内容学习</span>
           <h1 class="page-title">日语连词成句 · 语法学习</h1>
-          <p class="page-sub">按顺序学：先会「输入」→ 再会「造句」→ 最后懂「逻辑」</p>
+          <p class="page-sub">按顺序学：先会「输入」→ 再会「造句」→ 再学「动词」→ 最后懂「逻辑」</p>
         </header>
 
         <!-- 一、日语输入法 -->
         <section class="page-section">
-          <h2 class="page-section-title">
+          <h2
+            class="page-section-title"
+            role="button"
+            tabindex="0"
+            :aria-expanded="openInput"
+            @click="openInput = !openInput"
+            @keydown.enter.prevent="openInput = !openInput"
+            @keydown.space.prevent="openInput = !openInput"
+          >
             <span class="page-num">一</span>
             <span class="page-title-text">日语输入法</span>
-            <button class="section-toggle" type="button" @click="openInput = !openInput" :aria-expanded="openInput">
-              {{ openInput ? "收起" : "展开" }}
-            </button>
+            <span class="section-toggle">{{ openInput ? "▾ 收起" : "▸ 展开" }}</span>
           </h2>
           <transition name="fold">
             <div v-show="openInput" class="page-section-body">
@@ -28,12 +34,18 @@
 
         <!-- 二、三类谓语句 -->
         <section class="page-section">
-          <h2 class="page-section-title">
+          <h2
+            class="page-section-title"
+            role="button"
+            tabindex="0"
+            :aria-expanded="openPredicate"
+            @click="openPredicate = !openPredicate"
+            @keydown.enter.prevent="openPredicate = !openPredicate"
+            @keydown.space.prevent="openPredicate = !openPredicate"
+          >
             <span class="page-num">二</span>
             <span class="page-title-text">三类谓语句</span>
-            <button class="section-toggle" type="button" @click="openPredicate = !openPredicate" :aria-expanded="openPredicate">
-              {{ openPredicate ? "收起" : "展开" }}
-            </button>
+            <span class="section-toggle">{{ openPredicate ? "▾ 收起" : "▸ 展开" }}</span>
           </h2>
           <transition name="fold">
             <div v-show="openPredicate" class="page-section-body">
@@ -42,14 +54,42 @@
           </transition>
         </section>
 
-        <!-- 三、核心逻辑 -->
+        <!-- 三、动词 -->
         <section class="page-section">
-          <h2 class="page-section-title">
+          <h2
+            class="page-section-title"
+            role="button"
+            tabindex="0"
+            :aria-expanded="openVerb"
+            @click="openVerb = !openVerb"
+            @keydown.enter.prevent="openVerb = !openVerb"
+            @keydown.space.prevent="openVerb = !openVerb"
+          >
             <span class="page-num">三</span>
+            <span class="page-title-text">动词</span>
+            <span class="section-toggle">{{ openVerb ? "▾ 收起" : "▸ 展开" }}</span>
+          </h2>
+          <transition name="fold">
+            <div v-show="openVerb" class="page-section-body">
+              <JpVerbGuide />
+            </div>
+          </transition>
+        </section>
+
+        <!-- 四、核心逻辑 -->
+        <section class="page-section">
+          <h2
+            class="page-section-title"
+            role="button"
+            tabindex="0"
+            :aria-expanded="openLogic"
+            @click="openLogic = !openLogic"
+            @keydown.enter.prevent="openLogic = !openLogic"
+            @keydown.space.prevent="openLogic = !openLogic"
+          >
+            <span class="page-num">四</span>
             <span class="page-title-text">核心逻辑</span>
-            <button class="section-toggle" type="button" @click="openLogic = !openLogic" :aria-expanded="openLogic">
-              {{ openLogic ? "收起" : "展开" }}
-            </button>
+            <span class="section-toggle">{{ openLogic ? "▾ 收起" : "▸ 展开" }}</span>
           </h2>
           <transition name="fold">
             <div v-show="openLogic" class="page-section-body">
@@ -68,10 +108,12 @@ import JpSidebar from "~/components/jp/JpSidebar.vue";
 import JpGrammarGuide from "~/components/jp/JpGrammarGuide.vue";
 import JpPredicateSentences from "~/components/jp/JpPredicateSentences.vue";
 import JpKanaChart from "~/components/jp/JpKanaChart.vue";
+import JpVerbGuide from "~/components/jp/JpVerbGuide.vue";
 
-const openInput = ref(true);
-const openPredicate = ref(true);
-const openLogic = ref(true);
+const openInput = ref(false);
+const openPredicate = ref(false);
+const openVerb = ref(false);
+const openLogic = ref(false);
 </script>
 
 <style scoped>
@@ -93,7 +135,7 @@ const openLogic = ref(true);
   max-width: 900px;
   margin: 0 auto;
   padding: 48px 40px 80px;
-  font-family: -apple-system, "Segoe UI", "Noto Sans JP", sans-serif;
+  font-family: inherit;
 }
 
 /* ===== 页头 ===== */
@@ -141,6 +183,8 @@ const openLogic = ref(true);
   color: #075985;
   font-weight: 700;
   margin: 0 0 10px;
+  cursor: pointer;
+  user-select: none;
 }
 
 .page-num {
@@ -171,13 +215,12 @@ const openLogic = ref(true);
   color: #0369a1;
   font-size: 13px;
   font-weight: 600;
-  cursor: pointer;
   transition: all 0.2s;
   font-family: inherit;
   white-space: nowrap;
 }
 
-.section-toggle:hover {
+.page-section-title:hover .section-toggle {
   background: #e0f2fe;
   border-color: #bae6fd;
   color: #0284c7;

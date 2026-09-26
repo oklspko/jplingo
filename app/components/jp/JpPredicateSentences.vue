@@ -309,7 +309,7 @@ const verbRows: string[][] = [
 .ps-notes b {
   color: #0284c7;
   font-weight: 700;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Yu Gothic UI", "Meiryo", "Hiragino Kaku Gothic ProN", "Hiragino Sans GB", "Noto Sans JP", sans-serif;
 }
 
 @media (max-width: 768px) {

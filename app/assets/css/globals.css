@@ -3,6 +3,12 @@ body {
   height: 100%;
 }
 
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", "Yu Gothic UI", "Meiryo",
+    "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+}
+
 :root {
   scrollbar-width: none;
 }
