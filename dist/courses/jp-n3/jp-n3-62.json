@@ -1,0 +1,333 @@
+{
+  "id": "jp-n3-62",
+  "coursePackId": "jp-n3",
+  "title": "其他 3",
+  "order": 62,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "等级；……做法，……流派",
+      "japanese": "〜流",
+      "kana": "〜流",
+      "romaji": "~流",
+      "tokens": [
+        {
+          "text": "〜流",
+          "kana": "〜流"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "凌乱；不统一；圆圆小小的东西掉落的样子",
+      "japanese": "ばらばら",
+      "kana": "ばらばら",
+      "romaji": "barabara",
+      "tokens": [
+        {
+          "text": "ばらばら",
+          "kana": "ばらばら"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "太好了，太棒了",
+      "japanese": "やった",
+      "kana": "やった",
+      "romaji": "yatta",
+      "tokens": [
+        {
+          "text": "やった",
+          "kana": "やった"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "一个……，整个……；稍微……",
+      "japanese": "一〜",
+      "kana": "一〜",
+      "romaji": "一~",
+      "tokens": [
+        {
+          "text": "一〜",
+          "kana": "一〜"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "数个……，若干……",
+      "japanese": "数〜",
+      "kana": "数〜",
+      "romaji": "数~",
+      "tokens": [
+        {
+          "text": "数〜",
+          "kana": "数〜"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "随便，自由",
+      "japanese": "〜放題",
+      "kana": "〜放題",
+      "romaji": "~放題",
+      "tokens": [
+        {
+          "text": "〜放題",
+          "kana": "〜放題"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "未……，没……",
+      "japanese": "未〜",
+      "kana": "未〜",
+      "romaji": "未~",
+      "tokens": [
+        {
+          "text": "未〜",
+          "kana": "未〜"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "翌，下一个……",
+      "japanese": "翌〜",
+      "kana": "翌〜",
+      "romaji": "翌~",
+      "tokens": [
+        {
+          "text": "翌〜",
+          "kana": "翌〜"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "下个……",
+      "japanese": "来〜",
+      "kana": "来〜",
+      "romaji": "来~",
+      "tokens": [
+        {
+          "text": "来〜",
+          "kana": "来〜"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "来吧，走吧；一旦……",
+      "japanese": "いざ",
+      "kana": "いざ",
+      "romaji": "iza",
+      "tokens": [
+        {
+          "text": "いざ",
+          "kana": "いざ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "肥大；（液体）满",
+      "japanese": "だぶだぶ",
+      "kana": "だぶだぶ",
+      "romaji": "dabudabu",
+      "tokens": [
+        {
+          "text": "だぶだぶ",
+          "kana": "だぶだぶ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "具有特别资格的人",
+      "japanese": "〜士",
+      "kana": "〜士",
+      "romaji": "~士",
+      "tokens": [
+        {
+          "text": "〜士",
+          "kana": "〜士"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "顺便，附带",
+      "japanese": "ちなみに",
+      "kana": "ちなみに",
+      "romaji": "chinamini",
+      "tokens": [
+        {
+          "text": "ちなみに",
+          "kana": "ちなみに"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（合）共计；（併）同时",
+      "japanese": "合わせて",
+      "kana": "あわせて",
+      "romaji": "awasete",
+      "tokens": [
+        {
+          "text": "合わせて",
+          "kana": "あわせて"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "担心；有意，有心，想要；在意",
+      "japanese": "気になる",
+      "kana": "きになる",
+      "romaji": "kininaru",
+      "tokens": [
+        {
+          "text": "気になる",
+          "kana": "きになる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "因而，因此",
+      "japanese": "ついては",
+      "kana": "ついては",
+      "romaji": "tsuiteha",
+      "tokens": [
+        {
+          "text": "ついては",
+          "kana": "ついては"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "穿在身上；学习并掌握（知识、习惯及技能等）",
+      "japanese": "身につける",
+      "kana": "みにつける",
+      "romaji": "minitsukeru",
+      "tokens": [
+        {
+          "text": "身につける",
+          "kana": "みにつける"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "因为，原因是",
+      "japanese": "なぜなら",
+      "kana": "なぜなら",
+      "romaji": "nazenara",
+      "tokens": [
+        {
+          "text": "なぜなら",
+          "kana": "なぜなら"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "关心，介意，在乎",
+      "japanese": "気にする",
+      "kana": "きにする",
+      "romaji": "kinisuru",
+      "tokens": [
+        {
+          "text": "気にする",
+          "kana": "きにする"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（稍微郑重地表示赞同对方的话）是；（反问或惊讶）啊",
+      "japanese": "はあ",
+      "kana": "はあ",
+      "romaji": "haa",
+      "tokens": [
+        {
+          "text": "はあ",
+          "kana": "はあ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "运气好，走运",
+      "japanese": "ついている",
+      "kana": "ついている",
+      "romaji": "tsuiteiru",
+      "tokens": [
+        {
+          "text": "ついている",
+          "kana": "ついている"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "（接在形容词词干后构成名词）表示其程度和状态",
+      "japanese": "〜さ",
+      "kana": "〜さ",
+      "romaji": "~sa",
+      "tokens": [
+        {
+          "text": "〜さ",
+          "kana": "〜さ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "表示从现场的证据和状况中自然而然得出的判断或预测",
+      "japanese": "思われる",
+      "kana": "おもわれる",
+      "romaji": "omowareru",
+      "tokens": [
+        {
+          "text": "思われる",
+          "kana": "おもわれる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "尽管如此，然而",
+      "japanese": "それを",
+      "kana": "それを",
+      "romaji": "sorewo",
+      "tokens": [
+        {
+          "text": "それを",
+          "kana": "それを"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "在众多之中有一些",
+      "japanese": "中には",
+      "kana": "なかには",
+      "romaji": "nakaniha",
+      "tokens": [
+        {
+          "text": "中には",
+          "kana": "なかには"
+        }
+      ]
+    }
+  ]
+}

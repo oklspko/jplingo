@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-119",
+  "coursePackId": "jp-n1",
+  "title": "形容词 1",
+  "order": 119,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "含糊，暧昧",
+      "japanese": "うやむや",
+      "kana": "うやむや",
+      "romaji": "uyamuya",
+      "tokens": [
+        {
+          "text": "うやむや",
+          "kana": "うやむや"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "拖拖拉拉",
+      "japanese": "延び延び",
+      "kana": "のびのび",
+      "romaji": "nobinobi",
+      "tokens": [
+        {
+          "text": "延び延び",
+          "kana": "のびのび"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "牢固的；肯定的；可靠的",
+      "japanese": "堅い",
+      "kana": "かたい",
+      "romaji": "katai",
+      "tokens": [
+        {
+          "text": "堅い",
+          "kana": "かたい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "三角，三角形",
+      "japanese": "三角",
+      "kana": "さんかく",
+      "romaji": "sankaku",
+      "tokens": [
+        {
+          "text": "三角",
+          "kana": "さんかく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "主要的，重点的",
+      "japanese": "主",
+      "kana": "おも",
+      "romaji": "omo",
+      "tokens": [
+        {
+          "text": "主",
+          "kana": "おも"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "浅的，淡的；些微",
+      "japanese": "淡い",
+      "kana": "あわい",
+      "romaji": "awai",
+      "tokens": [
+        {
+          "text": "淡い",
+          "kana": "あわい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "捉弄，恶作剧",
+      "japanese": "いたずら",
+      "kana": "いたずら",
+      "romaji": "itazura",
+      "tokens": [
+        {
+          "text": "いたずら",
+          "kana": "いたずら"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "潇洒，俊俏，苗条；高性能，尖端",
+      "japanese": "スマート",
+      "kana": "すまあと",
+      "romaji": "sumaato",
+      "tokens": [
+        {
+          "text": "スマート",
+          "kana": "すまあと"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "可怕的；猛烈的",
+      "japanese": "ものすごい",
+      "kana": "ものすごい",
+      "romaji": "monosugoi",
+      "tokens": [
+        {
+          "text": "ものすごい",
+          "kana": "ものすごい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "凄惨，悲惨",
+      "japanese": "惨め",
+      "kana": "みじめ",
+      "romaji": "mijime",
+      "tokens": [
+        {
+          "text": "惨め",
+          "kana": "みじめ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "天然，自然",
+      "japanese": "天然",
+      "kana": "てんねん",
+      "romaji": "tennen",
+      "tokens": [
+        {
+          "text": "天然",
+          "kana": "てんねん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "开朗，（声音）爽朗；晴朗",
+      "japanese": "朗らか",
+      "kana": "ほがらか",
+      "romaji": "hogaraka",
+      "tokens": [
+        {
+          "text": "朗らか",
+          "kana": "ほがらか"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（病人）静养",
+      "japanese": "安静",
+      "kana": "あんせい",
+      "romaji": "ansei",
+      "tokens": [
+        {
+          "text": "安静",
+          "kana": "あんせい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "可喜的，令人高兴的",
+      "japanese": "喜ばしい",
+      "kana": "よろこばしい",
+      "romaji": "yorokobashii",
+      "tokens": [
+        {
+          "text": "喜ばしい",
+          "kana": "よろこばしい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "重的；沉重的",
+      "japanese": "重たい",
+      "kana": "おもたい",
+      "romaji": "omotai",
+      "tokens": [
+        {
+          "text": "重たい",
+          "kana": "おもたい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "清澈；纯洁",
+      "japanese": "清い",
+      "kana": "きよい",
+      "romaji": "kiyoi",
+      "tokens": [
+        {
+          "text": "清い",
+          "kana": "きよい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "（编织物的纹路或颗粒）粗的，大的；粗糙的；粗枝大叶的，草率的",
+      "japanese": "粗い",
+      "kana": "あらい",
+      "romaji": "arai",
+      "tokens": [
+        {
+          "text": "粗い",
+          "kana": "あらい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "小心翼翼的，小心谨慎的",
+      "japanese": "注意深い",
+      "kana": "ちゅういぶかい",
+      "romaji": "chuuibukai",
+      "tokens": [
+        {
+          "text": "注意深い",
+          "kana": "ちゅういぶかい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "爱生气的，易怒的",
+      "japanese": "怒りっぽい",
+      "kana": "おこりっぽい",
+      "romaji": "okorippoi",
+      "tokens": [
+        {
+          "text": "怒りっぽい",
+          "kana": "おこりっぽい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "愚蠢的，无聊的；荒谬的，离谱的",
+      "japanese": "ばかばかしい",
+      "kana": "ばかばかしい",
+      "romaji": "bakabakashii",
+      "tokens": [
+        {
+          "text": "ばかばかしい",
+          "kana": "ばかばかしい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "非常麻烦的",
+      "japanese": "面倒臭い",
+      "kana": "めんどうくさい",
+      "romaji": "mendoukusai",
+      "tokens": [
+        {
+          "text": "面倒臭い",
+          "kana": "めんどうくさい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "无依无靠，令人不安；不可靠，不可信赖",
+      "japanese": "頼りない",
+      "kana": "たよりない",
+      "romaji": "tayorinai",
+      "tokens": [
+        {
+          "text": "頼りない",
+          "kana": "たよりない"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "杰作，名作；奇妙有趣",
+      "japanese": "傑作",
+      "kana": "けっさく",
+      "romaji": "kessaku",
+      "tokens": [
+        {
+          "text": "傑作",
+          "kana": "けっさく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "狠狠地，深深地；惨，糟糕，狼狈",
+      "japanese": "散々",
+      "kana": "さんざん",
+      "romaji": "sanzan",
+      "tokens": [
+        {
+          "text": "散々",
+          "kana": "さんざん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "非常，很",
+      "japanese": "甚だしい",
+      "kana": "はなはだしい",
+      "romaji": "hanahadashii",
+      "tokens": [
+        {
+          "text": "甚だしい",
+          "kana": "はなはだしい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "粗枝大叶的，大概的",
+      "japanese": "大ざっぱ",
+      "kana": "おおざっぱ",
+      "romaji": "oozappa",
+      "tokens": [
+        {
+          "text": "大ざっぱ",
+          "kana": "おおざっぱ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "恰好的，程度刚好的",
+      "japanese": "ほどよい",
+      "kana": "ほどよい",
+      "romaji": "hodoyoi",
+      "tokens": [
+        {
+          "text": "ほどよい",
+          "kana": "ほどよい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "个人的",
+      "japanese": "パーソナル",
+      "kana": "ぱあそなる",
+      "romaji": "paasonaru",
+      "tokens": [
+        {
+          "text": "パーソナル",
+          "kana": "ぱあそなる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "筋疲力尽",
+      "japanese": "へとへと",
+      "kana": "へとへと",
+      "romaji": "hetoheto",
+      "tokens": [
+        {
+          "text": "へとへと",
+          "kana": "へとへと"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "难看的，丢脸，不体面的",
+      "japanese": "みっともない",
+      "kana": "みっともない",
+      "romaji": "mittomonai",
+      "tokens": [
+        {
+          "text": "みっともない",
+          "kana": "みっともない"
+        }
+      ]
+    }
+  ]
+}

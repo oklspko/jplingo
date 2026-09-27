@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-70",
+  "coursePackId": "jp-n2",
+  "title": "名词 70",
+  "order": 70,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "县内",
+      "japanese": "県内",
+      "kana": "けんない",
+      "romaji": "kennai",
+      "tokens": [
+        {
+          "text": "県内",
+          "kana": "けんない"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "商务，商业；（「商事会社」の略）贸易公司",
+      "japanese": "商事",
+      "kana": "しょうじ",
+      "romaji": "shouji",
+      "tokens": [
+        {
+          "text": "商事",
+          "kana": "しょうじ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "深度",
+      "japanese": "深度",
+      "kana": "しんど",
+      "romaji": "shindo",
+      "tokens": [
+        {
+          "text": "深度",
+          "kana": "しんど"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "电动",
+      "japanese": "電動",
+      "kana": "でんどう",
+      "romaji": "dendou",
+      "tokens": [
+        {
+          "text": "電動",
+          "kana": "でんどう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "有人，载人",
+      "japanese": "有人",
+      "kana": "ゆうじん",
+      "romaji": "yuujin",
+      "tokens": [
+        {
+          "text": "有人",
+          "kana": "ゆうじん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（物体）歪斜；（内心）不直爽，乖僻",
+      "japanese": "ゆがみ",
+      "kana": "ゆがみ",
+      "romaji": "yugami",
+      "tokens": [
+        {
+          "text": "ゆがみ",
+          "kana": "ゆがみ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "接收人，受众",
+      "japanese": "受け手",
+      "kana": "うけて",
+      "romaji": "ukete",
+      "tokens": [
+        {
+          "text": "受け手",
+          "kana": "うけて"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "世界观，宇宙观",
+      "japanese": "世界観",
+      "kana": "せかいかん",
+      "romaji": "sekaikan",
+      "tokens": [
+        {
+          "text": "世界観",
+          "kana": "せかいかん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "经过，过程；方法，程序",
+      "japanese": "プロセス",
+      "kana": "ぷろせす",
+      "romaji": "purosesu",
+      "tokens": [
+        {
+          "text": "プロセス",
+          "kana": "ぷろせす"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "框架；（事物的）结构",
+      "japanese": "枠組み",
+      "kana": "わくぐみ",
+      "romaji": "wakugumi",
+      "tokens": [
+        {
+          "text": "枠組み",
+          "kana": "わくぐみ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "自行车停车场",
+      "japanese": "駐輪場",
+      "kana": "ちゅうりんじょう",
+      "romaji": "chuurinjou",
+      "tokens": [
+        {
+          "text": "駐輪場",
+          "kana": "ちゅうりんじょう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "人工智能",
+      "japanese": "人工知能",
+      "kana": "じんこうちのう",
+      "romaji": "jinkouchinou",
+      "tokens": [
+        {
+          "text": "人工知能",
+          "kana": "じんこうちのう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "个人信息",
+      "japanese": "個人情報",
+      "kana": "こじんじょうほう",
+      "romaji": "kojinjouhou",
+      "tokens": [
+        {
+          "text": "個人情報",
+          "kana": "こじんじょうほう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "专注力",
+      "japanese": "集中力",
+      "kana": "しゅうちゅうりょく",
+      "romaji": "shuuchuuryoku",
+      "tokens": [
+        {
+          "text": "集中力",
+          "kana": "しゅうちゅうりょく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "对面；对方",
+      "japanese": "向こう側",
+      "kana": "むこうがわ",
+      "romaji": "mukougawa",
+      "tokens": [
+        {
+          "text": "向こう側",
+          "kana": "むこうがわ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "过午，下午",
+      "japanese": "昼過ぎ",
+      "kana": "ひるすぎ",
+      "romaji": "hirusugi",
+      "tokens": [
+        {
+          "text": "昼過ぎ",
+          "kana": "ひるすぎ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "写的人，笔者；书法家，画家，文学家",
+      "japanese": "書き手",
+      "kana": "かきて",
+      "romaji": "kakite",
+      "tokens": [
+        {
+          "text": "書き手",
+          "kana": "かきて"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "彼方，那边",
+      "japanese": "かなた",
+      "kana": "かなた",
+      "romaji": "kanata",
+      "tokens": [
+        {
+          "text": "かなた",
+          "kana": "かなた"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（特指美术家、歌手等）艺术家",
+      "japanese": "アーティスト",
+      "kana": "ああてぃすと",
+      "romaji": "aateisuto",
+      "tokens": [
+        {
+          "text": "アーティスト",
+          "kana": "ああてぃすと"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "要素；（化学）元素",
+      "japanese": "エレメント",
+      "kana": "えれめんと",
+      "romaji": "eremento",
+      "tokens": [
+        {
+          "text": "エレメント",
+          "kana": "えれめんと"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "气场，范儿",
+      "japanese": "オーラ",
+      "kana": "おうら",
+      "romaji": "oura",
+      "tokens": [
+        {
+          "text": "オーラ",
+          "kana": "おうら"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "（不好的）结果，结局，下场",
+      "japanese": "落ち",
+      "kana": "おち",
+      "romaji": "ochi",
+      "tokens": [
+        {
+          "text": "落ち",
+          "kana": "おち"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "撞车；（电脑）硬盘或数据损坏；（电脑）软件异常中止",
+      "japanese": "クラッシュ",
+      "kana": "くらっしゅ",
+      "romaji": "kurasshu",
+      "tokens": [
+        {
+          "text": "クラッシュ",
+          "kana": "くらっしゅ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "马鲛鱼，鲅鱼",
+      "japanese": "さわら",
+      "kana": "さわら",
+      "romaji": "sawara",
+      "tokens": [
+        {
+          "text": "さわら",
+          "kana": "さわら"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "碎纸机",
+      "japanese": "シュレッダー",
+      "kana": "しゅれっだあ",
+      "romaji": "shureddaa",
+      "tokens": [
+        {
+          "text": "シュレッダー",
+          "kana": "しゅれっだあ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "智能手机",
+      "japanese": "スマホ",
+      "kana": "すまほ",
+      "romaji": "sumaho",
+      "tokens": [
+        {
+          "text": "スマホ",
+          "kana": "すまほ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "平板电脑",
+      "japanese": "タブレット",
+      "kana": "たぶれっと",
+      "romaji": "taburetto",
+      "tokens": [
+        {
+          "text": "タブレット",
+          "kana": "たぶれっと"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "壁龛；狭小市场，小众领域",
+      "japanese": "ニッチ",
+      "kana": "にっち",
+      "romaji": "nitchi",
+      "tokens": [
+        {
+          "text": "ニッチ",
+          "kana": "にっち"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "因素，要素",
+      "japanese": "ファクター",
+      "kana": "ふぁくたあ",
+      "romaji": "fuakutaa",
+      "tokens": [
+        {
+          "text": "ファクター",
+          "kana": "ふぁくたあ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "雨刷，刮水器",
+      "japanese": "ワイパー",
+      "kana": "わいぱあ",
+      "romaji": "waipaa",
+      "tokens": [
+        {
+          "text": "ワイパー",
+          "kana": "わいぱあ"
+        }
+      ]
+    }
+  ]
+}

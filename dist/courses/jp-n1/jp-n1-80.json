@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-80",
+  "coursePackId": "jp-n1",
+  "title": "名词 80",
+  "order": 80,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "一片，一张；一点",
+      "japanese": "一片",
+      "kana": "いっぺん",
+      "romaji": "ippen",
+      "tokens": [
+        {
+          "text": "一片",
+          "kana": "いっぺん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "报应；报酬，酬劳",
+      "japanese": "報い",
+      "kana": "むくい",
+      "romaji": "mukui",
+      "tokens": [
+        {
+          "text": "報い",
+          "kana": "むくい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "好主意，好设想",
+      "japanese": "名案",
+      "kana": "めいあん",
+      "romaji": "meian",
+      "tokens": [
+        {
+          "text": "名案",
+          "kana": "めいあん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "（杂技等）技艺；（一般人做不到的）绝技",
+      "japanese": "芸当",
+      "kana": "げいとう",
+      "romaji": "geitou",
+      "tokens": [
+        {
+          "text": "芸当",
+          "kana": "げいとう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "陪笑脸，谄笑",
+      "japanese": "愛想笑い",
+      "kana": "あいそわらい",
+      "romaji": "aisowarai",
+      "tokens": [
+        {
+          "text": "愛想笑い",
+          "kana": "あいそわらい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "劣化，退化，变坏",
+      "japanese": "劣化",
+      "kana": "れっか",
+      "romaji": "rekka",
+      "tokens": [
+        {
+          "text": "劣化",
+          "kana": "れっか"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "医生；博士",
+      "japanese": "ドクター",
+      "kana": "どくたあ",
+      "romaji": "dokutaa",
+      "tokens": [
+        {
+          "text": "ドクター",
+          "kana": "どくたあ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "算错；估计错误",
+      "japanese": "誤算",
+      "kana": "ごさん",
+      "romaji": "gosan",
+      "tokens": [
+        {
+          "text": "誤算",
+          "kana": "ごさん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "框，架",
+      "japanese": "フレーム",
+      "kana": "ふれえむ",
+      "romaji": "fureemu",
+      "tokens": [
+        {
+          "text": "フレーム",
+          "kana": "ふれえむ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "雷达",
+      "japanese": "レーダー",
+      "kana": "れえだあ",
+      "romaji": "reedaa",
+      "tokens": [
+        {
+          "text": "レーダー",
+          "kana": "れえだあ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "住处，家；巢穴，坏人聚集的地方",
+      "japanese": "住処",
+      "kana": "すみか",
+      "romaji": "sumika",
+      "tokens": [
+        {
+          "text": "住処",
+          "kana": "すみか"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "孤立的房屋；独栋房屋，一户建",
+      "japanese": "一軒家",
+      "kana": "いっけんや",
+      "romaji": "ikken'ya",
+      "tokens": [
+        {
+          "text": "一軒家",
+          "kana": "いっけんや"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "蜿蜒，起伏；汹涌的浪涛",
+      "japanese": "うねり",
+      "kana": "うねり",
+      "romaji": "uneri",
+      "tokens": [
+        {
+          "text": "うねり",
+          "kana": "うねり"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（1603年～1867年）江户时代",
+      "japanese": "江戸時代",
+      "kana": "えどじだい",
+      "romaji": "edojidai",
+      "tokens": [
+        {
+          "text": "江戸時代",
+          "kana": "えどじだい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "梗概，情节，概要；计划，预想",
+      "japanese": "筋書き",
+      "kana": "すじがき",
+      "romaji": "sujigaki",
+      "tokens": [
+        {
+          "text": "筋書き",
+          "kana": "すじがき"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "范围以内，圈子里",
+      "japanese": "圏内",
+      "kana": "けんない",
+      "romaji": "kennai",
+      "tokens": [
+        {
+          "text": "圏内",
+          "kana": "けんない"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "最高潮，最高峰",
+      "japanese": "最高潮",
+      "kana": "さいこうちょう",
+      "romaji": "saikouchou",
+      "tokens": [
+        {
+          "text": "最高潮",
+          "kana": "さいこうちょう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "无檐帽；笔帽；瓶盖",
+      "japanese": "キャップ",
+      "kana": "きゃっぷ",
+      "romaji": "kyappu",
+      "tokens": [
+        {
+          "text": "キャップ",
+          "kana": "きゃっぷ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "茧；蚕茧",
+      "japanese": "繭",
+      "kana": "まゆ",
+      "romaji": "mayu",
+      "tokens": [
+        {
+          "text": "繭",
+          "kana": "まゆ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "体力劳动，力气活",
+      "japanese": "力仕事",
+      "kana": "ちからしごと",
+      "romaji": "chikarashigoto",
+      "tokens": [
+        {
+          "text": "力仕事",
+          "kana": "ちからしごと"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "一对一的竞争，单挑",
+      "japanese": "一騎打ち",
+      "kana": "いっきうち",
+      "romaji": "ikkiuchi",
+      "tokens": [
+        {
+          "text": "一騎打ち",
+          "kana": "いっきうち"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "自己个人的意见",
+      "japanese": "一存",
+      "kana": "いちぞん",
+      "romaji": "ichizon",
+      "tokens": [
+        {
+          "text": "一存",
+          "kana": "いちぞん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "追随，迎合",
+      "japanese": "追従",
+      "kana": "ついじゅう",
+      "romaji": "tsuijuu",
+      "tokens": [
+        {
+          "text": "追従",
+          "kana": "ついじゅう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "年龄，年纪",
+      "japanese": "齢[よわい]",
+      "kana": "よわい",
+      "romaji": "yowai",
+      "tokens": [
+        {
+          "text": "齢[よわい]",
+          "kana": "よわい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "秘诀，窍门",
+      "japanese": "秘 訣[けつ]",
+      "kana": "ひけつ",
+      "romaji": "hiketsu",
+      "tokens": [
+        {
+          "text": "秘 訣[けつ]",
+          "kana": "ひけつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "最低的位次，末尾",
+      "japanese": "最下位",
+      "kana": "さいかい",
+      "romaji": "saikai",
+      "tokens": [
+        {
+          "text": "最下位",
+          "kana": "さいかい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "派生，衍生",
+      "japanese": "派生",
+      "kana": "はせい",
+      "romaji": "hasei",
+      "tokens": [
+        {
+          "text": "派生",
+          "kana": "はせい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "流星",
+      "japanese": "流れ星",
+      "kana": "ながれぼし",
+      "romaji": "nagareboshi",
+      "tokens": [
+        {
+          "text": "流れ星",
+          "kana": "ながれぼし"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "艰苦的境遇，困境",
+      "japanese": "苦境",
+      "kana": "くきょう",
+      "romaji": "kukyou",
+      "tokens": [
+        {
+          "text": "苦境",
+          "kana": "くきょう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "船员，海员，水手",
+      "japanese": "船乗り",
+      "kana": "ふなのり",
+      "romaji": "funanori",
+      "tokens": [
+        {
+          "text": "船乗り",
+          "kana": "ふなのり"
+        }
+      ]
+    }
+  ]
+}

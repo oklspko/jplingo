@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-54",
+  "coursePackId": "jp-n2",
+  "title": "名词 54",
+  "order": 54,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "小姐；选美大赛的冠军",
+      "japanese": "ミス",
+      "kana": "みす",
+      "romaji": "misu",
+      "tokens": [
+        {
+          "text": "ミス",
+          "kana": "みす"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "生活方式",
+      "japanese": "ライフスタイル",
+      "kana": "らいふすたいる",
+      "romaji": "raifusutairu",
+      "tokens": [
+        {
+          "text": "ライフスタイル",
+          "kana": "らいふすたいる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "铁轨；轨道；为了使事情顺利进行而做的准备",
+      "japanese": "レール",
+      "kana": "れえる",
+      "romaji": "reeru",
+      "tokens": [
+        {
+          "text": "レール",
+          "kana": "れえる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "真空包装食品，即食食品",
+      "japanese": "レトルト食品",
+      "kana": "れとるとしょくひん",
+      "romaji": "retorutoshokuhin",
+      "tokens": [
+        {
+          "text": "レトルト食品",
+          "kana": "れとるとしょくひん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "坏影响",
+      "japanese": "悪影響",
+      "kana": "あくえいきょう",
+      "romaji": "akueikyou",
+      "tokens": [
+        {
+          "text": "悪影響",
+          "kana": "あくえいきょう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "漆黑，黑暗；暗处；（前途）黯淡",
+      "japanese": "暗闇",
+      "kana": "くらやみ",
+      "romaji": "kurayami",
+      "tokens": [
+        {
+          "text": "暗闇",
+          "kana": "くらやみ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "威吓",
+      "japanese": "威嚇",
+      "kana": "いかく",
+      "romaji": "ikaku",
+      "tokens": [
+        {
+          "text": "威嚇",
+          "kana": "いかく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "不协调的感觉，异样的感觉",
+      "japanese": "違和感",
+      "kana": "いわかん",
+      "romaji": "iwakan",
+      "tokens": [
+        {
+          "text": "違和感",
+          "kana": "いわかん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "一角，一隅；一个角；一根角",
+      "japanese": "一角",
+      "kana": "いっかく",
+      "romaji": "ikkaku",
+      "tokens": [
+        {
+          "text": "一角",
+          "kana": "いっかく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "一抹；一丝，些许",
+      "japanese": "一抹",
+      "kana": "いちまつ",
+      "romaji": "ichimatsu",
+      "tokens": [
+        {
+          "text": "一抹",
+          "kana": "いちまつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "接受，领会",
+      "japanese": "飲み込み",
+      "kana": "のみこみ",
+      "romaji": "nomikomi",
+      "tokens": [
+        {
+          "text": "飲み込み",
+          "kana": "のみこみ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "隐居之处，隐匿处",
+      "japanese": "隠れ家",
+      "kana": "かくれが",
+      "romaji": "kakurega",
+      "tokens": [
+        {
+          "text": "隠れ家",
+          "kana": "かくれが"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（地位、名次、等级）低",
+      "japanese": "下位",
+      "kana": "かい",
+      "romaji": "kai",
+      "tokens": [
+        {
+          "text": "下位",
+          "kana": "かい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "歌词",
+      "japanese": "歌詞",
+      "kana": "かし",
+      "romaji": "kashi",
+      "tokens": [
+        {
+          "text": "歌詞",
+          "kana": "かし"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "条款，项目",
+      "japanese": "箇条",
+      "kana": "かじょう",
+      "romaji": "kajou",
+      "tokens": [
+        {
+          "text": "箇条",
+          "kana": "かじょう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "花粉",
+      "japanese": "花粉",
+      "kana": "かふん",
+      "romaji": "kafun",
+      "tokens": [
+        {
+          "text": "花粉",
+          "kana": "かふん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "电路，回路，线路",
+      "japanese": "回路",
+      "kana": "かいろ",
+      "romaji": "kairo",
+      "tokens": [
+        {
+          "text": "回路",
+          "kana": "かいろ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（书籍、文件等）修订",
+      "japanese": "改訂",
+      "kana": "かいてい",
+      "romaji": "kaitei",
+      "tokens": [
+        {
+          "text": "改訂",
+          "kana": "かいてい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "海上",
+      "japanese": "海上",
+      "kana": "かいじょう",
+      "romaji": "kaijou",
+      "tokens": [
+        {
+          "text": "海上",
+          "kana": "かいじょう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "格外，特别",
+      "japanese": "格段",
+      "kana": "かくだん",
+      "romaji": "kakudan",
+      "tokens": [
+        {
+          "text": "格段",
+          "kana": "かくだん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "完备，完善",
+      "japanese": "完備",
+      "kana": "かんび",
+      "romaji": "kanbi",
+      "tokens": [
+        {
+          "text": "完備",
+          "kana": "かんび"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "感受性，感性",
+      "japanese": "感性",
+      "kana": "かんせい",
+      "romaji": "kansei",
+      "tokens": [
+        {
+          "text": "感性",
+          "kana": "かんせい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "含有，内含；暗示",
+      "japanese": "含み",
+      "kana": "ふくみ",
+      "romaji": "fukumi",
+      "tokens": [
+        {
+          "text": "含み",
+          "kana": "ふくみ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "危机感",
+      "japanese": "危機感",
+      "kana": "ききかん",
+      "romaji": "kikikan",
+      "tokens": [
+        {
+          "text": "危機感",
+          "kana": "ききかん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "顺路去",
+      "japanese": "寄り道",
+      "kana": "よりみち",
+      "romaji": "yorimichi",
+      "tokens": [
+        {
+          "text": "寄り道",
+          "kana": "よりみち"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "机种，种类",
+      "japanese": "機種",
+      "kana": "きしゅ",
+      "romaji": "kishu",
+      "tokens": [
+        {
+          "text": "機種",
+          "kana": "きしゅ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "元气，精力",
+      "japanese": "気力",
+      "kana": "きりょく",
+      "romaji": "kiryoku",
+      "tokens": [
+        {
+          "text": "気力",
+          "kana": "きりょく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "贵公司",
+      "japanese": "貴社",
+      "kana": "きしゃ",
+      "romaji": "kisha",
+      "tokens": [
+        {
+          "text": "貴社",
+          "kana": "きしゃ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "贵商店",
+      "japanese": "貴店",
+      "kana": "きてん",
+      "romaji": "kiten",
+      "tokens": [
+        {
+          "text": "貴店",
+          "kana": "きてん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "休止，停止",
+      "japanese": "休止",
+      "kana": "きゅうし",
+      "romaji": "kyuushi",
+      "tokens": [
+        {
+          "text": "休止",
+          "kana": "きゅうし"
+        }
+      ]
+    }
+  ]
+}

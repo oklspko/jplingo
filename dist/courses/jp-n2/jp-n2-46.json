@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-46",
+  "coursePackId": "jp-n2",
+  "title": "名词 46",
+  "order": 46,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "树干；主干",
+      "japanese": "幹",
+      "kana": "みき",
+      "romaji": "miki",
+      "tokens": [
+        {
+          "text": "幹",
+          "kana": "みき"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "换算，折合",
+      "japanese": "換算",
+      "kana": "かんさん",
+      "romaji": "kansan",
+      "tokens": [
+        {
+          "text": "換算",
+          "kana": "かんさん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "简易，简便",
+      "japanese": "簡易",
+      "kana": "かんい",
+      "romaji": "kan'i",
+      "tokens": [
+        {
+          "text": "簡易",
+          "kana": "かんい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "重要，关键",
+      "japanese": "肝心",
+      "kana": "かんじん",
+      "romaji": "kanjin",
+      "tokens": [
+        {
+          "text": "肝心",
+          "kana": "かんじん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "观点，看法",
+      "japanese": "観点",
+      "kana": "かんてん",
+      "romaji": "kanten",
+      "tokens": [
+        {
+          "text": "観点",
+          "kana": "かんてん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "参与，涉嫌，干预",
+      "japanese": "関与",
+      "kana": "かんよ",
+      "romaji": "kan'yo",
+      "tokens": [
+        {
+          "text": "関与",
+          "kana": "かんよ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "日期；期限",
+      "japanese": "期日",
+      "kana": "きじつ",
+      "romaji": "kijitsu",
+      "tokens": [
+        {
+          "text": "期日",
+          "kana": "きじつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "顾虑，客气",
+      "japanese": "気兼ね",
+      "kana": "きがね",
+      "romaji": "kigane",
+      "tokens": [
+        {
+          "text": "気兼ね",
+          "kana": "きがね"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "规定",
+      "japanese": "規定",
+      "kana": "きてい",
+      "romaji": "kitei",
+      "tokens": [
+        {
+          "text": "規定",
+          "kana": "きてい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "（身处某处或特定地位时的）心情，感觉",
+      "japanese": "居心地",
+      "kana": "いごこち",
+      "romaji": "igokochi",
+      "tokens": [
+        {
+          "text": "居心地",
+          "kana": "いごこち"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "拒绝，否决",
+      "japanese": "拒否",
+      "kana": "きょひ",
+      "romaji": "kyohi",
+      "tokens": [
+        {
+          "text": "拒否",
+          "kana": "きょひ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "同感",
+      "japanese": "共感",
+      "kana": "きょうかん",
+      "romaji": "kyoukan",
+      "tokens": [
+        {
+          "text": "共感",
+          "kana": "きょうかん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "境遇，处境",
+      "japanese": "境遇",
+      "kana": "きょうぐう",
+      "romaji": "kyouguu",
+      "tokens": [
+        {
+          "text": "境遇",
+          "kana": "きょうぐう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "仰面朝天",
+      "japanese": "仰[あお]向け",
+      "kana": "あおむけ",
+      "romaji": "aomuke",
+      "tokens": [
+        {
+          "text": "仰[あお]向け",
+          "kana": "あおむけ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "极端",
+      "japanese": "極端",
+      "kana": "きょくたん",
+      "romaji": "kyokutan",
+      "tokens": [
+        {
+          "text": "極端",
+          "kana": "きょくたん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "苦，苦难",
+      "japanese": "苦",
+      "kana": "く",
+      "romaji": "ku",
+      "tokens": [
+        {
+          "text": "苦",
+          "kana": "く"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "苦难",
+      "japanese": "苦難",
+      "kana": "くなん",
+      "romaji": "kunan",
+      "tokens": [
+        {
+          "text": "苦難",
+          "kana": "くなん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "形成",
+      "japanese": "形成",
+      "kana": "けいせい",
+      "romaji": "keisei",
+      "tokens": [
+        {
+          "text": "形成",
+          "kana": "けいせい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（书信结尾的寒暄用语）谨启",
+      "japanese": "敬具",
+      "kana": "けいぐ",
+      "romaji": "keigu",
+      "tokens": [
+        {
+          "text": "敬具",
+          "kana": "けいぐ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "赠品；纪念品",
+      "japanese": "景品",
+      "kana": "けいひん",
+      "romaji": "keihin",
+      "tokens": [
+        {
+          "text": "景品",
+          "kana": "けいひん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（时间）流逝；经过，过程",
+      "japanese": "経過",
+      "kana": "けいか",
+      "romaji": "keika",
+      "tokens": [
+        {
+          "text": "経過",
+          "kana": "けいか"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "会计事务",
+      "japanese": "経理",
+      "kana": "けいり",
+      "romaji": "keiri",
+      "tokens": [
+        {
+          "text": "経理",
+          "kana": "けいり"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "权力",
+      "japanese": "権力",
+      "kana": "けんりょく",
+      "romaji": "kenryoku",
+      "tokens": [
+        {
+          "text": "権力",
+          "kana": "けんりょく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "眺望；预料；看穿",
+      "japanese": "見通し",
+      "kana": "みとおし",
+      "romaji": "mitooshi",
+      "tokens": [
+        {
+          "text": "見通し",
+          "kana": "みとおし"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "固定",
+      "japanese": "固定",
+      "kana": "こてい",
+      "romaji": "kotei",
+      "tokens": [
+        {
+          "text": "固定",
+          "kana": "こてい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "孤独",
+      "japanese": "孤独",
+      "kana": "こどく",
+      "romaji": "kodoku",
+      "tokens": [
+        {
+          "text": "孤独",
+          "kana": "こどく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "推迟",
+      "japanese": "後回し",
+      "kana": "あとまわし",
+      "romaji": "atomawashi",
+      "tokens": [
+        {
+          "text": "後回し",
+          "kana": "あとまわし"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "谈判，交涉",
+      "japanese": "交渉",
+      "kana": "こうしょう",
+      "romaji": "koushou",
+      "tokens": [
+        {
+          "text": "交渉",
+          "kana": "こうしょう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "公演，公开演出",
+      "japanese": "公演",
+      "kana": "こうえん",
+      "romaji": "kouen",
+      "tokens": [
+        {
+          "text": "公演",
+          "kana": "こうえん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "向上，提高，进步",
+      "japanese": "向上",
+      "kana": "こうじょう",
+      "romaji": "koujou",
+      "tokens": [
+        {
+          "text": "向上",
+          "kana": "こうじょう"
+        }
+      ]
+    }
+  ]
+}

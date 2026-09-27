@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-11",
+  "coursePackId": "jp-n4",
+  "title": "名词 11",
+  "order": 11,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "方向；方针",
+      "japanese": "方向",
+      "kana": "ほうこう",
+      "romaji": "houkou",
+      "tokens": [
+        {
+          "text": "方向",
+          "kana": "ほうこう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "方法",
+      "japanese": "方法",
+      "kana": "ほうほう",
+      "romaji": "houhou",
+      "tokens": [
+        {
+          "text": "方法",
+          "kana": "ほうほう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "遗忘的东西，遗失品",
+      "japanese": "忘れ物",
+      "kana": "わすれもの",
+      "romaji": "wasuremono",
+      "tokens": [
+        {
+          "text": "忘れ物",
+          "kana": "わすれもの"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "味道；趣味",
+      "japanese": "味",
+      "kana": "あじ",
+      "romaji": "aji",
+      "tokens": [
+        {
+          "text": "味",
+          "kana": "あじ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "不合理；勉强，难以办到；强行",
+      "japanese": "無理",
+      "kana": "むり",
+      "romaji": "muri",
+      "tokens": [
+        {
+          "text": "無理",
+          "kana": "むり"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "生命；寿命；命根子，最宝贵的东西",
+      "japanese": "命",
+      "kana": "いのち",
+      "romaji": "inochi",
+      "tokens": [
+        {
+          "text": "命",
+          "kana": "いのち"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "约定；规则",
+      "japanese": "約束",
+      "kana": "やくそく",
+      "romaji": "yakusoku",
+      "tokens": [
+        {
+          "text": "約束",
+          "kana": "やくそく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "预定，计划",
+      "japanese": "予定",
+      "kana": "よてい",
+      "romaji": "yotei",
+      "tokens": [
+        {
+          "text": "予定",
+          "kana": "よてい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "预约，预订",
+      "japanese": "予約",
+      "kana": "よやく",
+      "romaji": "yoyaku",
+      "tokens": [
+        {
+          "text": "予約",
+          "kana": "よやく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "事情；用途，……用",
+      "japanese": "用",
+      "kana": "よう",
+      "romaji": "you",
+      "tokens": [
+        {
+          "text": "用",
+          "kana": "よう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "准备，预备",
+      "japanese": "用意",
+      "kana": "ようい",
+      "romaji": "youi",
+      "tokens": [
+        {
+          "text": "用意",
+          "kana": "ようい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "（必须做的）事，事情",
+      "japanese": "用事",
+      "kana": "ようじ",
+      "romaji": "youji",
+      "tokens": [
+        {
+          "text": "用事",
+          "kana": "ようじ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "利用，使用",
+      "japanese": "利用",
+      "kana": "りよう",
+      "romaji": "riyou",
+      "tokens": [
+        {
+          "text": "利用",
+          "kana": "りよう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "理由；借口",
+      "japanese": "理由",
+      "kana": "りゆう",
+      "romaji": "riyuu",
+      "tokens": [
+        {
+          "text": "理由",
+          "kana": "りゆう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "背面；内幕，背后",
+      "japanese": "裏",
+      "kana": "うら",
+      "romaji": "ura",
+      "tokens": [
+        {
+          "text": "裏",
+          "kana": "うら"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "不在家",
+      "japanese": "留守",
+      "kana": "るす",
+      "romaji": "rusu",
+      "tokens": [
+        {
+          "text": "留守",
+          "kana": "るす"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "日式宾馆",
+      "japanese": "旅館",
+      "kana": "りょかん",
+      "romaji": "ryokan",
+      "tokens": [
+        {
+          "text": "旅館",
+          "kana": "りょかん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "两者，双方",
+      "japanese": "両方",
+      "kana": "りょうほう",
+      "romaji": "ryouhou",
+      "tokens": [
+        {
+          "text": "両方",
+          "kana": "りょうほう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "使用费",
+      "japanese": "料金",
+      "kana": "りょうきん",
+      "romaji": "ryoukin",
+      "tokens": [
+        {
+          "text": "料金",
+          "kana": "りょうきん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "力气；精力；能力；效力；权力",
+      "japanese": "力",
+      "kana": "ちから",
+      "romaji": "chikara",
+      "tokens": [
+        {
+          "text": "力",
+          "kana": "ちから"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "例子",
+      "japanese": "例",
+      "kana": "れい",
+      "romaji": "rei",
+      "tokens": [
+        {
+          "text": "例",
+          "kana": "れい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "礼貌；行礼；感谢，谢意，谢礼",
+      "japanese": "礼",
+      "kana": "れい",
+      "romaji": "rei",
+      "tokens": [
+        {
+          "text": "礼",
+          "kana": "れい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "历史",
+      "japanese": "歴史",
+      "kana": "れきし",
+      "romaji": "rekishi",
+      "tokens": [
+        {
+          "text": "歴史",
+          "kana": "れきし"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "联系，联络",
+      "japanese": "連絡",
+      "kana": "れんらく",
+      "romaji": "renraku",
+      "tokens": [
+        {
+          "text": "連絡",
+          "kana": "れんらく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "手臂；本领，技能",
+      "japanese": "腕",
+      "kana": "うで",
+      "romaji": "ude",
+      "tokens": [
+        {
+          "text": "腕",
+          "kana": "うで"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "电动扶梯",
+      "japanese": "エスカレーター",
+      "kana": "えすかれえたあ",
+      "romaji": "esukareetaa",
+      "tokens": [
+        {
+          "text": "エスカレーター",
+          "kana": "えすかれえたあ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "喋喋不休（的人）；聊天",
+      "japanese": "おしゃべり",
+      "kana": "おしゃべり",
+      "romaji": "oshaberi",
+      "tokens": [
+        {
+          "text": "おしゃべり",
+          "kana": "おしゃべり"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "群，组，集团，伙伴",
+      "japanese": "グループ",
+      "kana": "ぐるうぷ",
+      "romaji": "guruupu",
+      "tokens": [
+        {
+          "text": "グループ",
+          "kana": "ぐるうぷ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "信用卡",
+      "japanese": "クレジットカード",
+      "kana": "くれじっとかあど",
+      "romaji": "kurejittokaado",
+      "tokens": [
+        {
+          "text": "クレジットカード",
+          "kana": "くれじっとかあど"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "服务；接待；打折或附带赠品",
+      "japanese": "サービス",
+      "kana": "さあびす",
+      "romaji": "saabisu",
+      "tokens": [
+        {
+          "text": "サービス",
+          "kana": "さあびす"
+        }
+      ]
+    }
+  ]
+}

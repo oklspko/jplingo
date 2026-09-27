@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-43",
+  "coursePackId": "jp-n3",
+  "title": "动词 1",
+  "order": 43,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "说，讲",
+      "japanese": "おっしゃる",
+      "kana": "おっしゃる",
+      "romaji": "ossharu",
+      "tokens": [
+        {
+          "text": "おっしゃる",
+          "kana": "おっしゃる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "滑行；打滑",
+      "japanese": "滑る",
+      "kana": "すべる",
+      "romaji": "suberu",
+      "tokens": [
+        {
+          "text": "滑る",
+          "kana": "すべる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "开花",
+      "japanese": "咲く",
+      "kana": "さく",
+      "romaji": "saku",
+      "tokens": [
+        {
+          "text": "咲く",
+          "kana": "さく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "拉；挺；膨胀；覆盖；（肌肉）发酸",
+      "japanese": "張る",
+      "kana": "はる",
+      "romaji": "haru",
+      "tokens": [
+        {
+          "text": "張る",
+          "kana": "はる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "戴，盖；蒙受",
+      "japanese": "かぶる",
+      "kana": "かぶる",
+      "romaji": "kaburu",
+      "tokens": [
+        {
+          "text": "かぶる",
+          "kana": "かぶる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "来；去；在",
+      "japanese": "おいでになる",
+      "kana": "おいでになる",
+      "romaji": "oideninaru",
+      "tokens": [
+        {
+          "text": "おいでになる",
+          "kana": "おいでになる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "嚼，咬",
+      "japanese": "嚙[か]む",
+      "kana": "かむ",
+      "romaji": "kamu",
+      "tokens": [
+        {
+          "text": "嚙[か]む",
+          "kana": "かむ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "类型；打字",
+      "japanese": "タイプ",
+      "kana": "たいぷ",
+      "romaji": "taipu",
+      "tokens": [
+        {
+          "text": "タイプ",
+          "kana": "たいぷ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（研究或调查内容汇总）报告；报告书",
+      "japanese": "レポート",
+      "kana": "れぽうと",
+      "romaji": "repouto",
+      "tokens": [
+        {
+          "text": "レポート",
+          "kana": "れぽうと"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "移动；转移",
+      "japanese": "移す",
+      "kana": "うつす",
+      "romaji": "utsusu",
+      "tokens": [
+        {
+          "text": "移す",
+          "kana": "うつす"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "移动；转移",
+      "japanese": "移る",
+      "kana": "うつる",
+      "romaji": "utsuru",
+      "tokens": [
+        {
+          "text": "移る",
+          "kana": "うつる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "搬家，搬迁",
+      "japanese": "引っ越す",
+      "kana": "ひっこす",
+      "romaji": "hikkosu",
+      "tokens": [
+        {
+          "text": "引っ越す",
+          "kana": "ひっこす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "殴打",
+      "japanese": "殴る",
+      "kana": "なぐる",
+      "romaji": "naguru",
+      "tokens": [
+        {
+          "text": "殴る",
+          "kana": "なぐる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "温，热，烫；酝酿",
+      "japanese": "温める",
+      "kana": "あたためる",
+      "romaji": "atatameru",
+      "tokens": [
+        {
+          "text": "温める",
+          "kana": "あたためる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "降下；撤下；使后退",
+      "japanese": "下げる",
+      "kana": "さげる",
+      "romaji": "sageru",
+      "tokens": [
+        {
+          "text": "下げる",
+          "kana": "さげる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "下来；（许可等）批下来",
+      "japanese": "下りる",
+      "kana": "おりる",
+      "romaji": "oriru",
+      "tokens": [
+        {
+          "text": "下りる",
+          "kana": "おりる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "弄坏；伤害；破坏",
+      "japanese": "壊す",
+      "kana": "こわす",
+      "romaji": "kowasu",
+      "tokens": [
+        {
+          "text": "壊す",
+          "kana": "こわす"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "学习",
+      "japanese": "学ぶ",
+      "kana": "まなぶ",
+      "romaji": "manabu",
+      "tokens": [
+        {
+          "text": "学ぶ",
+          "kana": "まなぶ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "分，割；打坏，弄碎；兑水；除法",
+      "japanese": "割る",
+      "kana": "わる",
+      "romaji": "waru",
+      "tokens": [
+        {
+          "text": "割る",
+          "kana": "わる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "变干，干燥",
+      "japanese": "乾く",
+      "kana": "かわく",
+      "romaji": "kawaku",
+      "tokens": [
+        {
+          "text": "乾く",
+          "kana": "かわく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "原谅；允许",
+      "japanese": "許す",
+      "kana": "ゆるす",
+      "romaji": "yurusu",
+      "tokens": [
+        {
+          "text": "許す",
+          "kana": "ゆるす"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "工作，任职",
+      "japanese": "勤める",
+      "kana": "つとめる",
+      "romaji": "tsutomeru",
+      "tokens": [
+        {
+          "text": "勤める",
+          "kana": "つとめる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "建，盖",
+      "japanese": "建つ",
+      "kana": "たつ",
+      "romaji": "tatsu",
+      "tokens": [
+        {
+          "text": "建つ",
+          "kana": "たつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "发光；出众",
+      "japanese": "光る",
+      "kana": "ひかる",
+      "romaji": "hikaru",
+      "tokens": [
+        {
+          "text": "光る",
+          "kana": "ひかる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "面向；朝，前往；迎来",
+      "japanese": "向かう",
+      "kana": "むかう",
+      "romaji": "mukau",
+      "tokens": [
+        {
+          "text": "向かう",
+          "kana": "むかう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "敬献，呈送",
+      "japanese": "差し上げる",
+      "kana": "さしあげる",
+      "romaji": "sashiageru",
+      "tokens": [
+        {
+          "text": "差し上げる",
+          "kana": "さしあげる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "完了；解决；对付过去",
+      "japanese": "済む",
+      "kana": "すむ",
+      "romaji": "sumu",
+      "tokens": [
+        {
+          "text": "済む",
+          "kana": "すむ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "去；来；参拜",
+      "japanese": "参る",
+      "kana": "まいる",
+      "romaji": "mairu",
+      "tokens": [
+        {
+          "text": "参る",
+          "kana": "まいる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "请教，打听；拜访",
+      "japanese": "伺う",
+      "kana": "うかがう",
+      "romaji": "ukagau",
+      "tokens": [
+        {
+          "text": "伺う",
+          "kana": "うかがう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "停止，中止",
+      "japanese": "止む",
+      "kana": "やむ",
+      "romaji": "yamu",
+      "tokens": [
+        {
+          "text": "止む",
+          "kana": "やむ"
+        }
+      ]
+    }
+  ]
+}

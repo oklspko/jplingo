@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-61",
+  "coursePackId": "jp-n3",
+  "title": "其他 2",
+  "order": 61,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "……所",
+      "japanese": "〜所",
+      "kana": "〜所",
+      "romaji": "~所",
+      "tokens": [
+        {
+          "text": "〜所",
+          "kana": "〜所"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "……书，……单据",
+      "japanese": "〜書",
+      "kana": "〜書",
+      "romaji": "~書",
+      "tokens": [
+        {
+          "text": "〜書",
+          "kana": "〜書"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "……场",
+      "japanese": "場",
+      "kana": "じょう",
+      "romaji": "jou",
+      "tokens": [
+        {
+          "text": "場",
+          "kana": "じょう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "……性；性别；性质",
+      "japanese": "性",
+      "kana": "せい",
+      "romaji": "sei",
+      "tokens": [
+        {
+          "text": "性",
+          "kana": "せい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "……双",
+      "japanese": "〜足",
+      "kana": "〜足",
+      "romaji": "~足",
+      "tokens": [
+        {
+          "text": "〜足",
+          "kana": "〜足"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（书信或文件等）……封，……份",
+      "japanese": "〜通",
+      "kana": "〜通",
+      "romaji": "~通",
+      "tokens": [
+        {
+          "text": "〜通",
+          "kana": "〜通"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "……宿",
+      "japanese": "〜泊",
+      "kana": "〜泊",
+      "romaji": "~泊",
+      "tokens": [
+        {
+          "text": "〜泊",
+          "kana": "〜泊"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "……费",
+      "japanese": "費",
+      "kana": "ひ",
+      "romaji": "hi",
+      "tokens": [
+        {
+          "text": "費",
+          "kana": "ひ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "……费；……材料",
+      "japanese": "〜料",
+      "kana": "〜料",
+      "romaji": "~料",
+      "tokens": [
+        {
+          "text": "〜料",
+          "kana": "〜料"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "在……，于……",
+      "japanese": "おいて",
+      "kana": "おいて",
+      "romaji": "oite",
+      "tokens": [
+        {
+          "text": "おいて",
+          "kana": "おいて"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "（表示感动、吃惊）啊；（粗鲁的应答）嗯；（突然想起）啊",
+      "japanese": "おお",
+      "kana": "おお",
+      "romaji": "oo",
+      "tokens": [
+        {
+          "text": "おお",
+          "kana": "おお"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "（坚硬的物体碰撞或破裂时发出很大的声音）轰隆；（里面的人和物很少）空旷；声音沙哑",
+      "japanese": "がらがら",
+      "kana": "がらがら",
+      "romaji": "garagara",
+      "tokens": [
+        {
+          "text": "がらがら",
+          "kana": "がらがら"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "即使那样",
+      "japanese": "それでも",
+      "kana": "それでも",
+      "romaji": "soredemo",
+      "tokens": [
+        {
+          "text": "それでも",
+          "kana": "それでも"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "然而，可是",
+      "japanese": "ところが",
+      "kana": "ところが",
+      "romaji": "tokoroga",
+      "tokens": [
+        {
+          "text": "ところが",
+          "kana": "ところが"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "之类，等",
+      "japanese": "なんか",
+      "kana": "なんか",
+      "romaji": "nanka",
+      "tokens": [
+        {
+          "text": "なんか",
+          "kana": "なんか"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "（表示吃惊、感叹）哎哟，哎呀；还可以；（安慰或鼓励对方）好了好了",
+      "japanese": "まあ",
+      "kana": "まあ",
+      "romaji": "maa",
+      "tokens": [
+        {
+          "text": "まあ",
+          "kana": "まあ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "各，每个",
+      "japanese": "各〜",
+      "kana": "各〜",
+      "romaji": "各~",
+      "tokens": [
+        {
+          "text": "各〜",
+          "kana": "各〜"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "再……，重新……",
+      "japanese": "再",
+      "kana": "さい",
+      "romaji": "sai",
+      "tokens": [
+        {
+          "text": "再",
+          "kana": "さい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "反……",
+      "japanese": "反〜",
+      "kana": "反〜",
+      "romaji": "反~",
+      "tokens": [
+        {
+          "text": "反〜",
+          "kana": "反〜"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "不……",
+      "japanese": "不〜",
+      "kana": "不〜",
+      "romaji": "不~",
+      "tokens": [
+        {
+          "text": "不〜",
+          "kana": "不〜"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "尽管那样……还是……",
+      "japanese": "それなのに",
+      "kana": "それなのに",
+      "romaji": "sorenanoni",
+      "tokens": [
+        {
+          "text": "それなのに",
+          "kana": "それなのに"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "依然，照旧",
+      "japanese": "相変わらず",
+      "kana": "あいかわらず",
+      "romaji": "aikawarazu",
+      "tokens": [
+        {
+          "text": "相変わらず",
+          "kana": "あいかわらず"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "所有的，一切的",
+      "japanese": "あらゆる",
+      "kana": "あらゆる",
+      "romaji": "arayuru",
+      "tokens": [
+        {
+          "text": "あらゆる",
+          "kana": "あらゆる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "宏大，盛大",
+      "japanese": "グランド",
+      "kana": "ぐらんど",
+      "romaji": "gurando",
+      "tokens": [
+        {
+          "text": "グランド",
+          "kana": "ぐらんど"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "没关系；不在意",
+      "japanese": "構わない",
+      "kana": "かまわない",
+      "romaji": "kamawanai",
+      "tokens": [
+        {
+          "text": "構わない",
+          "kana": "かまわない"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "因此，因而",
+      "japanese": "したがって",
+      "kana": "したがって",
+      "romaji": "shitagatte",
+      "tokens": [
+        {
+          "text": "したがって",
+          "kana": "したがって"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "每……",
+      "japanese": "〜ごと",
+      "kana": "〜ごと",
+      "romaji": "~goto",
+      "tokens": [
+        {
+          "text": "〜ごと",
+          "kana": "〜ごと"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（接在名词后面）沿着……",
+      "japanese": "沿い",
+      "kana": "ぞい",
+      "romaji": "zoi",
+      "tokens": [
+        {
+          "text": "沿い",
+          "kana": "ぞい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "……纸；……报纸",
+      "japanese": "紙",
+      "kana": "し",
+      "romaji": "shi",
+      "tokens": [
+        {
+          "text": "紙",
+          "kana": "し"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "……本子，……簿",
+      "japanese": "〜帳",
+      "kana": "〜帳",
+      "romaji": "~帳",
+      "tokens": [
+        {
+          "text": "〜帳",
+          "kana": "〜帳"
+        }
+      ]
+    }
+  ]
+}

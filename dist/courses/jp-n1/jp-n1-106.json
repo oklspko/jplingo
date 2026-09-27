@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-106",
+  "coursePackId": "jp-n1",
+  "title": "动词 15",
+  "order": 106,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "揭发，检举",
+      "japanese": "摘発",
+      "kana": "てきはつ",
+      "romaji": "tekihatsu",
+      "tokens": [
+        {
+          "text": "摘発",
+          "kana": "てきはつ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "口传，代代相传",
+      "japanese": "伝承",
+      "kana": "でんしょう",
+      "romaji": "denshou",
+      "tokens": [
+        {
+          "text": "伝承",
+          "kana": "でんしょう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "扔，抛出；中途放弃；豁出去",
+      "japanese": "投げ出す",
+      "kana": "なげだす",
+      "romaji": "nagedasu",
+      "tokens": [
+        {
+          "text": "投げ出す",
+          "kana": "なげだす"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "踏过去；渡过（难关）",
+      "japanese": "踏み越える",
+      "kana": "ふみこえる",
+      "romaji": "fumikoeru",
+      "tokens": [
+        {
+          "text": "踏み越える",
+          "kana": "ふみこえる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "踏入（场所、领域）",
+      "japanese": "踏み入れる",
+      "kana": "ふみいれる",
+      "romaji": "fumiireru",
+      "tokens": [
+        {
+          "text": "踏み入れる",
+          "kana": "ふみいれる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "追究，彻底查明（真相等）",
+      "japanese": "突き止める",
+      "kana": "つきとめる",
+      "romaji": "tsukitomeru",
+      "tokens": [
+        {
+          "text": "突き止める",
+          "kana": "つきとめる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "伸出，探出；（迅速向前）突出，推出；扭送",
+      "japanese": "突き出す",
+      "kana": "つきだす",
+      "romaji": "tsukidasu",
+      "tokens": [
+        {
+          "text": "突き出す",
+          "kana": "つきだす"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "强行推开；冷淡对待；冷眼旁观",
+      "japanese": "突き放す",
+      "kana": "つきはなす",
+      "romaji": "tsukihanasu",
+      "tokens": [
+        {
+          "text": "突き放す",
+          "kana": "つきはなす"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "躲避，避开；忍受，忍耐；隐藏，潜伏",
+      "japanese": "忍ぶ",
+      "kana": "しのぶ",
+      "romaji": "shinobu",
+      "tokens": [
+        {
+          "text": "忍ぶ",
+          "kana": "しのぶ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "（心理上的）认知",
+      "japanese": "認知",
+      "kana": "にんち",
+      "romaji": "ninchi",
+      "tokens": [
+        {
+          "text": "認知",
+          "kana": "にんち"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "培植；培养",
+      "japanese": "培う",
+      "kana": "つちかう",
+      "romaji": "tsuchikau",
+      "tokens": [
+        {
+          "text": "培う",
+          "kana": "つちかう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "变浅，变淡",
+      "japanese": "薄まる",
+      "kana": "うすまる",
+      "romaji": "usumaru",
+      "tokens": [
+        {
+          "text": "薄まる",
+          "kana": "うすまる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "出类拔萃",
+      "japanese": "抜きん出る",
+      "kana": "ぬきんでる",
+      "romaji": "nukinderu",
+      "tokens": [
+        {
+          "text": "抜きん出る",
+          "kana": "ぬきんでる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "隐藏，隐秘",
+      "japanese": "秘める",
+      "kana": "ひめる",
+      "romaji": "himeru",
+      "tokens": [
+        {
+          "text": "秘める",
+          "kana": "ひめる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "美化",
+      "japanese": "美化",
+      "kana": "びか",
+      "romaji": "bika",
+      "tokens": [
+        {
+          "text": "美化",
+          "kana": "びか"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "担，负，荷；负载",
+      "japanese": "負荷",
+      "kana": "ふか",
+      "romaji": "fuka",
+      "tokens": [
+        {
+          "text": "負荷",
+          "kana": "ふか"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "朝下；扣，伏；不公开",
+      "japanese": "伏せる",
+      "kana": "ふせる",
+      "romaji": "fuseru",
+      "tokens": [
+        {
+          "text": "伏せる",
+          "kana": "ふせる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "彻底抹掉，消除干净",
+      "japanese": "払拭",
+      "kana": "ふっしょく",
+      "romaji": "fusshoku",
+      "tokens": [
+        {
+          "text": "払拭",
+          "kana": "ふっしょく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "分配，分发（物品等）",
+      "japanese": "分け与える",
+      "kana": "わけあたえる",
+      "romaji": "wakeataeru",
+      "tokens": [
+        {
+          "text": "分け与える",
+          "kana": "わけあたえる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "偶然听到；听惯",
+      "japanese": "聞きつける",
+      "kana": "ききつける",
+      "romaji": "kikitsukeru",
+      "tokens": [
+        {
+          "text": "聞きつける",
+          "kana": "ききつける"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "把……关在……里",
+      "japanese": "閉じ込める",
+      "kana": "とじこめる",
+      "romaji": "tojikomeru",
+      "tokens": [
+        {
+          "text": "閉じ込める",
+          "kana": "とじこめる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "寄回",
+      "japanese": "返送",
+      "kana": "へんそう",
+      "romaji": "hensou",
+      "tokens": [
+        {
+          "text": "返送",
+          "kana": "へんそう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "极力称赞",
+      "japanese": "褒めたたえる",
+      "kana": "ほめたたえる",
+      "romaji": "hometataeru",
+      "tokens": [
+        {
+          "text": "褒めたたえる",
+          "kana": "ほめたたえる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "纺织；（将各种素材组合起来创作故事等）编织",
+      "japanese": "紡ぐ",
+      "kana": "つむぐ",
+      "romaji": "tsumugu",
+      "tokens": [
+        {
+          "text": "紡ぐ",
+          "kana": "つむぐ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "翻，转，闪；挥舞，飘扬；突然改变（态度、意见等）",
+      "japanese": "翻す",
+      "kana": "ひるがえす",
+      "romaji": "hirugaesu",
+      "tokens": [
+        {
+          "text": "翻す",
+          "kana": "ひるがえす"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "摆布，玩弄于股掌之中",
+      "japanese": "翻弄",
+      "kana": "ほんろう",
+      "romaji": "honrou",
+      "tokens": [
+        {
+          "text": "翻弄",
+          "kana": "ほんろう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "填补，弥补",
+      "japanese": "埋め合わせる",
+      "kana": "うめあわせる",
+      "romaji": "umeawaseru",
+      "tokens": [
+        {
+          "text": "埋め合わせる",
+          "kana": "うめあわせる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "逼问，追问，质问",
+      "japanese": "問い詰める",
+      "kana": "といつめる",
+      "romaji": "toitsumeru",
+      "tokens": [
+        {
+          "text": "問い詰める",
+          "kana": "といつめる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "（上对下）教导，告诫",
+      "japanese": "諭す",
+      "kana": "さとす",
+      "romaji": "satosu",
+      "tokens": [
+        {
+          "text": "諭す",
+          "kana": "さとす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "摇撼，震撼",
+      "japanese": "揺るがす",
+      "kana": "ゆるがす",
+      "romaji": "yurugasu",
+      "tokens": [
+        {
+          "text": "揺るがす",
+          "kana": "ゆるがす"
+        }
+      ]
+    }
+  ]
+}

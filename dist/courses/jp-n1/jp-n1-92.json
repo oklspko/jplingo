@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-92",
+  "coursePackId": "jp-n1",
+  "title": "动词 1",
+  "order": 92,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "渴；渴望",
+      "japanese": "渇く",
+      "kana": "かわく",
+      "romaji": "kawaku",
+      "tokens": [
+        {
+          "text": "渇く",
+          "kana": "かわく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "大声呼喊；呼吁，主张",
+      "japanese": "叫ぶ",
+      "kana": "さけぶ",
+      "romaji": "sakebu",
+      "tokens": [
+        {
+          "text": "叫ぶ",
+          "kana": "さけぶ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "想，打算，认为；知道，认识",
+      "japanese": "存じる",
+      "kana": "ぞんじる",
+      "romaji": "zonjiru",
+      "tokens": [
+        {
+          "text": "存じる",
+          "kana": "ぞんじる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "弄暖和",
+      "japanese": "暖める",
+      "kana": "あたためる",
+      "romaji": "atatameru",
+      "tokens": [
+        {
+          "text": "暖める",
+          "kana": "あたためる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "通；理解；弄通；通过，经过",
+      "japanese": "通じる",
+      "kana": "つうじる",
+      "romaji": "tsuujiru",
+      "tokens": [
+        {
+          "text": "通じる",
+          "kana": "つうじる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "喜爱，疼爱",
+      "japanese": "かわいがる",
+      "kana": "かわいがる",
+      "romaji": "kawaigaru",
+      "tokens": [
+        {
+          "text": "かわいがる",
+          "kana": "かわいがる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "欺骗；哄",
+      "japanese": "だます",
+      "kana": "だます",
+      "romaji": "damasu",
+      "tokens": [
+        {
+          "text": "だます",
+          "kana": "だます"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "积攒；积压",
+      "japanese": "ためる",
+      "kana": "ためる",
+      "romaji": "tameru",
+      "tokens": [
+        {
+          "text": "ためる",
+          "kana": "ためる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "打包，包装；做面膜；（「パックツアー」の略）包价旅行",
+      "japanese": "パック",
+      "kana": "ぱっく",
+      "romaji": "pakku",
+      "tokens": [
+        {
+          "text": "パック",
+          "kana": "ぱっく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "镶嵌，戴上；引诱",
+      "japanese": "はめる",
+      "kana": "はめる",
+      "romaji": "hameru",
+      "tokens": [
+        {
+          "text": "はめる",
+          "kana": "はめる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "凹下，瘪；无精打采；吃亏",
+      "japanese": "へこむ",
+      "kana": "へこむ",
+      "romaji": "hekomu",
+      "tokens": [
+        {
+          "text": "へこむ",
+          "kana": "へこむ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "归纳；谈妥；凑齐",
+      "japanese": "まとまる",
+      "kana": "まとまる",
+      "romaji": "matomaru",
+      "tokens": [
+        {
+          "text": "まとまる",
+          "kana": "まとまる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "欺负，虐待",
+      "japanese": "いじめる",
+      "kana": "いじめる",
+      "romaji": "ijimeru",
+      "tokens": [
+        {
+          "text": "いじめる",
+          "kana": "いじめる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "割，剪",
+      "japanese": "刈る",
+      "kana": "かる",
+      "romaji": "karu",
+      "tokens": [
+        {
+          "text": "刈る",
+          "kana": "かる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "波及，带来，牵涉",
+      "japanese": "及ぼす",
+      "kana": "およぼす",
+      "romaji": "oyobosu",
+      "tokens": [
+        {
+          "text": "及ぼす",
+          "kana": "およぼす"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "靠近；亲近",
+      "japanese": "近寄る",
+      "kana": "ちかよる",
+      "romaji": "chikayoru",
+      "tokens": [
+        {
+          "text": "近寄る",
+          "kana": "ちかよる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "换句话说，换种说法；重新说",
+      "japanese": "言い換える",
+      "kana": "いいかえる",
+      "romaji": "iikaeru",
+      "tokens": [
+        {
+          "text": "言い換える",
+          "kana": "いいかえる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "扩大（抽象的范围）；普及，推广",
+      "japanese": "広める",
+      "kana": "ひろめる",
+      "romaji": "hiromeru",
+      "tokens": [
+        {
+          "text": "広める",
+          "kana": "ひろめる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "破碎，粉碎；受挫折",
+      "japanese": "砕ける",
+      "kana": "くだける",
+      "romaji": "kudakeru",
+      "tokens": [
+        {
+          "text": "砕ける",
+          "kana": "くだける"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "杀；忍住",
+      "japanese": "殺す",
+      "kana": "ころす",
+      "romaji": "korosu",
+      "tokens": [
+        {
+          "text": "殺す",
+          "kana": "ころす"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "使损坏，弄伤",
+      "japanese": "傷める",
+      "kana": "いためる",
+      "romaji": "itameru",
+      "tokens": [
+        {
+          "text": "傷める",
+          "kana": "いためる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "懒惰，怠惰",
+      "japanese": "怠ける",
+      "kana": "なまける",
+      "romaji": "namakeru",
+      "tokens": [
+        {
+          "text": "怠ける",
+          "kana": "なまける"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "滚；倒下，躺下；到处都是",
+      "japanese": "転がる",
+      "kana": "ころがる",
+      "romaji": "korogaru",
+      "tokens": [
+        {
+          "text": "転がる",
+          "kana": "ころがる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "燃烧；激发",
+      "japanese": "燃やす",
+      "kana": "もやす",
+      "romaji": "moyasu",
+      "tokens": [
+        {
+          "text": "燃やす",
+          "kana": "もやす"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "违反；犯罪",
+      "japanese": "犯す",
+      "kana": "おかす",
+      "romaji": "okasu",
+      "tokens": [
+        {
+          "text": "犯す",
+          "kana": "おかす"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "烧开；使……沸腾",
+      "japanese": "沸かす",
+      "kana": "わかす",
+      "romaji": "wakasu",
+      "tokens": [
+        {
+          "text": "沸かす",
+          "kana": "わかす"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "被捉住；抓住，拽住",
+      "japanese": "捕まる",
+      "kana": "つかまる",
+      "romaji": "tsukamaru",
+      "tokens": [
+        {
+          "text": "捕まる",
+          "kana": "つかまる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "天黑；年终",
+      "japanese": "暮れる",
+      "kana": "くれる",
+      "romaji": "kureru",
+      "tokens": [
+        {
+          "text": "暮れる",
+          "kana": "くれる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "揉；按摩；挤；讨论；担心",
+      "japanese": "もむ",
+      "kana": "もむ",
+      "romaji": "momu",
+      "tokens": [
+        {
+          "text": "もむ",
+          "kana": "もむ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "引起；扶起",
+      "japanese": "引き起こす",
+      "kana": "ひきおこす",
+      "romaji": "hikiokosu",
+      "tokens": [
+        {
+          "text": "引き起こす",
+          "kana": "ひきおこす"
+        }
+      ]
+    }
+  ]
+}

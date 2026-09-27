@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-17",
+  "coursePackId": "jp-n3",
+  "title": "名词 17",
+  "order": 17,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "抹布",
+      "japanese": "雑巾",
+      "kana": "ぞうきん",
+      "romaji": "zoukin",
+      "tokens": [
+        {
+          "text": "雑巾",
+          "kana": "ぞうきん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "参考，参照",
+      "japanese": "参考",
+      "kana": "さんこう",
+      "romaji": "sankou",
+      "tokens": [
+        {
+          "text": "参考",
+          "kana": "さんこう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "算术；计算",
+      "japanese": "算数",
+      "kana": "さんすう",
+      "romaji": "sansuu",
+      "tokens": [
+        {
+          "text": "算数",
+          "kana": "さんすう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "使用，用",
+      "japanese": "使用",
+      "kana": "しよう",
+      "romaji": "shiyou",
+      "tokens": [
+        {
+          "text": "使用",
+          "kana": "しよう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "主持，主持人",
+      "japanese": "司会",
+      "kana": "しかい",
+      "romaji": "shikai",
+      "tokens": [
+        {
+          "text": "司会",
+          "kana": "しかい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "起点，始发；头班车",
+      "japanese": "始発",
+      "kana": "しはつ",
+      "romaji": "shihatsu",
+      "tokens": [
+        {
+          "text": "始発",
+          "kana": "しはつ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（具体）集市，市场",
+      "japanese": "市場",
+      "kana": "いちば",
+      "romaji": "ichiba",
+      "tokens": [
+        {
+          "text": "市場",
+          "kana": "いちば"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（抽象）市场；交易所",
+      "japanese": "市場",
+      "kana": "しじょう",
+      "romaji": "shijou",
+      "tokens": [
+        {
+          "text": "市場",
+          "kana": "しじょう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "市内",
+      "japanese": "市内",
+      "kana": "しない",
+      "romaji": "shinai",
+      "tokens": [
+        {
+          "text": "市内",
+          "kana": "しない"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "指示，命令",
+      "japanese": "指示",
+      "kana": "しじ",
+      "romaji": "shiji",
+      "tokens": [
+        {
+          "text": "指示",
+          "kana": "しじ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "指定",
+      "japanese": "指定",
+      "kana": "してい",
+      "romaji": "shitei",
+      "tokens": [
+        {
+          "text": "指定",
+          "kana": "してい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "指导",
+      "japanese": "指導",
+      "kana": "しどう",
+      "romaji": "shidou",
+      "tokens": [
+        {
+          "text": "指導",
+          "kana": "しどう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "分店，分公司",
+      "japanese": "支店",
+      "kana": "してん",
+      "romaji": "shiten",
+      "tokens": [
+        {
+          "text": "支店",
+          "kana": "してん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "姓名",
+      "japanese": "氏名",
+      "kana": "しめい",
+      "romaji": "shimei",
+      "tokens": [
+        {
+          "text": "氏名",
+          "kana": "しめい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "资源",
+      "japanese": "資源",
+      "kana": "しげん",
+      "romaji": "shigen",
+      "tokens": [
+        {
+          "text": "資源",
+          "kana": "しげん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "刷牙；牙膏",
+      "japanese": "歯磨き",
+      "kana": "はみがき",
+      "romaji": "hamigaki",
+      "tokens": [
+        {
+          "text": "歯磨き",
+          "kana": "はみがき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "情况，缘故",
+      "japanese": "事情",
+      "kana": "じじょう",
+      "romaji": "jijou",
+      "tokens": [
+        {
+          "text": "事情",
+          "kana": "じじょう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "事务，办公",
+      "japanese": "事務",
+      "kana": "じむ",
+      "romaji": "jimu",
+      "tokens": [
+        {
+          "text": "事務",
+          "kana": "じむ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "时期，期间",
+      "japanese": "時期",
+      "kana": "じき",
+      "romaji": "jiki",
+      "tokens": [
+        {
+          "text": "時期",
+          "kana": "じき"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "时刻；时间",
+      "japanese": "時刻",
+      "kana": "じこく",
+      "romaji": "jikoku",
+      "tokens": [
+        {
+          "text": "時刻",
+          "kana": "じこく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "果实；内容",
+      "japanese": "実",
+      "kana": "み",
+      "romaji": "mi",
+      "tokens": [
+        {
+          "text": "実",
+          "kana": "み"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "实验",
+      "japanese": "実験",
+      "kana": "じっけん",
+      "romaji": "jikken",
+      "tokens": [
+        {
+          "text": "実験",
+          "kana": "じっけん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "实行",
+      "japanese": "実行",
+      "kana": "じっこう",
+      "romaji": "jikkou",
+      "tokens": [
+        {
+          "text": "実行",
+          "kana": "じっこう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "实习",
+      "japanese": "実習",
+      "kana": "じっしゅう",
+      "romaji": "jisshuu",
+      "tokens": [
+        {
+          "text": "実習",
+          "kana": "じっしゅう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "实用",
+      "japanese": "実用",
+      "kana": "じつよう",
+      "romaji": "jitsuyou",
+      "tokens": [
+        {
+          "text": "実用",
+          "kana": "じつよう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "实力",
+      "japanese": "実力",
+      "kana": "じつりょく",
+      "romaji": "jitsuryoku",
+      "tokens": [
+        {
+          "text": "実力",
+          "kana": "じつりょく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "草坪",
+      "japanese": "芝生",
+      "kana": "しばふ",
+      "romaji": "shibafu",
+      "tokens": [
+        {
+          "text": "芝生",
+          "kana": "しばふ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "车内",
+      "japanese": "車内",
+      "kana": "しゃない",
+      "romaji": "shanai",
+      "tokens": [
+        {
+          "text": "車内",
+          "kana": "しゃない"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "主张，论点",
+      "japanese": "主張",
+      "kana": "しゅちょう",
+      "romaji": "shuchou",
+      "tokens": [
+        {
+          "text": "主張",
+          "kana": "しゅちょう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "手术",
+      "japanese": "手術",
+      "kana": "しゅじゅつ",
+      "romaji": "shujutsu",
+      "tokens": [
+        {
+          "text": "手術",
+          "kana": "しゅじゅつ"
+        }
+      ]
+    }
+  ]
+}

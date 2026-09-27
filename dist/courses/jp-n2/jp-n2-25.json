@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-25",
+  "coursePackId": "jp-n2",
+  "title": "名词 25",
+  "order": 25,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "引用，借用",
+      "japanese": "引用",
+      "kana": "いんよう",
+      "romaji": "in'you",
+      "tokens": [
+        {
+          "text": "引用",
+          "kana": "いんよう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "永远，永存",
+      "japanese": "永遠",
+      "kana": "えいえん",
+      "romaji": "eien",
+      "tokens": [
+        {
+          "text": "永遠",
+          "kana": "えいえん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "延长；延续；全长",
+      "japanese": "延長",
+      "kana": "えんちょう",
+      "romaji": "enchou",
+      "tokens": [
+        {
+          "text": "延長",
+          "kana": "えんちょう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "演剧，戏剧",
+      "japanese": "演劇",
+      "kana": "えんげき",
+      "romaji": "engeki",
+      "tokens": [
+        {
+          "text": "演劇",
+          "kana": "えんげき"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "盐分",
+      "japanese": "塩分",
+      "kana": "えんぶん",
+      "romaji": "enbun",
+      "tokens": [
+        {
+          "text": "塩分",
+          "kana": "えんぶん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "海上，洋面，湖心",
+      "japanese": "沖",
+      "kana": "おき",
+      "romaji": "oki",
+      "tokens": [
+        {
+          "text": "沖",
+          "kana": "おき"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "恩惠，恩情",
+      "japanese": "恩恵",
+      "kana": "おんけい",
+      "romaji": "onkei",
+      "tokens": [
+        {
+          "text": "恩恵",
+          "kana": "おんけい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "温暖，气候暖和",
+      "japanese": "温暖",
+      "kana": "おんだん",
+      "romaji": "ondan",
+      "tokens": [
+        {
+          "text": "温暖",
+          "kana": "おんだん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "草稿；打底稿",
+      "japanese": "下書き",
+      "kana": "したがき",
+      "romaji": "shitagaki",
+      "tokens": [
+        {
+          "text": "下書き",
+          "kana": "したがき"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "加减，调节；程度，身体状况",
+      "japanese": "加減",
+      "kana": "かげん",
+      "romaji": "kagen",
+      "tokens": [
+        {
+          "text": "加減",
+          "kana": "かげん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "加热",
+      "japanese": "加熱",
+      "kana": "かねつ",
+      "romaji": "kanetsu",
+      "tokens": [
+        {
+          "text": "加熱",
+          "kana": "かねつ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "歌谣",
+      "japanese": "歌謡",
+      "kana": "かよう",
+      "romaji": "kayou",
+      "tokens": [
+        {
+          "text": "歌謡",
+          "kana": "かよう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "过剩，过多",
+      "japanese": "過剰",
+      "kana": "かじょう",
+      "romaji": "kajou",
+      "tokens": [
+        {
+          "text": "過剰",
+          "kana": "かじょう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "解散；解体",
+      "japanese": "解散",
+      "kana": "かいさん",
+      "romaji": "kaisan",
+      "tokens": [
+        {
+          "text": "解散",
+          "kana": "かいさん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "理解，解释，说明",
+      "japanese": "解釈",
+      "kana": "かいしゃく",
+      "romaji": "kaishaku",
+      "tokens": [
+        {
+          "text": "解釈",
+          "kana": "かいしゃく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "转动；周转",
+      "japanese": "回転",
+      "kana": "かいてん",
+      "romaji": "kaiten",
+      "tokens": [
+        {
+          "text": "回転",
+          "kana": "かいてん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "回答，答复",
+      "japanese": "回答",
+      "kana": "かいとう",
+      "romaji": "kaitou",
+      "tokens": [
+        {
+          "text": "回答",
+          "kana": "かいとう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "海水浴",
+      "japanese": "海水浴",
+      "kana": "かいすいよく",
+      "romaji": "kaisuiyoku",
+      "tokens": [
+        {
+          "text": "海水浴",
+          "kana": "かいすいよく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "各自",
+      "japanese": "各自",
+      "kana": "かくじ",
+      "romaji": "kakuji",
+      "tokens": [
+        {
+          "text": "各自",
+          "kana": "かくじ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "扩充，扩张",
+      "japanese": "拡充",
+      "kana": "かくじゅう",
+      "romaji": "kakujuu",
+      "tokens": [
+        {
+          "text": "拡充",
+          "kana": "かくじゅう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "概率，可能性",
+      "japanese": "確率",
+      "kana": "かくりつ",
+      "romaji": "kakuritsu",
+      "tokens": [
+        {
+          "text": "確率",
+          "kana": "かくりつ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "活力，生机",
+      "japanese": "活気",
+      "kana": "かっき",
+      "romaji": "kakki",
+      "tokens": [
+        {
+          "text": "活気",
+          "kana": "かっき"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "活字；印刷品",
+      "japanese": "活字",
+      "kana": "かつじ",
+      "romaji": "katsuji",
+      "tokens": [
+        {
+          "text": "活字",
+          "kana": "かつじ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "活跃，大显身手",
+      "japanese": "活躍",
+      "kana": "かつやく",
+      "romaji": "katsuyaku",
+      "tokens": [
+        {
+          "text": "活躍",
+          "kana": "かつやく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "有效利用；词尾变化，活用",
+      "japanese": "活用",
+      "kana": "かつよう",
+      "romaji": "katsuyou",
+      "tokens": [
+        {
+          "text": "活用",
+          "kana": "かつよう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "活力，生机",
+      "japanese": "活力",
+      "kana": "かつりょく",
+      "romaji": "katsuryoku",
+      "tokens": [
+        {
+          "text": "活力",
+          "kana": "かつりょく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "纠纷，纠葛；纠结",
+      "japanese": "葛藤",
+      "kana": "かっとう",
+      "romaji": "kattou",
+      "tokens": [
+        {
+          "text": "葛藤",
+          "kana": "かっとう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "直觉，第六感",
+      "japanese": "勘",
+      "kana": "かん",
+      "romaji": "kan",
+      "tokens": [
+        {
+          "text": "勘",
+          "kana": "かん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "误会",
+      "japanese": "勘違い",
+      "kana": "かんちがい",
+      "romaji": "kanchigai",
+      "tokens": [
+        {
+          "text": "勘違い",
+          "kana": "かんちがい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "观测；观察",
+      "japanese": "観測",
+      "kana": "かんそく",
+      "romaji": "kansoku",
+      "tokens": [
+        {
+          "text": "観測",
+          "kana": "かんそく"
+        }
+      ]
+    }
+  ]
+}

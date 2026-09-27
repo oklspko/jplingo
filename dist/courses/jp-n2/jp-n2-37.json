@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-37",
+  "coursePackId": "jp-n2",
+  "title": "名词 37",
+  "order": 37,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "生计，家计",
+      "japanese": "家計",
+      "kana": "かけい",
+      "romaji": "kakei",
+      "tokens": [
+        {
+          "text": "家計",
+          "kana": "かけい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "（提出的）题目；必须解决的问题",
+      "japanese": "課題",
+      "kana": "かだい",
+      "romaji": "kadai",
+      "tokens": [
+        {
+          "text": "課題",
+          "kana": "かだい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "货币",
+      "japanese": "貨幣",
+      "kana": "かへい",
+      "romaji": "kahei",
+      "tokens": [
+        {
+          "text": "貨幣",
+          "kana": "かへい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "消除，解除，取消",
+      "japanese": "解消",
+      "kana": "かいしょう",
+      "romaji": "kaishou",
+      "tokens": [
+        {
+          "text": "解消",
+          "kana": "かいしょう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "全无，毫无",
+      "japanese": "皆無",
+      "kana": "かいむ",
+      "romaji": "kaimu",
+      "tokens": [
+        {
+          "text": "皆無",
+          "kana": "かいむ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "开花；有成果",
+      "japanese": "開花",
+      "kana": "かいか",
+      "romaji": "kaika",
+      "tokens": [
+        {
+          "text": "開花",
+          "kana": "かいか"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "举办，召开（会议等）",
+      "japanese": "開催",
+      "kana": "かいさい",
+      "romaji": "kaisai",
+      "tokens": [
+        {
+          "text": "開催",
+          "kana": "かいさい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "外观，外形",
+      "japanese": "外見",
+      "kana": "がいけん",
+      "romaji": "gaiken",
+      "tokens": [
+        {
+          "text": "外見",
+          "kana": "がいけん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "概要",
+      "japanese": "概要",
+      "kana": "がいよう",
+      "romaji": "gaiyou",
+      "tokens": [
+        {
+          "text": "概要",
+          "kana": "がいよう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "获得",
+      "japanese": "獲得",
+      "kana": "かくとく",
+      "romaji": "kakutoku",
+      "tokens": [
+        {
+          "text": "獲得",
+          "kana": "かくとく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "确立，确定",
+      "japanese": "確立",
+      "kana": "かくりつ",
+      "romaji": "kakuritsu",
+      "tokens": [
+        {
+          "text": "確立",
+          "kana": "かくりつ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "劝诱，推荐，鼓励",
+      "japanese": "勧め",
+      "kana": "すすめ",
+      "romaji": "susume",
+      "tokens": [
+        {
+          "text": "勧め",
+          "kana": "すすめ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "劝诱，邀请",
+      "japanese": "勧誘",
+      "kana": "かんゆう",
+      "romaji": "kan'yuu",
+      "tokens": [
+        {
+          "text": "勧誘",
+          "kana": "かんゆう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "简略，简洁，简便",
+      "japanese": "簡略",
+      "kana": "かんりゃく",
+      "romaji": "kanryaku",
+      "tokens": [
+        {
+          "text": "簡略",
+          "kana": "かんりゃく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "临近，眼前",
+      "japanese": "間近",
+      "kana": "まぢか",
+      "romaji": "majika",
+      "tokens": [
+        {
+          "text": "間近",
+          "kana": "まぢか"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "危机",
+      "japanese": "危機",
+      "kana": "きき",
+      "romaji": "kiki",
+      "tokens": [
+        {
+          "text": "危機",
+          "kana": "きき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "回乡探亲",
+      "japanese": "帰省",
+      "kana": "きせい",
+      "romaji": "kisei",
+      "tokens": [
+        {
+          "text": "帰省",
+          "kana": "きせい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "气象",
+      "japanese": "気象",
+      "kana": "きしょう",
+      "romaji": "kishou",
+      "tokens": [
+        {
+          "text": "気象",
+          "kana": "きしょう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "疑问，怀疑；嫌疑",
+      "japanese": "疑い",
+      "kana": "うたがい",
+      "romaji": "utagai",
+      "tokens": [
+        {
+          "text": "疑い",
+          "kana": "うたがい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "夫妻都在工作；双职工",
+      "japanese": "共働き",
+      "kana": "ともばたらき",
+      "romaji": "tomobataraki",
+      "tokens": [
+        {
+          "text": "共働き",
+          "kana": "ともばたらき"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "恐惧；忧虑，担心",
+      "japanese": "恐れ",
+      "kana": "おそれ",
+      "romaji": "osore",
+      "tokens": [
+        {
+          "text": "恐れ",
+          "kana": "おそれ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "兴奋，激动",
+      "japanese": "興奮",
+      "kana": "こうふん",
+      "romaji": "koufun",
+      "tokens": [
+        {
+          "text": "興奮",
+          "kana": "こうふん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（工作、事业等的）成就，业绩",
+      "japanese": "業績",
+      "kana": "ぎょうせき",
+      "romaji": "gyouseki",
+      "tokens": [
+        {
+          "text": "業績",
+          "kana": "ぎょうせき"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "业务",
+      "japanese": "業務",
+      "kana": "ぎょうむ",
+      "romaji": "gyoumu",
+      "tokens": [
+        {
+          "text": "業務",
+          "kana": "ぎょうむ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（事物的）段落；（文章的）句读",
+      "japanese": "区切り",
+      "kana": "くぎり",
+      "romaji": "kugiri",
+      "tokens": [
+        {
+          "text": "区切り",
+          "kana": "くぎり"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "刊登，登载",
+      "japanese": "掲載",
+      "kana": "けいさい",
+      "romaji": "keisai",
+      "tokens": [
+        {
+          "text": "掲載",
+          "kana": "けいさい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "合计；计划，打算",
+      "japanese": "計",
+      "kana": "けい",
+      "romaji": "kei",
+      "tokens": [
+        {
+          "text": "計",
+          "kana": "けい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "轻视，蔑视",
+      "japanese": "軽視",
+      "kana": "けいし",
+      "romaji": "keishi",
+      "tokens": [
+        {
+          "text": "軽視",
+          "kana": "けいし"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "鸡",
+      "japanese": "鶏",
+      "kana": "にわとり",
+      "romaji": "niwatori",
+      "tokens": [
+        {
+          "text": "鶏",
+          "kana": "にわとり"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "决意，决心",
+      "japanese": "決意",
+      "kana": "けつい",
+      "romaji": "ketsui",
+      "tokens": [
+        {
+          "text": "決意",
+          "kana": "けつい"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-55",
+  "coursePackId": "jp-n2",
+  "title": "名词 55",
+  "order": 55,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "急剧增加",
+      "japanese": "急増",
+      "kana": "きゅうぞう",
+      "romaji": "kyuuzou",
+      "tokens": [
+        {
+          "text": "急増",
+          "kana": "きゅうぞう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "强风，大风",
+      "japanese": "強風",
+      "kana": "きょうふう",
+      "romaji": "kyoufuu",
+      "tokens": [
+        {
+          "text": "強風",
+          "kana": "きょうふう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "矫正",
+      "japanese": "矯正",
+      "kana": "きょうせい",
+      "romaji": "kyousei",
+      "tokens": [
+        {
+          "text": "矯正",
+          "kana": "きょうせい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "恩惠",
+      "japanese": "恵み",
+      "kana": "めぐみ",
+      "romaji": "megumi",
+      "tokens": [
+        {
+          "text": "恵み",
+          "kana": "めぐみ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "口头禅，套话",
+      "japanese": "決まり文句",
+      "kana": "きまりもんく",
+      "romaji": "kimarimonku",
+      "tokens": [
+        {
+          "text": "決まり文句",
+          "kana": "きまりもんく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "决断力，魄力",
+      "japanese": "決断力",
+      "kana": "けつだんりょく",
+      "romaji": "ketsudanryoku",
+      "tokens": [
+        {
+          "text": "決断力",
+          "kana": "けつだんりょく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "解决，了结",
+      "japanese": "決着",
+      "kana": "けっちゃく",
+      "romaji": "ketchaku",
+      "tokens": [
+        {
+          "text": "決着",
+          "kana": "けっちゃく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "检察",
+      "japanese": "検察",
+      "kana": "けんさつ",
+      "romaji": "kensatsu",
+      "tokens": [
+        {
+          "text": "検察",
+          "kana": "けんさつ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "检查疾病，诊察",
+      "japanese": "検診",
+      "kana": "けんしん",
+      "romaji": "kenshin",
+      "tokens": [
+        {
+          "text": "検診",
+          "kana": "けんしん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "原作，原著",
+      "japanese": "原作",
+      "kana": "げんさく",
+      "romaji": "gensaku",
+      "tokens": [
+        {
+          "text": "原作",
+          "kana": "げんさく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "张弛，特指语调和文章的抑扬顿挫",
+      "japanese": "めりはり",
+      "kana": "めりはり",
+      "romaji": "merihari",
+      "tokens": [
+        {
+          "text": "めりはり",
+          "kana": "めりはり"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "目前，现在",
+      "japanese": "現時点",
+      "kana": "げんじてん",
+      "romaji": "genjiten",
+      "tokens": [
+        {
+          "text": "現時点",
+          "kana": "げんじてん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "各个，各自",
+      "japanese": "個々",
+      "kana": "ここ",
+      "romaji": "koko",
+      "tokens": [
+        {
+          "text": "個々",
+          "kana": "ここ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "个体",
+      "japanese": "個体",
+      "kana": "こたい",
+      "romaji": "kotai",
+      "tokens": [
+        {
+          "text": "個体",
+          "kana": "こたい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "顾客",
+      "japanese": "顧客",
+      "kana": "こきゃく",
+      "romaji": "kokyaku",
+      "tokens": [
+        {
+          "text": "顧客",
+          "kana": "こきゃく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "背对；消极",
+      "japanese": "後ろ向き",
+      "kana": "うしろむき",
+      "romaji": "ushiromuki",
+      "tokens": [
+        {
+          "text": "後ろ向き",
+          "kana": "うしろむき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "（空间或时间上）倒退；（学习、经济等）退步",
+      "japanese": "後戻り",
+      "kana": "あともどり",
+      "romaji": "atomodori",
+      "tokens": [
+        {
+          "text": "後戻り",
+          "kana": "あともどり"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "工科，工学院",
+      "japanese": "工科",
+      "kana": "こうか",
+      "romaji": "kouka",
+      "tokens": [
+        {
+          "text": "工科",
+          "kana": "こうか"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "抗体",
+      "japanese": "抗体",
+      "kana": "こうたい",
+      "romaji": "koutai",
+      "tokens": [
+        {
+          "text": "抗体",
+          "kana": "こうたい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "进攻，攻击",
+      "japanese": "攻め",
+      "kana": "せめ",
+      "romaji": "seme",
+      "tokens": [
+        {
+          "text": "攻め",
+          "kana": "せめ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "更新，革新",
+      "japanese": "更新",
+      "kana": "こうしん",
+      "romaji": "koushin",
+      "tokens": [
+        {
+          "text": "更新",
+          "kana": "こうしん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "江户",
+      "japanese": "江戸",
+      "kana": "えど",
+      "romaji": "edo",
+      "tokens": [
+        {
+          "text": "江戸",
+          "kana": "えど"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "高处",
+      "japanese": "高み",
+      "kana": "たかみ",
+      "romaji": "takami",
+      "tokens": [
+        {
+          "text": "高み",
+          "kana": "たかみ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "高温",
+      "japanese": "高温",
+      "kana": "こうおん",
+      "romaji": "kouon",
+      "tokens": [
+        {
+          "text": "高温",
+          "kana": "こうおん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "高龄；65岁以上的老人",
+      "japanese": "高齢",
+      "kana": "こうれい",
+      "romaji": "kourei",
+      "tokens": [
+        {
+          "text": "高齢",
+          "kana": "こうれい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "性情，秉性；毅力",
+      "japanese": "根性",
+      "kana": "こんじょう",
+      "romaji": "konjou",
+      "tokens": [
+        {
+          "text": "根性",
+          "kana": "こんじょう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "包装并捆扎，打包",
+      "japanese": "梱[こん]包",
+      "kana": "こんぽう",
+      "romaji": "konpou",
+      "tokens": [
+        {
+          "text": "梱[こん]包",
+          "kana": "こんぽう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "坐标",
+      "japanese": "座標",
+      "kana": "ざひょう",
+      "romaji": "zahyou",
+      "tokens": [
+        {
+          "text": "座標",
+          "kana": "ざひょう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "重新进行，恢复",
+      "japanese": "再開",
+      "kana": "さいかい",
+      "romaji": "saikai",
+      "tokens": [
+        {
+          "text": "再開",
+          "kana": "さいかい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "最强",
+      "japanese": "最強",
+      "kana": "さいきょう",
+      "romaji": "saikyou",
+      "tokens": [
+        {
+          "text": "最強",
+          "kana": "さいきょう"
+        }
+      ]
+    }
+  ]
+}

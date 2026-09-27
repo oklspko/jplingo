@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-05",
+  "coursePackId": "jp-n5",
+  "title": "名词 5",
+  "order": 5,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "圆形；日元",
+      "japanese": "円",
+      "kana": "えん",
+      "romaji": "en",
+      "tokens": [
+        {
+          "text": "円",
+          "kana": "えん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "铅笔",
+      "japanese": "鉛筆",
+      "kana": "えんぴつ",
+      "romaji": "enpitsu",
+      "tokens": [
+        {
+          "text": "鉛筆",
+          "kana": "えんぴつ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "食盐",
+      "japanese": "塩",
+      "kana": "しお",
+      "romaji": "shio",
+      "tokens": [
+        {
+          "text": "塩",
+          "kana": "しお"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "您妻子，夫人，太太",
+      "japanese": "奥さん",
+      "kana": "おくさん",
+      "romaji": "okusan",
+      "tokens": [
+        {
+          "text": "奥さん",
+          "kana": "おくさん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "横；侧面，旁边；躺下",
+      "japanese": "横",
+      "kana": "よこ",
+      "romaji": "yoko",
+      "tokens": [
+        {
+          "text": "横",
+          "kana": "よこ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "音乐",
+      "japanese": "音楽",
+      "kana": "おんがく",
+      "romaji": "ongaku",
+      "tokens": [
+        {
+          "text": "音楽",
+          "kana": "おんがく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "下面；里面；（年龄、地位、程度、能力等）低",
+      "japanese": "下",
+      "kana": "した",
+      "romaji": "shita",
+      "tokens": [
+        {
+          "text": "下",
+          "kana": "した"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "什么",
+      "japanese": "何",
+      "kana": "なに",
+      "romaji": "nani",
+      "tokens": [
+        {
+          "text": "何",
+          "kana": "なに"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "什么",
+      "japanese": "何",
+      "kana": "なん",
+      "romaji": "nan",
+      "tokens": [
+        {
+          "text": "何",
+          "kana": "なん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "夏天，夏季",
+      "japanese": "夏",
+      "kana": "なつ",
+      "romaji": "natsu",
+      "tokens": [
+        {
+          "text": "夏",
+          "kana": "なつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "暑假",
+      "japanese": "夏休み",
+      "kana": "なつやすみ",
+      "romaji": "natsuyasumi",
+      "tokens": [
+        {
+          "text": "夏休み",
+          "kana": "なつやすみ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "房子；家庭",
+      "japanese": "家",
+      "kana": "いえ",
+      "romaji": "ie",
+      "tokens": [
+        {
+          "text": "家",
+          "kana": "いえ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "家，家庭，自己家（家人）",
+      "japanese": "うち",
+      "kana": "うち",
+      "romaji": "uchi",
+      "tokens": [
+        {
+          "text": "うち",
+          "kana": "うち"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "家族，家属",
+      "japanese": "家族",
+      "kana": "かぞく",
+      "romaji": "kazoku",
+      "tokens": [
+        {
+          "text": "家族",
+          "kana": "かぞく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "水果",
+      "japanese": "果物",
+      "kana": "くだもの",
+      "romaji": "kudamono",
+      "tokens": [
+        {
+          "text": "果物",
+          "kana": "くだもの"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "歌曲",
+      "japanese": "歌",
+      "kana": "うた",
+      "romaji": "uta",
+      "tokens": [
+        {
+          "text": "歌",
+          "kana": "うた"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "周二",
+      "japanese": "火曜日",
+      "kana": "かようび",
+      "romaji": "kayoubi",
+      "tokens": [
+        {
+          "text": "火曜日",
+          "kana": "かようび"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "花",
+      "japanese": "花",
+      "kana": "はな",
+      "romaji": "hana",
+      "tokens": [
+        {
+          "text": "花",
+          "kana": "はな"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "行李，货物",
+      "japanese": "荷物",
+      "kana": "にもつ",
+      "romaji": "nimotsu",
+      "tokens": [
+        {
+          "text": "荷物",
+          "kana": "にもつ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "公司",
+      "japanese": "会社",
+      "kana": "かいしゃ",
+      "romaji": "kaisha",
+      "tokens": [
+        {
+          "text": "会社",
+          "kana": "かいしゃ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "公司职员",
+      "japanese": "会社員",
+      "kana": "かいしゃいん",
+      "romaji": "kaishain",
+      "tokens": [
+        {
+          "text": "会社員",
+          "kana": "かいしゃいん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "大海，海洋",
+      "japanese": "海",
+      "kana": "うみ",
+      "romaji": "umi",
+      "tokens": [
+        {
+          "text": "海",
+          "kana": "うみ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "各位，诸位",
+      "japanese": "皆さん",
+      "kana": "みなさん",
+      "romaji": "minasan",
+      "tokens": [
+        {
+          "text": "皆さん",
+          "kana": "みなさん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "画，绘画",
+      "japanese": "絵",
+      "kana": "え",
+      "romaji": "e",
+      "tokens": [
+        {
+          "text": "絵",
+          "kana": "え"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "楼梯，台阶",
+      "japanese": "階段",
+      "kana": "かいだん",
+      "romaji": "kaidan",
+      "tokens": [
+        {
+          "text": "階段",
+          "kana": "かいだん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "外边，外面，外部",
+      "japanese": "外",
+      "kana": "そと",
+      "romaji": "soto",
+      "tokens": [
+        {
+          "text": "外",
+          "kana": "そと"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "外国，国外",
+      "japanese": "外国",
+      "kana": "がいこく",
+      "romaji": "gaikoku",
+      "tokens": [
+        {
+          "text": "外国",
+          "kana": "がいこく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "外国人",
+      "japanese": "外国人",
+      "kana": "がいこくじん",
+      "romaji": "gaikokujin",
+      "tokens": [
+        {
+          "text": "外国人",
+          "kana": "がいこくじん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "学校",
+      "japanese": "学校",
+      "kana": "がっこう",
+      "romaji": "gakkou",
+      "tokens": [
+        {
+          "text": "学校",
+          "kana": "がっこう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "学生",
+      "japanese": "学生",
+      "kana": "がくせい",
+      "romaji": "gakusei",
+      "tokens": [
+        {
+          "text": "学生",
+          "kana": "がくせい"
+        }
+      ]
+    }
+  ]
+}

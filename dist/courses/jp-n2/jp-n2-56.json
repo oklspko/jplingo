@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-56",
+  "coursePackId": "jp-n2",
+  "title": "名词 56",
+  "order": 56,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "搜集，采集",
+      "japanese": "採集",
+      "kana": "さいしゅう",
+      "romaji": "saishuu",
+      "tokens": [
+        {
+          "text": "採集",
+          "kana": "さいしゅう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "作用",
+      "japanese": "作用",
+      "kana": "さよう",
+      "romaji": "sayou",
+      "tokens": [
+        {
+          "text": "作用",
+          "kana": "さよう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "近来，最近",
+      "japanese": "昨今",
+      "kana": "さっこん",
+      "romaji": "sakkon",
+      "tokens": [
+        {
+          "text": "昨今",
+          "kana": "さっこん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "用线装订的书，也泛指一般的书籍",
+      "japanese": "冊子",
+      "kana": "さっし",
+      "romaji": "sasshi",
+      "tokens": [
+        {
+          "text": "冊子",
+          "kana": "さっし"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "察觉",
+      "japanese": "察知",
+      "kana": "さっち",
+      "romaji": "satchi",
+      "tokens": [
+        {
+          "text": "察知",
+          "kana": "さっち"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "动作，举止，表情",
+      "japanese": "仕草",
+      "kana": "しぐさ",
+      "romaji": "shigusa",
+      "tokens": [
+        {
+          "text": "仕草",
+          "kana": "しぐさ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "采购，买进",
+      "japanese": "仕入れ",
+      "kana": "しいれ",
+      "romaji": "shiire",
+      "tokens": [
+        {
+          "text": "仕入れ",
+          "kana": "しいれ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "在市场公开出售",
+      "japanese": "市販",
+      "kana": "しはん",
+      "romaji": "shihan",
+      "tokens": [
+        {
+          "text": "市販",
+          "kana": "しはん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "体贴，关怀",
+      "japanese": "思いやり",
+      "kana": "おもいやり",
+      "romaji": "omoiyari",
+      "tokens": [
+        {
+          "text": "思いやり",
+          "kana": "おもいやり"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "视力",
+      "japanese": "視力",
+      "kana": "しりょく",
+      "romaji": "shiryoku",
+      "tokens": [
+        {
+          "text": "視力",
+          "kana": "しりょく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "尝试",
+      "japanese": "試み",
+      "kana": "こころみ",
+      "romaji": "kokoromi",
+      "tokens": [
+        {
+          "text": "試み",
+          "kana": "こころみ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "试行，试验",
+      "japanese": "試行",
+      "kana": "しこう",
+      "romaji": "shikou",
+      "tokens": [
+        {
+          "text": "試行",
+          "kana": "しこう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "慈善，救济",
+      "japanese": "慈善",
+      "kana": "じぜん",
+      "romaji": "jizen",
+      "tokens": [
+        {
+          "text": "慈善",
+          "kana": "じぜん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "自我；个性",
+      "japanese": "自我",
+      "kana": "じが",
+      "romaji": "jiga",
+      "tokens": [
+        {
+          "text": "自我",
+          "kana": "じが"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "自己的公司",
+      "japanese": "自社",
+      "kana": "じしゃ",
+      "romaji": "jisha",
+      "tokens": [
+        {
+          "text": "自社",
+          "kana": "じしゃ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "自主",
+      "japanese": "自主",
+      "kana": "じしゅ",
+      "romaji": "jishu",
+      "tokens": [
+        {
+          "text": "自主",
+          "kana": "じしゅ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "自身",
+      "japanese": "自体",
+      "kana": "じたい",
+      "romaji": "jitai",
+      "tokens": [
+        {
+          "text": "自体",
+          "kana": "じたい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "主人公",
+      "japanese": "主人公",
+      "kana": "しゅじんこう",
+      "romaji": "shujinkou",
+      "tokens": [
+        {
+          "text": "主人公",
+          "kana": "しゅじんこう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（事物的步骤或手续）错误，差错",
+      "japanese": "手違い",
+      "kana": "てちがい",
+      "romaji": "techigai",
+      "tokens": [
+        {
+          "text": "手違い",
+          "kana": "てちがい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（撞击，打击时的）手感；（对方对于自己所做之事的）反应",
+      "japanese": "手応え",
+      "kana": "てごたえ",
+      "romaji": "tegotae",
+      "tokens": [
+        {
+          "text": "手応え",
+          "kana": "てごたえ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "打猎；采集；观赏",
+      "japanese": "狩り",
+      "kana": "かり",
+      "romaji": "kari",
+      "tokens": [
+        {
+          "text": "狩り",
+          "kana": "かり"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "充满",
+      "japanese": "充満",
+      "kana": "じゅうまん",
+      "romaji": "juuman",
+      "tokens": [
+        {
+          "text": "充満",
+          "kana": "じゅうまん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "柔软性；灵活性",
+      "japanese": "柔軟性",
+      "kana": "じゅうなんせい",
+      "romaji": "juunansei",
+      "tokens": [
+        {
+          "text": "柔軟性",
+          "kana": "じゅうなんせい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "分量；威信",
+      "japanese": "重み",
+      "kana": "おもみ",
+      "romaji": "omomi",
+      "tokens": [
+        {
+          "text": "重み",
+          "kana": "おもみ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "申请，申报志愿",
+      "japanese": "出願",
+      "kana": "しゅつがん",
+      "romaji": "shutsugan",
+      "tokens": [
+        {
+          "text": "出願",
+          "kana": "しゅつがん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "上班",
+      "japanese": "出社",
+      "kana": "しゅっしゃ",
+      "romaji": "shussha",
+      "tokens": [
+        {
+          "text": "出社",
+          "kana": "しゅっしゃ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "开店",
+      "japanese": "出店",
+      "kana": "しゅってん",
+      "romaji": "shutten",
+      "tokens": [
+        {
+          "text": "出店",
+          "kana": "しゅってん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "顺序，等级，名次",
+      "japanese": "順位",
+      "kana": "じゅんい",
+      "romaji": "jun'i",
+      "tokens": [
+        {
+          "text": "順位",
+          "kana": "じゅんい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "人数少",
+      "japanese": "少人数",
+      "kana": "しょうにんずう",
+      "romaji": "shouninzuu",
+      "tokens": [
+        {
+          "text": "少人数",
+          "kana": "しょうにんずう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（职业或职务的）种类",
+      "japanese": "職種",
+      "kana": "しょくしゅ",
+      "romaji": "shokushu",
+      "tokens": [
+        {
+          "text": "職種",
+          "kana": "しょくしゅ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-56",
+  "coursePackId": "jp-n1",
+  "title": "名词 56",
+  "order": 56,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "伸缩",
+      "japanese": "伸縮",
+      "kana": "しんしゅく",
+      "romaji": "shinshuku",
+      "tokens": [
+        {
+          "text": "伸縮",
+          "kana": "しんしゅく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "封条；封印",
+      "japanese": "封印",
+      "kana": "ふういん",
+      "romaji": "fuuin",
+      "tokens": [
+        {
+          "text": "封印",
+          "kana": "ふういん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "专心，一心一意，全心全意",
+      "japanese": "専心",
+      "kana": "せんしん",
+      "romaji": "senshin",
+      "tokens": [
+        {
+          "text": "専心",
+          "kana": "せんしん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "怀疑",
+      "japanese": "懐疑",
+      "kana": "かいぎ",
+      "romaji": "kaigi",
+      "tokens": [
+        {
+          "text": "懐疑",
+          "kana": "かいぎ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "升华",
+      "japanese": "昇華",
+      "kana": "しょうか",
+      "romaji": "shouka",
+      "tokens": [
+        {
+          "text": "昇華",
+          "kana": "しょうか"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "清楚记载，记明",
+      "japanese": "明記",
+      "kana": "めいき",
+      "romaji": "meiki",
+      "tokens": [
+        {
+          "text": "明記",
+          "kana": "めいき"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "散步，随便走走",
+      "japanese": "散策",
+      "kana": "さんさく",
+      "romaji": "sansaku",
+      "tokens": [
+        {
+          "text": "散策",
+          "kana": "さんさく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（灯光）忽亮忽灭，闪亮",
+      "japanese": "点滅",
+      "kana": "てんめつ",
+      "romaji": "tenmetsu",
+      "tokens": [
+        {
+          "text": "点滅",
+          "kana": "てんめつ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "新制；新曲调",
+      "japanese": "新調",
+      "kana": "しんちょう",
+      "romaji": "shinchou",
+      "tokens": [
+        {
+          "text": "新調",
+          "kana": "しんちょう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "散在，散布",
+      "japanese": "点在",
+      "kana": "てんざい",
+      "romaji": "tenzai",
+      "tokens": [
+        {
+          "text": "点在",
+          "kana": "てんざい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "混在一起",
+      "japanese": "混在",
+      "kana": "こんざい",
+      "romaji": "konzai",
+      "tokens": [
+        {
+          "text": "混在",
+          "kana": "こんざい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "在职，工作，任职",
+      "japanese": "在職",
+      "kana": "ざいしょく",
+      "romaji": "zaishoku",
+      "tokens": [
+        {
+          "text": "在職",
+          "kana": "ざいしょく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "贸易谈判，谈生意，洽谈",
+      "japanese": "商談",
+      "kana": "しょうだん",
+      "romaji": "shoudan",
+      "tokens": [
+        {
+          "text": "商談",
+          "kana": "しょうだん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "放牧，牧放",
+      "japanese": "放牧",
+      "kana": "ほうぼく",
+      "romaji": "houboku",
+      "tokens": [
+        {
+          "text": "放牧",
+          "kana": "ほうぼく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "聚餐",
+      "japanese": "会食",
+      "kana": "かいしょく",
+      "romaji": "kaishoku",
+      "tokens": [
+        {
+          "text": "会食",
+          "kana": "かいしょく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "熟习，熟练",
+      "japanese": "習熟",
+      "kana": "しゅうじゅく",
+      "romaji": "shuujuku",
+      "tokens": [
+        {
+          "text": "習熟",
+          "kana": "しゅうじゅく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "出土",
+      "japanese": "出土",
+      "kana": "しゅつど",
+      "romaji": "shutsudo",
+      "tokens": [
+        {
+          "text": "出土",
+          "kana": "しゅつど"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "推荐",
+      "japanese": "推奨",
+      "kana": "すいしょう",
+      "romaji": "suishou",
+      "tokens": [
+        {
+          "text": "推奨",
+          "kana": "すいしょう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "迁入；转入",
+      "japanese": "転入",
+      "kana": "てんにゅう",
+      "romaji": "tennyuu",
+      "tokens": [
+        {
+          "text": "転入",
+          "kana": "てんにゅう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "管辖",
+      "japanese": "管轄",
+      "kana": "かんかつ",
+      "romaji": "kankatsu",
+      "tokens": [
+        {
+          "text": "管轄",
+          "kana": "かんかつ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "生殖，繁殖",
+      "japanese": "生殖",
+      "kana": "せいしょく",
+      "romaji": "seishoku",
+      "tokens": [
+        {
+          "text": "生殖",
+          "kana": "せいしょく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "流入，流进；涌进",
+      "japanese": "流入",
+      "kana": "りゅうにゅう",
+      "romaji": "ryuunyuu",
+      "tokens": [
+        {
+          "text": "流入",
+          "kana": "りゅうにゅう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "踌躇，犹豫",
+      "japanese": "躊躇[ちゅうちょ]",
+      "kana": "ちゅうちょ",
+      "romaji": "chuucho",
+      "tokens": [
+        {
+          "text": "躊躇[ちゅうちょ]",
+          "kana": "ちゅうちょ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "忙得不可开交，手忙脚乱",
+      "japanese": "てんてこ舞い",
+      "kana": "てんてこまい",
+      "romaji": "tentekomai",
+      "tokens": [
+        {
+          "text": "てんてこ舞い",
+          "kana": "てんてこまい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "关门，歇业，停业",
+      "japanese": "廃業",
+      "kana": "はいぎょう",
+      "romaji": "haigyou",
+      "tokens": [
+        {
+          "text": "廃業",
+          "kana": "はいぎょう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "装载；搭载",
+      "japanese": "搭載",
+      "kana": "とうさい",
+      "romaji": "tousai",
+      "tokens": [
+        {
+          "text": "搭載",
+          "kana": "とうさい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "跳水；飞跃；潜水",
+      "japanese": "ダイビング",
+      "kana": "だいびんぐ",
+      "romaji": "daibingu",
+      "tokens": [
+        {
+          "text": "ダイビング",
+          "kana": "だいびんぐ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "焚烧，烧掉",
+      "japanese": "焼却",
+      "kana": "しょうきゃく",
+      "romaji": "shoukyaku",
+      "tokens": [
+        {
+          "text": "焼却",
+          "kana": "しょうきゃく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "游泳；处世",
+      "japanese": "遊泳",
+      "kana": "ゆうえい",
+      "romaji": "yuuei",
+      "tokens": [
+        {
+          "text": "遊泳",
+          "kana": "ゆうえい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "装订",
+      "japanese": "製本",
+      "kana": "せいほん",
+      "romaji": "seihon",
+      "tokens": [
+        {
+          "text": "製本",
+          "kana": "せいほん"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-02",
+  "coursePackId": "jp-n5",
+  "title": "名词 2",
+  "order": 2,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "茶；工作间隙中的短暂休息",
+      "japanese": "お茶",
+      "kana": "おちゃ",
+      "romaji": "ocha",
+      "tokens": [
+        {
+          "text": "お茶",
+          "kana": "おちゃ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "爸爸；父亲",
+      "japanese": "お父さん",
+      "kana": "おとうさん",
+      "romaji": "otousan",
+      "tokens": [
+        {
+          "text": "お父さん",
+          "kana": "おとうさん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "妈妈，母亲",
+      "japanese": "お母さん",
+      "kana": "おかあさん",
+      "romaji": "okaasan",
+      "tokens": [
+        {
+          "text": "お母さん",
+          "kana": "おかあさん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "（带把手的）杯子；奖杯",
+      "japanese": "カップ",
+      "kana": "かっぷ",
+      "romaji": "kappu",
+      "tokens": [
+        {
+          "text": "カップ",
+          "kana": "かっぷ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "（皮革或布等制作的）书包，提包",
+      "japanese": "かばん",
+      "kana": "かばん",
+      "romaji": "kaban",
+      "tokens": [
+        {
+          "text": "かばん",
+          "kana": "かばん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "照相机",
+      "japanese": "カメラ",
+      "kana": "かめら",
+      "romaji": "kamera",
+      "tokens": [
+        {
+          "text": "カメラ",
+          "kana": "かめら"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "咖喱",
+      "japanese": "カレー",
+      "kana": "かれえ",
+      "romaji": "karee",
+      "tokens": [
+        {
+          "text": "カレー",
+          "kana": "かれえ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "吉他",
+      "japanese": "ギター",
+      "kana": "ぎたあ",
+      "romaji": "gitaa",
+      "tokens": [
+        {
+          "text": "ギター",
+          "kana": "ぎたあ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "昨天",
+      "japanese": "昨日",
+      "kana": "きのう",
+      "romaji": "kinou",
+      "tokens": [
+        {
+          "text": "昨日",
+          "kana": "きのう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "班级；等级",
+      "japanese": "クラス",
+      "kana": "くらす",
+      "romaji": "kurasu",
+      "tokens": [
+        {
+          "text": "クラス",
+          "kana": "くらす"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "蛋糕",
+      "japanese": "ケーキ",
+      "kana": "けえき",
+      "romaji": "keeki",
+      "tokens": [
+        {
+          "text": "ケーキ",
+          "kana": "けえき"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "外套，大衣",
+      "japanese": "コート",
+      "kana": "こうと",
+      "romaji": "kouto",
+      "tokens": [
+        {
+          "text": "コート",
+          "kana": "こうと"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "咖啡",
+      "japanese": "コーヒー",
+      "kana": "こうひい",
+      "romaji": "kouhii",
+      "tokens": [
+        {
+          "text": "コーヒー",
+          "kana": "こうひい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（指代自己附近的事物）这里；（自己所指的地方）这里",
+      "japanese": "ここ",
+      "kana": "ここ",
+      "romaji": "koko",
+      "tokens": [
+        {
+          "text": "ここ",
+          "kana": "ここ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（指示说话者所在的方向或地点）这里；（说话者或说话者旁边的人）这个，这位",
+      "japanese": "こちら",
+      "kana": "こちら",
+      "romaji": "kochira",
+      "tokens": [
+        {
+          "text": "こちら",
+          "kana": "こちら"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "这边；这个；我，我们",
+      "japanese": "こっち",
+      "kana": "こっち",
+      "romaji": "kotchi",
+      "tokens": [
+        {
+          "text": "こっち",
+          "kana": "こっち"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "（由玻璃、塑料等制成的圆柱形的）杯子",
+      "japanese": "コップ",
+      "kana": "こっぷ",
+      "romaji": "koppu",
+      "tokens": [
+        {
+          "text": "コップ",
+          "kana": "こっぷ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（指代靠近说话者的事物）这个",
+      "japanese": "これ",
+      "kana": "これ",
+      "romaji": "kore",
+      "tokens": [
+        {
+          "text": "これ",
+          "kana": "これ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "米饭；吃饭",
+      "japanese": "ご飯",
+      "kana": "ごはん",
+      "romaji": "gohan",
+      "tokens": [
+        {
+          "text": "ご飯",
+          "kana": "ごはん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "足球",
+      "japanese": "サッカー",
+      "kana": "さっかあ",
+      "romaji": "sakkaa",
+      "tokens": [
+        {
+          "text": "サッカー",
+          "kana": "さっかあ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "衬衫",
+      "japanese": "シャツ",
+      "kana": "しゃつ",
+      "romaji": "shatsu",
+      "tokens": [
+        {
+          "text": "シャツ",
+          "kana": "しゃつ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "淋浴",
+      "japanese": "シャワー",
+      "kana": "しゃわあ",
+      "romaji": "shawaa",
+      "tokens": [
+        {
+          "text": "シャワー",
+          "kana": "しゃわあ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "果汁",
+      "japanese": "ジュース",
+      "kana": "じゅうす",
+      "romaji": "juusu",
+      "tokens": [
+        {
+          "text": "ジュース",
+          "kana": "じゅうす"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "酱油",
+      "japanese": "しょうゆ",
+      "kana": "しょうゆ",
+      "romaji": "shouyu",
+      "tokens": [
+        {
+          "text": "しょうゆ",
+          "kana": "しょうゆ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "西瓜",
+      "japanese": "すいか",
+      "kana": "すいか",
+      "romaji": "suika",
+      "tokens": [
+        {
+          "text": "すいか",
+          "kana": "すいか"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "裙子",
+      "japanese": "スカート",
+      "kana": "すかあと",
+      "romaji": "sukaato",
+      "tokens": [
+        {
+          "text": "スカート",
+          "kana": "すかあと"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "滑雪",
+      "japanese": "スキー",
+      "kana": "すきい",
+      "romaji": "sukii",
+      "tokens": [
+        {
+          "text": "スキー",
+          "kana": "すきい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "暖炉，炉子",
+      "japanese": "ストーブ",
+      "kana": "すとうぶ",
+      "romaji": "sutoubu",
+      "tokens": [
+        {
+          "text": "ストーブ",
+          "kana": "すとうぶ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "运动，游戏",
+      "japanese": "スポーツ",
+      "kana": "すぽうつ",
+      "romaji": "supoutsu",
+      "tokens": [
+        {
+          "text": "スポーツ",
+          "kana": "すぽうつ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "裤子",
+      "japanese": "ズボン",
+      "kana": "ずぼん",
+      "romaji": "zubon",
+      "tokens": [
+        {
+          "text": "ズボン",
+          "kana": "ずぼん"
+        }
+      ]
+    }
+  ]
+}

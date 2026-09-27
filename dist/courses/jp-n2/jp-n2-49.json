@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-49",
+  "coursePackId": "jp-n2",
+  "title": "名词 49",
+  "order": 49,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（特指第二次世界大战后）战后",
+      "japanese": "戦後",
+      "kana": "せんご",
+      "romaji": "sengo",
+      "tokens": [
+        {
+          "text": "戦後",
+          "kana": "せんご"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "面向正面；积极",
+      "japanese": "前向き",
+      "kana": "まえむき",
+      "romaji": "maemuki",
+      "tokens": [
+        {
+          "text": "前向き",
+          "kana": "まえむき"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "预售",
+      "japanese": "前売り",
+      "kana": "まえうり",
+      "romaji": "maeuri",
+      "tokens": [
+        {
+          "text": "前売り",
+          "kana": "まえうり"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "前半",
+      "japanese": "前半",
+      "kana": "ぜんはん",
+      "romaji": "zenhan",
+      "tokens": [
+        {
+          "text": "前半",
+          "kana": "ぜんはん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "善良",
+      "japanese": "善良",
+      "kana": "ぜんりょう",
+      "romaji": "zenryou",
+      "tokens": [
+        {
+          "text": "善良",
+          "kana": "ぜんりょう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（公司、学校等）创立",
+      "japanese": "創立",
+      "kana": "そうりつ",
+      "romaji": "souritsu",
+      "tokens": [
+        {
+          "text": "創立",
+          "kana": "そうりつ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "面对，对立；相对",
+      "japanese": "相対",
+      "kana": "そうたい",
+      "romaji": "soutai",
+      "tokens": [
+        {
+          "text": "相対",
+          "kana": "そうたい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（汽车）行驶，行车",
+      "japanese": "走行",
+      "kana": "そうこう",
+      "romaji": "soukou",
+      "tokens": [
+        {
+          "text": "走行",
+          "kana": "そうこう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（物体的）侧面；一面，方面；侧面，间接",
+      "japanese": "側面",
+      "kana": "そくめん",
+      "romaji": "sokumen",
+      "tokens": [
+        {
+          "text": "側面",
+          "kana": "そくめん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "多种多样",
+      "japanese": "多様",
+      "kana": "たよう",
+      "romaji": "tayou",
+      "tokens": [
+        {
+          "text": "多様",
+          "kana": "たよう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "相对，面对面；对应，应对；相称，相符",
+      "japanese": "対応",
+      "kana": "たいおう",
+      "romaji": "taiou",
+      "tokens": [
+        {
+          "text": "対応",
+          "kana": "たいおう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "对决；面对（困难等）",
+      "japanese": "対決",
+      "kana": "たいけつ",
+      "romaji": "taiketsu",
+      "tokens": [
+        {
+          "text": "対決",
+          "kana": "たいけつ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "对抗，抗衡",
+      "japanese": "対抗",
+      "kana": "たいこう",
+      "romaji": "taikou",
+      "tokens": [
+        {
+          "text": "対抗",
+          "kana": "たいこう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "对照，对比",
+      "japanese": "対比",
+      "kana": "たいひ",
+      "romaji": "taihi",
+      "tokens": [
+        {
+          "text": "対比",
+          "kana": "たいひ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "对话，交谈",
+      "japanese": "対話",
+      "kana": "たいわ",
+      "romaji": "taiwa",
+      "tokens": [
+        {
+          "text": "対話",
+          "kana": "たいわ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "扑灭，消灭",
+      "japanese": "退治",
+      "kana": "たいじ",
+      "romaji": "taiji",
+      "tokens": [
+        {
+          "text": "退治",
+          "kana": "たいじ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "弄坏，毁掉，糟蹋",
+      "japanese": "台無し",
+      "kana": "だいなし",
+      "romaji": "dainashi",
+      "tokens": [
+        {
+          "text": "台無し",
+          "kana": "だいなし"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "大公司",
+      "japanese": "大手",
+      "kana": "おおて",
+      "romaji": "oote",
+      "tokens": [
+        {
+          "text": "大手",
+          "kana": "おおて"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "大胆，勇敢",
+      "japanese": "大胆",
+      "kana": "だいたん",
+      "romaji": "daitan",
+      "tokens": [
+        {
+          "text": "大胆",
+          "kana": "だいたん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "逃脱，逃出",
+      "japanese": "脱出",
+      "kana": "だっしゅつ",
+      "romaji": "dasshutsu",
+      "tokens": [
+        {
+          "text": "脱出",
+          "kana": "だっしゅつ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "团结",
+      "japanese": "団結",
+      "kana": "だんけつ",
+      "romaji": "danketsu",
+      "tokens": [
+        {
+          "text": "団結",
+          "kana": "だんけつ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "（为了事情顺利进行的）安排，流程，顺序",
+      "japanese": "段取り",
+      "kana": "だんどり",
+      "romaji": "dandori",
+      "tokens": [
+        {
+          "text": "段取り",
+          "kana": "だんどり"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "积蓄，积累",
+      "japanese": "蓄積",
+      "kana": "ちくせき",
+      "romaji": "chikuseki",
+      "tokens": [
+        {
+          "text": "蓄積",
+          "kana": "ちくせき"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "中断，断开",
+      "japanese": "中断",
+      "kana": "ちゅうだん",
+      "romaji": "chuudan",
+      "tokens": [
+        {
+          "text": "中断",
+          "kana": "ちゅうだん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "抽签，抽选",
+      "japanese": "抽選",
+      "kana": "ちゅうせん",
+      "romaji": "chuusen",
+      "tokens": [
+        {
+          "text": "抽選",
+          "kana": "ちゅうせん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "贴纸；广告，海报；便条",
+      "japanese": "貼り紙",
+      "kana": "はりがみ",
+      "romaji": "harigami",
+      "tokens": [
+        {
+          "text": "貼り紙",
+          "kana": "はりがみ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "长篇",
+      "japanese": "長編",
+      "kana": "ちょうへん",
+      "romaji": "chouhen",
+      "tokens": [
+        {
+          "text": "長編",
+          "kana": "ちょうへん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "通常，平常",
+      "japanese": "通常",
+      "kana": "つうじょう",
+      "romaji": "tsuujou",
+      "tokens": [
+        {
+          "text": "通常",
+          "kana": "つうじょう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "出示",
+      "japanese": "提示",
+      "kana": "ていじ",
+      "romaji": "teiji",
+      "tokens": [
+        {
+          "text": "提示",
+          "kana": "ていじ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "订正，改正，更正（言语、文字或文章中的错误）",
+      "japanese": "訂正",
+      "kana": "ていせい",
+      "romaji": "teisei",
+      "tokens": [
+        {
+          "text": "訂正",
+          "kana": "ていせい"
+        }
+      ]
+    }
+  ]
+}

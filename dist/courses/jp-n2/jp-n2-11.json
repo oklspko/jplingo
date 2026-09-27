@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-11",
+  "coursePackId": "jp-n2",
+  "title": "名词 11",
+  "order": 11,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "全身",
+      "japanese": "全身",
+      "kana": "ぜんしん",
+      "romaji": "zenshin",
+      "tokens": [
+        {
+          "text": "全身",
+          "kana": "ぜんしん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "老鼠",
+      "japanese": "ねずみ",
+      "kana": "ねずみ",
+      "romaji": "nezumi",
+      "tokens": [
+        {
+          "text": "ねずみ",
+          "kana": "ねずみ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "创作，创造",
+      "japanese": "創作",
+      "kana": "そうさく",
+      "romaji": "sousaku",
+      "tokens": [
+        {
+          "text": "創作",
+          "kana": "そうさく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "操作，操纵；控制，篡改",
+      "japanese": "操作",
+      "kana": "そうさ",
+      "romaji": "sousa",
+      "tokens": [
+        {
+          "text": "操作",
+          "kana": "そうさ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "送别，送行",
+      "japanese": "送別",
+      "kana": "そうべつ",
+      "romaji": "soubetsu",
+      "tokens": [
+        {
+          "text": "送別",
+          "kana": "そうべつ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "杂音，噪声",
+      "japanese": "騒音",
+      "kana": "そうおん",
+      "romaji": "souon",
+      "tokens": [
+        {
+          "text": "騒音",
+          "kana": "そうおん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "脚下，身边；脚步；立场",
+      "japanese": "足下",
+      "kana": "あしもと",
+      "romaji": "ashimoto",
+      "tokens": [
+        {
+          "text": "足下",
+          "kana": "あしもと"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "快信，快件",
+      "japanese": "速達",
+      "kana": "そくたつ",
+      "romaji": "sokutatsu",
+      "tokens": [
+        {
+          "text": "速達",
+          "kana": "そくたつ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "存在",
+      "japanese": "存在",
+      "kana": "そんざい",
+      "romaji": "sonzai",
+      "tokens": [
+        {
+          "text": "存在",
+          "kana": "そんざい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "不利；亏损",
+      "japanese": "損",
+      "kana": "そん",
+      "romaji": "son",
+      "tokens": [
+        {
+          "text": "損",
+          "kana": "そん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "事先商量",
+      "japanese": "打ち合わせ",
+      "kana": "うちあわせ",
+      "romaji": "uchiawase",
+      "tokens": [
+        {
+          "text": "打ち合わせ",
+          "kana": "うちあわせ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "对策",
+      "japanese": "対策",
+      "kana": "たいさく",
+      "romaji": "taisaku",
+      "tokens": [
+        {
+          "text": "対策",
+          "kana": "たいさく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "对象",
+      "japanese": "対象",
+      "kana": "たいしょう",
+      "romaji": "taishou",
+      "tokens": [
+        {
+          "text": "対象",
+          "kana": "たいしょう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "大臣",
+      "japanese": "大臣",
+      "kana": "だいじん",
+      "romaji": "daijin",
+      "tokens": [
+        {
+          "text": "大臣",
+          "kana": "だいじん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "短期",
+      "japanese": "短期",
+      "kana": "たんき",
+      "romaji": "tanki",
+      "tokens": [
+        {
+          "text": "短期",
+          "kana": "たんき"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "短处，缺点",
+      "japanese": "短所",
+      "kana": "たんしょ",
+      "romaji": "tansho",
+      "tokens": [
+        {
+          "text": "短所",
+          "kana": "たんしょ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "阶段；等级",
+      "japanese": "段階",
+      "kana": "だんかい",
+      "romaji": "dankai",
+      "tokens": [
+        {
+          "text": "段階",
+          "kana": "だんかい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "熟人，朋友",
+      "japanese": "知人",
+      "kana": "ちじん",
+      "romaji": "chijin",
+      "tokens": [
+        {
+          "text": "知人",
+          "kana": "ちじん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "地域，地区",
+      "japanese": "地域",
+      "kana": "ちいき",
+      "romaji": "chiiki",
+      "tokens": [
+        {
+          "text": "地域",
+          "kana": "ちいき"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "地区；（相对于中央）地方",
+      "japanese": "地方",
+      "kana": "ちほう",
+      "romaji": "chihou",
+      "tokens": [
+        {
+          "text": "地方",
+          "kana": "ちほう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "注目，注视",
+      "japanese": "注目",
+      "kana": "ちゅうもく",
+      "romaji": "chuumoku",
+      "tokens": [
+        {
+          "text": "注目",
+          "kana": "ちゅうもく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "作者",
+      "japanese": "著者",
+      "kana": "ちょしゃ",
+      "romaji": "chosha",
+      "tokens": [
+        {
+          "text": "著者",
+          "kana": "ちょしゃ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "调节，调整",
+      "japanese": "調節",
+      "kana": "ちょうせつ",
+      "romaji": "chousetsu",
+      "tokens": [
+        {
+          "text": "調節",
+          "kana": "ちょうせつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "长期",
+      "japanese": "長期",
+      "kana": "ちょうき",
+      "romaji": "chouki",
+      "tokens": [
+        {
+          "text": "長期",
+          "kana": "ちょうき"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "长处，优点",
+      "japanese": "長所",
+      "kana": "ちょうしょ",
+      "romaji": "chousho",
+      "tokens": [
+        {
+          "text": "長所",
+          "kana": "ちょうしょ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "长方形",
+      "japanese": "長方形",
+      "kana": "ちょうほうけい",
+      "romaji": "chouhoukei",
+      "tokens": [
+        {
+          "text": "長方形",
+          "kana": "ちょうほうけい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "经过，驶过不停；通过",
+      "japanese": "通過",
+      "kana": "つうか",
+      "romaji": "tsuuka",
+      "tokens": [
+        {
+          "text": "通過",
+          "kana": "つうか"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "通信，通讯",
+      "japanese": "通信",
+      "kana": "つうしん",
+      "romaji": "tsuushin",
+      "tokens": [
+        {
+          "text": "通信",
+          "kana": "つうしん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "降低；变差",
+      "japanese": "低下",
+      "kana": "ていか",
+      "romaji": "teika",
+      "tokens": [
+        {
+          "text": "低下",
+          "kana": "ていか"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "提案，提议",
+      "japanese": "提案",
+      "kana": "ていあん",
+      "romaji": "teian",
+      "tokens": [
+        {
+          "text": "提案",
+          "kana": "ていあん"
+        }
+      ]
+    }
+  ]
+}

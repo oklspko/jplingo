@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-87",
+  "coursePackId": "jp-n2",
+  "title": "动词 16",
+  "order": 87,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "偏移；（摄影时）晃动",
+      "japanese": "ぶれる",
+      "kana": "ぶれる",
+      "romaji": "bureru",
+      "tokens": [
+        {
+          "text": "ぶれる",
+          "kana": "ぶれる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "干到底",
+      "japanese": "やり抜く",
+      "kana": "やりぬく",
+      "romaji": "yarinuku",
+      "tokens": [
+        {
+          "text": "やり抜く",
+          "kana": "やりぬく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "要求；（听众，观众）点播节目",
+      "japanese": "リクエスト",
+      "kana": "りくえすと",
+      "romaji": "rikuesuto",
+      "tokens": [
+        {
+          "text": "リクエスト",
+          "kana": "りくえすと"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "分辨（是非曲直）",
+      "japanese": "わきまえる",
+      "kana": "わきまえる",
+      "romaji": "wakimaeru",
+      "tokens": [
+        {
+          "text": "わきまえる",
+          "kana": "わきまえる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "拉进来；引诱进来；吸引人心",
+      "japanese": "引き込む",
+      "kana": "ひきこむ",
+      "romaji": "hikikomu",
+      "tokens": [
+        {
+          "text": "引き込む",
+          "kana": "ひきこむ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "用力按，按住；强加于人",
+      "japanese": "押し付ける",
+      "kana": "おしつける",
+      "romaji": "oshitsukeru",
+      "tokens": [
+        {
+          "text": "押し付ける",
+          "kana": "おしつける"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（植物、事情、感情等）发芽，萌芽",
+      "japanese": "芽生える",
+      "kana": "めばえる",
+      "romaji": "mebaeru",
+      "tokens": [
+        {
+          "text": "芽生える",
+          "kana": "めばえる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "开封，拆开",
+      "japanese": "開封",
+      "kana": "かいふう",
+      "romaji": "kaifuu",
+      "tokens": [
+        {
+          "text": "開封",
+          "kana": "かいふう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "感受到，感觉到",
+      "japanese": "感じ取る",
+      "kana": "かんじとる",
+      "romaji": "kanjitoru",
+      "tokens": [
+        {
+          "text": "感じ取る",
+          "kana": "かんじとる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "捐助，捐赠",
+      "japanese": "寄付",
+      "kana": "きふ",
+      "romaji": "kifu",
+      "tokens": [
+        {
+          "text": "寄付",
+          "kana": "きふ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "逆；违抗",
+      "japanese": "逆らう",
+      "kana": "さからう",
+      "romaji": "sakarau",
+      "tokens": [
+        {
+          "text": "逆らう",
+          "kana": "さからう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "共有，共享",
+      "japanese": "共有",
+      "kana": "きょうゆう",
+      "romaji": "kyouyuu",
+      "tokens": [
+        {
+          "text": "共有",
+          "kana": "きょうゆう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "弯腰；蹲下",
+      "japanese": "かがむ",
+      "kana": "かがむ",
+      "romaji": "kagamu",
+      "tokens": [
+        {
+          "text": "かがむ",
+          "kana": "かがむ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（「目を見張る」の形で）瞠目而视；监视",
+      "japanese": "見張る",
+      "kana": "みはる",
+      "romaji": "miharu",
+      "tokens": [
+        {
+          "text": "見張る",
+          "kana": "みはる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "断绝关系，抛弃",
+      "japanese": "見放す",
+      "kana": "みはなす",
+      "romaji": "mihanasu",
+      "tokens": [
+        {
+          "text": "見放す",
+          "kana": "みはなす"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "严格遵守",
+      "japanese": "厳守",
+      "kana": "げんしゅ",
+      "romaji": "genshu",
+      "tokens": [
+        {
+          "text": "厳守",
+          "kana": "げんしゅ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "告诉，诉说",
+      "japanese": "語りかける",
+      "kana": "かたりかける",
+      "romaji": "katarikakeru",
+      "tokens": [
+        {
+          "text": "語りかける",
+          "kana": "かたりかける"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "沉思",
+      "japanese": "考え込む",
+      "kana": "かんがえこむ",
+      "romaji": "kangaekomu",
+      "tokens": [
+        {
+          "text": "考え込む",
+          "kana": "かんがえこむ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "想出来；开始考虑",
+      "japanese": "考え出す",
+      "kana": "かんがえだす",
+      "romaji": "kangaedasu",
+      "tokens": [
+        {
+          "text": "考え出す",
+          "kana": "かんがえだす"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "走到尽头，行不通；停滞不前，陷入僵局",
+      "japanese": "行き詰まる",
+      "kana": "いきづまる",
+      "romaji": "ikizumaru",
+      "tokens": [
+        {
+          "text": "行き詰まる",
+          "kana": "いきづまる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "错综复杂",
+      "japanese": "込み入る",
+      "kana": "こみいる",
+      "romaji": "komiiru",
+      "tokens": [
+        {
+          "text": "込み入る",
+          "kana": "こみいる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "向监狱送生活用品；（送给闭门工作者的）慰劳品",
+      "japanese": "差し入れ",
+      "kana": "さしいれ",
+      "romaji": "sashiire",
+      "tokens": [
+        {
+          "text": "差し入れ",
+          "kana": "さしいれ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "临近，迫切",
+      "japanese": "差し迫る",
+      "kana": "さしせまる",
+      "romaji": "sashisemaru",
+      "tokens": [
+        {
+          "text": "差し迫る",
+          "kana": "さしせまる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "熟练掌握，运用自如",
+      "japanese": "使いこなす",
+      "kana": "つかいこなす",
+      "romaji": "tsukaikonasu",
+      "tokens": [
+        {
+          "text": "使いこなす",
+          "kana": "つかいこなす"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "反复试验，反复摸索",
+      "japanese": "試行錯誤",
+      "kana": "しこうさくご",
+      "romaji": "shikousakugo",
+      "tokens": [
+        {
+          "text": "試行錯誤",
+          "kana": "しこうさくご"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "模仿，伪造",
+      "japanese": "似せる",
+      "kana": "にせる",
+      "romaji": "niseru",
+      "tokens": [
+        {
+          "text": "似せる",
+          "kana": "にせる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "夺回；挽回",
+      "japanese": "取り返す",
+      "kana": "とりかえす",
+      "romaji": "torikaesu",
+      "tokens": [
+        {
+          "text": "取り返す",
+          "kana": "とりかえす"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "帮助，搭把手",
+      "japanese": "手助け",
+      "kana": "てだすけ",
+      "romaji": "tedasuke",
+      "tokens": [
+        {
+          "text": "手助け",
+          "kana": "てだすけ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "收纳",
+      "japanese": "収納",
+      "kana": "しゅうのう",
+      "romaji": "shuunou",
+      "tokens": [
+        {
+          "text": "収納",
+          "kana": "しゅうのう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "接触；（心灵的）碰撞",
+      "japanese": "触れ合う",
+      "kana": "ふれあう",
+      "romaji": "fureau",
+      "tokens": [
+        {
+          "text": "触れ合う",
+          "kana": "ふれあう"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-58",
+  "coursePackId": "jp-n1",
+  "title": "名词 58",
+  "order": 58,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "报恩",
+      "japanese": "恩返し",
+      "kana": "おんがえし",
+      "romaji": "ongaeshi",
+      "tokens": [
+        {
+          "text": "恩返し",
+          "kana": "おんがえし"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "精通，通晓",
+      "japanese": "精通",
+      "kana": "せいつう",
+      "romaji": "seitsuu",
+      "tokens": [
+        {
+          "text": "精通",
+          "kana": "せいつう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "反省，自我检查；（心理学）内省",
+      "japanese": "内省",
+      "kana": "ないせい",
+      "romaji": "naisei",
+      "tokens": [
+        {
+          "text": "内省",
+          "kana": "ないせい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "突出",
+      "japanese": "突出",
+      "kana": "とっしゅつ",
+      "romaji": "tosshutsu",
+      "tokens": [
+        {
+          "text": "突出",
+          "kana": "とっしゅつ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "往回走；开倒车，走回头路",
+      "japanese": "逆戻り",
+      "kana": "ぎゃくもどり",
+      "romaji": "gyakumodori",
+      "tokens": [
+        {
+          "text": "逆戻り",
+          "kana": "ぎゃくもどり"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "散布，传播",
+      "japanese": "流布",
+      "kana": "るふ",
+      "romaji": "rufu",
+      "tokens": [
+        {
+          "text": "流布",
+          "kana": "るふ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "察觉，感知",
+      "japanese": "感知",
+      "kana": "かんち",
+      "romaji": "kanchi",
+      "tokens": [
+        {
+          "text": "感知",
+          "kana": "かんち"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "感叹，赞叹",
+      "japanese": "感嘆",
+      "kana": "かんたん",
+      "romaji": "kantan",
+      "tokens": [
+        {
+          "text": "感嘆",
+          "kana": "かんたん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "急进；激进，冒进",
+      "japanese": "急進",
+      "kana": "きゅうしん",
+      "romaji": "kyuushin",
+      "tokens": [
+        {
+          "text": "急進",
+          "kana": "きゅうしん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "迈进，挺进",
+      "japanese": "邁[まい]進",
+      "kana": "まいしん",
+      "romaji": "maishin",
+      "tokens": [
+        {
+          "text": "邁[まい]進",
+          "kana": "まいしん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "转移，扩散",
+      "japanese": "転移",
+      "kana": "てんい",
+      "romaji": "ten'i",
+      "tokens": [
+        {
+          "text": "転移",
+          "kana": "てんい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "纠纷，混乱",
+      "japanese": "紛糾",
+      "kana": "ふんきゅう",
+      "romaji": "funkyuu",
+      "tokens": [
+        {
+          "text": "紛糾",
+          "kana": "ふんきゅう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "巡回；巡视",
+      "japanese": "巡回",
+      "kana": "じゅんかい",
+      "romaji": "junkai",
+      "tokens": [
+        {
+          "text": "巡回",
+          "kana": "じゅんかい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "干涸，枯竭；缺乏，罄尽",
+      "japanese": "枯渇",
+      "kana": "こかつ",
+      "romaji": "kokatsu",
+      "tokens": [
+        {
+          "text": "枯渇",
+          "kana": "こかつ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "参加竞选，当候选人",
+      "japanese": "出馬",
+      "kana": "しゅつば",
+      "romaji": "shutsuba",
+      "tokens": [
+        {
+          "text": "出馬",
+          "kana": "しゅつば"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "上锁",
+      "japanese": "施錠",
+      "kana": "せじょう",
+      "romaji": "sejou",
+      "tokens": [
+        {
+          "text": "施錠",
+          "kana": "せじょう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "沉降，下沉",
+      "japanese": "沈下",
+      "kana": "ちんか",
+      "romaji": "chinka",
+      "tokens": [
+        {
+          "text": "沈下",
+          "kana": "ちんか"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "露出，裸露；曝光",
+      "japanese": "露出",
+      "kana": "ろしゅつ",
+      "romaji": "roshutsu",
+      "tokens": [
+        {
+          "text": "露出",
+          "kana": "ろしゅつ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "梦想，幻想，空想",
+      "japanese": "夢想",
+      "kana": "むそう",
+      "romaji": "musou",
+      "tokens": [
+        {
+          "text": "夢想",
+          "kana": "むそう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "赔偿，补偿；代价",
+      "japanese": "代償",
+      "kana": "だいしょう",
+      "romaji": "daishou",
+      "tokens": [
+        {
+          "text": "代償",
+          "kana": "だいしょう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "讴歌，歌颂",
+      "japanese": "謳[おう]歌",
+      "kana": "おうか",
+      "romaji": "ouka",
+      "tokens": [
+        {
+          "text": "謳[おう]歌",
+          "kana": "おうか"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "潜伏，躲藏，隐藏；（疾病）潜伏",
+      "japanese": "潜伏",
+      "kana": "せんぷく",
+      "romaji": "senpuku",
+      "tokens": [
+        {
+          "text": "潜伏",
+          "kana": "せんぷく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "自重，慎重；保重，珍重",
+      "japanese": "自重",
+      "kana": "じちょう",
+      "romaji": "jichou",
+      "tokens": [
+        {
+          "text": "自重",
+          "kana": "じちょう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "店铺，商店",
+      "japanese": "店舗",
+      "kana": "てんぽ",
+      "romaji": "tenpo",
+      "tokens": [
+        {
+          "text": "店舗",
+          "kana": "てんぽ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "村落，村庄，城镇",
+      "japanese": "人里",
+      "kana": "ひとざと",
+      "romaji": "hitozato",
+      "tokens": [
+        {
+          "text": "人里",
+          "kana": "ひとざと"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "土壤",
+      "japanese": "土壌",
+      "kana": "どじょう",
+      "romaji": "dojou",
+      "tokens": [
+        {
+          "text": "土壌",
+          "kana": "どじょう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "寄生虫；靠别人养活的人",
+      "japanese": "寄生虫",
+      "kana": "きせいちゅう",
+      "romaji": "kiseichuu",
+      "tokens": [
+        {
+          "text": "寄生虫",
+          "kana": "きせいちゅう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "营生；办事，准备",
+      "japanese": "営み",
+      "kana": "いとなみ",
+      "romaji": "itonami",
+      "tokens": [
+        {
+          "text": "営み",
+          "kana": "いとなみ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "使用者；擅长使用的人",
+      "japanese": "使い手",
+      "kana": "つかいて",
+      "romaji": "tsukaite",
+      "tokens": [
+        {
+          "text": "使い手",
+          "kana": "つかいて"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "亚麻布；床单、枕套、桌布、毛巾等的总称",
+      "japanese": "リネン",
+      "kana": "りねん",
+      "romaji": "rinen",
+      "tokens": [
+        {
+          "text": "リネン",
+          "kana": "りねん"
+        }
+      ]
+    }
+  ]
+}

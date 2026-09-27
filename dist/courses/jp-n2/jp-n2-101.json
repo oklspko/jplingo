@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-101",
+  "coursePackId": "jp-n2",
+  "title": "副词 2",
+  "order": 101,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "怎能，想不到，难道；万一",
+      "japanese": "まさか",
+      "kana": "まさか",
+      "romaji": "masaka",
+      "tokens": [
+        {
+          "text": "まさか",
+          "kana": "まさか"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "越发，更加",
+      "japanese": "ますます",
+      "kana": "ますます",
+      "romaji": "masumasu",
+      "tokens": [
+        {
+          "text": "ますます",
+          "kana": "ますます"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "不久，一会",
+      "japanese": "まもなく",
+      "kana": "まもなく",
+      "romaji": "mamonaku",
+      "tokens": [
+        {
+          "text": "まもなく",
+          "kana": "まもなく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "故意",
+      "japanese": "わざと",
+      "kana": "わざと",
+      "romaji": "wazato",
+      "tokens": [
+        {
+          "text": "わざと",
+          "kana": "わざと"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "到底，究竟；原本，本来；大体上，总的说来",
+      "japanese": "一体",
+      "kana": "いったい",
+      "romaji": "ittai",
+      "tokens": [
+        {
+          "text": "一体",
+          "kana": "いったい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "无论如何，总之",
+      "japanese": "何しろ",
+      "kana": "なにしろ",
+      "romaji": "nanishiro",
+      "tokens": [
+        {
+          "text": "何しろ",
+          "kana": "なにしろ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "总觉得，不由得",
+      "japanese": "何となく",
+      "kana": "なんとなく",
+      "romaji": "nantonaku",
+      "tokens": [
+        {
+          "text": "何となく",
+          "kana": "なんとなく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "已经",
+      "japanese": "すでに",
+      "kana": "すでに",
+      "romaji": "sudeni",
+      "tokens": [
+        {
+          "text": "すでに",
+          "kana": "すでに"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "更加；再",
+      "japanese": "さらに",
+      "kana": "さらに",
+      "romaji": "sarani",
+      "tokens": [
+        {
+          "text": "さらに",
+          "kana": "さらに"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "不由得",
+      "japanese": "思わず",
+      "kana": "おもわず",
+      "romaji": "omowazu",
+      "tokens": [
+        {
+          "text": "思わず",
+          "kana": "おもわず"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "事实，真相；事实上，确实",
+      "japanese": "事実",
+      "kana": "じじつ",
+      "romaji": "jijitsu",
+      "tokens": [
+        {
+          "text": "事実",
+          "kana": "じじつ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "确实，就是；恰好",
+      "japanese": "正に",
+      "kana": "まさに",
+      "romaji": "masani",
+      "tokens": [
+        {
+          "text": "正に",
+          "kana": "まさに"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "生动，生气勃勃",
+      "japanese": "生き生き",
+      "kana": "いきいき",
+      "romaji": "ikiiki",
+      "tokens": [
+        {
+          "text": "生き生き",
+          "kana": "いきいき"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "不断地，总是",
+      "japanese": "絶えず",
+      "kana": "たえず",
+      "romaji": "taezu",
+      "tokens": [
+        {
+          "text": "絶えず",
+          "kana": "たえず"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "干脆，索性",
+      "japanese": "いっそ",
+      "kana": "いっそ",
+      "romaji": "isso",
+      "tokens": [
+        {
+          "text": "いっそ",
+          "kana": "いっそ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "闪烁，闪耀，耀眼",
+      "japanese": "きらきら",
+      "kana": "きらきら",
+      "romaji": "kirakira",
+      "tokens": [
+        {
+          "text": "きらきら",
+          "kana": "きらきら"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "蘸水多；泡澡；完全陷入（某个环境或世界中）",
+      "japanese": "どっぷり",
+      "kana": "どっぷり",
+      "romaji": "doppuri",
+      "tokens": [
+        {
+          "text": "どっぷり",
+          "kana": "どっぷり"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "如何，多么；多少",
+      "japanese": "どれほど",
+      "kana": "どれほど",
+      "romaji": "dorehodo",
+      "tokens": [
+        {
+          "text": "どれほど",
+          "kana": "どれほど"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "更加，进一步",
+      "japanese": "より(副)",
+      "kana": "より",
+      "romaji": "yori",
+      "tokens": [
+        {
+          "text": "より(副)",
+          "kana": "より"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "不知为何，总觉得",
+      "japanese": "何だか",
+      "kana": "なんだか",
+      "romaji": "nandaka",
+      "tokens": [
+        {
+          "text": "何だか",
+          "kana": "なんだか"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "全部，一个不剩",
+      "japanese": "残らず",
+      "kana": "のこらず",
+      "romaji": "nokorazu",
+      "tokens": [
+        {
+          "text": "残らず",
+          "kana": "のこらず"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "按顺次，依次",
+      "japanese": "順に",
+      "kana": "じゅんに",
+      "romaji": "junni",
+      "tokens": [
+        {
+          "text": "順に",
+          "kana": "じゅんに"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "再（也不）……",
+      "japanese": "二度と",
+      "kana": "にどと",
+      "romaji": "nidoto",
+      "tokens": [
+        {
+          "text": "二度と",
+          "kana": "にどと"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "每年，逐年",
+      "japanese": "年々",
+      "kana": "ねんねん",
+      "romaji": "nennen",
+      "tokens": [
+        {
+          "text": "年々",
+          "kana": "ねんねん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "自然地，自动地",
+      "japanese": "ひとりでに",
+      "kana": "ひとりでに",
+      "romaji": "hitorideni",
+      "tokens": [
+        {
+          "text": "ひとりでに",
+          "kana": "ひとりでに"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "再次，又",
+      "japanese": "再び",
+      "kana": "ふたたび",
+      "romaji": "futatabi",
+      "tokens": [
+        {
+          "text": "再び",
+          "kana": "ふたたび"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "潮湿；阴郁",
+      "japanese": "じめじめ",
+      "kana": "じめじめ",
+      "romaji": "jimejime",
+      "tokens": [
+        {
+          "text": "じめじめ",
+          "kana": "じめじめ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "随后",
+      "japanese": "後ほど",
+      "kana": "のちほど",
+      "romaji": "nochihodo",
+      "tokens": [
+        {
+          "text": "後ほど",
+          "kana": "のちほど"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "说起来，可谓是",
+      "japanese": "いわば",
+      "kana": "いわば",
+      "romaji": "iwaba",
+      "tokens": [
+        {
+          "text": "いわば",
+          "kana": "いわば"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "马上，立即，忽然",
+      "japanese": "たちまち",
+      "kana": "たちまち",
+      "romaji": "tachimachi",
+      "tokens": [
+        {
+          "text": "たちまち",
+          "kana": "たちまち"
+        }
+      ]
+    }
+  ]
+}

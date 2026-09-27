@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-16",
+  "coursePackId": "jp-gaokao",
+  "title": "动词低频 2",
+  "order": 16,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "漂亮、别致",
+      "japanese": "洒落る",
+      "kana": "しゃれる",
+      "romaji": "shareru",
+      "tokens": [
+        {
+          "text": "洒落る",
+          "kana": "しゃれる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "打探、触摸",
+      "japanese": "探る",
+      "kana": "さぐる",
+      "romaji": "saguru",
+      "tokens": [
+        {
+          "text": "探る",
+          "kana": "さぐる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "把～热一下",
+      "japanese": "温める",
+      "kana": "あたためる",
+      "romaji": "atatameru",
+      "tokens": [
+        {
+          "text": "温める",
+          "kana": "あたためる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "喜欢、偏好",
+      "japanese": "好む",
+      "kana": "このむ",
+      "romaji": "konomu",
+      "tokens": [
+        {
+          "text": "好む",
+          "kana": "このむ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "（自他一）撑伞",
+      "japanese": "差す",
+      "kana": "さす",
+      "romaji": "sasu",
+      "tokens": [
+        {
+          "text": "差す",
+          "kana": "さす"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "弄破、损毁",
+      "japanese": "破る",
+      "kana": "やぶる",
+      "romaji": "yaburu",
+      "tokens": [
+        {
+          "text": "破る",
+          "kana": "やぶる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "穿过",
+      "japanese": "通り抜ける",
+      "kana": "とおりぬける",
+      "romaji": "toorinukeru",
+      "tokens": [
+        {
+          "text": "通り抜ける",
+          "kana": "とおりぬける"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "建、盖",
+      "japanese": "建つ",
+      "kana": "たつ",
+      "romaji": "tatsu",
+      "tokens": [
+        {
+          "text": "建つ",
+          "kana": "たつ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "错综复杂",
+      "japanese": "入り組む",
+      "kana": "いりくむ",
+      "romaji": "irikumu",
+      "tokens": [
+        {
+          "text": "入り組む",
+          "kana": "いりくむ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "有效",
+      "japanese": "効く",
+      "kana": "きく",
+      "romaji": "kiku",
+      "tokens": [
+        {
+          "text": "効く",
+          "kana": "きく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "替换",
+      "japanese": "取り替える",
+      "kana": "とりかえる",
+      "romaji": "torikaeru",
+      "tokens": [
+        {
+          "text": "取り替える",
+          "kana": "とりかえる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "拿着～走、随身携带",
+      "japanese": "持ち歩く",
+      "kana": "もちあるく",
+      "romaji": "mochiaruku",
+      "tokens": [
+        {
+          "text": "持ち歩く",
+          "kana": "もちあるく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "拒绝",
+      "japanese": "断る",
+      "kana": "ことわる",
+      "romaji": "kotowaru",
+      "tokens": [
+        {
+          "text": "断る",
+          "kana": "ことわる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "看见、看到",
+      "japanese": "見かける",
+      "kana": "みかける",
+      "romaji": "mikakeru",
+      "tokens": [
+        {
+          "text": "見かける",
+          "kana": "みかける"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "微笑",
+      "japanese": "微笑む",
+      "kana": "ほほえむ",
+      "romaji": "hohoemu",
+      "tokens": [
+        {
+          "text": "微笑む",
+          "kana": "ほほえむ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "撞上、碰上",
+      "japanese": "他二",
+      "kana": "たに",
+      "romaji": "tani",
+      "tokens": [
+        {
+          "text": "他二",
+          "kana": "たに"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "折断、拐弯",
+      "japanese": "折れる",
+      "kana": "おれる",
+      "romaji": "oreru",
+      "tokens": [
+        {
+          "text": "折れる",
+          "kana": "おれる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "欺负、糟蹋",
+      "japanese": "虐める・苛める",
+      "kana": "いじめる",
+      "romaji": "ijimeru",
+      "tokens": [
+        {
+          "text": "虐める・苛める",
+          "kana": "いじめる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "下来、退位",
+      "japanese": "下りる",
+      "kana": "おりる",
+      "romaji": "oriru",
+      "tokens": [
+        {
+          "text": "下りる",
+          "kana": "おりる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "滚、滚动",
+      "japanese": "転げる",
+      "kana": "ころげる",
+      "romaji": "korogeru",
+      "tokens": [
+        {
+          "text": "転げる",
+          "kana": "ころげる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "不同",
+      "japanese": "異なる",
+      "kana": "ことなる",
+      "romaji": "kotonaru",
+      "tokens": [
+        {
+          "text": "異なる",
+          "kana": "ことなる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "整齐、端正",
+      "japanese": "整う",
+      "kana": "ととのう",
+      "romaji": "totonou",
+      "tokens": [
+        {
+          "text": "整う",
+          "kana": "ととのう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（自他一）挣钱、赚钱、赢得",
+      "japanese": "稼ぐ",
+      "kana": "かせぐ",
+      "romaji": "kasegu",
+      "tokens": [
+        {
+          "text": "稼ぐ",
+          "kana": "かせぐ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "翻译",
+      "japanese": "訳す",
+      "kana": "やくす",
+      "romaji": "yakusu",
+      "tokens": [
+        {
+          "text": "訳す",
+          "kana": "やくす"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "烧、烤、晒、嫉妒",
+      "japanese": "焼ける",
+      "kana": "やける",
+      "romaji": "yakeru",
+      "tokens": [
+        {
+          "text": "焼ける",
+          "kana": "やける"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "翘课、翘班",
+      "japanese": "他一",
+      "kana": "たいち",
+      "romaji": "taichi",
+      "tokens": [
+        {
+          "text": "他一",
+          "kana": "たいち"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "租用",
+      "japanese": "雇う",
+      "kana": "やとう",
+      "romaji": "yatou",
+      "tokens": [
+        {
+          "text": "雇う",
+          "kana": "やとう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "告知、通知、报晓",
+      "japanese": "告げる",
+      "kana": "つげる",
+      "romaji": "tsugeru",
+      "tokens": [
+        {
+          "text": "告げる",
+          "kana": "つげる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "汇总、整理",
+      "japanese": "纏める",
+      "kana": "まとめる",
+      "romaji": "matomeru",
+      "tokens": [
+        {
+          "text": "纏める",
+          "kana": "まとめる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（自他一）害怕",
+      "japanese": "怖がる",
+      "kana": "こわがる",
+      "romaji": "kowagaru",
+      "tokens": [
+        {
+          "text": "怖がる",
+          "kana": "こわがる"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "弄破、损毁",
+      "japanese": "破る",
+      "kana": "やぶる",
+      "romaji": "yaburu",
+      "tokens": [
+        {
+          "text": "破る",
+          "kana": "やぶる"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "（自他一）害怕",
+      "japanese": "怖がる",
+      "kana": "こわがる",
+      "romaji": "kowagaru",
+      "tokens": [
+        {
+          "text": "怖がる",
+          "kana": "こわがる"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "滚、滚动",
+      "japanese": "転げる",
+      "kana": "ころげる",
+      "romaji": "korogeru",
+      "tokens": [
+        {
+          "text": "転げる",
+          "kana": "ころげる"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "打探、触摸",
+      "japanese": "探る",
+      "kana": "さぐる",
+      "romaji": "saguru",
+      "tokens": [
+        {
+          "text": "探る",
+          "kana": "さぐる"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "烧、烤、晒、嫉妒",
+      "japanese": "焼ける",
+      "kana": "やける",
+      "romaji": "yakeru",
+      "tokens": [
+        {
+          "text": "焼ける",
+          "kana": "やける"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "看见、看到",
+      "japanese": "見かける",
+      "kana": "みかける",
+      "romaji": "mikakeru",
+      "tokens": [
+        {
+          "text": "見かける",
+          "kana": "みかける"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "（自他一）撑伞",
+      "japanese": "差す",
+      "kana": "さす",
+      "romaji": "sasu",
+      "tokens": [
+        {
+          "text": "差す",
+          "kana": "さす"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "折断、拐弯",
+      "japanese": "折れる",
+      "kana": "おれる",
+      "romaji": "oreru",
+      "tokens": [
+        {
+          "text": "折れる",
+          "kana": "おれる"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "汇总、整理",
+      "japanese": "纏める",
+      "kana": "まとめる",
+      "romaji": "matomeru",
+      "tokens": [
+        {
+          "text": "纏める",
+          "kana": "まとめる"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "错综复杂",
+      "japanese": "入り組む",
+      "kana": "いりくむ",
+      "romaji": "irikumu",
+      "tokens": [
+        {
+          "text": "入り組む",
+          "kana": "いりくむ"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "下来、退位",
+      "japanese": "下りる",
+      "kana": "おりる",
+      "romaji": "oriru",
+      "tokens": [
+        {
+          "text": "下りる",
+          "kana": "おりる"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "微笑",
+      "japanese": "微笑む",
+      "kana": "ほほえむ",
+      "romaji": "hohoemu",
+      "tokens": [
+        {
+          "text": "微笑む",
+          "kana": "ほほえむ"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "漂亮、别致",
+      "japanese": "洒落る",
+      "kana": "しゃれる",
+      "romaji": "shareru",
+      "tokens": [
+        {
+          "text": "洒落る",
+          "kana": "しゃれる"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "把～热一下",
+      "japanese": "温める",
+      "kana": "あたためる",
+      "romaji": "atatameru",
+      "tokens": [
+        {
+          "text": "温める",
+          "kana": "あたためる"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "告知、通知、报晓",
+      "japanese": "告げる",
+      "kana": "つげる",
+      "romaji": "tsugeru",
+      "tokens": [
+        {
+          "text": "告げる",
+          "kana": "つげる"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "拒绝",
+      "japanese": "断る",
+      "kana": "ことわる",
+      "romaji": "kotowaru",
+      "tokens": [
+        {
+          "text": "断る",
+          "kana": "ことわる"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "喜欢、偏好",
+      "japanese": "好む",
+      "kana": "このむ",
+      "romaji": "konomu",
+      "tokens": [
+        {
+          "text": "好む",
+          "kana": "このむ"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "翻译",
+      "japanese": "訳す",
+      "kana": "やくす",
+      "romaji": "yakusu",
+      "tokens": [
+        {
+          "text": "訳す",
+          "kana": "やくす"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "撞上、碰上",
+      "japanese": "他二",
+      "kana": "たに",
+      "romaji": "tani",
+      "tokens": [
+        {
+          "text": "他二",
+          "kana": "たに"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "拿着～走、随身携带",
+      "japanese": "持ち歩く",
+      "kana": "もちあるく",
+      "romaji": "mochiaruku",
+      "tokens": [
+        {
+          "text": "持ち歩く",
+          "kana": "もちあるく"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "穿过",
+      "japanese": "通り抜ける",
+      "kana": "とおりぬける",
+      "romaji": "toorinukeru",
+      "tokens": [
+        {
+          "text": "通り抜ける",
+          "kana": "とおりぬける"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "替换",
+      "japanese": "取り替える",
+      "kana": "とりかえる",
+      "romaji": "torikaeru",
+      "tokens": [
+        {
+          "text": "取り替える",
+          "kana": "とりかえる"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "翘课、翘班",
+      "japanese": "他一",
+      "kana": "たいち",
+      "romaji": "taichi",
+      "tokens": [
+        {
+          "text": "他一",
+          "kana": "たいち"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "建、盖",
+      "japanese": "建つ",
+      "kana": "たつ",
+      "romaji": "tatsu",
+      "tokens": [
+        {
+          "text": "建つ",
+          "kana": "たつ"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "租用",
+      "japanese": "雇う",
+      "kana": "やとう",
+      "romaji": "yatou",
+      "tokens": [
+        {
+          "text": "雇う",
+          "kana": "やとう"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "不同",
+      "japanese": "異なる",
+      "kana": "ことなる",
+      "romaji": "kotonaru",
+      "tokens": [
+        {
+          "text": "異なる",
+          "kana": "ことなる"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "欺负、糟蹋",
+      "japanese": "虐める・苛める",
+      "kana": "いじめる",
+      "romaji": "ijimeru",
+      "tokens": [
+        {
+          "text": "虐める・苛める",
+          "kana": "いじめる"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "有效",
+      "japanese": "効く",
+      "kana": "きく",
+      "romaji": "kiku",
+      "tokens": [
+        {
+          "text": "効く",
+          "kana": "きく"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "（自他一）挣钱、赚钱、赢得",
+      "japanese": "稼ぐ",
+      "kana": "かせぐ",
+      "romaji": "kasegu",
+      "tokens": [
+        {
+          "text": "稼ぐ",
+          "kana": "かせぐ"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "整齐、端正",
+      "japanese": "整う",
+      "kana": "ととのう",
+      "romaji": "totonou",
+      "tokens": [
+        {
+          "text": "整う",
+          "kana": "ととのう"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "（自他一）撑伞",
+      "japanese": "差す",
+      "kana": "さす",
+      "romaji": "sasu",
+      "tokens": [
+        {
+          "text": "差す",
+          "kana": "さす"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "微笑",
+      "japanese": "微笑む",
+      "kana": "ほほえむ",
+      "romaji": "hohoemu",
+      "tokens": [
+        {
+          "text": "微笑む",
+          "kana": "ほほえむ"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "漂亮、别致",
+      "japanese": "洒落る",
+      "kana": "しゃれる",
+      "romaji": "shareru",
+      "tokens": [
+        {
+          "text": "洒落る",
+          "kana": "しゃれる"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "租用",
+      "japanese": "雇う",
+      "kana": "やとう",
+      "romaji": "yatou",
+      "tokens": [
+        {
+          "text": "雇う",
+          "kana": "やとう"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "（自他一）挣钱、赚钱、赢得",
+      "japanese": "稼ぐ",
+      "kana": "かせぐ",
+      "romaji": "kasegu",
+      "tokens": [
+        {
+          "text": "稼ぐ",
+          "kana": "かせぐ"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "汇总、整理",
+      "japanese": "纏める",
+      "kana": "まとめる",
+      "romaji": "matomeru",
+      "tokens": [
+        {
+          "text": "纏める",
+          "kana": "まとめる"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "欺负、糟蹋",
+      "japanese": "虐める・苛める",
+      "kana": "いじめる",
+      "romaji": "ijimeru",
+      "tokens": [
+        {
+          "text": "虐める・苛める",
+          "kana": "いじめる"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "整齐、端正",
+      "japanese": "整う",
+      "kana": "ととのう",
+      "romaji": "totonou",
+      "tokens": [
+        {
+          "text": "整う",
+          "kana": "ととのう"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "喜欢、偏好",
+      "japanese": "好む",
+      "kana": "このむ",
+      "romaji": "konomu",
+      "tokens": [
+        {
+          "text": "好む",
+          "kana": "このむ"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "错综复杂",
+      "japanese": "入り組む",
+      "kana": "いりくむ",
+      "romaji": "irikumu",
+      "tokens": [
+        {
+          "text": "入り組む",
+          "kana": "いりくむ"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "有效",
+      "japanese": "効く",
+      "kana": "きく",
+      "romaji": "kiku",
+      "tokens": [
+        {
+          "text": "効く",
+          "kana": "きく"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "撞上、碰上",
+      "japanese": "他二",
+      "kana": "たに",
+      "romaji": "tani",
+      "tokens": [
+        {
+          "text": "他二",
+          "kana": "たに"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "下来、退位",
+      "japanese": "下りる",
+      "kana": "おりる",
+      "romaji": "oriru",
+      "tokens": [
+        {
+          "text": "下りる",
+          "kana": "おりる"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "滚、滚动",
+      "japanese": "転げる",
+      "kana": "ころげる",
+      "romaji": "korogeru",
+      "tokens": [
+        {
+          "text": "転げる",
+          "kana": "ころげる"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "告知、通知、报晓",
+      "japanese": "告げる",
+      "kana": "つげる",
+      "romaji": "tsugeru",
+      "tokens": [
+        {
+          "text": "告げる",
+          "kana": "つげる"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "拿着～走、随身携带",
+      "japanese": "持ち歩く",
+      "kana": "もちあるく",
+      "romaji": "mochiaruku",
+      "tokens": [
+        {
+          "text": "持ち歩く",
+          "kana": "もちあるく"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "翻译",
+      "japanese": "訳す",
+      "kana": "やくす",
+      "romaji": "yakusu",
+      "tokens": [
+        {
+          "text": "訳す",
+          "kana": "やくす"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "建、盖",
+      "japanese": "建つ",
+      "kana": "たつ",
+      "romaji": "tatsu",
+      "tokens": [
+        {
+          "text": "建つ",
+          "kana": "たつ"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "翘课、翘班",
+      "japanese": "他一",
+      "kana": "たいち",
+      "romaji": "taichi",
+      "tokens": [
+        {
+          "text": "他一",
+          "kana": "たいち"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "不同",
+      "japanese": "異なる",
+      "kana": "ことなる",
+      "romaji": "kotonaru",
+      "tokens": [
+        {
+          "text": "異なる",
+          "kana": "ことなる"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "弄破、损毁",
+      "japanese": "破る",
+      "kana": "やぶる",
+      "romaji": "yaburu",
+      "tokens": [
+        {
+          "text": "破る",
+          "kana": "やぶる"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "替换",
+      "japanese": "取り替える",
+      "kana": "とりかえる",
+      "romaji": "torikaeru",
+      "tokens": [
+        {
+          "text": "取り替える",
+          "kana": "とりかえる"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "折断、拐弯",
+      "japanese": "折れる",
+      "kana": "おれる",
+      "romaji": "oreru",
+      "tokens": [
+        {
+          "text": "折れる",
+          "kana": "おれる"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "看见、看到",
+      "japanese": "見かける",
+      "kana": "みかける",
+      "romaji": "mikakeru",
+      "tokens": [
+        {
+          "text": "見かける",
+          "kana": "みかける"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "烧、烤、晒、嫉妒",
+      "japanese": "焼ける",
+      "kana": "やける",
+      "romaji": "yakeru",
+      "tokens": [
+        {
+          "text": "焼ける",
+          "kana": "やける"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "把～热一下",
+      "japanese": "温める",
+      "kana": "あたためる",
+      "romaji": "atatameru",
+      "tokens": [
+        {
+          "text": "温める",
+          "kana": "あたためる"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "穿过",
+      "japanese": "通り抜ける",
+      "kana": "とおりぬける",
+      "romaji": "toorinukeru",
+      "tokens": [
+        {
+          "text": "通り抜ける",
+          "kana": "とおりぬける"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "（自他一）害怕",
+      "japanese": "怖がる",
+      "kana": "こわがる",
+      "romaji": "kowagaru",
+      "tokens": [
+        {
+          "text": "怖がる",
+          "kana": "こわがる"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "拒绝",
+      "japanese": "断る",
+      "kana": "ことわる",
+      "romaji": "kotowaru",
+      "tokens": [
+        {
+          "text": "断る",
+          "kana": "ことわる"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "打探、触摸",
+      "japanese": "探る",
+      "kana": "さぐる",
+      "romaji": "saguru",
+      "tokens": [
+        {
+          "text": "探る",
+          "kana": "さぐる"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-30",
+  "coursePackId": "jp-n3",
+  "title": "名词 30",
+  "order": 30,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "训练，培训",
+      "japanese": "訓練",
+      "kana": "くんれん",
+      "romaji": "kunren",
+      "tokens": [
+        {
+          "text": "訓練",
+          "kana": "くんれん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "和睦，和平",
+      "japanese": "平和",
+      "kana": "へいわ",
+      "romaji": "heiwa",
+      "tokens": [
+        {
+          "text": "平和",
+          "kana": "へいわ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "感觉，知觉；感受",
+      "japanese": "感覚",
+      "kana": "かんかく",
+      "romaji": "kankaku",
+      "tokens": [
+        {
+          "text": "感覚",
+          "kana": "かんかく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "传话，带口信",
+      "japanese": "伝言",
+      "kana": "でんごん",
+      "romaji": "dengon",
+      "tokens": [
+        {
+          "text": "伝言",
+          "kana": "でんごん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "印章，图章",
+      "japanese": "判子",
+      "kana": "はんこ",
+      "romaji": "hanko",
+      "tokens": [
+        {
+          "text": "判子",
+          "kana": "はんこ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "提议；申请，报名，预约",
+      "japanese": "申し込み",
+      "kana": "もうしこみ",
+      "romaji": "moushikomi",
+      "tokens": [
+        {
+          "text": "申し込み",
+          "kana": "もうしこみ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "收，领；收据",
+      "japanese": "受け取り",
+      "kana": "うけとり",
+      "romaji": "uketori",
+      "tokens": [
+        {
+          "text": "受け取り",
+          "kana": "うけとり"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "同样，一样",
+      "japanese": "同様",
+      "kana": "どうよう",
+      "romaji": "douyou",
+      "tokens": [
+        {
+          "text": "同様",
+          "kana": "どうよう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "点心，零食",
+      "japanese": "おやつ",
+      "kana": "おやつ",
+      "romaji": "oyatsu",
+      "tokens": [
+        {
+          "text": "おやつ",
+          "kana": "おやつ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "侄女，外甥女",
+      "japanese": "姪[めい]",
+      "kana": "めい",
+      "romaji": "mei",
+      "tokens": [
+        {
+          "text": "姪[めい]",
+          "kana": "めい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "蜡烛",
+      "japanese": "ろうそく",
+      "kana": "ろうそく",
+      "romaji": "rousoku",
+      "tokens": [
+        {
+          "text": "ろうそく",
+          "kana": "ろうそく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "过敏",
+      "japanese": "アレルギー",
+      "kana": "あれるぎい",
+      "romaji": "arerugii",
+      "tokens": [
+        {
+          "text": "アレルギー",
+          "kana": "あれるぎい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "指导手册，指南",
+      "japanese": "ガイドブック",
+      "kana": "がいどぶっく",
+      "romaji": "gaidobukku",
+      "tokens": [
+        {
+          "text": "ガイドブック",
+          "kana": "がいどぶっく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "文化",
+      "japanese": "カルチャー",
+      "kana": "かるちゃあ",
+      "romaji": "karuchaa",
+      "tokens": [
+        {
+          "text": "カルチャー",
+          "kana": "かるちゃあ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "竞猜，智力问答",
+      "japanese": "クイズ",
+      "kana": "くいず",
+      "romaji": "kuizu",
+      "tokens": [
+        {
+          "text": "クイズ",
+          "kana": "くいず"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "拐角；柜台，专柜；专栏，节目",
+      "japanese": "コーナー",
+      "kana": "こうなあ",
+      "romaji": "kounaa",
+      "tokens": [
+        {
+          "text": "コーナー",
+          "kana": "こうなあ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "交流，沟通",
+      "japanese": "コミュニケーション",
+      "kana": "こみゅにけえしょん",
+      "romaji": "komyunikeeshon",
+      "tokens": [
+        {
+          "text": "コミュニケーション",
+          "kana": "こみゅにけえしょん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "橡胶，用橡胶制作的东西",
+      "japanese": "ゴム",
+      "kana": "ごむ",
+      "romaji": "gomu",
+      "tokens": [
+        {
+          "text": "ゴム",
+          "kana": "ごむ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "好久未见，久疏问候",
+      "japanese": "御無沙汰",
+      "kana": "ごぶさた",
+      "romaji": "gobusata",
+      "tokens": [
+        {
+          "text": "御無沙汰",
+          "kana": "ごぶさた"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "台，座；看台，观览席",
+      "japanese": "スタンド",
+      "kana": "すたんど",
+      "romaji": "sutando",
+      "tokens": [
+        {
+          "text": "スタンド",
+          "kana": "すたんど"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "扬声器，扩音器；说话的人",
+      "japanese": "スピーカー",
+      "kana": "すぴいかあ",
+      "romaji": "supiikaa",
+      "tokens": [
+        {
+          "text": "スピーカー",
+          "kana": "すぴいかあ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "挑战",
+      "japanese": "チャレンジ",
+      "kana": "ちゃれんじ",
+      "romaji": "charenji",
+      "tokens": [
+        {
+          "text": "チャレンジ",
+          "kana": "ちゃれんじ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "训练，锻炼",
+      "japanese": "トレーニング",
+      "kana": "とれえにんぐ",
+      "romaji": "toreeningu",
+      "tokens": [
+        {
+          "text": "トレーニング",
+          "kana": "とれえにんぐ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "远足，徒步旅行",
+      "japanese": "ハイキング",
+      "kana": "はいきんぐ",
+      "romaji": "haikingu",
+      "tokens": [
+        {
+          "text": "ハイキング",
+          "kana": "はいきんぐ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "芭蕾舞",
+      "japanese": "バレエ",
+      "kana": "ばれえ",
+      "romaji": "baree",
+      "tokens": [
+        {
+          "text": "バレエ",
+          "kana": "ばれえ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "电热器；取暖装置",
+      "japanese": "ヒーター",
+      "kana": "ひいたあ",
+      "romaji": "hiitaa",
+      "tokens": [
+        {
+          "text": "ヒーター",
+          "kana": "ひいたあ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "郊游，野炊",
+      "japanese": "ピクニック",
+      "kana": "ぴくにっく",
+      "romaji": "pikunikku",
+      "tokens": [
+        {
+          "text": "ピクニック",
+          "kana": "ぴくにっく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "拉链",
+      "japanese": "ファスナー",
+      "kana": "ふぁすなあ",
+      "romaji": "fuasunaa",
+      "tokens": [
+        {
+          "text": "ファスナー",
+          "kana": "ふぁすなあ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "长靴",
+      "japanese": "ブーツ",
+      "kana": "ぶうつ",
+      "romaji": "buutsu",
+      "tokens": [
+        {
+          "text": "ブーツ",
+          "kana": "ぶうつ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "塑料瓶",
+      "japanese": "ペットボトル",
+      "kana": "ぺっとぼとる",
+      "romaji": "pettobotoru",
+      "tokens": [
+        {
+          "text": "ペットボトル",
+          "kana": "ぺっとぼとる"
+        }
+      ]
+    }
+  ]
+}

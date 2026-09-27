@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-40",
+  "coursePackId": "jp-n3",
+  "title": "名词 40",
+  "order": 40,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "艺术家",
+      "japanese": "芸術家",
+      "kana": "げいじゅつか",
+      "romaji": "geijutsuka",
+      "tokens": [
+        {
+          "text": "芸術家",
+          "kana": "げいじゅつか"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "一周，一圈；十二年，一轮",
+      "japanese": "一回り",
+      "kana": "ひとまわり",
+      "romaji": "hitomawari",
+      "tokens": [
+        {
+          "text": "一回り",
+          "kana": "ひとまわり"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "饭馆，餐厅",
+      "japanese": "飲食店",
+      "kana": "いんしょくてん",
+      "romaji": "inshokuten",
+      "tokens": [
+        {
+          "text": "飲食店",
+          "kana": "いんしょくてん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "果实；坚果",
+      "japanese": "木の実",
+      "kana": "このみ",
+      "romaji": "konomi",
+      "tokens": [
+        {
+          "text": "木の実",
+          "kana": "このみ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "留恋，依依难舍，难以忘怀",
+      "japanese": "愛着",
+      "kana": "あいちゃく",
+      "romaji": "aichaku",
+      "tokens": [
+        {
+          "text": "愛着",
+          "kana": "あいちゃく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "音量",
+      "japanese": "音量",
+      "kana": "おんりょう",
+      "romaji": "onryou",
+      "tokens": [
+        {
+          "text": "音量",
+          "kana": "おんりょう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "馆内",
+      "japanese": "館内",
+      "kana": "かんない",
+      "romaji": "kannai",
+      "tokens": [
+        {
+          "text": "館内",
+          "kana": "かんない"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "蹭鞋垫；（体操）垫子，厚垫；垫子地板",
+      "japanese": "マット",
+      "kana": "まっと",
+      "romaji": "matto",
+      "tokens": [
+        {
+          "text": "マット",
+          "kana": "まっと"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "腹痛",
+      "japanese": "腹痛",
+      "kana": "ふくつう",
+      "romaji": "fukutsuu",
+      "tokens": [
+        {
+          "text": "腹痛",
+          "kana": "ふくつう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "煮（的菜），炖菜",
+      "japanese": "煮物",
+      "kana": "にもの",
+      "romaji": "nimono",
+      "tokens": [
+        {
+          "text": "煮物",
+          "kana": "にもの"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "心理咨询",
+      "japanese": "カウンセリング",
+      "kana": "かうんせりんぐ",
+      "romaji": "kaunseringu",
+      "tokens": [
+        {
+          "text": "カウンセリング",
+          "kana": "かうんせりんぐ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "构造，结构；组装",
+      "japanese": "組み立て",
+      "kana": "くみたて",
+      "romaji": "kumitate",
+      "tokens": [
+        {
+          "text": "組み立て",
+          "kana": "くみたて"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "背包，（登山）背囊",
+      "japanese": "リュックサック",
+      "kana": "りゅっくさっく",
+      "romaji": "ryukkusakku",
+      "tokens": [
+        {
+          "text": "リュックサック",
+          "kana": "りゅっくさっく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "消费者，用户",
+      "japanese": "消費者",
+      "kana": "しょうひしゃ",
+      "romaji": "shouhisha",
+      "tokens": [
+        {
+          "text": "消費者",
+          "kana": "しょうひしゃ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "开门，入场",
+      "japanese": "開場",
+      "kana": "かいじょう",
+      "romaji": "kaijou",
+      "tokens": [
+        {
+          "text": "開場",
+          "kana": "かいじょう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "酵素，酶",
+      "japanese": "酵素",
+      "kana": "こうそ",
+      "romaji": "kouso",
+      "tokens": [
+        {
+          "text": "酵素",
+          "kana": "こうそ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "绿地，公园",
+      "japanese": "緑地",
+      "kana": "りょくち",
+      "romaji": "ryokuchi",
+      "tokens": [
+        {
+          "text": "緑地",
+          "kana": "りょくち"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "行李架",
+      "japanese": "網棚",
+      "kana": "あみだな",
+      "romaji": "amidana",
+      "tokens": [
+        {
+          "text": "網棚",
+          "kana": "あみだな"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "说法",
+      "japanese": "言い方",
+      "kana": "いいかた",
+      "romaji": "iikata",
+      "tokens": [
+        {
+          "text": "言い方",
+          "kana": "いいかた"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "自己",
+      "japanese": "自分自身",
+      "kana": "じぶんじしん",
+      "romaji": "jibunjishin",
+      "tokens": [
+        {
+          "text": "自分自身",
+          "kana": "じぶんじしん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "早餐",
+      "japanese": "朝食",
+      "kana": "ちょうしょく",
+      "romaji": "choushoku",
+      "tokens": [
+        {
+          "text": "朝食",
+          "kana": "ちょうしょく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "急，急忙，急迫",
+      "japanese": "急ぎ",
+      "kana": "いそぎ",
+      "romaji": "isogi",
+      "tokens": [
+        {
+          "text": "急ぎ",
+          "kana": "いそぎ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "政治家",
+      "japanese": "政治家",
+      "kana": "せいじか",
+      "romaji": "seijika",
+      "tokens": [
+        {
+          "text": "政治家",
+          "kana": "せいじか"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "同席，在座",
+      "japanese": "同席",
+      "kana": "どうせき",
+      "romaji": "douseki",
+      "tokens": [
+        {
+          "text": "同席",
+          "kana": "どうせき"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（三四次、五六次）数回，数次",
+      "japanese": "数回",
+      "kana": "すうかい",
+      "romaji": "suukai",
+      "tokens": [
+        {
+          "text": "数回",
+          "kana": "すうかい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "生活；（「リビングルーム」の略）客厅",
+      "japanese": "リビング",
+      "kana": "りびんぐ",
+      "romaji": "ribingu",
+      "tokens": [
+        {
+          "text": "リビング",
+          "kana": "りびんぐ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "绵羊",
+      "japanese": "羊",
+      "kana": "ひつじ",
+      "romaji": "hitsuji",
+      "tokens": [
+        {
+          "text": "羊",
+          "kana": "ひつじ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "夹克衫，短上衣",
+      "japanese": "ジャケット",
+      "kana": "じゃけっと",
+      "romaji": "jaketto",
+      "tokens": [
+        {
+          "text": "ジャケット",
+          "kana": "じゃけっと"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "故事，小说；情节，结构",
+      "japanese": "ストーリー",
+      "kana": "すとうりい",
+      "romaji": "sutourii",
+      "tokens": [
+        {
+          "text": "ストーリー",
+          "kana": "すとうりい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "饲养主",
+      "japanese": "飼い主",
+      "kana": "かいぬし",
+      "romaji": "kainushi",
+      "tokens": [
+        {
+          "text": "飼い主",
+          "kana": "かいぬし"
+        }
+      ]
+    }
+  ]
+}

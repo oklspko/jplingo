@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-23",
+  "coursePackId": "jp-n2",
+  "title": "名词 23",
+  "order": 23,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "一层，一楼；更加",
+      "japanese": "一層",
+      "kana": "いっそう",
+      "romaji": "issou",
+      "tokens": [
+        {
+          "text": "一層",
+          "kana": "いっそう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "拥挤的人群",
+      "japanese": "人混み",
+      "kana": "ひとごみ",
+      "romaji": "hitogomi",
+      "tokens": [
+        {
+          "text": "人混み",
+          "kana": "ひとごみ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "果实",
+      "japanese": "果実",
+      "kana": "かじつ",
+      "romaji": "kajitsu",
+      "tokens": [
+        {
+          "text": "果実",
+          "kana": "かじつ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "长处，强项",
+      "japanese": "強み",
+      "kana": "つよみ",
+      "romaji": "tsuyomi",
+      "tokens": [
+        {
+          "text": "強み",
+          "kana": "つよみ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "拿进拿出，存取",
+      "japanese": "出し入れ",
+      "kana": "だしいれ",
+      "romaji": "dashiire",
+      "tokens": [
+        {
+          "text": "出し入れ",
+          "kana": "だしいれ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "继续，接续",
+      "japanese": "継続",
+      "kana": "けいぞく",
+      "romaji": "keizoku",
+      "tokens": [
+        {
+          "text": "継続",
+          "kana": "けいぞく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "遗失物",
+      "japanese": "落とし物",
+      "kana": "おとしもの",
+      "romaji": "otoshimono",
+      "tokens": [
+        {
+          "text": "落とし物",
+          "kana": "おとしもの"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "目标，目的，意图；瞄准",
+      "japanese": "狙い",
+      "kana": "ねらい",
+      "romaji": "nerai",
+      "tokens": [
+        {
+          "text": "狙い",
+          "kana": "ねらい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "东西；东西方；方向",
+      "japanese": "東西",
+      "kana": "とうざい",
+      "romaji": "touzai",
+      "tokens": [
+        {
+          "text": "東西",
+          "kana": "とうざい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "一种；（「…の一種」の形で）……的一种；（「一種の…」の形で）某种",
+      "japanese": "一種",
+      "kana": "いっしゅ",
+      "romaji": "isshu",
+      "tokens": [
+        {
+          "text": "一種",
+          "kana": "いっしゅ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "表演；演戏，装腔作势",
+      "japanese": "演技",
+      "kana": "えんぎ",
+      "romaji": "engi",
+      "tokens": [
+        {
+          "text": "演技",
+          "kana": "えんぎ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "本源，以前；（基）根本，根据；（素）材料",
+      "japanese": "元",
+      "kana": "もと",
+      "romaji": "moto",
+      "tokens": [
+        {
+          "text": "元",
+          "kana": "もと"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "关系，关联；联系，羁绊",
+      "japanese": "つながり",
+      "kana": "つながり",
+      "romaji": "tsunagari",
+      "tokens": [
+        {
+          "text": "つながり",
+          "kana": "つながり"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "谚语",
+      "japanese": "ことわざ",
+      "kana": "ことわざ",
+      "romaji": "kotowaza",
+      "tokens": [
+        {
+          "text": "ことわざ",
+          "kana": "ことわざ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "块；群体，集合；（「…の塊」の形で）极端……",
+      "japanese": "塊",
+      "kana": "かたまり",
+      "romaji": "katamari",
+      "tokens": [
+        {
+          "text": "塊",
+          "kana": "かたまり"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "交替，替换",
+      "japanese": "交代",
+      "kana": "こうたい",
+      "romaji": "koutai",
+      "tokens": [
+        {
+          "text": "交代",
+          "kana": "こうたい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "胡言乱语，不着边际",
+      "japanese": "でたらめ",
+      "kana": "でたらめ",
+      "romaji": "detarame",
+      "tokens": [
+        {
+          "text": "でたらめ",
+          "kana": "でたらめ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "尺子；标准，尺度",
+      "japanese": "物差し",
+      "kana": "ものさし",
+      "romaji": "monosashi",
+      "tokens": [
+        {
+          "text": "物差し",
+          "kana": "ものさし"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "麻烦，棘手；照料",
+      "japanese": "厄介",
+      "kana": "やっかい",
+      "romaji": "yakkai",
+      "tokens": [
+        {
+          "text": "厄介",
+          "kana": "やっかい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "扫帚",
+      "japanese": "ほうき",
+      "kana": "ほうき",
+      "romaji": "houki",
+      "tokens": [
+        {
+          "text": "ほうき",
+          "kana": "ほうき"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "熨斗",
+      "japanese": "アイロン",
+      "kana": "あいろん",
+      "romaji": "airon",
+      "tokens": [
+        {
+          "text": "アイロン",
+          "kana": "あいろん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "外部；出界，出局；失败",
+      "japanese": "アウト",
+      "kana": "あうと",
+      "romaji": "auto",
+      "tokens": [
+        {
+          "text": "アウト",
+          "kana": "あうと"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "天线；获取信息的手段",
+      "japanese": "アンテナ",
+      "kana": "あんてな",
+      "romaji": "antena",
+      "tokens": [
+        {
+          "text": "アンテナ",
+          "kana": "あんてな"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "食用油；石油；润滑油",
+      "japanese": "オイル",
+      "kana": "おいる",
+      "romaji": "oiru",
+      "tokens": [
+        {
+          "text": "オイル",
+          "kana": "おいる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "管弦乐，管弦乐团",
+      "japanese": "オーケストラ",
+      "kana": "おうけすとら",
+      "romaji": "oukesutora",
+      "tokens": [
+        {
+          "text": "オーケストラ",
+          "kana": "おうけすとら"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "教育课程，教学计划",
+      "japanese": "カリキュラム",
+      "kana": "かりきゅらむ",
+      "romaji": "karikyuramu",
+      "tokens": [
+        {
+          "text": "カリキュラム",
+          "kana": "かりきゅらむ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "钙",
+      "japanese": "カルシウム",
+      "kana": "かるしうむ",
+      "romaji": "karushiumu",
+      "tokens": [
+        {
+          "text": "カルシウム",
+          "kana": "かるしうむ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "队长；船长；机长",
+      "japanese": "キャプテン",
+      "kana": "きゃぷてん",
+      "romaji": "kyaputen",
+      "tokens": [
+        {
+          "text": "キャプテン",
+          "kana": "きゃぷてん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "合唱，合唱团，合唱曲",
+      "japanese": "コーラス",
+      "kana": "こうらす",
+      "romaji": "kourasu",
+      "tokens": [
+        {
+          "text": "コーラス",
+          "kana": "こうらす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "厨师",
+      "japanese": "コック",
+      "kana": "こっく",
+      "romaji": "kokku",
+      "tokens": [
+        {
+          "text": "コック",
+          "kana": "こっく"
+        }
+      ]
+    }
+  ]
+}

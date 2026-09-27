@@ -1,0 +1,320 @@
+{
+  "id": "jp-gaokao-64",
+  "coursePackId": "jp-gaokao",
+  "title": "常用会话短句 2",
+  "order": 64,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "您走好",
+      "japanese": "行ってらっしゃい",
+      "kana": "いってらっしゃい",
+      "romaji": "itterasshai",
+      "tokens": [
+        {
+          "text": "行ってらっしゃい",
+          "kana": "いってらっしゃい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "我回来了",
+      "japanese": "ただいま",
+      "kana": "ただいま",
+      "romaji": "tadaima",
+      "tokens": [
+        {
+          "text": "ただいま",
+          "kana": "ただいま"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "我开动了",
+      "japanese": "いただきます",
+      "kana": "いただきます",
+      "romaji": "itadakimasu",
+      "tokens": [
+        {
+          "text": "いただきます",
+          "kana": "いただきます"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "我期待着",
+      "japanese": "楽しみにしています",
+      "kana": "たのしみにしています",
+      "romaji": "tanoshiminishiteimasu",
+      "tokens": [
+        {
+          "text": "楽しみにしています",
+          "kana": "たのしみにしています"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "那可困扰了",
+      "japanese": "それは困ります",
+      "kana": "それはこまります",
+      "romaji": "sorehakomarimasu",
+      "tokens": [
+        {
+          "text": "それは困ります",
+          "kana": "それはこまります"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "我去去就来",
+      "japanese": "行ってきます",
+      "kana": "いってきます",
+      "romaji": "ittekimasu",
+      "tokens": [
+        {
+          "text": "行ってきます",
+          "kana": "いってきます"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "不好意思",
+      "japanese": "申し訳ございませんが",
+      "kana": "もうしわけございませんが",
+      "romaji": "moushiwakegozaimasenga",
+      "tokens": [
+        {
+          "text": "申し訳ございませんが",
+          "kana": "もうしわけございませんが"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "您回来了",
+      "japanese": "お帰りなさい",
+      "kana": "おかえりなさい",
+      "romaji": "okaerinasai",
+      "tokens": [
+        {
+          "text": "お帰りなさい",
+          "kana": "おかえりなさい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "我开动了",
+      "japanese": "いただきます",
+      "kana": "いただきます",
+      "romaji": "itadakimasu",
+      "tokens": [
+        {
+          "text": "いただきます",
+          "kana": "いただきます"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "我回来了",
+      "japanese": "ただいま",
+      "kana": "ただいま",
+      "romaji": "tadaima",
+      "tokens": [
+        {
+          "text": "ただいま",
+          "kana": "ただいま"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "不好意思",
+      "japanese": "申し訳ございませんが",
+      "kana": "もうしわけございませんが",
+      "romaji": "moushiwakegozaimasenga",
+      "tokens": [
+        {
+          "text": "申し訳ございませんが",
+          "kana": "もうしわけございませんが"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "那可困扰了",
+      "japanese": "それは困ります",
+      "kana": "それはこまります",
+      "romaji": "sorehakomarimasu",
+      "tokens": [
+        {
+          "text": "それは困ります",
+          "kana": "それはこまります"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "您走好",
+      "japanese": "行ってらっしゃい",
+      "kana": "いってらっしゃい",
+      "romaji": "itterasshai",
+      "tokens": [
+        {
+          "text": "行ってらっしゃい",
+          "kana": "いってらっしゃい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "我去去就来",
+      "japanese": "行ってきます",
+      "kana": "いってきます",
+      "romaji": "ittekimasu",
+      "tokens": [
+        {
+          "text": "行ってきます",
+          "kana": "いってきます"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "您回来了",
+      "japanese": "お帰りなさい",
+      "kana": "おかえりなさい",
+      "romaji": "okaerinasai",
+      "tokens": [
+        {
+          "text": "お帰りなさい",
+          "kana": "おかえりなさい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "我期待着",
+      "japanese": "楽しみにしています",
+      "kana": "たのしみにしています",
+      "romaji": "tanoshiminishiteimasu",
+      "tokens": [
+        {
+          "text": "楽しみにしています",
+          "kana": "たのしみにしています"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "我去去就来",
+      "japanese": "行ってきます",
+      "kana": "いってきます",
+      "romaji": "ittekimasu",
+      "tokens": [
+        {
+          "text": "行ってきます",
+          "kana": "いってきます"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "我回来了",
+      "japanese": "ただいま",
+      "kana": "ただいま",
+      "romaji": "tadaima",
+      "tokens": [
+        {
+          "text": "ただいま",
+          "kana": "ただいま"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "那可困扰了",
+      "japanese": "それは困ります",
+      "kana": "それはこまります",
+      "romaji": "sorehakomarimasu",
+      "tokens": [
+        {
+          "text": "それは困ります",
+          "kana": "それはこまります"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "我期待着",
+      "japanese": "楽しみにしています",
+      "kana": "たのしみにしています",
+      "romaji": "tanoshiminishiteimasu",
+      "tokens": [
+        {
+          "text": "楽しみにしています",
+          "kana": "たのしみにしています"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "不好意思",
+      "japanese": "申し訳ございませんが",
+      "kana": "もうしわけございませんが",
+      "romaji": "moushiwakegozaimasenga",
+      "tokens": [
+        {
+          "text": "申し訳ございませんが",
+          "kana": "もうしわけございませんが"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "我开动了",
+      "japanese": "いただきます",
+      "kana": "いただきます",
+      "romaji": "itadakimasu",
+      "tokens": [
+        {
+          "text": "いただきます",
+          "kana": "いただきます"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "您回来了",
+      "japanese": "お帰りなさい",
+      "kana": "おかえりなさい",
+      "romaji": "okaerinasai",
+      "tokens": [
+        {
+          "text": "お帰りなさい",
+          "kana": "おかえりなさい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "您走好",
+      "japanese": "行ってらっしゃい",
+      "kana": "いってらっしゃい",
+      "romaji": "itterasshai",
+      "tokens": [
+        {
+          "text": "行ってらっしゃい",
+          "kana": "いってらっしゃい"
+        }
+      ]
+    }
+  ]
+}

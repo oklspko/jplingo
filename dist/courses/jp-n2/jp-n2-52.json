@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-52",
+  "coursePackId": "jp-n2",
+  "title": "名词 52",
+  "order": 52,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "摸索，探寻",
+      "japanese": "模索",
+      "kana": "もさく",
+      "romaji": "mosaku",
+      "tokens": [
+        {
+          "text": "模索",
+          "kana": "もさく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "目标；目的",
+      "japanese": "目当て",
+      "kana": "めあて",
+      "romaji": "meate",
+      "tokens": [
+        {
+          "text": "目当て",
+          "kana": "めあて"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "野外，户外",
+      "japanese": "野外",
+      "kana": "やがい",
+      "romaji": "yagai",
+      "tokens": [
+        {
+          "text": "野外",
+          "kana": "やがい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "野生",
+      "japanese": "野生",
+      "kana": "やせい",
+      "romaji": "yasei",
+      "tokens": [
+        {
+          "text": "野生",
+          "kana": "やせい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "在野党",
+      "japanese": "野党",
+      "kana": "やとう",
+      "romaji": "yatou",
+      "tokens": [
+        {
+          "text": "野党",
+          "kana": "やとう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "优先",
+      "japanese": "優先",
+      "kana": "ゆうせん",
+      "romaji": "yuusen",
+      "tokens": [
+        {
+          "text": "優先",
+          "kana": "ゆうせん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "主要原因",
+      "japanese": "要因",
+      "kana": "よういん",
+      "romaji": "youin",
+      "tokens": [
+        {
+          "text": "要因",
+          "kana": "よういん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "培训，培养",
+      "japanese": "養成",
+      "kana": "ようせい",
+      "romaji": "yousei",
+      "tokens": [
+        {
+          "text": "養成",
+          "kana": "ようせい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "欲望",
+      "japanese": "欲",
+      "kana": "よく",
+      "romaji": "yoku",
+      "tokens": [
+        {
+          "text": "欲",
+          "kana": "よく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "出席，到场",
+      "japanese": "来場",
+      "kana": "らいじょう",
+      "romaji": "raijou",
+      "tokens": [
+        {
+          "text": "来場",
+          "kana": "らいじょう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "长处，优点",
+      "japanese": "利点",
+      "kana": "りてん",
+      "romaji": "riten",
+      "tokens": [
+        {
+          "text": "利点",
+          "kana": "りてん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "履历；历史记录",
+      "japanese": "履歴",
+      "kana": "りれき",
+      "romaji": "rireki",
+      "tokens": [
+        {
+          "text": "履歴",
+          "kana": "りれき"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "道理，理论；借口，（捏造的）理由",
+      "japanese": "理屈",
+      "kana": "りくつ",
+      "romaji": "rikutsu",
+      "tokens": [
+        {
+          "text": "理屈",
+          "kana": "りくつ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "理性",
+      "japanese": "理性",
+      "kana": "りせい",
+      "romaji": "risei",
+      "tokens": [
+        {
+          "text": "理性",
+          "kana": "りせい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "理论",
+      "japanese": "理論",
+      "kana": "りろん",
+      "romaji": "riron",
+      "tokens": [
+        {
+          "text": "理論",
+          "kana": "りろん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "离散，分离",
+      "japanese": "離れ離れ",
+      "kana": "はなればなれ",
+      "romaji": "hanarebanare",
+      "tokens": [
+        {
+          "text": "離れ離れ",
+          "kana": "はなればなれ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "地上；（「陸上競技」の略）田径赛",
+      "japanese": "陸上",
+      "kana": "りくじょう",
+      "romaji": "rikujou",
+      "tokens": [
+        {
+          "text": "陸上",
+          "kana": "りくじょう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "明白，同意，理解",
+      "japanese": "了承",
+      "kana": "りょうしょう",
+      "romaji": "ryoushou",
+      "tokens": [
+        {
+          "text": "了承",
+          "kana": "りょうしょう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "并存，兼顾",
+      "japanese": "両立",
+      "kana": "りょうりつ",
+      "romaji": "ryouritsu",
+      "tokens": [
+        {
+          "text": "両立",
+          "kana": "りょうりつ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "良好",
+      "japanese": "良好",
+      "kana": "りょうこう",
+      "romaji": "ryoukou",
+      "tokens": [
+        {
+          "text": "良好",
+          "kana": "りょうこう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "良性",
+      "japanese": "良性",
+      "kana": "りょうせい",
+      "romaji": "ryousei",
+      "tokens": [
+        {
+          "text": "良性",
+          "kana": "りょうせい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "领域",
+      "japanese": "領域",
+      "kana": "りょういき",
+      "romaji": "ryouiki",
+      "tokens": [
+        {
+          "text": "領域",
+          "kana": "りょういき"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "伦理；伦理学",
+      "japanese": "倫理",
+      "kana": "りんり",
+      "romaji": "rinri",
+      "tokens": [
+        {
+          "text": "倫理",
+          "kana": "りんり"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "林业",
+      "japanese": "林業",
+      "kana": "りんぎょう",
+      "romaji": "ringyou",
+      "tokens": [
+        {
+          "text": "林業",
+          "kana": "りんぎょう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "类推，类比推理",
+      "japanese": "類推",
+      "kana": "るいすい",
+      "romaji": "ruisui",
+      "tokens": [
+        {
+          "text": "類推",
+          "kana": "るいすい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "日历，历书",
+      "japanese": "暦",
+      "kana": "こよみ",
+      "romaji": "koyomi",
+      "tokens": [
+        {
+          "text": "暦",
+          "kana": "こよみ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "道理，逻辑",
+      "japanese": "論理",
+      "kana": "ろんり",
+      "romaji": "ronri",
+      "tokens": [
+        {
+          "text": "論理",
+          "kana": "ろんり"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "框；范围",
+      "japanese": "枠",
+      "kana": "わく",
+      "romaji": "waku",
+      "tokens": [
+        {
+          "text": "枠",
+          "kana": "わく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "落空，没中奖；尽头，远离中心的地区",
+      "japanese": "外れ",
+      "kana": "はずれ",
+      "romaji": "hazure",
+      "tokens": [
+        {
+          "text": "外れ",
+          "kana": "はずれ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "……的拥有人，所有者；主人",
+      "japanese": "主",
+      "kana": "ぬし",
+      "romaji": "nushi",
+      "tokens": [
+        {
+          "text": "主",
+          "kana": "ぬし"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-82",
+  "coursePackId": "jp-n2",
+  "title": "动词 11",
+  "order": 82,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "用手指",
+      "japanese": "指差す",
+      "kana": "ゆびさす",
+      "romaji": "yubisasu",
+      "tokens": [
+        {
+          "text": "指差す",
+          "kana": "ゆびさす"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "尝试，试验",
+      "japanese": "試す",
+      "kana": "ためす",
+      "romaji": "tamesu",
+      "tokens": [
+        {
+          "text": "試す",
+          "kana": "ためす"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "试制",
+      "japanese": "試作",
+      "kana": "しさく",
+      "romaji": "shisaku",
+      "tokens": [
+        {
+          "text": "試作",
+          "kana": "しさく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "带进，携入；提出（意见、问题等）",
+      "japanese": "持ち込む",
+      "kana": "もちこむ",
+      "romaji": "mochikomu",
+      "tokens": [
+        {
+          "text": "持ち込む",
+          "kana": "もちこむ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "受欢迎，有人缘",
+      "japanese": "もてる",
+      "kana": "もてる",
+      "romaji": "moteru",
+      "tokens": [
+        {
+          "text": "もてる",
+          "kana": "もてる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "着手，开始做",
+      "japanese": "取りかかる",
+      "kana": "とりかかる",
+      "romaji": "torikakaru",
+      "tokens": [
+        {
+          "text": "取りかかる",
+          "kana": "とりかかる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "致力于，专心致志",
+      "japanese": "取り組む",
+      "kana": "とりくむ",
+      "romaji": "torikumu",
+      "tokens": [
+        {
+          "text": "取り組む",
+          "kana": "とりくむ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "取回，收回；挽回，恢复",
+      "japanese": "取り戻す",
+      "kana": "とりもどす",
+      "romaji": "torimodosu",
+      "tokens": [
+        {
+          "text": "取り戻す",
+          "kana": "とりもどす"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "事先准备好；（对疾病或伤口进行）处置；（慣用の固定で「手当」と書く）津贴，补贴",
+      "japanese": "手当て",
+      "kana": "てあて",
+      "romaji": "teate",
+      "tokens": [
+        {
+          "text": "手当て",
+          "kana": "てあて"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "放手；卖掉，转让；放下",
+      "japanese": "手放す",
+      "kana": "てばなす",
+      "romaji": "tebanasu",
+      "tokens": [
+        {
+          "text": "手放す",
+          "kana": "てばなす"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "袭击，攻击",
+      "japanese": "襲う",
+      "kana": "おそう",
+      "romaji": "osou",
+      "tokens": [
+        {
+          "text": "襲う",
+          "kana": "おそう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "写入，填写",
+      "japanese": "書き込む",
+      "kana": "かきこむ",
+      "romaji": "kakikomu",
+      "tokens": [
+        {
+          "text": "書き込む",
+          "kana": "かきこむ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "使……负伤；损坏；伤害",
+      "japanese": "傷つける",
+      "kana": "きずつける",
+      "romaji": "kizutsukeru",
+      "tokens": [
+        {
+          "text": "傷つける",
+          "kana": "きずつける"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "损坏；腐烂",
+      "japanese": "傷む",
+      "kana": "いたむ",
+      "romaji": "itamu",
+      "tokens": [
+        {
+          "text": "傷む",
+          "kana": "いたむ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "负伤；损坏；受创伤",
+      "japanese": "傷つく",
+      "kana": "きずつく",
+      "romaji": "kizutsuku",
+      "tokens": [
+        {
+          "text": "傷つく",
+          "kana": "きずつく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "超出，超过",
+      "japanese": "上回る",
+      "kana": "うわまわる",
+      "romaji": "uwamawaru",
+      "tokens": [
+        {
+          "text": "上回る",
+          "kana": "うわまわる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "尽，完；到头，穷尽",
+      "japanese": "尽きる",
+      "kana": "つきる",
+      "romaji": "tsukiru",
+      "tokens": [
+        {
+          "text": "尽きる",
+          "kana": "つきる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "尽力；效力",
+      "japanese": "尽くす",
+      "kana": "つくす",
+      "romaji": "tsukusu",
+      "tokens": [
+        {
+          "text": "尽くす",
+          "kana": "つくす"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "完成，实现",
+      "japanese": "成し遂げる",
+      "kana": "なしとげる",
+      "romaji": "nashitogeru",
+      "tokens": [
+        {
+          "text": "成し遂げる",
+          "kana": "なしとげる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "成立；谈妥；构成",
+      "japanese": "成り立つ",
+      "kana": "なりたつ",
+      "romaji": "naritatsu",
+      "tokens": [
+        {
+          "text": "成り立つ",
+          "kana": "なりたつ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "让……活着；活用，发挥",
+      "japanese": "生かす",
+      "kana": "いかす",
+      "romaji": "ikasu",
+      "tokens": [
+        {
+          "text": "生かす",
+          "kana": "いかす"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "幸存",
+      "japanese": "生き残る",
+      "kana": "いきのこる",
+      "romaji": "ikinokoru",
+      "tokens": [
+        {
+          "text": "生き残る",
+          "kana": "いきのこる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "堆起，隆起；气氛高涨",
+      "japanese": "盛り上がる",
+      "kana": "もりあがる",
+      "romaji": "moriagaru",
+      "tokens": [
+        {
+          "text": "盛り上がる",
+          "kana": "もりあがる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "堆起，垒起；积累",
+      "japanese": "積み重ねる",
+      "kana": "つみかさねる",
+      "romaji": "tsumikasaneru",
+      "tokens": [
+        {
+          "text": "積み重ねる",
+          "kana": "つみかさねる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "切掉；舍去（计算中所求位数之后的尾数）",
+      "japanese": "切り捨てる",
+      "kana": "きりすてる",
+      "romaji": "kirisuteru",
+      "tokens": [
+        {
+          "text": "切り捨てる",
+          "kana": "きりすてる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "断绝；消失，灭亡",
+      "japanese": "絶える",
+      "kana": "たえる",
+      "romaji": "taeru",
+      "tokens": [
+        {
+          "text": "絶える",
+          "kana": "たえる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "带头；在……之前；死在……之前；（「先立つ物」の形で）钱",
+      "japanese": "先立つ",
+      "kana": "さきだつ",
+      "romaji": "sakidatsu",
+      "tokens": [
+        {
+          "text": "先立つ",
+          "kana": "さきだつ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "染上；沾染",
+      "japanese": "染まる",
+      "kana": "そまる",
+      "romaji": "somaru",
+      "tokens": [
+        {
+          "text": "染まる",
+          "kana": "そまる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "沾染，渗；刺痛；深感；受到不良影响，染上",
+      "japanese": "染みる",
+      "kana": "しみる",
+      "romaji": "shimiru",
+      "tokens": [
+        {
+          "text": "染みる",
+          "kana": "しみる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "提前；轻率",
+      "japanese": "早まる",
+      "kana": "はやまる",
+      "romaji": "hayamaru",
+      "tokens": [
+        {
+          "text": "早まる",
+          "kana": "はやまる"
+        }
+      ]
+    }
+  ]
+}

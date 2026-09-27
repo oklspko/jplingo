@@ -1,0 +1,37 @@
+# 一个域名反代后端（GoTrue + PostgREST）。GoTrue/PostgREST 自带 CORS 头，
+# Caddy 只在预检 OPTIONS 上补齐跨域头，业务响应头交给上游，避免重复头被浏览器拒绝。
+{$DOMAIN} {
+    encode zstd gzip
+
+    # 预检 OPTIONS：/auth/v1/* 的跨域探测直接返回 204
+    @auth_preflight {
+        method OPTIONS
+        path /auth/v1/*
+    }
+    handle @auth_preflight {
+        header {
+            Access-Control-Allow-Origin *
+            Access-Control-Allow-Methods "GET, POST, PUT, PATCH, DELETE, OPTIONS"
+            Access-Control-Allow-Headers "Authorization, apikey, Content-Type, x-client-info, x-supabase-api-version, x-supabase-auth, Prefer"
+            Access-Control-Max-Age "86400"
+        }
+        respond 204
+    }
+
+    # 认证接口：/auth/v1/* -> GoTrue
+    # 注意：GoTrue 自带 Access-Control-Allow-Origin: *，这里不要再加 header 块，
+    # 否则会叠加成 `*, *` 被浏览器拒绝（预检 OPTIONS 仍由上面的 @auth_preflight 应答）。
+    handle_path /auth/v1/* {
+        reverse_proxy auth:9999
+    }
+
+    # 数据接口：/rest/v1/* -> PostgREST（PostgREST 自带 CORS，无需额外配置）
+    handle_path /rest/v1/* {
+        reverse_proxy rest:3000
+    }
+
+    # 根路径占位
+    handle {
+        respond "jplingo backend OK" 200
+    }
+}

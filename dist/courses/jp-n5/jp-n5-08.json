@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-08",
+  "coursePackId": "jp-n5",
+  "title": "名词 8",
+  "order": 8,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "三个；三岁",
+      "japanese": "三つ",
+      "kana": "みっつ",
+      "romaji": "mittsu",
+      "tokens": [
+        {
+          "text": "三つ",
+          "kana": "みっつ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "三号，三日；三天",
+      "japanese": "三日",
+      "kana": "みっか",
+      "romaji": "mikka",
+      "tokens": [
+        {
+          "text": "三日",
+          "kana": "みっか"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "雨伞",
+      "japanese": "傘",
+      "kana": "かさ",
+      "romaji": "kasa",
+      "tokens": [
+        {
+          "text": "傘",
+          "kana": "かさ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "山",
+      "japanese": "山",
+      "kana": "やま",
+      "romaji": "yama",
+      "tokens": [
+        {
+          "text": "山",
+          "kana": "やま"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "散步",
+      "japanese": "散歩",
+      "kana": "さんぽ",
+      "romaji": "sanpo",
+      "tokens": [
+        {
+          "text": "散歩",
+          "kana": "さんぽ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "工作，职业",
+      "japanese": "仕事",
+      "kana": "しごと",
+      "romaji": "shigoto",
+      "tokens": [
+        {
+          "text": "仕事",
+          "kana": "しごと"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "四个；四岁",
+      "japanese": "四つ",
+      "kana": "よっつ",
+      "romaji": "yottsu",
+      "tokens": [
+        {
+          "text": "四つ",
+          "kana": "よっつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "四天；四号",
+      "japanese": "四日",
+      "kana": "よっか",
+      "romaji": "yokka",
+      "tokens": [
+        {
+          "text": "四日",
+          "kana": "よっか"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "小孩；孩子",
+      "japanese": "子供",
+      "kana": "こども",
+      "romaji": "kodomo",
+      "tokens": [
+        {
+          "text": "子供",
+          "kana": "こども"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "我",
+      "japanese": "私",
+      "kana": "わたし",
+      "romaji": "watashi",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "纸",
+      "japanese": "紙",
+      "kana": "かみ",
+      "romaji": "kami",
+      "tokens": [
+        {
+          "text": "紙",
+          "kana": "かみ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "考试；测验",
+      "japanese": "試験",
+      "kana": "しけん",
+      "romaji": "shiken",
+      "tokens": [
+        {
+          "text": "試験",
+          "kana": "しけん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "牙，牙齿",
+      "japanese": "歯",
+      "kana": "は",
+      "romaji": "ha",
+      "tokens": [
+        {
+          "text": "歯",
+          "kana": "は"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "时间；时期；时候；时机",
+      "japanese": "時",
+      "kana": "とき",
+      "romaji": "toki",
+      "tokens": [
+        {
+          "text": "時",
+          "kana": "とき"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "时间，时刻",
+      "japanese": "時間",
+      "kana": "じかん",
+      "romaji": "jikan",
+      "tokens": [
+        {
+          "text": "時間",
+          "kana": "じかん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "钟，表",
+      "japanese": "時計",
+      "kana": "とけい",
+      "romaji": "tokei",
+      "tokens": [
+        {
+          "text": "時計",
+          "kana": "とけい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "下一个，下面",
+      "japanese": "次",
+      "kana": "つぎ",
+      "romaji": "tsugi",
+      "tokens": [
+        {
+          "text": "次",
+          "kana": "つぎ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "耳朵；听力；把手，边角",
+      "japanese": "耳",
+      "kana": "みみ",
+      "romaji": "mimi",
+      "tokens": [
+        {
+          "text": "耳",
+          "kana": "みみ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "自行车",
+      "japanese": "自転車",
+      "kana": "じてんしゃ",
+      "romaji": "jitensha",
+      "tokens": [
+        {
+          "text": "自転車",
+          "kana": "じてんしゃ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "自己；我",
+      "japanese": "自分",
+      "kana": "じぶん",
+      "romaji": "jibun",
+      "tokens": [
+        {
+          "text": "自分",
+          "kana": "じぶん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "词典，辞典，字典",
+      "japanese": "辞書",
+      "kana": "じしょ",
+      "romaji": "jisho",
+      "tokens": [
+        {
+          "text": "辞書",
+          "kana": "じしょ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "七个；七岁",
+      "japanese": "七つ",
+      "kana": "ななつ",
+      "romaji": "nanatsu",
+      "tokens": [
+        {
+          "text": "七つ",
+          "kana": "ななつ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "七号；七天",
+      "japanese": "七日",
+      "kana": "なのか",
+      "romaji": "nanoka",
+      "tokens": [
+        {
+          "text": "七日",
+          "kana": "なのか"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "问题，提问",
+      "japanese": "質問",
+      "kana": "しつもん",
+      "romaji": "shitsumon",
+      "tokens": [
+        {
+          "text": "質問",
+          "kana": "しつもん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "照片",
+      "japanese": "写真",
+      "kana": "しゃしん",
+      "romaji": "shashin",
+      "tokens": [
+        {
+          "text": "写真",
+          "kana": "しゃしん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "公司职员",
+      "japanese": "社員",
+      "kana": "しゃいん",
+      "romaji": "shain",
+      "tokens": [
+        {
+          "text": "社員",
+          "kana": "しゃいん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "车",
+      "japanese": "車",
+      "kana": "くるま",
+      "romaji": "kuruma",
+      "tokens": [
+        {
+          "text": "車",
+          "kana": "くるま"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "手，手臂；把手；……的人",
+      "japanese": "手",
+      "kana": "て",
+      "romaji": "te",
+      "tokens": [
+        {
+          "text": "手",
+          "kana": "て"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "书信",
+      "japanese": "手紙",
+      "kana": "てがみ",
+      "romaji": "tegami",
+      "tokens": [
+        {
+          "text": "手紙",
+          "kana": "てがみ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "寿司",
+      "japanese": "すし",
+      "kana": "すし",
+      "romaji": "sushi",
+      "tokens": [
+        {
+          "text": "すし",
+          "kana": "すし"
+        }
+      ]
+    }
+  ]
+}

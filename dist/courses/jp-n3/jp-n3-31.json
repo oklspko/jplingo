@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-31",
+  "coursePackId": "jp-n3",
+  "title": "名词 31",
+  "order": 31,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "油漆",
+      "japanese": "ペンキ",
+      "kana": "ぺんき",
+      "romaji": "penki",
+      "tokens": [
+        {
+          "text": "ペンキ",
+          "kana": "ぺんき"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "麦克风，话筒",
+      "japanese": "マイク",
+      "kana": "まいく",
+      "romaji": "maiku",
+      "tokens": [
+        {
+          "text": "マイク",
+          "kana": "まいく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "球拍",
+      "japanese": "ラケット",
+      "kana": "らけっと",
+      "romaji": "raketto",
+      "tokens": [
+        {
+          "text": "ラケット",
+          "kana": "らけっと"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "透镜，镜片",
+      "japanese": "レンズ",
+      "kana": "れんず",
+      "romaji": "renzu",
+      "tokens": [
+        {
+          "text": "レンズ",
+          "kana": "れんず"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "火箭，火箭发动机",
+      "japanese": "ロケット",
+      "kana": "ろけっと",
+      "romaji": "roketto",
+      "tokens": [
+        {
+          "text": "ロケット",
+          "kana": "ろけっと"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "想法，主意；方案",
+      "japanese": "案",
+      "kana": "あん",
+      "romaji": "an",
+      "tokens": [
+        {
+          "text": "案",
+          "kana": "あん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "衣服，衣裳",
+      "japanese": "衣服",
+      "kana": "いふく",
+      "romaji": "ifuku",
+      "tokens": [
+        {
+          "text": "衣服",
+          "kana": "いふく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "延期，挪后",
+      "japanese": "延期",
+      "kana": "えんき",
+      "romaji": "enki",
+      "tokens": [
+        {
+          "text": "延期",
+          "kana": "えんき"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "援助；助威",
+      "japanese": "応援",
+      "kana": "おうえん",
+      "romaji": "ouen",
+      "tokens": [
+        {
+          "text": "応援",
+          "kana": "おうえん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "接待，招待",
+      "japanese": "応接",
+      "kana": "おうせつ",
+      "romaji": "ousetsu",
+      "tokens": [
+        {
+          "text": "応接",
+          "kana": "おうせつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "室外，户外",
+      "japanese": "屋外",
+      "kana": "おくがい",
+      "romaji": "okugai",
+      "tokens": [
+        {
+          "text": "屋外",
+          "kana": "おくがい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "假定，假设",
+      "japanese": "仮定",
+      "kana": "かてい",
+      "romaji": "katei",
+      "tokens": [
+        {
+          "text": "仮定",
+          "kana": "かてい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "回数，次数",
+      "japanese": "回数",
+      "kana": "かいすう",
+      "romaji": "kaisuu",
+      "tokens": [
+        {
+          "text": "回数",
+          "kana": "かいすう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "天空晴朗，大晴天",
+      "japanese": "快晴",
+      "kana": "かいせい",
+      "romaji": "kaisei",
+      "tokens": [
+        {
+          "text": "快晴",
+          "kana": "かいせい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "检票",
+      "japanese": "改札",
+      "kana": "かいさつ",
+      "romaji": "kaisatsu",
+      "tokens": [
+        {
+          "text": "改札",
+          "kana": "かいさつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "绘画颜料",
+      "japanese": "絵の具",
+      "kana": "えのぐ",
+      "romaji": "enogu",
+      "tokens": [
+        {
+          "text": "絵の具",
+          "kana": "えのぐ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "绘画",
+      "japanese": "絵画",
+      "kana": "かいが",
+      "romaji": "kaiga",
+      "tokens": [
+        {
+          "text": "絵画",
+          "kana": "かいが"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "开会",
+      "japanese": "開会",
+      "kana": "かいかい",
+      "romaji": "kaikai",
+      "tokens": [
+        {
+          "text": "開会",
+          "kana": "かいかい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "下巴，下颚",
+      "japanese": "顎",
+      "kana": "あご",
+      "romaji": "ago",
+      "tokens": [
+        {
+          "text": "顎",
+          "kana": "あご"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "感动，激动",
+      "japanese": "感激",
+      "kana": "かんげき",
+      "romaji": "kangeki",
+      "tokens": [
+        {
+          "text": "感激",
+          "kana": "かんげき"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "观众",
+      "japanese": "観客",
+      "kana": "かんきゃく",
+      "romaji": "kankyaku",
+      "tokens": [
+        {
+          "text": "観客",
+          "kana": "かんきゃく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "机关，组织；机械，装置",
+      "japanese": "機関",
+      "kana": "きかん",
+      "romaji": "kikan",
+      "tokens": [
+        {
+          "text": "機関",
+          "kana": "きかん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "渔民，渔夫",
+      "japanese": "漁師",
+      "kana": "りょうし",
+      "romaji": "ryoushi",
+      "tokens": [
+        {
+          "text": "漁師",
+          "kana": "りょうし"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "工作，干活",
+      "japanese": "勤め",
+      "kana": "つとめ",
+      "romaji": "tsutome",
+      "tokens": [
+        {
+          "text": "勤め",
+          "kana": "つとめ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "模型；样式；（老）规矩",
+      "japanese": "型",
+      "kana": "かた",
+      "romaji": "kata",
+      "tokens": [
+        {
+          "text": "型",
+          "kana": "かた"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "布告，告示",
+      "japanese": "掲示",
+      "kana": "けいじ",
+      "romaji": "keiji",
+      "tokens": [
+        {
+          "text": "掲示",
+          "kana": "けいじ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "荧光灯，日光灯",
+      "japanese": "蛍光灯",
+      "kana": "けいこうとう",
+      "romaji": "keikoutou",
+      "tokens": [
+        {
+          "text": "蛍光灯",
+          "kana": "けいこうとう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "缺点",
+      "japanese": "欠点",
+      "kana": "けってん",
+      "romaji": "ketten",
+      "tokens": [
+        {
+          "text": "欠点",
+          "kana": "けってん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "血压",
+      "japanese": "血圧",
+      "kana": "けつあつ",
+      "romaji": "ketsuatsu",
+      "tokens": [
+        {
+          "text": "血圧",
+          "kana": "けつあつ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "样品；榜样",
+      "japanese": "見本",
+      "kana": "みほん",
+      "romaji": "mihon",
+      "tokens": [
+        {
+          "text": "見本",
+          "kana": "みほん"
+        }
+      ]
+    }
+  ]
+}

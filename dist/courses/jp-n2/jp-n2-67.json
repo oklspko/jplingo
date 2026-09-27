@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-67",
+  "coursePackId": "jp-n2",
+  "title": "名词 67",
+  "order": 67,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "镇长",
+      "japanese": "町長",
+      "kana": "ちょうちょう",
+      "romaji": "chouchou",
+      "tokens": [
+        {
+          "text": "町長",
+          "kana": "ちょうちょう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "鲑鱼，大马哈鱼，三文鱼",
+      "japanese": "鮭[さけ]",
+      "kana": "さけ",
+      "romaji": "sake",
+      "tokens": [
+        {
+          "text": "鮭[さけ]",
+          "kana": "さけ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "经理",
+      "japanese": "支配人",
+      "kana": "しはいにん",
+      "romaji": "shihainin",
+      "tokens": [
+        {
+          "text": "支配人",
+          "kana": "しはいにん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "数据库",
+      "japanese": "データベース",
+      "kana": "でえたべえす",
+      "romaji": "deetabeesu",
+      "tokens": [
+        {
+          "text": "データベース",
+          "kana": "でえたべえす"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "热血，血性，热情",
+      "japanese": "熱血",
+      "kana": "ねっけつ",
+      "romaji": "nekketsu",
+      "tokens": [
+        {
+          "text": "熱血",
+          "kana": "ねっけつ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "结实，成熟，收成；成果，成效",
+      "japanese": "実り",
+      "kana": "みのり",
+      "romaji": "minori",
+      "tokens": [
+        {
+          "text": "実り",
+          "kana": "みのり"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "路程；过程",
+      "japanese": "道程",
+      "kana": "どうてい",
+      "romaji": "doutei",
+      "tokens": [
+        {
+          "text": "道程",
+          "kana": "どうてい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "烤鸡肉串",
+      "japanese": "焼き鳥",
+      "kana": "やきとり",
+      "romaji": "yakitori",
+      "tokens": [
+        {
+          "text": "焼き鳥",
+          "kana": "やきとり"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "岔道；歧途",
+      "japanese": "脇道",
+      "kana": "わきみち",
+      "romaji": "wakimichi",
+      "tokens": [
+        {
+          "text": "脇道",
+          "kana": "わきみち"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "交换",
+      "japanese": "引き換え",
+      "kana": "ひきかえ",
+      "romaji": "hikikae",
+      "tokens": [
+        {
+          "text": "引き換え",
+          "kana": "ひきかえ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "枯木，枯树",
+      "japanese": "枯れ木",
+      "kana": "かれき",
+      "romaji": "kareki",
+      "tokens": [
+        {
+          "text": "枯れ木",
+          "kana": "かれき"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "轻伤",
+      "japanese": "軽傷",
+      "kana": "けいしょう",
+      "romaji": "keishou",
+      "tokens": [
+        {
+          "text": "軽傷",
+          "kana": "けいしょう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "同乡，老乡",
+      "japanese": "同郷",
+      "kana": "どうきょう",
+      "romaji": "doukyou",
+      "tokens": [
+        {
+          "text": "同郷",
+          "kana": "どうきょう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "服装，仪容",
+      "japanese": "なりふり",
+      "kana": "なりふり",
+      "romaji": "narifuri",
+      "tokens": [
+        {
+          "text": "なりふり",
+          "kana": "なりふり"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "要点；重要地点",
+      "japanese": "要所",
+      "kana": "ようしょ",
+      "romaji": "yousho",
+      "tokens": [
+        {
+          "text": "要所",
+          "kana": "ようしょ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "夜班",
+      "japanese": "夜勤",
+      "kana": "やきん",
+      "romaji": "yakin",
+      "tokens": [
+        {
+          "text": "夜勤",
+          "kana": "やきん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "汽笛",
+      "japanese": "汽笛",
+      "kana": "きてき",
+      "romaji": "kiteki",
+      "tokens": [
+        {
+          "text": "汽笛",
+          "kana": "きてき"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（特指有形的）事物",
+      "japanese": "事物",
+      "kana": "じぶつ",
+      "romaji": "jibutsu",
+      "tokens": [
+        {
+          "text": "事物",
+          "kana": "じぶつ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "猫头鹰",
+      "japanese": "フクロウ",
+      "kana": "ふくろう",
+      "romaji": "fukurou",
+      "tokens": [
+        {
+          "text": "フクロウ",
+          "kana": "ふくろう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "药丸，药片",
+      "japanese": "錠剤",
+      "kana": "じょうざい",
+      "romaji": "jouzai",
+      "tokens": [
+        {
+          "text": "錠剤",
+          "kana": "じょうざい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "模糊的记忆",
+      "japanese": "うろ覚え",
+      "kana": "うろおぼえ",
+      "romaji": "urooboe",
+      "tokens": [
+        {
+          "text": "うろ覚え",
+          "kana": "うろおぼえ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "论点，讨论中心",
+      "japanese": "論点",
+      "kana": "ろんてん",
+      "romaji": "ronten",
+      "tokens": [
+        {
+          "text": "論点",
+          "kana": "ろんてん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "温水，微温的水",
+      "japanese": "ぬるま湯",
+      "kana": "ぬるまゆ",
+      "romaji": "nurumayu",
+      "tokens": [
+        {
+          "text": "ぬるま湯",
+          "kana": "ぬるまゆ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "大敌，强敌，劲敌",
+      "japanese": "大敵",
+      "kana": "たいてき",
+      "romaji": "taiteki",
+      "tokens": [
+        {
+          "text": "大敵",
+          "kana": "たいてき"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "致力于，处理",
+      "japanese": "取り組み",
+      "kana": "とりくみ",
+      "romaji": "torikumi",
+      "tokens": [
+        {
+          "text": "取り組み",
+          "kana": "とりくみ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "背光，身后的光环",
+      "japanese": "後光",
+      "kana": "ごこう",
+      "romaji": "gokou",
+      "tokens": [
+        {
+          "text": "後光",
+          "kana": "ごこう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "自主性",
+      "japanese": "自主性",
+      "kana": "じしゅせい",
+      "romaji": "jishusei",
+      "tokens": [
+        {
+          "text": "自主性",
+          "kana": "じしゅせい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "到处，随处",
+      "japanese": "随所",
+      "kana": "ずいしょ",
+      "romaji": "zuisho",
+      "tokens": [
+        {
+          "text": "随所",
+          "kana": "ずいしょ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "梭子，穿梭",
+      "japanese": "シャトル",
+      "kana": "しゃとる",
+      "romaji": "shatoru",
+      "tokens": [
+        {
+          "text": "シャトル",
+          "kana": "しゃとる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "一句",
+      "japanese": "一句",
+      "kana": "いっく",
+      "romaji": "ikku",
+      "tokens": [
+        {
+          "text": "一句",
+          "kana": "いっく"
+        }
+      ]
+    }
+  ]
+}

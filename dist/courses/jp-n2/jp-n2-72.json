@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-72",
+  "coursePackId": "jp-n2",
+  "title": "动词 1",
+  "order": 72,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "恭敬，拘谨；知道了",
+      "japanese": "かしこまる",
+      "kana": "かしこまる",
+      "romaji": "kashikomaru",
+      "tokens": [
+        {
+          "text": "かしこまる",
+          "kana": "かしこまる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "朝这边过来，接近",
+      "japanese": "やってくる",
+      "kana": "やってくる",
+      "romaji": "yattekuru",
+      "tokens": [
+        {
+          "text": "やってくる",
+          "kana": "やってくる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "祈祷；祝愿",
+      "japanese": "祈る",
+      "kana": "いのる",
+      "romaji": "inoru",
+      "tokens": [
+        {
+          "text": "祈る",
+          "kana": "いのる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "举起；举行；列举；竭尽",
+      "japanese": "挙げる",
+      "kana": "あげる",
+      "romaji": "ageru",
+      "tokens": [
+        {
+          "text": "挙げる",
+          "kana": "あげる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "饥饿；稀疏，空旷",
+      "japanese": "すく",
+      "kana": "すく",
+      "romaji": "suku",
+      "tokens": [
+        {
+          "text": "すく",
+          "kana": "すく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（时间、数量等）计量",
+      "japanese": "計る",
+      "kana": "はかる",
+      "romaji": "hakaru",
+      "tokens": [
+        {
+          "text": "計る",
+          "kana": "はかる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "使结束；（多く「…で済ます」の形で）将就，凑合",
+      "japanese": "済ます",
+      "kana": "すます",
+      "romaji": "sumasu",
+      "tokens": [
+        {
+          "text": "済ます",
+          "kana": "すます"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（用手等）指；指名；朝向",
+      "japanese": "指す",
+      "kana": "さす",
+      "romaji": "sasu",
+      "tokens": [
+        {
+          "text": "指す",
+          "kana": "さす"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "遇见，遇到",
+      "japanese": "出会う",
+      "kana": "であう",
+      "romaji": "deau",
+      "tokens": [
+        {
+          "text": "出会う",
+          "kana": "であう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "（大型建筑、桥梁、船舶、庭园、公园、酒等）造，建",
+      "japanese": "造る",
+      "kana": "つくる",
+      "romaji": "tsukuru",
+      "tokens": [
+        {
+          "text": "造る",
+          "kana": "つくる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "（漬）腌菜；（浸）浸泡",
+      "japanese": "漬ける",
+      "kana": "つける",
+      "romaji": "tsukeru",
+      "tokens": [
+        {
+          "text": "漬ける",
+          "kana": "つける"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "钓；勾引，引诱",
+      "japanese": "釣る",
+      "kana": "つる",
+      "romaji": "tsuru",
+      "tokens": [
+        {
+          "text": "釣る",
+          "kana": "つる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "小偷",
+      "japanese": "泥棒",
+      "kana": "どろぼう",
+      "romaji": "dorobou",
+      "tokens": [
+        {
+          "text": "泥棒",
+          "kana": "どろぼう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "弄倒；推翻",
+      "japanese": "倒す",
+      "kana": "たおす",
+      "romaji": "taosu",
+      "tokens": [
+        {
+          "text": "倒す",
+          "kana": "たおす"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "托付；任凭",
+      "japanese": "任せる",
+      "kana": "まかせる",
+      "romaji": "makaseru",
+      "tokens": [
+        {
+          "text": "任せる",
+          "kana": "まかせる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "承认；允许，认可",
+      "japanese": "認める",
+      "kana": "みとめる",
+      "romaji": "mitomeru",
+      "tokens": [
+        {
+          "text": "認める",
+          "kana": "みとめる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "离，分离；离开，间隔",
+      "japanese": "離れる",
+      "kana": "はなれる",
+      "romaji": "hanareru",
+      "tokens": [
+        {
+          "text": "離れる",
+          "kana": "はなれる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "奢侈；请客",
+      "japanese": "おごる",
+      "kana": "おごる",
+      "romaji": "ogoru",
+      "tokens": [
+        {
+          "text": "おごる",
+          "kana": "おごる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "教练；指导",
+      "japanese": "コーチ",
+      "kana": "こうち",
+      "romaji": "kouchi",
+      "tokens": [
+        {
+          "text": "コーチ",
+          "kana": "こうち"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "下载",
+      "japanese": "ダウンロード",
+      "kana": "だうんろうど",
+      "romaji": "daunroudo",
+      "tokens": [
+        {
+          "text": "ダウンロード",
+          "kana": "だうんろうど"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "倒入，注入",
+      "japanese": "注[つ]ぐ",
+      "kana": "つぐ",
+      "romaji": "tsugu",
+      "tokens": [
+        {
+          "text": "注[つ]ぐ",
+          "kana": "つぐ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "连接；有关联",
+      "japanese": "つながる",
+      "kana": "つながる",
+      "romaji": "tsunagaru",
+      "tokens": [
+        {
+          "text": "つながる",
+          "kana": "つながる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "拴；连上；维持",
+      "japanese": "つなぐ",
+      "kana": "つなぐ",
+      "romaji": "tsunagu",
+      "tokens": [
+        {
+          "text": "つなぐ",
+          "kana": "つなぐ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "瞪；凝视；估计，推测",
+      "japanese": "にらむ",
+      "kana": "にらむ",
+      "romaji": "niramu",
+      "tokens": [
+        {
+          "text": "にらむ",
+          "kana": "にらむ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "文件夹；文件；归档",
+      "japanese": "ファイル",
+      "kana": "ふぁいる",
+      "romaji": "fuairu",
+      "tokens": [
+        {
+          "text": "ファイル",
+          "kana": "ふぁいる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "减；减号；负数；阴极；不利；亏损",
+      "japanese": "マイナス",
+      "kana": "まいなす",
+      "romaji": "mainasu",
+      "tokens": [
+        {
+          "text": "マイナス",
+          "kana": "まいなす"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "播种",
+      "japanese": "まく",
+      "kana": "まく",
+      "romaji": "maku",
+      "tokens": [
+        {
+          "text": "まく",
+          "kana": "まく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "隐藏；隐遁",
+      "japanese": "隠れる",
+      "kana": "かくれる",
+      "romaji": "kakureru",
+      "tokens": [
+        {
+          "text": "隠れる",
+          "kana": "かくれる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "沿着；遵照",
+      "japanese": "沿う",
+      "kana": "そう",
+      "romaji": "sou",
+      "tokens": [
+        {
+          "text": "沿う",
+          "kana": "そう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "懊悔，后悔；哀悼",
+      "japanese": "悔やむ",
+      "kana": "くやむ",
+      "romaji": "kuyamu",
+      "tokens": [
+        {
+          "text": "悔やむ",
+          "kana": "くやむ"
+        }
+      ]
+    }
+  ]
+}

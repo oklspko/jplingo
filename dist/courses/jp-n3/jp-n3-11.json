@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-11",
+  "coursePackId": "jp-n3",
+  "title": "名词 11",
+  "order": 11,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "玫瑰花",
+      "japanese": "ばら",
+      "kana": "ばら",
+      "romaji": "bara",
+      "tokens": [
+        {
+          "text": "ばら",
+          "kana": "ばら"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "这个那个，种种",
+      "japanese": "あれこれ",
+      "kana": "あれこれ",
+      "romaji": "arekore",
+      "tokens": [
+        {
+          "text": "あれこれ",
+          "kana": "あれこれ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "墨水",
+      "japanese": "インク",
+      "kana": "いんく",
+      "romaji": "inku",
+      "tokens": [
+        {
+          "text": "インク",
+          "kana": "いんく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "采访，会见",
+      "japanese": "インタビュー",
+      "kana": "いんたびゅう",
+      "romaji": "intabyuu",
+      "tokens": [
+        {
+          "text": "インタビュー",
+          "kana": "いんたびゅう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "在背后议论别人；传闻，风言风语",
+      "japanese": "噂[うわさ]",
+      "kana": "うわさ",
+      "romaji": "uwasa",
+      "tokens": [
+        {
+          "text": "噂[うわさ]",
+          "kana": "うわさ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "西式围裙",
+      "japanese": "エプロン",
+      "kana": "えぷろん",
+      "romaji": "epuron",
+      "tokens": [
+        {
+          "text": "エプロン",
+          "kana": "えぷろん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "外甥，侄子",
+      "japanese": "甥[おい]",
+      "kana": "おい",
+      "romaji": "oi",
+      "tokens": [
+        {
+          "text": "甥[おい]",
+          "kana": "おい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "行礼，鞠躬",
+      "japanese": "お辞儀",
+      "kana": "おじぎ",
+      "romaji": "ojigi",
+      "tokens": [
+        {
+          "text": "お辞儀",
+          "kana": "おじぎ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "转弯处，弯曲",
+      "japanese": "カーブ",
+      "kana": "かあぶ",
+      "romaji": "kaabu",
+      "tokens": [
+        {
+          "text": "カーブ",
+          "kana": "かあぶ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "盒式录音磁带",
+      "japanese": "カセットテープ",
+      "kana": "かせっとてえぷ",
+      "romaji": "kasettoteepu",
+      "tokens": [
+        {
+          "text": "カセットテープ",
+          "kana": "かせっとてえぷ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "商品目录",
+      "japanese": "カタログ",
+      "kana": "かたろぐ",
+      "romaji": "katarogu",
+      "tokens": [
+        {
+          "text": "カタログ",
+          "kana": "かたろぐ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "霉",
+      "japanese": "かび",
+      "kana": "かび",
+      "romaji": "kabi",
+      "tokens": [
+        {
+          "text": "かび",
+          "kana": "かび"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "摄影师",
+      "japanese": "カメラマン",
+      "kana": "かめらまん",
+      "romaji": "kameraman",
+      "tokens": [
+        {
+          "text": "カメラマン",
+          "kana": "かめらまん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "卡路里；热量",
+      "japanese": "カロリー",
+      "kana": "かろりい",
+      "romaji": "karorii",
+      "tokens": [
+        {
+          "text": "カロリー",
+          "kana": "かろりい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（电脑，乐器等的）键盘",
+      "japanese": "キーボード",
+      "kana": "きいぼうど",
+      "romaji": "kiiboudo",
+      "tokens": [
+        {
+          "text": "キーボード",
+          "kana": "きいぼうど"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "卷心菜",
+      "japanese": "キャベツ",
+      "kana": "きゃべつ",
+      "romaji": "kyabetsu",
+      "tokens": [
+        {
+          "text": "キャベツ",
+          "kana": "きゃべつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "喷嚏",
+      "japanese": "くしゃみ",
+      "kana": "くしゃみ",
+      "romaji": "kushami",
+      "tokens": [
+        {
+          "text": "くしゃみ",
+          "kana": "くしゃみ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "运动场，操场",
+      "japanese": "グラウンド",
+      "kana": "ぐらうんど",
+      "romaji": "guraundo",
+      "tokens": [
+        {
+          "text": "グラウンド",
+          "kana": "ぐらうんど"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "图表",
+      "japanese": "グラフ",
+      "kana": "ぐらふ",
+      "romaji": "gurafu",
+      "tokens": [
+        {
+          "text": "グラフ",
+          "kana": "ぐらふ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（特指）干洗",
+      "japanese": "クリーニング",
+      "kana": "くりいにんぐ",
+      "romaji": "kuriiningu",
+      "tokens": [
+        {
+          "text": "クリーニング",
+          "kana": "くりいにんぐ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "箱子，盒子；事例",
+      "japanese": "ケース",
+      "kana": "けえす",
+      "romaji": "keesu",
+      "tokens": [
+        {
+          "text": "ケース",
+          "kana": "けえす"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "吝啬，小气",
+      "japanese": "けち",
+      "kana": "けち",
+      "romaji": "kechi",
+      "tokens": [
+        {
+          "text": "けち",
+          "kana": "けち"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "硬币，货币",
+      "japanese": "コイン",
+      "kana": "こいん",
+      "romaji": "koin",
+      "tokens": [
+        {
+          "text": "コイン",
+          "kana": "こいん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "路线；课程；套餐",
+      "japanese": "コース",
+      "kana": "こうす",
+      "romaji": "kousu",
+      "tokens": [
+        {
+          "text": "コース",
+          "kana": "こうす"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "终点；球门；目标",
+      "japanese": "ゴール",
+      "kana": "ごうる",
+      "romaji": "gouru",
+      "tokens": [
+        {
+          "text": "ゴール",
+          "kana": "ごうる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "商业广告",
+      "japanese": "コマーシャル",
+      "kana": "こまあしゃる",
+      "romaji": "komaasharu",
+      "tokens": [
+        {
+          "text": "コマーシャル",
+          "kana": "こまあしゃる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "看，请看；试试看",
+      "japanese": "御覧",
+      "kana": "ごらん",
+      "romaji": "goran",
+      "tokens": [
+        {
+          "text": "御覧",
+          "kana": "ごらん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "工薪阶层",
+      "japanese": "サラリーマン",
+      "kana": "さらりいまん",
+      "romaji": "sarariiman",
+      "tokens": [
+        {
+          "text": "サラリーマン",
+          "kana": "さらりいまん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "太阳镜，墨镜",
+      "japanese": "サングラス",
+      "kana": "さんぐらす",
+      "romaji": "sangurasu",
+      "tokens": [
+        {
+          "text": "サングラス",
+          "kana": "さんぐらす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "样品",
+      "japanese": "サンプル",
+      "kana": "さんぷる",
+      "romaji": "sanpuru",
+      "tokens": [
+        {
+          "text": "サンプル",
+          "kana": "さんぷる"
+        }
+      ]
+    }
+  ]
+}

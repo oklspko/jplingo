@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-13",
+  "coursePackId": "jp-n4",
+  "title": "名词 13",
+  "order": 13,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "疑问",
+      "japanese": "疑問",
+      "kana": "ぎもん",
+      "romaji": "gimon",
+      "tokens": [
+        {
+          "text": "疑問",
+          "kana": "ぎもん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "急赴，急忙赶去；快车",
+      "japanese": "急行",
+      "kana": "きゅうこう",
+      "romaji": "kyuukou",
+      "tokens": [
+        {
+          "text": "急行",
+          "kana": "きゅうこう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "距离；差距",
+      "japanese": "距離",
+      "kana": "きょり",
+      "romaji": "kyori",
+      "tokens": [
+        {
+          "text": "距離",
+          "kana": "きょり"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "协力，合作",
+      "japanese": "協力",
+      "kana": "きょうりょく",
+      "romaji": "kyouryoku",
+      "tokens": [
+        {
+          "text": "協力",
+          "kana": "きょうりょく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "教育，教养",
+      "japanese": "教育",
+      "kana": "きょういく",
+      "romaji": "kyouiku",
+      "tokens": [
+        {
+          "text": "教育",
+          "kana": "きょういく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "紧张",
+      "japanese": "緊張",
+      "kana": "きんちょう",
+      "romaji": "kinchou",
+      "tokens": [
+        {
+          "text": "緊張",
+          "kana": "きんちょう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "景色，风景",
+      "japanese": "景色",
+      "kana": "けしき",
+      "romaji": "keshiki",
+      "tokens": [
+        {
+          "text": "景色",
+          "kana": "けしき"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "决定，确定",
+      "japanese": "決定",
+      "kana": "けってい",
+      "romaji": "kettei",
+      "tokens": [
+        {
+          "text": "決定",
+          "kana": "けってい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "效果，功效",
+      "japanese": "効果",
+      "kana": "こうか",
+      "romaji": "kouka",
+      "tokens": [
+        {
+          "text": "効果",
+          "kana": "こうか"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "行动，活动",
+      "japanese": "行動",
+      "kana": "こうどう",
+      "romaji": "koudou",
+      "tokens": [
+        {
+          "text": "行動",
+          "kana": "こうどう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "差；差别，差距",
+      "japanese": "差",
+      "kana": "さ",
+      "romaji": "sa",
+      "tokens": [
+        {
+          "text": "差",
+          "kana": "さ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "最高；最好",
+      "japanese": "最高",
+      "kana": "さいこう",
+      "romaji": "saikou",
+      "tokens": [
+        {
+          "text": "最高",
+          "kana": "さいこう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "最大",
+      "japanese": "最大",
+      "kana": "さいだい",
+      "romaji": "saidai",
+      "tokens": [
+        {
+          "text": "最大",
+          "kana": "さいだい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "回忆",
+      "japanese": "思い出",
+      "kana": "おもいで",
+      "romaji": "omoide",
+      "tokens": [
+        {
+          "text": "思い出",
+          "kana": "おもいで"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "事件，案件",
+      "japanese": "事件",
+      "kana": "じけん",
+      "romaji": "jiken",
+      "tokens": [
+        {
+          "text": "事件",
+          "kana": "じけん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "时间表，课程表",
+      "japanese": "時間割",
+      "kana": "じかんわり",
+      "romaji": "jikanwari",
+      "tokens": [
+        {
+          "text": "時間割",
+          "kana": "じかんわり"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "自己；本身",
+      "japanese": "自身",
+      "kana": "じしん",
+      "romaji": "jishin",
+      "tokens": [
+        {
+          "text": "自身",
+          "kana": "じしん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "自动",
+      "japanese": "自動",
+      "kana": "じどう",
+      "romaji": "jidou",
+      "tokens": [
+        {
+          "text": "自動",
+          "kana": "じどう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "自由",
+      "japanese": "自由",
+      "kana": "じゆう",
+      "romaji": "jiyuu",
+      "tokens": [
+        {
+          "text": "自由",
+          "kana": "じゆう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "笔记本，手册",
+      "japanese": "手帳",
+      "kana": "てちょう",
+      "romaji": "techou",
+      "tokens": [
+        {
+          "text": "手帳",
+          "kana": "てちょう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "受理；传达室，问讯处",
+      "japanese": "受付",
+      "kana": "うけつけ",
+      "romaji": "uketsuke",
+      "tokens": [
+        {
+          "text": "受付",
+          "kana": "うけつけ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "少女",
+      "japanese": "少女",
+      "kana": "しょうじょ",
+      "romaji": "shoujo",
+      "tokens": [
+        {
+          "text": "少女",
+          "kana": "しょうじょ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "少年",
+      "japanese": "少年",
+      "kana": "しょうねん",
+      "romaji": "shounen",
+      "tokens": [
+        {
+          "text": "少年",
+          "kana": "しょうねん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "状态，情形",
+      "japanese": "状態",
+      "kana": "じょうたい",
+      "romaji": "joutai",
+      "tokens": [
+        {
+          "text": "状態",
+          "kana": "じょうたい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（主食以外的）食物，食材",
+      "japanese": "食料",
+      "kana": "しょくりょう",
+      "romaji": "shokuryou",
+      "tokens": [
+        {
+          "text": "食料",
+          "kana": "しょくりょう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "相信；信誉",
+      "japanese": "信用",
+      "kana": "しんよう",
+      "romaji": "shin'you",
+      "tokens": [
+        {
+          "text": "信用",
+          "kana": "しんよう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "嘴唇",
+      "japanese": "唇",
+      "kana": "くちびる",
+      "romaji": "kuchibiru",
+      "tokens": [
+        {
+          "text": "唇",
+          "kana": "くちびる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "新干线",
+      "japanese": "新幹線",
+      "kana": "しんかんせん",
+      "romaji": "shinkansen",
+      "tokens": [
+        {
+          "text": "新幹線",
+          "kana": "しんかんせん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "身体；自身；身份",
+      "japanese": "身",
+      "kana": "み",
+      "romaji": "mi",
+      "tokens": [
+        {
+          "text": "身",
+          "kana": "み"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "正确，准确",
+      "japanese": "正確",
+      "kana": "せいかく",
+      "romaji": "seikaku",
+      "tokens": [
+        {
+          "text": "正確",
+          "kana": "せいかく"
+        }
+      ]
+    }
+  ]
+}

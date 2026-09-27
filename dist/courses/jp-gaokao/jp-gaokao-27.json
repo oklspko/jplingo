@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-27",
+  "coursePackId": "jp-gaokao",
+  "title": "名词必考 2",
+  "order": 27,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "道路",
+      "japanese": "道",
+      "kana": "みち",
+      "romaji": "michi",
+      "tokens": [
+        {
+          "text": "道",
+          "kana": "みち"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "地点",
+      "japanese": "所",
+      "kana": "ところ",
+      "romaji": "tokoro",
+      "tokens": [
+        {
+          "text": "所",
+          "kana": "ところ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "英语",
+      "japanese": "英語",
+      "kana": "えいご",
+      "romaji": "eigo",
+      "tokens": [
+        {
+          "text": "英語",
+          "kana": "えいご"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "客人",
+      "japanese": "客",
+      "kana": "きゃく",
+      "romaji": "kyaku",
+      "tokens": [
+        {
+          "text": "客",
+          "kana": "きゃく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "真的、真实的、本来",
+      "japanese": "本当",
+      "kana": "ほんとう",
+      "romaji": "hontou",
+      "tokens": [
+        {
+          "text": "本当",
+          "kana": "ほんとう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "话、内容",
+      "japanese": "話",
+      "kana": "はなし",
+      "romaji": "hanashi",
+      "tokens": [
+        {
+          "text": "話",
+          "kana": "はなし"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "人；别人",
+      "japanese": "人",
+      "kana": "ひと",
+      "romaji": "hito",
+      "tokens": [
+        {
+          "text": "人",
+          "kana": "ひと"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "手",
+      "japanese": "手",
+      "kana": "て",
+      "romaji": "te",
+      "tokens": [
+        {
+          "text": "手",
+          "kana": "て"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "眼睛、目光",
+      "japanese": "目",
+      "kana": "め",
+      "romaji": "me",
+      "tokens": [
+        {
+          "text": "目",
+          "kana": "め"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "方面、方向、某一方",
+      "japanese": "方",
+      "kana": "ほう",
+      "romaji": "hou",
+      "tokens": [
+        {
+          "text": "方",
+          "kana": "ほう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "场景、场合、情况",
+      "japanese": "場合",
+      "kana": "ばあい",
+      "romaji": "baai",
+      "tokens": [
+        {
+          "text": "場合",
+          "kana": "ばあい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "中、里面、内部",
+      "japanese": "中",
+      "kana": "なか",
+      "romaji": "naka",
+      "tokens": [
+        {
+          "text": "中",
+          "kana": "なか"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "昨天",
+      "japanese": "昨日",
+      "kana": "きのう",
+      "romaji": "kinou",
+      "tokens": [
+        {
+          "text": "昨日",
+          "kana": "きのう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "雨",
+      "japanese": "雨",
+      "kana": "あめ",
+      "romaji": "ame",
+      "tokens": [
+        {
+          "text": "雨",
+          "kana": "あめ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "早上",
+      "japanese": "朝",
+      "kana": "あさ",
+      "romaji": "asa",
+      "tokens": [
+        {
+          "text": "朝",
+          "kana": "あさ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "他",
+      "japanese": "彼",
+      "kana": "かれ",
+      "romaji": "kare",
+      "tokens": [
+        {
+          "text": "彼",
+          "kana": "かれ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "电影",
+      "japanese": "映画",
+      "kana": "えいが",
+      "romaji": "eiga",
+      "tokens": [
+        {
+          "text": "映画",
+          "kana": "えいが"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "今天",
+      "japanese": "今日",
+      "kana": "きょう",
+      "romaji": "kyou",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "～的时候",
+      "japanese": "時",
+      "kana": "とき",
+      "romaji": "toki",
+      "tokens": [
+        {
+          "text": "時",
+          "kana": "とき"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "问题",
+      "japanese": "問題",
+      "kana": "もんだい",
+      "romaji": "mondai",
+      "tokens": [
+        {
+          "text": "問題",
+          "kana": "もんだい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "明天",
+      "japanese": "明日",
+      "kana": "あした",
+      "romaji": "ashita",
+      "tokens": [
+        {
+          "text": "明日",
+          "kana": "あした"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "树、木头",
+      "japanese": "木",
+      "kana": "き",
+      "romaji": "ki",
+      "tokens": [
+        {
+          "text": "木",
+          "kana": "き"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "人类",
+      "japanese": "人間",
+      "kana": "にんげん",
+      "romaji": "ningen",
+      "tokens": [
+        {
+          "text": "人間",
+          "kana": "にんげん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "电话",
+      "japanese": "電話",
+      "kana": "でんわ",
+      "romaji": "denwa",
+      "tokens": [
+        {
+          "text": "電話",
+          "kana": "でんわ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "头、头脑",
+      "japanese": "頭",
+      "kana": "あたま",
+      "romaji": "atama",
+      "tokens": [
+        {
+          "text": "頭",
+          "kana": "あたま"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "其他、别的",
+      "japanese": "他",
+      "kana": "ほか",
+      "romaji": "hoka",
+      "tokens": [
+        {
+          "text": "他",
+          "kana": "ほか"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "教室",
+      "japanese": "教室",
+      "kana": "きょうしつ",
+      "romaji": "kyoushitsu",
+      "tokens": [
+        {
+          "text": "教室",
+          "kana": "きょうしつ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "普通、普遍、通常",
+      "japanese": "普通",
+      "kana": "ふつう",
+      "romaji": "futsuu",
+      "tokens": [
+        {
+          "text": "普通",
+          "kana": "ふつう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "前面、之前",
+      "japanese": "前",
+      "kana": "まえ",
+      "romaji": "mae",
+      "tokens": [
+        {
+          "text": "前",
+          "kana": "まえ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "什么",
+      "japanese": "何",
+      "kana": "なに",
+      "romaji": "nani",
+      "tokens": [
+        {
+          "text": "何",
+          "kana": "なに"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "手",
+      "japanese": "手",
+      "kana": "て",
+      "romaji": "te",
+      "tokens": [
+        {
+          "text": "手",
+          "kana": "て"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "客人",
+      "japanese": "客",
+      "kana": "きゃく",
+      "romaji": "kyaku",
+      "tokens": [
+        {
+          "text": "客",
+          "kana": "きゃく"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "普通、普遍、通常",
+      "japanese": "普通",
+      "kana": "ふつう",
+      "romaji": "futsuu",
+      "tokens": [
+        {
+          "text": "普通",
+          "kana": "ふつう"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "头、头脑",
+      "japanese": "頭",
+      "kana": "あたま",
+      "romaji": "atama",
+      "tokens": [
+        {
+          "text": "頭",
+          "kana": "あたま"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "眼睛、目光",
+      "japanese": "目",
+      "kana": "め",
+      "romaji": "me",
+      "tokens": [
+        {
+          "text": "目",
+          "kana": "め"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "昨天",
+      "japanese": "昨日",
+      "kana": "きのう",
+      "romaji": "kinou",
+      "tokens": [
+        {
+          "text": "昨日",
+          "kana": "きのう"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "人；别人",
+      "japanese": "人",
+      "kana": "ひと",
+      "romaji": "hito",
+      "tokens": [
+        {
+          "text": "人",
+          "kana": "ひと"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "其他、别的",
+      "japanese": "他",
+      "kana": "ほか",
+      "romaji": "hoka",
+      "tokens": [
+        {
+          "text": "他",
+          "kana": "ほか"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "人类",
+      "japanese": "人間",
+      "kana": "にんげん",
+      "romaji": "ningen",
+      "tokens": [
+        {
+          "text": "人間",
+          "kana": "にんげん"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "早上",
+      "japanese": "朝",
+      "kana": "あさ",
+      "romaji": "asa",
+      "tokens": [
+        {
+          "text": "朝",
+          "kana": "あさ"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "什么",
+      "japanese": "何",
+      "kana": "なに",
+      "romaji": "nani",
+      "tokens": [
+        {
+          "text": "何",
+          "kana": "なに"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "树、木头",
+      "japanese": "木",
+      "kana": "き",
+      "romaji": "ki",
+      "tokens": [
+        {
+          "text": "木",
+          "kana": "き"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "道路",
+      "japanese": "道",
+      "kana": "みち",
+      "romaji": "michi",
+      "tokens": [
+        {
+          "text": "道",
+          "kana": "みち"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "方面、方向、某一方",
+      "japanese": "方",
+      "kana": "ほう",
+      "romaji": "hou",
+      "tokens": [
+        {
+          "text": "方",
+          "kana": "ほう"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "明天",
+      "japanese": "明日",
+      "kana": "あした",
+      "romaji": "ashita",
+      "tokens": [
+        {
+          "text": "明日",
+          "kana": "あした"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "地点",
+      "japanese": "所",
+      "kana": "ところ",
+      "romaji": "tokoro",
+      "tokens": [
+        {
+          "text": "所",
+          "kana": "ところ"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "话、内容",
+      "japanese": "話",
+      "kana": "はなし",
+      "romaji": "hanashi",
+      "tokens": [
+        {
+          "text": "話",
+          "kana": "はなし"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "电话",
+      "japanese": "電話",
+      "kana": "でんわ",
+      "romaji": "denwa",
+      "tokens": [
+        {
+          "text": "電話",
+          "kana": "でんわ"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "今天",
+      "japanese": "今日",
+      "kana": "きょう",
+      "romaji": "kyou",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "雨",
+      "japanese": "雨",
+      "kana": "あめ",
+      "romaji": "ame",
+      "tokens": [
+        {
+          "text": "雨",
+          "kana": "あめ"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "教室",
+      "japanese": "教室",
+      "kana": "きょうしつ",
+      "romaji": "kyoushitsu",
+      "tokens": [
+        {
+          "text": "教室",
+          "kana": "きょうしつ"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "场景、场合、情况",
+      "japanese": "場合",
+      "kana": "ばあい",
+      "romaji": "baai",
+      "tokens": [
+        {
+          "text": "場合",
+          "kana": "ばあい"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "中、里面、内部",
+      "japanese": "中",
+      "kana": "なか",
+      "romaji": "naka",
+      "tokens": [
+        {
+          "text": "中",
+          "kana": "なか"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "前面、之前",
+      "japanese": "前",
+      "kana": "まえ",
+      "romaji": "mae",
+      "tokens": [
+        {
+          "text": "前",
+          "kana": "まえ"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "问题",
+      "japanese": "問題",
+      "kana": "もんだい",
+      "romaji": "mondai",
+      "tokens": [
+        {
+          "text": "問題",
+          "kana": "もんだい"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "电影",
+      "japanese": "映画",
+      "kana": "えいが",
+      "romaji": "eiga",
+      "tokens": [
+        {
+          "text": "映画",
+          "kana": "えいが"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "真的、真实的、本来",
+      "japanese": "本当",
+      "kana": "ほんとう",
+      "romaji": "hontou",
+      "tokens": [
+        {
+          "text": "本当",
+          "kana": "ほんとう"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "他",
+      "japanese": "彼",
+      "kana": "かれ",
+      "romaji": "kare",
+      "tokens": [
+        {
+          "text": "彼",
+          "kana": "かれ"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "～的时候",
+      "japanese": "時",
+      "kana": "とき",
+      "romaji": "toki",
+      "tokens": [
+        {
+          "text": "時",
+          "kana": "とき"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "英语",
+      "japanese": "英語",
+      "kana": "えいご",
+      "romaji": "eigo",
+      "tokens": [
+        {
+          "text": "英語",
+          "kana": "えいご"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "树、木头",
+      "japanese": "木",
+      "kana": "き",
+      "romaji": "ki",
+      "tokens": [
+        {
+          "text": "木",
+          "kana": "き"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "真的、真实的、本来",
+      "japanese": "本当",
+      "kana": "ほんとう",
+      "romaji": "hontou",
+      "tokens": [
+        {
+          "text": "本当",
+          "kana": "ほんとう"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "眼睛、目光",
+      "japanese": "目",
+      "kana": "め",
+      "romaji": "me",
+      "tokens": [
+        {
+          "text": "目",
+          "kana": "め"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "中、里面、内部",
+      "japanese": "中",
+      "kana": "なか",
+      "romaji": "naka",
+      "tokens": [
+        {
+          "text": "中",
+          "kana": "なか"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "明天",
+      "japanese": "明日",
+      "kana": "あした",
+      "romaji": "ashita",
+      "tokens": [
+        {
+          "text": "明日",
+          "kana": "あした"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "昨天",
+      "japanese": "昨日",
+      "kana": "きのう",
+      "romaji": "kinou",
+      "tokens": [
+        {
+          "text": "昨日",
+          "kana": "きのう"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "道路",
+      "japanese": "道",
+      "kana": "みち",
+      "romaji": "michi",
+      "tokens": [
+        {
+          "text": "道",
+          "kana": "みち"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "问题",
+      "japanese": "問題",
+      "kana": "もんだい",
+      "romaji": "mondai",
+      "tokens": [
+        {
+          "text": "問題",
+          "kana": "もんだい"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "手",
+      "japanese": "手",
+      "kana": "て",
+      "romaji": "te",
+      "tokens": [
+        {
+          "text": "手",
+          "kana": "て"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "人类",
+      "japanese": "人間",
+      "kana": "にんげん",
+      "romaji": "ningen",
+      "tokens": [
+        {
+          "text": "人間",
+          "kana": "にんげん"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "客人",
+      "japanese": "客",
+      "kana": "きゃく",
+      "romaji": "kyaku",
+      "tokens": [
+        {
+          "text": "客",
+          "kana": "きゃく"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "今天",
+      "japanese": "今日",
+      "kana": "きょう",
+      "romaji": "kyou",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "雨",
+      "japanese": "雨",
+      "kana": "あめ",
+      "romaji": "ame",
+      "tokens": [
+        {
+          "text": "雨",
+          "kana": "あめ"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "电话",
+      "japanese": "電話",
+      "kana": "でんわ",
+      "romaji": "denwa",
+      "tokens": [
+        {
+          "text": "電話",
+          "kana": "でんわ"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "他",
+      "japanese": "彼",
+      "kana": "かれ",
+      "romaji": "kare",
+      "tokens": [
+        {
+          "text": "彼",
+          "kana": "かれ"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "方面、方向、某一方",
+      "japanese": "方",
+      "kana": "ほう",
+      "romaji": "hou",
+      "tokens": [
+        {
+          "text": "方",
+          "kana": "ほう"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "～的时候",
+      "japanese": "時",
+      "kana": "とき",
+      "romaji": "toki",
+      "tokens": [
+        {
+          "text": "時",
+          "kana": "とき"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "早上",
+      "japanese": "朝",
+      "kana": "あさ",
+      "romaji": "asa",
+      "tokens": [
+        {
+          "text": "朝",
+          "kana": "あさ"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "头、头脑",
+      "japanese": "頭",
+      "kana": "あたま",
+      "romaji": "atama",
+      "tokens": [
+        {
+          "text": "頭",
+          "kana": "あたま"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "前面、之前",
+      "japanese": "前",
+      "kana": "まえ",
+      "romaji": "mae",
+      "tokens": [
+        {
+          "text": "前",
+          "kana": "まえ"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "普通、普遍、通常",
+      "japanese": "普通",
+      "kana": "ふつう",
+      "romaji": "futsuu",
+      "tokens": [
+        {
+          "text": "普通",
+          "kana": "ふつう"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "场景、场合、情况",
+      "japanese": "場合",
+      "kana": "ばあい",
+      "romaji": "baai",
+      "tokens": [
+        {
+          "text": "場合",
+          "kana": "ばあい"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "电影",
+      "japanese": "映画",
+      "kana": "えいが",
+      "romaji": "eiga",
+      "tokens": [
+        {
+          "text": "映画",
+          "kana": "えいが"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "英语",
+      "japanese": "英語",
+      "kana": "えいご",
+      "romaji": "eigo",
+      "tokens": [
+        {
+          "text": "英語",
+          "kana": "えいご"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "话、内容",
+      "japanese": "話",
+      "kana": "はなし",
+      "romaji": "hanashi",
+      "tokens": [
+        {
+          "text": "話",
+          "kana": "はなし"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "什么",
+      "japanese": "何",
+      "kana": "なに",
+      "romaji": "nani",
+      "tokens": [
+        {
+          "text": "何",
+          "kana": "なに"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "人；别人",
+      "japanese": "人",
+      "kana": "ひと",
+      "romaji": "hito",
+      "tokens": [
+        {
+          "text": "人",
+          "kana": "ひと"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "教室",
+      "japanese": "教室",
+      "kana": "きょうしつ",
+      "romaji": "kyoushitsu",
+      "tokens": [
+        {
+          "text": "教室",
+          "kana": "きょうしつ"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "其他、别的",
+      "japanese": "他",
+      "kana": "ほか",
+      "romaji": "hoka",
+      "tokens": [
+        {
+          "text": "他",
+          "kana": "ほか"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "地点",
+      "japanese": "所",
+      "kana": "ところ",
+      "romaji": "tokoro",
+      "tokens": [
+        {
+          "text": "所",
+          "kana": "ところ"
+        }
+      ]
+    }
+  ]
+}

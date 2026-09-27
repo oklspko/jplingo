@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-38",
+  "coursePackId": "jp-n2",
+  "title": "名词 38",
+  "order": 38,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "决胜，决赛",
+      "japanese": "決勝",
+      "kana": "けっしょう",
+      "romaji": "kesshou",
+      "tokens": [
+        {
+          "text": "決勝",
+          "kana": "けっしょう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "决断，果断下定决心",
+      "japanese": "決断",
+      "kana": "けつだん",
+      "romaji": "ketsudan",
+      "tokens": [
+        {
+          "text": "決断",
+          "kana": "けつだん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "希望，可能性；预料",
+      "japanese": "見込み",
+      "kana": "みこみ",
+      "romaji": "mikomi",
+      "tokens": [
+        {
+          "text": "見込み",
+          "kana": "みこみ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "估算，估价",
+      "japanese": "見積もり",
+      "kana": "みつもり",
+      "romaji": "mitsumori",
+      "tokens": [
+        {
+          "text": "見積もり",
+          "kana": "みつもり"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "幻影；虚幻",
+      "japanese": "幻",
+      "kana": "まぼろし",
+      "romaji": "maboroshi",
+      "tokens": [
+        {
+          "text": "幻",
+          "kana": "まぼろし"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "减少重量，减少分量；（特指）减轻体重",
+      "japanese": "減量",
+      "kana": "げんりょう",
+      "romaji": "genryou",
+      "tokens": [
+        {
+          "text": "減量",
+          "kana": "げんりょう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "内行，行家",
+      "japanese": "玄人",
+      "kana": "くろうと",
+      "romaji": "kurouto",
+      "tokens": [
+        {
+          "text": "玄人",
+          "kana": "くろうと"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "现场，当地；现居住地",
+      "japanese": "現地",
+      "kana": "げんち",
+      "romaji": "genchi",
+      "tokens": [
+        {
+          "text": "現地",
+          "kana": "げんち"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "辩解，辩白",
+      "japanese": "言い訳",
+      "kana": "いいわけ",
+      "romaji": "iiwake",
+      "tokens": [
+        {
+          "text": "言い訳",
+          "kana": "いいわけ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "限定，限制",
+      "japanese": "限定",
+      "kana": "げんてい",
+      "romaji": "gentei",
+      "tokens": [
+        {
+          "text": "限定",
+          "kana": "げんてい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "个别",
+      "japanese": "個別",
+      "kana": "こべつ",
+      "romaji": "kobetsu",
+      "tokens": [
+        {
+          "text": "個別",
+          "kana": "こべつ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "后悔",
+      "japanese": "後悔",
+      "kana": "こうかい",
+      "romaji": "koukai",
+      "tokens": [
+        {
+          "text": "後悔",
+          "kana": "こうかい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "公立",
+      "japanese": "公立",
+      "kana": "こうりつ",
+      "romaji": "kouritsu",
+      "tokens": [
+        {
+          "text": "公立",
+          "kana": "こうりつ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "效力，效用",
+      "japanese": "効き目",
+      "kana": "ききめ",
+      "romaji": "kikime",
+      "tokens": [
+        {
+          "text": "効き目",
+          "kana": "ききめ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "用处，用途；功效",
+      "japanese": "効用",
+      "kana": "こうよう",
+      "romaji": "kouyou",
+      "tokens": [
+        {
+          "text": "効用",
+          "kana": "こうよう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "口气，措辞，腔调",
+      "japanese": "口調",
+      "kana": "くちょう",
+      "romaji": "kuchou",
+      "tokens": [
+        {
+          "text": "口調",
+          "kana": "くちょう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "好奇心",
+      "japanese": "好奇心",
+      "kana": "こうきしん",
+      "romaji": "koukishin",
+      "tokens": [
+        {
+          "text": "好奇心",
+          "kana": "こうきしん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "势头好，情况好",
+      "japanese": "好調",
+      "kana": "こうちょう",
+      "romaji": "kouchou",
+      "tokens": [
+        {
+          "text": "好調",
+          "kana": "こうちょう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "构造，门面；姿势；准备；（部首）框",
+      "japanese": "構え",
+      "kana": "かまえ",
+      "romaji": "kamae",
+      "tokens": [
+        {
+          "text": "構え",
+          "kana": "かまえ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "构图，取景；结构",
+      "japanese": "構図",
+      "kana": "こうず",
+      "romaji": "kouzu",
+      "tokens": [
+        {
+          "text": "構図",
+          "kana": "こうず"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "目的地，去向；未来，前途",
+      "japanese": "行く先",
+      "kana": "ゆくさき",
+      "romaji": "yukusaki",
+      "tokens": [
+        {
+          "text": "行く先",
+          "kana": "ゆくさき"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "（大学的）讲师；演讲者；（在学校或补习班等）受聘负责部分课程的教师",
+      "japanese": "講師",
+      "kana": "こうし",
+      "romaji": "koushi",
+      "tokens": [
+        {
+          "text": "講師",
+          "kana": "こうし"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "海拔；程度高",
+      "japanese": "高度",
+      "kana": "こうど",
+      "romaji": "koudo",
+      "tokens": [
+        {
+          "text": "高度",
+          "kana": "こうど"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "高龄化，老龄化",
+      "japanese": "高齢化",
+      "kana": "こうれいか",
+      "romaji": "koureika",
+      "tokens": [
+        {
+          "text": "高齢化",
+          "kana": "こうれいか"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "毅力，耐性",
+      "japanese": "根気",
+      "kana": "こんき",
+      "romaji": "konki",
+      "tokens": [
+        {
+          "text": "根気",
+          "kana": "こんき"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "错觉，误认为",
+      "japanese": "錯覚",
+      "kana": "さっかく",
+      "romaji": "sakkaku",
+      "tokens": [
+        {
+          "text": "錯覚",
+          "kana": "さっかく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "擦肩而过；不一致，分歧",
+      "japanese": "擦れ違い",
+      "kana": "すれちがい",
+      "romaji": "surechigai",
+      "tokens": [
+        {
+          "text": "擦れ違い",
+          "kana": "すれちがい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "结构，构造；计划，企图",
+      "japanese": "仕組み",
+      "kana": "しくみ",
+      "romaji": "shikumi",
+      "tokens": [
+        {
+          "text": "仕組み",
+          "kana": "しくみ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "使命，任务",
+      "japanese": "使命",
+      "kana": "しめい",
+      "romaji": "shimei",
+      "tokens": [
+        {
+          "text": "使命",
+          "kana": "しめい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "志愿，心愿",
+      "japanese": "志望",
+      "kana": "しぼう",
+      "romaji": "shibou",
+      "tokens": [
+        {
+          "text": "志望",
+          "kana": "しぼう"
+        }
+      ]
+    }
+  ]
+}

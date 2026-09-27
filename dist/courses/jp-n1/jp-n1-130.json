@@ -1,0 +1,47 @@
+{
+  "id": "jp-n1-130",
+  "coursePackId": "jp-n1",
+  "title": "形容词 12",
+  "order": 130,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "微少，些微",
+      "japanese": "微々",
+      "kana": "びび",
+      "romaji": "bibi",
+      "tokens": [
+        {
+          "text": "微々",
+          "kana": "びび"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "广漠，辽阔；模糊，渺茫",
+      "japanese": "茫[ぼう]漠",
+      "kana": "ぼうばく",
+      "romaji": "boubaku",
+      "tokens": [
+        {
+          "text": "茫[ぼう]漠",
+          "kana": "ぼうばく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "豁达，开阔",
+      "japanese": "闊[かっ]達",
+      "kana": "かったつ",
+      "romaji": "kattatsu",
+      "tokens": [
+        {
+          "text": "闊[かっ]達",
+          "kana": "かったつ"
+        }
+      ]
+    }
+  ]
+}

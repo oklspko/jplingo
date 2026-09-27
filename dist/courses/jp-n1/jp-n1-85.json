@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-85",
+  "coursePackId": "jp-n1",
+  "title": "名词 85",
+  "order": 85,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "大过错，严重错误",
+      "japanese": "大過",
+      "kana": "たいか",
+      "romaji": "taika",
+      "tokens": [
+        {
+          "text": "大過",
+          "kana": "たいか"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "簇生，丛生",
+      "japanese": "叢[そう]生",
+      "kana": "そうせい",
+      "romaji": "sousei",
+      "tokens": [
+        {
+          "text": "叢[そう]生",
+          "kana": "そうせい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "可见",
+      "japanese": "可視",
+      "kana": "かし",
+      "romaji": "kashi",
+      "tokens": [
+        {
+          "text": "可視",
+          "kana": "かし"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "浮游，漂浮",
+      "japanese": "浮遊",
+      "kana": "ふゆう",
+      "romaji": "fuyuu",
+      "tokens": [
+        {
+          "text": "浮遊",
+          "kana": "ふゆう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "至高，最高",
+      "japanese": "至高",
+      "kana": "しこう",
+      "romaji": "shikou",
+      "tokens": [
+        {
+          "text": "至高",
+          "kana": "しこう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "笔迹",
+      "japanese": "手跡",
+      "kana": "しゅせき",
+      "romaji": "shuseki",
+      "tokens": [
+        {
+          "text": "手跡",
+          "kana": "しゅせき"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "最初，开始，原本",
+      "japanese": "原初",
+      "kana": "げんしょ",
+      "romaji": "gensho",
+      "tokens": [
+        {
+          "text": "原初",
+          "kana": "げんしょ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "县外",
+      "japanese": "県外",
+      "kana": "けんがい",
+      "romaji": "kengai",
+      "tokens": [
+        {
+          "text": "県外",
+          "kana": "けんがい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "研究，钻研",
+      "japanese": "考究",
+      "kana": "こうきゅう",
+      "romaji": "koukyuu",
+      "tokens": [
+        {
+          "text": "考究",
+          "kana": "こうきゅう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "恒常",
+      "japanese": "恒常",
+      "kana": "こうじょう",
+      "romaji": "koujou",
+      "tokens": [
+        {
+          "text": "恒常",
+          "kana": "こうじょう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "飨宴，盛宴",
+      "japanese": "饗[きょう]宴",
+      "kana": "きょうえん",
+      "romaji": "kyouen",
+      "tokens": [
+        {
+          "text": "饗[きょう]宴",
+          "kana": "きょうえん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "政治斗争，争夺政权",
+      "japanese": "政争",
+      "kana": "せいそう",
+      "romaji": "seisou",
+      "tokens": [
+        {
+          "text": "政争",
+          "kana": "せいそう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "常胜",
+      "japanese": "常勝",
+      "kana": "じょうしょう",
+      "romaji": "joushou",
+      "tokens": [
+        {
+          "text": "常勝",
+          "kana": "じょうしょう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "发生，产生",
+      "japanese": "生起",
+      "kana": "せいき",
+      "romaji": "seiki",
+      "tokens": [
+        {
+          "text": "生起",
+          "kana": "せいき"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "最快",
+      "japanese": "最速",
+      "kana": "さいそく",
+      "romaji": "saisoku",
+      "tokens": [
+        {
+          "text": "最速",
+          "kana": "さいそく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "生成，产生，形成",
+      "japanese": "生成",
+      "kana": "せいせい",
+      "romaji": "seisei",
+      "tokens": [
+        {
+          "text": "生成",
+          "kana": "せいせい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "厌世，悲观",
+      "japanese": "厭[えん]世",
+      "kana": "えんせい",
+      "romaji": "ensei",
+      "tokens": [
+        {
+          "text": "厭[えん]世",
+          "kana": "えんせい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "自戒，自我警惕",
+      "japanese": "自戒",
+      "kana": "じかい",
+      "romaji": "jikai",
+      "tokens": [
+        {
+          "text": "自戒",
+          "kana": "じかい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "前面，前头",
+      "japanese": "前面",
+      "kana": "ぜんめん",
+      "romaji": "zenmen",
+      "tokens": [
+        {
+          "text": "前面",
+          "kana": "ぜんめん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "情况异常，不正常，故障",
+      "japanese": "変調",
+      "kana": "へんちょう",
+      "romaji": "henchou",
+      "tokens": [
+        {
+          "text": "変調",
+          "kana": "へんちょう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "理发和美容",
+      "japanese": "理容",
+      "kana": "りよう",
+      "romaji": "riyou",
+      "tokens": [
+        {
+          "text": "理容",
+          "kana": "りよう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "发病",
+      "japanese": "発症",
+      "kana": "はっしょう",
+      "romaji": "hasshou",
+      "tokens": [
+        {
+          "text": "発症",
+          "kana": "はっしょう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "估算，概算；检算，验算",
+      "japanese": "試算",
+      "kana": "しさん",
+      "romaji": "shisan",
+      "tokens": [
+        {
+          "text": "試算",
+          "kana": "しさん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "光芒",
+      "japanese": "光 芒[ぼう]",
+      "kana": "こうぼう",
+      "romaji": "koubou",
+      "tokens": [
+        {
+          "text": "光 芒[ぼう]",
+          "kana": "こうぼう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（学校）停课；（学校）停办",
+      "japanese": "閉校",
+      "kana": "へいこう",
+      "romaji": "heikou",
+      "tokens": [
+        {
+          "text": "閉校",
+          "kana": "へいこう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "警钟",
+      "japanese": "警鐘",
+      "kana": "けいしょう",
+      "romaji": "keishou",
+      "tokens": [
+        {
+          "text": "警鐘",
+          "kana": "けいしょう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "植被",
+      "japanese": "植生",
+      "kana": "しょくせい",
+      "romaji": "shokusei",
+      "tokens": [
+        {
+          "text": "植生",
+          "kana": "しょくせい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "速读",
+      "japanese": "速読",
+      "kana": "そくどく",
+      "romaji": "sokudoku",
+      "tokens": [
+        {
+          "text": "速読",
+          "kana": "そくどく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "税率",
+      "japanese": "税率",
+      "kana": "ぜいりつ",
+      "romaji": "zeiritsu",
+      "tokens": [
+        {
+          "text": "税率",
+          "kana": "ぜいりつ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "引起，诱发",
+      "japanese": "誘発",
+      "kana": "ゆうはつ",
+      "romaji": "yuuhatsu",
+      "tokens": [
+        {
+          "text": "誘発",
+          "kana": "ゆうはつ"
+        }
+      ]
+    }
+  ]
+}

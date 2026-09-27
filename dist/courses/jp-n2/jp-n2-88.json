@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-88",
+  "coursePackId": "jp-n2",
+  "title": "动词 17",
+  "order": 88,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "堆积；积累（疲劳、努力等）",
+      "japanese": "積み重なる",
+      "kana": "つみかさなる",
+      "romaji": "tsumikasanaru",
+      "tokens": [
+        {
+          "text": "積み重なる",
+          "kana": "つみかさなる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "责备，责怪；催促；苛责，折磨",
+      "japanese": "責める",
+      "kana": "せめる",
+      "romaji": "semeru",
+      "tokens": [
+        {
+          "text": "責める",
+          "kana": "せめる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "折叠",
+      "japanese": "折り畳む",
+      "kana": "おりたたむ",
+      "romaji": "oritatamu",
+      "tokens": [
+        {
+          "text": "折り畳む",
+          "kana": "おりたたむ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "排入，编入",
+      "japanese": "組み込む",
+      "kana": "くみこむ",
+      "romaji": "kumikomu",
+      "tokens": [
+        {
+          "text": "組み込む",
+          "kana": "くみこむ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "体会，领会，体验",
+      "japanese": "体得",
+      "kana": "たいとく",
+      "romaji": "taitoku",
+      "tokens": [
+        {
+          "text": "体得",
+          "kana": "たいとく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "埋伏",
+      "japanese": "待ち伏せ",
+      "kana": "まちぶせ",
+      "romaji": "machibuse",
+      "tokens": [
+        {
+          "text": "待ち伏せ",
+          "kana": "まちぶせ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "追逼，追得走投无路",
+      "japanese": "追い詰める",
+      "kana": "おいつめる",
+      "romaji": "oitsumeru",
+      "tokens": [
+        {
+          "text": "追い詰める",
+          "kana": "おいつめる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "驱赶，驱逐；催逼，催促",
+      "japanese": "追い立てる",
+      "kana": "おいたてる",
+      "romaji": "oitateru",
+      "tokens": [
+        {
+          "text": "追い立てる",
+          "kana": "おいたてる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "扎紧；总结；监督",
+      "japanese": "締めくくる",
+      "kana": "しめくくる",
+      "romaji": "shimekukuru",
+      "tokens": [
+        {
+          "text": "締めくくる",
+          "kana": "しめくくる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "匹敌，并肩",
+      "japanese": "敵[かな]う",
+      "kana": "かなう",
+      "romaji": "kanau",
+      "tokens": [
+        {
+          "text": "敵[かな]う",
+          "kana": "かなう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "符合，合乎",
+      "japanese": "適[かな]う",
+      "kana": "かなう",
+      "romaji": "kanau",
+      "tokens": [
+        {
+          "text": "適[かな]う",
+          "kana": "かなう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "添加",
+      "japanese": "添加",
+      "kana": "てんか",
+      "romaji": "tenka",
+      "tokens": [
+        {
+          "text": "添加",
+          "kana": "てんか"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "投函，投进邮筒，寄出",
+      "japanese": "投 函[かん]",
+      "kana": "とうかん",
+      "romaji": "toukan",
+      "tokens": [
+        {
+          "text": "投 函[かん]",
+          "kana": "とうかん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "踏出（场所、新的一步）",
+      "japanese": "踏み出す",
+      "kana": "ふみだす",
+      "romaji": "fumidasu",
+      "tokens": [
+        {
+          "text": "踏み出す",
+          "kana": "ふみだす"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "追究（真相等）；苦思冥想",
+      "japanese": "突き詰める",
+      "kana": "つきつめる",
+      "romaji": "tsukitsumeru",
+      "tokens": [
+        {
+          "text": "突き詰める",
+          "kana": "つきつめる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "勇往直前",
+      "japanese": "突き進む",
+      "kana": "つきすすむ",
+      "romaji": "tsukisusumu",
+      "tokens": [
+        {
+          "text": "突き進む",
+          "kana": "つきすすむ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "内置",
+      "japanese": "内蔵",
+      "kana": "ないぞう",
+      "romaji": "naizou",
+      "tokens": [
+        {
+          "text": "内蔵",
+          "kana": "ないぞう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "任凭；委托",
+      "japanese": "任す",
+      "kana": "まかす",
+      "romaji": "makasu",
+      "tokens": [
+        {
+          "text": "任す",
+          "kana": "まかす"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（头发、羽毛等）掉落；欠缺",
+      "japanese": "抜け落ちる",
+      "kana": "ぬけおちる",
+      "romaji": "nukeochiru",
+      "tokens": [
+        {
+          "text": "抜け落ちる",
+          "kana": "ぬけおちる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "肥胖；肥沃；鉴赏力强",
+      "japanese": "肥える",
+      "kana": "こえる",
+      "romaji": "koeru",
+      "tokens": [
+        {
+          "text": "肥える",
+          "kana": "こえる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（将必须品放在固定位置以便随时取用）备置",
+      "japanese": "備え付ける",
+      "kana": "そなえつける",
+      "romaji": "sonaetsukeru",
+      "tokens": [
+        {
+          "text": "備え付ける",
+          "kana": "そなえつける"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "被逮捕；受束缚",
+      "japanese": "捕らわれる",
+      "kana": "とらわれる",
+      "romaji": "torawareru",
+      "tokens": [
+        {
+          "text": "捕らわれる",
+          "kana": "とらわれる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "埋入，嵌入",
+      "japanese": "埋め込む",
+      "kana": "うめこむ",
+      "romaji": "umekomu",
+      "tokens": [
+        {
+          "text": "埋め込む",
+          "kana": "うめこむ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "需要",
+      "japanese": "要する",
+      "kana": "ようする",
+      "romaji": "yousuru",
+      "tokens": [
+        {
+          "text": "要する",
+          "kana": "ようする"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "欲求，欲望",
+      "japanese": "欲求",
+      "kana": "よっきゅう",
+      "romaji": "yokkyuu",
+      "tokens": [
+        {
+          "text": "欲求",
+          "kana": "よっきゅう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "（建筑物等）林立；匹敌",
+      "japanese": "立ち並ぶ",
+      "kana": "たちならぶ",
+      "romaji": "tachinarabu",
+      "tokens": [
+        {
+          "text": "立ち並ぶ",
+          "kana": "たちならぶ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "面临；直面；出席",
+      "japanese": "臨む",
+      "kana": "のぞむ",
+      "romaji": "nozomu",
+      "tokens": [
+        {
+          "text": "臨む",
+          "kana": "のぞむ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（合掌）拜",
+      "japanese": "拝む",
+      "kana": "おがむ",
+      "romaji": "ogamu",
+      "tokens": [
+        {
+          "text": "拝む",
+          "kana": "おがむ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "回头看；回顾",
+      "japanese": "振り返る",
+      "kana": "ふりかえる",
+      "romaji": "furikaeru",
+      "tokens": [
+        {
+          "text": "振り返る",
+          "kana": "ふりかえる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "遇到（不好的事情）",
+      "japanese": "遭う",
+      "kana": "あう",
+      "romaji": "au",
+      "tokens": [
+        {
+          "text": "遭う",
+          "kana": "あう"
+        }
+      ]
+    }
+  ]
+}

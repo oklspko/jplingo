@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-20",
+  "coursePackId": "jp-n4",
+  "title": "动词 3",
+  "order": 20,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "看得见；看起来是",
+      "japanese": "見える",
+      "kana": "みえる",
+      "romaji": "mieru",
+      "tokens": [
+        {
+          "text": "見える",
+          "kana": "みえる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "被找到；被发现",
+      "japanese": "見つかる",
+      "kana": "みつかる",
+      "romaji": "mitsukaru",
+      "tokens": [
+        {
+          "text": "見つかる",
+          "kana": "みつかる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "找到，发现",
+      "japanese": "見つける",
+      "kana": "みつける",
+      "romaji": "mitsukeru",
+      "tokens": [
+        {
+          "text": "見つける",
+          "kana": "みつける"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "举行，进行",
+      "japanese": "行う",
+      "kana": "おこなう",
+      "romaji": "okonau",
+      "tokens": [
+        {
+          "text": "行う",
+          "kana": "おこなう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "一致；合适；协调",
+      "japanese": "合う",
+      "kana": "あう",
+      "romaji": "au",
+      "tokens": [
+        {
+          "text": "合う",
+          "kana": "あう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "剩下，留下",
+      "japanese": "残る",
+      "kana": "のこる",
+      "romaji": "nokoru",
+      "tokens": [
+        {
+          "text": "残る",
+          "kana": "のこる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "想起，回忆起",
+      "japanese": "思い出す",
+      "kana": "おもいだす",
+      "romaji": "omoidasu",
+      "tokens": [
+        {
+          "text": "思い出す",
+          "kana": "おもいだす"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "使停下；制止",
+      "japanese": "止める",
+      "kana": "とめる",
+      "romaji": "tomeru",
+      "tokens": [
+        {
+          "text": "止める",
+          "kana": "とめる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "停止，放弃，取消；戒掉",
+      "japanese": "やめる",
+      "kana": "やめる",
+      "romaji": "yameru",
+      "tokens": [
+        {
+          "text": "やめる",
+          "kana": "やめる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "相似，像",
+      "japanese": "似る",
+      "kana": "にる",
+      "romaji": "niru",
+      "tokens": [
+        {
+          "text": "似る",
+          "kana": "にる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "病愈，痊愈",
+      "japanese": "治る",
+      "kana": "なおる",
+      "romaji": "naoru",
+      "tokens": [
+        {
+          "text": "治る",
+          "kana": "なおる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "抄；拍照",
+      "japanese": "写す",
+      "kana": "うつす",
+      "romaji": "utsusu",
+      "tokens": [
+        {
+          "text": "写す",
+          "kana": "うつす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "扔掉；抛弃",
+      "japanese": "捨てる",
+      "kana": "すてる",
+      "romaji": "suteru",
+      "tokens": [
+        {
+          "text": "捨てる",
+          "kana": "すてる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "帮忙，协助",
+      "japanese": "手伝う",
+      "kana": "てつだう",
+      "romaji": "tetsudau",
+      "tokens": [
+        {
+          "text": "手伝う",
+          "kana": "てつだう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "接受；遭受；参加（考试等）",
+      "japanese": "受ける",
+      "kana": "うける",
+      "romaji": "ukeru",
+      "tokens": [
+        {
+          "text": "受ける",
+          "kana": "うける"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "拾，捡；打出租车",
+      "japanese": "拾う",
+      "kana": "ひろう",
+      "romaji": "hirou",
+      "tokens": [
+        {
+          "text": "拾う",
+          "kana": "ひろう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "汇集，集合",
+      "japanese": "集まる",
+      "kana": "あつまる",
+      "romaji": "atsumaru",
+      "tokens": [
+        {
+          "text": "集まる",
+          "kana": "あつまる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "集合，集中，收集",
+      "japanese": "集める",
+      "kana": "あつめる",
+      "romaji": "atsumeru",
+      "tokens": [
+        {
+          "text": "集める",
+          "kana": "あつめる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "帮助，帮忙，救济；救助，救命",
+      "japanese": "助ける",
+      "kana": "たすける",
+      "romaji": "tasukeru",
+      "tokens": [
+        {
+          "text": "助ける",
+          "kana": "たすける"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "赢，胜",
+      "japanese": "勝つ",
+      "kana": "かつ",
+      "romaji": "katsu",
+      "tokens": [
+        {
+          "text": "勝つ",
+          "kana": "かつ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "烤；烧",
+      "japanese": "焼く",
+      "kana": "やく",
+      "romaji": "yaku",
+      "tokens": [
+        {
+          "text": "焼く",
+          "kana": "やく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "换乘",
+      "japanese": "乗り換える",
+      "kana": "のりかえる",
+      "romaji": "norikaeru",
+      "tokens": [
+        {
+          "text": "乗り換える",
+          "kana": "のりかえる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "装饰，装点",
+      "japanese": "飾る",
+      "kana": "かざる",
+      "romaji": "kazaru",
+      "tokens": [
+        {
+          "text": "飾る",
+          "kana": "かざる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "前进；进步；进展",
+      "japanese": "進む",
+      "kana": "すすむ",
+      "romaji": "susumu",
+      "tokens": [
+        {
+          "text": "進む",
+          "kana": "すすむ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "探索，查明；询问",
+      "japanese": "尋ねる",
+      "kana": "たずねる",
+      "romaji": "tazuneru",
+      "tokens": [
+        {
+          "text": "尋ねる",
+          "kana": "たずねる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "生存；生活",
+      "japanese": "生きる",
+      "kana": "いきる",
+      "romaji": "ikiru",
+      "tokens": [
+        {
+          "text": "生きる",
+          "kana": "いきる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "增加，增多",
+      "japanese": "増える",
+      "kana": "ふえる",
+      "romaji": "fueru",
+      "tokens": [
+        {
+          "text": "増える",
+          "kana": "ふえる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "足够；值得",
+      "japanese": "足りる",
+      "kana": "たりる",
+      "romaji": "tariru",
+      "tokens": [
+        {
+          "text": "足りる",
+          "kana": "たりる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "继续，持续；接连发生；接着，跟着",
+      "japanese": "続く",
+      "kana": "つづく",
+      "romaji": "tsuzuku",
+      "tokens": [
+        {
+          "text": "続く",
+          "kana": "つづく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "继续，连续",
+      "japanese": "続ける",
+      "kana": "つづける",
+      "romaji": "tsuzukeru",
+      "tokens": [
+        {
+          "text": "続ける",
+          "kana": "つづける"
+        }
+      ]
+    }
+  ]
+}

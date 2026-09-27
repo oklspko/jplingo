@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-18",
+  "coursePackId": "jp-n2",
+  "title": "名词 18",
+  "order": 18,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "前途，将来；很久以前；所到之处",
+      "japanese": "先々",
+      "kana": "さきざき",
+      "romaji": "sakizaki",
+      "tokens": [
+        {
+          "text": "先々",
+          "kana": "さきざき"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "家庭主妇",
+      "japanese": "専業主婦",
+      "kana": "せんぎょうしゅふ",
+      "romaji": "sengyoushufu",
+      "tokens": [
+        {
+          "text": "専業主婦",
+          "kana": "せんぎょうしゅふ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "专用",
+      "japanese": "専用",
+      "kana": "せんよう",
+      "romaji": "sen'you",
+      "tokens": [
+        {
+          "text": "専用",
+          "kana": "せんよう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "制作粗糙，品质低劣；糟蹋，不珍惜",
+      "japanese": "粗末",
+      "kana": "そまつ",
+      "romaji": "somatsu",
+      "tokens": [
+        {
+          "text": "粗末",
+          "kana": "そまつ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "搭配，组合",
+      "japanese": "組み合わせ",
+      "kana": "くみあわせ",
+      "romaji": "kumiawase",
+      "tokens": [
+        {
+          "text": "組み合わせ",
+          "kana": "くみあわせ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "送达地点，（邮件）寄送地址",
+      "japanese": "送り先",
+      "kana": "おくりさき",
+      "romaji": "okurisaki",
+      "tokens": [
+        {
+          "text": "送り先",
+          "kana": "おくりさき"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "邮费，运费",
+      "japanese": "送料",
+      "kana": "そうりょう",
+      "romaji": "souryou",
+      "tokens": [
+        {
+          "text": "送料",
+          "kana": "そうりょう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "大量",
+      "japanese": "多量",
+      "kana": "たりょう",
+      "romaji": "taryou",
+      "tokens": [
+        {
+          "text": "多量",
+          "kana": "たりょう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "体验，亲身经验",
+      "japanese": "体験",
+      "kana": "たいけん",
+      "romaji": "taiken",
+      "tokens": [
+        {
+          "text": "体験",
+          "kana": "たいけん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "身体状况",
+      "japanese": "体調",
+      "kana": "たいちょう",
+      "romaji": "taichou",
+      "tokens": [
+        {
+          "text": "体調",
+          "kana": "たいちょう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "体内",
+      "japanese": "体内",
+      "kana": "たいない",
+      "romaji": "tainai",
+      "tokens": [
+        {
+          "text": "体内",
+          "kana": "たいない"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "见面，会面；面对面",
+      "japanese": "対面",
+      "kana": "たいめん",
+      "romaji": "taimen",
+      "tokens": [
+        {
+          "text": "対面",
+          "kana": "たいめん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "退职，退休",
+      "japanese": "退職",
+      "kana": "たいしょく",
+      "romaji": "taishoku",
+      "tokens": [
+        {
+          "text": "退職",
+          "kana": "たいしょく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "欢天喜地",
+      "japanese": "大喜び",
+      "kana": "おおよろこび",
+      "romaji": "ooyorokobi",
+      "tokens": [
+        {
+          "text": "大喜び",
+          "kana": "おおよろこび"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "大使",
+      "japanese": "大使",
+      "kana": "たいし",
+      "romaji": "taishi",
+      "tokens": [
+        {
+          "text": "大使",
+          "kana": "たいし"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "大战",
+      "japanese": "大戦",
+      "kana": "たいせん",
+      "romaji": "taisen",
+      "tokens": [
+        {
+          "text": "大戦",
+          "kana": "たいせん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "大城市",
+      "japanese": "大都市",
+      "kana": "だいとし",
+      "romaji": "daitoshi",
+      "tokens": [
+        {
+          "text": "大都市",
+          "kana": "だいとし"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "配送到家",
+      "japanese": "宅配",
+      "kana": "たくはい",
+      "romaji": "takuhai",
+      "tokens": [
+        {
+          "text": "宅配",
+          "kana": "たくはい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "只身，单独行动",
+      "japanese": "単身",
+      "kana": "たんしん",
+      "romaji": "tanshin",
+      "tokens": [
+        {
+          "text": "単身",
+          "kana": "たんしん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "短期",
+      "japanese": "短期間",
+      "kana": "たんきかん",
+      "romaji": "tankikan",
+      "tokens": [
+        {
+          "text": "短期間",
+          "kana": "たんきかん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "耻辱，羞耻",
+      "japanese": "恥",
+      "kana": "はじ",
+      "romaji": "haji",
+      "tokens": [
+        {
+          "text": "恥",
+          "kana": "はじ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "柱子，杆子，支柱；顶梁柱",
+      "japanese": "柱",
+      "kana": "はしら",
+      "romaji": "hashira",
+      "tokens": [
+        {
+          "text": "柱",
+          "kana": "はしら"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "调整，调节",
+      "japanese": "調整",
+      "kana": "ちょうせい",
+      "romaji": "chousei",
+      "tokens": [
+        {
+          "text": "調整",
+          "kana": "ちょうせい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "长途，长距离",
+      "japanese": "長距離",
+      "kana": "ちょうきょり",
+      "romaji": "choukyori",
+      "tokens": [
+        {
+          "text": "長距離",
+          "kana": "ちょうきょり"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "多年",
+      "japanese": "長年",
+      "kana": "ながねん",
+      "romaji": "naganen",
+      "tokens": [
+        {
+          "text": "長年",
+          "kana": "ながねん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "山顶；顶点",
+      "japanese": "頂上",
+      "kana": "ちょうじょう",
+      "romaji": "choujou",
+      "tokens": [
+        {
+          "text": "頂上",
+          "kana": "ちょうじょう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "邮购，函售",
+      "japanese": "通信販売",
+      "kana": "つうしんはんばい",
+      "romaji": "tsuushinhanbai",
+      "tokens": [
+        {
+          "text": "通信販売",
+          "kana": "つうしんはんばい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（路面电车、巴士等）车站",
+      "japanese": "停留所",
+      "kana": "ていりゅうじょ",
+      "romaji": "teiryuujo",
+      "tokens": [
+        {
+          "text": "停留所",
+          "kana": "ていりゅうじょ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "退休年龄",
+      "japanese": "定年",
+      "kana": "ていねん",
+      "romaji": "teinen",
+      "tokens": [
+        {
+          "text": "定年",
+          "kana": "ていねん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "适度，适量",
+      "japanese": "適度",
+      "kana": "てきど",
+      "romaji": "tekido",
+      "tokens": [
+        {
+          "text": "適度",
+          "kana": "てきど"
+        }
+      ]
+    }
+  ]
+}

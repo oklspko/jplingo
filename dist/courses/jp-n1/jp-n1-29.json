@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-29",
+  "coursePackId": "jp-n1",
+  "title": "名词 29",
+  "order": 29,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "暗示，启示",
+      "japanese": "示唆",
+      "kana": "しさ",
+      "romaji": "shisa",
+      "tokens": [
+        {
+          "text": "示唆",
+          "kana": "しさ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "自如，自在",
+      "japanese": "自在",
+      "kana": "じざい",
+      "romaji": "jizai",
+      "tokens": [
+        {
+          "text": "自在",
+          "kana": "じざい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "自尊心",
+      "japanese": "自尊心",
+      "kana": "じそんしん",
+      "romaji": "jisonshin",
+      "tokens": [
+        {
+          "text": "自尊心",
+          "kana": "じそんしん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "自发，自愿",
+      "japanese": "自発",
+      "kana": "じはつ",
+      "romaji": "jihatsu",
+      "tokens": [
+        {
+          "text": "自発",
+          "kana": "じはつ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "举行仪式的会场",
+      "japanese": "式場",
+      "kana": "しきじょう",
+      "romaji": "shikijou",
+      "tokens": [
+        {
+          "text": "式場",
+          "kana": "しきじょう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "执著，贪恋",
+      "japanese": "執着",
+      "kana": "しゅうちゃく",
+      "romaji": "shuuchaku",
+      "tokens": [
+        {
+          "text": "執着",
+          "kana": "しゅうちゃく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "不够格；失去资格",
+      "japanese": "失格",
+      "kana": "しっかく",
+      "romaji": "shikkaku",
+      "tokens": [
+        {
+          "text": "失格",
+          "kana": "しっかく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "失足，下台",
+      "japanese": "失脚",
+      "kana": "しっきゃく",
+      "romaji": "shikkyaku",
+      "tokens": [
+        {
+          "text": "失脚",
+          "kana": "しっきゃく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "嫉妒，羡慕",
+      "japanese": "嫉妬",
+      "kana": "しっと",
+      "romaji": "shitto",
+      "tokens": [
+        {
+          "text": "嫉妬",
+          "kana": "しっと"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "质疑，质问",
+      "japanese": "質疑",
+      "kana": "しつぎ",
+      "romaji": "shitsugi",
+      "tokens": [
+        {
+          "text": "質疑",
+          "kana": "しつぎ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "实际状况；真情",
+      "japanese": "実情",
+      "kana": "じつじょう",
+      "romaji": "jitsujou",
+      "tokens": [
+        {
+          "text": "実情",
+          "kana": "じつじょう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "斜面",
+      "japanese": "斜面",
+      "kana": "しゃめん",
+      "romaji": "shamen",
+      "tokens": [
+        {
+          "text": "斜面",
+          "kana": "しゃめん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "社交，交际",
+      "japanese": "社交",
+      "kana": "しゃこう",
+      "romaji": "shakou",
+      "tokens": [
+        {
+          "text": "社交",
+          "kana": "しゃこう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "谢罪，道歉",
+      "japanese": "謝罪",
+      "kana": "しゃざい",
+      "romaji": "shazai",
+      "tokens": [
+        {
+          "text": "謝罪",
+          "kana": "しゃざい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "年轻能干的人，青年",
+      "japanese": "若手",
+      "kana": "わかて",
+      "romaji": "wakate",
+      "tokens": [
+        {
+          "text": "若手",
+          "kana": "わかて"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "弱，怯弱",
+      "japanese": "弱気",
+      "kana": "よわき",
+      "romaji": "yowaki",
+      "tokens": [
+        {
+          "text": "弱気",
+          "kana": "よわき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "主导",
+      "japanese": "主導",
+      "kana": "しゅどう",
+      "romaji": "shudou",
+      "tokens": [
+        {
+          "text": "主導",
+          "kana": "しゅどう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "手掌",
+      "japanese": "手のひら",
+      "kana": "てのひら",
+      "romaji": "tenohira",
+      "tokens": [
+        {
+          "text": "手のひら",
+          "kana": "てのひら"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（攀爬时）抓处，抓手；线索，头绪",
+      "japanese": "手がかり",
+      "kana": "てがかり",
+      "romaji": "tegakari",
+      "tokens": [
+        {
+          "text": "手がかり",
+          "kana": "てがかり"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（处理事物的）方法，技巧；本领",
+      "japanese": "手際",
+      "kana": "てぎわ",
+      "romaji": "tegiwa",
+      "tokens": [
+        {
+          "text": "手際",
+          "kana": "てぎわ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "手头缺少物品、金钱或人手",
+      "japanese": "手薄",
+      "kana": "てうす",
+      "romaji": "teusu",
+      "tokens": [
+        {
+          "text": "手薄",
+          "kana": "てうす"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "分头，分工",
+      "japanese": "手分け",
+      "kana": "てわけ",
+      "romaji": "tewake",
+      "tokens": [
+        {
+          "text": "手分け",
+          "kana": "てわけ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "手法，方法",
+      "japanese": "手法",
+      "kana": "しゅほう",
+      "romaji": "shuhou",
+      "tokens": [
+        {
+          "text": "手法",
+          "kana": "しゅほう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "大致内容，旨趣；风趣，雅趣，情趣；……的情况",
+      "japanese": "趣",
+      "kana": "おもむき",
+      "romaji": "omomuki",
+      "tokens": [
+        {
+          "text": "趣",
+          "kana": "おもむき"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "主要内容，宗旨",
+      "japanese": "趣旨",
+      "kana": "しゅし",
+      "romaji": "shushi",
+      "tokens": [
+        {
+          "text": "趣旨",
+          "kana": "しゅし"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "首脑",
+      "japanese": "首脳",
+      "kana": "しゅのう",
+      "romaji": "shunou",
+      "tokens": [
+        {
+          "text": "首脳",
+          "kana": "しゅのう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "树木",
+      "japanese": "樹木",
+      "kana": "じゅもく",
+      "romaji": "jumoku",
+      "tokens": [
+        {
+          "text": "樹木",
+          "kana": "じゅもく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "树立",
+      "japanese": "樹立",
+      "kana": "じゅりつ",
+      "romaji": "juritsu",
+      "tokens": [
+        {
+          "text": "樹立",
+          "kana": "じゅりつ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "收益",
+      "japanese": "収益",
+      "kana": "しゅうえき",
+      "romaji": "shuueki",
+      "tokens": [
+        {
+          "text": "収益",
+          "kana": "しゅうえき"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "容纳，收容",
+      "japanese": "収容",
+      "kana": "しゅうよう",
+      "romaji": "shuuyou",
+      "tokens": [
+        {
+          "text": "収容",
+          "kana": "しゅうよう"
+        }
+      ]
+    }
+  ]
+}

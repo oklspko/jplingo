@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-75",
+  "coursePackId": "jp-n1",
+  "title": "名词 75",
+  "order": 75,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "无偿；免费",
+      "japanese": "無償",
+      "kana": "むしょう",
+      "romaji": "mushou",
+      "tokens": [
+        {
+          "text": "無償",
+          "kana": "むしょう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "人性",
+      "japanese": "人間性",
+      "kana": "にんげんせい",
+      "romaji": "ningensei",
+      "tokens": [
+        {
+          "text": "人間性",
+          "kana": "にんげんせい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "幕府",
+      "japanese": "幕府",
+      "kana": "ばくふ",
+      "romaji": "bakufu",
+      "tokens": [
+        {
+          "text": "幕府",
+          "kana": "ばくふ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "僧侣",
+      "japanese": "僧侶",
+      "kana": "そうりょ",
+      "romaji": "souryo",
+      "tokens": [
+        {
+          "text": "僧侶",
+          "kana": "そうりょ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "资材，材料",
+      "japanese": "資材",
+      "kana": "しざい",
+      "romaji": "shizai",
+      "tokens": [
+        {
+          "text": "資材",
+          "kana": "しざい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "边，缘",
+      "japanese": "縁",
+      "kana": "ふち",
+      "romaji": "fuchi",
+      "tokens": [
+        {
+          "text": "縁",
+          "kana": "ふち"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "变质；性格异常，精神变态",
+      "japanese": "変質",
+      "kana": "へんしつ",
+      "romaji": "henshitsu",
+      "tokens": [
+        {
+          "text": "変質",
+          "kana": "へんしつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "晋升，升格，晋级",
+      "japanese": "昇格",
+      "kana": "しょうかく",
+      "romaji": "shoukaku",
+      "tokens": [
+        {
+          "text": "昇格",
+          "kana": "しょうかく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "动机，中心思想，主题",
+      "japanese": "モチーフ",
+      "kana": "もちいふ",
+      "romaji": "mochiifu",
+      "tokens": [
+        {
+          "text": "モチーフ",
+          "kana": "もちいふ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "大多数，大部分",
+      "japanese": "大多数",
+      "kana": "だいたすう",
+      "romaji": "daitasuu",
+      "tokens": [
+        {
+          "text": "大多数",
+          "kana": "だいたすう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "脱落，遗漏；脱离，退出",
+      "japanese": "脱落",
+      "kana": "だつらく",
+      "romaji": "datsuraku",
+      "tokens": [
+        {
+          "text": "脱落",
+          "kana": "だつらく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "备品，备件",
+      "japanese": "備品",
+      "kana": "びひん",
+      "romaji": "bihin",
+      "tokens": [
+        {
+          "text": "備品",
+          "kana": "びひん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "是否平安，安否",
+      "japanese": "安否",
+      "kana": "あんぴ",
+      "romaji": "anpi",
+      "tokens": [
+        {
+          "text": "安否",
+          "kana": "あんぴ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "最短",
+      "japanese": "最短",
+      "kana": "さいたん",
+      "romaji": "saitan",
+      "tokens": [
+        {
+          "text": "最短",
+          "kana": "さいたん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "厨师长，主厨",
+      "japanese": "シェフ",
+      "kana": "しぇふ",
+      "romaji": "shefu",
+      "tokens": [
+        {
+          "text": "シェフ",
+          "kana": "しぇふ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "酸味",
+      "japanese": "酸味",
+      "kana": "さんみ",
+      "romaji": "sanmi",
+      "tokens": [
+        {
+          "text": "酸味",
+          "kana": "さんみ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "复原，恢复原状",
+      "japanese": "復元",
+      "kana": "ふくげん",
+      "romaji": "fukugen",
+      "tokens": [
+        {
+          "text": "復元",
+          "kana": "ふくげん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "第一印象，最初印象",
+      "japanese": "第一印象",
+      "kana": "だいいちいんしょう",
+      "romaji": "daiichiinshou",
+      "tokens": [
+        {
+          "text": "第一印象",
+          "kana": "だいいちいんしょう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "画廊；观众，观览席",
+      "japanese": "ギャラリー",
+      "kana": "ぎゃらりい",
+      "romaji": "gyararii",
+      "tokens": [
+        {
+          "text": "ギャラリー",
+          "kana": "ぎゃらりい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "谜，智力测验题",
+      "japanese": "パズル",
+      "kana": "ぱずる",
+      "romaji": "pazuru",
+      "tokens": [
+        {
+          "text": "パズル",
+          "kana": "ぱずる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "调味品，香料，调料",
+      "japanese": "スパイス",
+      "kana": "すぱいす",
+      "romaji": "supaisu",
+      "tokens": [
+        {
+          "text": "スパイス",
+          "kana": "すぱいす"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "妥协，让步；相处（的关系）",
+      "japanese": "折り合い",
+      "kana": "おりあい",
+      "romaji": "oriai",
+      "tokens": [
+        {
+          "text": "折り合い",
+          "kana": "おりあい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "口哨",
+      "japanese": "口笛",
+      "kana": "くちぶえ",
+      "romaji": "kuchibue",
+      "tokens": [
+        {
+          "text": "口笛",
+          "kana": "くちぶえ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "平地，平川",
+      "japanese": "平地",
+      "kana": "ひらち",
+      "romaji": "hirachi",
+      "tokens": [
+        {
+          "text": "平地",
+          "kana": "ひらち"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "姿态，姿势，手势；摆样子，作姿态",
+      "japanese": "ジェスチャー",
+      "kana": "じぇすちゃあ",
+      "romaji": "jesuchaa",
+      "tokens": [
+        {
+          "text": "ジェスチャー",
+          "kana": "じぇすちゃあ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "决定胜负或事物真假的最终方法、手段或根据；决定者",
+      "japanese": "決め手",
+      "kana": "きめて",
+      "romaji": "kimete",
+      "tokens": [
+        {
+          "text": "決め手",
+          "kana": "きめて"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "改换装潢，装修",
+      "japanese": "改装",
+      "kana": "かいそう",
+      "romaji": "kaisou",
+      "tokens": [
+        {
+          "text": "改装",
+          "kana": "かいそう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "白色，白颜色",
+      "japanese": "白色",
+      "kana": "はくしょく",
+      "romaji": "hakushoku",
+      "tokens": [
+        {
+          "text": "白色",
+          "kana": "はくしょく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "诀别，告别",
+      "japanese": "決別",
+      "kana": "けつべつ",
+      "romaji": "ketsubetsu",
+      "tokens": [
+        {
+          "text": "決別",
+          "kana": "けつべつ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "近况",
+      "japanese": "近況",
+      "kana": "きんきょう",
+      "romaji": "kinkyou",
+      "tokens": [
+        {
+          "text": "近況",
+          "kana": "きんきょう"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-58",
+  "coursePackId": "jp-n3",
+  "title": "副词 2",
+  "order": 58,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "仍然；更加，还有",
+      "japanese": "なお",
+      "kana": "なお",
+      "romaji": "nao",
+      "tokens": [
+        {
+          "text": "なお",
+          "kana": "なお"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "紧密；合适；准确无误",
+      "japanese": "ぴったり",
+      "kana": "ぴったり",
+      "romaji": "pittari",
+      "tokens": [
+        {
+          "text": "ぴったり",
+          "kana": "ぴったり"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "简直，好像；完全（不）",
+      "japanese": "まるで",
+      "kana": "まるで",
+      "romaji": "marude",
+      "tokens": [
+        {
+          "text": "まるで",
+          "kana": "まるで"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "原来，本来",
+      "japanese": "もともと",
+      "kana": "もともと",
+      "romaji": "motomoto",
+      "tokens": [
+        {
+          "text": "もともと",
+          "kana": "もともと"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "热烈欢迎",
+      "japanese": "ようこそ",
+      "kana": "ようこそ",
+      "romaji": "youkoso",
+      "tokens": [
+        {
+          "text": "ようこそ",
+          "kana": "ようこそ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "总算",
+      "japanese": "ようやく",
+      "kana": "ようやく",
+      "romaji": "youyaku",
+      "tokens": [
+        {
+          "text": "ようやく",
+          "kana": "ようやく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "同时，一下子",
+      "japanese": "一度に",
+      "kana": "いちどに",
+      "romaji": "ichidoni",
+      "tokens": [
+        {
+          "text": "一度に",
+          "kana": "いちどに"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "想办法；费了好大劲终于，勉强",
+      "japanese": "何とか",
+      "kana": "なんとか",
+      "romaji": "nantoka",
+      "tokens": [
+        {
+          "text": "何とか",
+          "kana": "なんとか"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "连续不断，相继",
+      "japanese": "次々",
+      "kana": "つぎつぎ",
+      "romaji": "tsugitsugi",
+      "tokens": [
+        {
+          "text": "次々",
+          "kana": "つぎつぎ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "实在，的确",
+      "japanese": "実に",
+      "kana": "じつに",
+      "romaji": "jitsuni",
+      "tokens": [
+        {
+          "text": "実に",
+          "kana": "じつに"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "一点也（不）……",
+      "japanese": "少しも",
+      "kana": "すこしも",
+      "romaji": "sukoshimo",
+      "tokens": [
+        {
+          "text": "少しも",
+          "kana": "すこしも"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "时常，经常",
+      "japanese": "常に",
+      "kana": "つねに",
+      "romaji": "tsuneni",
+      "tokens": [
+        {
+          "text": "常に",
+          "kana": "つねに"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "突然",
+      "japanese": "突然",
+      "kana": "とつぜん",
+      "romaji": "totsuzen",
+      "tokens": [
+        {
+          "text": "突然",
+          "kana": "とつぜん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（后接否定）未必",
+      "japanese": "必ずしも",
+      "kana": "かならずしも",
+      "romaji": "kanarazushimo",
+      "tokens": [
+        {
+          "text": "必ずしも",
+          "kana": "かならずしも"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "很多；不论多少",
+      "japanese": "いくらでも",
+      "kana": "いくらでも",
+      "romaji": "ikurademo",
+      "tokens": [
+        {
+          "text": "いくらでも",
+          "kana": "いくらでも"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "到处走动，徘徊",
+      "japanese": "うろうろ",
+      "kana": "うろうろ",
+      "romaji": "urouro",
+      "tokens": [
+        {
+          "text": "うろうろ",
+          "kana": "うろうろ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "干燥，干巴巴",
+      "japanese": "からから",
+      "kana": "からから",
+      "romaji": "karakara",
+      "tokens": [
+        {
+          "text": "からから",
+          "kana": "からから"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（牙齿、房屋、决心等）摇晃状⓪；（水等烧沸时）咕嘟咕嘟声①",
+      "japanese": "ぐらぐら",
+      "kana": "ぐらぐら",
+      "romaji": "guragura",
+      "tokens": [
+        {
+          "text": "ぐらぐら",
+          "kana": "ぐらぐら"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（雨）哗啦哗啦",
+      "japanese": "ざあざあ",
+      "kana": "ざあざあ",
+      "romaji": "zaazaa",
+      "tokens": [
+        {
+          "text": "ざあざあ",
+          "kana": "ざあざあ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "只，仅",
+      "japanese": "たった",
+      "kana": "たった",
+      "romaji": "tatta",
+      "tokens": [
+        {
+          "text": "たった",
+          "kana": "たった"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（光亮等）一闪一灭；（眼睛因受到强光刺激而）刺痛",
+      "japanese": "ちかちか",
+      "kana": "ちかちか",
+      "romaji": "chikachika",
+      "tokens": [
+        {
+          "text": "ちかちか",
+          "kana": "ちかちか"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "不知道为什么",
+      "japanese": "なぜか",
+      "kana": "なぜか",
+      "romaji": "nazeka",
+      "tokens": [
+        {
+          "text": "なぜか",
+          "kana": "なぜか"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（外语等）流利",
+      "japanese": "ぺらぺら",
+      "kana": "ぺらぺら",
+      "romaji": "perapera",
+      "tokens": [
+        {
+          "text": "ぺらぺら",
+          "kana": "ぺらぺら"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "（大致做了）一下，姑且",
+      "japanese": "一応",
+      "kana": "いちおう",
+      "romaji": "ichiou",
+      "tokens": [
+        {
+          "text": "一応",
+          "kana": "いちおう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "自愿，主动地",
+      "japanese": "進んで",
+      "kana": "すすんで",
+      "romaji": "susunde",
+      "tokens": [
+        {
+          "text": "進んで",
+          "kana": "すすんで"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "（不）仅，（不）只",
+      "japanese": "単に",
+      "kana": "たんに",
+      "romaji": "tanni",
+      "tokens": [
+        {
+          "text": "単に",
+          "kana": "たんに"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "一齐发出声音状；突然蜂拥而至；突然倒下",
+      "japanese": "どっと",
+      "kana": "どっと",
+      "romaji": "dotto",
+      "tokens": [
+        {
+          "text": "どっと",
+          "kana": "どっと"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "不经意，无意中，突然",
+      "japanese": "ふと",
+      "kana": "ふと",
+      "romaji": "futo",
+      "tokens": [
+        {
+          "text": "ふと",
+          "kana": "ふと"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "沙沙声；流畅地；干燥",
+      "japanese": "さらさら",
+      "kana": "さらさら",
+      "romaji": "sarasara",
+      "tokens": [
+        {
+          "text": "さらさら",
+          "kana": "さらさら"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "静悄悄地；偷偷地",
+      "japanese": "そっと",
+      "kana": "そっと",
+      "romaji": "sotto",
+      "tokens": [
+        {
+          "text": "そっと",
+          "kana": "そっと"
+        }
+      ]
+    }
+  ]
+}

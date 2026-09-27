@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-55",
+  "coursePackId": "jp-n1",
+  "title": "名词 55",
+  "order": 55,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "留心，注意",
+      "japanese": "留意",
+      "kana": "りゅうい",
+      "romaji": "ryuui",
+      "tokens": [
+        {
+          "text": "留意",
+          "kana": "りゅうい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "过于相信",
+      "japanese": "過信",
+      "kana": "かしん",
+      "romaji": "kashin",
+      "tokens": [
+        {
+          "text": "過信",
+          "kana": "かしん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "占有，据有",
+      "japanese": "占有",
+      "kana": "せんゆう",
+      "romaji": "sen'yuu",
+      "tokens": [
+        {
+          "text": "占有",
+          "kana": "せんゆう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "坚持，固执",
+      "japanese": "固執",
+      "kana": "こしつ",
+      "romaji": "koshitsu",
+      "tokens": [
+        {
+          "text": "固執",
+          "kana": "こしつ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "认定，认可",
+      "japanese": "認定",
+      "kana": "にんてい",
+      "romaji": "nintei",
+      "tokens": [
+        {
+          "text": "認定",
+          "kana": "にんてい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "潜在",
+      "japanese": "潜在",
+      "kana": "せんざい",
+      "romaji": "senzai",
+      "tokens": [
+        {
+          "text": "潜在",
+          "kana": "せんざい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "搅乱，捣乱，扰乱",
+      "japanese": "攪[かく]乱",
+      "kana": "かくらん",
+      "romaji": "kakuran",
+      "tokens": [
+        {
+          "text": "攪[かく]乱",
+          "kana": "かくらん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "痉挛，抽搐，抽筋",
+      "japanese": "痙攣[けいれん]",
+      "kana": "けいれん",
+      "romaji": "keiren",
+      "tokens": [
+        {
+          "text": "痙攣[けいれん]",
+          "kana": "けいれん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "复制，仿制",
+      "japanese": "複製",
+      "kana": "ふくせい",
+      "romaji": "fukusei",
+      "tokens": [
+        {
+          "text": "複製",
+          "kana": "ふくせい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "邻接，毗连",
+      "japanese": "隣接",
+      "kana": "りんせつ",
+      "romaji": "rinsetsu",
+      "tokens": [
+        {
+          "text": "隣接",
+          "kana": "りんせつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "恢复（原来的地位、任务、状态等）",
+      "japanese": "復帰",
+      "kana": "ふっき",
+      "romaji": "fukki",
+      "tokens": [
+        {
+          "text": "復帰",
+          "kana": "ふっき"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "养殖",
+      "japanese": "養殖",
+      "kana": "ようしょく",
+      "romaji": "youshoku",
+      "tokens": [
+        {
+          "text": "養殖",
+          "kana": "ようしょく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "面谈，面洽",
+      "japanese": "面談",
+      "kana": "めんだん",
+      "romaji": "mendan",
+      "tokens": [
+        {
+          "text": "面談",
+          "kana": "めんだん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "设计，构思",
+      "japanese": "考案",
+      "kana": "こうあん",
+      "romaji": "kouan",
+      "tokens": [
+        {
+          "text": "考案",
+          "kana": "こうあん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "撤退，退出",
+      "japanese": "撤退",
+      "kana": "てったい",
+      "romaji": "tettai",
+      "tokens": [
+        {
+          "text": "撤退",
+          "kana": "てったい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "增加人员",
+      "japanese": "増員",
+      "kana": "ぞういん",
+      "romaji": "zouin",
+      "tokens": [
+        {
+          "text": "増員",
+          "kana": "ぞういん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "同化",
+      "japanese": "同化",
+      "kana": "どうか",
+      "romaji": "douka",
+      "tokens": [
+        {
+          "text": "同化",
+          "kana": "どうか"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "投影；反映",
+      "japanese": "投影",
+      "kana": "とうえい",
+      "romaji": "touei",
+      "tokens": [
+        {
+          "text": "投影",
+          "kana": "とうえい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（政治、社会等）动荡，激荡，震荡",
+      "japanese": "激動",
+      "kana": "げきどう",
+      "romaji": "gekidou",
+      "tokens": [
+        {
+          "text": "激動",
+          "kana": "げきどう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "夸示，炫耀，夸耀",
+      "japanese": "誇示",
+      "kana": "こじ",
+      "romaji": "koji",
+      "tokens": [
+        {
+          "text": "誇示",
+          "kana": "こじ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "渗透，渗入",
+      "japanese": "浸透",
+      "kana": "しんとう",
+      "romaji": "shintou",
+      "tokens": [
+        {
+          "text": "浸透",
+          "kana": "しんとう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "献身，舍己，忘我",
+      "japanese": "献身",
+      "kana": "けんしん",
+      "romaji": "kenshin",
+      "tokens": [
+        {
+          "text": "献身",
+          "kana": "けんしん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "直击",
+      "japanese": "直撃",
+      "kana": "ちょくげき",
+      "romaji": "chokugeki",
+      "tokens": [
+        {
+          "text": "直撃",
+          "kana": "ちょくげき"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "增加收入；增加产量",
+      "japanese": "増収",
+      "kana": "ぞうしゅう",
+      "romaji": "zoushuu",
+      "tokens": [
+        {
+          "text": "増収",
+          "kana": "ぞうしゅう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "吃饱",
+      "japanese": "満腹",
+      "kana": "まんぷく",
+      "romaji": "manpuku",
+      "tokens": [
+        {
+          "text": "満腹",
+          "kana": "まんぷく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "承认，同意，准许",
+      "japanese": "容認",
+      "kana": "ようにん",
+      "romaji": "younin",
+      "tokens": [
+        {
+          "text": "容認",
+          "kana": "ようにん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "暴露，被发现",
+      "japanese": "発覚",
+      "kana": "はっかく",
+      "romaji": "hakkaku",
+      "tokens": [
+        {
+          "text": "発覚",
+          "kana": "はっかく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "习练，反复练习",
+      "japanese": "習練",
+      "kana": "しゅうれん",
+      "romaji": "shuuren",
+      "tokens": [
+        {
+          "text": "習練",
+          "kana": "しゅうれん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "警报",
+      "japanese": "警報",
+      "kana": "けいほう",
+      "romaji": "keihou",
+      "tokens": [
+        {
+          "text": "警報",
+          "kana": "けいほう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "千变万化",
+      "japanese": "千変万化",
+      "kana": "せんぺんばんか",
+      "romaji": "senpenbanka",
+      "tokens": [
+        {
+          "text": "千変万化",
+          "kana": "せんぺんばんか"
+        }
+      ]
+    }
+  ]
+}

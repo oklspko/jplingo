@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-125",
+  "coursePackId": "jp-n1",
+  "title": "形容词 7",
+  "order": 125,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "贪婪，贪欲",
+      "japanese": "貪欲",
+      "kana": "どんよく",
+      "romaji": "don'yoku",
+      "tokens": [
+        {
+          "text": "貪欲",
+          "kana": "どんよく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "健壮，健康，健全",
+      "japanese": "健やか",
+      "kana": "すこやか",
+      "romaji": "sukoyaka",
+      "tokens": [
+        {
+          "text": "健やか",
+          "kana": "すこやか"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "没有缺点，无可非议，说得过去",
+      "japanese": "無難",
+      "kana": "ぶなん",
+      "romaji": "bunan",
+      "tokens": [
+        {
+          "text": "無難",
+          "kana": "ぶなん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "作风不好，乱搞男女关系",
+      "japanese": "不倫",
+      "kana": "ふりん",
+      "romaji": "furin",
+      "tokens": [
+        {
+          "text": "不倫",
+          "kana": "ふりん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "势均力敌，不相上下，互有优劣",
+      "japanese": "互角",
+      "kana": "ごかく",
+      "romaji": "gokaku",
+      "tokens": [
+        {
+          "text": "互角",
+          "kana": "ごかく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "另一个；个别",
+      "japanese": "別個",
+      "kana": "べっこ",
+      "romaji": "bekko",
+      "tokens": [
+        {
+          "text": "別個",
+          "kana": "べっこ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "愕然",
+      "japanese": "愕[がく]然",
+      "kana": "がくぜん",
+      "romaji": "gakuzen",
+      "tokens": [
+        {
+          "text": "愕[がく]然",
+          "kana": "がくぜん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "大规模，大；重要",
+      "japanese": "ビッグ",
+      "kana": "びっぐ",
+      "romaji": "biggu",
+      "tokens": [
+        {
+          "text": "ビッグ",
+          "kana": "びっぐ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "不成熟，不熟练，不充分，不彻底",
+      "japanese": "生半可",
+      "kana": "なまはんか",
+      "romaji": "namahanka",
+      "tokens": [
+        {
+          "text": "生半可",
+          "kana": "なまはんか"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "空洞，空虚",
+      "japanese": "空疎",
+      "kana": "くうそ",
+      "romaji": "kuuso",
+      "tokens": [
+        {
+          "text": "空疎",
+          "kana": "くうそ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "平安，太平，平静，平稳",
+      "japanese": "平安",
+      "kana": "へいあん",
+      "romaji": "heian",
+      "tokens": [
+        {
+          "text": "平安",
+          "kana": "へいあん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "不合适，不适当",
+      "japanese": "不向き",
+      "kana": "ふむき",
+      "romaji": "fumuki",
+      "tokens": [
+        {
+          "text": "不向き",
+          "kana": "ふむき"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "露出，裸露；露骨，毫不掩饰",
+      "japanese": "むき出し",
+      "kana": "むきだし",
+      "romaji": "mukidashi",
+      "tokens": [
+        {
+          "text": "むき出し",
+          "kana": "むきだし"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "未完成",
+      "japanese": "未完成",
+      "kana": "みかんせい",
+      "romaji": "mikansei",
+      "tokens": [
+        {
+          "text": "未完成",
+          "kana": "みかんせい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "随机应变",
+      "japanese": "臨機応変",
+      "kana": "りんきおうへん",
+      "romaji": "rinkiouhen",
+      "tokens": [
+        {
+          "text": "臨機応変",
+          "kana": "りんきおうへん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "年幼，幼小，童年时代",
+      "japanese": "幼少",
+      "kana": "ようしょう",
+      "romaji": "youshou",
+      "tokens": [
+        {
+          "text": "幼少",
+          "kana": "ようしょう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "巨额",
+      "japanese": "巨額",
+      "kana": "きょがく",
+      "romaji": "kyogaku",
+      "tokens": [
+        {
+          "text": "巨額",
+          "kana": "きょがく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "浑身是汗",
+      "japanese": "汗だく",
+      "kana": "あせだく",
+      "romaji": "asedaku",
+      "tokens": [
+        {
+          "text": "汗だく",
+          "kana": "あせだく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "有毒",
+      "japanese": "有毒",
+      "kana": "ゆうどく",
+      "romaji": "yuudoku",
+      "tokens": [
+        {
+          "text": "有毒",
+          "kana": "ゆうどく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "失败，笨蛋，蠢货",
+      "japanese": "どじ",
+      "kana": "どじ",
+      "romaji": "doji",
+      "tokens": [
+        {
+          "text": "どじ",
+          "kana": "どじ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "常数，恒量；经常，安定的",
+      "japanese": "コンスタント",
+      "kana": "こんすたんと",
+      "romaji": "konsutanto",
+      "tokens": [
+        {
+          "text": "コンスタント",
+          "kana": "こんすたんと"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "还没使用，还没着手",
+      "japanese": "手付かず",
+      "kana": "てつかず",
+      "romaji": "tetsukazu",
+      "tokens": [
+        {
+          "text": "手付かず",
+          "kana": "てつかず"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "离题，不中肯",
+      "japanese": "的外れ",
+      "kana": "まとはずれ",
+      "romaji": "matohazure",
+      "tokens": [
+        {
+          "text": "的外れ",
+          "kana": "まとはずれ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "（纸、衣料、陶瓷等的质地）厚",
+      "japanese": "厚手",
+      "kana": "あつで",
+      "romaji": "atsude",
+      "tokens": [
+        {
+          "text": "厚手",
+          "kana": "あつで"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "猛烈，激烈",
+      "japanese": "痛烈",
+      "kana": "つうれつ",
+      "romaji": "tsuuretsu",
+      "tokens": [
+        {
+          "text": "痛烈",
+          "kana": "つうれつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "（布、纸等）细致，细密；周密，缜密",
+      "japanese": "緻密",
+      "kana": "ちみつ",
+      "romaji": "chimitsu",
+      "tokens": [
+        {
+          "text": "緻密",
+          "kana": "ちみつ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "雄伟，雄壮，宏伟，宏大",
+      "japanese": "雄大",
+      "kana": "ゆうだい",
+      "romaji": "yuudai",
+      "tokens": [
+        {
+          "text": "雄大",
+          "kana": "ゆうだい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "细微，琐细，微不足道",
+      "japanese": "些[さ]細",
+      "kana": "ささい",
+      "romaji": "sasai",
+      "tokens": [
+        {
+          "text": "些[さ]細",
+          "kana": "ささい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "适合（某种工作），胜任，称职",
+      "japanese": "適任",
+      "kana": "てきにん",
+      "romaji": "tekinin",
+      "tokens": [
+        {
+          "text": "適任",
+          "kana": "てきにん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "小规模",
+      "japanese": "小規模",
+      "kana": "しょうきぼ",
+      "romaji": "shoukibo",
+      "tokens": [
+        {
+          "text": "小規模",
+          "kana": "しょうきぼ"
+        }
+      ]
+    }
+  ]
+}

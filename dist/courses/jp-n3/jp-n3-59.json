@@ -1,0 +1,333 @@
+{
+  "id": "jp-n3-59",
+  "coursePackId": "jp-n3",
+  "title": "副词 3",
+  "order": 59,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "或许，可能",
+      "japanese": "もしかしたら",
+      "kana": "もしかしたら",
+      "romaji": "moshikashitara",
+      "tokens": [
+        {
+          "text": "もしかしたら",
+          "kana": "もしかしたら"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "眼看，就要",
+      "japanese": "今にも",
+      "kana": "いまにも",
+      "romaji": "imanimo",
+      "tokens": [
+        {
+          "text": "今にも",
+          "kana": "いまにも"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "（伤口、头等）一跳一跳地剧痛",
+      "japanese": "ずきずき",
+      "kana": "ずきずき",
+      "romaji": "zukizuki",
+      "tokens": [
+        {
+          "text": "ずきずき",
+          "kana": "ずきずき"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "即使",
+      "japanese": "たとえ",
+      "kana": "たとえ",
+      "romaji": "tatoe",
+      "tokens": [
+        {
+          "text": "たとえ",
+          "kana": "たとえ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "多少；多么地",
+      "japanese": "どれだけ",
+      "kana": "どれだけ",
+      "romaji": "doredake",
+      "tokens": [
+        {
+          "text": "どれだけ",
+          "kana": "どれだけ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "如何；哎呀；多么，何等",
+      "japanese": "なんと",
+      "kana": "なんと",
+      "romaji": "nanto",
+      "tokens": [
+        {
+          "text": "なんと",
+          "kana": "なんと"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "何况，况且",
+      "japanese": "まして",
+      "kana": "まして",
+      "romaji": "mashite",
+      "tokens": [
+        {
+          "text": "まして",
+          "kana": "まして"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "或许，说不定",
+      "japanese": "もしかすると",
+      "kana": "もしかすると",
+      "romaji": "moshikasuruto",
+      "tokens": [
+        {
+          "text": "もしかすると",
+          "kana": "もしかすると"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "一级，一段，一层；（いちだんと）更加，格外",
+      "japanese": "一段",
+      "kana": "いちだん",
+      "romaji": "ichidan",
+      "tokens": [
+        {
+          "text": "一段",
+          "kana": "いちだん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "渐渐，缓缓地",
+      "japanese": "次第に",
+      "kana": "しだいに",
+      "romaji": "shidaini",
+      "tokens": [
+        {
+          "text": "次第に",
+          "kana": "しだいに"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "再三，反复",
+      "japanese": "重ねて",
+      "kana": "かさねて",
+      "romaji": "kasanete",
+      "tokens": [
+        {
+          "text": "重ねて",
+          "kana": "かさねて"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "重要的是，总之",
+      "japanese": "要は",
+      "kana": "ようは",
+      "romaji": "youha",
+      "tokens": [
+        {
+          "text": "要は",
+          "kana": "ようは"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（小而轻的东西）飘落；（眼泪）扑簌扑簌；捏一把汗，心惊胆战",
+      "japanese": "はらはら",
+      "kana": "はらはら",
+      "romaji": "harahara",
+      "tokens": [
+        {
+          "text": "はらはら",
+          "kana": "はらはら"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（悬空的东西）摇晃⓪；闲逛①；无所事事①",
+      "japanese": "ぶらぶら",
+      "kana": "ぶらぶら",
+      "romaji": "burabura",
+      "tokens": [
+        {
+          "text": "ぶらぶら",
+          "kana": "ぶらぶら"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "凹陷①；肚子饿⓪；点头哈腰①",
+      "japanese": "ぺこぺこ",
+      "kana": "ぺこぺこ",
+      "romaji": "pekopeko",
+      "tokens": [
+        {
+          "text": "ぺこぺこ",
+          "kana": "ぺこぺこ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "这个那个地，各方面",
+      "japanese": "何かと",
+      "kana": "なにかと",
+      "romaji": "nanikato",
+      "tokens": [
+        {
+          "text": "何かと",
+          "kana": "なにかと"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "如果；可能",
+      "japanese": "もしかして",
+      "kana": "もしかして",
+      "romaji": "moshikashite",
+      "tokens": [
+        {
+          "text": "もしかして",
+          "kana": "もしかして"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "一定，总是",
+      "japanese": "決まって",
+      "kana": "きまって",
+      "romaji": "kimatte",
+      "tokens": [
+        {
+          "text": "決まって",
+          "kana": "きまって"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "非常，十分，很",
+      "japanese": "いとも",
+      "kana": "いとも",
+      "romaji": "itomo",
+      "tokens": [
+        {
+          "text": "いとも",
+          "kana": "いとも"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "同，又；同样地",
+      "japanese": "同じく",
+      "kana": "おなじく",
+      "romaji": "onajiku",
+      "tokens": [
+        {
+          "text": "同じく",
+          "kana": "おなじく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "尤其，其中尤以……",
+      "japanese": "中でも",
+      "kana": "なかでも",
+      "romaji": "nakademo",
+      "tokens": [
+        {
+          "text": "中でも",
+          "kana": "なかでも"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "顺利进行，毫无阻碍的样子；轻轻连续敲击的声音",
+      "japanese": "とんとん",
+      "kana": "とんとん",
+      "romaji": "tonton",
+      "tokens": [
+        {
+          "text": "とんとん",
+          "kana": "とんとん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "反复，重复",
+      "japanese": "繰り返し",
+      "kana": "くりかえし",
+      "romaji": "kurikaeshi",
+      "tokens": [
+        {
+          "text": "繰り返し",
+          "kana": "くりかえし"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "那种程度；相应的",
+      "japanese": "それだけ",
+      "kana": "それだけ",
+      "romaji": "soredake",
+      "tokens": [
+        {
+          "text": "それだけ",
+          "kana": "それだけ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "和睦，亲密",
+      "japanese": "仲良く",
+      "kana": "なかよく",
+      "romaji": "nakayoku",
+      "tokens": [
+        {
+          "text": "仲良く",
+          "kana": "なかよく"
+        }
+      ]
+    }
+  ]
+}

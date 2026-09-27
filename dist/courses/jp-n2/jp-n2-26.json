@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-26",
+  "coursePackId": "jp-n2",
+  "title": "名词 26",
+  "order": 26,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "观念，想法；断念，死心",
+      "japanese": "観念",
+      "kana": "かんねん",
+      "romaji": "kannen",
+      "tokens": [
+        {
+          "text": "観念",
+          "kana": "かんねん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "鉴赏，欣赏",
+      "japanese": "鑑賞",
+      "kana": "かんしょう",
+      "romaji": "kanshou",
+      "tokens": [
+        {
+          "text": "鑑賞",
+          "kana": "かんしょう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "关联，相关",
+      "japanese": "関連",
+      "kana": "かんれん",
+      "romaji": "kanren",
+      "tokens": [
+        {
+          "text": "関連",
+          "kana": "かんれん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "器具，用具，器械",
+      "japanese": "器具",
+      "kana": "きぐ",
+      "romaji": "kigu",
+      "tokens": [
+        {
+          "text": "器具",
+          "kana": "きぐ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "基准，标准",
+      "japanese": "基準",
+      "kana": "きじゅん",
+      "romaji": "kijun",
+      "tokens": [
+        {
+          "text": "基準",
+          "kana": "きじゅん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "机能，功能",
+      "japanese": "機能",
+      "kana": "きのう",
+      "romaji": "kinou",
+      "tokens": [
+        {
+          "text": "機能",
+          "kana": "きのう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "气压",
+      "japanese": "気圧",
+      "kana": "きあつ",
+      "romaji": "kiatsu",
+      "tokens": [
+        {
+          "text": "気圧",
+          "kana": "きあつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "迹象，苗头",
+      "japanese": "気配",
+      "kana": "けはい",
+      "romaji": "kehai",
+      "tokens": [
+        {
+          "text": "気配",
+          "kana": "けはい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（心身所受的）感触，心情，情绪",
+      "japanese": "気味",
+      "kana": "きみ",
+      "romaji": "kimi",
+      "tokens": [
+        {
+          "text": "気味",
+          "kana": "きみ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "规律，纪律",
+      "japanese": "規律",
+      "kana": "きりつ",
+      "romaji": "kiritsu",
+      "tokens": [
+        {
+          "text": "規律",
+          "kana": "きりつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "仪式，典礼",
+      "japanese": "儀式",
+      "kana": "ぎしき",
+      "romaji": "gishiki",
+      "tokens": [
+        {
+          "text": "儀式",
+          "kana": "ぎしき"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "议会",
+      "japanese": "議会",
+      "kana": "ぎかい",
+      "romaji": "gikai",
+      "tokens": [
+        {
+          "text": "議会",
+          "kana": "ぎかい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "主持人；主席，议长",
+      "japanese": "議長",
+      "kana": "ぎちょう",
+      "romaji": "gichou",
+      "tokens": [
+        {
+          "text": "議長",
+          "kana": "ぎちょう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "观众席，客人的席位",
+      "japanese": "客席",
+      "kana": "きゃくせき",
+      "romaji": "kyakuseki",
+      "tokens": [
+        {
+          "text": "客席",
+          "kana": "きゃくせき"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "停业，歇业",
+      "japanese": "休業",
+      "kana": "きゅうぎょう",
+      "romaji": "kyuugyou",
+      "tokens": [
+        {
+          "text": "休業",
+          "kana": "きゅうぎょう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "休养",
+      "japanese": "休養",
+      "kana": "きゅうよう",
+      "romaji": "kyuuyou",
+      "tokens": [
+        {
+          "text": "休養",
+          "kana": "きゅうよう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "吸收，吸取",
+      "japanese": "吸収",
+      "kana": "きゅうしゅう",
+      "romaji": "kyuushuu",
+      "tokens": [
+        {
+          "text": "吸収",
+          "kana": "きゅうしゅう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "招聘，招工",
+      "japanese": "求人",
+      "kana": "きゅうじん",
+      "romaji": "kyuujin",
+      "tokens": [
+        {
+          "text": "求人",
+          "kana": "きゅうじん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "供给，供应",
+      "japanese": "供給",
+      "kana": "きょうきゅう",
+      "romaji": "kyoukyuu",
+      "tokens": [
+        {
+          "text": "供給",
+          "kana": "きょうきゅう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（土地的）边界；（事物的）分界线，边缘",
+      "japanese": "境界",
+      "kana": "きょうかい",
+      "romaji": "kyoukai",
+      "tokens": [
+        {
+          "text": "境界",
+          "kana": "きょうかい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "强有力",
+      "japanese": "強力",
+      "kana": "きょうりょく",
+      "romaji": "kyouryoku",
+      "tokens": [
+        {
+          "text": "強力",
+          "kana": "きょうりょく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "恐惧，恐慌",
+      "japanese": "恐怖",
+      "kana": "きょうふ",
+      "romaji": "kyoufu",
+      "tokens": [
+        {
+          "text": "恐怖",
+          "kana": "きょうふ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "修养，教养，通才教育",
+      "japanese": "教養",
+      "kana": "きょうよう",
+      "romaji": "kyouyou",
+      "tokens": [
+        {
+          "text": "教養",
+          "kana": "きょうよう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "线条；肌肉；道理；情节；……条",
+      "japanese": "筋",
+      "kana": "すじ",
+      "romaji": "suji",
+      "tokens": [
+        {
+          "text": "筋",
+          "kana": "すじ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "肌肉",
+      "japanese": "筋肉",
+      "kana": "きんにく",
+      "romaji": "kinniku",
+      "tokens": [
+        {
+          "text": "筋肉",
+          "kana": "きんにく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "金鱼",
+      "japanese": "金魚",
+      "kana": "きんぎょ",
+      "romaji": "kingyo",
+      "tokens": [
+        {
+          "text": "金魚",
+          "kana": "きんぎょ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "分割，划分",
+      "japanese": "区分",
+      "kana": "くぶん",
+      "romaji": "kubun",
+      "tokens": [
+        {
+          "text": "区分",
+          "kana": "くぶん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "空想，虚构",
+      "japanese": "空想",
+      "kana": "くうそう",
+      "romaji": "kuusou",
+      "tokens": [
+        {
+          "text": "空想",
+          "kana": "くうそう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "（动物、人的）群，伙",
+      "japanese": "群れ",
+      "kana": "むれ",
+      "romaji": "mure",
+      "tokens": [
+        {
+          "text": "群れ",
+          "kana": "むれ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "契机，转机，动机",
+      "japanese": "契機",
+      "kana": "けいき",
+      "romaji": "keiki",
+      "tokens": [
+        {
+          "text": "契機",
+          "kana": "けいき"
+        }
+      ]
+    }
+  ]
+}

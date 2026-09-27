@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-114",
+  "coursePackId": "jp-n1",
+  "title": "动词 23",
+  "order": 114,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "探索，调查（细节）",
+      "japanese": "詮索",
+      "kana": "せんさく",
+      "romaji": "sensaku",
+      "tokens": [
+        {
+          "text": "詮索",
+          "kana": "せんさく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "穿（衣服）",
+      "japanese": "着用",
+      "kana": "ちゃくよう",
+      "romaji": "chakuyou",
+      "tokens": [
+        {
+          "text": "着用",
+          "kana": "ちゃくよう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "到处奔跑",
+      "japanese": "駆け巡る",
+      "kana": "かけめぐる",
+      "romaji": "kakemeguru",
+      "tokens": [
+        {
+          "text": "駆け巡る",
+          "kana": "かけめぐる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "直视，注视；正视，认真看待",
+      "japanese": "直視",
+      "kana": "ちょくし",
+      "romaji": "chokushi",
+      "tokens": [
+        {
+          "text": "直視",
+          "kana": "ちょくし"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "剪掉，砍掉；掘开堤坝",
+      "japanese": "切り落とす",
+      "kana": "きりおとす",
+      "romaji": "kiriotosu",
+      "tokens": [
+        {
+          "text": "切り落とす",
+          "kana": "きりおとす"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "想起，回忆起",
+      "japanese": "思い起こす",
+      "kana": "おもいおこす",
+      "romaji": "omoiokosu",
+      "tokens": [
+        {
+          "text": "思い起こす",
+          "kana": "おもいおこす"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "收购，购入；收买",
+      "japanese": "買収",
+      "kana": "ばいしゅう",
+      "romaji": "baishuu",
+      "tokens": [
+        {
+          "text": "買収",
+          "kana": "ばいしゅう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "保有",
+      "japanese": "保有",
+      "kana": "ほゆう",
+      "romaji": "hoyuu",
+      "tokens": [
+        {
+          "text": "保有",
+          "kana": "ほゆう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "畅谈",
+      "japanese": "話し込む",
+      "kana": "はなしこむ",
+      "romaji": "hanashikomu",
+      "tokens": [
+        {
+          "text": "話し込む",
+          "kana": "はなしこむ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "一再请求，恳求",
+      "japanese": "頼み込む",
+      "kana": "たのみこむ",
+      "romaji": "tanomikomu",
+      "tokens": [
+        {
+          "text": "頼み込む",
+          "kana": "たのみこむ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "埋，埋上；挤满，充塞",
+      "japanese": "うずめる",
+      "kana": "うずめる",
+      "romaji": "uzumeru",
+      "tokens": [
+        {
+          "text": "うずめる",
+          "kana": "うずめる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "满载，装满；登满",
+      "japanese": "満載",
+      "kana": "まんさい",
+      "romaji": "mansai",
+      "tokens": [
+        {
+          "text": "満載",
+          "kana": "まんさい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "连载，连续刊载",
+      "japanese": "連載",
+      "kana": "れんさい",
+      "romaji": "rensai",
+      "tokens": [
+        {
+          "text": "連載",
+          "kana": "れんさい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "掘出；开垦土地；挖掘出来",
+      "japanese": "掘り起こす",
+      "kana": "ほりおこす",
+      "romaji": "horiokosu",
+      "tokens": [
+        {
+          "text": "掘り起こす",
+          "kana": "ほりおこす"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "打消主意，放弃念头",
+      "japanese": "思いとどまる",
+      "kana": "おもいとどまる",
+      "romaji": "omoitodomaru",
+      "tokens": [
+        {
+          "text": "思いとどまる",
+          "kana": "おもいとどまる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "排出，排放",
+      "japanese": "排出",
+      "kana": "はいしゅつ",
+      "romaji": "haishutsu",
+      "tokens": [
+        {
+          "text": "排出",
+          "kana": "はいしゅつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "节省，节约；救球；（电脑）保存",
+      "japanese": "セーブ",
+      "kana": "せえぶ",
+      "romaji": "seebu",
+      "tokens": [
+        {
+          "text": "セーブ",
+          "kana": "せえぶ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "反复，接二连三",
+      "japanese": "度重なる",
+      "kana": "たびかさなる",
+      "romaji": "tabikasanaru",
+      "tokens": [
+        {
+          "text": "度重なる",
+          "kana": "たびかさなる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "重蒸，回笼；旧事重提，老调重弹",
+      "japanese": "蒸し返す",
+      "kana": "むしかえす",
+      "romaji": "mushikaesu",
+      "tokens": [
+        {
+          "text": "蒸し返す",
+          "kana": "むしかえす"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "寻找食物；到处寻找；（接续动词的连用形）到处……",
+      "japanese": "あさる",
+      "kana": "あさる",
+      "romaji": "asaru",
+      "tokens": [
+        {
+          "text": "あさる",
+          "kana": "あさる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "排斥，排挤，抵制",
+      "japanese": "排斥",
+      "kana": "はいせき",
+      "romaji": "haiseki",
+      "tokens": [
+        {
+          "text": "排斥",
+          "kana": "はいせき"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "挪用（公款）；超支；用熟",
+      "japanese": "使い込む",
+      "kana": "つかいこむ",
+      "romaji": "tsukaikomu",
+      "tokens": [
+        {
+          "text": "使い込む",
+          "kana": "つかいこむ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "考虑，思虑",
+      "japanese": "思慮",
+      "kana": "しりょ",
+      "romaji": "shiryo",
+      "tokens": [
+        {
+          "text": "思慮",
+          "kana": "しりょ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "够用，足够",
+      "japanese": "事足りる",
+      "kana": "ことたりる",
+      "romaji": "kototariru",
+      "tokens": [
+        {
+          "text": "事足りる",
+          "kana": "ことたりる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "探求，寻求",
+      "japanese": "探求",
+      "kana": "たんきゅう",
+      "romaji": "tankyuu",
+      "tokens": [
+        {
+          "text": "探求",
+          "kana": "たんきゅう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "自给自足",
+      "japanese": "自給自足",
+      "kana": "じきゅうじそく",
+      "romaji": "jikyuujisoku",
+      "tokens": [
+        {
+          "text": "自給自足",
+          "kana": "じきゅうじそく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "贪婪，贪得无厌",
+      "japanese": "欲張る",
+      "kana": "よくばる",
+      "romaji": "yokubaru",
+      "tokens": [
+        {
+          "text": "欲張る",
+          "kana": "よくばる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "辞职，辞任",
+      "japanese": "辞任",
+      "kana": "じにん",
+      "romaji": "jinin",
+      "tokens": [
+        {
+          "text": "辞任",
+          "kana": "じにん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "根绝，消灭",
+      "japanese": "根絶",
+      "kana": "こんぜつ",
+      "romaji": "konzetsu",
+      "tokens": [
+        {
+          "text": "根絶",
+          "kana": "こんぜつ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（同……）有因缘，有关联，由来于，来自",
+      "japanese": "ちなむ",
+      "kana": "ちなむ",
+      "romaji": "chinamu",
+      "tokens": [
+        {
+          "text": "ちなむ",
+          "kana": "ちなむ"
+        }
+      ]
+    }
+  ]
+}

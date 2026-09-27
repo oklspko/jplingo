@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-59",
+  "coursePackId": "jp-n2",
+  "title": "名词 59",
+  "order": 59,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "有史，有史以来",
+      "japanese": "有史",
+      "kana": "ゆうし",
+      "romaji": "yuushi",
+      "tokens": [
+        {
+          "text": "有史",
+          "kana": "ゆうし"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "有势力者；权威人士",
+      "japanese": "有力者",
+      "kana": "ゆうりょくしゃ",
+      "romaji": "yuuryokusha",
+      "tokens": [
+        {
+          "text": "有力者",
+          "kana": "ゆうりょくしゃ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "（抛开效率和实用性去享受的）悠闲的心情；玩心",
+      "japanese": "遊び心",
+      "kana": "あそびごころ",
+      "romaji": "asobigokoro",
+      "tokens": [
+        {
+          "text": "遊び心",
+          "kana": "あそびごころ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "姿容，长相",
+      "japanese": "容姿",
+      "kana": "ようし",
+      "romaji": "youshi",
+      "tokens": [
+        {
+          "text": "容姿",
+          "kana": "ようし"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "陷阱；阴谋诡计",
+      "japanese": "落とし穴",
+      "kana": "おとしあな",
+      "romaji": "otoshiana",
+      "tokens": [
+        {
+          "text": "落とし穴",
+          "kana": "おとしあな"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "住宿生，寄宿生",
+      "japanese": "寮生",
+      "kana": "りょうせい",
+      "romaji": "ryousei",
+      "tokens": [
+        {
+          "text": "寮生",
+          "kana": "りょうせい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（物的）运费，（人的）车费",
+      "japanese": "運賃",
+      "kana": "うんちん",
+      "romaji": "unchin",
+      "tokens": [
+        {
+          "text": "運賃",
+          "kana": "うんちん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "喜欢（的人或东西）",
+      "japanese": "お気に入り",
+      "kana": "おきにいり",
+      "romaji": "okiniiri",
+      "tokens": [
+        {
+          "text": "お気に入り",
+          "kana": "おきにいり"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "正当……时候；刚一……时候",
+      "japanese": "途端",
+      "kana": "とたん",
+      "romaji": "totan",
+      "tokens": [
+        {
+          "text": "途端",
+          "kana": "とたん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "情，感情；情面，人情；同情；爱情，情爱",
+      "japanese": "情",
+      "kana": "じょう",
+      "romaji": "jou",
+      "tokens": [
+        {
+          "text": "情",
+          "kana": "じょう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "韩国",
+      "japanese": "韓国",
+      "kana": "かんこく",
+      "romaji": "kankoku",
+      "tokens": [
+        {
+          "text": "韓国",
+          "kana": "かんこく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "在家",
+      "japanese": "在宅",
+      "kana": "ざいたく",
+      "romaji": "zaitaku",
+      "tokens": [
+        {
+          "text": "在宅",
+          "kana": "ざいたく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（接）待客（人）",
+      "japanese": "接客",
+      "kana": "せっきゃく",
+      "romaji": "sekkyaku",
+      "tokens": [
+        {
+          "text": "接客",
+          "kana": "せっきゃく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "衰退，衰落",
+      "japanese": "衰退",
+      "kana": "すいたい",
+      "romaji": "suitai",
+      "tokens": [
+        {
+          "text": "衰退",
+          "kana": "すいたい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "海水",
+      "japanese": "海水",
+      "kana": "かいすい",
+      "romaji": "kaisui",
+      "tokens": [
+        {
+          "text": "海水",
+          "kana": "かいすい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "向日葵",
+      "japanese": "ひまわり",
+      "kana": "ひまわり",
+      "romaji": "himawari",
+      "tokens": [
+        {
+          "text": "ひまわり",
+          "kana": "ひまわり"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "葱",
+      "japanese": "ねぎ",
+      "kana": "ねぎ",
+      "romaji": "negi",
+      "tokens": [
+        {
+          "text": "ねぎ",
+          "kana": "ねぎ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "基因",
+      "japanese": "遺伝子",
+      "kana": "いでんし",
+      "romaji": "idenshi",
+      "tokens": [
+        {
+          "text": "遺伝子",
+          "kana": "いでんし"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "关系，相干",
+      "japanese": "関わり",
+      "kana": "かかわり",
+      "romaji": "kakawari",
+      "tokens": [
+        {
+          "text": "関わり",
+          "kana": "かかわり"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "识别，辨别，区分",
+      "japanese": "見分け",
+      "kana": "みわけ",
+      "romaji": "miwake",
+      "tokens": [
+        {
+          "text": "見分け",
+          "kana": "みわけ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "赞成与否，赞成和反对",
+      "japanese": "賛否",
+      "kana": "さんぴ",
+      "romaji": "sanpi",
+      "tokens": [
+        {
+          "text": "賛否",
+          "kana": "さんぴ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "踏板；舞步；阶段",
+      "japanese": "ステップ",
+      "kana": "すてっぷ",
+      "romaji": "suteppu",
+      "tokens": [
+        {
+          "text": "ステップ",
+          "kana": "すてっぷ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "买主，买方",
+      "japanese": "買い手",
+      "kana": "かいて",
+      "romaji": "kaite",
+      "tokens": [
+        {
+          "text": "買い手",
+          "kana": "かいて"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "域；阶段，领域",
+      "japanese": "域",
+      "kana": "いき",
+      "romaji": "iki",
+      "tokens": [
+        {
+          "text": "域",
+          "kana": "いき"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "地面，地板；层",
+      "japanese": "フロア",
+      "kana": "ふろあ",
+      "romaji": "furoa",
+      "tokens": [
+        {
+          "text": "フロア",
+          "kana": "ふろあ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "沟，水沟；隔阂",
+      "japanese": "溝",
+      "kana": "みぞ",
+      "romaji": "mizo",
+      "tokens": [
+        {
+          "text": "溝",
+          "kana": "みぞ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "大猩猩",
+      "japanese": "ゴリラ",
+      "kana": "ごりら",
+      "romaji": "gorira",
+      "tokens": [
+        {
+          "text": "ゴリラ",
+          "kana": "ごりら"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "阳光，日光",
+      "japanese": "陽光",
+      "kana": "ようこう",
+      "romaji": "youkou",
+      "tokens": [
+        {
+          "text": "陽光",
+          "kana": "ようこう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "热情，动力",
+      "japanese": "モチベーション",
+      "kana": "もちべえしょん",
+      "romaji": "mochibeeshon",
+      "tokens": [
+        {
+          "text": "モチベーション",
+          "kana": "もちべえしょん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "这小子，这家伙；这东西",
+      "japanese": "こいつ",
+      "kana": "こいつ",
+      "romaji": "koitsu",
+      "tokens": [
+        {
+          "text": "こいつ",
+          "kana": "こいつ"
+        }
+      ]
+    }
+  ]
+}

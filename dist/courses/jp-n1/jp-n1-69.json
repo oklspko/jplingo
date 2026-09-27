@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-69",
+  "coursePackId": "jp-n1",
+  "title": "名词 69",
+  "order": 69,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "从远处看；看得远；远视",
+      "japanese": "遠目",
+      "kana": "とおめ",
+      "romaji": "toome",
+      "tokens": [
+        {
+          "text": "遠目",
+          "kana": "とおめ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "沙尘",
+      "japanese": "砂 塵[じん]",
+      "kana": "さじん",
+      "romaji": "sajin",
+      "tokens": [
+        {
+          "text": "砂 塵[じん]",
+          "kana": "さじん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "（人的性格、思想、爱好）各不相同",
+      "japanese": "十人十色",
+      "kana": "じゅうにんといろ",
+      "romaji": "juunintoiro",
+      "tokens": [
+        {
+          "text": "十人十色",
+          "kana": "じゅうにんといろ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "即席，当场；当时，暂时；活期",
+      "japanese": "当座",
+      "kana": "とうざ",
+      "romaji": "touza",
+      "tokens": [
+        {
+          "text": "当座",
+          "kana": "とうざ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "体面，面子",
+      "japanese": "体面",
+      "kana": "たいめん",
+      "romaji": "taimen",
+      "tokens": [
+        {
+          "text": "体面",
+          "kana": "たいめん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "庭园的树木",
+      "japanese": "庭木",
+      "kana": "にわき",
+      "romaji": "niwaki",
+      "tokens": [
+        {
+          "text": "庭木",
+          "kana": "にわき"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "树阴，树下",
+      "japanese": "木陰",
+      "kana": "こかげ",
+      "romaji": "kokage",
+      "tokens": [
+        {
+          "text": "木陰",
+          "kana": "こかげ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "摸；摸索",
+      "japanese": "手探り",
+      "kana": "てさぐり",
+      "romaji": "tesaguri",
+      "tokens": [
+        {
+          "text": "手探り",
+          "kana": "てさぐり"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "天性，生性；（各人的）份额，职责",
+      "japanese": "持ち前",
+      "kana": "もちまえ",
+      "romaji": "mochimae",
+      "tokens": [
+        {
+          "text": "持ち前",
+          "kana": "もちまえ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "高年级学生",
+      "japanese": "上級生",
+      "kana": "じょうきゅうせい",
+      "romaji": "joukyuusei",
+      "tokens": [
+        {
+          "text": "上級生",
+          "kana": "じょうきゅうせい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "本意，真意；真正的意思",
+      "japanese": "真意",
+      "kana": "しんい",
+      "romaji": "shin'i",
+      "tokens": [
+        {
+          "text": "真意",
+          "kana": "しんい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "睡铺，被窝",
+      "japanese": "寝床",
+      "kana": "ねどこ",
+      "romaji": "nedoko",
+      "tokens": [
+        {
+          "text": "寝床",
+          "kana": "ねどこ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "古董，骨董，古玩",
+      "japanese": "骨 董[とう]",
+      "kana": "こっとう",
+      "romaji": "kottou",
+      "tokens": [
+        {
+          "text": "骨 董[とう]",
+          "kana": "こっとう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "认识",
+      "japanese": "面識",
+      "kana": "めんしき",
+      "romaji": "menshiki",
+      "tokens": [
+        {
+          "text": "面識",
+          "kana": "めんしき"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "行政机关，政府机关和公共团体机关",
+      "japanese": "官公庁",
+      "kana": "かんこうちょう",
+      "romaji": "kankouchou",
+      "tokens": [
+        {
+          "text": "官公庁",
+          "kana": "かんこうちょう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "一边倒",
+      "japanese": "一辺倒",
+      "kana": "いっぺんとう",
+      "romaji": "ippentou",
+      "tokens": [
+        {
+          "text": "一辺倒",
+          "kana": "いっぺんとう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "倒持，倒握；反握；利用对方的论点反击对方，将计就计",
+      "japanese": "逆手",
+      "kana": "さかて",
+      "romaji": "sakate",
+      "tokens": [
+        {
+          "text": "逆手",
+          "kana": "さかて"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "惊险，刺激",
+      "japanese": "スリル",
+      "kana": "すりる",
+      "romaji": "suriru",
+      "tokens": [
+        {
+          "text": "スリル",
+          "kana": "すりる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "抱负",
+      "japanese": "抱負",
+      "kana": "ほうふ",
+      "romaji": "houfu",
+      "tokens": [
+        {
+          "text": "抱負",
+          "kana": "ほうふ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "放射状",
+      "japanese": "放射状",
+      "kana": "ほうしゃじょう",
+      "romaji": "houshajou",
+      "tokens": [
+        {
+          "text": "放射状",
+          "kana": "ほうしゃじょう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "县立，县办",
+      "japanese": "県立",
+      "kana": "けんりつ",
+      "romaji": "kenritsu",
+      "tokens": [
+        {
+          "text": "県立",
+          "kana": "けんりつ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "失明；盲目，没有理智",
+      "japanese": "盲目",
+      "kana": "もうもく",
+      "romaji": "moumoku",
+      "tokens": [
+        {
+          "text": "盲目",
+          "kana": "もうもく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "导盲犬",
+      "japanese": "盲導犬",
+      "kana": "もうどうけん",
+      "romaji": "moudouken",
+      "tokens": [
+        {
+          "text": "盲導犬",
+          "kana": "もうどうけん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "初恋",
+      "japanese": "初恋",
+      "kana": "はつこい",
+      "romaji": "hatsukoi",
+      "tokens": [
+        {
+          "text": "初恋",
+          "kana": "はつこい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "同质，同一性质",
+      "japanese": "同質",
+      "kana": "どうしつ",
+      "romaji": "doushitsu",
+      "tokens": [
+        {
+          "text": "同質",
+          "kana": "どうしつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "斜视，侧视",
+      "japanese": "横目",
+      "kana": "よこめ",
+      "romaji": "yokome",
+      "tokens": [
+        {
+          "text": "横目",
+          "kana": "よこめ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "熟识，熟识的人",
+      "japanese": "おなじみ",
+      "kana": "おなじみ",
+      "romaji": "onajimi",
+      "tokens": [
+        {
+          "text": "おなじみ",
+          "kana": "おなじみ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "吆喝声，喝采声，号子声；空喊",
+      "japanese": "掛け声",
+      "kana": "かけごえ",
+      "romaji": "kakegoe",
+      "tokens": [
+        {
+          "text": "掛け声",
+          "kana": "かけごえ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "火腿",
+      "japanese": "ハム",
+      "kana": "はむ",
+      "romaji": "hamu",
+      "tokens": [
+        {
+          "text": "ハム",
+          "kana": "はむ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "实话，真人真事",
+      "japanese": "実話",
+      "kana": "じつわ",
+      "romaji": "jitsuwa",
+      "tokens": [
+        {
+          "text": "実話",
+          "kana": "じつわ"
+        }
+      ]
+    }
+  ]
+}

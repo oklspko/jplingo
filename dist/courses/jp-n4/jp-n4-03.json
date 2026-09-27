@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-03",
+  "coursePackId": "jp-n4",
+  "title": "名词 3",
+  "order": 3,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "春假",
+      "japanese": "春休み",
+      "kana": "はるやすみ",
+      "romaji": "haruyasumi",
+      "tokens": [
+        {
+          "text": "春休み",
+          "kana": "はるやすみ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "写法",
+      "japanese": "書き方",
+      "kana": "かきかた",
+      "romaji": "kakikata",
+      "tokens": [
+        {
+          "text": "書き方",
+          "kana": "かきかた"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "大象",
+      "japanese": "象",
+      "kana": "ぞう",
+      "romaji": "zou",
+      "tokens": [
+        {
+          "text": "象",
+          "kana": "ぞう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "心；心情；意愿",
+      "japanese": "心",
+      "kana": "こころ",
+      "romaji": "kokoro",
+      "tokens": [
+        {
+          "text": "心",
+          "kana": "こころ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "认真；老实",
+      "japanese": "真面目",
+      "kana": "まじめ",
+      "romaji": "majime",
+      "tokens": [
+        {
+          "text": "真面目",
+          "kana": "まじめ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "人，人类",
+      "japanese": "人間",
+      "kana": "にんげん",
+      "romaji": "ningen",
+      "tokens": [
+        {
+          "text": "人間",
+          "kana": "にんげん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "人气，受欢迎",
+      "japanese": "人気",
+      "kana": "にんき",
+      "romaji": "ninki",
+      "tokens": [
+        {
+          "text": "人気",
+          "kana": "にんき"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "数，数量",
+      "japanese": "数",
+      "kana": "かず",
+      "romaji": "kazu",
+      "tokens": [
+        {
+          "text": "数",
+          "kana": "かず"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "地球，世界，社会",
+      "japanese": "世界",
+      "kana": "せかい",
+      "romaji": "sekai",
+      "tokens": [
+        {
+          "text": "世界",
+          "kana": "せかい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "生活",
+      "japanese": "生活",
+      "kana": "せいかつ",
+      "romaji": "seikatsu",
+      "tokens": [
+        {
+          "text": "生活",
+          "kana": "せいかつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "（人或动物发出的）声音；意见，反馈",
+      "japanese": "声",
+      "kana": "こえ",
+      "romaji": "koe",
+      "tokens": [
+        {
+          "text": "声",
+          "kana": "こえ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "座位，席位",
+      "japanese": "席",
+      "kana": "せき",
+      "romaji": "seki",
+      "tokens": [
+        {
+          "text": "席",
+          "kana": "せき"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "顶，尖；前方；先",
+      "japanese": "先",
+      "kana": "さき",
+      "romaji": "saki",
+      "tokens": [
+        {
+          "text": "先",
+          "kana": "さき"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "前辈；学长，学姐",
+      "japanese": "先輩",
+      "kana": "せんぱい",
+      "romaji": "senpai",
+      "tokens": [
+        {
+          "text": "先輩",
+          "kana": "せんぱい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "草，杂草",
+      "japanese": "草",
+      "kana": "くさ",
+      "romaji": "kusa",
+      "tokens": [
+        {
+          "text": "草",
+          "kana": "くさ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "一侧，一方",
+      "japanese": "側",
+      "kana": "がわ",
+      "romaji": "gawa",
+      "tokens": [
+        {
+          "text": "側",
+          "kana": "がわ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "儿子",
+      "japanese": "息子",
+      "kana": "むすこ",
+      "romaji": "musuko",
+      "tokens": [
+        {
+          "text": "息子",
+          "kana": "むすこ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "村庄，农村",
+      "japanese": "村",
+      "kana": "むら",
+      "romaji": "mura",
+      "tokens": [
+        {
+          "text": "村",
+          "kana": "むら"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "没用；做不到；不可以",
+      "japanese": "だめ",
+      "kana": "だめ",
+      "romaji": "dame",
+      "tokens": [
+        {
+          "text": "だめ",
+          "kana": "だめ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "乒乓球",
+      "japanese": "卓球",
+      "kana": "たっきゅう",
+      "romaji": "takkyuu",
+      "tokens": [
+        {
+          "text": "卓球",
+          "kana": "たっきゅう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（不确定的指代）某人",
+      "japanese": "誰か",
+      "kana": "だれか",
+      "romaji": "dareka",
+      "tokens": [
+        {
+          "text": "誰か",
+          "kana": "だれか"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "中学；初中",
+      "japanese": "中学",
+      "kana": "ちゅうがく",
+      "romaji": "chuugaku",
+      "tokens": [
+        {
+          "text": "中学",
+          "kana": "ちゅうがく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "礼貌；细心周到",
+      "japanese": "丁寧",
+      "kana": "ていねい",
+      "romaji": "teinei",
+      "tokens": [
+        {
+          "text": "丁寧",
+          "kana": "ていねい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "工具",
+      "japanese": "道具",
+      "kana": "どうぐ",
+      "romaji": "dougu",
+      "tokens": [
+        {
+          "text": "道具",
+          "kana": "どうぐ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "内容",
+      "japanese": "内容",
+      "kana": "ないよう",
+      "romaji": "naiyou",
+      "tokens": [
+        {
+          "text": "内容",
+          "kana": "ないよう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "身高",
+      "japanese": "背",
+      "kana": "せ",
+      "romaji": "se",
+      "tokens": [
+        {
+          "text": "背",
+          "kana": "せ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "疾病",
+      "japanese": "病気",
+      "kana": "びょうき",
+      "romaji": "byouki",
+      "tokens": [
+        {
+          "text": "病気",
+          "kana": "びょうき"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "信封",
+      "japanese": "封筒",
+      "kana": "ふうとう",
+      "romaji": "fuutou",
+      "tokens": [
+        {
+          "text": "封筒",
+          "kana": "ふうとう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "……位，……人",
+      "japanese": "方",
+      "kana": "かた",
+      "romaji": "kata",
+      "tokens": [
+        {
+          "text": "方",
+          "kana": "かた"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "方向；方面；（比起来）……还是",
+      "japanese": "方",
+      "kana": "ほう",
+      "romaji": "hou",
+      "tokens": [
+        {
+          "text": "方",
+          "kana": "ほう"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-12",
+  "coursePackId": "jp-n2",
+  "title": "名词 12",
+  "order": 12,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "提出，提交",
+      "japanese": "提出",
+      "kana": "ていしゅつ",
+      "romaji": "teishutsu",
+      "tokens": [
+        {
+          "text": "提出",
+          "kana": "ていしゅつ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "传统",
+      "japanese": "伝統",
+      "kana": "でんとう",
+      "romaji": "dentou",
+      "tokens": [
+        {
+          "text": "伝統",
+          "kana": "でんとう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "市中心；东京中心",
+      "japanese": "都心",
+      "kana": "としん",
+      "romaji": "toshin",
+      "tokens": [
+        {
+          "text": "都心",
+          "kana": "としん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "失窃，被盗",
+      "japanese": "盗難",
+      "kana": "とうなん",
+      "romaji": "tounan",
+      "tokens": [
+        {
+          "text": "盗難",
+          "kana": "とうなん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "答案；试卷",
+      "japanese": "答案",
+      "kana": "とうあん",
+      "romaji": "touan",
+      "tokens": [
+        {
+          "text": "答案",
+          "kana": "とうあん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（公路、铁路的）交叉口，道口",
+      "japanese": "踏み切り",
+      "kana": "ふみきり",
+      "romaji": "fumikiri",
+      "tokens": [
+        {
+          "text": "踏み切り",
+          "kana": "ふみきり"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "收益；有利",
+      "japanese": "得",
+      "kana": "とく",
+      "romaji": "toku",
+      "tokens": [
+        {
+          "text": "得",
+          "kana": "とく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "特色，特长",
+      "japanese": "特色",
+      "kana": "とくしょく",
+      "romaji": "tokushoku",
+      "tokens": [
+        {
+          "text": "特色",
+          "kana": "とくしょく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "独特，特有",
+      "japanese": "独特",
+      "kana": "どくとく",
+      "romaji": "dokutoku",
+      "tokens": [
+        {
+          "text": "独特",
+          "kana": "どくとく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "阳光照射处",
+      "japanese": "日当たり",
+      "kana": "ひあたり",
+      "romaji": "hiatari",
+      "tokens": [
+        {
+          "text": "日当たり",
+          "kana": "ひあたり"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "年月日，日期",
+      "japanese": "日付",
+      "kana": "ひづけ",
+      "romaji": "hizuke",
+      "tokens": [
+        {
+          "text": "日付",
+          "kana": "ひづけ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "入场",
+      "japanese": "入場",
+      "kana": "にゅうじょう",
+      "romaji": "nyuujou",
+      "tokens": [
+        {
+          "text": "入場",
+          "kana": "にゅうじょう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "年代；时代",
+      "japanese": "年代",
+      "kana": "ねんだい",
+      "romaji": "nendai",
+      "tokens": [
+        {
+          "text": "年代",
+          "kana": "ねんだい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（工作）效率",
+      "japanese": "能率",
+      "kana": "のうりつ",
+      "romaji": "nouritsu",
+      "tokens": [
+        {
+          "text": "能率",
+          "kana": "のうりつ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "能力",
+      "japanese": "能力",
+      "kana": "のうりょく",
+      "romaji": "nouryoku",
+      "tokens": [
+        {
+          "text": "能力",
+          "kana": "のうりょく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "农家，农户",
+      "japanese": "農家",
+      "kana": "のうか",
+      "romaji": "nouka",
+      "tokens": [
+        {
+          "text": "農家",
+          "kana": "のうか"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "农作物",
+      "japanese": "農作物",
+      "kana": "のうさくぶつ",
+      "romaji": "nousakubutsu",
+      "tokens": [
+        {
+          "text": "農作物",
+          "kana": "のうさくぶつ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "农产品",
+      "japanese": "農産物",
+      "kana": "のうさんぶつ",
+      "romaji": "nousanbutsu",
+      "tokens": [
+        {
+          "text": "農産物",
+          "kana": "のうさんぶつ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "演员（有时特指男演员）",
+      "japanese": "俳優",
+      "kana": "はいゆう",
+      "romaji": "haiyuu",
+      "tokens": [
+        {
+          "text": "俳優",
+          "kana": "はいゆう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "销路，销售情况",
+      "japanese": "売れ行き",
+      "kana": "うれゆき",
+      "romaji": "ureyuki",
+      "tokens": [
+        {
+          "text": "売れ行き",
+          "kana": "うれゆき"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "拍手，鼓掌",
+      "japanese": "拍手",
+      "kana": "はくしゅ",
+      "romaji": "hakushu",
+      "tokens": [
+        {
+          "text": "拍手",
+          "kana": "はくしゅ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "发育；发达，进步",
+      "japanese": "発達",
+      "kana": "はったつ",
+      "romaji": "hattatsu",
+      "tokens": [
+        {
+          "text": "発達",
+          "kana": "はったつ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "发明",
+      "japanese": "発明",
+      "kana": "はつめい",
+      "romaji": "hatsumei",
+      "tokens": [
+        {
+          "text": "発明",
+          "kana": "はつめい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "判断",
+      "japanese": "判断",
+      "kana": "はんだん",
+      "romaji": "handan",
+      "tokens": [
+        {
+          "text": "判断",
+          "kana": "はんだん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "反抗，对抗",
+      "japanese": "反抗",
+      "kana": "はんこう",
+      "romaji": "hankou",
+      "tokens": [
+        {
+          "text": "反抗",
+          "kana": "はんこう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "反面；另一面",
+      "japanese": "反面",
+      "kana": "はんめん",
+      "romaji": "hanmen",
+      "tokens": [
+        {
+          "text": "反面",
+          "kana": "はんめん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "范围，界限",
+      "japanese": "範囲",
+      "kana": "はんい",
+      "romaji": "han'i",
+      "tokens": [
+        {
+          "text": "範囲",
+          "kana": "はんい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "批评，批判",
+      "japanese": "批判",
+      "kana": "ひはん",
+      "romaji": "hihan",
+      "tokens": [
+        {
+          "text": "批判",
+          "kana": "ひはん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "皮肤",
+      "japanese": "皮膚",
+      "kana": "ひふ",
+      "romaji": "hifu",
+      "tokens": [
+        {
+          "text": "皮膚",
+          "kana": "ひふ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "费用",
+      "japanese": "費用",
+      "kana": "ひよう",
+      "romaji": "hiyou",
+      "tokens": [
+        {
+          "text": "費用",
+          "kana": "ひよう"
+        }
+      ]
+    }
+  ]
+}

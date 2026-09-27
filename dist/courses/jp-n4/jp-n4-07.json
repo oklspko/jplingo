@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-07",
+  "coursePackId": "jp-n4",
+  "title": "名词 7",
+  "order": 7,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（多用于不好的）原因",
+      "japanese": "原因",
+      "kana": "げんいん",
+      "romaji": "gen'in",
+      "tokens": [
+        {
+          "text": "原因",
+          "kana": "げんいん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "现在，目前；当时",
+      "japanese": "現在",
+      "kana": "げんざい",
+      "romaji": "genzai",
+      "tokens": [
+        {
+          "text": "現在",
+          "kana": "げんざい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "湖",
+      "japanese": "湖",
+      "kana": "みずうみ",
+      "romaji": "mizuumi",
+      "tokens": [
+        {
+          "text": "湖",
+          "kana": "みずうみ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "光线，光明；希望",
+      "japanese": "光",
+      "kana": "ひかり",
+      "romaji": "hikari",
+      "tokens": [
+        {
+          "text": "光",
+          "kana": "ひかり"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "施工，工程",
+      "japanese": "工事",
+      "kana": "こうじ",
+      "romaji": "kouji",
+      "tokens": [
+        {
+          "text": "工事",
+          "kana": "こうじ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "幸福",
+      "japanese": "幸せ",
+      "kana": "しあわせ",
+      "romaji": "shiawase",
+      "tokens": [
+        {
+          "text": "幸せ",
+          "kana": "しあわせ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "港口，码头",
+      "japanese": "港",
+      "kana": "みなと",
+      "romaji": "minato",
+      "tokens": [
+        {
+          "text": "港",
+          "kana": "みなと"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "黑板",
+      "japanese": "黒板",
+      "kana": "こくばん",
+      "romaji": "kokuban",
+      "tokens": [
+        {
+          "text": "黒板",
+          "kana": "こくばん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "腰；腰部，下半部",
+      "japanese": "腰",
+      "kana": "こし",
+      "romaji": "koshi",
+      "tokens": [
+        {
+          "text": "腰",
+          "kana": "こし"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "这次，这回",
+      "japanese": "今回",
+      "kana": "こんかい",
+      "romaji": "konkai",
+      "tokens": [
+        {
+          "text": "今回",
+          "kana": "こんかい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "今后，将来",
+      "japanese": "今後",
+      "kana": "こんご",
+      "romaji": "kongo",
+      "tokens": [
+        {
+          "text": "今後",
+          "kana": "こんご"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "这次或下次；最近，上次",
+      "japanese": "今度",
+      "kana": "こんど",
+      "romaji": "kondo",
+      "tokens": [
+        {
+          "text": "今度",
+          "kana": "こんど"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "今晚",
+      "japanese": "今夜",
+      "kana": "こんや",
+      "romaji": "kon'ya",
+      "tokens": [
+        {
+          "text": "今夜",
+          "kana": "こんや"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "近来，最近",
+      "japanese": "最近",
+      "kana": "さいきん",
+      "romaji": "saikin",
+      "tokens": [
+        {
+          "text": "最近",
+          "kana": "さいきん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "樱花，樱花树",
+      "japanese": "桜",
+      "kana": "さくら",
+      "romaji": "sakura",
+      "tokens": [
+        {
+          "text": "桜",
+          "kana": "さくら"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "参加",
+      "japanese": "参加",
+      "kana": "さんか",
+      "romaji": "sanka",
+      "tokens": [
+        {
+          "text": "参加",
+          "kana": "さんか"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "剩余，残余",
+      "japanese": "残り",
+      "kana": "のこり",
+      "romaji": "nokori",
+      "tokens": [
+        {
+          "text": "残り",
+          "kana": "のこり"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "做法，方法",
+      "japanese": "仕方",
+      "kana": "しかた",
+      "romaji": "shikata",
+      "tokens": [
+        {
+          "text": "仕方",
+          "kana": "しかた"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "孩子；小孩",
+      "japanese": "子",
+      "kana": "こ",
+      "romaji": "ko",
+      "tokens": [
+        {
+          "text": "子",
+          "kana": "こ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "市",
+      "japanese": "市",
+      "kana": "し",
+      "romaji": "shi",
+      "tokens": [
+        {
+          "text": "市",
+          "kana": "し"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "市民，城市居民",
+      "japanese": "市民",
+      "kana": "しみん",
+      "romaji": "shimin",
+      "tokens": [
+        {
+          "text": "市民",
+          "kana": "しみん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "树枝",
+      "japanese": "枝",
+      "kana": "えだ",
+      "romaji": "eda",
+      "tokens": [
+        {
+          "text": "枝",
+          "kana": "えだ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（体育的）比赛",
+      "japanese": "試合",
+      "kana": "しあい",
+      "romaji": "shiai",
+      "tokens": [
+        {
+          "text": "試合",
+          "kana": "しあい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "资料，材料",
+      "japanese": "資料",
+      "kana": "しりょう",
+      "romaji": "shiryou",
+      "tokens": [
+        {
+          "text": "資料",
+          "kana": "しりょう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "牙医",
+      "japanese": "歯医者",
+      "kana": "はいしゃ",
+      "romaji": "haisha",
+      "tokens": [
+        {
+          "text": "歯医者",
+          "kana": "はいしゃ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "事情",
+      "japanese": "事",
+      "kana": "こと",
+      "romaji": "koto",
+      "tokens": [
+        {
+          "text": "事",
+          "kana": "こと"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "事务所，办事处",
+      "japanese": "事務所",
+      "kana": "じむしょ",
+      "romaji": "jimusho",
+      "tokens": [
+        {
+          "text": "事務所",
+          "kana": "じむしょ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "字，文字",
+      "japanese": "字",
+      "kana": "じ",
+      "romaji": "ji",
+      "tokens": [
+        {
+          "text": "字",
+          "kana": "じ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "寺庙，寺院",
+      "japanese": "寺",
+      "kana": "てら",
+      "romaji": "tera",
+      "tokens": [
+        {
+          "text": "寺",
+          "kana": "てら"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "时代，时期",
+      "japanese": "時代",
+      "kana": "じだい",
+      "romaji": "jidai",
+      "tokens": [
+        {
+          "text": "時代",
+          "kana": "じだい"
+        }
+      ]
+    }
+  ]
+}

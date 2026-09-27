@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-47",
+  "coursePackId": "jp-n2",
+  "title": "名词 47",
+  "order": 47,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "好感",
+      "japanese": "好感",
+      "kana": "こうかん",
+      "romaji": "koukan",
+      "tokens": [
+        {
+          "text": "好感",
+          "kana": "こうかん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "往来，往返；（人与人的）交往",
+      "japanese": "行き来",
+      "kana": "いきき",
+      "romaji": "ikiki",
+      "tokens": [
+        {
+          "text": "行き来",
+          "kana": "いきき"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "空闲时间，余暇",
+      "japanese": "合間",
+      "kana": "あいま",
+      "romaji": "aima",
+      "tokens": [
+        {
+          "text": "合間",
+          "kana": "あいま"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "根据",
+      "japanese": "根拠",
+      "kana": "こんきょ",
+      "romaji": "konkyo",
+      "tokens": [
+        {
+          "text": "根拠",
+          "kana": "こんきょ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "根本，根源",
+      "japanese": "根本",
+      "kana": "こんぽん",
+      "romaji": "konpon",
+      "tokens": [
+        {
+          "text": "根本",
+          "kana": "こんぽん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（疾病）复发；再次发生",
+      "japanese": "再発",
+      "kana": "さいはつ",
+      "romaji": "saihatsu",
+      "tokens": [
+        {
+          "text": "再発",
+          "kana": "さいはつ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "最坏，最糟",
+      "japanese": "最悪",
+      "kana": "さいあく",
+      "romaji": "saiaku",
+      "tokens": [
+        {
+          "text": "最悪",
+          "kana": "さいあく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "最近处，附近",
+      "japanese": "最寄り",
+      "kana": "もより",
+      "romaji": "moyori",
+      "tokens": [
+        {
+          "text": "最寄り",
+          "kana": "もより"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "最好；全力",
+      "japanese": "最善",
+      "kana": "さいぜん",
+      "romaji": "saizen",
+      "tokens": [
+        {
+          "text": "最善",
+          "kana": "さいぜん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "细菌",
+      "japanese": "細菌",
+      "kana": "さいきん",
+      "romaji": "saikin",
+      "tokens": [
+        {
+          "text": "細菌",
+          "kana": "さいきん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "细微的部分",
+      "japanese": "細部",
+      "kana": "さいぶ",
+      "romaji": "saibu",
+      "tokens": [
+        {
+          "text": "細部",
+          "kana": "さいぶ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "错误；不相符",
+      "japanese": "錯誤",
+      "kana": "さくご",
+      "romaji": "sakugo",
+      "tokens": [
+        {
+          "text": "錯誤",
+          "kana": "さくご"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "山顶",
+      "japanese": "山頂",
+      "kana": "さんちょう",
+      "romaji": "sanchou",
+      "tokens": [
+        {
+          "text": "山頂",
+          "kana": "さんちょう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "物产；产物",
+      "japanese": "産物",
+      "kana": "さんぶつ",
+      "romaji": "sanbutsu",
+      "tokens": [
+        {
+          "text": "産物",
+          "kana": "さんぶつ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "余额",
+      "japanese": "残高",
+      "kana": "ざんだか",
+      "romaji": "zandaka",
+      "tokens": [
+        {
+          "text": "残高",
+          "kana": "ざんだか"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "偶然的想法",
+      "japanese": "思いつき",
+      "kana": "おもいつき",
+      "romaji": "omoitsuki",
+      "tokens": [
+        {
+          "text": "思いつき",
+          "kana": "おもいつき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "思考，考虑",
+      "japanese": "思考",
+      "kana": "しこう",
+      "romaji": "shikou",
+      "tokens": [
+        {
+          "text": "思考",
+          "kana": "しこう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "指示，吩咐",
+      "japanese": "指図",
+      "kana": "さしず",
+      "romaji": "sashizu",
+      "tokens": [
+        {
+          "text": "指図",
+          "kana": "さしず"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "指出，指正",
+      "japanese": "指摘",
+      "kana": "してき",
+      "romaji": "shiteki",
+      "tokens": [
+        {
+          "text": "指摘",
+          "kana": "してき"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "支援",
+      "japanese": "支援",
+      "kana": "しえん",
+      "romaji": "shien",
+      "tokens": [
+        {
+          "text": "支援",
+          "kana": "しえん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "支持，赞成，拥护",
+      "japanese": "支持",
+      "kana": "しじ",
+      "romaji": "shiji",
+      "tokens": [
+        {
+          "text": "支持",
+          "kana": "しじ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "视觉",
+      "japanese": "視覚",
+      "kana": "しかく",
+      "romaji": "shikaku",
+      "tokens": [
+        {
+          "text": "視覚",
+          "kana": "しかく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "视察",
+      "japanese": "視察",
+      "kana": "しさつ",
+      "romaji": "shisatsu",
+      "tokens": [
+        {
+          "text": "視察",
+          "kana": "しさつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "视线的集中点；观点，角度",
+      "japanese": "視点",
+      "kana": "してん",
+      "romaji": "shiten",
+      "tokens": [
+        {
+          "text": "視点",
+          "kana": "してん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（以营利为目的的）事业；（以贡献社会为目的的）事业",
+      "japanese": "事業",
+      "kana": "じぎょう",
+      "romaji": "jigyou",
+      "tokens": [
+        {
+          "text": "事業",
+          "kana": "じぎょう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "持续，保持",
+      "japanese": "持続",
+      "kana": "じぞく",
+      "romaji": "jizoku",
+      "tokens": [
+        {
+          "text": "持続",
+          "kana": "じぞく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "实质，本质",
+      "japanese": "実質",
+      "kana": "じっしつ",
+      "romaji": "jisshitsu",
+      "tokens": [
+        {
+          "text": "実質",
+          "kana": "じっしつ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "主食",
+      "japanese": "主食",
+      "kana": "しゅしょく",
+      "romaji": "shushoku",
+      "tokens": [
+        {
+          "text": "主食",
+          "kana": "しゅしょく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "使用，操作；对待；处理",
+      "japanese": "取り扱い",
+      "kana": "とりあつかい",
+      "romaji": "toriatsukai",
+      "tokens": [
+        {
+          "text": "取り扱い",
+          "kana": "とりあつかい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（经由一定手续）取得（资格、权利、物品等）",
+      "japanese": "取得",
+      "kana": "しゅとく",
+      "romaji": "shutoku",
+      "tokens": [
+        {
+          "text": "取得",
+          "kana": "しゅとく"
+        }
+      ]
+    }
+  ]
+}

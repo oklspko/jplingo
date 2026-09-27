@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-99",
+  "coursePackId": "jp-n1",
+  "title": "动词 8",
+  "order": 99,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "学习，模仿",
+      "japanese": "見習う",
+      "kana": "みならう",
+      "romaji": "minarau",
+      "tokens": [
+        {
+          "text": "見習う",
+          "kana": "みならう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "看（不）到，找（不）到",
+      "japanese": "見当たる",
+      "kana": "みあたる",
+      "romaji": "miataru",
+      "tokens": [
+        {
+          "text": "見当たる",
+          "kana": "みあたる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "看漏，忽略",
+      "japanese": "見落とす",
+      "kana": "みおとす",
+      "romaji": "miotosu",
+      "tokens": [
+        {
+          "text": "見落とす",
+          "kana": "みおとす"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "坚决主张，固执己见",
+      "japanese": "言い張る",
+      "kana": "いいはる",
+      "romaji": "iiharu",
+      "tokens": [
+        {
+          "text": "言い張る",
+          "kana": "いいはる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "叫醒；唤起",
+      "japanese": "呼び起こす",
+      "kana": "よびおこす",
+      "romaji": "yobiokosu",
+      "tokens": [
+        {
+          "text": "呼び起こす",
+          "kana": "よびおこす"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "领悟，察觉",
+      "japanese": "悟る",
+      "kana": "さとる",
+      "romaji": "satoru",
+      "tokens": [
+        {
+          "text": "悟る",
+          "kana": "さとる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "掺杂；交叉；交换",
+      "japanese": "交える",
+      "kana": "まじえる",
+      "romaji": "majieru",
+      "tokens": [
+        {
+          "text": "交える",
+          "kana": "まじえる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "等候；节制；记下；临近",
+      "japanese": "控える",
+      "kana": "ひかえる",
+      "romaji": "hikaeru",
+      "tokens": [
+        {
+          "text": "控える",
+          "kana": "ひかえる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "修建，修筑；摆出（某种态度或姿势）",
+      "japanese": "構える",
+      "kana": "かまえる",
+      "romaji": "kamaeru",
+      "tokens": [
+        {
+          "text": "構える",
+          "kana": "かまえる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "（口头）告知；宣告（结束）",
+      "japanese": "告げる",
+      "kana": "つげる",
+      "romaji": "tsugeru",
+      "tokens": [
+        {
+          "text": "告げる",
+          "kana": "つげる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "（根据法律）审判，裁判",
+      "japanese": "裁く",
+      "kana": "さばく",
+      "romaji": "sabaku",
+      "tokens": [
+        {
+          "text": "裁く",
+          "kana": "さばく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "服侍；任职",
+      "japanese": "仕える",
+      "kana": "つかえる",
+      "romaji": "tsukaeru",
+      "tokens": [
+        {
+          "text": "仕える",
+          "kana": "つかえる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "隔开；掌管，主持",
+      "japanese": "仕切る",
+      "kana": "しきる",
+      "romaji": "shikiru",
+      "tokens": [
+        {
+          "text": "仕切る",
+          "kana": "しきる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "主管，负责（职务、任务等）；掌管，支配",
+      "japanese": "司る",
+      "kana": "つかさどる",
+      "romaji": "tsukasadoru",
+      "tokens": [
+        {
+          "text": "司る",
+          "kana": "つかさどる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "立志，以……为目标",
+      "japanese": "志す",
+      "kana": "こころざす",
+      "romaji": "kokorozasu",
+      "tokens": [
+        {
+          "text": "志す",
+          "kana": "こころざす"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "体谅，同情；遥想，挂念",
+      "japanese": "思いやる",
+      "kana": "おもいやる",
+      "romaji": "omoiyaru",
+      "tokens": [
+        {
+          "text": "思いやる",
+          "kana": "おもいやる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "试着",
+      "japanese": "試みる",
+      "kana": "こころみる",
+      "romaji": "kokoromiru",
+      "tokens": [
+        {
+          "text": "試みる",
+          "kana": "こころみる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "相仿，相似",
+      "japanese": "似通う",
+      "kana": "にかよう",
+      "romaji": "nikayou",
+      "tokens": [
+        {
+          "text": "似通う",
+          "kana": "にかよう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "遮挡；打断",
+      "japanese": "遮る",
+      "kana": "さえぎる",
+      "romaji": "saegiru",
+      "tokens": [
+        {
+          "text": "遮る",
+          "kana": "さえぎる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "剩下；落伍，落后",
+      "japanese": "取り残す",
+      "kana": "とりのこす",
+      "romaji": "torinokosu",
+      "tokens": [
+        {
+          "text": "取り残す",
+          "kana": "とりのこす"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "转达，转交；代销",
+      "japanese": "取り次ぐ",
+      "kana": "とりつぐ",
+      "romaji": "toritsugu",
+      "tokens": [
+        {
+          "text": "取り次ぐ",
+          "kana": "とりつぐ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "管束，管制，取缔",
+      "japanese": "取り締まる",
+      "kana": "とりしまる",
+      "romaji": "torishimaru",
+      "tokens": [
+        {
+          "text": "取り締まる",
+          "kana": "とりしまる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "继承，传承",
+      "japanese": "受け継ぐ",
+      "kana": "うけつぐ",
+      "romaji": "uketsugu",
+      "tokens": [
+        {
+          "text": "受け継ぐ",
+          "kana": "うけつぐ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "授予，传授",
+      "japanese": "授ける",
+      "kana": "さずける",
+      "romaji": "sazukeru",
+      "tokens": [
+        {
+          "text": "授ける",
+          "kana": "さずける"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "偶遇，碰到",
+      "japanese": "出くわす",
+      "kana": "でくわす",
+      "romaji": "dekuwasu",
+      "tokens": [
+        {
+          "text": "出くわす",
+          "kana": "でくわす"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "湿润；宽裕起来",
+      "japanese": "潤う",
+      "kana": "うるおう",
+      "romaji": "uruou",
+      "tokens": [
+        {
+          "text": "潤う",
+          "kana": "うるおう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "诵，念；高喊；主张",
+      "japanese": "唱える",
+      "kana": "となえる",
+      "romaji": "tonaeru",
+      "tokens": [
+        {
+          "text": "唱える",
+          "kana": "となえる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "反省",
+      "japanese": "省みる",
+      "kana": "かえりみる",
+      "romaji": "kaerimiru",
+      "tokens": [
+        {
+          "text": "省みる",
+          "kana": "かえりみる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "妨碍；有害",
+      "japanese": "障る",
+      "kana": "さわる",
+      "romaji": "sawaru",
+      "tokens": [
+        {
+          "text": "障る",
+          "kana": "さわる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "织，编织",
+      "japanese": "織る",
+      "kana": "おる",
+      "romaji": "oru",
+      "tokens": [
+        {
+          "text": "織る",
+          "kana": "おる"
+        }
+      ]
+    }
+  ]
+}

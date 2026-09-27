@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-37",
+  "coursePackId": "jp-gaokao",
+  "title": "名词低频 4",
+  "order": 37,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "实验",
+      "japanese": "実験",
+      "kana": "じっけん",
+      "romaji": "jikken",
+      "tokens": [
+        {
+          "text": "実験",
+          "kana": "じっけん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "顺序",
+      "japanese": "順番",
+      "kana": "じゅんばん",
+      "romaji": "junban",
+      "tokens": [
+        {
+          "text": "順番",
+          "kana": "じゅんばん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "担心",
+      "japanese": "心配",
+      "kana": "しんぱい",
+      "romaji": "shinpai",
+      "tokens": [
+        {
+          "text": "心配",
+          "kana": "しんぱい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "神经",
+      "japanese": "神経",
+      "kana": "しんけい",
+      "romaji": "shinkei",
+      "tokens": [
+        {
+          "text": "神経",
+          "kana": "しんけい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "女子",
+      "japanese": "女子",
+      "kana": "じょし",
+      "romaji": "joshi",
+      "tokens": [
+        {
+          "text": "女子",
+          "kana": "じょし"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "自信",
+      "japanese": "自信",
+      "kana": "じしん",
+      "romaji": "jishin",
+      "tokens": [
+        {
+          "text": "自信",
+          "kana": "じしん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "猴子",
+      "japanese": "猿",
+      "kana": "さる",
+      "romaji": "saru",
+      "tokens": [
+        {
+          "text": "猿",
+          "kana": "さる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "姿势、身姿、外形",
+      "japanese": "姿",
+      "kana": "すがた",
+      "romaji": "sugata",
+      "tokens": [
+        {
+          "text": "姿",
+          "kana": "すがた"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "参考、借鉴",
+      "japanese": "参考",
+      "kana": "さんこう",
+      "romaji": "sankou",
+      "tokens": [
+        {
+          "text": "参考",
+          "kana": "さんこう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "游泳",
+      "japanese": "水泳",
+      "kana": "すいえい",
+      "romaji": "suiei",
+      "tokens": [
+        {
+          "text": "水泳",
+          "kana": "すいえい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "照顾",
+      "japanese": "世話",
+      "kana": "せわ",
+      "romaji": "sewa",
+      "tokens": [
+        {
+          "text": "世話",
+          "kana": "せわ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "准备",
+      "japanese": "準備",
+      "kana": "じゅんび",
+      "romaji": "junbi",
+      "tokens": [
+        {
+          "text": "準備",
+          "kana": "じゅんび"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "将来",
+      "japanese": "将来",
+      "kana": "しょうらい",
+      "romaji": "shourai",
+      "tokens": [
+        {
+          "text": "将来",
+          "kana": "しょうらい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "顺序",
+      "japanese": "順序",
+      "kana": "じゅんじょ",
+      "romaji": "junjo",
+      "tokens": [
+        {
+          "text": "順序",
+          "kana": "じゅんじょ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "印记、标记、证据",
+      "japanese": "印",
+      "kana": "しるし",
+      "romaji": "shirushi",
+      "tokens": [
+        {
+          "text": "印",
+          "kana": "しるし"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "未来",
+      "japanese": "未来",
+      "kana": "みらい",
+      "romaji": "mirai",
+      "tokens": [
+        {
+          "text": "未来",
+          "kana": "みらい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "专业、专长",
+      "japanese": "専門",
+      "kana": "せんもん",
+      "romaji": "senmon",
+      "tokens": [
+        {
+          "text": "専門",
+          "kana": "せんもん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "水管",
+      "japanese": "水道",
+      "kana": "すいどう",
+      "romaji": "suidou",
+      "tokens": [
+        {
+          "text": "水道",
+          "kana": "すいどう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "座位、席位",
+      "japanese": "席",
+      "kana": "せき",
+      "romaji": "seki",
+      "tokens": [
+        {
+          "text": "席",
+          "kana": "せき"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "增加",
+      "japanese": "增加",
+      "kana": "ぞうか",
+      "romaji": "zouka",
+      "tokens": [
+        {
+          "text": "增加",
+          "kana": "ぞうか"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "准备",
+      "japanese": "用意",
+      "kana": "ようい",
+      "romaji": "youi",
+      "tokens": [
+        {
+          "text": "用意",
+          "kana": "ようい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "职员、社員",
+      "japanese": "社員",
+      "kana": "しゃいん",
+      "romaji": "shain",
+      "tokens": [
+        {
+          "text": "社員",
+          "kana": "しゃいん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "参观学习",
+      "japanese": "見学",
+      "kana": "けんがく",
+      "romaji": "kengaku",
+      "tokens": [
+        {
+          "text": "見学",
+          "kana": "けんがく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "事情、缘由、情况",
+      "japanese": "事情",
+      "kana": "じじょう",
+      "romaji": "jijou",
+      "tokens": [
+        {
+          "text": "事情",
+          "kana": "じじょう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "实际",
+      "japanese": "実際",
+      "kana": "じっさい",
+      "romaji": "jissai",
+      "tokens": [
+        {
+          "text": "実際",
+          "kana": "じっさい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "指导",
+      "japanese": "指導",
+      "kana": "しどう",
+      "romaji": "shidou",
+      "tokens": [
+        {
+          "text": "指導",
+          "kana": "しどう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "实行、实施、实际行动",
+      "japanese": "実行",
+      "kana": "じっこう",
+      "romaji": "jikkou",
+      "tokens": [
+        {
+          "text": "実行",
+          "kana": "じっこう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "学生、学徒",
+      "japanese": "生徒",
+      "kana": "せいと",
+      "romaji": "seito",
+      "tokens": [
+        {
+          "text": "生徒",
+          "kana": "せいと"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "洗（衣物等）",
+      "japanese": "洗濯",
+      "kana": "せんたく",
+      "romaji": "sentaku",
+      "tokens": [
+        {
+          "text": "洗濯",
+          "kana": "せんたく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "丈夫；你老公；店主",
+      "japanese": "主人",
+      "kana": "しゅじん",
+      "romaji": "shujin",
+      "tokens": [
+        {
+          "text": "主人",
+          "kana": "しゅじん"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "女子",
+      "japanese": "女子",
+      "kana": "じょし",
+      "romaji": "joshi",
+      "tokens": [
+        {
+          "text": "女子",
+          "kana": "じょし"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "事情、缘由、情况",
+      "japanese": "事情",
+      "kana": "じじょう",
+      "romaji": "jijou",
+      "tokens": [
+        {
+          "text": "事情",
+          "kana": "じじょう"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "实验",
+      "japanese": "実験",
+      "kana": "じっけん",
+      "romaji": "jikken",
+      "tokens": [
+        {
+          "text": "実験",
+          "kana": "じっけん"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "游泳",
+      "japanese": "水泳",
+      "kana": "すいえい",
+      "romaji": "suiei",
+      "tokens": [
+        {
+          "text": "水泳",
+          "kana": "すいえい"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "准备",
+      "japanese": "用意",
+      "kana": "ようい",
+      "romaji": "youi",
+      "tokens": [
+        {
+          "text": "用意",
+          "kana": "ようい"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "洗（衣物等）",
+      "japanese": "洗濯",
+      "kana": "せんたく",
+      "romaji": "sentaku",
+      "tokens": [
+        {
+          "text": "洗濯",
+          "kana": "せんたく"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "增加",
+      "japanese": "增加",
+      "kana": "ぞうか",
+      "romaji": "zouka",
+      "tokens": [
+        {
+          "text": "增加",
+          "kana": "ぞうか"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "实行、实施、实际行动",
+      "japanese": "実行",
+      "kana": "じっこう",
+      "romaji": "jikkou",
+      "tokens": [
+        {
+          "text": "実行",
+          "kana": "じっこう"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "专业、专长",
+      "japanese": "専門",
+      "kana": "せんもん",
+      "romaji": "senmon",
+      "tokens": [
+        {
+          "text": "専門",
+          "kana": "せんもん"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "参观学习",
+      "japanese": "見学",
+      "kana": "けんがく",
+      "romaji": "kengaku",
+      "tokens": [
+        {
+          "text": "見学",
+          "kana": "けんがく"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "实际",
+      "japanese": "実際",
+      "kana": "じっさい",
+      "romaji": "jissai",
+      "tokens": [
+        {
+          "text": "実際",
+          "kana": "じっさい"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "猴子",
+      "japanese": "猿",
+      "kana": "さる",
+      "romaji": "saru",
+      "tokens": [
+        {
+          "text": "猿",
+          "kana": "さる"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "参考、借鉴",
+      "japanese": "参考",
+      "kana": "さんこう",
+      "romaji": "sankou",
+      "tokens": [
+        {
+          "text": "参考",
+          "kana": "さんこう"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "学生、学徒",
+      "japanese": "生徒",
+      "kana": "せいと",
+      "romaji": "seito",
+      "tokens": [
+        {
+          "text": "生徒",
+          "kana": "せいと"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "丈夫；你老公；店主",
+      "japanese": "主人",
+      "kana": "しゅじん",
+      "romaji": "shujin",
+      "tokens": [
+        {
+          "text": "主人",
+          "kana": "しゅじん"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "自信",
+      "japanese": "自信",
+      "kana": "じしん",
+      "romaji": "jishin",
+      "tokens": [
+        {
+          "text": "自信",
+          "kana": "じしん"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "指导",
+      "japanese": "指導",
+      "kana": "しどう",
+      "romaji": "shidou",
+      "tokens": [
+        {
+          "text": "指導",
+          "kana": "しどう"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "座位、席位",
+      "japanese": "席",
+      "kana": "せき",
+      "romaji": "seki",
+      "tokens": [
+        {
+          "text": "席",
+          "kana": "せき"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "将来",
+      "japanese": "将来",
+      "kana": "しょうらい",
+      "romaji": "shourai",
+      "tokens": [
+        {
+          "text": "将来",
+          "kana": "しょうらい"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "神经",
+      "japanese": "神経",
+      "kana": "しんけい",
+      "romaji": "shinkei",
+      "tokens": [
+        {
+          "text": "神経",
+          "kana": "しんけい"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "担心",
+      "japanese": "心配",
+      "kana": "しんぱい",
+      "romaji": "shinpai",
+      "tokens": [
+        {
+          "text": "心配",
+          "kana": "しんぱい"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "水管",
+      "japanese": "水道",
+      "kana": "すいどう",
+      "romaji": "suidou",
+      "tokens": [
+        {
+          "text": "水道",
+          "kana": "すいどう"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "照顾",
+      "japanese": "世話",
+      "kana": "せわ",
+      "romaji": "sewa",
+      "tokens": [
+        {
+          "text": "世話",
+          "kana": "せわ"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "印记、标记、证据",
+      "japanese": "印",
+      "kana": "しるし",
+      "romaji": "shirushi",
+      "tokens": [
+        {
+          "text": "印",
+          "kana": "しるし"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "准备",
+      "japanese": "準備",
+      "kana": "じゅんび",
+      "romaji": "junbi",
+      "tokens": [
+        {
+          "text": "準備",
+          "kana": "じゅんび"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "姿势、身姿、外形",
+      "japanese": "姿",
+      "kana": "すがた",
+      "romaji": "sugata",
+      "tokens": [
+        {
+          "text": "姿",
+          "kana": "すがた"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "未来",
+      "japanese": "未来",
+      "kana": "みらい",
+      "romaji": "mirai",
+      "tokens": [
+        {
+          "text": "未来",
+          "kana": "みらい"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "顺序",
+      "japanese": "順番",
+      "kana": "じゅんばん",
+      "romaji": "junban",
+      "tokens": [
+        {
+          "text": "順番",
+          "kana": "じゅんばん"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "顺序",
+      "japanese": "順序",
+      "kana": "じゅんじょ",
+      "romaji": "junjo",
+      "tokens": [
+        {
+          "text": "順序",
+          "kana": "じゅんじょ"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "职员、社員",
+      "japanese": "社員",
+      "kana": "しゃいん",
+      "romaji": "shain",
+      "tokens": [
+        {
+          "text": "社員",
+          "kana": "しゃいん"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "未来",
+      "japanese": "未来",
+      "kana": "みらい",
+      "romaji": "mirai",
+      "tokens": [
+        {
+          "text": "未来",
+          "kana": "みらい"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "实行、实施、实际行动",
+      "japanese": "実行",
+      "kana": "じっこう",
+      "romaji": "jikkou",
+      "tokens": [
+        {
+          "text": "実行",
+          "kana": "じっこう"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "神经",
+      "japanese": "神経",
+      "kana": "しんけい",
+      "romaji": "shinkei",
+      "tokens": [
+        {
+          "text": "神経",
+          "kana": "しんけい"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "增加",
+      "japanese": "增加",
+      "kana": "ぞうか",
+      "romaji": "zouka",
+      "tokens": [
+        {
+          "text": "增加",
+          "kana": "ぞうか"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "实际",
+      "japanese": "実際",
+      "kana": "じっさい",
+      "romaji": "jissai",
+      "tokens": [
+        {
+          "text": "実際",
+          "kana": "じっさい"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "专业、专长",
+      "japanese": "専門",
+      "kana": "せんもん",
+      "romaji": "senmon",
+      "tokens": [
+        {
+          "text": "専門",
+          "kana": "せんもん"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "女子",
+      "japanese": "女子",
+      "kana": "じょし",
+      "romaji": "joshi",
+      "tokens": [
+        {
+          "text": "女子",
+          "kana": "じょし"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "顺序",
+      "japanese": "順番",
+      "kana": "じゅんばん",
+      "romaji": "junban",
+      "tokens": [
+        {
+          "text": "順番",
+          "kana": "じゅんばん"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "姿势、身姿、外形",
+      "japanese": "姿",
+      "kana": "すがた",
+      "romaji": "sugata",
+      "tokens": [
+        {
+          "text": "姿",
+          "kana": "すがた"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "自信",
+      "japanese": "自信",
+      "kana": "じしん",
+      "romaji": "jishin",
+      "tokens": [
+        {
+          "text": "自信",
+          "kana": "じしん"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "准备",
+      "japanese": "準備",
+      "kana": "じゅんび",
+      "romaji": "junbi",
+      "tokens": [
+        {
+          "text": "準備",
+          "kana": "じゅんび"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "学生、学徒",
+      "japanese": "生徒",
+      "kana": "せいと",
+      "romaji": "seito",
+      "tokens": [
+        {
+          "text": "生徒",
+          "kana": "せいと"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "顺序",
+      "japanese": "順序",
+      "kana": "じゅんじょ",
+      "romaji": "junjo",
+      "tokens": [
+        {
+          "text": "順序",
+          "kana": "じゅんじょ"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "猴子",
+      "japanese": "猿",
+      "kana": "さる",
+      "romaji": "saru",
+      "tokens": [
+        {
+          "text": "猿",
+          "kana": "さる"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "职员、社員",
+      "japanese": "社員",
+      "kana": "しゃいん",
+      "romaji": "shain",
+      "tokens": [
+        {
+          "text": "社員",
+          "kana": "しゃいん"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "丈夫；你老公；店主",
+      "japanese": "主人",
+      "kana": "しゅじん",
+      "romaji": "shujin",
+      "tokens": [
+        {
+          "text": "主人",
+          "kana": "しゅじん"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "洗（衣物等）",
+      "japanese": "洗濯",
+      "kana": "せんたく",
+      "romaji": "sentaku",
+      "tokens": [
+        {
+          "text": "洗濯",
+          "kana": "せんたく"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "参观学习",
+      "japanese": "見学",
+      "kana": "けんがく",
+      "romaji": "kengaku",
+      "tokens": [
+        {
+          "text": "見学",
+          "kana": "けんがく"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "水管",
+      "japanese": "水道",
+      "kana": "すいどう",
+      "romaji": "suidou",
+      "tokens": [
+        {
+          "text": "水道",
+          "kana": "すいどう"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "实验",
+      "japanese": "実験",
+      "kana": "じっけん",
+      "romaji": "jikken",
+      "tokens": [
+        {
+          "text": "実験",
+          "kana": "じっけん"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "将来",
+      "japanese": "将来",
+      "kana": "しょうらい",
+      "romaji": "shourai",
+      "tokens": [
+        {
+          "text": "将来",
+          "kana": "しょうらい"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "担心",
+      "japanese": "心配",
+      "kana": "しんぱい",
+      "romaji": "shinpai",
+      "tokens": [
+        {
+          "text": "心配",
+          "kana": "しんぱい"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "座位、席位",
+      "japanese": "席",
+      "kana": "せき",
+      "romaji": "seki",
+      "tokens": [
+        {
+          "text": "席",
+          "kana": "せき"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "事情、缘由、情况",
+      "japanese": "事情",
+      "kana": "じじょう",
+      "romaji": "jijou",
+      "tokens": [
+        {
+          "text": "事情",
+          "kana": "じじょう"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "游泳",
+      "japanese": "水泳",
+      "kana": "すいえい",
+      "romaji": "suiei",
+      "tokens": [
+        {
+          "text": "水泳",
+          "kana": "すいえい"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "准备",
+      "japanese": "用意",
+      "kana": "ようい",
+      "romaji": "youi",
+      "tokens": [
+        {
+          "text": "用意",
+          "kana": "ようい"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "参考、借鉴",
+      "japanese": "参考",
+      "kana": "さんこう",
+      "romaji": "sankou",
+      "tokens": [
+        {
+          "text": "参考",
+          "kana": "さんこう"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "印记、标记、证据",
+      "japanese": "印",
+      "kana": "しるし",
+      "romaji": "shirushi",
+      "tokens": [
+        {
+          "text": "印",
+          "kana": "しるし"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "照顾",
+      "japanese": "世話",
+      "kana": "せわ",
+      "romaji": "sewa",
+      "tokens": [
+        {
+          "text": "世話",
+          "kana": "せわ"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "指导",
+      "japanese": "指導",
+      "kana": "しどう",
+      "romaji": "shidou",
+      "tokens": [
+        {
+          "text": "指導",
+          "kana": "しどう"
+        }
+      ]
+    }
+  ]
+}

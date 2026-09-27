@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-47",
+  "coursePackId": "jp-n1",
+  "title": "名词 47",
+  "order": 47,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "平息，得到解决",
+      "japanese": "収束",
+      "kana": "しゅうそく",
+      "romaji": "shuusoku",
+      "tokens": [
+        {
+          "text": "収束",
+          "kana": "しゅうそく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "就任",
+      "japanese": "就任",
+      "kana": "しゅうにん",
+      "romaji": "shuunin",
+      "tokens": [
+        {
+          "text": "就任",
+          "kana": "しゅうにん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "学习（技能），钻研",
+      "japanese": "修業",
+      "kana": "しゅぎょう",
+      "romaji": "shugyou",
+      "tokens": [
+        {
+          "text": "修業",
+          "kana": "しゅぎょう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "硕士",
+      "japanese": "修士",
+      "kana": "しゅうし",
+      "romaji": "shuushi",
+      "tokens": [
+        {
+          "text": "修士",
+          "kana": "しゅうし"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "修复",
+      "japanese": "修復",
+      "kana": "しゅうふく",
+      "romaji": "shuufuku",
+      "tokens": [
+        {
+          "text": "修復",
+          "kana": "しゅうふく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "终止",
+      "japanese": "終止",
+      "kana": "しゅうし",
+      "romaji": "shuushi",
+      "tokens": [
+        {
+          "text": "終止",
+          "kana": "しゅうし"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（英文）句点，句号；结局",
+      "japanese": "終止符",
+      "kana": "しゅうしふ",
+      "romaji": "shuushifu",
+      "tokens": [
+        {
+          "text": "終止符",
+          "kana": "しゅうしふ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "停息，结束",
+      "japanese": "終息",
+      "kana": "しゅうそく",
+      "romaji": "shuusoku",
+      "tokens": [
+        {
+          "text": "終息",
+          "kana": "しゅうそく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "聚会，集会",
+      "japanese": "集い",
+      "kana": "つどい",
+      "romaji": "tsudoi",
+      "tokens": [
+        {
+          "text": "集い",
+          "kana": "つどい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "集大成，汇集",
+      "japanese": "集大成",
+      "kana": "しゅうたいせい",
+      "romaji": "shuutaisei",
+      "tokens": [
+        {
+          "text": "集大成",
+          "kana": "しゅうたいせい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "居民",
+      "japanese": "住人",
+      "kana": "じゅうにん",
+      "romaji": "juunin",
+      "tokens": [
+        {
+          "text": "住人",
+          "kana": "じゅうにん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "充足；补充",
+      "japanese": "充足",
+      "kana": "じゅうそく",
+      "romaji": "juusoku",
+      "tokens": [
+        {
+          "text": "充足",
+          "kana": "じゅうそく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "从属，附属",
+      "japanese": "従属",
+      "kana": "じゅうぞく",
+      "romaji": "juuzoku",
+      "tokens": [
+        {
+          "text": "従属",
+          "kana": "じゅうぞく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "涩味；（带有古朴味道的）优雅沉着",
+      "japanese": "渋み",
+      "kana": "しぶみ",
+      "romaji": "shibumi",
+      "tokens": [
+        {
+          "text": "渋み",
+          "kana": "しぶみ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "沉重的压力",
+      "japanese": "重圧",
+      "kana": "じゅうあつ",
+      "romaji": "juuatsu",
+      "tokens": [
+        {
+          "text": "重圧",
+          "kana": "じゅうあつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "重心，平衡",
+      "japanese": "重心",
+      "kana": "じゅうしん",
+      "romaji": "juushin",
+      "tokens": [
+        {
+          "text": "重心",
+          "kana": "じゅうしん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "出题",
+      "japanese": "出題",
+      "kana": "しゅつだい",
+      "romaji": "shutsudai",
+      "tokens": [
+        {
+          "text": "出題",
+          "kana": "しゅつだい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "值班；出场（做某事）",
+      "japanese": "出番",
+      "kana": "でばん",
+      "romaji": "deban",
+      "tokens": [
+        {
+          "text": "出番",
+          "kana": "でばん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "瞬间",
+      "japanese": "瞬時",
+      "kana": "しゅんじ",
+      "romaji": "shunji",
+      "tokens": [
+        {
+          "text": "瞬時",
+          "kana": "しゅんじ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "顺应，适应",
+      "japanese": "順応",
+      "kana": "じゅんのう",
+      "romaji": "junnou",
+      "tokens": [
+        {
+          "text": "順応",
+          "kana": "じゅんのう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "诸多，许多",
+      "japanese": "もろもろ",
+      "kana": "もろもろ",
+      "romaji": "moromoro",
+      "tokens": [
+        {
+          "text": "もろもろ",
+          "kana": "もろもろ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "小巷，胡同",
+      "japanese": "小路",
+      "kana": "こうじ",
+      "romaji": "kouji",
+      "tokens": [
+        {
+          "text": "小路",
+          "kana": "こうじ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "询问，查询",
+      "japanese": "照会",
+      "kana": "しょうかい",
+      "romaji": "shoukai",
+      "tokens": [
+        {
+          "text": "照会",
+          "kana": "しょうかい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "冲动",
+      "japanese": "衝動",
+      "kana": "しょうどう",
+      "romaji": "shoudou",
+      "tokens": [
+        {
+          "text": "衝動",
+          "kana": "しょうどう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "写在上面；（电脑用语）覆盖",
+      "japanese": "上書き",
+      "kana": "うわがき",
+      "romaji": "uwagaki",
+      "tokens": [
+        {
+          "text": "上書き",
+          "kana": "うわがき"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "登陆",
+      "japanese": "上陸",
+      "kana": "じょうりく",
+      "romaji": "jouriku",
+      "tokens": [
+        {
+          "text": "上陸",
+          "kana": "じょうりく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "即兴；权宜",
+      "japanese": "場当たり",
+      "kana": "ばあたり",
+      "romaji": "baatari",
+      "tokens": [
+        {
+          "text": "場当たり",
+          "kana": "ばあたり"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "花盆",
+      "japanese": "植木鉢",
+      "kana": "うえきばち",
+      "romaji": "uekibachi",
+      "tokens": [
+        {
+          "text": "植木鉢",
+          "kana": "うえきばち"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "五彩缤纷；形形色色",
+      "japanese": "色とりどり",
+      "kana": "いろとりどり",
+      "romaji": "irotoridori",
+      "tokens": [
+        {
+          "text": "色とりどり",
+          "kana": "いろとりどり"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "色泽；性诱惑力，春心；风趣",
+      "japanese": "色気",
+      "kana": "いろけ",
+      "romaji": "iroke",
+      "tokens": [
+        {
+          "text": "色気",
+          "kana": "いろけ"
+        }
+      ]
+    }
+  ]
+}

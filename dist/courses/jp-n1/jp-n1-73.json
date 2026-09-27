@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-73",
+  "coursePackId": "jp-n1",
+  "title": "名词 73",
+  "order": 73,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "使者",
+      "japanese": "使者",
+      "kana": "ししゃ",
+      "romaji": "shisha",
+      "tokens": [
+        {
+          "text": "使者",
+          "kana": "ししゃ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "下期，下次，下届",
+      "japanese": "次期",
+      "kana": "じき",
+      "romaji": "jiki",
+      "tokens": [
+        {
+          "text": "次期",
+          "kana": "じき"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "草原",
+      "japanese": "草原",
+      "kana": "そうげん",
+      "romaji": "sougen",
+      "tokens": [
+        {
+          "text": "草原",
+          "kana": "そうげん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "异国，外国",
+      "japanese": "異国",
+      "kana": "いこく",
+      "romaji": "ikoku",
+      "tokens": [
+        {
+          "text": "異国",
+          "kana": "いこく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "现场直播；现场演奏会",
+      "japanese": "ライブ",
+      "kana": "らいぶ",
+      "romaji": "raibu",
+      "tokens": [
+        {
+          "text": "ライブ",
+          "kana": "らいぶ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "眼球；（「お目玉」 「大目玉」の形で）挨瞪，挨申斥；以廉价吸引顾客的（商品）",
+      "japanese": "目玉",
+      "kana": "めだま",
+      "romaji": "medama",
+      "tokens": [
+        {
+          "text": "目玉",
+          "kana": "めだま"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "强度；程度高",
+      "japanese": "強度",
+      "kana": "きょうど",
+      "romaji": "kyoudo",
+      "tokens": [
+        {
+          "text": "強度",
+          "kana": "きょうど"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "强者",
+      "japanese": "強者",
+      "kana": "きょうしゃ",
+      "romaji": "kyousha",
+      "tokens": [
+        {
+          "text": "強者",
+          "kana": "きょうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "继任者，后继人，接班人",
+      "japanese": "後継者",
+      "kana": "こうけいしゃ",
+      "romaji": "koukeisha",
+      "tokens": [
+        {
+          "text": "後継者",
+          "kana": "こうけいしゃ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "半夜，深夜",
+      "japanese": "真夜中",
+      "kana": "まよなか",
+      "romaji": "mayonaka",
+      "tokens": [
+        {
+          "text": "真夜中",
+          "kana": "まよなか"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "生命力",
+      "japanese": "生命力",
+      "kana": "せいめいりょく",
+      "romaji": "seimeiryoku",
+      "tokens": [
+        {
+          "text": "生命力",
+          "kana": "せいめいりょく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "显著的不同，很大的差别",
+      "japanese": "大差",
+      "kana": "たいさ",
+      "romaji": "taisa",
+      "tokens": [
+        {
+          "text": "大差",
+          "kana": "たいさ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "将来",
+      "japanese": "後々",
+      "kana": "のちのち",
+      "romaji": "nochinochi",
+      "tokens": [
+        {
+          "text": "後々",
+          "kana": "のちのち"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "继父；养父；岳父",
+      "japanese": "義父",
+      "kana": "ぎふ",
+      "romaji": "gifu",
+      "tokens": [
+        {
+          "text": "義父",
+          "kana": "ぎふ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（物理）质量；质和量",
+      "japanese": "質量",
+      "kana": "しつりょう",
+      "romaji": "shitsuryou",
+      "tokens": [
+        {
+          "text": "質量",
+          "kana": "しつりょう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "内部，里面；心里，内心",
+      "japanese": "内面",
+      "kana": "ないめん",
+      "romaji": "naimen",
+      "tokens": [
+        {
+          "text": "内面",
+          "kana": "ないめん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "摔倒；颠倒；惊慌失措",
+      "japanese": "転倒",
+      "kana": "てんとう",
+      "romaji": "tentou",
+      "tokens": [
+        {
+          "text": "転倒",
+          "kana": "てんとう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "抵押品，当的东西",
+      "japanese": "質",
+      "kana": "しち",
+      "romaji": "shichi",
+      "tokens": [
+        {
+          "text": "質",
+          "kana": "しち"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "苦笑",
+      "japanese": "苦笑",
+      "kana": "くしょう",
+      "romaji": "kushou",
+      "tokens": [
+        {
+          "text": "苦笑",
+          "kana": "くしょう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "背部，脊梁；衣服背部中心的缝线",
+      "japanese": "背筋",
+      "kana": "せすじ",
+      "romaji": "sesuji",
+      "tokens": [
+        {
+          "text": "背筋",
+          "kana": "せすじ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（心脏的）跳动，搏动；（比喻）感受到某种内在的、强大的力量或趋势",
+      "japanese": "鼓動",
+      "kana": "こどう",
+      "romaji": "kodou",
+      "tokens": [
+        {
+          "text": "鼓動",
+          "kana": "こどう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "敌意，仇视的心",
+      "japanese": "敵意",
+      "kana": "てきい",
+      "romaji": "tekii",
+      "tokens": [
+        {
+          "text": "敵意",
+          "kana": "てきい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "稍施一礼，行个礼",
+      "japanese": "一礼",
+      "kana": "いちれい",
+      "romaji": "ichirei",
+      "tokens": [
+        {
+          "text": "一礼",
+          "kana": "いちれい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "反动，反作用",
+      "japanese": "反動",
+      "kana": "はんどう",
+      "romaji": "handou",
+      "tokens": [
+        {
+          "text": "反動",
+          "kana": "はんどう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "胆量，胆子",
+      "japanese": "度胸",
+      "kana": "どきょう",
+      "romaji": "dokyou",
+      "tokens": [
+        {
+          "text": "度胸",
+          "kana": "どきょう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "当事人",
+      "japanese": "当事者",
+      "kana": "とうじしゃ",
+      "romaji": "toujisha",
+      "tokens": [
+        {
+          "text": "当事者",
+          "kana": "とうじしゃ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "投降；束手无策，无计可施",
+      "japanese": "降参",
+      "kana": "こうさん",
+      "romaji": "kousan",
+      "tokens": [
+        {
+          "text": "降参",
+          "kana": "こうさん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "鉴别，鉴定",
+      "japanese": "鑑定",
+      "kana": "かんてい",
+      "romaji": "kantei",
+      "tokens": [
+        {
+          "text": "鑑定",
+          "kana": "かんてい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "工作室",
+      "japanese": "工房",
+      "kana": "こうぼう",
+      "romaji": "koubou",
+      "tokens": [
+        {
+          "text": "工房",
+          "kana": "こうぼう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "村子，村落；群体，集群",
+      "japanese": "集落",
+      "kana": "しゅうらく",
+      "romaji": "shuuraku",
+      "tokens": [
+        {
+          "text": "集落",
+          "kana": "しゅうらく"
+        }
+      ]
+    }
+  ]
+}

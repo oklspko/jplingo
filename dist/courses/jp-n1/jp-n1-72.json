@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-72",
+  "coursePackId": "jp-n1",
+  "title": "名词 72",
+  "order": 72,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "平时，平常；经常，时常",
+      "japanese": "常時",
+      "kana": "じょうじ",
+      "romaji": "jouji",
+      "tokens": [
+        {
+          "text": "常時",
+          "kana": "じょうじ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "明年春天",
+      "japanese": "来春",
+      "kana": "らいしゅん",
+      "romaji": "raishun",
+      "tokens": [
+        {
+          "text": "来春",
+          "kana": "らいしゅん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "公元前",
+      "japanese": "紀元前",
+      "kana": "きげんぜん",
+      "romaji": "kigenzen",
+      "tokens": [
+        {
+          "text": "紀元前",
+          "kana": "きげんぜん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "什么东西，何物",
+      "japanese": "何物",
+      "kana": "なにもの",
+      "romaji": "nanimono",
+      "tokens": [
+        {
+          "text": "何物",
+          "kana": "なにもの"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "痛苦，苦恼，困难，困苦",
+      "japanese": "苦しみ",
+      "kana": "くるしみ",
+      "romaji": "kurushimi",
+      "tokens": [
+        {
+          "text": "苦しみ",
+          "kana": "くるしみ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "乱跑，狂驾；失控；鲁莽从事",
+      "japanese": "暴走",
+      "kana": "ぼうそう",
+      "romaji": "bousou",
+      "tokens": [
+        {
+          "text": "暴走",
+          "kana": "ぼうそう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "假脸；面具",
+      "japanese": "仮面",
+      "kana": "かめん",
+      "romaji": "kamen",
+      "tokens": [
+        {
+          "text": "仮面",
+          "kana": "かめん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "怪物，妖怪；（言行奇特的）神秘人物，怪杰，怪人",
+      "japanese": "怪物",
+      "kana": "かいぶつ",
+      "romaji": "kaibutsu",
+      "tokens": [
+        {
+          "text": "怪物",
+          "kana": "かいぶつ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "一族，整个家族，同族",
+      "japanese": "一族",
+      "kana": "いちぞく",
+      "romaji": "ichizoku",
+      "tokens": [
+        {
+          "text": "一族",
+          "kana": "いちぞく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "视线；观点",
+      "japanese": "目線",
+      "kana": "めせん",
+      "romaji": "mesen",
+      "tokens": [
+        {
+          "text": "目線",
+          "kana": "めせん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "食材",
+      "japanese": "食材",
+      "kana": "しょくざい",
+      "romaji": "shokuzai",
+      "tokens": [
+        {
+          "text": "食材",
+          "kana": "しょくざい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "光荣，荣誉",
+      "japanese": "光栄",
+      "kana": "こうえい",
+      "romaji": "kouei",
+      "tokens": [
+        {
+          "text": "光栄",
+          "kana": "こうえい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "线；水平；航线",
+      "japanese": "ライン",
+      "kana": "らいん",
+      "romaji": "rain",
+      "tokens": [
+        {
+          "text": "ライン",
+          "kana": "らいん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "第一天",
+      "japanese": "初日",
+      "kana": "しょにち",
+      "romaji": "shonichi",
+      "tokens": [
+        {
+          "text": "初日",
+          "kana": "しょにち"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "背影",
+      "japanese": "後ろ姿",
+      "kana": "うしろすがた",
+      "romaji": "ushirosugata",
+      "tokens": [
+        {
+          "text": "後ろ姿",
+          "kana": "うしろすがた"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "（最后的）结果，结局",
+      "japanese": "結末",
+      "kana": "けつまつ",
+      "romaji": "ketsumatsu",
+      "tokens": [
+        {
+          "text": "結末",
+          "kana": "けつまつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "店主",
+      "japanese": "店主",
+      "kana": "てんしゅ",
+      "romaji": "tenshu",
+      "tokens": [
+        {
+          "text": "店主",
+          "kana": "てんしゅ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "猪；猪肉",
+      "japanese": "豚",
+      "kana": "ぶた",
+      "romaji": "buta",
+      "tokens": [
+        {
+          "text": "豚",
+          "kana": "ぶた"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "强大，强盛，雄厚",
+      "japanese": "強大",
+      "kana": "きょうだい",
+      "romaji": "kyoudai",
+      "tokens": [
+        {
+          "text": "強大",
+          "kana": "きょうだい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "自己的家，我家",
+      "japanese": "我が家",
+      "kana": "わがや",
+      "romaji": "wagaya",
+      "tokens": [
+        {
+          "text": "我が家",
+          "kana": "わがや"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "四方（东西南北）；四周，周围；四角，方形",
+      "japanese": "四方",
+      "kana": "しほう",
+      "romaji": "shihou",
+      "tokens": [
+        {
+          "text": "四方",
+          "kana": "しほう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "自力",
+      "japanese": "自力",
+      "kana": "じりき",
+      "romaji": "jiriki",
+      "tokens": [
+        {
+          "text": "自力",
+          "kana": "じりき"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "假，假冒，赝品",
+      "japanese": "偽",
+      "kana": "にせ",
+      "romaji": "nise",
+      "tokens": [
+        {
+          "text": "偽",
+          "kana": "にせ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "负责人",
+      "japanese": "責任者",
+      "kana": "せきにんしゃ",
+      "romaji": "sekininsha",
+      "tokens": [
+        {
+          "text": "責任者",
+          "kana": "せきにんしゃ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "赞同，赞成，同意",
+      "japanese": "賛同",
+      "kana": "さんどう",
+      "romaji": "sandou",
+      "tokens": [
+        {
+          "text": "賛同",
+          "kana": "さんどう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "苦恼，烦恼，苦闷",
+      "japanese": "苦悩",
+      "kana": "くのう",
+      "romaji": "kunou",
+      "tokens": [
+        {
+          "text": "苦悩",
+          "kana": "くのう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "绝好，绝佳，最好",
+      "japanese": "絶好",
+      "kana": "ぜっこう",
+      "romaji": "zekkou",
+      "tokens": [
+        {
+          "text": "絶好",
+          "kana": "ぜっこう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "来客",
+      "japanese": "来客",
+      "kana": "らいきゃく",
+      "romaji": "raikyaku",
+      "tokens": [
+        {
+          "text": "来客",
+          "kana": "らいきゃく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "影响力",
+      "japanese": "影響力",
+      "kana": "えいきょうりょく",
+      "romaji": "eikyouryoku",
+      "tokens": [
+        {
+          "text": "影響力",
+          "kana": "えいきょうりょく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "路上，街上",
+      "japanese": "路上",
+      "kana": "ろじょう",
+      "romaji": "rojou",
+      "tokens": [
+        {
+          "text": "路上",
+          "kana": "ろじょう"
+        }
+      ]
+    }
+  ]
+}

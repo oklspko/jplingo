@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-35",
+  "coursePackId": "jp-n2",
+  "title": "名词 35",
+  "order": 35,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "预备，提前准备，备品",
+      "japanese": "予備",
+      "kana": "よび",
+      "romaji": "yobi",
+      "tokens": [
+        {
+          "text": "予備",
+          "kana": "よび"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "预防",
+      "japanese": "予防",
+      "kana": "よぼう",
+      "romaji": "yobou",
+      "tokens": [
+        {
+          "text": "予防",
+          "kana": "よぼう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "别处；不顾，漠不关心；别人家",
+      "japanese": "よそ",
+      "kana": "よそ",
+      "romaji": "yoso",
+      "tokens": [
+        {
+          "text": "よそ",
+          "kana": "よそ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "幼儿",
+      "japanese": "幼児",
+      "kana": "ようじ",
+      "romaji": "youji",
+      "tokens": [
+        {
+          "text": "幼児",
+          "kana": "ようじ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "用语，术语",
+      "japanese": "用語",
+      "kana": "ようご",
+      "romaji": "yougo",
+      "tokens": [
+        {
+          "text": "用語",
+          "kana": "ようご"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "注意，小心",
+      "japanese": "用心",
+      "kana": "ようじん",
+      "romaji": "youjin",
+      "tokens": [
+        {
+          "text": "用心",
+          "kana": "ようじん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "用途",
+      "japanese": "用途",
+      "kana": "ようと",
+      "romaji": "youto",
+      "tokens": [
+        {
+          "text": "用途",
+          "kana": "ようと"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "要素，因素",
+      "japanese": "要素",
+      "kana": "ようそ",
+      "romaji": "youso",
+      "tokens": [
+        {
+          "text": "要素",
+          "kana": "ようそ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "养分，营养成分",
+      "japanese": "養分",
+      "kana": "ようぶん",
+      "romaji": "youbun",
+      "tokens": [
+        {
+          "text": "養分",
+          "kana": "ようぶん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "依靠，倚仗",
+      "japanese": "頼り",
+      "kana": "たより",
+      "romaji": "tayori",
+      "tokens": [
+        {
+          "text": "頼り",
+          "kana": "たより"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "栏，专栏",
+      "japanese": "欄",
+      "kana": "らん",
+      "romaji": "ran",
+      "tokens": [
+        {
+          "text": "欄",
+          "kana": "らん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "两国",
+      "japanese": "両国",
+      "kana": "りょうこく",
+      "romaji": "ryoukoku",
+      "tokens": [
+        {
+          "text": "両国",
+          "kana": "りょうこく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "两端；开始和结束，本末",
+      "japanese": "両端",
+      "kana": "りょうたん",
+      "romaji": "ryoutan",
+      "tokens": [
+        {
+          "text": "両端",
+          "kana": "りょうたん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "临时，暂时",
+      "japanese": "臨時",
+      "kana": "りんじ",
+      "romaji": "rinji",
+      "tokens": [
+        {
+          "text": "臨時",
+          "kana": "りんじ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "冷静，镇静",
+      "japanese": "冷静",
+      "kana": "れいせい",
+      "romaji": "reisei",
+      "tokens": [
+        {
+          "text": "冷静",
+          "kana": "れいせい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "连续，接连不断",
+      "japanese": "連続",
+      "kana": "れんぞく",
+      "romaji": "renzoku",
+      "tokens": [
+        {
+          "text": "連続",
+          "kana": "れんぞく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "劳动，工作",
+      "japanese": "労働",
+      "kana": "ろうどう",
+      "romaji": "roudou",
+      "tokens": [
+        {
+          "text": "労働",
+          "kana": "ろうどう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "老化；衰老",
+      "japanese": "老化",
+      "kana": "ろうか",
+      "romaji": "rouka",
+      "tokens": [
+        {
+          "text": "老化",
+          "kana": "ろうか"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "争论，争辩",
+      "japanese": "論争",
+      "kana": "ろんそう",
+      "romaji": "ronsou",
+      "tokens": [
+        {
+          "text": "論争",
+          "kana": "ろんそう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "腋下；侧面，旁边；别处",
+      "japanese": "脇",
+      "kana": "わき",
+      "romaji": "waki",
+      "tokens": [
+        {
+          "text": "脇",
+          "kana": "わき"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "大碗；盖浇饭",
+      "japanese": "丼",
+      "kana": "どんぶり",
+      "romaji": "donburi",
+      "tokens": [
+        {
+          "text": "丼",
+          "kana": "どんぶり"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "笼子，筐",
+      "japanese": "籠",
+      "kana": "かご",
+      "romaji": "kago",
+      "tokens": [
+        {
+          "text": "籠",
+          "kana": "かご"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "比例，比率；加水",
+      "japanese": "割り",
+      "kana": "わり",
+      "romaji": "wari",
+      "tokens": [
+        {
+          "text": "割り",
+          "kana": "わり"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "……权",
+      "japanese": "権",
+      "kana": "けん",
+      "romaji": "ken",
+      "tokens": [
+        {
+          "text": "権",
+          "kana": "けん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（日本的中央行政机关，相当于“部”）……省",
+      "japanese": "省",
+      "kana": "しょう",
+      "romaji": "shou",
+      "tokens": [
+        {
+          "text": "省",
+          "kana": "しょう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "……之谈，故事",
+      "japanese": "談",
+      "kana": "だん",
+      "romaji": "dan",
+      "tokens": [
+        {
+          "text": "談",
+          "kana": "だん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "……难，困难",
+      "japanese": "難",
+      "kana": "なん",
+      "romaji": "nan",
+      "tokens": [
+        {
+          "text": "難",
+          "kana": "なん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（並み）与……同样的程度；（並）普通，中等",
+      "japanese": "並み",
+      "kana": "なみ",
+      "romaji": "nami",
+      "tokens": [
+        {
+          "text": "並み",
+          "kana": "なみ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "（书籍、文章）……篇",
+      "japanese": "編",
+      "kana": "へん",
+      "romaji": "hen",
+      "tokens": [
+        {
+          "text": "編",
+          "kana": "へん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "不满……，不足……",
+      "japanese": "未満",
+      "kana": "みまん",
+      "romaji": "miman",
+      "tokens": [
+        {
+          "text": "未満",
+          "kana": "みまん"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-34",
+  "coursePackId": "jp-n3",
+  "title": "名词 34",
+  "order": 34,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "棒；直线",
+      "japanese": "棒",
+      "kana": "ぼう",
+      "romaji": "bou",
+      "tokens": [
+        {
+          "text": "棒",
+          "kana": "ぼう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "原本；普通，平常",
+      "japanese": "本来",
+      "kana": "ほんらい",
+      "romaji": "honrai",
+      "tokens": [
+        {
+          "text": "本来",
+          "kana": "ほんらい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "枕头",
+      "japanese": "枕",
+      "kana": "まくら",
+      "romaji": "makura",
+      "tokens": [
+        {
+          "text": "枕",
+          "kana": "まくら"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "姓",
+      "japanese": "名字",
+      "kana": "みょうじ",
+      "romaji": "myouji",
+      "tokens": [
+        {
+          "text": "名字",
+          "kana": "みょうじ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "光亮，光线；灯火",
+      "japanese": "明かり",
+      "kana": "あかり",
+      "romaji": "akari",
+      "tokens": [
+        {
+          "text": "明かり",
+          "kana": "あかり"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "后天",
+      "japanese": "明後日",
+      "kana": "みょうごにち",
+      "romaji": "myougonichi",
+      "tokens": [
+        {
+          "text": "明後日",
+          "kana": "みょうごにち"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "毛毯，毯子",
+      "japanese": "毛布",
+      "kana": "もうふ",
+      "romaji": "moufu",
+      "tokens": [
+        {
+          "text": "毛布",
+          "kana": "もうふ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "叫醒，醒来；闹钟",
+      "japanese": "目覚まし",
+      "kana": "めざまし",
+      "romaji": "mezamashi",
+      "tokens": [
+        {
+          "text": "目覚まし",
+          "kana": "めざまし"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "询问，打听",
+      "japanese": "問い合わせ",
+      "kana": "といあわせ",
+      "romaji": "toiawase",
+      "tokens": [
+        {
+          "text": "問い合わせ",
+          "kana": "といあわせ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "友情，友谊",
+      "japanese": "友情",
+      "kana": "ゆうじょう",
+      "romaji": "yuujou",
+      "tokens": [
+        {
+          "text": "友情",
+          "kana": "ゆうじょう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "邮寄，邮递",
+      "japanese": "郵送",
+      "kana": "ゆうそう",
+      "romaji": "yuusou",
+      "tokens": [
+        {
+          "text": "郵送",
+          "kana": "ゆうそう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "夕阳",
+      "japanese": "夕日",
+      "kana": "ゆうひ",
+      "romaji": "yuuhi",
+      "tokens": [
+        {
+          "text": "夕日",
+          "kana": "ゆうひ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "容器",
+      "japanese": "容器",
+      "kana": "ようき",
+      "romaji": "youki",
+      "tokens": [
+        {
+          "text": "容器",
+          "kana": "ようき"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（宜人的）时节；开朗",
+      "japanese": "陽気",
+      "kana": "ようき",
+      "romaji": "youki",
+      "tokens": [
+        {
+          "text": "陽気",
+          "kana": "ようき"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "访日，来日本",
+      "japanese": "来日",
+      "kana": "らいにち",
+      "romaji": "rainichi",
+      "tokens": [
+        {
+          "text": "来日",
+          "kana": "らいにち"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "同伴，随从",
+      "japanese": "連れ",
+      "kana": "つれ",
+      "romaji": "tsure",
+      "tokens": [
+        {
+          "text": "連れ",
+          "kana": "つれ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "录音",
+      "japanese": "録音",
+      "kana": "ろくおん",
+      "romaji": "rokuon",
+      "tokens": [
+        {
+          "text": "録音",
+          "kana": "ろくおん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "商量，协商",
+      "japanese": "話し合い",
+      "kana": "はなしあい",
+      "romaji": "hanashiai",
+      "tokens": [
+        {
+          "text": "話し合い",
+          "kana": "はなしあい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "……时期",
+      "japanese": "期",
+      "kana": "き",
+      "romaji": "ki",
+      "tokens": [
+        {
+          "text": "期",
+          "kana": "き"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "……体系；……类型",
+      "japanese": "系",
+      "kana": "けい",
+      "romaji": "kei",
+      "tokens": [
+        {
+          "text": "系",
+          "kana": "けい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "持有……；……负担（费用等）；（もち）持久性",
+      "japanese": "持ち",
+      "kana": "もち",
+      "romaji": "mochi",
+      "tokens": [
+        {
+          "text": "持ち",
+          "kana": "もち"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "（向政府、公司、学校等提出的）申请，登记",
+      "japanese": "届け",
+      "kana": "とどけ",
+      "romaji": "todoke",
+      "tokens": [
+        {
+          "text": "届け",
+          "kana": "とどけ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "常规，惯例",
+      "japanese": "お決まり",
+      "kana": "おきまり",
+      "romaji": "okimari",
+      "tokens": [
+        {
+          "text": "お決まり",
+          "kana": "おきまり"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "乌鸦",
+      "japanese": "からす",
+      "kana": "からす",
+      "romaji": "karasu",
+      "tokens": [
+        {
+          "text": "からす",
+          "kana": "からす"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "标题",
+      "japanese": "タイトル",
+      "kana": "たいとる",
+      "romaji": "taitoru",
+      "tokens": [
+        {
+          "text": "タイトル",
+          "kana": "たいとる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "资料；数据",
+      "japanese": "データ",
+      "kana": "でえた",
+      "romaji": "deeta",
+      "tokens": [
+        {
+          "text": "データ",
+          "kana": "でえた"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（客观性的）应该；预计；箭尾",
+      "japanese": "はず",
+      "kana": "はず",
+      "romaji": "hazu",
+      "tokens": [
+        {
+          "text": "はず",
+          "kana": "はず"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "高峰；高峰时间",
+      "japanese": "ラッシュ",
+      "kana": "らっしゅ",
+      "romaji": "rasshu",
+      "tokens": [
+        {
+          "text": "ラッシュ",
+          "kana": "らっしゅ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "领导人，指导者",
+      "japanese": "リーダー",
+      "kana": "りいだあ",
+      "romaji": "riidaa",
+      "tokens": [
+        {
+          "text": "リーダー",
+          "kana": "りいだあ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "衣服",
+      "japanese": "衣類",
+      "kana": "いるい",
+      "romaji": "irui",
+      "tokens": [
+        {
+          "text": "衣類",
+          "kana": "いるい"
+        }
+      ]
+    }
+  ]
+}

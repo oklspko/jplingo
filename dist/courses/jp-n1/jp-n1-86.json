@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-86",
+  "coursePackId": "jp-n1",
+  "title": "名词 86",
+  "order": 86,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（不去理解意思只照字面）朗读",
+      "japanese": "素読",
+      "kana": "そどく",
+      "romaji": "sodoku",
+      "tokens": [
+        {
+          "text": "素読",
+          "kana": "そどく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "前额叶",
+      "japanese": "前頭葉",
+      "kana": "ぜんとうよう",
+      "romaji": "zentouyou",
+      "tokens": [
+        {
+          "text": "前頭葉",
+          "kana": "ぜんとうよう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "出身",
+      "japanese": "出自",
+      "kana": "しゅつじ",
+      "romaji": "shutsuji",
+      "tokens": [
+        {
+          "text": "出自",
+          "kana": "しゅつじ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "股价",
+      "japanese": "株価",
+      "kana": "かぶか",
+      "romaji": "kabuka",
+      "tokens": [
+        {
+          "text": "株価",
+          "kana": "かぶか"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "吃多种食物，杂食",
+      "japanese": "雑食",
+      "kana": "ざっしょく",
+      "romaji": "zasshoku",
+      "tokens": [
+        {
+          "text": "雑食",
+          "kana": "ざっしょく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（印度城市）孟买",
+      "japanese": "ムンバイ",
+      "kana": "むんばい",
+      "romaji": "munbai",
+      "tokens": [
+        {
+          "text": "ムンバイ",
+          "kana": "むんばい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "技艺，技术，学东西",
+      "japanese": "習い事",
+      "kana": "ならいごと",
+      "romaji": "naraigoto",
+      "tokens": [
+        {
+          "text": "習い事",
+          "kana": "ならいごと"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "默认，缺省；基本状态",
+      "japanese": "デフォルト",
+      "kana": "でふぉると",
+      "romaji": "defuoruto",
+      "tokens": [
+        {
+          "text": "デフォルト",
+          "kana": "でふぉると"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "发稿，发新闻；（通过网络）传送，播放",
+      "japanese": "配信",
+      "kana": "はいしん",
+      "romaji": "haishin",
+      "tokens": [
+        {
+          "text": "配信",
+          "kana": "はいしん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "休会",
+      "japanese": "休会",
+      "kana": "きゅうかい",
+      "romaji": "kyuukai",
+      "tokens": [
+        {
+          "text": "休会",
+          "kana": "きゅうかい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "物品的数量；物品的种类",
+      "japanese": "品数",
+      "kana": "しなかず",
+      "romaji": "shinakazu",
+      "tokens": [
+        {
+          "text": "品数",
+          "kana": "しなかず"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "外包装；外部装修",
+      "japanese": "外装",
+      "kana": "がいそう",
+      "romaji": "gaisou",
+      "tokens": [
+        {
+          "text": "外装",
+          "kana": "がいそう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "艺人",
+      "japanese": "芸能人",
+      "kana": "げいのうじん",
+      "romaji": "geinoujin",
+      "tokens": [
+        {
+          "text": "芸能人",
+          "kana": "げいのうじん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "新手，初出茅庐",
+      "japanese": "駆け出し",
+      "kana": "かけだし",
+      "romaji": "kakedashi",
+      "tokens": [
+        {
+          "text": "駆け出し",
+          "kana": "かけだし"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "心跳",
+      "japanese": "ときめき",
+      "kana": "ときめき",
+      "romaji": "tokimeki",
+      "tokens": [
+        {
+          "text": "ときめき",
+          "kana": "ときめき"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "形态和实质；性状，特性",
+      "japanese": "形質",
+      "kana": "けいしつ",
+      "romaji": "keishitsu",
+      "tokens": [
+        {
+          "text": "形質",
+          "kana": "けいしつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "论敌",
+      "japanese": "論敵",
+      "kana": "ろんてき",
+      "romaji": "ronteki",
+      "tokens": [
+        {
+          "text": "論敵",
+          "kana": "ろんてき"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "血和肉；骨肉至亲，父母兄弟",
+      "japanese": "血肉",
+      "kana": "けつにく",
+      "romaji": "ketsuniku",
+      "tokens": [
+        {
+          "text": "血肉",
+          "kana": "けつにく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "内在，固有",
+      "japanese": "内在",
+      "kana": "ないざい",
+      "romaji": "naizai",
+      "tokens": [
+        {
+          "text": "内在",
+          "kana": "ないざい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "一项任务，一个工作",
+      "japanese": "一役",
+      "kana": "ひとやく",
+      "romaji": "hitoyaku",
+      "tokens": [
+        {
+          "text": "一役",
+          "kana": "ひとやく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "资本金，本钱",
+      "japanese": "資本金",
+      "kana": "しほんきん",
+      "romaji": "shihonkin",
+      "tokens": [
+        {
+          "text": "資本金",
+          "kana": "しほんきん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "生存权，生存的权利",
+      "japanese": "生存権",
+      "kana": "せいぞんけん",
+      "romaji": "seizonken",
+      "tokens": [
+        {
+          "text": "生存権",
+          "kana": "せいぞんけん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "原生，原始",
+      "japanese": "原生",
+      "kana": "げんせい",
+      "romaji": "gensei",
+      "tokens": [
+        {
+          "text": "原生",
+          "kana": "げんせい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "摇篮",
+      "japanese": "ゆりかご",
+      "kana": "ゆりかご",
+      "romaji": "yurikago",
+      "tokens": [
+        {
+          "text": "ゆりかご",
+          "kana": "ゆりかご"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "同时进行多项作业；（计算机）多任务",
+      "japanese": "マルチタスク",
+      "kana": "まるちたすく",
+      "romaji": "maruchitasuku",
+      "tokens": [
+        {
+          "text": "マルチタスク",
+          "kana": "まるちたすく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "意见一致，共识",
+      "japanese": "コンセンサス",
+      "kana": "こんせんさす",
+      "romaji": "konsensasu",
+      "tokens": [
+        {
+          "text": "コンセンサス",
+          "kana": "こんせんさす"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（孟子提出的）性善说",
+      "japanese": "性善説",
+      "kana": "せいぜんせつ",
+      "romaji": "seizensetsu",
+      "tokens": [
+        {
+          "text": "性善説",
+          "kana": "せいぜんせつ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "资金，资本金；财政投资、融资的资金来源",
+      "japanese": "原資",
+      "kana": "げんし",
+      "romaji": "genshi",
+      "tokens": [
+        {
+          "text": "原資",
+          "kana": "げんし"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "公开性，信息公开",
+      "japanese": "情報公開",
+      "kana": "じょうほうこうかい",
+      "romaji": "jouhoukoukai",
+      "tokens": [
+        {
+          "text": "情報公開",
+          "kana": "じょうほうこうかい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "一个人走路；自立，独立；（事态不随当事人意愿）自动发展",
+      "japanese": "独り歩き",
+      "kana": "ひとりあるき",
+      "romaji": "hitoriaruki",
+      "tokens": [
+        {
+          "text": "独り歩き",
+          "kana": "ひとりあるき"
+        }
+      ]
+    }
+  ]
+}

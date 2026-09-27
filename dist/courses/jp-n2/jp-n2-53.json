@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-53",
+  "coursePackId": "jp-n2",
+  "title": "名词 53",
+  "order": 53,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "……层，阶层",
+      "japanese": "層",
+      "kana": "そう",
+      "romaji": "sou",
+      "tokens": [
+        {
+          "text": "層",
+          "kana": "そう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "（贬义）那个家伙，那小子；那东西",
+      "japanese": "あいつ",
+      "kana": "あいつ",
+      "romaji": "aitsu",
+      "tokens": [
+        {
+          "text": "あいつ",
+          "kana": "あいつ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "（α）阿尔法；最初；未知数",
+      "japanese": "アルファ",
+      "kana": "あるふぁ",
+      "romaji": "arufua",
+      "tokens": [
+        {
+          "text": "アルファ",
+          "kana": "あるふぁ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "字母序列，字母表；入门，基本知识",
+      "japanese": "アルファベット",
+      "kana": "あるふぁべっと",
+      "romaji": "arufuabetto",
+      "tokens": [
+        {
+          "text": "アルファベット",
+          "kana": "あるふぁべっと"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "插图",
+      "japanese": "イラスト",
+      "kana": "いらすと",
+      "romaji": "irasuto",
+      "tokens": [
+        {
+          "text": "イラスト",
+          "kana": "いらすと"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "生态，环境",
+      "japanese": "エコ",
+      "kana": "えこ",
+      "romaji": "eko",
+      "tokens": [
+        {
+          "text": "エコ",
+          "kana": "えこ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "法律，戒令；成规，规章",
+      "japanese": "掟[おきて]",
+      "kana": "おきて",
+      "romaji": "okite",
+      "tokens": [
+        {
+          "text": "掟[おきて]",
+          "kana": "おきて"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（尊他）您来；您去",
+      "japanese": "お越し",
+      "kana": "おこし",
+      "romaji": "okoshi",
+      "tokens": [
+        {
+          "text": "お越し",
+          "kana": "おこし"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "讨价还价；伺机，进退，（临机应变的）战略策略",
+      "japanese": "駆け引き",
+      "kana": "かけひき",
+      "romaji": "kakehiki",
+      "tokens": [
+        {
+          "text": "駆け引き",
+          "kana": "かけひき"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "裂缝；分歧，隔阂",
+      "japanese": "ギャップ",
+      "kana": "ぎゃっぷ",
+      "romaji": "gyappu",
+      "tokens": [
+        {
+          "text": "ギャップ",
+          "kana": "ぎゃっぷ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "门路，后门",
+      "japanese": "コネ",
+      "kana": "こね",
+      "romaji": "kone",
+      "tokens": [
+        {
+          "text": "コネ",
+          "kana": "こね"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "（音乐等文艺方面的）比赛",
+      "japanese": "コンクール",
+      "kana": "こんくうる",
+      "romaji": "konkuuru",
+      "tokens": [
+        {
+          "text": "コンクール",
+          "kana": "こんくうる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "自卑感；集合体；情结",
+      "japanese": "コンプレックス",
+      "kana": "こんぷれっくす",
+      "romaji": "konpurekkusu",
+      "tokens": [
+        {
+          "text": "コンプレックス",
+          "kana": "こんぷれっくす"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "橱窗，陈列窗",
+      "japanese": "ショーウインドー",
+      "kana": "しょうういんどう",
+      "romaji": "shouuindou",
+      "tokens": [
+        {
+          "text": "ショーウインドー",
+          "kana": "しょうういんどう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "透明胶带",
+      "japanese": "セロテープ",
+      "kana": "せろてえぷ",
+      "romaji": "seroteepu",
+      "tokens": [
+        {
+          "text": "セロテープ",
+          "kana": "せろてえぷ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "那里；大约，左右",
+      "japanese": "そこら",
+      "kana": "そこら",
+      "romaji": "sokora",
+      "tokens": [
+        {
+          "text": "そこら",
+          "kana": "そこら"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "（强调其前面的词）……本身，非常……",
+      "japanese": "そのもの",
+      "kana": "そのもの",
+      "romaji": "sonomono",
+      "tokens": [
+        {
+          "text": "そのもの",
+          "kana": "そのもの"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "就这样，就此为止；与那相应的",
+      "japanese": "それなり",
+      "kana": "それなり",
+      "romaji": "sorenari",
+      "tokens": [
+        {
+          "text": "それなり",
+          "kana": "それなり"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "充电；加油；费用；充值",
+      "japanese": "チャージ",
+      "kana": "ちゃあじ",
+      "romaji": "chaaji",
+      "tokens": [
+        {
+          "text": "チャージ",
+          "kana": "ちゃあじ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "黑猩猩",
+      "japanese": "チンパンジー",
+      "kana": "ちんぱんじい",
+      "romaji": "chinpanjii",
+      "tokens": [
+        {
+          "text": "チンパンジー",
+          "kana": "ちんぱんじい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "不利之处",
+      "japanese": "デメリット",
+      "kana": "でめりっと",
+      "romaji": "demeritto",
+      "tokens": [
+        {
+          "text": "デメリット",
+          "kana": "でめりっと"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "（工作）定额，指标",
+      "japanese": "ノルマ",
+      "kana": "のるま",
+      "romaji": "noruma",
+      "tokens": [
+        {
+          "text": "ノルマ",
+          "kana": "のるま"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "跨栏；难关",
+      "japanese": "ハードル",
+      "kana": "はあどる",
+      "romaji": "haadoru",
+      "tokens": [
+        {
+          "text": "ハードル",
+          "kana": "はあどる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "山顶；最高峰",
+      "japanese": "ピーク",
+      "kana": "ぴいく",
+      "romaji": "piiku",
+      "tokens": [
+        {
+          "text": "ピーク",
+          "kana": "ぴいく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "对未来的设想",
+      "japanese": "ビジョン",
+      "kana": "びじょん",
+      "romaji": "bijon",
+      "tokens": [
+        {
+          "text": "ビジョン",
+          "kana": "びじょん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "虚构；小说",
+      "japanese": "フィクション",
+      "kana": "ふぃくしょん",
+      "romaji": "fyikushon",
+      "tokens": [
+        {
+          "text": "フィクション",
+          "kana": "ふぃくしょん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "商标，品牌",
+      "japanese": "ブランド",
+      "kana": "ぶらんど",
+      "romaji": "burando",
+      "tokens": [
+        {
+          "text": "ブランド",
+          "kana": "ぶらんど"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "公开演示，发表，方案，企画",
+      "japanese": "プレゼンテーション",
+      "kana": "ぷれぜんてえしょん",
+      "romaji": "purezenteeshon",
+      "tokens": [
+        {
+          "text": "プレゼンテーション",
+          "kana": "ぷれぜんてえしょん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "（精神方面的）压力",
+      "japanese": "プレッシャー",
+      "kana": "ぷれっしゃあ",
+      "romaji": "puresshaa",
+      "tokens": [
+        {
+          "text": "プレッシャー",
+          "kana": "ぷれっしゃあ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "发型",
+      "japanese": "ヘアスタイル",
+      "kana": "へあすたいる",
+      "romaji": "heasutairu",
+      "tokens": [
+        {
+          "text": "ヘアスタイル",
+          "kana": "へあすたいる"
+        }
+      ]
+    }
+  ]
+}

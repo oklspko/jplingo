@@ -1,0 +1,12 @@
+{
+  "coursePacks": [
+    {
+      "id": "jp-basic-01",
+      "title": "日语基础 第一册",
+      "language": "ja",
+      "level": "N5",
+      "description": "日语入门，涵盖基本助词和动词",
+      "courses": ["jp-01", "jp-02"]
+    }
+  ]
+}

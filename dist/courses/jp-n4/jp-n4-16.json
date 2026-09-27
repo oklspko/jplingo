@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-16",
+  "coursePackId": "jp-n4",
+  "title": "名词 16",
+  "order": 16,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "母亲",
+      "japanese": "母親",
+      "kana": "ははおや",
+      "romaji": "hahaoya",
+      "tokens": [
+        {
+          "text": "母親",
+          "kana": "ははおや"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "晚饭，晚餐",
+      "japanese": "夕食",
+      "kana": "ゆうしょく",
+      "romaji": "yuushoku",
+      "tokens": [
+        {
+          "text": "夕食",
+          "kana": "ゆうしょく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "双手，两手",
+      "japanese": "両手",
+      "kana": "りょうて",
+      "romaji": "ryoute",
+      "tokens": [
+        {
+          "text": "両手",
+          "kana": "りょうて"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "雷，雷电",
+      "japanese": "雷",
+      "kana": "かみなり",
+      "romaji": "kaminari",
+      "tokens": [
+        {
+          "text": "雷",
+          "kana": "かみなり"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "小费",
+      "japanese": "チップ",
+      "kana": "ちっぷ",
+      "romaji": "chippu",
+      "tokens": [
+        {
+          "text": "チップ",
+          "kana": "ちっぷ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "裤子；短裤；内裤",
+      "japanese": "パンツ",
+      "kana": "ぱんつ",
+      "romaji": "pantsu",
+      "tokens": [
+        {
+          "text": "パンツ",
+          "kana": "ぱんつ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "市场；销售市场",
+      "japanese": "マーケット",
+      "kana": "まあけっと",
+      "romaji": "maaketto",
+      "tokens": [
+        {
+          "text": "マーケット",
+          "kana": "まあけっと"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "雨衣",
+      "japanese": "レインコート",
+      "kana": "れいんこうと",
+      "romaji": "reinkouto",
+      "tokens": [
+        {
+          "text": "レインコート",
+          "kana": "れいんこうと"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "早起",
+      "japanese": "早起き",
+      "kana": "はやおき",
+      "romaji": "hayaoki",
+      "tokens": [
+        {
+          "text": "早起き",
+          "kana": "はやおき"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "诞生；开始，成立",
+      "japanese": "誕生",
+      "kana": "たんじょう",
+      "romaji": "tanjou",
+      "tokens": [
+        {
+          "text": "誕生",
+          "kana": "たんじょう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "姓名；名称；名声；名义",
+      "japanese": "名",
+      "kana": "な",
+      "romaji": "na",
+      "tokens": [
+        {
+          "text": "名",
+          "kana": "な"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "叶子",
+      "japanese": "葉っぱ",
+      "kana": "はっぱ",
+      "romaji": "happa",
+      "tokens": [
+        {
+          "text": "葉っぱ",
+          "kana": "はっぱ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "式，仪式；方式，风格",
+      "japanese": "式",
+      "kana": "しき",
+      "romaji": "shiki",
+      "tokens": [
+        {
+          "text": "式",
+          "kana": "しき"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "场所；场面",
+      "japanese": "場",
+      "kana": "ば",
+      "romaji": "ba",
+      "tokens": [
+        {
+          "text": "場",
+          "kana": "ば"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "比，对，同",
+      "japanese": "対",
+      "kana": "たい",
+      "romaji": "tai",
+      "tokens": [
+        {
+          "text": "対",
+          "kana": "たい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "大；非常；出色",
+      "japanese": "大",
+      "kana": "だい",
+      "romaji": "dai",
+      "tokens": [
+        {
+          "text": "大",
+          "kana": "だい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "轮班顺序；看守，值班",
+      "japanese": "番",
+      "kana": "ばん",
+      "romaji": "ban",
+      "tokens": [
+        {
+          "text": "番",
+          "kana": "ばん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "无，没有",
+      "japanese": "無",
+      "kana": "む",
+      "romaji": "mu",
+      "tokens": [
+        {
+          "text": "無",
+          "kana": "む"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "警车",
+      "japanese": "パトカー",
+      "kana": "ぱとかあ",
+      "romaji": "patokaa",
+      "tokens": [
+        {
+          "text": "パトカー",
+          "kana": "ぱとかあ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "看护，护理",
+      "japanese": "看護",
+      "kana": "かんご",
+      "romaji": "kango",
+      "tokens": [
+        {
+          "text": "看護",
+          "kana": "かんご"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "工程师",
+      "japanese": "エンジニア",
+      "kana": "えんじにあ",
+      "romaji": "enjinia",
+      "tokens": [
+        {
+          "text": "エンジニア",
+          "kana": "えんじにあ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "穿着（和服）",
+      "japanese": "着付け",
+      "kana": "きつけ",
+      "romaji": "kitsuke",
+      "tokens": [
+        {
+          "text": "着付け",
+          "kana": "きつけ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "鸡肉",
+      "japanese": "鳥肉",
+      "kana": "とりにく",
+      "romaji": "toriniku",
+      "tokens": [
+        {
+          "text": "鳥肉",
+          "kana": "とりにく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "大门",
+      "japanese": "門",
+      "kana": "もん",
+      "romaji": "mon",
+      "tokens": [
+        {
+          "text": "門",
+          "kana": "もん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "男朋友；他",
+      "japanese": "彼氏",
+      "kana": "かれし",
+      "romaji": "kareshi",
+      "tokens": [
+        {
+          "text": "彼氏",
+          "kana": "かれし"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "第",
+      "japanese": "第〜",
+      "kana": "第〜",
+      "romaji": "第~",
+      "tokens": [
+        {
+          "text": "第〜",
+          "kana": "第〜"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "一员，一分子",
+      "japanese": "一員",
+      "kana": "いちいん",
+      "romaji": "ichiin",
+      "tokens": [
+        {
+          "text": "一員",
+          "kana": "いちいん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "手表，腕表",
+      "japanese": "腕時計",
+      "kana": "うでどけい",
+      "romaji": "udedokei",
+      "tokens": [
+        {
+          "text": "腕時計",
+          "kana": "うでどけい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "国王；首领",
+      "japanese": "王",
+      "kana": "おう",
+      "romaji": "ou",
+      "tokens": [
+        {
+          "text": "王",
+          "kana": "おう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "死，死亡，去世，逝世",
+      "japanese": "死",
+      "kana": "し",
+      "romaji": "shi",
+      "tokens": [
+        {
+          "text": "死",
+          "kana": "し"
+        }
+      ]
+    }
+  ]
+}

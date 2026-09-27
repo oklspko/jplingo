@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-24",
+  "coursePackId": "jp-n1",
+  "title": "名词 24",
+  "order": 24,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "导演；组织，安排",
+      "japanese": "演出",
+      "kana": "えんしゅつ",
+      "romaji": "enshutsu",
+      "tokens": [
+        {
+          "text": "演出",
+          "kana": "えんしゅつ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "贪污，渎职",
+      "japanese": "汚職",
+      "kana": "おしょく",
+      "romaji": "oshoku",
+      "tokens": [
+        {
+          "text": "汚職",
+          "kana": "おしょく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "侧脸；人物简介",
+      "japanese": "横顔",
+      "kana": "よこがお",
+      "romaji": "yokogao",
+      "tokens": [
+        {
+          "text": "横顔",
+          "kana": "よこがお"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "房屋和地产；宅邸",
+      "japanese": "屋敷",
+      "kana": "やしき",
+      "romaji": "yashiki",
+      "tokens": [
+        {
+          "text": "屋敷",
+          "kana": "やしき"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "（气候）温暖，温和；（性格）温和，稳重",
+      "japanese": "温和",
+      "kana": "おんわ",
+      "romaji": "onwa",
+      "tokens": [
+        {
+          "text": "温和",
+          "kana": "おんわ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "基础；底子；资质，素质",
+      "japanese": "下地",
+      "kana": "したじ",
+      "romaji": "shitaji",
+      "tokens": [
+        {
+          "text": "下地",
+          "kana": "したじ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "化石；（比喻）变成石头似的",
+      "japanese": "化石",
+      "kana": "かせき",
+      "romaji": "kaseki",
+      "tokens": [
+        {
+          "text": "化石",
+          "kana": "かせき"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "假说，假设",
+      "japanese": "仮説",
+      "kana": "かせつ",
+      "romaji": "kasetsu",
+      "tokens": [
+        {
+          "text": "仮説",
+          "kana": "かせつ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "加入，参加（团体或组织等）",
+      "japanese": "加入",
+      "kana": "かにゅう",
+      "romaji": "kanyuu",
+      "tokens": [
+        {
+          "text": "加入",
+          "kana": "かにゅう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "加佐料；加进，放进，掺加",
+      "japanese": "加味",
+      "kana": "かみ",
+      "romaji": "kami",
+      "tokens": [
+        {
+          "text": "加味",
+          "kana": "かみ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "尽头；最后，结局",
+      "japanese": "果て",
+      "kana": "はて",
+      "romaji": "hate",
+      "tokens": [
+        {
+          "text": "果て",
+          "kana": "はて"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "河",
+      "japanese": "河川",
+      "kana": "かせん",
+      "romaji": "kasen",
+      "tokens": [
+        {
+          "text": "河川",
+          "kana": "かせん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "分条写",
+      "japanese": "箇条書き",
+      "kana": "かじょうがき",
+      "romaji": "kajougaki",
+      "tokens": [
+        {
+          "text": "箇条書き",
+          "kana": "かじょうがき"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "花瓣",
+      "japanese": "花びら",
+      "kana": "はなびら",
+      "romaji": "hanabira",
+      "tokens": [
+        {
+          "text": "花びら",
+          "kana": "はなびら"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "打包",
+      "japanese": "荷造り",
+      "kana": "にづくり",
+      "romaji": "nizukuri",
+      "tokens": [
+        {
+          "text": "荷造り",
+          "kana": "にづくり"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "错误，过失",
+      "japanese": "過ち",
+      "kana": "あやまち",
+      "romaji": "ayamachi",
+      "tokens": [
+        {
+          "text": "過ち",
+          "kana": "あやまち"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "过于密集",
+      "japanese": "過密",
+      "kana": "かみつ",
+      "romaji": "kamitsu",
+      "tokens": [
+        {
+          "text": "過密",
+          "kana": "かみつ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "介入，干涉",
+      "japanese": "介入",
+      "kana": "かいにゅう",
+      "romaji": "kainyuu",
+      "tokens": [
+        {
+          "text": "介入",
+          "kana": "かいにゅう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "解除",
+      "japanese": "解除",
+      "kana": "かいじょ",
+      "romaji": "kaijo",
+      "tokens": [
+        {
+          "text": "解除",
+          "kana": "かいじょ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "修改，重新规定",
+      "japanese": "改定",
+      "kana": "かいてい",
+      "romaji": "kaitei",
+      "tokens": [
+        {
+          "text": "改定",
+          "kana": "かいてい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "海边，海滨",
+      "japanese": "海辺",
+      "kana": "うみべ",
+      "romaji": "umibe",
+      "tokens": [
+        {
+          "text": "海辺",
+          "kana": "うみべ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "开垦；开拓",
+      "japanese": "開拓",
+      "kana": "かいたく",
+      "romaji": "kaitaku",
+      "tokens": [
+        {
+          "text": "開拓",
+          "kana": "かいたく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "阶层",
+      "japanese": "階層",
+      "kana": "かいそう",
+      "romaji": "kaisou",
+      "tokens": [
+        {
+          "text": "階層",
+          "kana": "かいそう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "害虫",
+      "japanese": "害虫",
+      "kana": "がいちゅう",
+      "romaji": "gaichuu",
+      "tokens": [
+        {
+          "text": "害虫",
+          "kana": "がいちゅう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "街头",
+      "japanese": "街頭",
+      "kana": "がいとう",
+      "romaji": "gaitou",
+      "tokens": [
+        {
+          "text": "街頭",
+          "kana": "がいとう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "符合",
+      "japanese": "該当",
+      "kana": "がいとう",
+      "romaji": "gaitou",
+      "tokens": [
+        {
+          "text": "該当",
+          "kana": "がいとう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "扩散",
+      "japanese": "拡散",
+      "kana": "かくさん",
+      "romaji": "kakusan",
+      "tokens": [
+        {
+          "text": "拡散",
+          "kana": "かくさん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "革新",
+      "japanese": "革新",
+      "kana": "かくしん",
+      "romaji": "kakushin",
+      "tokens": [
+        {
+          "text": "革新",
+          "kana": "かくしん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "乐谱",
+      "japanese": "楽譜",
+      "kana": "がくふ",
+      "romaji": "gakufu",
+      "tokens": [
+        {
+          "text": "楽譜",
+          "kana": "がくふ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "激活，搞活；（生化）活化",
+      "japanese": "活性化",
+      "kana": "かっせいか",
+      "romaji": "kasseika",
+      "tokens": [
+        {
+          "text": "活性化",
+          "kana": "かっせいか"
+        }
+      ]
+    }
+  ]
+}

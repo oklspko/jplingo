@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-06",
+  "coursePackId": "jp-n5",
+  "title": "名词 6",
+  "order": 6,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "汉字",
+      "japanese": "漢字",
+      "kana": "かんじ",
+      "romaji": "kanji",
+      "tokens": [
+        {
+          "text": "漢字",
+          "kana": "かんじ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "眼镜",
+      "japanese": "眼鏡",
+      "kana": "めがね",
+      "romaji": "megane",
+      "tokens": [
+        {
+          "text": "眼鏡",
+          "kana": "めがね"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "脸；表情；面子；人",
+      "japanese": "顔",
+      "kana": "かお",
+      "romaji": "kao",
+      "tokens": [
+        {
+          "text": "顔",
+          "kana": "かお"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "桌子，书桌",
+      "japanese": "机",
+      "kana": "つくえ",
+      "romaji": "tsukue",
+      "tokens": [
+        {
+          "text": "机",
+          "kana": "つくえ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "回来，回程",
+      "japanese": "帰り",
+      "kana": "かえり",
+      "romaji": "kaeri",
+      "tokens": [
+        {
+          "text": "帰り",
+          "kana": "かえり"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "咖啡厅，茶馆",
+      "japanese": "喫茶店",
+      "kana": "きっさてん",
+      "romaji": "kissaten",
+      "tokens": [
+        {
+          "text": "喫茶店",
+          "kana": "きっさてん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "牛奶",
+      "japanese": "牛乳",
+      "kana": "ぎゅうにゅう",
+      "romaji": "gyuunyuu",
+      "tokens": [
+        {
+          "text": "牛乳",
+          "kana": "ぎゅうにゅう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "去年",
+      "japanese": "去年",
+      "kana": "きょねん",
+      "romaji": "kyonen",
+      "tokens": [
+        {
+          "text": "去年",
+          "kana": "きょねん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "鱼，鱼类",
+      "japanese": "魚",
+      "kana": "さかな",
+      "romaji": "sakana",
+      "tokens": [
+        {
+          "text": "魚",
+          "kana": "さかな"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "教室；培训班",
+      "japanese": "教室",
+      "kana": "きょうしつ",
+      "romaji": "kyoushitsu",
+      "tokens": [
+        {
+          "text": "教室",
+          "kana": "きょうしつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "附近；将近，几乎；不久",
+      "japanese": "近く",
+      "kana": "ちかく",
+      "romaji": "chikaku",
+      "tokens": [
+        {
+          "text": "近く",
+          "kana": "ちかく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "金钱，钱",
+      "japanese": "金",
+      "kana": "かね",
+      "romaji": "kane",
+      "tokens": [
+        {
+          "text": "金",
+          "kana": "かね"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "周五",
+      "japanese": "金曜日",
+      "kana": "きんようび",
+      "romaji": "kin'youbi",
+      "tokens": [
+        {
+          "text": "金曜日",
+          "kana": "きんようび"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "银行",
+      "japanese": "銀行",
+      "kana": "ぎんこう",
+      "romaji": "ginkou",
+      "tokens": [
+        {
+          "text": "銀行",
+          "kana": "ぎんこう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "九个；九岁",
+      "japanese": "九つ",
+      "kana": "ここのつ",
+      "romaji": "kokonotsu",
+      "tokens": [
+        {
+          "text": "九つ",
+          "kana": "ここのつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "九号；九天",
+      "japanese": "九日",
+      "kana": "ここのか",
+      "romaji": "kokonoka",
+      "tokens": [
+        {
+          "text": "九日",
+          "kana": "ここのか"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "天空",
+      "japanese": "空",
+      "kana": "そら",
+      "romaji": "sora",
+      "tokens": [
+        {
+          "text": "空",
+          "kana": "そら"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "鞋子",
+      "japanese": "靴",
+      "kana": "くつ",
+      "romaji": "kutsu",
+      "tokens": [
+        {
+          "text": "靴",
+          "kana": "くつ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "袜子",
+      "japanese": "靴下",
+      "kana": "くつした",
+      "romaji": "kutsushita",
+      "tokens": [
+        {
+          "text": "靴下",
+          "kana": "くつした"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（自己的）哥哥，姐夫",
+      "japanese": "兄",
+      "kana": "あに",
+      "romaji": "ani",
+      "tokens": [
+        {
+          "text": "兄",
+          "kana": "あに"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "兄弟姐妹",
+      "japanese": "兄弟",
+      "kana": "きょうだい",
+      "romaji": "kyoudai",
+      "tokens": [
+        {
+          "text": "兄弟",
+          "kana": "きょうだい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "结婚",
+      "japanese": "結婚",
+      "kana": "けっこん",
+      "romaji": "kekkon",
+      "tokens": [
+        {
+          "text": "結婚",
+          "kana": "けっこん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "周一",
+      "japanese": "月曜日",
+      "kana": "げつようび",
+      "romaji": "getsuyoubi",
+      "tokens": [
+        {
+          "text": "月曜日",
+          "kana": "げつようび"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "建筑物，房屋",
+      "japanese": "建物",
+      "kana": "たてもの",
+      "romaji": "tatemono",
+      "tokens": [
+        {
+          "text": "建物",
+          "kana": "たてもの"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "狗",
+      "japanese": "犬",
+      "kana": "いぬ",
+      "romaji": "inu",
+      "tokens": [
+        {
+          "text": "犬",
+          "kana": "いぬ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "钥匙；锁；关键",
+      "japanese": "鍵",
+      "kana": "かぎ",
+      "romaji": "kagi",
+      "tokens": [
+        {
+          "text": "鍵",
+          "kana": "かぎ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "精神，活力；有精神",
+      "japanese": "元気",
+      "kana": "げんき",
+      "romaji": "genki",
+      "tokens": [
+        {
+          "text": "元気",
+          "kana": "げんき"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "玄关处，门口",
+      "japanese": "玄関",
+      "kana": "げんかん",
+      "romaji": "genkan",
+      "tokens": [
+        {
+          "text": "玄関",
+          "kana": "げんかん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "语言，话，词",
+      "japanese": "言葉",
+      "kana": "ことば",
+      "romaji": "kotoba",
+      "tokens": [
+        {
+          "text": "言葉",
+          "kana": "ことば"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "五个；五岁",
+      "japanese": "五つ",
+      "kana": "いつつ",
+      "romaji": "itsutsu",
+      "tokens": [
+        {
+          "text": "五つ",
+          "kana": "いつつ"
+        }
+      ]
+    }
+  ]
+}

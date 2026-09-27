@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-57",
+  "coursePackId": "jp-n2",
+  "title": "名词 57",
+  "order": 57,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "新商品",
+      "japanese": "新品",
+      "kana": "しんぴん",
+      "romaji": "shinpin",
+      "tokens": [
+        {
+          "text": "新品",
+          "kana": "しんぴん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "深处；深度",
+      "japanese": "深み",
+      "kana": "ふかみ",
+      "romaji": "fukami",
+      "tokens": [
+        {
+          "text": "深み",
+          "kana": "ふかみ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "真的，真正",
+      "japanese": "真",
+      "kana": "しん",
+      "romaji": "shin",
+      "tokens": [
+        {
+          "text": "真",
+          "kana": "しん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "数值",
+      "japanese": "数値",
+      "kana": "すうち",
+      "romaji": "suuchi",
+      "tokens": [
+        {
+          "text": "数値",
+          "kana": "すうち"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "成败，成功与否",
+      "japanese": "成否",
+      "kana": "せいひ",
+      "romaji": "seihi",
+      "tokens": [
+        {
+          "text": "成否",
+          "kana": "せいひ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "端坐",
+      "japanese": "正座",
+      "kana": "せいざ",
+      "romaji": "seiza",
+      "tokens": [
+        {
+          "text": "正座",
+          "kana": "せいざ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "折回；立即",
+      "japanese": "折り返し",
+      "kana": "おりかえし",
+      "romaji": "orikaeshi",
+      "tokens": [
+        {
+          "text": "折り返し",
+          "kana": "おりかえし"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（宗教）说教；教训",
+      "japanese": "説教",
+      "kana": "せっきょう",
+      "romaji": "sekkyou",
+      "tokens": [
+        {
+          "text": "説教",
+          "kana": "せっきょう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "先入为主的观念，成见",
+      "japanese": "先入観",
+      "kana": "せんにゅうかん",
+      "romaji": "sennyuukan",
+      "tokens": [
+        {
+          "text": "先入観",
+          "kana": "せんにゅうかん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "纤细；（感情）细腻",
+      "japanese": "繊細",
+      "kana": "せんさい",
+      "romaji": "sensai",
+      "tokens": [
+        {
+          "text": "繊細",
+          "kana": "せんさい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "全额",
+      "japanese": "全額",
+      "kana": "ぜんがく",
+      "romaji": "zengaku",
+      "tokens": [
+        {
+          "text": "全額",
+          "kana": "ぜんがく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "家常的熟食",
+      "japanese": "惣[そう]菜",
+      "kana": "そうざい",
+      "romaji": "souzai",
+      "tokens": [
+        {
+          "text": "惣[そう]菜",
+          "kana": "そうざい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "相关",
+      "japanese": "相関",
+      "kana": "そうかん",
+      "romaji": "soukan",
+      "tokens": [
+        {
+          "text": "相関",
+          "kana": "そうかん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "总数",
+      "japanese": "総数",
+      "kana": "そうすう",
+      "romaji": "sousuu",
+      "tokens": [
+        {
+          "text": "総数",
+          "kana": "そうすう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "发送，寄出，送出",
+      "japanese": "送付",
+      "kana": "そうふ",
+      "romaji": "soufu",
+      "tokens": [
+        {
+          "text": "送付",
+          "kana": "そうふ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "（支撑运动能力的）腰腿，腿脚",
+      "japanese": "足腰",
+      "kana": "あしこし",
+      "romaji": "ashikoshi",
+      "tokens": [
+        {
+          "text": "足腰",
+          "kana": "あしこし"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "（数量或程度）巨大",
+      "japanese": "多大",
+      "kana": "ただい",
+      "romaji": "tadai",
+      "tokens": [
+        {
+          "text": "多大",
+          "kana": "ただい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "体外",
+      "japanese": "体外",
+      "kana": "たいがい",
+      "romaji": "taigai",
+      "tokens": [
+        {
+          "text": "体外",
+          "kana": "たいがい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（个人的）体质；（团体的）性质",
+      "japanese": "体質",
+      "kana": "たいしつ",
+      "romaji": "taishitsu",
+      "tokens": [
+        {
+          "text": "体質",
+          "kana": "たいしつ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（世世）代代",
+      "japanese": "代々",
+      "kana": "だいだい",
+      "romaji": "daidai",
+      "tokens": [
+        {
+          "text": "代々",
+          "kana": "だいだい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "大局",
+      "japanese": "大局",
+      "kana": "たいきょく",
+      "romaji": "taikyoku",
+      "tokens": [
+        {
+          "text": "大局",
+          "kana": "たいきょく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "大致区别",
+      "japanese": "大別",
+      "kana": "たいべつ",
+      "romaji": "taibetsu",
+      "tokens": [
+        {
+          "text": "大別",
+          "kana": "たいべつ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "探究，探求",
+      "japanese": "探究",
+      "kana": "たんきゅう",
+      "romaji": "tankyuu",
+      "tokens": [
+        {
+          "text": "探究",
+          "kana": "たんきゅう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "储蓄，积蓄",
+      "japanese": "蓄え",
+      "kana": "たくわえ",
+      "romaji": "takuwae",
+      "tokens": [
+        {
+          "text": "蓄え",
+          "kana": "たくわえ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "肠",
+      "japanese": "腸",
+      "kana": "ちょう",
+      "romaji": "chou",
+      "tokens": [
+        {
+          "text": "腸",
+          "kana": "ちょう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "蝴蝶，蝶类",
+      "japanese": "蝶[ちょう]",
+      "kana": "ちょう",
+      "romaji": "chou",
+      "tokens": [
+        {
+          "text": "蝶[ちょう]",
+          "kana": "ちょう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "烹饪，做菜",
+      "japanese": "調理",
+      "kana": "ちょうり",
+      "romaji": "chouri",
+      "tokens": [
+        {
+          "text": "調理",
+          "kana": "ちょうり"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "普通的想法",
+      "japanese": "通念",
+      "kana": "つうねん",
+      "romaji": "tsuunen",
+      "tokens": [
+        {
+          "text": "通念",
+          "kana": "つうねん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "低温",
+      "japanese": "低温",
+      "kana": "ていおん",
+      "romaji": "teion",
+      "tokens": [
+        {
+          "text": "低温",
+          "kana": "ていおん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "适于某人的性质、资质、才能；适应性",
+      "japanese": "適性",
+      "kana": "てきせい",
+      "romaji": "tekisei",
+      "tokens": [
+        {
+          "text": "適性",
+          "kana": "てきせい"
+        }
+      ]
+    }
+  ]
+}

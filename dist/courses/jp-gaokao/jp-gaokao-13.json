@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-13",
+  "coursePackId": "jp-gaokao",
+  "title": "动词高频 2",
+  "order": 13,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "通过、走过",
+      "japanese": "通る",
+      "kana": "とおる",
+      "romaji": "tooru",
+      "tokens": [
+        {
+          "text": "通る",
+          "kana": "とおる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "晒干、烘干、弄干",
+      "japanese": "干す",
+      "kana": "ほす",
+      "romaji": "hosu",
+      "tokens": [
+        {
+          "text": "干す",
+          "kana": "ほす"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "采纳；收下",
+      "japanese": "受け入れる",
+      "kana": "うけいれる",
+      "romaji": "ukeireru",
+      "tokens": [
+        {
+          "text": "受け入れる",
+          "kana": "うけいれる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "停止、中止",
+      "japanese": "止む",
+      "kana": "やむ",
+      "romaji": "yamu",
+      "tokens": [
+        {
+          "text": "止む",
+          "kana": "やむ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "治好、痊愈",
+      "japanese": "治る",
+      "kana": "なおる",
+      "romaji": "naoru",
+      "tokens": [
+        {
+          "text": "治る",
+          "kana": "なおる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "擦除、消除",
+      "japanese": "消す",
+      "kana": "けす",
+      "romaji": "kesu",
+      "tokens": [
+        {
+          "text": "消す",
+          "kana": "けす"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "搬家",
+      "japanese": "引越す",
+      "kana": "ひっこす",
+      "romaji": "hikkosu",
+      "tokens": [
+        {
+          "text": "引越す",
+          "kana": "ひっこす"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "够、足够；值得",
+      "japanese": "足りる",
+      "kana": "たりる",
+      "romaji": "tariru",
+      "tokens": [
+        {
+          "text": "足りる",
+          "kana": "たりる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "恢复、改正、修理",
+      "japanese": "直る",
+      "kana": "なおる",
+      "romaji": "naoru",
+      "tokens": [
+        {
+          "text": "直る",
+          "kana": "なおる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "有用、有效",
+      "japanese": "役立つ",
+      "kana": "やくだつ",
+      "romaji": "yakudatsu",
+      "tokens": [
+        {
+          "text": "役立つ",
+          "kana": "やくだつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "治疗、医治",
+      "japanese": "治す",
+      "kana": "なおす",
+      "romaji": "naosu",
+      "tokens": [
+        {
+          "text": "治す",
+          "kana": "なおす"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "（自他二）输",
+      "japanese": "負ける",
+      "kana": "まける",
+      "romaji": "makeru",
+      "tokens": [
+        {
+          "text": "負ける",
+          "kana": "まける"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（自他一）切、割、剪、砍",
+      "japanese": "切る",
+      "kana": "きる",
+      "romaji": "kiru",
+      "tokens": [
+        {
+          "text": "切る",
+          "kana": "きる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "享受乐趣、欣赏",
+      "japanese": "楽しむ",
+      "kana": "たのしむ",
+      "romaji": "tanoshimu",
+      "tokens": [
+        {
+          "text": "楽しむ",
+          "kana": "たのしむ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "连结、打结",
+      "japanese": "結ぶ",
+      "kana": "むすぶ",
+      "romaji": "musubu",
+      "tokens": [
+        {
+          "text": "結ぶ",
+          "kana": "むすぶ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "把～留下",
+      "japanese": "残す",
+      "kana": "のこす",
+      "romaji": "nokosu",
+      "tokens": [
+        {
+          "text": "残す",
+          "kana": "のこす"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "离开",
+      "japanese": "離れる",
+      "kana": "はなれる",
+      "romaji": "hanareru",
+      "tokens": [
+        {
+          "text": "離れる",
+          "kana": "はなれる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "居住、住",
+      "japanese": "住む",
+      "kana": "すむ",
+      "romaji": "sumu",
+      "tokens": [
+        {
+          "text": "住む",
+          "kana": "すむ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "消失",
+      "japanese": "消える",
+      "kana": "きえる",
+      "romaji": "kieru",
+      "tokens": [
+        {
+          "text": "消える",
+          "kana": "きえる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "吸、吸入（气体）",
+      "japanese": "吸う",
+      "kana": "すう",
+      "romaji": "suu",
+      "tokens": [
+        {
+          "text": "吸う",
+          "kana": "すう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "预防、防止",
+      "japanese": "防ぐ",
+      "kana": "ふせぐ",
+      "romaji": "fusegu",
+      "tokens": [
+        {
+          "text": "防ぐ",
+          "kana": "ふせぐ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "帮忙、帮助",
+      "japanese": "手伝う",
+      "kana": "てつだう",
+      "romaji": "tetsudau",
+      "tokens": [
+        {
+          "text": "手伝う",
+          "kana": "てつだう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "保护、守护",
+      "japanese": "守る",
+      "kana": "まもる",
+      "romaji": "mamoru",
+      "tokens": [
+        {
+          "text": "守る",
+          "kana": "まもる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "弯曲、拐弯",
+      "japanese": "曲がる",
+      "kana": "まがる",
+      "romaji": "magaru",
+      "tokens": [
+        {
+          "text": "曲がる",
+          "kana": "まがる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "刷、磨",
+      "japanese": "磨く",
+      "kana": "みがく",
+      "romaji": "migaku",
+      "tokens": [
+        {
+          "text": "磨く",
+          "kana": "みがく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "切断；用光；到期",
+      "japanese": "切れる",
+      "kana": "きれる",
+      "romaji": "kireru",
+      "tokens": [
+        {
+          "text": "切れる",
+          "kana": "きれる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "过、流逝、消滅",
+      "japanese": "経つ",
+      "kana": "たつ",
+      "romaji": "tatsu",
+      "tokens": [
+        {
+          "text": "経つ",
+          "kana": "たつ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "改正、修改、订正",
+      "japanese": "直す",
+      "kana": "なおす",
+      "romaji": "naosu",
+      "tokens": [
+        {
+          "text": "直す",
+          "kana": "なおす"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "招待、邀请、招致",
+      "japanese": "招く",
+      "kana": "まねく",
+      "romaji": "maneku",
+      "tokens": [
+        {
+          "text": "招く",
+          "kana": "まねく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "交给、递给",
+      "japanese": "渡す",
+      "kana": "わたす",
+      "romaji": "watasu",
+      "tokens": [
+        {
+          "text": "渡す",
+          "kana": "わたす"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "连结、打结",
+      "japanese": "結ぶ",
+      "kana": "むすぶ",
+      "romaji": "musubu",
+      "tokens": [
+        {
+          "text": "結ぶ",
+          "kana": "むすぶ"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "招待、邀请、招致",
+      "japanese": "招く",
+      "kana": "まねく",
+      "romaji": "maneku",
+      "tokens": [
+        {
+          "text": "招く",
+          "kana": "まねく"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "预防、防止",
+      "japanese": "防ぐ",
+      "kana": "ふせぐ",
+      "romaji": "fusegu",
+      "tokens": [
+        {
+          "text": "防ぐ",
+          "kana": "ふせぐ"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "过、流逝、消滅",
+      "japanese": "経つ",
+      "kana": "たつ",
+      "romaji": "tatsu",
+      "tokens": [
+        {
+          "text": "経つ",
+          "kana": "たつ"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "享受乐趣、欣赏",
+      "japanese": "楽しむ",
+      "kana": "たのしむ",
+      "romaji": "tanoshimu",
+      "tokens": [
+        {
+          "text": "楽しむ",
+          "kana": "たのしむ"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "离开",
+      "japanese": "離れる",
+      "kana": "はなれる",
+      "romaji": "hanareru",
+      "tokens": [
+        {
+          "text": "離れる",
+          "kana": "はなれる"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "采纳；收下",
+      "japanese": "受け入れる",
+      "kana": "うけいれる",
+      "romaji": "ukeireru",
+      "tokens": [
+        {
+          "text": "受け入れる",
+          "kana": "うけいれる"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "刷、磨",
+      "japanese": "磨く",
+      "kana": "みがく",
+      "romaji": "migaku",
+      "tokens": [
+        {
+          "text": "磨く",
+          "kana": "みがく"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "交给、递给",
+      "japanese": "渡す",
+      "kana": "わたす",
+      "romaji": "watasu",
+      "tokens": [
+        {
+          "text": "渡す",
+          "kana": "わたす"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "治疗、医治",
+      "japanese": "治す",
+      "kana": "なおす",
+      "romaji": "naosu",
+      "tokens": [
+        {
+          "text": "治す",
+          "kana": "なおす"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "擦除、消除",
+      "japanese": "消す",
+      "kana": "けす",
+      "romaji": "kesu",
+      "tokens": [
+        {
+          "text": "消す",
+          "kana": "けす"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "（自他一）切、割、剪、砍",
+      "japanese": "切る",
+      "kana": "きる",
+      "romaji": "kiru",
+      "tokens": [
+        {
+          "text": "切る",
+          "kana": "きる"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "切断；用光；到期",
+      "japanese": "切れる",
+      "kana": "きれる",
+      "romaji": "kireru",
+      "tokens": [
+        {
+          "text": "切れる",
+          "kana": "きれる"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "消失",
+      "japanese": "消える",
+      "kana": "きえる",
+      "romaji": "kieru",
+      "tokens": [
+        {
+          "text": "消える",
+          "kana": "きえる"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "恢复、改正、修理",
+      "japanese": "直る",
+      "kana": "なおる",
+      "romaji": "naoru",
+      "tokens": [
+        {
+          "text": "直る",
+          "kana": "なおる"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "弯曲、拐弯",
+      "japanese": "曲がる",
+      "kana": "まがる",
+      "romaji": "magaru",
+      "tokens": [
+        {
+          "text": "曲がる",
+          "kana": "まがる"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "保护、守护",
+      "japanese": "守る",
+      "kana": "まもる",
+      "romaji": "mamoru",
+      "tokens": [
+        {
+          "text": "守る",
+          "kana": "まもる"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "有用、有效",
+      "japanese": "役立つ",
+      "kana": "やくだつ",
+      "romaji": "yakudatsu",
+      "tokens": [
+        {
+          "text": "役立つ",
+          "kana": "やくだつ"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "通过、走过",
+      "japanese": "通る",
+      "kana": "とおる",
+      "romaji": "tooru",
+      "tokens": [
+        {
+          "text": "通る",
+          "kana": "とおる"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "居住、住",
+      "japanese": "住む",
+      "kana": "すむ",
+      "romaji": "sumu",
+      "tokens": [
+        {
+          "text": "住む",
+          "kana": "すむ"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "吸、吸入（气体）",
+      "japanese": "吸う",
+      "kana": "すう",
+      "romaji": "suu",
+      "tokens": [
+        {
+          "text": "吸う",
+          "kana": "すう"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "治好、痊愈",
+      "japanese": "治る",
+      "kana": "なおる",
+      "romaji": "naoru",
+      "tokens": [
+        {
+          "text": "治る",
+          "kana": "なおる"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "改正、修改、订正",
+      "japanese": "直す",
+      "kana": "なおす",
+      "romaji": "naosu",
+      "tokens": [
+        {
+          "text": "直す",
+          "kana": "なおす"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "把～留下",
+      "japanese": "残す",
+      "kana": "のこす",
+      "romaji": "nokosu",
+      "tokens": [
+        {
+          "text": "残す",
+          "kana": "のこす"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "停止、中止",
+      "japanese": "止む",
+      "kana": "やむ",
+      "romaji": "yamu",
+      "tokens": [
+        {
+          "text": "止む",
+          "kana": "やむ"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "（自他二）输",
+      "japanese": "負ける",
+      "kana": "まける",
+      "romaji": "makeru",
+      "tokens": [
+        {
+          "text": "負ける",
+          "kana": "まける"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "晒干、烘干、弄干",
+      "japanese": "干す",
+      "kana": "ほす",
+      "romaji": "hosu",
+      "tokens": [
+        {
+          "text": "干す",
+          "kana": "ほす"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "搬家",
+      "japanese": "引越す",
+      "kana": "ひっこす",
+      "romaji": "hikkosu",
+      "tokens": [
+        {
+          "text": "引越す",
+          "kana": "ひっこす"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "帮忙、帮助",
+      "japanese": "手伝う",
+      "kana": "てつだう",
+      "romaji": "tetsudau",
+      "tokens": [
+        {
+          "text": "手伝う",
+          "kana": "てつだう"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "够、足够；值得",
+      "japanese": "足りる",
+      "kana": "たりる",
+      "romaji": "tariru",
+      "tokens": [
+        {
+          "text": "足りる",
+          "kana": "たりる"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "采纳；收下",
+      "japanese": "受け入れる",
+      "kana": "うけいれる",
+      "romaji": "ukeireru",
+      "tokens": [
+        {
+          "text": "受け入れる",
+          "kana": "うけいれる"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "消失",
+      "japanese": "消える",
+      "kana": "きえる",
+      "romaji": "kieru",
+      "tokens": [
+        {
+          "text": "消える",
+          "kana": "きえる"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "改正、修改、订正",
+      "japanese": "直す",
+      "kana": "なおす",
+      "romaji": "naosu",
+      "tokens": [
+        {
+          "text": "直す",
+          "kana": "なおす"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "切断；用光；到期",
+      "japanese": "切れる",
+      "kana": "きれる",
+      "romaji": "kireru",
+      "tokens": [
+        {
+          "text": "切れる",
+          "kana": "きれる"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "居住、住",
+      "japanese": "住む",
+      "kana": "すむ",
+      "romaji": "sumu",
+      "tokens": [
+        {
+          "text": "住む",
+          "kana": "すむ"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "治好、痊愈",
+      "japanese": "治る",
+      "kana": "なおる",
+      "romaji": "naoru",
+      "tokens": [
+        {
+          "text": "治る",
+          "kana": "なおる"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "通过、走过",
+      "japanese": "通る",
+      "kana": "とおる",
+      "romaji": "tooru",
+      "tokens": [
+        {
+          "text": "通る",
+          "kana": "とおる"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "恢复、改正、修理",
+      "japanese": "直る",
+      "kana": "なおる",
+      "romaji": "naoru",
+      "tokens": [
+        {
+          "text": "直る",
+          "kana": "なおる"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "把～留下",
+      "japanese": "残す",
+      "kana": "のこす",
+      "romaji": "nokosu",
+      "tokens": [
+        {
+          "text": "残す",
+          "kana": "のこす"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "搬家",
+      "japanese": "引越す",
+      "kana": "ひっこす",
+      "romaji": "hikkosu",
+      "tokens": [
+        {
+          "text": "引越す",
+          "kana": "ひっこす"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "享受乐趣、欣赏",
+      "japanese": "楽しむ",
+      "kana": "たのしむ",
+      "romaji": "tanoshimu",
+      "tokens": [
+        {
+          "text": "楽しむ",
+          "kana": "たのしむ"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "吸、吸入（气体）",
+      "japanese": "吸う",
+      "kana": "すう",
+      "romaji": "suu",
+      "tokens": [
+        {
+          "text": "吸う",
+          "kana": "すう"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "交给、递给",
+      "japanese": "渡す",
+      "kana": "わたす",
+      "romaji": "watasu",
+      "tokens": [
+        {
+          "text": "渡す",
+          "kana": "わたす"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "（自他一）切、割、剪、砍",
+      "japanese": "切る",
+      "kana": "きる",
+      "romaji": "kiru",
+      "tokens": [
+        {
+          "text": "切る",
+          "kana": "きる"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "帮忙、帮助",
+      "japanese": "手伝う",
+      "kana": "てつだう",
+      "romaji": "tetsudau",
+      "tokens": [
+        {
+          "text": "手伝う",
+          "kana": "てつだう"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "连结、打结",
+      "japanese": "結ぶ",
+      "kana": "むすぶ",
+      "romaji": "musubu",
+      "tokens": [
+        {
+          "text": "結ぶ",
+          "kana": "むすぶ"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "停止、中止",
+      "japanese": "止む",
+      "kana": "やむ",
+      "romaji": "yamu",
+      "tokens": [
+        {
+          "text": "止む",
+          "kana": "やむ"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "弯曲、拐弯",
+      "japanese": "曲がる",
+      "kana": "まがる",
+      "romaji": "magaru",
+      "tokens": [
+        {
+          "text": "曲がる",
+          "kana": "まがる"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "招待、邀请、招致",
+      "japanese": "招く",
+      "kana": "まねく",
+      "romaji": "maneku",
+      "tokens": [
+        {
+          "text": "招く",
+          "kana": "まねく"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "有用、有效",
+      "japanese": "役立つ",
+      "kana": "やくだつ",
+      "romaji": "yakudatsu",
+      "tokens": [
+        {
+          "text": "役立つ",
+          "kana": "やくだつ"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "（自他二）输",
+      "japanese": "負ける",
+      "kana": "まける",
+      "romaji": "makeru",
+      "tokens": [
+        {
+          "text": "負ける",
+          "kana": "まける"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "晒干、烘干、弄干",
+      "japanese": "干す",
+      "kana": "ほす",
+      "romaji": "hosu",
+      "tokens": [
+        {
+          "text": "干す",
+          "kana": "ほす"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "擦除、消除",
+      "japanese": "消す",
+      "kana": "けす",
+      "romaji": "kesu",
+      "tokens": [
+        {
+          "text": "消す",
+          "kana": "けす"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "刷、磨",
+      "japanese": "磨く",
+      "kana": "みがく",
+      "romaji": "migaku",
+      "tokens": [
+        {
+          "text": "磨く",
+          "kana": "みがく"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "够、足够；值得",
+      "japanese": "足りる",
+      "kana": "たりる",
+      "romaji": "tariru",
+      "tokens": [
+        {
+          "text": "足りる",
+          "kana": "たりる"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "预防、防止",
+      "japanese": "防ぐ",
+      "kana": "ふせぐ",
+      "romaji": "fusegu",
+      "tokens": [
+        {
+          "text": "防ぐ",
+          "kana": "ふせぐ"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "过、流逝、消滅",
+      "japanese": "経つ",
+      "kana": "たつ",
+      "romaji": "tatsu",
+      "tokens": [
+        {
+          "text": "経つ",
+          "kana": "たつ"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "治疗、医治",
+      "japanese": "治す",
+      "kana": "なおす",
+      "romaji": "naosu",
+      "tokens": [
+        {
+          "text": "治す",
+          "kana": "なおす"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "离开",
+      "japanese": "離れる",
+      "kana": "はなれる",
+      "romaji": "hanareru",
+      "tokens": [
+        {
+          "text": "離れる",
+          "kana": "はなれる"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "保护、守护",
+      "japanese": "守る",
+      "kana": "まもる",
+      "romaji": "mamoru",
+      "tokens": [
+        {
+          "text": "守る",
+          "kana": "まもる"
+        }
+      ]
+    }
+  ]
+}

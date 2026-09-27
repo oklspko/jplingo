@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-45",
+  "coursePackId": "jp-n1",
+  "title": "名词 45",
+  "order": 45,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "广阔，宏大",
+      "japanese": "広大",
+      "kana": "こうだい",
+      "romaji": "koudai",
+      "tokens": [
+        {
+          "text": "広大",
+          "kana": "こうだい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "惯例，常规",
+      "japanese": "恒例",
+      "kana": "こうれい",
+      "romaji": "kourei",
+      "tokens": [
+        {
+          "text": "恒例",
+          "kana": "こうれい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "等候室，休息室",
+      "japanese": "控え室",
+      "kana": "ひかえしつ",
+      "romaji": "hikaeshitsu",
+      "tokens": [
+        {
+          "text": "控え室",
+          "kana": "ひかえしつ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "更生，复兴；改过自新；废物再利用",
+      "japanese": "更生",
+      "kana": "こうせい",
+      "romaji": "kousei",
+      "tokens": [
+        {
+          "text": "更生",
+          "kana": "こうせい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "构想，设想",
+      "japanese": "構想",
+      "kana": "こうそう",
+      "romaji": "kousou",
+      "tokens": [
+        {
+          "text": "構想",
+          "kana": "こうそう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "去处，前方，前途",
+      "japanese": "行く手",
+      "kana": "ゆくて",
+      "romaji": "yukute",
+      "tokens": [
+        {
+          "text": "行く手",
+          "kana": "ゆくて"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "讲解",
+      "japanese": "講読",
+      "kana": "こうどく",
+      "romaji": "koudoku",
+      "tokens": [
+        {
+          "text": "講読",
+          "kana": "こうどく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "高额，巨额；大额",
+      "japanese": "高額",
+      "kana": "こうがく",
+      "romaji": "kougaku",
+      "tokens": [
+        {
+          "text": "高額",
+          "kana": "こうがく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "高昂",
+      "japanese": "高揚",
+      "kana": "こうよう",
+      "romaji": "kouyou",
+      "tokens": [
+        {
+          "text": "高揚",
+          "kana": "こうよう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "困惑，不知所措",
+      "japanese": "困惑",
+      "kana": "こんわく",
+      "romaji": "konwaku",
+      "tokens": [
+        {
+          "text": "困惑",
+          "kana": "こんわく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "根源",
+      "japanese": "根源",
+      "kana": "こんげん",
+      "romaji": "kongen",
+      "tokens": [
+        {
+          "text": "根源",
+          "kana": "こんげん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "差异，不同之处",
+      "japanese": "差異",
+      "kana": "さい",
+      "romaji": "sai",
+      "tokens": [
+        {
+          "text": "差異",
+          "kana": "さい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "评估，评定",
+      "japanese": "査定",
+      "kana": "さてい",
+      "romaji": "satei",
+      "tokens": [
+        {
+          "text": "査定",
+          "kana": "さてい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "彩色，着色；配色，色彩搭配；情趣，趣味",
+      "japanese": "彩り",
+      "kana": "いろどり",
+      "romaji": "irodori",
+      "tokens": [
+        {
+          "text": "彩り",
+          "kana": "いろどり"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "采集，选取，提取",
+      "japanese": "採取",
+      "kana": "さいしゅ",
+      "romaji": "saishu",
+      "tokens": [
+        {
+          "text": "採取",
+          "kana": "さいしゅ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "岁月，年月",
+      "japanese": "歳月",
+      "kana": "さいげつ",
+      "romaji": "saigetsu",
+      "tokens": [
+        {
+          "text": "歳月",
+          "kana": "さいげつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "细心，小心谨慎",
+      "japanese": "細心",
+      "kana": "さいしん",
+      "romaji": "saishin",
+      "tokens": [
+        {
+          "text": "細心",
+          "kana": "さいしん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "财产，财富；财宝",
+      "japanese": "財",
+      "kana": "ざい",
+      "romaji": "zai",
+      "tokens": [
+        {
+          "text": "財",
+          "kana": "ざい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（机械装置）工作，发动",
+      "japanese": "作動",
+      "kana": "さどう",
+      "romaji": "sadou",
+      "tokens": [
+        {
+          "text": "作動",
+          "kana": "さどう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "栅栏",
+      "japanese": "柵",
+      "kana": "さく",
+      "romaji": "saku",
+      "tokens": [
+        {
+          "text": "柵",
+          "kana": "さく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "杂货",
+      "japanese": "雑貨",
+      "kana": "ざっか",
+      "romaji": "zakka",
+      "tokens": [
+        {
+          "text": "雑貨",
+          "kana": "ざっか"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "拥挤（的人群）",
+      "japanese": "雑踏",
+      "kana": "ざっとう",
+      "romaji": "zattou",
+      "tokens": [
+        {
+          "text": "雑踏",
+          "kana": "ざっとう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "堆积如山",
+      "japanese": "山積",
+      "kana": "さんせき",
+      "romaji": "sanseki",
+      "tokens": [
+        {
+          "text": "山積",
+          "kana": "さんせき"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "开始做，做到一半；装置，机关",
+      "japanese": "仕掛け",
+      "kana": "しかけ",
+      "romaji": "shikake",
+      "tokens": [
+        {
+          "text": "仕掛け",
+          "kana": "しかけ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "勾当，捣鬼",
+      "japanese": "仕業",
+      "kana": "しわざ",
+      "romaji": "shiwaza",
+      "tokens": [
+        {
+          "text": "仕業",
+          "kana": "しわざ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "区分，分类",
+      "japanese": "仕分け",
+      "kana": "しわけ",
+      "romaji": "shiwake",
+      "tokens": [
+        {
+          "text": "仕分け",
+          "kana": "しわけ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "报复；重做",
+      "japanese": "仕返し",
+      "kana": "しかえし",
+      "romaji": "shikaeshi",
+      "tokens": [
+        {
+          "text": "仕返し",
+          "kana": "しかえし"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（工具、房屋等的）使用体验",
+      "japanese": "使い勝手",
+      "kana": "つかいがって",
+      "romaji": "tsukaigatte",
+      "tokens": [
+        {
+          "text": "使い勝手",
+          "kana": "つかいがって"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "市议会",
+      "japanese": "市議会",
+      "kana": "しぎかい",
+      "romaji": "shigikai",
+      "tokens": [
+        {
+          "text": "市議会",
+          "kana": "しぎかい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "志愿，报名，申请",
+      "japanese": "志願",
+      "kana": "しがん",
+      "romaji": "shigan",
+      "tokens": [
+        {
+          "text": "志願",
+          "kana": "しがん"
+        }
+      ]
+    }
+  ]
+}

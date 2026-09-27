@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-04",
+  "coursePackId": "jp-n4",
+  "title": "名词 4",
+  "order": 4,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "漫画，连环画",
+      "japanese": "漫画",
+      "kana": "まんが",
+      "romaji": "manga",
+      "tokens": [
+        {
+          "text": "漫画",
+          "kana": "まんが"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "梦；理想；幻想；虚幻",
+      "japanese": "夢",
+      "kana": "ゆめ",
+      "romaji": "yume",
+      "tokens": [
+        {
+          "text": "夢",
+          "kana": "ゆめ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "女儿；未婚年轻女性",
+      "japanese": "娘",
+      "kana": "むすめ",
+      "romaji": "musume",
+      "tokens": [
+        {
+          "text": "娘",
+          "kana": "むすめ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "棒球",
+      "japanese": "野球",
+      "kana": "やきゅう",
+      "romaji": "yakyuu",
+      "tokens": [
+        {
+          "text": "野球",
+          "kana": "やきゅう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "眼泪",
+      "japanese": "涙",
+      "kana": "なみだ",
+      "romaji": "namida",
+      "tokens": [
+        {
+          "text": "涙",
+          "kana": "なみだ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "走廊",
+      "japanese": "廊下",
+      "kana": "ろうか",
+      "romaji": "rouka",
+      "tokens": [
+        {
+          "text": "廊下",
+          "kana": "ろうか"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（表示组织或活动）……会",
+      "japanese": "会",
+      "kana": "かい",
+      "romaji": "kai",
+      "tokens": [
+        {
+          "text": "会",
+          "kana": "かい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "播音员",
+      "japanese": "アナウンサー",
+      "kana": "あなうんさあ",
+      "romaji": "anaunsaa",
+      "tokens": [
+        {
+          "text": "アナウンサー",
+          "kana": "あなうんさあ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "兼职，打工",
+      "japanese": "アルバイト",
+      "kana": "あるばいと",
+      "romaji": "arubaito",
+      "tokens": [
+        {
+          "text": "アルバイト",
+          "kana": "あるばいと"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "谎言，假话",
+      "japanese": "嘘[うそ]",
+      "kana": "うそ",
+      "romaji": "uso",
+      "tokens": [
+        {
+          "text": "嘘[うそ]",
+          "kana": "うそ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "摩托车",
+      "japanese": "オートバイ",
+      "kana": "おうとばい",
+      "romaji": "outobai",
+      "tokens": [
+        {
+          "text": "オートバイ",
+          "kana": "おうとばい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "办公室，事务所",
+      "japanese": "オフィス",
+      "kana": "おふぃす",
+      "romaji": "ofyisu",
+      "tokens": [
+        {
+          "text": "オフィス",
+          "kana": "おふぃす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "卡，卡片",
+      "japanese": "カード",
+      "kana": "かあど",
+      "romaji": "kaado",
+      "tokens": [
+        {
+          "text": "カード",
+          "kana": "かあど"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "口香糖",
+      "japanese": "ガム",
+      "kana": "がむ",
+      "romaji": "gamu",
+      "tokens": [
+        {
+          "text": "ガム",
+          "kana": "がむ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "俱乐部；酒吧",
+      "japanese": "クラブ",
+      "kana": "くらぶ",
+      "romaji": "kurabu",
+      "tokens": [
+        {
+          "text": "クラブ",
+          "kana": "くらぶ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "游戏；比赛",
+      "japanese": "ゲーム",
+      "kana": "げえむ",
+      "romaji": "geemu",
+      "tokens": [
+        {
+          "text": "ゲーム",
+          "kana": "げえむ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "伤，受伤",
+      "japanese": "けが",
+      "kana": "けが",
+      "romaji": "kega",
+      "tokens": [
+        {
+          "text": "けが",
+          "kana": "けが"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "垃圾",
+      "japanese": "ごみ",
+      "kana": "ごみ",
+      "romaji": "gomi",
+      "tokens": [
+        {
+          "text": "ごみ",
+          "kana": "ごみ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "音乐会，演奏会",
+      "japanese": "コンサート",
+      "kana": "こんさあと",
+      "romaji": "konsaato",
+      "tokens": [
+        {
+          "text": "コンサート",
+          "kana": "こんさあと"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "电脑，计算机",
+      "japanese": "コンピューター",
+      "kana": "こんぴゅうたあ",
+      "romaji": "konpyuutaa",
+      "tokens": [
+        {
+          "text": "コンピューター",
+          "kana": "こんぴゅうたあ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "沙拉",
+      "japanese": "サラダ",
+      "kana": "さらだ",
+      "romaji": "sarada",
+      "tokens": [
+        {
+          "text": "サラダ",
+          "kana": "さらだ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "果酱",
+      "japanese": "ジャム",
+      "kana": "じゃむ",
+      "romaji": "jamu",
+      "tokens": [
+        {
+          "text": "ジャム",
+          "kana": "じゃむ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "西装，西服",
+      "japanese": "スーツ",
+      "kana": "すうつ",
+      "romaji": "suutsu",
+      "tokens": [
+        {
+          "text": "スーツ",
+          "kana": "すうつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "旅行箱，行李箱",
+      "japanese": "スーツケース",
+      "kana": "すうつけえす",
+      "romaji": "suutsukeesu",
+      "tokens": [
+        {
+          "text": "スーツケース",
+          "kana": "すうつけえす"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "超市",
+      "japanese": "スーパーマーケット",
+      "kana": "すうぱあまあけっと",
+      "romaji": "suupaamaaketto",
+      "tokens": [
+        {
+          "text": "スーパーマーケット",
+          "kana": "すうぱあまあけっと"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "各个，各自，分别",
+      "japanese": "それぞれ",
+      "kana": "それぞれ",
+      "romaji": "sorezore",
+      "tokens": [
+        {
+          "text": "それぞれ",
+          "kana": "それぞれ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "意图，打算",
+      "japanese": "つもり",
+      "kana": "つもり",
+      "romaji": "tsumori",
+      "tokens": [
+        {
+          "text": "つもり",
+          "kana": "つもり"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "西红柿，番茄",
+      "japanese": "トマト",
+      "kana": "とまと",
+      "romaji": "tomato",
+      "tokens": [
+        {
+          "text": "トマト",
+          "kana": "とまと"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "（个人）电脑",
+      "japanese": "パソコン",
+      "kana": "ぱそこん",
+      "romaji": "pasokon",
+      "tokens": [
+        {
+          "text": "パソコン",
+          "kana": "ぱそこん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "汉堡牛肉饼，汉堡排",
+      "japanese": "ハンバーグ",
+      "kana": "はんばあぐ",
+      "romaji": "hanbaagu",
+      "tokens": [
+        {
+          "text": "ハンバーグ",
+          "kana": "はんばあぐ"
+        }
+      ]
+    }
+  ]
+}

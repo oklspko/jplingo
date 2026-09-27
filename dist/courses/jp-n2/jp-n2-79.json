@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-79",
+  "coursePackId": "jp-n2",
+  "title": "动词 8",
+  "order": 79,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "越过；克服；超越",
+      "japanese": "乗り越える",
+      "kana": "のりこえる",
+      "romaji": "norikoeru",
+      "tokens": [
+        {
+          "text": "乗り越える",
+          "kana": "のりこえる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "回头看；（后接否定）不感兴趣，不屑一顾",
+      "japanese": "振り向く",
+      "kana": "ふりむく",
+      "romaji": "furimuku",
+      "tokens": [
+        {
+          "text": "振り向く",
+          "kana": "ふりむく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "订正，改正，纠正；端正",
+      "japanese": "正す",
+      "kana": "ただす",
+      "romaji": "tadasu",
+      "tokens": [
+        {
+          "text": "正す",
+          "kana": "ただす"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "毗邻；接触；接待",
+      "japanese": "接する",
+      "kana": "せっする",
+      "romaji": "sessuru",
+      "tokens": [
+        {
+          "text": "接する",
+          "kana": "せっする"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "占卜，算卦；预测",
+      "japanese": "占う",
+      "kana": "うらなう",
+      "romaji": "uranau",
+      "tokens": [
+        {
+          "text": "占う",
+          "kana": "うらなう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "占据；占有",
+      "japanese": "占める",
+      "kana": "しめる",
+      "romaji": "shimeru",
+      "tokens": [
+        {
+          "text": "占める",
+          "kana": "しめる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "瞄准；以……为目标",
+      "japanese": "狙う",
+      "kana": "ねらう",
+      "romaji": "nerau",
+      "tokens": [
+        {
+          "text": "狙う",
+          "kana": "ねらう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "起诉；诉说；诉诸；打动",
+      "japanese": "訴える",
+      "kana": "うったえる",
+      "romaji": "uttaeru",
+      "tokens": [
+        {
+          "text": "訴える",
+          "kana": "うったえる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "逆流而上；追溯",
+      "japanese": "遡る",
+      "kana": "さかのぼる",
+      "romaji": "sakanoboru",
+      "tokens": [
+        {
+          "text": "遡る",
+          "kana": "さかのぼる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "增加，提高",
+      "japanese": "増す",
+      "kana": "ます",
+      "romaji": "masu",
+      "tokens": [
+        {
+          "text": "増す",
+          "kana": "ます"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "否定，打消",
+      "japanese": "打ち消す",
+      "kana": "うちけす",
+      "romaji": "uchikesu",
+      "tokens": [
+        {
+          "text": "打ち消す",
+          "kana": "うちけす"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "浑浊；声音变嘶哑；变浊音",
+      "japanese": "濁る",
+      "kana": "にごる",
+      "romaji": "nigoru",
+      "tokens": [
+        {
+          "text": "濁る",
+          "kana": "にごる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "摸；试探，侦查；探访",
+      "japanese": "探る",
+      "kana": "さぐる",
+      "romaji": "saguru",
+      "tokens": [
+        {
+          "text": "探る",
+          "kana": "さぐる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（比预定或预想花费更长的时间）拖长，延长",
+      "japanese": "長引く",
+      "kana": "ながびく",
+      "romaji": "nagabiku",
+      "tokens": [
+        {
+          "text": "長引く",
+          "kana": "ながびく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "追赶",
+      "japanese": "追いかける",
+      "kana": "おいかける",
+      "romaji": "oikakeru",
+      "tokens": [
+        {
+          "text": "追いかける",
+          "kana": "おいかける"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "尽力，努力",
+      "japanese": "努める",
+      "kana": "つとめる",
+      "romaji": "tsutomeru",
+      "tokens": [
+        {
+          "text": "努める",
+          "kana": "つとめる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "冲突，撞上；走到尽头；遇上，碰到（障碍、困难等）",
+      "japanese": "突き当たる",
+      "kana": "つきあたる",
+      "romaji": "tsukiataru",
+      "tokens": [
+        {
+          "text": "突き当たる",
+          "kana": "つきあたる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "加热；变热；热衷，激动",
+      "japanese": "熱する",
+      "kana": "ねっする",
+      "romaji": "nessuru",
+      "tokens": [
+        {
+          "text": "熱する",
+          "kana": "ねっする"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "收下；缴纳；收纳",
+      "japanese": "納める",
+      "kana": "おさめる",
+      "romaji": "osameru",
+      "tokens": [
+        {
+          "text": "納める",
+          "kana": "おさめる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "失败，败北",
+      "japanese": "敗れる",
+      "kana": "やぶれる",
+      "romaji": "yabureru",
+      "tokens": [
+        {
+          "text": "敗れる",
+          "kana": "やぶれる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "稀释，冲淡",
+      "japanese": "薄める",
+      "kana": "うすめる",
+      "romaji": "usumeru",
+      "tokens": [
+        {
+          "text": "薄める",
+          "kana": "うすめる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "迫近；强迫",
+      "japanese": "迫る",
+      "kana": "せまる",
+      "romaji": "semaru",
+      "tokens": [
+        {
+          "text": "迫る",
+          "kana": "せまる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "构思，想法；表达，表现",
+      "japanese": "発想",
+      "kana": "はっそう",
+      "romaji": "hassou",
+      "tokens": [
+        {
+          "text": "発想",
+          "kana": "はっそう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "与……相反；违反；违背",
+      "japanese": "反する",
+      "kana": "はんする",
+      "romaji": "hansuru",
+      "tokens": [
+        {
+          "text": "反する",
+          "kana": "はんする"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "躲避，避开",
+      "japanese": "避ける",
+      "kana": "さける",
+      "romaji": "sakeru",
+      "tokens": [
+        {
+          "text": "避ける",
+          "kana": "さける"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "准备；装备，设置；与生俱来",
+      "japanese": "備える",
+      "kana": "そなえる",
+      "romaji": "sonaeru",
+      "tokens": [
+        {
+          "text": "備える",
+          "kana": "そなえる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "抓住，逮住；捕捉，掌握",
+      "japanese": "捕らえる",
+      "kana": "とらえる",
+      "romaji": "toraeru",
+      "tokens": [
+        {
+          "text": "捕らえる",
+          "kana": "とらえる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "补充；弥补，补偿",
+      "japanese": "補う",
+      "kana": "おぎなう",
+      "romaji": "oginau",
+      "tokens": [
+        {
+          "text": "補う",
+          "kana": "おぎなう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "崩溃，崩塌；乱；变坏；换零钱",
+      "japanese": "崩れる",
+      "kana": "くずれる",
+      "romaji": "kuzureru",
+      "tokens": [
+        {
+          "text": "崩れる",
+          "kana": "くずれる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "抱着，夹（在腋下）；负担",
+      "japanese": "抱える",
+      "kana": "かかえる",
+      "romaji": "kakaeru",
+      "tokens": [
+        {
+          "text": "抱える",
+          "kana": "かかえる"
+        }
+      ]
+    }
+  ]
+}

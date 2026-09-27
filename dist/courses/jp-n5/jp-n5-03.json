@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-03",
+  "coursePackId": "jp-n5",
+  "title": "名词 3",
+  "order": 3,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "毛衣",
+      "japanese": "セーター",
+      "kana": "せえたあ",
+      "romaji": "seetaa",
+      "tokens": [
+        {
+          "text": "セーター",
+          "kana": "せえたあ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "（指代对方附近）那里；指刚才提及的事情或状态",
+      "japanese": "そこ",
+      "kana": "そこ",
+      "romaji": "soko",
+      "tokens": [
+        {
+          "text": "そこ",
+          "kana": "そこ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "（指代离对方近的事物）那里；指代对方或对方那边的人",
+      "japanese": "そちら",
+      "kana": "そちら",
+      "romaji": "sochira",
+      "tokens": [
+        {
+          "text": "そちら",
+          "kana": "そちら"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "那边；那个，那个人",
+      "japanese": "そっち",
+      "kana": "そっち",
+      "romaji": "sotchi",
+      "tokens": [
+        {
+          "text": "そっち",
+          "kana": "そっち"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "旁边，附近",
+      "japanese": "そば",
+      "kana": "そば",
+      "romaji": "soba",
+      "tokens": [
+        {
+          "text": "そば",
+          "kana": "そば"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（表示离对方近的东西）那个",
+      "japanese": "それ",
+      "kana": "それ",
+      "romaji": "sore",
+      "tokens": [
+        {
+          "text": "それ",
+          "kana": "それ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "许多，相当多",
+      "japanese": "たくさん",
+      "kana": "たくさん",
+      "romaji": "takusan",
+      "tokens": [
+        {
+          "text": "たくさん",
+          "kana": "たくさん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "出租车，的士",
+      "japanese": "タクシー",
+      "kana": "たくしい",
+      "romaji": "takushii",
+      "tokens": [
+        {
+          "text": "タクシー",
+          "kana": "たくしい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "免费；只；不过；普通",
+      "japanese": "ただ",
+      "kana": "ただ",
+      "romaji": "tada",
+      "tokens": [
+        {
+          "text": "ただ",
+          "kana": "ただ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "刚刚；现在；立刻；（ただいま）我回来了",
+      "japanese": "ただ今",
+      "kana": "ただいま",
+      "romaji": "tadaima",
+      "tokens": [
+        {
+          "text": "ただ今",
+          "kana": "ただいま"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "（西洋风格的）舞蹈",
+      "japanese": "ダンス",
+      "kana": "だんす",
+      "romaji": "dansu",
+      "tokens": [
+        {
+          "text": "ダンス",
+          "kana": "だんす"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "票",
+      "japanese": "チケット",
+      "kana": "ちけっと",
+      "romaji": "chiketto",
+      "tokens": [
+        {
+          "text": "チケット",
+          "kana": "ちけっと"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "巧克力",
+      "japanese": "チョコレート",
+      "kana": "ちょこれえと",
+      "romaji": "chokoreeto",
+      "tokens": [
+        {
+          "text": "チョコレート",
+          "kana": "ちょこれえと"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "桌子，饭桌；表格",
+      "japanese": "テーブル",
+      "kana": "てえぶる",
+      "romaji": "teeburu",
+      "tokens": [
+        {
+          "text": "テーブル",
+          "kana": "てえぶる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "教科书；文本",
+      "japanese": "テキスト",
+      "kana": "てきすと",
+      "romaji": "tekisuto",
+      "tokens": [
+        {
+          "text": "テキスト",
+          "kana": "てきすと"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "百货商店",
+      "japanese": "デパート",
+      "kana": "でぱあと",
+      "romaji": "depaato",
+      "tokens": [
+        {
+          "text": "デパート",
+          "kana": "でぱあと"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "电视",
+      "japanese": "テレビ",
+      "kana": "てれび",
+      "romaji": "terebi",
+      "tokens": [
+        {
+          "text": "テレビ",
+          "kana": "てれび"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（西式风格的）门",
+      "japanese": "ドア",
+      "kana": "どあ",
+      "romaji": "doa",
+      "tokens": [
+        {
+          "text": "ドア",
+          "kana": "どあ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "卫生间，厕所",
+      "japanese": "トイレ",
+      "kana": "といれ",
+      "romaji": "toire",
+      "tokens": [
+        {
+          "text": "トイレ",
+          "kana": "といれ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "哪里",
+      "japanese": "どこ",
+      "kana": "どこ",
+      "romaji": "doko",
+      "tokens": [
+        {
+          "text": "どこ",
+          "kana": "どこ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "哪里；哪个；哪位",
+      "japanese": "どちら",
+      "kana": "どちら",
+      "romaji": "dochira",
+      "tokens": [
+        {
+          "text": "どちら",
+          "kana": "どちら"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "哪边；哪个，哪个人",
+      "japanese": "どっち",
+      "kana": "どっち",
+      "romaji": "dotchi",
+      "tokens": [
+        {
+          "text": "どっち",
+          "kana": "どっち"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "谁，哪位",
+      "japanese": "どなた",
+      "kana": "どなた",
+      "romaji": "donata",
+      "tokens": [
+        {
+          "text": "どなた",
+          "kana": "どなた"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "哪一个",
+      "japanese": "どれ",
+      "kana": "どれ",
+      "romaji": "dore",
+      "tokens": [
+        {
+          "text": "どれ",
+          "kana": "どれ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "小刀；餐刀",
+      "japanese": "ナイフ",
+      "kana": "ないふ",
+      "romaji": "naifu",
+      "tokens": [
+        {
+          "text": "ナイフ",
+          "kana": "ないふ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "新闻",
+      "japanese": "ニュース",
+      "kana": "にゅうす",
+      "romaji": "nyuusu",
+      "tokens": [
+        {
+          "text": "ニュース",
+          "kana": "にゅうす"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "派对",
+      "japanese": "パーティー",
+      "kana": "ぱあてぃい",
+      "romaji": "paateii",
+      "tokens": [
+        {
+          "text": "パーティー",
+          "kana": "ぱあてぃい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "巴士，公交车",
+      "japanese": "バス",
+      "kana": "ばす",
+      "romaji": "basu",
+      "tokens": [
+        {
+          "text": "バス",
+          "kana": "ばす"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "香蕉",
+      "japanese": "バナナ",
+      "kana": "ばなな",
+      "romaji": "banana",
+      "tokens": [
+        {
+          "text": "バナナ",
+          "kana": "ばなな"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "面包",
+      "japanese": "パン",
+      "kana": "ぱん",
+      "romaji": "pan",
+      "tokens": [
+        {
+          "text": "パン",
+          "kana": "ぱん"
+        }
+      ]
+    }
+  ]
+}

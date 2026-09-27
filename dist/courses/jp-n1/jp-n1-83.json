@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-83",
+  "coursePackId": "jp-n1",
+  "title": "名词 83",
+  "order": 83,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "回顾，回忆，回想",
+      "japanese": "回顧",
+      "kana": "かいこ",
+      "romaji": "kaiko",
+      "tokens": [
+        {
+          "text": "回顧",
+          "kana": "かいこ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "蒸汽机车",
+      "japanese": "蒸気機関車",
+      "kana": "じょうききかんしゃ",
+      "romaji": "joukikikansha",
+      "tokens": [
+        {
+          "text": "蒸気機関車",
+          "kana": "じょうききかんしゃ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "滑起；开始",
+      "japanese": "滑り出し",
+      "kana": "すべりだし",
+      "romaji": "suberidashi",
+      "tokens": [
+        {
+          "text": "滑り出し",
+          "kana": "すべりだし"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "消费税",
+      "japanese": "消費税",
+      "kana": "しょうひぜい",
+      "romaji": "shouhizei",
+      "tokens": [
+        {
+          "text": "消費税",
+          "kana": "しょうひぜい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "沉淀，渣滓；无用的东西，人渣",
+      "japanese": "かす",
+      "kana": "かす",
+      "romaji": "kasu",
+      "tokens": [
+        {
+          "text": "かす",
+          "kana": "かす"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "大脑",
+      "japanese": "大脳",
+      "kana": "だいのう",
+      "romaji": "dainou",
+      "tokens": [
+        {
+          "text": "大脳",
+          "kana": "だいのう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "不懂装懂，冒充内行（的人）",
+      "japanese": "知ったかぶり",
+      "kana": "しったかぶり",
+      "romaji": "shittakaburi",
+      "tokens": [
+        {
+          "text": "知ったかぶり",
+          "kana": "しったかぶり"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "一般的说法，共同的论调",
+      "japanese": "通説",
+      "kana": "つうせつ",
+      "romaji": "tsuusetsu",
+      "tokens": [
+        {
+          "text": "通説",
+          "kana": "つうせつ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "文才，文学上的才能",
+      "japanese": "文才",
+      "kana": "ぶんさい",
+      "romaji": "bunsai",
+      "tokens": [
+        {
+          "text": "文才",
+          "kana": "ぶんさい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "换句话说",
+      "japanese": "換言",
+      "kana": "かんげん",
+      "romaji": "kangen",
+      "tokens": [
+        {
+          "text": "換言",
+          "kana": "かんげん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "既定",
+      "japanese": "既定",
+      "kana": "きてい",
+      "romaji": "kitei",
+      "tokens": [
+        {
+          "text": "既定",
+          "kana": "きてい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "老树，古树",
+      "japanese": "老木",
+      "kana": "ろうぼく",
+      "romaji": "rouboku",
+      "tokens": [
+        {
+          "text": "老木",
+          "kana": "ろうぼく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "趋势，形势，局势",
+      "japanese": "気運",
+      "kana": "きうん",
+      "romaji": "kiun",
+      "tokens": [
+        {
+          "text": "気運",
+          "kana": "きうん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "原始林；原生林",
+      "japanese": "原生林",
+      "kana": "げんせいりん",
+      "romaji": "genseirin",
+      "tokens": [
+        {
+          "text": "原生林",
+          "kana": "げんせいりん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "播种，撒播",
+      "japanese": "種まき",
+      "kana": "たねまき",
+      "romaji": "tanemaki",
+      "tokens": [
+        {
+          "text": "種まき",
+          "kana": "たねまき"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "脾气别扭（的人），性情乖僻（的人）",
+      "japanese": "天の 邪鬼[じゃく]",
+      "kana": "あまのじゃく",
+      "romaji": "amanojaku",
+      "tokens": [
+        {
+          "text": "天の 邪鬼[じゃく]",
+          "kana": "あまのじゃく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "渔场",
+      "japanese": "漁場",
+      "kana": "ぎょじょう",
+      "romaji": "gyojou",
+      "tokens": [
+        {
+          "text": "漁場",
+          "kana": "ぎょじょう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "被排挤（出去）的人，外人，异己分子",
+      "japanese": "のけ者",
+      "kana": "のけもの",
+      "romaji": "nokemono",
+      "tokens": [
+        {
+          "text": "のけ者",
+          "kana": "のけもの"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "现住址",
+      "japanese": "現住所",
+      "kana": "げんじゅうしょ",
+      "romaji": "genjuusho",
+      "tokens": [
+        {
+          "text": "現住所",
+          "kana": "げんじゅうしょ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "冬季草木枯萎的凄凉景象；冬天的淡季",
+      "japanese": "冬枯れ",
+      "kana": "ふゆがれ",
+      "romaji": "fuyugare",
+      "tokens": [
+        {
+          "text": "冬枯れ",
+          "kana": "ふゆがれ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "暗礁；意外的障碍",
+      "japanese": "暗礁",
+      "kana": "あんしょう",
+      "romaji": "anshou",
+      "tokens": [
+        {
+          "text": "暗礁",
+          "kana": "あんしょう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "助成，扶助，促进，推动",
+      "japanese": "助成",
+      "kana": "じょせい",
+      "romaji": "josei",
+      "tokens": [
+        {
+          "text": "助成",
+          "kana": "じょせい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "外来物种",
+      "japanese": "外来種",
+      "kana": "がいらいしゅ",
+      "romaji": "gairaishu",
+      "tokens": [
+        {
+          "text": "外来種",
+          "kana": "がいらいしゅ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "水墨画",
+      "japanese": "水墨画",
+      "kana": "すいぼくが",
+      "romaji": "suibokuga",
+      "tokens": [
+        {
+          "text": "水墨画",
+          "kana": "すいぼくが"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "文笔",
+      "japanese": "文筆",
+      "kana": "ぶんぴつ",
+      "romaji": "bunpitsu",
+      "tokens": [
+        {
+          "text": "文筆",
+          "kana": "ぶんぴつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "力点；重点，着重点",
+      "japanese": "力点",
+      "kana": "りきてん",
+      "romaji": "rikiten",
+      "tokens": [
+        {
+          "text": "力点",
+          "kana": "りきてん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "屈服，屈从，服从",
+      "japanese": "屈従",
+      "kana": "くつじゅう",
+      "romaji": "kutsujuu",
+      "tokens": [
+        {
+          "text": "屈従",
+          "kana": "くつじゅう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "梗概",
+      "japanese": "筋立て",
+      "kana": "すじだて",
+      "romaji": "sujidate",
+      "tokens": [
+        {
+          "text": "筋立て",
+          "kana": "すじだて"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "功罪",
+      "japanese": "功罪",
+      "kana": "こうざい",
+      "romaji": "kouzai",
+      "tokens": [
+        {
+          "text": "功罪",
+          "kana": "こうざい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "民主，民主主义",
+      "japanese": "デモクラシー",
+      "kana": "でもくらしい",
+      "romaji": "demokurashii",
+      "tokens": [
+        {
+          "text": "デモクラシー",
+          "kana": "でもくらしい"
+        }
+      ]
+    }
+  ]
+}

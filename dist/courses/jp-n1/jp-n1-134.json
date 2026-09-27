@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-134",
+  "coursePackId": "jp-n1",
+  "title": "副词 4",
+  "order": 134,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（并不）值得一提",
+      "japanese": "取り立てて",
+      "kana": "とりたてて",
+      "romaji": "toritatete",
+      "tokens": [
+        {
+          "text": "取り立てて",
+          "kana": "とりたてて"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "特别；故意",
+      "japanese": "殊更",
+      "kana": "ことさら",
+      "romaji": "kotosara",
+      "tokens": [
+        {
+          "text": "殊更",
+          "kana": "ことさら"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "总的来说",
+      "japanese": "総じて",
+      "kana": "そうじて",
+      "romaji": "soujite",
+      "tokens": [
+        {
+          "text": "総じて",
+          "kana": "そうじて"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "立即",
+      "japanese": "即刻",
+      "kana": "そっこく",
+      "romaji": "sokkoku",
+      "tokens": [
+        {
+          "text": "即刻",
+          "kana": "そっこく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "普遍，彻底，均匀，平均地",
+      "japanese": "満遍なく",
+      "kana": "まんべんなく",
+      "romaji": "manbennaku",
+      "tokens": [
+        {
+          "text": "満遍なく",
+          "kana": "まんべんなく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "光滑，滑润",
+      "japanese": "すべすべ",
+      "kana": "すべすべ",
+      "romaji": "subesube",
+      "tokens": [
+        {
+          "text": "すべすべ",
+          "kana": "すべすべ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "不平滑，凹凸不平；生硬，粗鲁",
+      "japanese": "ごつごつ",
+      "kana": "ごつごつ",
+      "romaji": "gotsugotsu",
+      "tokens": [
+        {
+          "text": "ごつごつ",
+          "kana": "ごつごつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "绝对，一定；决（不）",
+      "japanese": "断じて",
+      "kana": "だんじて",
+      "romaji": "danjite",
+      "tokens": [
+        {
+          "text": "断じて",
+          "kana": "だんじて"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "立刻，马上",
+      "japanese": "すかさず",
+      "kana": "すかさず",
+      "romaji": "sukasazu",
+      "tokens": [
+        {
+          "text": "すかさず",
+          "kana": "すかさず"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "最后，到底",
+      "japanese": "とことん",
+      "kana": "とことん",
+      "romaji": "tokoton",
+      "tokens": [
+        {
+          "text": "とことん",
+          "kana": "とことん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "真可惜；非常遗憾",
+      "japanese": "惜しくも",
+      "kana": "おしくも",
+      "romaji": "oshikumo",
+      "tokens": [
+        {
+          "text": "惜しくも",
+          "kana": "おしくも"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "怒上心头；闷得慌，熏得慌",
+      "japanese": "むっと",
+      "kana": "むっと",
+      "romaji": "mutto",
+      "tokens": [
+        {
+          "text": "むっと",
+          "kana": "むっと"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "何况，况且",
+      "japanese": "いわんや",
+      "kana": "いわんや",
+      "romaji": "iwan'ya",
+      "tokens": [
+        {
+          "text": "いわんや",
+          "kana": "いわんや"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "往往，每每，动不动（就）",
+      "japanese": "ともすると",
+      "kana": "ともすると",
+      "romaji": "tomosuruto",
+      "tokens": [
+        {
+          "text": "ともすると",
+          "kana": "ともすると"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "完全（不）；无论什么也（不）",
+      "japanese": "何にも",
+      "kana": "なんにも",
+      "romaji": "nannimo",
+      "tokens": [
+        {
+          "text": "何にも",
+          "kana": "なんにも"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "一点也不，做梦也（没想到……）",
+      "japanese": "夢にも",
+      "kana": "ゆめにも",
+      "romaji": "yumenimo",
+      "tokens": [
+        {
+          "text": "夢にも",
+          "kana": "ゆめにも"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "依次，一个接一个（全部）",
+      "japanese": "片っ端から",
+      "kana": "かたっぱしから",
+      "romaji": "katappashikara",
+      "tokens": [
+        {
+          "text": "片っ端から",
+          "kana": "かたっぱしから"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "当前，目前，目下，眼前",
+      "japanese": "差し当たり",
+      "kana": "さしあたり",
+      "romaji": "sashiatari",
+      "tokens": [
+        {
+          "text": "差し当たり",
+          "kana": "さしあたり"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "好不容易，勉强",
+      "japanese": "辛くも",
+      "kana": "からくも",
+      "romaji": "karakumo",
+      "tokens": [
+        {
+          "text": "辛くも",
+          "kana": "からくも"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "不痛快，不情愿，勉强",
+      "japanese": "渋々",
+      "kana": "しぶしぶ",
+      "romaji": "shibushibu",
+      "tokens": [
+        {
+          "text": "渋々",
+          "kana": "しぶしぶ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "哗啦哗啦；逐渐逼近；液体的量刚好浸没里面东西的样子",
+      "japanese": "ひたひた",
+      "kana": "ひたひた",
+      "romaji": "hitahita",
+      "tokens": [
+        {
+          "text": "ひたひた",
+          "kana": "ひたひた"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "想必，一定是",
+      "japanese": "さぞかし",
+      "kana": "さぞかし",
+      "romaji": "sazokashi",
+      "tokens": [
+        {
+          "text": "さぞかし",
+          "kana": "さぞかし"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "想来，我以为",
+      "japanese": "思うに",
+      "kana": "おもうに",
+      "romaji": "omouni",
+      "tokens": [
+        {
+          "text": "思うに",
+          "kana": "おもうに"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "到底，究竟",
+      "japanese": "一体全体",
+      "kana": "いったいぜんたい",
+      "romaji": "ittaizentai",
+      "tokens": [
+        {
+          "text": "一体全体",
+          "kana": "いったいぜんたい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "通例，惯例；照例，通常",
+      "japanese": "通例",
+      "kana": "つうれい",
+      "romaji": "tsuurei",
+      "tokens": [
+        {
+          "text": "通例",
+          "kana": "つうれい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "（从）心里，（打从）心眼里",
+      "japanese": "心底",
+      "kana": "しんそこ",
+      "romaji": "shinsoko",
+      "tokens": [
+        {
+          "text": "心底",
+          "kana": "しんそこ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "黏滑地",
+      "japanese": "ぬるぬる",
+      "kana": "ぬるぬる",
+      "romaji": "nurunuru",
+      "tokens": [
+        {
+          "text": "ぬるぬる",
+          "kana": "ぬるぬる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "马上，立刻，立即",
+      "japanese": "すぐさま",
+      "kana": "すぐさま",
+      "romaji": "sugusama",
+      "tokens": [
+        {
+          "text": "すぐさま",
+          "kana": "すぐさま"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "详细，详尽，仔细",
+      "japanese": "つぶさに",
+      "kana": "つぶさに",
+      "romaji": "tsubusani",
+      "tokens": [
+        {
+          "text": "つぶさに",
+          "kana": "つぶさに"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "勉勉强强，好歹",
+      "japanese": "曲がりなりにも",
+      "kana": "まがりなりにも",
+      "romaji": "magarinarinimo",
+      "tokens": [
+        {
+          "text": "曲がりなりにも",
+          "kana": "まがりなりにも"
+        }
+      ]
+    }
+  ]
+}

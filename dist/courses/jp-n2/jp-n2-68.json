@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-68",
+  "coursePackId": "jp-n2",
+  "title": "名词 68",
+  "order": 68,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "监修，主编（的人）",
+      "japanese": "監修",
+      "kana": "かんしゅう",
+      "romaji": "kanshuu",
+      "tokens": [
+        {
+          "text": "監修",
+          "kana": "かんしゅう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "结实，结果；收到效果",
+      "japanese": "結実",
+      "kana": "けつじつ",
+      "romaji": "ketsujitsu",
+      "tokens": [
+        {
+          "text": "結実",
+          "kana": "けつじつ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "（动物）夜行性",
+      "japanese": "夜行性",
+      "kana": "やこうせい",
+      "romaji": "yakousei",
+      "tokens": [
+        {
+          "text": "夜行性",
+          "kana": "やこうせい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "菠萝，凤梨",
+      "japanese": "パイナップル",
+      "kana": "ぱいなっぷる",
+      "romaji": "painappuru",
+      "tokens": [
+        {
+          "text": "パイナップル",
+          "kana": "ぱいなっぷる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "夏期，暑期",
+      "japanese": "夏期",
+      "kana": "かき",
+      "romaji": "kaki",
+      "tokens": [
+        {
+          "text": "夏期",
+          "kana": "かき"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "作品的风格",
+      "japanese": "作風",
+      "kana": "さくふう",
+      "romaji": "sakufuu",
+      "tokens": [
+        {
+          "text": "作風",
+          "kana": "さくふう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "道旁的草；中途耽搁，路上闲逛",
+      "japanese": "道草",
+      "kana": "みちくさ",
+      "romaji": "michikusa",
+      "tokens": [
+        {
+          "text": "道草",
+          "kana": "みちくさ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "休眠；暂时停顿",
+      "japanese": "休眠",
+      "kana": "きゅうみん",
+      "romaji": "kyuumin",
+      "tokens": [
+        {
+          "text": "休眠",
+          "kana": "きゅうみん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "精髓，真髓，蕴奥",
+      "japanese": "神髄",
+      "kana": "しんずい",
+      "romaji": "shinzui",
+      "tokens": [
+        {
+          "text": "神髄",
+          "kana": "しんずい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "绒毛",
+      "japanese": "綿毛",
+      "kana": "わたげ",
+      "romaji": "watage",
+      "tokens": [
+        {
+          "text": "綿毛",
+          "kana": "わたげ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "掌舵（的人）；领导，指挥（的人）",
+      "japanese": "舵[かじ]取り",
+      "kana": "かじとり",
+      "romaji": "kajitori",
+      "tokens": [
+        {
+          "text": "舵[かじ]取り",
+          "kana": "かじとり"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "红绿灯",
+      "japanese": "信号機",
+      "kana": "しんごうき",
+      "romaji": "shingouki",
+      "tokens": [
+        {
+          "text": "信号機",
+          "kana": "しんごうき"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "擦肩而过，偶然路过；仅限当下",
+      "japanese": "行きずり",
+      "kana": "ゆきずり",
+      "romaji": "yukizuri",
+      "tokens": [
+        {
+          "text": "行きずり",
+          "kana": "ゆきずり"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "信号；红绿灯，信号机",
+      "japanese": "シグナル",
+      "kana": "しぐなる",
+      "romaji": "shigunaru",
+      "tokens": [
+        {
+          "text": "シグナル",
+          "kana": "しぐなる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "生产者",
+      "japanese": "生産者",
+      "kana": "せいさんしゃ",
+      "romaji": "seisansha",
+      "tokens": [
+        {
+          "text": "生産者",
+          "kana": "せいさんしゃ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "家庭支柱；能手，能干的人",
+      "japanese": "働き手",
+      "kana": "はたらきて",
+      "romaji": "hatarakite",
+      "tokens": [
+        {
+          "text": "働き手",
+          "kana": "はたらきて"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "虚荣",
+      "japanese": "虚栄",
+      "kana": "きょえい",
+      "romaji": "kyoei",
+      "tokens": [
+        {
+          "text": "虚栄",
+          "kana": "きょえい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "初秋，早秋",
+      "japanese": "初秋",
+      "kana": "しょしゅう",
+      "romaji": "shoshuu",
+      "tokens": [
+        {
+          "text": "初秋",
+          "kana": "しょしゅう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "快步",
+      "japanese": "早足",
+      "kana": "はやあし",
+      "romaji": "hayaashi",
+      "tokens": [
+        {
+          "text": "早足",
+          "kana": "はやあし"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "讲话的人；剧情解说人",
+      "japanese": "語り手",
+      "kana": "かたりて",
+      "romaji": "katarite",
+      "tokens": [
+        {
+          "text": "語り手",
+          "kana": "かたりて"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "好恶，爱憎",
+      "japanese": "好悪",
+      "kana": "こうお",
+      "romaji": "kouo",
+      "tokens": [
+        {
+          "text": "好悪",
+          "kana": "こうお"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "论战，论争，辩论",
+      "japanese": "論戦",
+      "kana": "ろんせん",
+      "romaji": "ronsen",
+      "tokens": [
+        {
+          "text": "論戦",
+          "kana": "ろんせん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "实习美容师，实习医生；（「インターンシップ」の略）实习（生）",
+      "japanese": "インターン",
+      "kana": "いんたあん",
+      "romaji": "intaan",
+      "tokens": [
+        {
+          "text": "インターン",
+          "kana": "いんたあん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "互相拉扯；引证，举例；交易，（交易前）询价",
+      "japanese": "引き合い",
+      "kana": "ひきあい",
+      "romaji": "hikiai",
+      "tokens": [
+        {
+          "text": "引き合い",
+          "kana": "ひきあい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "各位",
+      "japanese": "各位",
+      "kana": "かくい",
+      "romaji": "kakui",
+      "tokens": [
+        {
+          "text": "各位",
+          "kana": "かくい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "植树造林",
+      "japanese": "植林",
+      "kana": "しょくりん",
+      "romaji": "shokurin",
+      "tokens": [
+        {
+          "text": "植林",
+          "kana": "しょくりん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "粉剂，散剂，药面",
+      "japanese": "粉薬",
+      "kana": "こなぐすり",
+      "romaji": "konagusuri",
+      "tokens": [
+        {
+          "text": "粉薬",
+          "kana": "こなぐすり"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "发芽；萌芽",
+      "japanese": "芽生え",
+      "kana": "めばえ",
+      "romaji": "mebae",
+      "tokens": [
+        {
+          "text": "芽生え",
+          "kana": "めばえ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "记录，笔记",
+      "japanese": "覚え書き",
+      "kana": "おぼえがき",
+      "romaji": "oboegaki",
+      "tokens": [
+        {
+          "text": "覚え書き",
+          "kana": "おぼえがき"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "阔叶树",
+      "japanese": "広葉樹",
+      "kana": "こうようじゅ",
+      "romaji": "kouyouju",
+      "tokens": [
+        {
+          "text": "広葉樹",
+          "kana": "こうようじゅ"
+        }
+      ]
+    }
+  ]
+}

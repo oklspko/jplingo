@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-20",
+  "coursePackId": "jp-n1",
+  "title": "名词 20",
+  "order": 20,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "派遣",
+      "japanese": "派遣",
+      "kana": "はけん",
+      "romaji": "haken",
+      "tokens": [
+        {
+          "text": "派遣",
+          "kana": "はけん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "（谦让语）借",
+      "japanese": "拝借",
+      "kana": "はいしゃく",
+      "romaji": "haishaku",
+      "tokens": [
+        {
+          "text": "拝借",
+          "kana": "はいしゃく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "排除，除掉",
+      "japanese": "排除",
+      "kana": "はいじょ",
+      "romaji": "haijo",
+      "tokens": [
+        {
+          "text": "排除",
+          "kana": "はいじょ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "排水",
+      "japanese": "排水",
+      "kana": "はいすい",
+      "romaji": "haisui",
+      "tokens": [
+        {
+          "text": "排水",
+          "kana": "はいすい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "打动人心的力量，感染力",
+      "japanese": "迫力",
+      "kana": "はくりょく",
+      "romaji": "hakuryoku",
+      "tokens": [
+        {
+          "text": "迫力",
+          "kana": "はくりょく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "发信，发报",
+      "japanese": "発信",
+      "kana": "はっしん",
+      "romaji": "hasshin",
+      "tokens": [
+        {
+          "text": "発信",
+          "kana": "はっしん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "判定，作出评判",
+      "japanese": "判定",
+      "kana": "はんてい",
+      "romaji": "hantei",
+      "tokens": [
+        {
+          "text": "判定",
+          "kana": "はんてい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "繁荣",
+      "japanese": "繁栄",
+      "kana": "はんえい",
+      "romaji": "han'ei",
+      "tokens": [
+        {
+          "text": "繁栄",
+          "kana": "はんえい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "繁殖",
+      "japanese": "繁殖",
+      "kana": "はんしょく",
+      "romaji": "hanshoku",
+      "tokens": [
+        {
+          "text": "繁殖",
+          "kana": "はんしょく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "披露，公布，展示",
+      "japanese": "披露",
+      "kana": "ひろう",
+      "romaji": "hirou",
+      "tokens": [
+        {
+          "text": "披露",
+          "kana": "ひろう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "不……，没有……；错误，缺点，不对，不好",
+      "japanese": "非",
+      "kana": "ひ",
+      "romaji": "hi",
+      "tokens": [
+        {
+          "text": "非",
+          "kana": "ひ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "品种；种类",
+      "japanese": "品種",
+      "kana": "ひんしゅ",
+      "romaji": "hinshu",
+      "tokens": [
+        {
+          "text": "品種",
+          "kana": "ひんしゅ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "湖边，海滨",
+      "japanese": "浜辺",
+      "kana": "はまべ",
+      "romaji": "hamabe",
+      "tokens": [
+        {
+          "text": "浜辺",
+          "kana": "はまべ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "贫困；贫乏",
+      "japanese": "貧困",
+      "kana": "ひんこん",
+      "romaji": "hinkon",
+      "tokens": [
+        {
+          "text": "貧困",
+          "kana": "ひんこん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "不确定",
+      "japanese": "不確定",
+      "kana": "ふかくてい",
+      "romaji": "fukakutei",
+      "tokens": [
+        {
+          "text": "不確定",
+          "kana": "ふかくてい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "经济不景气，萧条",
+      "japanese": "不況",
+      "kana": "ふきょう",
+      "romaji": "fukyou",
+      "tokens": [
+        {
+          "text": "不況",
+          "kana": "ふきょう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "不景气，经济萧条；愁眉不展，忧郁",
+      "japanese": "不景気",
+      "kana": "ふけいき",
+      "romaji": "fukeiki",
+      "tokens": [
+        {
+          "text": "不景気",
+          "kana": "ふけいき"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "负；负极；背负；输",
+      "japanese": "負",
+      "kana": "ふ",
+      "romaji": "fu",
+      "tokens": [
+        {
+          "text": "負",
+          "kana": "ふ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "负伤，受伤",
+      "japanese": "負傷",
+      "kana": "ふしょう",
+      "romaji": "fushou",
+      "tokens": [
+        {
+          "text": "負傷",
+          "kana": "ふしょう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "风俗习惯",
+      "japanese": "風習",
+      "kana": "ふうしゅう",
+      "romaji": "fuushuu",
+      "tokens": [
+        {
+          "text": "風習",
+          "kana": "ふうしゅう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "风土，水土",
+      "japanese": "風土",
+      "kana": "ふうど",
+      "romaji": "fuudo",
+      "tokens": [
+        {
+          "text": "風土",
+          "kana": "ふうど"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "复原，恢复原状",
+      "japanese": "復旧",
+      "kana": "ふっきゅう",
+      "romaji": "fukkyuu",
+      "tokens": [
+        {
+          "text": "復旧",
+          "kana": "ふっきゅう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "遗失，丢失",
+      "japanese": "紛失",
+      "kana": "ふんしつ",
+      "romaji": "funshitsu",
+      "tokens": [
+        {
+          "text": "紛失",
+          "kana": "ふんしつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "纷争，纠纷",
+      "japanese": "紛争",
+      "kana": "ふんそう",
+      "romaji": "funsou",
+      "tokens": [
+        {
+          "text": "紛争",
+          "kana": "ふんそう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "受不了，难以应付",
+      "japanese": "閉口",
+      "kana": "へいこう",
+      "romaji": "heikou",
+      "tokens": [
+        {
+          "text": "閉口",
+          "kana": "へいこう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "关闭，封锁",
+      "japanese": "閉鎖",
+      "kana": "へいさ",
+      "romaji": "heisa",
+      "tokens": [
+        {
+          "text": "閉鎖",
+          "kana": "へいさ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "变革，改革",
+      "japanese": "変革",
+      "kana": "へんかく",
+      "romaji": "henkaku",
+      "tokens": [
+        {
+          "text": "変革",
+          "kana": "へんかく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "变动，动荡",
+      "japanese": "変動",
+      "kana": "へんどう",
+      "romaji": "hendou",
+      "tokens": [
+        {
+          "text": "変動",
+          "kana": "へんどう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "单侧，一侧",
+      "japanese": "片側",
+      "kana": "かたがわ",
+      "romaji": "katagawa",
+      "tokens": [
+        {
+          "text": "片側",
+          "kana": "かたがわ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "辩论；辩护",
+      "japanese": "弁論",
+      "kana": "べんろん",
+      "romaji": "benron",
+      "tokens": [
+        {
+          "text": "弁論",
+          "kana": "べんろん"
+        }
+      ]
+    }
+  ]
+}

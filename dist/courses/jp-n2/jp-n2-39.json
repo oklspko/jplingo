@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-39",
+  "coursePackId": "jp-n2",
+  "title": "名词 39",
+  "order": 39,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "脂肪",
+      "japanese": "脂肪",
+      "kana": "しぼう",
+      "romaji": "shibou",
+      "tokens": [
+        {
+          "text": "脂肪",
+          "kana": "しぼう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "视野，眼界",
+      "japanese": "視界",
+      "kana": "しかい",
+      "romaji": "shikai",
+      "tokens": [
+        {
+          "text": "視界",
+          "kana": "しかい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "视线",
+      "japanese": "視線",
+      "kana": "しせん",
+      "romaji": "shisen",
+      "tokens": [
+        {
+          "text": "視線",
+          "kana": "しせん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "百科辞典，事典",
+      "japanese": "事典",
+      "kana": "じてん",
+      "romaji": "jiten",
+      "tokens": [
+        {
+          "text": "事典",
+          "kana": "じてん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "事情（的状态、内容等）",
+      "japanese": "事柄",
+      "kana": "ことがら",
+      "romaji": "kotogara",
+      "tokens": [
+        {
+          "text": "事柄",
+          "kana": "ことがら"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "时间点",
+      "japanese": "時点",
+      "kana": "じてん",
+      "romaji": "jiten",
+      "tokens": [
+        {
+          "text": "時点",
+          "kana": "じてん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "自知；觉悟",
+      "japanese": "自覚",
+      "kana": "じかく",
+      "romaji": "jikaku",
+      "tokens": [
+        {
+          "text": "自覚",
+          "kana": "じかく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "推辞，谢绝",
+      "japanese": "辞退",
+      "kana": "じたい",
+      "romaji": "jitai",
+      "tokens": [
+        {
+          "text": "辞退",
+          "kana": "じたい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "实践",
+      "japanese": "実践",
+      "kana": "じっせん",
+      "romaji": "jissen",
+      "tokens": [
+        {
+          "text": "実践",
+          "kana": "じっせん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "实态，实际情况",
+      "japanese": "実態",
+      "kana": "じったい",
+      "romaji": "jittai",
+      "tokens": [
+        {
+          "text": "実態",
+          "kana": "じったい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "主观",
+      "japanese": "主観",
+      "kana": "しゅかん",
+      "romaji": "shukan",
+      "tokens": [
+        {
+          "text": "主観",
+          "kana": "しゅかん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "字帖，画帖；模范，榜样",
+      "japanese": "手本",
+      "kana": "てほん",
+      "romaji": "tehon",
+      "tokens": [
+        {
+          "text": "手本",
+          "kana": "てほん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "充实",
+      "japanese": "充実",
+      "kana": "じゅうじつ",
+      "romaji": "juujitsu",
+      "tokens": [
+        {
+          "text": "充実",
+          "kana": "じゅうじつ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "过去，以往",
+      "japanese": "従来",
+      "kana": "じゅうらい",
+      "romaji": "juurai",
+      "tokens": [
+        {
+          "text": "従来",
+          "kana": "じゅうらい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "出现，显现出来",
+      "japanese": "出現",
+      "kana": "しゅつげん",
+      "romaji": "shutsugen",
+      "tokens": [
+        {
+          "text": "出現",
+          "kana": "しゅつげん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "出生，诞生",
+      "japanese": "出生",
+      "kana": "しゅっしょう",
+      "romaji": "shusshou",
+      "tokens": [
+        {
+          "text": "出生",
+          "kana": "しゅっしょう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "顺序",
+      "japanese": "順",
+      "kana": "じゅん",
+      "romaji": "jun",
+      "tokens": [
+        {
+          "text": "順",
+          "kana": "じゅん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "初期",
+      "japanese": "初期",
+      "kana": "しょき",
+      "romaji": "shoki",
+      "tokens": [
+        {
+          "text": "初期",
+          "kana": "しょき"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "所属，从属于",
+      "japanese": "所属",
+      "kana": "しょぞく",
+      "romaji": "shozoku",
+      "tokens": [
+        {
+          "text": "所属",
+          "kana": "しょぞく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "书名",
+      "japanese": "書名",
+      "kana": "しょめい",
+      "romaji": "shomei",
+      "tokens": [
+        {
+          "text": "書名",
+          "kana": "しょめい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "腐烂；损坏",
+      "japanese": "傷み",
+      "kana": "いたみ",
+      "romaji": "itami",
+      "tokens": [
+        {
+          "text": "傷み",
+          "kana": "いたみ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "小儿科",
+      "japanese": "小児科",
+      "kana": "しょうにか",
+      "romaji": "shounika",
+      "tokens": [
+        {
+          "text": "小児科",
+          "kana": "しょうにか"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "少子化",
+      "japanese": "少子化",
+      "kana": "しょうしか",
+      "romaji": "shoushika",
+      "tokens": [
+        {
+          "text": "少子化",
+          "kana": "しょうしか"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "照明，灯光",
+      "japanese": "照明",
+      "kana": "しょうめい",
+      "romaji": "shoumei",
+      "tokens": [
+        {
+          "text": "照明",
+          "kana": "しょうめい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "证据",
+      "japanese": "証拠",
+      "kana": "しょうこ",
+      "romaji": "shouko",
+      "tokens": [
+        {
+          "text": "証拠",
+          "kana": "しょうこ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "象征",
+      "japanese": "象徴",
+      "kana": "しょうちょう",
+      "romaji": "shouchou",
+      "tokens": [
+        {
+          "text": "象徴",
+          "kana": "しょうちょう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "上述，上面所列举",
+      "japanese": "上記",
+      "kana": "じょうき",
+      "romaji": "jouki",
+      "tokens": [
+        {
+          "text": "上記",
+          "kana": "じょうき"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "上升，升高",
+      "japanese": "上昇",
+      "kana": "じょうしょう",
+      "romaji": "joushou",
+      "tokens": [
+        {
+          "text": "上昇",
+          "kana": "じょうしょう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "职业；职务；手艺",
+      "japanese": "職",
+      "kana": "しょく",
+      "romaji": "shoku",
+      "tokens": [
+        {
+          "text": "職",
+          "kana": "しょく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "饮食生活",
+      "japanese": "食生活",
+      "kana": "しょくせいかつ",
+      "romaji": "shokuseikatsu",
+      "tokens": [
+        {
+          "text": "食生活",
+          "kana": "しょくせいかつ"
+        }
+      ]
+    }
+  ]
+}

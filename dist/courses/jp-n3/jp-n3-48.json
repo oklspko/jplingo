@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-48",
+  "coursePackId": "jp-n3",
+  "title": "动词 6",
+  "order": 48,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "等候，碰头，会面，约定",
+      "japanese": "待ち合わせる",
+      "kana": "まちあわせる",
+      "romaji": "machiawaseru",
+      "tokens": [
+        {
+          "text": "待ち合わせる",
+          "kana": "まちあわせる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "流入；倒入；灌注，倾注",
+      "japanese": "注ぐ",
+      "kana": "そそぐ",
+      "romaji": "sosogu",
+      "tokens": [
+        {
+          "text": "注ぐ",
+          "kana": "そそぐ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "眺望；盯着看",
+      "japanese": "眺める",
+      "kana": "ながめる",
+      "romaji": "nagameru",
+      "tokens": [
+        {
+          "text": "眺める",
+          "kana": "ながめる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "下沉；郁闷",
+      "japanese": "沈む",
+      "kana": "しずむ",
+      "romaji": "shizumu",
+      "tokens": [
+        {
+          "text": "沈む",
+          "kana": "しずむ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "追赶，追求；赶走",
+      "japanese": "追う",
+      "kana": "おう",
+      "romaji": "ou",
+      "tokens": [
+        {
+          "text": "追う",
+          "kana": "おう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "疼痛；痛苦",
+      "japanese": "痛む",
+      "kana": "いたむ",
+      "romaji": "itamu",
+      "tokens": [
+        {
+          "text": "痛む",
+          "kana": "いたむ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "系紧，勒紧；节约",
+      "japanese": "締める",
+      "kana": "しめる",
+      "romaji": "shimeru",
+      "tokens": [
+        {
+          "text": "締める",
+          "kana": "しめる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "放弃，死心",
+      "japanese": "諦める",
+      "kana": "あきらめる",
+      "romaji": "akirameru",
+      "tokens": [
+        {
+          "text": "諦める",
+          "kana": "あきらめる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "点着；（灯）开着",
+      "japanese": "点[つ]く",
+      "kana": "つく",
+      "romaji": "tsuku",
+      "tokens": [
+        {
+          "text": "点[つ]く",
+          "kana": "つく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "吐；呕吐；冒出；吐露",
+      "japanese": "吐く",
+      "kana": "はく",
+      "romaji": "haku",
+      "tokens": [
+        {
+          "text": "吐く",
+          "kana": "はく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "大声喊叫；大声训斥",
+      "japanese": "怒鳴る",
+      "kana": "どなる",
+      "romaji": "donaru",
+      "tokens": [
+        {
+          "text": "怒鳴る",
+          "kana": "どなる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "结冰",
+      "japanese": "凍る",
+      "kana": "こおる",
+      "romaji": "kooru",
+      "tokens": [
+        {
+          "text": "凍る",
+          "kana": "こおる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "憧憬，向往",
+      "japanese": "憧れる",
+      "kana": "あこがれる",
+      "romaji": "akogareru",
+      "tokens": [
+        {
+          "text": "憧れる",
+          "kana": "あこがれる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "得到；能够",
+      "japanese": "得る",
+      "kana": "える",
+      "romaji": "eru",
+      "tokens": [
+        {
+          "text": "得る",
+          "kana": "える"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "烦恼，苦恼；（因疾病）感到痛苦",
+      "japanese": "悩む",
+      "kana": "なやむ",
+      "romaji": "nayamu",
+      "tokens": [
+        {
+          "text": "悩む",
+          "kana": "なやむ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "撕裂，弄破；损坏；违规；破（纪录）",
+      "japanese": "破る",
+      "kana": "やぶる",
+      "romaji": "yaburu",
+      "tokens": [
+        {
+          "text": "破る",
+          "kana": "やぶる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "撕破；打破；决裂",
+      "japanese": "破れる",
+      "kana": "やぶれる",
+      "romaji": "yabureru",
+      "tokens": [
+        {
+          "text": "破れる",
+          "kana": "やぶれる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "全部售完",
+      "japanese": "売り切れる",
+      "kana": "うりきれる",
+      "romaji": "urikireru",
+      "tokens": [
+        {
+          "text": "売り切れる",
+          "kana": "うりきれる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "剥",
+      "japanese": "剝[む]く",
+      "kana": "むく",
+      "romaji": "muku",
+      "tokens": [
+        {
+          "text": "剝[む]く",
+          "kana": "むく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "留人住下；让船进港",
+      "japanese": "泊める",
+      "kana": "とめる",
+      "romaji": "tomeru",
+      "tokens": [
+        {
+          "text": "泊める",
+          "kana": "とめる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "漏掉；脱落",
+      "japanese": "抜ける",
+      "kana": "ぬける",
+      "romaji": "nukeru",
+      "tokens": [
+        {
+          "text": "抜ける",
+          "kana": "ぬける"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "飞出，跑出；突然出现；鼓出，突出",
+      "japanese": "飛び出す",
+      "kana": "とびだす",
+      "romaji": "tobidasu",
+      "tokens": [
+        {
+          "text": "飛び出す",
+          "kana": "とびだす"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "画；描写；想象",
+      "japanese": "描く",
+      "kana": "えがく",
+      "romaji": "egaku",
+      "tokens": [
+        {
+          "text": "描く",
+          "kana": "えがく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "画",
+      "japanese": "描く",
+      "kana": "かく",
+      "romaji": "kaku",
+      "tokens": [
+        {
+          "text": "描く",
+          "kana": "かく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "交往；陪同",
+      "japanese": "付き合う",
+      "kana": "つきあう",
+      "romaji": "tsukiau",
+      "tokens": [
+        {
+          "text": "付き合う",
+          "kana": "つきあう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "抱；怀有",
+      "japanese": "抱く",
+      "kana": "いだく",
+      "romaji": "idaku",
+      "tokens": [
+        {
+          "text": "抱く",
+          "kana": "いだく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "抱，搂",
+      "japanese": "抱く",
+      "kana": "だく",
+      "romaji": "daku",
+      "tokens": [
+        {
+          "text": "抱く",
+          "kana": "だく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "抛；丢开，放弃",
+      "japanese": "放る",
+      "kana": "ほうる",
+      "romaji": "houru",
+      "tokens": [
+        {
+          "text": "放る",
+          "kana": "ほうる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "厌烦，厌倦",
+      "japanese": "飽きる",
+      "kana": "あきる",
+      "romaji": "akiru",
+      "tokens": [
+        {
+          "text": "飽きる",
+          "kana": "あきる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "防御；阻挡；预防",
+      "japanese": "防ぐ",
+      "kana": "ふせぐ",
+      "romaji": "fusegu",
+      "tokens": [
+        {
+          "text": "防ぐ",
+          "kana": "ふせぐ"
+        }
+      ]
+    }
+  ]
+}

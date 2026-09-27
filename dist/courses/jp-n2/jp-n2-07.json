@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-07",
+  "coursePackId": "jp-n2",
+  "title": "名词 7",
+  "order": 7,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "义务，本分",
+      "japanese": "義務",
+      "kana": "ぎむ",
+      "romaji": "gimu",
+      "tokens": [
+        {
+          "text": "義務",
+          "kana": "ぎむ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "议员",
+      "japanese": "議員",
+      "kana": "ぎいん",
+      "romaji": "giin",
+      "tokens": [
+        {
+          "text": "議員",
+          "kana": "ぎいん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "议论，讨论",
+      "japanese": "議論",
+      "kana": "ぎろん",
+      "romaji": "giron",
+      "tokens": [
+        {
+          "text": "議論",
+          "kana": "ぎろん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "工作单位或学校等的休假，多指星期日或假日以外的休息",
+      "japanese": "休暇",
+      "kana": "きゅうか",
+      "romaji": "kyuuka",
+      "tokens": [
+        {
+          "text": "休暇",
+          "kana": "きゅうか"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "休息，歇",
+      "japanese": "休憩",
+      "kana": "きゅうけい",
+      "romaji": "kyuukei",
+      "tokens": [
+        {
+          "text": "休憩",
+          "kana": "きゅうけい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "打瞌睡，打盹",
+      "japanese": "居眠り",
+      "kana": "いねむり",
+      "romaji": "inemuri",
+      "tokens": [
+        {
+          "text": "居眠り",
+          "kana": "いねむり"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "许可，允许",
+      "japanese": "許可",
+      "kana": "きょか",
+      "romaji": "kyoka",
+      "tokens": [
+        {
+          "text": "許可",
+          "kana": "きょか"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "体育比赛",
+      "japanese": "競技",
+      "kana": "きょうぎ",
+      "romaji": "kyougi",
+      "tokens": [
+        {
+          "text": "競技",
+          "kana": "きょうぎ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "强调",
+      "japanese": "強調",
+      "kana": "きょうちょう",
+      "romaji": "kyouchou",
+      "tokens": [
+        {
+          "text": "強調",
+          "kana": "きょうちょう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "（表示客气或谢意）对不起，过意不去",
+      "japanese": "恐縮",
+      "kana": "きょうしゅく",
+      "romaji": "kyoushuku",
+      "tokens": [
+        {
+          "text": "恐縮",
+          "kana": "きょうしゅく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "教材",
+      "japanese": "教材",
+      "kana": "きょうざい",
+      "romaji": "kyouzai",
+      "tokens": [
+        {
+          "text": "教材",
+          "kana": "きょうざい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "教；教授",
+      "japanese": "教授",
+      "kana": "きょうじゅ",
+      "romaji": "kyouju",
+      "tokens": [
+        {
+          "text": "教授",
+          "kana": "きょうじゅ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "近代；现代",
+      "japanese": "近代",
+      "kana": "きんだい",
+      "romaji": "kindai",
+      "tokens": [
+        {
+          "text": "近代",
+          "kana": "きんだい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "近几年",
+      "japanese": "近年",
+      "kana": "きんねん",
+      "romaji": "kinnen",
+      "tokens": [
+        {
+          "text": "近年",
+          "kana": "きんねん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "金额",
+      "japanese": "金額",
+      "kana": "きんがく",
+      "romaji": "kingaku",
+      "tokens": [
+        {
+          "text": "金額",
+          "kana": "きんがく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "金属",
+      "japanese": "金属",
+      "kana": "きんぞく",
+      "romaji": "kinzoku",
+      "tokens": [
+        {
+          "text": "金属",
+          "kana": "きんぞく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "倾向，趋势",
+      "japanese": "傾向",
+      "kana": "けいこう",
+      "romaji": "keikou",
+      "tokens": [
+        {
+          "text": "傾向",
+          "kana": "けいこう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "契约，合同",
+      "japanese": "契約",
+      "kana": "けいやく",
+      "romaji": "keiyaku",
+      "tokens": [
+        {
+          "text": "契約",
+          "kana": "けいやく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "形式；方式；徒具形式",
+      "japanese": "形式",
+      "kana": "けいしき",
+      "romaji": "keishiki",
+      "tokens": [
+        {
+          "text": "形式",
+          "kana": "けいしき"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "敬意",
+      "japanese": "敬意",
+      "kana": "けいい",
+      "romaji": "keii",
+      "tokens": [
+        {
+          "text": "敬意",
+          "kana": "けいい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "景气；繁荣",
+      "japanese": "景気",
+      "kana": "けいき",
+      "romaji": "keiki",
+      "tokens": [
+        {
+          "text": "景気",
+          "kana": "けいき"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "警备，警戒",
+      "japanese": "警備",
+      "kana": "けいび",
+      "romaji": "keibi",
+      "tokens": [
+        {
+          "text": "警備",
+          "kana": "けいび"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "缝隙；闲暇",
+      "japanese": "隙間",
+      "kana": "すきま",
+      "romaji": "sukima",
+      "tokens": [
+        {
+          "text": "隙間",
+          "kana": "すきま"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "研究，培训",
+      "japanese": "研修",
+      "kana": "けんしゅう",
+      "romaji": "kenshuu",
+      "tokens": [
+        {
+          "text": "研修",
+          "kana": "けんしゅう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "丝绸",
+      "japanese": "絹",
+      "kana": "きぬ",
+      "romaji": "kinu",
+      "tokens": [
+        {
+          "text": "絹",
+          "kana": "きぬ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "原稿，底稿",
+      "japanese": "原稿",
+      "kana": "げんこう",
+      "romaji": "genkou",
+      "tokens": [
+        {
+          "text": "原稿",
+          "kana": "げんこう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "现实",
+      "japanese": "現実",
+      "kana": "げんじつ",
+      "romaji": "genjitsu",
+      "tokens": [
+        {
+          "text": "現実",
+          "kana": "げんじつ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "现象",
+      "japanese": "現象",
+      "kana": "げんしょう",
+      "romaji": "genshou",
+      "tokens": [
+        {
+          "text": "現象",
+          "kana": "げんしょう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "现状",
+      "japanese": "現状",
+      "kana": "げんじょう",
+      "romaji": "genjou",
+      "tokens": [
+        {
+          "text": "現状",
+          "kana": "げんじょう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "现代，如今，当代",
+      "japanese": "現代",
+      "kana": "げんだい",
+      "romaji": "gendai",
+      "tokens": [
+        {
+          "text": "現代",
+          "kana": "げんだい"
+        }
+      ]
+    }
+  ]
+}

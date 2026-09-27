@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-05",
+  "coursePackId": "jp-n2",
+  "title": "名词 5",
+  "order": 5,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "模式，式样；图案",
+      "japanese": "パターン",
+      "kana": "ぱたあん",
+      "romaji": "pataan",
+      "tokens": [
+        {
+          "text": "パターン",
+          "kana": "ぱたあん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "流行，时髦；（疾病）流行",
+      "japanese": "流行[はや]り",
+      "kana": "はやり",
+      "romaji": "hayari",
+      "tokens": [
+        {
+          "text": "流行[はや]り",
+          "kana": "はやり"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "平衡",
+      "japanese": "バランス",
+      "kana": "ばらんす",
+      "romaji": "baransu",
+      "tokens": [
+        {
+          "text": "バランス",
+          "kana": "ばらんす"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "计划，方案",
+      "japanese": "プラン",
+      "kana": "ぷらん",
+      "romaji": "puran",
+      "tokens": [
+        {
+          "text": "プラン",
+          "kana": "ぷらん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "大厅；会场",
+      "japanese": "ホール",
+      "kana": "ほうる",
+      "romaji": "houru",
+      "tokens": [
+        {
+          "text": "ホール",
+          "kana": "ほうる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "壶；热水瓶",
+      "japanese": "ポット",
+      "kana": "ぽっと",
+      "romaji": "potto",
+      "tokens": [
+        {
+          "text": "ポット",
+          "kana": "ぽっと"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "面具；口罩",
+      "japanese": "マスク",
+      "kana": "ますく",
+      "romaji": "masuku",
+      "tokens": [
+        {
+          "text": "マスク",
+          "kana": "ますく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "会议",
+      "japanese": "ミーティング",
+      "kana": "みいてぃんぐ",
+      "romaji": "miiteingu",
+      "tokens": [
+        {
+          "text": "ミーティング",
+          "kana": "みいてぃんぐ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "错误，失误，失败",
+      "japanese": "ミス",
+      "kana": "みす",
+      "romaji": "misu",
+      "tokens": [
+        {
+          "text": "ミス",
+          "kana": "みす"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "手段，媒介；媒体",
+      "japanese": "メディア",
+      "kana": "めでぃあ",
+      "romaji": "medeia",
+      "tokens": [
+        {
+          "text": "メディア",
+          "kana": "めでぃあ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "模型；模范；模特",
+      "japanese": "モデル",
+      "kana": "もでる",
+      "romaji": "moderu",
+      "tokens": [
+        {
+          "text": "モデル",
+          "kana": "もでる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "（特指食堂等提供的）米饭",
+      "japanese": "ライス",
+      "kana": "らいす",
+      "romaji": "raisu",
+      "tokens": [
+        {
+          "text": "ライス",
+          "kana": "らいす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "光，灯；轻的；（颜色）明亮的，淡的",
+      "japanese": "ライト",
+      "kana": "らいと",
+      "romaji": "raito",
+      "tokens": [
+        {
+          "text": "ライト",
+          "kana": "らいと"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "保鲜膜；（用保鲜膜）包",
+      "japanese": "ラップ",
+      "kana": "らっぷ",
+      "romaji": "rappu",
+      "tokens": [
+        {
+          "text": "ラップ",
+          "kana": "らっぷ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "爱，爱护；爱情",
+      "japanese": "愛情",
+      "kana": "あいじょう",
+      "romaji": "aijou",
+      "tokens": [
+        {
+          "text": "愛情",
+          "kana": "あいじょう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "握手",
+      "japanese": "握手",
+      "kana": "あくしゅ",
+      "romaji": "akushu",
+      "tokens": [
+        {
+          "text": "握手",
+          "kana": "あくしゅ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "（特指词语的）意思；意义",
+      "japanese": "意義",
+      "kana": "いぎ",
+      "romaji": "igi",
+      "tokens": [
+        {
+          "text": "意義",
+          "kana": "いぎ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "衣料，衣服",
+      "japanese": "衣料",
+      "kana": "いりょう",
+      "romaji": "iryou",
+      "tokens": [
+        {
+          "text": "衣料",
+          "kana": "いりょう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "违反",
+      "japanese": "違反",
+      "kana": "いはん",
+      "romaji": "ihan",
+      "tokens": [
+        {
+          "text": "違反",
+          "kana": "いはん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "医疗，治疗",
+      "japanese": "医療",
+      "kana": "いりょう",
+      "romaji": "iryou",
+      "tokens": [
+        {
+          "text": "医療",
+          "kana": "いりょう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "一句话，三言两语",
+      "japanese": "一言",
+      "kana": "ひとこと",
+      "romaji": "hitokoto",
+      "tokens": [
+        {
+          "text": "一言",
+          "kana": "ひとこと"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "一口；一点；一句话；一股，一份",
+      "japanese": "一口",
+      "kana": "ひとくち",
+      "romaji": "hitokuchi",
+      "tokens": [
+        {
+          "text": "一口",
+          "kana": "ひとくち"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "一瞬间",
+      "japanese": "一瞬",
+      "kana": "いっしゅん",
+      "romaji": "isshun",
+      "tokens": [
+        {
+          "text": "一瞬",
+          "kana": "いっしゅん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "记号；象征",
+      "japanese": "印",
+      "kana": "しるし",
+      "romaji": "shirushi",
+      "tokens": [
+        {
+          "text": "印",
+          "kana": "しるし"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "背阴处；背后，暗地",
+      "japanese": "陰",
+      "kana": "かげ",
+      "romaji": "kage",
+      "tokens": [
+        {
+          "text": "陰",
+          "kana": "かげ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "宇宙",
+      "japanese": "宇宙",
+      "kana": "うちゅう",
+      "romaji": "uchuu",
+      "tokens": [
+        {
+          "text": "宇宙",
+          "kana": "うちゅう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "运，运气",
+      "japanese": "運",
+      "kana": "うん",
+      "romaji": "un",
+      "tokens": [
+        {
+          "text": "運",
+          "kana": "うん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "烟；烟状物",
+      "japanese": "煙",
+      "kana": "けむり",
+      "romaji": "kemuri",
+      "tokens": [
+        {
+          "text": "煙",
+          "kana": "けむり"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "污染",
+      "japanese": "汚染",
+      "kana": "おせん",
+      "romaji": "osen",
+      "tokens": [
+        {
+          "text": "汚染",
+          "kana": "おせん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "欧美",
+      "japanese": "欧米",
+      "kana": "おうべい",
+      "romaji": "oubei",
+      "tokens": [
+        {
+          "text": "欧米",
+          "kana": "おうべい"
+        }
+      ]
+    }
+  ]
+}

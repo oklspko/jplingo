@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-07",
+  "coursePackId": "jp-n5",
+  "title": "名词 7",
+  "order": 7,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "五号；五天",
+      "japanese": "五日",
+      "kana": "いつか",
+      "romaji": "itsuka",
+      "tokens": [
+        {
+          "text": "五日",
+          "kana": "いつか"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "下午，午后",
+      "japanese": "午後",
+      "kana": "ごご",
+      "romaji": "gogo",
+      "tokens": [
+        {
+          "text": "午後",
+          "kana": "ごご"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "上午",
+      "japanese": "午前",
+      "kana": "ごぜん",
+      "romaji": "gozen",
+      "tokens": [
+        {
+          "text": "午前",
+          "kana": "ごぜん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "后面；之后",
+      "japanese": "後",
+      "kana": "あと",
+      "romaji": "ato",
+      "tokens": [
+        {
+          "text": "後",
+          "kana": "あと"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "后面；背后",
+      "japanese": "後ろ",
+      "kana": "うしろ",
+      "romaji": "ushiro",
+      "tokens": [
+        {
+          "text": "後ろ",
+          "kana": "うしろ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "十字路口",
+      "japanese": "交差点",
+      "kana": "こうさてん",
+      "romaji": "kousaten",
+      "tokens": [
+        {
+          "text": "交差点",
+          "kana": "こうさてん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "警亭，派出所",
+      "japanese": "交番",
+      "kana": "こうばん",
+      "romaji": "kouban",
+      "tokens": [
+        {
+          "text": "交番",
+          "kana": "こうばん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "公园",
+      "japanese": "公園",
+      "kana": "こうえん",
+      "romaji": "kouen",
+      "tokens": [
+        {
+          "text": "公園",
+          "kana": "こうえん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "嘴；言语；出入口",
+      "japanese": "口",
+      "kana": "くち",
+      "romaji": "kuchi",
+      "tokens": [
+        {
+          "text": "口",
+          "kana": "くち"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "正面；对面；对方；（远处看不到的）那边",
+      "japanese": "向こう",
+      "kana": "むこう",
+      "romaji": "mukou",
+      "tokens": [
+        {
+          "text": "向こう",
+          "kana": "むこう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "喜欢",
+      "japanese": "好き",
+      "kana": "すき",
+      "romaji": "suki",
+      "tokens": [
+        {
+          "text": "好き",
+          "kana": "すき"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "红茶",
+      "japanese": "紅茶",
+      "kana": "こうちゃ",
+      "romaji": "koucha",
+      "tokens": [
+        {
+          "text": "紅茶",
+          "kana": "こうちゃ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "国家；家乡",
+      "japanese": "国",
+      "kana": "くに",
+      "romaji": "kuni",
+      "tokens": [
+        {
+          "text": "国",
+          "kana": "くに"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "黑色",
+      "japanese": "黒",
+      "kana": "くろ",
+      "romaji": "kuro",
+      "tokens": [
+        {
+          "text": "黒",
+          "kana": "くろ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "现在，当前；立刻",
+      "japanese": "今",
+      "kana": "いま",
+      "romaji": "ima",
+      "tokens": [
+        {
+          "text": "今",
+          "kana": "いま"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "这个月",
+      "japanese": "今月",
+      "kana": "こんげつ",
+      "romaji": "kongetsu",
+      "tokens": [
+        {
+          "text": "今月",
+          "kana": "こんげつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "这周",
+      "japanese": "今週",
+      "kana": "こんしゅう",
+      "romaji": "konshuu",
+      "tokens": [
+        {
+          "text": "今週",
+          "kana": "こんしゅう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "今天早上",
+      "japanese": "今朝",
+      "kana": "けさ",
+      "romaji": "kesa",
+      "tokens": [
+        {
+          "text": "今朝",
+          "kana": "けさ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "今天",
+      "japanese": "今日",
+      "kana": "きょう",
+      "romaji": "kyou",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "今年",
+      "japanese": "今年",
+      "kana": "ことし",
+      "romaji": "kotoshi",
+      "tokens": [
+        {
+          "text": "今年",
+          "kana": "ことし"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "今晚，今夜",
+      "japanese": "今晩",
+      "kana": "こんばん",
+      "romaji": "konban",
+      "tokens": [
+        {
+          "text": "今晩",
+          "kana": "こんばん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "左，左边",
+      "japanese": "左",
+      "kana": "ひだり",
+      "romaji": "hidari",
+      "tokens": [
+        {
+          "text": "左",
+          "kana": "ひだり"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "左手",
+      "japanese": "左手",
+      "kana": "ひだりて",
+      "romaji": "hidarite",
+      "tokens": [
+        {
+          "text": "左手",
+          "kana": "ひだりて"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "砂糖",
+      "japanese": "砂糖",
+      "kana": "さとう",
+      "romaji": "satou",
+      "tokens": [
+        {
+          "text": "砂糖",
+          "kana": "さとう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "下下周，下下星期",
+      "japanese": "再来週",
+      "kana": "さらいしゅう",
+      "romaji": "saraishuu",
+      "tokens": [
+        {
+          "text": "再来週",
+          "kana": "さらいしゅう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "最后",
+      "japanese": "最後",
+      "kana": "さいご",
+      "romaji": "saigo",
+      "tokens": [
+        {
+          "text": "最後",
+          "kana": "さいご"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "钱包",
+      "japanese": "財布",
+      "kana": "さいふ",
+      "romaji": "saifu",
+      "tokens": [
+        {
+          "text": "財布",
+          "kana": "さいふ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "作文",
+      "japanese": "作文",
+      "kana": "さくぶん",
+      "romaji": "sakubun",
+      "tokens": [
+        {
+          "text": "作文",
+          "kana": "さくぶん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "杂志",
+      "japanese": "雑誌",
+      "kana": "ざっし",
+      "romaji": "zasshi",
+      "tokens": [
+        {
+          "text": "雑誌",
+          "kana": "ざっし"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "盘子，碟子",
+      "japanese": "皿",
+      "kana": "さら",
+      "romaji": "sara",
+      "tokens": [
+        {
+          "text": "皿",
+          "kana": "さら"
+        }
+      ]
+    }
+  ]
+}

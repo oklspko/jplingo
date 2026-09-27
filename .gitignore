@@ -9,3 +9,7 @@ test.mp3
 *.log
 .DS_Store
 .claude
+
+# 发布签名密钥库（私钥），仅存本地与 GitHub Secret，严禁提交
+.tmp_apk/
+

@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-59",
+  "coursePackId": "jp-gaokao",
+  "title": "外来语 6",
+  "order": 59,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "餐厅",
+      "japanese": "レストラン",
+      "kana": "れすとらん",
+      "romaji": "resutoran",
+      "tokens": [
+        {
+          "text": "レストラン",
+          "kana": "れすとらん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "成员",
+      "japanese": "メンバー",
+      "kana": "めんばー",
+      "romaji": "menbaa",
+      "tokens": [
+        {
+          "text": "メンバー",
+          "kana": "めんばー"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "米",
+      "japanese": "メートル",
+      "kana": "めーとる",
+      "romaji": "meetoru",
+      "tokens": [
+        {
+          "text": "メートル",
+          "kana": "めーとる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "收银台",
+      "japanese": "レジ",
+      "kana": "れじ",
+      "romaji": "reji",
+      "tokens": [
+        {
+          "text": "レジ",
+          "kana": "れじ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "低腰裙",
+      "japanese": "ローレースカート",
+      "kana": "ろーれーすかーと",
+      "romaji": "rooreesukaato",
+      "tokens": [
+        {
+          "text": "ローレースカート",
+          "kana": "ろーれーすかーと"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "马达",
+      "japanese": "モーター",
+      "kana": "もーたー",
+      "romaji": "mootaa",
+      "tokens": [
+        {
+          "text": "モーター",
+          "kana": "もーたー"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "拉面",
+      "japanese": "ラーメン",
+      "kana": "らーめん",
+      "romaji": "raamen",
+      "tokens": [
+        {
+          "text": "ラーメン",
+          "kana": "らーめん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "节奏",
+      "japanese": "リズム",
+      "kana": "りずむ",
+      "romaji": "rizumu",
+      "tokens": [
+        {
+          "text": "リズム",
+          "kana": "りずむ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "志愿活动",
+      "japanese": "ボランティア活動",
+      "kana": "ぼらんてぃあかつどう",
+      "romaji": "boranteiakatsudou",
+      "tokens": [
+        {
+          "text": "ボランティア活動",
+          "kana": "ぼらんてぃあかつどう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "领导者、领袖",
+      "japanese": "リーダー",
+      "kana": "りーだー",
+      "romaji": "riidaa",
+      "tokens": [
+        {
+          "text": "リーダー",
+          "kana": "りーだー"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "报告",
+      "japanese": "レポート",
+      "kana": "れぽーと",
+      "romaji": "repooto",
+      "tokens": [
+        {
+          "text": "レポート",
+          "kana": "れぽーと"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "掌握，主人",
+      "japanese": "マスター",
+      "kana": "ますたー",
+      "romaji": "masutaa",
+      "tokens": [
+        {
+          "text": "マスター",
+          "kana": "ますたー"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "收音机",
+      "japanese": "ラジオ",
+      "kana": "らじお",
+      "romaji": "rajio",
+      "tokens": [
+        {
+          "text": "ラジオ",
+          "kana": "らじお"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "志愿者",
+      "japanese": "ボランティア",
+      "kana": "ぼらんてぃあ",
+      "romaji": "boranteia",
+      "tokens": [
+        {
+          "text": "ボランティア",
+          "kana": "ぼらんてぃあ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "礼仪",
+      "japanese": "マナー",
+      "kana": "まなー",
+      "romaji": "manaa",
+      "tokens": [
+        {
+          "text": "マナー",
+          "kana": "まなー"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "邮件",
+      "japanese": "メール",
+      "kana": "めーる",
+      "romaji": "meeru",
+      "tokens": [
+        {
+          "text": "メール",
+          "kana": "めーる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "多媒体",
+      "japanese": "マルチメディア",
+      "kana": "まるちめでぃあ",
+      "romaji": "maruchimedeia",
+      "tokens": [
+        {
+          "text": "マルチメディア",
+          "kana": "まるちめでぃあ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "负数，消极",
+      "japanese": "マイナス",
+      "kana": "まいなす",
+      "romaji": "mainasu",
+      "tokens": [
+        {
+          "text": "マイナス",
+          "kana": "まいなす"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "菜单",
+      "japanese": "メニュー",
+      "kana": "めにゅー",
+      "romaji": "menyuu",
+      "tokens": [
+        {
+          "text": "メニュー",
+          "kana": "めにゅー"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "酒店",
+      "japanese": "ホテル",
+      "kana": "ほてる",
+      "romaji": "hoteru",
+      "tokens": [
+        {
+          "text": "ホテル",
+          "kana": "ほてる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "规则",
+      "japanese": "ルール",
+      "kana": "るーる",
+      "romaji": "ruuru",
+      "tokens": [
+        {
+          "text": "ルール",
+          "kana": "るーる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "牛奶",
+      "japanese": "ミルク",
+      "kana": "みるく",
+      "romaji": "miruku",
+      "tokens": [
+        {
+          "text": "ミルク",
+          "kana": "みるく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "欧洲",
+      "japanese": "ヨーロッパ",
+      "kana": "よーろっぱ",
+      "romaji": "yooroppa",
+      "tokens": [
+        {
+          "text": "ヨーロッパ",
+          "kana": "よーろっぱ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "公寓",
+      "japanese": "マンション",
+      "kana": "まんしょん",
+      "romaji": "manshon",
+      "tokens": [
+        {
+          "text": "マンション",
+          "kana": "まんしょん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "马拉松",
+      "japanese": "マラソン",
+      "kana": "まらそん",
+      "romaji": "marason",
+      "tokens": [
+        {
+          "text": "マラソン",
+          "kana": "まらそん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "奖牌",
+      "japanese": "メダル",
+      "kana": "めだる",
+      "romaji": "medaru",
+      "tokens": [
+        {
+          "text": "メダル",
+          "kana": "めだる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "毫米 / 升 / 克",
+      "japanese": "ミリ",
+      "kana": "みり",
+      "romaji": "miri",
+      "tokens": [
+        {
+          "text": "ミリ",
+          "kana": "みり"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "麻婆豆腐",
+      "japanese": "マーボードウフ",
+      "kana": "まーぼーどうふ",
+      "romaji": "maaboodoufu",
+      "tokens": [
+        {
+          "text": "マーボードウフ",
+          "kana": "まーぼーどうふ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "水平、级别",
+      "japanese": "レベル",
+      "kana": "れべる",
+      "romaji": "reberu",
+      "tokens": [
+        {
+          "text": "レベル",
+          "kana": "れべる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "媒体",
+      "japanese": "メディア",
+      "kana": "めでぃあ",
+      "romaji": "medeia",
+      "tokens": [
+        {
+          "text": "メディア",
+          "kana": "めでぃあ"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "规则",
+      "japanese": "ルール",
+      "kana": "るーる",
+      "romaji": "ruuru",
+      "tokens": [
+        {
+          "text": "ルール",
+          "kana": "るーる"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "报告",
+      "japanese": "レポート",
+      "kana": "れぽーと",
+      "romaji": "repooto",
+      "tokens": [
+        {
+          "text": "レポート",
+          "kana": "れぽーと"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "菜单",
+      "japanese": "メニュー",
+      "kana": "めにゅー",
+      "romaji": "menyuu",
+      "tokens": [
+        {
+          "text": "メニュー",
+          "kana": "めにゅー"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "负数，消极",
+      "japanese": "マイナス",
+      "kana": "まいなす",
+      "romaji": "mainasu",
+      "tokens": [
+        {
+          "text": "マイナス",
+          "kana": "まいなす"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "马达",
+      "japanese": "モーター",
+      "kana": "もーたー",
+      "romaji": "mootaa",
+      "tokens": [
+        {
+          "text": "モーター",
+          "kana": "もーたー"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "酒店",
+      "japanese": "ホテル",
+      "kana": "ほてる",
+      "romaji": "hoteru",
+      "tokens": [
+        {
+          "text": "ホテル",
+          "kana": "ほてる"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "礼仪",
+      "japanese": "マナー",
+      "kana": "まなー",
+      "romaji": "manaa",
+      "tokens": [
+        {
+          "text": "マナー",
+          "kana": "まなー"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "邮件",
+      "japanese": "メール",
+      "kana": "めーる",
+      "romaji": "meeru",
+      "tokens": [
+        {
+          "text": "メール",
+          "kana": "めーる"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "麻婆豆腐",
+      "japanese": "マーボードウフ",
+      "kana": "まーぼーどうふ",
+      "romaji": "maaboodoufu",
+      "tokens": [
+        {
+          "text": "マーボードウフ",
+          "kana": "まーぼーどうふ"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "低腰裙",
+      "japanese": "ローレースカート",
+      "kana": "ろーれーすかーと",
+      "romaji": "rooreesukaato",
+      "tokens": [
+        {
+          "text": "ローレースカート",
+          "kana": "ろーれーすかーと"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "公寓",
+      "japanese": "マンション",
+      "kana": "まんしょん",
+      "romaji": "manshon",
+      "tokens": [
+        {
+          "text": "マンション",
+          "kana": "まんしょん"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "媒体",
+      "japanese": "メディア",
+      "kana": "めでぃあ",
+      "romaji": "medeia",
+      "tokens": [
+        {
+          "text": "メディア",
+          "kana": "めでぃあ"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "掌握，主人",
+      "japanese": "マスター",
+      "kana": "ますたー",
+      "romaji": "masutaa",
+      "tokens": [
+        {
+          "text": "マスター",
+          "kana": "ますたー"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "志愿者",
+      "japanese": "ボランティア",
+      "kana": "ぼらんてぃあ",
+      "romaji": "boranteia",
+      "tokens": [
+        {
+          "text": "ボランティア",
+          "kana": "ぼらんてぃあ"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "水平、级别",
+      "japanese": "レベル",
+      "kana": "れべる",
+      "romaji": "reberu",
+      "tokens": [
+        {
+          "text": "レベル",
+          "kana": "れべる"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "牛奶",
+      "japanese": "ミルク",
+      "kana": "みるく",
+      "romaji": "miruku",
+      "tokens": [
+        {
+          "text": "ミルク",
+          "kana": "みるく"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "成员",
+      "japanese": "メンバー",
+      "kana": "めんばー",
+      "romaji": "menbaa",
+      "tokens": [
+        {
+          "text": "メンバー",
+          "kana": "めんばー"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "毫米 / 升 / 克",
+      "japanese": "ミリ",
+      "kana": "みり",
+      "romaji": "miri",
+      "tokens": [
+        {
+          "text": "ミリ",
+          "kana": "みり"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "志愿活动",
+      "japanese": "ボランティア活動",
+      "kana": "ぼらんてぃあかつどう",
+      "romaji": "boranteiakatsudou",
+      "tokens": [
+        {
+          "text": "ボランティア活動",
+          "kana": "ぼらんてぃあかつどう"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "收音机",
+      "japanese": "ラジオ",
+      "kana": "らじお",
+      "romaji": "rajio",
+      "tokens": [
+        {
+          "text": "ラジオ",
+          "kana": "らじお"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "米",
+      "japanese": "メートル",
+      "kana": "めーとる",
+      "romaji": "meetoru",
+      "tokens": [
+        {
+          "text": "メートル",
+          "kana": "めーとる"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "拉面",
+      "japanese": "ラーメン",
+      "kana": "らーめん",
+      "romaji": "raamen",
+      "tokens": [
+        {
+          "text": "ラーメン",
+          "kana": "らーめん"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "餐厅",
+      "japanese": "レストラン",
+      "kana": "れすとらん",
+      "romaji": "resutoran",
+      "tokens": [
+        {
+          "text": "レストラン",
+          "kana": "れすとらん"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "收银台",
+      "japanese": "レジ",
+      "kana": "れじ",
+      "romaji": "reji",
+      "tokens": [
+        {
+          "text": "レジ",
+          "kana": "れじ"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "节奏",
+      "japanese": "リズム",
+      "kana": "りずむ",
+      "romaji": "rizumu",
+      "tokens": [
+        {
+          "text": "リズム",
+          "kana": "りずむ"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "奖牌",
+      "japanese": "メダル",
+      "kana": "めだる",
+      "romaji": "medaru",
+      "tokens": [
+        {
+          "text": "メダル",
+          "kana": "めだる"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "多媒体",
+      "japanese": "マルチメディア",
+      "kana": "まるちめでぃあ",
+      "romaji": "maruchimedeia",
+      "tokens": [
+        {
+          "text": "マルチメディア",
+          "kana": "まるちめでぃあ"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "马拉松",
+      "japanese": "マラソン",
+      "kana": "まらそん",
+      "romaji": "marason",
+      "tokens": [
+        {
+          "text": "マラソン",
+          "kana": "まらそん"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "领导者、领袖",
+      "japanese": "リーダー",
+      "kana": "りーだー",
+      "romaji": "riidaa",
+      "tokens": [
+        {
+          "text": "リーダー",
+          "kana": "りーだー"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "欧洲",
+      "japanese": "ヨーロッパ",
+      "kana": "よーろっぱ",
+      "romaji": "yooroppa",
+      "tokens": [
+        {
+          "text": "ヨーロッパ",
+          "kana": "よーろっぱ"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "收音机",
+      "japanese": "ラジオ",
+      "kana": "らじお",
+      "romaji": "rajio",
+      "tokens": [
+        {
+          "text": "ラジオ",
+          "kana": "らじお"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "成员",
+      "japanese": "メンバー",
+      "kana": "めんばー",
+      "romaji": "menbaa",
+      "tokens": [
+        {
+          "text": "メンバー",
+          "kana": "めんばー"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "志愿者",
+      "japanese": "ボランティア",
+      "kana": "ぼらんてぃあ",
+      "romaji": "boranteia",
+      "tokens": [
+        {
+          "text": "ボランティア",
+          "kana": "ぼらんてぃあ"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "收银台",
+      "japanese": "レジ",
+      "kana": "れじ",
+      "romaji": "reji",
+      "tokens": [
+        {
+          "text": "レジ",
+          "kana": "れじ"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "菜单",
+      "japanese": "メニュー",
+      "kana": "めにゅー",
+      "romaji": "menyuu",
+      "tokens": [
+        {
+          "text": "メニュー",
+          "kana": "めにゅー"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "牛奶",
+      "japanese": "ミルク",
+      "kana": "みるく",
+      "romaji": "miruku",
+      "tokens": [
+        {
+          "text": "ミルク",
+          "kana": "みるく"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "酒店",
+      "japanese": "ホテル",
+      "kana": "ほてる",
+      "romaji": "hoteru",
+      "tokens": [
+        {
+          "text": "ホテル",
+          "kana": "ほてる"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "水平、级别",
+      "japanese": "レベル",
+      "kana": "れべる",
+      "romaji": "reberu",
+      "tokens": [
+        {
+          "text": "レベル",
+          "kana": "れべる"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "志愿活动",
+      "japanese": "ボランティア活動",
+      "kana": "ぼらんてぃあかつどう",
+      "romaji": "boranteiakatsudou",
+      "tokens": [
+        {
+          "text": "ボランティア活動",
+          "kana": "ぼらんてぃあかつどう"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "马拉松",
+      "japanese": "マラソン",
+      "kana": "まらそん",
+      "romaji": "marason",
+      "tokens": [
+        {
+          "text": "マラソン",
+          "kana": "まらそん"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "报告",
+      "japanese": "レポート",
+      "kana": "れぽーと",
+      "romaji": "repooto",
+      "tokens": [
+        {
+          "text": "レポート",
+          "kana": "れぽーと"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "低腰裙",
+      "japanese": "ローレースカート",
+      "kana": "ろーれーすかーと",
+      "romaji": "rooreesukaato",
+      "tokens": [
+        {
+          "text": "ローレースカート",
+          "kana": "ろーれーすかーと"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "负数，消极",
+      "japanese": "マイナス",
+      "kana": "まいなす",
+      "romaji": "mainasu",
+      "tokens": [
+        {
+          "text": "マイナス",
+          "kana": "まいなす"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "欧洲",
+      "japanese": "ヨーロッパ",
+      "kana": "よーろっぱ",
+      "romaji": "yooroppa",
+      "tokens": [
+        {
+          "text": "ヨーロッパ",
+          "kana": "よーろっぱ"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "马达",
+      "japanese": "モーター",
+      "kana": "もーたー",
+      "romaji": "mootaa",
+      "tokens": [
+        {
+          "text": "モーター",
+          "kana": "もーたー"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "公寓",
+      "japanese": "マンション",
+      "kana": "まんしょん",
+      "romaji": "manshon",
+      "tokens": [
+        {
+          "text": "マンション",
+          "kana": "まんしょん"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "麻婆豆腐",
+      "japanese": "マーボードウフ",
+      "kana": "まーぼーどうふ",
+      "romaji": "maaboodoufu",
+      "tokens": [
+        {
+          "text": "マーボードウフ",
+          "kana": "まーぼーどうふ"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "邮件",
+      "japanese": "メール",
+      "kana": "めーる",
+      "romaji": "meeru",
+      "tokens": [
+        {
+          "text": "メール",
+          "kana": "めーる"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "拉面",
+      "japanese": "ラーメン",
+      "kana": "らーめん",
+      "romaji": "raamen",
+      "tokens": [
+        {
+          "text": "ラーメン",
+          "kana": "らーめん"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "米",
+      "japanese": "メートル",
+      "kana": "めーとる",
+      "romaji": "meetoru",
+      "tokens": [
+        {
+          "text": "メートル",
+          "kana": "めーとる"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "掌握，主人",
+      "japanese": "マスター",
+      "kana": "ますたー",
+      "romaji": "masutaa",
+      "tokens": [
+        {
+          "text": "マスター",
+          "kana": "ますたー"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "毫米 / 升 / 克",
+      "japanese": "ミリ",
+      "kana": "みり",
+      "romaji": "miri",
+      "tokens": [
+        {
+          "text": "ミリ",
+          "kana": "みり"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "领导者、领袖",
+      "japanese": "リーダー",
+      "kana": "りーだー",
+      "romaji": "riidaa",
+      "tokens": [
+        {
+          "text": "リーダー",
+          "kana": "りーだー"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "媒体",
+      "japanese": "メディア",
+      "kana": "めでぃあ",
+      "romaji": "medeia",
+      "tokens": [
+        {
+          "text": "メディア",
+          "kana": "めでぃあ"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "餐厅",
+      "japanese": "レストラン",
+      "kana": "れすとらん",
+      "romaji": "resutoran",
+      "tokens": [
+        {
+          "text": "レストラン",
+          "kana": "れすとらん"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "节奏",
+      "japanese": "リズム",
+      "kana": "りずむ",
+      "romaji": "rizumu",
+      "tokens": [
+        {
+          "text": "リズム",
+          "kana": "りずむ"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "礼仪",
+      "japanese": "マナー",
+      "kana": "まなー",
+      "romaji": "manaa",
+      "tokens": [
+        {
+          "text": "マナー",
+          "kana": "まなー"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "规则",
+      "japanese": "ルール",
+      "kana": "るーる",
+      "romaji": "ruuru",
+      "tokens": [
+        {
+          "text": "ルール",
+          "kana": "るーる"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "多媒体",
+      "japanese": "マルチメディア",
+      "kana": "まるちめでぃあ",
+      "romaji": "maruchimedeia",
+      "tokens": [
+        {
+          "text": "マルチメディア",
+          "kana": "まるちめでぃあ"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "奖牌",
+      "japanese": "メダル",
+      "kana": "めだる",
+      "romaji": "medaru",
+      "tokens": [
+        {
+          "text": "メダル",
+          "kana": "めだる"
+        }
+      ]
+    }
+  ]
+}

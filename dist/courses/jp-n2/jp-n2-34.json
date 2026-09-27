@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-34",
+  "coursePackId": "jp-n2",
+  "title": "名词 34",
+  "order": 34,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "街道两旁的树",
+      "japanese": "並木",
+      "kana": "なみき",
+      "romaji": "namiki",
+      "tokens": [
+        {
+          "text": "並木",
+          "kana": "なみき"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "编辑；剪辑",
+      "japanese": "編集",
+      "kana": "へんしゅう",
+      "romaji": "henshuu",
+      "tokens": [
+        {
+          "text": "編集",
+          "kana": "へんしゅう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "便笺，写信用的纸",
+      "japanese": "便箋",
+      "kana": "びんせん",
+      "romaji": "binsen",
+      "tokens": [
+        {
+          "text": "便箋",
+          "kana": "びんせん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "方针",
+      "japanese": "方針",
+      "kana": "ほうしん",
+      "romaji": "houshin",
+      "tokens": [
+        {
+          "text": "方針",
+          "kana": "ほうしん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "法则，定律",
+      "japanese": "法則",
+      "kana": "ほうそく",
+      "romaji": "housoku",
+      "tokens": [
+        {
+          "text": "法則",
+          "kana": "ほうそく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "丰富，富有",
+      "japanese": "豊富",
+      "kana": "ほうふ",
+      "romaji": "houfu",
+      "tokens": [
+        {
+          "text": "豊富",
+          "kana": "ほうふ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "希望，期待；预期，可能性",
+      "japanese": "望み",
+      "kana": "のぞみ",
+      "romaji": "nozomi",
+      "tokens": [
+        {
+          "text": "望み",
+          "kana": "のぞみ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "庞大，巨大",
+      "japanese": "膨大",
+      "kana": "ぼうだい",
+      "romaji": "boudai",
+      "tokens": [
+        {
+          "text": "膨大",
+          "kana": "ぼうだい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "防灾，防备灾害",
+      "japanese": "防災",
+      "kana": "ぼうさい",
+      "romaji": "bousai",
+      "tokens": [
+        {
+          "text": "防災",
+          "kana": "ぼうさい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "防止犯罪",
+      "japanese": "防犯",
+      "kana": "ぼうはん",
+      "romaji": "bouhan",
+      "tokens": [
+        {
+          "text": "防犯",
+          "kana": "ぼうはん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "牧场",
+      "japanese": "牧場",
+      "kana": "ぼくじょう",
+      "romaji": "bokujou",
+      "tokens": [
+        {
+          "text": "牧場",
+          "kana": "ぼくじょう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "张数，页数",
+      "japanese": "枚数",
+      "kana": "まいすう",
+      "romaji": "maisuu",
+      "tokens": [
+        {
+          "text": "枚数",
+          "kana": "まいすう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "帐幕，帷幔；场面",
+      "japanese": "幕",
+      "kana": "まく",
+      "romaji": "maku",
+      "tokens": [
+        {
+          "text": "幕",
+          "kana": "まく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "民主",
+      "japanese": "民主",
+      "kana": "みんしゅ",
+      "romaji": "minshu",
+      "tokens": [
+        {
+          "text": "民主",
+          "kana": "みんしゅ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "无意识；不经意间",
+      "japanese": "無意識",
+      "kana": "むいしき",
+      "romaji": "muishiki",
+      "tokens": [
+        {
+          "text": "無意識",
+          "kana": "むいしき"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "无数，无法计量",
+      "japanese": "無数",
+      "kana": "むすう",
+      "romaji": "musuu",
+      "tokens": [
+        {
+          "text": "無数",
+          "kana": "むすう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "素色，没有花纹",
+      "japanese": "無地",
+      "kana": "むじ",
+      "romaji": "muji",
+      "tokens": [
+        {
+          "text": "無地",
+          "kana": "むじ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "矛盾",
+      "japanese": "矛盾",
+      "kana": "むじゅん",
+      "romaji": "mujun",
+      "tokens": [
+        {
+          "text": "矛盾",
+          "kana": "むじゅん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "名作，优秀作品",
+      "japanese": "名作",
+      "kana": "めいさく",
+      "romaji": "meisaku",
+      "tokens": [
+        {
+          "text": "名作",
+          "kana": "めいさく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "明确，清晰明白",
+      "japanese": "明確",
+      "kana": "めいかく",
+      "romaji": "meikaku",
+      "tokens": [
+        {
+          "text": "明確",
+          "kana": "めいかく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "面积",
+      "japanese": "面積",
+      "kana": "めんせき",
+      "romaji": "menseki",
+      "tokens": [
+        {
+          "text": "面積",
+          "kana": "めんせき"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "毛线",
+      "japanese": "毛糸",
+      "kana": "けいと",
+      "romaji": "keito",
+      "tokens": [
+        {
+          "text": "毛糸",
+          "kana": "けいと"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "记号，标记",
+      "japanese": "目印",
+      "kana": "めじるし",
+      "romaji": "mejirushi",
+      "tokens": [
+        {
+          "text": "目印",
+          "kana": "めじるし"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "眼前",
+      "japanese": "目前",
+      "kana": "もくぜん",
+      "romaji": "mokuzen",
+      "tokens": [
+        {
+          "text": "目前",
+          "kana": "もくぜん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "医药品；药品",
+      "japanese": "薬品",
+      "kana": "やくひん",
+      "romaji": "yakuhin",
+      "tokens": [
+        {
+          "text": "薬品",
+          "kana": "やくひん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "粗心大意，疏忽",
+      "japanese": "油断",
+      "kana": "ゆだん",
+      "romaji": "yudan",
+      "tokens": [
+        {
+          "text": "油断",
+          "kana": "ゆだん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "输送，运输",
+      "japanese": "輸送",
+      "kana": "ゆそう",
+      "romaji": "yusou",
+      "tokens": [
+        {
+          "text": "輸送",
+          "kana": "ゆそう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "优良，出色",
+      "japanese": "優良",
+      "kana": "ゆうりょう",
+      "romaji": "yuuryou",
+      "tokens": [
+        {
+          "text": "優良",
+          "kana": "ゆうりょう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "有无",
+      "japanese": "有無",
+      "kana": "うむ",
+      "romaji": "umu",
+      "tokens": [
+        {
+          "text": "有無",
+          "kana": "うむ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "预期，预料",
+      "japanese": "予期",
+      "kana": "よき",
+      "romaji": "yoki",
+      "tokens": [
+        {
+          "text": "予期",
+          "kana": "よき"
+        }
+      ]
+    }
+  ]
+}

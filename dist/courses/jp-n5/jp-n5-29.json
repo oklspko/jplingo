@@ -1,0 +1,164 @@
+{
+  "id": "jp-n5-29",
+  "coursePackId": "jp-n5",
+  "title": "其他 3",
+  "order": 29,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "什么（也不）；（不）特别",
+      "japanese": "何も",
+      "kana": "なにも",
+      "romaji": "nanimo",
+      "tokens": [
+        {
+          "text": "何も",
+          "kana": "なにも"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "对不起，抱歉",
+      "japanese": "ごめんなさい",
+      "kana": "ごめんなさい",
+      "romaji": "gomennasai",
+      "tokens": [
+        {
+          "text": "ごめんなさい",
+          "kana": "ごめんなさい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "谢谢",
+      "japanese": "ありがとう",
+      "kana": "ありがとう",
+      "romaji": "arigatou",
+      "tokens": [
+        {
+          "text": "ありがとう",
+          "kana": "ありがとう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "对不起，抱歉；麻烦你，不好意思；请问，问一下",
+      "japanese": "すみません",
+      "kana": "すみません",
+      "romaji": "sumimasen",
+      "tokens": [
+        {
+          "text": "すみません",
+          "kana": "すみません"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "你好，您好",
+      "japanese": "こんにちは",
+      "kana": "こんにちは",
+      "romaji": "konnichiha",
+      "tokens": [
+        {
+          "text": "こんにちは",
+          "kana": "こんにちは"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "早上好",
+      "japanese": "おはよう",
+      "kana": "おはよう",
+      "romaji": "ohayou",
+      "tokens": [
+        {
+          "text": "おはよう",
+          "kana": "おはよう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "再见，告别",
+      "japanese": "さようなら",
+      "kana": "さようなら",
+      "romaji": "sayounara",
+      "tokens": [
+        {
+          "text": "さようなら",
+          "kana": "さようなら"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "晚上好",
+      "japanese": "こんばんは",
+      "kana": "こんばんは",
+      "romaji": "konbanha",
+      "tokens": [
+        {
+          "text": "こんばんは",
+          "kana": "こんばんは"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "初次见面",
+      "japanese": "初めまして",
+      "kana": "はじめまして",
+      "romaji": "hajimemashite",
+      "tokens": [
+        {
+          "text": "初めまして",
+          "kana": "はじめまして"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "欢迎光临",
+      "japanese": "いらっしゃいませ",
+      "kana": "いらっしゃいませ",
+      "romaji": "irasshaimase",
+      "tokens": [
+        {
+          "text": "いらっしゃいませ",
+          "kana": "いらっしゃいませ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "恭喜",
+      "japanese": "おめでとう",
+      "kana": "おめでとう",
+      "romaji": "omedetou",
+      "tokens": [
+        {
+          "text": "おめでとう",
+          "kana": "おめでとう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "不客气",
+      "japanese": "どういたしまして",
+      "kana": "どういたしまして",
+      "romaji": "douitashimashite",
+      "tokens": [
+        {
+          "text": "どういたしまして",
+          "kana": "どういたしまして"
+        }
+      ]
+    }
+  ]
+}

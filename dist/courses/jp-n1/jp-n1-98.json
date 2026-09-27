@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-98",
+  "coursePackId": "jp-n1",
+  "title": "动词 7",
+  "order": 98,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "拖着走；强行拖走；拖延；忘不掉",
+      "japanese": "引きずる",
+      "kana": "ひきずる",
+      "romaji": "hikizuru",
+      "tokens": [
+        {
+          "text": "引きずる",
+          "kana": "ひきずる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "吸引；（「惹き付ける」とも）诱惑",
+      "japanese": "引き付ける",
+      "kana": "ひきつける",
+      "romaji": "hikitsukeru",
+      "tokens": [
+        {
+          "text": "引き付ける",
+          "kana": "ひきつける"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "经营；营生；营，办；营造，建造",
+      "japanese": "営む",
+      "kana": "いとなむ",
+      "romaji": "itonamu",
+      "tokens": [
+        {
+          "text": "営む",
+          "kana": "いとなむ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "映照，闪耀；显眼，夺目",
+      "japanese": "映える",
+      "kana": "はえる",
+      "romaji": "haeru",
+      "tokens": [
+        {
+          "text": "映える",
+          "kana": "はえる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "繁荣，兴旺",
+      "japanese": "栄える",
+      "kana": "さかえる",
+      "romaji": "sakaeru",
+      "tokens": [
+        {
+          "text": "栄える",
+          "kana": "さかえる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "涌上来，蜂拥而至；推到一旁",
+      "japanese": "押し寄せる",
+      "kana": "おしよせる",
+      "romaji": "oshiyoseru",
+      "tokens": [
+        {
+          "text": "押し寄せる",
+          "kana": "おしよせる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "压着切断；不顾困难而行，坚持到底",
+      "japanese": "押し切る",
+      "kana": "おしきる",
+      "romaji": "oshikiru",
+      "tokens": [
+        {
+          "text": "押し切る",
+          "kana": "おしきる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "化，变；乔装，化装；完全变成其他东西",
+      "japanese": "化ける",
+      "kana": "ばける",
+      "romaji": "bakeru",
+      "tokens": [
+        {
+          "text": "化ける",
+          "kana": "ばける"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "终，完毕；死；……得要死",
+      "japanese": "果てる",
+      "kana": "はてる",
+      "romaji": "hateru",
+      "tokens": [
+        {
+          "text": "果てる",
+          "kana": "はてる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "接近，亲近，驯服",
+      "japanese": "懐く",
+      "kana": "なつく",
+      "romaji": "natsuku",
+      "tokens": [
+        {
+          "text": "懐く",
+          "kana": "なつく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "分配，分摊",
+      "japanese": "割り当てる",
+      "kana": "わりあてる",
+      "romaji": "wariateru",
+      "tokens": [
+        {
+          "text": "割り当てる",
+          "kana": "わりあてる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "使习惯，使适应；（馴らす）使动物亲近人类",
+      "japanese": "慣らす",
+      "kana": "ならす",
+      "romaji": "narasu",
+      "tokens": [
+        {
+          "text": "慣らす",
+          "kana": "ならす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "撒娇；承蒙，利用……的机会",
+      "japanese": "甘える",
+      "kana": "あまえる",
+      "romaji": "amaeru",
+      "tokens": [
+        {
+          "text": "甘える",
+          "kana": "あまえる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "松弛；疏忽；缓和",
+      "japanese": "緩む",
+      "kana": "ゆるむ",
+      "romaji": "yurumu",
+      "tokens": [
+        {
+          "text": "緩む",
+          "kana": "ゆるむ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "放松；放慢；疏忽",
+      "japanese": "緩める",
+      "kana": "ゆるめる",
+      "romaji": "yurumeru",
+      "tokens": [
+        {
+          "text": "緩める",
+          "kana": "ゆるめる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "贯通；贯彻",
+      "japanese": "貫く",
+      "kana": "つらぬく",
+      "romaji": "tsuranuku",
+      "tokens": [
+        {
+          "text": "貫く",
+          "kana": "つらぬく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "落入；陷入",
+      "japanese": "陥る",
+      "kana": "おちいる",
+      "romaji": "ochiiru",
+      "tokens": [
+        {
+          "text": "陥る",
+          "kana": "おちいる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "担心会出现不好的结果，觉得危险，感到担忧",
+      "japanese": "危ぶむ",
+      "kana": "あやぶむ",
+      "romaji": "ayabumu",
+      "tokens": [
+        {
+          "text": "危ぶむ",
+          "kana": "あやぶむ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "欺骗；胜似",
+      "japanese": "欺く",
+      "kana": "あざむく",
+      "romaji": "azamuku",
+      "tokens": [
+        {
+          "text": "欺く",
+          "kana": "あざむく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "抽上来；榨取（他人利益）；听取（一般民众的）意见",
+      "japanese": "吸い上げる",
+      "kana": "すいあげる",
+      "romaji": "suiageru",
+      "tokens": [
+        {
+          "text": "吸い上げる",
+          "kana": "すいあげる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "催促",
+      "japanese": "せかす",
+      "kana": "せかす",
+      "romaji": "sekasu",
+      "tokens": [
+        {
+          "text": "せかす",
+          "kana": "せかす"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "强迫",
+      "japanese": "強いる",
+      "kana": "しいる",
+      "romaji": "shiiru",
+      "tokens": [
+        {
+          "text": "強いる",
+          "kana": "しいる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "威胁，恐吓",
+      "japanese": "脅す",
+      "kana": "おどす",
+      "romaji": "odosu",
+      "tokens": [
+        {
+          "text": "脅す",
+          "kana": "おどす"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "仰视；尊为，推为；请求；饮，服",
+      "japanese": "仰ぐ",
+      "kana": "あおぐ",
+      "romaji": "aogu",
+      "tokens": [
+        {
+          "text": "仰ぐ",
+          "kana": "あおぐ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "集中，一心钻研",
+      "japanese": "凝らす",
+      "kana": "こらす",
+      "romaji": "korasu",
+      "tokens": [
+        {
+          "text": "凝らす",
+          "kana": "こらす"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "穷尽，极端；（前接形容动词）极致，极限",
+      "japanese": "極まる",
+      "kana": "きわまる",
+      "romaji": "kiwamaru",
+      "tokens": [
+        {
+          "text": "極まる",
+          "kana": "きわまる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "能胜任，能完成",
+      "japanese": "勤まる",
+      "kana": "つとまる",
+      "romaji": "tsutomaru",
+      "tokens": [
+        {
+          "text": "勤まる",
+          "kana": "つとまる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "悬挂，高举；提出；刊登",
+      "japanese": "掲げる",
+      "kana": "かかげる",
+      "romaji": "kakageru",
+      "tokens": [
+        {
+          "text": "掲げる",
+          "kana": "かかげる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "磨（刀）；淘（米）",
+      "japanese": "研ぐ",
+      "kana": "とぐ",
+      "romaji": "togu",
+      "tokens": [
+        {
+          "text": "研ぐ",
+          "kana": "とぐ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "互相看；互相比较，对照；暂缓",
+      "japanese": "見合わせる",
+      "kana": "みあわせる",
+      "romaji": "miawaseru",
+      "tokens": [
+        {
+          "text": "見合わせる",
+          "kana": "みあわせる"
+        }
+      ]
+    }
+  ]
+}

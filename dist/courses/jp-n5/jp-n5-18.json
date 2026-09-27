@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-18",
+  "coursePackId": "jp-n5",
+  "title": "动词 1",
+  "order": 18,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（无生命物体）存在；有；发生；处于某种状态",
+      "japanese": "ある",
+      "kana": "ある",
+      "romaji": "aru",
+      "tokens": [
+        {
+          "text": "ある",
+          "kana": "ある"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "（有生命的物体的）存在，有",
+      "japanese": "いる",
+      "kana": "いる",
+      "romaji": "iru",
+      "tokens": [
+        {
+          "text": "いる",
+          "kana": "いる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "给予，赐予",
+      "japanese": "くださる",
+      "kana": "くださる",
+      "romaji": "kudasaru",
+      "tokens": [
+        {
+          "text": "くださる",
+          "kana": "くださる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "复印（件）；拷贝",
+      "japanese": "コピー",
+      "kana": "こぴい",
+      "romaji": "kopii",
+      "tokens": [
+        {
+          "text": "コピー",
+          "kana": "こぴい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "做",
+      "japanese": "する",
+      "kana": "する",
+      "romaji": "suru",
+      "tokens": [
+        {
+          "text": "する",
+          "kana": "する"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "可以，会；做好，完成",
+      "japanese": "できる",
+      "kana": "できる",
+      "romaji": "dekiru",
+      "tokens": [
+        {
+          "text": "できる",
+          "kana": "できる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "考试，测验",
+      "japanese": "テスト",
+      "kana": "てすと",
+      "romaji": "tesuto",
+      "tokens": [
+        {
+          "text": "テスト",
+          "kana": "てすと"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "笔记本，备忘录；记下来",
+      "japanese": "ノート",
+      "kana": "のうと",
+      "romaji": "nouto",
+      "tokens": [
+        {
+          "text": "ノート",
+          "kana": "のうと"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "喝",
+      "japanese": "飲む",
+      "kana": "のむ",
+      "romaji": "nomu",
+      "tokens": [
+        {
+          "text": "飲む",
+          "kana": "のむ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "游泳",
+      "japanese": "泳ぐ",
+      "kana": "およぐ",
+      "romaji": "oyogu",
+      "tokens": [
+        {
+          "text": "泳ぐ",
+          "kana": "およぐ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "唱歌",
+      "japanese": "歌う",
+      "kana": "うたう",
+      "romaji": "utau",
+      "tokens": [
+        {
+          "text": "歌う",
+          "kana": "うたう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "见面；偶遇",
+      "japanese": "会う",
+      "kana": "あう",
+      "romaji": "au",
+      "tokens": [
+        {
+          "text": "会う",
+          "kana": "あう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "打开，翻开；开张",
+      "japanese": "開ける",
+      "kana": "あける",
+      "romaji": "akeru",
+      "tokens": [
+        {
+          "text": "開ける",
+          "kana": "あける"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "花费；悬挂；上锁",
+      "japanese": "掛かる",
+      "kana": "かかる",
+      "romaji": "kakaru",
+      "tokens": [
+        {
+          "text": "掛かる",
+          "kana": "かかる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "挂；带上；打（电话）；花费；坐；上锁",
+      "japanese": "掛ける",
+      "kana": "かける",
+      "romaji": "kakeru",
+      "tokens": [
+        {
+          "text": "掛ける",
+          "kana": "かける"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "回去",
+      "japanese": "帰る",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "tokens": [
+        {
+          "text": "帰る",
+          "kana": "かえる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "站起来；起床；没睡觉；发生",
+      "japanese": "起きる",
+      "kana": "おきる",
+      "romaji": "okiru",
+      "tokens": [
+        {
+          "text": "起きる",
+          "kana": "おきる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "休息；睡觉；缺席",
+      "japanese": "休む",
+      "kana": "やすむ",
+      "romaji": "yasumu",
+      "tokens": [
+        {
+          "text": "休む",
+          "kana": "やすむ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "教，传授；告诉",
+      "japanese": "教える",
+      "kana": "おしえる",
+      "romaji": "oshieru",
+      "tokens": [
+        {
+          "text": "教える",
+          "kana": "おしえる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "看",
+      "japanese": "見る",
+      "kana": "みる",
+      "romaji": "miru",
+      "tokens": [
+        {
+          "text": "見る",
+          "kana": "みる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "说话，告诉；叫作",
+      "japanese": "言う",
+      "kana": "いう",
+      "romaji": "iu",
+      "tokens": [
+        {
+          "text": "言う",
+          "kana": "いう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "呼唤；叫来；叫作；邀请",
+      "japanese": "呼ぶ",
+      "kana": "よぶ",
+      "romaji": "yobu",
+      "tokens": [
+        {
+          "text": "呼ぶ",
+          "kana": "よぶ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "去，往，到",
+      "japanese": "行く",
+      "kana": "いく",
+      "romaji": "iku",
+      "tokens": [
+        {
+          "text": "行く",
+          "kana": "いく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "下降；下（车）",
+      "japanese": "降りる",
+      "kana": "おりる",
+      "romaji": "oriru",
+      "tokens": [
+        {
+          "text": "降りる",
+          "kana": "おりる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "下（雨、雪等）",
+      "japanese": "降る",
+      "kana": "ふる",
+      "romaji": "furu",
+      "tokens": [
+        {
+          "text": "降る",
+          "kana": "ふる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "感到困难；为难",
+      "japanese": "困る",
+      "kana": "こまる",
+      "romaji": "komaru",
+      "tokens": [
+        {
+          "text": "困る",
+          "kana": "こまる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "坐；居某地位",
+      "japanese": "座る",
+      "kana": "すわる",
+      "romaji": "suwaru",
+      "tokens": [
+        {
+          "text": "座る",
+          "kana": "すわる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "制作；做",
+      "japanese": "作る",
+      "kana": "つくる",
+      "romaji": "tsukuru",
+      "tokens": [
+        {
+          "text": "作る",
+          "kana": "つくる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "使用；花费",
+      "japanese": "使う",
+      "kana": "つかう",
+      "romaji": "tsukau",
+      "tokens": [
+        {
+          "text": "使う",
+          "kana": "つかう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "开始",
+      "japanese": "始まる",
+      "kana": "はじまる",
+      "romaji": "hajimaru",
+      "tokens": [
+        {
+          "text": "始まる",
+          "kana": "はじまる"
+        }
+      ]
+    }
+  ]
+}

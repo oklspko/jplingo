@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-14",
+  "coursePackId": "jp-n5",
+  "title": "名词 14",
+  "order": 14,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "下周",
+      "japanese": "来週",
+      "kana": "らいしゅう",
+      "romaji": "raishuu",
+      "tokens": [
+        {
+          "text": "来週",
+          "kana": "らいしゅう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "明年",
+      "japanese": "来年",
+      "kana": "らいねん",
+      "romaji": "rainen",
+      "tokens": [
+        {
+          "text": "来年",
+          "kana": "らいねん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "蛋，鸡蛋；未成熟者",
+      "japanese": "卵",
+      "kana": "たまご",
+      "romaji": "tamago",
+      "tokens": [
+        {
+          "text": "卵",
+          "kana": "たまご"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "留学",
+      "japanese": "留学",
+      "kana": "りゅうがく",
+      "romaji": "ryuugaku",
+      "tokens": [
+        {
+          "text": "留学",
+          "kana": "りゅうがく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "留学生",
+      "japanese": "留学生",
+      "kana": "りゅうがくせい",
+      "romaji": "ryuugakusei",
+      "tokens": [
+        {
+          "text": "留学生",
+          "kana": "りゅうがくせい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "旅游",
+      "japanese": "旅行",
+      "kana": "りょこう",
+      "romaji": "ryokou",
+      "tokens": [
+        {
+          "text": "旅行",
+          "kana": "りょこう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "双亲，父母",
+      "japanese": "両親",
+      "kana": "りょうしん",
+      "romaji": "ryoushin",
+      "tokens": [
+        {
+          "text": "両親",
+          "kana": "りょうしん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "菜肴；做菜",
+      "japanese": "料理",
+      "kana": "りょうり",
+      "romaji": "ryouri",
+      "tokens": [
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "绿色",
+      "japanese": "緑",
+      "kana": "みどり",
+      "romaji": "midori",
+      "tokens": [
+        {
+          "text": "緑",
+          "kana": "みどり"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "旁边；邻居",
+      "japanese": "隣",
+      "kana": "となり",
+      "romaji": "tonari",
+      "tokens": [
+        {
+          "text": "隣",
+          "kana": "となり"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "冰箱",
+      "japanese": "冷蔵庫",
+      "kana": "れいぞうこ",
+      "romaji": "reizouko",
+      "tokens": [
+        {
+          "text": "冷蔵庫",
+          "kana": "れいぞうこ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "（学问、运动或技术等）反复练习，训练",
+      "japanese": "練習",
+      "kana": "れんしゅう",
+      "romaji": "renshuu",
+      "tokens": [
+        {
+          "text": "練習",
+          "kana": "れんしゅう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "六个；六岁",
+      "japanese": "六つ",
+      "kana": "むっつ",
+      "romaji": "muttsu",
+      "tokens": [
+        {
+          "text": "六つ",
+          "kana": "むっつ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "六天；六号",
+      "japanese": "六日",
+      "kana": "むいか",
+      "romaji": "muika",
+      "tokens": [
+        {
+          "text": "六日",
+          "kana": "むいか"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "话；话题，事情；故事",
+      "japanese": "話",
+      "kana": "はなし",
+      "romaji": "hanashi",
+      "tokens": [
+        {
+          "text": "話",
+          "kana": "はなし"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "……学科",
+      "japanese": "学",
+      "kana": "がく",
+      "romaji": "gaku",
+      "tokens": [
+        {
+          "text": "学",
+          "kana": "がく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "……町",
+      "japanese": "町",
+      "kana": "ちょう",
+      "romaji": "chou",
+      "tokens": [
+        {
+          "text": "町",
+          "kana": "ちょう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "曲奇饼干",
+      "japanese": "クッキー",
+      "kana": "くっきい",
+      "romaji": "kukkii",
+      "tokens": [
+        {
+          "text": "クッキー",
+          "kana": "くっきい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "从现在起，之后",
+      "japanese": "これから",
+      "kana": "これから",
+      "romaji": "korekara",
+      "tokens": [
+        {
+          "text": "これから",
+          "kana": "これから"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "网球",
+      "japanese": "テニス",
+      "kana": "てにす",
+      "romaji": "tenisu",
+      "tokens": [
+        {
+          "text": "テニス",
+          "kana": "てにす"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "篮球",
+      "japanese": "バスケットボール",
+      "kana": "ばすけっとぼうる",
+      "romaji": "basukettobouru",
+      "tokens": [
+        {
+          "text": "バスケットボール",
+          "kana": "ばすけっとぼうる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "高楼，大厦",
+      "japanese": "ビル",
+      "kana": "びる",
+      "romaji": "biru",
+      "tokens": [
+        {
+          "text": "ビル",
+          "kana": "びる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "球",
+      "japanese": "ボール",
+      "kana": "ぼうる",
+      "romaji": "bouru",
+      "tokens": [
+        {
+          "text": "ボール",
+          "kana": "ぼうる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "大家；全部",
+      "japanese": "皆",
+      "kana": "みな",
+      "romaji": "mina",
+      "tokens": [
+        {
+          "text": "皆",
+          "kana": "みな"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "一次，一回",
+      "japanese": "一度",
+      "kana": "いちど",
+      "romaji": "ichido",
+      "tokens": [
+        {
+          "text": "一度",
+          "kana": "いちど"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "远处，远方",
+      "japanese": "遠く",
+      "kana": "とおく",
+      "romaji": "tooku",
+      "tokens": [
+        {
+          "text": "遠く",
+          "kana": "とおく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "火",
+      "japanese": "火",
+      "kana": "ひ",
+      "romaji": "hi",
+      "tokens": [
+        {
+          "text": "火",
+          "kana": "ひ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "感觉；印象",
+      "japanese": "感じ",
+      "kana": "かんじ",
+      "romaji": "kanji",
+      "tokens": [
+        {
+          "text": "感じ",
+          "kana": "かんじ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "玩具；玩物",
+      "japanese": "おもちゃ",
+      "kana": "おもちゃ",
+      "romaji": "omocha",
+      "tokens": [
+        {
+          "text": "おもちゃ",
+          "kana": "おもちゃ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "休息；假日；就寝",
+      "japanese": "休み",
+      "kana": "やすみ",
+      "romaji": "yasumi",
+      "tokens": [
+        {
+          "text": "休み",
+          "kana": "やすみ"
+        }
+      ]
+    }
+  ]
+}

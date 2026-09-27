@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-63",
+  "coursePackId": "jp-gaokao",
+  "title": "常用会话短句 1",
+  "order": 63,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "那可不行呀",
+      "japanese": "それはいけませんね",
+      "kana": "それはいけませんね",
+      "romaji": "sorehaikemasenne",
+      "tokens": [
+        {
+          "text": "それはいけませんね",
+          "kana": "それはいけませんね"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "我先告辞了、我挂了",
+      "japanese": "お先に失礼します",
+      "kana": "おさきにしつれいします",
+      "romaji": "osakinishitsureishimasu",
+      "tokens": [
+        {
+          "text": "お先に失礼します",
+          "kana": "おさきにしつれいします"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "我差不多该走了",
+      "japanese": "もうそろそろ失礼します",
+      "kana": "もうそろそろしつれいします",
+      "romaji": "mousorosoroshitsureishimasu",
+      "tokens": [
+        {
+          "text": "もうそろそろ失礼します",
+          "kana": "もうそろそろしつれいします"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "略表心意",
+      "japanese": "つまらないものですが",
+      "kana": "つまらないものですが",
+      "romaji": "tsumaranaimonodesuga",
+      "tokens": [
+        {
+          "text": "つまらないものですが",
+          "kana": "つまらないものですが"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "这不还早嘛",
+      "japanese": "まだいいじゃありませんか",
+      "kana": "まだいいじゃありませんか",
+      "romaji": "madaiijaarimasenka",
+      "tokens": [
+        {
+          "text": "まだいいじゃありませんか",
+          "kana": "まだいいじゃありませんか"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "一点心意",
+      "japanese": "気持ちだけです",
+      "kana": "きもちだけです",
+      "romaji": "kimochidakedesu",
+      "tokens": [
+        {
+          "text": "気持ちだけです",
+          "kana": "きもちだけです"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "辛苦了",
+      "japanese": "ご苦労様でした",
+      "kana": "ごくろうさまでした",
+      "romaji": "gokurousamadeshita",
+      "tokens": [
+        {
+          "text": "ご苦労様でした",
+          "kana": "ごくろうさまでした"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "我出去一趟",
+      "japanese": "ちょっとそこまで",
+      "kana": "ちょっとそこまで",
+      "romaji": "chottosokomade",
+      "tokens": [
+        {
+          "text": "ちょっとそこまで",
+          "kana": "ちょっとそこまで"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "您辛苦了",
+      "japanese": "お疲れ様でした",
+      "kana": "おつかれさまでした",
+      "romaji": "otsukaresamadeshita",
+      "tokens": [
+        {
+          "text": "お疲れ様でした",
+          "kana": "おつかれさまでした"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "你怎么了",
+      "japanese": "どうしたの",
+      "kana": "どうしたの",
+      "romaji": "doushitano",
+      "tokens": [
+        {
+          "text": "どうしたの",
+          "kana": "どうしたの"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "哪里的话",
+      "japanese": "どんでもありません",
+      "kana": "どんでもありません",
+      "romaji": "dondemoarimasen",
+      "tokens": [
+        {
+          "text": "どんでもありません",
+          "kana": "どんでもありません"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "我有事情拜托您",
+      "japanese": "ちょっとお願いがありますが",
+      "kana": "ちょっとおねがいがありますが",
+      "romaji": "chottoonegaigaarimasuga",
+      "tokens": [
+        {
+          "text": "ちょっとお願いがありますが",
+          "kana": "ちょっとおねがいがありますが"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "不好意思",
+      "japanese": "悪いですね",
+      "kana": "わるいですね",
+      "romaji": "waruidesune",
+      "tokens": [
+        {
+          "text": "悪いですね",
+          "kana": "わるいですね"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "好呀",
+      "japanese": "いいですよ",
+      "kana": "いいですよ",
+      "romaji": "iidesuyo",
+      "tokens": [
+        {
+          "text": "いいですよ",
+          "kana": "いいですよ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "没那回事哦",
+      "japanese": "そんなことはありませんよ",
+      "kana": "そんなことはありませんよ",
+      "romaji": "sonnakotohaarimasenyo",
+      "tokens": [
+        {
+          "text": "そんなことはありませんよ",
+          "kana": "そんなことはありませんよ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "多有打扰",
+      "japanese": "お邪魔します",
+      "kana": "おじゃまします",
+      "romaji": "ojamashimasu",
+      "tokens": [
+        {
+          "text": "お邪魔します",
+          "kana": "おじゃまします"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "欢迎，路上辛苦了",
+      "japanese": "よくいらっしゃいました",
+      "kana": "よくいらっしゃいました",
+      "romaji": "yokuirasshaimashita",
+      "tokens": [
+        {
+          "text": "よくいらっしゃいました",
+          "kana": "よくいらっしゃいました"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "您别来无恙？",
+      "japanese": "お変わりありませんか",
+      "kana": "おかわりありませんか",
+      "romaji": "okawariarimasenka",
+      "tokens": [
+        {
+          "text": "お変わりありませんか",
+          "kana": "おかわりありませんか"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "多有打扰",
+      "japanese": "お邪魔しました",
+      "kana": "おじゃましました",
+      "romaji": "ojamashimashita",
+      "tokens": [
+        {
+          "text": "お邪魔しました",
+          "kana": "おじゃましました"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "怎么办呀",
+      "japanese": "どうしょう",
+      "kana": "どうしょう",
+      "romaji": "doushou",
+      "tokens": [
+        {
+          "text": "どうしょう",
+          "kana": "どうしょう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "我帮您吧",
+      "japanese": "お手伝いしましょうか",
+      "kana": "おてつだいしましょうか",
+      "romaji": "otetsudaishimashouka",
+      "tokens": [
+        {
+          "text": "お手伝いしましょうか",
+          "kana": "おてつだいしましょうか"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "不客气；没关系",
+      "japanese": "どういたしまして",
+      "kana": "どういたしまして",
+      "romaji": "douitashimashite",
+      "tokens": [
+        {
+          "text": "どういたしまして",
+          "kana": "どういたしまして"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "有人在吗？",
+      "japanese": "ごめんください",
+      "kana": "ごめんください",
+      "romaji": "gomenkudasai",
+      "tokens": [
+        {
+          "text": "ごめんください",
+          "kana": "ごめんください"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "就那样办吧",
+      "japanese": "そうしましょう",
+      "kana": "そうしましょう",
+      "romaji": "soushimashou",
+      "tokens": [
+        {
+          "text": "そうしましょう",
+          "kana": "そうしましょう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "不要了、不用了",
+      "japanese": "いいです",
+      "kana": "いいです",
+      "romaji": "iidesu",
+      "tokens": [
+        {
+          "text": "いいです",
+          "kana": "いいです"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "就一点心意",
+      "japanese": "ほんの気持ちだけ",
+      "kana": "ほんのきもちだけ",
+      "romaji": "honnokimochidake",
+      "tokens": [
+        {
+          "text": "ほんの気持ちだけ",
+          "kana": "ほんのきもちだけ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "帮大忙了",
+      "japanese": "それは助かります",
+      "kana": "それはたすかります",
+      "romaji": "sorehatasukarimasu",
+      "tokens": [
+        {
+          "text": "それは助かります",
+          "kana": "それはたすかります"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "再来一杯（碗）",
+      "japanese": "おかわり",
+      "kana": "おかわり",
+      "romaji": "okawari",
+      "tokens": [
+        {
+          "text": "おかわり",
+          "kana": "おかわり"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "够了、不用了",
+      "japanese": "結構です",
+      "kana": "けっこうです",
+      "romaji": "kekkoudesu",
+      "tokens": [
+        {
+          "text": "結構です",
+          "kana": "けっこうです"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "对不起",
+      "japanese": "ごめん・ごめんなさい",
+      "kana": "ごめん・ごめんなさい",
+      "romaji": "gomen gomennasai",
+      "tokens": [
+        {
+          "text": "ごめん・ごめんなさい",
+          "kana": "ごめん・ごめんなさい"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "我帮您吧",
+      "japanese": "お手伝いしましょうか",
+      "kana": "おてつだいしましょうか",
+      "romaji": "otetsudaishimashouka",
+      "tokens": [
+        {
+          "text": "お手伝いしましょうか",
+          "kana": "おてつだいしましょうか"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "就那样办吧",
+      "japanese": "そうしましょう",
+      "kana": "そうしましょう",
+      "romaji": "soushimashou",
+      "tokens": [
+        {
+          "text": "そうしましょう",
+          "kana": "そうしましょう"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "不客气；没关系",
+      "japanese": "どういたしまして",
+      "kana": "どういたしまして",
+      "romaji": "douitashimashite",
+      "tokens": [
+        {
+          "text": "どういたしまして",
+          "kana": "どういたしまして"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "那可不行呀",
+      "japanese": "それはいけませんね",
+      "kana": "それはいけませんね",
+      "romaji": "sorehaikemasenne",
+      "tokens": [
+        {
+          "text": "それはいけませんね",
+          "kana": "それはいけませんね"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "你怎么了",
+      "japanese": "どうしたの",
+      "kana": "どうしたの",
+      "romaji": "doushitano",
+      "tokens": [
+        {
+          "text": "どうしたの",
+          "kana": "どうしたの"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "我先告辞了、我挂了",
+      "japanese": "お先に失礼します",
+      "kana": "おさきにしつれいします",
+      "romaji": "osakinishitsureishimasu",
+      "tokens": [
+        {
+          "text": "お先に失礼します",
+          "kana": "おさきにしつれいします"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "这不还早嘛",
+      "japanese": "まだいいじゃありませんか",
+      "kana": "まだいいじゃありませんか",
+      "romaji": "madaiijaarimasenka",
+      "tokens": [
+        {
+          "text": "まだいいじゃありませんか",
+          "kana": "まだいいじゃありませんか"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "一点心意",
+      "japanese": "気持ちだけです",
+      "kana": "きもちだけです",
+      "romaji": "kimochidakedesu",
+      "tokens": [
+        {
+          "text": "気持ちだけです",
+          "kana": "きもちだけです"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "您别来无恙？",
+      "japanese": "お変わりありませんか",
+      "kana": "おかわりありませんか",
+      "romaji": "okawariarimasenka",
+      "tokens": [
+        {
+          "text": "お変わりありませんか",
+          "kana": "おかわりありませんか"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "不要了、不用了",
+      "japanese": "いいです",
+      "kana": "いいです",
+      "romaji": "iidesu",
+      "tokens": [
+        {
+          "text": "いいです",
+          "kana": "いいです"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "略表心意",
+      "japanese": "つまらないものですが",
+      "kana": "つまらないものですが",
+      "romaji": "tsumaranaimonodesuga",
+      "tokens": [
+        {
+          "text": "つまらないものですが",
+          "kana": "つまらないものですが"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "您辛苦了",
+      "japanese": "お疲れ様でした",
+      "kana": "おつかれさまでした",
+      "romaji": "otsukaresamadeshita",
+      "tokens": [
+        {
+          "text": "お疲れ様でした",
+          "kana": "おつかれさまでした"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "好呀",
+      "japanese": "いいですよ",
+      "kana": "いいですよ",
+      "romaji": "iidesuyo",
+      "tokens": [
+        {
+          "text": "いいですよ",
+          "kana": "いいですよ"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "再来一杯（碗）",
+      "japanese": "おかわり",
+      "kana": "おかわり",
+      "romaji": "okawari",
+      "tokens": [
+        {
+          "text": "おかわり",
+          "kana": "おかわり"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "多有打扰",
+      "japanese": "お邪魔しました",
+      "kana": "おじゃましました",
+      "romaji": "ojamashimashita",
+      "tokens": [
+        {
+          "text": "お邪魔しました",
+          "kana": "おじゃましました"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "多有打扰",
+      "japanese": "お邪魔します",
+      "kana": "おじゃまします",
+      "romaji": "ojamashimasu",
+      "tokens": [
+        {
+          "text": "お邪魔します",
+          "kana": "おじゃまします"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "帮大忙了",
+      "japanese": "それは助かります",
+      "kana": "それはたすかります",
+      "romaji": "sorehatasukarimasu",
+      "tokens": [
+        {
+          "text": "それは助かります",
+          "kana": "それはたすかります"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "我有事情拜托您",
+      "japanese": "ちょっとお願いがありますが",
+      "kana": "ちょっとおねがいがありますが",
+      "romaji": "chottoonegaigaarimasuga",
+      "tokens": [
+        {
+          "text": "ちょっとお願いがありますが",
+          "kana": "ちょっとおねがいがありますが"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "不好意思",
+      "japanese": "悪いですね",
+      "kana": "わるいですね",
+      "romaji": "waruidesune",
+      "tokens": [
+        {
+          "text": "悪いですね",
+          "kana": "わるいですね"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "够了、不用了",
+      "japanese": "結構です",
+      "kana": "けっこうです",
+      "romaji": "kekkoudesu",
+      "tokens": [
+        {
+          "text": "結構です",
+          "kana": "けっこうです"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "对不起",
+      "japanese": "ごめん・ごめんなさい",
+      "kana": "ごめん・ごめんなさい",
+      "romaji": "gomen gomennasai",
+      "tokens": [
+        {
+          "text": "ごめん・ごめんなさい",
+          "kana": "ごめん・ごめんなさい"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "就一点心意",
+      "japanese": "ほんの気持ちだけ",
+      "kana": "ほんのきもちだけ",
+      "romaji": "honnokimochidake",
+      "tokens": [
+        {
+          "text": "ほんの気持ちだけ",
+          "kana": "ほんのきもちだけ"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "我出去一趟",
+      "japanese": "ちょっとそこまで",
+      "kana": "ちょっとそこまで",
+      "romaji": "chottosokomade",
+      "tokens": [
+        {
+          "text": "ちょっとそこまで",
+          "kana": "ちょっとそこまで"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "欢迎，路上辛苦了",
+      "japanese": "よくいらっしゃいました",
+      "kana": "よくいらっしゃいました",
+      "romaji": "yokuirasshaimashita",
+      "tokens": [
+        {
+          "text": "よくいらっしゃいました",
+          "kana": "よくいらっしゃいました"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "我差不多该走了",
+      "japanese": "もうそろそろ失礼します",
+      "kana": "もうそろそろしつれいします",
+      "romaji": "mousorosoroshitsureishimasu",
+      "tokens": [
+        {
+          "text": "もうそろそろ失礼します",
+          "kana": "もうそろそろしつれいします"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "哪里的话",
+      "japanese": "どんでもありません",
+      "kana": "どんでもありません",
+      "romaji": "dondemoarimasen",
+      "tokens": [
+        {
+          "text": "どんでもありません",
+          "kana": "どんでもありません"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "辛苦了",
+      "japanese": "ご苦労様でした",
+      "kana": "ごくろうさまでした",
+      "romaji": "gokurousamadeshita",
+      "tokens": [
+        {
+          "text": "ご苦労様でした",
+          "kana": "ごくろうさまでした"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "有人在吗？",
+      "japanese": "ごめんください",
+      "kana": "ごめんください",
+      "romaji": "gomenkudasai",
+      "tokens": [
+        {
+          "text": "ごめんください",
+          "kana": "ごめんください"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "怎么办呀",
+      "japanese": "どうしょう",
+      "kana": "どうしょう",
+      "romaji": "doushou",
+      "tokens": [
+        {
+          "text": "どうしょう",
+          "kana": "どうしょう"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "没那回事哦",
+      "japanese": "そんなことはありませんよ",
+      "kana": "そんなことはありませんよ",
+      "romaji": "sonnakotohaarimasenyo",
+      "tokens": [
+        {
+          "text": "そんなことはありませんよ",
+          "kana": "そんなことはありませんよ"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "一点心意",
+      "japanese": "気持ちだけです",
+      "kana": "きもちだけです",
+      "romaji": "kimochidakedesu",
+      "tokens": [
+        {
+          "text": "気持ちだけです",
+          "kana": "きもちだけです"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "您辛苦了",
+      "japanese": "お疲れ様でした",
+      "kana": "おつかれさまでした",
+      "romaji": "otsukaresamadeshita",
+      "tokens": [
+        {
+          "text": "お疲れ様でした",
+          "kana": "おつかれさまでした"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "再来一杯（碗）",
+      "japanese": "おかわり",
+      "kana": "おかわり",
+      "romaji": "okawari",
+      "tokens": [
+        {
+          "text": "おかわり",
+          "kana": "おかわり"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "怎么办呀",
+      "japanese": "どうしょう",
+      "kana": "どうしょう",
+      "romaji": "doushou",
+      "tokens": [
+        {
+          "text": "どうしょう",
+          "kana": "どうしょう"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "这不还早嘛",
+      "japanese": "まだいいじゃありませんか",
+      "kana": "まだいいじゃありませんか",
+      "romaji": "madaiijaarimasenka",
+      "tokens": [
+        {
+          "text": "まだいいじゃありませんか",
+          "kana": "まだいいじゃありませんか"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "对不起",
+      "japanese": "ごめん・ごめんなさい",
+      "kana": "ごめん・ごめんなさい",
+      "romaji": "gomen gomennasai",
+      "tokens": [
+        {
+          "text": "ごめん・ごめんなさい",
+          "kana": "ごめん・ごめんなさい"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "就一点心意",
+      "japanese": "ほんの気持ちだけ",
+      "kana": "ほんのきもちだけ",
+      "romaji": "honnokimochidake",
+      "tokens": [
+        {
+          "text": "ほんの気持ちだけ",
+          "kana": "ほんのきもちだけ"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "我出去一趟",
+      "japanese": "ちょっとそこまで",
+      "kana": "ちょっとそこまで",
+      "romaji": "chottosokomade",
+      "tokens": [
+        {
+          "text": "ちょっとそこまで",
+          "kana": "ちょっとそこまで"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "多有打扰",
+      "japanese": "お邪魔しました",
+      "kana": "おじゃましました",
+      "romaji": "ojamashimashita",
+      "tokens": [
+        {
+          "text": "お邪魔しました",
+          "kana": "おじゃましました"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "没那回事哦",
+      "japanese": "そんなことはありませんよ",
+      "kana": "そんなことはありませんよ",
+      "romaji": "sonnakotohaarimasenyo",
+      "tokens": [
+        {
+          "text": "そんなことはありませんよ",
+          "kana": "そんなことはありませんよ"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "辛苦了",
+      "japanese": "ご苦労様でした",
+      "kana": "ごくろうさまでした",
+      "romaji": "gokurousamadeshita",
+      "tokens": [
+        {
+          "text": "ご苦労様でした",
+          "kana": "ごくろうさまでした"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "那可不行呀",
+      "japanese": "それはいけませんね",
+      "kana": "それはいけませんね",
+      "romaji": "sorehaikemasenne",
+      "tokens": [
+        {
+          "text": "それはいけませんね",
+          "kana": "それはいけませんね"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "我有事情拜托您",
+      "japanese": "ちょっとお願いがありますが",
+      "kana": "ちょっとおねがいがありますが",
+      "romaji": "chottoonegaigaarimasuga",
+      "tokens": [
+        {
+          "text": "ちょっとお願いがありますが",
+          "kana": "ちょっとおねがいがありますが"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "我先告辞了、我挂了",
+      "japanese": "お先に失礼します",
+      "kana": "おさきにしつれいします",
+      "romaji": "osakinishitsureishimasu",
+      "tokens": [
+        {
+          "text": "お先に失礼します",
+          "kana": "おさきにしつれいします"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "帮大忙了",
+      "japanese": "それは助かります",
+      "kana": "それはたすかります",
+      "romaji": "sorehatasukarimasu",
+      "tokens": [
+        {
+          "text": "それは助かります",
+          "kana": "それはたすかります"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "有人在吗？",
+      "japanese": "ごめんください",
+      "kana": "ごめんください",
+      "romaji": "gomenkudasai",
+      "tokens": [
+        {
+          "text": "ごめんください",
+          "kana": "ごめんください"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "您别来无恙？",
+      "japanese": "お変わりありませんか",
+      "kana": "おかわりありませんか",
+      "romaji": "okawariarimasenka",
+      "tokens": [
+        {
+          "text": "お変わりありませんか",
+          "kana": "おかわりありませんか"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "够了、不用了",
+      "japanese": "結構です",
+      "kana": "けっこうです",
+      "romaji": "kekkoudesu",
+      "tokens": [
+        {
+          "text": "結構です",
+          "kana": "けっこうです"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "就那样办吧",
+      "japanese": "そうしましょう",
+      "kana": "そうしましょう",
+      "romaji": "soushimashou",
+      "tokens": [
+        {
+          "text": "そうしましょう",
+          "kana": "そうしましょう"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "略表心意",
+      "japanese": "つまらないものですが",
+      "kana": "つまらないものですが",
+      "romaji": "tsumaranaimonodesuga",
+      "tokens": [
+        {
+          "text": "つまらないものですが",
+          "kana": "つまらないものですが"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "多有打扰",
+      "japanese": "お邪魔します",
+      "kana": "おじゃまします",
+      "romaji": "ojamashimasu",
+      "tokens": [
+        {
+          "text": "お邪魔します",
+          "kana": "おじゃまします"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "欢迎，路上辛苦了",
+      "japanese": "よくいらっしゃいました",
+      "kana": "よくいらっしゃいました",
+      "romaji": "yokuirasshaimashita",
+      "tokens": [
+        {
+          "text": "よくいらっしゃいました",
+          "kana": "よくいらっしゃいました"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "我差不多该走了",
+      "japanese": "もうそろそろ失礼します",
+      "kana": "もうそろそろしつれいします",
+      "romaji": "mousorosoroshitsureishimasu",
+      "tokens": [
+        {
+          "text": "もうそろそろ失礼します",
+          "kana": "もうそろそろしつれいします"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "哪里的话",
+      "japanese": "どんでもありません",
+      "kana": "どんでもありません",
+      "romaji": "dondemoarimasen",
+      "tokens": [
+        {
+          "text": "どんでもありません",
+          "kana": "どんでもありません"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "不要了、不用了",
+      "japanese": "いいです",
+      "kana": "いいです",
+      "romaji": "iidesu",
+      "tokens": [
+        {
+          "text": "いいです",
+          "kana": "いいです"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "不好意思",
+      "japanese": "悪いですね",
+      "kana": "わるいですね",
+      "romaji": "waruidesune",
+      "tokens": [
+        {
+          "text": "悪いですね",
+          "kana": "わるいですね"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "你怎么了",
+      "japanese": "どうしたの",
+      "kana": "どうしたの",
+      "romaji": "doushitano",
+      "tokens": [
+        {
+          "text": "どうしたの",
+          "kana": "どうしたの"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "不客气；没关系",
+      "japanese": "どういたしまして",
+      "kana": "どういたしまして",
+      "romaji": "douitashimashite",
+      "tokens": [
+        {
+          "text": "どういたしまして",
+          "kana": "どういたしまして"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "我帮您吧",
+      "japanese": "お手伝いしましょうか",
+      "kana": "おてつだいしましょうか",
+      "romaji": "otetsudaishimashouka",
+      "tokens": [
+        {
+          "text": "お手伝いしましょうか",
+          "kana": "おてつだいしましょうか"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "好呀",
+      "japanese": "いいですよ",
+      "kana": "いいですよ",
+      "romaji": "iidesuyo",
+      "tokens": [
+        {
+          "text": "いいですよ",
+          "kana": "いいですよ"
+        }
+      ]
+    }
+  ]
+}

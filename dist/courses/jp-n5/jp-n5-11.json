@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-11",
+  "coursePackId": "jp-n5",
+  "title": "名词 11",
+  "order": 11,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "午饭",
+      "japanese": "昼ご飯",
+      "kana": "ひるごはん",
+      "romaji": "hirugohan",
+      "tokens": [
+        {
+          "text": "昼ご飯",
+          "kana": "ひるごはん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "早晨，早上",
+      "japanese": "朝",
+      "kana": "あさ",
+      "romaji": "asa",
+      "tokens": [
+        {
+          "text": "朝",
+          "kana": "あさ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "早饭",
+      "japanese": "朝ご飯",
+      "kana": "あさごはん",
+      "romaji": "asagohan",
+      "tokens": [
+        {
+          "text": "朝ご飯",
+          "kana": "あさごはん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "城镇；町",
+      "japanese": "町",
+      "kana": "まち",
+      "romaji": "machi",
+      "tokens": [
+        {
+          "text": "町",
+          "kana": "まち"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "鸟；鸡；鸡肉",
+      "japanese": "鳥",
+      "kana": "とり",
+      "romaji": "tori",
+      "tokens": [
+        {
+          "text": "鳥",
+          "kana": "とり"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "庭院，院子",
+      "japanese": "庭",
+      "kana": "にわ",
+      "romaji": "niwa",
+      "tokens": [
+        {
+          "text": "庭",
+          "kana": "にわ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（自己的）弟弟",
+      "japanese": "弟",
+      "kana": "おとうと",
+      "romaji": "otouto",
+      "tokens": [
+        {
+          "text": "弟",
+          "kana": "おとうと"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "天气；晴天",
+      "japanese": "天気",
+      "kana": "てんき",
+      "romaji": "tenki",
+      "tokens": [
+        {
+          "text": "天気",
+          "kana": "てんき"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "商店，店铺",
+      "japanese": "店",
+      "kana": "みせ",
+      "romaji": "mise",
+      "tokens": [
+        {
+          "text": "店",
+          "kana": "みせ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "电；电灯",
+      "japanese": "電気",
+      "kana": "でんき",
+      "romaji": "denki",
+      "tokens": [
+        {
+          "text": "電気",
+          "kana": "でんき"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "电车",
+      "japanese": "電車",
+      "kana": "でんしゃ",
+      "romaji": "densha",
+      "tokens": [
+        {
+          "text": "電車",
+          "kana": "でんしゃ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "电话",
+      "japanese": "電話",
+      "kana": "でんわ",
+      "romaji": "denwa",
+      "tokens": [
+        {
+          "text": "電話",
+          "kana": "でんわ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "周六",
+      "japanese": "土曜日",
+      "kana": "どようび",
+      "romaji": "doyoubi",
+      "tokens": [
+        {
+          "text": "土曜日",
+          "kana": "どようび"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "冬天，冬季",
+      "japanese": "冬",
+      "kana": "ふゆ",
+      "romaji": "fuyu",
+      "tokens": [
+        {
+          "text": "冬",
+          "kana": "ふゆ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "寒假",
+      "japanese": "冬休み",
+      "kana": "ふゆやすみ",
+      "romaji": "fuyuyasumi",
+      "tokens": [
+        {
+          "text": "冬休み",
+          "kana": "ふゆやすみ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "东",
+      "japanese": "東",
+      "kana": "ひがし",
+      "romaji": "higashi",
+      "tokens": [
+        {
+          "text": "東",
+          "kana": "ひがし"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "回复；答案",
+      "japanese": "答え",
+      "kana": "こたえ",
+      "romaji": "kotae",
+      "tokens": [
+        {
+          "text": "答え",
+          "kana": "こたえ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "头；顶部；头脑",
+      "japanese": "頭",
+      "kana": "あたま",
+      "romaji": "atama",
+      "tokens": [
+        {
+          "text": "頭",
+          "kana": "あたま"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "动物",
+      "japanese": "動物",
+      "kana": "どうぶつ",
+      "romaji": "doubutsu",
+      "tokens": [
+        {
+          "text": "動物",
+          "kana": "どうぶつ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "道路",
+      "japanese": "道",
+      "kana": "みち",
+      "romaji": "michi",
+      "tokens": [
+        {
+          "text": "道",
+          "kana": "みち"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "阴天；模糊不清",
+      "japanese": "曇り",
+      "kana": "くもり",
+      "romaji": "kumori",
+      "tokens": [
+        {
+          "text": "曇り",
+          "kana": "くもり"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "南方",
+      "japanese": "南",
+      "kana": "みなみ",
+      "romaji": "minami",
+      "tokens": [
+        {
+          "text": "南",
+          "kana": "みなみ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "两个；两岁",
+      "japanese": "二つ",
+      "kana": "ふたつ",
+      "romaji": "futatsu",
+      "tokens": [
+        {
+          "text": "二つ",
+          "kana": "ふたつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "二十",
+      "japanese": "二十",
+      "kana": "にじゅう",
+      "romaji": "nijuu",
+      "tokens": [
+        {
+          "text": "二十",
+          "kana": "にじゅう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "二十号，二十日；二十天",
+      "japanese": "二十日",
+      "kana": "はつか",
+      "romaji": "hatsuka",
+      "tokens": [
+        {
+          "text": "二十日",
+          "kana": "はつか"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "两个人",
+      "japanese": "二人",
+      "kana": "ふたり",
+      "romaji": "futari",
+      "tokens": [
+        {
+          "text": "二人",
+          "kana": "ふたり"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "二号，二日；两天",
+      "japanese": "二日",
+      "kana": "ふつか",
+      "romaji": "futsuka",
+      "tokens": [
+        {
+          "text": "二日",
+          "kana": "ふつか"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "肉，肉类",
+      "japanese": "肉",
+      "kana": "にく",
+      "romaji": "niku",
+      "tokens": [
+        {
+          "text": "肉",
+          "kana": "にく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "日本",
+      "japanese": "日本",
+      "kana": "にほん",
+      "romaji": "nihon",
+      "tokens": [
+        {
+          "text": "日本",
+          "kana": "にほん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "日语",
+      "japanese": "日本語",
+      "kana": "にほんご",
+      "romaji": "nihongo",
+      "tokens": [
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        }
+      ]
+    }
+  ]
+}

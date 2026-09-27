@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-83",
+  "coursePackId": "jp-n2",
+  "title": "动词 12",
+  "order": 83,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "发射；（演出等）终了，闭幕",
+      "japanese": "打ち上げる",
+      "kana": "うちあげる",
+      "romaji": "uchiageru",
+      "tokens": [
+        {
+          "text": "打ち上げる",
+          "kana": "うちあげる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "如实说出，告白，坦白",
+      "japanese": "打ち明ける",
+      "kana": "うちあける",
+      "romaji": "uchiakeru",
+      "tokens": [
+        {
+          "text": "打ち明ける",
+          "kana": "うちあける"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "保持平衡，相配",
+      "japanese": "釣り合う",
+      "kana": "つりあう",
+      "romaji": "tsuriau",
+      "tokens": [
+        {
+          "text": "釣り合う",
+          "kana": "つりあう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "引路；指导；引导；引出",
+      "japanese": "導く",
+      "kana": "みちびく",
+      "romaji": "michibiku",
+      "tokens": [
+        {
+          "text": "導く",
+          "kana": "みちびく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "读懂，领会；看透；（电脑）读取",
+      "japanese": "読み取る",
+      "kana": "よみとる",
+      "romaji": "yomitoru",
+      "tokens": [
+        {
+          "text": "読み取る",
+          "kana": "よみとる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "烦恼，使……为难",
+      "japanese": "悩ます",
+      "kana": "なやます",
+      "romaji": "nayamasu",
+      "tokens": [
+        {
+          "text": "悩ます",
+          "kana": "なやます"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "购买，收购",
+      "japanese": "買い求める",
+      "kana": "かいもとめる",
+      "romaji": "kaimotomeru",
+      "tokens": [
+        {
+          "text": "買い求める",
+          "kana": "かいもとめる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "开售，新发售；（广为宣传，或是打折促销，附赠奖品）大量销售；出名，崭露头角",
+      "japanese": "売り出す",
+      "kana": "うりだす",
+      "romaji": "uridasu",
+      "tokens": [
+        {
+          "text": "売り出す",
+          "kana": "うりだす"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "淡薄；模糊",
+      "japanese": "薄れる",
+      "kana": "うすれる",
+      "romaji": "usureru",
+      "tokens": [
+        {
+          "text": "薄れる",
+          "kana": "うすれる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "发送，寄送",
+      "japanese": "発送",
+      "kana": "はっそう",
+      "romaji": "hassou",
+      "tokens": [
+        {
+          "text": "発送",
+          "kana": "はっそう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "飞出，跑出；突然出现；鼓出，突出",
+      "japanese": "飛び出る",
+      "kana": "とびでる",
+      "romaji": "tobideru",
+      "tokens": [
+        {
+          "text": "飛び出る",
+          "kana": "とびでる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "飞上天空；（因喜悦或期待）内心躁动不安",
+      "japanese": "飛び立つ",
+      "kana": "とびたつ",
+      "romaji": "tobitatsu",
+      "tokens": [
+        {
+          "text": "飛び立つ",
+          "kana": "とびたつ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "补充，添加",
+      "japanese": "付け加える",
+      "kana": "つけくわえる",
+      "romaji": "tsukekuwaeru",
+      "tokens": [
+        {
+          "text": "付け加える",
+          "kana": "つけくわえる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "打败，战胜",
+      "japanese": "負かす",
+      "kana": "まかす",
+      "romaji": "makasu",
+      "tokens": [
+        {
+          "text": "負かす",
+          "kana": "まかす"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "维持，保持",
+      "japanese": "保つ",
+      "kana": "たもつ",
+      "romaji": "tamotsu",
+      "tokens": [
+        {
+          "text": "保つ",
+          "kana": "たもつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "包，裹",
+      "japanese": "くるむ",
+      "kana": "くるむ",
+      "romaji": "kurumu",
+      "tokens": [
+        {
+          "text": "くるむ",
+          "kana": "くるむ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "放在一边，弃之不管",
+      "japanese": "放っておく",
+      "kana": "ほうっておく",
+      "romaji": "houtteoku",
+      "tokens": [
+        {
+          "text": "放っておく",
+          "kana": "ほうっておく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "扔出去；中途放弃，丢下不管；赶走",
+      "japanese": "放り出す",
+      "kana": "ほうりだす",
+      "romaji": "houridasu",
+      "tokens": [
+        {
+          "text": "放り出す",
+          "kana": "ほうりだす"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "拜访，访问；来临，到来",
+      "japanese": "訪れる",
+      "kana": "おとずれる",
+      "romaji": "otozureru",
+      "tokens": [
+        {
+          "text": "訪れる",
+          "kana": "おとずれる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "埋没；占满；填补",
+      "japanese": "埋まる",
+      "kana": "うまる",
+      "romaji": "umaru",
+      "tokens": [
+        {
+          "text": "埋まる",
+          "kana": "うまる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "充满，填满；满足",
+      "japanese": "満たす",
+      "kana": "みたす",
+      "romaji": "mitasu",
+      "tokens": [
+        {
+          "text": "満たす",
+          "kana": "みたす"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "称呼，命名",
+      "japanese": "名付ける",
+      "kana": "なづける",
+      "romaji": "nazukeru",
+      "tokens": [
+        {
+          "text": "名付ける",
+          "kana": "なづける"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "摘要，要点",
+      "japanese": "要約",
+      "kana": "ようやく",
+      "romaji": "youyaku",
+      "tokens": [
+        {
+          "text": "要約",
+          "kana": "ようやく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "掉进；下陷；跌落，下降；（情绪）低落",
+      "japanese": "落ち込む",
+      "kana": "おちこむ",
+      "romaji": "ochikomu",
+      "tokens": [
+        {
+          "text": "落ち込む",
+          "kana": "おちこむ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "启程",
+      "japanese": "旅立つ",
+      "kana": "たびだつ",
+      "romaji": "tabidatsu",
+      "tokens": [
+        {
+          "text": "旅立つ",
+          "kana": "たびだつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "使……充满力量，鼓励，激励",
+      "japanese": "力づける",
+      "kana": "ちからづける",
+      "romaji": "chikarazukeru",
+      "tokens": [
+        {
+          "text": "力づける",
+          "kana": "ちからづける"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "漏；走漏；遗漏；被排除",
+      "japanese": "漏れる",
+      "kana": "もれる",
+      "romaji": "moreru",
+      "tokens": [
+        {
+          "text": "漏れる",
+          "kana": "もれる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "布置；安排；改编",
+      "japanese": "アレンジ",
+      "kana": "あれんじ",
+      "romaji": "arenji",
+      "tokens": [
+        {
+          "text": "アレンジ",
+          "kana": "あれんじ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "怂恿；奉承",
+      "japanese": "おだてる",
+      "kana": "おだてる",
+      "romaji": "odateru",
+      "tokens": [
+        {
+          "text": "おだてる",
+          "kana": "おだてる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "捕捉，抓住；接球",
+      "japanese": "キャッチ",
+      "kana": "きゃっち",
+      "romaji": "kyatchi",
+      "tokens": [
+        {
+          "text": "キャッチ",
+          "kana": "きゃっち"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-61",
+  "coursePackId": "jp-n1",
+  "title": "名词 61",
+  "order": 61,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "热带的（树木稀少的）大草原",
+      "japanese": "サバンナ",
+      "kana": "さばんな",
+      "romaji": "sabanna",
+      "tokens": [
+        {
+          "text": "サバンナ",
+          "kana": "さばんな"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "遗物；古物，文化遗产；遗失物",
+      "japanese": "遺物",
+      "kana": "いぶつ",
+      "romaji": "ibutsu",
+      "tokens": [
+        {
+          "text": "遺物",
+          "kana": "いぶつ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "回娘家；回乡探亲，回国探亲",
+      "japanese": "里帰り",
+      "kana": "さとがえり",
+      "romaji": "satogaeri",
+      "tokens": [
+        {
+          "text": "里帰り",
+          "kana": "さとがえり"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "参观，游览；瞭望，侦察",
+      "japanese": "物見",
+      "kana": "ものみ",
+      "romaji": "monomi",
+      "tokens": [
+        {
+          "text": "物見",
+          "kana": "ものみ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "出去游玩",
+      "japanese": "遊山",
+      "kana": "ゆさん",
+      "romaji": "yusan",
+      "tokens": [
+        {
+          "text": "遊山",
+          "kana": "ゆさん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "碎片，碎块",
+      "japanese": "細切れ",
+      "kana": "こまぎれ",
+      "romaji": "komagire",
+      "tokens": [
+        {
+          "text": "細切れ",
+          "kana": "こまぎれ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "质地，底子；基础，根基",
+      "japanese": "素地",
+      "kana": "そじ",
+      "romaji": "soji",
+      "tokens": [
+        {
+          "text": "素地",
+          "kana": "そじ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "程度",
+      "japanese": "度合い",
+      "kana": "どあい",
+      "romaji": "doai",
+      "tokens": [
+        {
+          "text": "度合い",
+          "kana": "どあい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "论点",
+      "japanese": "論旨",
+      "kana": "ろんし",
+      "romaji": "ronshi",
+      "tokens": [
+        {
+          "text": "論旨",
+          "kana": "ろんし"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "借地人，租房人",
+      "japanese": "テナント",
+      "kana": "てなんと",
+      "romaji": "tenanto",
+      "tokens": [
+        {
+          "text": "テナント",
+          "kana": "てなんと"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "顾客层次",
+      "japanese": "客層",
+      "kana": "きゃくそう",
+      "romaji": "kyakusou",
+      "tokens": [
+        {
+          "text": "客層",
+          "kana": "きゃくそう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "妖怪，魔鬼",
+      "japanese": "魔物",
+      "kana": "まもの",
+      "romaji": "mamono",
+      "tokens": [
+        {
+          "text": "魔物",
+          "kana": "まもの"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "爬行动物",
+      "japanese": "爬[は]虫類",
+      "kana": "はちゅうるい",
+      "romaji": "hachuurui",
+      "tokens": [
+        {
+          "text": "爬[は]虫類",
+          "kana": "はちゅうるい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "客厅；客房",
+      "japanese": "客室",
+      "kana": "きゃくしつ",
+      "romaji": "kyakushitsu",
+      "tokens": [
+        {
+          "text": "客室",
+          "kana": "きゃくしつ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "车身，车体，车厢",
+      "japanese": "車体",
+      "kana": "しゃたい",
+      "romaji": "shatai",
+      "tokens": [
+        {
+          "text": "車体",
+          "kana": "しゃたい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "第二，其次，次要",
+      "japanese": "二の次",
+      "kana": "にのつぎ",
+      "romaji": "ninotsugi",
+      "tokens": [
+        {
+          "text": "二の次",
+          "kana": "にのつぎ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "衣着，衣服",
+      "japanese": "ウエア",
+      "kana": "うえあ",
+      "romaji": "uea",
+      "tokens": [
+        {
+          "text": "ウエア",
+          "kana": "うえあ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "接触肌肤时的感觉，手感",
+      "japanese": "肌触り",
+      "kana": "はだざわり",
+      "romaji": "hadazawari",
+      "tokens": [
+        {
+          "text": "肌触り",
+          "kana": "はだざわり"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "随手扔掉，乱扔",
+      "japanese": "ぽい捨て",
+      "kana": "ぽいすて",
+      "romaji": "poisute",
+      "tokens": [
+        {
+          "text": "ぽい捨て",
+          "kana": "ぽいすて"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "保持均衡，兼顾",
+      "japanese": "兼ね合い",
+      "kana": "かねあい",
+      "romaji": "kaneai",
+      "tokens": [
+        {
+          "text": "兼ね合い",
+          "kana": "かねあい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "通风",
+      "japanese": "風通し",
+      "kana": "かぜとおし",
+      "romaji": "kazetooshi",
+      "tokens": [
+        {
+          "text": "風通し",
+          "kana": "かぜとおし"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "高气压",
+      "japanese": "高気圧",
+      "kana": "こうきあつ",
+      "romaji": "koukiatsu",
+      "tokens": [
+        {
+          "text": "高気圧",
+          "kana": "こうきあつ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "接近决定胜负的局面，残棋；最后阶段",
+      "japanese": "終盤",
+      "kana": "しゅうばん",
+      "romaji": "shuuban",
+      "tokens": [
+        {
+          "text": "終盤",
+          "kana": "しゅうばん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "誓必实现的决心",
+      "japanese": "悲願",
+      "kana": "ひがん",
+      "romaji": "higan",
+      "tokens": [
+        {
+          "text": "悲願",
+          "kana": "ひがん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "现职，现任",
+      "japanese": "現職",
+      "kana": "げんしょく",
+      "romaji": "genshoku",
+      "tokens": [
+        {
+          "text": "現職",
+          "kana": "げんしょく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "兽医",
+      "japanese": "獣医",
+      "kana": "じゅうい",
+      "romaji": "juui",
+      "tokens": [
+        {
+          "text": "獣医",
+          "kana": "じゅうい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "线路；路线",
+      "japanese": "路線",
+      "kana": "ろせん",
+      "romaji": "rosen",
+      "tokens": [
+        {
+          "text": "路線",
+          "kana": "ろせん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "散步道",
+      "japanese": "遊歩道",
+      "kana": "ゆうほどう",
+      "romaji": "yuuhodou",
+      "tokens": [
+        {
+          "text": "遊歩道",
+          "kana": "ゆうほどう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "模拟",
+      "japanese": "アナログ",
+      "kana": "あなろぐ",
+      "romaji": "anarogu",
+      "tokens": [
+        {
+          "text": "アナログ",
+          "kana": "あなろぐ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "知名度",
+      "japanese": "知名度",
+      "kana": "ちめいど",
+      "romaji": "chimeido",
+      "tokens": [
+        {
+          "text": "知名度",
+          "kana": "ちめいど"
+        }
+      ]
+    }
+  ]
+}

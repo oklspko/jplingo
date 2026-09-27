@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-76",
+  "coursePackId": "jp-n2",
+  "title": "动词 5",
+  "order": 76,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "新作品",
+      "japanese": "新作",
+      "kana": "しんさく",
+      "romaji": "shinsaku",
+      "tokens": [
+        {
+          "text": "新作",
+          "kana": "しんさく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "加深，加强",
+      "japanese": "深める",
+      "kana": "ふかめる",
+      "romaji": "fukameru",
+      "tokens": [
+        {
+          "text": "深める",
+          "kana": "ふかめる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "亲近，亲切；接近，接触",
+      "japanese": "親しむ",
+      "kana": "したしむ",
+      "romaji": "shitashimu",
+      "tokens": [
+        {
+          "text": "親しむ",
+          "kana": "したしむ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "谋求，企图",
+      "japanese": "図る",
+      "kana": "はかる",
+      "romaji": "hakaru",
+      "tokens": [
+        {
+          "text": "図る",
+          "kana": "はかる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "整理；准备好；达成（协议）",
+      "japanese": "整える",
+      "kana": "ととのえる",
+      "romaji": "totonoeru",
+      "tokens": [
+        {
+          "text": "整える",
+          "kana": "ととのえる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "染色，上色；着手，开始",
+      "japanese": "染める",
+      "kana": "そめる",
+      "romaji": "someru",
+      "tokens": [
+        {
+          "text": "染める",
+          "kana": "そめる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "组合在一起；编在一起，交叉在一起；（在竞技中）决定对手",
+      "japanese": "組み合わせる",
+      "kana": "くみあわせる",
+      "romaji": "kumiawaseru",
+      "tokens": [
+        {
+          "text": "組み合わせる",
+          "kana": "くみあわせる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "加快",
+      "japanese": "速める",
+      "kana": "はやめる",
+      "romaji": "hayameru",
+      "tokens": [
+        {
+          "text": "速める",
+          "kana": "はやめる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "找出，发现",
+      "japanese": "探し出す",
+      "kana": "さがしだす",
+      "romaji": "sagashidasu",
+      "tokens": [
+        {
+          "text": "探し出す",
+          "kana": "さがしだす"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "修筑；确立，建立，积累",
+      "japanese": "築く",
+      "kana": "きずく",
+      "romaji": "kizuku",
+      "tokens": [
+        {
+          "text": "築く",
+          "kana": "きずく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "进入，进到里面",
+      "japanese": "入り込む",
+      "kana": "はいりこむ",
+      "romaji": "hairikomu",
+      "tokens": [
+        {
+          "text": "入り込む",
+          "kana": "はいりこむ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "替换，更换",
+      "japanese": "入れ替わる",
+      "kana": "いれかわる",
+      "romaji": "irekawaru",
+      "tokens": [
+        {
+          "text": "入れ替わる",
+          "kana": "いれかわる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "跳起；飞向天空；跳级",
+      "japanese": "飛び上がる",
+      "kana": "とびあがる",
+      "romaji": "tobiagaru",
+      "tokens": [
+        {
+          "text": "飛び上がる",
+          "kana": "とびあがる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "感到害怕",
+      "japanese": "怖がる",
+      "kana": "こわがる",
+      "romaji": "kowagaru",
+      "tokens": [
+        {
+          "text": "怖がる",
+          "kana": "こわがる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "听懂；听取",
+      "japanese": "聞き取る",
+      "kana": "ききとる",
+      "romaji": "kikitoru",
+      "tokens": [
+        {
+          "text": "聞き取る",
+          "kana": "ききとる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "重新问；重新听",
+      "japanese": "聞き直す",
+      "kana": "ききなおす",
+      "romaji": "kikinaosu",
+      "tokens": [
+        {
+          "text": "聞き直す",
+          "kana": "ききなおす"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "做梦，幻想",
+      "japanese": "夢見る",
+      "kana": "ゆめみる",
+      "romaji": "yumemiru",
+      "tokens": [
+        {
+          "text": "夢見る",
+          "kana": "ゆめみる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "打听，询问",
+      "japanese": "問い合わせる",
+      "kana": "といあわせる",
+      "romaji": "toiawaseru",
+      "tokens": [
+        {
+          "text": "問い合わせる",
+          "kana": "といあわせる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "能干，有效，好使；能做到",
+      "japanese": "利く",
+      "kana": "きく",
+      "romaji": "kiku",
+      "tokens": [
+        {
+          "text": "利く",
+          "kana": "きく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "靠近；顺路到",
+      "japanese": "立ち寄る",
+      "kana": "たちよる",
+      "romaji": "tachiyoru",
+      "tokens": [
+        {
+          "text": "立ち寄る",
+          "kana": "たちよる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "攻击，进攻",
+      "japanese": "攻める",
+      "kana": "せめる",
+      "romaji": "semeru",
+      "tokens": [
+        {
+          "text": "攻める",
+          "kana": "せめる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "天气恶劣；荒废；荒芜；粗糙",
+      "japanese": "荒れる",
+      "kana": "あれる",
+      "romaji": "areru",
+      "tokens": [
+        {
+          "text": "荒れる",
+          "kana": "あれる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "憎恶，讨厌",
+      "japanese": "憎む",
+      "kana": "にくむ",
+      "romaji": "nikumu",
+      "tokens": [
+        {
+          "text": "憎む",
+          "kana": "にくむ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "抵达；到，至",
+      "japanese": "至る",
+      "kana": "いたる",
+      "romaji": "itaru",
+      "tokens": [
+        {
+          "text": "至る",
+          "kana": "いたる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "压坏；倒塌；倒闭",
+      "japanese": "潰れる",
+      "kana": "つぶれる",
+      "romaji": "tsubureru",
+      "tokens": [
+        {
+          "text": "潰れる",
+          "kana": "つぶれる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "不及，比不上",
+      "japanese": "劣る",
+      "kana": "おとる",
+      "romaji": "otoru",
+      "tokens": [
+        {
+          "text": "劣る",
+          "kana": "おとる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "扣除，减去；抵销，相抵",
+      "japanese": "差し引く",
+      "kana": "さしひく",
+      "romaji": "sashihiku",
+      "tokens": [
+        {
+          "text": "差し引く",
+          "kana": "さしひく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "妨碍",
+      "japanese": "妨げる",
+      "kana": "さまたげる",
+      "romaji": "samatageru",
+      "tokens": [
+        {
+          "text": "妨げる",
+          "kana": "さまたげる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "结果，成熟；有成绩，有成果",
+      "japanese": "実る",
+      "kana": "みのる",
+      "romaji": "minoru",
+      "tokens": [
+        {
+          "text": "実る",
+          "kana": "みのる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "吸附，黏上；紧挨着，紧跟着",
+      "japanese": "くっつく",
+      "kana": "くっつく",
+      "romaji": "kuttsuku",
+      "tokens": [
+        {
+          "text": "くっつく",
+          "kana": "くっつく"
+        }
+      ]
+    }
+  ]
+}

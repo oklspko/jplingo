@@ -1,0 +1,190 @@
+{
+  "id": "jp-n3-56",
+  "coursePackId": "jp-n3",
+  "title": "形容词 3",
+  "order": 56,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "可鄙的；可悲的",
+      "japanese": "情けない",
+      "kana": "なさけない",
+      "romaji": "nasakenai",
+      "tokens": [
+        {
+          "text": "情けない",
+          "kana": "なさけない"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "（时间或距离）相隔很远；（程度）相差很大",
+      "japanese": "はるか",
+      "kana": "はるか",
+      "romaji": "haruka",
+      "tokens": [
+        {
+          "text": "はるか",
+          "kana": "はるか"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "（相隔）好久，许久",
+      "japanese": "久しい",
+      "kana": "ひさしい",
+      "romaji": "hisashii",
+      "tokens": [
+        {
+          "text": "久しい",
+          "kana": "ひさしい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "空洞；空虚，发呆",
+      "japanese": "うつろ",
+      "kana": "うつろ",
+      "romaji": "utsuro",
+      "tokens": [
+        {
+          "text": "うつろ",
+          "kana": "うつろ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "贫穷",
+      "japanese": "貧乏",
+      "kana": "びんぼう",
+      "romaji": "binbou",
+      "tokens": [
+        {
+          "text": "貧乏",
+          "kana": "びんぼう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "坚强不屈，难对付；大量，猛烈",
+      "japanese": "したたか",
+      "kana": "したたか",
+      "romaji": "shitataka",
+      "tokens": [
+        {
+          "text": "したたか",
+          "kana": "したたか"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "具有动感的，生动的",
+      "japanese": "動的",
+      "kana": "どうてき",
+      "romaji": "douteki",
+      "tokens": [
+        {
+          "text": "動的",
+          "kana": "どうてき"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "具体的，实际",
+      "japanese": "具体的",
+      "kana": "ぐたいてき",
+      "romaji": "gutaiteki",
+      "tokens": [
+        {
+          "text": "具体的",
+          "kana": "ぐたいてき"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "积极的",
+      "japanese": "積極的",
+      "kana": "せっきょくてき",
+      "romaji": "sekkyokuteki",
+      "tokens": [
+        {
+          "text": "積極的",
+          "kana": "せっきょくてき"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "一般的",
+      "japanese": "一般的",
+      "kana": "いっぱんてき",
+      "romaji": "ippanteki",
+      "tokens": [
+        {
+          "text": "一般的",
+          "kana": "いっぱんてき"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "不需要，没用",
+      "japanese": "不用",
+      "kana": "ふよう",
+      "romaji": "fuyou",
+      "tokens": [
+        {
+          "text": "不用",
+          "kana": "ふよう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "感情的，非理智的，感情用事的",
+      "japanese": "感情的",
+      "kana": "かんじょうてき",
+      "romaji": "kanjouteki",
+      "tokens": [
+        {
+          "text": "感情的",
+          "kana": "かんじょうてき"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "实际，实际上",
+      "japanese": "実際的",
+      "kana": "じっさいてき",
+      "romaji": "jissaiteki",
+      "tokens": [
+        {
+          "text": "実際的",
+          "kana": "じっさいてき"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "经济方面的；节约的，节省的",
+      "japanese": "経済的",
+      "kana": "けいざいてき",
+      "romaji": "keizaiteki",
+      "tokens": [
+        {
+          "text": "経済的",
+          "kana": "けいざいてき"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-19",
+  "coursePackId": "jp-n4",
+  "title": "动词 2",
+  "order": 19,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "请求，托付；依靠",
+      "japanese": "頼む",
+      "kana": "たのむ",
+      "romaji": "tanomu",
+      "tokens": [
+        {
+          "text": "頼む",
+          "kana": "たのむ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "穿（鞋、袜）",
+      "japanese": "履く",
+      "kana": "はく",
+      "romaji": "haku",
+      "tokens": [
+        {
+          "text": "履く",
+          "kana": "はく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "制订；竖起；发出，冒起",
+      "japanese": "立てる",
+      "kana": "たてる",
+      "romaji": "tateru",
+      "tokens": [
+        {
+          "text": "立てる",
+          "kana": "たてる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "……出来；开始……",
+      "japanese": "〜出す",
+      "kana": "〜出す",
+      "romaji": "~出su",
+      "tokens": [
+        {
+          "text": "〜出す",
+          "kana": "〜出す"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "在",
+      "japanese": "おる",
+      "kana": "おる",
+      "romaji": "oru",
+      "tokens": [
+        {
+          "text": "おる",
+          "kana": "おる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "收拾；做完；停业；非本意的事情发生",
+      "japanese": "しまう",
+      "kana": "しまう",
+      "romaji": "shimau",
+      "tokens": [
+        {
+          "text": "しまう",
+          "kana": "しまう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "核对，检查",
+      "japanese": "チェック",
+      "kana": "ちぇっく",
+      "romaji": "chekku",
+      "tokens": [
+        {
+          "text": "チェック",
+          "kana": "ちぇっく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "做",
+      "japanese": "なさる",
+      "kana": "なさる",
+      "romaji": "nasaru",
+      "tokens": [
+        {
+          "text": "なさる",
+          "kana": "なさる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "淋湿，弄湿",
+      "japanese": "濡[ぬ]れる",
+      "kana": "ぬれる",
+      "romaji": "nureru",
+      "tokens": [
+        {
+          "text": "濡[ぬ]れる",
+          "kana": "ぬれる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "养育，培育，饲养",
+      "japanese": "育てる",
+      "kana": "そだてる",
+      "romaji": "sodateru",
+      "tokens": [
+        {
+          "text": "育てる",
+          "kana": "そだてる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "脏",
+      "japanese": "汚れる",
+      "kana": "よごれる",
+      "romaji": "yogoreru",
+      "tokens": [
+        {
+          "text": "汚れる",
+          "kana": "よごれる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "下降；后退；退步",
+      "japanese": "下がる",
+      "kana": "さがる",
+      "romaji": "sagaru",
+      "tokens": [
+        {
+          "text": "下がる",
+          "kana": "さがる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "经过；超过；过分",
+      "japanese": "過ぎる",
+      "kana": "すぎる",
+      "romaji": "sugiru",
+      "tokens": [
+        {
+          "text": "過ぎる",
+          "kana": "すぎる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "旋转",
+      "japanese": "回る",
+      "kana": "まわる",
+      "romaji": "mawaru",
+      "tokens": [
+        {
+          "text": "回る",
+          "kana": "まわる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "坏，破碎；出故障",
+      "japanese": "壊れる",
+      "kana": "こわれる",
+      "romaji": "kowareru",
+      "tokens": [
+        {
+          "text": "壊れる",
+          "kana": "こわれる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "享受；盼望",
+      "japanese": "楽しむ",
+      "kana": "たのしむ",
+      "romaji": "tanoshimu",
+      "tokens": [
+        {
+          "text": "楽しむ",
+          "kana": "たのしむ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "感到；觉得",
+      "japanese": "感じる",
+      "kana": "かんじる",
+      "romaji": "kanjiru",
+      "tokens": [
+        {
+          "text": "感じる",
+          "kana": "かんじる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "习惯，适应；熟悉，熟练；（馴れる）动物亲近人类",
+      "japanese": "慣れる",
+      "kana": "なれる",
+      "romaji": "nareru",
+      "tokens": [
+        {
+          "text": "慣れる",
+          "kana": "なれる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "赶上，来得及",
+      "japanese": "間に合う",
+      "kana": "まにあう",
+      "romaji": "maniau",
+      "tokens": [
+        {
+          "text": "間に合う",
+          "kana": "まにあう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "错；弄错",
+      "japanese": "間違う",
+      "kana": "まちがう",
+      "romaji": "machigau",
+      "tokens": [
+        {
+          "text": "間違う",
+          "kana": "まちがう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "拼命努力，加油",
+      "japanese": "頑張る",
+      "kana": "がんばる",
+      "romaji": "ganbaru",
+      "tokens": [
+        {
+          "text": "頑張る",
+          "kana": "がんばる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "欢喜，高兴；（「喜んで」の形で）欣然接受",
+      "japanese": "喜ぶ",
+      "kana": "よろこぶ",
+      "romaji": "yorokobu",
+      "tokens": [
+        {
+          "text": "喜ぶ",
+          "kana": "よろこぶ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "叫醒；发起，引起",
+      "japanese": "起こす",
+      "kana": "おこす",
+      "romaji": "okosu",
+      "tokens": [
+        {
+          "text": "起こす",
+          "kana": "おこす"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "发生；发作；产生",
+      "japanese": "起こる",
+      "kana": "おこる",
+      "romaji": "okoru",
+      "tokens": [
+        {
+          "text": "起こる",
+          "kana": "おこる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "吃惊，惊讶",
+      "japanese": "驚く",
+      "kana": "おどろく",
+      "romaji": "odoroku",
+      "tokens": [
+        {
+          "text": "驚く",
+          "kana": "おどろく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "空；空闲；空缺",
+      "japanese": "空く",
+      "kana": "あく",
+      "romaji": "aku",
+      "tokens": [
+        {
+          "text": "空く",
+          "kana": "あく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "迎接；迎来",
+      "japanese": "迎える",
+      "kana": "むかえる",
+      "romaji": "mukaeru",
+      "tokens": [
+        {
+          "text": "迎える",
+          "kana": "むかえる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "决定，规定；一定",
+      "japanese": "決まる",
+      "kana": "きまる",
+      "romaji": "kimaru",
+      "tokens": [
+        {
+          "text": "決まる",
+          "kana": "きまる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "决定，规定；决心；断定",
+      "japanese": "決める",
+      "kana": "きめる",
+      "romaji": "kimeru",
+      "tokens": [
+        {
+          "text": "決める",
+          "kana": "きめる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "盖，建造",
+      "japanese": "建てる",
+      "kana": "たてる",
+      "romaji": "tateru",
+      "tokens": [
+        {
+          "text": "建てる",
+          "kana": "たてる"
+        }
+      ]
+    }
+  ]
+}

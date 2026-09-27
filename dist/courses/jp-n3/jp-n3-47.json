@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-47",
+  "coursePackId": "jp-n3",
+  "title": "动词 5",
+  "order": 47,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（面积）扩大；（范围）扩大，蔓延",
+      "japanese": "広がる",
+      "kana": "ひろがる",
+      "romaji": "hirogaru",
+      "tokens": [
+        {
+          "text": "広がる",
+          "kana": "ひろがる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "扩大（物理上的面积）；扩大（范围）",
+      "japanese": "広げる",
+      "kana": "ひろげる",
+      "romaji": "hirogeru",
+      "tokens": [
+        {
+          "text": "広げる",
+          "kana": "ひろげる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "惊慌；急忙",
+      "japanese": "慌てる",
+      "kana": "あわてる",
+      "romaji": "awateru",
+      "tokens": [
+        {
+          "text": "慌てる",
+          "kana": "あわてる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "拧；绞尽脑汁；缩小（范围）",
+      "japanese": "絞る",
+      "kana": "しぼる",
+      "romaji": "shiboru",
+      "tokens": [
+        {
+          "text": "絞る",
+          "kana": "しぼる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "放上；刊载",
+      "japanese": "載せる",
+      "kana": "のせる",
+      "romaji": "noseru",
+      "tokens": [
+        {
+          "text": "載せる",
+          "kana": "のせる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "放在……上；登载",
+      "japanese": "載る",
+      "kana": "のる",
+      "romaji": "noru",
+      "tokens": [
+        {
+          "text": "載る",
+          "kana": "のる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "削；削减",
+      "japanese": "削る",
+      "kana": "けずる",
+      "romaji": "kezuru",
+      "tokens": [
+        {
+          "text": "削る",
+          "kana": "けずる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "支付",
+      "japanese": "支払う",
+      "kana": "しはらう",
+      "romaji": "shiharau",
+      "tokens": [
+        {
+          "text": "支払う",
+          "kana": "しはらう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "饲养",
+      "japanese": "飼う",
+      "kana": "かう",
+      "romaji": "kau",
+      "tokens": [
+        {
+          "text": "飼う",
+          "kana": "かう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "带回（东西）",
+      "japanese": "持ち帰る",
+      "kana": "もちかえる",
+      "romaji": "mochikaeru",
+      "tokens": [
+        {
+          "text": "持ち帰る",
+          "kana": "もちかえる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "出示，给对方看；表示；指示",
+      "japanese": "示す",
+      "kana": "しめす",
+      "romaji": "shimesu",
+      "tokens": [
+        {
+          "text": "示す",
+          "kana": "しめす"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "煮，炖",
+      "japanese": "煮る",
+      "kana": "にる",
+      "romaji": "niru",
+      "tokens": [
+        {
+          "text": "煮る",
+          "kana": "にる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "拿出；（从众多事物中）选出",
+      "japanese": "取り出す",
+      "kana": "とりだす",
+      "romaji": "toridasu",
+      "tokens": [
+        {
+          "text": "取り出す",
+          "kana": "とりだす"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "取消；吊销",
+      "japanese": "取り消す",
+      "kana": "とりけす",
+      "romaji": "torikesu",
+      "tokens": [
+        {
+          "text": "取り消す",
+          "kana": "とりけす"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "更换；互换",
+      "japanese": "取り替える",
+      "kana": "とりかえる",
+      "romaji": "torikaeru",
+      "tokens": [
+        {
+          "text": "取り替える",
+          "kana": "とりかえる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "跟随；听从；依照；（「…に従って」）随着……",
+      "japanese": "従う",
+      "kana": "したがう",
+      "romaji": "shitagau",
+      "tokens": [
+        {
+          "text": "従う",
+          "kana": "したがう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "重叠；赶在一起",
+      "japanese": "重なる",
+      "kana": "かさなる",
+      "romaji": "kasanaru",
+      "tokens": [
+        {
+          "text": "重なる",
+          "kana": "かさなる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "重叠地堆放；反复",
+      "japanese": "重ねる",
+      "kana": "かさねる",
+      "romaji": "kasaneru",
+      "tokens": [
+        {
+          "text": "重ねる",
+          "kana": "かさねる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "载，乘；诱骗",
+      "japanese": "乗せる",
+      "kana": "のせる",
+      "romaji": "noseru",
+      "tokens": [
+        {
+          "text": "乗せる",
+          "kana": "のせる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "叠；合上；关闭；藏在心里",
+      "japanese": "畳む",
+      "kana": "たたむ",
+      "romaji": "tatamu",
+      "tokens": [
+        {
+          "text": "畳む",
+          "kana": "たたむ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "擦，抹",
+      "japanese": "拭く",
+      "kana": "ふく",
+      "romaji": "fuku",
+      "tokens": [
+        {
+          "text": "拭く",
+          "kana": "ふく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "碰触；涉及",
+      "japanese": "触れる",
+      "kana": "ふれる",
+      "romaji": "fureru",
+      "tokens": [
+        {
+          "text": "触れる",
+          "kana": "ふれる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "伸长；发挥",
+      "japanese": "伸ばす",
+      "kana": "のばす",
+      "romaji": "nobasu",
+      "tokens": [
+        {
+          "text": "伸ばす",
+          "kana": "のばす"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "伸长；发展；（能力）增强",
+      "japanese": "伸びる",
+      "kana": "のびる",
+      "romaji": "nobiru",
+      "tokens": [
+        {
+          "text": "伸びる",
+          "kana": "のびる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "挥；撒",
+      "japanese": "振る",
+      "kana": "ふる",
+      "romaji": "furu",
+      "tokens": [
+        {
+          "text": "振る",
+          "kana": "ふる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "申请；提议",
+      "japanese": "申し込む",
+      "kana": "もうしこむ",
+      "romaji": "moushikomu",
+      "tokens": [
+        {
+          "text": "申し込む",
+          "kana": "もうしこむ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "组织；装配；安装",
+      "japanese": "組み立てる",
+      "kana": "くみたてる",
+      "romaji": "kumitateru",
+      "tokens": [
+        {
+          "text": "組み立てる",
+          "kana": "くみたてる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "扫",
+      "japanese": "掃く",
+      "kana": "はく",
+      "romaji": "haku",
+      "tokens": [
+        {
+          "text": "掃く",
+          "kana": "はく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "增加，增长",
+      "japanese": "増やす",
+      "kana": "ふやす",
+      "romaji": "fuyasu",
+      "tokens": [
+        {
+          "text": "増やす",
+          "kana": "ふやす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "面对；对待；比较；关于",
+      "japanese": "対する",
+      "kana": "たいする",
+      "romaji": "taisuru",
+      "tokens": [
+        {
+          "text": "対する",
+          "kana": "たいする"
+        }
+      ]
+    }
+  ]
+}

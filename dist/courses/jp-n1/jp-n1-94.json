@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-94",
+  "coursePackId": "jp-n1",
+  "title": "动词 3",
+  "order": 94,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "老板；硕士；掌握",
+      "japanese": "マスター",
+      "kana": "ますたあ",
+      "romaji": "masutaa",
+      "tokens": [
+        {
+          "text": "マスター",
+          "kana": "ますたあ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "按摩",
+      "japanese": "マッサージ",
+      "kana": "まっさあじ",
+      "romaji": "massaaji",
+      "tokens": [
+        {
+          "text": "マッサージ",
+          "kana": "まっさあじ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "裁员",
+      "japanese": "リストラ",
+      "kana": "りすとら",
+      "romaji": "risutora",
+      "tokens": [
+        {
+          "text": "リストラ",
+          "kana": "りすとら"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "挂住；卷入；中圈套；溅到",
+      "japanese": "引っ掛かる",
+      "kana": "ひっかかる",
+      "romaji": "hikkakaru",
+      "tokens": [
+        {
+          "text": "引っ掛かる",
+          "kana": "ひっかかる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "饥饿；渴望，渴求",
+      "japanese": "飢える",
+      "kana": "うえる",
+      "romaji": "ueru",
+      "tokens": [
+        {
+          "text": "飢える",
+          "kana": "うえる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "缺少，缺乏；弄坏（坚硬物体的一部分）",
+      "japanese": "欠く",
+      "kana": "かく",
+      "romaji": "kaku",
+      "tokens": [
+        {
+          "text": "欠く",
+          "kana": "かく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "拿出去；提出；分担一部分费用",
+      "japanese": "持ち出す",
+      "kana": "もちだす",
+      "romaji": "mochidasu",
+      "tokens": [
+        {
+          "text": "持ち出す",
+          "kana": "もちだす"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "举起；奉承",
+      "japanese": "持ち上げる",
+      "kana": "もちあげる",
+      "romaji": "mochiageru",
+      "tokens": [
+        {
+          "text": "持ち上げる",
+          "kana": "もちあげる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "社会安定太平",
+      "japanese": "治まる",
+      "kana": "おさまる",
+      "romaji": "osamaru",
+      "tokens": [
+        {
+          "text": "治まる",
+          "kana": "おさまる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "（树叶）变红；（果实）渐熟",
+      "japanese": "色づく",
+      "kana": "いろづく",
+      "romaji": "irozuku",
+      "tokens": [
+        {
+          "text": "色づく",
+          "kana": "いろづく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "理解，明白；答应；作为修养习得",
+      "japanese": "心得る",
+      "kana": "こころえる",
+      "romaji": "kokoroeru",
+      "tokens": [
+        {
+          "text": "心得る",
+          "kana": "こころえる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "诊查",
+      "japanese": "診る",
+      "kana": "みる",
+      "romaji": "miru",
+      "tokens": [
+        {
+          "text": "診る",
+          "kana": "みる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "发誓，宣誓",
+      "japanese": "誓う",
+      "kana": "ちかう",
+      "romaji": "chikau",
+      "tokens": [
+        {
+          "text": "誓う",
+          "kana": "ちかう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "雕刻；文身",
+      "japanese": "彫る",
+      "kana": "ほる",
+      "romaji": "horu",
+      "tokens": [
+        {
+          "text": "彫る",
+          "kana": "ほる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "跳起；飞溅",
+      "japanese": "跳ねる",
+      "kana": "はねる",
+      "romaji": "haneru",
+      "tokens": [
+        {
+          "text": "跳ねる",
+          "kana": "はねる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "闯入；插入；深入；深究，追问",
+      "japanese": "突っ込む",
+      "kana": "つっこむ",
+      "romaji": "tsukkomu",
+      "tokens": [
+        {
+          "text": "突っ込む",
+          "kana": "つっこむ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "缴纳；安坐",
+      "japanese": "納まる",
+      "kana": "おさまる",
+      "romaji": "osamaru",
+      "tokens": [
+        {
+          "text": "納まる",
+          "kana": "おさまる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "剥下，揭下",
+      "japanese": "剝がす",
+      "kana": "はがす",
+      "romaji": "hagasu",
+      "tokens": [
+        {
+          "text": "剝がす",
+          "kana": "はがす"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "讲述；表明，说明",
+      "japanese": "物語る",
+      "kana": "ものがたる",
+      "romaji": "monogataru",
+      "tokens": [
+        {
+          "text": "物語る",
+          "kana": "ものがたる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "惊呆",
+      "japanese": "呆[あき]れる",
+      "kana": "あきれる",
+      "romaji": "akireru",
+      "tokens": [
+        {
+          "text": "呆[あき]れる",
+          "kana": "あきれる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "交织，相互，交叉，……来……去",
+      "japanese": "交う",
+      "kana": "かう",
+      "romaji": "kau",
+      "tokens": [
+        {
+          "text": "交う",
+          "kana": "かう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "摆弄，抚弄，拨弄；玩赏，玩弄",
+      "japanese": "いじる",
+      "kana": "いじる",
+      "romaji": "ijiru",
+      "tokens": [
+        {
+          "text": "いじる",
+          "kana": "いじる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "舀，抽（液体）；采纳（下属或群众的要求、建议等）",
+      "japanese": "くみ上げる",
+      "kana": "くみあげる",
+      "romaji": "kumiageru",
+      "tokens": [
+        {
+          "text": "くみ上げる",
+          "kana": "くみあげる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "（小鸟）叽叽喳喳；喋喋不休",
+      "japanese": "さえずる",
+      "kana": "さえずる",
+      "romaji": "saezuru",
+      "tokens": [
+        {
+          "text": "さえずる",
+          "kana": "さえずる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "素描，写生；短篇作品",
+      "japanese": "スケッチ",
+      "kana": "すけっち",
+      "romaji": "suketchi",
+      "tokens": [
+        {
+          "text": "スケッチ",
+          "kana": "すけっち"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "拧；（身体）扭动；（「頭をひねる」の形で）冥思苦想",
+      "japanese": "ひねる",
+      "kana": "ひねる",
+      "romaji": "hineru",
+      "tokens": [
+        {
+          "text": "ひねる",
+          "kana": "ひねる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "受害，被害；得病；被打败",
+      "japanese": "やられる",
+      "kana": "やられる",
+      "romaji": "yarareru",
+      "tokens": [
+        {
+          "text": "やられる",
+          "kana": "やられる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "完成，干到底",
+      "japanese": "やり遂げる",
+      "kana": "やりとげる",
+      "romaji": "yaritogeru",
+      "tokens": [
+        {
+          "text": "やり遂げる",
+          "kana": "やりとげる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "做完，做到最后",
+      "japanese": "やり通す",
+      "kana": "やりとおす",
+      "romaji": "yaritoosu",
+      "tokens": [
+        {
+          "text": "やり通す",
+          "kana": "やりとおす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "吊起；提高；撤回；提拔；返回原地",
+      "japanese": "引き上げる",
+      "kana": "ひきあげる",
+      "romaji": "hikiageru",
+      "tokens": [
+        {
+          "text": "引き上げる",
+          "kana": "ひきあげる"
+        }
+      ]
+    }
+  ]
+}

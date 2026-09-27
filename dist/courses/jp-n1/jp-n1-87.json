@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-87",
+  "coursePackId": "jp-n1",
+  "title": "名词 87",
+  "order": 87,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "农林，农业和林业",
+      "japanese": "農林",
+      "kana": "のうりん",
+      "romaji": "nourin",
+      "tokens": [
+        {
+          "text": "農林",
+          "kana": "のうりん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "做饭；做饭的人，大师傅，炊事员",
+      "japanese": "飯炊き",
+      "kana": "めしたき",
+      "romaji": "meshitaki",
+      "tokens": [
+        {
+          "text": "飯炊き",
+          "kana": "めしたき"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "训练，操练，练兵",
+      "japanese": "調練",
+      "kana": "ちょうれん",
+      "romaji": "chouren",
+      "tokens": [
+        {
+          "text": "調練",
+          "kana": "ちょうれん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "欲望尚未满足，希望没有实现",
+      "japanese": "欲求不満",
+      "kana": "よっきゅうふまん",
+      "romaji": "yokkyuufuman",
+      "tokens": [
+        {
+          "text": "欲求不満",
+          "kana": "よっきゅうふまん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "退路，后路，逃路",
+      "japanese": "退路",
+      "kana": "たいろ",
+      "romaji": "tairo",
+      "tokens": [
+        {
+          "text": "退路",
+          "kana": "たいろ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（对自己著作的谦称）拙著",
+      "japanese": "拙著",
+      "kana": "せっちょ",
+      "romaji": "setcho",
+      "tokens": [
+        {
+          "text": "拙著",
+          "kana": "せっちょ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "部分，部位",
+      "japanese": "部位",
+      "kana": "ぶい",
+      "romaji": "bui",
+      "tokens": [
+        {
+          "text": "部位",
+          "kana": "ぶい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（由官方）认证；确认，认证",
+      "japanese": "認証",
+      "kana": "にんしょう",
+      "romaji": "ninshou",
+      "tokens": [
+        {
+          "text": "認証",
+          "kana": "にんしょう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "间隙；空隙",
+      "japanese": "絶え間",
+      "kana": "たえま",
+      "romaji": "taema",
+      "tokens": [
+        {
+          "text": "絶え間",
+          "kana": "たえま"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "心眼，心肠",
+      "japanese": "底意地",
+      "kana": "そこいじ",
+      "romaji": "sokoiji",
+      "tokens": [
+        {
+          "text": "底意地",
+          "kana": "そこいじ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "好人，正派角色",
+      "japanese": "善玉",
+      "kana": "ぜんだま",
+      "romaji": "zendama",
+      "tokens": [
+        {
+          "text": "善玉",
+          "kana": "ぜんだま"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "坏人，反派角色",
+      "japanese": "悪玉",
+      "kana": "あくだま",
+      "romaji": "akudama",
+      "tokens": [
+        {
+          "text": "悪玉",
+          "kana": "あくだま"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（植物的）种和苗；鱼苗",
+      "japanese": "種苗",
+      "kana": "しゅびょう",
+      "romaji": "shubyou",
+      "tokens": [
+        {
+          "text": "種苗",
+          "kana": "しゅびょう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "自我嫌恶，自我厌弃",
+      "japanese": "自己嫌悪",
+      "kana": "じこけんお",
+      "romaji": "jikoken'o",
+      "tokens": [
+        {
+          "text": "自己嫌悪",
+          "kana": "じこけんお"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "哺乳动物",
+      "japanese": "哺乳動物",
+      "kana": "ほにゅうどうぶつ",
+      "romaji": "honyuudoubutsu",
+      "tokens": [
+        {
+          "text": "哺乳動物",
+          "kana": "ほにゅうどうぶつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "指标，目标，标识",
+      "japanese": "指標",
+      "kana": "しひょう",
+      "romaji": "shihyou",
+      "tokens": [
+        {
+          "text": "指標",
+          "kana": "しひょう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "空心化，空洞化",
+      "japanese": "空洞化",
+      "kana": "くうどうか",
+      "romaji": "kuudouka",
+      "tokens": [
+        {
+          "text": "空洞化",
+          "kana": "くうどうか"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "道理",
+      "japanese": "道理",
+      "kana": "どうり",
+      "romaji": "douri",
+      "tokens": [
+        {
+          "text": "道理",
+          "kana": "どうり"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "积极性",
+      "japanese": "積極性",
+      "kana": "せっきょくせい",
+      "romaji": "sekkyokusei",
+      "tokens": [
+        {
+          "text": "積極性",
+          "kana": "せっきょくせい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "客观性",
+      "japanese": "客観性",
+      "kana": "きゃっかんせい",
+      "romaji": "kyakkansei",
+      "tokens": [
+        {
+          "text": "客観性",
+          "kana": "きゃっかんせい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（作为菜名的一部分的）盖浇饭",
+      "japanese": "〜丼",
+      "kana": "〜丼",
+      "romaji": "~丼",
+      "tokens": [
+        {
+          "text": "〜丼",
+          "kana": "〜丼"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "为了避免来自他人的批评、攻击或公权力的干预等，而自行限制活动或表达",
+      "japanese": "自主規制",
+      "kana": "じしゅきせい",
+      "romaji": "jishukisei",
+      "tokens": [
+        {
+          "text": "自主規制",
+          "kana": "じしゅきせい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "以前的承诺；事先有约，已有安排",
+      "japanese": "先約",
+      "kana": "せんやく",
+      "romaji": "sen'yaku",
+      "tokens": [
+        {
+          "text": "先約",
+          "kana": "せんやく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "抽象化",
+      "japanese": "抽象化",
+      "kana": "ちゅうしょうか",
+      "romaji": "chuushouka",
+      "tokens": [
+        {
+          "text": "抽象化",
+          "kana": "ちゅうしょうか"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "要洗的东西；洗东西",
+      "japanese": "洗い物",
+      "kana": "あらいもの",
+      "romaji": "araimono",
+      "tokens": [
+        {
+          "text": "洗い物",
+          "kana": "あらいもの"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "金黄色",
+      "japanese": "こがね色",
+      "kana": "こがねいろ",
+      "romaji": "koganeiro",
+      "tokens": [
+        {
+          "text": "こがね色",
+          "kana": "こがねいろ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "冲动性消费",
+      "japanese": "衝動買い",
+      "kana": "しょうどうがい",
+      "romaji": "shoudougai",
+      "tokens": [
+        {
+          "text": "衝動買い",
+          "kana": "しょうどうがい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "重量，（特指）体重；重要性，重点",
+      "japanese": "ウエイト",
+      "kana": "うえいと",
+      "romaji": "ueito",
+      "tokens": [
+        {
+          "text": "ウエイト",
+          "kana": "うえいと"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "分栖，生境分化；（有竞争关系的事物）各占一席，错位发展",
+      "japanese": "棲[す]み分け",
+      "kana": "すみわけ",
+      "romaji": "sumiwake",
+      "tokens": [
+        {
+          "text": "棲[す]み分け",
+          "kana": "すみわけ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "充分成熟；熟成",
+      "japanese": "熟成",
+      "kana": "じゅくせい",
+      "romaji": "jukusei",
+      "tokens": [
+        {
+          "text": "熟成",
+          "kana": "じゅくせい"
+        }
+      ]
+    }
+  ]
+}

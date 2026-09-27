@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-10",
+  "coursePackId": "jp-n1",
+  "title": "名词 10",
+  "order": 10,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "吃穿住",
+      "japanese": "衣食住",
+      "kana": "いしょくじゅう",
+      "romaji": "ishokujuu",
+      "tokens": [
+        {
+          "text": "衣食住",
+          "kana": "いしょくじゅう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "一家；全家，一家人",
+      "japanese": "一家",
+      "kana": "いっか",
+      "romaji": "ikka",
+      "tokens": [
+        {
+          "text": "一家",
+          "kana": "いっか"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "引力，相互吸引的力",
+      "japanese": "引力",
+      "kana": "いんりょく",
+      "romaji": "inryoku",
+      "tokens": [
+        {
+          "text": "引力",
+          "kana": "いんりょく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "卫生",
+      "japanese": "衛生",
+      "kana": "えいせい",
+      "romaji": "eisei",
+      "tokens": [
+        {
+          "text": "衛生",
+          "kana": "えいせい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "园艺，园林栽培",
+      "japanese": "園芸",
+      "kana": "えんげい",
+      "romaji": "engei",
+      "tokens": [
+        {
+          "text": "園芸",
+          "kana": "えんげい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "演讲，演说",
+      "japanese": "演説",
+      "kana": "えんぜつ",
+      "romaji": "enzetsu",
+      "tokens": [
+        {
+          "text": "演説",
+          "kana": "えんぜつ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "烟囱",
+      "japanese": "煙突",
+      "kana": "えんとつ",
+      "romaji": "entotsu",
+      "tokens": [
+        {
+          "text": "煙突",
+          "kana": "えんとつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "城市中位于低洼地带，商业和工业繁荣的地区",
+      "japanese": "下町",
+      "kana": "したまち",
+      "romaji": "shitamachi",
+      "tokens": [
+        {
+          "text": "下町",
+          "kana": "したまち"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "虚构；架空",
+      "japanese": "架空",
+      "kana": "かくう",
+      "romaji": "kakuu",
+      "tokens": [
+        {
+          "text": "架空",
+          "kana": "かくう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "过失",
+      "japanese": "過失",
+      "kana": "かしつ",
+      "romaji": "kashitsu",
+      "tokens": [
+        {
+          "text": "過失",
+          "kana": "かしつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "解雇",
+      "japanese": "解雇",
+      "kana": "かいこ",
+      "romaji": "kaiko",
+      "tokens": [
+        {
+          "text": "解雇",
+          "kana": "かいこ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "外交",
+      "japanese": "外交",
+      "kana": "がいこう",
+      "romaji": "gaikou",
+      "tokens": [
+        {
+          "text": "外交",
+          "kana": "がいこう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "概论",
+      "japanese": "概論",
+      "kana": "がいろん",
+      "romaji": "gairon",
+      "tokens": [
+        {
+          "text": "概論",
+          "kana": "がいろん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "街角；街头",
+      "japanese": "街角",
+      "kana": "まちかど",
+      "romaji": "machikado",
+      "tokens": [
+        {
+          "text": "街角",
+          "kana": "まちかど"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "栅栏，篱笆；障碍（物）",
+      "japanese": "垣根",
+      "kana": "かきね",
+      "romaji": "kakine",
+      "tokens": [
+        {
+          "text": "垣根",
+          "kana": "かきね"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "壳，外皮；取出内容物后所剩的外部部分；独自的空间",
+      "japanese": "殻",
+      "kana": "から",
+      "romaji": "kara",
+      "tokens": [
+        {
+          "text": "殻",
+          "kana": "から"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "学术",
+      "japanese": "学術",
+      "kana": "がくじゅつ",
+      "romaji": "gakujutsu",
+      "tokens": [
+        {
+          "text": "学術",
+          "kana": "がくじゅつ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "基地，根据地",
+      "japanese": "基地",
+      "kana": "きち",
+      "romaji": "kichi",
+      "tokens": [
+        {
+          "text": "基地",
+          "kana": "きち"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "根基，基础",
+      "japanese": "基盤",
+      "kana": "きばん",
+      "romaji": "kiban",
+      "tokens": [
+        {
+          "text": "基盤",
+          "kana": "きばん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "稀薄；缺乏（某个要素）",
+      "japanese": "希薄",
+      "kana": "きはく",
+      "romaji": "kihaku",
+      "tokens": [
+        {
+          "text": "希薄",
+          "kana": "きはく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "机车，火车头",
+      "japanese": "機関車",
+      "kana": "きかんしゃ",
+      "romaji": "kikansha",
+      "tokens": [
+        {
+          "text": "機関車",
+          "kana": "きかんしゃ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "休息，放松",
+      "japanese": "休息",
+      "kana": "きゅうそく",
+      "romaji": "kyuusoku",
+      "tokens": [
+        {
+          "text": "休息",
+          "kana": "きゅうそく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "急事",
+      "japanese": "急用",
+      "kana": "きゅうよう",
+      "romaji": "kyuuyou",
+      "tokens": [
+        {
+          "text": "急用",
+          "kana": "きゅうよう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "给予；薪酬",
+      "japanese": "給与",
+      "kana": "きゅうよ",
+      "romaji": "kyuuyo",
+      "tokens": [
+        {
+          "text": "給与",
+          "kana": "きゅうよ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "渔业",
+      "japanese": "漁業",
+      "kana": "ぎょぎょう",
+      "romaji": "gyogyou",
+      "tokens": [
+        {
+          "text": "漁業",
+          "kana": "ぎょぎょう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "声音；听起来的感觉；影响",
+      "japanese": "響き",
+      "kana": "ひびき",
+      "romaji": "hibiki",
+      "tokens": [
+        {
+          "text": "響き",
+          "kana": "ひびき"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（日本乐器）古琴，筝",
+      "japanese": "琴",
+      "kana": "こと",
+      "romaji": "koto",
+      "tokens": [
+        {
+          "text": "琴",
+          "kana": "こと"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "金库，保险柜；金融机关，金库",
+      "japanese": "金庫",
+      "kana": "きんこ",
+      "romaji": "kinko",
+      "tokens": [
+        {
+          "text": "金庫",
+          "kana": "きんこ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "金钱，货币",
+      "japanese": "金銭",
+      "kana": "きんせん",
+      "romaji": "kinsen",
+      "tokens": [
+        {
+          "text": "金銭",
+          "kana": "きんせん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "金融，信贷",
+      "japanese": "金融",
+      "kana": "きんゆう",
+      "romaji": "kin'yuu",
+      "tokens": [
+        {
+          "text": "金融",
+          "kana": "きんゆう"
+        }
+      ]
+    }
+  ]
+}

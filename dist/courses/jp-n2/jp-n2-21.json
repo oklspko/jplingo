@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-21",
+  "coursePackId": "jp-n2",
+  "title": "名词 21",
+  "order": 21,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "夜空",
+      "japanese": "夜空",
+      "kana": "よぞら",
+      "romaji": "yozora",
+      "tokens": [
+        {
+          "text": "夜空",
+          "kana": "よぞら"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "任务，职责；功能，作用",
+      "japanese": "役目",
+      "kana": "やくめ",
+      "romaji": "yakume",
+      "tokens": [
+        {
+          "text": "役目",
+          "kana": "やくめ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "勇气",
+      "japanese": "勇気",
+      "kana": "ゆうき",
+      "romaji": "yuuki",
+      "tokens": [
+        {
+          "text": "勇気",
+          "kana": "ゆうき"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "（夏天傍晚的）骤雨",
+      "japanese": "夕立",
+      "kana": "ゆうだち",
+      "romaji": "yuudachi",
+      "tokens": [
+        {
+          "text": "夕立",
+          "kana": "ゆうだち"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "必须完成的工作；必须传达的事项",
+      "japanese": "用件",
+      "kana": "ようけん",
+      "romaji": "youken",
+      "tokens": [
+        {
+          "text": "用件",
+          "kana": "ようけん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "贪婪",
+      "japanese": "欲張り",
+      "kana": "よくばり",
+      "romaji": "yokubari",
+      "tokens": [
+        {
+          "text": "欲張り",
+          "kana": "よくばり"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "落叶",
+      "japanese": "落ち葉",
+      "kana": "おちば",
+      "romaji": "ochiba",
+      "tokens": [
+        {
+          "text": "落ち葉",
+          "kana": "おちば"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "简历",
+      "japanese": "履歴書",
+      "kana": "りれきしょ",
+      "romaji": "rirekisho",
+      "tokens": [
+        {
+          "text": "履歴書",
+          "kana": "りれきしょ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "了解，明白，理解；谅解，认可",
+      "japanese": "了解",
+      "kana": "りょうかい",
+      "romaji": "ryoukai",
+      "tokens": [
+        {
+          "text": "了解",
+          "kana": "りょうかい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "两者，双方",
+      "japanese": "両者",
+      "kana": "りょうしゃ",
+      "romaji": "ryousha",
+      "tokens": [
+        {
+          "text": "両者",
+          "kana": "りょうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "绿茶",
+      "japanese": "緑茶",
+      "kana": "りょくちゃ",
+      "romaji": "ryokucha",
+      "tokens": [
+        {
+          "text": "緑茶",
+          "kana": "りょくちゃ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "恋爱",
+      "japanese": "恋愛",
+      "kana": "れんあい",
+      "romaji": "ren'ai",
+      "tokens": [
+        {
+          "text": "恋愛",
+          "kana": "れんあい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "工人，劳动者",
+      "japanese": "労働者",
+      "kana": "ろうどうしゃ",
+      "romaji": "roudousha",
+      "tokens": [
+        {
+          "text": "労働者",
+          "kana": "ろうどうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "口语",
+      "japanese": "話し言葉",
+      "kana": "はなしことば",
+      "romaji": "hanashikotoba",
+      "tokens": [
+        {
+          "text": "話し言葉",
+          "kana": "はなしことば"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "说话者；会聊天的人",
+      "japanese": "話し手",
+      "kana": "はなして",
+      "romaji": "hanashite",
+      "tokens": [
+        {
+          "text": "話し手",
+          "kana": "はなして"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "事先",
+      "japanese": "事前",
+      "kana": "じぜん",
+      "romaji": "jizen",
+      "tokens": [
+        {
+          "text": "事前",
+          "kana": "じぜん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "牢骚，抱怨",
+      "japanese": "苦情",
+      "kana": "くじょう",
+      "romaji": "kujou",
+      "tokens": [
+        {
+          "text": "苦情",
+          "kana": "くじょう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "出场，参加",
+      "japanese": "出場",
+      "kana": "しゅつじょう",
+      "romaji": "shutsujou",
+      "tokens": [
+        {
+          "text": "出場",
+          "kana": "しゅつじょう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "特殊",
+      "japanese": "特殊",
+      "kana": "とくしゅ",
+      "romaji": "tokushu",
+      "tokens": [
+        {
+          "text": "特殊",
+          "kana": "とくしゅ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "估计，推测；大致的方向；（接在数词后）左右",
+      "japanese": "見当",
+      "kana": "けんとう",
+      "romaji": "kentou",
+      "tokens": [
+        {
+          "text": "見当",
+          "kana": "けんとう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "晚刊，晚报",
+      "japanese": "夕刊",
+      "kana": "ゆうかん",
+      "romaji": "yuukan",
+      "tokens": [
+        {
+          "text": "夕刊",
+          "kana": "ゆうかん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "自治",
+      "japanese": "自治",
+      "kana": "じち",
+      "romaji": "jichi",
+      "tokens": [
+        {
+          "text": "自治",
+          "kana": "じち"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "羽毛；翅膀；（羽根）机翼；（羽根）扇叶",
+      "japanese": "羽",
+      "kana": "はね",
+      "romaji": "hane",
+      "tokens": [
+        {
+          "text": "羽",
+          "kana": "はね"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "胜与败，输与赢",
+      "japanese": "勝敗",
+      "kana": "しょうはい",
+      "romaji": "shouhai",
+      "tokens": [
+        {
+          "text": "勝敗",
+          "kana": "しょうはい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "保险",
+      "japanese": "保険",
+      "kana": "ほけん",
+      "romaji": "hoken",
+      "tokens": [
+        {
+          "text": "保険",
+          "kana": "ほけん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "螺丝（钉）；发条",
+      "japanese": "ねじ",
+      "kana": "ねじ",
+      "romaji": "neji",
+      "tokens": [
+        {
+          "text": "ねじ",
+          "kana": "ねじ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "前头，最先",
+      "japanese": "先頭",
+      "kana": "せんとう",
+      "romaji": "sentou",
+      "tokens": [
+        {
+          "text": "先頭",
+          "kana": "せんとう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "不满，牢骚",
+      "japanese": "不平",
+      "kana": "ふへい",
+      "romaji": "fuhei",
+      "tokens": [
+        {
+          "text": "不平",
+          "kana": "ふへい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "灯塔；灯台，烛台",
+      "japanese": "灯台",
+      "kana": "とうだい",
+      "romaji": "toudai",
+      "tokens": [
+        {
+          "text": "灯台",
+          "kana": "とうだい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "唯一",
+      "japanese": "唯一",
+      "kana": "ゆいいつ",
+      "romaji": "yuiitsu",
+      "tokens": [
+        {
+          "text": "唯一",
+          "kana": "ゆいいつ"
+        }
+      ]
+    }
+  ]
+}

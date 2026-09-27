@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-03",
+  "coursePackId": "jp-n2",
+  "title": "名词 3",
+  "order": 3,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（特指绘画、雕刻、音乐和文学等）作品",
+      "japanese": "作品",
+      "kana": "さくひん",
+      "romaji": "sakuhin",
+      "tokens": [
+        {
+          "text": "作品",
+          "kana": "さくひん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "开始，起源",
+      "japanese": "始まり",
+      "kana": "はじまり",
+      "romaji": "hajimari",
+      "tokens": [
+        {
+          "text": "始まり",
+          "kana": "はじまり"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "（人或物的）外形；穿着；身影；面貌",
+      "japanese": "姿",
+      "kana": "すがた",
+      "romaji": "sugata",
+      "tokens": [
+        {
+          "text": "姿",
+          "kana": "すがた"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "分部，分公司",
+      "japanese": "支社",
+      "kana": "ししゃ",
+      "romaji": "shisha",
+      "tokens": [
+        {
+          "text": "支社",
+          "kana": "ししゃ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "诗",
+      "japanese": "詩",
+      "kana": "し",
+      "romaji": "shi",
+      "tokens": [
+        {
+          "text": "詩",
+          "kana": "し"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "下次，下回",
+      "japanese": "次回",
+      "kana": "じかい",
+      "romaji": "jikai",
+      "tokens": [
+        {
+          "text": "次回",
+          "kana": "じかい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "词典，辞典",
+      "japanese": "辞典",
+      "kana": "じてん",
+      "romaji": "jiten",
+      "tokens": [
+        {
+          "text": "辞典",
+          "kana": "じてん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "摄影师",
+      "japanese": "写真家",
+      "kana": "しゃしんか",
+      "romaji": "shashinka",
+      "tokens": [
+        {
+          "text": "写真家",
+          "kana": "しゃしんか"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（与学生相对）参加工作的人",
+      "japanese": "社会人",
+      "kana": "しゃかいじん",
+      "romaji": "shakaijin",
+      "tokens": [
+        {
+          "text": "社会人",
+          "kana": "しゃかいじん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "人",
+      "japanese": "者",
+      "kana": "もの",
+      "romaji": "mono",
+      "tokens": [
+        {
+          "text": "者",
+          "kana": "もの"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "植物",
+      "japanese": "植物",
+      "kana": "しょくぶつ",
+      "romaji": "shokubutsu",
+      "tokens": [
+        {
+          "text": "植物",
+          "kana": "しょくぶつ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "彩色铅笔",
+      "japanese": "色鉛筆",
+      "kana": "いろえんぴつ",
+      "romaji": "iroenpitsu",
+      "tokens": [
+        {
+          "text": "色鉛筆",
+          "kana": "いろえんぴつ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "餐桌",
+      "japanese": "食卓",
+      "kana": "しょくたく",
+      "romaji": "shokutaku",
+      "tokens": [
+        {
+          "text": "食卓",
+          "kana": "しょくたく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "世间，社会",
+      "japanese": "世の中",
+      "kana": "よのなか",
+      "romaji": "yononaka",
+      "tokens": [
+        {
+          "text": "世の中",
+          "kana": "よのなか"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "成长，发育；发展",
+      "japanese": "成長",
+      "kana": "せいちょう",
+      "romaji": "seichou",
+      "tokens": [
+        {
+          "text": "成長",
+          "kana": "せいちょう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "精神；意志；宗旨",
+      "japanese": "精神",
+      "kana": "せいしん",
+      "romaji": "seishin",
+      "tokens": [
+        {
+          "text": "精神",
+          "kana": "せいしん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "制造，生产",
+      "japanese": "製造",
+      "kana": "せいぞう",
+      "romaji": "seizou",
+      "tokens": [
+        {
+          "text": "製造",
+          "kana": "せいぞう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "传说，故事",
+      "japanese": "昔話",
+      "kana": "むかしばなし",
+      "romaji": "mukashibanashi",
+      "tokens": [
+        {
+          "text": "昔話",
+          "kana": "むかしばなし"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "态度，举止",
+      "japanese": "態度",
+      "kana": "たいど",
+      "romaji": "taido",
+      "tokens": [
+        {
+          "text": "態度",
+          "kana": "たいど"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "腌菜",
+      "japanese": "漬物",
+      "kana": "つけもの",
+      "romaji": "tsukemono",
+      "tokens": [
+        {
+          "text": "漬物",
+          "kana": "つけもの"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "庭园",
+      "japanese": "庭園",
+      "kana": "ていえん",
+      "romaji": "teien",
+      "tokens": [
+        {
+          "text": "庭園",
+          "kana": "ていえん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "电子词典",
+      "japanese": "電子辞書",
+      "kana": "でんしじしょ",
+      "romaji": "denshijisho",
+      "tokens": [
+        {
+          "text": "電子辞書",
+          "kana": "でんしじしょ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "桃；桃树",
+      "japanese": "桃",
+      "kana": "もも",
+      "romaji": "momo",
+      "tokens": [
+        {
+          "text": "桃",
+          "kana": "もも"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "同僚，同事",
+      "japanese": "同僚",
+      "kana": "どうりょう",
+      "romaji": "douryou",
+      "tokens": [
+        {
+          "text": "同僚",
+          "kana": "どうりょう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "年度",
+      "japanese": "年度",
+      "kana": "ねんど",
+      "romaji": "nendo",
+      "tokens": [
+        {
+          "text": "年度",
+          "kana": "ねんど"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "他们，那些人",
+      "japanese": "彼ら",
+      "kana": "かれら",
+      "romaji": "karera",
+      "tokens": [
+        {
+          "text": "彼ら",
+          "kana": "かれら"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "不自由，不方便，困苦",
+      "japanese": "不自由",
+      "kana": "ふじゆう",
+      "romaji": "fujiyuu",
+      "tokens": [
+        {
+          "text": "不自由",
+          "kana": "ふじゆう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "葡萄",
+      "japanese": "ぶどう",
+      "kana": "ぶどう",
+      "romaji": "budou",
+      "tokens": [
+        {
+          "text": "ぶどう",
+          "kana": "ぶどう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "理解；体谅",
+      "japanese": "理解",
+      "kana": "りかい",
+      "romaji": "rikai",
+      "tokens": [
+        {
+          "text": "理解",
+          "kana": "りかい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "制冷（设备）",
+      "japanese": "冷房",
+      "kana": "れいぼう",
+      "romaji": "reibou",
+      "tokens": [
+        {
+          "text": "冷房",
+          "kana": "れいぼう"
+        }
+      ]
+    }
+  ]
+}

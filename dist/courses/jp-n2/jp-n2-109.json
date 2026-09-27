@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-109",
+  "coursePackId": "jp-n2",
+  "title": "其他 3",
+  "order": 109,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "谁都，无论是谁",
+      "japanese": "誰しも",
+      "kana": "だれしも",
+      "romaji": "dareshimo",
+      "tokens": [
+        {
+          "text": "誰しも",
+          "kana": "だれしも"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "或者",
+      "japanese": "もしくは",
+      "kana": "もしくは",
+      "romaji": "moshikuha",
+      "tokens": [
+        {
+          "text": "もしくは",
+          "kana": "もしくは"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "不够满意的，感到欠缺的，美中不足的",
+      "japanese": "物足りない",
+      "kana": "ものたりない",
+      "romaji": "monotarinai",
+      "tokens": [
+        {
+          "text": "物足りない",
+          "kana": "ものたりない"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "认为……，看作……",
+      "japanese": "視",
+      "kana": "し",
+      "romaji": "shi",
+      "tokens": [
+        {
+          "text": "視",
+          "kana": "し"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "……杂志",
+      "japanese": "誌",
+      "kana": "し",
+      "romaji": "shi",
+      "tokens": [
+        {
+          "text": "誌",
+          "kana": "し"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "……人；……儿童；年轻人",
+      "japanese": "児",
+      "kana": "じ",
+      "romaji": "ji",
+      "tokens": [
+        {
+          "text": "児",
+          "kana": "じ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "……症",
+      "japanese": "症",
+      "kana": "しょう",
+      "romaji": "shou",
+      "tokens": [
+        {
+          "text": "症",
+          "kana": "しょう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "……败，……负",
+      "japanese": "敗",
+      "kana": "はい",
+      "romaji": "hai",
+      "tokens": [
+        {
+          "text": "敗",
+          "kana": "はい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "不能实现；比不上；受不了",
+      "japanese": "かなわない",
+      "kana": "かなわない",
+      "romaji": "kanawanai",
+      "tokens": [
+        {
+          "text": "かなわない",
+          "kana": "かなわない"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "但是，然而",
+      "japanese": "しかしながら",
+      "kana": "しかしながら",
+      "romaji": "shikashinagara",
+      "tokens": [
+        {
+          "text": "しかしながら",
+          "kana": "しかしながら"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "到处是泥；黏糊；错综复杂",
+      "japanese": "どろどろ",
+      "kana": "どろどろ",
+      "romaji": "dorodoro",
+      "tokens": [
+        {
+          "text": "どろどろ",
+          "kana": "どろどろ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "［副・自動3］（因热气而）模糊不清；（心情）不舒畅；［名］心结",
+      "japanese": "もやもや",
+      "kana": "もやもや",
+      "romaji": "moyamoya",
+      "tokens": [
+        {
+          "text": "もやもや",
+          "kana": "もやもや"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "所以，故而",
+      "japanese": "ゆえに",
+      "kana": "ゆえに",
+      "romaji": "yueni",
+      "tokens": [
+        {
+          "text": "ゆえに",
+          "kana": "ゆえに"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "寄给……，发给……",
+      "japanese": "〜宛て",
+      "kana": "〜宛て",
+      "romaji": "~宛te",
+      "tokens": [
+        {
+          "text": "〜宛て",
+          "kana": "〜宛て"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（好坏事均可用）不堪的，忍受不了的",
+      "japanese": "たまらない",
+      "kana": "たまらない",
+      "romaji": "tamaranai",
+      "tokens": [
+        {
+          "text": "たまらない",
+          "kana": "たまらない"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "受……驱使",
+      "japanese": "駆られる",
+      "kana": "かられる",
+      "romaji": "karareru",
+      "tokens": [
+        {
+          "text": "駆られる",
+          "kana": "かられる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "荒唐，毫无道理；出奇，非比寻常",
+      "japanese": "途方もない",
+      "kana": "とほうもない",
+      "romaji": "tohoumonai",
+      "tokens": [
+        {
+          "text": "途方もない",
+          "kana": "とほうもない"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "越出常轨，异常",
+      "japanese": "突拍子もない",
+      "kana": "とっぴょうしもない",
+      "romaji": "toppyoushimonai",
+      "tokens": [
+        {
+          "text": "突拍子もない",
+          "kana": "とっぴょうしもない"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "两个里的一个；偏向一方，偏执；不完全",
+      "japanese": "片〜",
+      "kana": "片〜",
+      "romaji": "片~",
+      "tokens": [
+        {
+          "text": "片〜",
+          "kana": "片〜"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "……界",
+      "japanese": "〜界",
+      "kana": "〜界",
+      "romaji": "~界",
+      "tokens": [
+        {
+          "text": "〜界",
+          "kana": "〜界"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "总，全体；全部",
+      "japanese": "総",
+      "kana": "そう",
+      "romaji": "sou",
+      "tokens": [
+        {
+          "text": "総",
+          "kana": "そう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "我国；日本",
+      "japanese": "我が国",
+      "kana": "わがくに",
+      "romaji": "wagakuni",
+      "tokens": [
+        {
+          "text": "我が国",
+          "kana": "わがくに"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "岂止……，非但……",
+      "japanese": "どころか",
+      "kana": "どころか",
+      "romaji": "dokoroka",
+      "tokens": [
+        {
+          "text": "どころか",
+          "kana": "どころか"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "岂止如此",
+      "japanese": "それどころか",
+      "kana": "それどころか",
+      "romaji": "soredokoroka",
+      "tokens": [
+        {
+          "text": "それどころか",
+          "kana": "それどころか"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "若无其事的样子；假装不知的表情；满不在乎的神色",
+      "japanese": "涼しい顔",
+      "kana": "すずしいかお",
+      "romaji": "suzushiikao",
+      "tokens": [
+        {
+          "text": "涼しい顔",
+          "kana": "すずしいかお"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "未见过的，不认识的",
+      "japanese": "見知らぬ",
+      "kana": "みしらぬ",
+      "romaji": "mishiranu",
+      "tokens": [
+        {
+          "text": "見知らぬ",
+          "kana": "みしらぬ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "生气",
+      "japanese": "腹が立つ",
+      "kana": "はらがたつ",
+      "romaji": "haragatatsu",
+      "tokens": [
+        {
+          "text": "腹が立つ",
+          "kana": "はらがたつ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "连，甚至，尚且",
+      "japanese": "すら",
+      "kana": "すら",
+      "romaji": "sura",
+      "tokens": [
+        {
+          "text": "すら",
+          "kana": "すら"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "连，甚至；除了……外，不仅……而且；只要……（就……）",
+      "japanese": "さえ",
+      "kana": "さえ",
+      "romaji": "sae",
+      "tokens": [
+        {
+          "text": "さえ",
+          "kana": "さえ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "根据，视……而定；听其自然，任其发展；一结束就立刻……",
+      "japanese": "〜次第",
+      "kana": "〜次第",
+      "romaji": "~次第",
+      "tokens": [
+        {
+          "text": "〜次第",
+          "kana": "〜次第"
+        }
+      ]
+    }
+  ]
+}

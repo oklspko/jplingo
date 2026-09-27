@@ -1,0 +1,268 @@
+{
+  "id": "jp-n5-24",
+  "coursePackId": "jp-n5",
+  "title": "形容词 3",
+  "order": 24,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "薄的；（颜色、味道等）淡的；（程度）轻的",
+      "japanese": "薄い",
+      "kana": "うすい",
+      "romaji": "usui",
+      "tokens": [
+        {
+          "text": "薄い",
+          "kana": "うすい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "忙碌的",
+      "japanese": "忙しい",
+      "kana": "いそがしい",
+      "romaji": "isogashii",
+      "tokens": [
+        {
+          "text": "忙しい",
+          "kana": "いそがしい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "明亮的；快活的",
+      "japanese": "明るい",
+      "kana": "あかるい",
+      "romaji": "akarui",
+      "tokens": [
+        {
+          "text": "明るい",
+          "kana": "あかるい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "有趣的；快乐的，愉快的",
+      "japanese": "面白い",
+      "kana": "おもしろい",
+      "romaji": "omoshiroi",
+      "tokens": [
+        {
+          "text": "面白い",
+          "kana": "おもしろい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "有名的",
+      "japanese": "有名",
+      "kana": "ゆうめい",
+      "romaji": "yuumei",
+      "tokens": [
+        {
+          "text": "有名",
+          "kana": "ゆうめい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "想要；（「…てほしい」）想要……做",
+      "japanese": "欲しい",
+      "kana": "ほしい",
+      "romaji": "hoshii",
+      "tokens": [
+        {
+          "text": "欲しい",
+          "kana": "ほしい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "优秀的；好的；亲近的；没关系；确实的",
+      "japanese": "良い",
+      "kana": "よい",
+      "romaji": "yoi",
+      "tokens": [
+        {
+          "text": "良い",
+          "kana": "よい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "冰凉的；冷淡的",
+      "japanese": "冷たい",
+      "kana": "つめたい",
+      "romaji": "tsumetai",
+      "tokens": [
+        {
+          "text": "冷たい",
+          "kana": "つめたい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "怎样，如何",
+      "japanese": "いかが",
+      "kana": "いかが",
+      "romaji": "ikaga",
+      "tokens": [
+        {
+          "text": "いかが",
+          "kana": "いかが"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "可怕的；了不起的；非常的",
+      "japanese": "すごい",
+      "kana": "すごい",
+      "romaji": "sugoi",
+      "tokens": [
+        {
+          "text": "すごい",
+          "kana": "すごい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "那样；（不）那样",
+      "japanese": "そんな",
+      "kana": "そんな",
+      "romaji": "sonna",
+      "tokens": [
+        {
+          "text": "そんな",
+          "kana": "そんな"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "简单，简便",
+      "japanese": "簡単",
+      "kana": "かんたん",
+      "romaji": "kantan",
+      "tokens": [
+        {
+          "text": "簡単",
+          "kana": "かんたん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "高兴的",
+      "japanese": "うれしい",
+      "kana": "うれしい",
+      "romaji": "ureshii",
+      "tokens": [
+        {
+          "text": "うれしい",
+          "kana": "うれしい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "结合紧密的；坚固的，坚定的；顽固的",
+      "japanese": "固い",
+      "kana": "かたい",
+      "romaji": "katai",
+      "tokens": [
+        {
+          "text": "固い",
+          "kana": "かたい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "足够，充分，充足",
+      "japanese": "十分",
+      "kana": "じゅうぶん",
+      "romaji": "juubun",
+      "tokens": [
+        {
+          "text": "十分",
+          "kana": "じゅうぶん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "正确的；正当的；端正的",
+      "japanese": "正しい",
+      "kana": "ただしい",
+      "romaji": "tadashii",
+      "tokens": [
+        {
+          "text": "正しい",
+          "kana": "ただしい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "茶色的，褐色的",
+      "japanese": "茶色い",
+      "kana": "ちゃいろい",
+      "romaji": "chairoi",
+      "tokens": [
+        {
+          "text": "茶色い",
+          "kana": "ちゃいろい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "温柔的，体贴的；优美的",
+      "japanese": "優しい",
+      "kana": "やさしい",
+      "romaji": "yasashii",
+      "tokens": [
+        {
+          "text": "優しい",
+          "kana": "やさしい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "非常喜欢",
+      "japanese": "大好き",
+      "kana": "だいすき",
+      "romaji": "daisuki",
+      "tokens": [
+        {
+          "text": "大好き",
+          "kana": "だいすき"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "快的，迅速的",
+      "japanese": "速い",
+      "kana": "はやい",
+      "romaji": "hayai",
+      "tokens": [
+        {
+          "text": "速い",
+          "kana": "はやい"
+        }
+      ]
+    }
+  ]
+}

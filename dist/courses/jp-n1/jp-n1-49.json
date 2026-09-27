@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-49",
+  "coursePackId": "jp-n1",
+  "title": "名词 49",
+  "order": 49,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "精力",
+      "japanese": "精力",
+      "kana": "せいりょく",
+      "romaji": "seiryoku",
+      "tokens": [
+        {
+          "text": "精力",
+          "kana": "せいりょく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "积木",
+      "japanese": "積み木",
+      "kana": "つみき",
+      "romaji": "tsumiki",
+      "tokens": [
+        {
+          "text": "積み木",
+          "kana": "つみき"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "旧地皮，旧址",
+      "japanese": "跡地",
+      "kana": "あとち",
+      "romaji": "atochi",
+      "tokens": [
+        {
+          "text": "跡地",
+          "kana": "あとち"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "切盼，殷切期望",
+      "japanese": "切望",
+      "kana": "せつぼう",
+      "romaji": "setsubou",
+      "tokens": [
+        {
+          "text": "切望",
+          "kana": "せつぼう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "交接点；相同处",
+      "japanese": "接点",
+      "kana": "せってん",
+      "romaji": "setten",
+      "tokens": [
+        {
+          "text": "接点",
+          "kana": "せってん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "摄取，吸收",
+      "japanese": "摂取",
+      "kana": "せっしゅ",
+      "romaji": "sesshu",
+      "tokens": [
+        {
+          "text": "摂取",
+          "kana": "せっしゅ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "时机；时候",
+      "japanese": "折",
+      "kana": "おり",
+      "romaji": "ori",
+      "tokens": [
+        {
+          "text": "折",
+          "kana": "おり"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "蝉",
+      "japanese": "せみ",
+      "kana": "せみ",
+      "romaji": "semi",
+      "tokens": [
+        {
+          "text": "せみ",
+          "kana": "せみ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "前几天，前些日子",
+      "japanese": "先だって",
+      "kana": "せんだって",
+      "romaji": "sendatte",
+      "tokens": [
+        {
+          "text": "先だって",
+          "kana": "せんだって"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "对方",
+      "japanese": "先方",
+      "kana": "せんぽう",
+      "romaji": "senpou",
+      "tokens": [
+        {
+          "text": "先方",
+          "kana": "せんぽう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "（特指第二次世界大战之前）战前",
+      "japanese": "戦前",
+      "kana": "せんぜん",
+      "romaji": "senzen",
+      "tokens": [
+        {
+          "text": "戦前",
+          "kana": "せんぜん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "潜水",
+      "japanese": "潜水",
+      "kana": "せんすい",
+      "romaji": "sensui",
+      "tokens": [
+        {
+          "text": "潜水",
+          "kana": "せんすい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "神态、举止中表现出来的样子",
+      "japanese": "素振り",
+      "kana": "そぶり",
+      "romaji": "soburi",
+      "tokens": [
+        {
+          "text": "素振り",
+          "kana": "そぶり"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "驾驶；操纵",
+      "japanese": "操縦",
+      "kana": "そうじゅう",
+      "romaji": "soujuu",
+      "tokens": [
+        {
+          "text": "操縦",
+          "kana": "そうじゅう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "增殖，繁殖",
+      "japanese": "増殖",
+      "kana": "ぞうしょく",
+      "romaji": "zoushoku",
+      "tokens": [
+        {
+          "text": "増殖",
+          "kana": "ぞうしょく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "增税",
+      "japanese": "増税",
+      "kana": "ぞうぜい",
+      "romaji": "zouzei",
+      "tokens": [
+        {
+          "text": "増税",
+          "kana": "ぞうぜい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "步伐；行踪",
+      "japanese": "足取り",
+      "kana": "あしどり",
+      "romaji": "ashidori",
+      "tokens": [
+        {
+          "text": "足取り",
+          "kana": "あしどり"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "损伤",
+      "japanese": "損傷",
+      "kana": "そんしょう",
+      "romaji": "sonshou",
+      "tokens": [
+        {
+          "text": "損傷",
+          "kana": "そんしょう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "村落，村庄",
+      "japanese": "村落",
+      "kana": "そんらく",
+      "romaji": "sonraku",
+      "tokens": [
+        {
+          "text": "村落",
+          "kana": "そんらく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "多角；多方面",
+      "japanese": "多角",
+      "kana": "たかく",
+      "romaji": "takaku",
+      "tokens": [
+        {
+          "text": "多角",
+          "kana": "たかく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "涉及多方面",
+      "japanese": "多岐",
+      "kana": "たき",
+      "romaji": "taki",
+      "tokens": [
+        {
+          "text": "多岐",
+          "kana": "たき"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "多发",
+      "japanese": "多発",
+      "kana": "たはつ",
+      "romaji": "tahatsu",
+      "tokens": [
+        {
+          "text": "多発",
+          "kana": "たはつ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "叩诊；打探，试探",
+      "japanese": "打診",
+      "kana": "だしん",
+      "romaji": "dashin",
+      "tokens": [
+        {
+          "text": "打診",
+          "kana": "だしん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "（植物的耐热性、耐寒性等）抗性；（细菌的）抗药性",
+      "japanese": "耐性",
+      "kana": "たいせい",
+      "romaji": "taisei",
+      "tokens": [
+        {
+          "text": "耐性",
+          "kana": "たいせい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "待命，等待时机",
+      "japanese": "待機",
+      "kana": "たいき",
+      "romaji": "taiki",
+      "tokens": [
+        {
+          "text": "待機",
+          "kana": "たいき"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "代行，代办",
+      "japanese": "代行",
+      "kana": "だいこう",
+      "romaji": "daikou",
+      "tokens": [
+        {
+          "text": "代行",
+          "kana": "だいこう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "代课",
+      "japanese": "代講",
+      "kana": "だいこう",
+      "romaji": "daikou",
+      "tokens": [
+        {
+          "text": "代講",
+          "kana": "だいこう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "大宗（买卖、订单等）",
+      "japanese": "大口",
+      "kana": "おおぐち",
+      "romaji": "ooguchi",
+      "tokens": [
+        {
+          "text": "大口",
+          "kana": "おおぐち"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "大正年号（1912年—1926年）",
+      "japanese": "大正",
+      "kana": "たいしょう",
+      "romaji": "taishou",
+      "tokens": [
+        {
+          "text": "大正",
+          "kana": "たいしょう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（金额、数量的）大关，整数关口",
+      "japanese": "大台",
+      "kana": "おおだい",
+      "romaji": "oodai",
+      "tokens": [
+        {
+          "text": "大台",
+          "kana": "おおだい"
+        }
+      ]
+    }
+  ]
+}

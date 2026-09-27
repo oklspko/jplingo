@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-06",
+  "coursePackId": "jp-n4",
+  "title": "名词 6",
+  "order": 6,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "错误，过错",
+      "japanese": "間違い",
+      "kana": "まちがい",
+      "romaji": "machigai",
+      "tokens": [
+        {
+          "text": "間違い",
+          "kana": "まちがい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "与……有关系；关系",
+      "japanese": "関係",
+      "kana": "かんけい",
+      "romaji": "kankei",
+      "tokens": [
+        {
+          "text": "関係",
+          "kana": "かんけい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "危险",
+      "japanese": "危険",
+      "kana": "きけん",
+      "romaji": "kiken",
+      "tokens": [
+        {
+          "text": "危険",
+          "kana": "きけん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "希望，期望",
+      "japanese": "希望",
+      "kana": "きぼう",
+      "romaji": "kibou",
+      "tokens": [
+        {
+          "text": "希望",
+          "kana": "きぼう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "机械，机器",
+      "japanese": "機械",
+      "kana": "きかい",
+      "romaji": "kikai",
+      "tokens": [
+        {
+          "text": "機械",
+          "kana": "きかい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "气，空气；心情；性质",
+      "japanese": "気",
+      "kana": "き",
+      "romaji": "ki",
+      "tokens": [
+        {
+          "text": "気",
+          "kana": "き"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "心情，情绪；感觉；舒适（与否）",
+      "japanese": "気持ち",
+      "kana": "きもち",
+      "romaji": "kimochi",
+      "tokens": [
+        {
+          "text": "気持ち",
+          "kana": "きもち"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（短暂的）心情，情绪；气氛",
+      "japanese": "気分",
+      "kana": "きぶん",
+      "romaji": "kibun",
+      "tokens": [
+        {
+          "text": "気分",
+          "kana": "きぶん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "技术，工艺",
+      "japanese": "技術",
+      "kana": "ぎじゅつ",
+      "romaji": "gijutsu",
+      "tokens": [
+        {
+          "text": "技術",
+          "kana": "ぎじゅつ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "客人，顾客",
+      "japanese": "客",
+      "kana": "きゃく",
+      "romaji": "kyaku",
+      "tokens": [
+        {
+          "text": "客",
+          "kana": "きゃく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "相反，颠倒",
+      "japanese": "逆",
+      "kana": "ぎゃく",
+      "romaji": "gyaku",
+      "tokens": [
+        {
+          "text": "逆",
+          "kana": "ぎゃく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "久违",
+      "japanese": "久しぶり",
+      "kana": "ひさしぶり",
+      "romaji": "hisashiburi",
+      "tokens": [
+        {
+          "text": "久しぶり",
+          "kana": "ひさしぶり"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "教科书，课本",
+      "japanese": "教科書",
+      "kana": "きょうかしょ",
+      "romaji": "kyoukasho",
+      "tokens": [
+        {
+          "text": "教科書",
+          "kana": "きょうかしょ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "胸；心里",
+      "japanese": "胸",
+      "kana": "むね",
+      "romaji": "mune",
+      "tokens": [
+        {
+          "text": "胸",
+          "kana": "むね"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "近处，附近",
+      "japanese": "近所",
+      "kana": "きんじょ",
+      "romaji": "kinjo",
+      "tokens": [
+        {
+          "text": "近所",
+          "kana": "きんじょ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "健康状况；（机器）状态；情况，样子；方便",
+      "japanese": "具合",
+      "kana": "ぐあい",
+      "romaji": "guai",
+      "tokens": [
+        {
+          "text": "具合",
+          "kana": "ぐあい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "空气；气氛，氛围",
+      "japanese": "空気",
+      "kana": "くうき",
+      "romaji": "kuuki",
+      "tokens": [
+        {
+          "text": "空気",
+          "kana": "くうき"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（称呼同辈或晚辈，男性用语）你",
+      "japanese": "君",
+      "kana": "きみ",
+      "romaji": "kimi",
+      "tokens": [
+        {
+          "text": "君",
+          "kana": "きみ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "负责人",
+      "japanese": "係",
+      "kana": "かかり",
+      "romaji": "kakari",
+      "tokens": [
+        {
+          "text": "係",
+          "kana": "かかり"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "形状；样式；形式",
+      "japanese": "形",
+      "kana": "かたち",
+      "romaji": "katachi",
+      "tokens": [
+        {
+          "text": "形",
+          "kana": "かたち"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "手机",
+      "japanese": "携帯電話",
+      "kana": "けいたいでんわ",
+      "romaji": "keitaidenwa",
+      "tokens": [
+        {
+          "text": "携帯電話",
+          "kana": "けいたいでんわ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "经验",
+      "japanese": "経験",
+      "kana": "けいけん",
+      "romaji": "keiken",
+      "tokens": [
+        {
+          "text": "経験",
+          "kana": "けいけん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "计划，规划",
+      "japanese": "計画",
+      "kana": "けいかく",
+      "romaji": "keikaku",
+      "tokens": [
+        {
+          "text": "計画",
+          "kana": "けいかく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "警察；警局",
+      "japanese": "警察",
+      "kana": "けいさつ",
+      "romaji": "keisatsu",
+      "tokens": [
+        {
+          "text": "警察",
+          "kana": "けいさつ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "结果，结局；（好的）结果",
+      "japanese": "結果",
+      "kana": "けっか",
+      "romaji": "kekka",
+      "tokens": [
+        {
+          "text": "結果",
+          "kana": "けっか"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "血",
+      "japanese": "血",
+      "kana": "ち",
+      "romaji": "chi",
+      "tokens": [
+        {
+          "text": "血",
+          "kana": "ち"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "研究",
+      "japanese": "研究",
+      "kana": "けんきゅう",
+      "romaji": "kenkyuu",
+      "tokens": [
+        {
+          "text": "研究",
+          "kana": "けんきゅう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "肩膀；上方",
+      "japanese": "肩",
+      "kana": "かた",
+      "romaji": "kata",
+      "tokens": [
+        {
+          "text": "肩",
+          "kana": "かた"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "参观，参观学习",
+      "japanese": "見学",
+      "kana": "けんがく",
+      "romaji": "kengaku",
+      "tokens": [
+        {
+          "text": "見学",
+          "kana": "けんがく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "看望，问候",
+      "japanese": "見舞い",
+      "kana": "みまい",
+      "romaji": "mimai",
+      "tokens": [
+        {
+          "text": "見舞い",
+          "kana": "みまい"
+        }
+      ]
+    }
+  ]
+}

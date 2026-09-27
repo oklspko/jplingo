@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-05",
+  "coursePackId": "jp-n3",
+  "title": "名词 5",
+  "order": 5,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "影响",
+      "japanese": "影響",
+      "kana": "えいきょう",
+      "romaji": "eikyou",
+      "tokens": [
+        {
+          "text": "影響",
+          "kana": "えいきょう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "液体",
+      "japanese": "液",
+      "kana": "えき",
+      "romaji": "eki",
+      "tokens": [
+        {
+          "text": "液",
+          "kana": "えき"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "郊游",
+      "japanese": "遠足",
+      "kana": "えんそく",
+      "romaji": "ensoku",
+      "tokens": [
+        {
+          "text": "遠足",
+          "kana": "えんそく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "污垢，脏污",
+      "japanese": "汚れ",
+      "kana": "よごれ",
+      "romaji": "yogore",
+      "tokens": [
+        {
+          "text": "汚れ",
+          "kana": "よごれ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "（对他人妻子的尊称）您夫人，您太太",
+      "japanese": "奥様",
+      "kana": "おくさま",
+      "romaji": "okusama",
+      "tokens": [
+        {
+          "text": "奥様",
+          "kana": "おくさま"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（日式）壁橱",
+      "japanese": "押し入れ",
+      "kana": "おしいれ",
+      "romaji": "oshiire",
+      "tokens": [
+        {
+          "text": "押し入れ",
+          "kana": "おしいれ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "横断；横渡",
+      "japanese": "横断",
+      "kana": "おうだん",
+      "romaji": "oudan",
+      "tokens": [
+        {
+          "text": "横断",
+          "kana": "おうだん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "房顶，屋顶",
+      "japanese": "屋上",
+      "kana": "おくじょう",
+      "romaji": "okujou",
+      "tokens": [
+        {
+          "text": "屋上",
+          "kana": "おくじょう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "温度",
+      "japanese": "温度",
+      "kana": "おんど",
+      "romaji": "ondo",
+      "tokens": [
+        {
+          "text": "温度",
+          "kana": "おんど"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "音乐家",
+      "japanese": "音楽家",
+      "kana": "おんがくか",
+      "romaji": "ongakuka",
+      "tokens": [
+        {
+          "text": "音楽家",
+          "kana": "おんがくか"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "价格",
+      "japanese": "価格",
+      "kana": "かかく",
+      "romaji": "kakaku",
+      "tokens": [
+        {
+          "text": "価格",
+          "kana": "かかく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "（自己的）妻子",
+      "japanese": "家内",
+      "kana": "かない",
+      "romaji": "kanai",
+      "tokens": [
+        {
+          "text": "家内",
+          "kana": "かない"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "科学",
+      "japanese": "科学",
+      "kana": "かがく",
+      "romaji": "kagaku",
+      "tokens": [
+        {
+          "text": "科学",
+          "kana": "かがく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "火灾",
+      "japanese": "火事",
+      "kana": "かじ",
+      "romaji": "kaji",
+      "tokens": [
+        {
+          "text": "火事",
+          "kana": "かじ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "花束",
+      "japanese": "花束",
+      "kana": "はなたば",
+      "romaji": "hanataba",
+      "tokens": [
+        {
+          "text": "花束",
+          "kana": "はなたば"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "开始",
+      "japanese": "開始",
+      "kana": "かいし",
+      "romaji": "kaishi",
+      "tokens": [
+        {
+          "text": "開始",
+          "kana": "かいし"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "学习",
+      "japanese": "学習",
+      "kana": "がくしゅう",
+      "romaji": "gakushuu",
+      "tokens": [
+        {
+          "text": "学習",
+          "kana": "がくしゅう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（大学）系，学院",
+      "japanese": "学部",
+      "kana": "がくぶ",
+      "romaji": "gakubu",
+      "tokens": [
+        {
+          "text": "学部",
+          "kana": "がくぶ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "患者，病人",
+      "japanese": "患者",
+      "kana": "かんじゃ",
+      "romaji": "kanja",
+      "tokens": [
+        {
+          "text": "患者",
+          "kana": "かんじゃ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "环境",
+      "japanese": "環境",
+      "kana": "かんきょう",
+      "romaji": "kankyou",
+      "tokens": [
+        {
+          "text": "環境",
+          "kana": "かんきょう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "护士",
+      "japanese": "看護師",
+      "kana": "かんごし",
+      "romaji": "kangoshi",
+      "tokens": [
+        {
+          "text": "看護師",
+          "kana": "かんごし"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "招牌",
+      "japanese": "看板",
+      "kana": "かんばん",
+      "romaji": "kanban",
+      "tokens": [
+        {
+          "text": "看板",
+          "kana": "かんばん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "观光，旅游",
+      "japanese": "観光",
+      "kana": "かんこう",
+      "romaji": "kankou",
+      "tokens": [
+        {
+          "text": "観光",
+          "kana": "かんこう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "机会",
+      "japanese": "機会",
+      "kana": "きかい",
+      "romaji": "kikai",
+      "tokens": [
+        {
+          "text": "機会",
+          "kana": "きかい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "规则",
+      "japanese": "規則",
+      "kana": "きそく",
+      "romaji": "kisoku",
+      "tokens": [
+        {
+          "text": "規則",
+          "kana": "きそく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "纪念，留念",
+      "japanese": "記念",
+      "kana": "きねん",
+      "romaji": "kinen",
+      "tokens": [
+        {
+          "text": "記念",
+          "kana": "きねん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "休息日，假日",
+      "japanese": "休日",
+      "kana": "きゅうじつ",
+      "romaji": "kyuujitsu",
+      "tokens": [
+        {
+          "text": "休日",
+          "kana": "きゅうじつ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "工资，薪水",
+      "japanese": "給料",
+      "kana": "きゅうりょう",
+      "romaji": "kyuuryou",
+      "tokens": [
+        {
+          "text": "給料",
+          "kana": "きゅうりょう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "竞争，比赛",
+      "japanese": "競争",
+      "kana": "きょうそう",
+      "romaji": "kyousou",
+      "tokens": [
+        {
+          "text": "競争",
+          "kana": "きょうそう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "教师",
+      "japanese": "教師",
+      "kana": "きょうし",
+      "romaji": "kyoushi",
+      "tokens": [
+        {
+          "text": "教師",
+          "kana": "きょうし"
+        }
+      ]
+    }
+  ]
+}

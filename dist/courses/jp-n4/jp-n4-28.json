@@ -1,0 +1,138 @@
+{
+  "id": "jp-n4-28",
+  "coursePackId": "jp-n4",
+  "title": "其他 2",
+  "order": 28,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "……出发；……发送；颗，发",
+      "japanese": "発",
+      "kana": "はつ",
+      "romaji": "hatsu",
+      "tokens": [
+        {
+          "text": "発",
+          "kana": "はつ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "全……，全部……",
+      "japanese": "全〜",
+      "kana": "全〜",
+      "romaji": "全~",
+      "tokens": [
+        {
+          "text": "全〜",
+          "kana": "全〜"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "……力，……能力",
+      "japanese": "〜力",
+      "kana": "〜力",
+      "romaji": "~力",
+      "tokens": [
+        {
+          "text": "〜力",
+          "kana": "〜力"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "各种各样的",
+      "japanese": "いろんな",
+      "kana": "いろんな",
+      "romaji": "ironna",
+      "tokens": [
+        {
+          "text": "いろんな",
+          "kana": "いろんな"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "那样的话",
+      "japanese": "だったら",
+      "kana": "だったら",
+      "romaji": "dattara",
+      "tokens": [
+        {
+          "text": "だったら",
+          "kana": "だったら"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（数量）多；（程度）甚",
+      "japanese": "大〜",
+      "kana": "大〜",
+      "romaji": "大~",
+      "tokens": [
+        {
+          "text": "大〜",
+          "kana": "大〜"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "名……，著名……；……名",
+      "japanese": "名",
+      "kana": "めい",
+      "romaji": "mei",
+      "tokens": [
+        {
+          "text": "名",
+          "kana": "めい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "两……；（列车）节",
+      "japanese": "両",
+      "kana": "りょう",
+      "romaji": "ryou",
+      "tokens": [
+        {
+          "text": "両",
+          "kana": "りょう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "称心，称意，中意；喜爱，喜欢",
+      "japanese": "気に入る",
+      "kana": "きにいる",
+      "romaji": "kiniiru",
+      "tokens": [
+        {
+          "text": "気に入る",
+          "kana": "きにいる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "有用处，有帮助",
+      "japanese": "役に立つ",
+      "kana": "やくにたつ",
+      "romaji": "yakunitatsu",
+      "tokens": [
+        {
+          "text": "役に立つ",
+          "kana": "やくにたつ"
+        }
+      ]
+    }
+  ]
+}

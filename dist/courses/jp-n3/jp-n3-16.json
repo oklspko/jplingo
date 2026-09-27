@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-16",
+  "coursePackId": "jp-n3",
+  "title": "名词 16",
+  "order": 16,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（发生了很多事情之后）最后还是",
+      "japanese": "結局",
+      "kana": "けっきょく",
+      "romaji": "kekkyoku",
+      "tokens": [
+        {
+          "text": "結局",
+          "kana": "けっきょく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "血液",
+      "japanese": "血液",
+      "kana": "けつえき",
+      "romaji": "ketsueki",
+      "tokens": [
+        {
+          "text": "血液",
+          "kana": "けつえき"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "月底",
+      "japanese": "月末",
+      "kana": "げつまつ",
+      "romaji": "getsumatsu",
+      "tokens": [
+        {
+          "text": "月末",
+          "kana": "げつまつ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "票据，票",
+      "japanese": "券",
+      "kana": "けん",
+      "romaji": "ken",
+      "tokens": [
+        {
+          "text": "券",
+          "kana": "けん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "建造；建筑物",
+      "japanese": "建築",
+      "kana": "けんちく",
+      "romaji": "kenchiku",
+      "tokens": [
+        {
+          "text": "建築",
+          "kana": "けんちく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "检查；检验",
+      "japanese": "検査",
+      "kana": "けんさ",
+      "romaji": "kensa",
+      "tokens": [
+        {
+          "text": "検査",
+          "kana": "けんさ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "讨论，探讨研究",
+      "japanese": "検討",
+      "kana": "けんとう",
+      "romaji": "kentou",
+      "tokens": [
+        {
+          "text": "検討",
+          "kana": "けんとう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "看法；见解",
+      "japanese": "見方",
+      "kana": "みかた",
+      "romaji": "mikata",
+      "tokens": [
+        {
+          "text": "見方",
+          "kana": "みかた"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "原料",
+      "japanese": "原料",
+      "kana": "げんりょう",
+      "romaji": "genryou",
+      "tokens": [
+        {
+          "text": "原料",
+          "kana": "げんりょう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "减少",
+      "japanese": "減少",
+      "kana": "げんしょう",
+      "romaji": "genshou",
+      "tokens": [
+        {
+          "text": "減少",
+          "kana": "げんしょう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "现金",
+      "japanese": "現金",
+      "kana": "げんきん",
+      "romaji": "genkin",
+      "tokens": [
+        {
+          "text": "現金",
+          "kana": "げんきん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "个人",
+      "japanese": "個人",
+      "kana": "こじん",
+      "romaji": "kojin",
+      "tokens": [
+        {
+          "text": "個人",
+          "kana": "こじん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "呼吸",
+      "japanese": "呼吸",
+      "kana": "こきゅう",
+      "romaji": "kokyuu",
+      "tokens": [
+        {
+          "text": "呼吸",
+          "kana": "こきゅう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "故乡，家乡",
+      "japanese": "故郷",
+      "kana": "こきょう",
+      "romaji": "kokyou",
+      "tokens": [
+        {
+          "text": "故郷",
+          "kana": "こきょう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "故障",
+      "japanese": "故障",
+      "kana": "こしょう",
+      "romaji": "koshou",
+      "tokens": [
+        {
+          "text": "故障",
+          "kana": "こしょう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "互相，相互；彼此",
+      "japanese": "互い",
+      "kana": "たがい",
+      "romaji": "tagai",
+      "tokens": [
+        {
+          "text": "互い",
+          "kana": "たがい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "交换",
+      "japanese": "交換",
+      "kana": "こうかん",
+      "romaji": "koukan",
+      "tokens": [
+        {
+          "text": "交換",
+          "kana": "こうかん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "交流，往来；交流电",
+      "japanese": "交流",
+      "kana": "こうりゅう",
+      "romaji": "kouryuu",
+      "tokens": [
+        {
+          "text": "交流",
+          "kana": "こうりゅう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "公共",
+      "japanese": "公共",
+      "kana": "こうきょう",
+      "romaji": "koukyou",
+      "tokens": [
+        {
+          "text": "公共",
+          "kana": "こうきょう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "对面，正对面",
+      "japanese": "向かい",
+      "kana": "むかい",
+      "romaji": "mukai",
+      "tokens": [
+        {
+          "text": "向かい",
+          "kana": "むかい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "总计",
+      "japanese": "合計",
+      "kana": "ごうけい",
+      "romaji": "goukei",
+      "tokens": [
+        {
+          "text": "合計",
+          "kana": "ごうけい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "信号；暗号",
+      "japanese": "合図",
+      "kana": "あいず",
+      "romaji": "aizu",
+      "tokens": [
+        {
+          "text": "合図",
+          "kana": "あいず"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "国立",
+      "japanese": "国立",
+      "kana": "こくりつ",
+      "romaji": "kokuritsu",
+      "tokens": [
+        {
+          "text": "国立",
+          "kana": "こくりつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "骨；骨架；骨气",
+      "japanese": "骨",
+      "kana": "ほね",
+      "romaji": "hone",
+      "tokens": [
+        {
+          "text": "骨",
+          "kana": "ほね"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "骨折",
+      "japanese": "骨折",
+      "kana": "こっせつ",
+      "romaji": "kossetsu",
+      "tokens": [
+        {
+          "text": "骨折",
+          "kana": "こっせつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "根；起源；性质",
+      "japanese": "根",
+      "kana": "ね",
+      "romaji": "ne",
+      "tokens": [
+        {
+          "text": "根",
+          "kana": "ね"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "左右；周围；支配",
+      "japanese": "左右",
+      "kana": "さゆう",
+      "romaji": "sayuu",
+      "tokens": [
+        {
+          "text": "左右",
+          "kana": "さゆう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "最后，最末尾",
+      "japanese": "最終",
+      "kana": "さいしゅう",
+      "romaji": "saishuu",
+      "tokens": [
+        {
+          "text": "最終",
+          "kana": "さいしゅう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "最低；最坏",
+      "japanese": "最低",
+      "kana": "さいてい",
+      "romaji": "saitei",
+      "tokens": [
+        {
+          "text": "最低",
+          "kana": "さいてい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（书面语）昨日，昨天",
+      "japanese": "昨日",
+      "kana": "さくじつ",
+      "romaji": "sakujitsu",
+      "tokens": [
+        {
+          "text": "昨日",
+          "kana": "さくじつ"
+        }
+      ]
+    }
+  ]
+}

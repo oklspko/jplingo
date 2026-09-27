@@ -1,0 +1,242 @@
+{
+  "id": "jp-gaokao-20",
+  "coursePackId": "jp-gaokao",
+  "title": "动词低频 6",
+  "order": 20,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "咬住",
+      "japanese": "噛み付く",
+      "kana": "かみつく",
+      "romaji": "kamitsuku",
+      "tokens": [
+        {
+          "text": "噛み付く",
+          "kana": "かみつく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "去除；铲除、删除",
+      "japanese": "除く",
+      "kana": "のぞく",
+      "romaji": "nozoku",
+      "tokens": [
+        {
+          "text": "除く",
+          "kana": "のぞく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "混杂",
+      "japanese": "混じる",
+      "kana": "まじる",
+      "romaji": "majiru",
+      "tokens": [
+        {
+          "text": "混じる",
+          "kana": "まじる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "走、行走",
+      "japanese": "歩む",
+      "kana": "あゆむ",
+      "romaji": "ayumu",
+      "tokens": [
+        {
+          "text": "歩む",
+          "kana": "あゆむ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "品味、尝",
+      "japanese": "味わう",
+      "kana": "あじわう",
+      "romaji": "ajiwau",
+      "tokens": [
+        {
+          "text": "味わう",
+          "kana": "あじわう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "捏、揉",
+      "japanese": "捏ねる",
+      "kana": "こねる",
+      "romaji": "koneru",
+      "tokens": [
+        {
+          "text": "捏ねる",
+          "kana": "こねる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "走、行走",
+      "japanese": "歩む",
+      "kana": "あゆむ",
+      "romaji": "ayumu",
+      "tokens": [
+        {
+          "text": "歩む",
+          "kana": "あゆむ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "混杂",
+      "japanese": "混じる",
+      "kana": "まじる",
+      "romaji": "majiru",
+      "tokens": [
+        {
+          "text": "混じる",
+          "kana": "まじる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "去除；铲除、删除",
+      "japanese": "除く",
+      "kana": "のぞく",
+      "romaji": "nozoku",
+      "tokens": [
+        {
+          "text": "除く",
+          "kana": "のぞく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "品味、尝",
+      "japanese": "味わう",
+      "kana": "あじわう",
+      "romaji": "ajiwau",
+      "tokens": [
+        {
+          "text": "味わう",
+          "kana": "あじわう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "捏、揉",
+      "japanese": "捏ねる",
+      "kana": "こねる",
+      "romaji": "koneru",
+      "tokens": [
+        {
+          "text": "捏ねる",
+          "kana": "こねる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "咬住",
+      "japanese": "噛み付く",
+      "kana": "かみつく",
+      "romaji": "kamitsuku",
+      "tokens": [
+        {
+          "text": "噛み付く",
+          "kana": "かみつく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "捏、揉",
+      "japanese": "捏ねる",
+      "kana": "こねる",
+      "romaji": "koneru",
+      "tokens": [
+        {
+          "text": "捏ねる",
+          "kana": "こねる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "品味、尝",
+      "japanese": "味わう",
+      "kana": "あじわう",
+      "romaji": "ajiwau",
+      "tokens": [
+        {
+          "text": "味わう",
+          "kana": "あじわう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "走、行走",
+      "japanese": "歩む",
+      "kana": "あゆむ",
+      "romaji": "ayumu",
+      "tokens": [
+        {
+          "text": "歩む",
+          "kana": "あゆむ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "混杂",
+      "japanese": "混じる",
+      "kana": "まじる",
+      "romaji": "majiru",
+      "tokens": [
+        {
+          "text": "混じる",
+          "kana": "まじる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "咬住",
+      "japanese": "噛み付く",
+      "kana": "かみつく",
+      "romaji": "kamitsuku",
+      "tokens": [
+        {
+          "text": "噛み付く",
+          "kana": "かみつく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "去除；铲除、删除",
+      "japanese": "除く",
+      "kana": "のぞく",
+      "romaji": "nozoku",
+      "tokens": [
+        {
+          "text": "除く",
+          "kana": "のぞく"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-14",
+  "coursePackId": "jp-n2",
+  "title": "名词 14",
+  "order": 14,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "翅膀；机翼",
+      "japanese": "翼",
+      "kana": "つばさ",
+      "romaji": "tsubasa",
+      "tokens": [
+        {
+          "text": "翼",
+          "kana": "つばさ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "盈利；利益，好处",
+      "japanese": "利益",
+      "kana": "りえき",
+      "romaji": "rieki",
+      "tokens": [
+        {
+          "text": "利益",
+          "kana": "りえき"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "聪明伶俐；（多く「お利口」の形で）乖巧懂事；精明",
+      "japanese": "利口",
+      "kana": "りこう",
+      "romaji": "rikou",
+      "tokens": [
+        {
+          "text": "利口",
+          "kana": "りこう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "处境，立场；角度，观点",
+      "japanese": "立場",
+      "kana": "たちば",
+      "romaji": "tachiba",
+      "tokens": [
+        {
+          "text": "立場",
+          "kana": "たちば"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "例外",
+      "japanese": "例外",
+      "kana": "れいがい",
+      "romaji": "reigai",
+      "tokens": [
+        {
+          "text": "例外",
+          "kana": "れいがい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "礼貌，礼节",
+      "japanese": "礼儀",
+      "kana": "れいぎ",
+      "romaji": "reigi",
+      "tokens": [
+        {
+          "text": "礼儀",
+          "kana": "れいぎ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "恋人",
+      "japanese": "恋人",
+      "kana": "こいびと",
+      "romaji": "koibito",
+      "tokens": [
+        {
+          "text": "恋人",
+          "kana": "こいびと"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "老人，老年人",
+      "japanese": "老人",
+      "kana": "ろうじん",
+      "romaji": "roujin",
+      "tokens": [
+        {
+          "text": "老人",
+          "kana": "ろうじん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "讨论，争论；意见，看法",
+      "japanese": "論",
+      "kana": "ろん",
+      "romaji": "ron",
+      "tokens": [
+        {
+          "text": "論",
+          "kana": "ろん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "话题，谈话材料",
+      "japanese": "話題",
+      "kana": "わだい",
+      "romaji": "wadai",
+      "tokens": [
+        {
+          "text": "話題",
+          "kana": "わだい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "尘埃，灰尘",
+      "japanese": "埃[ほこり]",
+      "kana": "ほこり",
+      "romaji": "hokori",
+      "tokens": [
+        {
+          "text": "埃[ほこり]",
+          "kana": "ほこり"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "……同伴，具有共同关系的人",
+      "japanese": "同士",
+      "kana": "どうし",
+      "romaji": "doushi",
+      "tokens": [
+        {
+          "text": "同士",
+          "kana": "どうし"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "……率",
+      "japanese": "率",
+      "kana": "りつ",
+      "romaji": "ritsu",
+      "tokens": [
+        {
+          "text": "率",
+          "kana": "りつ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "活动；比赛",
+      "japanese": "イベント",
+      "kana": "いべんと",
+      "romaji": "ibento",
+      "tokens": [
+        {
+          "text": "イベント",
+          "kana": "いべんと"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "防卫，防守；警卫，警备",
+      "japanese": "ガード",
+      "kana": "があど",
+      "romaji": "gaado",
+      "tokens": [
+        {
+          "text": "ガード",
+          "kana": "があど"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "情侣，一对男女",
+      "japanese": "カップル",
+      "kana": "かっぷる",
+      "romaji": "kappuru",
+      "tokens": [
+        {
+          "text": "カップル",
+          "kana": "かっぷる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "蘑菇",
+      "japanese": "きのこ",
+      "kana": "きのこ",
+      "romaji": "kinoko",
+      "tokens": [
+        {
+          "text": "きのこ",
+          "kana": "きのこ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "近来，这些天来",
+      "japanese": "この頃",
+      "kana": "このごろ",
+      "romaji": "konogoro",
+      "tokens": [
+        {
+          "text": "この頃",
+          "kana": "このごろ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "皱纹；褶皱",
+      "japanese": "しわ",
+      "kana": "しわ",
+      "romaji": "shiwa",
+      "tokens": [
+        {
+          "text": "しわ",
+          "kana": "しわ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "工作人员",
+      "japanese": "スタッフ",
+      "kana": "すたっふ",
+      "romaji": "sutaffu",
+      "tokens": [
+        {
+          "text": "スタッフ",
+          "kana": "すたっふ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "时间",
+      "japanese": "タイム",
+      "kana": "たいむ",
+      "romaji": "taimu",
+      "tokens": [
+        {
+          "text": "タイム",
+          "kana": "たいむ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "薄而柔软的卫生纸，纸巾",
+      "japanese": "ティッシュ",
+      "kana": "てぃっしゅ",
+      "romaji": "teisshu",
+      "tokens": [
+        {
+          "text": "ティッシュ",
+          "kana": "てぃっしゅ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "户外烧烤",
+      "japanese": "バーベキュー",
+      "kana": "ばあべきゅう",
+      "romaji": "baabekyuu",
+      "tokens": [
+        {
+          "text": "バーベキュー",
+          "kana": "ばあべきゅう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "力量，能力，活力，马力；权力",
+      "japanese": "パワー",
+      "kana": "ぱわあ",
+      "romaji": "pawaa",
+      "tokens": [
+        {
+          "text": "パワー",
+          "kana": "ぱわあ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "夏威夷",
+      "japanese": "ハワイ",
+      "kana": "はわい",
+      "romaji": "hawai",
+      "tokens": [
+        {
+          "text": "ハワイ",
+          "kana": "はわい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "神秘；推理小说",
+      "japanese": "ミステリー",
+      "kana": "みすてりい",
+      "romaji": "misuterii",
+      "tokens": [
+        {
+          "text": "ミステリー",
+          "kana": "みすてりい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "交换；对答，对话",
+      "japanese": "やりとり",
+      "kana": "やりとり",
+      "romaji": "yaritori",
+      "tokens": [
+        {
+          "text": "やりとり",
+          "kana": "やりとり"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "干劲",
+      "japanese": "やる気",
+      "kana": "やるき",
+      "romaji": "yaruki",
+      "tokens": [
+        {
+          "text": "やる気",
+          "kana": "やるき"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "生命；生活；人生",
+      "japanese": "ライフ",
+      "kana": "らいふ",
+      "romaji": "raifu",
+      "tokens": [
+        {
+          "text": "ライフ",
+          "kana": "らいふ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "报告人；采访记者",
+      "japanese": "レポーター",
+      "kana": "れぽうたあ",
+      "romaji": "repoutaa",
+      "tokens": [
+        {
+          "text": "レポーター",
+          "kana": "れぽうたあ"
+        }
+      ]
+    }
+  ]
+}

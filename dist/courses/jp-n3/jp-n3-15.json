@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-15",
+  "coursePackId": "jp-n3",
+  "title": "名词 15",
+  "order": 15,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "感情，情绪",
+      "japanese": "感情",
+      "kana": "かんじょう",
+      "romaji": "kanjou",
+      "tokens": [
+        {
+          "text": "感情",
+          "kana": "かんじょう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "感想",
+      "japanese": "感想",
+      "kana": "かんそう",
+      "romaji": "kansou",
+      "tokens": [
+        {
+          "text": "感想",
+          "kana": "かんそう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "感动",
+      "japanese": "感動",
+      "kana": "かんどう",
+      "romaji": "kandou",
+      "tokens": [
+        {
+          "text": "感動",
+          "kana": "かんどう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "欢迎，款待",
+      "japanese": "歓迎",
+      "kana": "かんげい",
+      "romaji": "kangei",
+      "tokens": [
+        {
+          "text": "歓迎",
+          "kana": "かんげい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "汗，汗水",
+      "japanese": "汗",
+      "kana": "あせ",
+      "romaji": "ase",
+      "tokens": [
+        {
+          "text": "汗",
+          "kana": "あせ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "管理，管辖",
+      "japanese": "管理",
+      "kana": "かんり",
+      "romaji": "kanri",
+      "tokens": [
+        {
+          "text": "管理",
+          "kana": "かんり"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "空隙；时间",
+      "japanese": "間",
+      "kana": "ま",
+      "romaji": "ma",
+      "tokens": [
+        {
+          "text": "間",
+          "kana": "ま"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "间隔",
+      "japanese": "間隔",
+      "kana": "かんかく",
+      "romaji": "kankaku",
+      "tokens": [
+        {
+          "text": "間隔",
+          "kana": "かんかく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "关心，感兴趣",
+      "japanese": "関心",
+      "kana": "かんしん",
+      "romaji": "kanshin",
+      "tokens": [
+        {
+          "text": "関心",
+          "kana": "かんしん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "岩石",
+      "japanese": "岩",
+      "kana": "いわ",
+      "romaji": "iwa",
+      "tokens": [
+        {
+          "text": "岩",
+          "kana": "いわ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "根基；基础",
+      "japanese": "基礎",
+      "kana": "きそ",
+      "romaji": "kiso",
+      "tokens": [
+        {
+          "text": "基礎",
+          "kana": "きそ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "基本，基础",
+      "japanese": "基本",
+      "kana": "きほん",
+      "romaji": "kihon",
+      "tokens": [
+        {
+          "text": "基本",
+          "kana": "きほん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "期间；期限",
+      "japanese": "期間",
+      "kana": "きかん",
+      "romaji": "kikan",
+      "tokens": [
+        {
+          "text": "期間",
+          "kana": "きかん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "期限",
+      "japanese": "期限",
+      "kana": "きげん",
+      "romaji": "kigen",
+      "tokens": [
+        {
+          "text": "期限",
+          "kana": "きげん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "期末",
+      "japanese": "期末",
+      "kana": "きまつ",
+      "romaji": "kimatsu",
+      "tokens": [
+        {
+          "text": "期末",
+          "kana": "きまつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "回家",
+      "japanese": "帰宅",
+      "kana": "きたく",
+      "romaji": "kitaku",
+      "tokens": [
+        {
+          "text": "帰宅",
+          "kana": "きたく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "新闻，报道",
+      "japanese": "記事",
+      "kana": "きじ",
+      "romaji": "kiji",
+      "tokens": [
+        {
+          "text": "記事",
+          "kana": "きじ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "填写",
+      "japanese": "記入",
+      "kana": "きにゅう",
+      "romaji": "kinyuu",
+      "tokens": [
+        {
+          "text": "記入",
+          "kana": "きにゅう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "记载，记录",
+      "japanese": "記録",
+      "kana": "きろく",
+      "romaji": "kiroku",
+      "tokens": [
+        {
+          "text": "記録",
+          "kana": "きろく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "停课",
+      "japanese": "休講",
+      "kana": "きゅうこう",
+      "romaji": "kyuukou",
+      "tokens": [
+        {
+          "text": "休講",
+          "kana": "きゅうこう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "起居室",
+      "japanese": "居間",
+      "kana": "いま",
+      "romaji": "ima",
+      "tokens": [
+        {
+          "text": "居間",
+          "kana": "いま"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "共同",
+      "japanese": "共通",
+      "kana": "きょうつう",
+      "romaji": "kyoutsuu",
+      "tokens": [
+        {
+          "text": "共通",
+          "kana": "きょうつう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "禁止",
+      "japanese": "禁止",
+      "kana": "きんし",
+      "romaji": "kinshi",
+      "tokens": [
+        {
+          "text": "禁止",
+          "kana": "きんし"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "区别；辨别",
+      "japanese": "区別",
+      "kana": "くべつ",
+      "romaji": "kubetsu",
+      "tokens": [
+        {
+          "text": "区別",
+          "kana": "くべつ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "经营，运营",
+      "japanese": "経営",
+      "kana": "けいえい",
+      "romaji": "keiei",
+      "tokens": [
+        {
+          "text": "経営",
+          "kana": "けいえい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "计算；考虑",
+      "japanese": "計算",
+      "kana": "けいさん",
+      "romaji": "keisan",
+      "tokens": [
+        {
+          "text": "計算",
+          "kana": "けいさん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "艺术",
+      "japanese": "芸術",
+      "kana": "げいじゅつ",
+      "romaji": "geijutsu",
+      "tokens": [
+        {
+          "text": "芸術",
+          "kana": "げいじゅつ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "规定；了结；惯例",
+      "japanese": "決まり",
+      "kana": "きまり",
+      "romaji": "kimari",
+      "tokens": [
+        {
+          "text": "決まり",
+          "kana": "きまり"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "决心，决意",
+      "japanese": "決心",
+      "kana": "けっしん",
+      "romaji": "kesshin",
+      "tokens": [
+        {
+          "text": "決心",
+          "kana": "けっしん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "洞；漏洞；亏空",
+      "japanese": "穴",
+      "kana": "あな",
+      "romaji": "ana",
+      "tokens": [
+        {
+          "text": "穴",
+          "kana": "あな"
+        }
+      ]
+    }
+  ]
+}

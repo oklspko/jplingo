@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-112",
+  "coursePackId": "jp-n1",
+  "title": "动词 21",
+  "order": 112,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "再想一遍，回想；重新考虑，改变主意",
+      "japanese": "思い返す",
+      "kana": "おもいかえす",
+      "romaji": "omoikaesu",
+      "tokens": [
+        {
+          "text": "思い返す",
+          "kana": "おもいかえす"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "看穿，看透",
+      "japanese": "見透かす",
+      "kana": "みすかす",
+      "romaji": "misukasu",
+      "tokens": [
+        {
+          "text": "見透かす",
+          "kana": "みすかす"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "假装，装作",
+      "japanese": "見せかける",
+      "kana": "みせかける",
+      "romaji": "misekakeru",
+      "tokens": [
+        {
+          "text": "見せかける",
+          "kana": "みせかける"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "背上；担负，承担",
+      "japanese": "しょい込む",
+      "kana": "しょいこむ",
+      "romaji": "shoikomu",
+      "tokens": [
+        {
+          "text": "しょい込む",
+          "kana": "しょいこむ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "繁花盛开",
+      "japanese": "咲き乱れる",
+      "kana": "さきみだれる",
+      "romaji": "sakimidareru",
+      "tokens": [
+        {
+          "text": "咲き乱れる",
+          "kana": "さきみだれる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "卖弄，炫耀",
+      "japanese": "見せつける",
+      "kana": "みせつける",
+      "romaji": "misetsukeru",
+      "tokens": [
+        {
+          "text": "見せつける",
+          "kana": "みせつける"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "看破，看穿",
+      "japanese": "見て取る",
+      "kana": "みてとる",
+      "romaji": "mitetoru",
+      "tokens": [
+        {
+          "text": "見て取る",
+          "kana": "みてとる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "拉回，拽回",
+      "japanese": "引き戻す",
+      "kana": "ひきもどす",
+      "romaji": "hikimodosu",
+      "tokens": [
+        {
+          "text": "引き戻す",
+          "kana": "ひきもどす"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "润，弄湿；使受惠",
+      "japanese": "潤す",
+      "kana": "うるおす",
+      "romaji": "uruosu",
+      "tokens": [
+        {
+          "text": "潤す",
+          "kana": "うるおす"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "兴办，振兴",
+      "japanese": "興す",
+      "kana": "おこす",
+      "romaji": "okosu",
+      "tokens": [
+        {
+          "text": "興す",
+          "kana": "おこす"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "忍到最后，坚持到底",
+      "japanese": "耐え抜く",
+      "kana": "たえぬく",
+      "romaji": "taenuku",
+      "tokens": [
+        {
+          "text": "耐え抜く",
+          "kana": "たえぬく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "塞进，硬塞；关在里面，监禁",
+      "japanese": "押し込める",
+      "kana": "おしこめる",
+      "romaji": "oshikomeru",
+      "tokens": [
+        {
+          "text": "押し込める",
+          "kana": "おしこめる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "选择；诊断；比作",
+      "japanese": "見立てる",
+      "kana": "みたてる",
+      "romaji": "mitateru",
+      "tokens": [
+        {
+          "text": "見立てる",
+          "kana": "みたてる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "听惯，耳熟",
+      "japanese": "耳慣れる",
+      "kana": "みみなれる",
+      "romaji": "miminareru",
+      "tokens": [
+        {
+          "text": "耳慣れる",
+          "kana": "みみなれる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "执牛耳，把持，操纵，主宰",
+      "japanese": "牛耳る",
+      "kana": "ぎゅうじる",
+      "romaji": "gyuujiru",
+      "tokens": [
+        {
+          "text": "牛耳る",
+          "kana": "ぎゅうじる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "随手搭上，披上；（视线、话语等）投向；提出；倚靠",
+      "japanese": "投げかける",
+      "kana": "なげかける",
+      "romaji": "nagekakeru",
+      "tokens": [
+        {
+          "text": "投げかける",
+          "kana": "なげかける"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "生根；扎根；起因，由来",
+      "japanese": "根差す",
+      "kana": "ねざす",
+      "romaji": "nezasu",
+      "tokens": [
+        {
+          "text": "根差す",
+          "kana": "ねざす"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "回头看；重看，反复看；回看，还眼；（受了侮辱或轻视后）争气",
+      "japanese": "見返す",
+      "kana": "みかえす",
+      "romaji": "mikaesu",
+      "tokens": [
+        {
+          "text": "見返す",
+          "kana": "みかえす"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "使细，弄细",
+      "japanese": "細める",
+      "kana": "ほそめる",
+      "romaji": "hosomeru",
+      "tokens": [
+        {
+          "text": "細める",
+          "kana": "ほそめる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "看不起，轻视；往下看，俯视",
+      "japanese": "見下す",
+      "kana": "みくだす",
+      "romaji": "mikudasu",
+      "tokens": [
+        {
+          "text": "見下す",
+          "kana": "みくだす"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "重新涂抹，重画",
+      "japanese": "塗り替える",
+      "kana": "ぬりかえる",
+      "romaji": "nurikaeru",
+      "tokens": [
+        {
+          "text": "塗り替える",
+          "kana": "ぬりかえる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "棘手，难对付，犯难",
+      "japanese": "てこずる",
+      "kana": "てこずる",
+      "romaji": "tekozuru",
+      "tokens": [
+        {
+          "text": "てこずる",
+          "kana": "てこずる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "不肯，不痛快，不爽快；不流畅，发涩",
+      "japanese": "渋る",
+      "kana": "しぶる",
+      "romaji": "shiburu",
+      "tokens": [
+        {
+          "text": "渋る",
+          "kana": "しぶる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "峭立，陡立，陡峭",
+      "japanese": "切り立つ",
+      "kana": "きりたつ",
+      "romaji": "kiritatsu",
+      "tokens": [
+        {
+          "text": "切り立つ",
+          "kana": "きりたつ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "仿照，形象化",
+      "japanese": "かたどる",
+      "kana": "かたどる",
+      "romaji": "katadoru",
+      "tokens": [
+        {
+          "text": "かたどる",
+          "kana": "かたどる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "织成，织出；穿插成，组成",
+      "japanese": "織り成す",
+      "kana": "おりなす",
+      "romaji": "orinasu",
+      "tokens": [
+        {
+          "text": "織り成す",
+          "kana": "おりなす"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "不断地讲述并传承给下一代",
+      "japanese": "語り継ぐ",
+      "kana": "かたりつぐ",
+      "romaji": "kataritsugu",
+      "tokens": [
+        {
+          "text": "語り継ぐ",
+          "kana": "かたりつぐ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "接上，添上，加上，补上",
+      "japanese": "継ぎ足す",
+      "kana": "つぎたす",
+      "romaji": "tsugitasu",
+      "tokens": [
+        {
+          "text": "継ぎ足す",
+          "kana": "つぎたす"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "磨薄；劳神，费心",
+      "japanese": "すり減らす",
+      "kana": "すりへらす",
+      "romaji": "suriherasu",
+      "tokens": [
+        {
+          "text": "すり減らす",
+          "kana": "すりへらす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "用力撞击；钉（上）",
+      "japanese": "打ち付ける",
+      "kana": "うちつける",
+      "romaji": "uchitsukeru",
+      "tokens": [
+        {
+          "text": "打ち付ける",
+          "kana": "うちつける"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-54",
+  "coursePackId": "jp-n1",
+  "title": "名词 54",
+  "order": 54,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "沮丧",
+      "japanese": "落胆",
+      "kana": "らくたん",
+      "romaji": "rakutan",
+      "tokens": [
+        {
+          "text": "落胆",
+          "kana": "らくたん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "理念，根本想法",
+      "japanese": "理念",
+      "kana": "りねん",
+      "romaji": "rinen",
+      "tokens": [
+        {
+          "text": "理念",
+          "kana": "りねん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "骰子的背面；针织品翻过来看的针眼；事与愿违",
+      "japanese": "裏目",
+      "kana": "うらめ",
+      "romaji": "urame",
+      "tokens": [
+        {
+          "text": "裏目",
+          "kana": "うらめ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "率先，带头",
+      "japanese": "率先",
+      "kana": "そっせん",
+      "romaji": "sossen",
+      "tokens": [
+        {
+          "text": "率先",
+          "kana": "そっせん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "立体",
+      "japanese": "立体",
+      "kana": "りったい",
+      "romaji": "rittai",
+      "tokens": [
+        {
+          "text": "立体",
+          "kana": "りったい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "轮廓；概要",
+      "japanese": "輪郭",
+      "kana": "りんかく",
+      "romaji": "rinkaku",
+      "tokens": [
+        {
+          "text": "輪郭",
+          "kana": "りんかく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "类；匹敌",
+      "japanese": "類い",
+      "kana": "たぐい",
+      "romaji": "tagui",
+      "tokens": [
+        {
+          "text": "類い",
+          "kana": "たぐい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "类型",
+      "japanese": "類型",
+      "kana": "るいけい",
+      "romaji": "ruikei",
+      "tokens": [
+        {
+          "text": "類型",
+          "kana": "るいけい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "合作",
+      "japanese": "連携",
+      "kana": "れんけい",
+      "romaji": "renkei",
+      "tokens": [
+        {
+          "text": "連携",
+          "kana": "れんけい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "凝聚力",
+      "japanese": "連帯感",
+      "kana": "れんたいかん",
+      "romaji": "rentaikan",
+      "tokens": [
+        {
+          "text": "連帯感",
+          "kana": "れんたいかん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "男女老少",
+      "japanese": "老若男女",
+      "kana": "ろうにゃくなんにょ",
+      "romaji": "rounyakunannyo",
+      "tokens": [
+        {
+          "text": "老若男女",
+          "kana": "ろうにゃくなんにょ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "罐，坛；要害，要点",
+      "japanese": "つぼ",
+      "kana": "つぼ",
+      "romaji": "tsubo",
+      "tokens": [
+        {
+          "text": "つぼ",
+          "kana": "つぼ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "遥控器",
+      "japanese": "リモコン",
+      "kana": "りもこん",
+      "romaji": "rimokon",
+      "tokens": [
+        {
+          "text": "リモコン",
+          "kana": "りもこん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "落叶",
+      "japanese": "落葉",
+      "kana": "らくよう",
+      "romaji": "rakuyou",
+      "tokens": [
+        {
+          "text": "落葉",
+          "kana": "らくよう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "对峙，相持",
+      "japanese": "対 峙[じ]",
+      "kana": "たいじ",
+      "romaji": "taiji",
+      "tokens": [
+        {
+          "text": "対 峙[じ]",
+          "kana": "たいじ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "造型",
+      "japanese": "造形",
+      "kana": "ぞうけい",
+      "romaji": "zoukei",
+      "tokens": [
+        {
+          "text": "造形",
+          "kana": "ぞうけい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "创业",
+      "japanese": "起業",
+      "kana": "きぎょう",
+      "romaji": "kigyou",
+      "tokens": [
+        {
+          "text": "起業",
+          "kana": "きぎょう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "上市，运出货物",
+      "japanese": "出荷",
+      "kana": "しゅっか",
+      "romaji": "shukka",
+      "tokens": [
+        {
+          "text": "出荷",
+          "kana": "しゅっか"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "既存，原有，现有",
+      "japanese": "既存",
+      "kana": "きそん",
+      "romaji": "kison",
+      "tokens": [
+        {
+          "text": "既存",
+          "kana": "きそん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "确凿的证据；拿事实来证明，实证",
+      "japanese": "実証",
+      "kana": "じっしょう",
+      "romaji": "jisshou",
+      "tokens": [
+        {
+          "text": "実証",
+          "kana": "じっしょう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "提起，提出",
+      "japanese": "提起",
+      "kana": "ていき",
+      "romaji": "teiki",
+      "tokens": [
+        {
+          "text": "提起",
+          "kana": "ていき"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "退休，引退；退场，弃权",
+      "japanese": "リタイア",
+      "kana": "りたいあ",
+      "romaji": "ritaia",
+      "tokens": [
+        {
+          "text": "リタイア",
+          "kana": "りたいあ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "讨论",
+      "japanese": "ディスカッション",
+      "kana": "でぃすかっしょん",
+      "romaji": "deisukasshon",
+      "tokens": [
+        {
+          "text": "ディスカッション",
+          "kana": "でぃすかっしょん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "狩猎",
+      "japanese": "狩猟",
+      "kana": "しゅりょう",
+      "romaji": "shuryou",
+      "tokens": [
+        {
+          "text": "狩猟",
+          "kana": "しゅりょう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "明示，写明",
+      "japanese": "明示",
+      "kana": "めいじ",
+      "romaji": "meiji",
+      "tokens": [
+        {
+          "text": "明示",
+          "kana": "めいじ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "衰弱",
+      "japanese": "衰弱",
+      "kana": "すいじゃく",
+      "romaji": "suijaku",
+      "tokens": [
+        {
+          "text": "衰弱",
+          "kana": "すいじゃく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "埋头，专心致志；没入，沉入",
+      "japanese": "没入",
+      "kana": "ぼつにゅう",
+      "romaji": "botsunyuu",
+      "tokens": [
+        {
+          "text": "没入",
+          "kana": "ぼつにゅう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "出没，出现",
+      "japanese": "出没",
+      "kana": "しゅつぼつ",
+      "romaji": "shutsubotsu",
+      "tokens": [
+        {
+          "text": "出没",
+          "kana": "しゅつぼつ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "一直前进，直线前进",
+      "japanese": "直進",
+      "kana": "ちょくしん",
+      "romaji": "chokushin",
+      "tokens": [
+        {
+          "text": "直進",
+          "kana": "ちょくしん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "较量，对抗",
+      "japanese": "拮[きっ]抗",
+      "kana": "きっこう",
+      "romaji": "kikkou",
+      "tokens": [
+        {
+          "text": "拮[きっ]抗",
+          "kana": "きっこう"
+        }
+      ]
+    }
+  ]
+}

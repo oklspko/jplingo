@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-132",
+  "coursePackId": "jp-n1",
+  "title": "副词 2",
+  "order": 132,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "怎么也（不）；没什么；真的，实在",
+      "japanese": "何とも",
+      "kana": "なんとも",
+      "romaji": "nantomo",
+      "tokens": [
+        {
+          "text": "何とも",
+          "kana": "なんとも"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "完整，整个",
+      "japanese": "丸ごと",
+      "kana": "まるごと",
+      "romaji": "marugoto",
+      "tokens": [
+        {
+          "text": "丸ごと",
+          "kana": "まるごと"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "始终",
+      "japanese": "終始",
+      "kana": "しゅうし",
+      "romaji": "shuushi",
+      "tokens": [
+        {
+          "text": "終始",
+          "kana": "しゅうし"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "不少，非常",
+      "japanese": "少なからず",
+      "kana": "すくなからず",
+      "romaji": "sukunakarazu",
+      "tokens": [
+        {
+          "text": "少なからず",
+          "kana": "すくなからず"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "暂时，目前",
+      "japanese": "当分",
+      "kana": "とうぶん",
+      "romaji": "toubun",
+      "tokens": [
+        {
+          "text": "当分",
+          "kana": "とうぶん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（多く、下に「～のようだ・～のごとし」などを伴って）宛如；正好（那时）",
+      "japanese": "あたかも",
+      "kana": "あたかも",
+      "romaji": "atakamo",
+      "tokens": [
+        {
+          "text": "あたかも",
+          "kana": "あたかも"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "清淡；朴素；（性格）爽快；简单",
+      "japanese": "あっさり",
+      "kana": "あっさり",
+      "romaji": "assari",
+      "tokens": [
+        {
+          "text": "あっさり",
+          "kana": "あっさり"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "厌倦，厌烦",
+      "japanese": "うんざり",
+      "kana": "うんざり",
+      "romaji": "unzari",
+      "tokens": [
+        {
+          "text": "うんざり",
+          "kana": "うんざり"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（物体）坚固，（身体）健壮；精明，用钱仔细",
+      "japanese": "がっちり",
+      "kana": "がっちり",
+      "romaji": "gatchiri",
+      "tokens": [
+        {
+          "text": "がっちり",
+          "kana": "がっちり"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "（时间、数量）整，正好",
+      "japanese": "きっかり",
+      "kana": "きっかり",
+      "romaji": "kikkari",
+      "tokens": [
+        {
+          "text": "きっかり",
+          "kana": "きっかり"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "没有空隙；正好；好好地",
+      "japanese": "きっちり",
+      "kana": "きっちり",
+      "romaji": "kitchiri",
+      "tokens": [
+        {
+          "text": "きっちり",
+          "kana": "きっちり"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "磨磨蹭蹭；抱怨；松松垮垮",
+      "japanese": "ぐずぐず",
+      "kana": "ぐずぐず",
+      "romaji": "guzuguzu",
+      "tokens": [
+        {
+          "text": "ぐずぐず",
+          "kana": "ぐずぐず"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "所有，全部",
+      "japanese": "ことごとく",
+      "kana": "ことごとく",
+      "romaji": "kotogotoku",
+      "tokens": [
+        {
+          "text": "ことごとく",
+          "kana": "ことごとく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（不）那么，（不）怎么",
+      "japanese": "さほど",
+      "kana": "さほど",
+      "romaji": "sahodo",
+      "tokens": [
+        {
+          "text": "さほど",
+          "kana": "さほど"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "经常，总是",
+      "japanese": "しょっちゅう",
+      "kana": "しょっちゅう",
+      "romaji": "shotchuu",
+      "tokens": [
+        {
+          "text": "しょっちゅう",
+          "kana": "しょっちゅう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "直言不讳，一针见血",
+      "japanese": "ずばり",
+      "kana": "ずばり",
+      "romaji": "zubari",
+      "tokens": [
+        {
+          "text": "ずばり",
+          "kana": "ずばり"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "纤细，柔美；容易，顺利",
+      "japanese": "すんなり",
+      "kana": "すんなり",
+      "romaji": "sunnari",
+      "tokens": [
+        {
+          "text": "すんなり",
+          "kana": "すんなり"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "心慌，不镇静",
+      "japanese": "そわそわ",
+      "kana": "そわそわ",
+      "romaji": "sowasowa",
+      "tokens": [
+        {
+          "text": "そわそわ",
+          "kana": "そわそわ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "一晃，一闪；略微听到",
+      "japanese": "ちらっと",
+      "kana": "ちらっと",
+      "romaji": "chiratto",
+      "tokens": [
+        {
+          "text": "ちらっと",
+          "kana": "ちらっと"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "麻利，爽快，利落，干脆",
+      "japanese": "てきぱき",
+      "kana": "てきぱき",
+      "romaji": "tekipaki",
+      "tokens": [
+        {
+          "text": "てきぱき",
+          "kana": "てきぱき"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（认为）一定（其实不然）",
+      "japanese": "てっきり",
+      "kana": "てっきり",
+      "romaji": "tekkiri",
+      "tokens": [
+        {
+          "text": "てっきり",
+          "kana": "てっきり"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "更加，越发",
+      "japanese": "なおさら",
+      "kana": "なおさら",
+      "romaji": "naosara",
+      "tokens": [
+        {
+          "text": "なおさら",
+          "kana": "なおさら"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "阴凉，凉爽",
+      "japanese": "ひんやり",
+      "kana": "ひんやり",
+      "romaji": "hin'yari",
+      "tokens": [
+        {
+          "text": "ひんやり",
+          "kana": "ひんやり"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "（提高）显著，迅速",
+      "japanese": "めきめき",
+      "kana": "めきめき",
+      "romaji": "mekimeki",
+      "tokens": [
+        {
+          "text": "めきめき",
+          "kana": "めきめき"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "胡乱，随便，任意",
+      "japanese": "やたら",
+      "kana": "やたら",
+      "romaji": "yatara",
+      "tokens": [
+        {
+          "text": "やたら",
+          "kana": "やたら"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "柔软地；委婉地",
+      "japanese": "やんわり",
+      "kana": "やんわり",
+      "romaji": "yanwari",
+      "tokens": [
+        {
+          "text": "やんわり",
+          "kana": "やんわり"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（不）像样，（不）令人满意",
+      "japanese": "ろくに",
+      "kana": "ろくに",
+      "romaji": "rokuni",
+      "tokens": [
+        {
+          "text": "ろくに",
+          "kana": "ろくに"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（不能）一概",
+      "japanese": "一概に",
+      "kana": "いちがいに",
+      "romaji": "ichigaini",
+      "tokens": [
+        {
+          "text": "一概に",
+          "kana": "いちがいに"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "请，务必",
+      "japanese": "何とぞ",
+      "kana": "なにとぞ",
+      "romaji": "nanitozo",
+      "tokens": [
+        {
+          "text": "何とぞ",
+          "kana": "なにとぞ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "强迫，硬要",
+      "japanese": "強いて",
+      "kana": "しいて",
+      "romaji": "shiite",
+      "tokens": [
+        {
+          "text": "強いて",
+          "kana": "しいて"
+        }
+      ]
+    }
+  ]
+}

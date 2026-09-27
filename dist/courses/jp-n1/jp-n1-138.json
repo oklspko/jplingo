@@ -1,0 +1,346 @@
+{
+  "id": "jp-n1-138",
+  "coursePackId": "jp-n1",
+  "title": "其他 2",
+  "order": 138,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "如何的，怎样的",
+      "japanese": "いかなる",
+      "kana": "いかなる",
+      "romaji": "ikanaru",
+      "tokens": [
+        {
+          "text": "いかなる",
+          "kana": "いかなる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "简直待不下去，如坐针毡",
+      "japanese": "いたたまれない",
+      "kana": "いたたまれない",
+      "romaji": "itatamarenai",
+      "tokens": [
+        {
+          "text": "いたたまれない",
+          "kana": "いたたまれない"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "自己",
+      "japanese": "セルフ",
+      "kana": "せるふ",
+      "romaji": "serufu",
+      "tokens": [
+        {
+          "text": "セルフ",
+          "kana": "せるふ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "归根到底，最终",
+      "japanese": "挙句の果て",
+      "kana": "あげくのはて",
+      "romaji": "agekunohate",
+      "tokens": [
+        {
+          "text": "挙句の果て",
+          "kana": "あげくのはて"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "脱离……",
+      "japanese": "脱",
+      "kana": "だつ",
+      "romaji": "datsu",
+      "tokens": [
+        {
+          "text": "脱",
+          "kana": "だつ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "不可否认的",
+      "japanese": "否めない",
+      "kana": "いなめない",
+      "romaji": "inamenai",
+      "tokens": [
+        {
+          "text": "否めない",
+          "kana": "いなめない"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "不满，不足",
+      "japanese": "満たない",
+      "kana": "みたない",
+      "romaji": "mitanai",
+      "tokens": [
+        {
+          "text": "満たない",
+          "kana": "みたない"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "强烈……，猛烈……",
+      "japanese": "猛",
+      "kana": "もう",
+      "romaji": "mou",
+      "tokens": [
+        {
+          "text": "猛",
+          "kana": "もう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "紧锁眉头",
+      "japanese": "眉を 顰[ひそ]める",
+      "kana": "まゆをひそめる",
+      "romaji": "mayuwohisomeru",
+      "tokens": [
+        {
+          "text": "眉を 顰[ひそ]める",
+          "kana": "まゆをひそめる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "即使那样",
+      "japanese": "それにしても",
+      "kana": "それにしても",
+      "romaji": "sorenishitemo",
+      "tokens": [
+        {
+          "text": "それにしても",
+          "kana": "それにしても"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "登场，展露头角，引人注目",
+      "japanese": "脚光を浴びる",
+      "kana": "きゃっこうをあびる",
+      "romaji": "kyakkouwoabiru",
+      "tokens": [
+        {
+          "text": "脚光を浴びる",
+          "kana": "きゃっこうをあびる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "加速，加快，促进",
+      "japanese": "拍車をかける",
+      "kana": "はくしゃをかける",
+      "romaji": "hakushawokakeru",
+      "tokens": [
+        {
+          "text": "拍車をかける",
+          "kana": "はくしゃをかける"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "十亿分之一，纳",
+      "japanese": "ナノ",
+      "kana": "なの",
+      "romaji": "nano",
+      "tokens": [
+        {
+          "text": "ナノ",
+          "kana": "なの"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "不合适，不符合",
+      "japanese": "そぐわない",
+      "kana": "そぐわない",
+      "romaji": "soguwanai",
+      "tokens": [
+        {
+          "text": "そぐわない",
+          "kana": "そぐわない"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "做不完；受不了",
+      "japanese": "やり切れない",
+      "kana": "やりきれない",
+      "romaji": "yarikirenai",
+      "tokens": [
+        {
+          "text": "やり切れない",
+          "kana": "やりきれない"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "（…に忍びない）忍不住，不忍",
+      "japanese": "忍びない",
+      "kana": "しのびない",
+      "romaji": "shinobinai",
+      "tokens": [
+        {
+          "text": "忍びない",
+          "kana": "しのびない"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "非……不可，除……之外别无其他",
+      "japanese": "ならでは",
+      "kana": "ならでは",
+      "romaji": "naradeha",
+      "tokens": [
+        {
+          "text": "ならでは",
+          "kana": "ならでは"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "非比寻常",
+      "japanese": "並々ならぬ",
+      "kana": "なみなみならぬ",
+      "romaji": "naminaminaranu",
+      "tokens": [
+        {
+          "text": "並々ならぬ",
+          "kana": "なみなみならぬ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（惊讶时或呼唤时）呀，哎呀；喂，啊",
+      "japanese": "やあ",
+      "kana": "やあ",
+      "romaji": "yaa",
+      "tokens": [
+        {
+          "text": "やあ",
+          "kana": "やあ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "不言自明",
+      "japanese": "言うまでもない",
+      "kana": "いうまでもない",
+      "romaji": "iumademonai",
+      "tokens": [
+        {
+          "text": "言うまでもない",
+          "kana": "いうまでもない"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "冰山一角；整个事物中显露出来的一小部分",
+      "japanese": "氷山の一角",
+      "kana": "ひょうざんのいっかく",
+      "romaji": "hyouzannoikkaku",
+      "tokens": [
+        {
+          "text": "氷山の一角",
+          "kana": "ひょうざんのいっかく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "（「…の身になる」の形で）设身处地，为他人着想；有营养",
+      "japanese": "身になる",
+      "kana": "みになる",
+      "romaji": "mininaru",
+      "tokens": [
+        {
+          "text": "身になる",
+          "kana": "みになる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "主动承担（某事）",
+      "japanese": "買って出る",
+      "kana": "かってでる",
+      "romaji": "kattederu",
+      "tokens": [
+        {
+          "text": "買って出る",
+          "kana": "かってでる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "最甚的，最典型的",
+      "japanese": "最たる",
+      "kana": "さいたる",
+      "romaji": "saitaru",
+      "tokens": [
+        {
+          "text": "最たる",
+          "kana": "さいたる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "完全，完美",
+      "japanese": "全き",
+      "kana": "まったき",
+      "romaji": "mattaki",
+      "tokens": [
+        {
+          "text": "全き",
+          "kana": "まったき"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "挑毛病，吹毛求疵",
+      "japanese": "揚げ足を取る",
+      "kana": "あげあしをとる",
+      "romaji": "ageashiwotoru",
+      "tokens": [
+        {
+          "text": "揚げ足を取る",
+          "kana": "あげあしをとる"
+        }
+      ]
+    }
+  ]
+}

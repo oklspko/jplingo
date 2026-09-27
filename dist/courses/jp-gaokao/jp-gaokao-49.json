@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-49",
+  "coursePackId": "jp-gaokao",
+  "title": "名词低频 16",
+  "order": 49,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "领域",
+      "japanese": "分野",
+      "kana": "ぶんや",
+      "romaji": "bunya",
+      "tokens": [
+        {
+          "text": "分野",
+          "kana": "ぶんや"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "便当",
+      "japanese": "弁当",
+      "kana": "べんとう",
+      "romaji": "bentou",
+      "tokens": [
+        {
+          "text": "弁当",
+          "kana": "べんとう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "棒球",
+      "japanese": "野球",
+      "kana": "やきゅう",
+      "romaji": "yakyuu",
+      "tokens": [
+        {
+          "text": "野球",
+          "kana": "やきゅう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "事物",
+      "japanese": "物事",
+      "kana": "ものごと",
+      "romaji": "monogoto",
+      "tokens": [
+        {
+          "text": "物事",
+          "kana": "ものごと"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "访问",
+      "japanese": "訪問",
+      "kana": "ほうもん",
+      "romaji": "houmon",
+      "tokens": [
+        {
+          "text": "訪問",
+          "kana": "ほうもん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "桃子",
+      "japanese": "桃",
+      "kana": "もも",
+      "romaji": "momo",
+      "tokens": [
+        {
+          "text": "桃",
+          "kana": "もも"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "帽子",
+      "japanese": "帽子",
+      "kana": "ぼうし",
+      "romaji": "boushi",
+      "tokens": [
+        {
+          "text": "帽子",
+          "kana": "ぼうし"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "骨头",
+      "japanese": "骨",
+      "kana": "ほね",
+      "romaji": "hone",
+      "tokens": [
+        {
+          "text": "骨",
+          "kana": "ほね"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "和平",
+      "japanese": "平和",
+      "kana": "へいわ",
+      "romaji": "heiwa",
+      "tokens": [
+        {
+          "text": "平和",
+          "kana": "へいわ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "蔬菜",
+      "japanese": "野菜",
+      "kana": "やさい",
+      "romaji": "yasai",
+      "tokens": [
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "目标",
+      "japanese": "目標",
+      "kana": "もくひょう",
+      "romaji": "mokuhyou",
+      "tokens": [
+        {
+          "text": "目標",
+          "kana": "もくひょう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "棒、棍子",
+      "japanese": "棒",
+      "kana": "ぼう",
+      "romaji": "bou",
+      "tokens": [
+        {
+          "text": "棒",
+          "kana": "ぼう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "平均",
+      "japanese": "平均",
+      "kana": "へいきん",
+      "romaji": "heikin",
+      "tokens": [
+        {
+          "text": "平均",
+          "kana": "へいきん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "文字",
+      "japanese": "文字",
+      "kana": "もじ",
+      "romaji": "moji",
+      "tokens": [
+        {
+          "text": "文字",
+          "kana": "もじ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "部长",
+      "japanese": "部長",
+      "kana": "ぶちょう",
+      "romaji": "buchou",
+      "tokens": [
+        {
+          "text": "部長",
+          "kana": "ぶちょう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "星期四",
+      "japanese": "木曜日",
+      "kana": "もくようび",
+      "romaji": "mokuyoubi",
+      "tokens": [
+        {
+          "text": "木曜日",
+          "kana": "もくようび"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "文学",
+      "japanese": "文学",
+      "kana": "ぶんがく",
+      "romaji": "bungaku",
+      "tokens": [
+        {
+          "text": "文学",
+          "kana": "ぶんがく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "保险",
+      "japanese": "保険",
+      "kana": "ほけん",
+      "romaji": "hoken",
+      "tokens": [
+        {
+          "text": "保険",
+          "kana": "ほけん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "部分",
+      "japanese": "部分",
+      "kana": "ぶぶん",
+      "romaji": "bubun",
+      "tokens": [
+        {
+          "text": "部分",
+          "kana": "ぶぶん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "保存",
+      "japanese": "保存",
+      "kana": "ほぞん",
+      "romaji": "hozon",
+      "tokens": [
+        {
+          "text": "保存",
+          "kana": "ほぞん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "冬天、冬季",
+      "japanese": "冬",
+      "kana": "ふゆ",
+      "romaji": "fuyu",
+      "tokens": [
+        {
+          "text": "冬",
+          "kana": "ふゆ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "保护",
+      "japanese": "保護",
+      "kana": "ほご",
+      "romaji": "hogo",
+      "tokens": [
+        {
+          "text": "保護",
+          "kana": "ほご"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "物理",
+      "japanese": "物理",
+      "kana": "ぶつり",
+      "romaji": "butsuri",
+      "tokens": [
+        {
+          "text": "物理",
+          "kana": "ぶつり"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "贸易",
+      "japanese": "貿易",
+      "kana": "ぼうえき",
+      "romaji": "boueki",
+      "tokens": [
+        {
+          "text": "貿易",
+          "kana": "ぼうえき"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "森林",
+      "japanese": "森",
+      "kana": "もり",
+      "romaji": "mori",
+      "tokens": [
+        {
+          "text": "森",
+          "kana": "もり"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "文具",
+      "japanese": "文房具",
+      "kana": "ぶんぼうぐ",
+      "romaji": "bunbougu",
+      "tokens": [
+        {
+          "text": "文房具",
+          "kana": "ぶんぼうぐ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "法律",
+      "japanese": "法律",
+      "kana": "ほうりつ",
+      "romaji": "houritsu",
+      "tokens": [
+        {
+          "text": "法律",
+          "kana": "ほうりつ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "方法",
+      "japanese": "方法",
+      "kana": "ほうほう",
+      "romaji": "houhou",
+      "tokens": [
+        {
+          "text": "方法",
+          "kana": "ほうほう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "故事",
+      "japanese": "物語",
+      "kana": "ものがたり",
+      "romaji": "monogatari",
+      "tokens": [
+        {
+          "text": "物語",
+          "kana": "ものがたり"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "被子",
+      "japanese": "布団",
+      "kana": "ふとん",
+      "romaji": "futon",
+      "tokens": [
+        {
+          "text": "布団",
+          "kana": "ふとん"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "保存",
+      "japanese": "保存",
+      "kana": "ほぞん",
+      "romaji": "hozon",
+      "tokens": [
+        {
+          "text": "保存",
+          "kana": "ほぞん"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "棒、棍子",
+      "japanese": "棒",
+      "kana": "ぼう",
+      "romaji": "bou",
+      "tokens": [
+        {
+          "text": "棒",
+          "kana": "ぼう"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "冬天、冬季",
+      "japanese": "冬",
+      "kana": "ふゆ",
+      "romaji": "fuyu",
+      "tokens": [
+        {
+          "text": "冬",
+          "kana": "ふゆ"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "部分",
+      "japanese": "部分",
+      "kana": "ぶぶん",
+      "romaji": "bubun",
+      "tokens": [
+        {
+          "text": "部分",
+          "kana": "ぶぶん"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "贸易",
+      "japanese": "貿易",
+      "kana": "ぼうえき",
+      "romaji": "boueki",
+      "tokens": [
+        {
+          "text": "貿易",
+          "kana": "ぼうえき"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "星期四",
+      "japanese": "木曜日",
+      "kana": "もくようび",
+      "romaji": "mokuyoubi",
+      "tokens": [
+        {
+          "text": "木曜日",
+          "kana": "もくようび"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "和平",
+      "japanese": "平和",
+      "kana": "へいわ",
+      "romaji": "heiwa",
+      "tokens": [
+        {
+          "text": "平和",
+          "kana": "へいわ"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "骨头",
+      "japanese": "骨",
+      "kana": "ほね",
+      "romaji": "hone",
+      "tokens": [
+        {
+          "text": "骨",
+          "kana": "ほね"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "事物",
+      "japanese": "物事",
+      "kana": "ものごと",
+      "romaji": "monogoto",
+      "tokens": [
+        {
+          "text": "物事",
+          "kana": "ものごと"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "文学",
+      "japanese": "文学",
+      "kana": "ぶんがく",
+      "romaji": "bungaku",
+      "tokens": [
+        {
+          "text": "文学",
+          "kana": "ぶんがく"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "平均",
+      "japanese": "平均",
+      "kana": "へいきん",
+      "romaji": "heikin",
+      "tokens": [
+        {
+          "text": "平均",
+          "kana": "へいきん"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "便当",
+      "japanese": "弁当",
+      "kana": "べんとう",
+      "romaji": "bentou",
+      "tokens": [
+        {
+          "text": "弁当",
+          "kana": "べんとう"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "故事",
+      "japanese": "物語",
+      "kana": "ものがたり",
+      "romaji": "monogatari",
+      "tokens": [
+        {
+          "text": "物語",
+          "kana": "ものがたり"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "帽子",
+      "japanese": "帽子",
+      "kana": "ぼうし",
+      "romaji": "boushi",
+      "tokens": [
+        {
+          "text": "帽子",
+          "kana": "ぼうし"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "文具",
+      "japanese": "文房具",
+      "kana": "ぶんぼうぐ",
+      "romaji": "bunbougu",
+      "tokens": [
+        {
+          "text": "文房具",
+          "kana": "ぶんぼうぐ"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "棒球",
+      "japanese": "野球",
+      "kana": "やきゅう",
+      "romaji": "yakyuu",
+      "tokens": [
+        {
+          "text": "野球",
+          "kana": "やきゅう"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "访问",
+      "japanese": "訪問",
+      "kana": "ほうもん",
+      "romaji": "houmon",
+      "tokens": [
+        {
+          "text": "訪問",
+          "kana": "ほうもん"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "保护",
+      "japanese": "保護",
+      "kana": "ほご",
+      "romaji": "hogo",
+      "tokens": [
+        {
+          "text": "保護",
+          "kana": "ほご"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "部长",
+      "japanese": "部長",
+      "kana": "ぶちょう",
+      "romaji": "buchou",
+      "tokens": [
+        {
+          "text": "部長",
+          "kana": "ぶちょう"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "方法",
+      "japanese": "方法",
+      "kana": "ほうほう",
+      "romaji": "houhou",
+      "tokens": [
+        {
+          "text": "方法",
+          "kana": "ほうほう"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "领域",
+      "japanese": "分野",
+      "kana": "ぶんや",
+      "romaji": "bunya",
+      "tokens": [
+        {
+          "text": "分野",
+          "kana": "ぶんや"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "文字",
+      "japanese": "文字",
+      "kana": "もじ",
+      "romaji": "moji",
+      "tokens": [
+        {
+          "text": "文字",
+          "kana": "もじ"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "保险",
+      "japanese": "保険",
+      "kana": "ほけん",
+      "romaji": "hoken",
+      "tokens": [
+        {
+          "text": "保険",
+          "kana": "ほけん"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "物理",
+      "japanese": "物理",
+      "kana": "ぶつり",
+      "romaji": "butsuri",
+      "tokens": [
+        {
+          "text": "物理",
+          "kana": "ぶつり"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "法律",
+      "japanese": "法律",
+      "kana": "ほうりつ",
+      "romaji": "houritsu",
+      "tokens": [
+        {
+          "text": "法律",
+          "kana": "ほうりつ"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "目标",
+      "japanese": "目標",
+      "kana": "もくひょう",
+      "romaji": "mokuhyou",
+      "tokens": [
+        {
+          "text": "目標",
+          "kana": "もくひょう"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "森林",
+      "japanese": "森",
+      "kana": "もり",
+      "romaji": "mori",
+      "tokens": [
+        {
+          "text": "森",
+          "kana": "もり"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "蔬菜",
+      "japanese": "野菜",
+      "kana": "やさい",
+      "romaji": "yasai",
+      "tokens": [
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "桃子",
+      "japanese": "桃",
+      "kana": "もも",
+      "romaji": "momo",
+      "tokens": [
+        {
+          "text": "桃",
+          "kana": "もも"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "被子",
+      "japanese": "布団",
+      "kana": "ふとん",
+      "romaji": "futon",
+      "tokens": [
+        {
+          "text": "布団",
+          "kana": "ふとん"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "森林",
+      "japanese": "森",
+      "kana": "もり",
+      "romaji": "mori",
+      "tokens": [
+        {
+          "text": "森",
+          "kana": "もり"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "保存",
+      "japanese": "保存",
+      "kana": "ほぞん",
+      "romaji": "hozon",
+      "tokens": [
+        {
+          "text": "保存",
+          "kana": "ほぞん"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "便当",
+      "japanese": "弁当",
+      "kana": "べんとう",
+      "romaji": "bentou",
+      "tokens": [
+        {
+          "text": "弁当",
+          "kana": "べんとう"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "文字",
+      "japanese": "文字",
+      "kana": "もじ",
+      "romaji": "moji",
+      "tokens": [
+        {
+          "text": "文字",
+          "kana": "もじ"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "星期四",
+      "japanese": "木曜日",
+      "kana": "もくようび",
+      "romaji": "mokuyoubi",
+      "tokens": [
+        {
+          "text": "木曜日",
+          "kana": "もくようび"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "骨头",
+      "japanese": "骨",
+      "kana": "ほね",
+      "romaji": "hone",
+      "tokens": [
+        {
+          "text": "骨",
+          "kana": "ほね"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "平均",
+      "japanese": "平均",
+      "kana": "へいきん",
+      "romaji": "heikin",
+      "tokens": [
+        {
+          "text": "平均",
+          "kana": "へいきん"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "被子",
+      "japanese": "布団",
+      "kana": "ふとん",
+      "romaji": "futon",
+      "tokens": [
+        {
+          "text": "布団",
+          "kana": "ふとん"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "冬天、冬季",
+      "japanese": "冬",
+      "kana": "ふゆ",
+      "romaji": "fuyu",
+      "tokens": [
+        {
+          "text": "冬",
+          "kana": "ふゆ"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "贸易",
+      "japanese": "貿易",
+      "kana": "ぼうえき",
+      "romaji": "boueki",
+      "tokens": [
+        {
+          "text": "貿易",
+          "kana": "ぼうえき"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "部长",
+      "japanese": "部長",
+      "kana": "ぶちょう",
+      "romaji": "buchou",
+      "tokens": [
+        {
+          "text": "部長",
+          "kana": "ぶちょう"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "棒球",
+      "japanese": "野球",
+      "kana": "やきゅう",
+      "romaji": "yakyuu",
+      "tokens": [
+        {
+          "text": "野球",
+          "kana": "やきゅう"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "棒、棍子",
+      "japanese": "棒",
+      "kana": "ぼう",
+      "romaji": "bou",
+      "tokens": [
+        {
+          "text": "棒",
+          "kana": "ぼう"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "物理",
+      "japanese": "物理",
+      "kana": "ぶつり",
+      "romaji": "butsuri",
+      "tokens": [
+        {
+          "text": "物理",
+          "kana": "ぶつり"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "法律",
+      "japanese": "法律",
+      "kana": "ほうりつ",
+      "romaji": "houritsu",
+      "tokens": [
+        {
+          "text": "法律",
+          "kana": "ほうりつ"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "事物",
+      "japanese": "物事",
+      "kana": "ものごと",
+      "romaji": "monogoto",
+      "tokens": [
+        {
+          "text": "物事",
+          "kana": "ものごと"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "帽子",
+      "japanese": "帽子",
+      "kana": "ぼうし",
+      "romaji": "boushi",
+      "tokens": [
+        {
+          "text": "帽子",
+          "kana": "ぼうし"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "桃子",
+      "japanese": "桃",
+      "kana": "もも",
+      "romaji": "momo",
+      "tokens": [
+        {
+          "text": "桃",
+          "kana": "もも"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "文学",
+      "japanese": "文学",
+      "kana": "ぶんがく",
+      "romaji": "bungaku",
+      "tokens": [
+        {
+          "text": "文学",
+          "kana": "ぶんがく"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "蔬菜",
+      "japanese": "野菜",
+      "kana": "やさい",
+      "romaji": "yasai",
+      "tokens": [
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "访问",
+      "japanese": "訪問",
+      "kana": "ほうもん",
+      "romaji": "houmon",
+      "tokens": [
+        {
+          "text": "訪問",
+          "kana": "ほうもん"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "故事",
+      "japanese": "物語",
+      "kana": "ものがたり",
+      "romaji": "monogatari",
+      "tokens": [
+        {
+          "text": "物語",
+          "kana": "ものがたり"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "领域",
+      "japanese": "分野",
+      "kana": "ぶんや",
+      "romaji": "bunya",
+      "tokens": [
+        {
+          "text": "分野",
+          "kana": "ぶんや"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "保护",
+      "japanese": "保護",
+      "kana": "ほご",
+      "romaji": "hogo",
+      "tokens": [
+        {
+          "text": "保護",
+          "kana": "ほご"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "部分",
+      "japanese": "部分",
+      "kana": "ぶぶん",
+      "romaji": "bubun",
+      "tokens": [
+        {
+          "text": "部分",
+          "kana": "ぶぶん"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "和平",
+      "japanese": "平和",
+      "kana": "へいわ",
+      "romaji": "heiwa",
+      "tokens": [
+        {
+          "text": "平和",
+          "kana": "へいわ"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "保险",
+      "japanese": "保険",
+      "kana": "ほけん",
+      "romaji": "hoken",
+      "tokens": [
+        {
+          "text": "保険",
+          "kana": "ほけん"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "方法",
+      "japanese": "方法",
+      "kana": "ほうほう",
+      "romaji": "houhou",
+      "tokens": [
+        {
+          "text": "方法",
+          "kana": "ほうほう"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "目标",
+      "japanese": "目標",
+      "kana": "もくひょう",
+      "romaji": "mokuhyou",
+      "tokens": [
+        {
+          "text": "目標",
+          "kana": "もくひょう"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "文具",
+      "japanese": "文房具",
+      "kana": "ぶんぼうぐ",
+      "romaji": "bunbougu",
+      "tokens": [
+        {
+          "text": "文房具",
+          "kana": "ぶんぼうぐ"
+        }
+      ]
+    }
+  ]
+}

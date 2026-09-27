@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-04",
+  "coursePackId": "jp-n5",
+  "title": "名词 4",
+  "order": 4,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "游泳池",
+      "japanese": "プール",
+      "kana": "ぷうる",
+      "romaji": "puuru",
+      "tokens": [
+        {
+          "text": "プール",
+          "kana": "ぷうる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "页，页面",
+      "japanese": "ページ",
+      "kana": "ぺえじ",
+      "romaji": "peeji",
+      "tokens": [
+        {
+          "text": "ページ",
+          "kana": "ぺえじ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "床",
+      "japanese": "ベッド",
+      "kana": "べっど",
+      "romaji": "beddo",
+      "tokens": [
+        {
+          "text": "ベッド",
+          "kana": "べっど"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "笔",
+      "japanese": "ペン",
+      "kana": "ぺん",
+      "romaji": "pen",
+      "tokens": [
+        {
+          "text": "ペン",
+          "kana": "ぺん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "圆珠笔",
+      "japanese": "ボールペン",
+      "kana": "ぼうるぺん",
+      "romaji": "bourupen",
+      "tokens": [
+        {
+          "text": "ボールペン",
+          "kana": "ぼうるぺん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（西式）宾馆，旅馆，酒店",
+      "japanese": "ホテル",
+      "kana": "ほてる",
+      "romaji": "hoteru",
+      "tokens": [
+        {
+          "text": "ホテル",
+          "kana": "ほてる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "笔直；直接",
+      "japanese": "まっすぐ",
+      "kana": "まっすぐ",
+      "romaji": "massugu",
+      "tokens": [
+        {
+          "text": "まっすぐ",
+          "kana": "まっすぐ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "米",
+      "japanese": "メートル",
+      "kana": "めえとる",
+      "romaji": "meetoru",
+      "tokens": [
+        {
+          "text": "メートル",
+          "kana": "めえとる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（电子）邮件",
+      "japanese": "メール",
+      "kana": "めえる",
+      "romaji": "meeru",
+      "tokens": [
+        {
+          "text": "メール",
+          "kana": "めえる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "昨晚",
+      "japanese": "ゆうべ",
+      "kana": "ゆうべ",
+      "romaji": "yuube",
+      "tokens": [
+        {
+          "text": "ゆうべ",
+          "kana": "ゆうべ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "拉面",
+      "japanese": "ラーメン",
+      "kana": "らーめん",
+      "romaji": "ra-men",
+      "tokens": [
+        {
+          "text": "ラーメン",
+          "kana": "らーめん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "收音机；广播",
+      "japanese": "ラジオ",
+      "kana": "らじお",
+      "romaji": "rajio",
+      "tokens": [
+        {
+          "text": "ラジオ",
+          "kana": "らじお"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "苹果",
+      "japanese": "りんご",
+      "kana": "りんご",
+      "romaji": "ringo",
+      "tokens": [
+        {
+          "text": "りんご",
+          "kana": "りんご"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "西餐厅，饭店",
+      "japanese": "レストラン",
+      "kana": "れすとらん",
+      "romaji": "resutoran",
+      "tokens": [
+        {
+          "text": "レストラン",
+          "kana": "れすとらん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "男式衬衫",
+      "japanese": "ワイシャツ",
+      "kana": "わいしゃつ",
+      "romaji": "waishatsu",
+      "tokens": [
+        {
+          "text": "ワイシャツ",
+          "kana": "わいしゃつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "椅子；地位",
+      "japanese": "椅子",
+      "kana": "いす",
+      "romaji": "isu",
+      "tokens": [
+        {
+          "text": "椅子",
+          "kana": "いす"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "医生",
+      "japanese": "医者",
+      "kana": "いしゃ",
+      "romaji": "isha",
+      "tokens": [
+        {
+          "text": "医者",
+          "kana": "いしゃ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "一个；一岁",
+      "japanese": "一つ",
+      "kana": "ひとつ",
+      "romaji": "hitotsu",
+      "tokens": [
+        {
+          "text": "一つ",
+          "kana": "ひとつ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "一起；同样的；合在一起",
+      "japanese": "一緒",
+      "kana": "いっしょ",
+      "romaji": "issho",
+      "tokens": [
+        {
+          "text": "一緒",
+          "kana": "いっしょ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "一个人；独自",
+      "japanese": "一人",
+      "kana": "ひとり",
+      "romaji": "hitori",
+      "tokens": [
+        {
+          "text": "一人",
+          "kana": "ひとり"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "一天；一整天；某一天",
+      "japanese": "一日",
+      "kana": "いちにち",
+      "romaji": "ichinichi",
+      "tokens": [
+        {
+          "text": "一日",
+          "kana": "いちにち"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "一号，一个月的第一天",
+      "japanese": "一日",
+      "kana": "ついたち",
+      "romaji": "tsuitachi",
+      "tokens": [
+        {
+          "text": "一日",
+          "kana": "ついたち"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "第一，最好；最",
+      "japanese": "一番",
+      "kana": "いちばん",
+      "romaji": "ichiban",
+      "tokens": [
+        {
+          "text": "一番",
+          "kana": "いちばん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "饮料",
+      "japanese": "飲み物",
+      "kana": "のみもの",
+      "romaji": "nomimono",
+      "tokens": [
+        {
+          "text": "飲み物",
+          "kana": "のみもの"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "右",
+      "japanese": "右",
+      "kana": "みぎ",
+      "romaji": "migi",
+      "tokens": [
+        {
+          "text": "右",
+          "kana": "みぎ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "雨，雨天",
+      "japanese": "雨",
+      "kana": "あめ",
+      "romaji": "ame",
+      "tokens": [
+        {
+          "text": "雨",
+          "kana": "あめ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "电影",
+      "japanese": "映画",
+      "kana": "えいが",
+      "romaji": "eiga",
+      "tokens": [
+        {
+          "text": "映画",
+          "kana": "えいが"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "电影院，剧院",
+      "japanese": "映画館",
+      "kana": "えいがかん",
+      "romaji": "eigakan",
+      "tokens": [
+        {
+          "text": "映画館",
+          "kana": "えいがかん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "英语",
+      "japanese": "英語",
+      "kana": "えいご",
+      "romaji": "eigo",
+      "tokens": [
+        {
+          "text": "英語",
+          "kana": "えいご"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "车站",
+      "japanese": "駅",
+      "kana": "えき",
+      "romaji": "eki",
+      "tokens": [
+        {
+          "text": "駅",
+          "kana": "えき"
+        }
+      ]
+    }
+  ]
+}

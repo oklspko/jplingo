@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-48",
+  "coursePackId": "jp-n2",
+  "title": "名词 48",
+  "order": 48,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "手边，身边；常见，切近",
+      "japanese": "手近",
+      "kana": "てぢか",
+      "romaji": "tejika",
+      "tokens": [
+        {
+          "text": "手近",
+          "kana": "てぢか"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "（工作的）顺序，次序",
+      "japanese": "手順",
+      "kana": "てじゅん",
+      "romaji": "tejun",
+      "tokens": [
+        {
+          "text": "手順",
+          "kana": "てじゅん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "麻烦，费事；（「てかず」ともいう）费心，麻烦",
+      "japanese": "手数",
+      "kana": "てすう",
+      "romaji": "tesuu",
+      "tokens": [
+        {
+          "text": "手数",
+          "kana": "てすう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "被动，消极；（语法）被动态",
+      "japanese": "受け身",
+      "kana": "うけみ",
+      "romaji": "ukemi",
+      "tokens": [
+        {
+          "text": "受け身",
+          "kana": "うけみ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "接受诊治",
+      "japanese": "受診",
+      "kana": "じゅしん",
+      "romaji": "jushin",
+      "tokens": [
+        {
+          "text": "受診",
+          "kana": "じゅしん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "收集；收藏",
+      "japanese": "収集",
+      "kana": "しゅうしゅう",
+      "romaji": "shuushuu",
+      "tokens": [
+        {
+          "text": "収集",
+          "kana": "しゅうしゅう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "从事",
+      "japanese": "従事",
+      "kana": "じゅうじ",
+      "romaji": "juuji",
+      "tokens": [
+        {
+          "text": "従事",
+          "kana": "じゅうじ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "演出",
+      "japanese": "出演",
+      "kana": "しゅつえん",
+      "romaji": "shutsuen",
+      "tokens": [
+        {
+          "text": "出演",
+          "kana": "しゅつえん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "零售",
+      "japanese": "小売り",
+      "kana": "こうり",
+      "romaji": "kouri",
+      "tokens": [
+        {
+          "text": "小売り",
+          "kana": "こうり"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "身材矮小；小花纹",
+      "japanese": "小柄",
+      "kana": "こがら",
+      "romaji": "kogara",
+      "tokens": [
+        {
+          "text": "小柄",
+          "kana": "こがら"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "详细，详情",
+      "japanese": "詳細",
+      "kana": "しょうさい",
+      "romaji": "shousai",
+      "tokens": [
+        {
+          "text": "詳細",
+          "kana": "しょうさい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "上位",
+      "japanese": "上位",
+      "kana": "じょうい",
+      "romaji": "joui",
+      "tokens": [
+        {
+          "text": "上位",
+          "kana": "じょうい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（引发人心中情感的）情景",
+      "japanese": "情景",
+      "kana": "じょうけい",
+      "romaji": "joukei",
+      "tokens": [
+        {
+          "text": "情景",
+          "kana": "じょうけい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "接触，交流",
+      "japanese": "触れ合い",
+      "kana": "ふれあい",
+      "romaji": "fureai",
+      "tokens": [
+        {
+          "text": "触れ合い",
+          "kana": "ふれあい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "心情，心境",
+      "japanese": "心地",
+      "kana": "ここち",
+      "romaji": "kokochi",
+      "tokens": [
+        {
+          "text": "心地",
+          "kana": "ここち"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "新人，新职员",
+      "japanese": "新人",
+      "kana": "しんじん",
+      "romaji": "shinjin",
+      "tokens": [
+        {
+          "text": "新人",
+          "kana": "しんじん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "新建（的房屋）",
+      "japanese": "新築",
+      "kana": "しんちく",
+      "romaji": "shinchiku",
+      "tokens": [
+        {
+          "text": "新築",
+          "kana": "しんちく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "真相",
+      "japanese": "真相",
+      "kana": "しんそう",
+      "romaji": "shinsou",
+      "tokens": [
+        {
+          "text": "真相",
+          "kana": "しんそう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "身边；日常生活",
+      "japanese": "身の回り",
+      "kana": "みのまわり",
+      "romaji": "minomawari",
+      "tokens": [
+        {
+          "text": "身の回り",
+          "kana": "みのまわり"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（传达意志和情感的）姿态，动作",
+      "japanese": "身振り",
+      "kana": "みぶり",
+      "romaji": "miburi",
+      "tokens": [
+        {
+          "text": "身振り",
+          "kana": "みぶり"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "人才",
+      "japanese": "人材",
+      "kana": "じんざい",
+      "romaji": "jinzai",
+      "tokens": [
+        {
+          "text": "人材",
+          "kana": "じんざい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "人品，人格；人品好",
+      "japanese": "人柄",
+      "kana": "ひとがら",
+      "romaji": "hitogara",
+      "tokens": [
+        {
+          "text": "人柄",
+          "kana": "ひとがら"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "制约，限制",
+      "japanese": "制約",
+      "kana": "せいやく",
+      "romaji": "seiyaku",
+      "tokens": [
+        {
+          "text": "制約",
+          "kana": "せいやく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "成果",
+      "japanese": "成果",
+      "kana": "せいか",
+      "romaji": "seika",
+      "tokens": [
+        {
+          "text": "成果",
+          "kana": "せいか"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "原形，真面目；意识",
+      "japanese": "正体",
+      "kana": "しょうたい",
+      "romaji": "shoutai",
+      "tokens": [
+        {
+          "text": "正体",
+          "kana": "しょうたい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "正当，合理，合法",
+      "japanese": "正当",
+      "kana": "せいとう",
+      "romaji": "seitou",
+      "tokens": [
+        {
+          "text": "正当",
+          "kana": "せいとう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "天生",
+      "japanese": "生まれつき",
+      "kana": "うまれつき",
+      "romaji": "umaretsuki",
+      "tokens": [
+        {
+          "text": "生まれつき",
+          "kana": "うまれつき"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "出生以后",
+      "japanese": "生後",
+      "kana": "せいご",
+      "romaji": "seigo",
+      "tokens": [
+        {
+          "text": "生後",
+          "kana": "せいご"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "生态；社会生活的现状",
+      "japanese": "生態",
+      "kana": "せいたい",
+      "romaji": "seitai",
+      "tokens": [
+        {
+          "text": "生態",
+          "kana": "せいたい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "先走，先行；事先进行",
+      "japanese": "先行",
+      "kana": "せんこう",
+      "romaji": "senkou",
+      "tokens": [
+        {
+          "text": "先行",
+          "kana": "せんこう"
+        }
+      ]
+    }
+  ]
+}

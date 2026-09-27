@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-63",
+  "coursePackId": "jp-n2",
+  "title": "名词 63",
+  "order": 63,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "新刊，新刊读物，新出版",
+      "japanese": "新刊",
+      "kana": "しんかん",
+      "romaji": "shinkan",
+      "tokens": [
+        {
+          "text": "新刊",
+          "kana": "しんかん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "技巧",
+      "japanese": "技巧",
+      "kana": "ぎこう",
+      "romaji": "gikou",
+      "tokens": [
+        {
+          "text": "技巧",
+          "kana": "ぎこう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "绝景",
+      "japanese": "絶景",
+      "kana": "ぜっけい",
+      "romaji": "zekkei",
+      "tokens": [
+        {
+          "text": "絶景",
+          "kana": "ぜっけい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "后退；畏缩",
+      "japanese": "尻込み",
+      "kana": "しりごみ",
+      "romaji": "shirigomi",
+      "tokens": [
+        {
+          "text": "尻込み",
+          "kana": "しりごみ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "专职，专任；专务董事",
+      "japanese": "専務",
+      "kana": "せんむ",
+      "romaji": "senmu",
+      "tokens": [
+        {
+          "text": "専務",
+          "kana": "せんむ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "各人，每个人，所有的人",
+      "japanese": "各人",
+      "kana": "かくじん",
+      "romaji": "kakujin",
+      "tokens": [
+        {
+          "text": "各人",
+          "kana": "かくじん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "自问自答",
+      "japanese": "自問自答",
+      "kana": "じもんじとう",
+      "romaji": "jimonjitou",
+      "tokens": [
+        {
+          "text": "自問自答",
+          "kana": "じもんじとう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "一个原因",
+      "japanese": "一因",
+      "kana": "いちいん",
+      "romaji": "ichiin",
+      "tokens": [
+        {
+          "text": "一因",
+          "kana": "いちいん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "初春，早春",
+      "japanese": "春先",
+      "kana": "はるさき",
+      "romaji": "harusaki",
+      "tokens": [
+        {
+          "text": "春先",
+          "kana": "はるさき"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "彩排，排练",
+      "japanese": "リハーサル",
+      "kana": "りはあさる",
+      "romaji": "rihaasaru",
+      "tokens": [
+        {
+          "text": "リハーサル",
+          "kana": "りはあさる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "同一天；当天",
+      "japanese": "同日",
+      "kana": "どうじつ",
+      "romaji": "doujitsu",
+      "tokens": [
+        {
+          "text": "同日",
+          "kana": "どうじつ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "铁的法则",
+      "japanese": "鉄則",
+      "kana": "てっそく",
+      "romaji": "tessoku",
+      "tokens": [
+        {
+          "text": "鉄則",
+          "kana": "てっそく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "里面；背地里",
+      "japanese": "裏面",
+      "kana": "りめん",
+      "romaji": "rimen",
+      "tokens": [
+        {
+          "text": "裏面",
+          "kana": "りめん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "两面；两个方面",
+      "japanese": "両面",
+      "kana": "りょうめん",
+      "romaji": "ryoumen",
+      "tokens": [
+        {
+          "text": "両面",
+          "kana": "りょうめん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "实际业务",
+      "japanese": "実務",
+      "kana": "じつむ",
+      "romaji": "jitsumu",
+      "tokens": [
+        {
+          "text": "実務",
+          "kana": "じつむ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "纸面，篇幅；报纸上",
+      "japanese": "紙面",
+      "kana": "しめん",
+      "romaji": "shimen",
+      "tokens": [
+        {
+          "text": "紙面",
+          "kana": "しめん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "私语，耳语，小声说话",
+      "japanese": "私語",
+      "kana": "しご",
+      "romaji": "shigo",
+      "tokens": [
+        {
+          "text": "私語",
+          "kana": "しご"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "衰弱，衰老，衰落，衰败",
+      "japanese": "衰え",
+      "kana": "おとろえ",
+      "romaji": "otoroe",
+      "tokens": [
+        {
+          "text": "衰え",
+          "kana": "おとろえ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "实地，实际；实地，现场",
+      "japanese": "実地",
+      "kana": "じっち",
+      "romaji": "jitchi",
+      "tokens": [
+        {
+          "text": "実地",
+          "kana": "じっち"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "自然界",
+      "japanese": "自然界",
+      "kana": "しぜんかい",
+      "romaji": "shizenkai",
+      "tokens": [
+        {
+          "text": "自然界",
+          "kana": "しぜんかい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "应时，应季，旺季",
+      "japanese": "旬",
+      "kana": "しゅん",
+      "romaji": "shun",
+      "tokens": [
+        {
+          "text": "旬",
+          "kana": "しゅん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "农活",
+      "japanese": "農作業",
+      "kana": "のうさぎょう",
+      "romaji": "nousagyou",
+      "tokens": [
+        {
+          "text": "農作業",
+          "kana": "のうさぎょう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "惩罚条例",
+      "japanese": "罰則",
+      "kana": "ばっそく",
+      "romaji": "bassoku",
+      "tokens": [
+        {
+          "text": "罰則",
+          "kana": "ばっそく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "本年度",
+      "japanese": "今年度",
+      "kana": "こんねんど",
+      "romaji": "konnendo",
+      "tokens": [
+        {
+          "text": "今年度",
+          "kana": "こんねんど"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "强弱",
+      "japanese": "強弱",
+      "kana": "きょうじゃく",
+      "romaji": "kyoujaku",
+      "tokens": [
+        {
+          "text": "強弱",
+          "kana": "きょうじゃく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "新设",
+      "japanese": "新設",
+      "kana": "しんせつ",
+      "romaji": "shinsetsu",
+      "tokens": [
+        {
+          "text": "新設",
+          "kana": "しんせつ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "轿车，小汽车",
+      "japanese": "乗用車",
+      "kana": "じょうようしゃ",
+      "romaji": "jouyousha",
+      "tokens": [
+        {
+          "text": "乗用車",
+          "kana": "じょうようしゃ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "正下面；直下，垂直降下",
+      "japanese": "直下",
+      "kana": "ちょっか",
+      "romaji": "chokka",
+      "tokens": [
+        {
+          "text": "直下",
+          "kana": "ちょっか"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "感受性",
+      "japanese": "感受性",
+      "kana": "かんじゅせい",
+      "romaji": "kanjusei",
+      "tokens": [
+        {
+          "text": "感受性",
+          "kana": "かんじゅせい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "总量；全部重量",
+      "japanese": "総量",
+      "kana": "そうりょう",
+      "romaji": "souryou",
+      "tokens": [
+        {
+          "text": "総量",
+          "kana": "そうりょう"
+        }
+      ]
+    }
+  ]
+}

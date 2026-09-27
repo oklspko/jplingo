@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-76",
+  "coursePackId": "jp-n1",
+  "title": "名词 76",
+  "order": 76,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "羽毛，绒毛",
+      "japanese": "羽毛",
+      "kana": "うもう",
+      "romaji": "umou",
+      "tokens": [
+        {
+          "text": "羽毛",
+          "kana": "うもう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "实际技巧，实际技术",
+      "japanese": "実技",
+      "kana": "じつぎ",
+      "romaji": "jitsugi",
+      "tokens": [
+        {
+          "text": "実技",
+          "kana": "じつぎ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "免疫；习以为常，司空见惯",
+      "japanese": "免疫",
+      "kana": "めんえき",
+      "romaji": "men'eki",
+      "tokens": [
+        {
+          "text": "免疫",
+          "kana": "めんえき"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "美德",
+      "japanese": "美徳",
+      "kana": "びとく",
+      "romaji": "bitoku",
+      "tokens": [
+        {
+          "text": "美徳",
+          "kana": "びとく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "誓约，起誓，盟誓",
+      "japanese": "誓約",
+      "kana": "せいやく",
+      "romaji": "seiyaku",
+      "tokens": [
+        {
+          "text": "誓約",
+          "kana": "せいやく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "奔放",
+      "japanese": "奔放",
+      "kana": "ほんぽう",
+      "romaji": "honpou",
+      "tokens": [
+        {
+          "text": "奔放",
+          "kana": "ほんぽう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "清净，清洁",
+      "japanese": "清浄",
+      "kana": "せいじょう",
+      "romaji": "seijou",
+      "tokens": [
+        {
+          "text": "清浄",
+          "kana": "せいじょう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "适合，适应，符合",
+      "japanese": "適合",
+      "kana": "てきごう",
+      "romaji": "tekigou",
+      "tokens": [
+        {
+          "text": "適合",
+          "kana": "てきごう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "想错，误会，误解",
+      "japanese": "思い違い",
+      "kana": "おもいちがい",
+      "romaji": "omoichigai",
+      "tokens": [
+        {
+          "text": "思い違い",
+          "kana": "おもいちがい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "先下手，抢先，先发制人",
+      "japanese": "先手",
+      "kana": "せんて",
+      "romaji": "sente",
+      "tokens": [
+        {
+          "text": "先手",
+          "kana": "せんて"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "演算，运算，计算",
+      "japanese": "演算",
+      "kana": "えんざん",
+      "romaji": "enzan",
+      "tokens": [
+        {
+          "text": "演算",
+          "kana": "えんざん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "知识渊博（的人）",
+      "japanese": "物知り",
+      "kana": "ものしり",
+      "romaji": "monoshiri",
+      "tokens": [
+        {
+          "text": "物知り",
+          "kana": "ものしり"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "余留，留下，剩下",
+      "japanese": "残留",
+      "kana": "ざんりゅう",
+      "romaji": "zanryuu",
+      "tokens": [
+        {
+          "text": "残留",
+          "kana": "ざんりゅう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "庭前",
+      "japanese": "庭先",
+      "kana": "にわさき",
+      "romaji": "niwasaki",
+      "tokens": [
+        {
+          "text": "庭先",
+          "kana": "にわさき"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "感谢，致谢，谢礼，礼物",
+      "japanese": "謝礼",
+      "kana": "しゃれい",
+      "romaji": "sharei",
+      "tokens": [
+        {
+          "text": "謝礼",
+          "kana": "しゃれい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "没收，查抄，扣押",
+      "japanese": "押収",
+      "kana": "おうしゅう",
+      "romaji": "oushuu",
+      "tokens": [
+        {
+          "text": "押収",
+          "kana": "おうしゅう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "车窗",
+      "japanese": "車窓",
+      "kana": "しゃそう",
+      "romaji": "shasou",
+      "tokens": [
+        {
+          "text": "車窓",
+          "kana": "しゃそう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "严选，严格挑选，精选",
+      "japanese": "厳選",
+      "kana": "げんせん",
+      "romaji": "gensen",
+      "tokens": [
+        {
+          "text": "厳選",
+          "kana": "げんせん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "技术，技巧",
+      "japanese": "技法",
+      "kana": "ぎほう",
+      "romaji": "gihou",
+      "tokens": [
+        {
+          "text": "技法",
+          "kana": "ぎほう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "帆布；油画画布",
+      "japanese": "キャンバス",
+      "kana": "きゃんばす",
+      "romaji": "kyanbasu",
+      "tokens": [
+        {
+          "text": "キャンバス",
+          "kana": "きゃんばす"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "混入，掺进",
+      "japanese": "混入",
+      "kana": "こんにゅう",
+      "romaji": "konnyuu",
+      "tokens": [
+        {
+          "text": "混入",
+          "kana": "こんにゅう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "蛾",
+      "japanese": "蛾[が]",
+      "kana": "が",
+      "romaji": "ga",
+      "tokens": [
+        {
+          "text": "蛾[が]",
+          "kana": "が"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "大自然",
+      "japanese": "大自然",
+      "kana": "だいしぜん",
+      "romaji": "daishizen",
+      "tokens": [
+        {
+          "text": "大自然",
+          "kana": "だいしぜん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "路程；旅程；冲程",
+      "japanese": "行程",
+      "kana": "こうてい",
+      "romaji": "koutei",
+      "tokens": [
+        {
+          "text": "行程",
+          "kana": "こうてい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "需要注意，要小心",
+      "japanese": "要注意",
+      "kana": "ようちゅうい",
+      "romaji": "youchuui",
+      "tokens": [
+        {
+          "text": "要注意",
+          "kana": "ようちゅうい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "（棒球）投手",
+      "japanese": "投手",
+      "kana": "とうしゅ",
+      "romaji": "toushu",
+      "tokens": [
+        {
+          "text": "投手",
+          "kana": "とうしゅ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "败退，（被）淘汰",
+      "japanese": "敗退",
+      "kana": "はいたい",
+      "romaji": "haitai",
+      "tokens": [
+        {
+          "text": "敗退",
+          "kana": "はいたい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "小型，微型，迷你型",
+      "japanese": "ミニ",
+      "kana": "みに",
+      "romaji": "mini",
+      "tokens": [
+        {
+          "text": "ミニ",
+          "kana": "みに"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "风雨，暴风雨",
+      "japanese": "風雨",
+      "kana": "ふうう",
+      "romaji": "fuuu",
+      "tokens": [
+        {
+          "text": "風雨",
+          "kana": "ふうう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "饥饿",
+      "japanese": "飢餓",
+      "kana": "きが",
+      "romaji": "kiga",
+      "tokens": [
+        {
+          "text": "飢餓",
+          "kana": "きが"
+        }
+      ]
+    }
+  ]
+}

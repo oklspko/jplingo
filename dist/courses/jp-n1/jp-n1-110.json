@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-110",
+  "coursePackId": "jp-n1",
+  "title": "动词 19",
+  "order": 110,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "双手抱，夹；承担（负担等）",
+      "japanese": "抱え込む",
+      "kana": "かかえこむ",
+      "romaji": "kakaekomu",
+      "tokens": [
+        {
+          "text": "抱え込む",
+          "kana": "かかえこむ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "讲授；谋求，采取（措施）",
+      "japanese": "講じる",
+      "kana": "こうじる",
+      "romaji": "koujiru",
+      "tokens": [
+        {
+          "text": "講じる",
+          "kana": "こうじる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "包进去，包在里面",
+      "japanese": "包み込む",
+      "kana": "つつみこむ",
+      "romaji": "tsutsumikomu",
+      "tokens": [
+        {
+          "text": "包み込む",
+          "kana": "つつみこむ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "叉开双脚用力站稳；坚持，挣扎",
+      "japanese": "踏ん張る",
+      "kana": "ふんばる",
+      "romaji": "funbaru",
+      "tokens": [
+        {
+          "text": "踏ん張る",
+          "kana": "ふんばる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "迫使，逼迫，驱使",
+      "japanese": "駆り立てる",
+      "kana": "かりたてる",
+      "romaji": "karitateru",
+      "tokens": [
+        {
+          "text": "駆り立てる",
+          "kana": "かりたてる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "转向；挪用，充当",
+      "japanese": "振り向ける",
+      "kana": "ふりむける",
+      "romaji": "furimukeru",
+      "tokens": [
+        {
+          "text": "振り向ける",
+          "kana": "ふりむける"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "示出，指示",
+      "japanese": "指し示す",
+      "kana": "さししめす",
+      "romaji": "sashishimesu",
+      "tokens": [
+        {
+          "text": "指し示す",
+          "kana": "さししめす"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "炫耀，夸耀，显示",
+      "japanese": "てらう",
+      "kana": "てらう",
+      "romaji": "terau",
+      "tokens": [
+        {
+          "text": "てらう",
+          "kana": "てらう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（空间、间隔、范围等）变窄",
+      "japanese": "狭まる",
+      "kana": "せばまる",
+      "romaji": "sebamaru",
+      "tokens": [
+        {
+          "text": "狭まる",
+          "kana": "せばまる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "解开，拆开，理开；揉开，使……松弛",
+      "japanese": "ほぐす",
+      "kana": "ほぐす",
+      "romaji": "hogusu",
+      "tokens": [
+        {
+          "text": "ほぐす",
+          "kana": "ほぐす"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "干涸，干枯",
+      "japanese": "干からびる",
+      "kana": "ひからびる",
+      "romaji": "hikarabiru",
+      "tokens": [
+        {
+          "text": "干からびる",
+          "kana": "ひからびる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "多管闲事，多嘴多舌",
+      "japanese": "出しゃばる",
+      "kana": "でしゃばる",
+      "romaji": "deshabaru",
+      "tokens": [
+        {
+          "text": "出しゃばる",
+          "kana": "でしゃばる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "推开",
+      "japanese": "押しやる",
+      "kana": "おしやる",
+      "romaji": "oshiyaru",
+      "tokens": [
+        {
+          "text": "押しやる",
+          "kana": "おしやる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "养育成人",
+      "japanese": "育て上げる",
+      "kana": "そだてあげる",
+      "romaji": "sodateageru",
+      "tokens": [
+        {
+          "text": "育て上げる",
+          "kana": "そだてあげる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "盯着看；看准",
+      "japanese": "見据える",
+      "kana": "みすえる",
+      "romaji": "misueru",
+      "tokens": [
+        {
+          "text": "見据える",
+          "kana": "みすえる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "对抗，顶撞；应付，面临",
+      "japanese": "立ち向かう",
+      "kana": "たちむかう",
+      "romaji": "tachimukau",
+      "tokens": [
+        {
+          "text": "立ち向かう",
+          "kana": "たちむかう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "动摇，心慌",
+      "japanese": "動じる",
+      "kana": "どうじる",
+      "romaji": "doujiru",
+      "tokens": [
+        {
+          "text": "動じる",
+          "kana": "どうじる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "使劳动，使动作；发挥",
+      "japanese": "働かす",
+      "kana": "はたらかす",
+      "romaji": "hatarakasu",
+      "tokens": [
+        {
+          "text": "働かす",
+          "kana": "はたらかす"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "群聚，群集，聚集",
+      "japanese": "群れる",
+      "kana": "むれる",
+      "romaji": "mureru",
+      "tokens": [
+        {
+          "text": "群れる",
+          "kana": "むれる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "相离太远，相差悬殊",
+      "japanese": "かけ離れる",
+      "kana": "かけはなれる",
+      "romaji": "kakehanareru",
+      "tokens": [
+        {
+          "text": "かけ離れる",
+          "kana": "かけはなれる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "回来，返回",
+      "japanese": "立ち戻る",
+      "kana": "たちもどる",
+      "romaji": "tachimodoru",
+      "tokens": [
+        {
+          "text": "立ち戻る",
+          "kana": "たちもどる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "抓住机会，乘机；记账，记流水账",
+      "japanese": "付け込む",
+      "kana": "つけこむ",
+      "romaji": "tsukekomu",
+      "tokens": [
+        {
+          "text": "付け込む",
+          "kana": "つけこむ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（被）埋上，压埋；湮没，埋没",
+      "japanese": "埋もれる",
+      "kana": "うもれる",
+      "romaji": "umoreru",
+      "tokens": [
+        {
+          "text": "埋もれる",
+          "kana": "うもれる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "到处寻找，到处搜寻",
+      "japanese": "探し回る",
+      "kana": "さがしまわる",
+      "romaji": "sagashimawaru",
+      "tokens": [
+        {
+          "text": "探し回る",
+          "kana": "さがしまわる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "削，割；削尖；削弱",
+      "japanese": "そぐ",
+      "kana": "そぐ",
+      "romaji": "sogu",
+      "tokens": [
+        {
+          "text": "そぐ",
+          "kana": "そぐ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "威吓，恐吓",
+      "japanese": "すごむ",
+      "kana": "すごむ",
+      "romaji": "sugomu",
+      "tokens": [
+        {
+          "text": "すごむ",
+          "kana": "すごむ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "推测，推想，猜测",
+      "japanese": "推し量る",
+      "kana": "おしはかる",
+      "romaji": "oshihakaru",
+      "tokens": [
+        {
+          "text": "推し量る",
+          "kana": "おしはかる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "沉没；死去；隐没；没收",
+      "japanese": "没する",
+      "kana": "ぼっする",
+      "romaji": "bossuru",
+      "tokens": [
+        {
+          "text": "没する",
+          "kana": "ぼっする"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "折叠起来；放在心里；连珠炮",
+      "japanese": "畳み込む",
+      "kana": "たたみこむ",
+      "romaji": "tatamikomu",
+      "tokens": [
+        {
+          "text": "畳み込む",
+          "kana": "たたみこむ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "种植，插秧；灌输",
+      "japanese": "植え付ける",
+      "kana": "うえつける",
+      "romaji": "uetsukeru",
+      "tokens": [
+        {
+          "text": "植え付ける",
+          "kana": "うえつける"
+        }
+      ]
+    }
+  ]
+}

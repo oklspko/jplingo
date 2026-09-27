@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-25",
+  "coursePackId": "jp-n3",
+  "title": "名词 25",
+  "order": 25,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "饮料",
+      "japanese": "飲料",
+      "kana": "いんりょう",
+      "romaji": "inryou",
+      "tokens": [
+        {
+          "text": "飲料",
+          "kana": "いんりょう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "（公共交通）停驶",
+      "japanese": "運休",
+      "kana": "うんきゅう",
+      "romaji": "unkyuu",
+      "tokens": [
+        {
+          "text": "運休",
+          "kana": "うんきゅう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "应募，报名参加",
+      "japanese": "応募",
+      "kana": "おうぼ",
+      "romaji": "oubo",
+      "tokens": [
+        {
+          "text": "応募",
+          "kana": "おうぼ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "可，可以；及格",
+      "japanese": "可",
+      "kana": "か",
+      "romaji": "ka",
+      "tokens": [
+        {
+          "text": "可",
+          "kana": "か"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "可能性",
+      "japanese": "可能性",
+      "kana": "かのうせい",
+      "romaji": "kanousei",
+      "tokens": [
+        {
+          "text": "可能性",
+          "kana": "かのうせい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "花坛",
+      "japanese": "花壇",
+      "kana": "かだん",
+      "romaji": "kadan",
+      "tokens": [
+        {
+          "text": "花壇",
+          "kana": "かだん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "花瓶",
+      "japanese": "花瓶",
+      "kana": "かびん",
+      "romaji": "kabin",
+      "tokens": [
+        {
+          "text": "花瓶",
+          "kana": "かびん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "画家",
+      "japanese": "画家",
+      "kana": "がか",
+      "romaji": "gaka",
+      "tokens": [
+        {
+          "text": "画家",
+          "kana": "がか"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "会计；结账",
+      "japanese": "会計",
+      "kana": "かいけい",
+      "romaji": "kaikei",
+      "tokens": [
+        {
+          "text": "会計",
+          "kana": "かいけい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "解决",
+      "japanese": "解決",
+      "kana": "かいけつ",
+      "romaji": "kaiketsu",
+      "tokens": [
+        {
+          "text": "解決",
+          "kana": "かいけつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "旋转",
+      "japanese": "回り",
+      "kana": "まわり",
+      "romaji": "mawari",
+      "tokens": [
+        {
+          "text": "回り",
+          "kana": "まわり"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "回收；收回",
+      "japanese": "回収",
+      "kana": "かいしゅう",
+      "romaji": "kaishuu",
+      "tokens": [
+        {
+          "text": "回収",
+          "kana": "かいしゅう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "在外面吃饭",
+      "japanese": "外食",
+      "kana": "がいしょく",
+      "romaji": "gaishoku",
+      "tokens": [
+        {
+          "text": "外食",
+          "kana": "がいしょく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "柿子",
+      "japanese": "柿",
+      "kana": "かき",
+      "romaji": "kaki",
+      "tokens": [
+        {
+          "text": "柿",
+          "kana": "かき"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（书籍）卷，书",
+      "japanese": "巻",
+      "kana": "かん",
+      "romaji": "kan",
+      "tokens": [
+        {
+          "text": "巻",
+          "kana": "かん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "观察",
+      "japanese": "観察",
+      "kana": "かんさつ",
+      "romaji": "kansatsu",
+      "tokens": [
+        {
+          "text": "観察",
+          "kana": "かんさつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "山岗，小山",
+      "japanese": "丘",
+      "kana": "おか",
+      "romaji": "oka",
+      "tokens": [
+        {
+          "text": "丘",
+          "kana": "おか"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "共同点",
+      "japanese": "共通点",
+      "kana": "きょうつうてん",
+      "romaji": "kyoutsuuten",
+      "tokens": [
+        {
+          "text": "共通点",
+          "kana": "きょうつうてん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "空缺；空闲；空的物品；空地，空隙",
+      "japanese": "空き",
+      "kana": "あき",
+      "romaji": "aki",
+      "tokens": [
+        {
+          "text": "空き",
+          "kana": "あき"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "空座；空缺的职位",
+      "japanese": "空席",
+      "kana": "くうせき",
+      "romaji": "kuuseki",
+      "tokens": [
+        {
+          "text": "空席",
+          "kana": "くうせき"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "布告栏",
+      "japanese": "掲示板",
+      "kana": "けいじばん",
+      "romaji": "keijiban",
+      "tokens": [
+        {
+          "text": "掲示板",
+          "kana": "けいじばん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "经由；通过",
+      "japanese": "経由",
+      "kana": "けいゆ",
+      "romaji": "keiyu",
+      "tokens": [
+        {
+          "text": "経由",
+          "kana": "けいゆ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "事情；……件",
+      "japanese": "件",
+      "kana": "けん",
+      "romaji": "ken",
+      "tokens": [
+        {
+          "text": "件",
+          "kana": "けん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "建设",
+      "japanese": "建設",
+      "kana": "けんせつ",
+      "romaji": "kensetsu",
+      "tokens": [
+        {
+          "text": "建設",
+          "kana": "けんせつ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "现存，现有",
+      "japanese": "現存",
+      "kana": "げんそん",
+      "romaji": "genson",
+      "tokens": [
+        {
+          "text": "現存",
+          "kana": "げんそん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "广告，宣传",
+      "japanese": "広告",
+      "kana": "こうこく",
+      "romaji": "koukoku",
+      "tokens": [
+        {
+          "text": "広告",
+          "kana": "こうこく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "广场",
+      "japanese": "広場",
+      "kana": "ひろば",
+      "romaji": "hiroba",
+      "tokens": [
+        {
+          "text": "広場",
+          "kana": "ひろば"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "目的地，去的地方",
+      "japanese": "行き先",
+      "kana": "いきさき",
+      "romaji": "ikisaki",
+      "tokens": [
+        {
+          "text": "行き先",
+          "kana": "いきさき"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "现在，这个时候；现在才",
+      "japanese": "今頃",
+      "kana": "いまごろ",
+      "romaji": "imagoro",
+      "tokens": [
+        {
+          "text": "今頃",
+          "kana": "いまごろ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "最多",
+      "japanese": "最多",
+      "kana": "さいた",
+      "romaji": "saita",
+      "tokens": [
+        {
+          "text": "最多",
+          "kana": "さいた"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "id": "jp-n1-91",
+  "coursePackId": "jp-n1",
+  "title": "名词 91",
+  "order": 91,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "妖怪，鬼怪",
+      "japanese": "物の 怪[け]",
+      "kana": "もののけ",
+      "romaji": "mononoke",
+      "tokens": [
+        {
+          "text": "物の 怪[け]",
+          "kana": "もののけ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "岔路口；分岔点，转折点",
+      "japanese": "分かれ道",
+      "kana": "わかれみち",
+      "romaji": "wakaremichi",
+      "tokens": [
+        {
+          "text": "分かれ道",
+          "kana": "わかれみち"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "巨变，大变貌",
+      "japanese": "変貌",
+      "kana": "へんぼう",
+      "romaji": "henbou",
+      "tokens": [
+        {
+          "text": "変貌",
+          "kana": "へんぼう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "捕食",
+      "japanese": "捕食",
+      "kana": "ほしょく",
+      "romaji": "hoshoku",
+      "tokens": [
+        {
+          "text": "捕食",
+          "kana": "ほしょく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "母语",
+      "japanese": "母語",
+      "kana": "ぼご",
+      "romaji": "bogo",
+      "tokens": [
+        {
+          "text": "母語",
+          "kana": "ぼご"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "母性，母爱",
+      "japanese": "母性",
+      "kana": "ぼせい",
+      "romaji": "bosei",
+      "tokens": [
+        {
+          "text": "母性",
+          "kana": "ぼせい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "内涵，包容",
+      "japanese": "包摂",
+      "kana": "ほうせつ",
+      "romaji": "housetsu",
+      "tokens": [
+        {
+          "text": "包摂",
+          "kana": "ほうせつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "方略，策略",
+      "japanese": "方略",
+      "kana": "ほうりゃく",
+      "romaji": "houryaku",
+      "tokens": [
+        {
+          "text": "方略",
+          "kana": "ほうりゃく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "平庸",
+      "japanese": "凡庸",
+      "kana": "ぼんよう",
+      "romaji": "bon'you",
+      "tokens": [
+        {
+          "text": "凡庸",
+          "kana": "ぼんよう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "万一",
+      "japanese": "万が一",
+      "kana": "まんがいち",
+      "romaji": "mangaichi",
+      "tokens": [
+        {
+          "text": "万が一",
+          "kana": "まんがいち"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "深刻反省",
+      "japanese": "猛省",
+      "kana": "もうせい",
+      "romaji": "mousei",
+      "tokens": [
+        {
+          "text": "猛省",
+          "kana": "もうせい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "引诱",
+      "japanese": "誘引",
+      "kana": "ゆういん",
+      "romaji": "yuuin",
+      "tokens": [
+        {
+          "text": "誘引",
+          "kana": "ゆういん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "过去，以往，路过的地方",
+      "japanese": "来し方",
+      "kana": "こしかた",
+      "romaji": "koshikata",
+      "tokens": [
+        {
+          "text": "来し方",
+          "kana": "こしかた"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（双方都满意的）妥协点，折中方案",
+      "japanese": "落とし所",
+      "kana": "おとしどころ",
+      "romaji": "otoshidokoro",
+      "tokens": [
+        {
+          "text": "落とし所",
+          "kana": "おとしどころ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "斜眼看；含情脉脉的一瞥",
+      "japanese": "流し目",
+      "kana": "ながしめ",
+      "romaji": "nagashime",
+      "tokens": [
+        {
+          "text": "流し目",
+          "kana": "ながしめ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "关联",
+      "japanese": "連関",
+      "kana": "れんかん",
+      "romaji": "renkan",
+      "tokens": [
+        {
+          "text": "連関",
+          "kana": "れんかん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "俯瞰，俯视",
+      "japanese": "俯瞰[ふかん]",
+      "kana": "ふかん",
+      "romaji": "fukan",
+      "tokens": [
+        {
+          "text": "俯瞰[ふかん]",
+          "kana": "ふかん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "嘲弄，讥讽，揶揄",
+      "japanese": "揶揄[やゆ]",
+      "kana": "やゆ",
+      "romaji": "yayu",
+      "tokens": [
+        {
+          "text": "揶揄[やゆ]",
+          "kana": "やゆ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "固守城池；闭门不出",
+      "japanese": "籠城",
+      "kana": "ろうじょう",
+      "romaji": "roujou",
+      "tokens": [
+        {
+          "text": "籠城",
+          "kana": "ろうじょう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "龃龉，摩擦，冲突",
+      "japanese": "軋轢[あつれき]",
+      "kana": "あつれき",
+      "romaji": "atsureki",
+      "tokens": [
+        {
+          "text": "軋轢[あつれき]",
+          "kana": "あつれき"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "隘路，狭路；难关，障碍",
+      "japanese": "隘[あい]路",
+      "kana": "あいろ",
+      "romaji": "airo",
+      "tokens": [
+        {
+          "text": "隘[あい]路",
+          "kana": "あいろ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "邮寄，邮递；班车；班轮；班机",
+      "japanese": "便",
+      "kana": "びん",
+      "romaji": "bin",
+      "tokens": [
+        {
+          "text": "便",
+          "kana": "びん"
+        }
+      ]
+    }
+  ]
+}

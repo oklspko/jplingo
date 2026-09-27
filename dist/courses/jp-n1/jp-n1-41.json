@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-41",
+  "coursePackId": "jp-n1",
+  "title": "名词 41",
+  "order": 41,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "一贯性；统一；解决",
+      "japanese": "まとまり",
+      "kana": "まとまり",
+      "romaji": "matomari",
+      "tokens": [
+        {
+          "text": "まとまり",
+          "kana": "まとまり"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "总结；汇总；调停",
+      "japanese": "まとめ",
+      "kana": "まとめ",
+      "romaji": "matome",
+      "tokens": [
+        {
+          "text": "まとめ",
+          "kana": "まとめ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "正面；正经",
+      "japanese": "まとも",
+      "kana": "まとも",
+      "romaji": "matomo",
+      "tokens": [
+        {
+          "text": "まとも",
+          "kana": "まとも"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "豆包；包子",
+      "japanese": "まんじゅう",
+      "kana": "まんじゅう",
+      "romaji": "manjuu",
+      "tokens": [
+        {
+          "text": "まんじゅう",
+          "kana": "まんじゅう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "水洼，水坑",
+      "japanese": "水たまり",
+      "kana": "みずたまり",
+      "romaji": "mizutamari",
+      "tokens": [
+        {
+          "text": "水たまり",
+          "kana": "みずたまり"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "音乐的，配乐的；音乐片",
+      "japanese": "ミュージカル",
+      "kana": "みゅうじかる",
+      "romaji": "myuujikaru",
+      "tokens": [
+        {
+          "text": "ミュージカル",
+          "kana": "みゅうじかる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "音乐家",
+      "japanese": "ミュージシャン",
+      "kana": "みゅうじしゃん",
+      "romaji": "myuujishan",
+      "tokens": [
+        {
+          "text": "ミュージシャン",
+          "kana": "みゅうじしゃん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "机械结构；机制",
+      "japanese": "メカニズム",
+      "kana": "めかにずむ",
+      "romaji": "mekanizumu",
+      "tokens": [
+        {
+          "text": "メカニズム",
+          "kana": "めかにずむ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "接待，款待，招待",
+      "japanese": "もてなし",
+      "kana": "もてなし",
+      "romaji": "motenashi",
+      "tokens": [
+        {
+          "text": "もてなし",
+          "kana": "もてなし"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "橄榄球",
+      "japanese": "ラグビー",
+      "kana": "らぐびい",
+      "romaji": "ragubii",
+      "tokens": [
+        {
+          "text": "ラグビー",
+          "kana": "らぐびい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "医疗指导，康复训练",
+      "japanese": "リハビリ",
+      "kana": "りはびり",
+      "romaji": "rihabiri",
+      "tokens": [
+        {
+          "text": "リハビリ",
+          "kana": "りはびり"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "比例，比率",
+      "japanese": "レート",
+      "kana": "れえと",
+      "romaji": "reeto",
+      "tokens": [
+        {
+          "text": "レート",
+          "kana": "れえと"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "正式成员，正式选手；正规，普通；普通汽油",
+      "japanese": "レギュラー",
+      "kana": "れぎゅらあ",
+      "romaji": "regyuraa",
+      "tokens": [
+        {
+          "text": "レギュラー",
+          "kana": "れぎゅらあ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "操作；处理；对待",
+      "japanese": "扱い",
+      "kana": "あつかい",
+      "romaji": "atsukai",
+      "tokens": [
+        {
+          "text": "扱い",
+          "kana": "あつかい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "放心，安心",
+      "japanese": "安 堵[ど]",
+      "kana": "あんど",
+      "romaji": "ando",
+      "tokens": [
+        {
+          "text": "安 堵[ど]",
+          "kana": "あんど"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "干劲，热情",
+      "japanese": "意気込み",
+      "kana": "いきごみ",
+      "romaji": "ikigomi",
+      "tokens": [
+        {
+          "text": "意気込み",
+          "kana": "いきごみ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "（根据前后情况或语境推测出的）含义",
+      "japanese": "意味合い",
+      "kana": "いみあい",
+      "romaji": "imiai",
+      "tokens": [
+        {
+          "text": "意味合い",
+          "kana": "いみあい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "推移，变迁",
+      "japanese": "移り変わり",
+      "kana": "うつりかわり",
+      "romaji": "utsurikawari",
+      "tokens": [
+        {
+          "text": "移り変わり",
+          "kana": "うつりかわり"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "萎缩",
+      "japanese": "萎縮",
+      "kana": "いしゅく",
+      "romaji": "ishuku",
+      "tokens": [
+        {
+          "text": "萎縮",
+          "kana": "いしゅく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "衣服；（食物外面的）糖衣或面衣",
+      "japanese": "衣",
+      "kana": "ころも",
+      "romaji": "koromo",
+      "tokens": [
+        {
+          "text": "衣",
+          "kana": "ころも"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "遗憾",
+      "japanese": "遺憾",
+      "kana": "いかん",
+      "romaji": "ikan",
+      "tokens": [
+        {
+          "text": "遺憾",
+          "kana": "いかん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "（床位不满20张的小规模）诊所",
+      "japanese": "医院",
+      "kana": "いいん",
+      "romaji": "iin",
+      "tokens": [
+        {
+          "text": "医院",
+          "kana": "いいん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "一环",
+      "japanese": "一環",
+      "kana": "いっかん",
+      "romaji": "ikkan",
+      "tokens": [
+        {
+          "text": "一環",
+          "kana": "いっかん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "费一些力气",
+      "japanese": "一苦労",
+      "kana": "ひとくろう",
+      "romaji": "hitokurou",
+      "tokens": [
+        {
+          "text": "一苦労",
+          "kana": "ひとくろう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（古代时间单位，约为30分钟）一刻；片刻",
+      "japanese": "一刻",
+      "kana": "いっこく",
+      "romaji": "ikkoku",
+      "tokens": [
+        {
+          "text": "一刻",
+          "kana": "いっこく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "孤单一人",
+      "japanese": "一人ぼっち",
+      "kana": "ひとりぼっち",
+      "romaji": "hitoribotchi",
+      "tokens": [
+        {
+          "text": "一人ぼっち",
+          "kana": "ひとりぼっち"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "扫除，清除",
+      "japanese": "一掃",
+      "kana": "いっそう",
+      "romaji": "issou",
+      "tokens": [
+        {
+          "text": "一掃",
+          "kana": "いっそう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "一条直线，笔直，径直",
+      "japanese": "一直線",
+      "kana": "いっちょくせん",
+      "romaji": "itchokusen",
+      "tokens": [
+        {
+          "text": "一直線",
+          "kana": "いっちょくせん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "完全交给，全权委托",
+      "japanese": "一任",
+      "kana": "いちにん",
+      "romaji": "ichinin",
+      "tokens": [
+        {
+          "text": "一任",
+          "kana": "いちにん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "一见钟情",
+      "japanese": "一目 惚[ぼ]れ",
+      "kana": "ひとめぼれ",
+      "romaji": "hitomebore",
+      "tokens": [
+        {
+          "text": "一目 惚[ぼ]れ",
+          "kana": "ひとめぼれ"
+        }
+      ]
+    }
+  ]
+}

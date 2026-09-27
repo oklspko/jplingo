@@ -1,0 +1,47 @@
+{
+  "id": "jp-n1-136",
+  "coursePackId": "jp-n1",
+  "title": "副词 6",
+  "order": 136,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "用鞭子抽打；毫不留情，严厉",
+      "japanese": "びしばし",
+      "kana": "びしばし",
+      "romaji": "bishibashi",
+      "tokens": [
+        {
+          "text": "びしばし",
+          "kana": "びしばし"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "砰砰，咚咚；直言不讳",
+      "japanese": "ぽんぽん",
+      "kana": "ぽんぽん",
+      "romaji": "ponpon",
+      "tokens": [
+        {
+          "text": "ぽんぽん",
+          "kana": "ぽんぽん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "一口气洒出，一下子扩散开",
+      "japanese": "ばっと",
+      "kana": "ばっと",
+      "romaji": "batto",
+      "tokens": [
+        {
+          "text": "ばっと",
+          "kana": "ばっと"
+        }
+      ]
+    }
+  ]
+}

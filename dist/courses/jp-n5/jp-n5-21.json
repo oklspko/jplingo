@@ -1,0 +1,216 @@
+{
+  "id": "jp-n5-21",
+  "coursePackId": "jp-n5",
+  "title": "动词 4",
+  "order": 21,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "开；开张",
+      "japanese": "開く",
+      "kana": "ひらく",
+      "romaji": "hiraku",
+      "tokens": [
+        {
+          "text": "開く",
+          "kana": "ひらく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "弄错，搞错",
+      "japanese": "間違える",
+      "kana": "まちがえる",
+      "romaji": "machigaeru",
+      "tokens": [
+        {
+          "text": "間違える",
+          "kana": "まちがえる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "赶紧，着急",
+      "japanese": "急ぐ",
+      "kana": "いそぐ",
+      "romaji": "isogu",
+      "tokens": [
+        {
+          "text": "急ぐ",
+          "kana": "いそぐ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "弯曲；拐弯",
+      "japanese": "曲がる",
+      "kana": "まがる",
+      "romaji": "magaru",
+      "tokens": [
+        {
+          "text": "曲がる",
+          "kana": "まがる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "给……看，展现",
+      "japanese": "見せる",
+      "kana": "みせる",
+      "romaji": "miseru",
+      "tokens": [
+        {
+          "text": "見せる",
+          "kana": "みせる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "想，思考，研究",
+      "japanese": "考える",
+      "kana": "かんがえる",
+      "romaji": "kangaeru",
+      "tokens": [
+        {
+          "text": "考える",
+          "kana": "かんがえる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "开始，开创；开始……",
+      "japanese": "始める",
+      "kana": "はじめる",
+      "romaji": "hajimeru",
+      "tokens": [
+        {
+          "text": "始める",
+          "kana": "はじめる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "登上；上升；结束",
+      "japanese": "上がる",
+      "kana": "あがる",
+      "romaji": "agaru",
+      "tokens": [
+        {
+          "text": "上がる",
+          "kana": "あがる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "来往，往返",
+      "japanese": "通う",
+      "kana": "かよう",
+      "romaji": "kayou",
+      "tokens": [
+        {
+          "text": "通う",
+          "kana": "かよう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "附着，沾上；跟随",
+      "japanese": "付く",
+      "kana": "つく",
+      "romaji": "tsuku",
+      "tokens": [
+        {
+          "text": "付く",
+          "kana": "つく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "需要，必要",
+      "japanese": "要る",
+      "kana": "いる",
+      "romaji": "iru",
+      "tokens": [
+        {
+          "text": "要る",
+          "kana": "いる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "淋，沐浴；晒，照",
+      "japanese": "浴びる",
+      "kana": "あびる",
+      "romaji": "abiru",
+      "tokens": [
+        {
+          "text": "浴びる",
+          "kana": "あびる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "笔记；做笔记",
+      "japanese": "メモ",
+      "kana": "めも",
+      "romaji": "memo",
+      "tokens": [
+        {
+          "text": "メモ",
+          "kana": "めも"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "记住；掌握；感到",
+      "japanese": "覚える",
+      "kana": "おぼえる",
+      "romaji": "oboeru",
+      "tokens": [
+        {
+          "text": "覚える",
+          "kana": "おぼえる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "由于；根据；取决于",
+      "japanese": "よる",
+      "kana": "よる",
+      "romaji": "yoru",
+      "tokens": [
+        {
+          "text": "よる",
+          "kana": "よる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "请给（我）；请……",
+      "japanese": "下さい",
+      "kana": "ください",
+      "romaji": "kudasai",
+      "tokens": [
+        {
+          "text": "下さい",
+          "kana": "ください"
+        }
+      ]
+    }
+  ]
+}

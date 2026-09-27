@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-10",
+  "coursePackId": "jp-n2",
+  "title": "名词 10",
+  "order": 10,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "常识",
+      "japanese": "常識",
+      "kana": "じょうしき",
+      "romaji": "joushiki",
+      "tokens": [
+        {
+          "text": "常識",
+          "kana": "じょうしき"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "条件",
+      "japanese": "条件",
+      "kana": "じょうけん",
+      "romaji": "jouken",
+      "tokens": [
+        {
+          "text": "条件",
+          "kana": "じょうけん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "情况，状况",
+      "japanese": "状況",
+      "kana": "じょうきょう",
+      "romaji": "joukyou",
+      "tokens": [
+        {
+          "text": "状況",
+          "kana": "じょうきょう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "职业",
+      "japanese": "職業",
+      "kana": "しょくぎょう",
+      "romaji": "shokugyou",
+      "tokens": [
+        {
+          "text": "職業",
+          "kana": "しょくぎょう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "工作岗位，工作单位，车间",
+      "japanese": "職場",
+      "kana": "しょくば",
+      "romaji": "shokuba",
+      "tokens": [
+        {
+          "text": "職場",
+          "kana": "しょくば"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "伙食费，饭费",
+      "japanese": "食費",
+      "kana": "しょくひ",
+      "romaji": "shokuhi",
+      "tokens": [
+        {
+          "text": "食費",
+          "kana": "しょくひ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "食物",
+      "japanese": "食物",
+      "kana": "しょくもつ",
+      "romaji": "shokumotsu",
+      "tokens": [
+        {
+          "text": "食物",
+          "kana": "しょくもつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "信任，信赖",
+      "japanese": "信頼",
+      "kana": "しんらい",
+      "romaji": "shinrai",
+      "tokens": [
+        {
+          "text": "信頼",
+          "kana": "しんらい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "心理",
+      "japanese": "心理",
+      "kana": "しんり",
+      "romaji": "shinri",
+      "tokens": [
+        {
+          "text": "心理",
+          "kana": "しんり"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "雪白；空白",
+      "japanese": "真っ白",
+      "kana": "まっしろ",
+      "romaji": "masshiro",
+      "tokens": [
+        {
+          "text": "真っ白",
+          "kana": "まっしろ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "模仿，效法；行为，举止",
+      "japanese": "真似",
+      "kana": "まね",
+      "romaji": "mane",
+      "tokens": [
+        {
+          "text": "真似",
+          "kana": "まね"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "身份，社会地位；境遇，遭遇",
+      "japanese": "身分",
+      "kana": "みぶん",
+      "romaji": "mibun",
+      "tokens": [
+        {
+          "text": "身分",
+          "kana": "みぶん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "人物；人品；人才",
+      "japanese": "人物",
+      "kana": "じんぶつ",
+      "romaji": "jinbutsu",
+      "tokens": [
+        {
+          "text": "人物",
+          "kana": "じんぶつ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "水分",
+      "japanese": "水分",
+      "kana": "すいぶん",
+      "romaji": "suibun",
+      "tokens": [
+        {
+          "text": "水分",
+          "kana": "すいぶん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "睡眠",
+      "japanese": "睡眠",
+      "kana": "すいみん",
+      "romaji": "suimin",
+      "tokens": [
+        {
+          "text": "睡眠",
+          "kana": "すいみん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "性格，性情；性质",
+      "japanese": "性質",
+      "kana": "せいしつ",
+      "romaji": "seishitsu",
+      "tokens": [
+        {
+          "text": "性質",
+          "kana": "せいしつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "性能，效能",
+      "japanese": "性能",
+      "kana": "せいのう",
+      "romaji": "seinou",
+      "tokens": [
+        {
+          "text": "性能",
+          "kana": "せいのう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "成立，通过",
+      "japanese": "成立",
+      "kana": "せいりつ",
+      "romaji": "seiritsu",
+      "tokens": [
+        {
+          "text": "成立",
+          "kana": "せいりつ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "政府",
+      "japanese": "政府",
+      "kana": "せいふ",
+      "romaji": "seifu",
+      "tokens": [
+        {
+          "text": "政府",
+          "kana": "せいふ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "正式，正规",
+      "japanese": "正式",
+      "kana": "せいしき",
+      "romaji": "seishiki",
+      "tokens": [
+        {
+          "text": "正式",
+          "kana": "せいしき"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "生存",
+      "japanese": "生存",
+      "kana": "せいぞん",
+      "romaji": "seizon",
+      "tokens": [
+        {
+          "text": "生存",
+          "kana": "せいぞん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "布料；本来面目，本色；面团",
+      "japanese": "生地",
+      "kana": "きじ",
+      "romaji": "kiji",
+      "tokens": [
+        {
+          "text": "生地",
+          "kana": "きじ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "生命，性命；关键",
+      "japanese": "生命",
+      "kana": "せいめい",
+      "romaji": "seimei",
+      "tokens": [
+        {
+          "text": "生命",
+          "kana": "せいめい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "制造，制作",
+      "japanese": "製作",
+      "kana": "せいさく",
+      "romaji": "seisaku",
+      "tokens": [
+        {
+          "text": "製作",
+          "kana": "せいさく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "责任，职责",
+      "japanese": "責任",
+      "kana": "せきにん",
+      "romaji": "sekinin",
+      "tokens": [
+        {
+          "text": "責任",
+          "kana": "せきにん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "设计；规划",
+      "japanese": "設計",
+      "kana": "せっけい",
+      "romaji": "sekkei",
+      "tokens": [
+        {
+          "text": "設計",
+          "kana": "せっけい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "节约，节省",
+      "japanese": "節約",
+      "kana": "せつやく",
+      "romaji": "setsuyaku",
+      "tokens": [
+        {
+          "text": "節約",
+          "kana": "せつやく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "刚才",
+      "japanese": "先ほど",
+      "kana": "さきほど",
+      "romaji": "sakihodo",
+      "tokens": [
+        {
+          "text": "先ほど",
+          "kana": "さきほど"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "专业，专业研究",
+      "japanese": "専攻",
+      "kana": "せんこう",
+      "romaji": "senkou",
+      "tokens": [
+        {
+          "text": "専攻",
+          "kana": "せんこう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "选举，推选",
+      "japanese": "選挙",
+      "kana": "せんきょ",
+      "romaji": "senkyo",
+      "tokens": [
+        {
+          "text": "選挙",
+          "kana": "せんきょ"
+        }
+      ]
+    }
+  ]
+}

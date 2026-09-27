@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-90",
+  "coursePackId": "jp-n1",
+  "title": "名词 90",
+  "order": 90,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "厚度；厚实感，深度",
+      "japanese": "厚み",
+      "kana": "あつみ",
+      "romaji": "atsumi",
+      "tokens": [
+        {
+          "text": "厚み",
+          "kana": "あつみ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "再读，重读",
+      "japanese": "再読",
+      "kana": "さいどく",
+      "romaji": "saidoku",
+      "tokens": [
+        {
+          "text": "再読",
+          "kana": "さいどく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "重编，重组，再编",
+      "japanese": "再編",
+      "kana": "さいへん",
+      "romaji": "saihen",
+      "tokens": [
+        {
+          "text": "再編",
+          "kana": "さいへん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "裁断，判决，裁定",
+      "japanese": "裁き",
+      "kana": "さばき",
+      "romaji": "sabaki",
+      "tokens": [
+        {
+          "text": "裁き",
+          "kana": "さばき"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "就职业而言，因工作性质",
+      "japanese": "仕事柄",
+      "kana": "しごとがら",
+      "romaji": "shigotogara",
+      "tokens": [
+        {
+          "text": "仕事柄",
+          "kana": "しごとがら"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "容貌，容姿",
+      "japanese": "姿形",
+      "kana": "すがたかたち",
+      "romaji": "sugatakatachi",
+      "tokens": [
+        {
+          "text": "姿形",
+          "kana": "すがたかたち"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "真实情况，本来面貌",
+      "japanese": "実相",
+      "kana": "じっそう",
+      "romaji": "jissou",
+      "tokens": [
+        {
+          "text": "実相",
+          "kana": "じっそう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "真实面貌；实像",
+      "japanese": "実像",
+      "kana": "じつぞう",
+      "romaji": "jitsuzou",
+      "tokens": [
+        {
+          "text": "実像",
+          "kana": "じつぞう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "主要原因，主因",
+      "japanese": "主因",
+      "kana": "しゅいん",
+      "romaji": "shuin",
+      "tokens": [
+        {
+          "text": "主因",
+          "kana": "しゅいん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "主轴；中心人物，中心力量",
+      "japanese": "主軸",
+      "kana": "しゅじく",
+      "romaji": "shujiku",
+      "tokens": [
+        {
+          "text": "主軸",
+          "kana": "しゅじく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "就业",
+      "japanese": "就労",
+      "kana": "しゅうろう",
+      "romaji": "shuurou",
+      "tokens": [
+        {
+          "text": "就労",
+          "kana": "しゅうろう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "臭腺",
+      "japanese": "臭腺",
+      "kana": "しゅうせん",
+      "romaji": "shuusen",
+      "tokens": [
+        {
+          "text": "臭腺",
+          "kana": "しゅうせん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "严峻，严厉",
+      "japanese": "峻[しゅん]厳",
+      "kana": "しゅんげん",
+      "romaji": "shungen",
+      "tokens": [
+        {
+          "text": "峻[しゅん]厳",
+          "kana": "しゅんげん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "短篇，短小作品；小品文",
+      "japanese": "小品",
+      "kana": "しょうひん",
+      "romaji": "shouhin",
+      "tokens": [
+        {
+          "text": "小品",
+          "kana": "しょうひん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "常驻",
+      "japanese": "常駐",
+      "kana": "じょうちゅう",
+      "romaji": "jouchuu",
+      "tokens": [
+        {
+          "text": "常駐",
+          "kana": "じょうちゅう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "口感，食感",
+      "japanese": "食感",
+      "kana": "しょっかん",
+      "romaji": "shokkan",
+      "tokens": [
+        {
+          "text": "食感",
+          "kana": "しょっかん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "切换，转换",
+      "japanese": "切り替え",
+      "kana": "きりかえ",
+      "romaji": "kirikae",
+      "tokens": [
+        {
+          "text": "切り替え",
+          "kana": "きりかえ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "拖延，搁置",
+      "japanese": "先延ばし",
+      "kana": "さきのばし",
+      "romaji": "sakinobashi",
+      "tokens": [
+        {
+          "text": "先延ばし",
+          "kana": "さきのばし"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（军队）战队",
+      "japanese": "戦隊",
+      "kana": "せんたい",
+      "romaji": "sentai",
+      "tokens": [
+        {
+          "text": "戦隊",
+          "kana": "せんたい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "疏通，沟通",
+      "japanese": "疎通",
+      "kana": "そつう",
+      "romaji": "sotsuu",
+      "tokens": [
+        {
+          "text": "疎通",
+          "kana": "そつう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "属性，特征",
+      "japanese": "属性",
+      "kana": "ぞくせい",
+      "romaji": "zokusei",
+      "tokens": [
+        {
+          "text": "属性",
+          "kana": "ぞくせい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "大致的框架",
+      "japanese": "大枠",
+      "kana": "おおわく",
+      "romaji": "oowaku",
+      "tokens": [
+        {
+          "text": "大枠",
+          "kana": "おおわく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "统治，驾驭，凌驾",
+      "japanese": "統御",
+      "kana": "とうぎょ",
+      "romaji": "tougyo",
+      "tokens": [
+        {
+          "text": "統御",
+          "kana": "とうぎょ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "特化",
+      "japanese": "特化",
+      "kana": "とっか",
+      "romaji": "tokka",
+      "tokens": [
+        {
+          "text": "特化",
+          "kana": "とっか"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "排卵",
+      "japanese": "排卵",
+      "kana": "はいらん",
+      "romaji": "hairan",
+      "tokens": [
+        {
+          "text": "排卵",
+          "kana": "はいらん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "发动；启动；行使",
+      "japanese": "発動",
+      "kana": "はつどう",
+      "romaji": "hatsudou",
+      "tokens": [
+        {
+          "text": "発動",
+          "kana": "はつどう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "肤浅，浅薄；表面",
+      "japanese": "皮相",
+      "kana": "ひそう",
+      "romaji": "hisou",
+      "tokens": [
+        {
+          "text": "皮相",
+          "kana": "ひそう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "表层",
+      "japanese": "表層",
+      "kana": "ひょうそう",
+      "romaji": "hyousou",
+      "tokens": [
+        {
+          "text": "表層",
+          "kana": "ひょうそう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "（建筑）部件，构件，材料",
+      "japanese": "部材",
+      "kana": "ぶざい",
+      "romaji": "buzai",
+      "tokens": [
+        {
+          "text": "部材",
+          "kana": "ぶざい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "复权，恢复权力",
+      "japanese": "復権",
+      "kana": "ふっけん",
+      "romaji": "fukken",
+      "tokens": [
+        {
+          "text": "復権",
+          "kana": "ふっけん"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-103",
+  "coursePackId": "jp-n1",
+  "title": "动词 12",
+  "order": 103,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "憔悴；落魄",
+      "japanese": "やつれる",
+      "kana": "やつれる",
+      "romaji": "yatsureru",
+      "tokens": [
+        {
+          "text": "やつれる",
+          "kana": "やつれる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "研究",
+      "japanese": "リサーチ",
+      "kana": "りさあち",
+      "romaji": "risaachi",
+      "tokens": [
+        {
+          "text": "リサーチ",
+          "kana": "りさあち"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "列出，列表",
+      "japanese": "リストアップ",
+      "kana": "りすとあっぷ",
+      "romaji": "risutoappu",
+      "tokens": [
+        {
+          "text": "リストアップ",
+          "kana": "りすとあっぷ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "接力传递",
+      "japanese": "リレー",
+      "kana": "りれえ",
+      "romaji": "riree",
+      "tokens": [
+        {
+          "text": "リレー",
+          "kana": "りれえ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "浪费，损耗",
+      "japanese": "ロス",
+      "kana": "ろす",
+      "romaji": "rosu",
+      "tokens": [
+        {
+          "text": "ロス",
+          "kana": "ろす"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "心情平稳下来",
+      "japanese": "安らぐ",
+      "kana": "やすらぐ",
+      "romaji": "yasuragu",
+      "tokens": [
+        {
+          "text": "安らぐ",
+          "kana": "やすらぐ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "围起来；贮藏；隐匿",
+      "japanese": "囲う",
+      "kana": "かこう",
+      "romaji": "kakou",
+      "tokens": [
+        {
+          "text": "囲う",
+          "kana": "かこう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "孵蛋；养育；培养",
+      "japanese": "育む",
+      "kana": "はぐくむ",
+      "romaji": "hagukumu",
+      "tokens": [
+        {
+          "text": "育む",
+          "kana": "はぐくむ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "拉到跟前；（「惹き寄せる」とも）吸引",
+      "japanese": "引き寄せる",
+      "kana": "ひきよせる",
+      "romaji": "hikiyoseru",
+      "tokens": [
+        {
+          "text": "引き寄せる",
+          "kana": "ひきよせる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "接替；继承",
+      "japanese": "引き継ぐ",
+      "kana": "ひきつぐ",
+      "romaji": "hikitsugu",
+      "tokens": [
+        {
+          "text": "引き継ぐ",
+          "kana": "ひきつぐ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "拔出来；（把人才等）挖过来",
+      "japanese": "引き抜く",
+      "kana": "ひきぬく",
+      "romaji": "hikinuku",
+      "tokens": [
+        {
+          "text": "引き抜く",
+          "kana": "ひきぬく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "鼓励；关照；强行拉走；衬托",
+      "japanese": "引き立てる",
+      "kana": "ひきたてる",
+      "romaji": "hikitateru",
+      "tokens": [
+        {
+          "text": "引き立てる",
+          "kana": "ひきたてる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（映）映出；（写）以绘画、文章等来表现；（映）反映出",
+      "japanese": "映し出す",
+      "kana": "うつしだす",
+      "romaji": "utsushidasu",
+      "tokens": [
+        {
+          "text": "映し出す",
+          "kana": "うつしだす"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "讨厌，嫌弃；珍重，保重",
+      "japanese": "いとう",
+      "kana": "いとう",
+      "romaji": "itou",
+      "tokens": [
+        {
+          "text": "いとう",
+          "kana": "いとう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "使远离；疏远",
+      "japanese": "遠ざける",
+      "kana": "とおざける",
+      "romaji": "toozakeru",
+      "tokens": [
+        {
+          "text": "遠ざける",
+          "kana": "とおざける"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "解开，放开，解放",
+      "japanese": "解き放つ",
+      "kana": "ときはなつ",
+      "romaji": "tokihanatsu",
+      "tokens": [
+        {
+          "text": "解き放つ",
+          "kana": "ときはなつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "解析，分析",
+      "japanese": "解析",
+      "kana": "かいせき",
+      "romaji": "kaiseki",
+      "tokens": [
+        {
+          "text": "解析",
+          "kana": "かいせき"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "回想",
+      "japanese": "回想",
+      "kana": "かいそう",
+      "romaji": "kaisou",
+      "tokens": [
+        {
+          "text": "回想",
+          "kana": "かいそう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "懊悔，后悔",
+      "japanese": "悔いる",
+      "kana": "くいる",
+      "romaji": "kuiru",
+      "tokens": [
+        {
+          "text": "悔いる",
+          "kana": "くいる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "劝诫；戒除；警戒",
+      "japanese": "戒める",
+      "kana": "いましめる",
+      "romaji": "imashimeru",
+      "tokens": [
+        {
+          "text": "戒める",
+          "kana": "いましめる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "概览，概观",
+      "japanese": "概観",
+      "kana": "がいかん",
+      "romaji": "gaikan",
+      "tokens": [
+        {
+          "text": "概観",
+          "kana": "がいかん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "分摊，分派",
+      "japanese": "割り振る",
+      "kana": "わりふる",
+      "romaji": "warifuru",
+      "tokens": [
+        {
+          "text": "割り振る",
+          "kana": "わりふる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "唤起，提醒",
+      "japanese": "喚起",
+      "kana": "かんき",
+      "romaji": "kanki",
+      "tokens": [
+        {
+          "text": "喚起",
+          "kana": "かんき"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "鉴于",
+      "japanese": "鑑みる",
+      "kana": "かんがみる",
+      "romaji": "kangamiru",
+      "tokens": [
+        {
+          "text": "鑑みる",
+          "kana": "かんがみる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "危惧，担心，担忧",
+      "japanese": "危惧",
+      "kana": "きぐ",
+      "romaji": "kigu",
+      "tokens": [
+        {
+          "text": "危惧",
+          "kana": "きぐ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "（身体）贴近，挨近",
+      "japanese": "寄り添う",
+      "kana": "よりそう",
+      "romaji": "yorisou",
+      "tokens": [
+        {
+          "text": "寄り添う",
+          "kana": "よりそう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "担心，挂念",
+      "japanese": "気遣う",
+      "kana": "きづかう",
+      "romaji": "kizukau",
+      "tokens": [
+        {
+          "text": "気遣う",
+          "kana": "きづかう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "歪曲，说谎；冒充，欺骗",
+      "japanese": "偽る",
+      "kana": "いつわる",
+      "romaji": "itsuwaru",
+      "tokens": [
+        {
+          "text": "偽る",
+          "kana": "いつわる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "玩耍；闹着玩；调情",
+      "japanese": "戯れる",
+      "kana": "たわむれる",
+      "romaji": "tawamureru",
+      "tokens": [
+        {
+          "text": "戯れる",
+          "kana": "たわむれる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "拒绝；阻挡",
+      "japanese": "拒む",
+      "kana": "こばむ",
+      "romaji": "kobamu",
+      "tokens": [
+        {
+          "text": "拒む",
+          "kana": "こばむ"
+        }
+      ]
+    }
+  ]
+}

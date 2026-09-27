@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-38",
+  "coursePackId": "jp-n1",
+  "title": "名词 38",
+  "order": 38,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "名誉，荣誉",
+      "japanese": "名誉",
+      "kana": "めいよ",
+      "romaji": "meiyo",
+      "tokens": [
+        {
+          "text": "名誉",
+          "kana": "めいよ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "（人生的）明暗，幸福与不幸；（颜色的）浓淡",
+      "japanese": "明暗",
+      "kana": "めいあん",
+      "romaji": "meian",
+      "tokens": [
+        {
+          "text": "明暗",
+          "kana": "めいあん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "明显，确凿",
+      "japanese": "明白",
+      "kana": "めいはく",
+      "romaji": "meihaku",
+      "tokens": [
+        {
+          "text": "明白",
+          "kana": "めいはく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "灭亡",
+      "japanese": "滅亡",
+      "kana": "めつぼう",
+      "romaji": "metsubou",
+      "tokens": [
+        {
+          "text": "滅亡",
+          "kana": "めつぼう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "免除，豁免",
+      "japanese": "免除",
+      "kana": "めんじょ",
+      "romaji": "menjo",
+      "tokens": [
+        {
+          "text": "免除",
+          "kana": "めんじょ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "见面，会面",
+      "japanese": "面会",
+      "kana": "めんかい",
+      "romaji": "menkai",
+      "tokens": [
+        {
+          "text": "面会",
+          "kana": "めんかい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "模仿",
+      "japanese": "模倣",
+      "kana": "もほう",
+      "romaji": "mohou",
+      "tokens": [
+        {
+          "text": "模倣",
+          "kana": "もほう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "野心，抱负",
+      "japanese": "野心",
+      "kana": "やしん",
+      "romaji": "yashin",
+      "tokens": [
+        {
+          "text": "野心",
+          "kana": "やしん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "优势，优越地位",
+      "japanese": "優位",
+      "kana": "ゆうい",
+      "romaji": "yuui",
+      "tokens": [
+        {
+          "text": "優位",
+          "kana": "ゆうい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "优势",
+      "japanese": "優勢",
+      "kana": "ゆうせい",
+      "romaji": "yuusei",
+      "tokens": [
+        {
+          "text": "優勢",
+          "kana": "ゆうせい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "优美",
+      "japanese": "優美",
+      "kana": "ゆうび",
+      "romaji": "yuubi",
+      "tokens": [
+        {
+          "text": "優美",
+          "kana": "ゆうび"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "勇敢",
+      "japanese": "勇敢",
+      "kana": "ゆうかん",
+      "romaji": "yuukan",
+      "tokens": [
+        {
+          "text": "勇敢",
+          "kana": "ゆうかん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "有益，有意义",
+      "japanese": "有益",
+      "kana": "ゆうえき",
+      "romaji": "yuueki",
+      "tokens": [
+        {
+          "text": "有益",
+          "kana": "ゆうえき"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "屈指可数",
+      "japanese": "有数",
+      "kana": "ゆうすう",
+      "romaji": "yuusuu",
+      "tokens": [
+        {
+          "text": "有数",
+          "kana": "ゆうすう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "引导，诱导",
+      "japanese": "誘導",
+      "kana": "ゆうどう",
+      "romaji": "yuudou",
+      "tokens": [
+        {
+          "text": "誘導",
+          "kana": "ゆうどう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "融合",
+      "japanese": "融合",
+      "kana": "ゆうごう",
+      "romaji": "yuugou",
+      "tokens": [
+        {
+          "text": "融合",
+          "kana": "ゆうごう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "融资，贷款",
+      "japanese": "融資",
+      "kana": "ゆうし",
+      "romaji": "yuushi",
+      "tokens": [
+        {
+          "text": "融資",
+          "kana": "ゆうし"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "借贷；随机应变",
+      "japanese": "融通",
+      "kana": "ゆうずう",
+      "romaji": "yuuzuu",
+      "tokens": [
+        {
+          "text": "融通",
+          "kana": "ゆうずう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "预言",
+      "japanese": "予言",
+      "kana": "よげん",
+      "romaji": "yogen",
+      "tokens": [
+        {
+          "text": "予言",
+          "kana": "よげん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "余地",
+      "japanese": "余地",
+      "kana": "よち",
+      "romaji": "yochi",
+      "tokens": [
+        {
+          "text": "余地",
+          "kana": "よち"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（事物的）状态，样子，姿态",
+      "japanese": "様相",
+      "kana": "ようそう",
+      "romaji": "yousou",
+      "tokens": [
+        {
+          "text": "様相",
+          "kana": "ようそう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "请求，要求",
+      "japanese": "要請",
+      "kana": "ようせい",
+      "romaji": "yousei",
+      "tokens": [
+        {
+          "text": "要請",
+          "kana": "ようせい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "压迫，压制（行动、欲望等）",
+      "japanese": "抑圧",
+      "kana": "よくあつ",
+      "romaji": "yokuatsu",
+      "tokens": [
+        {
+          "text": "抑圧",
+          "kana": "よくあつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "抑制，制止",
+      "japanese": "抑制",
+      "kana": "よくせい",
+      "romaji": "yokusei",
+      "tokens": [
+        {
+          "text": "抑制",
+          "kana": "よくせい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "来访",
+      "japanese": "来訪",
+      "kana": "らいほう",
+      "romaji": "raihou",
+      "tokens": [
+        {
+          "text": "来訪",
+          "kana": "らいほう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "落下，掉下",
+      "japanese": "落下",
+      "kana": "らっか",
+      "romaji": "rakka",
+      "tokens": [
+        {
+          "text": "落下",
+          "kana": "らっか"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "乳畜业",
+      "japanese": "酪農",
+      "kana": "らくのう",
+      "romaji": "rakunou",
+      "tokens": [
+        {
+          "text": "酪農",
+          "kana": "らくのう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "流通",
+      "japanese": "流通",
+      "kana": "りゅうつう",
+      "romaji": "ryuutsuu",
+      "tokens": [
+        {
+          "text": "流通",
+          "kana": "りゅうつう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "两极，两端；南北极；阴阳极",
+      "japanese": "両極",
+      "kana": "りょうきょく",
+      "romaji": "ryoukyoku",
+      "tokens": [
+        {
+          "text": "両極",
+          "kana": "りょうきょく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "良心",
+      "japanese": "良心",
+      "kana": "りょうしん",
+      "romaji": "ryoushin",
+      "tokens": [
+        {
+          "text": "良心",
+          "kana": "りょうしん"
+        }
+      ]
+    }
+  ]
+}

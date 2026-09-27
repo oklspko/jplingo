@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-10",
+  "coursePackId": "jp-gaokao",
+  "title": "动词必考 2",
+  "order": 10,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "玩耍、玩儿",
+      "japanese": "遊ぶ",
+      "kana": "あそぶ",
+      "romaji": "asobu",
+      "tokens": [
+        {
+          "text": "遊ぶ",
+          "kana": "あそぶ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "迷失、迷茫",
+      "japanese": "迷う",
+      "kana": "まよう",
+      "romaji": "mayou",
+      "tokens": [
+        {
+          "text": "迷う",
+          "kana": "まよう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "改变、更改",
+      "japanese": "変える",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "tokens": [
+        {
+          "text": "変える",
+          "kana": "かえる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "学习",
+      "japanese": "習う",
+      "kana": "ならう",
+      "romaji": "narau",
+      "tokens": [
+        {
+          "text": "習う",
+          "kana": "ならう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "出门、出去",
+      "japanese": "出かける",
+      "kana": "でかける",
+      "romaji": "dekakeru",
+      "tokens": [
+        {
+          "text": "出かける",
+          "kana": "でかける"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "挂到、装到、花费",
+      "japanese": "掛ける",
+      "kana": "かける",
+      "romaji": "kakeru",
+      "tokens": [
+        {
+          "text": "掛ける",
+          "kana": "かける"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "借、租（借）、借助",
+      "japanese": "借りる",
+      "kana": "かりる",
+      "romaji": "kariru",
+      "tokens": [
+        {
+          "text": "借りる",
+          "kana": "かりる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "做完、解决",
+      "japanese": "しまう",
+      "kana": "しまう",
+      "romaji": "shimau",
+      "tokens": [
+        {
+          "text": "しまう",
+          "kana": "しまう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（自他一）说、讲、告诉",
+      "japanese": "言う",
+      "kana": "いう",
+      "romaji": "iu",
+      "tokens": [
+        {
+          "text": "言う",
+          "kana": "いう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "能够",
+      "japanese": "出来る",
+      "kana": "できる",
+      "romaji": "dekiru",
+      "tokens": [
+        {
+          "text": "出来る",
+          "kana": "できる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "改变、变化",
+      "japanese": "変わる",
+      "kana": "かわる",
+      "romaji": "kawaru",
+      "tokens": [
+        {
+          "text": "変わる",
+          "kana": "かわる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "出来、出现、离开",
+      "japanese": "出る",
+      "kana": "でる",
+      "romaji": "deru",
+      "tokens": [
+        {
+          "text": "出る",
+          "kana": "でる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "走路、步行",
+      "japanese": "歩く",
+      "kana": "あるく",
+      "romaji": "aruku",
+      "tokens": [
+        {
+          "text": "歩く",
+          "kana": "あるく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "符合、一致、合适",
+      "japanese": "合う",
+      "kana": "あう",
+      "romaji": "au",
+      "tokens": [
+        {
+          "text": "合う",
+          "kana": "あう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "说、讲",
+      "japanese": "話す",
+      "kana": "はなす",
+      "romaji": "hanasu",
+      "tokens": [
+        {
+          "text": "話す",
+          "kana": "はなす"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "下、降（雨雪）",
+      "japanese": "降る",
+      "kana": "ふる",
+      "romaji": "furu",
+      "tokens": [
+        {
+          "text": "降る",
+          "kana": "ふる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "选择、挑选、选举",
+      "japanese": "選ぶ",
+      "kana": "えらぶ",
+      "romaji": "erabu",
+      "tokens": [
+        {
+          "text": "選ぶ",
+          "kana": "えらぶ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "用、使用",
+      "japanese": "使う",
+      "kana": "つかう",
+      "romaji": "tsukau",
+      "tokens": [
+        {
+          "text": "使う",
+          "kana": "つかう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "售、卖；出卖",
+      "japanese": "売る",
+      "kana": "うる",
+      "romaji": "uru",
+      "tokens": [
+        {
+          "text": "売る",
+          "kana": "うる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "教、告诉",
+      "japanese": "教える",
+      "kana": "おしえる",
+      "romaji": "oshieru",
+      "tokens": [
+        {
+          "text": "教える",
+          "kana": "おしえる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "学习",
+      "japanese": "学ぶ",
+      "kana": "まなぶ",
+      "romaji": "manabu",
+      "tokens": [
+        {
+          "text": "学ぶ",
+          "kana": "まなぶ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "等、等待",
+      "japanese": "待つ",
+      "kana": "まつ",
+      "romaji": "matsu",
+      "tokens": [
+        {
+          "text": "待つ",
+          "kana": "まつ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "遇见、碰见、见面",
+      "japanese": "会う",
+      "kana": "あう",
+      "romaji": "au",
+      "tokens": [
+        {
+          "text": "会う",
+          "kana": "あう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "挂上、花费",
+      "japanese": "掛かる",
+      "kana": "かかる",
+      "romaji": "kakaru",
+      "tokens": [
+        {
+          "text": "掛かる",
+          "kana": "かかる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "进入、装有",
+      "japanese": "入る",
+      "kana": "はいる",
+      "romaji": "hairu",
+      "tokens": [
+        {
+          "text": "入る",
+          "kana": "はいる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "借出、借给",
+      "japanese": "貸す",
+      "kana": "かす",
+      "romaji": "kasu",
+      "tokens": [
+        {
+          "text": "貸す",
+          "kana": "かす"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "拿、带",
+      "japanese": "持つ",
+      "kana": "もつ",
+      "romaji": "motsu",
+      "tokens": [
+        {
+          "text": "持つ",
+          "kana": "もつ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（自他三）学习、用功读书",
+      "japanese": "勉強する",
+      "kana": "べんきょうする",
+      "romaji": "benkyousuru",
+      "tokens": [
+        {
+          "text": "勉強する",
+          "kana": "べんきょうする"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "拿出、寄出、提出",
+      "japanese": "出す",
+      "kana": "だす",
+      "romaji": "dasu",
+      "tokens": [
+        {
+          "text": "出す",
+          "kana": "だす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "渡、过、经过",
+      "japanese": "渡る",
+      "kana": "わたる",
+      "romaji": "wataru",
+      "tokens": [
+        {
+          "text": "渡る",
+          "kana": "わたる"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "挂上、花费",
+      "japanese": "掛かる",
+      "kana": "かかる",
+      "romaji": "kakaru",
+      "tokens": [
+        {
+          "text": "掛かる",
+          "kana": "かかる"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "选择、挑选、选举",
+      "japanese": "選ぶ",
+      "kana": "えらぶ",
+      "romaji": "erabu",
+      "tokens": [
+        {
+          "text": "選ぶ",
+          "kana": "えらぶ"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "说、讲",
+      "japanese": "話す",
+      "kana": "はなす",
+      "romaji": "hanasu",
+      "tokens": [
+        {
+          "text": "話す",
+          "kana": "はなす"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "用、使用",
+      "japanese": "使う",
+      "kana": "つかう",
+      "romaji": "tsukau",
+      "tokens": [
+        {
+          "text": "使う",
+          "kana": "つかう"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "（自他一）说、讲、告诉",
+      "japanese": "言う",
+      "kana": "いう",
+      "romaji": "iu",
+      "tokens": [
+        {
+          "text": "言う",
+          "kana": "いう"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "能够",
+      "japanese": "出来る",
+      "kana": "できる",
+      "romaji": "dekiru",
+      "tokens": [
+        {
+          "text": "出来る",
+          "kana": "できる"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "学习",
+      "japanese": "習う",
+      "kana": "ならう",
+      "romaji": "narau",
+      "tokens": [
+        {
+          "text": "習う",
+          "kana": "ならう"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "做完、解决",
+      "japanese": "しまう",
+      "kana": "しまう",
+      "romaji": "shimau",
+      "tokens": [
+        {
+          "text": "しまう",
+          "kana": "しまう"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "学习",
+      "japanese": "学ぶ",
+      "kana": "まなぶ",
+      "romaji": "manabu",
+      "tokens": [
+        {
+          "text": "学ぶ",
+          "kana": "まなぶ"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "进入、装有",
+      "japanese": "入る",
+      "kana": "はいる",
+      "romaji": "hairu",
+      "tokens": [
+        {
+          "text": "入る",
+          "kana": "はいる"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "拿出、寄出、提出",
+      "japanese": "出す",
+      "kana": "だす",
+      "romaji": "dasu",
+      "tokens": [
+        {
+          "text": "出す",
+          "kana": "だす"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "拿、带",
+      "japanese": "持つ",
+      "kana": "もつ",
+      "romaji": "motsu",
+      "tokens": [
+        {
+          "text": "持つ",
+          "kana": "もつ"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "玩耍、玩儿",
+      "japanese": "遊ぶ",
+      "kana": "あそぶ",
+      "romaji": "asobu",
+      "tokens": [
+        {
+          "text": "遊ぶ",
+          "kana": "あそぶ"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "挂到、装到、花费",
+      "japanese": "掛ける",
+      "kana": "かける",
+      "romaji": "kakeru",
+      "tokens": [
+        {
+          "text": "掛ける",
+          "kana": "かける"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "售、卖；出卖",
+      "japanese": "売る",
+      "kana": "うる",
+      "romaji": "uru",
+      "tokens": [
+        {
+          "text": "売る",
+          "kana": "うる"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "符合、一致、合适",
+      "japanese": "合う",
+      "kana": "あう",
+      "romaji": "au",
+      "tokens": [
+        {
+          "text": "合う",
+          "kana": "あう"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "出门、出去",
+      "japanese": "出かける",
+      "kana": "でかける",
+      "romaji": "dekakeru",
+      "tokens": [
+        {
+          "text": "出かける",
+          "kana": "でかける"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "下、降（雨雪）",
+      "japanese": "降る",
+      "kana": "ふる",
+      "romaji": "furu",
+      "tokens": [
+        {
+          "text": "降る",
+          "kana": "ふる"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "遇见、碰见、见面",
+      "japanese": "会う",
+      "kana": "あう",
+      "romaji": "au",
+      "tokens": [
+        {
+          "text": "会う",
+          "kana": "あう"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "改变、变化",
+      "japanese": "変わる",
+      "kana": "かわる",
+      "romaji": "kawaru",
+      "tokens": [
+        {
+          "text": "変わる",
+          "kana": "かわる"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "渡、过、经过",
+      "japanese": "渡る",
+      "kana": "わたる",
+      "romaji": "wataru",
+      "tokens": [
+        {
+          "text": "渡る",
+          "kana": "わたる"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "教、告诉",
+      "japanese": "教える",
+      "kana": "おしえる",
+      "romaji": "oshieru",
+      "tokens": [
+        {
+          "text": "教える",
+          "kana": "おしえる"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "（自他三）学习、用功读书",
+      "japanese": "勉強する",
+      "kana": "べんきょうする",
+      "romaji": "benkyousuru",
+      "tokens": [
+        {
+          "text": "勉強する",
+          "kana": "べんきょうする"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "等、等待",
+      "japanese": "待つ",
+      "kana": "まつ",
+      "romaji": "matsu",
+      "tokens": [
+        {
+          "text": "待つ",
+          "kana": "まつ"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "出来、出现、离开",
+      "japanese": "出る",
+      "kana": "でる",
+      "romaji": "deru",
+      "tokens": [
+        {
+          "text": "出る",
+          "kana": "でる"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "改变、更改",
+      "japanese": "変える",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "tokens": [
+        {
+          "text": "変える",
+          "kana": "かえる"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "借出、借给",
+      "japanese": "貸す",
+      "kana": "かす",
+      "romaji": "kasu",
+      "tokens": [
+        {
+          "text": "貸す",
+          "kana": "かす"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "走路、步行",
+      "japanese": "歩く",
+      "kana": "あるく",
+      "romaji": "aruku",
+      "tokens": [
+        {
+          "text": "歩く",
+          "kana": "あるく"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "迷失、迷茫",
+      "japanese": "迷う",
+      "kana": "まよう",
+      "romaji": "mayou",
+      "tokens": [
+        {
+          "text": "迷う",
+          "kana": "まよう"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "借、租（借）、借助",
+      "japanese": "借りる",
+      "kana": "かりる",
+      "romaji": "kariru",
+      "tokens": [
+        {
+          "text": "借りる",
+          "kana": "かりる"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "做完、解决",
+      "japanese": "しまう",
+      "kana": "しまう",
+      "romaji": "shimau",
+      "tokens": [
+        {
+          "text": "しまう",
+          "kana": "しまう"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "教、告诉",
+      "japanese": "教える",
+      "kana": "おしえる",
+      "romaji": "oshieru",
+      "tokens": [
+        {
+          "text": "教える",
+          "kana": "おしえる"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "说、讲",
+      "japanese": "話す",
+      "kana": "はなす",
+      "romaji": "hanasu",
+      "tokens": [
+        {
+          "text": "話す",
+          "kana": "はなす"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "进入、装有",
+      "japanese": "入る",
+      "kana": "はいる",
+      "romaji": "hairu",
+      "tokens": [
+        {
+          "text": "入る",
+          "kana": "はいる"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "遇见、碰见、见面",
+      "japanese": "会う",
+      "kana": "あう",
+      "romaji": "au",
+      "tokens": [
+        {
+          "text": "会う",
+          "kana": "あう"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "出来、出现、离开",
+      "japanese": "出る",
+      "kana": "でる",
+      "romaji": "deru",
+      "tokens": [
+        {
+          "text": "出る",
+          "kana": "でる"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "改变、变化",
+      "japanese": "変わる",
+      "kana": "かわる",
+      "romaji": "kawaru",
+      "tokens": [
+        {
+          "text": "変わる",
+          "kana": "かわる"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "渡、过、经过",
+      "japanese": "渡る",
+      "kana": "わたる",
+      "romaji": "wataru",
+      "tokens": [
+        {
+          "text": "渡る",
+          "kana": "わたる"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "拿出、寄出、提出",
+      "japanese": "出す",
+      "kana": "だす",
+      "romaji": "dasu",
+      "tokens": [
+        {
+          "text": "出す",
+          "kana": "だす"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "走路、步行",
+      "japanese": "歩く",
+      "kana": "あるく",
+      "romaji": "aruku",
+      "tokens": [
+        {
+          "text": "歩く",
+          "kana": "あるく"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "学习",
+      "japanese": "学ぶ",
+      "kana": "まなぶ",
+      "romaji": "manabu",
+      "tokens": [
+        {
+          "text": "学ぶ",
+          "kana": "まなぶ"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "借、租（借）、借助",
+      "japanese": "借りる",
+      "kana": "かりる",
+      "romaji": "kariru",
+      "tokens": [
+        {
+          "text": "借りる",
+          "kana": "かりる"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "用、使用",
+      "japanese": "使う",
+      "kana": "つかう",
+      "romaji": "tsukau",
+      "tokens": [
+        {
+          "text": "使う",
+          "kana": "つかう"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "借出、借给",
+      "japanese": "貸す",
+      "kana": "かす",
+      "romaji": "kasu",
+      "tokens": [
+        {
+          "text": "貸す",
+          "kana": "かす"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "能够",
+      "japanese": "出来る",
+      "kana": "できる",
+      "romaji": "dekiru",
+      "tokens": [
+        {
+          "text": "出来る",
+          "kana": "できる"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "迷失、迷茫",
+      "japanese": "迷う",
+      "kana": "まよう",
+      "romaji": "mayou",
+      "tokens": [
+        {
+          "text": "迷う",
+          "kana": "まよう"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "（自他三）学习、用功读书",
+      "japanese": "勉強する",
+      "kana": "べんきょうする",
+      "romaji": "benkyousuru",
+      "tokens": [
+        {
+          "text": "勉強する",
+          "kana": "べんきょうする"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "选择、挑选、选举",
+      "japanese": "選ぶ",
+      "kana": "えらぶ",
+      "romaji": "erabu",
+      "tokens": [
+        {
+          "text": "選ぶ",
+          "kana": "えらぶ"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "挂到、装到、花费",
+      "japanese": "掛ける",
+      "kana": "かける",
+      "romaji": "kakeru",
+      "tokens": [
+        {
+          "text": "掛ける",
+          "kana": "かける"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "改变、更改",
+      "japanese": "変える",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "tokens": [
+        {
+          "text": "変える",
+          "kana": "かえる"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "售、卖；出卖",
+      "japanese": "売る",
+      "kana": "うる",
+      "romaji": "uru",
+      "tokens": [
+        {
+          "text": "売る",
+          "kana": "うる"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "拿、带",
+      "japanese": "持つ",
+      "kana": "もつ",
+      "romaji": "motsu",
+      "tokens": [
+        {
+          "text": "持つ",
+          "kana": "もつ"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "学习",
+      "japanese": "習う",
+      "kana": "ならう",
+      "romaji": "narau",
+      "tokens": [
+        {
+          "text": "習う",
+          "kana": "ならう"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "（自他一）说、讲、告诉",
+      "japanese": "言う",
+      "kana": "いう",
+      "romaji": "iu",
+      "tokens": [
+        {
+          "text": "言う",
+          "kana": "いう"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "等、等待",
+      "japanese": "待つ",
+      "kana": "まつ",
+      "romaji": "matsu",
+      "tokens": [
+        {
+          "text": "待つ",
+          "kana": "まつ"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "下、降（雨雪）",
+      "japanese": "降る",
+      "kana": "ふる",
+      "romaji": "furu",
+      "tokens": [
+        {
+          "text": "降る",
+          "kana": "ふる"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "玩耍、玩儿",
+      "japanese": "遊ぶ",
+      "kana": "あそぶ",
+      "romaji": "asobu",
+      "tokens": [
+        {
+          "text": "遊ぶ",
+          "kana": "あそぶ"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "符合、一致、合适",
+      "japanese": "合う",
+      "kana": "あう",
+      "romaji": "au",
+      "tokens": [
+        {
+          "text": "合う",
+          "kana": "あう"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "出门、出去",
+      "japanese": "出かける",
+      "kana": "でかける",
+      "romaji": "dekakeru",
+      "tokens": [
+        {
+          "text": "出かける",
+          "kana": "でかける"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "挂上、花费",
+      "japanese": "掛かる",
+      "kana": "かかる",
+      "romaji": "kakaru",
+      "tokens": [
+        {
+          "text": "掛かる",
+          "kana": "かかる"
+        }
+      ]
+    }
+  ]
+}

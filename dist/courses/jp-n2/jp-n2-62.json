@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-62",
+  "coursePackId": "jp-n2",
+  "title": "名词 62",
+  "order": 62,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "为难，困惑",
+      "japanese": "当惑",
+      "kana": "とうわく",
+      "romaji": "touwaku",
+      "tokens": [
+        {
+          "text": "当惑",
+          "kana": "とうわく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "别的屋子；特别房间，雅座",
+      "japanese": "別室",
+      "kana": "べっしつ",
+      "romaji": "besshitsu",
+      "tokens": [
+        {
+          "text": "別室",
+          "kana": "べっしつ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "过度，过分",
+      "japanese": "過度",
+      "kana": "かど",
+      "romaji": "kado",
+      "tokens": [
+        {
+          "text": "過度",
+          "kana": "かど"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "邻人，邻居，街坊",
+      "japanese": "隣人",
+      "kana": "りんじん",
+      "romaji": "rinjin",
+      "tokens": [
+        {
+          "text": "隣人",
+          "kana": "りんじん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "就寝，睡觉",
+      "japanese": "就寝",
+      "kana": "しゅうしん",
+      "romaji": "shuushin",
+      "tokens": [
+        {
+          "text": "就寝",
+          "kana": "しゅうしん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "全面，全部，一切；整版",
+      "japanese": "全面",
+      "kana": "ぜんめん",
+      "romaji": "zenmen",
+      "tokens": [
+        {
+          "text": "全面",
+          "kana": "ぜんめん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "初夏",
+      "japanese": "初夏",
+      "kana": "しょか",
+      "romaji": "shoka",
+      "tokens": [
+        {
+          "text": "初夏",
+          "kana": "しょか"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "图示板；显示板；屏幕",
+      "japanese": "パネル",
+      "kana": "ぱねる",
+      "romaji": "paneru",
+      "tokens": [
+        {
+          "text": "パネル",
+          "kana": "ぱねる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "脊梁骨，脊骨，脊柱",
+      "japanese": "背骨",
+      "kana": "せぼね",
+      "romaji": "sebone",
+      "tokens": [
+        {
+          "text": "背骨",
+          "kana": "せぼね"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "交界线，分界线；关键，关头",
+      "japanese": "境目",
+      "kana": "さかいめ",
+      "romaji": "sakaime",
+      "tokens": [
+        {
+          "text": "境目",
+          "kana": "さかいめ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "旅途，旅行",
+      "japanese": "旅路",
+      "kana": "たびじ",
+      "romaji": "tabiji",
+      "tokens": [
+        {
+          "text": "旅路",
+          "kana": "たびじ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "一箭双雕，一举两得",
+      "japanese": "一石二鳥",
+      "kana": "いっせきにちょう",
+      "romaji": "issekinichou",
+      "tokens": [
+        {
+          "text": "一石二鳥",
+          "kana": "いっせきにちょう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "黏土，软泥",
+      "japanese": "粘土",
+      "kana": "ねんど",
+      "romaji": "nendo",
+      "tokens": [
+        {
+          "text": "粘土",
+          "kana": "ねんど"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "减速",
+      "japanese": "減速",
+      "kana": "げんそく",
+      "romaji": "gensoku",
+      "tokens": [
+        {
+          "text": "減速",
+          "kana": "げんそく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "顺序",
+      "japanese": "序列",
+      "kana": "じょれつ",
+      "romaji": "joretsu",
+      "tokens": [
+        {
+          "text": "序列",
+          "kana": "じょれつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "遗传",
+      "japanese": "遺伝",
+      "kana": "いでん",
+      "romaji": "iden",
+      "tokens": [
+        {
+          "text": "遺伝",
+          "kana": "いでん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "开幕，开场；开始",
+      "japanese": "開幕",
+      "kana": "かいまく",
+      "romaji": "kaimaku",
+      "tokens": [
+        {
+          "text": "開幕",
+          "kana": "かいまく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "减半",
+      "japanese": "半減",
+      "kana": "はんげん",
+      "romaji": "hangen",
+      "tokens": [
+        {
+          "text": "半減",
+          "kana": "はんげん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "来访，来临；音信，消息",
+      "japanese": "訪れ",
+      "kana": "おとずれ",
+      "romaji": "otozure",
+      "tokens": [
+        {
+          "text": "訪れ",
+          "kana": "おとずれ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "题材",
+      "japanese": "題材",
+      "kana": "だいざい",
+      "romaji": "daizai",
+      "tokens": [
+        {
+          "text": "題材",
+          "kana": "だいざい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "要事；必要条件",
+      "japanese": "要件",
+      "kana": "ようけん",
+      "romaji": "youken",
+      "tokens": [
+        {
+          "text": "要件",
+          "kana": "ようけん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "街景",
+      "japanese": "町並み",
+      "kana": "まちなみ",
+      "romaji": "machinami",
+      "tokens": [
+        {
+          "text": "町並み",
+          "kana": "まちなみ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "早期；提前",
+      "japanese": "早期",
+      "kana": "そうき",
+      "romaji": "souki",
+      "tokens": [
+        {
+          "text": "早期",
+          "kana": "そうき"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "凹凸，凹凸不平，高低不平",
+      "japanese": "凹凸",
+      "kana": "おうとつ",
+      "romaji": "outotsu",
+      "tokens": [
+        {
+          "text": "凹凸",
+          "kana": "おうとつ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "照料，照顾，关照",
+      "japanese": "気配り",
+      "kana": "きくばり",
+      "romaji": "kikubari",
+      "tokens": [
+        {
+          "text": "気配り",
+          "kana": "きくばり"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "冷水",
+      "japanese": "冷水",
+      "kana": "れいすい",
+      "romaji": "reisui",
+      "tokens": [
+        {
+          "text": "冷水",
+          "kana": "れいすい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "原野，野地",
+      "japanese": "野原",
+      "kana": "のはら",
+      "romaji": "nohara",
+      "tokens": [
+        {
+          "text": "野原",
+          "kana": "のはら"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "图章，戳子",
+      "japanese": "スタンプ",
+      "kana": "すたんぷ",
+      "romaji": "sutanpu",
+      "tokens": [
+        {
+          "text": "スタンプ",
+          "kana": "すたんぷ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "互相通讯（联系）",
+      "japanese": "交信",
+      "kana": "こうしん",
+      "romaji": "koushin",
+      "tokens": [
+        {
+          "text": "交信",
+          "kana": "こうしん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "平面",
+      "japanese": "平面",
+      "kana": "へいめん",
+      "romaji": "heimen",
+      "tokens": [
+        {
+          "text": "平面",
+          "kana": "へいめん"
+        }
+      ]
+    }
+  ]
+}

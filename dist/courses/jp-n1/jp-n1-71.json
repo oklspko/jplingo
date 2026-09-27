@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-71",
+  "coursePackId": "jp-n1",
+  "title": "名词 71",
+  "order": 71,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "口中余味；余味，后味",
+      "japanese": "後味",
+      "kana": "あとあじ",
+      "romaji": "atoaji",
+      "tokens": [
+        {
+          "text": "後味",
+          "kana": "あとあじ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "存亡",
+      "japanese": "存亡",
+      "kana": "そんぼう",
+      "romaji": "sonbou",
+      "tokens": [
+        {
+          "text": "存亡",
+          "kana": "そんぼう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "总括到一起，归拢到一起",
+      "japanese": "一まとめ",
+      "kana": "ひとまとめ",
+      "romaji": "hitomatome",
+      "tokens": [
+        {
+          "text": "一まとめ",
+          "kana": "ひとまとめ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "失意，不得志",
+      "japanese": "失意",
+      "kana": "しつい",
+      "romaji": "shitsui",
+      "tokens": [
+        {
+          "text": "失意",
+          "kana": "しつい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "往时，从前",
+      "japanese": "往年",
+      "kana": "おうねん",
+      "romaji": "ounen",
+      "tokens": [
+        {
+          "text": "往年",
+          "kana": "おうねん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "车中，车上，车内",
+      "japanese": "車中",
+      "kana": "しゃちゅう",
+      "romaji": "shachuu",
+      "tokens": [
+        {
+          "text": "車中",
+          "kana": "しゃちゅう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "抑扬",
+      "japanese": "抑揚",
+      "kana": "よくよう",
+      "romaji": "yokuyou",
+      "tokens": [
+        {
+          "text": "抑揚",
+          "kana": "よくよう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "严寒，酷寒",
+      "japanese": "厳寒",
+      "kana": "げんかん",
+      "romaji": "genkan",
+      "tokens": [
+        {
+          "text": "厳寒",
+          "kana": "げんかん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "平房",
+      "japanese": "平屋",
+      "kana": "ひらや",
+      "romaji": "hiraya",
+      "tokens": [
+        {
+          "text": "平屋",
+          "kana": "ひらや"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "路面",
+      "japanese": "路面",
+      "kana": "ろめん",
+      "romaji": "romen",
+      "tokens": [
+        {
+          "text": "路面",
+          "kana": "ろめん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "余力",
+      "japanese": "余力",
+      "kana": "よりょく",
+      "romaji": "yoryoku",
+      "tokens": [
+        {
+          "text": "余力",
+          "kana": "よりょく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "白，白色",
+      "japanese": "ホワイト",
+      "kana": "ほわいと",
+      "romaji": "howaito",
+      "tokens": [
+        {
+          "text": "ホワイト",
+          "kana": "ほわいと"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "意外，不测",
+      "japanese": "不慮",
+      "kana": "ふりょ",
+      "romaji": "furyo",
+      "tokens": [
+        {
+          "text": "不慮",
+          "kana": "ふりょ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "单行本",
+      "japanese": "単行本",
+      "kana": "たんこうぼん",
+      "romaji": "tankoubon",
+      "tokens": [
+        {
+          "text": "単行本",
+          "kana": "たんこうぼん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "自己，自身，全身",
+      "japanese": "一身",
+      "kana": "いっしん",
+      "romaji": "isshin",
+      "tokens": [
+        {
+          "text": "一身",
+          "kana": "いっしん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "一贯的主张",
+      "japanese": "持論",
+      "kana": "じろん",
+      "romaji": "jiron",
+      "tokens": [
+        {
+          "text": "持論",
+          "kana": "じろん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "果敢的行动，壮举，令人称快的行为",
+      "japanese": "快挙",
+      "kana": "かいきょ",
+      "romaji": "kaikyo",
+      "tokens": [
+        {
+          "text": "快挙",
+          "kana": "かいきょ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "禁止通行",
+      "japanese": "通行止め",
+      "kana": "つうこうどめ",
+      "romaji": "tsuukoudome",
+      "tokens": [
+        {
+          "text": "通行止め",
+          "kana": "つうこうどめ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "中心，核心，骨干",
+      "japanese": "中核",
+      "kana": "ちゅうかく",
+      "romaji": "chuukaku",
+      "tokens": [
+        {
+          "text": "中核",
+          "kana": "ちゅうかく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "己见，自己的意见",
+      "japanese": "自説",
+      "kana": "じせつ",
+      "romaji": "jisetsu",
+      "tokens": [
+        {
+          "text": "自説",
+          "kana": "じせつ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "托盘；收容的机构",
+      "japanese": "受け皿",
+      "kana": "うけざら",
+      "romaji": "ukezara",
+      "tokens": [
+        {
+          "text": "受け皿",
+          "kana": "うけざら"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "巨大，极大",
+      "japanese": "絶大",
+      "kana": "ぜつだい",
+      "romaji": "zetsudai",
+      "tokens": [
+        {
+          "text": "絶大",
+          "kana": "ぜつだい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "主要的，重要的，中心的",
+      "japanese": "メイン",
+      "kana": "めいん",
+      "romaji": "mein",
+      "tokens": [
+        {
+          "text": "メイン",
+          "kana": "めいん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "孤高，高傲",
+      "japanese": "孤高",
+      "kana": "ここう",
+      "romaji": "kokou",
+      "tokens": [
+        {
+          "text": "孤高",
+          "kana": "ここう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "强烈，深刻",
+      "japanese": "鮮烈",
+      "kana": "せんれつ",
+      "romaji": "senretsu",
+      "tokens": [
+        {
+          "text": "鮮烈",
+          "kana": "せんれつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "难解，难懂",
+      "japanese": "難解",
+      "kana": "なんかい",
+      "romaji": "nankai",
+      "tokens": [
+        {
+          "text": "難解",
+          "kana": "なんかい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "不能；无能，没有才能",
+      "japanese": "不能",
+      "kana": "ふのう",
+      "romaji": "funou",
+      "tokens": [
+        {
+          "text": "不能",
+          "kana": "ふのう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "想要逃脱，想要逃避",
+      "japanese": "逃げ腰",
+      "kana": "にげごし",
+      "romaji": "nigegoshi",
+      "tokens": [
+        {
+          "text": "逃げ腰",
+          "kana": "にげごし"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "深远，深奥",
+      "japanese": "深遠",
+      "kana": "しんえん",
+      "romaji": "shin'en",
+      "tokens": [
+        {
+          "text": "深遠",
+          "kana": "しんえん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "另，另外",
+      "japanese": "別途",
+      "kana": "べっと",
+      "romaji": "betto",
+      "tokens": [
+        {
+          "text": "別途",
+          "kana": "べっと"
+        }
+      ]
+    }
+  ]
+}

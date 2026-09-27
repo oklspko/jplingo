@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-22",
+  "coursePackId": "jp-n5",
+  "title": "形容词 1",
+  "order": 22,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（后接否定）不太，不很；（后接肯定）太，过分",
+      "japanese": "あまり",
+      "kana": "あまり",
+      "romaji": "amari",
+      "tokens": [
+        {
+          "text": "あまり",
+          "kana": "あまり"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "好的；可以；合适，足够",
+      "japanese": "いい",
+      "kana": "いい",
+      "romaji": "ii",
+      "tokens": [
+        {
+          "text": "いい",
+          "kana": "いい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "⓪（いっぱい）充满，很多；①一杯，一碗",
+      "japanese": "いっぱい",
+      "kana": "いっぱい",
+      "romaji": "ippai",
+      "tokens": [
+        {
+          "text": "いっぱい",
+          "kana": "いっぱい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "各种各样，形形色色",
+      "japanese": "いろいろ",
+      "kana": "いろいろ",
+      "romaji": "iroiro",
+      "tokens": [
+        {
+          "text": "いろいろ",
+          "kana": "いろいろ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "吵的，令人烦躁的；爱唠叨的",
+      "japanese": "うるさい",
+      "kana": "うるさい",
+      "romaji": "urusai",
+      "tokens": [
+        {
+          "text": "うるさい",
+          "kana": "うるさい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "美味的，好吃的",
+      "japanese": "おいしい",
+      "kana": "おいしい",
+      "romaji": "oishii",
+      "tokens": [
+        {
+          "text": "おいしい",
+          "kana": "おいしい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "可爱的",
+      "japanese": "かわいい",
+      "kana": "かわいい",
+      "romaji": "kawaii",
+      "tokens": [
+        {
+          "text": "かわいい",
+          "kana": "かわいい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "好看，美丽；干净，整洁",
+      "japanese": "きれい",
+      "kana": "きれい",
+      "romaji": "kirei",
+      "tokens": [
+        {
+          "text": "きれい",
+          "kana": "きれい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "什么样的，哪种",
+      "japanese": "どんな",
+      "kana": "どんな",
+      "romaji": "donna",
+      "tokens": [
+        {
+          "text": "どんな",
+          "kana": "どんな"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "没有，缺少",
+      "japanese": "ない",
+      "kana": "ない",
+      "romaji": "nai",
+      "tokens": [
+        {
+          "text": "ない",
+          "kana": "ない"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "热闹，繁华",
+      "japanese": "にぎやか",
+      "kana": "にぎやか",
+      "romaji": "nigiyaka",
+      "tokens": [
+        {
+          "text": "にぎやか",
+          "kana": "にぎやか"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "（茶、洗澡水等没有达到预期的温度）温热的；不严格的",
+      "japanese": "ぬるい",
+      "kana": "ぬるい",
+      "romaji": "nurui",
+      "tokens": [
+        {
+          "text": "ぬるい",
+          "kana": "ぬるい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "难吃的；不好，糟糕",
+      "japanese": "まずい",
+      "kana": "まずい",
+      "romaji": "mazui",
+      "tokens": [
+        {
+          "text": "まずい",
+          "kana": "まずい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "便宜的",
+      "japanese": "安い",
+      "kana": "やすい",
+      "romaji": "yasui",
+      "tokens": [
+        {
+          "text": "安い",
+          "kana": "やすい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "黑的；发暗的；阴沉的",
+      "japanese": "暗い",
+      "kana": "くらい",
+      "romaji": "kurai",
+      "tokens": [
+        {
+          "text": "暗い",
+          "kana": "くらい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "远的",
+      "japanese": "遠い",
+      "kana": "とおい",
+      "romaji": "tooi",
+      "tokens": [
+        {
+          "text": "遠い",
+          "kana": "とおい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "脏的；杂乱的；卑鄙的",
+      "japanese": "汚い",
+      "kana": "きたない",
+      "romaji": "kitanai",
+      "tokens": [
+        {
+          "text": "汚い",
+          "kana": "きたない"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "黄色的",
+      "japanese": "黄色い",
+      "kana": "きいろい",
+      "romaji": "kiiroi",
+      "tokens": [
+        {
+          "text": "黄色い",
+          "kana": "きいろい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "愉快的，快乐的",
+      "japanese": "楽しい",
+      "kana": "たのしい",
+      "romaji": "tanoshii",
+      "tokens": [
+        {
+          "text": "楽しい",
+          "kana": "たのしい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（天气）冷的",
+      "japanese": "寒い",
+      "kana": "さむい",
+      "romaji": "samui",
+      "tokens": [
+        {
+          "text": "寒い",
+          "kana": "さむい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "甜的；宽松的，不严厉的",
+      "japanese": "甘い",
+      "kana": "あまい",
+      "romaji": "amai",
+      "tokens": [
+        {
+          "text": "甘い",
+          "kana": "あまい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "圆的；圆滑的",
+      "japanese": "丸い",
+      "kana": "まるい",
+      "romaji": "marui",
+      "tokens": [
+        {
+          "text": "丸い",
+          "kana": "まるい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "危险的",
+      "japanese": "危ない",
+      "kana": "あぶない",
+      "romaji": "abunai",
+      "tokens": [
+        {
+          "text": "危ない",
+          "kana": "あぶない"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "强的，激烈的",
+      "japanese": "強い",
+      "kana": "つよい",
+      "romaji": "tsuyoi",
+      "tokens": [
+        {
+          "text": "強い",
+          "kana": "つよい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "窄的，狭小的；狭隘的",
+      "japanese": "狭い",
+      "kana": "せまい",
+      "romaji": "semai",
+      "tokens": [
+        {
+          "text": "狭い",
+          "kana": "せまい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "近的，靠近的",
+      "japanese": "近い",
+      "kana": "ちかい",
+      "romaji": "chikai",
+      "tokens": [
+        {
+          "text": "近い",
+          "kana": "ちかい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "轻的；轻微的；轻快的；简单的；轻浮的",
+      "japanese": "軽い",
+      "kana": "かるい",
+      "romaji": "karui",
+      "tokens": [
+        {
+          "text": "軽い",
+          "kana": "かるい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "古老的，旧的",
+      "japanese": "古い",
+      "kana": "ふるい",
+      "romaji": "furui",
+      "tokens": [
+        {
+          "text": "古い",
+          "kana": "ふるい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "厚的；（人情）深厚的",
+      "japanese": "厚い",
+      "kana": "あつい",
+      "romaji": "atsui",
+      "tokens": [
+        {
+          "text": "厚い",
+          "kana": "あつい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "宽阔的；广泛的；宽广的",
+      "japanese": "広い",
+      "kana": "ひろい",
+      "romaji": "hiroi",
+      "tokens": [
+        {
+          "text": "広い",
+          "kana": "ひろい"
+        }
+      ]
+    }
+  ]
+}

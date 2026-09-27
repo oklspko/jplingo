@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-51",
+  "coursePackId": "jp-n2",
+  "title": "名词 51",
+  "order": 51,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "反驳",
+      "japanese": "反論",
+      "kana": "はんろん",
+      "romaji": "hanron",
+      "tokens": [
+        {
+          "text": "反論",
+          "kana": "はんろん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "悲观",
+      "japanese": "悲観",
+      "kana": "ひかん",
+      "romaji": "hikan",
+      "tokens": [
+        {
+          "text": "悲観",
+          "kana": "ひかん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "疲劳",
+      "japanese": "疲労",
+      "kana": "ひろう",
+      "romaji": "hirou",
+      "tokens": [
+        {
+          "text": "疲労",
+          "kana": "ひろう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "非常时刻，紧急时刻",
+      "japanese": "非常時",
+      "kana": "ひじょうじ",
+      "romaji": "hijouji",
+      "tokens": [
+        {
+          "text": "非常時",
+          "kana": "ひじょうじ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "责难",
+      "japanese": "非難",
+      "kana": "ひなん",
+      "romaji": "hinan",
+      "tokens": [
+        {
+          "text": "非難",
+          "kana": "ひなん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "苗，秧；稻秧",
+      "japanese": "苗",
+      "kana": "なえ",
+      "romaji": "nae",
+      "tokens": [
+        {
+          "text": "苗",
+          "kana": "なえ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "海滨，湖滨",
+      "japanese": "浜",
+      "kana": "はま",
+      "romaji": "hama",
+      "tokens": [
+        {
+          "text": "浜",
+          "kana": "はま"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "意外，想不到",
+      "japanese": "不意",
+      "kana": "ふい",
+      "romaji": "fui",
+      "tokens": [
+        {
+          "text": "不意",
+          "kana": "ふい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "不顺利，不正常",
+      "japanese": "不順",
+      "kana": "ふじゅん",
+      "romaji": "fujun",
+      "tokens": [
+        {
+          "text": "不順",
+          "kana": "ふじゅん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "部门",
+      "japanese": "部門",
+      "kana": "ぶもん",
+      "romaji": "bumon",
+      "tokens": [
+        {
+          "text": "部門",
+          "kana": "ぶもん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "物资",
+      "japanese": "物資",
+      "kana": "ぶっし",
+      "romaji": "busshi",
+      "tokens": [
+        {
+          "text": "物資",
+          "kana": "ぶっし"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "物体",
+      "japanese": "物体",
+      "kana": "ぶったい",
+      "romaji": "buttai",
+      "tokens": [
+        {
+          "text": "物体",
+          "kana": "ぶったい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "愤慨",
+      "japanese": "憤慨",
+      "kana": "ふんがい",
+      "romaji": "fungai",
+      "tokens": [
+        {
+          "text": "憤慨",
+          "kana": "ふんがい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "平常，平时",
+      "japanese": "平常",
+      "kana": "へいじょう",
+      "romaji": "heijou",
+      "tokens": [
+        {
+          "text": "平常",
+          "kana": "へいじょう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "回答，回话",
+      "japanese": "返答",
+      "kana": "へんとう",
+      "romaji": "hentou",
+      "tokens": [
+        {
+          "text": "返答",
+          "kana": "へんとう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "步伐；发展历程",
+      "japanese": "歩み",
+      "kana": "あゆみ",
+      "romaji": "ayumi",
+      "tokens": [
+        {
+          "text": "歩み",
+          "kana": "あゆみ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "补助，辅助",
+      "japanese": "補助",
+      "kana": "ほじょ",
+      "romaji": "hojo",
+      "tokens": [
+        {
+          "text": "補助",
+          "kana": "ほじょ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "募捐",
+      "japanese": "募金",
+      "kana": "ぼきん",
+      "romaji": "bokin",
+      "tokens": [
+        {
+          "text": "募金",
+          "kana": "ぼきん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "报道",
+      "japanese": "報道",
+      "kana": "ほうどう",
+      "romaji": "houdou",
+      "tokens": [
+        {
+          "text": "報道",
+          "kana": "ほうどう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "放弃",
+      "japanese": "放棄",
+      "kana": "ほうき",
+      "romaji": "houki",
+      "tokens": [
+        {
+          "text": "放棄",
+          "kana": "ほうき"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "法学",
+      "japanese": "法学",
+      "kana": "ほうがく",
+      "romaji": "hougaku",
+      "tokens": [
+        {
+          "text": "法学",
+          "kana": "ほうがく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "蜂蜜",
+      "japanese": "蜂蜜",
+      "kana": "はちみつ",
+      "romaji": "hachimitsu",
+      "tokens": [
+        {
+          "text": "蜂蜜",
+          "kana": "はちみつ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "真心话",
+      "japanese": "本音",
+      "kana": "ほんね",
+      "romaji": "honne",
+      "tokens": [
+        {
+          "text": "本音",
+          "kana": "ほんね"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "真的；认真",
+      "japanese": "本気",
+      "kana": "ほんき",
+      "romaji": "honki",
+      "tokens": [
+        {
+          "text": "本気",
+          "kana": "ほんき"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "本能",
+      "japanese": "本能",
+      "kana": "ほんのう",
+      "romaji": "honnou",
+      "tokens": [
+        {
+          "text": "本能",
+          "kana": "ほんのう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "紧贴",
+      "japanese": "密着",
+      "kana": "みっちゃく",
+      "romaji": "mitchaku",
+      "tokens": [
+        {
+          "text": "密着",
+          "kana": "みっちゃく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "脉搏；脉；未来的希望",
+      "japanese": "脈",
+      "kana": "みゃく",
+      "romaji": "myaku",
+      "tokens": [
+        {
+          "text": "脈",
+          "kana": "みゃく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "沉默寡言",
+      "japanese": "無口",
+      "kana": "むくち",
+      "romaji": "mukuchi",
+      "tokens": [
+        {
+          "text": "無口",
+          "kana": "むくち"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "名簿，名册",
+      "japanese": "名簿",
+      "kana": "めいぼ",
+      "romaji": "meibo",
+      "tokens": [
+        {
+          "text": "名簿",
+          "kana": "めいぼ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "清楚，明了",
+      "japanese": "明瞭",
+      "kana": "めいりょう",
+      "romaji": "meiryou",
+      "tokens": [
+        {
+          "text": "明瞭",
+          "kana": "めいりょう"
+        }
+      ]
+    }
+  ]
+}

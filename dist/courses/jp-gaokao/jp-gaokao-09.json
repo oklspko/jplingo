@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-09",
+  "coursePackId": "jp-gaokao",
+  "title": "动词必考 1",
+  "order": 9,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "密切",
+      "japanese": "密接",
+      "kana": "みっせつ",
+      "romaji": "missetsu",
+      "tokens": [
+        {
+          "text": "密接",
+          "kana": "みっせつ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "有～、在～",
+      "japanese": "自一",
+      "kana": "じいち",
+      "romaji": "jiichi",
+      "tokens": [
+        {
+          "text": "自一",
+          "kana": "じいち"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "获得、得到、领",
+      "japanese": "他一",
+      "kana": "たいち",
+      "romaji": "taichi",
+      "tokens": [
+        {
+          "text": "他一",
+          "kana": "たいち"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "仅仅、稍微、一点点",
+      "japanese": "僅か",
+      "kana": "わずか",
+      "romaji": "wazuka",
+      "tokens": [
+        {
+          "text": "僅か",
+          "kana": "わずか"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "问、询问；听、听说",
+      "japanese": "聞く",
+      "kana": "きく",
+      "romaji": "kiku",
+      "tokens": [
+        {
+          "text": "聞く",
+          "kana": "きく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "吃",
+      "japanese": "食べる",
+      "kana": "たべる",
+      "romaji": "taberu",
+      "tokens": [
+        {
+          "text": "食べる",
+          "kana": "たべる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "寄走；发送；送（人）",
+      "japanese": "送る",
+      "kana": "おくる",
+      "romaji": "okuru",
+      "tokens": [
+        {
+          "text": "送る",
+          "kana": "おくる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "起来、起床",
+      "japanese": "起きる",
+      "kana": "おきる",
+      "romaji": "okiru",
+      "tokens": [
+        {
+          "text": "起きる",
+          "kana": "おきる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（自他一）休息、休假",
+      "japanese": "休む",
+      "kana": "やすむ",
+      "romaji": "yasumu",
+      "tokens": [
+        {
+          "text": "休む",
+          "kana": "やすむ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "做、干、进行",
+      "japanese": "自他三",
+      "kana": "じたさん",
+      "romaji": "jitasan",
+      "tokens": [
+        {
+          "text": "自他三",
+          "kana": "じたさん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "有意义、有价值",
+      "japanese": "有意义",
+      "kana": "ゆういぎ",
+      "romaji": "yuuigi",
+      "tokens": [
+        {
+          "text": "有意义",
+          "kana": "ゆういぎ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "喝、饮；吃（药）",
+      "japanese": "飲む",
+      "kana": "のむ",
+      "romaji": "nomu",
+      "tokens": [
+        {
+          "text": "飲む",
+          "kana": "のむ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "在、有",
+      "japanese": "いる",
+      "kana": "いる",
+      "romaji": "iru",
+      "tokens": [
+        {
+          "text": "いる",
+          "kana": "いる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "回来、回归、回去",
+      "japanese": "帰る",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "tokens": [
+        {
+          "text": "帰る",
+          "kana": "かえる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "看、观察",
+      "japanese": "見る",
+      "kana": "みる",
+      "romaji": "miru",
+      "tokens": [
+        {
+          "text": "見る",
+          "kana": "みる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "任性、放肆",
+      "japanese": "わがまま",
+      "kana": "わがまま",
+      "romaji": "wagamama",
+      "tokens": [
+        {
+          "text": "わがまま",
+          "kana": "わがまま"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "懂得、明白、理解",
+      "japanese": "分かる",
+      "kana": "わかる",
+      "romaji": "wakaru",
+      "tokens": [
+        {
+          "text": "分かる",
+          "kana": "わかる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "返回、恢复",
+      "japanese": "戻る",
+      "kana": "もどる",
+      "romaji": "modoru",
+      "tokens": [
+        {
+          "text": "戻る",
+          "kana": "もどる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "给（我）",
+      "japanese": "他二",
+      "kana": "たに",
+      "romaji": "tani",
+      "tokens": [
+        {
+          "text": "他二",
+          "kana": "たに"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "来、到来",
+      "japanese": "来る",
+      "kana": "くる",
+      "romaji": "kuru",
+      "tokens": [
+        {
+          "text": "来る",
+          "kana": "くる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "聪明、机灵、伶俐",
+      "japanese": "利口",
+      "kana": "りこう",
+      "romaji": "rikou",
+      "tokens": [
+        {
+          "text": "利口",
+          "kana": "りこう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "写（文字）",
+      "japanese": "書く",
+      "kana": "かく",
+      "romaji": "kaku",
+      "tokens": [
+        {
+          "text": "書く",
+          "kana": "かく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "念、读、理解",
+      "japanese": "読む",
+      "kana": "よむ",
+      "romaji": "yomu",
+      "tokens": [
+        {
+          "text": "読む",
+          "kana": "よむ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "（自他一）结束、完毕",
+      "japanese": "終わる",
+      "kana": "おわる",
+      "romaji": "owaru",
+      "tokens": [
+        {
+          "text": "終わる",
+          "kana": "おわる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "送、给",
+      "japanese": "他二",
+      "kana": "たに",
+      "romaji": "tani",
+      "tokens": [
+        {
+          "text": "他二",
+          "kana": "たに"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "良好、优秀",
+      "japanese": "良好",
+      "kana": "りょうこう",
+      "romaji": "ryoukou",
+      "tokens": [
+        {
+          "text": "良好",
+          "kana": "りょうこう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "前往、到～去",
+      "japanese": "行く",
+      "kana": "いく",
+      "romaji": "iku",
+      "tokens": [
+        {
+          "text": "行く",
+          "kana": "いく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "返还、退还",
+      "japanese": "戻す",
+      "kana": "もどす",
+      "romaji": "modosu",
+      "tokens": [
+        {
+          "text": "戻す",
+          "kana": "もどす"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "买",
+      "japanese": "買う",
+      "kana": "かう",
+      "romaji": "kau",
+      "tokens": [
+        {
+          "text": "買う",
+          "kana": "かう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "独一无二、独特",
+      "japanese": "ユニーク",
+      "kana": "ゆにーく",
+      "romaji": "yuniiku",
+      "tokens": [
+        {
+          "text": "ユニーク",
+          "kana": "ゆにーく"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "吃",
+      "japanese": "食べる",
+      "kana": "たべる",
+      "romaji": "taberu",
+      "tokens": [
+        {
+          "text": "食べる",
+          "kana": "たべる"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "仅仅、稍微、一点点",
+      "japanese": "僅か",
+      "kana": "わずか",
+      "romaji": "wazuka",
+      "tokens": [
+        {
+          "text": "僅か",
+          "kana": "わずか"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "送、给",
+      "japanese": "他二",
+      "kana": "たに",
+      "romaji": "tani",
+      "tokens": [
+        {
+          "text": "他二",
+          "kana": "たに"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "寄走；发送；送（人）",
+      "japanese": "送る",
+      "kana": "おくる",
+      "romaji": "okuru",
+      "tokens": [
+        {
+          "text": "送る",
+          "kana": "おくる"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "买",
+      "japanese": "買う",
+      "kana": "かう",
+      "romaji": "kau",
+      "tokens": [
+        {
+          "text": "買う",
+          "kana": "かう"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "返回、恢复",
+      "japanese": "戻る",
+      "kana": "もどる",
+      "romaji": "modoru",
+      "tokens": [
+        {
+          "text": "戻る",
+          "kana": "もどる"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "来、到来",
+      "japanese": "来る",
+      "kana": "くる",
+      "romaji": "kuru",
+      "tokens": [
+        {
+          "text": "来る",
+          "kana": "くる"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "给（我）",
+      "japanese": "他二",
+      "kana": "たに",
+      "romaji": "tani",
+      "tokens": [
+        {
+          "text": "他二",
+          "kana": "たに"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "返还、退还",
+      "japanese": "戻す",
+      "kana": "もどす",
+      "romaji": "modosu",
+      "tokens": [
+        {
+          "text": "戻す",
+          "kana": "もどす"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "良好、优秀",
+      "japanese": "良好",
+      "kana": "りょうこう",
+      "romaji": "ryoukou",
+      "tokens": [
+        {
+          "text": "良好",
+          "kana": "りょうこう"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "回来、回归、回去",
+      "japanese": "帰る",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "tokens": [
+        {
+          "text": "帰る",
+          "kana": "かえる"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "写（文字）",
+      "japanese": "書く",
+      "kana": "かく",
+      "romaji": "kaku",
+      "tokens": [
+        {
+          "text": "書く",
+          "kana": "かく"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "聪明、机灵、伶俐",
+      "japanese": "利口",
+      "kana": "りこう",
+      "romaji": "rikou",
+      "tokens": [
+        {
+          "text": "利口",
+          "kana": "りこう"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "（自他一）休息、休假",
+      "japanese": "休む",
+      "kana": "やすむ",
+      "romaji": "yasumu",
+      "tokens": [
+        {
+          "text": "休む",
+          "kana": "やすむ"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "在、有",
+      "japanese": "いる",
+      "kana": "いる",
+      "romaji": "iru",
+      "tokens": [
+        {
+          "text": "いる",
+          "kana": "いる"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "（自他一）结束、完毕",
+      "japanese": "終わる",
+      "kana": "おわる",
+      "romaji": "owaru",
+      "tokens": [
+        {
+          "text": "終わる",
+          "kana": "おわる"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "懂得、明白、理解",
+      "japanese": "分かる",
+      "kana": "わかる",
+      "romaji": "wakaru",
+      "tokens": [
+        {
+          "text": "分かる",
+          "kana": "わかる"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "独一无二、独特",
+      "japanese": "ユニーク",
+      "kana": "ゆにーく",
+      "romaji": "yuniiku",
+      "tokens": [
+        {
+          "text": "ユニーク",
+          "kana": "ゆにーく"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "喝、饮；吃（药）",
+      "japanese": "飲む",
+      "kana": "のむ",
+      "romaji": "nomu",
+      "tokens": [
+        {
+          "text": "飲む",
+          "kana": "のむ"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "密切",
+      "japanese": "密接",
+      "kana": "みっせつ",
+      "romaji": "missetsu",
+      "tokens": [
+        {
+          "text": "密接",
+          "kana": "みっせつ"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "有～、在～",
+      "japanese": "自一",
+      "kana": "じいち",
+      "romaji": "jiichi",
+      "tokens": [
+        {
+          "text": "自一",
+          "kana": "じいち"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "看、观察",
+      "japanese": "見る",
+      "kana": "みる",
+      "romaji": "miru",
+      "tokens": [
+        {
+          "text": "見る",
+          "kana": "みる"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "前往、到～去",
+      "japanese": "行く",
+      "kana": "いく",
+      "romaji": "iku",
+      "tokens": [
+        {
+          "text": "行く",
+          "kana": "いく"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "任性、放肆",
+      "japanese": "わがまま",
+      "kana": "わがまま",
+      "romaji": "wagamama",
+      "tokens": [
+        {
+          "text": "わがまま",
+          "kana": "わがまま"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "问、询问；听、听说",
+      "japanese": "聞く",
+      "kana": "きく",
+      "romaji": "kiku",
+      "tokens": [
+        {
+          "text": "聞く",
+          "kana": "きく"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "有意义、有价值",
+      "japanese": "有意义",
+      "kana": "ゆういぎ",
+      "romaji": "yuuigi",
+      "tokens": [
+        {
+          "text": "有意义",
+          "kana": "ゆういぎ"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "做、干、进行",
+      "japanese": "自他三",
+      "kana": "じたさん",
+      "romaji": "jitasan",
+      "tokens": [
+        {
+          "text": "自他三",
+          "kana": "じたさん"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "起来、起床",
+      "japanese": "起きる",
+      "kana": "おきる",
+      "romaji": "okiru",
+      "tokens": [
+        {
+          "text": "起きる",
+          "kana": "おきる"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "获得、得到、领",
+      "japanese": "他一",
+      "kana": "たいち",
+      "romaji": "taichi",
+      "tokens": [
+        {
+          "text": "他一",
+          "kana": "たいち"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "念、读、理解",
+      "japanese": "読む",
+      "kana": "よむ",
+      "romaji": "yomu",
+      "tokens": [
+        {
+          "text": "読む",
+          "kana": "よむ"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "问、询问；听、听说",
+      "japanese": "聞く",
+      "kana": "きく",
+      "romaji": "kiku",
+      "tokens": [
+        {
+          "text": "聞く",
+          "kana": "きく"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "密切",
+      "japanese": "密接",
+      "kana": "みっせつ",
+      "romaji": "missetsu",
+      "tokens": [
+        {
+          "text": "密接",
+          "kana": "みっせつ"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "回来、回归、回去",
+      "japanese": "帰る",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "tokens": [
+        {
+          "text": "帰る",
+          "kana": "かえる"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "有～、在～",
+      "japanese": "自一",
+      "kana": "じいち",
+      "romaji": "jiichi",
+      "tokens": [
+        {
+          "text": "自一",
+          "kana": "じいち"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "懂得、明白、理解",
+      "japanese": "分かる",
+      "kana": "わかる",
+      "romaji": "wakaru",
+      "tokens": [
+        {
+          "text": "分かる",
+          "kana": "わかる"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "看、观察",
+      "japanese": "見る",
+      "kana": "みる",
+      "romaji": "miru",
+      "tokens": [
+        {
+          "text": "見る",
+          "kana": "みる"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "（自他一）结束、完毕",
+      "japanese": "終わる",
+      "kana": "おわる",
+      "romaji": "owaru",
+      "tokens": [
+        {
+          "text": "終わる",
+          "kana": "おわる"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "获得、得到、领",
+      "japanese": "他一",
+      "kana": "たいち",
+      "romaji": "taichi",
+      "tokens": [
+        {
+          "text": "他一",
+          "kana": "たいち"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "给（我）",
+      "japanese": "他二",
+      "kana": "たに",
+      "romaji": "tani",
+      "tokens": [
+        {
+          "text": "他二",
+          "kana": "たに"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "写（文字）",
+      "japanese": "書く",
+      "kana": "かく",
+      "romaji": "kaku",
+      "tokens": [
+        {
+          "text": "書く",
+          "kana": "かく"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "在、有",
+      "japanese": "いる",
+      "kana": "いる",
+      "romaji": "iru",
+      "tokens": [
+        {
+          "text": "いる",
+          "kana": "いる"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "独一无二、独特",
+      "japanese": "ユニーク",
+      "kana": "ゆにーく",
+      "romaji": "yuniiku",
+      "tokens": [
+        {
+          "text": "ユニーク",
+          "kana": "ゆにーく"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "吃",
+      "japanese": "食べる",
+      "kana": "たべる",
+      "romaji": "taberu",
+      "tokens": [
+        {
+          "text": "食べる",
+          "kana": "たべる"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "仅仅、稍微、一点点",
+      "japanese": "僅か",
+      "kana": "わずか",
+      "romaji": "wazuka",
+      "tokens": [
+        {
+          "text": "僅か",
+          "kana": "わずか"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "良好、优秀",
+      "japanese": "良好",
+      "kana": "りょうこう",
+      "romaji": "ryoukou",
+      "tokens": [
+        {
+          "text": "良好",
+          "kana": "りょうこう"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "念、读、理解",
+      "japanese": "読む",
+      "kana": "よむ",
+      "romaji": "yomu",
+      "tokens": [
+        {
+          "text": "読む",
+          "kana": "よむ"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "寄走；发送；送（人）",
+      "japanese": "送る",
+      "kana": "おくる",
+      "romaji": "okuru",
+      "tokens": [
+        {
+          "text": "送る",
+          "kana": "おくる"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "喝、饮；吃（药）",
+      "japanese": "飲む",
+      "kana": "のむ",
+      "romaji": "nomu",
+      "tokens": [
+        {
+          "text": "飲む",
+          "kana": "のむ"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "做、干、进行",
+      "japanese": "自他三",
+      "kana": "じたさん",
+      "romaji": "jitasan",
+      "tokens": [
+        {
+          "text": "自他三",
+          "kana": "じたさん"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "返回、恢复",
+      "japanese": "戻る",
+      "kana": "もどる",
+      "romaji": "modoru",
+      "tokens": [
+        {
+          "text": "戻る",
+          "kana": "もどる"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "聪明、机灵、伶俐",
+      "japanese": "利口",
+      "kana": "りこう",
+      "romaji": "rikou",
+      "tokens": [
+        {
+          "text": "利口",
+          "kana": "りこう"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "来、到来",
+      "japanese": "来る",
+      "kana": "くる",
+      "romaji": "kuru",
+      "tokens": [
+        {
+          "text": "来る",
+          "kana": "くる"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "有意义、有价值",
+      "japanese": "有意义",
+      "kana": "ゆういぎ",
+      "romaji": "yuuigi",
+      "tokens": [
+        {
+          "text": "有意义",
+          "kana": "ゆういぎ"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "送、给",
+      "japanese": "他二",
+      "kana": "たに",
+      "romaji": "tani",
+      "tokens": [
+        {
+          "text": "他二",
+          "kana": "たに"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "任性、放肆",
+      "japanese": "わがまま",
+      "kana": "わがまま",
+      "romaji": "wagamama",
+      "tokens": [
+        {
+          "text": "わがまま",
+          "kana": "わがまま"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "前往、到～去",
+      "japanese": "行く",
+      "kana": "いく",
+      "romaji": "iku",
+      "tokens": [
+        {
+          "text": "行く",
+          "kana": "いく"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "返还、退还",
+      "japanese": "戻す",
+      "kana": "もどす",
+      "romaji": "modosu",
+      "tokens": [
+        {
+          "text": "戻す",
+          "kana": "もどす"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "（自他一）休息、休假",
+      "japanese": "休む",
+      "kana": "やすむ",
+      "romaji": "yasumu",
+      "tokens": [
+        {
+          "text": "休む",
+          "kana": "やすむ"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "买",
+      "japanese": "買う",
+      "kana": "かう",
+      "romaji": "kau",
+      "tokens": [
+        {
+          "text": "買う",
+          "kana": "かう"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "起来、起床",
+      "japanese": "起きる",
+      "kana": "おきる",
+      "romaji": "okiru",
+      "tokens": [
+        {
+          "text": "起きる",
+          "kana": "おきる"
+        }
+      ]
+    }
+  ]
+}

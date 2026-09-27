@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-77",
+  "coursePackId": "jp-n2",
+  "title": "动词 6",
+  "order": 77,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "接上，连上",
+      "japanese": "つなげる",
+      "kana": "つなげる",
+      "romaji": "tsunageru",
+      "tokens": [
+        {
+          "text": "つなげる",
+          "kana": "つなげる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "混杂，夹杂",
+      "japanese": "混ざる",
+      "kana": "まざる",
+      "romaji": "mazaru",
+      "tokens": [
+        {
+          "text": "混ざる",
+          "kana": "まざる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "混，杂",
+      "japanese": "混じる",
+      "kana": "まじる",
+      "romaji": "majiru",
+      "tokens": [
+        {
+          "text": "混じる",
+          "kana": "まじる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "生锈",
+      "japanese": "さびる",
+      "kana": "さびる",
+      "romaji": "sabiru",
+      "tokens": [
+        {
+          "text": "さびる",
+          "kana": "さびる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "使……一致；凑齐",
+      "japanese": "そろえる",
+      "kana": "そろえる",
+      "romaji": "soroeru",
+      "tokens": [
+        {
+          "text": "そろえる",
+          "kana": "そろえる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "储存，积蓄，储备",
+      "japanese": "蓄える",
+      "kana": "たくわえる",
+      "romaji": "takuwaeru",
+      "tokens": [
+        {
+          "text": "蓄える",
+          "kana": "たくわえる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "整齐，调整好",
+      "japanese": "整う",
+      "kana": "ととのう",
+      "romaji": "totonou",
+      "tokens": [
+        {
+          "text": "整う",
+          "kana": "ととのう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "符合条件，相匹配",
+      "japanese": "当てはまる",
+      "kana": "あてはまる",
+      "romaji": "atehamaru",
+      "tokens": [
+        {
+          "text": "当てはまる",
+          "kana": "あてはまる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "更换，调换",
+      "japanese": "入れ替える",
+      "kana": "いれかえる",
+      "romaji": "irekaeru",
+      "tokens": [
+        {
+          "text": "入れ替える",
+          "kana": "いれかえる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "沾湿，弄湿",
+      "japanese": "濡[ぬ]らす",
+      "kana": "ぬらす",
+      "romaji": "nurasu",
+      "tokens": [
+        {
+          "text": "濡[ぬ]らす",
+          "kana": "ぬらす"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "不均衡；偏袒",
+      "japanese": "偏る",
+      "kana": "かたよる",
+      "romaji": "katayoru",
+      "tokens": [
+        {
+          "text": "偏る",
+          "kana": "かたよる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "赚钱；得便宜",
+      "japanese": "もうかる",
+      "kana": "もうかる",
+      "romaji": "moukaru",
+      "tokens": [
+        {
+          "text": "もうかる",
+          "kana": "もうかる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "流行；（疾病等）蔓延；繁荣，兴旺",
+      "japanese": "流行[はや]る",
+      "kana": "はやる",
+      "romaji": "hayaru",
+      "tokens": [
+        {
+          "text": "流行[はや]る",
+          "kana": "はやる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "倚靠；不消化",
+      "japanese": "もたれる",
+      "kana": "もたれる",
+      "romaji": "motareru",
+      "tokens": [
+        {
+          "text": "もたれる",
+          "kana": "もたれる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "小声说话，耳语；（「ささやかれる」の形で）私下议论",
+      "japanese": "ささやく",
+      "kana": "ささやく",
+      "romaji": "sasayaku",
+      "tokens": [
+        {
+          "text": "ささやく",
+          "kana": "ささやく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "麻痹，发麻；陶醉",
+      "japanese": "しびれる",
+      "kana": "しびれる",
+      "romaji": "shibireru",
+      "tokens": [
+        {
+          "text": "しびれる",
+          "kana": "しびれる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "点头，首肯，理解",
+      "japanese": "うなずく",
+      "kana": "うなずく",
+      "romaji": "unazuku",
+      "tokens": [
+        {
+          "text": "うなずく",
+          "kana": "うなずく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "安装",
+      "japanese": "インストール",
+      "kana": "いんすとうる",
+      "romaji": "insutouru",
+      "tokens": [
+        {
+          "text": "インストール",
+          "kana": "いんすとうる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "挪动，移开；将……错开",
+      "japanese": "ずらす",
+      "kana": "ずらす",
+      "romaji": "zurasu",
+      "tokens": [
+        {
+          "text": "ずらす",
+          "kana": "ずらす"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "移动，错离；偏离，离题",
+      "japanese": "ずれる",
+      "kana": "ずれる",
+      "romaji": "zureru",
+      "tokens": [
+        {
+          "text": "ずれる",
+          "kana": "ずれる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "垂，拎；佩戴，悬挂",
+      "japanese": "ぶら下げる",
+      "kana": "ぶらさげる",
+      "romaji": "burasageru",
+      "tokens": [
+        {
+          "text": "ぶら下げる",
+          "kana": "ぶらさげる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "摆架子，自高自大",
+      "japanese": "威張る",
+      "kana": "いばる",
+      "romaji": "ibaru",
+      "tokens": [
+        {
+          "text": "威張る",
+          "kana": "いばる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "不同",
+      "japanese": "異なる",
+      "kana": "ことなる",
+      "romaji": "kotonaru",
+      "tokens": [
+        {
+          "text": "異なる",
+          "kana": "ことなる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "劝阻，挽留",
+      "japanese": "引き止める",
+      "kana": "ひきとめる",
+      "romaji": "hikitomeru",
+      "tokens": [
+        {
+          "text": "引き止める",
+          "kana": "ひきとめる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "返回，折回",
+      "japanese": "引き返す",
+      "kana": "ひきかえす",
+      "romaji": "hikikaesu",
+      "tokens": [
+        {
+          "text": "引き返す",
+          "kana": "ひきかえす"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "缩进；凹入；隐退",
+      "japanese": "引っ込む",
+      "kana": "ひっこむ",
+      "romaji": "hikkomu",
+      "tokens": [
+        {
+          "text": "引っ込む",
+          "kana": "ひっこむ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "回答，同意；接受，响应；适应，按照",
+      "japanese": "応じる",
+      "kana": "おうじる",
+      "romaji": "oujiru",
+      "tokens": [
+        {
+          "text": "応じる",
+          "kana": "おうじる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "增加；加入",
+      "japanese": "加わる",
+      "kana": "くわわる",
+      "romaji": "kuwawaru",
+      "tokens": [
+        {
+          "text": "加わる",
+          "kana": "くわわる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "改变；改正；检查",
+      "japanese": "改める",
+      "kana": "あらためる",
+      "romaji": "aratameru",
+      "tokens": [
+        {
+          "text": "改める",
+          "kana": "あらためる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "隔开；（距离）间隔；（时间）相隔",
+      "japanese": "隔てる",
+      "kana": "へだてる",
+      "romaji": "hedateru",
+      "tokens": [
+        {
+          "text": "隔てる",
+          "kana": "へだてる"
+        }
+      ]
+    }
+  ]
+}

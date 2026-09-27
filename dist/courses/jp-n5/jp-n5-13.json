@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-13",
+  "coursePackId": "jp-n5",
+  "title": "名词 13",
+  "order": 13,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "片假名",
+      "japanese": "片仮名",
+      "kana": "かたかな",
+      "romaji": "katakana",
+      "tokens": [
+        {
+          "text": "片仮名",
+          "kana": "かたかな"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "方便，便利",
+      "japanese": "便利",
+      "kana": "べんり",
+      "romaji": "benri",
+      "tokens": [
+        {
+          "text": "便利",
+          "kana": "べんり"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "学习",
+      "japanese": "勉強",
+      "kana": "べんきょう",
+      "romaji": "benkyou",
+      "tokens": [
+        {
+          "text": "勉強",
+          "kana": "べんきょう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "便当，盒饭",
+      "japanese": "弁当",
+      "kana": "べんとう",
+      "romaji": "bentou",
+      "tokens": [
+        {
+          "text": "弁当",
+          "kana": "べんとう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "帽子",
+      "japanese": "帽子",
+      "kana": "ぼうし",
+      "romaji": "boushi",
+      "tokens": [
+        {
+          "text": "帽子",
+          "kana": "ぼうし"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "北方，北面",
+      "japanese": "北",
+      "kana": "きた",
+      "romaji": "kita",
+      "tokens": [
+        {
+          "text": "北",
+          "kana": "きた"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "北方，北侧",
+      "japanese": "北側",
+      "kana": "きたがわ",
+      "romaji": "kitagawa",
+      "tokens": [
+        {
+          "text": "北側",
+          "kana": "きたがわ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（男子自称）我",
+      "japanese": "僕",
+      "kana": "ぼく",
+      "romaji": "boku",
+      "tokens": [
+        {
+          "text": "僕",
+          "kana": "ぼく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "书本，书籍",
+      "japanese": "本",
+      "kana": "ほん",
+      "romaji": "hon",
+      "tokens": [
+        {
+          "text": "本",
+          "kana": "ほん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "书店",
+      "japanese": "本屋",
+      "kana": "ほんや",
+      "romaji": "hon'ya",
+      "tokens": [
+        {
+          "text": "本屋",
+          "kana": "ほんや"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "书柜，书架",
+      "japanese": "本棚",
+      "kana": "ほんだな",
+      "romaji": "hondana",
+      "tokens": [
+        {
+          "text": "本棚",
+          "kana": "ほんだな"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "真实，事实，真的",
+      "japanese": "本当",
+      "kana": "ほんとう",
+      "romaji": "hontou",
+      "tokens": [
+        {
+          "text": "本当",
+          "kana": "ほんとう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（自己的）妹妹",
+      "japanese": "妹",
+      "kana": "いもうと",
+      "romaji": "imouto",
+      "tokens": [
+        {
+          "text": "妹",
+          "kana": "いもうと"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（数量）万",
+      "japanese": "万",
+      "kana": "まん",
+      "romaji": "man",
+      "tokens": [
+        {
+          "text": "万",
+          "kana": "まん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "橘子，柑橘",
+      "japanese": "みかん",
+      "kana": "みかん",
+      "romaji": "mikan",
+      "tokens": [
+        {
+          "text": "みかん",
+          "kana": "みかん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "名字",
+      "japanese": "名前",
+      "kana": "なまえ",
+      "romaji": "namae",
+      "tokens": [
+        {
+          "text": "名前",
+          "kana": "なまえ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "明天",
+      "japanese": "明日",
+      "kana": "あした",
+      "romaji": "ashita",
+      "tokens": [
+        {
+          "text": "明日",
+          "kana": "あした"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "树木；木材",
+      "japanese": "木",
+      "kana": "き",
+      "romaji": "ki",
+      "tokens": [
+        {
+          "text": "木",
+          "kana": "き"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "周四",
+      "japanese": "木曜日",
+      "kana": "もくようび",
+      "romaji": "mokuyoubi",
+      "tokens": [
+        {
+          "text": "木曜日",
+          "kana": "もくようび"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "眼睛",
+      "japanese": "目",
+      "kana": "め",
+      "romaji": "me",
+      "tokens": [
+        {
+          "text": "目",
+          "kana": "め"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "问题，题目；麻烦事",
+      "japanese": "問題",
+      "kana": "もんだい",
+      "romaji": "mondai",
+      "tokens": [
+        {
+          "text": "問題",
+          "kana": "もんだい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "晚上，夜间",
+      "japanese": "夜",
+      "kana": "よる",
+      "romaji": "yoru",
+      "tokens": [
+        {
+          "text": "夜",
+          "kana": "よる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "蔬菜",
+      "japanese": "野菜",
+      "kana": "やさい",
+      "romaji": "yasai",
+      "tokens": [
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "药，药品",
+      "japanese": "薬",
+      "kana": "くすり",
+      "romaji": "kusuri",
+      "tokens": [
+        {
+          "text": "薬",
+          "kana": "くすり"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "朋友",
+      "japanese": "友達",
+      "kana": "ともだち",
+      "romaji": "tomodachi",
+      "tokens": [
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "邮局",
+      "japanese": "郵便局",
+      "kana": "ゆうびんきょく",
+      "romaji": "yuubinkyoku",
+      "tokens": [
+        {
+          "text": "郵便局",
+          "kana": "ゆうびんきょく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "傍晚",
+      "japanese": "夕方",
+      "kana": "ゆうがた",
+      "romaji": "yuugata",
+      "tokens": [
+        {
+          "text": "夕方",
+          "kana": "ゆうがた"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（西装、裤子、连衣裙、裙子等）衣服",
+      "japanese": "洋服",
+      "kana": "ようふく",
+      "romaji": "youfuku",
+      "tokens": [
+        {
+          "text": "洋服",
+          "kana": "ようふく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "明信片",
+      "japanese": "葉書",
+      "kana": "はがき",
+      "romaji": "hagaki",
+      "tokens": [
+        {
+          "text": "葉書",
+          "kana": "はがき"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "下个月",
+      "japanese": "来月",
+      "kana": "らいげつ",
+      "romaji": "raigetsu",
+      "tokens": [
+        {
+          "text": "来月",
+          "kana": "らいげつ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-02",
+  "coursePackId": "jp-n2",
+  "title": "名词 2",
+  "order": 2,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（电影等的）屏幕",
+      "japanese": "スクリーン",
+      "kana": "すくりいん",
+      "romaji": "sukuriin",
+      "tokens": [
+        {
+          "text": "スクリーン",
+          "kana": "すくりいん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "网球场",
+      "japanese": "テニスコート",
+      "kana": "てにすこうと",
+      "romaji": "tenisukouto",
+      "tokens": [
+        {
+          "text": "テニスコート",
+          "kana": "てにすこうと"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "隧道",
+      "japanese": "トンネル",
+      "kana": "とんねる",
+      "romaji": "tonneru",
+      "tokens": [
+        {
+          "text": "トンネル",
+          "kana": "とんねる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "排球",
+      "japanese": "バレーボール",
+      "kana": "ばれえぼうる",
+      "romaji": "bareebouru",
+      "tokens": [
+        {
+          "text": "バレーボール",
+          "kana": "ばれえぼうる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "汉堡",
+      "japanese": "ハンバーガー",
+      "kana": "はんばあがあ",
+      "romaji": "hanbaagaa",
+      "tokens": [
+        {
+          "text": "ハンバーガー",
+          "kana": "はんばあがあ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "水果",
+      "japanese": "フルーツ",
+      "kana": "ふるうつ",
+      "romaji": "furuutsu",
+      "tokens": [
+        {
+          "text": "フルーツ",
+          "kana": "ふるうつ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "菠菜",
+      "japanese": "ほうれん草",
+      "kana": "ほうれんそう",
+      "romaji": "hourensou",
+      "tokens": [
+        {
+          "text": "ほうれん草",
+          "kana": "ほうれんそう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "做的价值，做的意义",
+      "japanese": "やりがい",
+      "kana": "やりがい",
+      "romaji": "yarigai",
+      "tokens": [
+        {
+          "text": "やりがい",
+          "kana": "やりがい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "升",
+      "japanese": "リットル",
+      "kana": "りっとる",
+      "romaji": "rittoru",
+      "tokens": [
+        {
+          "text": "リットル",
+          "kana": "りっとる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "任性，放肆",
+      "japanese": "わがまま",
+      "kana": "わがまま",
+      "romaji": "wagamama",
+      "tokens": [
+        {
+          "text": "わがまま",
+          "kana": "わがまま"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "碗，木碗",
+      "japanese": "椀[わん]",
+      "kana": "わん",
+      "romaji": "wan",
+      "tokens": [
+        {
+          "text": "椀[わん]",
+          "kana": "わん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "迁移，搬家",
+      "japanese": "移転",
+      "kana": "いてん",
+      "romaji": "iten",
+      "tokens": [
+        {
+          "text": "移転",
+          "kana": "いてん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "前年",
+      "japanese": "一昨年",
+      "kana": "いっさくねん",
+      "romaji": "issakunen",
+      "tokens": [
+        {
+          "text": "一昨年",
+          "kana": "いっさくねん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "回应，反应",
+      "japanese": "応え",
+      "kana": "こたえ",
+      "romaji": "kotae",
+      "tokens": [
+        {
+          "text": "応え",
+          "kana": "こたえ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "家务",
+      "japanese": "家事",
+      "kana": "かじ",
+      "romaji": "kaji",
+      "tokens": [
+        {
+          "text": "家事",
+          "kana": "かじ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "革命",
+      "japanese": "革命",
+      "kana": "かくめい",
+      "romaji": "kakumei",
+      "tokens": [
+        {
+          "text": "革命",
+          "kana": "かくめい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "喜悦；恭喜",
+      "japanese": "喜び",
+      "kana": "よろこび",
+      "romaji": "yorokobi",
+      "tokens": [
+        {
+          "text": "喜び",
+          "kana": "よろこび"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "气候",
+      "japanese": "気候",
+      "kana": "きこう",
+      "romaji": "kikou",
+      "tokens": [
+        {
+          "text": "気候",
+          "kana": "きこう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "气体",
+      "japanese": "気体",
+      "kana": "きたい",
+      "romaji": "kitai",
+      "tokens": [
+        {
+          "text": "気体",
+          "kana": "きたい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "蒸汽火车",
+      "japanese": "汽車",
+      "kana": "きしゃ",
+      "romaji": "kisha",
+      "tokens": [
+        {
+          "text": "汽車",
+          "kana": "きしゃ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "吸烟，抽烟",
+      "japanese": "喫煙",
+      "kana": "きつえん",
+      "romaji": "kitsuen",
+      "tokens": [
+        {
+          "text": "喫煙",
+          "kana": "きつえん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "近日，最近",
+      "japanese": "近頃",
+      "kana": "ちかごろ",
+      "romaji": "chikagoro",
+      "tokens": [
+        {
+          "text": "近頃",
+          "kana": "ちかごろ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "空间",
+      "japanese": "空間",
+      "kana": "くうかん",
+      "romaji": "kuukan",
+      "tokens": [
+        {
+          "text": "空間",
+          "kana": "くうかん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "（专门负责某项业务）工作人员，负责人",
+      "japanese": "係員",
+      "kana": "かかりいん",
+      "romaji": "kakariin",
+      "tokens": [
+        {
+          "text": "係員",
+          "kana": "かかりいん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "用语，措辞",
+      "japanese": "言葉遣い",
+      "kana": "ことばづかい",
+      "romaji": "kotobazukai",
+      "tokens": [
+        {
+          "text": "言葉遣い",
+          "kana": "ことばづかい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "老虎",
+      "japanese": "虎",
+      "kana": "とら",
+      "romaji": "tora",
+      "tokens": [
+        {
+          "text": "虎",
+          "kana": "とら"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "工学，工程学",
+      "japanese": "工学",
+      "kana": "こうがく",
+      "romaji": "kougaku",
+      "tokens": [
+        {
+          "text": "工学",
+          "kana": "こうがく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（中小学的）校长",
+      "japanese": "校長",
+      "kana": "こうちょう",
+      "romaji": "kouchou",
+      "tokens": [
+        {
+          "text": "校長",
+          "kana": "こうちょう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "（等级、品味、智能等的程度很高）高等",
+      "japanese": "高等",
+      "kana": "こうとう",
+      "romaji": "koutou",
+      "tokens": [
+        {
+          "text": "高等",
+          "kana": "こうとう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "合唱",
+      "japanese": "合唱",
+      "kana": "がっしょう",
+      "romaji": "gasshou",
+      "tokens": [
+        {
+          "text": "合唱",
+          "kana": "がっしょう"
+        }
+      ]
+    }
+  ]
+}

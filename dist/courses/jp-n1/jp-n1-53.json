@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-53",
+  "coursePackId": "jp-n1",
+  "title": "名词 53",
+  "order": 53,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "房地产；物品",
+      "japanese": "物件",
+      "kana": "ぶっけん",
+      "romaji": "bukken",
+      "tokens": [
+        {
+          "text": "物件",
+          "kana": "ぶっけん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "愤怒",
+      "japanese": "憤り",
+      "kana": "いきどおり",
+      "romaji": "ikidoori",
+      "tokens": [
+        {
+          "text": "憤り",
+          "kana": "いきどおり"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "文化遗产，文化财富",
+      "japanese": "文化財",
+      "kana": "ぶんかざい",
+      "romaji": "bunkazai",
+      "tokens": [
+        {
+          "text": "文化財",
+          "kana": "ぶんかざい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "平静，镇静",
+      "japanese": "平静",
+      "kana": "へいせい",
+      "romaji": "heisei",
+      "tokens": [
+        {
+          "text": "平静",
+          "kana": "へいせい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "平年，普通的年份",
+      "japanese": "平年",
+      "kana": "へいねん",
+      "romaji": "heinen",
+      "tokens": [
+        {
+          "text": "平年",
+          "kana": "へいねん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "危害，弊病",
+      "japanese": "弊害",
+      "kana": "へいがい",
+      "romaji": "heigai",
+      "tokens": [
+        {
+          "text": "弊害",
+          "kana": "へいがい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "并行；同时进行",
+      "japanese": "並行",
+      "kana": "へいこう",
+      "romaji": "heikou",
+      "tokens": [
+        {
+          "text": "並行",
+          "kana": "へいこう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "变样，面貌改观",
+      "japanese": "変容",
+      "kana": "へんよう",
+      "romaji": "hen'you",
+      "tokens": [
+        {
+          "text": "変容",
+          "kana": "へんよう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "一隅，一个角落",
+      "japanese": "片隅",
+      "kana": "かたすみ",
+      "romaji": "katasumi",
+      "tokens": [
+        {
+          "text": "片隅",
+          "kana": "かたすみ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "编成，组成",
+      "japanese": "編成",
+      "kana": "へんせい",
+      "romaji": "hensei",
+      "tokens": [
+        {
+          "text": "編成",
+          "kana": "へんせい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "编著",
+      "japanese": "編著",
+      "kana": "へんちょ",
+      "romaji": "hencho",
+      "tokens": [
+        {
+          "text": "編著",
+          "kana": "へんちょ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "奉还，归还",
+      "japanese": "返上",
+      "kana": "へんじょう",
+      "romaji": "henjou",
+      "tokens": [
+        {
+          "text": "返上",
+          "kana": "へんじょう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "律师",
+      "japanese": "弁護士",
+      "kana": "べんごし",
+      "romaji": "bengoshi",
+      "tokens": [
+        {
+          "text": "弁護士",
+          "kana": "べんごし"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "保温",
+      "japanese": "保温",
+      "kana": "ほおん",
+      "romaji": "hoon",
+      "tokens": [
+        {
+          "text": "保温",
+          "kana": "ほおん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "法人",
+      "japanese": "法人",
+      "kana": "ほうじん",
+      "romaji": "houjin",
+      "tokens": [
+        {
+          "text": "法人",
+          "kana": "ほうじん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "死；（投稿）不采用；没有",
+      "japanese": "没",
+      "kana": "ぼつ",
+      "romaji": "botsu",
+      "tokens": [
+        {
+          "text": "没",
+          "kana": "ぼつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "真相；主要部分",
+      "japanese": "本体",
+      "kana": "ほんたい",
+      "romaji": "hontai",
+      "tokens": [
+        {
+          "text": "本体",
+          "kana": "ほんたい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "万事",
+      "japanese": "万事",
+      "kana": "ばんじ",
+      "romaji": "banji",
+      "tokens": [
+        {
+          "text": "万事",
+          "kana": "ばんじ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "满月，圆月",
+      "japanese": "満月",
+      "kana": "まんげつ",
+      "romaji": "mangetsu",
+      "tokens": [
+        {
+          "text": "満月",
+          "kana": "まんげつ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "未然",
+      "japanese": "未然",
+      "kana": "みぜん",
+      "romaji": "mizen",
+      "tokens": [
+        {
+          "text": "未然",
+          "kana": "みぜん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "缺乏朝气，没有精神",
+      "japanese": "無気力",
+      "kana": "むきりょく",
+      "romaji": "mukiryoku",
+      "tokens": [
+        {
+          "text": "無気力",
+          "kana": "むきりょく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "残酷，无情",
+      "japanese": "無残",
+      "kana": "むざん",
+      "romaji": "muzan",
+      "tokens": [
+        {
+          "text": "無残",
+          "kana": "むざん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "简单，容易；随意，漫不经心",
+      "japanese": "無造作",
+      "kana": "むぞうさ",
+      "romaji": "muzousa",
+      "tokens": [
+        {
+          "text": "無造作",
+          "kana": "むぞうさ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "鲁莽，欠斟酌",
+      "japanese": "無謀",
+      "kana": "むぼう",
+      "romaji": "mubou",
+      "tokens": [
+        {
+          "text": "無謀",
+          "kana": "むぼう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "包罗，收罗",
+      "japanese": "網羅",
+      "kana": "もうら",
+      "romaji": "moura",
+      "tokens": [
+        {
+          "text": "網羅",
+          "kana": "もうら"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "眼前；当前；预见",
+      "japanese": "目先",
+      "kana": "めさき",
+      "romaji": "mesaki",
+      "tokens": [
+        {
+          "text": "目先",
+          "kana": "めさき"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "样子；实情；（不）可能有",
+      "japanese": "ありよう",
+      "kana": "ありよう",
+      "romaji": "ariyou",
+      "tokens": [
+        {
+          "text": "ありよう",
+          "kana": "ありよう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "渊源，来源；显赫的来历",
+      "japanese": "由緒",
+      "kana": "ゆいしょ",
+      "romaji": "yuisho",
+      "tokens": [
+        {
+          "text": "由緒",
+          "kana": "ゆいしょ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "余生",
+      "japanese": "余生",
+      "kana": "よせい",
+      "romaji": "yosei",
+      "tokens": [
+        {
+          "text": "余生",
+          "kana": "よせい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "涂鸦，乱涂乱画",
+      "japanese": "落書き",
+      "kana": "らくがき",
+      "romaji": "rakugaki",
+      "tokens": [
+        {
+          "text": "落書き",
+          "kana": "らくがき"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-50",
+  "coursePackId": "jp-n3",
+  "title": "动词 8",
+  "order": 50,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "掺和；混合",
+      "japanese": "混ぜる",
+      "kana": "まぜる",
+      "romaji": "mazeru",
+      "tokens": [
+        {
+          "text": "混ぜる",
+          "kana": "まぜる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "开始做；创造出；生产",
+      "japanese": "作り出す",
+      "kana": "つくりだす",
+      "romaji": "tsukuridasu",
+      "tokens": [
+        {
+          "text": "作り出す",
+          "kana": "つくりだす"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "重新做",
+      "japanese": "作り直す",
+      "kana": "つくりなおす",
+      "romaji": "tsukurinaosu",
+      "tokens": [
+        {
+          "text": "作り直す",
+          "kana": "つくりなおす"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "觉得，感到",
+      "japanese": "思える",
+      "kana": "おもえる",
+      "romaji": "omoeru",
+      "tokens": [
+        {
+          "text": "思える",
+          "kana": "おもえる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "拿着走",
+      "japanese": "持ち歩く",
+      "kana": "もちあるく",
+      "romaji": "mochiaruku",
+      "tokens": [
+        {
+          "text": "持ち歩く",
+          "kana": "もちあるく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "医治",
+      "japanese": "治す",
+      "kana": "なおす",
+      "romaji": "naosu",
+      "tokens": [
+        {
+          "text": "治す",
+          "kana": "なおす"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "合格，考上",
+      "japanese": "受かる",
+      "kana": "うかる",
+      "romaji": "ukaru",
+      "tokens": [
+        {
+          "text": "受かる",
+          "kana": "うかる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "接收；理解",
+      "japanese": "受け取る",
+      "kana": "うけとる",
+      "romaji": "uketoru",
+      "tokens": [
+        {
+          "text": "受け取る",
+          "kana": "うけとる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "采纳；收进",
+      "japanese": "受け入れる",
+      "kana": "うけいれる",
+      "romaji": "ukeireru",
+      "tokens": [
+        {
+          "text": "受け入れる",
+          "kana": "うけいれる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "互相拿出，大家出（钱、物等）",
+      "japanese": "出し合う",
+      "kana": "だしあう",
+      "romaji": "dashiau",
+      "tokens": [
+        {
+          "text": "出し合う",
+          "kana": "だしあう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "重新写，改写",
+      "japanese": "書き直す",
+      "kana": "かきなおす",
+      "romaji": "kakinaosu",
+      "tokens": [
+        {
+          "text": "書き直す",
+          "kana": "かきなおす"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "存入，汇入",
+      "japanese": "振り込む",
+      "kana": "ふりこむ",
+      "romaji": "furikomu",
+      "tokens": [
+        {
+          "text": "振り込む",
+          "kana": "ふりこむ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "醉；晕（车、船等）；陶醉",
+      "japanese": "酔う",
+      "kana": "よう",
+      "romaji": "you",
+      "tokens": [
+        {
+          "text": "酔う",
+          "kana": "よう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "提前，提早",
+      "japanese": "早める",
+      "kana": "はやめる",
+      "romaji": "hayameru",
+      "tokens": [
+        {
+          "text": "早める",
+          "kana": "はやめる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "到处跑；（忙得）四处奔走",
+      "japanese": "走り回る",
+      "kana": "はしりまわる",
+      "romaji": "hashirimawaru",
+      "tokens": [
+        {
+          "text": "走り回る",
+          "kana": "はしりまわる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "（长度、高度、面积等）测量",
+      "japanese": "測る",
+      "kana": "はかる",
+      "romaji": "hakaru",
+      "tokens": [
+        {
+          "text": "測る",
+          "kana": "はかる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "抢夺；剥夺；强烈地吸引",
+      "japanese": "奪う",
+      "kana": "うばう",
+      "romaji": "ubau",
+      "tokens": [
+        {
+          "text": "奪う",
+          "kana": "うばう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "结识，认识",
+      "japanese": "知り合う",
+      "kana": "しりあう",
+      "romaji": "shiriau",
+      "tokens": [
+        {
+          "text": "知り合う",
+          "kana": "しりあう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "恰巧路过",
+      "japanese": "通りかかる",
+      "kana": "とおりかかる",
+      "romaji": "toorikakaru",
+      "tokens": [
+        {
+          "text": "通りかかる",
+          "kana": "とおりかかる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "走过，越过",
+      "japanese": "通り過ぎる",
+      "kana": "とおりすぎる",
+      "romaji": "toorisugiru",
+      "tokens": [
+        {
+          "text": "通り過ぎる",
+          "kana": "とおりすぎる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "紧，紧绷；紧张",
+      "japanese": "締まる",
+      "kana": "しまる",
+      "romaji": "shimaru",
+      "tokens": [
+        {
+          "text": "締まる",
+          "kana": "しまる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "跌倒",
+      "japanese": "転ぶ",
+      "kana": "ころぶ",
+      "romaji": "korobu",
+      "tokens": [
+        {
+          "text": "転ぶ",
+          "kana": "ころぶ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "捆；束缚",
+      "japanese": "縛る",
+      "kana": "しばる",
+      "romaji": "shibaru",
+      "tokens": [
+        {
+          "text": "縛る",
+          "kana": "しばる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "腐烂；腐朽；消沉",
+      "japanese": "腐る",
+      "kana": "くさる",
+      "romaji": "kusaru",
+      "tokens": [
+        {
+          "text": "腐る",
+          "kana": "くさる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "到处走动，徘徊",
+      "japanese": "歩き回る",
+      "kana": "あるきまわる",
+      "romaji": "arukimawaru",
+      "tokens": [
+        {
+          "text": "歩き回る",
+          "kana": "あるきまわる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "剩余",
+      "japanese": "余る",
+      "kana": "あまる",
+      "romaji": "amaru",
+      "tokens": [
+        {
+          "text": "余る",
+          "kana": "あまる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "溶化；融化；熔化",
+      "japanese": "溶ける",
+      "kana": "とける",
+      "romaji": "tokeru",
+      "tokens": [
+        {
+          "text": "溶ける",
+          "kana": "とける"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "完成；实现；能够做到；由……构成",
+      "japanese": "成る",
+      "kana": "なる",
+      "romaji": "naru",
+      "tokens": [
+        {
+          "text": "成る",
+          "kana": "なる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "塞满；堵住；缩短",
+      "japanese": "詰める",
+      "kana": "つめる",
+      "romaji": "tsumeru",
+      "tokens": [
+        {
+          "text": "詰める",
+          "kana": "つめる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "越过；翻过；超过",
+      "japanese": "越す",
+      "kana": "こす",
+      "romaji": "kosu",
+      "tokens": [
+        {
+          "text": "越す",
+          "kana": "こす"
+        }
+      ]
+    }
+  ]
+}

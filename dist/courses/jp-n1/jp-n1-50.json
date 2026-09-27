@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-50",
+  "coursePackId": "jp-n1",
+  "title": "名词 50",
+  "order": 50,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "大便",
+      "japanese": "大便",
+      "kana": "だいべん",
+      "romaji": "daiben",
+      "tokens": [
+        {
+          "text": "大便",
+          "kana": "だいべん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "第三者，局外人",
+      "japanese": "第三者",
+      "kana": "だいさんしゃ",
+      "romaji": "daisansha",
+      "tokens": [
+        {
+          "text": "第三者",
+          "kana": "だいさんしゃ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "精心，竭力，心血",
+      "japanese": "丹精",
+      "kana": "たんせい",
+      "romaji": "tansei",
+      "tokens": [
+        {
+          "text": "丹精",
+          "kana": "たんせい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "单独，独自",
+      "japanese": "単独",
+      "kana": "たんどく",
+      "romaji": "tandoku",
+      "tokens": [
+        {
+          "text": "単独",
+          "kana": "たんどく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "探知，探查",
+      "japanese": "探知",
+      "kana": "たんち",
+      "romaji": "tanchi",
+      "tokens": [
+        {
+          "text": "探知",
+          "kana": "たんち"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "侦探，侦查",
+      "japanese": "探偵",
+      "kana": "たんてい",
+      "romaji": "tantei",
+      "tokens": [
+        {
+          "text": "探偵",
+          "kana": "たんてい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "武断；短路",
+      "japanese": "短絡",
+      "kana": "たんらく",
+      "romaji": "tanraku",
+      "tokens": [
+        {
+          "text": "短絡",
+          "kana": "たんらく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "死心，放弃",
+      "japanese": "断念",
+      "kana": "だんねん",
+      "romaji": "dannen",
+      "tokens": [
+        {
+          "text": "断念",
+          "kana": "だんねん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "地壳",
+      "japanese": "地殻",
+      "kana": "ちかく",
+      "romaji": "chikaku",
+      "tokens": [
+        {
+          "text": "地殻",
+          "kana": "ちかく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "地形",
+      "japanese": "地形",
+      "kana": "ちけい",
+      "romaji": "chikei",
+      "tokens": [
+        {
+          "text": "地形",
+          "kana": "ちけい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "丢下不管",
+      "japanese": "置き去り",
+      "kana": "おきざり",
+      "romaji": "okizari",
+      "tokens": [
+        {
+          "text": "置き去り",
+          "kana": "おきざり"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "着色，上颜色",
+      "japanese": "着色",
+      "kana": "ちゃくしょく",
+      "romaji": "chakushoku",
+      "tokens": [
+        {
+          "text": "着色",
+          "kana": "ちゃくしょく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "中枢，枢纽，关键",
+      "japanese": "中枢",
+      "kana": "ちゅうすう",
+      "romaji": "chuusuu",
+      "tokens": [
+        {
+          "text": "中枢",
+          "kana": "ちゅうすう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "加入……的行列",
+      "japanese": "仲間入り",
+      "kana": "なかまいり",
+      "romaji": "nakamairi",
+      "tokens": [
+        {
+          "text": "仲間入り",
+          "kana": "なかまいり"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "虫蛀",
+      "japanese": "虫食い",
+      "kana": "むしくい",
+      "romaji": "mushikui",
+      "tokens": [
+        {
+          "text": "虫食い",
+          "kana": "むしくい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "征兆，迹象",
+      "japanese": "兆候",
+      "kana": "ちょうこう",
+      "romaji": "choukou",
+      "tokens": [
+        {
+          "text": "兆候",
+          "kana": "ちょうこう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "听众",
+      "japanese": "聴衆",
+      "kana": "ちょうしゅう",
+      "romaji": "choushuu",
+      "tokens": [
+        {
+          "text": "聴衆",
+          "kana": "ちょうしゅう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "筹措，筹备",
+      "japanese": "調達",
+      "kana": "ちょうたつ",
+      "romaji": "choutatsu",
+      "tokens": [
+        {
+          "text": "調達",
+          "kana": "ちょうたつ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "追求，弄清",
+      "japanese": "追究",
+      "kana": "ついきゅう",
+      "romaji": "tsuikyuu",
+      "tokens": [
+        {
+          "text": "追究",
+          "kana": "ついきゅう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "重伤；沉重的打击",
+      "japanese": "痛手",
+      "kana": "いたで",
+      "romaji": "itade",
+      "tokens": [
+        {
+          "text": "痛手",
+          "kana": "いたで"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "通报，通知；报警",
+      "japanese": "通報",
+      "kana": "つうほう",
+      "romaji": "tsuuhou",
+      "tokens": [
+        {
+          "text": "通報",
+          "kana": "つうほう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "鹤，仙鹤",
+      "japanese": "鶴",
+      "kana": "つる",
+      "romaji": "tsuru",
+      "tokens": [
+        {
+          "text": "鶴",
+          "kana": "つる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "低垂，弥漫；低迷，低潮",
+      "japanese": "低迷",
+      "kana": "ていめい",
+      "romaji": "teimei",
+      "tokens": [
+        {
+          "text": "低迷",
+          "kana": "ていめい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "定时，准时；定期",
+      "japanese": "定時",
+      "kana": "ていじ",
+      "romaji": "teiji",
+      "tokens": [
+        {
+          "text": "定時",
+          "kana": "ていじ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "稳定的工作",
+      "japanese": "定職",
+      "kana": "ていしょく",
+      "romaji": "teishoku",
+      "tokens": [
+        {
+          "text": "定職",
+          "kana": "ていしょく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "定论",
+      "japanese": "定説",
+      "kana": "ていせつ",
+      "romaji": "teisetsu",
+      "tokens": [
+        {
+          "text": "定説",
+          "kana": "ていせつ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "常规，固定（的商品）",
+      "japanese": "定番",
+      "kana": "ていばん",
+      "romaji": "teiban",
+      "tokens": [
+        {
+          "text": "定番",
+          "kana": "ていばん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "适当，恰当",
+      "japanese": "ほどほど",
+      "kana": "ほどほど",
+      "romaji": "hodohodo",
+      "tokens": [
+        {
+          "text": "ほどほど",
+          "kana": "ほどほど"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "（条约、协定等）缔结，签订",
+      "japanese": "締結",
+      "kana": "ていけつ",
+      "romaji": "teiketsu",
+      "tokens": [
+        {
+          "text": "締結",
+          "kana": "ていけつ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "摘除，取出；指出，摘出",
+      "japanese": "摘出",
+      "kana": "てきしゅつ",
+      "romaji": "tekishutsu",
+      "tokens": [
+        {
+          "text": "摘出",
+          "kana": "てきしゅつ"
+        }
+      ]
+    }
+  ]
+}

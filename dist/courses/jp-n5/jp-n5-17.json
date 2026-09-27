@@ -1,0 +1,346 @@
+{
+  "id": "jp-n5-17",
+  "coursePackId": "jp-n5",
+  "title": "名词 17",
+  "order": 17,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "酱，味噌",
+      "japanese": "みそ",
+      "kana": "みそ",
+      "romaji": "miso",
+      "tokens": [
+        {
+          "text": "みそ",
+          "kana": "みそ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "二月",
+      "japanese": "二月",
+      "kana": "にがつ",
+      "romaji": "nigatsu",
+      "tokens": [
+        {
+          "text": "二月",
+          "kana": "にがつ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "三月",
+      "japanese": "三月",
+      "kana": "さんがつ",
+      "romaji": "sangatsu",
+      "tokens": [
+        {
+          "text": "三月",
+          "kana": "さんがつ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "四月",
+      "japanese": "四月",
+      "kana": "しがつ",
+      "romaji": "shigatsu",
+      "tokens": [
+        {
+          "text": "四月",
+          "kana": "しがつ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "五月",
+      "japanese": "五月",
+      "kana": "ごがつ",
+      "romaji": "gogatsu",
+      "tokens": [
+        {
+          "text": "五月",
+          "kana": "ごがつ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "六月",
+      "japanese": "六月",
+      "kana": "ろくがつ",
+      "romaji": "rokugatsu",
+      "tokens": [
+        {
+          "text": "六月",
+          "kana": "ろくがつ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "七月",
+      "japanese": "七月",
+      "kana": "しちがつ",
+      "romaji": "shichigatsu",
+      "tokens": [
+        {
+          "text": "七月",
+          "kana": "しちがつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "八月",
+      "japanese": "八月",
+      "kana": "はちがつ",
+      "romaji": "hachigatsu",
+      "tokens": [
+        {
+          "text": "八月",
+          "kana": "はちがつ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "九月",
+      "japanese": "九月",
+      "kana": "くがつ",
+      "romaji": "kugatsu",
+      "tokens": [
+        {
+          "text": "九月",
+          "kana": "くがつ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "十月",
+      "japanese": "十月",
+      "kana": "じゅうがつ",
+      "romaji": "juugatsu",
+      "tokens": [
+        {
+          "text": "十月",
+          "kana": "じゅうがつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "十一月",
+      "japanese": "十一月",
+      "kana": "じゅういちがつ",
+      "romaji": "juuichigatsu",
+      "tokens": [
+        {
+          "text": "十一月",
+          "kana": "じゅういちがつ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "十二月",
+      "japanese": "十二月",
+      "kana": "じゅうにがつ",
+      "romaji": "juunigatsu",
+      "tokens": [
+        {
+          "text": "十二月",
+          "kana": "じゅうにがつ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "多少次，几次；多少度，几度",
+      "japanese": "何度",
+      "kana": "なんど",
+      "romaji": "nando",
+      "tokens": [
+        {
+          "text": "何度",
+          "kana": "なんど"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "母，母亲，妈妈",
+      "japanese": "母",
+      "kana": "はは",
+      "romaji": "haha",
+      "tokens": [
+        {
+          "text": "母",
+          "kana": "はは"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "求，请求",
+      "japanese": "お願い",
+      "kana": "おねがい",
+      "romaji": "onegai",
+      "tokens": [
+        {
+          "text": "お願い",
+          "kana": "おねがい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "几次，多少次",
+      "japanese": "何回",
+      "kana": "なんかい",
+      "romaji": "nankai",
+      "tokens": [
+        {
+          "text": "何回",
+          "kana": "なんかい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "多少人；几个人",
+      "japanese": "何人",
+      "kana": "なんにん",
+      "romaji": "nannin",
+      "tokens": [
+        {
+          "text": "何人",
+          "kana": "なんにん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "多少年，几年；哪一年",
+      "japanese": "何年",
+      "kana": "なんねん",
+      "romaji": "nannen",
+      "tokens": [
+        {
+          "text": "何年",
+          "kana": "なんねん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "多少天，几天；几号，哪一天",
+      "japanese": "何日",
+      "kana": "なんにち",
+      "romaji": "nannichi",
+      "tokens": [
+        {
+          "text": "何日",
+          "kana": "なんにち"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "电话号码",
+      "japanese": "電話番号",
+      "kana": "でんわばんごう",
+      "romaji": "denwabangou",
+      "tokens": [
+        {
+          "text": "電話番号",
+          "kana": "でんわばんごう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "草莓",
+      "japanese": "いちご",
+      "kana": "いちご",
+      "romaji": "ichigo",
+      "tokens": [
+        {
+          "text": "いちご",
+          "kana": "いちご"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "外语",
+      "japanese": "外国語",
+      "kana": "がいこくご",
+      "romaji": "gaikokugo",
+      "tokens": [
+        {
+          "text": "外国語",
+          "kana": "がいこくご"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "一月",
+      "japanese": "一月",
+      "kana": "いちがつ",
+      "romaji": "ichigatsu",
+      "tokens": [
+        {
+          "text": "一月",
+          "kana": "いちがつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "超级；（「スーパーマーケット」の略）超市",
+      "japanese": "スーパー",
+      "kana": "すうぱあ",
+      "romaji": "suupaa",
+      "tokens": [
+        {
+          "text": "スーパー",
+          "kana": "すうぱあ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "公共汽车站",
+      "japanese": "バス停",
+      "kana": "ばすてい",
+      "romaji": "basutei",
+      "tokens": [
+        {
+          "text": "バス停",
+          "kana": "ばすてい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "十；十个；十岁",
+      "japanese": "十",
+      "kana": "とお",
+      "romaji": "too",
+      "tokens": [
+        {
+          "text": "十",
+          "kana": "とお"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-10",
+  "coursePackId": "jp-n3",
+  "title": "名词 10",
+  "order": 10,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "语法",
+      "japanese": "文法",
+      "kana": "ぶんぽう",
+      "romaji": "bunpou",
+      "tokens": [
+        {
+          "text": "文法",
+          "kana": "ぶんぽう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "文具",
+      "japanese": "文房具",
+      "kana": "ぶんぼうぐ",
+      "romaji": "bunbougu",
+      "tokens": [
+        {
+          "text": "文房具",
+          "kana": "ぶんぼうぐ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "变化",
+      "japanese": "変化",
+      "kana": "へんか",
+      "romaji": "henka",
+      "tokens": [
+        {
+          "text": "変化",
+          "kana": "へんか"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "生活，度日；生计",
+      "japanese": "暮らし",
+      "kana": "くらし",
+      "romaji": "kurashi",
+      "tokens": [
+        {
+          "text": "暮らし",
+          "kana": "くらし"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "报告，汇报",
+      "japanese": "報告",
+      "kana": "ほうこく",
+      "romaji": "houkoku",
+      "tokens": [
+        {
+          "text": "報告",
+          "kana": "ほうこく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "广播，播报",
+      "japanese": "放送",
+      "kana": "ほうそう",
+      "romaji": "housou",
+      "tokens": [
+        {
+          "text": "放送",
+          "kana": "ほうそう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "法律",
+      "japanese": "法律",
+      "kana": "ほうりつ",
+      "romaji": "houritsu",
+      "tokens": [
+        {
+          "text": "法律",
+          "kana": "ほうりつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "翻译",
+      "japanese": "翻訳",
+      "kana": "ほんやく",
+      "romaji": "hon'yaku",
+      "tokens": [
+        {
+          "text": "翻訳",
+          "kana": "ほんやく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "满员；满座；客满",
+      "japanese": "満員",
+      "kana": "まんいん",
+      "romaji": "man'in",
+      "tokens": [
+        {
+          "text": "満員",
+          "kana": "まんいん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "满足，满意；令人满意",
+      "japanese": "満足",
+      "kana": "まんぞく",
+      "romaji": "manzoku",
+      "tokens": [
+        {
+          "text": "満足",
+          "kana": "まんぞく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "徒劳，白费",
+      "japanese": "無駄",
+      "kana": "むだ",
+      "romaji": "muda",
+      "tokens": [
+        {
+          "text": "無駄",
+          "kana": "むだ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "明天；（近的）将来，以后",
+      "japanese": "明日",
+      "kana": "あす",
+      "romaji": "asu",
+      "tokens": [
+        {
+          "text": "明日",
+          "kana": "あす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "迷路的孩子；迷路",
+      "japanese": "迷子",
+      "kana": "まいご",
+      "romaji": "maigo",
+      "tokens": [
+        {
+          "text": "迷子",
+          "kana": "まいご"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "麻烦，为难",
+      "japanese": "迷惑",
+      "kana": "めいわく",
+      "romaji": "meiwaku",
+      "tokens": [
+        {
+          "text": "迷惑",
+          "kana": "めいわく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "毛；头发",
+      "japanese": "毛",
+      "kana": "け",
+      "romaji": "ke",
+      "tokens": [
+        {
+          "text": "毛",
+          "kana": "け"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "眼前，面前；迫在眉睫",
+      "japanese": "目の前",
+      "kana": "めのまえ",
+      "romaji": "menomae",
+      "tokens": [
+        {
+          "text": "目の前",
+          "kana": "めのまえ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "目的，目标",
+      "japanese": "目的",
+      "kana": "もくてき",
+      "romaji": "mokuteki",
+      "tokens": [
+        {
+          "text": "目的",
+          "kana": "もくてき"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "深夜，半夜",
+      "japanese": "夜中",
+      "kana": "よなか",
+      "romaji": "yonaka",
+      "tokens": [
+        {
+          "text": "夜中",
+          "kana": "よなか"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（液态）油",
+      "japanese": "油",
+      "kana": "あぶら",
+      "romaji": "abura",
+      "tokens": [
+        {
+          "text": "油",
+          "kana": "あぶら"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "收费，需付费",
+      "japanese": "有料",
+      "kana": "ゆうりょう",
+      "romaji": "yuuryou",
+      "tokens": [
+        {
+          "text": "有料",
+          "kana": "ゆうりょう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "游乐园",
+      "japanese": "遊園地",
+      "kana": "ゆうえんち",
+      "romaji": "yuuenchi",
+      "tokens": [
+        {
+          "text": "遊園地",
+          "kana": "ゆうえんち"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "晚饭",
+      "japanese": "夕飯",
+      "kana": "ゆうはん",
+      "romaji": "yuuhan",
+      "tokens": [
+        {
+          "text": "夕飯",
+          "kana": "ゆうはん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "预习",
+      "japanese": "予習",
+      "kana": "よしゅう",
+      "romaji": "yoshuu",
+      "tokens": [
+        {
+          "text": "予習",
+          "kana": "よしゅう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "情况；姿态；迹象",
+      "japanese": "様子",
+      "kana": "ようす",
+      "romaji": "yousu",
+      "tokens": [
+        {
+          "text": "様子",
+          "kana": "ようす"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（特定用途、固定格式的）纸张，表格",
+      "japanese": "用紙",
+      "kana": "ようし",
+      "romaji": "youshi",
+      "tokens": [
+        {
+          "text": "用紙",
+          "kana": "ようし"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "叶子",
+      "japanese": "葉",
+      "kana": "は",
+      "romaji": "ha",
+      "tokens": [
+        {
+          "text": "葉",
+          "kana": "は"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "舞蹈",
+      "japanese": "踊り",
+      "kana": "おどり",
+      "romaji": "odori",
+      "tokens": [
+        {
+          "text": "踊り",
+          "kana": "おどり"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "列；排列；顺序",
+      "japanese": "列",
+      "kana": "れつ",
+      "romaji": "retsu",
+      "tokens": [
+        {
+          "text": "列",
+          "kana": "れつ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "列车，火车",
+      "japanese": "列車",
+      "kana": "れっしゃ",
+      "romaji": "ressha",
+      "tokens": [
+        {
+          "text": "列車",
+          "kana": "れっしゃ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "论文",
+      "japanese": "論文",
+      "kana": "ろんぶん",
+      "romaji": "ronbun",
+      "tokens": [
+        {
+          "text": "論文",
+          "kana": "ろんぶん"
+        }
+      ]
+    }
+  ]
+}

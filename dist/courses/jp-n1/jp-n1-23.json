@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-23",
+  "coursePackId": "jp-n1",
+  "title": "名词 23",
+  "order": 23,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "斜视，往旁处看",
+      "japanese": "よそ見",
+      "kana": "よそみ",
+      "romaji": "yosomi",
+      "tokens": [
+        {
+          "text": "よそ見",
+          "kana": "よそみ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "煤油灯；电灯",
+      "japanese": "ランプ",
+      "kana": "らんぷ",
+      "romaji": "ranpu",
+      "tokens": [
+        {
+          "text": "ランプ",
+          "kana": "らんぷ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "路线；途径",
+      "japanese": "ルート",
+      "kana": "るうと",
+      "romaji": "ruuto",
+      "tokens": [
+        {
+          "text": "ルート",
+          "kana": "るうと"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "控制杆，操纵杆",
+      "japanese": "レバー",
+      "kana": "ればあ",
+      "romaji": "rebaa",
+      "tokens": [
+        {
+          "text": "レバー",
+          "kana": "ればあ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "光顾，惠顾",
+      "japanese": "愛顧",
+      "kana": "あいこ",
+      "romaji": "aiko",
+      "tokens": [
+        {
+          "text": "愛顧",
+          "kana": "あいこ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "亲切，和蔼；招待，款待",
+      "japanese": "愛想",
+      "kana": "あいそ",
+      "romaji": "aiso",
+      "tokens": [
+        {
+          "text": "愛想",
+          "kana": "あいそ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "坏人",
+      "japanese": "悪人",
+      "kana": "あくにん",
+      "romaji": "akunin",
+      "tokens": [
+        {
+          "text": "悪人",
+          "kana": "あくにん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "压迫，压制",
+      "japanese": "圧迫",
+      "kana": "あっぱく",
+      "romaji": "appaku",
+      "tokens": [
+        {
+          "text": "圧迫",
+          "kana": "あっぱく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "压力",
+      "japanese": "圧力",
+      "kana": "あつりょく",
+      "romaji": "atsuryoku",
+      "tokens": [
+        {
+          "text": "圧力",
+          "kana": "あつりょく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "提示，暗示",
+      "japanese": "暗示",
+      "kana": "あんじ",
+      "romaji": "anji",
+      "tokens": [
+        {
+          "text": "暗示",
+          "kana": "あんじ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "依靠，依存",
+      "japanese": "依存",
+      "kana": "いそん",
+      "romaji": "ison",
+      "tokens": [
+        {
+          "text": "依存",
+          "kana": "いそん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "伟业",
+      "japanese": "偉業",
+      "kana": "いぎょう",
+      "romaji": "igyou",
+      "tokens": [
+        {
+          "text": "偉業",
+          "kana": "いぎょう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "委托",
+      "japanese": "委託",
+      "kana": "いたく",
+      "romaji": "itaku",
+      "tokens": [
+        {
+          "text": "委託",
+          "kana": "いたく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "意气，精神，气势",
+      "japanese": "意気",
+      "kana": "いき",
+      "romaji": "iki",
+      "tokens": [
+        {
+          "text": "意気",
+          "kana": "いき"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "意向，打算",
+      "japanese": "意向",
+      "kana": "いこう",
+      "romaji": "ikou",
+      "tokens": [
+        {
+          "text": "意向",
+          "kana": "いこう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "异议",
+      "japanese": "異議",
+      "kana": "いぎ",
+      "romaji": "igi",
+      "tokens": [
+        {
+          "text": "異議",
+          "kana": "いぎ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "（职位或职务等）变动，调动",
+      "japanese": "異動",
+      "kana": "いどう",
+      "romaji": "idou",
+      "tokens": [
+        {
+          "text": "異動",
+          "kana": "いどう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "遗址，遗迹",
+      "japanese": "遺跡",
+      "kana": "いせき",
+      "romaji": "iseki",
+      "tokens": [
+        {
+          "text": "遺跡",
+          "kana": "いせき"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "一贯",
+      "japanese": "一貫",
+      "kana": "いっかん",
+      "romaji": "ikkan",
+      "tokens": [
+        {
+          "text": "一貫",
+          "kana": "いっかん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "往昔，昔日，过去",
+      "japanese": "一昔",
+      "kana": "ひとむかし",
+      "romaji": "hitomukashi",
+      "tokens": [
+        {
+          "text": "一昔",
+          "kana": "ひとむかし"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "一次呼吸；歇口气；一口气；（稍加）一把劲",
+      "japanese": "一息",
+      "kana": "ひといき",
+      "romaji": "hitoiki",
+      "tokens": [
+        {
+          "text": "一息",
+          "kana": "ひといき"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "专心，一心一意",
+      "japanese": "一途",
+      "kana": "いちず",
+      "romaji": "ichizu",
+      "tokens": [
+        {
+          "text": "一途",
+          "kana": "いちず"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "一看，一眼",
+      "japanese": "一目",
+      "kana": "いちもく",
+      "romaji": "ichimoku",
+      "tokens": [
+        {
+          "text": "一目",
+          "kana": "いちもく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "一律，一样",
+      "japanese": "一律",
+      "kana": "いちりつ",
+      "romaji": "ichiritsu",
+      "tokens": [
+        {
+          "text": "一律",
+          "kana": "いちりつ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "一系列，一连串",
+      "japanese": "一連",
+      "kana": "いちれん",
+      "romaji": "ichiren",
+      "tokens": [
+        {
+          "text": "一連",
+          "kana": "いちれん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "卓越的人才，卓越的才能",
+      "japanese": "逸材",
+      "kana": "いつざい",
+      "romaji": "itsuzai",
+      "tokens": [
+        {
+          "text": "逸材",
+          "kana": "いつざい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "雨水",
+      "japanese": "雨水",
+      "kana": "あまみず",
+      "romaji": "amamizu",
+      "tokens": [
+        {
+          "text": "雨水",
+          "kana": "あまみず"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "漩涡；混乱状态",
+      "japanese": "渦",
+      "kana": "うず",
+      "romaji": "uzu",
+      "tokens": [
+        {
+          "text": "渦",
+          "kana": "うず"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "搬运，运输",
+      "japanese": "運搬",
+      "kana": "うんぱん",
+      "romaji": "unpan",
+      "tokens": [
+        {
+          "text": "運搬",
+          "kana": "うんぱん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "运用，活用",
+      "japanese": "運用",
+      "kana": "うんよう",
+      "romaji": "un'you",
+      "tokens": [
+        {
+          "text": "運用",
+          "kana": "うんよう"
+        }
+      ]
+    }
+  ]
+}

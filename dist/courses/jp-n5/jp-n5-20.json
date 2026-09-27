@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-20",
+  "coursePackId": "jp-n5",
+  "title": "动词 3",
+  "order": 20,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "渡过，通过",
+      "japanese": "渡る",
+      "kana": "わたる",
+      "romaji": "wataru",
+      "tokens": [
+        {
+          "text": "渡る",
+          "kana": "わたる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "回应；回答，解答",
+      "japanese": "答える",
+      "kana": "こたえる",
+      "romaji": "kotaeru",
+      "tokens": [
+        {
+          "text": "答える",
+          "kana": "こたえる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "工作",
+      "japanese": "働く",
+      "kana": "はたらく",
+      "romaji": "hataraku",
+      "tokens": [
+        {
+          "text": "働く",
+          "kana": "はたらく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "读；看",
+      "japanese": "読む",
+      "kana": "よむ",
+      "romaji": "yomu",
+      "tokens": [
+        {
+          "text": "読む",
+          "kana": "よむ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "阴天；朦胧不清，模糊",
+      "japanese": "曇る",
+      "kana": "くもる",
+      "romaji": "kumoru",
+      "tokens": [
+        {
+          "text": "曇る",
+          "kana": "くもる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "进入；含有；加入",
+      "japanese": "入る",
+      "kana": "はいる",
+      "romaji": "hairu",
+      "tokens": [
+        {
+          "text": "入る",
+          "kana": "はいる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "放进；沏（茶等）",
+      "japanese": "入れる",
+      "kana": "いれる",
+      "romaji": "ireru",
+      "tokens": [
+        {
+          "text": "入れる",
+          "kana": "いれる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "购买",
+      "japanese": "買う",
+      "kana": "かう",
+      "romaji": "kau",
+      "tokens": [
+        {
+          "text": "買う",
+          "kana": "かう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "出售",
+      "japanese": "売る",
+      "kana": "うる",
+      "romaji": "uru",
+      "tokens": [
+        {
+          "text": "売る",
+          "kana": "うる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "疲倦，累",
+      "japanese": "疲れる",
+      "kana": "つかれる",
+      "romaji": "tsukareru",
+      "tokens": [
+        {
+          "text": "疲れる",
+          "kana": "つかれる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "飞翔；吹起",
+      "japanese": "飛ぶ",
+      "kana": "とぶ",
+      "romaji": "tobu",
+      "tokens": [
+        {
+          "text": "飛ぶ",
+          "kana": "とぶ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "安上；穿上；写上；定价；涂上；附上；打分",
+      "japanese": "付ける",
+      "kana": "つける",
+      "romaji": "tsukeru",
+      "tokens": [
+        {
+          "text": "付ける",
+          "kana": "つける"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "明白，懂；知道",
+      "japanese": "分かる",
+      "kana": "わかる",
+      "romaji": "wakaru",
+      "tokens": [
+        {
+          "text": "分かる",
+          "kana": "わかる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "听；询问",
+      "japanese": "聞く",
+      "kana": "きく",
+      "romaji": "kiku",
+      "tokens": [
+        {
+          "text": "聞く",
+          "kana": "きく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "排队，排列",
+      "japanese": "並ぶ",
+      "kana": "ならぶ",
+      "romaji": "narabu",
+      "tokens": [
+        {
+          "text": "並ぶ",
+          "kana": "ならぶ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "排列",
+      "japanese": "並べる",
+      "kana": "ならべる",
+      "romaji": "naraberu",
+      "tokens": [
+        {
+          "text": "並べる",
+          "kana": "ならべる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "步行",
+      "japanese": "歩く",
+      "kana": "あるく",
+      "romaji": "aruku",
+      "tokens": [
+        {
+          "text": "歩く",
+          "kana": "あるく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "忘记，遗忘",
+      "japanese": "忘れる",
+      "kana": "わすれる",
+      "romaji": "wasureru",
+      "tokens": [
+        {
+          "text": "忘れる",
+          "kana": "わすれる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "磨，刷；磨练",
+      "japanese": "磨く",
+      "kana": "みがく",
+      "romaji": "migaku",
+      "tokens": [
+        {
+          "text": "磨く",
+          "kana": "みがく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "玩耍",
+      "japanese": "遊ぶ",
+      "kana": "あそぶ",
+      "romaji": "asobu",
+      "tokens": [
+        {
+          "text": "遊ぶ",
+          "kana": "あそぶ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "来",
+      "japanese": "来る",
+      "kana": "くる",
+      "romaji": "kuru",
+      "tokens": [
+        {
+          "text": "来る",
+          "kana": "くる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "站立；竖立；离开，动身",
+      "japanese": "立つ",
+      "kana": "たつ",
+      "romaji": "tatsu",
+      "tokens": [
+        {
+          "text": "立つ",
+          "kana": "たつ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "说，讲，谈",
+      "japanese": "話す",
+      "kana": "はなす",
+      "romaji": "hanasu",
+      "tokens": [
+        {
+          "text": "話す",
+          "kana": "はなす"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "给予，赠送",
+      "japanese": "あげる",
+      "kana": "あげる",
+      "romaji": "ageru",
+      "tokens": [
+        {
+          "text": "あげる",
+          "kana": "あげる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "吃，喝；得到",
+      "japanese": "頂く",
+      "kana": "いただく",
+      "romaji": "itadaku",
+      "tokens": [
+        {
+          "text": "頂く",
+          "kana": "いただく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "来；去；在",
+      "japanese": "いらっしゃる",
+      "kana": "いらっしゃる",
+      "romaji": "irassharu",
+      "tokens": [
+        {
+          "text": "いらっしゃる",
+          "kana": "いらっしゃる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "给（我）",
+      "japanese": "くれる",
+      "kana": "くれる",
+      "romaji": "kureru",
+      "tokens": [
+        {
+          "text": "くれる",
+          "kana": "くれる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "礼物，赠品",
+      "japanese": "プレゼント",
+      "kana": "ぷれぜんと",
+      "romaji": "purezento",
+      "tokens": [
+        {
+          "text": "プレゼント",
+          "kana": "ぷれぜんと"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "得到，获得",
+      "japanese": "もらう",
+      "kana": "もらう",
+      "romaji": "morau",
+      "tokens": [
+        {
+          "text": "もらう",
+          "kana": "もらう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "做；（上级给下级，人给动物等）给",
+      "japanese": "やる",
+      "kana": "やる",
+      "romaji": "yaru",
+      "tokens": [
+        {
+          "text": "やる",
+          "kana": "やる"
+        }
+      ]
+    }
+  ]
+}

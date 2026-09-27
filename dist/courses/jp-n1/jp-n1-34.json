@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-34",
+  "coursePackId": "jp-n1",
+  "title": "名词 34",
+  "order": 34,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "搭乘",
+      "japanese": "搭乗",
+      "kana": "とうじょう",
+      "romaji": "toujou",
+      "tokens": [
+        {
+          "text": "搭乗",
+          "kana": "とうじょう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "偷盗，盗窃",
+      "japanese": "盗み",
+      "kana": "ぬすみ",
+      "romaji": "nusumi",
+      "tokens": [
+        {
+          "text": "盗み",
+          "kana": "ぬすみ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "当事人，本人",
+      "japanese": "当人",
+      "kana": "とうにん",
+      "romaji": "tounin",
+      "tokens": [
+        {
+          "text": "当人",
+          "kana": "とうにん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "当选；中彩",
+      "japanese": "当選",
+      "kana": "とうせん",
+      "romaji": "tousen",
+      "tokens": [
+        {
+          "text": "当選",
+          "kana": "とうせん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "统一，合并",
+      "japanese": "統合",
+      "kana": "とうごう",
+      "romaji": "tougou",
+      "tokens": [
+        {
+          "text": "統合",
+          "kana": "とうごう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "统制，统管",
+      "japanese": "統制",
+      "kana": "とうせい",
+      "romaji": "tousei",
+      "tokens": [
+        {
+          "text": "統制",
+          "kana": "とうせい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "继承，沿用",
+      "japanese": "踏襲",
+      "kana": "とうしゅう",
+      "romaji": "toushuu",
+      "tokens": [
+        {
+          "text": "踏襲",
+          "kana": "とうしゅう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "逃跑，逃走",
+      "japanese": "逃走",
+      "kana": "とうそう",
+      "romaji": "tousou",
+      "tokens": [
+        {
+          "text": "逃走",
+          "kana": "とうそう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "动向",
+      "japanese": "動向",
+      "kana": "どうこう",
+      "romaji": "doukou",
+      "tokens": [
+        {
+          "text": "動向",
+          "kana": "どうこう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "同志",
+      "japanese": "同志",
+      "kana": "どうし",
+      "romaji": "doushi",
+      "tokens": [
+        {
+          "text": "同志",
+          "kana": "どうし"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "与他人态度、意见一致",
+      "japanese": "同調",
+      "kana": "どうちょう",
+      "romaji": "douchou",
+      "tokens": [
+        {
+          "text": "同調",
+          "kana": "どうちょう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "好办法，上策",
+      "japanese": "得策",
+      "kana": "とくさく",
+      "romaji": "tokusaku",
+      "tokens": [
+        {
+          "text": "得策",
+          "kana": "とくさく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "专利",
+      "japanese": "特許",
+      "kana": "とっきょ",
+      "romaji": "tokkyo",
+      "tokens": [
+        {
+          "text": "特許",
+          "kana": "とっきょ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "特权",
+      "japanese": "特権",
+      "kana": "とっけん",
+      "romaji": "tokken",
+      "tokens": [
+        {
+          "text": "特権",
+          "kana": "とっけん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "专刊，专集",
+      "japanese": "特集",
+      "kana": "とくしゅう",
+      "romaji": "tokushuu",
+      "tokens": [
+        {
+          "text": "特集",
+          "kana": "とくしゅう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "独创",
+      "japanese": "独創",
+      "kana": "どくそう",
+      "romaji": "dokusou",
+      "tokens": [
+        {
+          "text": "独創",
+          "kana": "どくそう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "冲进，闯进",
+      "japanese": "突入",
+      "kana": "とつにゅう",
+      "romaji": "totsunyuu",
+      "tokens": [
+        {
+          "text": "突入",
+          "kana": "とつにゅう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "突破；超过",
+      "japanese": "突破",
+      "kana": "とっぱ",
+      "romaji": "toppa",
+      "tokens": [
+        {
+          "text": "突破",
+          "kana": "とっぱ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "内心，暗地里",
+      "japanese": "内心",
+      "kana": "ないしん",
+      "romaji": "naishin",
+      "tokens": [
+        {
+          "text": "内心",
+          "kana": "ないしん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "明细，细目",
+      "japanese": "内訳",
+      "kana": "うちわけ",
+      "romaji": "uchiwake",
+      "tokens": [
+        {
+          "text": "内訳",
+          "kana": "うちわけ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "内陆",
+      "japanese": "内陸",
+      "kana": "ないりく",
+      "romaji": "nairiku",
+      "tokens": [
+        {
+          "text": "内陸",
+          "kana": "ないりく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "肉体",
+      "japanese": "肉体",
+      "kana": "にくたい",
+      "romaji": "nikutai",
+      "tokens": [
+        {
+          "text": "肉体",
+          "kana": "にくたい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "晒黑",
+      "japanese": "日焼け",
+      "kana": "ひやけ",
+      "romaji": "hiyake",
+      "tokens": [
+        {
+          "text": "日焼け",
+          "kana": "ひやけ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "婴幼儿（学龄前孩子的总称）",
+      "japanese": "乳幼児",
+      "kana": "にゅうようじ",
+      "romaji": "nyuuyouji",
+      "tokens": [
+        {
+          "text": "乳幼児",
+          "kana": "にゅうようじ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "如实，原原本本",
+      "japanese": "如実",
+      "kana": "にょじつ",
+      "romaji": "nyojitsu",
+      "tokens": [
+        {
+          "text": "如実",
+          "kana": "にょじつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "任务，职责",
+      "japanese": "任務",
+      "kana": "にんむ",
+      "romaji": "ninmu",
+      "tokens": [
+        {
+          "text": "任務",
+          "kana": "にんむ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "怀孕，妊娠",
+      "japanese": "妊娠",
+      "kana": "にんしん",
+      "romaji": "ninshin",
+      "tokens": [
+        {
+          "text": "妊娠",
+          "kana": "にんしん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "热情，干劲",
+      "japanese": "熱意",
+      "kana": "ねつい",
+      "romaji": "netsui",
+      "tokens": [
+        {
+          "text": "熱意",
+          "kana": "ねつい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "年长",
+      "japanese": "年長",
+      "kana": "ねんちょう",
+      "romaji": "nenchou",
+      "tokens": [
+        {
+          "text": "年長",
+          "kana": "ねんちょう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "愿望，夙愿",
+      "japanese": "念願",
+      "kana": "ねんがん",
+      "romaji": "nengan",
+      "tokens": [
+        {
+          "text": "念願",
+          "kana": "ねんがん"
+        }
+      ]
+    }
+  ]
+}

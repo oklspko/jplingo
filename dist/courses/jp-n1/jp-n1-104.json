@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-104",
+  "coursePackId": "jp-n1",
+  "title": "动词 13",
+  "order": 104,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "强行要求",
+      "japanese": "強要",
+      "kana": "きょうよう",
+      "romaji": "kyouyou",
+      "tokens": [
+        {
+          "text": "強要",
+          "kana": "きょうよう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "缩小，缩短（空间、间隔、范围等）",
+      "japanese": "狭める",
+      "kana": "せばめる",
+      "romaji": "sebameru",
+      "tokens": [
+        {
+          "text": "狭める",
+          "kana": "せばめる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "跑到跟前",
+      "japanese": "駆け寄る",
+      "kana": "かけよる",
+      "romaji": "kakeyoru",
+      "tokens": [
+        {
+          "text": "駆け寄る",
+          "kana": "かけよる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "担心，惦记",
+      "japanese": "懸念",
+      "kana": "けねん",
+      "romaji": "kenen",
+      "tokens": [
+        {
+          "text": "懸念",
+          "kana": "けねん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "看入迷",
+      "japanese": "見とれる",
+      "kana": "みとれる",
+      "romaji": "mitoreru",
+      "tokens": [
+        {
+          "text": "見とれる",
+          "kana": "みとれる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "预料，预测",
+      "japanese": "見越す",
+      "kana": "みこす",
+      "romaji": "mikosu",
+      "tokens": [
+        {
+          "text": "見越す",
+          "kana": "みこす"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "看透（事物的本质）；弄清楚",
+      "japanese": "見極める",
+      "kana": "みきわめる",
+      "romaji": "mikiwameru",
+      "tokens": [
+        {
+          "text": "見極める",
+          "kana": "みきわめる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "看上去（看后判断出）；看到",
+      "japanese": "見受ける",
+      "kana": "みうける",
+      "romaji": "miukeru",
+      "tokens": [
+        {
+          "text": "見受ける",
+          "kana": "みうける"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "注视，看得出神",
+      "japanese": "見入る",
+      "kana": "みいる",
+      "romaji": "miiru",
+      "tokens": [
+        {
+          "text": "見入る",
+          "kana": "みいる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "未说完；留话，遗言",
+      "japanese": "言い残す",
+      "kana": "いいのこす",
+      "romaji": "iinokosu",
+      "tokens": [
+        {
+          "text": "言い残す",
+          "kana": "いいのこす"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "（上对下）宣告，宣判",
+      "japanese": "言い渡す",
+      "kana": "いいわたす",
+      "romaji": "iiwatasu",
+      "tokens": [
+        {
+          "text": "言い渡す",
+          "kana": "いいわたす"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "断言",
+      "japanese": "言い放つ",
+      "kana": "いいはなつ",
+      "romaji": "iihanatsu",
+      "tokens": [
+        {
+          "text": "言い放つ",
+          "kana": "いいはなつ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "叫来",
+      "japanese": "呼び寄せる",
+      "kana": "よびよせる",
+      "romaji": "yobiyoseru",
+      "tokens": [
+        {
+          "text": "呼び寄せる",
+          "kana": "よびよせる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "困惑，不知所措",
+      "japanese": "戸惑う",
+      "kana": "とまどう",
+      "romaji": "tomadou",
+      "tokens": [
+        {
+          "text": "戸惑う",
+          "kana": "とまどう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "校对，校正",
+      "japanese": "校正",
+      "kana": "こうせい",
+      "romaji": "kousei",
+      "tokens": [
+        {
+          "text": "校正",
+          "kana": "こうせい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "构筑，构建",
+      "japanese": "構築",
+      "kana": "こうちく",
+      "romaji": "kouchiku",
+      "tokens": [
+        {
+          "text": "構築",
+          "kana": "こうちく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "周到，无微不至",
+      "japanese": "行き届く",
+      "kana": "いきとどく",
+      "romaji": "ikitodoku",
+      "tokens": [
+        {
+          "text": "行き届く",
+          "kana": "いきとどく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "细分，详细划分",
+      "japanese": "細分",
+      "kana": "さいぶん",
+      "romaji": "saibun",
+      "tokens": [
+        {
+          "text": "細分",
+          "kana": "さいぶん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "磨损，磨破",
+      "japanese": "擦り切れる",
+      "kana": "すりきれる",
+      "romaji": "surikireru",
+      "tokens": [
+        {
+          "text": "擦り切れる",
+          "kana": "すりきれる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "暴晒；暴露于",
+      "japanese": "さらす",
+      "kana": "さらす",
+      "romaji": "sarasu",
+      "tokens": [
+        {
+          "text": "さらす",
+          "kana": "さらす"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "训练，指导；（饭店、商店）进货；酿造",
+      "japanese": "仕込む",
+      "kana": "しこむ",
+      "romaji": "shikomu",
+      "tokens": [
+        {
+          "text": "仕込む",
+          "kana": "しこむ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "钻牛角尖，想不开",
+      "japanese": "思い詰める",
+      "kana": "おもいつめる",
+      "romaji": "omoitsumeru",
+      "tokens": [
+        {
+          "text": "思い詰める",
+          "kana": "おもいつめる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "骄傲自大",
+      "japanese": "思い上がる",
+      "kana": "おもいあがる",
+      "romaji": "omoiagaru",
+      "tokens": [
+        {
+          "text": "思い上がる",
+          "kana": "おもいあがる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "苦恼，发愁，伤脑筋",
+      "japanese": "思い悩む",
+      "kana": "おもいなやむ",
+      "romaji": "omoinayamu",
+      "tokens": [
+        {
+          "text": "思い悩む",
+          "kana": "おもいなやむ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "指向，面向",
+      "japanese": "指向",
+      "kana": "しこう",
+      "romaji": "shikou",
+      "tokens": [
+        {
+          "text": "指向",
+          "kana": "しこう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "提出话题，倡议",
+      "japanese": "持ちかける",
+      "kana": "もちかける",
+      "romaji": "mochikakeru",
+      "tokens": [
+        {
+          "text": "持ちかける",
+          "kana": "もちかける"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "难于处理，无法对付",
+      "japanese": "持て余す",
+      "kana": "もてあます",
+      "romaji": "moteamasu",
+      "tokens": [
+        {
+          "text": "持て余す",
+          "kana": "もてあます"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "把……煮得没有水分；使（问题）接近解决，使（讨论、计划等）进入最后阶段",
+      "japanese": "煮詰める",
+      "kana": "につめる",
+      "romaji": "nitsumeru",
+      "tokens": [
+        {
+          "text": "煮詰める",
+          "kana": "につめる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "停止，中止，取消",
+      "japanese": "取りやめる",
+      "kana": "とりやめる",
+      "romaji": "toriyameru",
+      "tokens": [
+        {
+          "text": "取りやめる",
+          "kana": "とりやめる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "催收，强征；提拔；特别列举",
+      "japanese": "取り立てる",
+      "kana": "とりたてる",
+      "romaji": "toritateru",
+      "tokens": [
+        {
+          "text": "取り立てる",
+          "kana": "とりたてる"
+        }
+      ]
+    }
+  ]
+}

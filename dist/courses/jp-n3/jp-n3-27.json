@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-27",
+  "coursePackId": "jp-n3",
+  "title": "名词 27",
+  "order": 27,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "食指",
+      "japanese": "人差し指",
+      "kana": "ひとさしゆび",
+      "romaji": "hitosashiyubi",
+      "tokens": [
+        {
+          "text": "人差し指",
+          "kana": "ひとさしゆび"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "人数",
+      "japanese": "人数",
+      "kana": "にんずう",
+      "romaji": "ninzuu",
+      "tokens": [
+        {
+          "text": "人数",
+          "kana": "にんずう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "数年，几年",
+      "japanese": "数年",
+      "kana": "すうねん",
+      "romaji": "suunen",
+      "tokens": [
+        {
+          "text": "数年",
+          "kana": "すうねん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "限制，节制",
+      "japanese": "制限",
+      "kana": "せいげん",
+      "romaji": "seigen",
+      "tokens": [
+        {
+          "text": "制限",
+          "kana": "せいげん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "制服",
+      "japanese": "制服",
+      "kana": "せいふく",
+      "romaji": "seifuku",
+      "tokens": [
+        {
+          "text": "制服",
+          "kana": "せいふく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "正常",
+      "japanese": "正常",
+      "kana": "せいじょう",
+      "romaji": "seijou",
+      "tokens": [
+        {
+          "text": "正常",
+          "kana": "せいじょう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "专家",
+      "japanese": "専門家",
+      "kana": "せんもんか",
+      "romaji": "senmonka",
+      "tokens": [
+        {
+          "text": "専門家",
+          "kana": "せんもんか"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "要洗的衣物；洗过的衣物",
+      "japanese": "洗濯物",
+      "kana": "せんたくもの",
+      "romaji": "sentakumono",
+      "tokens": [
+        {
+          "text": "洗濯物",
+          "kana": "せんたくもの"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（液体等）色斑，污渍；污点，玷污；（皮肤上的）斑点，老年斑",
+      "japanese": "染み",
+      "kana": "しみ",
+      "romaji": "shimi",
+      "tokens": [
+        {
+          "text": "染み",
+          "kana": "しみ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "铁路，轨道",
+      "japanese": "線路",
+      "kana": "せんろ",
+      "romaji": "senro",
+      "tokens": [
+        {
+          "text": "線路",
+          "kana": "せんろ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "上次，上回",
+      "japanese": "前回",
+      "kana": "ぜんかい",
+      "romaji": "zenkai",
+      "tokens": [
+        {
+          "text": "前回",
+          "kana": "ぜんかい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "提前，早些",
+      "japanese": "早め",
+      "kana": "はやめ",
+      "romaji": "hayame",
+      "tokens": [
+        {
+          "text": "早め",
+          "kana": "はやめ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "发送",
+      "japanese": "送信",
+      "kana": "そうしん",
+      "romaji": "soushin",
+      "tokens": [
+        {
+          "text": "送信",
+          "kana": "そうしん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "脚步声；（比喻）来临的迹象",
+      "japanese": "足音",
+      "kana": "あしおと",
+      "romaji": "ashioto",
+      "tokens": [
+        {
+          "text": "足音",
+          "kana": "あしおと"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "孙子，孙女",
+      "japanese": "孫",
+      "kana": "まご",
+      "romaji": "mago",
+      "tokens": [
+        {
+          "text": "孫",
+          "kana": "まご"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "体力",
+      "japanese": "体力",
+      "kana": "たいりょく",
+      "romaji": "tairyoku",
+      "tokens": [
+        {
+          "text": "体力",
+          "kana": "たいりょく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "无聊；厌倦",
+      "japanese": "退屈",
+      "kana": "たいくつ",
+      "romaji": "taikutsu",
+      "tokens": [
+        {
+          "text": "退屈",
+          "kana": "たいくつ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "房东",
+      "japanese": "大家",
+      "kana": "おおや",
+      "romaji": "ooya",
+      "tokens": [
+        {
+          "text": "大家",
+          "kana": "おおや"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "大量，多量",
+      "japanese": "大量",
+      "kana": "たいりょう",
+      "romaji": "tairyou",
+      "tokens": [
+        {
+          "text": "大量",
+          "kana": "たいりょう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "担任，担当",
+      "japanese": "担当",
+      "kana": "たんとう",
+      "romaji": "tantou",
+      "tokens": [
+        {
+          "text": "担当",
+          "kana": "たんとう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "担任，担当",
+      "japanese": "担任",
+      "kana": "たんにん",
+      "romaji": "tannin",
+      "tokens": [
+        {
+          "text": "担任",
+          "kana": "たんにん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "性情急躁",
+      "japanese": "短気",
+      "kana": "たんき",
+      "romaji": "tanki",
+      "tokens": [
+        {
+          "text": "短気",
+          "kana": "たんき"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "集团，团体",
+      "japanese": "団体",
+      "kana": "だんたい",
+      "romaji": "dantai",
+      "tokens": [
+        {
+          "text": "団体",
+          "kana": "だんたい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "半旧半新，二手",
+      "japanese": "中古",
+      "kana": "ちゅうこ",
+      "romaji": "chuuko",
+      "tokens": [
+        {
+          "text": "中古",
+          "kana": "ちゅうこ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "和好，言归于好",
+      "japanese": "仲直り",
+      "kana": "なかなおり",
+      "romaji": "nakanaori",
+      "tokens": [
+        {
+          "text": "仲直り",
+          "kana": "なかなおり"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "调料，佐料",
+      "japanese": "調味料",
+      "kana": "ちょうみりょう",
+      "romaji": "choumiryou",
+      "tokens": [
+        {
+          "text": "調味料",
+          "kana": "ちょうみりょう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "长时间",
+      "japanese": "長時間",
+      "kana": "ちょうじかん",
+      "romaji": "choujikan",
+      "tokens": [
+        {
+          "text": "長時間",
+          "kana": "ちょうじかん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "存折",
+      "japanese": "通帳",
+      "kana": "つうちょう",
+      "romaji": "tsuuchou",
+      "tokens": [
+        {
+          "text": "通帳",
+          "kana": "つうちょう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "程度；限度；左右",
+      "japanese": "程",
+      "kana": "ほど",
+      "romaji": "hodo",
+      "tokens": [
+        {
+          "text": "程",
+          "kana": "ほど"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "顶棚，天花板；物体内部最高处",
+      "japanese": "天井",
+      "kana": "てんじょう",
+      "romaji": "tenjou",
+      "tokens": [
+        {
+          "text": "天井",
+          "kana": "てんじょう"
+        }
+      ]
+    }
+  ]
+}

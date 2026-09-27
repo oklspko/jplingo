@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-02",
+  "coursePackId": "jp-n1",
+  "title": "名词 2",
+  "order": 2,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "机票",
+      "japanese": "航空券",
+      "kana": "こうくうけん",
+      "romaji": "koukuuken",
+      "tokens": [
+        {
+          "text": "航空券",
+          "kana": "こうくうけん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "最早，最古老",
+      "japanese": "最古",
+      "kana": "さいこ",
+      "romaji": "saiko",
+      "tokens": [
+        {
+          "text": "最古",
+          "kana": "さいこ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "纸屑，废纸",
+      "japanese": "紙くず",
+      "kana": "かみくず",
+      "romaji": "kamikuzu",
+      "tokens": [
+        {
+          "text": "紙くず",
+          "kana": "かみくず"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "项目，事项",
+      "japanese": "事項",
+      "kana": "じこう",
+      "romaji": "jikou",
+      "tokens": [
+        {
+          "text": "事項",
+          "kana": "じこう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "（自己的）妻子，老婆",
+      "japanese": "女房",
+      "kana": "にょうぼう",
+      "romaji": "nyoubou",
+      "tokens": [
+        {
+          "text": "女房",
+          "kana": "にょうぼう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "小便",
+      "japanese": "小便",
+      "kana": "しょうべん",
+      "romaji": "shouben",
+      "tokens": [
+        {
+          "text": "小便",
+          "kana": "しょうべん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "烤肉",
+      "japanese": "焼肉",
+      "kana": "やきにく",
+      "romaji": "yakiniku",
+      "tokens": [
+        {
+          "text": "焼肉",
+          "kana": "やきにく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "赤字，亏空",
+      "japanese": "赤字",
+      "kana": "あかじ",
+      "romaji": "akaji",
+      "tokens": [
+        {
+          "text": "赤字",
+          "kana": "あかじ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "前几年",
+      "japanese": "先年",
+      "kana": "せんねん",
+      "romaji": "sennen",
+      "tokens": [
+        {
+          "text": "先年",
+          "kana": "せんねん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "电风扇",
+      "japanese": "扇風機",
+      "kana": "せんぷうき",
+      "romaji": "senpuuki",
+      "tokens": [
+        {
+          "text": "扇風機",
+          "kana": "せんぷうき"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "大地",
+      "japanese": "大地",
+      "kana": "だいち",
+      "romaji": "daichi",
+      "tokens": [
+        {
+          "text": "大地",
+          "kana": "だいち"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "地理；地理情况",
+      "japanese": "地理",
+      "kana": "ちり",
+      "romaji": "chiri",
+      "tokens": [
+        {
+          "text": "地理",
+          "kana": "ちり"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "葱，大葱",
+      "japanese": "長ねぎ",
+      "kana": "ながねぎ",
+      "romaji": "naganegi",
+      "tokens": [
+        {
+          "text": "長ねぎ",
+          "kana": "ながねぎ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "群岛；各个岛屿",
+      "japanese": "島々",
+      "kana": "しまじま",
+      "romaji": "shimajima",
+      "tokens": [
+        {
+          "text": "島々",
+          "kana": "しまじま"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "贺年卡",
+      "japanese": "年賀状",
+      "kana": "ねんがじょう",
+      "romaji": "nengajou",
+      "tokens": [
+        {
+          "text": "年賀状",
+          "kana": "ねんがじょう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "麦，麦子",
+      "japanese": "麦",
+      "kana": "むぎ",
+      "romaji": "mugi",
+      "tokens": [
+        {
+          "text": "麦",
+          "kana": "むぎ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "胡子；（动物的）须",
+      "japanese": "髭[ひげ]",
+      "kana": "ひげ",
+      "romaji": "hige",
+      "tokens": [
+        {
+          "text": "髭[ひげ]",
+          "kana": "ひげ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "编织物，编织；毛线活",
+      "japanese": "編み物",
+      "kana": "あみもの",
+      "romaji": "amimono",
+      "tokens": [
+        {
+          "text": "編み物",
+          "kana": "あみもの"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "夜景",
+      "japanese": "夜景",
+      "kana": "やけい",
+      "romaji": "yakei",
+      "tokens": [
+        {
+          "text": "夜景",
+          "kana": "やけい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "名人",
+      "japanese": "有名人",
+      "kana": "ゆうめいじん",
+      "romaji": "yuumeijin",
+      "tokens": [
+        {
+          "text": "有名人",
+          "kana": "ゆうめいじん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "等于；等号",
+      "japanese": "イコール",
+      "kana": "いこうる",
+      "romaji": "ikouru",
+      "tokens": [
+        {
+          "text": "イコール",
+          "kana": "いこうる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "耳环",
+      "japanese": "イヤリング",
+      "kana": "いやりんぐ",
+      "romaji": "iyaringu",
+      "tokens": [
+        {
+          "text": "イヤリング",
+          "kana": "いやりんぐ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（大学）研讨会",
+      "japanese": "ゼミナール",
+      "kana": "ぜみなある",
+      "romaji": "zeminaaru",
+      "tokens": [
+        {
+          "text": "ゼミナール",
+          "kana": "ぜみなある"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "双重的，双倍的",
+      "japanese": "ダブル",
+      "kana": "だぶる",
+      "romaji": "daburu",
+      "tokens": [
+        {
+          "text": "ダブル",
+          "kana": "だぶる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（打击乐器的一种）组钟；门铃；钟声，铃声",
+      "japanese": "チャイム",
+      "kana": "ちゃいむ",
+      "romaji": "chaimu",
+      "tokens": [
+        {
+          "text": "チャイム",
+          "kana": "ちゃいむ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "吹风机",
+      "japanese": "ドライヤー",
+      "kana": "どらいやあ",
+      "romaji": "doraiyaa",
+      "tokens": [
+        {
+          "text": "ドライヤー",
+          "kana": "どらいやあ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "奖金",
+      "japanese": "ボーナス",
+      "kana": "ぼうなす",
+      "romaji": "bounasu",
+      "tokens": [
+        {
+          "text": "ボーナス",
+          "kana": "ぼうなす"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "收信人姓名（地址）",
+      "japanese": "宛名",
+      "kana": "あてな",
+      "romaji": "atena",
+      "tokens": [
+        {
+          "text": "宛名",
+          "kana": "あてな"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "（在某时期）以后，之后；今后",
+      "japanese": "以後",
+      "kana": "いご",
+      "romaji": "igo",
+      "tokens": [
+        {
+          "text": "以後",
+          "kana": "いご"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "援助，支援",
+      "japanese": "援助",
+      "kana": "えんじょ",
+      "romaji": "enjo",
+      "tokens": [
+        {
+          "text": "援助",
+          "kana": "えんじょ"
+        }
+      ]
+    }
+  ]
+}

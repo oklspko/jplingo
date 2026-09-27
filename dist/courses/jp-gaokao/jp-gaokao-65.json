@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-65",
+  "coursePackId": "jp-gaokao",
+  "title": "常用惯用表达 1",
+  "order": 65,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "心急",
+      "japanese": "気が早い",
+      "kana": "きがはやい",
+      "romaji": "kigahayai",
+      "tokens": [
+        {
+          "text": "気が早い",
+          "kana": "きがはやい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "金盆洗手",
+      "japanese": "足を洗う",
+      "kana": "あしをあらう",
+      "romaji": "ashiwoarau",
+      "tokens": [
+        {
+          "text": "足を洗う",
+          "kana": "あしをあらう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "招待不周，请多包涵",
+      "japanese": "お粗末さまでした",
+      "kana": "おそまつさまでした",
+      "romaji": "osomatsusamadeshita",
+      "tokens": [
+        {
+          "text": "お粗末さまでした",
+          "kana": "おそまつさまでした"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "注意、留心",
+      "japanese": "気を使う",
+      "kana": "きをつかう",
+      "romaji": "kiwotsukau",
+      "tokens": [
+        {
+          "text": "気を使う",
+          "kana": "きをつかう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "生气、上头",
+      "japanese": "頭にくる",
+      "kana": "あたまにくる",
+      "romaji": "atamanikuru",
+      "tokens": [
+        {
+          "text": "頭にくる",
+          "kana": "あたまにくる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "请您别客气",
+      "japanese": "どうぞ、ご遠慮なく",
+      "kana": "どうぞ、ごえんりょなく",
+      "romaji": "douzo, goenryonaku",
+      "tokens": [
+        {
+          "text": "どうぞ、ご遠慮なく",
+          "kana": "どうぞ、ごえんりょなく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "有面子",
+      "japanese": "顔が立つ",
+      "kana": "かおがたつ",
+      "romaji": "kaogatatsu",
+      "tokens": [
+        {
+          "text": "顔が立つ",
+          "kana": "かおがたつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "猜疑、猜测",
+      "japanese": "気を回す",
+      "kana": "きをまわす",
+      "romaji": "kiwomawasu",
+      "tokens": [
+        {
+          "text": "気を回す",
+          "kana": "きをまわす"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "那我不客气了",
+      "japanese": "遠慮なくいただきます",
+      "kana": "えんりょなくいただきます",
+      "romaji": "enryonakuitadakimasu",
+      "tokens": [
+        {
+          "text": "遠慮なくいただきます",
+          "kana": "えんりょなくいただきます"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "真够麻烦",
+      "japanese": "いい迷惑",
+      "kana": "いいめいわく",
+      "romaji": "iimeiwaku",
+      "tokens": [
+        {
+          "text": "いい迷惑",
+          "kana": "いいめいわく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "慢性子、不急躁",
+      "japanese": "気が長い",
+      "kana": "きがながい",
+      "romaji": "kiganagai",
+      "tokens": [
+        {
+          "text": "気が長い",
+          "kana": "きがながい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "捧场",
+      "japanese": "顔を立てる",
+      "kana": "かおをたてる",
+      "romaji": "kaowotateru",
+      "tokens": [
+        {
+          "text": "顔を立てる",
+          "kana": "かおをたてる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "担心、在意",
+      "japanese": "気になる",
+      "kana": "きになる",
+      "romaji": "kininaru",
+      "tokens": [
+        {
+          "text": "気になる",
+          "kana": "きになる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "交际广",
+      "japanese": "顔が広い",
+      "kana": "かおがひろい",
+      "romaji": "kaogahiroi",
+      "tokens": [
+        {
+          "text": "顔が広い",
+          "kana": "かおがひろい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "性急、动肝火",
+      "japanese": "気が短い",
+      "kana": "きがみじかい",
+      "romaji": "kigamijikai",
+      "tokens": [
+        {
+          "text": "気が短い",
+          "kana": "きがみじかい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "感冒",
+      "japanese": "風邪を引く",
+      "kana": "かぜをひく",
+      "romaji": "kazewohiku",
+      "tokens": [
+        {
+          "text": "風邪を引く",
+          "kana": "かぜをひく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "您不用张罗了",
+      "japanese": "どうぞおかまいたく",
+      "kana": "どうぞおかまいたく",
+      "romaji": "douzookamaitaku",
+      "tokens": [
+        {
+          "text": "どうぞおかまいたく",
+          "kana": "どうぞおかまいたく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "喜欢、中意",
+      "japanese": "気に入る",
+      "kana": "きにいる",
+      "romaji": "kiniiru",
+      "tokens": [
+        {
+          "text": "気に入る",
+          "kana": "きにいる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "感到为难、倒霉",
+      "japanese": "痛い目にあう",
+      "kana": "いたいめにあう",
+      "romaji": "itaimeniau",
+      "tokens": [
+        {
+          "text": "痛い目にあう",
+          "kana": "いたいめにあう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "欢迎光临",
+      "japanese": "いらっしゃいませ",
+      "kana": "いらっしゃいませ",
+      "romaji": "irasshaimase",
+      "tokens": [
+        {
+          "text": "いらっしゃいませ",
+          "kana": "いらっしゃいませ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "说大话",
+      "japanese": "大きいことを言う",
+      "kana": "おおきいことをいう",
+      "romaji": "ookiikotowoiu",
+      "tokens": [
+        {
+          "text": "大きいことを言う",
+          "kana": "おおきいことをいう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "担心、在意",
+      "japanese": "気にする",
+      "kana": "きにする",
+      "romaji": "kinisuru",
+      "tokens": [
+        {
+          "text": "気にする",
+          "kana": "きにする"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "二话不说",
+      "japanese": "一も二もなく",
+      "kana": "いちもにもなく",
+      "romaji": "ichimonimonaku",
+      "tokens": [
+        {
+          "text": "一も二もなく",
+          "kana": "いちもにもなく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "不疼不痒",
+      "japanese": "痛くもかゆくない",
+      "kana": "いたくもかゆくない",
+      "romaji": "itakumokayukunai",
+      "tokens": [
+        {
+          "text": "痛くもかゆくない",
+          "kana": "いたくもかゆくない"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "感觉",
+      "japanese": "気がする",
+      "kana": "きがする",
+      "romaji": "kigasuru",
+      "tokens": [
+        {
+          "text": "気がする",
+          "kana": "きがする"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "多谢款待",
+      "japanese": "ごちそうさまでした",
+      "kana": "ごちそうさまでした",
+      "romaji": "gochisousamadeshita",
+      "tokens": [
+        {
+          "text": "ごちそうさまでした",
+          "kana": "ごちそうさまでした"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "抬不起头来",
+      "japanese": "頭が上がらない",
+      "kana": "あたまがあがらない",
+      "romaji": "atamagaagaranai",
+      "tokens": [
+        {
+          "text": "頭が上がらない",
+          "kana": "あたまがあがらない"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "低头、认错",
+      "japanese": "頭を下げる",
+      "kana": "あたまをさげる",
+      "romaji": "atamawosageru",
+      "tokens": [
+        {
+          "text": "頭を下げる",
+          "kana": "あたまをさげる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "事后诸葛亮",
+      "japanese": "後の祭り",
+      "kana": "あとのまつり",
+      "romaji": "atonomatsuri",
+      "tokens": [
+        {
+          "text": "後の祭り",
+          "kana": "あとのまつり"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "注意到、醒过来",
+      "japanese": "気が付く",
+      "kana": "きがつく",
+      "romaji": "kigatsuku",
+      "tokens": [
+        {
+          "text": "気が付く",
+          "kana": "きがつく"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "感觉",
+      "japanese": "気がする",
+      "kana": "きがする",
+      "romaji": "kigasuru",
+      "tokens": [
+        {
+          "text": "気がする",
+          "kana": "きがする"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "感冒",
+      "japanese": "風邪を引く",
+      "kana": "かぜをひく",
+      "romaji": "kazewohiku",
+      "tokens": [
+        {
+          "text": "風邪を引く",
+          "kana": "かぜをひく"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "那我不客气了",
+      "japanese": "遠慮なくいただきます",
+      "kana": "えんりょなくいただきます",
+      "romaji": "enryonakuitadakimasu",
+      "tokens": [
+        {
+          "text": "遠慮なくいただきます",
+          "kana": "えんりょなくいただきます"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "注意、留心",
+      "japanese": "気を使う",
+      "kana": "きをつかう",
+      "romaji": "kiwotsukau",
+      "tokens": [
+        {
+          "text": "気を使う",
+          "kana": "きをつかう"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "喜欢、中意",
+      "japanese": "気に入る",
+      "kana": "きにいる",
+      "romaji": "kiniiru",
+      "tokens": [
+        {
+          "text": "気に入る",
+          "kana": "きにいる"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "多谢款待",
+      "japanese": "ごちそうさまでした",
+      "kana": "ごちそうさまでした",
+      "romaji": "gochisousamadeshita",
+      "tokens": [
+        {
+          "text": "ごちそうさまでした",
+          "kana": "ごちそうさまでした"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "担心、在意",
+      "japanese": "気になる",
+      "kana": "きになる",
+      "romaji": "kininaru",
+      "tokens": [
+        {
+          "text": "気になる",
+          "kana": "きになる"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "二话不说",
+      "japanese": "一も二もなく",
+      "kana": "いちもにもなく",
+      "romaji": "ichimonimonaku",
+      "tokens": [
+        {
+          "text": "一も二もなく",
+          "kana": "いちもにもなく"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "招待不周，请多包涵",
+      "japanese": "お粗末さまでした",
+      "kana": "おそまつさまでした",
+      "romaji": "osomatsusamadeshita",
+      "tokens": [
+        {
+          "text": "お粗末さまでした",
+          "kana": "おそまつさまでした"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "事后诸葛亮",
+      "japanese": "後の祭り",
+      "kana": "あとのまつり",
+      "romaji": "atonomatsuri",
+      "tokens": [
+        {
+          "text": "後の祭り",
+          "kana": "あとのまつり"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "交际广",
+      "japanese": "顔が広い",
+      "kana": "かおがひろい",
+      "romaji": "kaogahiroi",
+      "tokens": [
+        {
+          "text": "顔が広い",
+          "kana": "かおがひろい"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "感到为难、倒霉",
+      "japanese": "痛い目にあう",
+      "kana": "いたいめにあう",
+      "romaji": "itaimeniau",
+      "tokens": [
+        {
+          "text": "痛い目にあう",
+          "kana": "いたいめにあう"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "慢性子、不急躁",
+      "japanese": "気が長い",
+      "kana": "きがながい",
+      "romaji": "kiganagai",
+      "tokens": [
+        {
+          "text": "気が長い",
+          "kana": "きがながい"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "您不用张罗了",
+      "japanese": "どうぞおかまいたく",
+      "kana": "どうぞおかまいたく",
+      "romaji": "douzookamaitaku",
+      "tokens": [
+        {
+          "text": "どうぞおかまいたく",
+          "kana": "どうぞおかまいたく"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "真够麻烦",
+      "japanese": "いい迷惑",
+      "kana": "いいめいわく",
+      "romaji": "iimeiwaku",
+      "tokens": [
+        {
+          "text": "いい迷惑",
+          "kana": "いいめいわく"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "注意到、醒过来",
+      "japanese": "気が付く",
+      "kana": "きがつく",
+      "romaji": "kigatsuku",
+      "tokens": [
+        {
+          "text": "気が付く",
+          "kana": "きがつく"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "捧场",
+      "japanese": "顔を立てる",
+      "kana": "かおをたてる",
+      "romaji": "kaowotateru",
+      "tokens": [
+        {
+          "text": "顔を立てる",
+          "kana": "かおをたてる"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "有面子",
+      "japanese": "顔が立つ",
+      "kana": "かおがたつ",
+      "romaji": "kaogatatsu",
+      "tokens": [
+        {
+          "text": "顔が立つ",
+          "kana": "かおがたつ"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "抬不起头来",
+      "japanese": "頭が上がらない",
+      "kana": "あたまがあがらない",
+      "romaji": "atamagaagaranai",
+      "tokens": [
+        {
+          "text": "頭が上がらない",
+          "kana": "あたまがあがらない"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "说大话",
+      "japanese": "大きいことを言う",
+      "kana": "おおきいことをいう",
+      "romaji": "ookiikotowoiu",
+      "tokens": [
+        {
+          "text": "大きいことを言う",
+          "kana": "おおきいことをいう"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "欢迎光临",
+      "japanese": "いらっしゃいませ",
+      "kana": "いらっしゃいませ",
+      "romaji": "irasshaimase",
+      "tokens": [
+        {
+          "text": "いらっしゃいませ",
+          "kana": "いらっしゃいませ"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "请您别客气",
+      "japanese": "どうぞ、ご遠慮なく",
+      "kana": "どうぞ、ごえんりょなく",
+      "romaji": "douzo, goenryonaku",
+      "tokens": [
+        {
+          "text": "どうぞ、ご遠慮なく",
+          "kana": "どうぞ、ごえんりょなく"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "不疼不痒",
+      "japanese": "痛くもかゆくない",
+      "kana": "いたくもかゆくない",
+      "romaji": "itakumokayukunai",
+      "tokens": [
+        {
+          "text": "痛くもかゆくない",
+          "kana": "いたくもかゆくない"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "心急",
+      "japanese": "気が早い",
+      "kana": "きがはやい",
+      "romaji": "kigahayai",
+      "tokens": [
+        {
+          "text": "気が早い",
+          "kana": "きがはやい"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "性急、动肝火",
+      "japanese": "気が短い",
+      "kana": "きがみじかい",
+      "romaji": "kigamijikai",
+      "tokens": [
+        {
+          "text": "気が短い",
+          "kana": "きがみじかい"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "金盆洗手",
+      "japanese": "足を洗う",
+      "kana": "あしをあらう",
+      "romaji": "ashiwoarau",
+      "tokens": [
+        {
+          "text": "足を洗う",
+          "kana": "あしをあらう"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "低头、认错",
+      "japanese": "頭を下げる",
+      "kana": "あたまをさげる",
+      "romaji": "atamawosageru",
+      "tokens": [
+        {
+          "text": "頭を下げる",
+          "kana": "あたまをさげる"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "猜疑、猜测",
+      "japanese": "気を回す",
+      "kana": "きをまわす",
+      "romaji": "kiwomawasu",
+      "tokens": [
+        {
+          "text": "気を回す",
+          "kana": "きをまわす"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "担心、在意",
+      "japanese": "気にする",
+      "kana": "きにする",
+      "romaji": "kinisuru",
+      "tokens": [
+        {
+          "text": "気にする",
+          "kana": "きにする"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "生气、上头",
+      "japanese": "頭にくる",
+      "kana": "あたまにくる",
+      "romaji": "atamanikuru",
+      "tokens": [
+        {
+          "text": "頭にくる",
+          "kana": "あたまにくる"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "感觉",
+      "japanese": "気がする",
+      "kana": "きがする",
+      "romaji": "kigasuru",
+      "tokens": [
+        {
+          "text": "気がする",
+          "kana": "きがする"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "二话不说",
+      "japanese": "一も二もなく",
+      "kana": "いちもにもなく",
+      "romaji": "ichimonimonaku",
+      "tokens": [
+        {
+          "text": "一も二もなく",
+          "kana": "いちもにもなく"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "慢性子、不急躁",
+      "japanese": "気が長い",
+      "kana": "きがながい",
+      "romaji": "kiganagai",
+      "tokens": [
+        {
+          "text": "気が長い",
+          "kana": "きがながい"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "性急、动肝火",
+      "japanese": "気が短い",
+      "kana": "きがみじかい",
+      "romaji": "kigamijikai",
+      "tokens": [
+        {
+          "text": "気が短い",
+          "kana": "きがみじかい"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "不疼不痒",
+      "japanese": "痛くもかゆくない",
+      "kana": "いたくもかゆくない",
+      "romaji": "itakumokayukunai",
+      "tokens": [
+        {
+          "text": "痛くもかゆくない",
+          "kana": "いたくもかゆくない"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "事后诸葛亮",
+      "japanese": "後の祭り",
+      "kana": "あとのまつり",
+      "romaji": "atonomatsuri",
+      "tokens": [
+        {
+          "text": "後の祭り",
+          "kana": "あとのまつり"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "感冒",
+      "japanese": "風邪を引く",
+      "kana": "かぜをひく",
+      "romaji": "kazewohiku",
+      "tokens": [
+        {
+          "text": "風邪を引く",
+          "kana": "かぜをひく"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "注意、留心",
+      "japanese": "気を使う",
+      "kana": "きをつかう",
+      "romaji": "kiwotsukau",
+      "tokens": [
+        {
+          "text": "気を使う",
+          "kana": "きをつかう"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "交际广",
+      "japanese": "顔が広い",
+      "kana": "かおがひろい",
+      "romaji": "kaogahiroi",
+      "tokens": [
+        {
+          "text": "顔が広い",
+          "kana": "かおがひろい"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "金盆洗手",
+      "japanese": "足を洗う",
+      "kana": "あしをあらう",
+      "romaji": "ashiwoarau",
+      "tokens": [
+        {
+          "text": "足を洗う",
+          "kana": "あしをあらう"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "捧场",
+      "japanese": "顔を立てる",
+      "kana": "かおをたてる",
+      "romaji": "kaowotateru",
+      "tokens": [
+        {
+          "text": "顔を立てる",
+          "kana": "かおをたてる"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "猜疑、猜测",
+      "japanese": "気を回す",
+      "kana": "きをまわす",
+      "romaji": "kiwomawasu",
+      "tokens": [
+        {
+          "text": "気を回す",
+          "kana": "きをまわす"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "抬不起头来",
+      "japanese": "頭が上がらない",
+      "kana": "あたまがあがらない",
+      "romaji": "atamagaagaranai",
+      "tokens": [
+        {
+          "text": "頭が上がらない",
+          "kana": "あたまがあがらない"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "注意到、醒过来",
+      "japanese": "気が付く",
+      "kana": "きがつく",
+      "romaji": "kigatsuku",
+      "tokens": [
+        {
+          "text": "気が付く",
+          "kana": "きがつく"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "那我不客气了",
+      "japanese": "遠慮なくいただきます",
+      "kana": "えんりょなくいただきます",
+      "romaji": "enryonakuitadakimasu",
+      "tokens": [
+        {
+          "text": "遠慮なくいただきます",
+          "kana": "えんりょなくいただきます"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "说大话",
+      "japanese": "大きいことを言う",
+      "kana": "おおきいことをいう",
+      "romaji": "ookiikotowoiu",
+      "tokens": [
+        {
+          "text": "大きいことを言う",
+          "kana": "おおきいことをいう"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "真够麻烦",
+      "japanese": "いい迷惑",
+      "kana": "いいめいわく",
+      "romaji": "iimeiwaku",
+      "tokens": [
+        {
+          "text": "いい迷惑",
+          "kana": "いいめいわく"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "生气、上头",
+      "japanese": "頭にくる",
+      "kana": "あたまにくる",
+      "romaji": "atamanikuru",
+      "tokens": [
+        {
+          "text": "頭にくる",
+          "kana": "あたまにくる"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "担心、在意",
+      "japanese": "気になる",
+      "kana": "きになる",
+      "romaji": "kininaru",
+      "tokens": [
+        {
+          "text": "気になる",
+          "kana": "きになる"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "感到为难、倒霉",
+      "japanese": "痛い目にあう",
+      "kana": "いたいめにあう",
+      "romaji": "itaimeniau",
+      "tokens": [
+        {
+          "text": "痛い目にあう",
+          "kana": "いたいめにあう"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "请您别客气",
+      "japanese": "どうぞ、ご遠慮なく",
+      "kana": "どうぞ、ごえんりょなく",
+      "romaji": "douzo, goenryonaku",
+      "tokens": [
+        {
+          "text": "どうぞ、ご遠慮なく",
+          "kana": "どうぞ、ごえんりょなく"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "心急",
+      "japanese": "気が早い",
+      "kana": "きがはやい",
+      "romaji": "kigahayai",
+      "tokens": [
+        {
+          "text": "気が早い",
+          "kana": "きがはやい"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "招待不周，请多包涵",
+      "japanese": "お粗末さまでした",
+      "kana": "おそまつさまでした",
+      "romaji": "osomatsusamadeshita",
+      "tokens": [
+        {
+          "text": "お粗末さまでした",
+          "kana": "おそまつさまでした"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "您不用张罗了",
+      "japanese": "どうぞおかまいたく",
+      "kana": "どうぞおかまいたく",
+      "romaji": "douzookamaitaku",
+      "tokens": [
+        {
+          "text": "どうぞおかまいたく",
+          "kana": "どうぞおかまいたく"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "喜欢、中意",
+      "japanese": "気に入る",
+      "kana": "きにいる",
+      "romaji": "kiniiru",
+      "tokens": [
+        {
+          "text": "気に入る",
+          "kana": "きにいる"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "有面子",
+      "japanese": "顔が立つ",
+      "kana": "かおがたつ",
+      "romaji": "kaogatatsu",
+      "tokens": [
+        {
+          "text": "顔が立つ",
+          "kana": "かおがたつ"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "欢迎光临",
+      "japanese": "いらっしゃいませ",
+      "kana": "いらっしゃいませ",
+      "romaji": "irasshaimase",
+      "tokens": [
+        {
+          "text": "いらっしゃいませ",
+          "kana": "いらっしゃいませ"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "低头、认错",
+      "japanese": "頭を下げる",
+      "kana": "あたまをさげる",
+      "romaji": "atamawosageru",
+      "tokens": [
+        {
+          "text": "頭を下げる",
+          "kana": "あたまをさげる"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "担心、在意",
+      "japanese": "気にする",
+      "kana": "きにする",
+      "romaji": "kinisuru",
+      "tokens": [
+        {
+          "text": "気にする",
+          "kana": "きにする"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "多谢款待",
+      "japanese": "ごちそうさまでした",
+      "kana": "ごちそうさまでした",
+      "romaji": "gochisousamadeshita",
+      "tokens": [
+        {
+          "text": "ごちそうさまでした",
+          "kana": "ごちそうさまでした"
+        }
+      ]
+    }
+  ]
+}

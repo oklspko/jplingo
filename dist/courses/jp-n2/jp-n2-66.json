@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-66",
+  "coursePackId": "jp-n2",
+  "title": "名词 66",
+  "order": 66,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "声调，语调；模仿别人说话",
+      "japanese": "声色",
+      "kana": "こわいろ",
+      "romaji": "kowairo",
+      "tokens": [
+        {
+          "text": "声色",
+          "kana": "こわいろ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "海滨沙滩",
+      "japanese": "砂浜",
+      "kana": "すなはま",
+      "romaji": "sunahama",
+      "tokens": [
+        {
+          "text": "砂浜",
+          "kana": "すなはま"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "深处；内心",
+      "japanese": "奥底",
+      "kana": "おくそこ",
+      "romaji": "okusoko",
+      "tokens": [
+        {
+          "text": "奥底",
+          "kana": "おくそこ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "贤者",
+      "japanese": "賢者",
+      "kana": "けんじゃ",
+      "romaji": "kenja",
+      "tokens": [
+        {
+          "text": "賢者",
+          "kana": "けんじゃ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "一番道理",
+      "japanese": "一理",
+      "kana": "いちり",
+      "romaji": "ichiri",
+      "tokens": [
+        {
+          "text": "一理",
+          "kana": "いちり"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（为赚钱而）做工；工钱",
+      "japanese": "稼ぎ",
+      "kana": "かせぎ",
+      "romaji": "kasegi",
+      "tokens": [
+        {
+          "text": "稼ぎ",
+          "kana": "かせぎ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "意大利面食",
+      "japanese": "パスタ",
+      "kana": "ぱすた",
+      "romaji": "pasuta",
+      "tokens": [
+        {
+          "text": "パスタ",
+          "kana": "ぱすた"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "垂饰，坠饰，挂件；吊灯",
+      "japanese": "ペンダント",
+      "kana": "ぺんだんと",
+      "romaji": "pendanto",
+      "tokens": [
+        {
+          "text": "ペンダント",
+          "kana": "ぺんだんと"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "纽约；纽约州",
+      "japanese": "ニューヨーク",
+      "kana": "にゅうようく",
+      "romaji": "nyuuyouku",
+      "tokens": [
+        {
+          "text": "ニューヨーク",
+          "kana": "にゅうようく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "英国",
+      "japanese": "英国",
+      "kana": "えいこく",
+      "romaji": "eikoku",
+      "tokens": [
+        {
+          "text": "英国",
+          "kana": "えいこく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "根；树墩",
+      "japanese": "根っこ",
+      "kana": "ねっこ",
+      "romaji": "nekko",
+      "tokens": [
+        {
+          "text": "根っこ",
+          "kana": "ねっこ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "豆腐",
+      "japanese": "豆腐",
+      "kana": "とうふ",
+      "romaji": "toufu",
+      "tokens": [
+        {
+          "text": "豆腐",
+          "kana": "とうふ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "准备，预备；警备，戒备，防备",
+      "japanese": "備え",
+      "kana": "そなえ",
+      "romaji": "sonae",
+      "tokens": [
+        {
+          "text": "備え",
+          "kana": "そなえ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "技术人员，工程师",
+      "japanese": "技術者",
+      "kana": "ぎじゅつしゃ",
+      "romaji": "gijutsusha",
+      "tokens": [
+        {
+          "text": "技術者",
+          "kana": "ぎじゅつしゃ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "耳环，穿孔耳环",
+      "japanese": "ピアス",
+      "kana": "ぴあす",
+      "romaji": "piasu",
+      "tokens": [
+        {
+          "text": "ピアス",
+          "kana": "ぴあす"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "烛台，蜡台",
+      "japanese": "燭[しょく]台",
+      "kana": "しょくだい",
+      "romaji": "shokudai",
+      "tokens": [
+        {
+          "text": "燭[しょく]台",
+          "kana": "しょくだい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "流浪",
+      "japanese": "放浪",
+      "kana": "ほうろう",
+      "romaji": "hourou",
+      "tokens": [
+        {
+          "text": "放浪",
+          "kana": "ほうろう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "箱，盒，匣",
+      "japanese": "ボックス",
+      "kana": "ぼっくす",
+      "romaji": "bokkusu",
+      "tokens": [
+        {
+          "text": "ボックス",
+          "kana": "ぼっくす"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "胆怯，畏缩",
+      "japanese": "気後れ",
+      "kana": "きおくれ",
+      "romaji": "kiokure",
+      "tokens": [
+        {
+          "text": "気後れ",
+          "kana": "きおくれ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "读写",
+      "japanese": "読み書き",
+      "kana": "よみかき",
+      "romaji": "yomikaki",
+      "tokens": [
+        {
+          "text": "読み書き",
+          "kana": "よみかき"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "步幅，步子，步伐",
+      "japanese": "歩幅",
+      "kana": "ほはば",
+      "romaji": "hohaba",
+      "tokens": [
+        {
+          "text": "歩幅",
+          "kana": "ほはば"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "轻便运动鞋，旅游鞋",
+      "japanese": "スニーカー",
+      "kana": "すにいかあ",
+      "romaji": "suniikaa",
+      "tokens": [
+        {
+          "text": "スニーカー",
+          "kana": "すにいかあ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "山羊",
+      "japanese": "やぎ",
+      "kana": "やぎ",
+      "romaji": "yagi",
+      "tokens": [
+        {
+          "text": "やぎ",
+          "kana": "やぎ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "图书管理（员）",
+      "japanese": "司書",
+      "kana": "ししょ",
+      "romaji": "shisho",
+      "tokens": [
+        {
+          "text": "司書",
+          "kana": "ししょ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "离不开的东西，避免不了的事情，摆脱不开的处境",
+      "japanese": "付き物",
+      "kana": "つきもの",
+      "romaji": "tsukimono",
+      "tokens": [
+        {
+          "text": "付き物",
+          "kana": "つきもの"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "炸肉饼，可乐饼",
+      "japanese": "コロッケ",
+      "kana": "ころっけ",
+      "romaji": "korokke",
+      "tokens": [
+        {
+          "text": "コロッケ",
+          "kana": "ころっけ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "企鹅",
+      "japanese": "ペンギン",
+      "kana": "ぺんぎん",
+      "romaji": "pengin",
+      "tokens": [
+        {
+          "text": "ペンギン",
+          "kana": "ぺんぎん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "光源",
+      "japanese": "光源",
+      "kana": "こうげん",
+      "romaji": "kougen",
+      "tokens": [
+        {
+          "text": "光源",
+          "kana": "こうげん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "梨",
+      "japanese": "梨",
+      "kana": "なし",
+      "romaji": "nashi",
+      "tokens": [
+        {
+          "text": "梨",
+          "kana": "なし"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "感化，影响",
+      "japanese": "感化",
+      "kana": "かんか",
+      "romaji": "kanka",
+      "tokens": [
+        {
+          "text": "感化",
+          "kana": "かんか"
+        }
+      ]
+    }
+  ]
+}

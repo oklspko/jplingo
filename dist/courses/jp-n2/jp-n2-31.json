@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-31",
+  "coursePackId": "jp-n2",
+  "title": "名词 31",
+  "order": 31,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "观点，看法，学说",
+      "japanese": "説",
+      "kana": "せつ",
+      "romaji": "setsu",
+      "tokens": [
+        {
+          "text": "説",
+          "kana": "せつ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "先端，顶端；最前沿",
+      "japanese": "先端",
+      "kana": "せんたん",
+      "romaji": "sentan",
+      "tokens": [
+        {
+          "text": "先端",
+          "kana": "せんたん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "专心致志，全身心",
+      "japanese": "専念",
+      "kana": "せんねん",
+      "romaji": "sennen",
+      "tokens": [
+        {
+          "text": "専念",
+          "kana": "せんねん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "前者",
+      "japanese": "前者",
+      "kana": "ぜんしゃ",
+      "romaji": "zensha",
+      "tokens": [
+        {
+          "text": "前者",
+          "kana": "ぜんしゃ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "前进，进步",
+      "japanese": "前進",
+      "kana": "ぜんしん",
+      "romaji": "zenshin",
+      "tokens": [
+        {
+          "text": "前進",
+          "kana": "ぜんしん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "全体，总体",
+      "japanese": "全般",
+      "kana": "ぜんぱん",
+      "romaji": "zenpan",
+      "tokens": [
+        {
+          "text": "全般",
+          "kana": "ぜんぱん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "资质，天分",
+      "japanese": "素質",
+      "kana": "そしつ",
+      "romaji": "soshitsu",
+      "tokens": [
+        {
+          "text": "素質",
+          "kana": "そしつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "外行，业余爱好者",
+      "japanese": "素人",
+      "kana": "しろうと",
+      "romaji": "shirouto",
+      "tokens": [
+        {
+          "text": "素人",
+          "kana": "しろうと"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "组织，组成",
+      "japanese": "組織",
+      "kana": "そしき",
+      "romaji": "soshiki",
+      "tokens": [
+        {
+          "text": "組織",
+          "kana": "そしき"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "创意",
+      "japanese": "創意",
+      "kana": "そうい",
+      "romaji": "soui",
+      "tokens": [
+        {
+          "text": "創意",
+          "kana": "そうい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "说话快，嘴快",
+      "japanese": "早口",
+      "kana": "はやくち",
+      "romaji": "hayakuchi",
+      "tokens": [
+        {
+          "text": "早口",
+          "kana": "はやくち"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "巢穴；（坏人的）巢穴，贼窝",
+      "japanese": "巣",
+      "kana": "す",
+      "romaji": "su",
+      "tokens": [
+        {
+          "text": "巣",
+          "kana": "す"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "差异，不同",
+      "japanese": "相違",
+      "kana": "そうい",
+      "romaji": "soui",
+      "tokens": [
+        {
+          "text": "相違",
+          "kana": "そうい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "相互；轮流，交替",
+      "japanese": "相互",
+      "kana": "そうご",
+      "romaji": "sougo",
+      "tokens": [
+        {
+          "text": "相互",
+          "kana": "そうご"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "总务",
+      "japanese": "総務",
+      "kana": "そうむ",
+      "romaji": "soumu",
+      "tokens": [
+        {
+          "text": "総務",
+          "kana": "そうむ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "装置；安装",
+      "japanese": "装置",
+      "kana": "そうち",
+      "romaji": "souchi",
+      "tokens": [
+        {
+          "text": "装置",
+          "kana": "そうち"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "像；影像",
+      "japanese": "像",
+      "kana": "ぞう",
+      "romaji": "zou",
+      "tokens": [
+        {
+          "text": "像",
+          "kana": "ぞう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（重量、长度、速度、体积等）测定，测量",
+      "japanese": "測定",
+      "kana": "そくてい",
+      "romaji": "sokutei",
+      "tokens": [
+        {
+          "text": "測定",
+          "kana": "そくてい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "接连发生",
+      "japanese": "続出",
+      "kana": "ぞくしゅつ",
+      "romaji": "zokushutsu",
+      "tokens": [
+        {
+          "text": "続出",
+          "kana": "ぞくしゅつ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "尊重",
+      "japanese": "尊重",
+      "kana": "そんちょう",
+      "romaji": "sonchou",
+      "tokens": [
+        {
+          "text": "尊重",
+          "kana": "そんちょう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "损害，损失",
+      "japanese": "損害",
+      "kana": "そんがい",
+      "romaji": "songai",
+      "tokens": [
+        {
+          "text": "損害",
+          "kana": "そんがい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "（判断、处置等符合常理）妥善，稳妥",
+      "japanese": "妥当",
+      "kana": "だとう",
+      "romaji": "datou",
+      "tokens": [
+        {
+          "text": "妥当",
+          "kana": "だとう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "体温",
+      "japanese": "体温",
+      "kana": "たいおん",
+      "romaji": "taion",
+      "tokens": [
+        {
+          "text": "体温",
+          "kana": "たいおん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "体制",
+      "japanese": "体制",
+      "kana": "たいせい",
+      "romaji": "taisei",
+      "tokens": [
+        {
+          "text": "体制",
+          "kana": "たいせい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "对立，冲突",
+      "japanese": "対立",
+      "kana": "たいりつ",
+      "romaji": "tairitsu",
+      "tokens": [
+        {
+          "text": "対立",
+          "kana": "たいりつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "代理（人）",
+      "japanese": "代理",
+      "kana": "だいり",
+      "romaji": "dairi",
+      "tokens": [
+        {
+          "text": "代理",
+          "kana": "だいり"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "台词；说法",
+      "japanese": "台詞[せりふ]",
+      "kana": "せりふ",
+      "romaji": "serifu",
+      "tokens": [
+        {
+          "text": "台詞[せりふ]",
+          "kana": "せりふ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "题目，标题",
+      "japanese": "題名",
+      "kana": "だいめい",
+      "romaji": "daimei",
+      "tokens": [
+        {
+          "text": "題名",
+          "kana": "だいめい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "瀑布",
+      "japanese": "滝",
+      "kana": "たき",
+      "romaji": "taki",
+      "tokens": [
+        {
+          "text": "滝",
+          "kana": "たき"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "智慧，聪明才智",
+      "japanese": "知恵",
+      "kana": "ちえ",
+      "romaji": "chie",
+      "tokens": [
+        {
+          "text": "知恵",
+          "kana": "ちえ"
+        }
+      ]
+    }
+  ]
+}

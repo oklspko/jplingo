@@ -1,9 +1,14 @@
 name: build-apk
 
 # 离线安卓 App 打包：本机无 Android 工具链时，由 GitHub Actions 代为编译。
-# - push 到 main：构建 debug APK 并上传为 artifact（便于快速下载验证）
+# - push 到 main：构建 release 签名 APK 并上传为 artifact（便于快速下载验证）
 # - 打 v* 标签：额外发布到 GitHub Release，资产固定命名为 jp-lingo.apk，
 #   供发布页 https://github.com/oklspko/jplingo/releases/latest/download/jp-lingo.apk 下载。
+#
+# 签名依赖三个仓库 Secret（密钥库本身不落盘进仓库，私钥不公开）：
+#   RELEASE_KEYSTORE_BASE64     密钥库 .p12 的 base64
+#   RELEASE_KEYSTORE_PASSWORD   密钥库口令
+#   RELEASE_KEYSTORE_ALIAS      密钥别名
 
 on:
   push:
@@ -57,14 +62,21 @@ jobs:
       - name: Sync Capacitor web assets
         run: npx cap sync android
 
-      - name: Build debug APK
+      - name: Decode signing keystore
+        run: echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > release-key.p12
+
+      - name: Build release APK
         working-directory: android
         run: |
           chmod +x gradlew
-          ./gradlew assembleDebug --no-daemon
+          ./gradlew assembleRelease --no-daemon
+        env:
+          KEYSTORE_PATH: ${{ github.workspace }}/release-key.p12
+          KEYSTORE_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_PASSWORD }}
+          KEYSTORE_ALIAS: ${{ secrets.RELEASE_KEYSTORE_ALIAS }}
 
       - name: Rename APK
-        run: cp android/app/build/outputs/apk/debug/app-debug.apk jp-lingo.apk
+        run: cp android/app/build/outputs/apk/release/app-release.apk jp-lingo.apk
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4

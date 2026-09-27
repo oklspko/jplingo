@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-44",
+  "coursePackId": "jp-n2",
+  "title": "名词 44",
+  "order": 44,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "梗概；大致",
+      "japanese": "おおむね",
+      "kana": "おおむね",
+      "romaji": "oomune",
+      "tokens": [
+        {
+          "text": "おおむね",
+          "kana": "おおむね"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "在线",
+      "japanese": "オンライン",
+      "kana": "おんらいん",
+      "romaji": "onrain",
+      "tokens": [
+        {
+          "text": "オンライン",
+          "kana": "おんらいん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "客人；特邀嘉宾",
+      "japanese": "ゲスト",
+      "kana": "げすと",
+      "romaji": "gesuto",
+      "tokens": [
+        {
+          "text": "ゲスト",
+          "kana": "げすと"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "评论，说明",
+      "japanese": "コメント",
+      "kana": "こめんと",
+      "romaji": "komento",
+      "tokens": [
+        {
+          "text": "コメント",
+          "kana": "こめんと"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "（报纸、杂志等的）专栏",
+      "japanese": "コラム",
+      "kana": "こらむ",
+      "romaji": "koramu",
+      "tokens": [
+        {
+          "text": "コラム",
+          "kana": "こらむ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "座位，席位",
+      "japanese": "シート",
+      "kana": "しいと",
+      "romaji": "shiito",
+      "tokens": [
+        {
+          "text": "シート",
+          "kana": "しいと"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "场景",
+      "japanese": "シーン",
+      "kana": "しいん",
+      "romaji": "shiin",
+      "tokens": [
+        {
+          "text": "シーン",
+          "kana": "しいん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "惯例，老规矩",
+      "japanese": "しきたり",
+      "kana": "しきたり",
+      "romaji": "shikitari",
+      "tokens": [
+        {
+          "text": "しきたり",
+          "kana": "しきたり"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "研讨会，座谈会",
+      "japanese": "シンポジウム",
+      "kana": "しんぽじうむ",
+      "romaji": "shinpojiumu",
+      "tokens": [
+        {
+          "text": "シンポジウム",
+          "kana": "しんぽじうむ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "罢工，罢课，罢市",
+      "japanese": "ストライキ",
+      "kana": "すとらいき",
+      "romaji": "sutoraiki",
+      "tokens": [
+        {
+          "text": "ストライキ",
+          "kana": "すとらいき"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "空间；空白；宇宙",
+      "japanese": "スペース",
+      "kana": "すぺえす",
+      "romaji": "supeesu",
+      "tokens": [
+        {
+          "text": "スペース",
+          "kana": "すぺえす"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "推销，推销员",
+      "japanese": "セールス",
+      "kana": "せえるす",
+      "romaji": "seerusu",
+      "tokens": [
+        {
+          "text": "セールス",
+          "kana": "せえるす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "感觉，品味，美感",
+      "japanese": "センス",
+      "kana": "せんす",
+      "romaji": "sensu",
+      "tokens": [
+        {
+          "text": "センス",
+          "kana": "せんす"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "秒表，定时器",
+      "japanese": "タイマー",
+      "kana": "たいまあ",
+      "romaji": "taimaa",
+      "tokens": [
+        {
+          "text": "タイマー",
+          "kana": "たいまあ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "时机",
+      "japanese": "タイミング",
+      "kana": "たいみんぐ",
+      "romaji": "taimingu",
+      "tokens": [
+        {
+          "text": "タイミング",
+          "kana": "たいみんぐ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "下降；（电脑等）故障；病倒；羽绒",
+      "japanese": "ダウン",
+      "kana": "だうん",
+      "romaji": "daun",
+      "tokens": [
+        {
+          "text": "ダウン",
+          "kana": "だうん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "演员，艺人",
+      "japanese": "タレント",
+      "kana": "たれんと",
+      "romaji": "tarento",
+      "tokens": [
+        {
+          "text": "タレント",
+          "kana": "たれんと"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "蛋白质",
+      "japanese": "たんぱく質",
+      "kana": "たんぱくしつ",
+      "romaji": "tanpakushitsu",
+      "tokens": [
+        {
+          "text": "たんぱく質",
+          "kana": "たんぱくしつ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "夜场比赛",
+      "japanese": "ナイター",
+      "kana": "ないたあ",
+      "romaji": "naitaa",
+      "tokens": [
+        {
+          "text": "ナイター",
+          "kana": "ないたあ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "爆胎",
+      "japanese": "パンク",
+      "kana": "ぱんく",
+      "romaji": "panku",
+      "tokens": [
+        {
+          "text": "パンク",
+          "kana": "ぱんく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "姿势；形态；表格",
+      "japanese": "フォーム",
+      "kana": "ふぉうむ",
+      "romaji": "fuoumu",
+      "tokens": [
+        {
+          "text": "フォーム",
+          "kana": "ふぉうむ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "隐私",
+      "japanese": "プライバシー",
+      "kana": "ぷらいばしい",
+      "romaji": "puraibashii",
+      "tokens": [
+        {
+          "text": "プライバシー",
+          "kana": "ぷらいばしい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "步伐；进度",
+      "japanese": "ペース",
+      "kana": "ぺえす",
+      "romaji": "peesu",
+      "tokens": [
+        {
+          "text": "ペース",
+          "kana": "ぺえす"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "畅销书",
+      "japanese": "ベストセラー",
+      "kana": "べすとせらあ",
+      "romaji": "besutoseraa",
+      "tokens": [
+        {
+          "text": "ベストセラー",
+          "kana": "べすとせらあ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "点；要点；分数",
+      "japanese": "ポイント",
+      "kana": "ぽいんと",
+      "romaji": "pointo",
+      "tokens": [
+        {
+          "text": "ポイント",
+          "kana": "ぽいんと"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "制造商，厂家",
+      "japanese": "メーカー",
+      "kana": "めえかあ",
+      "romaji": "meekaa",
+      "tokens": [
+        {
+          "text": "メーカー",
+          "kana": "めえかあ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "奖章",
+      "japanese": "メダル",
+      "kana": "めだる",
+      "romaji": "medaru",
+      "tokens": [
+        {
+          "text": "メダル",
+          "kana": "めだる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "家伙，那小子；那个",
+      "japanese": "やつ",
+      "kana": "やつ",
+      "romaji": "yatsu",
+      "tokens": [
+        {
+          "text": "やつ",
+          "kana": "やつ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "竞赛，竞速，竞争",
+      "japanese": "レース",
+      "kana": "れえす",
+      "romaji": "reesu",
+      "tokens": [
+        {
+          "text": "レース",
+          "kana": "れえす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "道歉，赔罪",
+      "japanese": "詫[わ]び",
+      "kana": "わび",
+      "romaji": "wabi",
+      "tokens": [
+        {
+          "text": "詫[わ]び",
+          "kana": "わび"
+        }
+      ]
+    }
+  ]
+}

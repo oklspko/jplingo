@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-27",
+  "coursePackId": "jp-n2",
+  "title": "名词 27",
+  "order": 27,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "警告",
+      "japanese": "警告",
+      "kana": "けいこく",
+      "romaji": "keikoku",
+      "tokens": [
+        {
+          "text": "警告",
+          "kana": "けいこく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "文艺，文娱",
+      "japanese": "芸能",
+      "kana": "げいのう",
+      "romaji": "geinou",
+      "tokens": [
+        {
+          "text": "芸能",
+          "kana": "げいのう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "戏剧；剧烈",
+      "japanese": "劇",
+      "kana": "げき",
+      "romaji": "geki",
+      "tokens": [
+        {
+          "text": "劇",
+          "kana": "げき"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "剧场，戏院；电影院",
+      "japanese": "劇場",
+      "kana": "げきじょう",
+      "romaji": "gekijou",
+      "tokens": [
+        {
+          "text": "劇場",
+          "kana": "げきじょう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "……位数",
+      "japanese": "桁",
+      "kana": "けた",
+      "romaji": "keta",
+      "tokens": [
+        {
+          "text": "桁",
+          "kana": "けた"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "缺点，缺陷",
+      "japanese": "欠陥",
+      "kana": "けっかん",
+      "romaji": "kekkan",
+      "tokens": [
+        {
+          "text": "欠陥",
+          "kana": "けっかん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "结论，结果",
+      "japanese": "結論",
+      "kana": "けつろん",
+      "romaji": "ketsuron",
+      "tokens": [
+        {
+          "text": "結論",
+          "kana": "けつろん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "宪法",
+      "japanese": "憲法",
+      "kana": "けんぽう",
+      "romaji": "kenpou",
+      "tokens": [
+        {
+          "text": "憲法",
+          "kana": "けんぽう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "权利",
+      "japanese": "権利",
+      "kana": "けんり",
+      "romaji": "kenri",
+      "tokens": [
+        {
+          "text": "権利",
+          "kana": "けんり"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "标题；目录，索引；词条",
+      "japanese": "見出し",
+      "kana": "みだし",
+      "romaji": "midashi",
+      "tokens": [
+        {
+          "text": "見出し",
+          "kana": "みだし"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "原理",
+      "japanese": "原理",
+      "kana": "げんり",
+      "romaji": "genri",
+      "tokens": [
+        {
+          "text": "原理",
+          "kana": "げんり"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "现场；基层",
+      "japanese": "現場",
+      "kana": "げんば",
+      "romaji": "genba",
+      "tokens": [
+        {
+          "text": "現場",
+          "kana": "げんば"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "极限，界限",
+      "japanese": "限界",
+      "kana": "げんかい",
+      "romaji": "genkai",
+      "tokens": [
+        {
+          "text": "限界",
+          "kana": "げんかい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "古典",
+      "japanese": "古典",
+      "kana": "こてん",
+      "romaji": "koten",
+      "tokens": [
+        {
+          "text": "古典",
+          "kana": "こてん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "自豪，感到荣耀",
+      "japanese": "誇り",
+      "kana": "ほこり",
+      "romaji": "hokori",
+      "tokens": [
+        {
+          "text": "誇り",
+          "kana": "ほこり"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "娱乐",
+      "japanese": "娯楽",
+      "kana": "ごらく",
+      "romaji": "goraku",
+      "tokens": [
+        {
+          "text": "娯楽",
+          "kana": "ごらく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "后者；后世的人",
+      "japanese": "後者",
+      "kana": "こうしゃ",
+      "romaji": "kousha",
+      "tokens": [
+        {
+          "text": "後者",
+          "kana": "こうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "围棋",
+      "japanese": "碁",
+      "kana": "ご",
+      "romaji": "go",
+      "tokens": [
+        {
+          "text": "碁",
+          "kana": "ご"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "错误，失误",
+      "japanese": "誤り",
+      "kana": "あやまり",
+      "romaji": "ayamari",
+      "tokens": [
+        {
+          "text": "誤り",
+          "kana": "あやまり"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "候补，候选人",
+      "japanese": "候補",
+      "kana": "こうほ",
+      "romaji": "kouho",
+      "tokens": [
+        {
+          "text": "候補",
+          "kana": "こうほ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "情景，场面",
+      "japanese": "光景",
+      "kana": "こうけい",
+      "romaji": "koukei",
+      "tokens": [
+        {
+          "text": "光景",
+          "kana": "こうけい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "公众，群众",
+      "japanese": "公衆",
+      "kana": "こうしゅう",
+      "romaji": "koushuu",
+      "tokens": [
+        {
+          "text": "公衆",
+          "kana": "こうしゅう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "公布，宣布",
+      "japanese": "公表",
+      "kana": "こうひょう",
+      "romaji": "kouhyou",
+      "tokens": [
+        {
+          "text": "公表",
+          "kana": "こうひょう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "效力，效果",
+      "japanese": "効力",
+      "kana": "こうりょく",
+      "romaji": "kouryoku",
+      "tokens": [
+        {
+          "text": "効力",
+          "kana": "こうりょく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "校舍，教学楼",
+      "japanese": "校舎",
+      "kana": "こうしゃ",
+      "romaji": "kousha",
+      "tokens": [
+        {
+          "text": "校舎",
+          "kana": "こうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "构成",
+      "japanese": "構成",
+      "kana": "こうせい",
+      "romaji": "kousei",
+      "tokens": [
+        {
+          "text": "構成",
+          "kana": "こうせい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "构造，结构",
+      "japanese": "構造",
+      "kana": "こうぞう",
+      "romaji": "kouzou",
+      "tokens": [
+        {
+          "text": "構造",
+          "kana": "こうぞう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "考虑",
+      "japanese": "考慮",
+      "kana": "こうりょ",
+      "romaji": "kouryo",
+      "tokens": [
+        {
+          "text": "考慮",
+          "kana": "こうりょ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "举止动作，行为规范",
+      "japanese": "行儀",
+      "kana": "ぎょうぎ",
+      "romaji": "gyougi",
+      "tokens": [
+        {
+          "text": "行儀",
+          "kana": "ぎょうぎ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "去向，下落；前途，走向",
+      "japanese": "行方",
+      "kana": "ゆくえ",
+      "romaji": "yukue",
+      "tokens": [
+        {
+          "text": "行方",
+          "kana": "ゆくえ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-06",
+  "coursePackId": "jp-n2",
+  "title": "名词 6",
+  "order": 6,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "下旬",
+      "japanese": "下旬",
+      "kana": "げじゅん",
+      "romaji": "gejun",
+      "tokens": [
+        {
+          "text": "下旬",
+          "kana": "げじゅん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "烧伤，烫伤",
+      "japanese": "やけど",
+      "kana": "やけど",
+      "romaji": "yakedo",
+      "tokens": [
+        {
+          "text": "やけど",
+          "kana": "やけど"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "我们",
+      "japanese": "我々",
+      "kana": "われわれ",
+      "romaji": "wareware",
+      "tokens": [
+        {
+          "text": "我々",
+          "kana": "われわれ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "画面，屏幕",
+      "japanese": "画面",
+      "kana": "がめん",
+      "romaji": "gamen",
+      "tokens": [
+        {
+          "text": "画面",
+          "kana": "がめん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "芽；苗头",
+      "japanese": "芽",
+      "kana": "め",
+      "romaji": "me",
+      "tokens": [
+        {
+          "text": "芽",
+          "kana": "め"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "解说，讲解",
+      "japanese": "解説",
+      "kana": "かいせつ",
+      "romaji": "kaisetsu",
+      "tokens": [
+        {
+          "text": "解説",
+          "kana": "かいせつ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "解放",
+      "japanese": "解放",
+      "kana": "かいほう",
+      "romaji": "kaihou",
+      "tokens": [
+        {
+          "text": "解放",
+          "kana": "かいほう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "绕远（路）",
+      "japanese": "回り道",
+      "kana": "まわりみち",
+      "romaji": "mawarimichi",
+      "tokens": [
+        {
+          "text": "回り道",
+          "kana": "まわりみち"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "恢复；康复",
+      "japanese": "回復",
+      "kana": "かいふく",
+      "romaji": "kaifuku",
+      "tokens": [
+        {
+          "text": "回復",
+          "kana": "かいふく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "改善",
+      "japanese": "改善",
+      "kana": "かいぜん",
+      "romaji": "kaizen",
+      "tokens": [
+        {
+          "text": "改善",
+          "kana": "かいぜん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "开发；研发",
+      "japanese": "開発",
+      "kana": "かいはつ",
+      "romaji": "kaihatsu",
+      "tokens": [
+        {
+          "text": "開発",
+          "kana": "かいはつ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "打开；对外开放",
+      "japanese": "開放",
+      "kana": "かいほう",
+      "romaji": "kaihou",
+      "tokens": [
+        {
+          "text": "開放",
+          "kana": "かいほう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "外部，外边；外界",
+      "japanese": "外部",
+      "kana": "がいぶ",
+      "romaji": "gaibu",
+      "tokens": [
+        {
+          "text": "外部",
+          "kana": "がいぶ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "害，害处",
+      "japanese": "害",
+      "kana": "がい",
+      "romaji": "gai",
+      "tokens": [
+        {
+          "text": "害",
+          "kana": "がい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "扩大",
+      "japanese": "拡大",
+      "kana": "かくだい",
+      "romaji": "kakudai",
+      "tokens": [
+        {
+          "text": "拡大",
+          "kana": "かくだい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "决心，精神准备，死心",
+      "japanese": "覚悟",
+      "kana": "かくご",
+      "romaji": "kakugo",
+      "tokens": [
+        {
+          "text": "覚悟",
+          "kana": "かくご"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "角度；立场",
+      "japanese": "角度",
+      "kana": "かくど",
+      "romaji": "kakudo",
+      "tokens": [
+        {
+          "text": "角度",
+          "kana": "かくど"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "皮革",
+      "japanese": "革",
+      "kana": "かわ",
+      "romaji": "kawa",
+      "tokens": [
+        {
+          "text": "革",
+          "kana": "かわ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "学者",
+      "japanese": "学者",
+      "kana": "がくしゃ",
+      "romaji": "gakusha",
+      "tokens": [
+        {
+          "text": "学者",
+          "kana": "がくしゃ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（系统地学习）专业知识，理论；学问，学识",
+      "japanese": "学問",
+      "kana": "がくもん",
+      "romaji": "gakumon",
+      "tokens": [
+        {
+          "text": "学問",
+          "kana": "がくもん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "股份有限公司",
+      "japanese": "株式会社",
+      "kana": "かぶしきがいしゃ",
+      "romaji": "kabushikigaisha",
+      "tokens": [
+        {
+          "text": "株式会社",
+          "kana": "かぶしきがいしゃ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "干杯",
+      "japanese": "乾杯",
+      "kana": "かんぱい",
+      "romaji": "kanpai",
+      "tokens": [
+        {
+          "text": "乾杯",
+          "kana": "かんぱい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "监督；导演；教练",
+      "japanese": "監督",
+      "kana": "かんとく",
+      "romaji": "kantoku",
+      "tokens": [
+        {
+          "text": "監督",
+          "kana": "かんとく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "护理，看护",
+      "japanese": "看病",
+      "kana": "かんびょう",
+      "romaji": "kanbyou",
+      "tokens": [
+        {
+          "text": "看病",
+          "kana": "かんびょう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "管子",
+      "japanese": "管",
+      "kana": "くだ",
+      "romaji": "kuda",
+      "tokens": [
+        {
+          "text": "管",
+          "kana": "くだ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "旗帜",
+      "japanese": "旗",
+      "kana": "はた",
+      "romaji": "hata",
+      "tokens": [
+        {
+          "text": "旗",
+          "kana": "はた"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "机械、器械、器具的总称",
+      "japanese": "機器",
+      "kana": "きき",
+      "romaji": "kiki",
+      "tokens": [
+        {
+          "text": "機器",
+          "kana": "きき"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "轻松，安闲；无忧无虑，想得开",
+      "japanese": "気楽",
+      "kana": "きらく",
+      "romaji": "kiraku",
+      "tokens": [
+        {
+          "text": "気楽",
+          "kana": "きらく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "记忆",
+      "japanese": "記憶",
+      "kana": "きおく",
+      "romaji": "kioku",
+      "tokens": [
+        {
+          "text": "記憶",
+          "kana": "きおく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "记者",
+      "japanese": "記者",
+      "kana": "きしゃ",
+      "romaji": "kisha",
+      "tokens": [
+        {
+          "text": "記者",
+          "kana": "きしゃ"
+        }
+      ]
+    }
+  ]
+}

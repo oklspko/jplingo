@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-09",
+  "coursePackId": "jp-n3",
+  "title": "名词 9",
+  "order": 9,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "中止，取消",
+      "japanese": "中止",
+      "kana": "ちゅうし",
+      "romaji": "chuushi",
+      "tokens": [
+        {
+          "text": "中止",
+          "kana": "ちゅうし"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "白天，昼间",
+      "japanese": "昼間",
+      "kana": "ひるま",
+      "romaji": "hiruma",
+      "tokens": [
+        {
+          "text": "昼間",
+          "kana": "ひるま"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "午饭",
+      "japanese": "昼食",
+      "kana": "ちゅうしょく",
+      "romaji": "chuushoku",
+      "tokens": [
+        {
+          "text": "昼食",
+          "kana": "ちゅうしょく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "停车",
+      "japanese": "駐車",
+      "kana": "ちゅうしゃ",
+      "romaji": "chuusha",
+      "tokens": [
+        {
+          "text": "駐車",
+          "kana": "ちゅうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "停车场",
+      "japanese": "駐車場",
+      "kana": "ちゅうしゃじょう",
+      "romaji": "chuushajou",
+      "tokens": [
+        {
+          "text": "駐車場",
+          "kana": "ちゅうしゃじょう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "底，底部；深处",
+      "japanese": "底",
+      "kana": "そこ",
+      "romaji": "soko",
+      "tokens": [
+        {
+          "text": "底",
+          "kana": "そこ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "天气预报",
+      "japanese": "天気予報",
+      "kana": "てんきよほう",
+      "romaji": "tenkiyohou",
+      "tokens": [
+        {
+          "text": "天気予報",
+          "kana": "てんきよほう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "展览会",
+      "japanese": "展覧会",
+      "kana": "てんらんかい",
+      "romaji": "tenrankai",
+      "tokens": [
+        {
+          "text": "展覧会",
+          "kana": "てんらんかい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "电灯",
+      "japanese": "電灯",
+      "kana": "でんとう",
+      "romaji": "dentou",
+      "tokens": [
+        {
+          "text": "電灯",
+          "kana": "でんとう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "辣椒",
+      "japanese": "唐辛子",
+      "kana": "とうがらし",
+      "romaji": "tougarashi",
+      "tokens": [
+        {
+          "text": "唐辛子",
+          "kana": "とうがらし"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "憧憬，向往",
+      "japanese": "憧れ",
+      "kana": "あこがれ",
+      "romaji": "akogare",
+      "tokens": [
+        {
+          "text": "憧れ",
+          "kana": "あこがれ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "看书，读书",
+      "japanese": "読書",
+      "kana": "どくしょ",
+      "romaji": "dokusho",
+      "tokens": [
+        {
+          "text": "読書",
+          "kana": "どくしょ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "内侧",
+      "japanese": "内側",
+      "kana": "うちがわ",
+      "romaji": "uchigawa",
+      "tokens": [
+        {
+          "text": "内側",
+          "kana": "うちがわ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "锅",
+      "japanese": "鍋",
+      "kana": "なべ",
+      "romaji": "nabe",
+      "tokens": [
+        {
+          "text": "鍋",
+          "kana": "なべ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "马",
+      "japanese": "馬",
+      "kana": "うま",
+      "romaji": "uma",
+      "tokens": [
+        {
+          "text": "馬",
+          "kana": "うま"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "拜见，拜读",
+      "japanese": "拝見",
+      "kana": "はいけん",
+      "romaji": "haiken",
+      "tokens": [
+        {
+          "text": "拝見",
+          "kana": "はいけん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "背，背部；背后",
+      "japanese": "背中",
+      "kana": "せなか",
+      "romaji": "senaka",
+      "tokens": [
+        {
+          "text": "背中",
+          "kana": "せなか"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "一倍；……倍",
+      "japanese": "倍",
+      "kana": "ばい",
+      "romaji": "bai",
+      "tokens": [
+        {
+          "text": "倍",
+          "kana": "ばい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "发音",
+      "japanese": "発音",
+      "kana": "はつおん",
+      "romaji": "hatsuon",
+      "tokens": [
+        {
+          "text": "発音",
+          "kana": "はつおん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "发展",
+      "japanese": "発展",
+      "kana": "はってん",
+      "romaji": "hatten",
+      "tokens": [
+        {
+          "text": "発展",
+          "kana": "はってん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "头发",
+      "japanese": "髪の毛",
+      "kana": "かみのけ",
+      "romaji": "kaminoke",
+      "tokens": [
+        {
+          "text": "髪の毛",
+          "kana": "かみのけ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "罪犯",
+      "japanese": "犯人",
+      "kana": "はんにん",
+      "romaji": "hannin",
+      "tokens": [
+        {
+          "text": "犯人",
+          "kana": "はんにん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（电视或广播）节目",
+      "japanese": "番組",
+      "kana": "ばんぐみ",
+      "romaji": "bangumi",
+      "tokens": [
+        {
+          "text": "番組",
+          "kana": "ばんぐみ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "（行政区域）……号",
+      "japanese": "番地",
+      "kana": "ばんち",
+      "romaji": "banchi",
+      "tokens": [
+        {
+          "text": "番地",
+          "kana": "ばんち"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "疲劳，疲倦",
+      "japanese": "疲れ",
+      "kana": "つかれ",
+      "romaji": "tsukare",
+      "tokens": [
+        {
+          "text": "疲れ",
+          "kana": "つかれ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "被子，褥子",
+      "japanese": "布団",
+      "kana": "ふとん",
+      "romaji": "futon",
+      "tokens": [
+        {
+          "text": "布団",
+          "kana": "ふとん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "平时，平常",
+      "japanese": "普段",
+      "kana": "ふだん",
+      "romaji": "fudan",
+      "tokens": [
+        {
+          "text": "普段",
+          "kana": "ふだん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "复习",
+      "japanese": "復習",
+      "kana": "ふくしゅう",
+      "romaji": "fukushuu",
+      "tokens": [
+        {
+          "text": "復習",
+          "kana": "ふくしゅう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "文学，文艺",
+      "japanese": "文学",
+      "kana": "ぶんがく",
+      "romaji": "bungaku",
+      "tokens": [
+        {
+          "text": "文学",
+          "kana": "ぶんがく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "文字",
+      "japanese": "文字",
+      "kana": "もじ",
+      "romaji": "moji",
+      "tokens": [
+        {
+          "text": "文字",
+          "kana": "もじ"
+        }
+      ]
+    }
+  ]
+}

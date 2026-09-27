@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-02",
+  "coursePackId": "jp-n4",
+  "title": "名词 2",
+  "order": 2,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "运动会",
+      "japanese": "運動会",
+      "kana": "うんどうかい",
+      "romaji": "undoukai",
+      "tokens": [
+        {
+          "text": "運動会",
+          "kana": "うんどうかい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "运动场，操场",
+      "japanese": "運動場",
+      "kana": "うんどうじょう",
+      "romaji": "undoujou",
+      "tokens": [
+        {
+          "text": "運動場",
+          "kana": "うんどうじょう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "（电车、地铁的）车站周边",
+      "japanese": "駅前",
+      "kana": "えきまえ",
+      "romaji": "ekimae",
+      "tokens": [
+        {
+          "text": "駅前",
+          "kana": "えきまえ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "温泉",
+      "japanese": "温泉",
+      "kana": "おんせん",
+      "romaji": "onsen",
+      "tokens": [
+        {
+          "text": "温泉",
+          "kana": "おんせん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "（非生命物体发出的）声音",
+      "japanese": "音",
+      "kana": "おと",
+      "romaji": "oto",
+      "tokens": [
+        {
+          "text": "音",
+          "kana": "おと"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "不擅长，笨拙",
+      "japanese": "下手",
+      "kana": "へた",
+      "romaji": "heta",
+      "tokens": [
+        {
+          "text": "下手",
+          "kana": "へた"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "家具",
+      "japanese": "家具",
+      "kana": "かぐ",
+      "romaji": "kagu",
+      "tokens": [
+        {
+          "text": "家具",
+          "kana": "かぐ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（做某事的）时间；闲空，余暇",
+      "japanese": "暇",
+      "kana": "ひま",
+      "romaji": "hima",
+      "tokens": [
+        {
+          "text": "暇",
+          "kana": "ひま"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "课长，处长",
+      "japanese": "課長",
+      "kana": "かちょう",
+      "romaji": "kachou",
+      "tokens": [
+        {
+          "text": "課長",
+          "kana": "かちょう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "会议",
+      "japanese": "会議",
+      "kana": "かいぎ",
+      "romaji": "kaigi",
+      "tokens": [
+        {
+          "text": "会議",
+          "kana": "かいぎ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "会议室",
+      "japanese": "会議室",
+      "kana": "かいぎしつ",
+      "romaji": "kaigishitsu",
+      "tokens": [
+        {
+          "text": "会議室",
+          "kana": "かいぎしつ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "会话；对话，谈话",
+      "japanese": "会話",
+      "kana": "かいわ",
+      "romaji": "kaiwa",
+      "tokens": [
+        {
+          "text": "会話",
+          "kana": "かいわ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "大街",
+      "japanese": "街",
+      "kana": "まち",
+      "romaji": "machi",
+      "tokens": [
+        {
+          "text": "街",
+          "kana": "まち"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（道路等）拐角；（桌子等）棱角",
+      "japanese": "角",
+      "kana": "かど",
+      "romaji": "kado",
+      "tokens": [
+        {
+          "text": "角",
+          "kana": "かど"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "活动",
+      "japanese": "活動",
+      "kana": "かつどう",
+      "romaji": "katsudou",
+      "tokens": [
+        {
+          "text": "活動",
+          "kana": "かつどう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "回国",
+      "japanese": "帰国",
+      "kana": "きこく",
+      "romaji": "kikoku",
+      "tokens": [
+        {
+          "text": "帰国",
+          "kana": "きこく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "季节",
+      "japanese": "季節",
+      "kana": "きせつ",
+      "romaji": "kisetsu",
+      "tokens": [
+        {
+          "text": "季節",
+          "kana": "きせつ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "桥，桥梁",
+      "japanese": "橋",
+      "kana": "はし",
+      "romaji": "hashi",
+      "tokens": [
+        {
+          "text": "橋",
+          "kana": "はし"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "兴趣",
+      "japanese": "興味",
+      "kana": "きょうみ",
+      "romaji": "kyoumi",
+      "tokens": [
+        {
+          "text": "興味",
+          "kana": "きょうみ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "非常好；（表示拒绝）不需要，够了；可以，好；还不错",
+      "japanese": "結構",
+      "kana": "けっこう",
+      "romaji": "kekkou",
+      "tokens": [
+        {
+          "text": "結構",
+          "kana": "けっこう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "讨厌，不喜欢；（…のきらいがある）不好的倾向",
+      "japanese": "嫌い",
+      "kana": "きらい",
+      "romaji": "kirai",
+      "tokens": [
+        {
+          "text": "嫌い",
+          "kana": "きらい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "工厂",
+      "japanese": "工場",
+      "kana": "こうじょう",
+      "romaji": "koujou",
+      "tokens": [
+        {
+          "text": "工場",
+          "kana": "こうじょう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "第一，开始，最初",
+      "japanese": "最初",
+      "kana": "さいしょ",
+      "romaji": "saisho",
+      "tokens": [
+        {
+          "text": "最初",
+          "kana": "さいしょ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "祭祀，庙会，节日",
+      "japanese": "祭り",
+      "kana": "まつり",
+      "romaji": "matsuri",
+      "tokens": [
+        {
+          "text": "祭り",
+          "kana": "まつり"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "用法",
+      "japanese": "使い方",
+      "kana": "つかいかた",
+      "romaji": "tsukaikata",
+      "tokens": [
+        {
+          "text": "使い方",
+          "kana": "つかいかた"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "手指，脚趾",
+      "japanese": "指",
+      "kana": "ゆび",
+      "romaji": "yubi",
+      "tokens": [
+        {
+          "text": "指",
+          "kana": "ゆび"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "种类",
+      "japanese": "種類",
+      "kana": "しゅるい",
+      "romaji": "shurui",
+      "tokens": [
+        {
+          "text": "種類",
+          "kana": "しゅるい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "酒；酒量",
+      "japanese": "酒",
+      "kana": "さけ",
+      "romaji": "sake",
+      "tokens": [
+        {
+          "text": "酒",
+          "kana": "さけ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "脖子；颈；头",
+      "japanese": "首",
+      "kana": "くび",
+      "romaji": "kubi",
+      "tokens": [
+        {
+          "text": "首",
+          "kana": "くび"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "周末",
+      "japanese": "週末",
+      "kana": "しゅうまつ",
+      "romaji": "shuumatsu",
+      "tokens": [
+        {
+          "text": "週末",
+          "kana": "しゅうまつ"
+        }
+      ]
+    }
+  ]
+}

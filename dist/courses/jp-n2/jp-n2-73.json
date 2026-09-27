@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-73",
+  "coursePackId": "jp-n2",
+  "title": "动词 2",
+  "order": 73,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "脱落；偏离；落空",
+      "japanese": "外れる",
+      "kana": "はずれる",
+      "romaji": "hazureru",
+      "tokens": [
+        {
+          "text": "外れる",
+          "kana": "はずれる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "卷，卷起；缠绕；包围",
+      "japanese": "巻く",
+      "kana": "まく",
+      "romaji": "maku",
+      "tokens": [
+        {
+          "text": "巻く",
+          "kana": "まく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "含有，包含；怀（恨）",
+      "japanese": "含む",
+      "kana": "ふくむ",
+      "romaji": "fukumu",
+      "tokens": [
+        {
+          "text": "含む",
+          "kana": "ふくむ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "包含，包括",
+      "japanese": "含める",
+      "kana": "ふくめる",
+      "romaji": "fukumeru",
+      "tokens": [
+        {
+          "text": "含める",
+          "kana": "ふくめる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "使靠近；聚集；寄送",
+      "japanese": "寄せる",
+      "kana": "よせる",
+      "romaji": "yoseru",
+      "tokens": [
+        {
+          "text": "寄せる",
+          "kana": "よせる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "寻求；想要；要求",
+      "japanese": "求める",
+      "kana": "もとめる",
+      "romaji": "motomeru",
+      "tokens": [
+        {
+          "text": "求める",
+          "kana": "もとめる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "害怕；担心",
+      "japanese": "恐れる",
+      "kana": "おそれる",
+      "romaji": "osoreru",
+      "tokens": [
+        {
+          "text": "恐れる",
+          "kana": "おそれる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "夹住；夹在双方中间",
+      "japanese": "挟まる",
+      "kana": "はさまる",
+      "romaji": "hasamaru",
+      "tokens": [
+        {
+          "text": "挟まる",
+          "kana": "はさまる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "夹；插嘴；隔",
+      "japanese": "挟む",
+      "kana": "はさむ",
+      "romaji": "hasamu",
+      "tokens": [
+        {
+          "text": "挟む",
+          "kana": "はさむ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "靠近；临近；亲近",
+      "japanese": "近づく",
+      "kana": "ちかづく",
+      "romaji": "chikazuku",
+      "tokens": [
+        {
+          "text": "近づく",
+          "kana": "ちかづく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "使靠近；使亲近",
+      "japanese": "近づける",
+      "kana": "ちかづける",
+      "romaji": "chikazukeru",
+      "tokens": [
+        {
+          "text": "近づける",
+          "kana": "ちかづける"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "感到痛苦；苦于",
+      "japanese": "苦しむ",
+      "kana": "くるしむ",
+      "romaji": "kurushimu",
+      "tokens": [
+        {
+          "text": "苦しむ",
+          "kana": "くるしむ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "缺口；缺少，欠缺",
+      "japanese": "欠ける",
+      "kana": "かける",
+      "romaji": "kakeru",
+      "tokens": [
+        {
+          "text": "欠ける",
+          "kana": "かける"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "俯视；小看",
+      "japanese": "見下ろす",
+      "kana": "みおろす",
+      "romaji": "miorosu",
+      "tokens": [
+        {
+          "text": "見下ろす",
+          "kana": "みおろす"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "仰望，仰视；尊敬",
+      "japanese": "見上げる",
+      "kana": "みあげる",
+      "romaji": "miageru",
+      "tokens": [
+        {
+          "text": "見上げる",
+          "kana": "みあげる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "重看；重新研究；刮目相看；（病情、经济等）好转",
+      "japanese": "見直す",
+      "kana": "みなおす",
+      "romaji": "minaosu",
+      "tokens": [
+        {
+          "text": "見直す",
+          "kana": "みなおす"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "探望，慰问；（「…に見舞われる」の形で）遭受；攻击",
+      "japanese": "見舞う",
+      "kana": "みまう",
+      "romaji": "mimau",
+      "tokens": [
+        {
+          "text": "見舞う",
+          "kana": "みまう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "出现，显露；发挥",
+      "japanese": "現す",
+      "kana": "あらわす",
+      "romaji": "arawasu",
+      "tokens": [
+        {
+          "text": "現す",
+          "kana": "あらわす"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "说出口；最先说",
+      "japanese": "言い出す",
+      "kana": "いいだす",
+      "romaji": "iidasu",
+      "tokens": [
+        {
+          "text": "言い出す",
+          "kana": "いいだす"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "雇佣，租雇",
+      "japanese": "雇う",
+      "kana": "やとう",
+      "romaji": "yatou",
+      "tokens": [
+        {
+          "text": "雇う",
+          "kana": "やとう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "有效",
+      "japanese": "効く",
+      "kana": "きく",
+      "romaji": "kiku",
+      "tokens": [
+        {
+          "text": "効く",
+          "kana": "きく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "（抽象的范围）扩大，传播，扩展",
+      "japanese": "広まる",
+      "kana": "ひろまる",
+      "romaji": "hiromaru",
+      "tokens": [
+        {
+          "text": "広まる",
+          "kana": "ひろまる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "提高",
+      "japanese": "高める",
+      "kana": "たかめる",
+      "romaji": "takameru",
+      "tokens": [
+        {
+          "text": "高める",
+          "kana": "たかめる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "切细；雕刻；牢记",
+      "japanese": "刻む",
+      "kana": "きざむ",
+      "romaji": "kizamu",
+      "tokens": [
+        {
+          "text": "刻む",
+          "kana": "きざむ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "坐下",
+      "japanese": "腰掛ける",
+      "kana": "こしかける",
+      "romaji": "koshikakeru",
+      "tokens": [
+        {
+          "text": "腰掛ける",
+          "kana": "こしかける"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "（感情、热情等）集中；包括在内；装填",
+      "japanese": "込める",
+      "kana": "こめる",
+      "romaji": "komeru",
+      "tokens": [
+        {
+          "text": "込める",
+          "kana": "こめる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "摩擦，搓",
+      "japanese": "こする",
+      "kana": "こする",
+      "romaji": "kosuru",
+      "tokens": [
+        {
+          "text": "こする",
+          "kana": "こする"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "弄得乱七八糟",
+      "japanese": "散らかす",
+      "kana": "ちらかす",
+      "romaji": "chirakasu",
+      "tokens": [
+        {
+          "text": "散らかす",
+          "kana": "ちらかす"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "凋谢；零乱；分散",
+      "japanese": "散る",
+      "kana": "ちる",
+      "romaji": "chiru",
+      "tokens": [
+        {
+          "text": "散る",
+          "kana": "ちる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "刺，穿",
+      "japanese": "刺す",
+      "kana": "さす",
+      "romaji": "sasu",
+      "tokens": [
+        {
+          "text": "刺す",
+          "kana": "さす"
+        }
+      ]
+    }
+  ]
+}

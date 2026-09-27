@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-128",
+  "coursePackId": "jp-n1",
+  "title": "形容词 10",
+  "order": 128,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "拼命，冒死，豁出性命",
+      "japanese": "命がけ",
+      "kana": "いのちがけ",
+      "romaji": "inochigake",
+      "tokens": [
+        {
+          "text": "命がけ",
+          "kana": "いのちがけ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "凶残，残暴，残忍",
+      "japanese": "残虐",
+      "kana": "ざんぎゃく",
+      "romaji": "zangyaku",
+      "tokens": [
+        {
+          "text": "残虐",
+          "kana": "ざんぎゃく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "华丽，绚丽多彩",
+      "japanese": "カラフル",
+      "kana": "からふる",
+      "romaji": "karafuru",
+      "tokens": [
+        {
+          "text": "カラフル",
+          "kana": "からふる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "没有利益，不利，亏损",
+      "japanese": "不利益",
+      "kana": "ふりえき",
+      "romaji": "furieki",
+      "tokens": [
+        {
+          "text": "不利益",
+          "kana": "ふりえき"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "奇特，新奇，出人意料，稀奇古怪",
+      "japanese": "奇抜",
+      "kana": "きばつ",
+      "romaji": "kibatsu",
+      "tokens": [
+        {
+          "text": "奇抜",
+          "kana": "きばつ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "周密，绵密，周全，周到",
+      "japanese": "周到",
+      "kana": "しゅうとう",
+      "romaji": "shuutou",
+      "tokens": [
+        {
+          "text": "周到",
+          "kana": "しゅうとう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "嘴馋（的人），贪吃（的人）",
+      "japanese": "食いしん坊",
+      "kana": "くいしんぼう",
+      "romaji": "kuishinbou",
+      "tokens": [
+        {
+          "text": "食いしん坊",
+          "kana": "くいしんぼう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "即席，速成",
+      "japanese": "インスタント",
+      "kana": "いんすたんと",
+      "romaji": "insutanto",
+      "tokens": [
+        {
+          "text": "インスタント",
+          "kana": "いんすたんと"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "全部一样，均等，相等",
+      "japanese": "均一",
+      "kana": "きんいつ",
+      "romaji": "kin'itsu",
+      "tokens": [
+        {
+          "text": "均一",
+          "kana": "きんいつ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "得意洋洋地炫耀的样子",
+      "japanese": "これ見よがし",
+      "kana": "これみよがし",
+      "romaji": "koremiyogashi",
+      "tokens": [
+        {
+          "text": "これ見よがし",
+          "kana": "これみよがし"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "糊里糊涂，莫名其妙，无法理解",
+      "japanese": "ちんぷんかんぷん",
+      "kana": "ちんぷんかんぷん",
+      "romaji": "chinpunkanpun",
+      "tokens": [
+        {
+          "text": "ちんぷんかんぷん",
+          "kana": "ちんぷんかんぷん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "活泼，朝气蓬勃",
+      "japanese": "はつらつ",
+      "kana": "はつらつ",
+      "romaji": "hatsuratsu",
+      "tokens": [
+        {
+          "text": "はつらつ",
+          "kana": "はつらつ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "心不在焉，漫不经心",
+      "japanese": "上の空",
+      "kana": "うわのそら",
+      "romaji": "uwanosora",
+      "tokens": [
+        {
+          "text": "上の空",
+          "kana": "うわのそら"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "新鲜，生鲜",
+      "japanese": "生鮮",
+      "kana": "せいせん",
+      "romaji": "seisen",
+      "tokens": [
+        {
+          "text": "生鮮",
+          "kana": "せいせん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "洋洋得意，自豪，骄傲",
+      "japanese": "誇らしい",
+      "kana": "ほこらしい",
+      "romaji": "hokorashii",
+      "tokens": [
+        {
+          "text": "誇らしい",
+          "kana": "ほこらしい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "直，一直；直接",
+      "japanese": "ストレート",
+      "kana": "すとれえと",
+      "romaji": "sutoreeto",
+      "tokens": [
+        {
+          "text": "ストレート",
+          "kana": "すとれえと"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "暖和的；温暖的",
+      "japanese": "あったかい",
+      "kana": "あったかい",
+      "romaji": "attakai",
+      "tokens": [
+        {
+          "text": "あったかい",
+          "kana": "あったかい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "累赘，包袱，碍手碍脚",
+      "japanese": "足手まとい",
+      "kana": "あしでまとい",
+      "romaji": "ashidematoi",
+      "tokens": [
+        {
+          "text": "足手まとい",
+          "kana": "あしでまとい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "天真，天真无邪，天真烂漫，孩子气",
+      "japanese": "あどけない",
+      "kana": "あどけない",
+      "romaji": "adokenai",
+      "tokens": [
+        {
+          "text": "あどけない",
+          "kana": "あどけない"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "彼此彼此，彼此一样",
+      "japanese": "お互い様",
+      "kana": "おたがいさま",
+      "romaji": "otagaisama",
+      "tokens": [
+        {
+          "text": "お互い様",
+          "kana": "おたがいさま"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "宽大，宽容",
+      "japanese": "寛大",
+      "kana": "かんだい",
+      "romaji": "kandai",
+      "tokens": [
+        {
+          "text": "寛大",
+          "kana": "かんだい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "坚定，坚决，断然",
+      "japanese": "確固",
+      "kana": "かっこ",
+      "romaji": "kakko",
+      "tokens": [
+        {
+          "text": "確固",
+          "kana": "かっこ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "接连不断地",
+      "japanese": "ひっきりなし",
+      "kana": "ひっきりなし",
+      "romaji": "hikkirinashi",
+      "tokens": [
+        {
+          "text": "ひっきりなし",
+          "kana": "ひっきりなし"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "好强，不认输",
+      "japanese": "負けず嫌い",
+      "kana": "まけずぎらい",
+      "romaji": "makezugirai",
+      "tokens": [
+        {
+          "text": "負けず嫌い",
+          "kana": "まけずぎらい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "仔细，详细；详情，缘由；障碍，妨碍",
+      "japanese": "子細",
+      "kana": "しさい",
+      "romaji": "shisai",
+      "tokens": [
+        {
+          "text": "子細",
+          "kana": "しさい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "靠不住，不放心",
+      "japanese": "心もとない",
+      "kana": "こころもとない",
+      "romaji": "kokoromotonai",
+      "tokens": [
+        {
+          "text": "心もとない",
+          "kana": "こころもとない"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "显著，出色，较好，像样",
+      "japanese": "めぼしい",
+      "kana": "めぼしい",
+      "romaji": "meboshii",
+      "tokens": [
+        {
+          "text": "めぼしい",
+          "kana": "めぼしい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "丰富，充裕；润泽",
+      "japanese": "潤沢",
+      "kana": "じゅんたく",
+      "romaji": "juntaku",
+      "tokens": [
+        {
+          "text": "潤沢",
+          "kana": "じゅんたく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "重大，严重，沉重",
+      "japanese": "手痛い",
+      "kana": "ていたい",
+      "romaji": "teitai",
+      "tokens": [
+        {
+          "text": "手痛い",
+          "kana": "ていたい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "多事，多管闲事，越俎代庖",
+      "japanese": "差し出がましい",
+      "kana": "さしでがましい",
+      "romaji": "sashidegamashii",
+      "tokens": [
+        {
+          "text": "差し出がましい",
+          "kana": "さしでがましい"
+        }
+      ]
+    }
+  ]
+}

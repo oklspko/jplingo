@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-16",
+  "coursePackId": "jp-n2",
+  "title": "名词 16",
+  "order": 16,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "外表，外观，表面",
+      "japanese": "見た目",
+      "kana": "みため",
+      "romaji": "mitame",
+      "tokens": [
+        {
+          "text": "見た目",
+          "kana": "みため"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "原材料",
+      "japanese": "原材料",
+      "kana": "げんざいりょう",
+      "romaji": "genzairyou",
+      "tokens": [
+        {
+          "text": "原材料",
+          "kana": "げんざいりょう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "个性",
+      "japanese": "個性",
+      "kana": "こせい",
+      "romaji": "kosei",
+      "tokens": [
+        {
+          "text": "個性",
+          "kana": "こせい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "电费和煤气费",
+      "japanese": "光熱費",
+      "kana": "こうねつひ",
+      "romaji": "kounetsuhi",
+      "tokens": [
+        {
+          "text": "光熱費",
+          "kana": "こうねつひ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "公平",
+      "japanese": "公平",
+      "kana": "こうへい",
+      "romaji": "kouhei",
+      "tokens": [
+        {
+          "text": "公平",
+          "kana": "こうへい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "户头，账户",
+      "japanese": "口座",
+      "kana": "こうざ",
+      "romaji": "kouza",
+      "tokens": [
+        {
+          "text": "口座",
+          "kana": "こうざ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "喜好，爱好；希望，要求",
+      "japanese": "好み",
+      "kana": "このみ",
+      "romaji": "konomi",
+      "tokens": [
+        {
+          "text": "好み",
+          "kana": "このみ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "飞机",
+      "japanese": "航空機",
+      "kana": "こうくうき",
+      "romaji": "koukuuki",
+      "tokens": [
+        {
+          "text": "航空機",
+          "kana": "こうくうき"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "行为，举动",
+      "japanese": "行為",
+      "kana": "こうい",
+      "romaji": "koui",
+      "tokens": [
+        {
+          "text": "行為",
+          "kana": "こうい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "购买；采购",
+      "japanese": "購入",
+      "kana": "こうにゅう",
+      "romaji": "kounyuu",
+      "tokens": [
+        {
+          "text": "購入",
+          "kana": "こうにゅう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "国产",
+      "japanese": "国産",
+      "kana": "こくさん",
+      "romaji": "kokusan",
+      "tokens": [
+        {
+          "text": "国産",
+          "kana": "こくさん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "发件人，寄信人",
+      "japanese": "差出人",
+      "kana": "さしだしにん",
+      "romaji": "sashidashinin",
+      "tokens": [
+        {
+          "text": "差出人",
+          "kana": "さしだしにん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "再会，重逢",
+      "japanese": "再会",
+      "kana": "さいかい",
+      "romaji": "saikai",
+      "tokens": [
+        {
+          "text": "再会",
+          "kana": "さいかい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "最低限度",
+      "japanese": "最小限",
+      "kana": "さいしょうげん",
+      "romaji": "saishougen",
+      "tokens": [
+        {
+          "text": "最小限",
+          "kana": "さいしょうげん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "最低限度",
+      "japanese": "最低限",
+      "kana": "さいていげん",
+      "romaji": "saiteigen",
+      "tokens": [
+        {
+          "text": "最低限",
+          "kana": "さいていげん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "采用，采纳；录用",
+      "japanese": "採用",
+      "kana": "さいよう",
+      "romaji": "saiyou",
+      "tokens": [
+        {
+          "text": "採用",
+          "kana": "さいよう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "栽培",
+      "japanese": "栽培",
+      "kana": "さいばい",
+      "romaji": "saibai",
+      "tokens": [
+        {
+          "text": "栽培",
+          "kana": "さいばい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "灾害，天灾",
+      "japanese": "災害",
+      "kana": "さいがい",
+      "romaji": "saigai",
+      "tokens": [
+        {
+          "text": "災害",
+          "kana": "さいがい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "木材的性质；材料的性质",
+      "japanese": "材質",
+      "kana": "ざいしつ",
+      "romaji": "zaishitsu",
+      "tokens": [
+        {
+          "text": "材質",
+          "kana": "ざいしつ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "市立",
+      "japanese": "市立",
+      "kana": "しりつ",
+      "romaji": "shiritsu",
+      "tokens": [
+        {
+          "text": "市立",
+          "kana": "しりつ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "指定席位",
+      "japanese": "指定席",
+      "kana": "していせき",
+      "romaji": "shiteiseki",
+      "tokens": [
+        {
+          "text": "指定席",
+          "kana": "していせき"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "指名，指定",
+      "japanese": "指名",
+      "kana": "しめい",
+      "romaji": "shimei",
+      "tokens": [
+        {
+          "text": "指名",
+          "kana": "しめい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "视野；眼界",
+      "japanese": "視野",
+      "kana": "しや",
+      "romaji": "shiya",
+      "tokens": [
+        {
+          "text": "視野",
+          "kana": "しや"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "试，尝试，试验",
+      "japanese": "試し",
+      "kana": "ためし",
+      "romaji": "tameshi",
+      "tokens": [
+        {
+          "text": "試し",
+          "kana": "ためし"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "试穿",
+      "japanese": "試着",
+      "kana": "しちゃく",
+      "romaji": "shichaku",
+      "tokens": [
+        {
+          "text": "試着",
+          "kana": "しちゃく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "持有者，物主",
+      "japanese": "持ち主",
+      "kana": "もちぬし",
+      "romaji": "mochinushi",
+      "tokens": [
+        {
+          "text": "持ち主",
+          "kana": "もちぬし"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "治疗，医疗",
+      "japanese": "治療",
+      "kana": "ちりょう",
+      "romaji": "chiryou",
+      "tokens": [
+        {
+          "text": "治療",
+          "kana": "ちりょう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "自由座位",
+      "japanese": "自由席",
+      "kana": "じゆうせき",
+      "romaji": "jiyuuseki",
+      "tokens": [
+        {
+          "text": "自由席",
+          "kana": "じゆうせき"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "湿度",
+      "japanese": "湿度",
+      "kana": "しつど",
+      "romaji": "shitsudo",
+      "tokens": [
+        {
+          "text": "湿度",
+          "kana": "しつど"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "抄写，副本；摹本",
+      "japanese": "写し",
+      "kana": "うつし",
+      "romaji": "utsushi",
+      "tokens": [
+        {
+          "text": "写し",
+          "kana": "うつし"
+        }
+      ]
+    }
+  ]
+}

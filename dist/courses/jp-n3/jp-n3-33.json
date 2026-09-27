@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-33",
+  "coursePackId": "jp-n3",
+  "title": "名词 33",
+  "order": 33,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "正门，前门",
+      "japanese": "正門",
+      "kana": "せいもん",
+      "romaji": "seimon",
+      "tokens": [
+        {
+          "text": "正門",
+          "kana": "せいもん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "干净；纯洁",
+      "japanese": "清潔",
+      "kana": "せいけつ",
+      "romaji": "seiketsu",
+      "tokens": [
+        {
+          "text": "清潔",
+          "kana": "せいけつ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "清扫，打扫",
+      "japanese": "清掃",
+      "kana": "せいそう",
+      "romaji": "seisou",
+      "tokens": [
+        {
+          "text": "清掃",
+          "kana": "せいそう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "孪生，双胞胎",
+      "japanese": "双子",
+      "kana": "ふたご",
+      "romaji": "futago",
+      "tokens": [
+        {
+          "text": "双子",
+          "kana": "ふたご"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "葬礼，丧事",
+      "japanese": "葬式",
+      "kana": "そうしき",
+      "romaji": "soushiki",
+      "tokens": [
+        {
+          "text": "葬式",
+          "kana": "そうしき"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "束，捆，把",
+      "japanese": "束",
+      "kana": "たば",
+      "romaji": "taba",
+      "tokens": [
+        {
+          "text": "束",
+          "kana": "たば"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "脚印；踪迹；成就",
+      "japanese": "足跡",
+      "kana": "あしあと",
+      "romaji": "ashiato",
+      "tokens": [
+        {
+          "text": "足跡",
+          "kana": "あしあと"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "连接情况，接续；续编，后续；接在名词后表示持续或与之相连",
+      "japanese": "続き",
+      "kana": "つづき",
+      "romaji": "tsuzuki",
+      "tokens": [
+        {
+          "text": "続き",
+          "kana": "つづき"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（和服的）腰带；带状物",
+      "japanese": "帯",
+      "kana": "おび",
+      "romaji": "obi",
+      "tokens": [
+        {
+          "text": "帯",
+          "kana": "おび"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "单纯，简单；天真",
+      "japanese": "単純",
+      "kana": "たんじゅん",
+      "romaji": "tanjun",
+      "tokens": [
+        {
+          "text": "単純",
+          "kana": "たんじゅん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "地面；土地",
+      "japanese": "地面",
+      "kana": "じめん",
+      "romaji": "jimen",
+      "tokens": [
+        {
+          "text": "地面",
+          "kana": "じめん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "中间；中途",
+      "japanese": "中間",
+      "kana": "ちゅうかん",
+      "romaji": "chuukan",
+      "tokens": [
+        {
+          "text": "中間",
+          "kana": "ちゅうかん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "蛀牙，龋齿",
+      "japanese": "虫歯",
+      "kana": "むしば",
+      "romaji": "mushiba",
+      "tokens": [
+        {
+          "text": "虫歯",
+          "kana": "むしば"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "晨报，早报",
+      "japanese": "朝刊",
+      "kana": "ちょうかん",
+      "romaji": "choukan",
+      "tokens": [
+        {
+          "text": "朝刊",
+          "kana": "ちょうかん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "眺望的景色，观景",
+      "japanese": "眺め",
+      "kana": "ながめ",
+      "romaji": "nagame",
+      "tokens": [
+        {
+          "text": "眺め",
+          "kana": "ながめ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "即将……之前；正前方",
+      "japanese": "直前",
+      "kana": "ちょくぜん",
+      "romaji": "chokuzen",
+      "tokens": [
+        {
+          "text": "直前",
+          "kana": "ちょくぜん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "停车",
+      "japanese": "停車",
+      "kana": "ていしゃ",
+      "romaji": "teisha",
+      "tokens": [
+        {
+          "text": "停車",
+          "kana": "ていしゃ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "定期",
+      "japanese": "定期",
+      "kana": "ていき",
+      "romaji": "teiki",
+      "tokens": [
+        {
+          "text": "定期",
+          "kana": "ていき"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "固定休息日",
+      "japanese": "定休日",
+      "kana": "ていきゅうび",
+      "romaji": "teikyuubi",
+      "tokens": [
+        {
+          "text": "定休日",
+          "kana": "ていきゅうび"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "路线",
+      "japanese": "道順",
+      "kana": "みちじゅん",
+      "romaji": "michijun",
+      "tokens": [
+        {
+          "text": "道順",
+          "kana": "みちじゅん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "独立",
+      "japanese": "独立",
+      "kana": "どくりつ",
+      "romaji": "dokuritsu",
+      "tokens": [
+        {
+          "text": "独立",
+          "kana": "どくりつ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "配送，投递",
+      "japanese": "配達",
+      "kana": "はいたつ",
+      "romaji": "haitatsu",
+      "tokens": [
+        {
+          "text": "配達",
+          "kana": "はいたつ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "卖完，售罄",
+      "japanese": "売り切れ",
+      "kana": "うりきれ",
+      "romaji": "urikire",
+      "tokens": [
+        {
+          "text": "売り切れ",
+          "kana": "うりきれ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "出售，卖",
+      "japanese": "販売",
+      "kana": "はんばい",
+      "romaji": "hanbai",
+      "tokens": [
+        {
+          "text": "販売",
+          "kana": "はんばい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "否定，否认",
+      "japanese": "否定",
+      "kana": "ひてい",
+      "romaji": "hitei",
+      "tokens": [
+        {
+          "text": "否定",
+          "kana": "ひてい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "飞行，在空中航行",
+      "japanese": "飛行",
+      "kana": "ひこう",
+      "romaji": "hikou",
+      "tokens": [
+        {
+          "text": "飛行",
+          "kana": "ひこう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "交际，交往",
+      "japanese": "付き合い",
+      "kana": "つきあい",
+      "romaji": "tsukiai",
+      "tokens": [
+        {
+          "text": "付き合い",
+          "kana": "つきあい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "输",
+      "japanese": "負け",
+      "kana": "まけ",
+      "romaji": "make",
+      "tokens": [
+        {
+          "text": "負け",
+          "kana": "まけ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "分类",
+      "japanese": "分類",
+      "kana": "ぶんるい",
+      "romaji": "bunrui",
+      "tokens": [
+        {
+          "text": "分類",
+          "kana": "ぶんるい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "方位，方向",
+      "japanese": "方角",
+      "kana": "ほうがく",
+      "romaji": "hougaku",
+      "tokens": [
+        {
+          "text": "方角",
+          "kana": "ほうがく"
+        }
+      ]
+    }
+  ]
+}

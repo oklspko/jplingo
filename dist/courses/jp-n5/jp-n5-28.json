@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-28",
+  "coursePackId": "jp-n5",
+  "title": "其他 2",
+  "order": 28,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "只，仅",
+      "japanese": "だけ",
+      "kana": "だけ",
+      "romaji": "dake",
+      "tokens": [
+        {
+          "text": "だけ",
+          "kana": "だけ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "无聊的；不值钱的，微薄的",
+      "japanese": "つまらない",
+      "kana": "つまらない",
+      "romaji": "tsumaranai",
+      "tokens": [
+        {
+          "text": "つまらない",
+          "kana": "つまらない"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "那么，那样的话",
+      "japanese": "では",
+      "kana": "では",
+      "romaji": "deha",
+      "tokens": [
+        {
+          "text": "では",
+          "kana": "では"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "然而，可是；即使……也",
+      "japanese": "でも",
+      "kana": "でも",
+      "romaji": "demo",
+      "tokens": [
+        {
+          "text": "でも",
+          "kana": "でも"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "怎么（做）",
+      "japanese": "どうやって",
+      "kana": "どうやって",
+      "romaji": "douyatte",
+      "tokens": [
+        {
+          "text": "どうやって",
+          "kana": "どうやって"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "哪一个",
+      "japanese": "どの",
+      "kana": "どの",
+      "romaji": "dono",
+      "tokens": [
+        {
+          "text": "どの",
+          "kana": "どの"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "多少",
+      "japanese": "どれぐらい",
+      "kana": "どれぐらい",
+      "romaji": "doregurai",
+      "tokens": [
+        {
+          "text": "どれぐらい",
+          "kana": "どれぐらい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "一边……一边……",
+      "japanese": "ながら",
+      "kana": "ながら",
+      "romaji": "nagara",
+      "tokens": [
+        {
+          "text": "ながら",
+          "kana": "ながら"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "……等，……之类的",
+      "japanese": "など",
+      "kana": "など",
+      "romaji": "nado",
+      "tokens": [
+        {
+          "text": "など",
+          "kana": "など"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "（打招呼时）喂，唉",
+      "japanese": "ねえ",
+      "kana": "ねえ",
+      "romaji": "nee",
+      "tokens": [
+        {
+          "text": "ねえ",
+          "kana": "ねえ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "是的，对的",
+      "japanese": "はい",
+      "kana": "はい",
+      "romaji": "hai",
+      "tokens": [
+        {
+          "text": "はい",
+          "kana": "はい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "（打电话时）喂；（对不认识的人的称呼）喂",
+      "japanese": "もしもし",
+      "kana": "もしもし",
+      "romaji": "moshimoshi",
+      "tokens": [
+        {
+          "text": "もしもし",
+          "kana": "もしもし"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（不确定的）什么，某些",
+      "japanese": "何か",
+      "kana": "なにか",
+      "romaji": "nanika",
+      "tokens": [
+        {
+          "text": "何か",
+          "kana": "なにか"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "小，微小的",
+      "japanese": "小さな",
+      "kana": "ちいさな",
+      "romaji": "chiisana",
+      "tokens": [
+        {
+          "text": "小さな",
+          "kana": "ちいさな"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（以……为职业的人；经常做……的人）……家",
+      "japanese": "〜家",
+      "kana": "〜家",
+      "romaji": "~家",
+      "tokens": [
+        {
+          "text": "〜家",
+          "kana": "〜家"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "……之后",
+      "japanese": "後",
+      "kana": "ご",
+      "romaji": "go",
+      "tokens": [
+        {
+          "text": "後",
+          "kana": "ご"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "（顺序的数法）第……个",
+      "japanese": "〜目",
+      "kana": "〜目",
+      "romaji": "~目",
+      "tokens": [
+        {
+          "text": "〜目",
+          "kana": "〜目"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（表示惊讶、奇怪）哎呀，哎哟",
+      "japanese": "あれ",
+      "kana": "あれ",
+      "romaji": "are",
+      "tokens": [
+        {
+          "text": "あれ",
+          "kana": "あれ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "那样；那种",
+      "japanese": "あんな",
+      "kana": "あんな",
+      "romaji": "anna",
+      "tokens": [
+        {
+          "text": "あんな",
+          "kana": "あんな"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（惊讶或觉得奇怪时）哎，啊",
+      "japanese": "えっ",
+      "kana": "えっ",
+      "romaji": "e",
+      "tokens": [
+        {
+          "text": "えっ",
+          "kana": "えっ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "因此",
+      "japanese": "ですから",
+      "kana": "ですから",
+      "romaji": "desukara",
+      "tokens": [
+        {
+          "text": "ですから",
+          "kana": "ですから"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "（表示不确定）哪里；总觉得，有些",
+      "japanese": "どこか",
+      "kana": "どこか",
+      "romaji": "dokoka",
+      "tokens": [
+        {
+          "text": "どこか",
+          "kana": "どこか"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "现……，本……",
+      "japanese": "今",
+      "kana": "こん",
+      "romaji": "kon",
+      "tokens": [
+        {
+          "text": "今",
+          "kana": "こん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "大的，巨大的；重大的，非常的",
+      "japanese": "大きな",
+      "kana": "おおきな",
+      "romaji": "ookina",
+      "tokens": [
+        {
+          "text": "大きな",
+          "kana": "おおきな"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（负责某项工作的人）……员",
+      "japanese": "手",
+      "kana": "しゅ",
+      "romaji": "shu",
+      "tokens": [
+        {
+          "text": "手",
+          "kana": "しゅ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "这种，这样",
+      "japanese": "こういう",
+      "kana": "こういう",
+      "romaji": "kouiu",
+      "tokens": [
+        {
+          "text": "こういう",
+          "kana": "こういう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "与……相比",
+      "japanese": "より",
+      "kana": "より",
+      "romaji": "yori",
+      "tokens": [
+        {
+          "text": "より",
+          "kana": "より"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "……年",
+      "japanese": "〜年",
+      "kana": "〜年",
+      "romaji": "~年",
+      "tokens": [
+        {
+          "text": "〜年",
+          "kana": "〜年"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "（用来根据职业、国籍、出身地等称呼他人的词语）……人",
+      "japanese": "〜人",
+      "kana": "〜人",
+      "romaji": "~人",
+      "tokens": [
+        {
+          "text": "〜人",
+          "kana": "〜人"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "什么样的，怎么样的",
+      "japanese": "どういう",
+      "kana": "どういう",
+      "romaji": "douiu",
+      "tokens": [
+        {
+          "text": "どういう",
+          "kana": "どういう"
+        }
+      ]
+    }
+  ]
+}

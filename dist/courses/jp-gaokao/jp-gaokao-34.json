@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-34",
+  "coursePackId": "jp-gaokao",
+  "title": "名词低频 1",
+  "order": 34,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "胳膊；本领",
+      "japanese": "腕",
+      "kana": "うで",
+      "romaji": "ude",
+      "tokens": [
+        {
+          "text": "腕",
+          "kana": "うで"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "命、性命、生命",
+      "japanese": "命",
+      "kana": "いのち",
+      "romaji": "inochi",
+      "tokens": [
+        {
+          "text": "命",
+          "kana": "いのち"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "书店",
+      "japanese": "本屋",
+      "kana": "ほんや",
+      "romaji": "honya",
+      "tokens": [
+        {
+          "text": "本屋",
+          "kana": "ほんや"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "印象",
+      "japanese": "印象",
+      "kana": "いんしょう",
+      "romaji": "inshou",
+      "tokens": [
+        {
+          "text": "印象",
+          "kana": "いんしょう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "到处",
+      "japanese": "あちこち",
+      "kana": "あちこち",
+      "romaji": "achikochi",
+      "tokens": [
+        {
+          "text": "あちこち",
+          "kana": "あちこち"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "很多（人）",
+      "japanese": "大勢",
+      "kana": "おおぜい",
+      "romaji": "oozei",
+      "tokens": [
+        {
+          "text": "大勢",
+          "kana": "おおぜい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "味道",
+      "japanese": "味",
+      "kana": "あじ",
+      "romaji": "aji",
+      "tokens": [
+        {
+          "text": "味",
+          "kana": "あじ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "蓝色",
+      "japanese": "青",
+      "kana": "あお",
+      "romaji": "ao",
+      "tokens": [
+        {
+          "text": "青",
+          "kana": "あお"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "背面、里面",
+      "japanese": "裏",
+      "kana": "うら",
+      "romaji": "ura",
+      "tokens": [
+        {
+          "text": "裏",
+          "kana": "うら"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "练习",
+      "japanese": "練習",
+      "kana": "れんしゅう",
+      "romaji": "renshuu",
+      "tokens": [
+        {
+          "text": "練習",
+          "kana": "れんしゅう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "量",
+      "japanese": "量",
+      "kana": "りょう",
+      "romaji": "ryou",
+      "tokens": [
+        {
+          "text": "量",
+          "kana": "りょう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "受理处、接待处",
+      "japanese": "受付",
+      "kana": "うけつけ",
+      "romaji": "uketsuke",
+      "tokens": [
+        {
+          "text": "受付",
+          "kana": "うけつけ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "父母、双亲",
+      "japanese": "両親",
+      "kana": "りょうしん",
+      "romaji": "ryoushin",
+      "tokens": [
+        {
+          "text": "両親",
+          "kana": "りょうしん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "谎话、谎言",
+      "japanese": "嘘",
+      "kana": "うそ",
+      "romaji": "uso",
+      "tokens": [
+        {
+          "text": "嘘",
+          "kana": "うそ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "牛",
+      "japanese": "牛",
+      "kana": "うし",
+      "romaji": "ushi",
+      "tokens": [
+        {
+          "text": "牛",
+          "kana": "うし"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "震惊",
+      "japanese": "驚き",
+      "kana": "おどろき",
+      "romaji": "odoroki",
+      "tokens": [
+        {
+          "text": "驚き",
+          "kana": "おどろき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "变化",
+      "japanese": "変化",
+      "kana": "へんか",
+      "romaji": "henka",
+      "tokens": [
+        {
+          "text": "変化",
+          "kana": "へんか"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "利用",
+      "japanese": "利用",
+      "kana": "りよう",
+      "romaji": "riyou",
+      "tokens": [
+        {
+          "text": "利用",
+          "kana": "りよう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "回忆",
+      "japanese": "思い出",
+      "kana": "おもいで",
+      "romaji": "omoide",
+      "tokens": [
+        {
+          "text": "思い出",
+          "kana": "おもいで"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "您家、别人家",
+      "japanese": "お宅",
+      "kana": "おたく",
+      "romaji": "otaku",
+      "tokens": [
+        {
+          "text": "お宅",
+          "kana": "おたく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "一部分",
+      "japanese": "一部",
+      "kana": "いちぶ",
+      "romaji": "ichibu",
+      "tokens": [
+        {
+          "text": "一部",
+          "kana": "いちぶ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "以下",
+      "japanese": "以下",
+      "kana": "いか",
+      "romaji": "ika",
+      "tokens": [
+        {
+          "text": "以下",
+          "kana": "いか"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "以内",
+      "japanese": "以内",
+      "kana": "いない",
+      "romaji": "inai",
+      "tokens": [
+        {
+          "text": "以内",
+          "kana": "いない"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "附近、一带",
+      "japanese": "辺り",
+      "kana": "あたり",
+      "romaji": "atari",
+      "tokens": [
+        {
+          "text": "辺り",
+          "kana": "あたり"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "留学",
+      "japanese": "留学",
+      "kana": "りゅうがく",
+      "romaji": "ryuugaku",
+      "tokens": [
+        {
+          "text": "留学",
+          "kana": "りゅうがく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "每天",
+      "japanese": "毎日",
+      "kana": "まいにち",
+      "romaji": "mainichi",
+      "tokens": [
+        {
+          "text": "毎日",
+          "kana": "まいにち"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "出生",
+      "japanese": "生まれ",
+      "kana": "うまれ",
+      "romaji": "umare",
+      "tokens": [
+        {
+          "text": "生まれ",
+          "kana": "うまれ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "年轻人",
+      "japanese": "若者",
+      "kana": "わかもの",
+      "romaji": "wakamono",
+      "tokens": [
+        {
+          "text": "若者",
+          "kana": "わかもの"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "操縦、驾驶",
+      "japanese": "運転",
+      "kana": "うんてん",
+      "romaji": "unten",
+      "tokens": [
+        {
+          "text": "運転",
+          "kana": "うんてん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "羊、绵羊",
+      "japanese": "羊",
+      "kana": "ひつじ",
+      "romaji": "hitsuji",
+      "tokens": [
+        {
+          "text": "羊",
+          "kana": "ひつじ"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "留学",
+      "japanese": "留学",
+      "kana": "りゅうがく",
+      "romaji": "ryuugaku",
+      "tokens": [
+        {
+          "text": "留学",
+          "kana": "りゅうがく"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "以下",
+      "japanese": "以下",
+      "kana": "いか",
+      "romaji": "ika",
+      "tokens": [
+        {
+          "text": "以下",
+          "kana": "いか"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "牛",
+      "japanese": "牛",
+      "kana": "うし",
+      "romaji": "ushi",
+      "tokens": [
+        {
+          "text": "牛",
+          "kana": "うし"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "书店",
+      "japanese": "本屋",
+      "kana": "ほんや",
+      "romaji": "honya",
+      "tokens": [
+        {
+          "text": "本屋",
+          "kana": "ほんや"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "附近、一带",
+      "japanese": "辺り",
+      "kana": "あたり",
+      "romaji": "atari",
+      "tokens": [
+        {
+          "text": "辺り",
+          "kana": "あたり"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "出生",
+      "japanese": "生まれ",
+      "kana": "うまれ",
+      "romaji": "umare",
+      "tokens": [
+        {
+          "text": "生まれ",
+          "kana": "うまれ"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "量",
+      "japanese": "量",
+      "kana": "りょう",
+      "romaji": "ryou",
+      "tokens": [
+        {
+          "text": "量",
+          "kana": "りょう"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "命、性命、生命",
+      "japanese": "命",
+      "kana": "いのち",
+      "romaji": "inochi",
+      "tokens": [
+        {
+          "text": "命",
+          "kana": "いのち"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "变化",
+      "japanese": "変化",
+      "kana": "へんか",
+      "romaji": "henka",
+      "tokens": [
+        {
+          "text": "変化",
+          "kana": "へんか"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "一部分",
+      "japanese": "一部",
+      "kana": "いちぶ",
+      "romaji": "ichibu",
+      "tokens": [
+        {
+          "text": "一部",
+          "kana": "いちぶ"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "背面、里面",
+      "japanese": "裏",
+      "kana": "うら",
+      "romaji": "ura",
+      "tokens": [
+        {
+          "text": "裏",
+          "kana": "うら"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "您家、别人家",
+      "japanese": "お宅",
+      "kana": "おたく",
+      "romaji": "otaku",
+      "tokens": [
+        {
+          "text": "お宅",
+          "kana": "おたく"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "胳膊；本领",
+      "japanese": "腕",
+      "kana": "うで",
+      "romaji": "ude",
+      "tokens": [
+        {
+          "text": "腕",
+          "kana": "うで"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "利用",
+      "japanese": "利用",
+      "kana": "りよう",
+      "romaji": "riyou",
+      "tokens": [
+        {
+          "text": "利用",
+          "kana": "りよう"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "味道",
+      "japanese": "味",
+      "kana": "あじ",
+      "romaji": "aji",
+      "tokens": [
+        {
+          "text": "味",
+          "kana": "あじ"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "到处",
+      "japanese": "あちこち",
+      "kana": "あちこち",
+      "romaji": "achikochi",
+      "tokens": [
+        {
+          "text": "あちこち",
+          "kana": "あちこち"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "操縦、驾驶",
+      "japanese": "運転",
+      "kana": "うんてん",
+      "romaji": "unten",
+      "tokens": [
+        {
+          "text": "運転",
+          "kana": "うんてん"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "很多（人）",
+      "japanese": "大勢",
+      "kana": "おおぜい",
+      "romaji": "oozei",
+      "tokens": [
+        {
+          "text": "大勢",
+          "kana": "おおぜい"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "以内",
+      "japanese": "以内",
+      "kana": "いない",
+      "romaji": "inai",
+      "tokens": [
+        {
+          "text": "以内",
+          "kana": "いない"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "谎话、谎言",
+      "japanese": "嘘",
+      "kana": "うそ",
+      "romaji": "uso",
+      "tokens": [
+        {
+          "text": "嘘",
+          "kana": "うそ"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "回忆",
+      "japanese": "思い出",
+      "kana": "おもいで",
+      "romaji": "omoide",
+      "tokens": [
+        {
+          "text": "思い出",
+          "kana": "おもいで"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "蓝色",
+      "japanese": "青",
+      "kana": "あお",
+      "romaji": "ao",
+      "tokens": [
+        {
+          "text": "青",
+          "kana": "あお"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "父母、双亲",
+      "japanese": "両親",
+      "kana": "りょうしん",
+      "romaji": "ryoushin",
+      "tokens": [
+        {
+          "text": "両親",
+          "kana": "りょうしん"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "年轻人",
+      "japanese": "若者",
+      "kana": "わかもの",
+      "romaji": "wakamono",
+      "tokens": [
+        {
+          "text": "若者",
+          "kana": "わかもの"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "印象",
+      "japanese": "印象",
+      "kana": "いんしょう",
+      "romaji": "inshou",
+      "tokens": [
+        {
+          "text": "印象",
+          "kana": "いんしょう"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "震惊",
+      "japanese": "驚き",
+      "kana": "おどろき",
+      "romaji": "odoroki",
+      "tokens": [
+        {
+          "text": "驚き",
+          "kana": "おどろき"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "每天",
+      "japanese": "毎日",
+      "kana": "まいにち",
+      "romaji": "mainichi",
+      "tokens": [
+        {
+          "text": "毎日",
+          "kana": "まいにち"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "羊、绵羊",
+      "japanese": "羊",
+      "kana": "ひつじ",
+      "romaji": "hitsuji",
+      "tokens": [
+        {
+          "text": "羊",
+          "kana": "ひつじ"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "受理处、接待处",
+      "japanese": "受付",
+      "kana": "うけつけ",
+      "romaji": "uketsuke",
+      "tokens": [
+        {
+          "text": "受付",
+          "kana": "うけつけ"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "练习",
+      "japanese": "練習",
+      "kana": "れんしゅう",
+      "romaji": "renshuu",
+      "tokens": [
+        {
+          "text": "練習",
+          "kana": "れんしゅう"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "操縦、驾驶",
+      "japanese": "運転",
+      "kana": "うんてん",
+      "romaji": "unten",
+      "tokens": [
+        {
+          "text": "運転",
+          "kana": "うんてん"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "以下",
+      "japanese": "以下",
+      "kana": "いか",
+      "romaji": "ika",
+      "tokens": [
+        {
+          "text": "以下",
+          "kana": "いか"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "受理处、接待处",
+      "japanese": "受付",
+      "kana": "うけつけ",
+      "romaji": "uketsuke",
+      "tokens": [
+        {
+          "text": "受付",
+          "kana": "うけつけ"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "很多（人）",
+      "japanese": "大勢",
+      "kana": "おおぜい",
+      "romaji": "oozei",
+      "tokens": [
+        {
+          "text": "大勢",
+          "kana": "おおぜい"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "牛",
+      "japanese": "牛",
+      "kana": "うし",
+      "romaji": "ushi",
+      "tokens": [
+        {
+          "text": "牛",
+          "kana": "うし"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "背面、里面",
+      "japanese": "裏",
+      "kana": "うら",
+      "romaji": "ura",
+      "tokens": [
+        {
+          "text": "裏",
+          "kana": "うら"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "以内",
+      "japanese": "以内",
+      "kana": "いない",
+      "romaji": "inai",
+      "tokens": [
+        {
+          "text": "以内",
+          "kana": "いない"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "父母、双亲",
+      "japanese": "両親",
+      "kana": "りょうしん",
+      "romaji": "ryoushin",
+      "tokens": [
+        {
+          "text": "両親",
+          "kana": "りょうしん"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "附近、一带",
+      "japanese": "辺り",
+      "kana": "あたり",
+      "romaji": "atari",
+      "tokens": [
+        {
+          "text": "辺り",
+          "kana": "あたり"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "年轻人",
+      "japanese": "若者",
+      "kana": "わかもの",
+      "romaji": "wakamono",
+      "tokens": [
+        {
+          "text": "若者",
+          "kana": "わかもの"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "您家、别人家",
+      "japanese": "お宅",
+      "kana": "おたく",
+      "romaji": "otaku",
+      "tokens": [
+        {
+          "text": "お宅",
+          "kana": "おたく"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "羊、绵羊",
+      "japanese": "羊",
+      "kana": "ひつじ",
+      "romaji": "hitsuji",
+      "tokens": [
+        {
+          "text": "羊",
+          "kana": "ひつじ"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "印象",
+      "japanese": "印象",
+      "kana": "いんしょう",
+      "romaji": "inshou",
+      "tokens": [
+        {
+          "text": "印象",
+          "kana": "いんしょう"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "谎话、谎言",
+      "japanese": "嘘",
+      "kana": "うそ",
+      "romaji": "uso",
+      "tokens": [
+        {
+          "text": "嘘",
+          "kana": "うそ"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "蓝色",
+      "japanese": "青",
+      "kana": "あお",
+      "romaji": "ao",
+      "tokens": [
+        {
+          "text": "青",
+          "kana": "あお"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "量",
+      "japanese": "量",
+      "kana": "りょう",
+      "romaji": "ryou",
+      "tokens": [
+        {
+          "text": "量",
+          "kana": "りょう"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "震惊",
+      "japanese": "驚き",
+      "kana": "おどろき",
+      "romaji": "odoroki",
+      "tokens": [
+        {
+          "text": "驚き",
+          "kana": "おどろき"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "留学",
+      "japanese": "留学",
+      "kana": "りゅうがく",
+      "romaji": "ryuugaku",
+      "tokens": [
+        {
+          "text": "留学",
+          "kana": "りゅうがく"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "练习",
+      "japanese": "練習",
+      "kana": "れんしゅう",
+      "romaji": "renshuu",
+      "tokens": [
+        {
+          "text": "練習",
+          "kana": "れんしゅう"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "每天",
+      "japanese": "毎日",
+      "kana": "まいにち",
+      "romaji": "mainichi",
+      "tokens": [
+        {
+          "text": "毎日",
+          "kana": "まいにち"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "一部分",
+      "japanese": "一部",
+      "kana": "いちぶ",
+      "romaji": "ichibu",
+      "tokens": [
+        {
+          "text": "一部",
+          "kana": "いちぶ"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "回忆",
+      "japanese": "思い出",
+      "kana": "おもいで",
+      "romaji": "omoide",
+      "tokens": [
+        {
+          "text": "思い出",
+          "kana": "おもいで"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "利用",
+      "japanese": "利用",
+      "kana": "りよう",
+      "romaji": "riyou",
+      "tokens": [
+        {
+          "text": "利用",
+          "kana": "りよう"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "出生",
+      "japanese": "生まれ",
+      "kana": "うまれ",
+      "romaji": "umare",
+      "tokens": [
+        {
+          "text": "生まれ",
+          "kana": "うまれ"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "到处",
+      "japanese": "あちこち",
+      "kana": "あちこち",
+      "romaji": "achikochi",
+      "tokens": [
+        {
+          "text": "あちこち",
+          "kana": "あちこち"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "变化",
+      "japanese": "変化",
+      "kana": "へんか",
+      "romaji": "henka",
+      "tokens": [
+        {
+          "text": "変化",
+          "kana": "へんか"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "命、性命、生命",
+      "japanese": "命",
+      "kana": "いのち",
+      "romaji": "inochi",
+      "tokens": [
+        {
+          "text": "命",
+          "kana": "いのち"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "书店",
+      "japanese": "本屋",
+      "kana": "ほんや",
+      "romaji": "honya",
+      "tokens": [
+        {
+          "text": "本屋",
+          "kana": "ほんや"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "胳膊；本领",
+      "japanese": "腕",
+      "kana": "うで",
+      "romaji": "ude",
+      "tokens": [
+        {
+          "text": "腕",
+          "kana": "うで"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "味道",
+      "japanese": "味",
+      "kana": "あじ",
+      "romaji": "aji",
+      "tokens": [
+        {
+          "text": "味",
+          "kana": "あじ"
+        }
+      ]
+    }
+  ]
+}

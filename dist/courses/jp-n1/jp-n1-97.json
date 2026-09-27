@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-97",
+  "coursePackId": "jp-n1",
+  "title": "动词 6",
+  "order": 97,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "隐瞒，敷衍；弄虚作假",
+      "japanese": "ごまかす",
+      "kana": "ごまかす",
+      "romaji": "gomakasu",
+      "tokens": [
+        {
+          "text": "ごまかす",
+          "kana": "ごまかす"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "冷峭；清澈；（头脑）清醒；精巧，灵敏",
+      "japanese": "冴[さ]える",
+      "kana": "さえる",
+      "romaji": "saeru",
+      "tokens": [
+        {
+          "text": "冴[さ]える",
+          "kana": "さえる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "共享；市场占有率",
+      "japanese": "シェア",
+      "kana": "しぇあ",
+      "romaji": "shea",
+      "tokens": [
+        {
+          "text": "シェア",
+          "kana": "しぇあ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "失败；因过失而失去工作或地位",
+      "japanese": "しくじる",
+      "kana": "しくじる",
+      "romaji": "shikujiru",
+      "tokens": [
+        {
+          "text": "しくじる",
+          "kana": "しくじる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "抵御，忍耐；超过，胜过",
+      "japanese": "しのぐ",
+      "kana": "しのぐ",
+      "romaji": "shinogu",
+      "tokens": [
+        {
+          "text": "しのぐ",
+          "kana": "しのぐ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "矗立，耸立",
+      "japanese": "そびえる",
+      "kana": "そびえる",
+      "romaji": "sobieru",
+      "tokens": [
+        {
+          "text": "そびえる",
+          "kana": "そびえる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（用线）装订，缝上；写，作；拼写",
+      "japanese": "綴[つづ]る",
+      "kana": "つづる",
+      "romaji": "tsuzuru",
+      "tokens": [
+        {
+          "text": "綴[つづ]る",
+          "kana": "つづる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "使平静，安抚",
+      "japanese": "なだめる",
+      "kana": "なだめる",
+      "romaji": "nadameru",
+      "tokens": [
+        {
+          "text": "なだめる",
+          "kana": "なだめる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "热闹，兴盛",
+      "japanese": "にぎわう",
+      "kana": "にぎわう",
+      "romaji": "nigiwau",
+      "tokens": [
+        {
+          "text": "にぎわう",
+          "kana": "にぎわう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "渗，渗出；模糊；反映出，流露出",
+      "japanese": "にじむ",
+      "kana": "にじむ",
+      "romaji": "nijimu",
+      "tokens": [
+        {
+          "text": "にじむ",
+          "kana": "にじむ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "缠着要，赖着请求",
+      "japanese": "ねだる",
+      "kana": "ねだる",
+      "romaji": "nedaru",
+      "tokens": [
+        {
+          "text": "ねだる",
+          "kana": "ねだる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "（开心地）喧闹；干燥",
+      "japanese": "はしゃぐ",
+      "kana": "はしゃぐ",
+      "romaji": "hashagu",
+      "tokens": [
+        {
+          "text": "はしゃぐ",
+          "kana": "はしゃぐ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "驱车，策马；驰名",
+      "japanese": "馳[は]せる",
+      "kana": "はせる",
+      "romaji": "haseru",
+      "tokens": [
+        {
+          "text": "馳[は]せる",
+          "kana": "はせる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "筋疲力尽",
+      "japanese": "ばてる",
+      "kana": "ばてる",
+      "romaji": "bateru",
+      "tokens": [
+        {
+          "text": "ばてる",
+          "kana": "ばてる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "怀孕；孕育",
+      "japanese": "はらむ",
+      "kana": "はらむ",
+      "romaji": "haramu",
+      "tokens": [
+        {
+          "text": "はらむ",
+          "kana": "はらむ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "（头脑）迟钝",
+      "japanese": "ぼける",
+      "kana": "ぼける",
+      "romaji": "bokeru",
+      "tokens": [
+        {
+          "text": "ぼける",
+          "kana": "ぼける"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "发牢骚",
+      "japanese": "ぼやく",
+      "kana": "ぼやく",
+      "romaji": "boyaku",
+      "tokens": [
+        {
+          "text": "ぼやく",
+          "kana": "ぼやく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "模糊",
+      "japanese": "ぼやける",
+      "kana": "ぼやける",
+      "romaji": "boyakeru",
+      "tokens": [
+        {
+          "text": "ぼやける",
+          "kana": "ぼやける"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "挣扎；焦急",
+      "japanese": "もがく",
+      "kana": "もがく",
+      "romaji": "mogaku",
+      "tokens": [
+        {
+          "text": "もがく",
+          "kana": "もがく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "谋划，图谋",
+      "japanese": "もくろむ",
+      "kana": "もくろむ",
+      "romaji": "mokuromu",
+      "tokens": [
+        {
+          "text": "もくろむ",
+          "kana": "もくろむ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "发生争执；心神不定",
+      "japanese": "もめる",
+      "kana": "もめる",
+      "romaji": "momeru",
+      "tokens": [
+        {
+          "text": "もめる",
+          "kana": "もめる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "使弯曲变形；歪曲",
+      "japanese": "ゆがめる",
+      "kana": "ゆがめる",
+      "romaji": "yugameru",
+      "tokens": [
+        {
+          "text": "ゆがめる",
+          "kana": "ゆがめる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "复活；恢复",
+      "japanese": "よみがえる",
+      "kana": "よみがえる",
+      "romaji": "yomigaeru",
+      "tokens": [
+        {
+          "text": "よみがえる",
+          "kana": "よみがえる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "（排）次序",
+      "japanese": "ランク",
+      "kana": "らんく",
+      "romaji": "ranku",
+      "tokens": [
+        {
+          "text": "ランク",
+          "kana": "らんく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "领导；领先",
+      "japanese": "リード",
+      "kana": "りいど",
+      "romaji": "riido",
+      "tokens": [
+        {
+          "text": "リード",
+          "kana": "りいど"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "版面设计；配置，布局",
+      "japanese": "レイアウト",
+      "kana": "れいあうと",
+      "romaji": "reiauto",
+      "tokens": [
+        {
+          "text": "レイアウト",
+          "kana": "れいあうと"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "担心，挂念；思考，想出",
+      "japanese": "案じる",
+      "kana": "あんじる",
+      "romaji": "anjiru",
+      "tokens": [
+        {
+          "text": "案じる",
+          "kana": "あんじる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "委托；委身",
+      "japanese": "委ねる",
+      "kana": "ゆだねる",
+      "romaji": "yudaneru",
+      "tokens": [
+        {
+          "text": "委ねる",
+          "kana": "ゆだねる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "振奋，鼓起干劲",
+      "japanese": "意気込む",
+      "kana": "いきごむ",
+      "romaji": "ikigomu",
+      "tokens": [
+        {
+          "text": "意気込む",
+          "kana": "いきごむ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "一览；一览表",
+      "japanese": "一覧",
+      "kana": "いちらん",
+      "romaji": "ichiran",
+      "tokens": [
+        {
+          "text": "一覧",
+          "kana": "いちらん"
+        }
+      ]
+    }
+  ]
+}

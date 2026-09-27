@@ -1,0 +1,1 @@
+import{G as e,Q as t,j as n,w as r}from"./BBF_i8iG.js";import{u as i}from"./ChvBV1xQ.js";var a=n({__name:`index`,async setup(n){let a,o;return[a,o]=t(()=>i(`/jp-home`)),await a,o(),(t,n)=>(e(),r(`div`))}});export{a as default};

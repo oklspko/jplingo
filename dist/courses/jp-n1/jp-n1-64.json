@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-64",
+  "coursePackId": "jp-n1",
+  "title": "名词 64",
+  "order": 64,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "磨牙；咬牙切齿",
+      "japanese": "歯ぎしり",
+      "kana": "はぎしり",
+      "romaji": "hagishiri",
+      "tokens": [
+        {
+          "text": "歯ぎしり",
+          "kana": "はぎしり"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "大腿",
+      "japanese": "太もも",
+      "kana": "ふともも",
+      "romaji": "futomomo",
+      "tokens": [
+        {
+          "text": "太もも",
+          "kana": "ふともも"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "关节",
+      "japanese": "関節",
+      "kana": "かんせつ",
+      "romaji": "kansetsu",
+      "tokens": [
+        {
+          "text": "関節",
+          "kana": "かんせつ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "角度；观点，见地",
+      "japanese": "アングル",
+      "kana": "あんぐる",
+      "romaji": "anguru",
+      "tokens": [
+        {
+          "text": "アングル",
+          "kana": "あんぐる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "代演（者），替角",
+      "japanese": "代役",
+      "kana": "だいやく",
+      "romaji": "daiyaku",
+      "tokens": [
+        {
+          "text": "代役",
+          "kana": "だいやく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "寝具，被褥",
+      "japanese": "寝具",
+      "kana": "しんぐ",
+      "romaji": "shingu",
+      "tokens": [
+        {
+          "text": "寝具",
+          "kana": "しんぐ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "嘈杂声",
+      "japanese": "ざわめき",
+      "kana": "ざわめき",
+      "romaji": "zawameki",
+      "tokens": [
+        {
+          "text": "ざわめき",
+          "kana": "ざわめき"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "赏叶植物",
+      "japanese": "観葉植物",
+      "kana": "かんようしょくぶつ",
+      "romaji": "kan'youshokubutsu",
+      "tokens": [
+        {
+          "text": "観葉植物",
+          "kana": "かんようしょくぶつ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "雨后",
+      "japanese": "雨上がり",
+      "kana": "あめあがり",
+      "romaji": "ameagari",
+      "tokens": [
+        {
+          "text": "雨上がり",
+          "kana": "あめあがり"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "胆小，胆怯",
+      "japanese": "物おじ",
+      "kana": "ものおじ",
+      "romaji": "monooji",
+      "tokens": [
+        {
+          "text": "物おじ",
+          "kana": "ものおじ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "冬至",
+      "japanese": "冬至",
+      "kana": "とうじ",
+      "romaji": "touji",
+      "tokens": [
+        {
+          "text": "冬至",
+          "kana": "とうじ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "夏至",
+      "japanese": "夏至",
+      "kana": "げし",
+      "romaji": "geshi",
+      "tokens": [
+        {
+          "text": "夏至",
+          "kana": "げし"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "润滑油",
+      "japanese": "潤滑油",
+      "kana": "じゅんかつゆ",
+      "romaji": "junkatsuyu",
+      "tokens": [
+        {
+          "text": "潤滑油",
+          "kana": "じゅんかつゆ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（材料不同所引起的）质感",
+      "japanese": "質感",
+      "kana": "しつかん",
+      "romaji": "shitsukan",
+      "tokens": [
+        {
+          "text": "質感",
+          "kana": "しつかん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "深山里",
+      "japanese": "山奥",
+      "kana": "やまおく",
+      "romaji": "yamaoku",
+      "tokens": [
+        {
+          "text": "山奥",
+          "kana": "やまおく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "一天一换",
+      "japanese": "日替わり",
+      "kana": "ひがわり",
+      "romaji": "higawari",
+      "tokens": [
+        {
+          "text": "日替わり",
+          "kana": "ひがわり"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "室内装潢",
+      "japanese": "内装",
+      "kana": "ないそう",
+      "romaji": "naisou",
+      "tokens": [
+        {
+          "text": "内装",
+          "kana": "ないそう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "褶，襞",
+      "japanese": "ひだ",
+      "kana": "ひだ",
+      "romaji": "hida",
+      "tokens": [
+        {
+          "text": "ひだ",
+          "kana": "ひだ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "金枪鱼",
+      "japanese": "まぐろ",
+      "kana": "まぐろ",
+      "romaji": "maguro",
+      "tokens": [
+        {
+          "text": "まぐろ",
+          "kana": "まぐろ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "大朵（花）",
+      "japanese": "大輪",
+      "kana": "たいりん",
+      "romaji": "tairin",
+      "tokens": [
+        {
+          "text": "大輪",
+          "kana": "たいりん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "器材，器件",
+      "japanese": "器材",
+      "kana": "きざい",
+      "romaji": "kizai",
+      "tokens": [
+        {
+          "text": "器材",
+          "kana": "きざい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "家传的行业，父业",
+      "japanese": "家業",
+      "kana": "かぎょう",
+      "romaji": "kagyou",
+      "tokens": [
+        {
+          "text": "家業",
+          "kana": "かぎょう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "名次，等级，排名",
+      "japanese": "ランキング",
+      "kana": "らんきんぐ",
+      "romaji": "rankingu",
+      "tokens": [
+        {
+          "text": "ランキング",
+          "kana": "らんきんぐ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "色素",
+      "japanese": "色素",
+      "kana": "しきそ",
+      "romaji": "shikiso",
+      "tokens": [
+        {
+          "text": "色素",
+          "kana": "しきそ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（小学）五、六年级（的学生）",
+      "japanese": "高学年",
+      "kana": "こうがくねん",
+      "romaji": "kougakunen",
+      "tokens": [
+        {
+          "text": "高学年",
+          "kana": "こうがくねん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "炸猪排",
+      "japanese": "豚カツ",
+      "kana": "とんかつ",
+      "romaji": "tonkatsu",
+      "tokens": [
+        {
+          "text": "豚カツ",
+          "kana": "とんかつ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "秘闻，内幕",
+      "japanese": "裏話",
+      "kana": "うらばなし",
+      "romaji": "urabanashi",
+      "tokens": [
+        {
+          "text": "裏話",
+          "kana": "うらばなし"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "浓淡，深浅",
+      "japanese": "濃淡",
+      "kana": "のうたん",
+      "romaji": "noutan",
+      "tokens": [
+        {
+          "text": "濃淡",
+          "kana": "のうたん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "无人岛",
+      "japanese": "無人島",
+      "kana": "むじんとう",
+      "romaji": "mujintou",
+      "tokens": [
+        {
+          "text": "無人島",
+          "kana": "むじんとう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "草丛",
+      "japanese": "草むら",
+      "kana": "くさむら",
+      "romaji": "kusamura",
+      "tokens": [
+        {
+          "text": "草むら",
+          "kana": "くさむら"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "jp-n2-106",
+  "coursePackId": "jp-n2",
+  "title": "副词 7",
+  "order": 106,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "突然，一下子；一下子传开；显眼，出色",
+      "japanese": "ぱっと",
+      "kana": "ぱっと",
+      "romaji": "patto",
+      "tokens": [
+        {
+          "text": "ぱっと",
+          "kana": "ぱっと"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "发抖，哆嗦",
+      "japanese": "ぶるぶる",
+      "kana": "ぶるぶる",
+      "romaji": "buruburu",
+      "tokens": [
+        {
+          "text": "ぶるぶる",
+          "kana": "ぶるぶる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "很多，堆积如山",
+      "japanese": "山ほど",
+      "kana": "やまほど",
+      "romaji": "yamahodo",
+      "tokens": [
+        {
+          "text": "山ほど",
+          "kana": "やまほど"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "一刀斩断；大刀阔斧地砍掉",
+      "japanese": "ばっさり",
+      "kana": "ばっさり",
+      "romaji": "bassari",
+      "tokens": [
+        {
+          "text": "ばっさり",
+          "kana": "ばっさり"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "使劲，一口气；更加，非常",
+      "japanese": "ぐんと",
+      "kana": "ぐんと",
+      "romaji": "gunto",
+      "tokens": [
+        {
+          "text": "ぐんと",
+          "kana": "ぐんと"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "乱爬乱钻，密密麻麻乱动，蠕动；唠唠叨叨，嘟嘟囔囔",
+      "japanese": "うじゃうじゃ",
+      "kana": "うじゃうじゃ",
+      "romaji": "ujauja",
+      "tokens": [
+        {
+          "text": "うじゃうじゃ",
+          "kana": "うじゃうじゃ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "偷偷，悄悄，暗中",
+      "japanese": "ひそひそ",
+      "kana": "ひそひそ",
+      "romaji": "hisohiso",
+      "tokens": [
+        {
+          "text": "ひそひそ",
+          "kana": "ひそひそ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "往往，每每",
+      "japanese": "えてして",
+      "kana": "えてして",
+      "romaji": "eteshite",
+      "tokens": [
+        {
+          "text": "えてして",
+          "kana": "えてして"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "还差一点，略有欠缺",
+      "japanese": "今一つ",
+      "kana": "いまひとつ",
+      "romaji": "imahitotsu",
+      "tokens": [
+        {
+          "text": "今一つ",
+          "kana": "いまひとつ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "比较",
+      "japanese": "比較的",
+      "kana": "ひかくてき",
+      "romaji": "hikakuteki",
+      "tokens": [
+        {
+          "text": "比較的",
+          "kana": "ひかくてき"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-18",
+  "coursePackId": "jp-n1",
+  "title": "名词 18",
+  "order": 18,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "侵害，侵犯",
+      "japanese": "侵害",
+      "kana": "しんがい",
+      "romaji": "shingai",
+      "tokens": [
+        {
+          "text": "侵害",
+          "kana": "しんがい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "审查",
+      "japanese": "審査",
+      "kana": "しんさ",
+      "romaji": "shinsa",
+      "tokens": [
+        {
+          "text": "審査",
+          "kana": "しんさ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "关心，惦念",
+      "japanese": "心遣い",
+      "kana": "こころづかい",
+      "romaji": "kokorozukai",
+      "tokens": [
+        {
+          "text": "心遣い",
+          "kana": "こころづかい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "思想准备，觉悟",
+      "japanese": "心構え",
+      "kana": "こころがまえ",
+      "romaji": "kokorogamae",
+      "tokens": [
+        {
+          "text": "心構え",
+          "kana": "こころがまえ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "心得，体会；须知",
+      "japanese": "心得",
+      "kana": "こころえ",
+      "romaji": "kokoroe",
+      "tokens": [
+        {
+          "text": "心得",
+          "kana": "こころえ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "动作，举止；请客，招待",
+      "japanese": "振る舞い",
+      "kana": "ふるまい",
+      "romaji": "furumai",
+      "tokens": [
+        {
+          "text": "振る舞い",
+          "kana": "ふるまい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "振兴",
+      "japanese": "振興",
+      "kana": "しんこう",
+      "romaji": "shinkou",
+      "tokens": [
+        {
+          "text": "振興",
+          "kana": "しんこう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "新的，重新",
+      "japanese": "新規",
+      "kana": "しんき",
+      "romaji": "shinki",
+      "tokens": [
+        {
+          "text": "新規",
+          "kana": "しんき"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "新绿，嫩绿",
+      "japanese": "新緑",
+      "kana": "しんりょく",
+      "romaji": "shinryoku",
+      "tokens": [
+        {
+          "text": "新緑",
+          "kana": "しんりょく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "盛夏",
+      "japanese": "真夏",
+      "kana": "まなつ",
+      "romaji": "manatsu",
+      "tokens": [
+        {
+          "text": "真夏",
+          "kana": "まなつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "诊疗，治疗",
+      "japanese": "診療",
+      "kana": "しんりょう",
+      "romaji": "shinryou",
+      "tokens": [
+        {
+          "text": "診療",
+          "kana": "しんりょう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "忍耐",
+      "japanese": "辛抱",
+      "kana": "しんぼう",
+      "romaji": "shinbou",
+      "tokens": [
+        {
+          "text": "辛抱",
+          "kana": "しんぼう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "人员",
+      "japanese": "人員",
+      "kana": "じんいん",
+      "romaji": "jin'in",
+      "tokens": [
+        {
+          "text": "人員",
+          "kana": "じんいん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "人脉",
+      "japanese": "人脈",
+      "kana": "じんみゃく",
+      "romaji": "jinmyaku",
+      "tokens": [
+        {
+          "text": "人脈",
+          "kana": "じんみゃく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "他人的眼睛，世人的眼光",
+      "japanese": "人目",
+      "kana": "ひとめ",
+      "romaji": "hitome",
+      "tokens": [
+        {
+          "text": "人目",
+          "kana": "ひとめ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "图表",
+      "japanese": "図式",
+      "kana": "ずしき",
+      "romaji": "zushiki",
+      "tokens": [
+        {
+          "text": "図式",
+          "kana": "ずしき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "时间流逝；发展，变迁",
+      "japanese": "推移",
+      "kana": "すいい",
+      "romaji": "suii",
+      "tokens": [
+        {
+          "text": "推移",
+          "kana": "すいい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "首屈一指，第一",
+      "japanese": "随一",
+      "kana": "ずいいち",
+      "romaji": "zuiichi",
+      "tokens": [
+        {
+          "text": "随一",
+          "kana": "ずいいち"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "家，户，家庭",
+      "japanese": "世帯",
+      "kana": "せたい",
+      "romaji": "setai",
+      "tokens": [
+        {
+          "text": "世帯",
+          "kana": "せたい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "社会舆论",
+      "japanese": "世論",
+      "kana": "よろん",
+      "romaji": "yoron",
+      "tokens": [
+        {
+          "text": "世論",
+          "kana": "よろん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（作物）成熟；（人）发育成熟；（时机）成熟",
+      "japanese": "成熟",
+      "kana": "せいじゅく",
+      "romaji": "seijuku",
+      "tokens": [
+        {
+          "text": "成熟",
+          "kana": "せいじゅく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "星座",
+      "japanese": "星座",
+      "kana": "せいざ",
+      "romaji": "seiza",
+      "tokens": [
+        {
+          "text": "星座",
+          "kana": "せいざ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "生长，繁殖，生育和抚养",
+      "japanese": "生育",
+      "kana": "せいいく",
+      "romaji": "seiiku",
+      "tokens": [
+        {
+          "text": "生育",
+          "kana": "せいいく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "生理（现象）；月经",
+      "japanese": "生理",
+      "kana": "せいり",
+      "romaji": "seiri",
+      "tokens": [
+        {
+          "text": "生理",
+          "kana": "せいり"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "配音演员",
+      "japanese": "声優",
+      "kana": "せいゆう",
+      "romaji": "seiyuu",
+      "tokens": [
+        {
+          "text": "声優",
+          "kana": "せいゆう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "诚实，真诚",
+      "japanese": "誠実",
+      "kana": "せいじつ",
+      "romaji": "seijitsu",
+      "tokens": [
+        {
+          "text": "誠実",
+          "kana": "せいじつ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "青年，年轻人",
+      "japanese": "青年",
+      "kana": "せいねん",
+      "romaji": "seinen",
+      "tokens": [
+        {
+          "text": "青年",
+          "kana": "せいねん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "触碰，接触；交际，联系",
+      "japanese": "接触",
+      "kana": "せっしょく",
+      "romaji": "sesshoku",
+      "tokens": [
+        {
+          "text": "接触",
+          "kana": "せっしょく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "盥洗室；厕所，洗手间",
+      "japanese": "洗面所",
+      "kana": "せんめんじょ",
+      "romaji": "senmenjo",
+      "tokens": [
+        {
+          "text": "洗面所",
+          "kana": "せんめんじょ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "纤维",
+      "japanese": "繊維",
+      "kana": "せんい",
+      "romaji": "sen'i",
+      "tokens": [
+        {
+          "text": "繊維",
+          "kana": "せんい"
+        }
+      ]
+    }
+  ]
+}

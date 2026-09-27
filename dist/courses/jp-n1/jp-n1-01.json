@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-01",
+  "coursePackId": "jp-n1",
+  "title": "名词 1",
+  "order": 1,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（日本年号）昭和",
+      "japanese": "昭和",
+      "kana": "しょうわ",
+      "romaji": "shouwa",
+      "tokens": [
+        {
+          "text": "昭和",
+          "kana": "しょうわ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "组",
+      "japanese": "班",
+      "kana": "はん",
+      "romaji": "han",
+      "tokens": [
+        {
+          "text": "班",
+          "kana": "はん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "著名，有名；大名",
+      "japanese": "高名",
+      "kana": "こうめい",
+      "romaji": "koumei",
+      "tokens": [
+        {
+          "text": "高名",
+          "kana": "こうめい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "一把，少量，一小撮；轻易捏碎，轻松击败",
+      "japanese": "一握り",
+      "kana": "ひとにぎり",
+      "romaji": "hitonigiri",
+      "tokens": [
+        {
+          "text": "一握り",
+          "kana": "ひとにぎり"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "频发，屡次发生",
+      "japanese": "頻発",
+      "kana": "ひんぱつ",
+      "romaji": "hinpatsu",
+      "tokens": [
+        {
+          "text": "頻発",
+          "kana": "ひんぱつ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "恶性循环",
+      "japanese": "悪循環",
+      "kana": "あくじゅんかん",
+      "romaji": "akujunkan",
+      "tokens": [
+        {
+          "text": "悪循環",
+          "kana": "あくじゅんかん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "英国",
+      "japanese": "イギリス",
+      "kana": "いぎりす",
+      "romaji": "igirisu",
+      "tokens": [
+        {
+          "text": "イギリス",
+          "kana": "いぎりす"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "澳大利亚",
+      "japanese": "オーストラリア",
+      "kana": "おうすとらりあ",
+      "romaji": "ousutoraria",
+      "tokens": [
+        {
+          "text": "オーストラリア",
+          "kana": "おうすとらりあ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "寿喜烧",
+      "japanese": "すき焼き",
+      "kana": "すきやき",
+      "romaji": "sukiyaki",
+      "tokens": [
+        {
+          "text": "すき焼き",
+          "kana": "すきやき"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "纪录；唱片",
+      "japanese": "レコード",
+      "kana": "れこうど",
+      "romaji": "rekoudo",
+      "tokens": [
+        {
+          "text": "レコード",
+          "kana": "れこうど"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "鱼店，水产店",
+      "japanese": "魚屋",
+      "kana": "さかなや",
+      "romaji": "sakanaya",
+      "tokens": [
+        {
+          "text": "魚屋",
+          "kana": "さかなや"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "银；银色",
+      "japanese": "銀",
+      "kana": "ぎん",
+      "romaji": "gin",
+      "tokens": [
+        {
+          "text": "銀",
+          "kana": "ぎん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "上上周",
+      "japanese": "先々週",
+      "kana": "せんせんしゅう",
+      "romaji": "sensenshuu",
+      "tokens": [
+        {
+          "text": "先々週",
+          "kana": "せんせんしゅう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "硕士生",
+      "japanese": "大学院生",
+      "kana": "だいがくいんせい",
+      "romaji": "daigakuinsei",
+      "tokens": [
+        {
+          "text": "大学院生",
+          "kana": "だいがくいんせい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "露水；短暂，无常",
+      "japanese": "露",
+      "kana": "つゆ",
+      "romaji": "tsuyu",
+      "tokens": [
+        {
+          "text": "露",
+          "kana": "つゆ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "灰色",
+      "japanese": "グレー",
+      "kana": "ぐれえ",
+      "romaji": "guree",
+      "tokens": [
+        {
+          "text": "グレー",
+          "kana": "ぐれえ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "大门",
+      "japanese": "ゲート",
+      "kana": "げえと",
+      "romaji": "geeto",
+      "tokens": [
+        {
+          "text": "ゲート",
+          "kana": "げえと"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "三明治；（比喻）被夹在中间",
+      "japanese": "サンドイッチ",
+      "kana": "さんどいっち",
+      "romaji": "sandoitchi",
+      "tokens": [
+        {
+          "text": "サンドイッチ",
+          "kana": "さんどいっち"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "帐篷",
+      "japanese": "テント",
+      "kana": "てんと",
+      "romaji": "tento",
+      "tokens": [
+        {
+          "text": "テント",
+          "kana": "てんと"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "男朋友；男性朋友",
+      "japanese": "ボーイフレンド",
+      "kana": "ぼういふれんど",
+      "romaji": "bouifurendo",
+      "tokens": [
+        {
+          "text": "ボーイフレンド",
+          "kana": "ぼういふれんど"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "绿芥末；山葵，辣根",
+      "japanese": "わさび",
+      "kana": "わさび",
+      "romaji": "wasabi",
+      "tokens": [
+        {
+          "text": "わさび",
+          "kana": "わさび"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "遗产",
+      "japanese": "遺産",
+      "kana": "いさん",
+      "romaji": "isan",
+      "tokens": [
+        {
+          "text": "遺産",
+          "kana": "いさん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "寄宿，租房间住，供膳宿的公寓",
+      "japanese": "下宿",
+      "kana": "げしゅく",
+      "romaji": "geshuku",
+      "tokens": [
+        {
+          "text": "下宿",
+          "kana": "げしゅく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "内衣",
+      "japanese": "下着",
+      "kana": "したぎ",
+      "romaji": "shitagi",
+      "tokens": [
+        {
+          "text": "下着",
+          "kana": "したぎ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "化学",
+      "japanese": "化学",
+      "kana": "かがく",
+      "romaji": "kagaku",
+      "tokens": [
+        {
+          "text": "化学",
+          "kana": "かがく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "歌舞伎",
+      "japanese": "歌舞伎",
+      "kana": "かぶき",
+      "romaji": "kabuki",
+      "tokens": [
+        {
+          "text": "歌舞伎",
+          "kana": "かぶき"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "各种，各样",
+      "japanese": "各種",
+      "kana": "かくしゅ",
+      "romaji": "kakushu",
+      "tokens": [
+        {
+          "text": "各種",
+          "kana": "かくしゅ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "岸，岸边",
+      "japanese": "岸",
+      "kana": "きし",
+      "romaji": "kishi",
+      "tokens": [
+        {
+          "text": "岸",
+          "kana": "きし"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "研究员",
+      "japanese": "研究員",
+      "kana": "けんきゅういん",
+      "romaji": "kenkyuuin",
+      "tokens": [
+        {
+          "text": "研究員",
+          "kana": "けんきゅういん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "词汇",
+      "japanese": "語彙",
+      "kana": "ごい",
+      "romaji": "goi",
+      "tokens": [
+        {
+          "text": "語彙",
+          "kana": "ごい"
+        }
+      ]
+    }
+  ]
+}

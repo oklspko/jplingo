@@ -3,6 +3,20 @@ apply plugin: 'com.android.application'
 android {
     namespace = "com.jplingo.app"
     compileSdk = rootProject.ext.compileSdkVersion
+    signingConfigs {
+        release {
+            // 发布签名：密钥库由 CI 从 GitHub Secret 注入（KEYSTORE_PATH 指向解码后的 .p12）。
+            // 本地无 Android 工具链、不落盘密钥文件，故仅在环境变量存在时填充；
+            // 缺省时本 signingConfig 不完整，仅影响 assembleRelease（本地从不跑 release 打包）。
+            def ks = System.getenv("KEYSTORE_PATH")
+            if (ks != null && !ks.isEmpty()) {
+                storeFile file(ks)
+                storePassword System.getenv("KEYSTORE_PASSWORD")
+                keyAlias System.getenv("KEYSTORE_ALIAS")
+                keyPassword System.getenv("KEYSTORE_PASSWORD")
+            }
+        }
+    }
     defaultConfig {
         applicationId "com.jplingo.app"
         minSdkVersion rootProject.ext.minSdkVersion
@@ -20,6 +34,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
     }
 }

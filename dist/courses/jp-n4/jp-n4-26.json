@@ -1,0 +1,372 @@
+{
+  "id": "jp-n4-26",
+  "coursePackId": "jp-n4",
+  "title": "副词 1",
+  "order": 26,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "大概，大约",
+      "japanese": "たぶん",
+      "kana": "たぶん",
+      "romaji": "tabun",
+      "tokens": [
+        {
+          "text": "たぶん",
+          "kana": "たぶん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "之前，以前",
+      "japanese": "先に",
+      "kana": "さきに",
+      "romaji": "sakini",
+      "tokens": [
+        {
+          "text": "先に",
+          "kana": "さきに"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "一定，必定",
+      "japanese": "きっと",
+      "kana": "きっと",
+      "romaji": "kitto",
+      "tokens": [
+        {
+          "text": "きっと",
+          "kana": "きっと"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "紧紧地；好好地，牢牢地；坚固，坚强；可靠",
+      "japanese": "しっかり",
+      "kana": "しっかり",
+      "romaji": "shikkari",
+      "tokens": [
+        {
+          "text": "しっかり",
+          "kana": "しっかり"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "完全，全部",
+      "japanese": "すっかり",
+      "kana": "すっかり",
+      "romaji": "sukkari",
+      "tokens": [
+        {
+          "text": "すっかり",
+          "kana": "すっかり"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "就那样；原封不动",
+      "japanese": "そのまま",
+      "kana": "そのまま",
+      "romaji": "sonomama",
+      "tokens": [
+        {
+          "text": "そのまま",
+          "kana": "そのまま"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "咚咚声；不断地，顺利地",
+      "japanese": "どんどん",
+      "kana": "どんどん",
+      "romaji": "dondon",
+      "tokens": [
+        {
+          "text": "どんどん",
+          "kana": "どんどん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "很，相当；（不）容易，（不）简单",
+      "japanese": "なかなか",
+      "kana": "なかなか",
+      "romaji": "nakanaka",
+      "tokens": [
+        {
+          "text": "なかなか",
+          "kana": "なかなか"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "清楚；爽快；明确",
+      "japanese": "はっきり",
+      "kana": "はっきり",
+      "romaji": "hakkiri",
+      "tokens": [
+        {
+          "text": "はっきり",
+          "kana": "はっきり"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "吃惊，吓一跳",
+      "japanese": "びっくり",
+      "kana": "びっくり",
+      "romaji": "bikkuri",
+      "tokens": [
+        {
+          "text": "びっくり",
+          "kana": "びっくり"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "还，仍",
+      "japanese": "まだまだ",
+      "kana": "まだまだ",
+      "romaji": "madamada",
+      "tokens": [
+        {
+          "text": "まだまだ",
+          "kana": "まだまだ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "如果，假如",
+      "japanese": "もし",
+      "kana": "もし",
+      "romaji": "moshi",
+      "tokens": [
+        {
+          "text": "もし",
+          "kana": "もし"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "当然",
+      "japanese": "もちろん",
+      "kana": "もちろん",
+      "romaji": "mochiron",
+      "tokens": [
+        {
+          "text": "もちろん",
+          "kana": "もちろん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "果然；到底还是",
+      "japanese": "やはり",
+      "kana": "やはり",
+      "romaji": "yahari",
+      "tokens": [
+        {
+          "text": "やはり",
+          "kana": "やはり"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "决（不）……",
+      "japanese": "決して",
+      "kana": "けっして",
+      "romaji": "kesshite",
+      "tokens": [
+        {
+          "text": "決して",
+          "kana": "けっして"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "务必，一定",
+      "japanese": "ぜひ",
+      "kana": "ぜひ",
+      "romaji": "zehi",
+      "tokens": [
+        {
+          "text": "ぜひ",
+          "kana": "ぜひ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "完全（不），根本（不）",
+      "japanese": "全然",
+      "kana": "ぜんぜん",
+      "romaji": "zenzen",
+      "tokens": [
+        {
+          "text": "全然",
+          "kana": "ぜんぜん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "很多；多半",
+      "japanese": "多く",
+      "kana": "おおく",
+      "romaji": "ooku",
+      "tokens": [
+        {
+          "text": "多く",
+          "kana": "おおく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "特别",
+      "japanese": "特に",
+      "kana": "とくに",
+      "romaji": "tokuni",
+      "tokens": [
+        {
+          "text": "特に",
+          "kana": "とくに"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "一定，必定",
+      "japanese": "必ず",
+      "kana": "かならず",
+      "romaji": "kanarazu",
+      "tokens": [
+        {
+          "text": "必ず",
+          "kana": "かならず"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "例如，假设",
+      "japanese": "例えば",
+      "kana": "たとえば",
+      "romaji": "tatoeba",
+      "tokens": [
+        {
+          "text": "例えば",
+          "kana": "たとえば"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "整齐；好好地",
+      "japanese": "ちゃんと",
+      "kana": "ちゃんと",
+      "romaji": "chanto",
+      "tokens": [
+        {
+          "text": "ちゃんと",
+          "kana": "ちゃんと"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "笑眯眯",
+      "japanese": "にこにこ",
+      "kana": "にこにこ",
+      "romaji": "nikoniko",
+      "tokens": [
+        {
+          "text": "にこにこ",
+          "kana": "にこにこ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "完全；实在，简直；完全（不）",
+      "japanese": "全く",
+      "kana": "まったく",
+      "romaji": "mattaku",
+      "tokens": [
+        {
+          "text": "全く",
+          "kana": "まったく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "不管什么；据说是",
+      "japanese": "何でも",
+      "kana": "なんでも",
+      "romaji": "nandemo",
+      "tokens": [
+        {
+          "text": "何でも",
+          "kana": "なんでも"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "其实，说实在的",
+      "japanese": "実は",
+      "kana": "じつは",
+      "romaji": "jitsuha",
+      "tokens": [
+        {
+          "text": "実は",
+          "kana": "じつは"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "并（不）",
+      "japanese": "別に",
+      "kana": "べつに",
+      "romaji": "betsuni",
+      "tokens": [
+        {
+          "text": "別に",
+          "kana": "べつに"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "果然；到底还是",
+      "japanese": "やっぱり",
+      "kana": "やっぱり",
+      "romaji": "yappari",
+      "tokens": [
+        {
+          "text": "やっぱり",
+          "kana": "やっぱり"
+        }
+      ]
+    }
+  ]
+}

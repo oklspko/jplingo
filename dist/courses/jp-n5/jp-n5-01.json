@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-01",
+  "coursePackId": "jp-n5",
+  "title": "名词 1",
+  "order": 1,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "高中",
+      "japanese": "高校",
+      "kana": "こうこう",
+      "romaji": "koukou",
+      "tokens": [
+        {
+          "text": "高校",
+          "kana": "こうこう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "克",
+      "japanese": "グラム",
+      "kana": "ぐらむ",
+      "romaji": "guramu",
+      "tokens": [
+        {
+          "text": "グラム",
+          "kana": "ぐらむ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "……回，次",
+      "japanese": "〜回",
+      "kana": "〜回",
+      "romaji": "~回",
+      "tokens": [
+        {
+          "text": "〜回",
+          "kana": "〜回"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "大概……，……左右；时期",
+      "japanese": "〜頃",
+      "kana": "〜頃",
+      "romaji": "~頃",
+      "tokens": [
+        {
+          "text": "〜頃",
+          "kana": "〜頃"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "正在……；中间，中",
+      "japanese": "中",
+      "kana": "ちゅう",
+      "romaji": "chuu",
+      "tokens": [
+        {
+          "text": "中",
+          "kana": "ちゅう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "……分钟",
+      "japanese": "分",
+      "kana": "ふん",
+      "romaji": "fun",
+      "tokens": [
+        {
+          "text": "分",
+          "kana": "ふん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "后天",
+      "japanese": "あさって",
+      "kana": "あさって",
+      "romaji": "asatte",
+      "tokens": [
+        {
+          "text": "あさって",
+          "kana": "あさって"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（指代远处）那里；（指代自己和对方都知道的地方）那里",
+      "japanese": "あそこ",
+      "kana": "あそこ",
+      "romaji": "asoko",
+      "tokens": [
+        {
+          "text": "あそこ",
+          "kana": "あそこ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（远处）那边；那个人，那位",
+      "japanese": "あちら",
+      "kana": "あちら",
+      "romaji": "achira",
+      "tokens": [
+        {
+          "text": "あちら",
+          "kana": "あちら"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "那边；那个人",
+      "japanese": "あっち",
+      "kana": "あっち",
+      "romaji": "atchi",
+      "tokens": [
+        {
+          "text": "あっち",
+          "kana": "あっち"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "你",
+      "japanese": "あなた",
+      "kana": "あなた",
+      "romaji": "anata",
+      "tokens": [
+        {
+          "text": "あなた",
+          "kana": "あなた"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "公寓",
+      "japanese": "アパート",
+      "kana": "あぱあと",
+      "romaji": "apaato",
+      "tokens": [
+        {
+          "text": "アパート",
+          "kana": "あぱあと"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（表示离双方都有距离的）那个；（指之前发生过的，你和对方都熟悉的事情）那时",
+      "japanese": "あれ",
+      "kana": "あれ",
+      "romaji": "are",
+      "tokens": [
+        {
+          "text": "あれ",
+          "kana": "あれ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "几个；几岁",
+      "japanese": "いくつ",
+      "kana": "いくつ",
+      "romaji": "ikutsu",
+      "tokens": [
+        {
+          "text": "いくつ",
+          "kana": "いくつ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（数量或价钱）多少；即使……也……",
+      "japanese": "いくら",
+      "kana": "いくら",
+      "romaji": "ikura",
+      "tokens": [
+        {
+          "text": "いくら",
+          "kana": "いくら"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "什么时候",
+      "japanese": "いつ",
+      "kana": "いつ",
+      "romaji": "itsu",
+      "tokens": [
+        {
+          "text": "いつ",
+          "kana": "いつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "经常，总是；平时",
+      "japanese": "いつも",
+      "kana": "いつも",
+      "romaji": "itsumo",
+      "tokens": [
+        {
+          "text": "いつも",
+          "kana": "いつも"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "空调",
+      "japanese": "エアコン",
+      "kana": "えあこん",
+      "romaji": "eakon",
+      "tokens": [
+        {
+          "text": "エアコン",
+          "kana": "えあこん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（伯父）父母的哥哥；（叔父）父母的弟弟",
+      "japanese": "おじ",
+      "kana": "おじ",
+      "romaji": "oji",
+      "tokens": [
+        {
+          "text": "おじ",
+          "kana": "おじ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "祖父；外公；对年长男性的昵称",
+      "japanese": "おじいさん",
+      "kana": "おじいさん",
+      "romaji": "ojiisan",
+      "tokens": [
+        {
+          "text": "おじいさん",
+          "kana": "おじいさん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "叔叔，伯伯；对其他成年男性的昵称",
+      "japanese": "おじさん",
+      "kana": "おじさん",
+      "romaji": "ojisan",
+      "tokens": [
+        {
+          "text": "おじさん",
+          "kana": "おじさん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "前天",
+      "japanese": "おととい",
+      "kana": "おととい",
+      "romaji": "ototoi",
+      "tokens": [
+        {
+          "text": "おととい",
+          "kana": "おととい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "前年",
+      "japanese": "おととし",
+      "kana": "おととし",
+      "romaji": "ototoshi",
+      "tokens": [
+        {
+          "text": "おととし",
+          "kana": "おととし"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "肚子，肠胃",
+      "japanese": "おなか",
+      "kana": "おなか",
+      "romaji": "onaka",
+      "tokens": [
+        {
+          "text": "おなか",
+          "kana": "おなか"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "饭团",
+      "japanese": "おにぎり",
+      "kana": "おにぎり",
+      "romaji": "onigiri",
+      "tokens": [
+        {
+          "text": "おにぎり",
+          "kana": "おにぎり"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "（伯母）父母的姐姐；（叔母）父母的妹妹",
+      "japanese": "おば",
+      "kana": "おば",
+      "romaji": "oba",
+      "tokens": [
+        {
+          "text": "おば",
+          "kana": "おば"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "祖母；外婆；对年长女性的昵称",
+      "japanese": "おばあさん",
+      "kana": "おばあさん",
+      "romaji": "obaasan",
+      "tokens": [
+        {
+          "text": "おばあさん",
+          "kana": "おばあさん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "点心，糕点",
+      "japanese": "菓子",
+      "kana": "かし",
+      "romaji": "kashi",
+      "tokens": [
+        {
+          "text": "菓子",
+          "kana": "かし"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "哥哥；对年轻男子的称呼",
+      "japanese": "お兄さん",
+      "kana": "おにいさん",
+      "romaji": "oniisan",
+      "tokens": [
+        {
+          "text": "お兄さん",
+          "kana": "おにいさん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "姐姐；对年轻女子的称呼",
+      "japanese": "お姉さん",
+      "kana": "おねえさん",
+      "romaji": "oneesan",
+      "tokens": [
+        {
+          "text": "お姉さん",
+          "kana": "おねえさん"
+        }
+      ]
+    }
+  ]
+}

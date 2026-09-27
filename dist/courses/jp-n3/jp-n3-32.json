@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-32",
+  "coursePackId": "jp-n3",
+  "title": "名词 32",
+  "order": 32,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "显露，体现",
+      "japanese": "現れ",
+      "kana": "あらわれ",
+      "romaji": "araware",
+      "tokens": [
+        {
+          "text": "現れ",
+          "kana": "あらわれ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "外语；语言学",
+      "japanese": "語学",
+      "kana": "ごがく",
+      "romaji": "gogaku",
+      "tokens": [
+        {
+          "text": "語学",
+          "kana": "ごがく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "设法；动脑筋",
+      "japanese": "工夫",
+      "kana": "くふう",
+      "romaji": "kufuu",
+      "tokens": [
+        {
+          "text": "工夫",
+          "kana": "くふう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "校园，操场",
+      "japanese": "校庭",
+      "kana": "こうてい",
+      "romaji": "koutei",
+      "tokens": [
+        {
+          "text": "校庭",
+          "kana": "こうてい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "演讲，演说",
+      "japanese": "講演",
+      "kana": "こうえん",
+      "romaji": "kouen",
+      "tokens": [
+        {
+          "text": "講演",
+          "kana": "こうえん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "拥挤，杂乱",
+      "japanese": "混雑",
+      "kana": "こんざつ",
+      "romaji": "konzatsu",
+      "tokens": [
+        {
+          "text": "混雑",
+          "kana": "こんざつ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "农作物，庄稼",
+      "japanese": "作物",
+      "kana": "さくもつ",
+      "romaji": "sakumotsu",
+      "tokens": [
+        {
+          "text": "作物",
+          "kana": "さくもつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "纸币，钞票",
+      "japanese": "札",
+      "kana": "さつ",
+      "romaji": "satsu",
+      "tokens": [
+        {
+          "text": "札",
+          "kana": "さつ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "姿势；态度，姿态",
+      "japanese": "姿勢",
+      "kana": "しせい",
+      "romaji": "shisei",
+      "tokens": [
+        {
+          "text": "姿勢",
+          "kana": "しせい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "支付，付款",
+      "japanese": "支払い",
+      "kana": "しはらい",
+      "romaji": "shiharai",
+      "tokens": [
+        {
+          "text": "支払い",
+          "kana": "しはらい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "中心思想，要点，大意；以……为宗旨",
+      "japanese": "旨",
+      "kana": "むね",
+      "romaji": "mune",
+      "tokens": [
+        {
+          "text": "旨",
+          "kana": "むね"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "顺序；情况，缘由",
+      "japanese": "次第",
+      "kana": "しだい",
+      "romaji": "shidai",
+      "tokens": [
+        {
+          "text": "次第",
+          "kana": "しだい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "私宅，自己的房子",
+      "japanese": "自宅",
+      "kana": "じたく",
+      "romaji": "jitaku",
+      "tokens": [
+        {
+          "text": "自宅",
+          "kana": "じたく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "湿气，潮气",
+      "japanese": "湿気",
+      "kana": "しっけ",
+      "romaji": "shikke",
+      "tokens": [
+        {
+          "text": "湿気",
+          "kana": "しっけ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "实物",
+      "japanese": "実物",
+      "kana": "じつぶつ",
+      "romaji": "jitsubutsu",
+      "tokens": [
+        {
+          "text": "実物",
+          "kana": "じつぶつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "倾斜，歪；心情差",
+      "japanese": "斜め",
+      "kana": "ななめ",
+      "romaji": "naname",
+      "tokens": [
+        {
+          "text": "斜め",
+          "kana": "ななめ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "车道",
+      "japanese": "車道",
+      "kana": "しゃどう",
+      "romaji": "shadou",
+      "tokens": [
+        {
+          "text": "車道",
+          "kana": "しゃどう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "把手",
+      "japanese": "取っ手",
+      "kana": "とって",
+      "romaji": "totte",
+      "tokens": [
+        {
+          "text": "取っ手",
+          "kana": "とって"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "汁液，浆；（味噌）汤",
+      "japanese": "汁",
+      "kana": "しる",
+      "romaji": "shiru",
+      "tokens": [
+        {
+          "text": "汁",
+          "kana": "しる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "赢，胜利",
+      "japanese": "勝ち",
+      "kana": "かち",
+      "romaji": "kachi",
+      "tokens": [
+        {
+          "text": "勝ち",
+          "kana": "かち"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "少数，数量少",
+      "japanese": "少数",
+      "kana": "しょうすう",
+      "romaji": "shousuu",
+      "tokens": [
+        {
+          "text": "少数",
+          "kana": "しょうすう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "上下；上下级",
+      "japanese": "上下",
+      "kana": "じょうげ",
+      "romaji": "jouge",
+      "tokens": [
+        {
+          "text": "上下",
+          "kana": "じょうげ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "城郭，城堡",
+      "japanese": "城",
+      "kana": "しろ",
+      "romaji": "shiro",
+      "tokens": [
+        {
+          "text": "城",
+          "kana": "しろ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "工匠，手工艺人",
+      "japanese": "職人",
+      "kana": "しょくにん",
+      "romaji": "shokunin",
+      "tokens": [
+        {
+          "text": "職人",
+          "kana": "しょくにん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "申辩，辩解",
+      "japanese": "申し訳",
+      "kana": "もうしわけ",
+      "romaji": "moushiwake",
+      "tokens": [
+        {
+          "text": "申し訳",
+          "kana": "もうしわけ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "申请",
+      "japanese": "申請",
+      "kana": "しんせい",
+      "romaji": "shinsei",
+      "tokens": [
+        {
+          "text": "申請",
+          "kana": "しんせい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "芯；核心，中心",
+      "japanese": "芯",
+      "kana": "しん",
+      "romaji": "shin",
+      "tokens": [
+        {
+          "text": "芯",
+          "kana": "しん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "图书，书籍",
+      "japanese": "図書",
+      "kana": "としょ",
+      "romaji": "tosho",
+      "tokens": [
+        {
+          "text": "図書",
+          "kana": "としょ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "水筒，水壶",
+      "japanese": "水筒",
+      "kana": "すいとう",
+      "romaji": "suitou",
+      "tokens": [
+        {
+          "text": "水筒",
+          "kana": "すいとう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "世纪",
+      "japanese": "世紀",
+      "kana": "せいき",
+      "romaji": "seiki",
+      "tokens": [
+        {
+          "text": "世紀",
+          "kana": "せいき"
+        }
+      ]
+    }
+  ]
+}

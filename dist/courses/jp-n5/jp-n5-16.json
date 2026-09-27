@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-16",
+  "coursePackId": "jp-n5",
+  "title": "名词 16",
+  "order": 16,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "比萨",
+      "japanese": "ピザ",
+      "kana": "ぴざ",
+      "romaji": "piza",
+      "tokens": [
+        {
+          "text": "ピザ",
+          "kana": "ぴざ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "丝带，发带",
+      "japanese": "リボン",
+      "kana": "りぼん",
+      "romaji": "ribon",
+      "tokens": [
+        {
+          "text": "リボン",
+          "kana": "りぼん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "蔬菜水果店",
+      "japanese": "八百屋",
+      "kana": "やおや",
+      "romaji": "yaoya",
+      "tokens": [
+        {
+          "text": "八百屋",
+          "kana": "やおや"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "星期",
+      "japanese": "曜日",
+      "kana": "ようび",
+      "romaji": "youbi",
+      "tokens": [
+        {
+          "text": "曜日",
+          "kana": "ようび"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "……口；股，份",
+      "japanese": "〜口",
+      "kana": "〜口",
+      "romaji": "~口",
+      "tokens": [
+        {
+          "text": "〜口",
+          "kana": "〜口"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "……心",
+      "japanese": "心",
+      "kana": "しん",
+      "romaji": "shin",
+      "tokens": [
+        {
+          "text": "心",
+          "kana": "しん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "动作所及的对象或地点",
+      "japanese": "先",
+      "kana": "さき",
+      "romaji": "saki",
+      "tokens": [
+        {
+          "text": "先",
+          "kana": "さき"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "还有，另外",
+      "japanese": "あと",
+      "kana": "あと",
+      "romaji": "ato",
+      "tokens": [
+        {
+          "text": "あと",
+          "kana": "あと"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "您孩子，令郎，令爱",
+      "japanese": "お子さん",
+      "kana": "おこさん",
+      "romaji": "okosan",
+      "tokens": [
+        {
+          "text": "お子さん",
+          "kana": "おこさん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "中午；午饭",
+      "japanese": "お昼",
+      "kana": "おひる",
+      "romaji": "ohiru",
+      "tokens": [
+        {
+          "text": "お昼",
+          "kana": "おひる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "右手；右侧",
+      "japanese": "右手",
+      "kana": "みぎて",
+      "romaji": "migite",
+      "tokens": [
+        {
+          "text": "右手",
+          "kana": "みぎて"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "右边，右侧",
+      "japanese": "右側",
+      "kana": "みぎがわ",
+      "romaji": "migigawa",
+      "tokens": [
+        {
+          "text": "右側",
+          "kana": "みぎがわ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "牛",
+      "japanese": "牛",
+      "kana": "うし",
+      "romaji": "ushi",
+      "tokens": [
+        {
+          "text": "牛",
+          "kana": "うし"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "左边，左侧",
+      "japanese": "左側",
+      "kana": "ひだりがわ",
+      "romaji": "hidarigawa",
+      "tokens": [
+        {
+          "text": "左側",
+          "kana": "ひだりがわ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "周，星期",
+      "japanese": "週間",
+      "kana": "しゅうかん",
+      "romaji": "shuukan",
+      "tokens": [
+        {
+          "text": "週間",
+          "kana": "しゅうかん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "其他；别处",
+      "japanese": "ほか",
+      "kana": "ほか",
+      "romaji": "hoka",
+      "tokens": [
+        {
+          "text": "ほか",
+          "kana": "ほか"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "朝南一侧",
+      "japanese": "南側",
+      "kana": "みなみがわ",
+      "romaji": "minamigawa",
+      "tokens": [
+        {
+          "text": "南側",
+          "kana": "みなみがわ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "携带，随身带着；（「携帯電話」の略）手机",
+      "japanese": "携帯",
+      "kana": "けいたい",
+      "romaji": "keitai",
+      "tokens": [
+        {
+          "text": "携帯",
+          "kana": "けいたい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "借款，欠债，赊账；欠人情",
+      "japanese": "借り",
+      "kana": "かり",
+      "romaji": "kari",
+      "tokens": [
+        {
+          "text": "借り",
+          "kana": "かり"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "一；第一；最初；全部",
+      "japanese": "一",
+      "kana": "いち",
+      "romaji": "ichi",
+      "tokens": [
+        {
+          "text": "一",
+          "kana": "いち"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "九",
+      "japanese": "九",
+      "kana": "きゅう",
+      "romaji": "kyuu",
+      "tokens": [
+        {
+          "text": "九",
+          "kana": "きゅう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "五",
+      "japanese": "五",
+      "kana": "ご",
+      "romaji": "go",
+      "tokens": [
+        {
+          "text": "五",
+          "kana": "ご"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "三",
+      "japanese": "三",
+      "kana": "さん",
+      "romaji": "san",
+      "tokens": [
+        {
+          "text": "三",
+          "kana": "さん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "四",
+      "japanese": "四",
+      "kana": "よん",
+      "romaji": "yon",
+      "tokens": [
+        {
+          "text": "四",
+          "kana": "よん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "七",
+      "japanese": "七",
+      "kana": "なな",
+      "romaji": "nana",
+      "tokens": [
+        {
+          "text": "七",
+          "kana": "なな"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "十",
+      "japanese": "十",
+      "kana": "じゅう",
+      "romaji": "juu",
+      "tokens": [
+        {
+          "text": "十",
+          "kana": "じゅう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "二",
+      "japanese": "二",
+      "kana": "に",
+      "romaji": "ni",
+      "tokens": [
+        {
+          "text": "二",
+          "kana": "に"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "婶婶，阿姨；对其他成年女性的昵称",
+      "japanese": "おばさん",
+      "kana": "おばさん",
+      "romaji": "obasan",
+      "tokens": [
+        {
+          "text": "おばさん",
+          "kana": "おばさん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "八",
+      "japanese": "八",
+      "kana": "はち",
+      "romaji": "hachi",
+      "tokens": [
+        {
+          "text": "八",
+          "kana": "はち"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "六",
+      "japanese": "六",
+      "kana": "ろく",
+      "romaji": "roku",
+      "tokens": [
+        {
+          "text": "六",
+          "kana": "ろく"
+        }
+      ]
+    }
+  ]
+}

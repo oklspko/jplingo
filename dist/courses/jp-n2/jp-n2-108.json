@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-108",
+  "coursePackId": "jp-n2",
+  "title": "其他 2",
+  "order": 108,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "［副］粒状物不断落下；［ナ形］破烂不堪",
+      "japanese": "ぼろぼろ",
+      "kana": "ぼろぼろ",
+      "romaji": "boroboro",
+      "tokens": [
+        {
+          "text": "ぼろぼろ",
+          "kana": "ぼろぼろ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "仅仅，只是",
+      "japanese": "単なる",
+      "kana": "たんなる",
+      "romaji": "tannaru",
+      "tokens": [
+        {
+          "text": "単なる",
+          "kana": "たんなる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "（接在名词后）全是……，清一色",
+      "japanese": "〜ぞろい",
+      "kana": "〜ぞろい",
+      "romaji": "~zoroi",
+      "tokens": [
+        {
+          "text": "〜ぞろい",
+          "kana": "〜ぞろい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "刚刚……完",
+      "japanese": "〜たて",
+      "kana": "〜たて",
+      "romaji": "~tate",
+      "tokens": [
+        {
+          "text": "〜たて",
+          "kana": "〜たて"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "全是……，满是……",
+      "japanese": "〜だらけ",
+      "kana": "〜だらけ",
+      "romaji": "~darake",
+      "tokens": [
+        {
+          "text": "〜だらけ",
+          "kana": "〜だらけ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "靠近……，偏向……",
+      "japanese": "寄り",
+      "kana": "より",
+      "romaji": "yori",
+      "tokens": [
+        {
+          "text": "寄り",
+          "kana": "より"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "有点……",
+      "japanese": "〜気味",
+      "kana": "〜気味",
+      "romaji": "~気味",
+      "tokens": [
+        {
+          "text": "〜気味",
+          "kana": "〜気味"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "……用法，……运用",
+      "japanese": "〜遣い",
+      "kana": "〜遣い",
+      "romaji": "~遣i",
+      "tokens": [
+        {
+          "text": "〜遣い",
+          "kana": "〜遣い"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "……节",
+      "japanese": "〜祭",
+      "kana": "〜祭",
+      "romaji": "~祭",
+      "tokens": [
+        {
+          "text": "〜祭",
+          "kana": "〜祭"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "不足……一点；弱，弱档",
+      "japanese": "弱",
+      "kana": "じゃく",
+      "romaji": "jaku",
+      "tokens": [
+        {
+          "text": "弱",
+          "kana": "じゃく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "颜色；样子",
+      "japanese": "色",
+      "kana": "しょく",
+      "romaji": "shoku",
+      "tokens": [
+        {
+          "text": "色",
+          "kana": "しょく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "……的样子；时隔……",
+      "japanese": "〜ぶり",
+      "kana": "〜ぶり",
+      "romaji": "~buri",
+      "tokens": [
+        {
+          "text": "〜ぶり",
+          "kana": "〜ぶり"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "……份",
+      "japanese": "〜前",
+      "kana": "〜前",
+      "romaji": "~前",
+      "tokens": [
+        {
+          "text": "〜前",
+          "kana": "〜前"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "……区域，……段",
+      "japanese": "帯",
+      "kana": "たい",
+      "romaji": "tai",
+      "tokens": [
+        {
+          "text": "帯",
+          "kana": "たい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（「…は知らず」の形で）不在乎……，对……毫无感觉",
+      "japanese": "知らず",
+      "kana": "しらず",
+      "romaji": "shirazu",
+      "tokens": [
+        {
+          "text": "知らず",
+          "kana": "しらず"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "……套、件；到达……",
+      "japanese": "着",
+      "kana": "ちゃく",
+      "romaji": "chaku",
+      "tokens": [
+        {
+          "text": "着",
+          "kana": "ちゃく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "难以……，不容易……",
+      "japanese": "〜がたい",
+      "kana": "〜がたい",
+      "romaji": "~gatai",
+      "tokens": [
+        {
+          "text": "〜がたい",
+          "kana": "〜がたい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "防……，遮……",
+      "japanese": "〜避け",
+      "kana": "〜避け",
+      "romaji": "~避ke",
+      "tokens": [
+        {
+          "text": "〜避け",
+          "kana": "〜避け"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "……状态，……样子",
+      "japanese": "〜風",
+      "kana": "〜風",
+      "romaji": "~風",
+      "tokens": [
+        {
+          "text": "〜風",
+          "kana": "〜風"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "离开……，脱离……",
+      "japanese": "〜離れ",
+      "kana": "〜離れ",
+      "romaji": "~離re",
+      "tokens": [
+        {
+          "text": "〜離れ",
+          "kana": "〜離れ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "带领……，与……结伴",
+      "japanese": "〜連れ",
+      "kana": "〜連れ",
+      "romaji": "~連re",
+      "tokens": [
+        {
+          "text": "〜連れ",
+          "kana": "〜連れ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "沙沙作响；干巴巴",
+      "japanese": "かさかさ",
+      "kana": "かさかさ",
+      "romaji": "kasakasa",
+      "tokens": [
+        {
+          "text": "かさかさ",
+          "kana": "かさかさ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "尽管……，但是……",
+      "japanese": "にもかかわらず",
+      "kana": "にもかかわらず",
+      "romaji": "nimokakawarazu",
+      "tokens": [
+        {
+          "text": "にもかかわらず",
+          "kana": "にもかかわらず"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "积极地处理事物的样子；坚硬的东西被撕裂，剥落或是咬碎时的声音和样子；东西变得僵硬的样子；气势十足且充满活力的样子",
+      "japanese": "ばりばり",
+      "kana": "ばりばり",
+      "romaji": "baribari",
+      "tokens": [
+        {
+          "text": "ばりばり",
+          "kana": "ばりばり"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "没办法，不得已",
+      "japanese": "やむを得ない",
+      "kana": "やむをえない",
+      "romaji": "yamuwoenai",
+      "tokens": [
+        {
+          "text": "やむを得ない",
+          "kana": "やむをえない"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "以及",
+      "japanese": "および",
+      "kana": "および",
+      "romaji": "oyobi",
+      "tokens": [
+        {
+          "text": "および",
+          "kana": "および"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（姑且不论将来如何）目前，现阶段",
+      "japanese": "今のところ",
+      "kana": "いまのところ",
+      "romaji": "imanotokoro",
+      "tokens": [
+        {
+          "text": "今のところ",
+          "kana": "いまのところ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "准……，次于……",
+      "japanese": "準〜",
+      "kana": "準〜",
+      "romaji": "準~",
+      "tokens": [
+        {
+          "text": "準〜",
+          "kana": "準〜"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "诸……，各种……",
+      "japanese": "諸〜",
+      "kana": "諸〜",
+      "romaji": "諸~",
+      "tokens": [
+        {
+          "text": "諸〜",
+          "kana": "諸〜"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "纯；真；正",
+      "japanese": "真〜",
+      "kana": "真〜",
+      "romaji": "真~",
+      "tokens": [
+        {
+          "text": "真〜",
+          "kana": "真〜"
+        }
+      ]
+    }
+  ]
+}

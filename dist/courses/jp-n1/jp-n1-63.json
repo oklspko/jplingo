@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-63",
+  "coursePackId": "jp-n1",
+  "title": "名词 63",
+  "order": 63,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "药，药剂",
+      "japanese": "薬剤",
+      "kana": "やくざい",
+      "romaji": "yakuzai",
+      "tokens": [
+        {
+          "text": "薬剤",
+          "kana": "やくざい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "水田和旱田，田地",
+      "japanese": "田畑",
+      "kana": "たはた",
+      "romaji": "tahata",
+      "tokens": [
+        {
+          "text": "田畑",
+          "kana": "たはた"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "威严",
+      "japanese": "威厳",
+      "kana": "いげん",
+      "romaji": "igen",
+      "tokens": [
+        {
+          "text": "威厳",
+          "kana": "いげん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "画家",
+      "japanese": "絵描き",
+      "kana": "えかき",
+      "romaji": "ekaki",
+      "tokens": [
+        {
+          "text": "絵描き",
+          "kana": "えかき"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "潮流，倾向，时势",
+      "japanese": "風潮",
+      "kana": "ふうちょう",
+      "romaji": "fuuchou",
+      "tokens": [
+        {
+          "text": "風潮",
+          "kana": "ふうちょう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "身高；衣长",
+      "japanese": "背丈",
+      "kana": "せたけ",
+      "romaji": "setake",
+      "tokens": [
+        {
+          "text": "背丈",
+          "kana": "せたけ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "岔道；繁华街；场所；社会",
+      "japanese": "巷[ちまた]",
+      "kana": "ちまた",
+      "romaji": "chimata",
+      "tokens": [
+        {
+          "text": "巷[ちまた]",
+          "kana": "ちまた"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "杂事，琐事",
+      "japanese": "雑用",
+      "kana": "ざつよう",
+      "romaji": "zatsuyou",
+      "tokens": [
+        {
+          "text": "雑用",
+          "kana": "ざつよう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "类人猿",
+      "japanese": "類人猿",
+      "kana": "るいじんえん",
+      "romaji": "ruijin'en",
+      "tokens": [
+        {
+          "text": "類人猿",
+          "kana": "るいじんえん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "彗星",
+      "japanese": "彗[すい]星",
+      "kana": "すいせい",
+      "romaji": "suisei",
+      "tokens": [
+        {
+          "text": "彗[すい]星",
+          "kana": "すいせい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "成立的经过；构成",
+      "japanese": "成り立ち",
+      "kana": "なりたち",
+      "romaji": "naritachi",
+      "tokens": [
+        {
+          "text": "成り立ち",
+          "kana": "なりたち"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "并着脚跳；快跑；越级",
+      "japanese": "一足飛び",
+      "kana": "いっそくとび",
+      "romaji": "issokutobi",
+      "tokens": [
+        {
+          "text": "一足飛び",
+          "kana": "いっそくとび"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "办事；上厕所",
+      "japanese": "用足し",
+      "kana": "ようたし",
+      "romaji": "youtashi",
+      "tokens": [
+        {
+          "text": "用足し",
+          "kana": "ようたし"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "社会风俗，一般风习；世间，社会",
+      "japanese": "世俗",
+      "kana": "せぞく",
+      "romaji": "sezoku",
+      "tokens": [
+        {
+          "text": "世俗",
+          "kana": "せぞく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "人品，体面，身价，尊严",
+      "japanese": "沽[こ]券",
+      "kana": "こけん",
+      "romaji": "koken",
+      "tokens": [
+        {
+          "text": "沽[こ]券",
+          "kana": "こけん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "豪杰，好汉",
+      "japanese": "豪傑",
+      "kana": "ごうけつ",
+      "romaji": "gouketsu",
+      "tokens": [
+        {
+          "text": "豪傑",
+          "kana": "ごうけつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "人为，人工",
+      "japanese": "人為",
+      "kana": "じんい",
+      "romaji": "jin'i",
+      "tokens": [
+        {
+          "text": "人為",
+          "kana": "じんい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "漆树；（从漆树树液提取的天然涂料）漆",
+      "japanese": "漆",
+      "kana": "うるし",
+      "romaji": "urushi",
+      "tokens": [
+        {
+          "text": "漆",
+          "kana": "うるし"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "西方式建筑",
+      "japanese": "洋館",
+      "kana": "ようかん",
+      "romaji": "youkan",
+      "tokens": [
+        {
+          "text": "洋館",
+          "kana": "ようかん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "劳苦，辛苦",
+      "japanese": "労苦",
+      "kana": "ろうく",
+      "romaji": "rouku",
+      "tokens": [
+        {
+          "text": "労苦",
+          "kana": "ろうく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "领土，领地；范围，领域",
+      "japanese": "領分",
+      "kana": "りょうぶん",
+      "romaji": "ryoubun",
+      "tokens": [
+        {
+          "text": "領分",
+          "kana": "りょうぶん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "喂养（野生动物，使之驯服）",
+      "japanese": "餌付け",
+      "kana": "えづけ",
+      "romaji": "ezuke",
+      "tokens": [
+        {
+          "text": "餌付け",
+          "kana": "えづけ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "说的话只有一半可信",
+      "japanese": "話半分",
+      "kana": "はなしはんぶん",
+      "romaji": "hanashihanbun",
+      "tokens": [
+        {
+          "text": "話半分",
+          "kana": "はなしはんぶん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "倚靠，投靠（之处）",
+      "japanese": "寄る辺",
+      "kana": "よるべ",
+      "romaji": "yorube",
+      "tokens": [
+        {
+          "text": "寄る辺",
+          "kana": "よるべ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "源泉，根源，本源",
+      "japanese": "源泉",
+      "kana": "げんせん",
+      "romaji": "gensen",
+      "tokens": [
+        {
+          "text": "源泉",
+          "kana": "げんせん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "自相矛盾",
+      "japanese": "自家 撞[どう]着",
+      "kana": "じかどうちゃく",
+      "romaji": "jikadouchaku",
+      "tokens": [
+        {
+          "text": "自家 撞[どう]着",
+          "kana": "じかどうちゃく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "沉默，默不作声，缄默",
+      "japanese": "暗黙",
+      "kana": "あんもく",
+      "romaji": "anmoku",
+      "tokens": [
+        {
+          "text": "暗黙",
+          "kana": "あんもく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "本质，精华，真髓；精，香精",
+      "japanese": "エッセンス",
+      "kana": "えっせんす",
+      "romaji": "essensu",
+      "tokens": [
+        {
+          "text": "エッセンス",
+          "kana": "えっせんす"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "高光；最精彩的场面",
+      "japanese": "ハイライト",
+      "kana": "はいらいと",
+      "romaji": "hairaito",
+      "tokens": [
+        {
+          "text": "ハイライト",
+          "kana": "はいらいと"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "耳目，视听，见闻",
+      "japanese": "耳目",
+      "kana": "じもく",
+      "romaji": "jimoku",
+      "tokens": [
+        {
+          "text": "耳目",
+          "kana": "じもく"
+        }
+      ]
+    }
+  ]
+}

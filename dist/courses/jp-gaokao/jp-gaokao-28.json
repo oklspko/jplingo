@@ -1,0 +1,944 @@
+{
+  "id": "jp-gaokao-28",
+  "coursePackId": "jp-gaokao",
+  "title": "名词必考 3",
+  "order": 28,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "学校",
+      "japanese": "学校",
+      "kana": "がっこう",
+      "romaji": "gakkou",
+      "tokens": [
+        {
+          "text": "学校",
+          "kana": "がっこう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "我",
+      "japanese": "私",
+      "kana": "わたし",
+      "romaji": "watashi",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "花、花朵",
+      "japanese": "花",
+      "kana": "はな",
+      "romaji": "hana",
+      "tokens": [
+        {
+          "text": "花",
+          "kana": "はな"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "中国",
+      "japanese": "中国",
+      "kana": "ちゅうごく",
+      "romaji": "chuugoku",
+      "tokens": [
+        {
+          "text": "中国",
+          "kana": "ちゅうごく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "活动",
+      "japanese": "活動",
+      "kana": "かつどう",
+      "romaji": "katsudou",
+      "tokens": [
+        {
+          "text": "活動",
+          "kana": "かつどう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "外国",
+      "japanese": "外国",
+      "kana": "がいこく",
+      "romaji": "gaikoku",
+      "tokens": [
+        {
+          "text": "外国",
+          "kana": "がいこく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "能力",
+      "japanese": "能力",
+      "kana": "のうりょく",
+      "romaji": "nouryoku",
+      "tokens": [
+        {
+          "text": "能力",
+          "kana": "のうりょく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "父母、双亲",
+      "japanese": "親",
+      "kana": "おや",
+      "romaji": "oya",
+      "tokens": [
+        {
+          "text": "親",
+          "kana": "おや"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "理由",
+      "japanese": "理由",
+      "kana": "りゆう",
+      "romaji": "riyuu",
+      "tokens": [
+        {
+          "text": "理由",
+          "kana": "りゆう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "朋友",
+      "japanese": "友達",
+      "kana": "ともだち",
+      "romaji": "tomodachi",
+      "tokens": [
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "公司",
+      "japanese": "会社",
+      "kana": "かいしゃ",
+      "romaji": "kaisha",
+      "tokens": [
+        {
+          "text": "会社",
+          "kana": "かいしゃ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "电车",
+      "japanese": "電車",
+      "kana": "でんしゃ",
+      "romaji": "densha",
+      "tokens": [
+        {
+          "text": "電車",
+          "kana": "でんしゃ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "旅行",
+      "japanese": "旅行",
+      "kana": "りょこう",
+      "romaji": "ryokou",
+      "tokens": [
+        {
+          "text": "旅行",
+          "kana": "りょこう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "病、疾病",
+      "japanese": "病気",
+      "kana": "びょうき",
+      "romaji": "byouki",
+      "tokens": [
+        {
+          "text": "病気",
+          "kana": "びょうき"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "书",
+      "japanese": "本",
+      "kana": "ほん",
+      "romaji": "hon",
+      "tokens": [
+        {
+          "text": "本",
+          "kana": "ほん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "生活",
+      "japanese": "生活",
+      "kana": "せいかつ",
+      "romaji": "seikatsu",
+      "tokens": [
+        {
+          "text": "生活",
+          "kana": "せいかつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "内容",
+      "japanese": "内容",
+      "kana": "ないよう",
+      "romaji": "naiyou",
+      "tokens": [
+        {
+          "text": "内容",
+          "kana": "ないよう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "文章",
+      "japanese": "文章",
+      "kana": "ぶんしょう",
+      "romaji": "bunshou",
+      "tokens": [
+        {
+          "text": "文章",
+          "kana": "ぶんしょう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "饭、菜",
+      "japanese": "料理",
+      "kana": "りょうり",
+      "romaji": "ryouri",
+      "tokens": [
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "最后",
+      "japanese": "最後",
+      "kana": "さいご",
+      "romaji": "saigo",
+      "tokens": [
+        {
+          "text": "最後",
+          "kana": "さいご"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "学习",
+      "japanese": "勉強",
+      "kana": "べんきょう",
+      "romaji": "benkyou",
+      "tokens": [
+        {
+          "text": "勉強",
+          "kana": "べんきょう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "日本",
+      "japanese": "日本",
+      "kana": "にっぽん",
+      "romaji": "nippon",
+      "tokens": [
+        {
+          "text": "日本",
+          "kana": "にっぽん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "结果",
+      "japanese": "結果",
+      "kana": "けっか",
+      "romaji": "kekka",
+      "tokens": [
+        {
+          "text": "結果",
+          "kana": "けっか"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "工作",
+      "japanese": "仕事",
+      "kana": "しごと",
+      "romaji": "shigoto",
+      "tokens": [
+        {
+          "text": "仕事",
+          "kana": "しごと"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "内容",
+      "japanese": "内容",
+      "kana": "ないよう",
+      "romaji": "naiyou",
+      "tokens": [
+        {
+          "text": "内容",
+          "kana": "ないよう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "日本",
+      "japanese": "日本",
+      "kana": "にっぽん",
+      "romaji": "nippon",
+      "tokens": [
+        {
+          "text": "日本",
+          "kana": "にっぽん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "书",
+      "japanese": "本",
+      "kana": "ほん",
+      "romaji": "hon",
+      "tokens": [
+        {
+          "text": "本",
+          "kana": "ほん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "理由",
+      "japanese": "理由",
+      "kana": "りゆう",
+      "romaji": "riyuu",
+      "tokens": [
+        {
+          "text": "理由",
+          "kana": "りゆう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "病、疾病",
+      "japanese": "病気",
+      "kana": "びょうき",
+      "romaji": "byouki",
+      "tokens": [
+        {
+          "text": "病気",
+          "kana": "びょうき"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "能力",
+      "japanese": "能力",
+      "kana": "のうりょく",
+      "romaji": "nouryoku",
+      "tokens": [
+        {
+          "text": "能力",
+          "kana": "のうりょく"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "中国",
+      "japanese": "中国",
+      "kana": "ちゅうごく",
+      "romaji": "chuugoku",
+      "tokens": [
+        {
+          "text": "中国",
+          "kana": "ちゅうごく"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "外国",
+      "japanese": "外国",
+      "kana": "がいこく",
+      "romaji": "gaikoku",
+      "tokens": [
+        {
+          "text": "外国",
+          "kana": "がいこく"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "学习",
+      "japanese": "勉強",
+      "kana": "べんきょう",
+      "romaji": "benkyou",
+      "tokens": [
+        {
+          "text": "勉強",
+          "kana": "べんきょう"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "工作",
+      "japanese": "仕事",
+      "kana": "しごと",
+      "romaji": "shigoto",
+      "tokens": [
+        {
+          "text": "仕事",
+          "kana": "しごと"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "生活",
+      "japanese": "生活",
+      "kana": "せいかつ",
+      "romaji": "seikatsu",
+      "tokens": [
+        {
+          "text": "生活",
+          "kana": "せいかつ"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "学校",
+      "japanese": "学校",
+      "kana": "がっこう",
+      "romaji": "gakkou",
+      "tokens": [
+        {
+          "text": "学校",
+          "kana": "がっこう"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "饭、菜",
+      "japanese": "料理",
+      "kana": "りょうり",
+      "romaji": "ryouri",
+      "tokens": [
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "最后",
+      "japanese": "最後",
+      "kana": "さいご",
+      "romaji": "saigo",
+      "tokens": [
+        {
+          "text": "最後",
+          "kana": "さいご"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "我",
+      "japanese": "私",
+      "kana": "わたし",
+      "romaji": "watashi",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "电车",
+      "japanese": "電車",
+      "kana": "でんしゃ",
+      "romaji": "densha",
+      "tokens": [
+        {
+          "text": "電車",
+          "kana": "でんしゃ"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "旅行",
+      "japanese": "旅行",
+      "kana": "りょこう",
+      "romaji": "ryokou",
+      "tokens": [
+        {
+          "text": "旅行",
+          "kana": "りょこう"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "父母、双亲",
+      "japanese": "親",
+      "kana": "おや",
+      "romaji": "oya",
+      "tokens": [
+        {
+          "text": "親",
+          "kana": "おや"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "结果",
+      "japanese": "結果",
+      "kana": "けっか",
+      "romaji": "kekka",
+      "tokens": [
+        {
+          "text": "結果",
+          "kana": "けっか"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "花、花朵",
+      "japanese": "花",
+      "kana": "はな",
+      "romaji": "hana",
+      "tokens": [
+        {
+          "text": "花",
+          "kana": "はな"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "活动",
+      "japanese": "活動",
+      "kana": "かつどう",
+      "romaji": "katsudou",
+      "tokens": [
+        {
+          "text": "活動",
+          "kana": "かつどう"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "公司",
+      "japanese": "会社",
+      "kana": "かいしゃ",
+      "romaji": "kaisha",
+      "tokens": [
+        {
+          "text": "会社",
+          "kana": "かいしゃ"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "文章",
+      "japanese": "文章",
+      "kana": "ぶんしょう",
+      "romaji": "bunshou",
+      "tokens": [
+        {
+          "text": "文章",
+          "kana": "ぶんしょう"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "朋友",
+      "japanese": "友達",
+      "kana": "ともだち",
+      "romaji": "tomodachi",
+      "tokens": [
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "饭、菜",
+      "japanese": "料理",
+      "kana": "りょうり",
+      "romaji": "ryouri",
+      "tokens": [
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "生活",
+      "japanese": "生活",
+      "kana": "せいかつ",
+      "romaji": "seikatsu",
+      "tokens": [
+        {
+          "text": "生活",
+          "kana": "せいかつ"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "电车",
+      "japanese": "電車",
+      "kana": "でんしゃ",
+      "romaji": "densha",
+      "tokens": [
+        {
+          "text": "電車",
+          "kana": "でんしゃ"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "病、疾病",
+      "japanese": "病気",
+      "kana": "びょうき",
+      "romaji": "byouki",
+      "tokens": [
+        {
+          "text": "病気",
+          "kana": "びょうき"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "内容",
+      "japanese": "内容",
+      "kana": "ないよう",
+      "romaji": "naiyou",
+      "tokens": [
+        {
+          "text": "内容",
+          "kana": "ないよう"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "旅行",
+      "japanese": "旅行",
+      "kana": "りょこう",
+      "romaji": "ryokou",
+      "tokens": [
+        {
+          "text": "旅行",
+          "kana": "りょこう"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "最后",
+      "japanese": "最後",
+      "kana": "さいご",
+      "romaji": "saigo",
+      "tokens": [
+        {
+          "text": "最後",
+          "kana": "さいご"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "学习",
+      "japanese": "勉強",
+      "kana": "べんきょう",
+      "romaji": "benkyou",
+      "tokens": [
+        {
+          "text": "勉強",
+          "kana": "べんきょう"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "父母、双亲",
+      "japanese": "親",
+      "kana": "おや",
+      "romaji": "oya",
+      "tokens": [
+        {
+          "text": "親",
+          "kana": "おや"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "公司",
+      "japanese": "会社",
+      "kana": "かいしゃ",
+      "romaji": "kaisha",
+      "tokens": [
+        {
+          "text": "会社",
+          "kana": "かいしゃ"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "工作",
+      "japanese": "仕事",
+      "kana": "しごと",
+      "romaji": "shigoto",
+      "tokens": [
+        {
+          "text": "仕事",
+          "kana": "しごと"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "书",
+      "japanese": "本",
+      "kana": "ほん",
+      "romaji": "hon",
+      "tokens": [
+        {
+          "text": "本",
+          "kana": "ほん"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "理由",
+      "japanese": "理由",
+      "kana": "りゆう",
+      "romaji": "riyuu",
+      "tokens": [
+        {
+          "text": "理由",
+          "kana": "りゆう"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "学校",
+      "japanese": "学校",
+      "kana": "がっこう",
+      "romaji": "gakkou",
+      "tokens": [
+        {
+          "text": "学校",
+          "kana": "がっこう"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "中国",
+      "japanese": "中国",
+      "kana": "ちゅうごく",
+      "romaji": "chuugoku",
+      "tokens": [
+        {
+          "text": "中国",
+          "kana": "ちゅうごく"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "结果",
+      "japanese": "結果",
+      "kana": "けっか",
+      "romaji": "kekka",
+      "tokens": [
+        {
+          "text": "結果",
+          "kana": "けっか"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "活动",
+      "japanese": "活動",
+      "kana": "かつどう",
+      "romaji": "katsudou",
+      "tokens": [
+        {
+          "text": "活動",
+          "kana": "かつどう"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "文章",
+      "japanese": "文章",
+      "kana": "ぶんしょう",
+      "romaji": "bunshou",
+      "tokens": [
+        {
+          "text": "文章",
+          "kana": "ぶんしょう"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "日本",
+      "japanese": "日本",
+      "kana": "にっぽん",
+      "romaji": "nippon",
+      "tokens": [
+        {
+          "text": "日本",
+          "kana": "にっぽん"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "朋友",
+      "japanese": "友達",
+      "kana": "ともだち",
+      "romaji": "tomodachi",
+      "tokens": [
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "我",
+      "japanese": "私",
+      "kana": "わたし",
+      "romaji": "watashi",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "外国",
+      "japanese": "外国",
+      "kana": "がいこく",
+      "romaji": "gaikoku",
+      "tokens": [
+        {
+          "text": "外国",
+          "kana": "がいこく"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "能力",
+      "japanese": "能力",
+      "kana": "のうりょく",
+      "romaji": "nouryoku",
+      "tokens": [
+        {
+          "text": "能力",
+          "kana": "のうりょく"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "花、花朵",
+      "japanese": "花",
+      "kana": "はな",
+      "romaji": "hana",
+      "tokens": [
+        {
+          "text": "花",
+          "kana": "はな"
+        }
+      ]
+    }
+  ]
+}

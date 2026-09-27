@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-32",
+  "coursePackId": "jp-gaokao",
+  "title": "名词高频 4",
+  "order": 32,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "星期六",
+      "japanese": "土曜日",
+      "kana": "どようび",
+      "romaji": "doyoubi",
+      "tokens": [
+        {
+          "text": "土曜日",
+          "kana": "どようび"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "道路、马路",
+      "japanese": "道路",
+      "kana": "どうろ",
+      "romaji": "douro",
+      "tokens": [
+        {
+          "text": "道路",
+          "kana": "どうろ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "天气",
+      "japanese": "天気",
+      "kana": "てんき",
+      "romaji": "tenki",
+      "tokens": [
+        {
+          "text": "天気",
+          "kana": "てんき"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "肉",
+      "japanese": "肉",
+      "kana": "にく",
+      "romaji": "niku",
+      "tokens": [
+        {
+          "text": "肉",
+          "kana": "にく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "程度",
+      "japanese": "程度",
+      "kana": "ていど",
+      "romaji": "teido",
+      "tokens": [
+        {
+          "text": "程度",
+          "kana": "ていど"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "资料",
+      "japanese": "資料",
+      "kana": "しりょう",
+      "romaji": "shiryou",
+      "tokens": [
+        {
+          "text": "資料",
+          "kana": "しりょう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "想象",
+      "japanese": "想像",
+      "kana": "そうぞう",
+      "romaji": "souzou",
+      "tokens": [
+        {
+          "text": "想像",
+          "kana": "そうぞう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "调查",
+      "japanese": "調査",
+      "kana": "ちょうさ",
+      "romaji": "chousa",
+      "tokens": [
+        {
+          "text": "調査",
+          "kana": "ちょうさ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "小学",
+      "japanese": "小学校",
+      "kana": "しょうがっこう",
+      "romaji": "shougakkou",
+      "tokens": [
+        {
+          "text": "小学校",
+          "kana": "しょうがっこう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "上周",
+      "japanese": "先週",
+      "kana": "せんしゅう",
+      "romaji": "senshuu",
+      "tokens": [
+        {
+          "text": "先週",
+          "kana": "せんしゅう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "名字",
+      "japanese": "名前",
+      "kana": "なまえ",
+      "romaji": "namae",
+      "tokens": [
+        {
+          "text": "名前",
+          "kana": "なまえ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "成长",
+      "japanese": "成長",
+      "kana": "せいちょう",
+      "romaji": "seichou",
+      "tokens": [
+        {
+          "text": "成長",
+          "kana": "せいちょう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "夏天、夏季",
+      "japanese": "夏",
+      "kana": "なつ",
+      "romaji": "natsu",
+      "tokens": [
+        {
+          "text": "夏",
+          "kana": "なつ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "说明",
+      "japanese": "説明",
+      "kana": "せつめい",
+      "romaji": "setsumei",
+      "tokens": [
+        {
+          "text": "説明",
+          "kana": "せつめい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "他人，别人",
+      "japanese": "他人",
+      "kana": "たにん",
+      "romaji": "tanin",
+      "tokens": [
+        {
+          "text": "他人",
+          "kana": "たにん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "周日",
+      "japanese": "日曜日",
+      "kana": "にちようび",
+      "romaji": "nichiyoubi",
+      "tokens": [
+        {
+          "text": "日曜日",
+          "kana": "にちようび"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "图书馆",
+      "japanese": "図書館",
+      "kana": "としょかん",
+      "romaji": "toshokan",
+      "tokens": [
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "店员",
+      "japanese": "店員",
+      "kana": "てんいん",
+      "romaji": "tenin",
+      "tokens": [
+        {
+          "text": "店員",
+          "kana": "てんいん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "小学生",
+      "japanese": "小学生",
+      "kana": "しょうがくせい",
+      "romaji": "shougakusei",
+      "tokens": [
+        {
+          "text": "小学生",
+          "kana": "しょうがくせい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "对象",
+      "japanese": "対象",
+      "kana": "たいしょう",
+      "romaji": "taishou",
+      "tokens": [
+        {
+          "text": "対象",
+          "kana": "たいしょう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "出发",
+      "japanese": "出発",
+      "kana": "しゅっぱつ",
+      "romaji": "shuppatsu",
+      "tokens": [
+        {
+          "text": "出発",
+          "kana": "しゅっぱつ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "日常",
+      "japanese": "日常",
+      "kana": "にちじょう",
+      "romaji": "nichijou",
+      "tokens": [
+        {
+          "text": "日常",
+          "kana": "にちじょう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "注意",
+      "japanese": "注意",
+      "kana": "ちゅうい",
+      "romaji": "chuui",
+      "tokens": [
+        {
+          "text": "注意",
+          "kana": "ちゅうい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "动物",
+      "japanese": "動物",
+      "kana": "どうぶつ",
+      "romaji": "doubutsu",
+      "tokens": [
+        {
+          "text": "動物",
+          "kana": "どうぶつ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "窗户",
+      "japanese": "窓",
+      "kana": "まど",
+      "romaji": "mado",
+      "tokens": [
+        {
+          "text": "窓",
+          "kana": "まど"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "食物",
+      "japanese": "食べ物",
+      "kana": "たべもの",
+      "romaji": "tabemono",
+      "tokens": [
+        {
+          "text": "食べ物",
+          "kana": "たべもの"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "努力",
+      "japanese": "努力",
+      "kana": "どりょく",
+      "romaji": "doryoku",
+      "tokens": [
+        {
+          "text": "努力",
+          "kana": "どりょく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "世界",
+      "japanese": "世界",
+      "kana": "せかい",
+      "romaji": "sekai",
+      "tokens": [
+        {
+          "text": "世界",
+          "kana": "せかい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "前辈、学长、学姐",
+      "japanese": "先輩",
+      "kana": "せんぱい",
+      "romaji": "senpai",
+      "tokens": [
+        {
+          "text": "先輩",
+          "kana": "せんぱい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "成功",
+      "japanese": "成功",
+      "kana": "せいこう",
+      "romaji": "seikou",
+      "tokens": [
+        {
+          "text": "成功",
+          "kana": "せいこう"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "说明",
+      "japanese": "説明",
+      "kana": "せつめい",
+      "romaji": "setsumei",
+      "tokens": [
+        {
+          "text": "説明",
+          "kana": "せつめい"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "上周",
+      "japanese": "先週",
+      "kana": "せんしゅう",
+      "romaji": "senshuu",
+      "tokens": [
+        {
+          "text": "先週",
+          "kana": "せんしゅう"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "天气",
+      "japanese": "天気",
+      "kana": "てんき",
+      "romaji": "tenki",
+      "tokens": [
+        {
+          "text": "天気",
+          "kana": "てんき"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "成长",
+      "japanese": "成長",
+      "kana": "せいちょう",
+      "romaji": "seichou",
+      "tokens": [
+        {
+          "text": "成長",
+          "kana": "せいちょう"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "小学生",
+      "japanese": "小学生",
+      "kana": "しょうがくせい",
+      "romaji": "shougakusei",
+      "tokens": [
+        {
+          "text": "小学生",
+          "kana": "しょうがくせい"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "图书馆",
+      "japanese": "図書館",
+      "kana": "としょかん",
+      "romaji": "toshokan",
+      "tokens": [
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "调查",
+      "japanese": "調査",
+      "kana": "ちょうさ",
+      "romaji": "chousa",
+      "tokens": [
+        {
+          "text": "調査",
+          "kana": "ちょうさ"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "想象",
+      "japanese": "想像",
+      "kana": "そうぞう",
+      "romaji": "souzou",
+      "tokens": [
+        {
+          "text": "想像",
+          "kana": "そうぞう"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "食物",
+      "japanese": "食べ物",
+      "kana": "たべもの",
+      "romaji": "tabemono",
+      "tokens": [
+        {
+          "text": "食べ物",
+          "kana": "たべもの"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "小学",
+      "japanese": "小学校",
+      "kana": "しょうがっこう",
+      "romaji": "shougakkou",
+      "tokens": [
+        {
+          "text": "小学校",
+          "kana": "しょうがっこう"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "世界",
+      "japanese": "世界",
+      "kana": "せかい",
+      "romaji": "sekai",
+      "tokens": [
+        {
+          "text": "世界",
+          "kana": "せかい"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "对象",
+      "japanese": "対象",
+      "kana": "たいしょう",
+      "romaji": "taishou",
+      "tokens": [
+        {
+          "text": "対象",
+          "kana": "たいしょう"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "周日",
+      "japanese": "日曜日",
+      "kana": "にちようび",
+      "romaji": "nichiyoubi",
+      "tokens": [
+        {
+          "text": "日曜日",
+          "kana": "にちようび"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "出发",
+      "japanese": "出発",
+      "kana": "しゅっぱつ",
+      "romaji": "shuppatsu",
+      "tokens": [
+        {
+          "text": "出発",
+          "kana": "しゅっぱつ"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "夏天、夏季",
+      "japanese": "夏",
+      "kana": "なつ",
+      "romaji": "natsu",
+      "tokens": [
+        {
+          "text": "夏",
+          "kana": "なつ"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "程度",
+      "japanese": "程度",
+      "kana": "ていど",
+      "romaji": "teido",
+      "tokens": [
+        {
+          "text": "程度",
+          "kana": "ていど"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "努力",
+      "japanese": "努力",
+      "kana": "どりょく",
+      "romaji": "doryoku",
+      "tokens": [
+        {
+          "text": "努力",
+          "kana": "どりょく"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "成功",
+      "japanese": "成功",
+      "kana": "せいこう",
+      "romaji": "seikou",
+      "tokens": [
+        {
+          "text": "成功",
+          "kana": "せいこう"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "窗户",
+      "japanese": "窓",
+      "kana": "まど",
+      "romaji": "mado",
+      "tokens": [
+        {
+          "text": "窓",
+          "kana": "まど"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "店员",
+      "japanese": "店員",
+      "kana": "てんいん",
+      "romaji": "tenin",
+      "tokens": [
+        {
+          "text": "店員",
+          "kana": "てんいん"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "日常",
+      "japanese": "日常",
+      "kana": "にちじょう",
+      "romaji": "nichijou",
+      "tokens": [
+        {
+          "text": "日常",
+          "kana": "にちじょう"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "他人，别人",
+      "japanese": "他人",
+      "kana": "たにん",
+      "romaji": "tanin",
+      "tokens": [
+        {
+          "text": "他人",
+          "kana": "たにん"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "前辈、学长、学姐",
+      "japanese": "先輩",
+      "kana": "せんぱい",
+      "romaji": "senpai",
+      "tokens": [
+        {
+          "text": "先輩",
+          "kana": "せんぱい"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "资料",
+      "japanese": "資料",
+      "kana": "しりょう",
+      "romaji": "shiryou",
+      "tokens": [
+        {
+          "text": "資料",
+          "kana": "しりょう"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "道路、马路",
+      "japanese": "道路",
+      "kana": "どうろ",
+      "romaji": "douro",
+      "tokens": [
+        {
+          "text": "道路",
+          "kana": "どうろ"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "星期六",
+      "japanese": "土曜日",
+      "kana": "どようび",
+      "romaji": "doyoubi",
+      "tokens": [
+        {
+          "text": "土曜日",
+          "kana": "どようび"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "肉",
+      "japanese": "肉",
+      "kana": "にく",
+      "romaji": "niku",
+      "tokens": [
+        {
+          "text": "肉",
+          "kana": "にく"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "名字",
+      "japanese": "名前",
+      "kana": "なまえ",
+      "romaji": "namae",
+      "tokens": [
+        {
+          "text": "名前",
+          "kana": "なまえ"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "注意",
+      "japanese": "注意",
+      "kana": "ちゅうい",
+      "romaji": "chuui",
+      "tokens": [
+        {
+          "text": "注意",
+          "kana": "ちゅうい"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "动物",
+      "japanese": "動物",
+      "kana": "どうぶつ",
+      "romaji": "doubutsu",
+      "tokens": [
+        {
+          "text": "動物",
+          "kana": "どうぶつ"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "日常",
+      "japanese": "日常",
+      "kana": "にちじょう",
+      "romaji": "nichijou",
+      "tokens": [
+        {
+          "text": "日常",
+          "kana": "にちじょう"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "努力",
+      "japanese": "努力",
+      "kana": "どりょく",
+      "romaji": "doryoku",
+      "tokens": [
+        {
+          "text": "努力",
+          "kana": "どりょく"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "世界",
+      "japanese": "世界",
+      "kana": "せかい",
+      "romaji": "sekai",
+      "tokens": [
+        {
+          "text": "世界",
+          "kana": "せかい"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "上周",
+      "japanese": "先週",
+      "kana": "せんしゅう",
+      "romaji": "senshuu",
+      "tokens": [
+        {
+          "text": "先週",
+          "kana": "せんしゅう"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "资料",
+      "japanese": "資料",
+      "kana": "しりょう",
+      "romaji": "shiryou",
+      "tokens": [
+        {
+          "text": "資料",
+          "kana": "しりょう"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "出发",
+      "japanese": "出発",
+      "kana": "しゅっぱつ",
+      "romaji": "shuppatsu",
+      "tokens": [
+        {
+          "text": "出発",
+          "kana": "しゅっぱつ"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "注意",
+      "japanese": "注意",
+      "kana": "ちゅうい",
+      "romaji": "chuui",
+      "tokens": [
+        {
+          "text": "注意",
+          "kana": "ちゅうい"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "食物",
+      "japanese": "食べ物",
+      "kana": "たべもの",
+      "romaji": "tabemono",
+      "tokens": [
+        {
+          "text": "食べ物",
+          "kana": "たべもの"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "程度",
+      "japanese": "程度",
+      "kana": "ていど",
+      "romaji": "teido",
+      "tokens": [
+        {
+          "text": "程度",
+          "kana": "ていど"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "想象",
+      "japanese": "想像",
+      "kana": "そうぞう",
+      "romaji": "souzou",
+      "tokens": [
+        {
+          "text": "想像",
+          "kana": "そうぞう"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "星期六",
+      "japanese": "土曜日",
+      "kana": "どようび",
+      "romaji": "doyoubi",
+      "tokens": [
+        {
+          "text": "土曜日",
+          "kana": "どようび"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "成功",
+      "japanese": "成功",
+      "kana": "せいこう",
+      "romaji": "seikou",
+      "tokens": [
+        {
+          "text": "成功",
+          "kana": "せいこう"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "天气",
+      "japanese": "天気",
+      "kana": "てんき",
+      "romaji": "tenki",
+      "tokens": [
+        {
+          "text": "天気",
+          "kana": "てんき"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "图书馆",
+      "japanese": "図書館",
+      "kana": "としょかん",
+      "romaji": "toshokan",
+      "tokens": [
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "动物",
+      "japanese": "動物",
+      "kana": "どうぶつ",
+      "romaji": "doubutsu",
+      "tokens": [
+        {
+          "text": "動物",
+          "kana": "どうぶつ"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "窗户",
+      "japanese": "窓",
+      "kana": "まど",
+      "romaji": "mado",
+      "tokens": [
+        {
+          "text": "窓",
+          "kana": "まど"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "小学",
+      "japanese": "小学校",
+      "kana": "しょうがっこう",
+      "romaji": "shougakkou",
+      "tokens": [
+        {
+          "text": "小学校",
+          "kana": "しょうがっこう"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "夏天、夏季",
+      "japanese": "夏",
+      "kana": "なつ",
+      "romaji": "natsu",
+      "tokens": [
+        {
+          "text": "夏",
+          "kana": "なつ"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "肉",
+      "japanese": "肉",
+      "kana": "にく",
+      "romaji": "niku",
+      "tokens": [
+        {
+          "text": "肉",
+          "kana": "にく"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "调查",
+      "japanese": "調査",
+      "kana": "ちょうさ",
+      "romaji": "chousa",
+      "tokens": [
+        {
+          "text": "調査",
+          "kana": "ちょうさ"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "对象",
+      "japanese": "対象",
+      "kana": "たいしょう",
+      "romaji": "taishou",
+      "tokens": [
+        {
+          "text": "対象",
+          "kana": "たいしょう"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "周日",
+      "japanese": "日曜日",
+      "kana": "にちようび",
+      "romaji": "nichiyoubi",
+      "tokens": [
+        {
+          "text": "日曜日",
+          "kana": "にちようび"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "成长",
+      "japanese": "成長",
+      "kana": "せいちょう",
+      "romaji": "seichou",
+      "tokens": [
+        {
+          "text": "成長",
+          "kana": "せいちょう"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "他人，别人",
+      "japanese": "他人",
+      "kana": "たにん",
+      "romaji": "tanin",
+      "tokens": [
+        {
+          "text": "他人",
+          "kana": "たにん"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "小学生",
+      "japanese": "小学生",
+      "kana": "しょうがくせい",
+      "romaji": "shougakusei",
+      "tokens": [
+        {
+          "text": "小学生",
+          "kana": "しょうがくせい"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "道路、马路",
+      "japanese": "道路",
+      "kana": "どうろ",
+      "romaji": "douro",
+      "tokens": [
+        {
+          "text": "道路",
+          "kana": "どうろ"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "店员",
+      "japanese": "店員",
+      "kana": "てんいん",
+      "romaji": "tenin",
+      "tokens": [
+        {
+          "text": "店員",
+          "kana": "てんいん"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "名字",
+      "japanese": "名前",
+      "kana": "なまえ",
+      "romaji": "namae",
+      "tokens": [
+        {
+          "text": "名前",
+          "kana": "なまえ"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "说明",
+      "japanese": "説明",
+      "kana": "せつめい",
+      "romaji": "setsumei",
+      "tokens": [
+        {
+          "text": "説明",
+          "kana": "せつめい"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "前辈、学长、学姐",
+      "japanese": "先輩",
+      "kana": "せんぱい",
+      "romaji": "senpai",
+      "tokens": [
+        {
+          "text": "先輩",
+          "kana": "せんぱい"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-81",
+  "coursePackId": "jp-n1",
+  "title": "名词 81",
+  "order": 81,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "大阪烧，御好烧",
+      "japanese": "お好み焼き",
+      "kana": "おこのみやき",
+      "romaji": "okonomiyaki",
+      "tokens": [
+        {
+          "text": "お好み焼き",
+          "kana": "おこのみやき"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "长谈，久谈",
+      "japanese": "長話",
+      "kana": "ながばなし",
+      "romaji": "nagabanashi",
+      "tokens": [
+        {
+          "text": "長話",
+          "kana": "ながばなし"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "附随，随带",
+      "japanese": "付随",
+      "kana": "ふずい",
+      "romaji": "fuzui",
+      "tokens": [
+        {
+          "text": "付随",
+          "kana": "ふずい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "（报纸、杂志、书籍等的）插图",
+      "japanese": "挿絵",
+      "kana": "さしえ",
+      "romaji": "sashie",
+      "tokens": [
+        {
+          "text": "挿絵",
+          "kana": "さしえ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "（构成复合词）房屋，住宅；（「ビニールハウス」の略）温室",
+      "japanese": "ハウス",
+      "kana": "はうす",
+      "romaji": "hausu",
+      "tokens": [
+        {
+          "text": "ハウス",
+          "kana": "はうす"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "影子，阴影；含蓄，耐人寻味",
+      "japanese": "陰影",
+      "kana": "いんえい",
+      "romaji": "in'ei",
+      "tokens": [
+        {
+          "text": "陰影",
+          "kana": "いんえい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "靴子，长筒靴",
+      "japanese": "長靴",
+      "kana": "ながぐつ",
+      "romaji": "nagagutsu",
+      "tokens": [
+        {
+          "text": "長靴",
+          "kana": "ながぐつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "犬齿，犬牙",
+      "japanese": "犬歯",
+      "kana": "けんし",
+      "romaji": "kenshi",
+      "tokens": [
+        {
+          "text": "犬歯",
+          "kana": "けんし"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "精华部分，压卷，最精彩的部分",
+      "japanese": "圧巻",
+      "kana": "あっかん",
+      "romaji": "akkan",
+      "tokens": [
+        {
+          "text": "圧巻",
+          "kana": "あっかん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "（学生因心理原因等）不上学",
+      "japanese": "不登校",
+      "kana": "ふとうこう",
+      "romaji": "futoukou",
+      "tokens": [
+        {
+          "text": "不登校",
+          "kana": "ふとうこう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "屋檐下",
+      "japanese": "軒下",
+      "kana": "のきした",
+      "romaji": "nokishita",
+      "tokens": [
+        {
+          "text": "軒下",
+          "kana": "のきした"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "度量，肚量",
+      "japanese": "包容力",
+      "kana": "ほうようりょく",
+      "romaji": "houyouryoku",
+      "tokens": [
+        {
+          "text": "包容力",
+          "kana": "ほうようりょく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "烤米饼，仙贝",
+      "japanese": "せんべい",
+      "kana": "せんべい",
+      "romaji": "senbei",
+      "tokens": [
+        {
+          "text": "せんべい",
+          "kana": "せんべい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "珊瑚",
+      "japanese": "珊瑚[さんご]",
+      "kana": "さんご",
+      "romaji": "sango",
+      "tokens": [
+        {
+          "text": "珊瑚[さんご]",
+          "kana": "さんご"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "做出的结果",
+      "japanese": "出来栄え",
+      "kana": "できばえ",
+      "romaji": "dekibae",
+      "tokens": [
+        {
+          "text": "出来栄え",
+          "kana": "できばえ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "苦战恶斗",
+      "japanese": "悪戦苦闘",
+      "kana": "あくせんくとう",
+      "romaji": "akusenkutou",
+      "tokens": [
+        {
+          "text": "悪戦苦闘",
+          "kana": "あくせんくとう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "半生，半辈子",
+      "japanese": "半生",
+      "kana": "はんせい",
+      "romaji": "hansei",
+      "tokens": [
+        {
+          "text": "半生",
+          "kana": "はんせい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "喜怒哀乐",
+      "japanese": "喜怒哀楽",
+      "kana": "きどあいらく",
+      "romaji": "kidoairaku",
+      "tokens": [
+        {
+          "text": "喜怒哀楽",
+          "kana": "きどあいらく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "丝线",
+      "japanese": "絹糸",
+      "kana": "きぬいと",
+      "romaji": "kinuito",
+      "tokens": [
+        {
+          "text": "絹糸",
+          "kana": "きぬいと"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "弯（下）腰；姿态不稳，态度暧昧",
+      "japanese": "及び腰",
+      "kana": "およびごし",
+      "romaji": "oyobigoshi",
+      "tokens": [
+        {
+          "text": "及び腰",
+          "kana": "およびごし"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "表面，外表，外观",
+      "japanese": "上辺",
+      "kana": "うわべ",
+      "romaji": "uwabe",
+      "tokens": [
+        {
+          "text": "上辺",
+          "kana": "うわべ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "锯",
+      "japanese": "のこぎり",
+      "kana": "のこぎり",
+      "romaji": "nokogiri",
+      "tokens": [
+        {
+          "text": "のこぎり",
+          "kana": "のこぎり"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "暂定，临时规定",
+      "japanese": "暫定",
+      "kana": "ざんてい",
+      "romaji": "zantei",
+      "tokens": [
+        {
+          "text": "暫定",
+          "kana": "ざんてい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "随身携带的东西，随身行李",
+      "japanese": "手荷物",
+      "kana": "てにもつ",
+      "romaji": "tenimotsu",
+      "tokens": [
+        {
+          "text": "手荷物",
+          "kana": "てにもつ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "猛抓，大把抓",
+      "japanese": "わしづかみ",
+      "kana": "わしづかみ",
+      "romaji": "washizukami",
+      "tokens": [
+        {
+          "text": "わしづかみ",
+          "kana": "わしづかみ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "拦河坝，堰堤",
+      "japanese": "堰[せき]",
+      "kana": "せき",
+      "romaji": "seki",
+      "tokens": [
+        {
+          "text": "堰[せき]",
+          "kana": "せき"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "忠言，忠告，劝告",
+      "japanese": "苦言",
+      "kana": "くげん",
+      "romaji": "kugen",
+      "tokens": [
+        {
+          "text": "苦言",
+          "kana": "くげん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "耐用，持久；带盖的长方形衣箱",
+      "japanese": "長持ち",
+      "kana": "ながもち",
+      "romaji": "nagamochi",
+      "tokens": [
+        {
+          "text": "長持ち",
+          "kana": "ながもち"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "入学考试",
+      "japanese": "入学試験",
+      "kana": "にゅうがくしけん",
+      "romaji": "nyuugakushiken",
+      "tokens": [
+        {
+          "text": "入学試験",
+          "kana": "にゅうがくしけん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "滋养，营养，养分",
+      "japanese": "滋養",
+      "kana": "じよう",
+      "romaji": "jiyou",
+      "tokens": [
+        {
+          "text": "滋養",
+          "kana": "じよう"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-28",
+  "coursePackId": "jp-n1",
+  "title": "名词 28",
+  "order": 28,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "购买",
+      "japanese": "購買",
+      "kana": "こうばい",
+      "romaji": "koubai",
+      "tokens": [
+        {
+          "text": "購買",
+          "kana": "こうばい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "高原",
+      "japanese": "高原",
+      "kana": "こうげん",
+      "romaji": "kougen",
+      "tokens": [
+        {
+          "text": "高原",
+          "kana": "こうげん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "高低；起伏，上下",
+      "japanese": "高低",
+      "kana": "こうてい",
+      "romaji": "koutei",
+      "tokens": [
+        {
+          "text": "高低",
+          "kana": "こうてい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "双方意见一致",
+      "japanese": "合意",
+      "kana": "ごうい",
+      "romaji": "goui",
+      "tokens": [
+        {
+          "text": "合意",
+          "kana": "ごうい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "合成",
+      "japanese": "合成",
+      "kana": "ごうせい",
+      "romaji": "gousei",
+      "tokens": [
+        {
+          "text": "合成",
+          "kana": "ごうせい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "一致，合乎，符合",
+      "japanese": "合致",
+      "kana": "がっち",
+      "romaji": "gatchi",
+      "tokens": [
+        {
+          "text": "合致",
+          "kana": "がっち"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "合并",
+      "japanese": "合併",
+      "kana": "がっぺい",
+      "romaji": "gappei",
+      "tokens": [
+        {
+          "text": "合併",
+          "kana": "がっぺい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "坦白，交代，表白",
+      "japanese": "告白",
+      "kana": "こくはく",
+      "romaji": "kokuhaku",
+      "tokens": [
+        {
+          "text": "告白",
+          "kana": "こくはく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "根本，基础",
+      "japanese": "根底",
+      "kana": "こんてい",
+      "romaji": "kontei",
+      "tokens": [
+        {
+          "text": "根底",
+          "kana": "こんてい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "灵魂；精力",
+      "japanese": "魂",
+      "kana": "たましい",
+      "romaji": "tamashii",
+      "tokens": [
+        {
+          "text": "魂",
+          "kana": "たましい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "差额",
+      "japanese": "差額",
+      "kana": "さがく",
+      "romaji": "sagaku",
+      "tokens": [
+        {
+          "text": "差額",
+          "kana": "さがく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "小石头，沙砾",
+      "japanese": "砂利",
+      "kana": "じゃり",
+      "romaji": "jari",
+      "tokens": [
+        {
+          "text": "砂利",
+          "kana": "じゃり"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "座谈会",
+      "japanese": "座談会",
+      "kana": "ざだんかい",
+      "romaji": "zadankai",
+      "tokens": [
+        {
+          "text": "座談会",
+          "kana": "ざだんかい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "再现，模拟",
+      "japanese": "再現",
+      "kana": "さいげん",
+      "romaji": "saigen",
+      "tokens": [
+        {
+          "text": "再現",
+          "kana": "さいげん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（收支的）核算",
+      "japanese": "採算",
+      "kana": "さいさん",
+      "romaji": "saisan",
+      "tokens": [
+        {
+          "text": "採算",
+          "kana": "さいさん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "细胞",
+      "japanese": "細胞",
+      "kana": "さいぼう",
+      "romaji": "saibou",
+      "tokens": [
+        {
+          "text": "細胞",
+          "kana": "さいぼう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "财政；经济情况",
+      "japanese": "財政",
+      "kana": "ざいせい",
+      "romaji": "zaisei",
+      "tokens": [
+        {
+          "text": "財政",
+          "kana": "ざいせい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "策略；作战行动",
+      "japanese": "作戦",
+      "kana": "さくせん",
+      "romaji": "sakusen",
+      "tokens": [
+        {
+          "text": "作戦",
+          "kana": "さくせん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "蜂拥而至",
+      "japanese": "殺到",
+      "kana": "さっとう",
+      "romaji": "sattou",
+      "tokens": [
+        {
+          "text": "殺到",
+          "kana": "さっとう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "山岳",
+      "japanese": "山岳",
+      "kana": "さんがく",
+      "romaji": "sangaku",
+      "tokens": [
+        {
+          "text": "山岳",
+          "kana": "さんがく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "赞美",
+      "japanese": "賛美",
+      "kana": "さんび",
+      "romaji": "sanbi",
+      "tokens": [
+        {
+          "text": "賛美",
+          "kana": "さんび"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "完成（的结果）",
+      "japanese": "仕上がり",
+      "kana": "しあがり",
+      "romaji": "shiagari",
+      "tokens": [
+        {
+          "text": "仕上がり",
+          "kana": "しあがり"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（事情的）始末；（坏的）结果；处理",
+      "japanese": "始末",
+      "kana": "しまつ",
+      "romaji": "shimatsu",
+      "tokens": [
+        {
+          "text": "始末",
+          "kana": "しまつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "志向；盛情；表示好意或谢意的礼物",
+      "japanese": "志",
+      "kana": "こころざし",
+      "romaji": "kokorozashi",
+      "tokens": [
+        {
+          "text": "志",
+          "kana": "こころざし"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "志向，意向",
+      "japanese": "志向",
+      "kana": "しこう",
+      "romaji": "shikou",
+      "tokens": [
+        {
+          "text": "志向",
+          "kana": "しこう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "指挥，领导",
+      "japanese": "指揮",
+      "kana": "しき",
+      "romaji": "shiki",
+      "tokens": [
+        {
+          "text": "指揮",
+          "kana": "しき"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "私人物品",
+      "japanese": "私物",
+      "kana": "しぶつ",
+      "romaji": "shibutsu",
+      "tokens": [
+        {
+          "text": "私物",
+          "kana": "しぶつ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "雌，牝，母",
+      "japanese": "雌",
+      "kana": "めす",
+      "romaji": "mesu",
+      "tokens": [
+        {
+          "text": "雌",
+          "kana": "めす"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "武士；有骨气的人",
+      "japanese": "侍",
+      "kana": "さむらい",
+      "romaji": "samurai",
+      "tokens": [
+        {
+          "text": "侍",
+          "kana": "さむらい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（数学）维度；水平，立场",
+      "japanese": "次元",
+      "kana": "じげん",
+      "romaji": "jigen",
+      "tokens": [
+        {
+          "text": "次元",
+          "kana": "じげん"
+        }
+      ]
+    }
+  ]
+}

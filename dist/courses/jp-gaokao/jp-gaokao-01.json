@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-01",
+  "coursePackId": "jp-gaokao",
+  "title": "一类形容词 1",
+  "order": 1,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "多、许多",
+      "japanese": "多い",
+      "kana": "おおい",
+      "romaji": "ooi",
+      "tokens": [
+        {
+          "text": "多い",
+          "kana": "おおい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "有趣、新奇、可笑",
+      "japanese": "面白い",
+      "kana": "おもしろい",
+      "romaji": "omoshiroi",
+      "tokens": [
+        {
+          "text": "面白い",
+          "kana": "おもしろい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "强劲、强壮",
+      "japanese": "強い",
+      "kana": "つよい",
+      "romaji": "tsuyoi",
+      "tokens": [
+        {
+          "text": "強い",
+          "kana": "つよい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "好、棒；可以、允许",
+      "japanese": "いい",
+      "kana": "いい",
+      "romaji": "ii",
+      "tokens": [
+        {
+          "text": "いい",
+          "kana": "いい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "天气、气候炎热",
+      "japanese": "暑い",
+      "kana": "あつい",
+      "romaji": "atsui",
+      "tokens": [
+        {
+          "text": "暑い",
+          "kana": "あつい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "好、可以",
+      "japanese": "よろしい",
+      "kana": "よろしい",
+      "romaji": "yoroshii",
+      "tokens": [
+        {
+          "text": "よろしい",
+          "kana": "よろしい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "熟练的；顺利；美味",
+      "japanese": "うまい",
+      "kana": "うまい",
+      "romaji": "umai",
+      "tokens": [
+        {
+          "text": "うまい",
+          "kana": "うまい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "愉快、快乐、高兴",
+      "japanese": "楽しい",
+      "kana": "たのしい",
+      "romaji": "tanoshii",
+      "tokens": [
+        {
+          "text": "楽しい",
+          "kana": "たのしい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "厉害、惊人、了不起",
+      "japanese": "すごい",
+      "kana": "すごい",
+      "romaji": "sugoi",
+      "tokens": [
+        {
+          "text": "すごい",
+          "kana": "すごい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "小",
+      "japanese": "小さい",
+      "kana": "ちいさい",
+      "romaji": "chiisai",
+      "tokens": [
+        {
+          "text": "小さい",
+          "kana": "ちいさい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "便宜、低、廉价",
+      "japanese": "安い",
+      "kana": "やすい",
+      "romaji": "yasui",
+      "tokens": [
+        {
+          "text": "安い",
+          "kana": "やすい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "长；长远、长久",
+      "japanese": "長い",
+      "kana": "ながい",
+      "romaji": "nagai",
+      "tokens": [
+        {
+          "text": "長い",
+          "kana": "ながい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "想要、希望得到",
+      "japanese": "欲しい",
+      "kana": "ほしい",
+      "romaji": "hoshii",
+      "tokens": [
+        {
+          "text": "欲しい",
+          "kana": "ほしい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "大",
+      "japanese": "大きい",
+      "kana": "おおきい",
+      "romaji": "ookii",
+      "tokens": [
+        {
+          "text": "大きい",
+          "kana": "おおきい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "美丽的、漂亮的",
+      "japanese": "美しい",
+      "kana": "うつくしい",
+      "romaji": "utsukushii",
+      "tokens": [
+        {
+          "text": "美しい",
+          "kana": "うつくしい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "轻微、轻松、淡",
+      "japanese": "軽い",
+      "kana": "かるい",
+      "romaji": "karui",
+      "tokens": [
+        {
+          "text": "軽い",
+          "kana": "かるい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "没有、没、无",
+      "japanese": "ない",
+      "kana": "ない",
+      "romaji": "nai",
+      "tokens": [
+        {
+          "text": "ない",
+          "kana": "ない"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "困难；繁琐麻烦",
+      "japanese": "難しい",
+      "kana": "むずかしい",
+      "romaji": "muzukashii",
+      "tokens": [
+        {
+          "text": "難しい",
+          "kana": "むずかしい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "新的、新颖、时髦",
+      "japanese": "新しい",
+      "kana": "あたらしい",
+      "romaji": "atarashii",
+      "tokens": [
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "正确、正当",
+      "japanese": "正しい",
+      "kana": "ただしい",
+      "romaji": "tadashii",
+      "tokens": [
+        {
+          "text": "正しい",
+          "kana": "ただしい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "少、不多",
+      "japanese": "少ない",
+      "kana": "すくない",
+      "romaji": "sukunai",
+      "tokens": [
+        {
+          "text": "少ない",
+          "kana": "すくない"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "高；贵",
+      "japanese": "高い",
+      "kana": "たかい",
+      "romaji": "takai",
+      "tokens": [
+        {
+          "text": "高い",
+          "kana": "たかい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "柔和、温柔",
+      "japanese": "優しい",
+      "kana": "やさしい",
+      "romaji": "yasashii",
+      "tokens": [
+        {
+          "text": "優しい",
+          "kana": "やさしい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "迟缓、缓慢；晚、迟",
+      "japanese": "遅い",
+      "kana": "おそい",
+      "romaji": "osoi",
+      "tokens": [
+        {
+          "text": "遅い",
+          "kana": "おそい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "忙、忙碌",
+      "japanese": "忙しい",
+      "kana": "いそがしい",
+      "romaji": "isogashii",
+      "tokens": [
+        {
+          "text": "忙しい",
+          "kana": "いそがしい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "不行、不好、不对",
+      "japanese": "いけない",
+      "kana": "いけない",
+      "romaji": "ikenai",
+      "tokens": [
+        {
+          "text": "いけない",
+          "kana": "いけない"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "高兴、喜悦",
+      "japanese": "嬉しい",
+      "kana": "うれしい",
+      "romaji": "ureshii",
+      "tokens": [
+        {
+          "text": "嬉しい",
+          "kana": "うれしい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "好吃、好喝、清新",
+      "japanese": "美味しい",
+      "kana": "おいしい",
+      "romaji": "oishii",
+      "tokens": [
+        {
+          "text": "美味しい",
+          "kana": "おいしい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "坏、错；状态差",
+      "japanese": "悪い",
+      "kana": "わるい",
+      "romaji": "warui",
+      "tokens": [
+        {
+          "text": "悪い",
+          "kana": "わるい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "早、快",
+      "japanese": "早い",
+      "kana": "はやい",
+      "romaji": "hayai",
+      "tokens": [
+        {
+          "text": "早い",
+          "kana": "はやい"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "轻微、轻松、淡",
+      "japanese": "軽い",
+      "kana": "かるい",
+      "romaji": "karui",
+      "tokens": [
+        {
+          "text": "軽い",
+          "kana": "かるい"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "好吃、好喝、清新",
+      "japanese": "美味しい",
+      "kana": "おいしい",
+      "romaji": "oishii",
+      "tokens": [
+        {
+          "text": "美味しい",
+          "kana": "おいしい"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "忙、忙碌",
+      "japanese": "忙しい",
+      "kana": "いそがしい",
+      "romaji": "isogashii",
+      "tokens": [
+        {
+          "text": "忙しい",
+          "kana": "いそがしい"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "少、不多",
+      "japanese": "少ない",
+      "kana": "すくない",
+      "romaji": "sukunai",
+      "tokens": [
+        {
+          "text": "少ない",
+          "kana": "すくない"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "坏、错；状态差",
+      "japanese": "悪い",
+      "kana": "わるい",
+      "romaji": "warui",
+      "tokens": [
+        {
+          "text": "悪い",
+          "kana": "わるい"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "正确、正当",
+      "japanese": "正しい",
+      "kana": "ただしい",
+      "romaji": "tadashii",
+      "tokens": [
+        {
+          "text": "正しい",
+          "kana": "ただしい"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "便宜、低、廉价",
+      "japanese": "安い",
+      "kana": "やすい",
+      "romaji": "yasui",
+      "tokens": [
+        {
+          "text": "安い",
+          "kana": "やすい"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "美丽的、漂亮的",
+      "japanese": "美しい",
+      "kana": "うつくしい",
+      "romaji": "utsukushii",
+      "tokens": [
+        {
+          "text": "美しい",
+          "kana": "うつくしい"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "柔和、温柔",
+      "japanese": "優しい",
+      "kana": "やさしい",
+      "romaji": "yasashii",
+      "tokens": [
+        {
+          "text": "優しい",
+          "kana": "やさしい"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "高兴、喜悦",
+      "japanese": "嬉しい",
+      "kana": "うれしい",
+      "romaji": "ureshii",
+      "tokens": [
+        {
+          "text": "嬉しい",
+          "kana": "うれしい"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "困难；繁琐麻烦",
+      "japanese": "難しい",
+      "kana": "むずかしい",
+      "romaji": "muzukashii",
+      "tokens": [
+        {
+          "text": "難しい",
+          "kana": "むずかしい"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "天气、气候炎热",
+      "japanese": "暑い",
+      "kana": "あつい",
+      "romaji": "atsui",
+      "tokens": [
+        {
+          "text": "暑い",
+          "kana": "あつい"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "厉害、惊人、了不起",
+      "japanese": "すごい",
+      "kana": "すごい",
+      "romaji": "sugoi",
+      "tokens": [
+        {
+          "text": "すごい",
+          "kana": "すごい"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "有趣、新奇、可笑",
+      "japanese": "面白い",
+      "kana": "おもしろい",
+      "romaji": "omoshiroi",
+      "tokens": [
+        {
+          "text": "面白い",
+          "kana": "おもしろい"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "愉快、快乐、高兴",
+      "japanese": "楽しい",
+      "kana": "たのしい",
+      "romaji": "tanoshii",
+      "tokens": [
+        {
+          "text": "楽しい",
+          "kana": "たのしい"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "不行、不好、不对",
+      "japanese": "いけない",
+      "kana": "いけない",
+      "romaji": "ikenai",
+      "tokens": [
+        {
+          "text": "いけない",
+          "kana": "いけない"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "早、快",
+      "japanese": "早い",
+      "kana": "はやい",
+      "romaji": "hayai",
+      "tokens": [
+        {
+          "text": "早い",
+          "kana": "はやい"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "好、棒；可以、允许",
+      "japanese": "いい",
+      "kana": "いい",
+      "romaji": "ii",
+      "tokens": [
+        {
+          "text": "いい",
+          "kana": "いい"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "强劲、强壮",
+      "japanese": "強い",
+      "kana": "つよい",
+      "romaji": "tsuyoi",
+      "tokens": [
+        {
+          "text": "強い",
+          "kana": "つよい"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "好、可以",
+      "japanese": "よろしい",
+      "kana": "よろしい",
+      "romaji": "yoroshii",
+      "tokens": [
+        {
+          "text": "よろしい",
+          "kana": "よろしい"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "多、许多",
+      "japanese": "多い",
+      "kana": "おおい",
+      "romaji": "ooi",
+      "tokens": [
+        {
+          "text": "多い",
+          "kana": "おおい"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "没有、没、无",
+      "japanese": "ない",
+      "kana": "ない",
+      "romaji": "nai",
+      "tokens": [
+        {
+          "text": "ない",
+          "kana": "ない"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "新的、新颖、时髦",
+      "japanese": "新しい",
+      "kana": "あたらしい",
+      "romaji": "atarashii",
+      "tokens": [
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "大",
+      "japanese": "大きい",
+      "kana": "おおきい",
+      "romaji": "ookii",
+      "tokens": [
+        {
+          "text": "大きい",
+          "kana": "おおきい"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "长；长远、长久",
+      "japanese": "長い",
+      "kana": "ながい",
+      "romaji": "nagai",
+      "tokens": [
+        {
+          "text": "長い",
+          "kana": "ながい"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "高；贵",
+      "japanese": "高い",
+      "kana": "たかい",
+      "romaji": "takai",
+      "tokens": [
+        {
+          "text": "高い",
+          "kana": "たかい"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "小",
+      "japanese": "小さい",
+      "kana": "ちいさい",
+      "romaji": "chiisai",
+      "tokens": [
+        {
+          "text": "小さい",
+          "kana": "ちいさい"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "熟练的；顺利；美味",
+      "japanese": "うまい",
+      "kana": "うまい",
+      "romaji": "umai",
+      "tokens": [
+        {
+          "text": "うまい",
+          "kana": "うまい"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "迟缓、缓慢；晚、迟",
+      "japanese": "遅い",
+      "kana": "おそい",
+      "romaji": "osoi",
+      "tokens": [
+        {
+          "text": "遅い",
+          "kana": "おそい"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "想要、希望得到",
+      "japanese": "欲しい",
+      "kana": "ほしい",
+      "romaji": "hoshii",
+      "tokens": [
+        {
+          "text": "欲しい",
+          "kana": "ほしい"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "好、棒；可以、允许",
+      "japanese": "いい",
+      "kana": "いい",
+      "romaji": "ii",
+      "tokens": [
+        {
+          "text": "いい",
+          "kana": "いい"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "美丽的、漂亮的",
+      "japanese": "美しい",
+      "kana": "うつくしい",
+      "romaji": "utsukushii",
+      "tokens": [
+        {
+          "text": "美しい",
+          "kana": "うつくしい"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "柔和、温柔",
+      "japanese": "優しい",
+      "kana": "やさしい",
+      "romaji": "yasashii",
+      "tokens": [
+        {
+          "text": "優しい",
+          "kana": "やさしい"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "少、不多",
+      "japanese": "少ない",
+      "kana": "すくない",
+      "romaji": "sukunai",
+      "tokens": [
+        {
+          "text": "少ない",
+          "kana": "すくない"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "没有、没、无",
+      "japanese": "ない",
+      "kana": "ない",
+      "romaji": "nai",
+      "tokens": [
+        {
+          "text": "ない",
+          "kana": "ない"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "忙、忙碌",
+      "japanese": "忙しい",
+      "kana": "いそがしい",
+      "romaji": "isogashii",
+      "tokens": [
+        {
+          "text": "忙しい",
+          "kana": "いそがしい"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "高兴、喜悦",
+      "japanese": "嬉しい",
+      "kana": "うれしい",
+      "romaji": "ureshii",
+      "tokens": [
+        {
+          "text": "嬉しい",
+          "kana": "うれしい"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "高；贵",
+      "japanese": "高い",
+      "kana": "たかい",
+      "romaji": "takai",
+      "tokens": [
+        {
+          "text": "高い",
+          "kana": "たかい"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "大",
+      "japanese": "大きい",
+      "kana": "おおきい",
+      "romaji": "ookii",
+      "tokens": [
+        {
+          "text": "大きい",
+          "kana": "おおきい"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "厉害、惊人、了不起",
+      "japanese": "すごい",
+      "kana": "すごい",
+      "romaji": "sugoi",
+      "tokens": [
+        {
+          "text": "すごい",
+          "kana": "すごい"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "小",
+      "japanese": "小さい",
+      "kana": "ちいさい",
+      "romaji": "chiisai",
+      "tokens": [
+        {
+          "text": "小さい",
+          "kana": "ちいさい"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "新的、新颖、时髦",
+      "japanese": "新しい",
+      "kana": "あたらしい",
+      "romaji": "atarashii",
+      "tokens": [
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "多、许多",
+      "japanese": "多い",
+      "kana": "おおい",
+      "romaji": "ooi",
+      "tokens": [
+        {
+          "text": "多い",
+          "kana": "おおい"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "天气、气候炎热",
+      "japanese": "暑い",
+      "kana": "あつい",
+      "romaji": "atsui",
+      "tokens": [
+        {
+          "text": "暑い",
+          "kana": "あつい"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "便宜、低、廉价",
+      "japanese": "安い",
+      "kana": "やすい",
+      "romaji": "yasui",
+      "tokens": [
+        {
+          "text": "安い",
+          "kana": "やすい"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "正确、正当",
+      "japanese": "正しい",
+      "kana": "ただしい",
+      "romaji": "tadashii",
+      "tokens": [
+        {
+          "text": "正しい",
+          "kana": "ただしい"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "坏、错；状态差",
+      "japanese": "悪い",
+      "kana": "わるい",
+      "romaji": "warui",
+      "tokens": [
+        {
+          "text": "悪い",
+          "kana": "わるい"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "长；长远、长久",
+      "japanese": "長い",
+      "kana": "ながい",
+      "romaji": "nagai",
+      "tokens": [
+        {
+          "text": "長い",
+          "kana": "ながい"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "想要、希望得到",
+      "japanese": "欲しい",
+      "kana": "ほしい",
+      "romaji": "hoshii",
+      "tokens": [
+        {
+          "text": "欲しい",
+          "kana": "ほしい"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "困难；繁琐麻烦",
+      "japanese": "難しい",
+      "kana": "むずかしい",
+      "romaji": "muzukashii",
+      "tokens": [
+        {
+          "text": "難しい",
+          "kana": "むずかしい"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "强劲、强壮",
+      "japanese": "強い",
+      "kana": "つよい",
+      "romaji": "tsuyoi",
+      "tokens": [
+        {
+          "text": "強い",
+          "kana": "つよい"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "熟练的；顺利；美味",
+      "japanese": "うまい",
+      "kana": "うまい",
+      "romaji": "umai",
+      "tokens": [
+        {
+          "text": "うまい",
+          "kana": "うまい"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "迟缓、缓慢；晚、迟",
+      "japanese": "遅い",
+      "kana": "おそい",
+      "romaji": "osoi",
+      "tokens": [
+        {
+          "text": "遅い",
+          "kana": "おそい"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "好、可以",
+      "japanese": "よろしい",
+      "kana": "よろしい",
+      "romaji": "yoroshii",
+      "tokens": [
+        {
+          "text": "よろしい",
+          "kana": "よろしい"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "轻微、轻松、淡",
+      "japanese": "軽い",
+      "kana": "かるい",
+      "romaji": "karui",
+      "tokens": [
+        {
+          "text": "軽い",
+          "kana": "かるい"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "有趣、新奇、可笑",
+      "japanese": "面白い",
+      "kana": "おもしろい",
+      "romaji": "omoshiroi",
+      "tokens": [
+        {
+          "text": "面白い",
+          "kana": "おもしろい"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "愉快、快乐、高兴",
+      "japanese": "楽しい",
+      "kana": "たのしい",
+      "romaji": "tanoshii",
+      "tokens": [
+        {
+          "text": "楽しい",
+          "kana": "たのしい"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "不行、不好、不对",
+      "japanese": "いけない",
+      "kana": "いけない",
+      "romaji": "ikenai",
+      "tokens": [
+        {
+          "text": "いけない",
+          "kana": "いけない"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "早、快",
+      "japanese": "早い",
+      "kana": "はやい",
+      "romaji": "hayai",
+      "tokens": [
+        {
+          "text": "早い",
+          "kana": "はやい"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "好吃、好喝、清新",
+      "japanese": "美味しい",
+      "kana": "おいしい",
+      "romaji": "oishii",
+      "tokens": [
+        {
+          "text": "美味しい",
+          "kana": "おいしい"
+        }
+      ]
+    }
+  ]
+}

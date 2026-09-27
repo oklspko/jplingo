@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-108",
+  "coursePackId": "jp-n1",
+  "title": "动词 17",
+  "order": 108,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "总括，汇集，概括",
+      "japanese": "集約",
+      "kana": "しゅうやく",
+      "romaji": "shuuyaku",
+      "tokens": [
+        {
+          "text": "集約",
+          "kana": "しゅうやく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "渴望，切盼",
+      "japanese": "渇望",
+      "kana": "かつぼう",
+      "romaji": "katsubou",
+      "tokens": [
+        {
+          "text": "渇望",
+          "kana": "かつぼう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "链环；联系；链接",
+      "japanese": "リンク",
+      "kana": "りんく",
+      "romaji": "rinku",
+      "tokens": [
+        {
+          "text": "リンク",
+          "kana": "りんく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "撤去，撤除，拆除",
+      "japanese": "撤去",
+      "kana": "てっきょ",
+      "romaji": "tekkyo",
+      "tokens": [
+        {
+          "text": "撤去",
+          "kana": "てっきょ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "分配，配属",
+      "japanese": "配属",
+      "kana": "はいぞく",
+      "romaji": "haizoku",
+      "tokens": [
+        {
+          "text": "配属",
+          "kana": "はいぞく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "出售",
+      "japanese": "売却",
+      "kana": "ばいきゃく",
+      "romaji": "baikyaku",
+      "tokens": [
+        {
+          "text": "売却",
+          "kana": "ばいきゃく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "转卖，倒卖",
+      "japanese": "転売",
+      "kana": "てんばい",
+      "romaji": "tenbai",
+      "tokens": [
+        {
+          "text": "転売",
+          "kana": "てんばい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "抽出，提取，提炼",
+      "japanese": "抽出",
+      "kana": "ちゅうしゅつ",
+      "romaji": "chuushutsu",
+      "tokens": [
+        {
+          "text": "抽出",
+          "kana": "ちゅうしゅつ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "受理",
+      "japanese": "受理",
+      "kana": "じゅり",
+      "romaji": "juri",
+      "tokens": [
+        {
+          "text": "受理",
+          "kana": "じゅり"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "两用",
+      "japanese": "両用",
+      "kana": "りょうよう",
+      "romaji": "ryouyou",
+      "tokens": [
+        {
+          "text": "両用",
+          "kana": "りょうよう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "收藏",
+      "japanese": "所蔵",
+      "kana": "しょぞう",
+      "romaji": "shozou",
+      "tokens": [
+        {
+          "text": "所蔵",
+          "kana": "しょぞう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "督促，催促",
+      "japanese": "督促",
+      "kana": "とくそく",
+      "romaji": "tokusoku",
+      "tokens": [
+        {
+          "text": "督促",
+          "kana": "とくそく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "严厉批评，批评得一无是处",
+      "japanese": "酷評",
+      "kana": "こくひょう",
+      "romaji": "kokuhyou",
+      "tokens": [
+        {
+          "text": "酷評",
+          "kana": "こくひょう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "熟知，熟悉",
+      "japanese": "熟知",
+      "kana": "じゅくち",
+      "romaji": "jukuchi",
+      "tokens": [
+        {
+          "text": "熟知",
+          "kana": "じゅくち"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "磨炼，锻炼",
+      "japanese": "錬磨",
+      "kana": "れんま",
+      "romaji": "renma",
+      "tokens": [
+        {
+          "text": "錬磨",
+          "kana": "れんま"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "忘却，遗忘，忘记",
+      "japanese": "忘却",
+      "kana": "ぼうきゃく",
+      "romaji": "boukyaku",
+      "tokens": [
+        {
+          "text": "忘却",
+          "kana": "ぼうきゃく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "重盖，改建",
+      "japanese": "改築",
+      "kana": "かいちく",
+      "romaji": "kaichiku",
+      "tokens": [
+        {
+          "text": "改築",
+          "kana": "かいちく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "接送",
+      "japanese": "送り迎え",
+      "kana": "おくりむかえ",
+      "romaji": "okurimukae",
+      "tokens": [
+        {
+          "text": "送り迎え",
+          "kana": "おくりむかえ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "招徕，招揽，吸引",
+      "japanese": "誘致",
+      "kana": "ゆうち",
+      "romaji": "yuuchi",
+      "tokens": [
+        {
+          "text": "誘致",
+          "kana": "ゆうち"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "爱读，喜欢读",
+      "japanese": "愛読",
+      "kana": "あいどく",
+      "romaji": "aidoku",
+      "tokens": [
+        {
+          "text": "愛読",
+          "kana": "あいどく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "裁决，审批",
+      "japanese": "決裁",
+      "kana": "けっさい",
+      "romaji": "kessai",
+      "tokens": [
+        {
+          "text": "決裁",
+          "kana": "けっさい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "重选，再次当选，重新当选",
+      "japanese": "再選",
+      "kana": "さいせん",
+      "romaji": "saisen",
+      "tokens": [
+        {
+          "text": "再選",
+          "kana": "さいせん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "辈出，不断涌现出",
+      "japanese": "輩出",
+      "kana": "はいしゅつ",
+      "romaji": "haishutsu",
+      "tokens": [
+        {
+          "text": "輩出",
+          "kana": "はいしゅつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "并用",
+      "japanese": "併用",
+      "kana": "へいよう",
+      "romaji": "heiyou",
+      "tokens": [
+        {
+          "text": "併用",
+          "kana": "へいよう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "交配，杂交",
+      "japanese": "交配",
+      "kana": "こうはい",
+      "romaji": "kouhai",
+      "tokens": [
+        {
+          "text": "交配",
+          "kana": "こうはい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "过滤",
+      "japanese": "濾[ろ]過",
+      "kana": "ろか",
+      "romaji": "roka",
+      "tokens": [
+        {
+          "text": "濾[ろ]過",
+          "kana": "ろか"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "修习（规定的学科、课程等）",
+      "japanese": "履修",
+      "kana": "りしゅう",
+      "romaji": "rishuu",
+      "tokens": [
+        {
+          "text": "履修",
+          "kana": "りしゅう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "采伐，砍伐",
+      "japanese": "伐採",
+      "kana": "ばっさい",
+      "romaji": "bassai",
+      "tokens": [
+        {
+          "text": "伐採",
+          "kana": "ばっさい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "推论，推断，判断",
+      "japanese": "推論",
+      "kana": "すいろん",
+      "romaji": "suiron",
+      "tokens": [
+        {
+          "text": "推論",
+          "kana": "すいろん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "粉碎；摧毁，彻底打垮",
+      "japanese": "粉砕",
+      "kana": "ふんさい",
+      "romaji": "funsai",
+      "tokens": [
+        {
+          "text": "粉砕",
+          "kana": "ふんさい"
+        }
+      ]
+    }
+  ]
+}

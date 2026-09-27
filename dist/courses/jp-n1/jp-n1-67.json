@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-67",
+  "coursePackId": "jp-n1",
+  "title": "名词 67",
+  "order": 67,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "职务的性质；职位的身份；角色的类型",
+      "japanese": "役柄",
+      "kana": "やくがら",
+      "romaji": "yakugara",
+      "tokens": [
+        {
+          "text": "役柄",
+          "kana": "やくがら"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "正论，正确的主张",
+      "japanese": "正論",
+      "kana": "せいろん",
+      "romaji": "seiron",
+      "tokens": [
+        {
+          "text": "正論",
+          "kana": "せいろん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "和歌",
+      "japanese": "和歌",
+      "kana": "わか",
+      "romaji": "waka",
+      "tokens": [
+        {
+          "text": "和歌",
+          "kana": "わか"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "审美意识，审美观",
+      "japanese": "美意識",
+      "kana": "びいしき",
+      "romaji": "biishiki",
+      "tokens": [
+        {
+          "text": "美意識",
+          "kana": "びいしき"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "手头有的，手头的",
+      "japanese": "手持ち",
+      "kana": "てもち",
+      "romaji": "temochi",
+      "tokens": [
+        {
+          "text": "手持ち",
+          "kana": "てもち"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "真心，真意；本来的愿望，初衷",
+      "japanese": "本意",
+      "kana": "ほんい",
+      "romaji": "hon'i",
+      "tokens": [
+        {
+          "text": "本意",
+          "kana": "ほんい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "开始，开端",
+      "japanese": "手始め",
+      "kana": "てはじめ",
+      "romaji": "tehajime",
+      "tokens": [
+        {
+          "text": "手始め",
+          "kana": "てはじめ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "前略",
+      "japanese": "前略",
+      "kana": "ぜんりゃく",
+      "romaji": "zenryaku",
+      "tokens": [
+        {
+          "text": "前略",
+          "kana": "ぜんりゃく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "悲哀",
+      "japanese": "悲哀",
+      "kana": "ひあい",
+      "romaji": "hiai",
+      "tokens": [
+        {
+          "text": "悲哀",
+          "kana": "ひあい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "液化气瓶，储气瓶",
+      "japanese": "ボンベ",
+      "kana": "ぼんべ",
+      "romaji": "bonbe",
+      "tokens": [
+        {
+          "text": "ボンベ",
+          "kana": "ぼんべ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "成虫",
+      "japanese": "成虫",
+      "kana": "せいちゅう",
+      "romaji": "seichuu",
+      "tokens": [
+        {
+          "text": "成虫",
+          "kana": "せいちゅう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "书架，书橱",
+      "japanese": "書棚",
+      "kana": "しょだな",
+      "romaji": "shodana",
+      "tokens": [
+        {
+          "text": "書棚",
+          "kana": "しょだな"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "海鸥",
+      "japanese": "かもめ",
+      "kana": "かもめ",
+      "romaji": "kamome",
+      "tokens": [
+        {
+          "text": "かもめ",
+          "kana": "かもめ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（江户时代的社会阶层之一，指住在都市的）商人，工匠",
+      "japanese": "町人",
+      "kana": "ちょうにん",
+      "romaji": "chounin",
+      "tokens": [
+        {
+          "text": "町人",
+          "kana": "ちょうにん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "貉，狸",
+      "japanese": "狸[たぬき]",
+      "kana": "たぬき",
+      "romaji": "tanuki",
+      "tokens": [
+        {
+          "text": "狸[たぬき]",
+          "kana": "たぬき"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "至上，最高",
+      "japanese": "至上",
+      "kana": "しじょう",
+      "romaji": "shijou",
+      "tokens": [
+        {
+          "text": "至上",
+          "kana": "しじょう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "背地，暗地，暗处",
+      "japanese": "物陰",
+      "kana": "ものかげ",
+      "romaji": "monokage",
+      "tokens": [
+        {
+          "text": "物陰",
+          "kana": "ものかげ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "大树",
+      "japanese": "巨木",
+      "kana": "きょぼく",
+      "romaji": "kyoboku",
+      "tokens": [
+        {
+          "text": "巨木",
+          "kana": "きょぼく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "新茶",
+      "japanese": "新茶",
+      "kana": "しんちゃ",
+      "romaji": "shincha",
+      "tokens": [
+        {
+          "text": "新茶",
+          "kana": "しんちゃ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "振幅",
+      "japanese": "振幅",
+      "kana": "しんぷく",
+      "romaji": "shinpuku",
+      "tokens": [
+        {
+          "text": "振幅",
+          "kana": "しんぷく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "自我意识，个性",
+      "japanese": "自意識",
+      "kana": "じいしき",
+      "romaji": "jiishiki",
+      "tokens": [
+        {
+          "text": "自意識",
+          "kana": "じいしき"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "同种类；同伙",
+      "japanese": "同類",
+      "kana": "どうるい",
+      "romaji": "dourui",
+      "tokens": [
+        {
+          "text": "同類",
+          "kana": "どうるい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "虫害",
+      "japanese": "虫害",
+      "kana": "ちゅうがい",
+      "romaji": "chuugai",
+      "tokens": [
+        {
+          "text": "虫害",
+          "kana": "ちゅうがい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "制药",
+      "japanese": "製薬",
+      "kana": "せいやく",
+      "romaji": "seiyaku",
+      "tokens": [
+        {
+          "text": "製薬",
+          "kana": "せいやく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "害鸟",
+      "japanese": "害鳥",
+      "kana": "がいちょう",
+      "romaji": "gaichou",
+      "tokens": [
+        {
+          "text": "害鳥",
+          "kana": "がいちょう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "污名，臭名，坏名声",
+      "japanese": "汚名",
+      "kana": "おめい",
+      "romaji": "omei",
+      "tokens": [
+        {
+          "text": "汚名",
+          "kana": "おめい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "商品种类；准备各种各样的商品",
+      "japanese": "品ぞろえ",
+      "kana": "しなぞろえ",
+      "romaji": "shinazoroe",
+      "tokens": [
+        {
+          "text": "品ぞろえ",
+          "kana": "しなぞろえ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "适度，节制",
+      "japanese": "節度",
+      "kana": "せつど",
+      "romaji": "setsudo",
+      "tokens": [
+        {
+          "text": "節度",
+          "kana": "せつど"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "私生活",
+      "japanese": "私生活",
+      "kana": "しせいかつ",
+      "romaji": "shiseikatsu",
+      "tokens": [
+        {
+          "text": "私生活",
+          "kana": "しせいかつ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "放养，牧放",
+      "japanese": "放し飼い",
+      "kana": "はなしがい",
+      "romaji": "hanashigai",
+      "tokens": [
+        {
+          "text": "放し飼い",
+          "kana": "はなしがい"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-30",
+  "coursePackId": "jp-n2",
+  "title": "名词 30",
+  "order": 30,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "节省能源",
+      "japanese": "省エネ",
+      "kana": "しょうえね",
+      "romaji": "shouene",
+      "tokens": [
+        {
+          "text": "省エネ",
+          "kana": "しょうえね"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "省略，从简",
+      "japanese": "省略",
+      "kana": "しょうりゃく",
+      "romaji": "shouryaku",
+      "tokens": [
+        {
+          "text": "省略",
+          "kana": "しょうりゃく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "阻碍，障碍；毛病，故障，残疾",
+      "japanese": "障害",
+      "kana": "しょうがい",
+      "romaji": "shougai",
+      "tokens": [
+        {
+          "text": "障害",
+          "kana": "しょうがい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "蒸发；失踪",
+      "japanese": "蒸発",
+      "kana": "じょうはつ",
+      "romaji": "jouhatsu",
+      "tokens": [
+        {
+          "text": "蒸発",
+          "kana": "じょうはつ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "入侵，侵略",
+      "japanese": "侵入",
+      "kana": "しんにゅう",
+      "romaji": "shinnyuu",
+      "tokens": [
+        {
+          "text": "侵入",
+          "kana": "しんにゅう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "审判；裁判",
+      "japanese": "審判",
+      "kana": "しんぱん",
+      "romaji": "shinpan",
+      "tokens": [
+        {
+          "text": "審判",
+          "kana": "しんぱん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "心境，心态",
+      "japanese": "心境",
+      "kana": "しんきょう",
+      "romaji": "shinkyou",
+      "tokens": [
+        {
+          "text": "心境",
+          "kana": "しんきょう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "身心",
+      "japanese": "心身",
+      "kana": "しんしん",
+      "romaji": "shinshin",
+      "tokens": [
+        {
+          "text": "心身",
+          "kana": "しんしん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "线索，头绪",
+      "japanese": "心当たり",
+      "kana": "こころあたり",
+      "romaji": "kokoroatari",
+      "tokens": [
+        {
+          "text": "心当たり",
+          "kana": "こころあたり"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "深夜",
+      "japanese": "深夜",
+      "kana": "しんや",
+      "romaji": "shin'ya",
+      "tokens": [
+        {
+          "text": "深夜",
+          "kana": "しんや"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "最先",
+      "japanese": "真っ先",
+      "kana": "まっさき",
+      "romaji": "massaki",
+      "tokens": [
+        {
+          "text": "真っ先",
+          "kana": "まっさき"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "真刀，真剑；做事认真，一丝不苟",
+      "japanese": "真剣",
+      "kana": "しんけん",
+      "romaji": "shinken",
+      "tokens": [
+        {
+          "text": "真剣",
+          "kana": "しんけん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "神经；感觉，感受",
+      "japanese": "神経",
+      "kana": "しんけい",
+      "romaji": "shinkei",
+      "tokens": [
+        {
+          "text": "神経",
+          "kana": "しんけい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "神话",
+      "japanese": "神話",
+      "kana": "しんわ",
+      "romaji": "shinwa",
+      "tokens": [
+        {
+          "text": "神話",
+          "kana": "しんわ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "身体，躯体",
+      "japanese": "身体",
+      "kana": "しんたい",
+      "romaji": "shintai",
+      "tokens": [
+        {
+          "text": "身体",
+          "kana": "しんたい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "来往的行人",
+      "japanese": "人通り",
+      "kana": "ひとどおり",
+      "romaji": "hitodoori",
+      "tokens": [
+        {
+          "text": "人通り",
+          "kana": "ひとどおり"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "人类",
+      "japanese": "人類",
+      "kana": "じんるい",
+      "romaji": "jinrui",
+      "tokens": [
+        {
+          "text": "人類",
+          "kana": "じんるい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "图鉴",
+      "japanese": "図鑑",
+      "kana": "ずかん",
+      "romaji": "zukan",
+      "tokens": [
+        {
+          "text": "図鑑",
+          "kana": "ずかん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "垂直",
+      "japanese": "垂直",
+      "kana": "すいちょく",
+      "romaji": "suichoku",
+      "tokens": [
+        {
+          "text": "垂直",
+          "kana": "すいちょく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "推荐，推举",
+      "japanese": "推薦",
+      "kana": "すいせん",
+      "romaji": "suisen",
+      "tokens": [
+        {
+          "text": "推薦",
+          "kana": "すいせん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "水准，水平",
+      "japanese": "水準",
+      "kana": "すいじゅん",
+      "romaji": "suijun",
+      "tokens": [
+        {
+          "text": "水準",
+          "kana": "すいじゅん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "水面",
+      "japanese": "水面",
+      "kana": "すいめん",
+      "romaji": "suimen",
+      "tokens": [
+        {
+          "text": "水面",
+          "kana": "すいめん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "社会；交际圈",
+      "japanese": "世間",
+      "kana": "せけん",
+      "romaji": "seken",
+      "tokens": [
+        {
+          "text": "世間",
+          "kana": "せけん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "制度，规定",
+      "japanese": "制度",
+      "kana": "せいど",
+      "romaji": "seido",
+      "tokens": [
+        {
+          "text": "制度",
+          "kana": "せいど"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "成分，构成物",
+      "japanese": "成分",
+      "kana": "せいぶん",
+      "romaji": "seibun",
+      "tokens": [
+        {
+          "text": "成分",
+          "kana": "せいぶん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "政党",
+      "japanese": "政党",
+      "kana": "せいとう",
+      "romaji": "seitou",
+      "tokens": [
+        {
+          "text": "政党",
+          "kana": "せいとう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "维修，整修，整备",
+      "japanese": "整備",
+      "kana": "せいび",
+      "romaji": "seibi",
+      "tokens": [
+        {
+          "text": "整備",
+          "kana": "せいび"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（作为理所应当的权利）请求，要求（金钱、物品等）",
+      "japanese": "請求",
+      "kana": "せいきゅう",
+      "romaji": "seikyuu",
+      "tokens": [
+        {
+          "text": "請求",
+          "kana": "せいきゅう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "接续，连接",
+      "japanese": "接続",
+      "kana": "せつぞく",
+      "romaji": "setsuzoku",
+      "tokens": [
+        {
+          "text": "接続",
+          "kana": "せつぞく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（竹子等的）节；关节；点；曲调",
+      "japanese": "節",
+      "kana": "ふし",
+      "romaji": "fushi",
+      "tokens": [
+        {
+          "text": "節",
+          "kana": "ふし"
+        }
+      ]
+    }
+  ]
+}

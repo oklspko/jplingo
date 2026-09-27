@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-81",
+  "coursePackId": "jp-n2",
+  "title": "动词 10",
+  "order": 81,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "响应，反应；强烈地感受到",
+      "japanese": "応える",
+      "kana": "こたえる",
+      "romaji": "kotaeru",
+      "tokens": [
+        {
+          "text": "応える",
+          "kana": "こたえる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "低于，在……以下",
+      "japanese": "下回る",
+      "kana": "したまわる",
+      "romaji": "shitamawaru",
+      "tokens": [
+        {
+          "text": "下回る",
+          "kana": "したまわる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "完成，实现；光，尽",
+      "japanese": "果たす",
+      "kana": "はたす",
+      "romaji": "hatasu",
+      "tokens": [
+        {
+          "text": "果たす",
+          "kana": "はたす"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "更新，更替；改善，革新；郑重其事",
+      "japanese": "改まる",
+      "kana": "あらたまる",
+      "romaji": "aratamaru",
+      "tokens": [
+        {
+          "text": "改まる",
+          "kana": "あらたまる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "波及，持续；达到；比得上",
+      "japanese": "及ぶ",
+      "kana": "およぶ",
+      "romaji": "oyobu",
+      "tokens": [
+        {
+          "text": "及ぶ",
+          "kana": "およぶ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "吸入，吸进，抽；卷入，消失，吞噬",
+      "japanese": "吸い込む",
+      "kana": "すいこむ",
+      "romaji": "suikomu",
+      "tokens": [
+        {
+          "text": "吸い込む",
+          "kana": "すいこむ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "上供",
+      "japanese": "供える",
+      "kana": "そなえる",
+      "romaji": "sonaeru",
+      "tokens": [
+        {
+          "text": "供える",
+          "kana": "そなえる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "竞争，比赛",
+      "japanese": "競う",
+      "kana": "きそう",
+      "romaji": "kisou",
+      "tokens": [
+        {
+          "text": "競う",
+          "kana": "きそう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "加强，增强",
+      "japanese": "強める",
+      "kana": "つよめる",
+      "romaji": "tsuyomeru",
+      "tokens": [
+        {
+          "text": "強める",
+          "kana": "つよめる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "禁止，不允许",
+      "japanese": "禁じる",
+      "kana": "きんじる",
+      "romaji": "kinjiru",
+      "tokens": [
+        {
+          "text": "禁じる",
+          "kana": "きんじる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "使……倾斜，弄歪；倾注",
+      "japanese": "傾ける",
+      "kana": "かたむける",
+      "romaji": "katamukeru",
+      "tokens": [
+        {
+          "text": "傾ける",
+          "kana": "かたむける"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "（使用器械）测量（长度、重量、数量、容量等）",
+      "japanese": "計測",
+      "kana": "けいそく",
+      "romaji": "keisoku",
+      "tokens": [
+        {
+          "text": "計測",
+          "kana": "けいそく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（凭主观）断定，片面断定",
+      "japanese": "決めつける",
+      "kana": "きめつける",
+      "romaji": "kimetsukeru",
+      "tokens": [
+        {
+          "text": "決めつける",
+          "kana": "きめつける"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "结合，紧密联系",
+      "japanese": "結びつく",
+      "kana": "むすびつく",
+      "romaji": "musubitsuku",
+      "tokens": [
+        {
+          "text": "結びつく",
+          "kana": "むすびつく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "系上；结合，联结",
+      "japanese": "結びつける",
+      "kana": "むすびつける",
+      "romaji": "musubitsukeru",
+      "tokens": [
+        {
+          "text": "結びつける",
+          "kana": "むすびつける"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "迷失；看丢",
+      "japanese": "見失う",
+      "kana": "みうしなう",
+      "romaji": "miushinau",
+      "tokens": [
+        {
+          "text": "見失う",
+          "kana": "みうしなう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "注视；关怀，关注",
+      "japanese": "見守る",
+      "kana": "みまもる",
+      "romaji": "mimamoru",
+      "tokens": [
+        {
+          "text": "見守る",
+          "kana": "みまもる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "远望，展望",
+      "japanese": "見渡す",
+      "kana": "みわたす",
+      "romaji": "miwatasu",
+      "tokens": [
+        {
+          "text": "見渡す",
+          "kana": "みわたす"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "看穿，看透",
+      "japanese": "見抜く",
+      "kana": "みぬく",
+      "romaji": "minuku",
+      "tokens": [
+        {
+          "text": "見抜く",
+          "kana": "みぬく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "识别，辨别",
+      "japanese": "見分ける",
+      "kana": "みわける",
+      "romaji": "miwakeru",
+      "tokens": [
+        {
+          "text": "見分ける",
+          "kana": "みわける"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "说完；断言，说死",
+      "japanese": "言い切る",
+      "kana": "いいきる",
+      "romaji": "iikiru",
+      "tokens": [
+        {
+          "text": "言い切る",
+          "kana": "いいきる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "叫住",
+      "japanese": "呼び止める",
+      "kana": "よびとめる",
+      "romaji": "yobitomeru",
+      "tokens": [
+        {
+          "text": "呼び止める",
+          "kana": "よびとめる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "使坚硬，使凝固；堆集一处；坚定，巩固",
+      "japanese": "固める",
+      "kana": "かためる",
+      "romaji": "katameru",
+      "tokens": [
+        {
+          "text": "固める",
+          "kana": "かためる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "错误；做错；弄错；贻害",
+      "japanese": "誤る",
+      "kana": "あやまる",
+      "romaji": "ayamaru",
+      "tokens": [
+        {
+          "text": "誤る",
+          "kana": "あやまる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "有妨碍，不方便",
+      "japanese": "差し支える",
+      "kana": "さしつかえる",
+      "romaji": "sashitsukaeru",
+      "tokens": [
+        {
+          "text": "差し支える",
+          "kana": "さしつかえる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "举办；起，感觉",
+      "japanese": "催す",
+      "kana": "もよおす",
+      "romaji": "moyoosu",
+      "tokens": [
+        {
+          "text": "催す",
+          "kana": "もよおす"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "用尽，花光",
+      "japanese": "使い果たす",
+      "kana": "つかいはたす",
+      "romaji": "tsukaihatasu",
+      "tokens": [
+        {
+          "text": "使い果たす",
+          "kana": "つかいはたす"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "回忆起，浮现出",
+      "japanese": "思い浮かぶ",
+      "kana": "おもいうかぶ",
+      "romaji": "omoiukabu",
+      "tokens": [
+        {
+          "text": "思い浮かぶ",
+          "kana": "おもいうかぶ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "回忆起，想起",
+      "japanese": "思い浮かべる",
+      "kana": "おもいうかべる",
+      "romaji": "omoiukaberu",
+      "tokens": [
+        {
+          "text": "思い浮かべる",
+          "kana": "おもいうかべる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（突然）想要做",
+      "japanese": "思い立つ",
+      "kana": "おもいたつ",
+      "romaji": "omoitatsu",
+      "tokens": [
+        {
+          "text": "思い立つ",
+          "kana": "おもいたつ"
+        }
+      ]
+    }
+  ]
+}

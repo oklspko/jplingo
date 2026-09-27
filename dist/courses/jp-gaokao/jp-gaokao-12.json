@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-12",
+  "coursePackId": "jp-gaokao",
+  "title": "动词高频 1",
+  "order": 12,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "比较",
+      "japanese": "比べる",
+      "kana": "くらべる",
+      "romaji": "kuraberu",
+      "tokens": [
+        {
+          "text": "比べる",
+          "kana": "くらべる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "让～流走、冲～",
+      "japanese": "流す",
+      "kana": "ながす",
+      "romaji": "nagasu",
+      "tokens": [
+        {
+          "text": "流す",
+          "kana": "ながす"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "帮助、救助、救命",
+      "japanese": "助ける",
+      "kana": "たすける",
+      "romaji": "tasukeru",
+      "tokens": [
+        {
+          "text": "助ける",
+          "kana": "たすける"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "往返、来往",
+      "japanese": "通う",
+      "kana": "かよう",
+      "romaji": "kayou",
+      "tokens": [
+        {
+          "text": "通う",
+          "kana": "かよう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "移动、动弹",
+      "japanese": "動く",
+      "kana": "うごく",
+      "romaji": "ugoku",
+      "tokens": [
+        {
+          "text": "動く",
+          "kana": "うごく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "举行、执行、开展",
+      "japanese": "行う",
+      "kana": "おこなう",
+      "romaji": "okonau",
+      "tokens": [
+        {
+          "text": "行う",
+          "kana": "おこなう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "穿",
+      "japanese": "着る",
+      "kana": "きる",
+      "romaji": "kiru",
+      "tokens": [
+        {
+          "text": "着る",
+          "kana": "きる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "把～载上",
+      "japanese": "乗せる",
+      "kana": "のせる",
+      "romaji": "noseru",
+      "tokens": [
+        {
+          "text": "乗せる",
+          "kana": "のせる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "发生、发起",
+      "japanese": "起こる",
+      "kana": "おこる",
+      "romaji": "okoru",
+      "tokens": [
+        {
+          "text": "起こる",
+          "kana": "おこる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "丢失、丧失、失去",
+      "japanese": "失う",
+      "kana": "うしなう",
+      "romaji": "ushinau",
+      "tokens": [
+        {
+          "text": "失う",
+          "kana": "うしなう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "寻找、搜寻、寻求",
+      "japanese": "探す",
+      "kana": "さがす",
+      "romaji": "sagasu",
+      "tokens": [
+        {
+          "text": "探す",
+          "kana": "さがす"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "归还、还给",
+      "japanese": "返す",
+      "kana": "かえす",
+      "romaji": "kaesu",
+      "tokens": [
+        {
+          "text": "返す",
+          "kana": "かえす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "创造；开始做",
+      "japanese": "作り出す",
+      "kana": "つくりだす",
+      "romaji": "tsukuridasu",
+      "tokens": [
+        {
+          "text": "作り出す",
+          "kana": "つくりだす"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "把～拿给别人看",
+      "japanese": "見せる",
+      "kana": "みせる",
+      "romaji": "miseru",
+      "tokens": [
+        {
+          "text": "見せる",
+          "kana": "みせる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "下降、降低",
+      "japanese": "下がる",
+      "kana": "さがる",
+      "romaji": "sagaru",
+      "tokens": [
+        {
+          "text": "下がる",
+          "kana": "さがる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "把～转向",
+      "japanese": "向ける",
+      "kana": "むける",
+      "romaji": "mukeru",
+      "tokens": [
+        {
+          "text": "向ける",
+          "kana": "むける"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "朝向、朝着",
+      "japanese": "向かう",
+      "kana": "むかう",
+      "romaji": "mukau",
+      "tokens": [
+        {
+          "text": "向かう",
+          "kana": "むかう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "计算、数、列举",
+      "japanese": "数える",
+      "kana": "かぞえる",
+      "romaji": "kazoeru",
+      "tokens": [
+        {
+          "text": "数える",
+          "kana": "かぞえる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "让～动",
+      "japanese": "動かす",
+      "kana": "うごかす",
+      "romaji": "ugokasu",
+      "tokens": [
+        {
+          "text": "動かす",
+          "kana": "うごかす"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "洗、清洗",
+      "japanese": "洗う",
+      "kana": "あらう",
+      "romaji": "arau",
+      "tokens": [
+        {
+          "text": "洗う",
+          "kana": "あらう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "描绘、绘、画",
+      "japanese": "描く",
+      "kana": "えがく",
+      "romaji": "egaku",
+      "tokens": [
+        {
+          "text": "描く",
+          "kana": "えがく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "弄丢、使落下",
+      "japanese": "落とす",
+      "kana": "おとす",
+      "romaji": "otosu",
+      "tokens": [
+        {
+          "text": "落とす",
+          "kana": "おとす"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "取得、获得",
+      "japanese": "得る",
+      "kana": "える",
+      "romaji": "eru",
+      "tokens": [
+        {
+          "text": "得る",
+          "kana": "える"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "流淌、流动、流逝",
+      "japanese": "流れる",
+      "kana": "ながれる",
+      "romaji": "nagareru",
+      "tokens": [
+        {
+          "text": "流れる",
+          "kana": "ながれる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "出生、诞生",
+      "japanese": "生まれる",
+      "kana": "うまれる",
+      "romaji": "umareru",
+      "tokens": [
+        {
+          "text": "生まれる",
+          "kana": "うまれる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "叫醒、弄起、扶起",
+      "japanese": "起こす",
+      "kana": "おこす",
+      "romaji": "okosu",
+      "tokens": [
+        {
+          "text": "起こす",
+          "kana": "おこす"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "飞行、飞跑",
+      "japanese": "飛ぶ",
+      "kana": "とぶ",
+      "romaji": "tobu",
+      "tokens": [
+        {
+          "text": "飛ぶ",
+          "kana": "とぶ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "庆祝、祝贺",
+      "japanese": "祝う",
+      "kana": "いわう",
+      "romaji": "iwau",
+      "tokens": [
+        {
+          "text": "祝う",
+          "kana": "いわう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "放弃、断念、死心",
+      "japanese": "諦める",
+      "kana": "あきらめる",
+      "romaji": "akirameru",
+      "tokens": [
+        {
+          "text": "諦める",
+          "kana": "あきらめる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "沉着、内心平静",
+      "japanese": "落ち着く",
+      "kana": "おちつく",
+      "romaji": "ochitsuku",
+      "tokens": [
+        {
+          "text": "落ち着く",
+          "kana": "おちつく"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "取得、获得",
+      "japanese": "得る",
+      "kana": "える",
+      "romaji": "eru",
+      "tokens": [
+        {
+          "text": "得る",
+          "kana": "える"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "创造；开始做",
+      "japanese": "作り出す",
+      "kana": "つくりだす",
+      "romaji": "tsukuridasu",
+      "tokens": [
+        {
+          "text": "作り出す",
+          "kana": "つくりだす"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "朝向、朝着",
+      "japanese": "向かう",
+      "kana": "むかう",
+      "romaji": "mukau",
+      "tokens": [
+        {
+          "text": "向かう",
+          "kana": "むかう"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "叫醒、弄起、扶起",
+      "japanese": "起こす",
+      "kana": "おこす",
+      "romaji": "okosu",
+      "tokens": [
+        {
+          "text": "起こす",
+          "kana": "おこす"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "让～流走、冲～",
+      "japanese": "流す",
+      "kana": "ながす",
+      "romaji": "nagasu",
+      "tokens": [
+        {
+          "text": "流す",
+          "kana": "ながす"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "比较",
+      "japanese": "比べる",
+      "kana": "くらべる",
+      "romaji": "kuraberu",
+      "tokens": [
+        {
+          "text": "比べる",
+          "kana": "くらべる"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "飞行、飞跑",
+      "japanese": "飛ぶ",
+      "kana": "とぶ",
+      "romaji": "tobu",
+      "tokens": [
+        {
+          "text": "飛ぶ",
+          "kana": "とぶ"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "沉着、内心平静",
+      "japanese": "落ち着く",
+      "kana": "おちつく",
+      "romaji": "ochitsuku",
+      "tokens": [
+        {
+          "text": "落ち着く",
+          "kana": "おちつく"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "流淌、流动、流逝",
+      "japanese": "流れる",
+      "kana": "ながれる",
+      "romaji": "nagareru",
+      "tokens": [
+        {
+          "text": "流れる",
+          "kana": "ながれる"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "发生、发起",
+      "japanese": "起こる",
+      "kana": "おこる",
+      "romaji": "okoru",
+      "tokens": [
+        {
+          "text": "起こる",
+          "kana": "おこる"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "寻找、搜寻、寻求",
+      "japanese": "探す",
+      "kana": "さがす",
+      "romaji": "sagasu",
+      "tokens": [
+        {
+          "text": "探す",
+          "kana": "さがす"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "举行、执行、开展",
+      "japanese": "行う",
+      "kana": "おこなう",
+      "romaji": "okonau",
+      "tokens": [
+        {
+          "text": "行う",
+          "kana": "おこなう"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "穿",
+      "japanese": "着る",
+      "kana": "きる",
+      "romaji": "kiru",
+      "tokens": [
+        {
+          "text": "着る",
+          "kana": "きる"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "让～动",
+      "japanese": "動かす",
+      "kana": "うごかす",
+      "romaji": "ugokasu",
+      "tokens": [
+        {
+          "text": "動かす",
+          "kana": "うごかす"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "把～转向",
+      "japanese": "向ける",
+      "kana": "むける",
+      "romaji": "mukeru",
+      "tokens": [
+        {
+          "text": "向ける",
+          "kana": "むける"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "把～拿给别人看",
+      "japanese": "見せる",
+      "kana": "みせる",
+      "romaji": "miseru",
+      "tokens": [
+        {
+          "text": "見せる",
+          "kana": "みせる"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "弄丢、使落下",
+      "japanese": "落とす",
+      "kana": "おとす",
+      "romaji": "otosu",
+      "tokens": [
+        {
+          "text": "落とす",
+          "kana": "おとす"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "帮助、救助、救命",
+      "japanese": "助ける",
+      "kana": "たすける",
+      "romaji": "tasukeru",
+      "tokens": [
+        {
+          "text": "助ける",
+          "kana": "たすける"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "描绘、绘、画",
+      "japanese": "描く",
+      "kana": "えがく",
+      "romaji": "egaku",
+      "tokens": [
+        {
+          "text": "描く",
+          "kana": "えがく"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "下降、降低",
+      "japanese": "下がる",
+      "kana": "さがる",
+      "romaji": "sagaru",
+      "tokens": [
+        {
+          "text": "下がる",
+          "kana": "さがる"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "放弃、断念、死心",
+      "japanese": "諦める",
+      "kana": "あきらめる",
+      "romaji": "akirameru",
+      "tokens": [
+        {
+          "text": "諦める",
+          "kana": "あきらめる"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "移动、动弹",
+      "japanese": "動く",
+      "kana": "うごく",
+      "romaji": "ugoku",
+      "tokens": [
+        {
+          "text": "動く",
+          "kana": "うごく"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "洗、清洗",
+      "japanese": "洗う",
+      "kana": "あらう",
+      "romaji": "arau",
+      "tokens": [
+        {
+          "text": "洗う",
+          "kana": "あらう"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "丢失、丧失、失去",
+      "japanese": "失う",
+      "kana": "うしなう",
+      "romaji": "ushinau",
+      "tokens": [
+        {
+          "text": "失う",
+          "kana": "うしなう"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "往返、来往",
+      "japanese": "通う",
+      "kana": "かよう",
+      "romaji": "kayou",
+      "tokens": [
+        {
+          "text": "通う",
+          "kana": "かよう"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "计算、数、列举",
+      "japanese": "数える",
+      "kana": "かぞえる",
+      "romaji": "kazoeru",
+      "tokens": [
+        {
+          "text": "数える",
+          "kana": "かぞえる"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "归还、还给",
+      "japanese": "返す",
+      "kana": "かえす",
+      "romaji": "kaesu",
+      "tokens": [
+        {
+          "text": "返す",
+          "kana": "かえす"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "庆祝、祝贺",
+      "japanese": "祝う",
+      "kana": "いわう",
+      "romaji": "iwau",
+      "tokens": [
+        {
+          "text": "祝う",
+          "kana": "いわう"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "出生、诞生",
+      "japanese": "生まれる",
+      "kana": "うまれる",
+      "romaji": "umareru",
+      "tokens": [
+        {
+          "text": "生まれる",
+          "kana": "うまれる"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "把～载上",
+      "japanese": "乗せる",
+      "kana": "のせる",
+      "romaji": "noseru",
+      "tokens": [
+        {
+          "text": "乗せる",
+          "kana": "のせる"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "把～转向",
+      "japanese": "向ける",
+      "kana": "むける",
+      "romaji": "mukeru",
+      "tokens": [
+        {
+          "text": "向ける",
+          "kana": "むける"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "举行、执行、开展",
+      "japanese": "行う",
+      "kana": "おこなう",
+      "romaji": "okonau",
+      "tokens": [
+        {
+          "text": "行う",
+          "kana": "おこなう"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "发生、发起",
+      "japanese": "起こる",
+      "kana": "おこる",
+      "romaji": "okoru",
+      "tokens": [
+        {
+          "text": "起こる",
+          "kana": "おこる"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "归还、还给",
+      "japanese": "返す",
+      "kana": "かえす",
+      "romaji": "kaesu",
+      "tokens": [
+        {
+          "text": "返す",
+          "kana": "かえす"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "描绘、绘、画",
+      "japanese": "描く",
+      "kana": "えがく",
+      "romaji": "egaku",
+      "tokens": [
+        {
+          "text": "描く",
+          "kana": "えがく"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "出生、诞生",
+      "japanese": "生まれる",
+      "kana": "うまれる",
+      "romaji": "umareru",
+      "tokens": [
+        {
+          "text": "生まれる",
+          "kana": "うまれる"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "把～载上",
+      "japanese": "乗せる",
+      "kana": "のせる",
+      "romaji": "noseru",
+      "tokens": [
+        {
+          "text": "乗せる",
+          "kana": "のせる"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "洗、清洗",
+      "japanese": "洗う",
+      "kana": "あらう",
+      "romaji": "arau",
+      "tokens": [
+        {
+          "text": "洗う",
+          "kana": "あらう"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "把～拿给别人看",
+      "japanese": "見せる",
+      "kana": "みせる",
+      "romaji": "miseru",
+      "tokens": [
+        {
+          "text": "見せる",
+          "kana": "みせる"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "庆祝、祝贺",
+      "japanese": "祝う",
+      "kana": "いわう",
+      "romaji": "iwau",
+      "tokens": [
+        {
+          "text": "祝う",
+          "kana": "いわう"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "飞行、飞跑",
+      "japanese": "飛ぶ",
+      "kana": "とぶ",
+      "romaji": "tobu",
+      "tokens": [
+        {
+          "text": "飛ぶ",
+          "kana": "とぶ"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "让～动",
+      "japanese": "動かす",
+      "kana": "うごかす",
+      "romaji": "ugokasu",
+      "tokens": [
+        {
+          "text": "動かす",
+          "kana": "うごかす"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "叫醒、弄起、扶起",
+      "japanese": "起こす",
+      "kana": "おこす",
+      "romaji": "okosu",
+      "tokens": [
+        {
+          "text": "起こす",
+          "kana": "おこす"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "比较",
+      "japanese": "比べる",
+      "kana": "くらべる",
+      "romaji": "kuraberu",
+      "tokens": [
+        {
+          "text": "比べる",
+          "kana": "くらべる"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "移动、动弹",
+      "japanese": "動く",
+      "kana": "うごく",
+      "romaji": "ugoku",
+      "tokens": [
+        {
+          "text": "動く",
+          "kana": "うごく"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "丢失、丧失、失去",
+      "japanese": "失う",
+      "kana": "うしなう",
+      "romaji": "ushinau",
+      "tokens": [
+        {
+          "text": "失う",
+          "kana": "うしなう"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "往返、来往",
+      "japanese": "通う",
+      "kana": "かよう",
+      "romaji": "kayou",
+      "tokens": [
+        {
+          "text": "通う",
+          "kana": "かよう"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "穿",
+      "japanese": "着る",
+      "kana": "きる",
+      "romaji": "kiru",
+      "tokens": [
+        {
+          "text": "着る",
+          "kana": "きる"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "沉着、内心平静",
+      "japanese": "落ち着く",
+      "kana": "おちつく",
+      "romaji": "ochitsuku",
+      "tokens": [
+        {
+          "text": "落ち着く",
+          "kana": "おちつく"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "创造；开始做",
+      "japanese": "作り出す",
+      "kana": "つくりだす",
+      "romaji": "tsukuridasu",
+      "tokens": [
+        {
+          "text": "作り出す",
+          "kana": "つくりだす"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "让～流走、冲～",
+      "japanese": "流す",
+      "kana": "ながす",
+      "romaji": "nagasu",
+      "tokens": [
+        {
+          "text": "流す",
+          "kana": "ながす"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "帮助、救助、救命",
+      "japanese": "助ける",
+      "kana": "たすける",
+      "romaji": "tasukeru",
+      "tokens": [
+        {
+          "text": "助ける",
+          "kana": "たすける"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "朝向、朝着",
+      "japanese": "向かう",
+      "kana": "むかう",
+      "romaji": "mukau",
+      "tokens": [
+        {
+          "text": "向かう",
+          "kana": "むかう"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "寻找、搜寻、寻求",
+      "japanese": "探す",
+      "kana": "さがす",
+      "romaji": "sagasu",
+      "tokens": [
+        {
+          "text": "探す",
+          "kana": "さがす"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "计算、数、列举",
+      "japanese": "数える",
+      "kana": "かぞえる",
+      "romaji": "kazoeru",
+      "tokens": [
+        {
+          "text": "数える",
+          "kana": "かぞえる"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "弄丢、使落下",
+      "japanese": "落とす",
+      "kana": "おとす",
+      "romaji": "otosu",
+      "tokens": [
+        {
+          "text": "落とす",
+          "kana": "おとす"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "下降、降低",
+      "japanese": "下がる",
+      "kana": "さがる",
+      "romaji": "sagaru",
+      "tokens": [
+        {
+          "text": "下がる",
+          "kana": "さがる"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "流淌、流动、流逝",
+      "japanese": "流れる",
+      "kana": "ながれる",
+      "romaji": "nagareru",
+      "tokens": [
+        {
+          "text": "流れる",
+          "kana": "ながれる"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "取得、获得",
+      "japanese": "得る",
+      "kana": "える",
+      "romaji": "eru",
+      "tokens": [
+        {
+          "text": "得る",
+          "kana": "える"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "放弃、断念、死心",
+      "japanese": "諦める",
+      "kana": "あきらめる",
+      "romaji": "akirameru",
+      "tokens": [
+        {
+          "text": "諦める",
+          "kana": "あきらめる"
+        }
+      ]
+    }
+  ]
+}

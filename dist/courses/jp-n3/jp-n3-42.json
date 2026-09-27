@@ -1,0 +1,281 @@
+{
+  "id": "jp-n3-42",
+  "coursePackId": "jp-n3",
+  "title": "名词 42",
+  "order": 42,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "果子露冰激凌，果冰",
+      "japanese": "シャーベット",
+      "kana": "しゃあべっと",
+      "romaji": "shaabetto",
+      "tokens": [
+        {
+          "text": "シャーベット",
+          "kana": "しゃあべっと"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "（飞机的）机长",
+      "japanese": "機長",
+      "kana": "きちょう",
+      "romaji": "kichou",
+      "tokens": [
+        {
+          "text": "機長",
+          "kana": "きちょう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "书",
+      "japanese": "ブック",
+      "kana": "ぶっく",
+      "romaji": "bukku",
+      "tokens": [
+        {
+          "text": "ブック",
+          "kana": "ぶっく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "例句",
+      "japanese": "例文",
+      "kana": "れいぶん",
+      "romaji": "reibun",
+      "tokens": [
+        {
+          "text": "例文",
+          "kana": "れいぶん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "自行车旅行",
+      "japanese": "サイクリング",
+      "kana": "さいくりんぐ",
+      "romaji": "saikuringu",
+      "tokens": [
+        {
+          "text": "サイクリング",
+          "kana": "さいくりんぐ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "订书机",
+      "japanese": "ホチキス",
+      "kana": "ほちきす",
+      "romaji": "hochikisu",
+      "tokens": [
+        {
+          "text": "ホチキス",
+          "kana": "ほちきす"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "停止开放",
+      "japanese": "休館",
+      "kana": "きゅうかん",
+      "romaji": "kyuukan",
+      "tokens": [
+        {
+          "text": "休館",
+          "kana": "きゅうかん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "能说会道（的人）",
+      "japanese": "話し上手",
+      "kana": "はなしじょうず",
+      "romaji": "hanashijouzu",
+      "tokens": [
+        {
+          "text": "話し上手",
+          "kana": "はなしじょうず"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "个体差异",
+      "japanese": "個人差",
+      "kana": "こじんさ",
+      "romaji": "kojinsa",
+      "tokens": [
+        {
+          "text": "個人差",
+          "kana": "こじんさ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "成员，队员",
+      "japanese": "部員",
+      "kana": "ぶいん",
+      "romaji": "buin",
+      "tokens": [
+        {
+          "text": "部員",
+          "kana": "ぶいん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "传单",
+      "japanese": "散らし",
+      "kana": "ちらし",
+      "romaji": "chirashi",
+      "tokens": [
+        {
+          "text": "散らし",
+          "kana": "ちらし"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "岩石；摇滚（乐）",
+      "japanese": "ロック",
+      "kana": "ろっく",
+      "romaji": "rokku",
+      "tokens": [
+        {
+          "text": "ロック",
+          "kana": "ろっく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "晚点",
+      "japanese": "遅れ",
+      "kana": "おくれ",
+      "romaji": "okure",
+      "tokens": [
+        {
+          "text": "遅れ",
+          "kana": "おくれ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "断念，死心",
+      "japanese": "諦め",
+      "kana": "あきらめ",
+      "romaji": "akirame",
+      "tokens": [
+        {
+          "text": "諦め",
+          "kana": "あきらめ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "中级，中等",
+      "japanese": "中級",
+      "kana": "ちゅうきゅう",
+      "romaji": "chuukyuu",
+      "tokens": [
+        {
+          "text": "中級",
+          "kana": "ちゅうきゅう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "搬运，携带",
+      "japanese": "持ち運び",
+      "kana": "もちはこび",
+      "romaji": "mochihakobi",
+      "tokens": [
+        {
+          "text": "持ち運び",
+          "kana": "もちはこび"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "秋千",
+      "japanese": "ぶらんこ",
+      "kana": "ぶらんこ",
+      "romaji": "buranko",
+      "tokens": [
+        {
+          "text": "ぶらんこ",
+          "kana": "ぶらんこ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "旧衣服，二手衣服",
+      "japanese": "古着",
+      "kana": "ふるぎ",
+      "romaji": "furugi",
+      "tokens": [
+        {
+          "text": "古着",
+          "kana": "ふるぎ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "调查，搜集信息",
+      "japanese": "調べ物",
+      "kana": "しらべもの",
+      "romaji": "shirabemono",
+      "tokens": [
+        {
+          "text": "調べ物",
+          "kana": "しらべもの"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "下周，翌周",
+      "japanese": "翌週",
+      "kana": "よくしゅう",
+      "romaji": "yokushuu",
+      "tokens": [
+        {
+          "text": "翌週",
+          "kana": "よくしゅう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "说话声，交谈声",
+      "japanese": "話し声",
+      "kana": "はなしごえ",
+      "romaji": "hanashigoe",
+      "tokens": [
+        {
+          "text": "話し声",
+          "kana": "はなしごえ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "id": "jp-gaokao-61",
+  "coursePackId": "jp-gaokao",
+  "title": "语气词 1",
+  "order": 61,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "提醒、告知劝诱、拜托",
+      "japanese": "よ",
+      "kana": "よ",
+      "romaji": "yo",
+      "tokens": [
+        {
+          "text": "よ",
+          "kana": "よ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "确认、不确定类似ね",
+      "japanese": "よね",
+      "kana": "よね",
+      "romaji": "yone",
+      "tokens": [
+        {
+          "text": "よね",
+          "kana": "よね"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "回忆、确认",
+      "japanese": "つけ",
+      "kana": "つけ",
+      "romaji": "tsuke",
+      "tokens": [
+        {
+          "text": "つけ",
+          "kana": "つけ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "提醒、强烈意志，类似よ",
+      "japanese": "ぞ",
+      "kana": "ぞ",
+      "romaji": "zo",
+      "tokens": [
+        {
+          "text": "ぞ",
+          "kana": "ぞ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "感叹、提醒、主张",
+      "japanese": "わ",
+      "kana": "わ",
+      "romaji": "wa",
+      "tokens": [
+        {
+          "text": "わ",
+          "kana": "わ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "发现、感叹",
+      "japanese": "なあ",
+      "kana": "なあ",
+      "romaji": "naa",
+      "tokens": [
+        {
+          "text": "なあ",
+          "kana": "なあ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "确认、赞同思索",
+      "japanese": "ね",
+      "kana": "ね",
+      "romaji": "ne",
+      "tokens": [
+        {
+          "text": "ね",
+          "kana": "ね"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "回忆、确认",
+      "japanese": "つけ",
+      "kana": "つけ",
+      "romaji": "tsuke",
+      "tokens": [
+        {
+          "text": "つけ",
+          "kana": "つけ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "提醒、告知劝诱、拜托",
+      "japanese": "よ",
+      "kana": "よ",
+      "romaji": "yo",
+      "tokens": [
+        {
+          "text": "よ",
+          "kana": "よ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "感叹、提醒、主张",
+      "japanese": "わ",
+      "kana": "わ",
+      "romaji": "wa",
+      "tokens": [
+        {
+          "text": "わ",
+          "kana": "わ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "发现、感叹",
+      "japanese": "なあ",
+      "kana": "なあ",
+      "romaji": "naa",
+      "tokens": [
+        {
+          "text": "なあ",
+          "kana": "なあ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "提醒、强烈意志，类似よ",
+      "japanese": "ぞ",
+      "kana": "ぞ",
+      "romaji": "zo",
+      "tokens": [
+        {
+          "text": "ぞ",
+          "kana": "ぞ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "确认、不确定类似ね",
+      "japanese": "よね",
+      "kana": "よね",
+      "romaji": "yone",
+      "tokens": [
+        {
+          "text": "よね",
+          "kana": "よね"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "确认、赞同思索",
+      "japanese": "ね",
+      "kana": "ね",
+      "romaji": "ne",
+      "tokens": [
+        {
+          "text": "ね",
+          "kana": "ね"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "回忆、确认",
+      "japanese": "つけ",
+      "kana": "つけ",
+      "romaji": "tsuke",
+      "tokens": [
+        {
+          "text": "つけ",
+          "kana": "つけ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "发现、感叹",
+      "japanese": "なあ",
+      "kana": "なあ",
+      "romaji": "naa",
+      "tokens": [
+        {
+          "text": "なあ",
+          "kana": "なあ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "提醒、强烈意志，类似よ",
+      "japanese": "ぞ",
+      "kana": "ぞ",
+      "romaji": "zo",
+      "tokens": [
+        {
+          "text": "ぞ",
+          "kana": "ぞ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "感叹、提醒、主张",
+      "japanese": "わ",
+      "kana": "わ",
+      "romaji": "wa",
+      "tokens": [
+        {
+          "text": "わ",
+          "kana": "わ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "确认、赞同思索",
+      "japanese": "ね",
+      "kana": "ね",
+      "romaji": "ne",
+      "tokens": [
+        {
+          "text": "ね",
+          "kana": "ね"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "提醒、告知劝诱、拜托",
+      "japanese": "よ",
+      "kana": "よ",
+      "romaji": "yo",
+      "tokens": [
+        {
+          "text": "よ",
+          "kana": "よ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "确认、不确定类似ね",
+      "japanese": "よね",
+      "kana": "よね",
+      "romaji": "yone",
+      "tokens": [
+        {
+          "text": "よね",
+          "kana": "よね"
+        }
+      ]
+    }
+  ]
+}

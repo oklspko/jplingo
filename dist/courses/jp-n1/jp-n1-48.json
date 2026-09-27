@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-48",
+  "coursePackId": "jp-n1",
+  "title": "名词 48",
+  "order": 48,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "色调；色彩",
+      "japanese": "色合い",
+      "kana": "いろあい",
+      "romaji": "iroai",
+      "tokens": [
+        {
+          "text": "色合い",
+          "kana": "いろあい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "受到刺激（而去做某事）",
+      "japanese": "触発",
+      "kana": "しょくはつ",
+      "romaji": "shokuhatsu",
+      "tokens": [
+        {
+          "text": "触発",
+          "kana": "しょくはつ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "（对方的行为或事情的结果出乎意料而感到）遗憾，意外",
+      "japanese": "心外",
+      "kana": "しんがい",
+      "romaji": "shingai",
+      "tokens": [
+        {
+          "text": "心外",
+          "kana": "しんがい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "深化，加深",
+      "japanese": "深化",
+      "kana": "しんか",
+      "romaji": "shinka",
+      "tokens": [
+        {
+          "text": "深化",
+          "kana": "しんか"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "真伪",
+      "japanese": "真偽",
+      "kana": "しんぎ",
+      "romaji": "shingi",
+      "tokens": [
+        {
+          "text": "真偽",
+          "kana": "しんぎ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "正上方",
+      "japanese": "真上",
+      "kana": "まうえ",
+      "romaji": "maue",
+      "tokens": [
+        {
+          "text": "真上",
+          "kana": "まうえ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "正对面",
+      "japanese": "真正面",
+      "kana": "ましょうめん",
+      "romaji": "mashoumen",
+      "tokens": [
+        {
+          "text": "真正面",
+          "kana": "ましょうめん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "神经质，过分在意",
+      "japanese": "神経質",
+      "kana": "しんけいしつ",
+      "romaji": "shinkeishitsu",
+      "tokens": [
+        {
+          "text": "神経質",
+          "kana": "しんけいしつ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "亲切感",
+      "japanese": "親近感",
+      "kana": "しんきんかん",
+      "romaji": "shinkinkan",
+      "tokens": [
+        {
+          "text": "親近感",
+          "kana": "しんきんかん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "父母心；父母般的关怀",
+      "japanese": "親心",
+      "kana": "おやごころ",
+      "romaji": "oyagokoro",
+      "tokens": [
+        {
+          "text": "親心",
+          "kana": "おやごころ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "老板，工头，师傅",
+      "japanese": "親方",
+      "kana": "おやかた",
+      "romaji": "oyakata",
+      "tokens": [
+        {
+          "text": "親方",
+          "kana": "おやかた"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "亲密，密切",
+      "japanese": "親密",
+      "kana": "しんみつ",
+      "romaji": "shinmitsu",
+      "tokens": [
+        {
+          "text": "親密",
+          "kana": "しんみつ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "普通，寻常",
+      "japanese": "人並み",
+      "kana": "ひとなみ",
+      "romaji": "hitonami",
+      "tokens": [
+        {
+          "text": "人並み",
+          "kana": "ひとなみ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "灰尘，污垢，垃圾；少许，丝毫（不）",
+      "japanese": "塵[ちり]",
+      "kana": "ちり",
+      "romaji": "chiri",
+      "tokens": [
+        {
+          "text": "塵[ちり]",
+          "kana": "ちり"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "尽力，努力",
+      "japanese": "尽力",
+      "kana": "じんりょく",
+      "romaji": "jinryoku",
+      "tokens": [
+        {
+          "text": "尽力",
+          "kana": "じんりょく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "推理，推断",
+      "japanese": "推理",
+      "kana": "すいり",
+      "romaji": "suiri",
+      "tokens": [
+        {
+          "text": "推理",
+          "kana": "すいり"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "水深",
+      "japanese": "水深",
+      "kana": "すいしん",
+      "romaji": "suishin",
+      "tokens": [
+        {
+          "text": "水深",
+          "kana": "すいしん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "水槽；鱼缸",
+      "japanese": "水槽",
+      "kana": "すいそう",
+      "romaji": "suisou",
+      "tokens": [
+        {
+          "text": "水槽",
+          "kana": "すいそう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "雏鸟；（三月三日女儿节陈列的）古装玩偶；小而可爱",
+      "japanese": "雛[ひな]",
+      "kana": "ひな",
+      "romaji": "hina",
+      "tokens": [
+        {
+          "text": "雛[ひな]",
+          "kana": "ひな"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（价格）不变动；搁置；（存款、债券等）冻结",
+      "japanese": "据え置き",
+      "kana": "すえおき",
+      "romaji": "sueoki",
+      "tokens": [
+        {
+          "text": "据え置き",
+          "kana": "すえおき"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "迫在眉睫；临近",
+      "japanese": "寸前",
+      "kana": "すんぜん",
+      "romaji": "sunzen",
+      "tokens": [
+        {
+          "text": "寸前",
+          "kana": "すんぜん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "性急，急躁",
+      "japanese": "性急",
+      "kana": "せいきゅう",
+      "romaji": "seikyuu",
+      "tokens": [
+        {
+          "text": "性急",
+          "kana": "せいきゅう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "趋势，推移",
+      "japanese": "成り行き",
+      "kana": "なりゆき",
+      "romaji": "nariyuki",
+      "tokens": [
+        {
+          "text": "成り行き",
+          "kana": "なりゆき"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "成员",
+      "japanese": "成員",
+      "kana": "せいいん",
+      "romaji": "seiin",
+      "tokens": [
+        {
+          "text": "成員",
+          "kana": "せいいん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "成就，实现",
+      "japanese": "成就",
+      "kana": "じょうじゅ",
+      "romaji": "jouju",
+      "tokens": [
+        {
+          "text": "成就",
+          "kana": "じょうじゅ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "政策",
+      "japanese": "政策",
+      "kana": "せいさく",
+      "romaji": "seisaku",
+      "tokens": [
+        {
+          "text": "政策",
+          "kana": "せいさく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "生动，栩栩如生",
+      "japanese": "生動",
+      "kana": "せいどう",
+      "romaji": "seidou",
+      "tokens": [
+        {
+          "text": "生動",
+          "kana": "せいどう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "装盘摆设",
+      "japanese": "盛り付け",
+      "kana": "もりつけ",
+      "romaji": "moritsuke",
+      "tokens": [
+        {
+          "text": "盛り付け",
+          "kana": "もりつけ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "细算；补（票）",
+      "japanese": "精算",
+      "kana": "せいさん",
+      "romaji": "seisan",
+      "tokens": [
+        {
+          "text": "精算",
+          "kana": "せいさん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "精度",
+      "japanese": "精度",
+      "kana": "せいど",
+      "romaji": "seido",
+      "tokens": [
+        {
+          "text": "精度",
+          "kana": "せいど"
+        }
+      ]
+    }
+  ]
+}

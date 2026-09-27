@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-08",
+  "coursePackId": "jp-n4",
+  "title": "名词 8",
+  "order": 8,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "自信，信心",
+      "japanese": "自信",
+      "kana": "じしん",
+      "romaji": "jishin",
+      "tokens": [
+        {
+          "text": "自信",
+          "kana": "じしん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "失败",
+      "japanese": "失敗",
+      "kana": "しっぱい",
+      "romaji": "shippai",
+      "tokens": [
+        {
+          "text": "失敗",
+          "kana": "しっぱい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "失礼；离开，退席",
+      "japanese": "失礼",
+      "kana": "しつれい",
+      "romaji": "shitsurei",
+      "tokens": [
+        {
+          "text": "失礼",
+          "kana": "しつれい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "社长",
+      "japanese": "社長",
+      "kana": "しゃちょう",
+      "romaji": "shachou",
+      "tokens": [
+        {
+          "text": "社長",
+          "kana": "しゃちょう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "手套",
+      "japanese": "手袋",
+      "kana": "てぶくろ",
+      "romaji": "tebukuro",
+      "tokens": [
+        {
+          "text": "手袋",
+          "kana": "てぶくろ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "帮忙，帮工",
+      "japanese": "手伝い",
+      "kana": "てつだい",
+      "romaji": "tetsudai",
+      "tokens": [
+        {
+          "text": "手伝い",
+          "kana": "てつだい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "周围，四周；附近",
+      "japanese": "周り",
+      "kana": "まわり",
+      "romaji": "mawari",
+      "tokens": [
+        {
+          "text": "周り",
+          "kana": "まわり"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "住址，地址",
+      "japanese": "住所",
+      "kana": "じゅうしょ",
+      "romaji": "juusho",
+      "tokens": [
+        {
+          "text": "住所",
+          "kana": "じゅうしょ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "出发，启程",
+      "japanese": "出発",
+      "kana": "しゅっぱつ",
+      "romaji": "shuppatsu",
+      "tokens": [
+        {
+          "text": "出発",
+          "kana": "しゅっぱつ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "准备，预备",
+      "japanese": "準備",
+      "kana": "じゅんび",
+      "romaji": "junbi",
+      "tokens": [
+        {
+          "text": "準備",
+          "kana": "じゅんび"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "伤；瑕疵；缺陷",
+      "japanese": "傷",
+      "kana": "きず",
+      "romaji": "kizu",
+      "tokens": [
+        {
+          "text": "傷",
+          "kana": "きず"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "将来，未来",
+      "japanese": "将来",
+      "kana": "しょうらい",
+      "romaji": "shourai",
+      "tokens": [
+        {
+          "text": "将来",
+          "kana": "しょうらい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "小说",
+      "japanese": "小説",
+      "kana": "しょうせつ",
+      "romaji": "shousetsu",
+      "tokens": [
+        {
+          "text": "小説",
+          "kana": "しょうせつ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "地板，地上",
+      "japanese": "床",
+      "kana": "ゆか",
+      "romaji": "yuka",
+      "tokens": [
+        {
+          "text": "床",
+          "kana": "ゆか"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "知道，明白；答应，同意",
+      "japanese": "承知",
+      "kana": "しょうち",
+      "romaji": "shouchi",
+      "tokens": [
+        {
+          "text": "承知",
+          "kana": "しょうち"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "介绍",
+      "japanese": "紹介",
+      "kana": "しょうかい",
+      "romaji": "shoukai",
+      "tokens": [
+        {
+          "text": "紹介",
+          "kana": "しょうかい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "玩笑，笑话",
+      "japanese": "冗談",
+      "kana": "じょうだん",
+      "romaji": "joudan",
+      "tokens": [
+        {
+          "text": "冗談",
+          "kana": "じょうだん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "场合，时候，情形",
+      "japanese": "場合",
+      "kana": "ばあい",
+      "romaji": "baai",
+      "tokens": [
+        {
+          "text": "場合",
+          "kana": "ばあい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "场所，地方",
+      "japanese": "場所",
+      "kana": "ばしょ",
+      "romaji": "basho",
+      "tokens": [
+        {
+          "text": "場所",
+          "kana": "ばしょ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "情报，信息",
+      "japanese": "情報",
+      "kana": "じょうほう",
+      "romaji": "jouhou",
+      "tokens": [
+        {
+          "text": "情報",
+          "kana": "じょうほう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（特指主食之外的鱼肉类、蔬菜和水果等）食品",
+      "japanese": "食料品",
+      "kana": "しょくりょうひん",
+      "romaji": "shokuryouhin",
+      "tokens": [
+        {
+          "text": "食料品",
+          "kana": "しょくりょうひん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "睡懒觉（的人）",
+      "japanese": "寝坊",
+      "kana": "ねぼう",
+      "romaji": "nebou",
+      "tokens": [
+        {
+          "text": "寝坊",
+          "kana": "ねぼう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "担心；操心",
+      "japanese": "心配",
+      "kana": "しんぱい",
+      "romaji": "shinpai",
+      "tokens": [
+        {
+          "text": "心配",
+          "kana": "しんぱい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "神社",
+      "japanese": "神社",
+      "kana": "じんじゃ",
+      "romaji": "jinja",
+      "tokens": [
+        {
+          "text": "神社",
+          "kana": "じんじゃ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "亲切，热情",
+      "japanese": "親切",
+      "kana": "しんせつ",
+      "romaji": "shinsetsu",
+      "tokens": [
+        {
+          "text": "親切",
+          "kana": "しんせつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "人们，很多人",
+      "japanese": "人々",
+      "kana": "ひとびと",
+      "romaji": "hitobito",
+      "tokens": [
+        {
+          "text": "人々",
+          "kana": "ひとびと"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "人口",
+      "japanese": "人口",
+      "kana": "じんこう",
+      "romaji": "jinkou",
+      "tokens": [
+        {
+          "text": "人口",
+          "kana": "じんこう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "游泳",
+      "japanese": "水泳",
+      "kana": "すいえい",
+      "romaji": "suiei",
+      "tokens": [
+        {
+          "text": "水泳",
+          "kana": "すいえい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "照顾，帮忙",
+      "japanese": "世話",
+      "kana": "せわ",
+      "romaji": "sewa",
+      "tokens": [
+        {
+          "text": "世話",
+          "kana": "せわ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "性格，脾气",
+      "japanese": "性格",
+      "kana": "せいかく",
+      "romaji": "seikaku",
+      "tokens": [
+        {
+          "text": "性格",
+          "kana": "せいかく"
+        }
+      ]
+    }
+  ]
+}

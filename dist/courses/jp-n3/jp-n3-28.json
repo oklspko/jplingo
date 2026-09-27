@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-28",
+  "coursePackId": "jp-n3",
+  "title": "名词 28",
+  "order": 28,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "店长",
+      "japanese": "店長",
+      "kana": "てんちょう",
+      "romaji": "tenchou",
+      "tokens": [
+        {
+          "text": "店長",
+          "kana": "てんちょう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "电灯泡",
+      "japanese": "電球",
+      "kana": "でんきゅう",
+      "romaji": "denkyuu",
+      "tokens": [
+        {
+          "text": "電球",
+          "kana": "でんきゅう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "攀登，登上",
+      "japanese": "登り",
+      "kana": "のぼり",
+      "romaji": "nobori",
+      "tokens": [
+        {
+          "text": "登り",
+          "kana": "のぼり"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "次，回；每当",
+      "japanese": "度",
+      "kana": "たび",
+      "romaji": "tabi",
+      "tokens": [
+        {
+          "text": "度",
+          "kana": "たび"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "土地；当地",
+      "japanese": "土地",
+      "kana": "とち",
+      "romaji": "tochi",
+      "tokens": [
+        {
+          "text": "土地",
+          "kana": "とち"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "东侧",
+      "japanese": "東側",
+      "kana": "ひがしがわ",
+      "romaji": "higashigawa",
+      "tokens": [
+        {
+          "text": "東側",
+          "kana": "ひがしがわ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "豆；小型的",
+      "japanese": "豆",
+      "kana": "まめ",
+      "romaji": "mame",
+      "tokens": [
+        {
+          "text": "豆",
+          "kana": "まめ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "同班同学，同年级同学",
+      "japanese": "同級生",
+      "kana": "どうきゅうせい",
+      "romaji": "doukyuusei",
+      "tokens": [
+        {
+          "text": "同級生",
+          "kana": "どうきゅうせい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "特长",
+      "japanese": "特長",
+      "kana": "とくちょう",
+      "romaji": "tokuchou",
+      "tokens": [
+        {
+          "text": "特長",
+          "kana": "とくちょう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "内科",
+      "japanese": "内科",
+      "kana": "ないか",
+      "romaji": "naika",
+      "tokens": [
+        {
+          "text": "内科",
+          "kana": "ないか"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "谜；暗示；谜语",
+      "japanese": "謎",
+      "kana": "なぞ",
+      "romaji": "nazo",
+      "tokens": [
+        {
+          "text": "謎",
+          "kana": "なぞ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "日期和时间",
+      "japanese": "日時",
+      "kana": "にちじ",
+      "romaji": "nichiji",
+      "tokens": [
+        {
+          "text": "日時",
+          "kana": "にちじ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "年代；一年",
+      "japanese": "年間",
+      "kana": "ねんかん",
+      "romaji": "nenkan",
+      "tokens": [
+        {
+          "text": "年間",
+          "kana": "ねんかん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "销售额，营业额",
+      "japanese": "売り上げ",
+      "kana": "うりあげ",
+      "romaji": "uriage",
+      "tokens": [
+        {
+          "text": "売り上げ",
+          "kana": "うりあげ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "发言",
+      "japanese": "発言",
+      "kana": "はつげん",
+      "romaji": "hatsugen",
+      "tokens": [
+        {
+          "text": "発言",
+          "kana": "はつげん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "发生；出现",
+      "japanese": "発生",
+      "kana": "はっせい",
+      "romaji": "hassei",
+      "tokens": [
+        {
+          "text": "発生",
+          "kana": "はっせい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "各半，一半对一半",
+      "japanese": "半々",
+      "kana": "はんはん",
+      "romaji": "hanhan",
+      "tokens": [
+        {
+          "text": "半々",
+          "kana": "はんはん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "秘书",
+      "japanese": "秘書",
+      "kana": "ひしょ",
+      "romaji": "hisho",
+      "tokens": [
+        {
+          "text": "秘書",
+          "kana": "ひしょ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "紧急；非常",
+      "japanese": "非常",
+      "kana": "ひじょう",
+      "romaji": "hijou",
+      "tokens": [
+        {
+          "text": "非常",
+          "kana": "ひじょう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "美容院；美发厅",
+      "japanese": "美容院",
+      "kana": "びよういん",
+      "romaji": "biyouin",
+      "tokens": [
+        {
+          "text": "美容院",
+          "kana": "びよういん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "房地产，不动产",
+      "japanese": "不動産",
+      "kana": "ふどうさん",
+      "romaji": "fudousan",
+      "tokens": [
+        {
+          "text": "不動産",
+          "kana": "ふどうさん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "夫妇，夫妻",
+      "japanese": "夫婦",
+      "kana": "ふうふ",
+      "romaji": "fuufu",
+      "tokens": [
+        {
+          "text": "夫婦",
+          "kana": "ふうふ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（地方行政区单位）府；（政府机关）部门",
+      "japanese": "府",
+      "kana": "ふ",
+      "romaji": "fu",
+      "tokens": [
+        {
+          "text": "府",
+          "kana": "ふ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "副……",
+      "japanese": "副",
+      "kana": "ふく",
+      "romaji": "fuku",
+      "tokens": [
+        {
+          "text": "副",
+          "kana": "ふく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "服装，穿着",
+      "japanese": "服装",
+      "kana": "ふくそう",
+      "romaji": "fukusou",
+      "tokens": [
+        {
+          "text": "服装",
+          "kana": "ふくそう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "故事；传说",
+      "japanese": "物語",
+      "kana": "ものがたり",
+      "romaji": "monogatari",
+      "tokens": [
+        {
+          "text": "物語",
+          "kana": "ものがたり"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "两个中的一个",
+      "japanese": "片方",
+      "kana": "かたほう",
+      "romaji": "katahou",
+      "tokens": [
+        {
+          "text": "片方",
+          "kana": "かたほう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "回信",
+      "japanese": "返信",
+      "kana": "へんしん",
+      "romaji": "henshin",
+      "tokens": [
+        {
+          "text": "返信",
+          "kana": "へんしん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "步行者，行人",
+      "japanese": "歩行者",
+      "kana": "ほこうしゃ",
+      "romaji": "hokousha",
+      "tokens": [
+        {
+          "text": "歩行者",
+          "kana": "ほこうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "泡，沫，水花",
+      "japanese": "泡",
+      "kana": "あわ",
+      "romaji": "awa",
+      "tokens": [
+        {
+          "text": "泡",
+          "kana": "あわ"
+        }
+      ]
+    }
+  ]
+}

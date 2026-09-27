@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-49",
+  "coursePackId": "jp-n3",
+  "title": "动词 7",
+  "order": 49,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "填；填满；弥补",
+      "japanese": "埋める",
+      "kana": "うめる",
+      "romaji": "umeru",
+      "tokens": [
+        {
+          "text": "埋める",
+          "kana": "うめる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "天亮；（季节、时期等）结束",
+      "japanese": "明ける",
+      "kana": "あける",
+      "romaji": "akeru",
+      "tokens": [
+        {
+          "text": "明ける",
+          "kana": "あける"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "给，给予；使蒙受",
+      "japanese": "与える",
+      "kana": "あたえる",
+      "romaji": "ataeru",
+      "tokens": [
+        {
+          "text": "与える",
+          "kana": "あたえる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "依靠，依赖",
+      "japanese": "頼る",
+      "kana": "たよる",
+      "romaji": "tayoru",
+      "tokens": [
+        {
+          "text": "頼る",
+          "kana": "たよる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "沉着；安定；平静（下来）",
+      "japanese": "落ち着く",
+      "kana": "おちつく",
+      "romaji": "ochitsuku",
+      "tokens": [
+        {
+          "text": "落ち着く",
+          "kana": "おちつく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "使离开；隔开",
+      "japanese": "離す",
+      "kana": "はなす",
+      "romaji": "hanasu",
+      "tokens": [
+        {
+          "text": "離す",
+          "kana": "はなす"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "冷却；泼冷水",
+      "japanese": "冷ます",
+      "kana": "さます",
+      "romaji": "samasu",
+      "tokens": [
+        {
+          "text": "冷ます",
+          "kana": "さます"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "变冷；减退",
+      "japanese": "冷める",
+      "kana": "さめる",
+      "romaji": "sameru",
+      "tokens": [
+        {
+          "text": "冷める",
+          "kana": "さめる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "冰镇；使冷静",
+      "japanese": "冷やす",
+      "kana": "ひやす",
+      "romaji": "hiyasu",
+      "tokens": [
+        {
+          "text": "冷やす",
+          "kana": "ひやす"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "打招呼；开始说",
+      "japanese": "話しかける",
+      "kana": "はなしかける",
+      "romaji": "hanashikakeru",
+      "tokens": [
+        {
+          "text": "話しかける",
+          "kana": "はなしかける"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "谈话，商量",
+      "japanese": "話し合う",
+      "kana": "はなしあう",
+      "romaji": "hanashiau",
+      "tokens": [
+        {
+          "text": "話し合う",
+          "kana": "はなしあう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "闻",
+      "japanese": "嗅ぐ",
+      "kana": "かぐ",
+      "romaji": "kagu",
+      "tokens": [
+        {
+          "text": "嗅ぐ",
+          "kana": "かぐ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "互相……，一起……",
+      "japanese": "〜合う",
+      "kana": "〜合う",
+      "romaji": "~合u",
+      "tokens": [
+        {
+          "text": "〜合う",
+          "kana": "〜合う"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "顺序；订货",
+      "japanese": "オーダー",
+      "kana": "おうだあ",
+      "romaji": "oudaa",
+      "tokens": [
+        {
+          "text": "オーダー",
+          "kana": "おうだあ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "患（病），遭（灾）",
+      "japanese": "罹[かか]る",
+      "kana": "かかる",
+      "romaji": "kakaru",
+      "tokens": [
+        {
+          "text": "罹[かか]る",
+          "kana": "かかる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "搔；扒；出（汗）",
+      "japanese": "搔[か]く",
+      "kana": "かく",
+      "romaji": "kaku",
+      "tokens": [
+        {
+          "text": "搔[か]く",
+          "kana": "かく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "洒，泼；抱怨",
+      "japanese": "こぼす",
+      "kana": "こぼす",
+      "romaji": "kobosu",
+      "tokens": [
+        {
+          "text": "こぼす",
+          "kana": "こぼす"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "洒；洋溢",
+      "japanese": "こぼれる",
+      "kana": "こぼれる",
+      "romaji": "koboreru",
+      "tokens": [
+        {
+          "text": "こぼれる",
+          "kana": "こぼれる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "偷懒；逃学，旷工",
+      "japanese": "サボる",
+      "kana": "さぼる",
+      "romaji": "saboru",
+      "tokens": [
+        {
+          "text": "サボる",
+          "kana": "さぼる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "重做，再做",
+      "japanese": "やり直す",
+      "kana": "やりなおす",
+      "romaji": "yarinaosu",
+      "tokens": [
+        {
+          "text": "やり直す",
+          "kana": "やりなおす"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "越过",
+      "japanese": "越える",
+      "kana": "こえる",
+      "romaji": "koeru",
+      "tokens": [
+        {
+          "text": "越える",
+          "kana": "こえる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "弄脏",
+      "japanese": "汚す",
+      "kana": "よごす",
+      "romaji": "yogosu",
+      "tokens": [
+        {
+          "text": "汚す",
+          "kana": "よごす"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "转动；依次传递",
+      "japanese": "回す",
+      "kana": "まわす",
+      "romaji": "mawasu",
+      "tokens": [
+        {
+          "text": "回す",
+          "kana": "まわす"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "弄干",
+      "japanese": "乾かす",
+      "kana": "かわかす",
+      "romaji": "kawakasu",
+      "tokens": [
+        {
+          "text": "乾かす",
+          "kana": "かわかす"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "忍耐，忍受",
+      "japanese": "たまる",
+      "kana": "たまる",
+      "romaji": "tamaru",
+      "tokens": [
+        {
+          "text": "たまる",
+          "kana": "たまる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "弄弯；歪曲",
+      "japanese": "曲げる",
+      "kana": "まげる",
+      "romaji": "mageru",
+      "tokens": [
+        {
+          "text": "曲げる",
+          "kana": "まげる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "重说；换个说法",
+      "japanese": "言い直す",
+      "kana": "いいなおす",
+      "romaji": "iinaosu",
+      "tokens": [
+        {
+          "text": "言い直す",
+          "kana": "いいなおす"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "相对，面对面",
+      "japanese": "向かい合う",
+      "kana": "むかいあう",
+      "romaji": "mukaiau",
+      "tokens": [
+        {
+          "text": "向かい合う",
+          "kana": "むかいあう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "（雨、雪等）开始下",
+      "japanese": "降り出す",
+      "kana": "ふりだす",
+      "romaji": "furidasu",
+      "tokens": [
+        {
+          "text": "降り出す",
+          "kana": "ふりだす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "持续下（雨、雪）",
+      "japanese": "降り続く",
+      "kana": "ふりつづく",
+      "romaji": "furitsuzuku",
+      "tokens": [
+        {
+          "text": "降り続く",
+          "kana": "ふりつづく"
+        }
+      ]
+    }
+  ]
+}

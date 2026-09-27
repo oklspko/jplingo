@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-102",
+  "coursePackId": "jp-n1",
+  "title": "动词 11",
+  "order": 102,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "带领；率领",
+      "japanese": "率いる",
+      "kana": "ひきいる",
+      "romaji": "hikiiru",
+      "tokens": [
+        {
+          "text": "率いる",
+          "kana": "ひきいる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "见证，在场",
+      "japanese": "立ち会う",
+      "kana": "たちあう",
+      "romaji": "tachiau",
+      "tokens": [
+        {
+          "text": "立ち会う",
+          "kana": "たちあう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "戏弄；逛（只看而不买）",
+      "japanese": "冷やかす",
+      "kana": "ひやかす",
+      "romaji": "hiyakasu",
+      "tokens": [
+        {
+          "text": "冷やかす",
+          "kana": "ひやかす"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "勤奋，努力",
+      "japanese": "励む",
+      "kana": "はげむ",
+      "romaji": "hagemu",
+      "tokens": [
+        {
+          "text": "励む",
+          "kana": "はげむ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "连绵，绵延；关系到；参加",
+      "japanese": "連なる",
+      "kana": "つらなる",
+      "romaji": "tsuranaru",
+      "tokens": [
+        {
+          "text": "連なる",
+          "kana": "つらなる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "上年纪，衰老",
+      "japanese": "老いる",
+      "kana": "おいる",
+      "romaji": "oiru",
+      "tokens": [
+        {
+          "text": "老いる",
+          "kana": "おいる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "论证",
+      "japanese": "論証",
+      "kana": "ろんしょう",
+      "romaji": "ronshou",
+      "tokens": [
+        {
+          "text": "論証",
+          "kana": "ろんしょう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "使缓和，使柔和；使语言或文章更容易理解",
+      "japanese": "和らげる",
+      "kana": "やわらげる",
+      "romaji": "yawarageru",
+      "tokens": [
+        {
+          "text": "和らげる",
+          "kana": "やわらげる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "供给（饭食）；设法应付，勉强凑合",
+      "japanese": "賄う",
+      "kana": "まかなう",
+      "romaji": "makanau",
+      "tokens": [
+        {
+          "text": "賄う",
+          "kana": "まかなう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "茫然，困惑；迷恋，沉溺",
+      "japanese": "惑う",
+      "kana": "まどう",
+      "romaji": "madou",
+      "tokens": [
+        {
+          "text": "惑う",
+          "kana": "まどう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "（因悲观、失望、担心、羞耻等）垂头丧气",
+      "japanese": "うなだれる",
+      "kana": "うなだれる",
+      "romaji": "unadareru",
+      "tokens": [
+        {
+          "text": "うなだれる",
+          "kana": "うなだれる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "惊慌失措，狼狈",
+      "japanese": "うろたえる",
+      "kana": "うろたえる",
+      "romaji": "urotaeru",
+      "tokens": [
+        {
+          "text": "うろたえる",
+          "kana": "うろたえる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "保持，保留",
+      "japanese": "キープ",
+      "kana": "きいぷ",
+      "romaji": "kiipu",
+      "tokens": [
+        {
+          "text": "キープ",
+          "kana": "きいぷ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "扭；挫败",
+      "japanese": "くじく",
+      "kana": "くじく",
+      "romaji": "kujiku",
+      "tokens": [
+        {
+          "text": "くじく",
+          "kana": "くじく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "搭配，组合",
+      "japanese": "コーディネート",
+      "kana": "こうでぃねえと",
+      "romaji": "koudeineeto",
+      "tokens": [
+        {
+          "text": "コーディネート",
+          "kana": "こうでぃねえと"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "暴露出，揭露",
+      "japanese": "さらけ出す",
+      "kana": "さらけだす",
+      "romaji": "sarakedasu",
+      "tokens": [
+        {
+          "text": "さらけ出す",
+          "kana": "さらけだす"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "紧紧抱住；抓住不放手",
+      "japanese": "しがみつく",
+      "kana": "しがみつく",
+      "romaji": "shigamitsuku",
+      "tokens": [
+        {
+          "text": "しがみつく",
+          "kana": "しがみつく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "闹别扭，乖戾，任性撒泼",
+      "japanese": "すねる",
+      "kana": "すねる",
+      "romaji": "suneru",
+      "tokens": [
+        {
+          "text": "すねる",
+          "kana": "すねる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "削减（不要的部分）",
+      "japanese": "そぎ落とす",
+      "kana": "そぎおとす",
+      "romaji": "sogiotosu",
+      "tokens": [
+        {
+          "text": "そぎ落とす",
+          "kana": "そぎおとす"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "引起，激起（某种感情等）",
+      "japanese": "そそる",
+      "kana": "そそる",
+      "romaji": "sosoru",
+      "tokens": [
+        {
+          "text": "そそる",
+          "kana": "そそる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "犹豫，踌躇",
+      "japanese": "ためらう",
+      "kana": "ためらう",
+      "romaji": "tamerau",
+      "tokens": [
+        {
+          "text": "ためらう",
+          "kana": "ためらう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "（里面的东西因膨胀而）裂开，绽开",
+      "japanese": "はじける",
+      "kana": "はじける",
+      "romaji": "hajikeru",
+      "tokens": [
+        {
+          "text": "はじける",
+          "kana": "はじける"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "支援；备份",
+      "japanese": "バックアップ",
+      "kana": "ばっくあっぷ",
+      "romaji": "bakkuappu",
+      "tokens": [
+        {
+          "text": "バックアップ",
+          "kana": "ばっくあっぷ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "包装",
+      "japanese": "パッケージ",
+      "kana": "ぱっけえじ",
+      "romaji": "pakkeeji",
+      "tokens": [
+        {
+          "text": "パッケージ",
+          "kana": "ぱっけえじ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "怕，顾忌；横行霸道",
+      "japanese": "はばかる",
+      "kana": "はばかる",
+      "romaji": "habakaru",
+      "tokens": [
+        {
+          "text": "はばかる",
+          "kana": "はばかる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "振翅，飞翔",
+      "japanese": "羽ばたく",
+      "kana": "はばたく",
+      "romaji": "habataku",
+      "tokens": [
+        {
+          "text": "羽ばたく",
+          "kana": "はばたく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "蔓延，丛生；横行，猖獗",
+      "japanese": "はびこる",
+      "kana": "はびこる",
+      "romaji": "habikoru",
+      "tokens": [
+        {
+          "text": "はびこる",
+          "kana": "はびこる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "偏爱，偏袒，袒护",
+      "japanese": "贔屓[ひいき]",
+      "kana": "ひいき",
+      "romaji": "hiiki",
+      "tokens": [
+        {
+          "text": "贔屓[ひいき]",
+          "kana": "ひいき"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "帮助；追踪；（社交媒体的）关注",
+      "japanese": "フォロー",
+      "kana": "ふぉろう",
+      "romaji": "fuorou",
+      "tokens": [
+        {
+          "text": "フォロー",
+          "kana": "ふぉろう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "欣赏；疼爱",
+      "japanese": "愛[め]でる",
+      "kana": "めでる",
+      "romaji": "mederu",
+      "tokens": [
+        {
+          "text": "愛[め]でる",
+          "kana": "めでる"
+        }
+      ]
+    }
+  ]
+}

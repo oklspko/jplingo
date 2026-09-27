@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-85",
+  "coursePackId": "jp-n2",
+  "title": "动词 14",
+  "order": 85,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "蒙受赏赐；赐予",
+      "japanese": "賜る",
+      "kana": "たまわる",
+      "romaji": "tamawaru",
+      "tokens": [
+        {
+          "text": "賜る",
+          "kana": "たまわる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "饲养",
+      "japanese": "飼育",
+      "kana": "しいく",
+      "romaji": "shiiku",
+      "tokens": [
+        {
+          "text": "飼育",
+          "kana": "しいく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "招待，款待，对待",
+      "japanese": "持て成す",
+      "kana": "もてなす",
+      "romaji": "motenasu",
+      "tokens": [
+        {
+          "text": "持て成す",
+          "kana": "もてなす"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "变弱，衰弱",
+      "japanese": "弱まる",
+      "kana": "よわまる",
+      "romaji": "yowamaru",
+      "tokens": [
+        {
+          "text": "弱まる",
+          "kana": "よわまる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "软弱，衰弱；为难，尴尬",
+      "japanese": "弱る",
+      "kana": "よわる",
+      "romaji": "yowaru",
+      "tokens": [
+        {
+          "text": "弱る",
+          "kana": "よわる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "操作；对待；处理",
+      "japanese": "取り扱う",
+      "kana": "とりあつかう",
+      "romaji": "toriatsukau",
+      "tokens": [
+        {
+          "text": "取り扱う",
+          "kana": "とりあつかう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "围绕，包围",
+      "japanese": "取り巻く",
+      "kana": "とりまく",
+      "romaji": "torimaku",
+      "tokens": [
+        {
+          "text": "取り巻く",
+          "kana": "とりまく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "拿到手边；索取，订货",
+      "japanese": "取り寄せる",
+      "kana": "とりよせる",
+      "romaji": "toriyoseru",
+      "tokens": [
+        {
+          "text": "取り寄せる",
+          "kana": "とりよせる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "除掉，拆除，消除",
+      "japanese": "取り除く",
+      "kana": "とりのぞく",
+      "romaji": "torinozoku",
+      "tokens": [
+        {
+          "text": "取り除く",
+          "kana": "とりのぞく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "肿胀",
+      "japanese": "腫れる",
+      "kana": "はれる",
+      "romaji": "hareru",
+      "tokens": [
+        {
+          "text": "腫れる",
+          "kana": "はれる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "接住；阻止；理解",
+      "japanese": "受け止める",
+      "kana": "うけとめる",
+      "romaji": "uketomeru",
+      "tokens": [
+        {
+          "text": "受け止める",
+          "kana": "うけとめる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "学习并掌握（学问、技术等）",
+      "japanese": "習得",
+      "kana": "しゅうとく",
+      "romaji": "shuutoku",
+      "tokens": [
+        {
+          "text": "習得",
+          "kana": "しゅうとく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "上市",
+      "japanese": "出回る",
+      "kana": "でまわる",
+      "romaji": "demawaru",
+      "tokens": [
+        {
+          "text": "出回る",
+          "kana": "でまわる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "着急，焦急",
+      "japanese": "焦る",
+      "kana": "あせる",
+      "romaji": "aseru",
+      "tokens": [
+        {
+          "text": "焦る",
+          "kana": "あせる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "浸泡，浸湿",
+      "japanese": "浸す",
+      "kana": "ひたす",
+      "romaji": "hitasu",
+      "tokens": [
+        {
+          "text": "浸す",
+          "kana": "ひたす"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "（主动）提出（意见、希望、要求、事实等）",
+      "japanese": "申し出る",
+      "kana": "もうしでる",
+      "romaji": "moushideru",
+      "tokens": [
+        {
+          "text": "申し出る",
+          "kana": "もうしでる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "推进，推行",
+      "japanese": "推し進める",
+      "kana": "おしすすめる",
+      "romaji": "oshisusumeru",
+      "tokens": [
+        {
+          "text": "推し進める",
+          "kana": "おしすすめる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "衰弱，衰退",
+      "japanese": "衰える",
+      "kana": "おとろえる",
+      "romaji": "otoroeru",
+      "tokens": [
+        {
+          "text": "衰える",
+          "kana": "おとろえる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "珍惜，吝惜，惋惜",
+      "japanese": "惜しむ",
+      "kana": "おしむ",
+      "romaji": "oshimu",
+      "tokens": [
+        {
+          "text": "惜しむ",
+          "kana": "おしむ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "准备；设立",
+      "japanese": "設ける",
+      "kana": "もうける",
+      "romaji": "moukeru",
+      "tokens": [
+        {
+          "text": "設ける",
+          "kana": "もうける"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（液体、思想、文化等）渗透",
+      "japanese": "染み込む",
+      "kana": "しみこむ",
+      "romaji": "shimikomu",
+      "tokens": [
+        {
+          "text": "染み込む",
+          "kana": "しみこむ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "接连不断",
+      "japanese": "相次ぐ",
+      "kana": "あいつぐ",
+      "romaji": "aitsugu",
+      "tokens": [
+        {
+          "text": "相次ぐ",
+          "kana": "あいつぐ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "催促；促使；促进",
+      "japanese": "促す",
+      "kana": "うながす",
+      "romaji": "unagasu",
+      "tokens": [
+        {
+          "text": "促す",
+          "kana": "うながす"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "捆；统率，管理",
+      "japanese": "束ねる",
+      "kana": "たばねる",
+      "romaji": "tabaneru",
+      "tokens": [
+        {
+          "text": "束ねる",
+          "kana": "たばねる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "损坏，破坏；（前接动词连用形）失败，做错",
+      "japanese": "損なう",
+      "kana": "そこなう",
+      "romaji": "sokonau",
+      "tokens": [
+        {
+          "text": "損なう",
+          "kana": "そこなう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "忍受；经得起",
+      "japanese": "耐える",
+      "kana": "たえる",
+      "romaji": "taeru",
+      "tokens": [
+        {
+          "text": "耐える",
+          "kana": "たえる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "悲叹，叹惋；慨叹，愤慨",
+      "japanese": "嘆く",
+      "kana": "なげく",
+      "romaji": "nageku",
+      "tokens": [
+        {
+          "text": "嘆く",
+          "kana": "なげく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "锤炼；锻炼",
+      "japanese": "鍛える",
+      "kana": "きたえる",
+      "romaji": "kitaeru",
+      "tokens": [
+        {
+          "text": "鍛える",
+          "kana": "きたえる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "绷紧；紧张，干劲十足",
+      "japanese": "張り切る",
+      "kana": "はりきる",
+      "romaji": "harikiru",
+      "tokens": [
+        {
+          "text": "張り切る",
+          "kana": "はりきる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "赶入；逼入；在事情即将结束时使出最后的力量",
+      "japanese": "追い込む",
+      "kana": "おいこむ",
+      "romaji": "oikomu",
+      "tokens": [
+        {
+          "text": "追い込む",
+          "kana": "おいこむ"
+        }
+      ]
+    }
+  ]
+}

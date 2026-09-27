@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-27",
+  "coursePackId": "jp-n5",
+  "title": "其他 1",
+  "order": 27,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "……个月",
+      "japanese": "〜か月",
+      "kana": "〜か月",
+      "romaji": "~ka月",
+      "tokens": [
+        {
+          "text": "〜か月",
+          "kana": "〜か月"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "（表达敬意或亲近感）……先生，……女士",
+      "japanese": "〜さん",
+      "kana": "〜さん",
+      "romaji": "~san",
+      "tokens": [
+        {
+          "text": "〜さん",
+          "kana": "〜さん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "小……",
+      "japanese": "〜ちゃん",
+      "kana": "〜ちゃん",
+      "romaji": "~chan",
+      "tokens": [
+        {
+          "text": "〜ちゃん",
+          "kana": "〜ちゃん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "……层，……楼",
+      "japanese": "〜階",
+      "kana": "〜階",
+      "romaji": "~階",
+      "tokens": [
+        {
+          "text": "〜階",
+          "kana": "〜階"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "（用于同辈或下级男性姓名后）小……",
+      "japanese": "〜君",
+      "kana": "〜君",
+      "romaji": "~君",
+      "tokens": [
+        {
+          "text": "〜君",
+          "kana": "〜君"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（用于数小而圆的物体）……个",
+      "japanese": "〜個",
+      "kana": "〜個",
+      "romaji": "~個",
+      "tokens": [
+        {
+          "text": "〜個",
+          "kana": "〜個"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（用来数笔记本，书本等）……册，……本",
+      "japanese": "〜冊",
+      "kana": "〜冊",
+      "romaji": "~冊",
+      "tokens": [
+        {
+          "text": "〜冊",
+          "kana": "〜冊"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "……点（钟）；……时候",
+      "japanese": "時",
+      "kana": "じ",
+      "romaji": "ji",
+      "tokens": [
+        {
+          "text": "時",
+          "kana": "じ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（量词）……个人；（那个人所固有的性格、能力和经历）……人",
+      "japanese": "〜人",
+      "kana": "〜人",
+      "romaji": "~人",
+      "tokens": [
+        {
+          "text": "〜人",
+          "kana": "〜人"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "……号；……天；日本；星期日",
+      "japanese": "日",
+      "kana": "にち",
+      "romaji": "nichi",
+      "tokens": [
+        {
+          "text": "日",
+          "kana": "にち"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "（表达顺序或序号）……号",
+      "japanese": "〜番",
+      "kana": "〜番",
+      "romaji": "~番",
+      "tokens": [
+        {
+          "text": "〜番",
+          "kana": "〜番"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "（猫、狗、鸟、鱼、虫等小动物）……只，……条",
+      "japanese": "〜匹",
+      "kana": "〜匹",
+      "romaji": "~匹",
+      "tokens": [
+        {
+          "text": "〜匹",
+          "kana": "〜匹"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（细长物的）……支，把，瓶",
+      "japanese": "〜本",
+      "kana": "〜本",
+      "romaji": "~本",
+      "tokens": [
+        {
+          "text": "〜本",
+          "kana": "〜本"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（纸、板、货币、盘子等薄而扁平的东西）……张，……枚",
+      "japanese": "〜枚",
+      "kana": "〜枚",
+      "romaji": "~枚",
+      "tokens": [
+        {
+          "text": "〜枚",
+          "kana": "〜枚"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（悲伤、快乐或惊讶时）啊，哎呀；（答应时）啊",
+      "japanese": "ああ",
+      "kana": "ああ",
+      "romaji": "aa",
+      "tokens": [
+        {
+          "text": "ああ",
+          "kana": "ああ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "（指代远处事物）那个；（指代自己和对方都知道的事物）那个",
+      "japanese": "あの",
+      "kana": "あの",
+      "romaji": "ano",
+      "tokens": [
+        {
+          "text": "あの",
+          "kana": "あの"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "（带着顾虑和犹豫的心情呼唤对方）不好意思，那个……",
+      "japanese": "あのう",
+      "kana": "あのう",
+      "romaji": "anou",
+      "tokens": [
+        {
+          "text": "あのう",
+          "kana": "あのう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（表示否定）不是，不对",
+      "japanese": "いいえ",
+      "kana": "いいえ",
+      "romaji": "iie",
+      "tokens": [
+        {
+          "text": "いいえ",
+          "kana": "いいえ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "不，不是",
+      "japanese": "ううん",
+      "kana": "ううん",
+      "romaji": "uun",
+      "tokens": [
+        {
+          "text": "ううん",
+          "kana": "ううん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "是，是的",
+      "japanese": "うん",
+      "kana": "うん",
+      "romaji": "un",
+      "tokens": [
+        {
+          "text": "うん",
+          "kana": "うん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（表示肯定、同意）嗯，诶；（表示疑问）啊？；（表示迟疑）嗯",
+      "japanese": "ええ",
+      "kana": "ええ",
+      "romaji": "ee",
+      "tokens": [
+        {
+          "text": "ええ",
+          "kana": "ええ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "（指代靠近说话者的事物）这个",
+      "japanese": "この",
+      "kana": "この",
+      "romaji": "kono",
+      "tokens": [
+        {
+          "text": "この",
+          "kana": "この"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "这样，这种",
+      "japanese": "こんな",
+      "kana": "こんな",
+      "romaji": "konna",
+      "tokens": [
+        {
+          "text": "こんな",
+          "kana": "こんな"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "可是，不过",
+      "japanese": "しかし",
+      "kana": "しかし",
+      "romaji": "shikashi",
+      "tokens": [
+        {
+          "text": "しかし",
+          "kana": "しかし"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "那么",
+      "japanese": "じゃ",
+      "kana": "じゃ",
+      "romaji": "ja",
+      "tokens": [
+        {
+          "text": "じゃ",
+          "kana": "じゃ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "于是，然后",
+      "japanese": "そして",
+      "kana": "そして",
+      "romaji": "soshite",
+      "tokens": [
+        {
+          "text": "そして",
+          "kana": "そして"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（指代对方附近的物品）那个",
+      "japanese": "その",
+      "kana": "その",
+      "romaji": "sono",
+      "tokens": [
+        {
+          "text": "その",
+          "kana": "その"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "然后；还有",
+      "japanese": "それから",
+      "kana": "それから",
+      "romaji": "sorekara",
+      "tokens": [
+        {
+          "text": "それから",
+          "kana": "それから"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "那么，那样的话",
+      "japanese": "それでは",
+      "kana": "それでは",
+      "romaji": "soredeha",
+      "tokens": [
+        {
+          "text": "それでは",
+          "kana": "それでは"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "因此，所以",
+      "japanese": "だから",
+      "kana": "だから",
+      "romaji": "dakara",
+      "tokens": [
+        {
+          "text": "だから",
+          "kana": "だから"
+        }
+      ]
+    }
+  ]
+}

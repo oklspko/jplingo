@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-60",
+  "coursePackId": "jp-n2",
+  "title": "名词 60",
+  "order": 60,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "一步；一个阶段",
+      "japanese": "一歩",
+      "kana": "いっぽ",
+      "romaji": "ippo",
+      "tokens": [
+        {
+          "text": "一歩",
+          "kana": "いっぽ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "人世，今世，此生",
+      "japanese": "この世",
+      "kana": "このよ",
+      "romaji": "konoyo",
+      "tokens": [
+        {
+          "text": "この世",
+          "kana": "このよ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "学园，学校",
+      "japanese": "学園",
+      "kana": "がくえん",
+      "romaji": "gakuen",
+      "tokens": [
+        {
+          "text": "学園",
+          "kana": "がくえん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "损坏，破坏，损伤",
+      "japanese": "ダメージ",
+      "kana": "だめえじ",
+      "romaji": "dameeji",
+      "tokens": [
+        {
+          "text": "ダメージ",
+          "kana": "だめえじ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "收款处，柜台",
+      "japanese": "カウンター",
+      "kana": "かうんたあ",
+      "romaji": "kauntaa",
+      "tokens": [
+        {
+          "text": "カウンター",
+          "kana": "かうんたあ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "完了",
+      "japanese": "済み",
+      "kana": "すみ",
+      "romaji": "sumi",
+      "tokens": [
+        {
+          "text": "済み",
+          "kana": "すみ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "下半身",
+      "japanese": "下半身",
+      "kana": "かはんしん",
+      "romaji": "kahanshin",
+      "tokens": [
+        {
+          "text": "下半身",
+          "kana": "かはんしん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（电话）通话",
+      "japanese": "通話",
+      "kana": "つうわ",
+      "romaji": "tsuuwa",
+      "tokens": [
+        {
+          "text": "通話",
+          "kana": "つうわ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "最大限度",
+      "japanese": "最大限",
+      "kana": "さいだいげん",
+      "romaji": "saidaigen",
+      "tokens": [
+        {
+          "text": "最大限",
+          "kana": "さいだいげん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "根；根源，根本",
+      "japanese": "根元",
+      "kana": "ねもと",
+      "romaji": "nemoto",
+      "tokens": [
+        {
+          "text": "根元",
+          "kana": "ねもと"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "肖像画；影像，图像",
+      "japanese": "画像",
+      "kana": "がぞう",
+      "romaji": "gazou",
+      "tokens": [
+        {
+          "text": "画像",
+          "kana": "がぞう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "目标，对象",
+      "japanese": "ターゲット",
+      "kana": "たあげっと",
+      "romaji": "taagetto",
+      "tokens": [
+        {
+          "text": "ターゲット",
+          "kana": "たあげっと"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "价值观",
+      "japanese": "価値観",
+      "kana": "かちかん",
+      "romaji": "kachikan",
+      "tokens": [
+        {
+          "text": "価値観",
+          "kana": "かちかん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "存在感",
+      "japanese": "存在感",
+      "kana": "そんざいかん",
+      "romaji": "sonzaikan",
+      "tokens": [
+        {
+          "text": "存在感",
+          "kana": "そんざいかん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "苦战，艰苦的战斗",
+      "japanese": "苦戦",
+      "kana": "くせん",
+      "romaji": "kusen",
+      "tokens": [
+        {
+          "text": "苦戦",
+          "kana": "くせん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "考虑事情；心事",
+      "japanese": "考え事",
+      "kana": "かんがえごと",
+      "romaji": "kangaegoto",
+      "tokens": [
+        {
+          "text": "考え事",
+          "kana": "かんがえごと"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "特性，特点",
+      "japanese": "特性",
+      "kana": "とくせい",
+      "romaji": "tokusei",
+      "tokens": [
+        {
+          "text": "特性",
+          "kana": "とくせい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "年和月；岁月，光阴",
+      "japanese": "年月",
+      "kana": "としつき",
+      "romaji": "toshitsuki",
+      "tokens": [
+        {
+          "text": "年月",
+          "kana": "としつき"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "窗前，窗边",
+      "japanese": "窓際",
+      "kana": "まどぎわ",
+      "romaji": "madogiwa",
+      "tokens": [
+        {
+          "text": "窓際",
+          "kana": "まどぎわ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "踮起脚尖；做超过自己能力的事，逞强",
+      "japanese": "背伸び",
+      "kana": "せのび",
+      "romaji": "senobi",
+      "tokens": [
+        {
+          "text": "背伸び",
+          "kana": "せのび"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（不同于本名的）通称",
+      "japanese": "呼び名",
+      "kana": "よびな",
+      "romaji": "yobina",
+      "tokens": [
+        {
+          "text": "呼び名",
+          "kana": "よびな"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "共同",
+      "japanese": "共同",
+      "kana": "きょうどう",
+      "romaji": "kyoudou",
+      "tokens": [
+        {
+          "text": "共同",
+          "kana": "きょうどう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "亲密感，亲切感，亲近",
+      "japanese": "親しみ",
+      "kana": "したしみ",
+      "romaji": "shitashimi",
+      "tokens": [
+        {
+          "text": "親しみ",
+          "kana": "したしみ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "头头；老板",
+      "japanese": "ボス",
+      "kana": "ぼす",
+      "romaji": "bosu",
+      "tokens": [
+        {
+          "text": "ボス",
+          "kana": "ぼす"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "毛绒玩具",
+      "japanese": "ぬいぐるみ",
+      "kana": "ぬいぐるみ",
+      "romaji": "nuigurumi",
+      "tokens": [
+        {
+          "text": "ぬいぐるみ",
+          "kana": "ぬいぐるみ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "木制",
+      "japanese": "木製",
+      "kana": "もくせい",
+      "romaji": "mokusei",
+      "tokens": [
+        {
+          "text": "木製",
+          "kana": "もくせい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "集训，共同寄宿",
+      "japanese": "合宿",
+      "kana": "がっしゅく",
+      "romaji": "gasshuku",
+      "tokens": [
+        {
+          "text": "合宿",
+          "kana": "がっしゅく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "小东西；小人物",
+      "japanese": "小物",
+      "kana": "こもの",
+      "romaji": "komono",
+      "tokens": [
+        {
+          "text": "小物",
+          "kana": "こもの"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "善意；好意；（法律）善意",
+      "japanese": "善意",
+      "kana": "ぜんい",
+      "romaji": "zen'i",
+      "tokens": [
+        {
+          "text": "善意",
+          "kana": "ぜんい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "一个段落",
+      "japanese": "一段落",
+      "kana": "いちだんらく",
+      "romaji": "ichidanraku",
+      "tokens": [
+        {
+          "text": "一段落",
+          "kana": "いちだんらく"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-10",
+  "coursePackId": "jp-n4",
+  "title": "名词 10",
+  "order": 10,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "开水，热水；洗澡水；温泉",
+      "japanese": "湯",
+      "kana": "ゆ",
+      "romaji": "yu",
+      "tokens": [
+        {
+          "text": "湯",
+          "kana": "ゆ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "动物园",
+      "japanese": "動物園",
+      "kana": "どうぶつえん",
+      "romaji": "doubutsuen",
+      "tokens": [
+        {
+          "text": "動物園",
+          "kana": "どうぶつえん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "火速；特快列车",
+      "japanese": "特急",
+      "kana": "とっきゅう",
+      "romaji": "tokkyuu",
+      "tokens": [
+        {
+          "text": "特急",
+          "kana": "とっきゅう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "气味",
+      "japanese": "匂い",
+      "kana": "におい",
+      "romaji": "nioi",
+      "tokens": [
+        {
+          "text": "匂い",
+          "kana": "におい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "日记",
+      "japanese": "日記",
+      "kana": "にっき",
+      "romaji": "nikki",
+      "tokens": [
+        {
+          "text": "日記",
+          "kana": "にっき"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "入口",
+      "japanese": "入り口",
+      "kana": "いりぐち",
+      "romaji": "iriguchi",
+      "tokens": [
+        {
+          "text": "入り口",
+          "kana": "いりぐち"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "住院",
+      "japanese": "入院",
+      "kana": "にゅういん",
+      "romaji": "nyuuin",
+      "tokens": [
+        {
+          "text": "入院",
+          "kana": "にゅういん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "入学",
+      "japanese": "入学",
+      "kana": "にゅうがく",
+      "romaji": "nyuugaku",
+      "tokens": [
+        {
+          "text": "入学",
+          "kana": "にゅうがく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "热度；发烧",
+      "japanese": "熱",
+      "kana": "ねつ",
+      "romaji": "netsu",
+      "tokens": [
+        {
+          "text": "熱",
+          "kana": "ねつ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "热心，热情",
+      "japanese": "熱心",
+      "kana": "ねっしん",
+      "romaji": "nesshin",
+      "tokens": [
+        {
+          "text": "熱心",
+          "kana": "ねっしん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "卖场，柜台",
+      "japanese": "売り場",
+      "kana": "うりば",
+      "romaji": "uriba",
+      "tokens": [
+        {
+          "text": "売り場",
+          "kana": "うりば"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "相反；反对",
+      "japanese": "反対",
+      "kana": "はんたい",
+      "romaji": "hantai",
+      "tokens": [
+        {
+          "text": "反対",
+          "kana": "はんたい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "美术馆",
+      "japanese": "美術館",
+      "kana": "びじゅつかん",
+      "romaji": "bijutsukan",
+      "tokens": [
+        {
+          "text": "美術館",
+          "kana": "びじゅつかん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "必要，必需",
+      "japanese": "必要",
+      "kana": "ひつよう",
+      "romaji": "hitsuyou",
+      "tokens": [
+        {
+          "text": "必要",
+          "kana": "ひつよう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "表面，正面",
+      "japanese": "表",
+      "kana": "おもて",
+      "romaji": "omote",
+      "tokens": [
+        {
+          "text": "表",
+          "kana": "おもて"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "商品",
+      "japanese": "品物",
+      "kana": "しなもの",
+      "romaji": "shinamono",
+      "tokens": [
+        {
+          "text": "品物",
+          "kana": "しなもの"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "瓶子",
+      "japanese": "瓶",
+      "kana": "びん",
+      "romaji": "bin",
+      "tokens": [
+        {
+          "text": "瓶",
+          "kana": "びん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "不便，不方便",
+      "japanese": "不便",
+      "kana": "ふべん",
+      "romaji": "fuben",
+      "tokens": [
+        {
+          "text": "不便",
+          "kana": "ふべん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "一般，普通",
+      "japanese": "普通",
+      "kana": "ふつう",
+      "romaji": "futsuu",
+      "tokens": [
+        {
+          "text": "普通",
+          "kana": "ふつう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "父亲",
+      "japanese": "父親",
+      "kana": "ちちおや",
+      "romaji": "chichioya",
+      "tokens": [
+        {
+          "text": "父親",
+          "kana": "ちちおや"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "部长，处长",
+      "japanese": "部長",
+      "kana": "ぶちょう",
+      "romaji": "buchou",
+      "tokens": [
+        {
+          "text": "部長",
+          "kana": "ぶちょう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "肚子，肠胃",
+      "japanese": "腹",
+      "kana": "はら",
+      "romaji": "hara",
+      "tokens": [
+        {
+          "text": "腹",
+          "kana": "はら"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "复杂",
+      "japanese": "複雑",
+      "kana": "ふくざつ",
+      "romaji": "fukuzatsu",
+      "tokens": [
+        {
+          "text": "複雑",
+          "kana": "ふくざつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "文章；句子",
+      "japanese": "文",
+      "kana": "ぶん",
+      "romaji": "bun",
+      "tokens": [
+        {
+          "text": "文",
+          "kana": "ぶん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "文化",
+      "japanese": "文化",
+      "kana": "ぶんか",
+      "romaji": "bunka",
+      "tokens": [
+        {
+          "text": "文化",
+          "kana": "ぶんか"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "文章，作品",
+      "japanese": "文章",
+      "kana": "ぶんしょう",
+      "romaji": "bunshou",
+      "tokens": [
+        {
+          "text": "文章",
+          "kana": "ぶんしょう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "稻米，大米",
+      "japanese": "米",
+      "kana": "こめ",
+      "romaji": "kome",
+      "tokens": [
+        {
+          "text": "米",
+          "kana": "こめ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "墙壁；障碍，隔阂",
+      "japanese": "壁",
+      "kana": "かべ",
+      "romaji": "kabe",
+      "tokens": [
+        {
+          "text": "壁",
+          "kana": "かべ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "区别；另外，除外",
+      "japanese": "別",
+      "kana": "べつ",
+      "romaji": "betsu",
+      "tokens": [
+        {
+          "text": "別",
+          "kana": "べつ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "附近；（あたり）大约",
+      "japanese": "辺り",
+      "kana": "あたり",
+      "romaji": "atari",
+      "tokens": [
+        {
+          "text": "辺り",
+          "kana": "あたり"
+        }
+      ]
+    }
+  ]
+}

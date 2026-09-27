@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-39",
+  "coursePackId": "jp-n1",
+  "title": "名词 39",
+  "order": 39,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "往年",
+      "japanese": "例年",
+      "kana": "れいねん",
+      "romaji": "reinen",
+      "tokens": [
+        {
+          "text": "例年",
+          "kana": "れいねん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "冷漠，不关心",
+      "japanese": "冷淡",
+      "kana": "れいたん",
+      "romaji": "reitan",
+      "tokens": [
+        {
+          "text": "冷淡",
+          "kana": "れいたん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "连锁",
+      "japanese": "連鎖",
+      "kana": "れんさ",
+      "romaji": "rensa",
+      "tokens": [
+        {
+          "text": "連鎖",
+          "kana": "れんさ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "团结，联合，协作；连带",
+      "japanese": "連帯",
+      "kana": "れんたい",
+      "romaji": "rentai",
+      "tokens": [
+        {
+          "text": "連帯",
+          "kana": "れんたい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "伙伴，同伙",
+      "japanese": "連中",
+      "kana": "れんちゅう",
+      "romaji": "renchuu",
+      "tokens": [
+        {
+          "text": "連中",
+          "kana": "れんちゅう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "露骨，直率；毫不留情",
+      "japanese": "露骨",
+      "kana": "ろこつ",
+      "romaji": "rokotsu",
+      "tokens": [
+        {
+          "text": "露骨",
+          "kana": "ろこつ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "劳力；劳动力",
+      "japanese": "労力",
+      "kana": "ろうりょく",
+      "romaji": "rouryoku",
+      "tokens": [
+        {
+          "text": "労力",
+          "kana": "ろうりょく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "好消息，喜讯",
+      "japanese": "朗報",
+      "kana": "ろうほう",
+      "romaji": "rouhou",
+      "tokens": [
+        {
+          "text": "朗報",
+          "kana": "ろうほう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "行星；黑马，明日之星",
+      "japanese": "惑星",
+      "kana": "わくせい",
+      "romaji": "wakusei",
+      "tokens": [
+        {
+          "text": "惑星",
+          "kana": "わくせい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "本事，才能",
+      "japanese": "腕前",
+      "kana": "うでまえ",
+      "romaji": "udemae",
+      "tokens": [
+        {
+          "text": "腕前",
+          "kana": "うでまえ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "……阵容",
+      "japanese": "陣",
+      "kana": "じん",
+      "romaji": "jin",
+      "tokens": [
+        {
+          "text": "陣",
+          "kana": "じん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "……派",
+      "japanese": "派",
+      "kana": "は",
+      "romaji": "ha",
+      "tokens": [
+        {
+          "text": "派",
+          "kana": "は"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（服装、言谈举止、态度、姿态等）注意仪表；修养艺术",
+      "japanese": "身だしなみ",
+      "kana": "みだしなみ",
+      "romaji": "midashinami",
+      "tokens": [
+        {
+          "text": "身だしなみ",
+          "kana": "みだしなみ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "可爱之处，魅力；好感，亲切",
+      "japanese": "愛 嬌[きょう]",
+      "kana": "あいきょう",
+      "romaji": "aikyou",
+      "tokens": [
+        {
+          "text": "愛 嬌[きょう]",
+          "kana": "あいきょう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "一般，寻常，老一套的",
+      "japanese": "ありきたり",
+      "kana": "ありきたり",
+      "romaji": "arikitari",
+      "tokens": [
+        {
+          "text": "ありきたり",
+          "kana": "ありきたり"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "应有的状态，理想的状态",
+      "japanese": "在り方",
+      "kana": "ありかた",
+      "romaji": "arikata",
+      "tokens": [
+        {
+          "text": "在り方",
+          "kana": "ありかた"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "灵感",
+      "japanese": "インスピレーション",
+      "kana": "いんすぴれえしょん",
+      "romaji": "insupireeshon",
+      "tokens": [
+        {
+          "text": "インスピレーション",
+          "kana": "いんすぴれえしょん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "囫囵吞枣",
+      "japanese": "鵜呑[うの]み",
+      "kana": "うのみ",
+      "romaji": "unomi",
+      "tokens": [
+        {
+          "text": "鵜呑[うの]み",
+          "kana": "うのみ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "随笔",
+      "japanese": "エッセー",
+      "kana": "えっせえ",
+      "romaji": "essee",
+      "tokens": [
+        {
+          "text": "エッセー",
+          "kana": "えっせえ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "插曲；插话；逸事",
+      "japanese": "エピソード",
+      "kana": "えぴそうど",
+      "romaji": "episoudo",
+      "tokens": [
+        {
+          "text": "エピソード",
+          "kana": "えぴそうど"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "精英",
+      "japanese": "エリート",
+      "kana": "えりいと",
+      "romaji": "eriito",
+      "tokens": [
+        {
+          "text": "エリート",
+          "kana": "えりいと"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "报名（参加运动会等）",
+      "japanese": "エントリー",
+      "kana": "えんとりい",
+      "romaji": "entorii",
+      "tokens": [
+        {
+          "text": "エントリー",
+          "kana": "えんとりい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "青梅竹马之交；发小",
+      "japanese": "幼なじみ",
+      "kana": "おさななじみ",
+      "romaji": "osananajimi",
+      "tokens": [
+        {
+          "text": "幼なじみ",
+          "kana": "おさななじみ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "履历，经验；职业生涯",
+      "japanese": "キャリア",
+      "kana": "きゃりあ",
+      "romaji": "kyaria",
+      "tokens": [
+        {
+          "text": "キャリア",
+          "kana": "きゃりあ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "联票；优惠券",
+      "japanese": "クーポン",
+      "kana": "くうぽん",
+      "romaji": "kuupon",
+      "tokens": [
+        {
+          "text": "クーポン",
+          "kana": "くうぽん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "逗号；小数点",
+      "japanese": "コンマ",
+      "kana": "こんま",
+      "romaji": "konma",
+      "tokens": [
+        {
+          "text": "コンマ",
+          "kana": "こんま"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "冲浪",
+      "japanese": "サーフィン",
+      "kana": "さあふぃん",
+      "romaji": "saafyin",
+      "tokens": [
+        {
+          "text": "サーフィン",
+          "kana": "さあふぃん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "新闻工作者",
+      "japanese": "ジャーナリスト",
+      "kana": "じゃあなりすと",
+      "romaji": "jaanarisuto",
+      "tokens": [
+        {
+          "text": "ジャーナリスト",
+          "kana": "じゃあなりすと"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "新闻界",
+      "japanese": "ジャーナリズム",
+      "kana": "じゃあなりずむ",
+      "romaji": "jaanarizumu",
+      "tokens": [
+        {
+          "text": "ジャーナリズム",
+          "kana": "じゃあなりずむ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "困境，进退维谷",
+      "japanese": "ジレンマ",
+      "kana": "じれんま",
+      "romaji": "jirenma",
+      "tokens": [
+        {
+          "text": "ジレンマ",
+          "kana": "じれんま"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-19",
+  "coursePackId": "jp-n2",
+  "title": "名词 19",
+  "order": 19,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "典型",
+      "japanese": "典型",
+      "kana": "てんけい",
+      "romaji": "tenkei",
+      "tokens": [
+        {
+          "text": "典型",
+          "kana": "てんけい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "（在文件上）添上，附上",
+      "japanese": "添付",
+      "kana": "てんぷ",
+      "romaji": "tenpu",
+      "tokens": [
+        {
+          "text": "添付",
+          "kana": "てんぷ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "转校，转学",
+      "japanese": "転校",
+      "kana": "てんこう",
+      "romaji": "tenkou",
+      "tokens": [
+        {
+          "text": "転校",
+          "kana": "てんこう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "改行，换工作",
+      "japanese": "転職",
+      "kana": "てんしょく",
+      "romaji": "tenshoku",
+      "tokens": [
+        {
+          "text": "転職",
+          "kana": "てんしょく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "传达，转达",
+      "japanese": "伝達",
+      "kana": "でんたつ",
+      "romaji": "dentatsu",
+      "tokens": [
+        {
+          "text": "伝達",
+          "kana": "でんたつ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "电机",
+      "japanese": "電機",
+      "kana": "でんき",
+      "romaji": "denki",
+      "tokens": [
+        {
+          "text": "電機",
+          "kana": "でんき"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "电源",
+      "japanese": "電源",
+      "kana": "でんげん",
+      "romaji": "dengen",
+      "tokens": [
+        {
+          "text": "電源",
+          "kana": "でんげん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "恶心，想要呕吐",
+      "japanese": "吐き気",
+      "kana": "はきけ",
+      "romaji": "hakike",
+      "tokens": [
+        {
+          "text": "吐き気",
+          "kana": "はきけ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "透明",
+      "japanese": "透明",
+      "kana": "とうめい",
+      "romaji": "toumei",
+      "tokens": [
+        {
+          "text": "透明",
+          "kana": "とうめい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "分数，得分",
+      "japanese": "得点",
+      "kana": "とくてん",
+      "romaji": "tokuten",
+      "tokens": [
+        {
+          "text": "得点",
+          "kana": "とくてん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "读解，阅读理解",
+      "japanese": "読解",
+      "kana": "どっかい",
+      "romaji": "dokkai",
+      "tokens": [
+        {
+          "text": "読解",
+          "kana": "どっかい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "天天，每天",
+      "japanese": "日々",
+      "kana": "ひび",
+      "romaji": "hibi",
+      "tokens": [
+        {
+          "text": "日々",
+          "kana": "ひび"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "日期；天数",
+      "japanese": "日にち",
+      "kana": "ひにち",
+      "romaji": "hinichi",
+      "tokens": [
+        {
+          "text": "日にち",
+          "kana": "ひにち"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "每天的习惯活动",
+      "japanese": "日課",
+      "kana": "にっか",
+      "romaji": "nikka",
+      "tokens": [
+        {
+          "text": "日課",
+          "kana": "にっか"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "阳光",
+      "japanese": "日差し",
+      "kana": "ひざし",
+      "romaji": "hizashi",
+      "tokens": [
+        {
+          "text": "日差し",
+          "kana": "ひざし"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "日常用品",
+      "japanese": "日用品",
+      "kana": "にちようひん",
+      "romaji": "nichiyouhin",
+      "tokens": [
+        {
+          "text": "日用品",
+          "kana": "にちようひん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "年纪小（的人）",
+      "japanese": "年下",
+      "kana": "としした",
+      "romaji": "toshishita",
+      "tokens": [
+        {
+          "text": "年下",
+          "kana": "としした"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "年长（的人）",
+      "japanese": "年上",
+      "kana": "としうえ",
+      "romaji": "toshiue",
+      "tokens": [
+        {
+          "text": "年上",
+          "kana": "としうえ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "年末，年终",
+      "japanese": "年末",
+      "kana": "ねんまつ",
+      "romaji": "nenmatsu",
+      "tokens": [
+        {
+          "text": "年末",
+          "kana": "ねんまつ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "烦恼，苦恼",
+      "japanese": "悩み",
+      "kana": "なやみ",
+      "romaji": "nayami",
+      "tokens": [
+        {
+          "text": "悩み",
+          "kana": "なやみ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（用于书信开头）敬启者，敬启",
+      "japanese": "拝啓",
+      "kana": "はいけい",
+      "romaji": "haikei",
+      "tokens": [
+        {
+          "text": "拝啓",
+          "kana": "はいけい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "配送，分发",
+      "japanese": "配送",
+      "kana": "はいそう",
+      "romaji": "haisou",
+      "tokens": [
+        {
+          "text": "配送",
+          "kana": "はいそう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "卖主，卖方",
+      "japanese": "売り手",
+      "kana": "うりて",
+      "romaji": "urite",
+      "tokens": [
+        {
+          "text": "売り手",
+          "kana": "うりて"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "商品；幌子，招牌",
+      "japanese": "売り物",
+      "kana": "うりもの",
+      "romaji": "urimono",
+      "tokens": [
+        {
+          "text": "売り物",
+          "kana": "うりもの"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（设于车站、剧场、医院、学校、公园等场所的）小卖店",
+      "japanese": "売店",
+      "kana": "ばいてん",
+      "romaji": "baiten",
+      "tokens": [
+        {
+          "text": "売店",
+          "kana": "ばいてん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "黑白；是非曲直",
+      "japanese": "白黒",
+      "kana": "しろくろ",
+      "romaji": "shirokuro",
+      "tokens": [
+        {
+          "text": "白黒",
+          "kana": "しろくろ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "发车，开车",
+      "japanese": "発車",
+      "kana": "はっしゃ",
+      "romaji": "hassha",
+      "tokens": [
+        {
+          "text": "発車",
+          "kana": "はっしゃ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "发型",
+      "japanese": "髪型",
+      "kana": "かみがた",
+      "romaji": "kamigata",
+      "tokens": [
+        {
+          "text": "髪型",
+          "kana": "かみがた"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "罚款，赔偿；（法律）罚款，罚金",
+      "japanese": "罰金",
+      "kana": "ばっきん",
+      "romaji": "bakkin",
+      "tokens": [
+        {
+          "text": "罰金",
+          "kana": "ばっきん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "半价",
+      "japanese": "半額",
+      "kana": "はんがく",
+      "romaji": "hangaku",
+      "tokens": [
+        {
+          "text": "半額",
+          "kana": "はんがく"
+        }
+      ]
+    }
+  ]
+}

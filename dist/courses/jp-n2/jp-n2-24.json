@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-24",
+  "coursePackId": "jp-n2",
+  "title": "名词 24",
+  "order": 24,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "收藏，藏品；时装发布会",
+      "japanese": "コレクション",
+      "kana": "これくしょん",
+      "romaji": "korekushon",
+      "tokens": [
+        {
+          "text": "コレクション",
+          "kana": "これくしょん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "电源插口，插座",
+      "japanese": "コンセント",
+      "kana": "こんせんと",
+      "romaji": "konsento",
+      "tokens": [
+        {
+          "text": "コンセント",
+          "kana": "こんせんと"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "封印，封缄；（装饰用）贴纸",
+      "japanese": "シール",
+      "kana": "しいる",
+      "romaji": "shiiru",
+      "tokens": [
+        {
+          "text": "シール",
+          "kana": "しいる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "体系，系统",
+      "japanese": "システム",
+      "kana": "しすてむ",
+      "romaji": "shisutemu",
+      "tokens": [
+        {
+          "text": "システム",
+          "kana": "しすてむ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "舞台，讲台；阶段",
+      "japanese": "ステージ",
+      "kana": "すてえじ",
+      "romaji": "suteeji",
+      "tokens": [
+        {
+          "text": "ステージ",
+          "kana": "すてえじ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "水坝，水库",
+      "japanese": "ダム",
+      "kana": "だむ",
+      "romaji": "damu",
+      "tokens": [
+        {
+          "text": "ダム",
+          "kana": "だむ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "技术，技巧",
+      "japanese": "テクニック",
+      "kana": "てくにっく",
+      "romaji": "tekunikku",
+      "tokens": [
+        {
+          "text": "テクニック",
+          "kana": "てくにっく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "成套睡衣",
+      "japanese": "パジャマ",
+      "kana": "ぱじゃま",
+      "romaji": "pajama",
+      "tokens": [
+        {
+          "text": "パジャマ",
+          "kana": "ぱじゃま"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "乙烯树脂，塑料薄膜",
+      "japanese": "ビニール",
+      "kana": "びにいる",
+      "romaji": "biniiru",
+      "tokens": [
+        {
+          "text": "ビニール",
+          "kana": "びにいる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "潮流，……热",
+      "japanese": "ブーム",
+      "kana": "ぶうむ",
+      "romaji": "buumu",
+      "tokens": [
+        {
+          "text": "ブーム",
+          "kana": "ぶうむ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "放映机；计划者",
+      "japanese": "プロジェクター",
+      "kana": "ぷろじぇくたあ",
+      "romaji": "purojekutaa",
+      "tokens": [
+        {
+          "text": "プロジェクター",
+          "kana": "ぷろじぇくたあ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "老手，经验丰富的人",
+      "japanese": "ベテラン",
+      "kana": "べてらん",
+      "romaji": "beteran",
+      "tokens": [
+        {
+          "text": "ベテラン",
+          "kana": "べてらん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "直升机",
+      "japanese": "ヘリコプター",
+      "kana": "へりこぷたあ",
+      "romaji": "herikoputaa",
+      "tokens": [
+        {
+          "text": "ヘリコプター",
+          "kana": "へりこぷたあ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "志愿者",
+      "japanese": "ボランティア",
+      "kana": "ぼらんてぃあ",
+      "romaji": "boranteia",
+      "tokens": [
+        {
+          "text": "ボランティア",
+          "kana": "ぼらんてぃあ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（大众）媒体",
+      "japanese": "マスコミ",
+      "kana": "ますこみ",
+      "romaji": "masukomi",
+      "tokens": [
+        {
+          "text": "マスコミ",
+          "kana": "ますこみ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "竞争对手，情敌",
+      "japanese": "ライバル",
+      "kana": "らいばる",
+      "romaji": "raibaru",
+      "tokens": [
+        {
+          "text": "ライバル",
+          "kana": "らいばる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "标签，商标",
+      "japanese": "ラベル",
+      "kana": "らべる",
+      "romaji": "raberu",
+      "tokens": [
+        {
+          "text": "ラベル",
+          "kana": "らべる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "跑步",
+      "japanese": "ランニング",
+      "kana": "らんにんぐ",
+      "romaji": "ranningu",
+      "tokens": [
+        {
+          "text": "ランニング",
+          "kana": "らんにんぐ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "节奏，拍子；韵律",
+      "japanese": "リズム",
+      "kana": "りずむ",
+      "romaji": "rizumu",
+      "tokens": [
+        {
+          "text": "リズム",
+          "kana": "りずむ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "放松，松弛",
+      "japanese": "リラックス",
+      "kana": "りらっくす",
+      "romaji": "rirakkusu",
+      "tokens": [
+        {
+          "text": "リラックス",
+          "kana": "りらっくす"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "娱乐，消遣",
+      "japanese": "レクリエーション",
+      "kana": "れくりええしょん",
+      "romaji": "rekurieeshon",
+      "tokens": [
+        {
+          "text": "レクリエーション",
+          "kana": "れくりええしょん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "身份，地位；等级，品味；位数",
+      "japanese": "位",
+      "kana": "くらい",
+      "romaji": "kurai",
+      "tokens": [
+        {
+          "text": "位",
+          "kana": "くらい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "请求，委托；依靠",
+      "japanese": "依頼",
+      "kana": "いらい",
+      "romaji": "irai",
+      "tokens": [
+        {
+          "text": "依頼",
+          "kana": "いらい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "委员，负责人",
+      "japanese": "委員",
+      "kana": "いいん",
+      "romaji": "iin",
+      "tokens": [
+        {
+          "text": "委員",
+          "kana": "いいん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "刁难的（人），坏心眼的（人）",
+      "japanese": "意地悪",
+      "kana": "いじわる",
+      "romaji": "ijiwaru",
+      "tokens": [
+        {
+          "text": "意地悪",
+          "kana": "いじわる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "维持，维护",
+      "japanese": "維持",
+      "kana": "いじ",
+      "romaji": "iji",
+      "tokens": [
+        {
+          "text": "維持",
+          "kana": "いじ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "育婴，育儿",
+      "japanese": "育児",
+      "kana": "いくじ",
+      "romaji": "ikuji",
+      "tokens": [
+        {
+          "text": "育児",
+          "kana": "いくじ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "一致，相符；团结",
+      "japanese": "一致",
+      "kana": "いっち",
+      "romaji": "itchi",
+      "tokens": [
+        {
+          "text": "一致",
+          "kana": "いっち"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "粗略，大致；（不）普通",
+      "japanese": "一通り",
+      "kana": "ひととおり",
+      "romaji": "hitotoori",
+      "tokens": [
+        {
+          "text": "一通り",
+          "kana": "ひととおり"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "一定，某种程度；稳定",
+      "japanese": "一定",
+      "kana": "いってい",
+      "romaji": "ittei",
+      "tokens": [
+        {
+          "text": "一定",
+          "kana": "いってい"
+        }
+      ]
+    }
+  ]
+}

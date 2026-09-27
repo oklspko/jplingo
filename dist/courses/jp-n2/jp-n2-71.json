@@ -1,0 +1,190 @@
+{
+  "id": "jp-n2-71",
+  "coursePackId": "jp-n2",
+  "title": "名词 71",
+  "order": 71,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "甜味",
+      "japanese": "甘み",
+      "kana": "あまみ",
+      "romaji": "amami",
+      "tokens": [
+        {
+          "text": "甘み",
+          "kana": "あまみ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "减衰，衰减",
+      "japanese": "減衰",
+      "kana": "げんすい",
+      "romaji": "gensui",
+      "tokens": [
+        {
+          "text": "減衰",
+          "kana": "げんすい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "误用，错用",
+      "japanese": "誤用",
+      "kana": "ごよう",
+      "romaji": "goyou",
+      "tokens": [
+        {
+          "text": "誤用",
+          "kana": "ごよう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "假声，假嗓子，模仿的声",
+      "japanese": "作り声",
+      "kana": "つくりごえ",
+      "romaji": "tsukurigoe",
+      "tokens": [
+        {
+          "text": "作り声",
+          "kana": "つくりごえ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "美味；巧妙；利益",
+      "japanese": "うまみ",
+      "kana": "うまみ",
+      "romaji": "umami",
+      "tokens": [
+        {
+          "text": "うまみ",
+          "kana": "うまみ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "招徕顾客",
+      "japanese": "集客",
+      "kana": "しゅうきゃく",
+      "romaji": "shuukyaku",
+      "tokens": [
+        {
+          "text": "集客",
+          "kana": "しゅうきゃく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "刚做好，刚出来",
+      "japanese": "出来たて",
+      "kana": "できたて",
+      "romaji": "dekitate",
+      "tokens": [
+        {
+          "text": "出来たて",
+          "kana": "できたて"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "价签，标价签",
+      "japanese": "値札",
+      "kana": "ねふだ",
+      "romaji": "nefuda",
+      "tokens": [
+        {
+          "text": "値札",
+          "kana": "ねふだ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "提高水平",
+      "japanese": "底上げ",
+      "kana": "そこあげ",
+      "romaji": "sokoage",
+      "tokens": [
+        {
+          "text": "底上げ",
+          "kana": "そこあげ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "头角",
+      "japanese": "頭角",
+      "kana": "とうかく",
+      "romaji": "toukaku",
+      "tokens": [
+        {
+          "text": "頭角",
+          "kana": "とうかく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "收件人，收件地址",
+      "japanese": "届け先",
+      "kana": "とどけさき",
+      "romaji": "todokesaki",
+      "tokens": [
+        {
+          "text": "届け先",
+          "kana": "とどけさき"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "主动，能动",
+      "japanese": "能動",
+      "kana": "のうどう",
+      "romaji": "noudou",
+      "tokens": [
+        {
+          "text": "能動",
+          "kana": "のうどう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "手感；性情，性格，气质",
+      "japanese": "肌合い",
+      "kana": "はだあい",
+      "romaji": "hadaai",
+      "tokens": [
+        {
+          "text": "肌合い",
+          "kana": "はだあい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "趣味，乐趣，兴趣",
+      "japanese": "面白み",
+      "kana": "おもしろみ",
+      "romaji": "omoshiromi",
+      "tokens": [
+        {
+          "text": "面白み",
+          "kana": "おもしろみ"
+        }
+      ]
+    }
+  ]
+}

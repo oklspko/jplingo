@@ -1,0 +1,320 @@
+{
+  "id": "jp-n2-99",
+  "coursePackId": "jp-n2",
+  "title": "形容词 7",
+  "order": 99,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "亲近，亲密",
+      "japanese": "近しい",
+      "kana": "ちかしい",
+      "romaji": "chikashii",
+      "tokens": [
+        {
+          "text": "近しい",
+          "kana": "ちかしい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "蹒跚；不敏捷，不熟练；结结巴巴",
+      "japanese": "たどたどしい",
+      "kana": "たどたどしい",
+      "romaji": "tadotadoshii",
+      "tokens": [
+        {
+          "text": "たどたどしい",
+          "kana": "たどたどしい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "发急，拼命，竭力",
+      "japanese": "躍起",
+      "kana": "やっき",
+      "romaji": "yakki",
+      "tokens": [
+        {
+          "text": "躍起",
+          "kana": "やっき"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "机敏，敏捷，灵活",
+      "japanese": "機敏",
+      "kana": "きびん",
+      "romaji": "kibin",
+      "tokens": [
+        {
+          "text": "機敏",
+          "kana": "きびん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "（质量）低劣，下等，低级",
+      "japanese": "下等",
+      "kana": "かとう",
+      "romaji": "katou",
+      "tokens": [
+        {
+          "text": "下等",
+          "kana": "かとう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "不遇，不走运，不得志",
+      "japanese": "不遇",
+      "kana": "ふぐう",
+      "romaji": "fuguu",
+      "tokens": [
+        {
+          "text": "不遇",
+          "kana": "ふぐう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "新奇，新颖，不常见",
+      "japanese": "目新しい",
+      "kana": "めあたらしい",
+      "romaji": "meatarashii",
+      "tokens": [
+        {
+          "text": "目新しい",
+          "kana": "めあたらしい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "热的；激烈的；新鲜，热门",
+      "japanese": "ホット",
+      "kana": "ほっと",
+      "romaji": "hotto",
+      "tokens": [
+        {
+          "text": "ホット",
+          "kana": "ほっと"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "难得，来之不易，贵重",
+      "japanese": "得難い",
+      "kana": "えがたい",
+      "romaji": "egatai",
+      "tokens": [
+        {
+          "text": "得難い",
+          "kana": "えがたい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "不擅长",
+      "japanese": "不得意",
+      "kana": "ふとくい",
+      "romaji": "futokui",
+      "tokens": [
+        {
+          "text": "不得意",
+          "kana": "ふとくい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "睡不着觉，难以入睡",
+      "japanese": "寝苦しい",
+      "kana": "ねぐるしい",
+      "romaji": "negurushii",
+      "tokens": [
+        {
+          "text": "寝苦しい",
+          "kana": "ねぐるしい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "低劣，坏，差",
+      "japanese": "粗悪",
+      "kana": "そあく",
+      "romaji": "soaku",
+      "tokens": [
+        {
+          "text": "粗悪",
+          "kana": "そあく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "富有诗意",
+      "japanese": "詩的",
+      "kana": "してき",
+      "romaji": "shiteki",
+      "tokens": [
+        {
+          "text": "詩的",
+          "kana": "してき"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "机械（装置）的；机械的，呆板的",
+      "japanese": "機械的",
+      "kana": "きかいてき",
+      "romaji": "kikaiteki",
+      "tokens": [
+        {
+          "text": "機械的",
+          "kana": "きかいてき"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "个人的",
+      "japanese": "個人的",
+      "kana": "こじんてき",
+      "romaji": "kojinteki",
+      "tokens": [
+        {
+          "text": "個人的",
+          "kana": "こじんてき"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "全面的，全部，全盘",
+      "japanese": "全面的",
+      "kana": "ぜんめんてき",
+      "romaji": "zenmenteki",
+      "tokens": [
+        {
+          "text": "全面的",
+          "kana": "ぜんめんてき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "精神上的，精神的",
+      "japanese": "精神的",
+      "kana": "せいしんてき",
+      "romaji": "seishinteki",
+      "tokens": [
+        {
+          "text": "精神的",
+          "kana": "せいしんてき"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "普遍的",
+      "japanese": "普遍的",
+      "kana": "ふへんてき",
+      "romaji": "fuhenteki",
+      "tokens": [
+        {
+          "text": "普遍的",
+          "kana": "ふへんてき"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "相对的",
+      "japanese": "相対的",
+      "kana": "そうたいてき",
+      "romaji": "soutaiteki",
+      "tokens": [
+        {
+          "text": "相対的",
+          "kana": "そうたいてき"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "主观的",
+      "japanese": "主観的",
+      "kana": "しゅかんてき",
+      "romaji": "shukanteki",
+      "tokens": [
+        {
+          "text": "主観的",
+          "kana": "しゅかんてき"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "典型的",
+      "japanese": "典型的",
+      "kana": "てんけいてき",
+      "romaji": "tenkeiteki",
+      "tokens": [
+        {
+          "text": "典型的",
+          "kana": "てんけいてき"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "唯利是图，贪得无厌，精打细算",
+      "japanese": "がめつい",
+      "kana": "がめつい",
+      "romaji": "gametsui",
+      "tokens": [
+        {
+          "text": "がめつい",
+          "kana": "がめつい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "随心所欲的，任性的",
+      "japanese": "好き勝手",
+      "kana": "すきかって",
+      "romaji": "sukikatte",
+      "tokens": [
+        {
+          "text": "好き勝手",
+          "kana": "すきかって"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "质的，质量的",
+      "japanese": "質的",
+      "kana": "しつてき",
+      "romaji": "shitsuteki",
+      "tokens": [
+        {
+          "text": "質的",
+          "kana": "しつてき"
+        }
+      ]
+    }
+  ]
+}

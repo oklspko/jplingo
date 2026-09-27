@@ -1,0 +1,1178 @@
+{
+  "id": "jp-gaokao-39",
+  "coursePackId": "jp-gaokao",
+  "title": "名词低频 6",
+  "order": 39,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "正中间、正中央",
+      "japanese": "真ん中",
+      "kana": "まんなか",
+      "romaji": "mannaka",
+      "tokens": [
+        {
+          "text": "真ん中",
+          "kana": "まんなか"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "一句话",
+      "japanese": "一言",
+      "kana": "ひとこと",
+      "romaji": "hitokoto",
+      "tokens": [
+        {
+          "text": "一言",
+          "kana": "ひとこと"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "放送、播放",
+      "japanese": "放送",
+      "kana": "ほうそう",
+      "romaji": "housou",
+      "tokens": [
+        {
+          "text": "放送",
+          "kana": "ほうそう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "儿子",
+      "japanese": "息子",
+      "kana": "むすこ",
+      "romaji": "musuko",
+      "tokens": [
+        {
+          "text": "息子",
+          "kana": "むすこ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "节目",
+      "japanese": "番組",
+      "kana": "ばんぐみ",
+      "romaji": "bangumi",
+      "tokens": [
+        {
+          "text": "番組",
+          "kana": "ばんぐみ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "碰头、见面",
+      "japanese": "待ち合わせ",
+      "kana": "まちあわせ",
+      "romaji": "machiawase",
+      "tokens": [
+        {
+          "text": "待ち合わせ",
+          "kana": "まちあわせ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "围墙、栅栏",
+      "japanese": "塀",
+      "kana": "へい",
+      "romaji": "hei",
+      "tokens": [
+        {
+          "text": "塀",
+          "kana": "へい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "高兴、喜悦",
+      "japanese": "喜び",
+      "kana": "よろこび",
+      "romaji": "yorokobi",
+      "tokens": [
+        {
+          "text": "喜び",
+          "kana": "よろこび"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "礼仪",
+      "japanese": "礼儀",
+      "kana": "れいぎ",
+      "romaji": "reigi",
+      "tokens": [
+        {
+          "text": "礼儀",
+          "kana": "れいぎ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "绿、绿色",
+      "japanese": "緑",
+      "kana": "みどり",
+      "romaji": "midori",
+      "tokens": [
+        {
+          "text": "緑",
+          "kana": "みどり"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "流行",
+      "japanese": "流行",
+      "kana": "りゅうこう",
+      "romaji": "ryuukou",
+      "tokens": [
+        {
+          "text": "流行",
+          "kana": "りゅうこう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "热水、开水、洗澡水",
+      "japanese": "湯",
+      "kana": "ゆ",
+      "romaji": "yu",
+      "tokens": [
+        {
+          "text": "湯",
+          "kana": "ゆ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "自己、亲自",
+      "japanese": "自ら",
+      "kana": "みずから",
+      "romaji": "mizukara",
+      "tokens": [
+        {
+          "text": "自ら",
+          "kana": "みずから"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "进口",
+      "japanese": "輸入",
+      "kana": "ゆにゅう",
+      "romaji": "yunyuu",
+      "tokens": [
+        {
+          "text": "輸入",
+          "kana": "ゆにゅう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "麻烦、打扰",
+      "japanese": "迷惑",
+      "kana": "めいわく",
+      "romaji": "meiwaku",
+      "tokens": [
+        {
+          "text": "迷惑",
+          "kana": "めいわく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "女儿",
+      "japanese": "娘",
+      "kana": "むすめ",
+      "romaji": "musume",
+      "tokens": [
+        {
+          "text": "娘",
+          "kana": "むすめ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "利益、好处",
+      "japanese": "利益",
+      "kana": "りえき",
+      "romaji": "rieki",
+      "tokens": [
+        {
+          "text": "利益",
+          "kana": "りえき"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "照顾、麻烦",
+      "japanese": "面倒",
+      "kana": "めんどう",
+      "romaji": "mendou",
+      "tokens": [
+        {
+          "text": "面倒",
+          "kana": "めんどう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "尘埃、灰尘",
+      "japanese": "埃",
+      "kana": "ほこり",
+      "romaji": "hokori",
+      "tokens": [
+        {
+          "text": "埃",
+          "kana": "ほこり"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "平安无事",
+      "japanese": "無事",
+      "kana": "ぶじ",
+      "romaji": "buji",
+      "tokens": [
+        {
+          "text": "無事",
+          "kana": "ぶじ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "一带、附近、周边",
+      "japanese": "辺",
+      "kana": "へん",
+      "romaji": "hen",
+      "tokens": [
+        {
+          "text": "辺",
+          "kana": "へん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "队、列",
+      "japanese": "列",
+      "kana": "れつ",
+      "romaji": "retsu",
+      "tokens": [
+        {
+          "text": "列",
+          "kana": "れつ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "获胜",
+      "japanese": "優勝",
+      "kana": "ゆうしょう",
+      "romaji": "yuushou",
+      "tokens": [
+        {
+          "text": "優勝",
+          "kana": "ゆうしょう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "普及",
+      "japanese": "普及",
+      "kana": "ふきゅう",
+      "romaji": "fukyuu",
+      "tokens": [
+        {
+          "text": "普及",
+          "kana": "ふきゅう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "梦、梦想",
+      "japanese": "夢",
+      "kana": "ゆめ",
+      "romaji": "yume",
+      "tokens": [
+        {
+          "text": "夢",
+          "kana": "ゆめ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "时隔好久",
+      "japanese": "久しぶり",
+      "kana": "ひさしぶり",
+      "romaji": "hisashiburi",
+      "tokens": [
+        {
+          "text": "久しぶり",
+          "kana": "ひさしぶり"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "发展",
+      "japanese": "発展",
+      "kana": "はってん",
+      "romaji": "hatten",
+      "tokens": [
+        {
+          "text": "発展",
+          "kana": "はってん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "昨天晚上",
+      "japanese": "夕べ",
+      "kana": "ゆうべ",
+      "romaji": "yuube",
+      "tokens": [
+        {
+          "text": "夕べ",
+          "kana": "ゆうべ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "光、光线、阳光",
+      "japanese": "光",
+      "kana": "ひかり",
+      "romaji": "hikari",
+      "tokens": [
+        {
+          "text": "光",
+          "kana": "ひかり"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "任务、作用、效果",
+      "japanese": "役割",
+      "kana": "やくわり",
+      "romaji": "yakuwari",
+      "tokens": [
+        {
+          "text": "役割",
+          "kana": "やくわり"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "队、列",
+      "japanese": "列",
+      "kana": "れつ",
+      "romaji": "retsu",
+      "tokens": [
+        {
+          "text": "列",
+          "kana": "れつ"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "发展",
+      "japanese": "発展",
+      "kana": "はってん",
+      "romaji": "hatten",
+      "tokens": [
+        {
+          "text": "発展",
+          "kana": "はってん"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "放送、播放",
+      "japanese": "放送",
+      "kana": "ほうそう",
+      "romaji": "housou",
+      "tokens": [
+        {
+          "text": "放送",
+          "kana": "ほうそう"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "麻烦、打扰",
+      "japanese": "迷惑",
+      "kana": "めいわく",
+      "romaji": "meiwaku",
+      "tokens": [
+        {
+          "text": "迷惑",
+          "kana": "めいわく"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "任务、作用、效果",
+      "japanese": "役割",
+      "kana": "やくわり",
+      "romaji": "yakuwari",
+      "tokens": [
+        {
+          "text": "役割",
+          "kana": "やくわり"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "平安无事",
+      "japanese": "無事",
+      "kana": "ぶじ",
+      "romaji": "buji",
+      "tokens": [
+        {
+          "text": "無事",
+          "kana": "ぶじ"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "正中间、正中央",
+      "japanese": "真ん中",
+      "kana": "まんなか",
+      "romaji": "mannaka",
+      "tokens": [
+        {
+          "text": "真ん中",
+          "kana": "まんなか"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "一带、附近、周边",
+      "japanese": "辺",
+      "kana": "へん",
+      "romaji": "hen",
+      "tokens": [
+        {
+          "text": "辺",
+          "kana": "へん"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "尘埃、灰尘",
+      "japanese": "埃",
+      "kana": "ほこり",
+      "romaji": "hokori",
+      "tokens": [
+        {
+          "text": "埃",
+          "kana": "ほこり"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "围墙、栅栏",
+      "japanese": "塀",
+      "kana": "へい",
+      "romaji": "hei",
+      "tokens": [
+        {
+          "text": "塀",
+          "kana": "へい"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "女儿",
+      "japanese": "娘",
+      "kana": "むすめ",
+      "romaji": "musume",
+      "tokens": [
+        {
+          "text": "娘",
+          "kana": "むすめ"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "礼仪",
+      "japanese": "礼儀",
+      "kana": "れいぎ",
+      "romaji": "reigi",
+      "tokens": [
+        {
+          "text": "礼儀",
+          "kana": "れいぎ"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "照顾、麻烦",
+      "japanese": "面倒",
+      "kana": "めんどう",
+      "romaji": "mendou",
+      "tokens": [
+        {
+          "text": "面倒",
+          "kana": "めんどう"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "儿子",
+      "japanese": "息子",
+      "kana": "むすこ",
+      "romaji": "musuko",
+      "tokens": [
+        {
+          "text": "息子",
+          "kana": "むすこ"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "光、光线、阳光",
+      "japanese": "光",
+      "kana": "ひかり",
+      "romaji": "hikari",
+      "tokens": [
+        {
+          "text": "光",
+          "kana": "ひかり"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "时隔好久",
+      "japanese": "久しぶり",
+      "kana": "ひさしぶり",
+      "romaji": "hisashiburi",
+      "tokens": [
+        {
+          "text": "久しぶり",
+          "kana": "ひさしぶり"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "昨天晚上",
+      "japanese": "夕べ",
+      "kana": "ゆうべ",
+      "romaji": "yuube",
+      "tokens": [
+        {
+          "text": "夕べ",
+          "kana": "ゆうべ"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "普及",
+      "japanese": "普及",
+      "kana": "ふきゅう",
+      "romaji": "fukyuu",
+      "tokens": [
+        {
+          "text": "普及",
+          "kana": "ふきゅう"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "绿、绿色",
+      "japanese": "緑",
+      "kana": "みどり",
+      "romaji": "midori",
+      "tokens": [
+        {
+          "text": "緑",
+          "kana": "みどり"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "节目",
+      "japanese": "番組",
+      "kana": "ばんぐみ",
+      "romaji": "bangumi",
+      "tokens": [
+        {
+          "text": "番組",
+          "kana": "ばんぐみ"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "碰头、见面",
+      "japanese": "待ち合わせ",
+      "kana": "まちあわせ",
+      "romaji": "machiawase",
+      "tokens": [
+        {
+          "text": "待ち合わせ",
+          "kana": "まちあわせ"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "热水、开水、洗澡水",
+      "japanese": "湯",
+      "kana": "ゆ",
+      "romaji": "yu",
+      "tokens": [
+        {
+          "text": "湯",
+          "kana": "ゆ"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "自己、亲自",
+      "japanese": "自ら",
+      "kana": "みずから",
+      "romaji": "mizukara",
+      "tokens": [
+        {
+          "text": "自ら",
+          "kana": "みずから"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "梦、梦想",
+      "japanese": "夢",
+      "kana": "ゆめ",
+      "romaji": "yume",
+      "tokens": [
+        {
+          "text": "夢",
+          "kana": "ゆめ"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "利益、好处",
+      "japanese": "利益",
+      "kana": "りえき",
+      "romaji": "rieki",
+      "tokens": [
+        {
+          "text": "利益",
+          "kana": "りえき"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "获胜",
+      "japanese": "優勝",
+      "kana": "ゆうしょう",
+      "romaji": "yuushou",
+      "tokens": [
+        {
+          "text": "優勝",
+          "kana": "ゆうしょう"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "流行",
+      "japanese": "流行",
+      "kana": "りゅうこう",
+      "romaji": "ryuukou",
+      "tokens": [
+        {
+          "text": "流行",
+          "kana": "りゅうこう"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "进口",
+      "japanese": "輸入",
+      "kana": "ゆにゅう",
+      "romaji": "yunyuu",
+      "tokens": [
+        {
+          "text": "輸入",
+          "kana": "ゆにゅう"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "高兴、喜悦",
+      "japanese": "喜び",
+      "kana": "よろこび",
+      "romaji": "yorokobi",
+      "tokens": [
+        {
+          "text": "喜び",
+          "kana": "よろこび"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "一句话",
+      "japanese": "一言",
+      "kana": "ひとこと",
+      "romaji": "hitokoto",
+      "tokens": [
+        {
+          "text": "一言",
+          "kana": "ひとこと"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "一句话",
+      "japanese": "一言",
+      "kana": "ひとこと",
+      "romaji": "hitokoto",
+      "tokens": [
+        {
+          "text": "一言",
+          "kana": "ひとこと"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "时隔好久",
+      "japanese": "久しぶり",
+      "kana": "ひさしぶり",
+      "romaji": "hisashiburi",
+      "tokens": [
+        {
+          "text": "久しぶり",
+          "kana": "ひさしぶり"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "流行",
+      "japanese": "流行",
+      "kana": "りゅうこう",
+      "romaji": "ryuukou",
+      "tokens": [
+        {
+          "text": "流行",
+          "kana": "りゅうこう"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "儿子",
+      "japanese": "息子",
+      "kana": "むすこ",
+      "romaji": "musuko",
+      "tokens": [
+        {
+          "text": "息子",
+          "kana": "むすこ"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "队、列",
+      "japanese": "列",
+      "kana": "れつ",
+      "romaji": "retsu",
+      "tokens": [
+        {
+          "text": "列",
+          "kana": "れつ"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "平安无事",
+      "japanese": "無事",
+      "kana": "ぶじ",
+      "romaji": "buji",
+      "tokens": [
+        {
+          "text": "無事",
+          "kana": "ぶじ"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "碰头、见面",
+      "japanese": "待ち合わせ",
+      "kana": "まちあわせ",
+      "romaji": "machiawase",
+      "tokens": [
+        {
+          "text": "待ち合わせ",
+          "kana": "まちあわせ"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "自己、亲自",
+      "japanese": "自ら",
+      "kana": "みずから",
+      "romaji": "mizukara",
+      "tokens": [
+        {
+          "text": "自ら",
+          "kana": "みずから"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "梦、梦想",
+      "japanese": "夢",
+      "kana": "ゆめ",
+      "romaji": "yume",
+      "tokens": [
+        {
+          "text": "夢",
+          "kana": "ゆめ"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "一带、附近、周边",
+      "japanese": "辺",
+      "kana": "へん",
+      "romaji": "hen",
+      "tokens": [
+        {
+          "text": "辺",
+          "kana": "へん"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "获胜",
+      "japanese": "優勝",
+      "kana": "ゆうしょう",
+      "romaji": "yuushou",
+      "tokens": [
+        {
+          "text": "優勝",
+          "kana": "ゆうしょう"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "光、光线、阳光",
+      "japanese": "光",
+      "kana": "ひかり",
+      "romaji": "hikari",
+      "tokens": [
+        {
+          "text": "光",
+          "kana": "ひかり"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "麻烦、打扰",
+      "japanese": "迷惑",
+      "kana": "めいわく",
+      "romaji": "meiwaku",
+      "tokens": [
+        {
+          "text": "迷惑",
+          "kana": "めいわく"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "昨天晚上",
+      "japanese": "夕べ",
+      "kana": "ゆうべ",
+      "romaji": "yuube",
+      "tokens": [
+        {
+          "text": "夕べ",
+          "kana": "ゆうべ"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "高兴、喜悦",
+      "japanese": "喜び",
+      "kana": "よろこび",
+      "romaji": "yorokobi",
+      "tokens": [
+        {
+          "text": "喜び",
+          "kana": "よろこび"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "尘埃、灰尘",
+      "japanese": "埃",
+      "kana": "ほこり",
+      "romaji": "hokori",
+      "tokens": [
+        {
+          "text": "埃",
+          "kana": "ほこり"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "正中间、正中央",
+      "japanese": "真ん中",
+      "kana": "まんなか",
+      "romaji": "mannaka",
+      "tokens": [
+        {
+          "text": "真ん中",
+          "kana": "まんなか"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "礼仪",
+      "japanese": "礼儀",
+      "kana": "れいぎ",
+      "romaji": "reigi",
+      "tokens": [
+        {
+          "text": "礼儀",
+          "kana": "れいぎ"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "热水、开水、洗澡水",
+      "japanese": "湯",
+      "kana": "ゆ",
+      "romaji": "yu",
+      "tokens": [
+        {
+          "text": "湯",
+          "kana": "ゆ"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "放送、播放",
+      "japanese": "放送",
+      "kana": "ほうそう",
+      "romaji": "housou",
+      "tokens": [
+        {
+          "text": "放送",
+          "kana": "ほうそう"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "节目",
+      "japanese": "番組",
+      "kana": "ばんぐみ",
+      "romaji": "bangumi",
+      "tokens": [
+        {
+          "text": "番組",
+          "kana": "ばんぐみ"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "围墙、栅栏",
+      "japanese": "塀",
+      "kana": "へい",
+      "romaji": "hei",
+      "tokens": [
+        {
+          "text": "塀",
+          "kana": "へい"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "照顾、麻烦",
+      "japanese": "面倒",
+      "kana": "めんどう",
+      "romaji": "mendou",
+      "tokens": [
+        {
+          "text": "面倒",
+          "kana": "めんどう"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "绿、绿色",
+      "japanese": "緑",
+      "kana": "みどり",
+      "romaji": "midori",
+      "tokens": [
+        {
+          "text": "緑",
+          "kana": "みどり"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "任务、作用、效果",
+      "japanese": "役割",
+      "kana": "やくわり",
+      "romaji": "yakuwari",
+      "tokens": [
+        {
+          "text": "役割",
+          "kana": "やくわり"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "女儿",
+      "japanese": "娘",
+      "kana": "むすめ",
+      "romaji": "musume",
+      "tokens": [
+        {
+          "text": "娘",
+          "kana": "むすめ"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "发展",
+      "japanese": "発展",
+      "kana": "はってん",
+      "romaji": "hatten",
+      "tokens": [
+        {
+          "text": "発展",
+          "kana": "はってん"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "chinese": "普及",
+      "japanese": "普及",
+      "kana": "ふきゅう",
+      "romaji": "fukyuu",
+      "tokens": [
+        {
+          "text": "普及",
+          "kana": "ふきゅう"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "chinese": "进口",
+      "japanese": "輸入",
+      "kana": "ゆにゅう",
+      "romaji": "yunyuu",
+      "tokens": [
+        {
+          "text": "輸入",
+          "kana": "ゆにゅう"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "chinese": "利益、好处",
+      "japanese": "利益",
+      "kana": "りえき",
+      "romaji": "rieki",
+      "tokens": [
+        {
+          "text": "利益",
+          "kana": "りえき"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-41",
+  "coursePackId": "jp-n2",
+  "title": "名词 41",
+  "order": 41,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "憎恶，憎恨",
+      "japanese": "憎しみ",
+      "kana": "にくしみ",
+      "romaji": "nikushimi",
+      "tokens": [
+        {
+          "text": "憎しみ",
+          "kana": "にくしみ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "当即，当场",
+      "japanese": "即座",
+      "kana": "そくざ",
+      "romaji": "sokuza",
+      "tokens": [
+        {
+          "text": "即座",
+          "kana": "そくざ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "休息一下，歇口气",
+      "japanese": "息抜き",
+      "kana": "いきぬき",
+      "romaji": "ikinuki",
+      "tokens": [
+        {
+          "text": "息抜き",
+          "kana": "いきぬき"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "其他公司",
+      "japanese": "他社",
+      "kana": "たしゃ",
+      "romaji": "tasha",
+      "tokens": [
+        {
+          "text": "他社",
+          "kana": "たしゃ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "别人，其他人",
+      "japanese": "他者",
+      "kana": "たしゃ",
+      "romaji": "tasha",
+      "tokens": [
+        {
+          "text": "他者",
+          "kana": "たしゃ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "多种多样，形形色色",
+      "japanese": "多種多様",
+      "kana": "たしゅたよう",
+      "romaji": "tashutayou",
+      "tokens": [
+        {
+          "text": "多種多様",
+          "kana": "たしゅたよう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "多数，多数人",
+      "japanese": "多数",
+      "kana": "たすう",
+      "romaji": "tasuu",
+      "tokens": [
+        {
+          "text": "多数",
+          "kana": "たすう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "发射；工作结束后的宴会",
+      "japanese": "打ち上げ",
+      "kana": "うちあげ",
+      "romaji": "uchiage",
+      "tokens": [
+        {
+          "text": "打ち上げ",
+          "kana": "うちあげ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "应付，对付",
+      "japanese": "対処",
+      "kana": "たいしょ",
+      "romaji": "taisho",
+      "tokens": [
+        {
+          "text": "対処",
+          "kana": "たいしょ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "对等，同等，平等",
+      "japanese": "対等",
+      "kana": "たいとう",
+      "romaji": "taitou",
+      "tokens": [
+        {
+          "text": "対等",
+          "kana": "たいとう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "台数，辆数",
+      "japanese": "台数",
+      "kana": "だいすう",
+      "romaji": "daisuu",
+      "tokens": [
+        {
+          "text": "台数",
+          "kana": "だいすう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "大豆，黄豆",
+      "japanese": "大豆",
+      "kana": "だいず",
+      "romaji": "daizu",
+      "tokens": [
+        {
+          "text": "大豆",
+          "kana": "だいず"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "大幅度",
+      "japanese": "大幅",
+      "kana": "おおはば",
+      "romaji": "oohaba",
+      "tokens": [
+        {
+          "text": "大幅",
+          "kana": "おおはば"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "标题，题目；问题",
+      "japanese": "題",
+      "kana": "だい",
+      "romaji": "dai",
+      "tokens": [
+        {
+          "text": "題",
+          "kana": "だい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "达到，完成",
+      "japanese": "達成",
+      "kana": "たっせい",
+      "romaji": "tassei",
+      "tokens": [
+        {
+          "text": "達成",
+          "kana": "たっせい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "单调，单一",
+      "japanese": "単調",
+      "kana": "たんちょう",
+      "romaji": "tanchou",
+      "tokens": [
+        {
+          "text": "単調",
+          "kana": "たんちょう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "缩短，缩减",
+      "japanese": "短縮",
+      "kana": "たんしゅく",
+      "romaji": "tanshuku",
+      "tokens": [
+        {
+          "text": "短縮",
+          "kana": "たんしゅく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "降价，打折",
+      "japanese": "値引き",
+      "kana": "ねびき",
+      "romaji": "nebiki",
+      "tokens": [
+        {
+          "text": "値引き",
+          "kana": "ねびき"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "价格上涨",
+      "japanese": "値上がり",
+      "kana": "ねあがり",
+      "romaji": "neagari",
+      "tokens": [
+        {
+          "text": "値上がり",
+          "kana": "ねあがり"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "提价，涨价",
+      "japanese": "値上げ",
+      "kana": "ねあげ",
+      "romaji": "neage",
+      "tokens": [
+        {
+          "text": "値上げ",
+          "kana": "ねあげ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "当地，本地",
+      "japanese": "地元",
+      "kana": "じもと",
+      "romaji": "jimoto",
+      "tokens": [
+        {
+          "text": "地元",
+          "kana": "じもと"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "地上",
+      "japanese": "地上",
+      "kana": "ちじょう",
+      "romaji": "chijou",
+      "tokens": [
+        {
+          "text": "地上",
+          "kana": "ちじょう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "秩序，条理",
+      "japanese": "秩序",
+      "kana": "ちつじょ",
+      "romaji": "chitsujo",
+      "tokens": [
+        {
+          "text": "秩序",
+          "kana": "ちつじょ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "踏实，稳健",
+      "japanese": "着実",
+      "kana": "ちゃくじつ",
+      "romaji": "chakujitsu",
+      "tokens": [
+        {
+          "text": "着実",
+          "kana": "ちゃくじつ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "中继，中转；转播",
+      "japanese": "中継",
+      "kana": "ちゅうけい",
+      "romaji": "chuukei",
+      "tokens": [
+        {
+          "text": "中継",
+          "kana": "ちゅうけい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "山顶，顶端",
+      "japanese": "頂",
+      "kana": "いただき",
+      "romaji": "itadaki",
+      "tokens": [
+        {
+          "text": "頂",
+          "kana": "いただき"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（责任、原因等）追查，追究",
+      "japanese": "追及",
+      "kana": "ついきゅう",
+      "romaji": "tsuikyuu",
+      "tokens": [
+        {
+          "text": "追及",
+          "kana": "ついきゅう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "稳定，扎根",
+      "japanese": "定着",
+      "kana": "ていちゃく",
+      "romaji": "teichaku",
+      "tokens": [
+        {
+          "text": "定着",
+          "kana": "ていちゃく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "提供，给予；（电视节目）赞助",
+      "japanese": "提供",
+      "kana": "ていきょう",
+      "romaji": "teikyou",
+      "tokens": [
+        {
+          "text": "提供",
+          "kana": "ていきょう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "转变，转换",
+      "japanese": "転換",
+      "kana": "てんかん",
+      "romaji": "tenkan",
+      "tokens": [
+        {
+          "text": "転換",
+          "kana": "てんかん"
+        }
+      ]
+    }
+  ]
+}

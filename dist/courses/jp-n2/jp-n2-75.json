@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-75",
+  "coursePackId": "jp-n2",
+  "title": "动词 4",
+  "order": 75,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "铺；铺设",
+      "japanese": "敷く",
+      "kana": "しく",
+      "romaji": "shiku",
+      "tokens": [
+        {
+          "text": "敷く",
+          "kana": "しく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "漂，浮；浮起；想起",
+      "japanese": "浮かぶ",
+      "kana": "うかぶ",
+      "romaji": "ukabu",
+      "tokens": [
+        {
+          "text": "浮かぶ",
+          "kana": "うかぶ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "使……浮起；使……出现；想起",
+      "japanese": "浮かべる",
+      "kana": "うかべる",
+      "romaji": "ukaberu",
+      "tokens": [
+        {
+          "text": "浮かべる",
+          "kana": "うかべる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "蒙上；掩饰；笼罩",
+      "japanese": "覆う",
+      "kana": "おおう",
+      "romaji": "oou",
+      "tokens": [
+        {
+          "text": "覆う",
+          "kana": "おおう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "拆，粉碎，使崩溃，使分崩离析；打乱；换零钱",
+      "japanese": "崩す",
+      "kana": "くずす",
+      "romaji": "kuzusu",
+      "tokens": [
+        {
+          "text": "崩す",
+          "kana": "くずす"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "放开；置之不理",
+      "japanese": "放す",
+      "kana": "はなす",
+      "romaji": "hanasu",
+      "tokens": [
+        {
+          "text": "放す",
+          "kana": "はなす"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "眺望；希望",
+      "japanese": "望む",
+      "kana": "のぞむ",
+      "romaji": "nozomu",
+      "tokens": [
+        {
+          "text": "望む",
+          "kana": "のぞむ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "命令；任命",
+      "japanese": "命じる",
+      "kana": "めいじる",
+      "romaji": "meijiru",
+      "tokens": [
+        {
+          "text": "命じる",
+          "kana": "めいじる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "显眼，引人注目",
+      "japanese": "目立つ",
+      "kana": "めだつ",
+      "romaji": "medatsu",
+      "tokens": [
+        {
+          "text": "目立つ",
+          "kana": "めだつ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "有用，有益",
+      "japanese": "役立つ",
+      "kana": "やくだつ",
+      "romaji": "yakudatsu",
+      "tokens": [
+        {
+          "text": "役立つ",
+          "kana": "やくだつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "油炸；从地面升到空中；从船上卸货",
+      "japanese": "揚げる",
+      "kana": "あげる",
+      "romaji": "ageru",
+      "tokens": [
+        {
+          "text": "揚げる",
+          "kana": "あげる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "溶化；熔化",
+      "japanese": "溶かす",
+      "kana": "とかす",
+      "romaji": "tokasu",
+      "tokens": [
+        {
+          "text": "溶かす",
+          "kana": "とかす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "站起来；恢复；开始，着手",
+      "japanese": "立ち上がる",
+      "kana": "たちあがる",
+      "romaji": "tachiagaru",
+      "tokens": [
+        {
+          "text": "立ち上がる",
+          "kana": "たちあがる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "落在；固定；注意，铭记",
+      "japanese": "留まる",
+      "kana": "とまる",
+      "romaji": "tomaru",
+      "tokens": [
+        {
+          "text": "留まる",
+          "kana": "とまる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "固定；留心",
+      "japanese": "留める",
+      "kana": "とめる",
+      "romaji": "tomeru",
+      "tokens": [
+        {
+          "text": "留める",
+          "kana": "とめる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "换……，重……",
+      "japanese": "換える",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "tokens": [
+        {
+          "text": "換える",
+          "kana": "かえる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "撒，洒，散发；甩掉（跟踪）",
+      "japanese": "まく",
+      "kana": "まく",
+      "romaji": "maku",
+      "tokens": [
+        {
+          "text": "まく",
+          "kana": "まく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "映；放映",
+      "japanese": "映す",
+      "kana": "うつす",
+      "romaji": "utsusu",
+      "tokens": [
+        {
+          "text": "映す",
+          "kana": "うつす"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "赐，下达（命令、判决等）；腹泻；打败",
+      "japanese": "下す",
+      "kana": "くだす",
+      "romaji": "kudasu",
+      "tokens": [
+        {
+          "text": "下す",
+          "kana": "くだす"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "卷入；牵连",
+      "japanese": "巻き込む",
+      "kana": "まきこむ",
+      "romaji": "makikomu",
+      "tokens": [
+        {
+          "text": "巻き込む",
+          "kana": "まきこむ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "隔开，划分；（文章）分段",
+      "japanese": "区切る",
+      "kana": "くぎる",
+      "romaji": "kugiru",
+      "tokens": [
+        {
+          "text": "区切る",
+          "kana": "くぎる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "（多伴随否定）（不能）不做，（不能）缺少",
+      "japanese": "欠かす",
+      "kana": "かかす",
+      "romaji": "kakasu",
+      "tokens": [
+        {
+          "text": "欠かす",
+          "kana": "かかす"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "减分，扣分",
+      "japanese": "減点",
+      "kana": "げんてん",
+      "romaji": "genten",
+      "tokens": [
+        {
+          "text": "減点",
+          "kana": "げんてん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "重新考虑",
+      "japanese": "考え直す",
+      "kana": "かんがえなおす",
+      "romaji": "kangaenaosu",
+      "tokens": [
+        {
+          "text": "考え直す",
+          "kana": "かんがえなおす"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "高涨；提高",
+      "japanese": "高まる",
+      "kana": "たかまる",
+      "romaji": "takamaru",
+      "tokens": [
+        {
+          "text": "高まる",
+          "kana": "たかまる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "做完；虚构",
+      "japanese": "作り上げる",
+      "kana": "つくりあげる",
+      "romaji": "tsukuriageru",
+      "tokens": [
+        {
+          "text": "作り上げる",
+          "kana": "つくりあげる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（根据目的、用途和场合）区分使用",
+      "japanese": "使い分ける",
+      "kana": "つかいわける",
+      "romaji": "tsukaiwakeru",
+      "tokens": [
+        {
+          "text": "使い分ける",
+          "kana": "つかいわける"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "断念，死心；（思い切って、思い切った）下定决心",
+      "japanese": "思い切る",
+      "kana": "おもいきる",
+      "romaji": "omoikiru",
+      "tokens": [
+        {
+          "text": "思い切る",
+          "kana": "おもいきる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "亲手交给",
+      "japanese": "手渡す",
+      "kana": "てわたす",
+      "romaji": "tewatasu",
+      "tokens": [
+        {
+          "text": "手渡す",
+          "kana": "てわたす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "继续乘坐（其他交通工具），换乘",
+      "japanese": "乗り継ぐ",
+      "kana": "のりつぐ",
+      "romaji": "noritsugu",
+      "tokens": [
+        {
+          "text": "乗り継ぐ",
+          "kana": "のりつぐ"
+        }
+      ]
+    }
+  ]
+}

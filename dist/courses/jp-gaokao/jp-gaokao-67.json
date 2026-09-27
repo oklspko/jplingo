@@ -1,0 +1,1139 @@
+{
+  "id": "jp-gaokao-67",
+  "coursePackId": "jp-gaokao",
+  "title": "常用惯用表达 3",
+  "order": 67,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "揣度别人内心",
+      "japanese": "腹を読む",
+      "kana": "はらをよむ",
+      "romaji": "harawoyomu",
+      "tokens": [
+        {
+          "text": "腹を読む",
+          "kana": "はらをよむ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "偷摸、背地里",
+      "japanese": "目を盗む",
+      "kana": "めをぬすむ",
+      "romaji": "mewonusumu",
+      "tokens": [
+        {
+          "text": "目を盗む",
+          "kana": "めをぬすむ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "添麻烦",
+      "japanese": "面倒をかける",
+      "kana": "めんどうをかける",
+      "romaji": "mendouwokakeru",
+      "tokens": [
+        {
+          "text": "面倒をかける",
+          "kana": "めんどうをかける"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "肚子饿",
+      "japanese": "腹が減った",
+      "kana": "はらがへった",
+      "romaji": "haragahetta",
+      "tokens": [
+        {
+          "text": "腹が減った",
+          "kana": "はらがへった"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "胡说",
+      "japanese": "下手に口を出す",
+      "kana": "へたにくちをだす",
+      "romaji": "hetanikuchiwodasu",
+      "tokens": [
+        {
+          "text": "下手に口を出す",
+          "kana": "へたにくちをだす"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "熟能生巧",
+      "japanese": "習うより慣れよ",
+      "kana": "ならうよりなれよ",
+      "romaji": "narauyorinareyo",
+      "tokens": [
+        {
+          "text": "習うより慣れよ",
+          "kana": "ならうよりなれよ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "忙得不可开交",
+      "japanese": "目が回るほど忙しい",
+      "kana": "めがまわるほどいそがしい",
+      "romaji": "megamawaruhodoisogashii",
+      "tokens": [
+        {
+          "text": "目が回るほど忙しい",
+          "kana": "めがまわるほどいそがしい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "腹黑",
+      "japanese": "腹が黒い",
+      "kana": "はらがくろい",
+      "romaji": "haragakuroi",
+      "tokens": [
+        {
+          "text": "腹が黒い",
+          "kana": "はらがくろい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "侧耳倾听",
+      "japanese": "耳を傾ける",
+      "kana": "みみをかたむける",
+      "romaji": "mimiwokatamukeru",
+      "tokens": [
+        {
+          "text": "耳を傾ける",
+          "kana": "みみをかたむける"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "年老眼花",
+      "japanese": "目が遠い",
+      "kana": "めがとおい",
+      "romaji": "megatooi",
+      "tokens": [
+        {
+          "text": "目が遠い",
+          "kana": "めがとおい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "嫉妒",
+      "japanese": "焼きもちを焼く",
+      "kana": "やきもちをやく",
+      "romaji": "yakimochiwoyaku",
+      "tokens": [
+        {
+          "text": "焼きもちを焼く",
+          "kana": "やきもちをやく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "无意中听到",
+      "japanese": "耳にする",
+      "kana": "みみにする",
+      "romaji": "miminisuru",
+      "tokens": [
+        {
+          "text": "耳にする",
+          "kana": "みみにする"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "传到耳朵里",
+      "japanese": "耳に入る",
+      "kana": "みみにはいる",
+      "romaji": "miminihairu",
+      "tokens": [
+        {
+          "text": "耳に入る",
+          "kana": "みみにはいる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "吸引人目光",
+      "japanese": "目を引く",
+      "kana": "めをひく",
+      "romaji": "mewohiku",
+      "tokens": [
+        {
+          "text": "目を引く",
+          "kana": "めをひく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "过目、浏览",
+      "japanese": "目を通す",
+      "kana": "めをとおす",
+      "romaji": "mewotoosu",
+      "tokens": [
+        {
+          "text": "目を通す",
+          "kana": "めをとおす"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "既往不咎",
+      "japanese": "水に流す",
+      "kana": "みずにながす",
+      "romaji": "mizuninagasu",
+      "tokens": [
+        {
+          "text": "水に流す",
+          "kana": "みずにながす"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "生气",
+      "japanese": "腹が立つ",
+      "kana": "はらがたつ",
+      "romaji": "haragatatsu",
+      "tokens": [
+        {
+          "text": "腹が立つ",
+          "kana": "はらがたつ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "告诉",
+      "japanese": "耳に入れる",
+      "kana": "みみにいれる",
+      "romaji": "miminiireru",
+      "tokens": [
+        {
+          "text": "耳に入れる",
+          "kana": "みみにいれる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "倒霉",
+      "japanese": "ひどい目に遭う",
+      "kana": "ひどいめにあう",
+      "romaji": "hidoimeniau",
+      "tokens": [
+        {
+          "text": "ひどい目に遭う",
+          "kana": "ひどいめにあう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "毫无根据",
+      "japanese": "根も葉もない",
+      "kana": "ねもはもない",
+      "romaji": "nemohamonai",
+      "tokens": [
+        {
+          "text": "根も葉もない",
+          "kana": "ねもはもない"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "忙里偷闲",
+      "japanese": "暇を盗む",
+      "kana": "ひまをぬすむ",
+      "romaji": "himawonusumu",
+      "tokens": [
+        {
+          "text": "暇を盗む",
+          "kana": "ひまをぬすむ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "有眼光、识货",
+      "japanese": "目が高い",
+      "kana": "めがたかい",
+      "romaji": "megatakai",
+      "tokens": [
+        {
+          "text": "目が高い",
+          "kana": "めがたかい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "贸然出手",
+      "japanese": "下手に手を出す",
+      "kana": "へたにてをだす",
+      "romaji": "hetanitewodasu",
+      "tokens": [
+        {
+          "text": "下手に手を出す",
+          "kana": "へたにてをだす"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "添麻烦",
+      "japanese": "迷惑をかける",
+      "kana": "めいわくをかける",
+      "romaji": "meiwakuwokakeru",
+      "tokens": [
+        {
+          "text": "迷惑をかける",
+          "kana": "めいわくをかける"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "有用、有帮助",
+      "japanese": "役に立つ",
+      "kana": "やくにたつ",
+      "romaji": "yakunitatsu",
+      "tokens": [
+        {
+          "text": "役に立つ",
+          "kana": "やくにたつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "大同小异",
+      "japanese": "似たり寄ったり",
+      "kana": "にたりよったり",
+      "romaji": "nitariyottari",
+      "tokens": [
+        {
+          "text": "似たり寄ったり",
+          "kana": "にたりよったり"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "毫无办法",
+      "japanese": "どうしようもない",
+      "kana": "どうしようもない",
+      "romaji": "doushiyoumonai",
+      "tokens": [
+        {
+          "text": "どうしようもない",
+          "kana": "どうしようもない"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "照顾",
+      "japanese": "面倒を見る",
+      "kana": "めんどうをみる",
+      "romaji": "mendouwomiru",
+      "tokens": [
+        {
+          "text": "面倒を見る",
+          "kana": "めんどうをみる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "得意洋洋",
+      "japanese": "鼻が高い",
+      "kana": "はながたかい",
+      "romaji": "hanagatakai",
+      "tokens": [
+        {
+          "text": "鼻が高い",
+          "kana": "はながたかい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "嫉妒",
+      "japanese": "焼きもちを焼く",
+      "kana": "やきもちをやく",
+      "romaji": "yakimochiwoyaku",
+      "tokens": [
+        {
+          "text": "焼きもちを焼く",
+          "kana": "やきもちをやく"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "胡说",
+      "japanese": "下手に口を出す",
+      "kana": "へたにくちをだす",
+      "romaji": "hetanikuchiwodasu",
+      "tokens": [
+        {
+          "text": "下手に口を出す",
+          "kana": "へたにくちをだす"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "毫无办法",
+      "japanese": "どうしようもない",
+      "kana": "どうしようもない",
+      "romaji": "doushiyoumonai",
+      "tokens": [
+        {
+          "text": "どうしようもない",
+          "kana": "どうしようもない"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "倒霉",
+      "japanese": "ひどい目に遭う",
+      "kana": "ひどいめにあう",
+      "romaji": "hidoimeniau",
+      "tokens": [
+        {
+          "text": "ひどい目に遭う",
+          "kana": "ひどいめにあう"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "熟能生巧",
+      "japanese": "習うより慣れよ",
+      "kana": "ならうよりなれよ",
+      "romaji": "narauyorinareyo",
+      "tokens": [
+        {
+          "text": "習うより慣れよ",
+          "kana": "ならうよりなれよ"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "贸然出手",
+      "japanese": "下手に手を出す",
+      "kana": "へたにてをだす",
+      "romaji": "hetanitewodasu",
+      "tokens": [
+        {
+          "text": "下手に手を出す",
+          "kana": "へたにてをだす"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "揣度别人内心",
+      "japanese": "腹を読む",
+      "kana": "はらをよむ",
+      "romaji": "harawoyomu",
+      "tokens": [
+        {
+          "text": "腹を読む",
+          "kana": "はらをよむ"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "无意中听到",
+      "japanese": "耳にする",
+      "kana": "みみにする",
+      "romaji": "miminisuru",
+      "tokens": [
+        {
+          "text": "耳にする",
+          "kana": "みみにする"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "传到耳朵里",
+      "japanese": "耳に入る",
+      "kana": "みみにはいる",
+      "romaji": "miminihairu",
+      "tokens": [
+        {
+          "text": "耳に入る",
+          "kana": "みみにはいる"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "得意洋洋",
+      "japanese": "鼻が高い",
+      "kana": "はながたかい",
+      "romaji": "hanagatakai",
+      "tokens": [
+        {
+          "text": "鼻が高い",
+          "kana": "はながたかい"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "既往不咎",
+      "japanese": "水に流す",
+      "kana": "みずにながす",
+      "romaji": "mizuninagasu",
+      "tokens": [
+        {
+          "text": "水に流す",
+          "kana": "みずにながす"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "添麻烦",
+      "japanese": "迷惑をかける",
+      "kana": "めいわくをかける",
+      "romaji": "meiwakuwokakeru",
+      "tokens": [
+        {
+          "text": "迷惑をかける",
+          "kana": "めいわくをかける"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "年老眼花",
+      "japanese": "目が遠い",
+      "kana": "めがとおい",
+      "romaji": "megatooi",
+      "tokens": [
+        {
+          "text": "目が遠い",
+          "kana": "めがとおい"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "照顾",
+      "japanese": "面倒を見る",
+      "kana": "めんどうをみる",
+      "romaji": "mendouwomiru",
+      "tokens": [
+        {
+          "text": "面倒を見る",
+          "kana": "めんどうをみる"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "偷摸、背地里",
+      "japanese": "目を盗む",
+      "kana": "めをぬすむ",
+      "romaji": "mewonusumu",
+      "tokens": [
+        {
+          "text": "目を盗む",
+          "kana": "めをぬすむ"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "肚子饿",
+      "japanese": "腹が減った",
+      "kana": "はらがへった",
+      "romaji": "haragahetta",
+      "tokens": [
+        {
+          "text": "腹が減った",
+          "kana": "はらがへった"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "腹黑",
+      "japanese": "腹が黒い",
+      "kana": "はらがくろい",
+      "romaji": "haragakuroi",
+      "tokens": [
+        {
+          "text": "腹が黒い",
+          "kana": "はらがくろい"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "侧耳倾听",
+      "japanese": "耳を傾ける",
+      "kana": "みみをかたむける",
+      "romaji": "mimiwokatamukeru",
+      "tokens": [
+        {
+          "text": "耳を傾ける",
+          "kana": "みみをかたむける"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "有用、有帮助",
+      "japanese": "役に立つ",
+      "kana": "やくにたつ",
+      "romaji": "yakunitatsu",
+      "tokens": [
+        {
+          "text": "役に立つ",
+          "kana": "やくにたつ"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "过目、浏览",
+      "japanese": "目を通す",
+      "kana": "めをとおす",
+      "romaji": "mewotoosu",
+      "tokens": [
+        {
+          "text": "目を通す",
+          "kana": "めをとおす"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "忙得不可开交",
+      "japanese": "目が回るほど忙しい",
+      "kana": "めがまわるほどいそがしい",
+      "romaji": "megamawaruhodoisogashii",
+      "tokens": [
+        {
+          "text": "目が回るほど忙しい",
+          "kana": "めがまわるほどいそがしい"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "毫无根据",
+      "japanese": "根も葉もない",
+      "kana": "ねもはもない",
+      "romaji": "nemohamonai",
+      "tokens": [
+        {
+          "text": "根も葉もない",
+          "kana": "ねもはもない"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "有眼光、识货",
+      "japanese": "目が高い",
+      "kana": "めがたかい",
+      "romaji": "megatakai",
+      "tokens": [
+        {
+          "text": "目が高い",
+          "kana": "めがたかい"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "大同小异",
+      "japanese": "似たり寄ったり",
+      "kana": "にたりよったり",
+      "romaji": "nitariyottari",
+      "tokens": [
+        {
+          "text": "似たり寄ったり",
+          "kana": "にたりよったり"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "吸引人目光",
+      "japanese": "目を引く",
+      "kana": "めをひく",
+      "romaji": "mewohiku",
+      "tokens": [
+        {
+          "text": "目を引く",
+          "kana": "めをひく"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "添麻烦",
+      "japanese": "面倒をかける",
+      "kana": "めんどうをかける",
+      "romaji": "mendouwokakeru",
+      "tokens": [
+        {
+          "text": "面倒をかける",
+          "kana": "めんどうをかける"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "忙里偷闲",
+      "japanese": "暇を盗む",
+      "kana": "ひまをぬすむ",
+      "romaji": "himawonusumu",
+      "tokens": [
+        {
+          "text": "暇を盗む",
+          "kana": "ひまをぬすむ"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "chinese": "生气",
+      "japanese": "腹が立つ",
+      "kana": "はらがたつ",
+      "romaji": "haragatatsu",
+      "tokens": [
+        {
+          "text": "腹が立つ",
+          "kana": "はらがたつ"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "chinese": "告诉",
+      "japanese": "耳に入れる",
+      "kana": "みみにいれる",
+      "romaji": "miminiireru",
+      "tokens": [
+        {
+          "text": "耳に入れる",
+          "kana": "みみにいれる"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "chinese": "生气",
+      "japanese": "腹が立つ",
+      "kana": "はらがたつ",
+      "romaji": "haragatatsu",
+      "tokens": [
+        {
+          "text": "腹が立つ",
+          "kana": "はらがたつ"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "chinese": "大同小异",
+      "japanese": "似たり寄ったり",
+      "kana": "にたりよったり",
+      "romaji": "nitariyottari",
+      "tokens": [
+        {
+          "text": "似たり寄ったり",
+          "kana": "にたりよったり"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "chinese": "过目、浏览",
+      "japanese": "目を通す",
+      "kana": "めをとおす",
+      "romaji": "mewotoosu",
+      "tokens": [
+        {
+          "text": "目を通す",
+          "kana": "めをとおす"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "chinese": "添麻烦",
+      "japanese": "迷惑をかける",
+      "kana": "めいわくをかける",
+      "romaji": "meiwakuwokakeru",
+      "tokens": [
+        {
+          "text": "迷惑をかける",
+          "kana": "めいわくをかける"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "chinese": "贸然出手",
+      "japanese": "下手に手を出す",
+      "kana": "へたにてをだす",
+      "romaji": "hetanitewodasu",
+      "tokens": [
+        {
+          "text": "下手に手を出す",
+          "kana": "へたにてをだす"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "chinese": "毫无办法",
+      "japanese": "どうしようもない",
+      "kana": "どうしようもない",
+      "romaji": "doushiyoumonai",
+      "tokens": [
+        {
+          "text": "どうしようもない",
+          "kana": "どうしようもない"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "chinese": "毫无根据",
+      "japanese": "根も葉もない",
+      "kana": "ねもはもない",
+      "romaji": "nemohamonai",
+      "tokens": [
+        {
+          "text": "根も葉もない",
+          "kana": "ねもはもない"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "chinese": "添麻烦",
+      "japanese": "面倒をかける",
+      "kana": "めんどうをかける",
+      "romaji": "mendouwokakeru",
+      "tokens": [
+        {
+          "text": "面倒をかける",
+          "kana": "めんどうをかける"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "chinese": "吸引人目光",
+      "japanese": "目を引く",
+      "kana": "めをひく",
+      "romaji": "mewohiku",
+      "tokens": [
+        {
+          "text": "目を引く",
+          "kana": "めをひく"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "chinese": "告诉",
+      "japanese": "耳に入れる",
+      "kana": "みみにいれる",
+      "romaji": "miminiireru",
+      "tokens": [
+        {
+          "text": "耳に入れる",
+          "kana": "みみにいれる"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "chinese": "嫉妒",
+      "japanese": "焼きもちを焼く",
+      "kana": "やきもちをやく",
+      "romaji": "yakimochiwoyaku",
+      "tokens": [
+        {
+          "text": "焼きもちを焼く",
+          "kana": "やきもちをやく"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "chinese": "忙得不可开交",
+      "japanese": "目が回るほど忙しい",
+      "kana": "めがまわるほどいそがしい",
+      "romaji": "megamawaruhodoisogashii",
+      "tokens": [
+        {
+          "text": "目が回るほど忙しい",
+          "kana": "めがまわるほどいそがしい"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "chinese": "得意洋洋",
+      "japanese": "鼻が高い",
+      "kana": "はながたかい",
+      "romaji": "hanagatakai",
+      "tokens": [
+        {
+          "text": "鼻が高い",
+          "kana": "はながたかい"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "chinese": "熟能生巧",
+      "japanese": "習うより慣れよ",
+      "kana": "ならうよりなれよ",
+      "romaji": "narauyorinareyo",
+      "tokens": [
+        {
+          "text": "習うより慣れよ",
+          "kana": "ならうよりなれよ"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "chinese": "无意中听到",
+      "japanese": "耳にする",
+      "kana": "みみにする",
+      "romaji": "miminisuru",
+      "tokens": [
+        {
+          "text": "耳にする",
+          "kana": "みみにする"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "chinese": "腹黑",
+      "japanese": "腹が黒い",
+      "kana": "はらがくろい",
+      "romaji": "haragakuroi",
+      "tokens": [
+        {
+          "text": "腹が黒い",
+          "kana": "はらがくろい"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "chinese": "传到耳朵里",
+      "japanese": "耳に入る",
+      "kana": "みみにはいる",
+      "romaji": "miminihairu",
+      "tokens": [
+        {
+          "text": "耳に入る",
+          "kana": "みみにはいる"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "chinese": "胡说",
+      "japanese": "下手に口を出す",
+      "kana": "へたにくちをだす",
+      "romaji": "hetanikuchiwodasu",
+      "tokens": [
+        {
+          "text": "下手に口を出す",
+          "kana": "へたにくちをだす"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "chinese": "倒霉",
+      "japanese": "ひどい目に遭う",
+      "kana": "ひどいめにあう",
+      "romaji": "hidoimeniau",
+      "tokens": [
+        {
+          "text": "ひどい目に遭う",
+          "kana": "ひどいめにあう"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "chinese": "忙里偷闲",
+      "japanese": "暇を盗む",
+      "kana": "ひまをぬすむ",
+      "romaji": "himawonusumu",
+      "tokens": [
+        {
+          "text": "暇を盗む",
+          "kana": "ひまをぬすむ"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "chinese": "肚子饿",
+      "japanese": "腹が減った",
+      "kana": "はらがへった",
+      "romaji": "haragahetta",
+      "tokens": [
+        {
+          "text": "腹が減った",
+          "kana": "はらがへった"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "chinese": "年老眼花",
+      "japanese": "目が遠い",
+      "kana": "めがとおい",
+      "romaji": "megatooi",
+      "tokens": [
+        {
+          "text": "目が遠い",
+          "kana": "めがとおい"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "chinese": "侧耳倾听",
+      "japanese": "耳を傾ける",
+      "kana": "みみをかたむける",
+      "romaji": "mimiwokatamukeru",
+      "tokens": [
+        {
+          "text": "耳を傾ける",
+          "kana": "みみをかたむける"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "chinese": "照顾",
+      "japanese": "面倒を見る",
+      "kana": "めんどうをみる",
+      "romaji": "mendouwomiru",
+      "tokens": [
+        {
+          "text": "面倒を見る",
+          "kana": "めんどうをみる"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "chinese": "偷摸、背地里",
+      "japanese": "目を盗む",
+      "kana": "めをぬすむ",
+      "romaji": "mewonusumu",
+      "tokens": [
+        {
+          "text": "目を盗む",
+          "kana": "めをぬすむ"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "chinese": "有用、有帮助",
+      "japanese": "役に立つ",
+      "kana": "やくにたつ",
+      "romaji": "yakunitatsu",
+      "tokens": [
+        {
+          "text": "役に立つ",
+          "kana": "やくにたつ"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "chinese": "既往不咎",
+      "japanese": "水に流す",
+      "kana": "みずにながす",
+      "romaji": "mizuninagasu",
+      "tokens": [
+        {
+          "text": "水に流す",
+          "kana": "みずにながす"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "chinese": "揣度别人内心",
+      "japanese": "腹を読む",
+      "kana": "はらをよむ",
+      "romaji": "harawoyomu",
+      "tokens": [
+        {
+          "text": "腹を読む",
+          "kana": "はらをよむ"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "chinese": "有眼光、识货",
+      "japanese": "目が高い",
+      "kana": "めがたかい",
+      "romaji": "megatakai",
+      "tokens": [
+        {
+          "text": "目が高い",
+          "kana": "めがたかい"
+        }
+      ]
+    }
+  ]
+}
