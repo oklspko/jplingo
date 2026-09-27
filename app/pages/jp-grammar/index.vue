@@ -6,7 +6,7 @@
         <header class="page-header">
           <span class="page-badge">📖 内容学习</span>
           <h1 class="page-title">语法条词典</h1>
-          <p class="page-sub">按五十音（あいうえお）· 能力考等级（N5–N1）检索语法条</p>
+          <p class="page-sub">按五十音（あいうえお）· 能力考等级（N5–N1）检索语法条 · 点击展开接续与例句</p>
         </header>
 
         <!-- 筛选区 -->
@@ -53,7 +53,7 @@
               v-model="keyword"
               class="filter-search"
               type="search"
-              placeholder="输入语法条或释义关键词…"
+              placeholder="输入语法条、接续或释义关键词…"
             />
           </div>
         </section>
@@ -82,7 +82,7 @@
                 :key="p.id"
                 class="point-card"
                 :class="{ expanded: expandedId === p.id }"
-                @click="expandedId = expandedId === p.id ? null : p.id"
+                @click="toggleCard(p.id)"
               >
                 <div class="point-head">
                   <span class="point-pattern">{{ p.pattern }}</span>
@@ -90,10 +90,34 @@
                   <span class="point-arrow" :class="{ rotated: expandedId === p.id }">▾</span>
                 </div>
                 <p class="point-meaning">{{ p.meaning }}</p>
+
+                <!-- 第一次展开：接续 + 例句 + 注意 -->
                 <div v-show="expandedId === p.id" class="point-detail">
-                  <p class="point-example">{{ p.example }}</p>
-                  <p class="point-translation">{{ p.translation }}</p>
+                  <div class="point-setsuzoku">
+                    <span class="point-setsuzoku-label">接续</span>
+                    <span class="point-setsuzoku-text">{{ p.setsuzoku }}</span>
+                  </div>
+
+                  <ul class="point-examples">
+                    <li v-for="(ex, i) in p.examples" :key="i" class="point-example-item">
+                      <span class="point-example">{{ ex.jp }}</span>
+                      <span class="point-translation">{{ ex.zh }}</span>
+                    </li>
+                  </ul>
+
                   <p v-if="p.note" class="point-note">{{ p.note }}</p>
+
+                  <!-- 第二次展开：语法解析 -->
+                  <button
+                    v-if="p.analysis"
+                    class="analysis-toggle"
+                    :class="{ open: analysisOpen === p.id }"
+                    @click.stop="toggleAnalysis(p.id)"
+                  >
+                    <span>语法解析</span>
+                    <span class="analysis-toggle-arrow">{{ analysisOpen === p.id ? '▾' : '▸' }}</span>
+                  </button>
+                  <p v-show="analysisOpen === p.id" class="point-analysis">{{ p.analysis }}</p>
                 </div>
               </article>
             </div>
@@ -129,6 +153,21 @@ const selectedVowel = ref<VowelKey | "全部">("全部");
 const selectedLevel = ref<string>("全部");
 const keyword = ref("");
 const expandedId = ref<string | null>(null);
+const analysisOpen = ref<string | null>(null);
+
+function toggleCard(id: string) {
+  if (expandedId.value === id) {
+    expandedId.value = null;
+    analysisOpen.value = null;
+  } else {
+    expandedId.value = id;
+    analysisOpen.value = null;
+  }
+}
+
+function toggleAnalysis(id: string) {
+  analysisOpen.value = analysisOpen.value === id ? null : id;
+}
 
 function toHiragana(ch: string): string {
   const code = ch.charCodeAt(0);
@@ -154,7 +193,7 @@ const filtered = computed(() => {
   return grammarPoints.filter((p) => {
     if (selectedVowel.value !== "全部" && vowelOf(p.pattern) !== selectedVowel.value) return false;
     if (selectedLevel.value !== "全部" && p.level !== selectedLevel.value) return false;
-    if (kw && !`${p.pattern} ${p.meaning} ${p.example}`.includes(kw)) return false;
+    if (kw && !`${p.pattern} ${p.meaning} ${p.setsuzoku} ${p.examples.map(e => e.jp).join(" ")}`.includes(kw)) return false;
     return true;
   });
 });
@@ -456,14 +495,54 @@ function resetFilters() {
   line-height: 1.6;
 }
 
+/* ===== 展开详情 ===== */
 .point-detail {
   margin-top: 12px;
   padding-top: 12px;
   border-top: 1px dashed #e8f6ff;
 }
 
+.point-setsuzoku {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.point-setsuzoku-label {
+  flex-shrink: 0;
+  padding: 1px 8px;
+  background: #ecfdf5;
+  color: #059669;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.point-setsuzoku-text {
+  font-size: 13px;
+  color: #0369a1;
+  line-height: 1.5;
+  font-family: "Yu Gothic UI", "Meiryo", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+}
+
+.point-examples {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.point-example-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-left: 12px;
+  border-left: 3px solid #e0f2fe;
+}
+
 .point-example {
-  margin: 0;
   font-size: 15px;
   color: #0284c7;
   line-height: 1.7;
@@ -471,17 +550,62 @@ function resetFilters() {
 }
 
 .point-translation {
-  margin: 4px 0 0;
   font-size: 13px;
   color: #7dd3fc;
   line-height: 1.6;
 }
 
 .point-note {
-  margin: 6px 0 0;
+  margin: 12px 0 0;
   font-size: 12px;
   color: #5b7a8c;
-  line-height: 1.6;
+  line-height: 1.7;
+}
+
+/* ===== 语法解析按钮 ===== */
+.analysis-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  margin-top: 12px;
+  padding: 8px 12px;
+  border: 1px solid #fde68a;
+  border-radius: 10px;
+  background: #fefce8;
+  color: #92400e;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+}
+
+.analysis-toggle:hover {
+  background: #fef9c3;
+  border-color: #fcd34d;
+}
+
+.analysis-toggle.open {
+  background: #fef9c3;
+  border-color: #fcd34d;
+}
+
+.analysis-toggle-arrow {
+  color: #ca8a04;
+  font-size: 13px;
+}
+
+.point-analysis {
+  margin: 10px 0 0;
+  padding: 12px 14px;
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  border-radius: 10px;
+  font-size: 13px;
+  color: #92400e;
+  line-height: 1.7;
 }
 
 /* ===== 空状态 ===== */
