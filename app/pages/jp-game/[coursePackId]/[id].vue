@@ -149,7 +149,6 @@
 <script setup lang="ts">
 import { computed, nextTick, onMounted, onUnmounted, ref, watch } from "vue";
 import { useRoute } from "vue-router";
-import { toHiragana } from "wanakana";
 import JpTopbar from "~/components/jp/game/JpTopbar.vue";
 import JpHints from "~/components/jp/game/JpHints.vue";
 import JpCompleteModal from "~/components/jp/game/JpCompleteModal.vue";
@@ -166,6 +165,8 @@ import {
   isSingleKanaCourseId,
   checkToken,
   calcWordWidth,
+  romajiToKanaForDisplay,
+  kanaToInputRomaji,
 } from "~/composables/jp/useJpRomaji";
 import { useJpGlobalKeyboard } from "~/composables/jp/useJpKeyboard";
 import {
@@ -259,7 +260,7 @@ const words = computed(() => {
         incorrect: result.value === "wrong" && !checkToken(raw, token, true),
       };
     }
-    const userInput = toHiragana(raw);
+    const userInput = romajiToKanaForDisplay(raw, token.kana);
     return {
       text: token.text, kana: token.kana, userInput,
       incorrect: result.value === "wrong" && !checkToken(raw, token, false),
@@ -418,7 +419,12 @@ async function loadCourseData() {
     // 已掌握（连续答对 5 次）的词不再进入测试；无分类则打乱全部词库
     list = shuffle(list.filter((s) => !vocabMemory.isMastered(s.japanese)));
   }
-  statements.value = buildPracticeOrder(packId, list, 6);
+  statements.value = buildPracticeOrder(packId, list, 6).map((s) => ({
+    ...s,
+    // 提示用罗马字须是「可输入的」IME 拼写（づ→du、っち→cchi、ん+元音→n' 等），
+    // 存储的 romaji 是 Hepburn 展示写法，照着打不出正确假名，故运行时按 kana 重算。
+    romaji: kanaToInputRomaji(s.kana),
+  }));
   if (isMixed.value && statements.value.length === 0) allMastered.value = true;
   courseTitle.value = data.title || id;
   currentIndex.value = restoreIndex();

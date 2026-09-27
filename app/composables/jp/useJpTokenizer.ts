@@ -1,8 +1,7 @@
 import { onMounted, ref } from "vue";
 import * as kuromoji from "@patdx/kuromoji";
-import { toRomaji } from "wanakana";
 import { ungzip } from "pako";
-import { katakanaToHiragana } from "~/composables/jp/useJpRomaji";
+import { katakanaToHiragana, kanaToInputRomaji } from "~/composables/jp/useJpRomaji";
 
 // 本地词典目录（public/dict，离线可用，不再依赖 CDN）
 const CDN_DICT_BASE = "/dict/";
@@ -112,7 +111,7 @@ export function useJpTokenizer() {
     const kana = analysis
       .map((t: any) => katakanaToHiragana(t.reading || t.surface_form))
       .join("");
-    return { text: seg, kana, romaji: toRomaji(kana) };
+    return { text: seg, kana, romaji: kanaToInputRomaji(kana) };
   }
 
   return { ready, error, retry, analyzeSegment };

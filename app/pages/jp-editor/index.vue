@@ -308,11 +308,11 @@
 
 <script setup lang="ts">
 import { nextTick, onMounted, reactive, ref } from "vue";
-import { toHiragana, toRomaji } from "wanakana";
+import { toHiragana } from "wanakana";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
 import { fetchCourse, fetchCoursePacks } from "~/composables/jp/useJpCourses";
 import { useJpTokenizer } from "~/composables/jp/useJpTokenizer";
-import { splitSegments } from "~/composables/jp/useJpRomaji";
+import { splitSegments, kanaToInputRomaji } from "~/composables/jp/useJpRomaji";
 import {
   saveOrShareJson,
   buildSingleCoursePack,
@@ -603,7 +603,7 @@ function onJapaneseBlur(stmt: JpStatement) {
       // 词典未就绪：用 wanakana 降级生成（汉字无法自动注音，需手动补假名）
       const kanas = segs.map((seg) => toHiragana(seg));
       stmt.kana = kanas.join(" ");
-      stmt.romaji = kanas.map((k) => toRomaji(k)).join(" ");
+      stmt.romaji = kanas.map((k) => kanaToInputRomaji(k)).join(" ");
       stmt.tokens = segs.map((seg, i) => ({ text: seg, kana: kanas[i] }));
     }
   } catch (err) {

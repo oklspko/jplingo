@@ -68,7 +68,7 @@ import {
   dedupeStatements,
   getPracticeCount,
 } from "~/composables/jp/useJpCourses";
-import { isSingleKanaCourseId } from "~/composables/jp/useJpRomaji";
+import { isSingleKanaCourseId, kanaToInputRomaji } from "~/composables/jp/useJpRomaji";
 import type { JpStatement } from "~/types/jp";
 
 const route = useRoute();
@@ -119,7 +119,10 @@ onMounted(async () => {
   } catch {}
   try {
     const data = await fetchCourse(packId, id);
-    statements.value = data.statements || [];
+    statements.value = (data.statements || []).map((s) => ({
+      ...s,
+      romaji: kanaToInputRomaji(s.kana),
+    }));
     courseTitle.value = data.title || id;
   } catch (err) {
     console.error("加载课程失败：", err);
