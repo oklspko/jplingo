@@ -94,6 +94,7 @@
             <span class="shortcut">Ctrl ;</span>
           </button>
           <button class="jp-btn" @click="reset">重置</button>
+          <button v-if="isGaokaoMixed" class="jp-btn" @click="resetMixedMemory">🔄 重置记忆</button>
           <button
             v-if="result === 'correct' && !isLastQuestion"
             class="jp-btn next"
@@ -123,6 +124,13 @@
           </div>
         </transition>
       </main>
+
+      <div v-else-if="allMastered" class="jp-all-mastered">
+        <div class="all-mastered-icon">🎉</div>
+        <h2 class="all-mastered-title">全部词汇已掌握！</h2>
+        <p class="all-mastered-desc">连续答对 5 次的词会从测试中移除，当前词库已全部掌握。</p>
+        <button class="jp-btn primary" @click="resetMixedMemory">🔄 重新开始（清空记忆）</button>
+      </div>
 
       <div v-else class="jp-loading">加载中…</div>
     </div>
@@ -164,7 +172,10 @@ import {
   fetchCoursePacks,
   fetchCourse,
   buildPracticeOrder,
+  shuffle,
+  GAOKAO_MIXED_COURSE_ID,
 } from "~/composables/jp/useJpCourses";
+import { useJpGaokaoMemory, GAOKAO_MASTER_THRESHOLD } from "~/composables/jp/useJpGaokaoMemory";
 import type { JpStatement } from "~/types/jp";
 
 const route = useRoute();
@@ -182,10 +193,16 @@ const showKanaHint = ref(false);
 const courseTitle = ref("");
 const showSpaceHint = ref(true);
 const hadWrongAttempt = ref(false);
+const allMastered = ref(false);
+
+const gaokaoMemory = useJpGaokaoMemory();
 
 const coursePackId = computed(() => route.params.coursePackId as string);
 const courseId = computed(() => route.params.id as string);
 const isSingleKana = computed(() => isSingleKanaCourseId(courseId.value));
+const isGaokaoMixed = computed(
+  () => coursePackId.value === "jp-gaokao" && courseId.value === GAOKAO_MIXED_COURSE_ID,
+);
 
 const showSpaceHintCard = computed(() => {
   const stmt = currentStatement.value;
@@ -240,7 +257,7 @@ const words = computed(() => {
     const userInput = toHiragana(raw);
     return {
       text: token.text, kana: token.kana, userInput,
-      incorrect: result.value === "wrong" && userInput !== token.kana,
+      incorrect: result.value === "wrong" && !checkToken(raw, token, false),
     };
   });
 });
@@ -332,7 +349,14 @@ async function loadCourseData() {
     }
   } catch {}
   const data = await fetchCourse(packId, id);
-  statements.value = buildPracticeOrder(packId, data.statements || [], 6);
+  let list = data.statements || [];
+  allMastered.value = false;
+  if (isGaokaoMixed.value) {
+    // 已掌握（连续答对 5 次）的词不再进入测试；无分类则打乱全部词库
+    list = shuffle(list.filter((s) => !gaokaoMemory.isMastered(s.japanese)));
+  }
+  statements.value = buildPracticeOrder(packId, list, 6);
+  if (isGaokaoMixed.value && statements.value.length === 0) allMastered.value = true;
   courseTitle.value = data.title || id;
   currentIndex.value = 0;
   nextTick(() => {
@@ -482,13 +506,24 @@ function submitAnswer() {
   if (!stmt) return;
   const parts = rawInput.value.split(" ");
   if (parts.length < stmt.tokens.length) {
-    result.value = "wrong"; editingIndex.value = -1; playErrorSound(); return;
+    result.value = "wrong"; editingIndex.value = -1; playErrorSound();
+    if (isGaokaoMixed.value) gaokaoMemory.recordWrong(stmt.japanese);
+    return;
   }
   if (checkAllCorrect()) {
     result.value = "correct"; editingIndex.value = -1;
     playSuccessSound(); playAudio();
-    recordStatement(courseId.value, stmt.id);
-    if (!hadWrongAttempt.value) recordMastered(courseId.value, stmt.id);
+    if (isGaokaoMixed.value) {
+      recordStatement(courseId.value, stmt.japanese);
+      const newCount = gaokaoMemory.recordCorrect(stmt.japanese);
+      if (newCount >= GAOKAO_MASTER_THRESHOLD) {
+        recordMastered(courseId.value, stmt.japanese);
+        removeFutureCopies(stmt.japanese);
+      }
+    } else {
+      recordStatement(courseId.value, stmt.id);
+      if (!hadWrongAttempt.value) recordMastered(courseId.value, stmt.id);
+    }
     if (isLastQuestion.value) {
       recordCourseCompleted(courseId.value);
       pickRandomMotivation();
@@ -496,6 +531,7 @@ function submitAnswer() {
     }
   } else {
     result.value = "wrong"; editingIndex.value = -1; hadWrongAttempt.value = true; playErrorSound();
+    if (isGaokaoMixed.value) gaokaoMemory.recordWrong(stmt.japanese);
   }
 }
 
@@ -513,6 +549,20 @@ function focusInput() {
 
 function next() {
   if (currentIndex.value < statements.value.length - 1) currentIndex.value++;
+}
+
+// 高考无分类测试：某词连续答对达到阈值后，从当前题之后移除该词的所有后续出现
+function removeFutureCopies(japanese: string) {
+  const idx = currentIndex.value;
+  for (let i = statements.value.length - 1; i > idx; i--) {
+    if (statements.value[i].japanese === japanese) statements.value.splice(i, 1);
+  }
+}
+
+async function resetMixedMemory() {
+  gaokaoMemory.resetAll();
+  allMastered.value = false;
+  await loadCourseData();
 }
 
 function playAudio() {
@@ -795,6 +845,18 @@ function playAudio() {
 }
 
 .jp-loading { text-align: center; color: #999; padding: 60px 0; }
+
+.jp-all-mastered {
+  text-align: center;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.all-mastered-icon { font-size: 64px; }
+.all-mastered-title { font-size: 28px; color: #075985; margin: 0; }
+.all-mastered-desc { font-size: 15px; color: #7dd3fc; margin: 0 0 8px; }
 
 @media (max-width: 768px) {
   .jp-game-wrap { padding: 16px 12px 32px; }

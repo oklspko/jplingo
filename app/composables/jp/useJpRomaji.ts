@@ -43,7 +43,11 @@ export function checkToken(
   if (isSingleKana) {
     return getTokenRomajiAlternatives(token).includes(trimmed);
   }
-  return toHiragana(trimmed) === token.kana;
+  const input = toHiragana(trimmed);
+  if (input === token.kana) return true;
+  // 允许直接输入原文形（汉字/片假名）：面白い → 面白い、パン → パン
+  // toHiragana 会把片假名转成平假名、保留汉字，因此与 token.text 归一后比较即可。
+  return input === toHiragana(token.text);
 }
 
 export function calcWordWidth(kana: string, isSingleKana: boolean): number {
