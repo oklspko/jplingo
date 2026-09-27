@@ -53,6 +53,14 @@
               </span>
               <span class="link-arrow">→</span>
             </a>
+            <a href="/jp-grammar" class="link-card">
+              <span class="link-icon">🔎</span>
+              <span class="link-text">
+                <span class="link-label">语法条词典</span>
+                <span class="link-desc">按五十音 · N5–N1 检索语法条</span>
+              </span>
+              <span class="link-arrow">→</span>
+            </a>
           </div>
         </section>
 

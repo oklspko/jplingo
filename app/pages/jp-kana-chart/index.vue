@@ -6,8 +6,18 @@
         <header class="page-header">
           <span class="page-badge">📖 内容学习</span>
           <h1 class="page-title">日语连词成句 · 语法学习</h1>
-          <p class="page-sub">按顺序学：先会「输入」→ 再会「造句」→ 再学「动词」→ 最后懂「逻辑」</p>
+          <p class="page-sub">按顺序学：先会「输入」→ 再会「造句」→ 再学「动词」→ 会用「助词」→ 最后懂「逻辑」</p>
         </header>
+
+        <!-- 语法条词典入口 -->
+        <a href="/jp-grammar" class="grammar-jump-card">
+          <span class="gjc-icon">🔎</span>
+          <span class="gjc-text">
+            <span class="gjc-title">语法条词典</span>
+            <span class="gjc-desc">按五十音（あいうえお）· 能力考等级（N5–N1）检索语法条</span>
+          </span>
+          <span class="gjc-arrow">→</span>
+        </a>
 
         <!-- 一、日语输入法 -->
         <section class="page-section">
@@ -76,7 +86,30 @@
           </transition>
         </section>
 
-        <!-- 四、核心逻辑 -->
+        <!-- 四、助词 -->
+        <section class="page-section">
+          <h2
+            class="page-section-title"
+            role="button"
+            tabindex="0"
+            :aria-expanded="openParticles"
+            @click="openParticles = !openParticles"
+            @keydown.enter.prevent="openParticles = !openParticles"
+            @keydown.space.prevent="openParticles = !openParticles"
+          >
+            <span class="page-num">四</span>
+            <span class="page-title-text">助词</span>
+            <span class="section-toggle">{{ openParticles ? "▾ 收起" : "▸ 展开" }}</span>
+          </h2>
+          <transition name="fold">
+            <div v-show="openParticles" class="page-section-body">
+              <p class="page-section-intro">助词贴在各成分之后，提示它和谓语的关系，是连词成句最关键的一环。</p>
+              <JpParticles />
+            </div>
+          </transition>
+        </section>
+
+        <!-- 五、核心逻辑 -->
         <section class="page-section">
           <h2
             class="page-section-title"
@@ -87,7 +120,7 @@
             @keydown.enter.prevent="openLogic = !openLogic"
             @keydown.space.prevent="openLogic = !openLogic"
           >
-            <span class="page-num">四</span>
+            <span class="page-num">五</span>
             <span class="page-title-text">核心逻辑</span>
             <span class="section-toggle">{{ openLogic ? "▾ 收起" : "▸ 展开" }}</span>
           </h2>
@@ -108,11 +141,13 @@ import JpSidebar from "~/components/jp/JpSidebar.vue";
 import JpGrammarGuide from "~/components/jp/JpGrammarGuide.vue";
 import JpPredicateSentences from "~/components/jp/JpPredicateSentences.vue";
 import JpKanaChart from "~/components/jp/JpKanaChart.vue";
+import JpParticles from "~/components/jp/JpParticles.vue";
 import JpVerbGuide from "~/components/jp/JpVerbGuide.vue";
 
 const openInput = ref(false);
 const openPredicate = ref(false);
 const openVerb = ref(false);
+const openParticles = ref(false);
 const openLogic = ref(false);
 </script>
 
@@ -168,6 +203,66 @@ const openLogic = ref(false);
   font-size: 15px;
   margin: 0;
   line-height: 1.7;
+}
+
+/* ===== 语法条词典入口卡片 ===== */
+.grammar-jump-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  max-width: 520px;
+  margin: 0 auto 8px;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, #ffffff 0%, #f0f9ff 100%);
+  border: 1px solid #bae6fd;
+  border-radius: 14px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 4px 16px rgba(125, 211, 252, 0.2);
+  transition: all 0.2s;
+}
+
+.grammar-jump-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(125, 211, 252, 0.35);
+  border-color: #7dd3fc;
+}
+
+.gjc-icon {
+  flex-shrink: 0;
+  font-size: 26px;
+}
+
+.gjc-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.gjc-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #075985;
+}
+
+.gjc-desc {
+  font-size: 12px;
+  color: #7dd3fc;
+  line-height: 1.5;
+}
+
+.gjc-arrow {
+  flex-shrink: 0;
+  font-size: 18px;
+  color: #7dd3fc;
+  transition: transform 0.2s;
+}
+
+.grammar-jump-card:hover .gjc-arrow {
+  transform: translateX(3px);
+  color: #0284c7;
 }
 
 /* ===== 区块 ===== */

@@ -1,0 +1,148 @@
+export type JlptLevel = "N5" | "N4" | "N3" | "N2" | "N1";
+
+export interface GrammarPoint {
+  id: string;
+  /** 语法条表达形式，如「～てから」。首字为平假名，用于五十音排序。 */
+  pattern: string;
+  /** 中文释义 */
+  meaning: string;
+  /** 例句（日文） */
+  example: string;
+  /** 例句翻译 */
+  translation: string;
+  /** 补充说明（可选） */
+  note?: string;
+  level: JlptLevel;
+}
+
+export const grammarPoints: GrammarPoint[] = [
+  // ===== N5 =====
+  { id: "n5-desu", pattern: "～です／～だ", meaning: "名词、形容词谓语的判断「是」", example: "私は学生です。", translation: "我是学生。", level: "N5" },
+  { id: "n5-masu", pattern: "～ます", meaning: "动词礼貌形（现在·将来）", example: "毎日日本語を勉強します。", translation: "每天学习日语。", level: "N5" },
+  { id: "n5-nai", pattern: "～ない", meaning: "动词、形容词的否定", example: "肉を食べない。", translation: "不吃肉。", level: "N5" },
+  { id: "n5-ta", pattern: "～た", meaning: "过去·完成", example: "昨日映画を見た。", translation: "昨天看了电影。", level: "N5" },
+  { id: "n5-teiru", pattern: "～ている", meaning: "进行、状态、习惯", example: "今テレビを見ている。", translation: "正在看电视。", level: "N5" },
+  { id: "n5-tekudasai", pattern: "～てください", meaning: "请（请求对方做）", example: "ゆっくり話してください。", translation: "请慢点说。", level: "N5" },
+  { id: "n5-temoii", pattern: "～てもいい", meaning: "可以（许可）", example: "ここで写真を撮ってもいいです。", translation: "可以在这里拍照。", level: "N5" },
+  { id: "n5-tewaikenai", pattern: "～てはいけない", meaning: "不可以（禁止）", example: "ここでタバコを吸ってはいけない。", translation: "不可以在这里抽烟。", level: "N5" },
+  { id: "n5-tai", pattern: "～たい", meaning: "想（第一人称愿望）", example: "日本へ行きたい。", translation: "想去日本。", level: "N5" },
+  { id: "n5-tagaru", pattern: "～たがる", meaning: "想（第三人称愿望）", example: "彼は留学したがっている。", translation: "他想去留学。", level: "N5" },
+  { id: "n5-mashou", pattern: "～ましょう／～ませんか", meaning: "一起…吧（劝诱）", example: "一緒に行きましょう。", translation: "一起去吧。", level: "N5" },
+  { id: "n5-gahoshii", pattern: "～がほしい", meaning: "想要（东西）", example: "新しい車がほしい。", translation: "想要新车。", level: "N5" },
+  { id: "n5-kotogadekiru", pattern: "～ことができる", meaning: "能够（能力·可能）", example: "泳ぐことができる。", translation: "会游泳。", level: "N5" },
+  { id: "n5-ninaru", pattern: "～になる", meaning: "变成（状态变化）", example: "医者になる。", translation: "成为医生。", level: "N5" },
+  { id: "n5-nisuru", pattern: "～にする／～くする", meaning: "使…变得（人为改变）", example: "部屋をきれいにする。", translation: "把房间弄干净。", level: "N5" },
+  { id: "n5-toiu", pattern: "～という", meaning: "叫做、所谓的", example: "これは寿司という食べ物です。", translation: "这是叫寿司的食物。", level: "N5" },
+  { id: "n5-formalnoun", pattern: "～の／～こと", meaning: "形式名词（把句子名词化）", example: "映画を見るのが好きだ。", translation: "喜欢看电影。", level: "N5" },
+  { id: "n5-toki", pattern: "～とき", meaning: "…的时候", example: "暇なとき、本を読む。", translation: "有空的时候读书。", level: "N5" },
+  { id: "n5-wokudasai", pattern: "～をください", meaning: "请给我", example: "水をください。", translation: "请给我水。", level: "N5" },
+  { id: "n5-deshou", pattern: "～でしょう", meaning: "推测、确认", example: "明日は晴れるでしょう。", translation: "明天大概会放晴吧。", level: "N5" },
+  { id: "n5-kara-reason", pattern: "～から（原因）", meaning: "因为（主观原因）", example: "忙しいから行けない。", translation: "因为忙去不了。", level: "N5" },
+  { id: "n5-nagara", pattern: "～ながら", meaning: "一边…一边", example: "音楽を聞きながら歩く。", translation: "边听音乐边走。", level: "N5" },
+  { id: "n5-yasui-nikui", pattern: "～やすい／～にくい", meaning: "容易／难（客观）", example: "この本は読みやすい。", translation: "这本书好读。", level: "N5" },
+
+  // ===== N4 =====
+  { id: "n4-tekara", pattern: "～てから", meaning: "…之后（先后顺序）", example: "ご飯を食べてから、出かける。", translation: "吃完饭之后出门。", level: "N4" },
+  { id: "n4-takotogaaru", pattern: "～たことがある", meaning: "曾经…过", example: "日本へ行ったことがある。", translation: "去过日本。", level: "N4" },
+  { id: "n4-tari", pattern: "～たり～たり", meaning: "又…又（列举）", example: "歌ったり踊ったりする。", translation: "又唱又跳。", level: "N4" },
+  { id: "n4-node", pattern: "～ので", meaning: "因为（客观原因）", example: "雨が降ったので、中止した。", translation: "因为下雨中止了。", level: "N4" },
+  { id: "n4-noni", pattern: "～のに", meaning: "却、明明…却", example: "勉強したのに不合格だった。", translation: "明明努力了却不及格。", level: "N4" },
+  { id: "n4-ba", pattern: "～ば", meaning: "如果（假定）", example: "雨が降れば中止だ。", translation: "下雨的话就中止。", level: "N4" },
+  { id: "n4-tara", pattern: "～たら", meaning: "如果…就／…之后（契机）", example: "家に帰ったら、電話する。", translation: "到家后打电话。", level: "N4" },
+  { id: "n4-temo", pattern: "～ても", meaning: "即使…也", example: "高くても買う。", translation: "再贵也买。", level: "N4" },
+  { id: "n4-youninaru", pattern: "～ようになる", meaning: "变得…（能力·习惯变化）", example: "日本語が話せるようになった。", translation: "变得会说日语了。", level: "N4" },
+  { id: "n4-tsumori", pattern: "～つもりだ", meaning: "打算", example: "来年留学するつもりだ。", translation: "打算明年留学。", level: "N4" },
+  { id: "n4-kotonisuru", pattern: "～ことにする", meaning: "决定（主观决定）", example: "毎日運動することにした。", translation: "决定每天运动。", level: "N4" },
+  { id: "n4-kotoninaru", pattern: "～ことになる", meaning: "决定（结果·客观）", example: "来月転勤することになった。", translation: "决定下个月调职。", level: "N4" },
+  { id: "n4-kamoshirenai", pattern: "～かもしれない", meaning: "也许、可能", example: "雨が降るかもしれない。", translation: "可能会下雨。", level: "N4" },
+  { id: "n4-souda", pattern: "～そうだ", meaning: "听说／看起来（样态·传闻）", example: "雨が降りそうだ。", translation: "看起来要下雨。", level: "N4" },
+  { id: "n4-youda", pattern: "～ようだ", meaning: "好像（推测）", example: "誰か来たようだ。", translation: "好像有人来了。", level: "N4" },
+  { id: "n4-mitaida", pattern: "～みたいだ", meaning: "好像、像…一样", example: "彼は知らないみたいだ。", translation: "他好像不知道。", level: "N4" },
+  { id: "n4-rashii", pattern: "～らしい", meaning: "听说／典型的", example: "明日は晴れるらしい。", translation: "听说明天会晴。", level: "N4" },
+  { id: "n4-tameni", pattern: "～ために", meaning: "为了／因为", example: "留学するために貯金する。", translation: "为了留学存钱。", level: "N4" },
+  { id: "n4-youni", pattern: "～ように", meaning: "为了（达到状态）／像…一样", example: "合格できるように頑張る。", translation: "为了能合格而努力。", level: "N4" },
+  { id: "n4-sugiru", pattern: "～すぎる", meaning: "太、过度", example: "食べすぎた。", translation: "吃太多了。", level: "N4" },
+  { id: "n4-hougaii", pattern: "～ほうがいい", meaning: "最好…（建议）", example: "早く寝たほうがいい。", translation: "最好早点睡。", level: "N4" },
+  { id: "n4-sika-nai", pattern: "～しか～ない", meaning: "只有、只好", example: "水しかない。", translation: "只有水。", level: "N4" },
+  { id: "n4-tekuru-iku", pattern: "～てくる／～ていく", meaning: "（动作方向）…来／…去", example: "雨が降ってきた。", translation: "下起雨来了。", level: "N4" },
+  { id: "n4-agaru-kureru", pattern: "～あげる／～くれる／～もらう", meaning: "授受（给与关系）", example: "彼に本を貸してあげた。", translation: "把书借给他了。", level: "N4" },
+  { id: "n4-ukemi", pattern: "～れる／～られる（受身）", meaning: "被动", example: "先生に褒められた。", translation: "被老师表扬了。", level: "N4" },
+  { id: "n4-shieki", pattern: "～せる／～させる（使役）", meaning: "让…、使…", example: "子供に手伝わせる。", translation: "让孩子帮忙。", level: "N4" },
+  { id: "n4-kanou", pattern: "～れる／～られる（可能）", meaning: "能够（可能形）", example: "日本語が話せる。", translation: "会说日语。", level: "N4" },
+
+  // ===== N3 =====
+  { id: "n3-tokoro", pattern: "～ところだ", meaning: "正要／正在／刚刚", example: "今から出かけるところだ。", translation: "现在正要出门。", level: "N3" },
+  { id: "n3-tabakari", pattern: "～たばかり", meaning: "刚刚（主观感觉）", example: "今帰ったばかりだ。", translation: "刚刚回来。", level: "N3" },
+  { id: "n3-uchini", pattern: "～うちに", meaning: "在…期间", example: "若いうちに勉強する。", translation: "趁着年轻学习。", level: "N3" },
+  { id: "n3-made", pattern: "～までに", meaning: "在…之前（期限）", example: "五時までに帰る。", translation: "五点之前回来。", level: "N3" },
+  { id: "n3-totansu", pattern: "～たとたん", meaning: "刚一…就", example: "立ち上がったとたん、倒れた。", translation: "刚一站起来就倒了。", level: "N3" },
+  { id: "n3-hodo", pattern: "～ほど", meaning: "越…越／程度", example: "見れば見るほど好きになる。", translation: "越看越喜欢。", level: "N3" },
+  { id: "n3-kurai", pattern: "～くらい／～ぐらい", meaning: "大约、程度", example: "泣きたいくらいだ。", translation: "到了想哭的程度。", level: "N3" },
+  { id: "n3-nitsuite", pattern: "～について", meaning: "关于", example: "日本について研究する。", translation: "研究关于日本的事。", level: "N3" },
+  { id: "n3-nitaisite", pattern: "～に対して", meaning: "对于、针对", example: "質問に対して答える。", translation: "针对问题回答。", level: "N3" },
+  { id: "n3-tosite", pattern: "～として", meaning: "作为", example: "留学生として日本に来た。", translation: "作为留学生来到日本。", level: "N3" },
+  { id: "n3-niyotte", pattern: "～によって", meaning: "根据／由于／因…而异", example: "人によって考えが違う。", translation: "想法因人而异。", level: "N3" },
+  { id: "n3-tabinI", pattern: "～たびに", meaning: "每当", example: "旅行するたびに写真を撮る。", translation: "每次旅行都拍照。", level: "N3" },
+  { id: "n3-okini", pattern: "～おきに", meaning: "每隔（时间·空间）", example: "一時間おきに休む。", translation: "每隔一小时休息。", level: "N3" },
+  { id: "n3-dakenaku", pattern: "～だけでなく", meaning: "不仅…而且", example: "肉だけでなく野菜も食べる。", translation: "不仅吃肉也吃菜。", level: "N3" },
+  { id: "n3-sae", pattern: "～さえ～ば", meaning: "只要…就", example: "これさえあればいい。", translation: "只要有这个就行。", level: "N3" },
+  { id: "n3-mama", pattern: "～まま", meaning: "保持…状态", example: "電気をつけたまま寝た。", translation: "开着灯睡了。", level: "N3" },
+  { id: "n3-younisuru", pattern: "～ようにする", meaning: "设法做到、坚持", example: "毎日運動するようにしている。", translation: "坚持每天运动。", level: "N3" },
+  { id: "n3-kotoda", pattern: "～ということだ", meaning: "听说／也就是说", example: "彼は来ないということだ。", translation: "据说他不来。", level: "N3" },
+  { id: "n3-gimi", pattern: "～ぎみ", meaning: "有点…（倾向）", example: "最近疲れぎみだ。", translation: "最近有点累。", level: "N3" },
+  { id: "n3-gachi", pattern: "～がち", meaning: "容易…、常常", example: "冬は風邪を引きがちだ。", translation: "冬天容易感冒。", level: "N3" },
+  { id: "n3-ppoi", pattern: "～っぽい", meaning: "有点…、像…", example: "子供っぽい考え方。", translation: "孩子气的想法。", level: "N3" },
+  { id: "n3-temo-ok", pattern: "～てもかまわない", meaning: "…也没关系", example: "遅れてもかまわない。", translation: "迟到也没关系。", level: "N3" },
+  { id: "n3-tokorode", pattern: "～たところで", meaning: "即使…也（无济于事）", example: "今さら後悔したところで遅い。", translation: "事到如今后悔也晚了。", level: "N3" },
+
+  // ===== N2 =====
+  { id: "n2-hazuda", pattern: "～はずだ", meaning: "应该（依据判断）", example: "彼は来るはずだ。", translation: "他应该会来。", level: "N2" },
+  { id: "n2-hazuganai", pattern: "～はずがない", meaning: "不可能、不会", example: "彼が嘘をつくはずがない。", translation: "他不可能说谎。", level: "N2" },
+  { id: "n2-wakeda", pattern: "～わけだ", meaning: "难怪、也就是说", example: "だから怒ったわけだ。", translation: "难怪生气了。", level: "N2" },
+  { id: "n2-wakeganai", pattern: "～わけがない", meaning: "不可能", example: "そんなことがあるわけがない。", translation: "不可能有那种事。", level: "N2" },
+  { id: "n2-wakeniwaikanai", pattern: "～わけにはいかない", meaning: "不能、不可以（情理上）", example: "約束を破るわけにはいかない。", translation: "不能爽约。", level: "N2" },
+  { id: "n2-nichigainai", pattern: "～に違いない", meaning: "一定、肯定", example: "彼は成功するに違いない。", translation: "他一定会成功。", level: "N2" },
+  { id: "n2-nikimatteiru", pattern: "～に決まっている", meaning: "肯定、必定", example: "そんなのは嘘に決まっている。", translation: "那肯定是谎话。", level: "N2" },
+  { id: "n2-bekida", pattern: "～べきだ", meaning: "应该（义务）", example: "もっと勉強するべきだ。", translation: "应该更加努力。", level: "N2" },
+  { id: "n2-monoda", pattern: "～ものだ", meaning: "理所当然／回忆", example: "子供の頃、よく遊んだものだ。", translation: "小时候经常玩。", level: "N2" },
+  { id: "n2-monodakara", pattern: "～ものだから", meaning: "因为（辩解）", example: "遅くなったものだから、すみません。", translation: "因为迟到了，抱歉。", level: "N2" },
+  { id: "n2-seide", pattern: "～せいで", meaning: "因为…（消极结果）", example: "雨のせいで試合が中止になった。", translation: "因为下雨比赛中止了。", level: "N2" },
+  { id: "n2-okagede", pattern: "～おかげで", meaning: "多亏、幸亏", example: "先生のおかげで合格できた。", translation: "多亏老师才合格了。", level: "N2" },
+  { id: "n2-nishitagatte", pattern: "～にしたがって", meaning: "随着", example: "年を取るにしたがって忘れっぽくなる。", translation: "随着年纪增长变得健忘。", level: "N2" },
+  { id: "n2-nitsurete", pattern: "～につれて", meaning: "随着", example: "秋が深まるにつれて涼しくなる。", translation: "随着秋意渐浓变凉爽。", level: "N2" },
+  { id: "n2-nikanagiranai", pattern: "～に限らず", meaning: "不仅限于", example: "子供に限らず大人も楽しめる。", translation: "不仅孩子，大人也能享受。", level: "N2" },
+  { id: "n2-dokoroka", pattern: "～どころか", meaning: "别说…甚至", example: "安いどころか無料だ。", translation: "别说便宜，根本免费。", level: "N2" },
+  { id: "n2-karanitotte", pattern: "～にとって", meaning: "对…来说", example: "私にとって大切なことだ。", translation: "对我来说重要的事。", level: "N2" },
+  { id: "n2-karatoiutomo", pattern: "～からといって", meaning: "虽说…但", example: "お金があるからといって幸せとは限らない。", translation: "虽说不缺钱也未必幸福。", level: "N2" },
+  { id: "n2-karanihawa", pattern: "～からには", meaning: "既然…就", example: "やるからには最後までやる。", translation: "既然要做就做到最后。", level: "N2" },
+  { id: "n2-ijou", pattern: "～以上", meaning: "既然…就（程度·义务）", example: "約束した以上、守る。", translation: "既然约定了就遵守。", level: "N2" },
+  { id: "n2-kagiri", pattern: "～かぎり／～かぎりでは", meaning: "只要…／据…所知", example: "私の知る限りでは、彼は誠実だ。", translation: "据我所知，他很诚实。", level: "N2" },
+  { id: "n2-zaruwoenai", pattern: "～ざるを得ない", meaning: "不得不", example: "反対せざるを得ない。", translation: "不得不反对。", level: "N2" },
+  { id: "n2-zunihairarenai", pattern: "～ずにはいられない", meaning: "忍不住、不由得", example: "泣かずにはいられなかった。", translation: "忍不住哭了。", level: "N2" },
+  { id: "n2-wakedewanai", pattern: "～わけではない", meaning: "并非、并不是", example: "行きたくないわけではない。", translation: "并不是不想去。", level: "N2" },
+
+  // ===== N1 =====
+  { id: "n1-nihanshite", pattern: "～に反して", meaning: "与…相反", example: "期待に反して失敗した。", translation: "与期待相反失败了。", level: "N1" },
+  { id: "n1-womotonomo", pattern: "～をものともせず", meaning: "不顾、不当回事", example: "困難をものともせず進む。", translation: "不把困难当回事继续前进。", level: "N1" },
+  { id: "n1-niitaru", pattern: "～に至る", meaning: "达到、发展到", example: "事態は最悪の事態に至った。", translation: "事态发展到了最糟的地步。", level: "N1" },
+  { id: "n1-wokikkake", pattern: "～をきっかけに", meaning: "以…为契机", example: "留学をきっかけに日本語を学んだ。", translation: "以留学为契机学了日语。", level: "N1" },
+  { id: "n1-womegutte", pattern: "～をめぐって", meaning: "围绕", example: "教育をめぐって議論する。", translation: "围绕教育展开讨论。", level: "N1" },
+  { id: "n1-nikagiru", pattern: "～に限る", meaning: "最好、仅限于", example: "疲れた時は寝るに限る。", translation: "累的时候最好睡觉。", level: "N1" },
+  { id: "n1-bakarini", pattern: "～ばかりに", meaning: "正因为（消极原因）", example: "遅刻したばかりに怒られた。", translation: "正因为迟到被骂了。", level: "N1" },
+  { id: "n1-mono", pattern: "～ものの", meaning: "虽然…但", example: "高いものの、質がいい。", translation: "虽然贵，但质量好。", level: "N1" },
+  { id: "n1-monowo", pattern: "～ものを", meaning: "明明…却（遗憾）", example: "言えばよかったものを。", translation: "说了就好了，可你却…", level: "N1" },
+  { id: "n1-nigataku", pattern: "～にかたくない", meaning: "不难…", example: "彼の苦労は想像にかたくない。", translation: "他的辛苦不难想象。", level: "N1" },
+  { id: "n1-wotowazu", pattern: "～を問わず", meaning: "不论、不问", example: "年齢を問わず応募できる。", translation: "不问年龄都能报名。", level: "N1" },
+  { id: "n1-ikanni", pattern: "～いかんで／～いかんでは", meaning: "取决于", example: "結果いかんで決める。", translation: "根据结果决定。", level: "N1" },
+  { id: "n1-wokiwame", pattern: "～を禁じ得ない", meaning: "不禁、忍不住", example: "同情を禁じ得ない。", translation: "不禁同情。", level: "N1" },
+  { id: "n1-niitarumade", pattern: "～に至るまで", meaning: "直到…（范围之广）", example: "細部に至るまで説明した。", translation: "连细节都说明到了。", level: "N1" },
+  { id: "n1-gotoku", pattern: "～ごとく／～ごとき", meaning: "如同、像…一样", example: "夢のごとく消えた。", translation: "如梦般消失了。", level: "N1" },
+  { id: "n1-yanainaya", pattern: "～や否や", meaning: "一…就", example: "家に着くや否や、雨が降り出した。", translation: "刚到家就下起了雨。", level: "N1" },
+  { id: "n1-gahayaika", pattern: "～が早いか", meaning: "一…就", example: "席に着くが早いか、食べ始めた。", translation: "一坐下就开始吃。", level: "N1" },
+  { id: "n1-wonishite", pattern: "～を皮切りに", meaning: "以…为开端", example: "東京を皮切りに全国を回る。", translation: "以东京为开端巡演全国。", level: "N1" },
+  { id: "n1-sura", pattern: "～すら", meaning: "连…都", example: "名前すら知らない。", translation: "连名字都不知道。", level: "N1" },
+  { id: "n1-dani", pattern: "～だに", meaning: "连…都（加强）", example: "想像するだに恐ろしい。", translation: "光是想象都可怕。", level: "N1" },
+  { id: "n1-taritomo", pattern: "～たりとも", meaning: "即使…也不（绝对）", example: "一秒たりとも無駄にできない。", translation: "一秒也不能浪费。", level: "N1" },
+  { id: "n1-woyoginakusareru", pattern: "～を余儀なくされる", meaning: "被迫、不得不", example: "撤退を余儀なくされた。", translation: "被迫撤退。", level: "N1" },
+  { id: "n1-zaite", pattern: "～にあって", meaning: "处于…（情况）", example: "苦境にあっても諦めない。", translation: "即使处于困境也不放弃。", level: "N1" },
+];
