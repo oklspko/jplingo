@@ -1,0 +1,21 @@
+{
+  "id": "jp-n1-118",
+  "coursePackId": "jp-n1",
+  "title": "动词 27",
+  "order": 118,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "躲开，避开，躲闪",
+      "japanese": "かわす",
+      "kana": "かわす",
+      "romaji": "kawasu",
+      "tokens": [
+        {
+          "text": "かわす",
+          "kana": "かわす"
+        }
+      ]
+    }
+  ]
+}

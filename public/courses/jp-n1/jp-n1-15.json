@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-15",
+  "coursePackId": "jp-n1",
+  "title": "名词 15",
+  "order": 15,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "禁忌之物，避讳的事",
+      "japanese": "タブー",
+      "kana": "たぶう",
+      "romaji": "tabuu",
+      "tokens": [
+        {
+          "text": "タブー",
+          "kana": "たぶう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "旅行",
+      "japanese": "トラベル",
+      "kana": "とらべる",
+      "romaji": "toraberu",
+      "tokens": [
+        {
+          "text": "トラベル",
+          "kana": "とらべる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "愚蠢，笨，傻，混蛋，笨蛋；非常……，过于……",
+      "japanese": "ばか",
+      "kana": "ばか",
+      "romaji": "baka",
+      "tokens": [
+        {
+          "text": "ばか",
+          "kana": "ばか"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "渊，潭；深渊",
+      "japanese": "淵[ふち]",
+      "kana": "ふち",
+      "romaji": "fuchi",
+      "tokens": [
+        {
+          "text": "淵[ふち]",
+          "kana": "ふち"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "计划，项目",
+      "japanese": "プロジェクト",
+      "kana": "ぷろじぇくと",
+      "romaji": "purojekuto",
+      "tokens": [
+        {
+          "text": "プロジェクト",
+          "kana": "ぷろじぇくと"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "协调；火柴；比赛",
+      "japanese": "マッチ",
+      "kana": "まっち",
+      "romaji": "matchi",
+      "tokens": [
+        {
+          "text": "マッチ",
+          "kana": "まっち"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "领导地位；领导能力",
+      "japanese": "リーダーシップ",
+      "kana": "りいだあしっぷ",
+      "romaji": "riidaashippu",
+      "tokens": [
+        {
+          "text": "リーダーシップ",
+          "kana": "りいだあしっぷ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "往来，徘徊；萦绕；道路；交际，来往",
+      "japanese": "往来",
+      "kana": "おうらい",
+      "romaji": "ourai",
+      "tokens": [
+        {
+          "text": "往来",
+          "kana": "おうらい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "粗暴，残暴，蛮横",
+      "japanese": "横暴",
+      "kana": "おうぼう",
+      "romaji": "oubou",
+      "tokens": [
+        {
+          "text": "横暴",
+          "kana": "おうぼう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "音色",
+      "japanese": "音色",
+      "kana": "ねいろ",
+      "romaji": "neiro",
+      "tokens": [
+        {
+          "text": "音色",
+          "kana": "ねいろ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "吊桥，浮桥；桥梁",
+      "japanese": "架け橋",
+      "kana": "かけはし",
+      "romaji": "kakehashi",
+      "tokens": [
+        {
+          "text": "架け橋",
+          "kana": "かけはし"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "人口过少",
+      "japanese": "過疎",
+      "kana": "かそ",
+      "romaji": "kaso",
+      "tokens": [
+        {
+          "text": "過疎",
+          "kana": "かそ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "弄清楚，弄明白",
+      "japanese": "解明",
+      "kana": "かいめい",
+      "romaji": "kaimei",
+      "tokens": [
+        {
+          "text": "解明",
+          "kana": "かいめい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "改革",
+      "japanese": "改革",
+      "kana": "かいかく",
+      "romaji": "kaikaku",
+      "tokens": [
+        {
+          "text": "改革",
+          "kana": "かいかく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "山崖，悬崖",
+      "japanese": "崖",
+      "kana": "がけ",
+      "romaji": "gake",
+      "tokens": [
+        {
+          "text": "崖",
+          "kana": "がけ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "（资格、等级、所得、价格等）差距，差别",
+      "japanese": "格差",
+      "kana": "かくさ",
+      "romaji": "kakusa",
+      "tokens": [
+        {
+          "text": "格差",
+          "kana": "かくさ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "学业",
+      "japanese": "学業",
+      "kana": "がくぎょう",
+      "romaji": "gakugyou",
+      "tokens": [
+        {
+          "text": "学業",
+          "kana": "がくぎょう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "学说",
+      "japanese": "学説",
+      "kana": "がくせつ",
+      "romaji": "gakusetsu",
+      "tokens": [
+        {
+          "text": "学説",
+          "kana": "がくせつ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "活性",
+      "japanese": "活性",
+      "kana": "かっせい",
+      "romaji": "kassei",
+      "tokens": [
+        {
+          "text": "活性",
+          "kana": "かっせい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "感染；沾染",
+      "japanese": "感染",
+      "kana": "かんせん",
+      "romaji": "kansen",
+      "tokens": [
+        {
+          "text": "感染",
+          "kana": "かんせん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "欢声，欢呼声",
+      "japanese": "歓声",
+      "kana": "かんせい",
+      "romaji": "kansei",
+      "tokens": [
+        {
+          "text": "歓声",
+          "kana": "かんせい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "监视",
+      "japanese": "監視",
+      "kana": "かんし",
+      "romaji": "kanshi",
+      "tokens": [
+        {
+          "text": "監視",
+          "kana": "かんし"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "馆长",
+      "japanese": "館長",
+      "kana": "かんちょう",
+      "romaji": "kanchou",
+      "tokens": [
+        {
+          "text": "館長",
+          "kana": "かんちょう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "奇迹",
+      "japanese": "奇跡",
+      "kana": "きせき",
+      "romaji": "kiseki",
+      "tokens": [
+        {
+          "text": "奇跡",
+          "kana": "きせき"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "任性，随意",
+      "japanese": "気まま",
+      "kana": "きまま",
+      "romaji": "kimama",
+      "tokens": [
+        {
+          "text": "気まま",
+          "kana": "きまま"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "纪元，公元",
+      "japanese": "紀元",
+      "kana": "きげん",
+      "romaji": "kigen",
+      "tokens": [
+        {
+          "text": "紀元",
+          "kana": "きげん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "贵族；特权阶层",
+      "japanese": "貴族",
+      "kana": "きぞく",
+      "romaji": "kizoku",
+      "tokens": [
+        {
+          "text": "貴族",
+          "kana": "きぞく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "启动，开始运转",
+      "japanese": "起動",
+      "kana": "きどう",
+      "romaji": "kidou",
+      "tokens": [
+        {
+          "text": "起動",
+          "kana": "きどう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "议题，讨论题目",
+      "japanese": "議題",
+      "kana": "ぎだい",
+      "romaji": "gidai",
+      "tokens": [
+        {
+          "text": "議題",
+          "kana": "ぎだい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "反转；逆转",
+      "japanese": "逆転",
+      "kana": "ぎゃくてん",
+      "romaji": "gyakuten",
+      "tokens": [
+        {
+          "text": "逆転",
+          "kana": "ぎゃくてん"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-37",
+  "coursePackId": "jp-n1",
+  "title": "名词 37",
+  "order": 37,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "报酬",
+      "japanese": "報酬",
+      "kana": "ほうしゅう",
+      "romaji": "houshuu",
+      "tokens": [
+        {
+          "text": "報酬",
+          "kana": "ほうしゅう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "宝库",
+      "japanese": "宝庫",
+      "kana": "ほうこ",
+      "romaji": "houko",
+      "tokens": [
+        {
+          "text": "宝庫",
+          "kana": "ほうこ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "崩溃，垮台",
+      "japanese": "崩壊",
+      "kana": "ほうかい",
+      "romaji": "houkai",
+      "tokens": [
+        {
+          "text": "崩壊",
+          "kana": "ほうかい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "放射",
+      "japanese": "放射",
+      "kana": "ほうしゃ",
+      "romaji": "housha",
+      "tokens": [
+        {
+          "text": "放射",
+          "kana": "ほうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "放出，喷出；发放，投放",
+      "japanese": "放出",
+      "kana": "ほうしゅつ",
+      "romaji": "houshutsu",
+      "tokens": [
+        {
+          "text": "放出",
+          "kana": "ほうしゅつ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "搁置，置之不理",
+      "japanese": "放置",
+      "kana": "ほうち",
+      "romaji": "houchi",
+      "tokens": [
+        {
+          "text": "放置",
+          "kana": "ほうち"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "方法，策略",
+      "japanese": "方策",
+      "kana": "ほうさく",
+      "romaji": "housaku",
+      "tokens": [
+        {
+          "text": "方策",
+          "kana": "ほうさく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "饱和，极限",
+      "japanese": "飽和",
+      "kana": "ほうわ",
+      "romaji": "houwa",
+      "tokens": [
+        {
+          "text": "飽和",
+          "kana": "ほうわ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "旁边；……的同时",
+      "japanese": "傍ら",
+      "kana": "かたわら",
+      "romaji": "katawara",
+      "tokens": [
+        {
+          "text": "傍ら",
+          "kana": "かたわら"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "妨碍",
+      "japanese": "妨害",
+      "kana": "ぼうがい",
+      "romaji": "bougai",
+      "tokens": [
+        {
+          "text": "妨害",
+          "kana": "ぼうがい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "暴露，揭露，败露",
+      "japanese": "暴露",
+      "kana": "ばくろ",
+      "romaji": "bakuro",
+      "tokens": [
+        {
+          "text": "暴露",
+          "kana": "ばくろ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "开头",
+      "japanese": "冒頭",
+      "kana": "ぼうとう",
+      "romaji": "boutou",
+      "tokens": [
+        {
+          "text": "冒頭",
+          "kana": "ぼうとう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "防卫，捍卫",
+      "japanese": "防衛",
+      "kana": "ぼうえい",
+      "romaji": "bouei",
+      "tokens": [
+        {
+          "text": "防衛",
+          "kana": "ぼうえい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "埋头，专心致志",
+      "japanese": "没頭",
+      "kana": "ぼっとう",
+      "romaji": "bottou",
+      "tokens": [
+        {
+          "text": "没頭",
+          "kana": "ぼっとう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "主要情节；本题",
+      "japanese": "本筋",
+      "kana": "ほんすじ",
+      "romaji": "honsuji",
+      "tokens": [
+        {
+          "text": "本筋",
+          "kana": "ほんすじ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "原产地，发源地，正宗",
+      "japanese": "本場",
+      "kana": "ほんば",
+      "romaji": "honba",
+      "tokens": [
+        {
+          "text": "本場",
+          "kana": "ほんば"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "埋藏；蕴藏",
+      "japanese": "埋蔵",
+      "kana": "まいぞう",
+      "romaji": "maizou",
+      "tokens": [
+        {
+          "text": "埋蔵",
+          "kana": "まいぞう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "末期，晚期",
+      "japanese": "末期",
+      "kana": "まっき",
+      "romaji": "makki",
+      "tokens": [
+        {
+          "text": "末期",
+          "kana": "まっき"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "慢性",
+      "japanese": "慢性",
+      "kana": "まんせい",
+      "romaji": "mansei",
+      "tokens": [
+        {
+          "text": "慢性",
+          "kana": "まんせい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "吃饱喝足；充分享受",
+      "japanese": "満喫",
+      "kana": "まんきつ",
+      "romaji": "mankitsu",
+      "tokens": [
+        {
+          "text": "満喫",
+          "kana": "まんきつ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "味觉",
+      "japanese": "味覚",
+      "kana": "みかく",
+      "romaji": "mikaku",
+      "tokens": [
+        {
+          "text": "味覚",
+          "kana": "みかく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "未熟；不成熟",
+      "japanese": "未熟",
+      "kana": "みじゅく",
+      "romaji": "mijuku",
+      "tokens": [
+        {
+          "text": "未熟",
+          "kana": "みじゅく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "未知",
+      "japanese": "未知",
+      "kana": "みち",
+      "romaji": "michi",
+      "tokens": [
+        {
+          "text": "未知",
+          "kana": "みち"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "密集",
+      "japanese": "密集",
+      "kana": "みっしゅう",
+      "romaji": "misshuu",
+      "tokens": [
+        {
+          "text": "密集",
+          "kana": "みっしゅう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "密度；内容充实度",
+      "japanese": "密度",
+      "kana": "みつど",
+      "romaji": "mitsudo",
+      "tokens": [
+        {
+          "text": "密度",
+          "kana": "みつど"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "民众，群众",
+      "japanese": "民衆",
+      "kana": "みんしゅう",
+      "romaji": "minshuu",
+      "tokens": [
+        {
+          "text": "民衆",
+          "kana": "みんしゅう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "一无所知；无知，愚蠢",
+      "japanese": "無知",
+      "kana": "むち",
+      "romaji": "muchi",
+      "tokens": [
+        {
+          "text": "無知",
+          "kana": "むち"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（佛教）万念俱空；遗憾",
+      "japanese": "無念",
+      "kana": "むねん",
+      "romaji": "munen",
+      "tokens": [
+        {
+          "text": "無念",
+          "kana": "むねん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "无能",
+      "japanese": "無能",
+      "kana": "むのう",
+      "romaji": "munou",
+      "tokens": [
+        {
+          "text": "無能",
+          "kana": "むのう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（事物的）名称",
+      "japanese": "名称",
+      "kana": "めいしょう",
+      "romaji": "meishou",
+      "tokens": [
+        {
+          "text": "名称",
+          "kana": "めいしょう"
+        }
+      ]
+    }
+  ]
+}

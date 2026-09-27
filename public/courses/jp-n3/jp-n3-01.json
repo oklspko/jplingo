@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-01",
+  "coursePackId": "jp-n3",
+  "title": "名词 1",
+  "order": 1,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "茄子",
+      "japanese": "なす",
+      "kana": "なす",
+      "romaji": "nasu",
+      "tokens": [
+        {
+          "text": "なす",
+          "kana": "なす"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "换气扇；抽油烟机",
+      "japanese": "換気扇",
+      "kana": "かんきせん",
+      "romaji": "kankisen",
+      "tokens": [
+        {
+          "text": "換気扇",
+          "kana": "かんきせん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "千克，公斤",
+      "japanese": "キログラム",
+      "kana": "きろぐらむ",
+      "romaji": "kiroguramu",
+      "tokens": [
+        {
+          "text": "キログラム",
+          "kana": "きろぐらむ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "……千米，……公里",
+      "japanese": "キロメートル",
+      "kana": "きろめえとる",
+      "romaji": "kiromeetoru",
+      "tokens": [
+        {
+          "text": "キロメートル",
+          "kana": "きろめえとる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "（女性用语）我",
+      "japanese": "あたし",
+      "kana": "あたし",
+      "romaji": "atashi",
+      "tokens": [
+        {
+          "text": "あたし",
+          "kana": "あたし"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "美洲；美国",
+      "japanese": "アメリカ",
+      "kana": "あめりか",
+      "romaji": "amerika",
+      "tokens": [
+        {
+          "text": "アメリカ",
+          "kana": "あめりか"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "相册，纪念册",
+      "japanese": "アルバム",
+      "kana": "あるばむ",
+      "romaji": "arubamu",
+      "tokens": [
+        {
+          "text": "アルバム",
+          "kana": "あるばむ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "千",
+      "japanese": "キロ",
+      "kana": "きろ",
+      "romaji": "kiro",
+      "tokens": [
+        {
+          "text": "キロ",
+          "kana": "きろ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "可乐",
+      "japanese": "コーラ",
+      "kana": "こうら",
+      "romaji": "koura",
+      "tokens": [
+        {
+          "text": "コーラ",
+          "kana": "こうら"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "最近，之前；上次",
+      "japanese": "この前",
+      "kana": "このまえ",
+      "romaji": "konomae",
+      "tokens": [
+        {
+          "text": "この前",
+          "kana": "このまえ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "这附近",
+      "japanese": "この辺",
+      "kana": "このへん",
+      "romaji": "konohen",
+      "tokens": [
+        {
+          "text": "この辺",
+          "kana": "このへん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "高尔夫",
+      "japanese": "ゴルフ",
+      "kana": "ごるふ",
+      "romaji": "gorufu",
+      "tokens": [
+        {
+          "text": "ゴルフ",
+          "kana": "ごるふ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "购物",
+      "japanese": "ショッピング",
+      "kana": "しょっぴんぐ",
+      "romaji": "shoppingu",
+      "tokens": [
+        {
+          "text": "ショッピング",
+          "kana": "しょっぴんぐ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "汤",
+      "japanese": "スープ",
+      "kana": "すうぷ",
+      "romaji": "suupu",
+      "tokens": [
+        {
+          "text": "スープ",
+          "kana": "すうぷ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "汤匙，勺子",
+      "japanese": "スプーン",
+      "kana": "すぷうん",
+      "romaji": "supuun",
+      "tokens": [
+        {
+          "text": "スプーン",
+          "kana": "すぷうん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "队，组",
+      "japanese": "チーム",
+      "kana": "ちいむ",
+      "romaji": "chiimu",
+      "tokens": [
+        {
+          "text": "チーム",
+          "kana": "ちいむ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "磁带，录音带；窄长的布、纸等",
+      "japanese": "テープ",
+      "kana": "てえぷ",
+      "romaji": "teepu",
+      "tokens": [
+        {
+          "text": "テープ",
+          "kana": "てえぷ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "饮料",
+      "japanese": "ドリンク",
+      "kana": "どりんく",
+      "romaji": "dorinku",
+      "tokens": [
+        {
+          "text": "ドリンク",
+          "kana": "どりんく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "糨糊，黏着剂",
+      "japanese": "のり",
+      "kana": "のり",
+      "romaji": "nori",
+      "tokens": [
+        {
+          "text": "のり",
+          "kana": "のり"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "摩托车；自行车",
+      "japanese": "バイク",
+      "kana": "ばいく",
+      "romaji": "baiku",
+      "tokens": [
+        {
+          "text": "バイク",
+          "kana": "ばいく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "叉子",
+      "japanese": "フォーク",
+      "kana": "ふぉうく",
+      "romaji": "fuouku",
+      "tokens": [
+        {
+          "text": "フォーク",
+          "kana": "ふぉうく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "故乡，家乡",
+      "japanese": "ふるさと",
+      "kana": "ふるさと",
+      "romaji": "furusato",
+      "tokens": [
+        {
+          "text": "ふるさと",
+          "kana": "ふるさと"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "口袋",
+      "japanese": "ポケット",
+      "kana": "ぽけっと",
+      "romaji": "poketto",
+      "tokens": [
+        {
+          "text": "ポケット",
+          "kana": "ぽけっと"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "土豆，马铃薯",
+      "japanese": "ポテト",
+      "kana": "ぽてと",
+      "romaji": "poteto",
+      "tokens": [
+        {
+          "text": "ポテト",
+          "kana": "ぽてと"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（钢筋混凝土建造的）高级公寓，居民楼",
+      "japanese": "マンション",
+      "kana": "まんしょん",
+      "romaji": "manshon",
+      "tokens": [
+        {
+          "text": "マンション",
+          "kana": "まんしょん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "邮箱地址",
+      "japanese": "メールアドレス",
+      "kana": "めえるあどれす",
+      "romaji": "meeruadoresu",
+      "tokens": [
+        {
+          "text": "メールアドレス",
+          "kana": "めえるあどれす"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "收录音机",
+      "japanese": "ラジカセ",
+      "kana": "らじかせ",
+      "romaji": "rajikase",
+      "tokens": [
+        {
+          "text": "ラジカセ",
+          "kana": "らじかせ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "饮食",
+      "japanese": "飲食",
+      "kana": "いんしょく",
+      "romaji": "inshoku",
+      "tokens": [
+        {
+          "text": "飲食",
+          "kana": "いんしょく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "人行横道",
+      "japanese": "横断歩道",
+      "kana": "おうだんほどう",
+      "romaji": "oudanhodou",
+      "tokens": [
+        {
+          "text": "横断歩道",
+          "kana": "おうだんほどう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "亿",
+      "japanese": "億",
+      "kana": "おく",
+      "romaji": "oku",
+      "tokens": [
+        {
+          "text": "億",
+          "kana": "おく"
+        }
+      ]
+    }
+  ]
+}

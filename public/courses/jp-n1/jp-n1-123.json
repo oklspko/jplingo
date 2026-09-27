@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-123",
+  "coursePackId": "jp-n1",
+  "title": "形容词 5",
+  "order": 123,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "流畅，流利",
+      "japanese": "流 暢[ちょう]",
+      "kana": "りゅうちょう",
+      "romaji": "ryuuchou",
+      "tokens": [
+        {
+          "text": "流 暢[ちょう]",
+          "kana": "りゅうちょう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "显露，表露；公然，公开；露骨，显然",
+      "japanese": "顕[あら]わ",
+      "kana": "あらわ",
+      "romaji": "arawa",
+      "tokens": [
+        {
+          "text": "顕[あら]わ",
+          "kana": "あらわ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "嫌麻烦，懒得",
+      "japanese": "億劫[おっくう]",
+      "kana": "おっくう",
+      "romaji": "okkuu",
+      "tokens": [
+        {
+          "text": "億劫[おっくう]",
+          "kana": "おっくう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "模糊，朦胧",
+      "japanese": "おぼろげ",
+      "kana": "おぼろげ",
+      "romaji": "oboroge",
+      "tokens": [
+        {
+          "text": "おぼろげ",
+          "kana": "おぼろげ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "（「AはおろかB…」の形で）不用说",
+      "japanese": "おろか",
+      "kana": "おろか",
+      "romaji": "oroka",
+      "tokens": [
+        {
+          "text": "おろか",
+          "kana": "おろか"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "顽固，固执",
+      "japanese": "かたくな",
+      "kana": "かたくな",
+      "romaji": "katakuna",
+      "tokens": [
+        {
+          "text": "かたくな",
+          "kana": "かたくな"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "凉快；冷静",
+      "japanese": "クール",
+      "kana": "くうる",
+      "romaji": "kuuru",
+      "tokens": [
+        {
+          "text": "クール",
+          "kana": "くうる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "全球的，全世界的",
+      "japanese": "グローバル",
+      "kana": "ぐろうばる",
+      "romaji": "guroubaru",
+      "tokens": [
+        {
+          "text": "グローバル",
+          "kana": "ぐろうばる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "勤快地，经常",
+      "japanese": "こまめ",
+      "kana": "こまめ",
+      "romaji": "komame",
+      "tokens": [
+        {
+          "text": "こまめ",
+          "kana": "こまめ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "端庄，文静",
+      "japanese": "しとやか",
+      "kana": "しとやか",
+      "romaji": "shitoyaka",
+      "tokens": [
+        {
+          "text": "しとやか",
+          "kana": "しとやか"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "猛烈，厉害；可怕，惊人",
+      "japanese": "すさまじい",
+      "kana": "すさまじい",
+      "romaji": "susamajii",
+      "tokens": [
+        {
+          "text": "すさまじい",
+          "kana": "すさまじい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "顽强",
+      "japanese": "タフ",
+      "kana": "たふ",
+      "romaji": "tafu",
+      "tokens": [
+        {
+          "text": "タフ",
+          "kana": "たふ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "不省人事；轻易；不足道；天真",
+      "japanese": "たわいない",
+      "kana": "たわいない",
+      "romaji": "tawainai",
+      "tokens": [
+        {
+          "text": "たわいない",
+          "kana": "たわいない"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "有魅力，迷人",
+      "japanese": "チャーミング",
+      "kana": "ちゃあみんぐ",
+      "romaji": "chaamingu",
+      "tokens": [
+        {
+          "text": "チャーミング",
+          "kana": "ちゃあみんぐ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "忽视，小看",
+      "japanese": "ないがしろ",
+      "kana": "ないがしろ",
+      "romaji": "naigashiro",
+      "tokens": [
+        {
+          "text": "ないがしろ",
+          "kana": "ないがしろ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "一心一意，专心致志",
+      "japanese": "ひたむき",
+      "kana": "ひたむき",
+      "romaji": "hitamuki",
+      "tokens": [
+        {
+          "text": "ひたむき",
+          "kana": "ひたむき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "愚蠢；失败，搞砸",
+      "japanese": "へま",
+      "kana": "へま",
+      "romaji": "hema",
+      "tokens": [
+        {
+          "text": "へま",
+          "kana": "へま"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "水灵灵的，新鲜的",
+      "japanese": "みずみずしい",
+      "kana": "みずみずしい",
+      "romaji": "mizumizushii",
+      "tokens": [
+        {
+          "text": "みずみずしい",
+          "kana": "みずみずしい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "异质，性质不同",
+      "japanese": "異質",
+      "kana": "いしつ",
+      "romaji": "ishitsu",
+      "tokens": [
+        {
+          "text": "異質",
+          "kana": "いしつ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "沉默寡言",
+      "japanese": "寡黙",
+      "kana": "かもく",
+      "romaji": "kamoku",
+      "tokens": [
+        {
+          "text": "寡黙",
+          "kana": "かもく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "果敢，当机立断",
+      "japanese": "果敢",
+      "kana": "かかん",
+      "romaji": "kakan",
+      "tokens": [
+        {
+          "text": "果敢",
+          "kana": "かかん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "外部的",
+      "japanese": "外的",
+      "kana": "がいてき",
+      "romaji": "gaiteki",
+      "tokens": [
+        {
+          "text": "外的",
+          "kana": "がいてき"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "简便",
+      "japanese": "簡便",
+      "kana": "かんべん",
+      "romaji": "kanben",
+      "tokens": [
+        {
+          "text": "簡便",
+          "kana": "かんべん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "清净，幽静",
+      "japanese": "閑静",
+      "kana": "かんせい",
+      "romaji": "kansei",
+      "tokens": [
+        {
+          "text": "閑静",
+          "kana": "かんせい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "不融洽的，不愉快的，尴尬",
+      "japanese": "気まずい",
+      "kana": "きまずい",
+      "romaji": "kimazui",
+      "tokens": [
+        {
+          "text": "気まずい",
+          "kana": "きまずい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "可疑的；不确定",
+      "japanese": "疑わしい",
+      "kana": "うたがわしい",
+      "romaji": "utagawashii",
+      "tokens": [
+        {
+          "text": "疑わしい",
+          "kana": "うたがわしい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "古色古香的",
+      "japanese": "古めかしい",
+      "kana": "ふるめかしい",
+      "romaji": "furumekashii",
+      "tokens": [
+        {
+          "text": "古めかしい",
+          "kana": "ふるめかしい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "内疚，亏心",
+      "japanese": "後ろめたい",
+      "kana": "うしろめたい",
+      "romaji": "ushirometai",
+      "tokens": [
+        {
+          "text": "後ろめたい",
+          "kana": "うしろめたい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "细致，详细",
+      "japanese": "克明",
+      "kana": "こくめい",
+      "romaji": "kokumei",
+      "tokens": [
+        {
+          "text": "克明",
+          "kana": "こくめい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "私人的，个人的",
+      "japanese": "私的",
+      "kana": "してき",
+      "romaji": "shiteki",
+      "tokens": [
+        {
+          "text": "私的",
+          "kana": "してき"
+        }
+      ]
+    }
+  ]
+}

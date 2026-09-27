@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-45",
+  "coursePackId": "jp-n2",
+  "title": "名词 45",
+  "order": 45,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "以压倒性优势取胜",
+      "japanese": "圧勝",
+      "kana": "あっしょう",
+      "romaji": "asshou",
+      "tokens": [
+        {
+          "text": "圧勝",
+          "kana": "あっしょう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "压倒，胜过",
+      "japanese": "圧倒",
+      "kana": "あっとう",
+      "romaji": "attou",
+      "tokens": [
+        {
+          "text": "圧倒",
+          "kana": "あっとう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "黑夜；没有希望；黑市交易",
+      "japanese": "闇",
+      "kana": "やみ",
+      "romaji": "yami",
+      "tokens": [
+        {
+          "text": "闇",
+          "kana": "やみ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "热情，积极性",
+      "japanese": "意欲",
+      "kana": "いよく",
+      "romaji": "iyoku",
+      "tokens": [
+        {
+          "text": "意欲",
+          "kana": "いよく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "转移，过渡",
+      "japanese": "移行",
+      "kana": "いこう",
+      "romaji": "ikou",
+      "tokens": [
+        {
+          "text": "移行",
+          "kana": "いこう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "移居",
+      "japanese": "移住",
+      "kana": "いじゅう",
+      "romaji": "ijuu",
+      "tokens": [
+        {
+          "text": "移住",
+          "kana": "いじゅう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "肠胃",
+      "japanese": "胃腸",
+      "kana": "いちょう",
+      "romaji": "ichou",
+      "tokens": [
+        {
+          "text": "胃腸",
+          "kana": "いちょう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "培育，培养",
+      "japanese": "育成",
+      "kana": "いくせい",
+      "romaji": "ikusei",
+      "tokens": [
+        {
+          "text": "育成",
+          "kana": "いくせい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "统一，总括起来",
+      "japanese": "一括",
+      "kana": "いっかつ",
+      "romaji": "ikkatsu",
+      "tokens": [
+        {
+          "text": "一括",
+          "kana": "いっかつ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "看一眼；乍看",
+      "japanese": "一見",
+      "kana": "いっけん",
+      "romaji": "ikken",
+      "tokens": [
+        {
+          "text": "一見",
+          "kana": "いっけん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "全部；一概（不）",
+      "japanese": "一切",
+      "kana": "いっさい",
+      "romaji": "issai",
+      "tokens": [
+        {
+          "text": "一切",
+          "kana": "いっさい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "突然改变，完全改变",
+      "japanese": "一変",
+      "kana": "いっぺん",
+      "romaji": "ippen",
+      "tokens": [
+        {
+          "text": "一変",
+          "kana": "いっぺん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "一面；另一面；全体；头版",
+      "japanese": "一面",
+      "kana": "いちめん",
+      "romaji": "ichimen",
+      "tokens": [
+        {
+          "text": "一面",
+          "kana": "いちめん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "运营，经营",
+      "japanese": "運営",
+      "kana": "うんえい",
+      "romaji": "un'ei",
+      "tokens": [
+        {
+          "text": "運営",
+          "kana": "うんえい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "阅览",
+      "japanese": "閲覧",
+      "kana": "えつらん",
+      "romaji": "etsuran",
+      "tokens": [
+        {
+          "text": "閲覧",
+          "kana": "えつらん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "美满，圆满",
+      "japanese": "円満",
+      "kana": "えんまん",
+      "romaji": "enman",
+      "tokens": [
+        {
+          "text": "円満",
+          "kana": "えんまん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "绕远；绕圈子",
+      "japanese": "遠回り",
+      "kana": "とおまわり",
+      "romaji": "toomawari",
+      "tokens": [
+        {
+          "text": "遠回り",
+          "kana": "とおまわり"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "远方",
+      "japanese": "遠方",
+      "kana": "えんぽう",
+      "romaji": "enpou",
+      "tokens": [
+        {
+          "text": "遠方",
+          "kana": "えんぽう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "胆小，胆怯",
+      "japanese": "臆病",
+      "kana": "おくびょう",
+      "romaji": "okubyou",
+      "tokens": [
+        {
+          "text": "臆病",
+          "kana": "おくびょう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "比什么（都好），最",
+      "japanese": "何より",
+      "kana": "なにより",
+      "romaji": "naniyori",
+      "tokens": [
+        {
+          "text": "何より",
+          "kana": "なにより"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "会见，会晤",
+      "japanese": "会見",
+      "kana": "かいけん",
+      "romaji": "kaiken",
+      "tokens": [
+        {
+          "text": "会見",
+          "kana": "かいけん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "传阅",
+      "japanese": "回覧",
+      "kana": "かいらん",
+      "romaji": "kairan",
+      "tokens": [
+        {
+          "text": "回覧",
+          "kana": "かいらん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "改良",
+      "japanese": "改良",
+      "kana": "かいりょう",
+      "romaji": "kairyou",
+      "tokens": [
+        {
+          "text": "改良",
+          "kana": "かいりょう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "外观，外表",
+      "japanese": "外観",
+      "kana": "がいかん",
+      "romaji": "gaikan",
+      "tokens": [
+        {
+          "text": "外観",
+          "kana": "がいかん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "猎物；战利品",
+      "japanese": "獲物",
+      "kana": "えもの",
+      "romaji": "emono",
+      "tokens": [
+        {
+          "text": "獲物",
+          "kana": "えもの"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "确信，有信心",
+      "japanese": "確信",
+      "kana": "かくしん",
+      "romaji": "kakushin",
+      "tokens": [
+        {
+          "text": "確信",
+          "kana": "かくしん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "确定",
+      "japanese": "確定",
+      "kana": "かくてい",
+      "romaji": "kakutei",
+      "tokens": [
+        {
+          "text": "確定",
+          "kana": "かくてい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "确保",
+      "japanese": "確保",
+      "kana": "かくほ",
+      "romaji": "kakuho",
+      "tokens": [
+        {
+          "text": "確保",
+          "kana": "かくほ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "完美",
+      "japanese": "完璧",
+      "kana": "かんぺき",
+      "romaji": "kanpeki",
+      "tokens": [
+        {
+          "text": "完璧",
+          "kana": "かんぺき"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "干涉，干预",
+      "japanese": "干渉",
+      "kana": "かんしょう",
+      "romaji": "kanshou",
+      "tokens": [
+        {
+          "text": "干渉",
+          "kana": "かんしょう"
+        }
+      ]
+    }
+  ]
+}

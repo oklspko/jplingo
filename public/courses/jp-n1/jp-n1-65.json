@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-65",
+  "coursePackId": "jp-n1",
+  "title": "名词 65",
+  "order": 65,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "正题，本题",
+      "japanese": "本題",
+      "kana": "ほんだい",
+      "romaji": "hondai",
+      "tokens": [
+        {
+          "text": "本題",
+          "kana": "ほんだい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "昼夜；日夜，经常",
+      "japanese": "昼夜",
+      "kana": "ちゅうや",
+      "romaji": "chuuya",
+      "tokens": [
+        {
+          "text": "昼夜",
+          "kana": "ちゅうや"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "亲笔，亲自书写（的字画、文章等）",
+      "japanese": "自筆",
+      "kana": "じひつ",
+      "romaji": "jihitsu",
+      "tokens": [
+        {
+          "text": "自筆",
+          "kana": "じひつ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "（公文）格式",
+      "japanese": "書式",
+      "kana": "しょしき",
+      "romaji": "shoshiki",
+      "tokens": [
+        {
+          "text": "書式",
+          "kana": "しょしき"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "后出发；后发起，后发展起来（的）",
+      "japanese": "後発",
+      "kana": "こうはつ",
+      "romaji": "kouhatsu",
+      "tokens": [
+        {
+          "text": "後発",
+          "kana": "こうはつ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "切开的口，断面；伤口；切入点，论点；开口处",
+      "japanese": "切り口",
+      "kana": "きりくち",
+      "romaji": "kirikuchi",
+      "tokens": [
+        {
+          "text": "切り口",
+          "kana": "きりくち"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "季风，季节风",
+      "japanese": "季節風",
+      "kana": "きせつふう",
+      "romaji": "kisetsufuu",
+      "tokens": [
+        {
+          "text": "季節風",
+          "kana": "きせつふう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "邮戳",
+      "japanese": "消印",
+      "kana": "けしいん",
+      "romaji": "keshiin",
+      "tokens": [
+        {
+          "text": "消印",
+          "kana": "けしいん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "因缘，关系",
+      "japanese": "ゆかり",
+      "kana": "ゆかり",
+      "romaji": "yukari",
+      "tokens": [
+        {
+          "text": "ゆかり",
+          "kana": "ゆかり"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "传说",
+      "japanese": "言い伝え",
+      "kana": "いいつたえ",
+      "romaji": "iitsutae",
+      "tokens": [
+        {
+          "text": "言い伝え",
+          "kana": "いいつたえ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "躯干，胴体；飞机、船只的中心部分",
+      "japanese": "胴体",
+      "kana": "どうたい",
+      "romaji": "doutai",
+      "tokens": [
+        {
+          "text": "胴体",
+          "kana": "どうたい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "海中，海面下",
+      "japanese": "海中",
+      "kana": "かいちゅう",
+      "romaji": "kaichuu",
+      "tokens": [
+        {
+          "text": "海中",
+          "kana": "かいちゅう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "食用",
+      "japanese": "食用",
+      "kana": "しょくよう",
+      "romaji": "shokuyou",
+      "tokens": [
+        {
+          "text": "食用",
+          "kana": "しょくよう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "石级，石阶，台阶",
+      "japanese": "石段",
+      "kana": "いしだん",
+      "romaji": "ishidan",
+      "tokens": [
+        {
+          "text": "石段",
+          "kana": "いしだん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "橱柜，展示柜；唱片盒",
+      "japanese": "キャビネット",
+      "kana": "きゃびねっと",
+      "romaji": "kyabinetto",
+      "tokens": [
+        {
+          "text": "キャビネット",
+          "kana": "きゃびねっと"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "自己制作",
+      "japanese": "自家製",
+      "kana": "じかせい",
+      "romaji": "jikasei",
+      "tokens": [
+        {
+          "text": "自家製",
+          "kana": "じかせい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "土产（品），特产（品）",
+      "japanese": "物産",
+      "kana": "ぶっさん",
+      "romaji": "bussan",
+      "tokens": [
+        {
+          "text": "物産",
+          "kana": "ぶっさん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "条件；健康状况",
+      "japanese": "コンディション",
+      "kana": "こんでぃしょん",
+      "romaji": "kondeishon",
+      "tokens": [
+        {
+          "text": "コンディション",
+          "kana": "こんでぃしょん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "元凶，罪魁祸首",
+      "japanese": "元凶",
+      "kana": "げんきょう",
+      "romaji": "genkyou",
+      "tokens": [
+        {
+          "text": "元凶",
+          "kana": "げんきょう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "自己出钱，自办",
+      "japanese": "自前",
+      "kana": "じまえ",
+      "romaji": "jimae",
+      "tokens": [
+        {
+          "text": "自前",
+          "kana": "じまえ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "难以预料，不测",
+      "japanese": "不測",
+      "kana": "ふそく",
+      "romaji": "fusoku",
+      "tokens": [
+        {
+          "text": "不測",
+          "kana": "ふそく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "粮食；食粮",
+      "japanese": "糧",
+      "kana": "かて",
+      "romaji": "kate",
+      "tokens": [
+        {
+          "text": "糧",
+          "kana": "かて"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "拾得物，捡来的东西；白得的便宜，意外的收获",
+      "japanese": "拾い物",
+      "kana": "ひろいもの",
+      "romaji": "hiroimono",
+      "tokens": [
+        {
+          "text": "拾い物",
+          "kana": "ひろいもの"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "隆冬",
+      "japanese": "真冬",
+      "kana": "まふゆ",
+      "romaji": "mafuyu",
+      "tokens": [
+        {
+          "text": "真冬",
+          "kana": "まふゆ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "山的地表",
+      "japanese": "山肌",
+      "kana": "やまはだ",
+      "romaji": "yamahada",
+      "tokens": [
+        {
+          "text": "山肌",
+          "kana": "やまはだ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "积极果敢地面对任何事物的精神，坚强的意志，气魄",
+      "japanese": "心意気",
+      "kana": "こころいき",
+      "romaji": "kokoroiki",
+      "tokens": [
+        {
+          "text": "心意気",
+          "kana": "こころいき"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "闪光（灯），镁光（灯）；瞬间场面",
+      "japanese": "フラッシュ",
+      "kana": "ふらっしゅ",
+      "romaji": "furasshu",
+      "tokens": [
+        {
+          "text": "フラッシュ",
+          "kana": "ふらっしゅ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "定评，公认",
+      "japanese": "定評",
+      "kana": "ていひょう",
+      "romaji": "teihyou",
+      "tokens": [
+        {
+          "text": "定評",
+          "kana": "ていひょう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "日本扁柏；桧木",
+      "japanese": "檜[ひのき]",
+      "kana": "ひのき",
+      "romaji": "hinoki",
+      "tokens": [
+        {
+          "text": "檜[ひのき]",
+          "kana": "ひのき"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "隔开，隔板；清算，清账；（相扑）摆架势",
+      "japanese": "仕切り",
+      "kana": "しきり",
+      "romaji": "shikiri",
+      "tokens": [
+        {
+          "text": "仕切り",
+          "kana": "しきり"
+        }
+      ]
+    }
+  ]
+}

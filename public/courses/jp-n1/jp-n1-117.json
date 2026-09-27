@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-117",
+  "coursePackId": "jp-n1",
+  "title": "动词 26",
+  "order": 117,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "强迫，逼迫，强逼",
+      "japanese": "強迫",
+      "kana": "きょうはく",
+      "romaji": "kyouhaku",
+      "tokens": [
+        {
+          "text": "強迫",
+          "kana": "きょうはく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "把……充当，作为……用",
+      "japanese": "充てる",
+      "kana": "あてる",
+      "romaji": "ateru",
+      "tokens": [
+        {
+          "text": "充てる",
+          "kana": "あてる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "填补，补贴，补偿",
+      "japanese": "補塡",
+      "kana": "ほてん",
+      "romaji": "hoten",
+      "tokens": [
+        {
+          "text": "補塡",
+          "kana": "ほてん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "展出",
+      "japanese": "出展",
+      "kana": "しゅってん",
+      "romaji": "shutten",
+      "tokens": [
+        {
+          "text": "出展",
+          "kana": "しゅってん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "直接输送",
+      "japanese": "直送",
+      "kana": "ちょくそう",
+      "romaji": "chokusou",
+      "tokens": [
+        {
+          "text": "直送",
+          "kana": "ちょくそう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "卖光，售完",
+      "japanese": "完売",
+      "kana": "かんばい",
+      "romaji": "kanbai",
+      "tokens": [
+        {
+          "text": "完売",
+          "kana": "かんばい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "触礁，搁浅",
+      "japanese": "乗り上げる",
+      "kana": "のりあげる",
+      "romaji": "noriageru",
+      "tokens": [
+        {
+          "text": "乗り上げる",
+          "kana": "のりあげる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "缔结，订立；撮合；讨好",
+      "japanese": "取り結ぶ",
+      "kana": "とりむすぶ",
+      "romaji": "torimusubu",
+      "tokens": [
+        {
+          "text": "取り結ぶ",
+          "kana": "とりむすぶ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "摇晃；动摇",
+      "japanese": "揺れ動く",
+      "kana": "ゆれうごく",
+      "romaji": "yureugoku",
+      "tokens": [
+        {
+          "text": "揺れ動く",
+          "kana": "ゆれうごく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "给以深刻印象",
+      "japanese": "印象づける",
+      "kana": "いんしょうづける",
+      "romaji": "inshouzukeru",
+      "tokens": [
+        {
+          "text": "印象づける",
+          "kana": "いんしょうづける"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "报偿，报答；报复",
+      "japanese": "報う",
+      "kana": "むくう",
+      "romaji": "mukuu",
+      "tokens": [
+        {
+          "text": "報う",
+          "kana": "むくう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "飞跑，疾驰；跳过中间部分",
+      "japanese": "すっ飛ばす",
+      "kana": "すっとばす",
+      "romaji": "suttobasu",
+      "tokens": [
+        {
+          "text": "すっ飛ばす",
+          "kana": "すっとばす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "十分惊讶，惊讶到极点",
+      "japanese": "呆[あき]れ果てる",
+      "kana": "あきれはてる",
+      "romaji": "akirehateru",
+      "tokens": [
+        {
+          "text": "呆[あき]れ果てる",
+          "kana": "あきれはてる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "赞扬，称赞，夸奖，表彰",
+      "japanese": "たたえる",
+      "kana": "たたえる",
+      "romaji": "tataeru",
+      "tokens": [
+        {
+          "text": "たたえる",
+          "kana": "たたえる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "置之不理，放下不做，丢开不管",
+      "japanese": "ほっとく",
+      "kana": "ほっとく",
+      "romaji": "hottoku",
+      "tokens": [
+        {
+          "text": "ほっとく",
+          "kana": "ほっとく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "压死；抑制，憋住",
+      "japanese": "押し殺す",
+      "kana": "おしころす",
+      "romaji": "oshikorosu",
+      "tokens": [
+        {
+          "text": "押し殺す",
+          "kana": "おしころす"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "移植",
+      "japanese": "植え替える",
+      "kana": "うえかえる",
+      "romaji": "uekaeru",
+      "tokens": [
+        {
+          "text": "植え替える",
+          "kana": "うえかえる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "充满，挤满",
+      "japanese": "溢[あふ]れ返る",
+      "kana": "あふれかえる",
+      "romaji": "afurekaeru",
+      "tokens": [
+        {
+          "text": "溢[あふ]れ返る",
+          "kana": "あふれかえる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "厌恶，嫌恶",
+      "japanese": "忌み嫌う",
+      "kana": "いみきらう",
+      "romaji": "imikirau",
+      "tokens": [
+        {
+          "text": "忌み嫌う",
+          "kana": "いみきらう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "睁大眼睛",
+      "japanese": "見開く",
+      "kana": "みひらく",
+      "romaji": "mihiraku",
+      "tokens": [
+        {
+          "text": "見開く",
+          "kana": "みひらく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "穿过，钻过；躲过，混过",
+      "japanese": "擦り抜ける",
+      "kana": "すりぬける",
+      "romaji": "surinukeru",
+      "tokens": [
+        {
+          "text": "擦り抜ける",
+          "kana": "すりぬける"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "补写，添写",
+      "japanese": "書き足す",
+      "kana": "かきたす",
+      "romaji": "kakitasu",
+      "tokens": [
+        {
+          "text": "書き足す",
+          "kana": "かきたす"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "互相礼让",
+      "japanese": "譲り合う",
+      "kana": "ゆずりあう",
+      "romaji": "yuzuriau",
+      "tokens": [
+        {
+          "text": "譲り合う",
+          "kana": "ゆずりあう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "出生，降生",
+      "japanese": "生まれ落ちる",
+      "kana": "うまれおちる",
+      "romaji": "umareochiru",
+      "tokens": [
+        {
+          "text": "生まれ落ちる",
+          "kana": "うまれおちる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "选出，挑选",
+      "japanese": "選び取る",
+      "kana": "えらびとる",
+      "romaji": "erabitoru",
+      "tokens": [
+        {
+          "text": "選び取る",
+          "kana": "えらびとる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "知道",
+      "japanese": "存じ上げる",
+      "kana": "ぞんじあげる",
+      "romaji": "zonjiageru",
+      "tokens": [
+        {
+          "text": "存じ上げる",
+          "kana": "ぞんじあげる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "跳上；跳上车",
+      "japanese": "飛び乗る",
+      "kana": "とびのる",
+      "romaji": "tobinoru",
+      "tokens": [
+        {
+          "text": "飛び乗る",
+          "kana": "とびのる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "飘落，纷纷落下",
+      "japanese": "舞い落ちる",
+      "kana": "まいおちる",
+      "romaji": "maiochiru",
+      "tokens": [
+        {
+          "text": "舞い落ちる",
+          "kana": "まいおちる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "沉默",
+      "japanese": "黙する",
+      "kana": "もくする",
+      "romaji": "mokusuru",
+      "tokens": [
+        {
+          "text": "黙する",
+          "kana": "もくする"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "嗅出；察觉",
+      "japanese": "嗅ぎ取る",
+      "kana": "かぎとる",
+      "romaji": "kagitoru",
+      "tokens": [
+        {
+          "text": "嗅ぎ取る",
+          "kana": "かぎとる"
+        }
+      ]
+    }
+  ]
+}

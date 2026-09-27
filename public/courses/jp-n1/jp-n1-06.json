@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-06",
+  "coursePackId": "jp-n1",
+  "title": "名词 6",
+  "order": 6,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "角落",
+      "japanese": "隅",
+      "kana": "すみ",
+      "romaji": "sumi",
+      "tokens": [
+        {
+          "text": "隅",
+          "kana": "すみ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "形状",
+      "japanese": "形状",
+      "kana": "けいじょう",
+      "romaji": "keijou",
+      "tokens": [
+        {
+          "text": "形状",
+          "kana": "けいじょう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "古代",
+      "japanese": "古代",
+      "kana": "こだい",
+      "romaji": "kodai",
+      "tokens": [
+        {
+          "text": "古代",
+          "kana": "こだい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "盈余，赚钱",
+      "japanese": "黒字",
+      "kana": "くろじ",
+      "romaji": "kuroji",
+      "tokens": [
+        {
+          "text": "黒字",
+          "kana": "くろじ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "灾难",
+      "japanese": "災難",
+      "kana": "さいなん",
+      "romaji": "sainan",
+      "tokens": [
+        {
+          "text": "災難",
+          "kana": "さいなん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "居住",
+      "japanese": "在住",
+      "kana": "ざいじゅう",
+      "romaji": "zaijuu",
+      "tokens": [
+        {
+          "text": "在住",
+          "kana": "ざいじゅう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "用法，用途",
+      "japanese": "使い道",
+      "kana": "つかいみち",
+      "romaji": "tsukaimichi",
+      "tokens": [
+        {
+          "text": "使い道",
+          "kana": "つかいみち"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "手指尖",
+      "japanese": "指先",
+      "kana": "ゆびさき",
+      "romaji": "yubisaki",
+      "tokens": [
+        {
+          "text": "指先",
+          "kana": "ゆびさき"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "牙刷",
+      "japanese": "歯ブラシ",
+      "kana": "はぶらし",
+      "romaji": "haburashi",
+      "tokens": [
+        {
+          "text": "歯ブラシ",
+          "kana": "はぶらし"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "寺庙",
+      "japanese": "寺院",
+      "kana": "じいん",
+      "romaji": "jiin",
+      "tokens": [
+        {
+          "text": "寺院",
+          "kana": "じいん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "自然科学",
+      "japanese": "自然科学",
+      "kana": "しぜんかがく",
+      "romaji": "shizenkagaku",
+      "tokens": [
+        {
+          "text": "自然科学",
+          "kana": "しぜんかがく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "现实生活",
+      "japanese": "実生活",
+      "kana": "じっせいかつ",
+      "romaji": "jisseikatsu",
+      "tokens": [
+        {
+          "text": "実生活",
+          "kana": "じっせいかつ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "社会科学",
+      "japanese": "社会科学",
+      "kana": "しゃかいかがく",
+      "romaji": "shakaikagaku",
+      "tokens": [
+        {
+          "text": "社会科学",
+          "kana": "しゃかいかがく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "弱点，缺点",
+      "japanese": "弱み",
+      "kana": "よわみ",
+      "romaji": "yowami",
+      "tokens": [
+        {
+          "text": "弱み",
+          "kana": "よわみ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "主任",
+      "japanese": "主任",
+      "kana": "しゅにん",
+      "romaji": "shunin",
+      "tokens": [
+        {
+          "text": "主任",
+          "kana": "しゅにん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "筹备，安排；（为了逮捕犯人的）部署",
+      "japanese": "手配",
+      "kana": "てはい",
+      "romaji": "tehai",
+      "tokens": [
+        {
+          "text": "手配",
+          "kana": "てはい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "书信；书面文件",
+      "japanese": "書面",
+      "kana": "しょめん",
+      "romaji": "shomen",
+      "tokens": [
+        {
+          "text": "書面",
+          "kana": "しょめん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "笑声",
+      "japanese": "笑い声",
+      "kana": "わらいごえ",
+      "romaji": "waraigoe",
+      "tokens": [
+        {
+          "text": "笑い声",
+          "kana": "わらいごえ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "臀部，屁股；末尾，倒数；底部",
+      "japanese": "尻",
+      "kana": "しり",
+      "romaji": "shiri",
+      "tokens": [
+        {
+          "text": "尻",
+          "kana": "しり"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "父亲；老头子；老板；头目",
+      "japanese": "親父",
+      "kana": "おやじ",
+      "romaji": "oyaji",
+      "tokens": [
+        {
+          "text": "親父",
+          "kana": "おやじ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "人为，人工；人手，劳力；别人的帮忙；他人之手",
+      "japanese": "人手",
+      "kana": "ひとで",
+      "romaji": "hitode",
+      "tokens": [
+        {
+          "text": "人手",
+          "kana": "ひとで"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "外出的人群",
+      "japanese": "人出",
+      "kana": "ひとで",
+      "romaji": "hitode",
+      "tokens": [
+        {
+          "text": "人出",
+          "kana": "ひとで"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "水温",
+      "japanese": "水温",
+      "kana": "すいおん",
+      "romaji": "suion",
+      "tokens": [
+        {
+          "text": "水温",
+          "kana": "すいおん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "游衣，泳装",
+      "japanese": "水着",
+      "kana": "みずぎ",
+      "romaji": "mizugi",
+      "tokens": [
+        {
+          "text": "水着",
+          "kana": "みずぎ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "炊饭锅，电饭煲",
+      "japanese": "炊飯器",
+      "kana": "すいはんき",
+      "romaji": "suihanki",
+      "tokens": [
+        {
+          "text": "炊飯器",
+          "kana": "すいはんき"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "星空",
+      "japanese": "星空",
+      "kana": "ほしぞら",
+      "romaji": "hoshizora",
+      "tokens": [
+        {
+          "text": "星空",
+          "kana": "ほしぞら"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "傲慢，狂妄，自大，不知天高地厚",
+      "japanese": "生意気",
+      "kana": "なまいき",
+      "romaji": "namaiki",
+      "tokens": [
+        {
+          "text": "生意気",
+          "kana": "なまいき"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "青少年",
+      "japanese": "青少年",
+      "kana": "せいしょうねん",
+      "romaji": "seishounen",
+      "tokens": [
+        {
+          "text": "青少年",
+          "kana": "せいしょうねん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "全部力量",
+      "japanese": "全力",
+      "kana": "ぜんりょく",
+      "romaji": "zenryoku",
+      "tokens": [
+        {
+          "text": "全力",
+          "kana": "ぜんりょく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "损失",
+      "japanese": "損失",
+      "kana": "そんしつ",
+      "romaji": "sonshitsu",
+      "tokens": [
+        {
+          "text": "損失",
+          "kana": "そんしつ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-59",
+  "coursePackId": "jp-n1",
+  "title": "名词 59",
+  "order": 59,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "香菇",
+      "japanese": "しいたけ",
+      "kana": "しいたけ",
+      "romaji": "shiitake",
+      "tokens": [
+        {
+          "text": "しいたけ",
+          "kana": "しいたけ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "蟹，螃蟹",
+      "japanese": "蟹[かに]",
+      "kana": "かに",
+      "romaji": "kani",
+      "tokens": [
+        {
+          "text": "蟹[かに]",
+          "kana": "かに"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "图纸，设计图，构造图",
+      "japanese": "図面",
+      "kana": "ずめん",
+      "romaji": "zumen",
+      "tokens": [
+        {
+          "text": "図面",
+          "kana": "ずめん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "盂兰盆会舞",
+      "japanese": "盆踊り",
+      "kana": "ぼんおどり",
+      "romaji": "bon'odori",
+      "tokens": [
+        {
+          "text": "盆踊り",
+          "kana": "ぼんおどり"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "优劣",
+      "japanese": "優劣",
+      "kana": "ゆうれつ",
+      "romaji": "yuuretsu",
+      "tokens": [
+        {
+          "text": "優劣",
+          "kana": "ゆうれつ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "檐头，房前",
+      "japanese": "軒先",
+      "kana": "のきさき",
+      "romaji": "nokisaki",
+      "tokens": [
+        {
+          "text": "軒先",
+          "kana": "のきさき"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "渡口；（由外国）传来；搭关系；（鸟类）迁徙",
+      "japanese": "渡り",
+      "kana": "わたり",
+      "romaji": "watari",
+      "tokens": [
+        {
+          "text": "渡り",
+          "kana": "わたり"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "雷雨",
+      "japanese": "雷雨",
+      "kana": "らいう",
+      "romaji": "raiu",
+      "tokens": [
+        {
+          "text": "雷雨",
+          "kana": "らいう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "天敌",
+      "japanese": "天敵",
+      "kana": "てんてき",
+      "romaji": "tenteki",
+      "tokens": [
+        {
+          "text": "天敵",
+          "kana": "てんてき"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "片断，部分",
+      "japanese": "断片",
+      "kana": "だんぺん",
+      "romaji": "danpen",
+      "tokens": [
+        {
+          "text": "断片",
+          "kana": "だんぺん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "书库，藏书室",
+      "japanese": "書庫",
+      "kana": "しょこ",
+      "romaji": "shoko",
+      "tokens": [
+        {
+          "text": "書庫",
+          "kana": "しょこ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "十二支，生肖",
+      "japanese": "十二支",
+      "kana": "じゅうにし",
+      "romaji": "juunishi",
+      "tokens": [
+        {
+          "text": "十二支",
+          "kana": "じゅうにし"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "史实",
+      "japanese": "史実",
+      "kana": "しじつ",
+      "romaji": "shijitsu",
+      "tokens": [
+        {
+          "text": "史実",
+          "kana": "しじつ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "双方，两方",
+      "japanese": "双方",
+      "kana": "そうほう",
+      "romaji": "souhou",
+      "tokens": [
+        {
+          "text": "双方",
+          "kana": "そうほう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "老朽；陈旧，破旧",
+      "japanese": "老朽",
+      "kana": "ろうきゅう",
+      "romaji": "roukyuu",
+      "tokens": [
+        {
+          "text": "老朽",
+          "kana": "ろうきゅう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "铸模，模子",
+      "japanese": "鋳型",
+      "kana": "いがた",
+      "romaji": "igata",
+      "tokens": [
+        {
+          "text": "鋳型",
+          "kana": "いがた"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "人家，人烟",
+      "japanese": "人家",
+      "kana": "じんか",
+      "romaji": "jinka",
+      "tokens": [
+        {
+          "text": "人家",
+          "kana": "じんか"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "一时不振，萎靡，低谷",
+      "japanese": "スランプ",
+      "kana": "すらんぷ",
+      "romaji": "suranpu",
+      "tokens": [
+        {
+          "text": "スランプ",
+          "kana": "すらんぷ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "道理，条理；顺序，程序",
+      "japanese": "筋道",
+      "kana": "すじみち",
+      "romaji": "sujimichi",
+      "tokens": [
+        {
+          "text": "筋道",
+          "kana": "すじみち"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "以往，以前，从前，从来",
+      "japanese": "旧来",
+      "kana": "きゅうらい",
+      "romaji": "kyuurai",
+      "tokens": [
+        {
+          "text": "旧来",
+          "kana": "きゅうらい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "基调，基准",
+      "japanese": "基調",
+      "kana": "きちょう",
+      "romaji": "kichou",
+      "tokens": [
+        {
+          "text": "基調",
+          "kana": "きちょう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "无名，不知名；不著名，没名气",
+      "japanese": "無名",
+      "kana": "むめい",
+      "romaji": "mumei",
+      "tokens": [
+        {
+          "text": "無名",
+          "kana": "むめい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "资质，秉性，天资",
+      "japanese": "資質",
+      "kana": "ししつ",
+      "romaji": "shishitsu",
+      "tokens": [
+        {
+          "text": "資質",
+          "kana": "ししつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "行业",
+      "japanese": "業種",
+      "kana": "ぎょうしゅ",
+      "romaji": "gyoushu",
+      "tokens": [
+        {
+          "text": "業種",
+          "kana": "ぎょうしゅ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "综合体检",
+      "japanese": "人間ドック",
+      "kana": "にんげんどっく",
+      "romaji": "ningendokku",
+      "tokens": [
+        {
+          "text": "人間ドック",
+          "kana": "にんげんどっく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "上限",
+      "japanese": "上限",
+      "kana": "じょうげん",
+      "romaji": "jougen",
+      "tokens": [
+        {
+          "text": "上限",
+          "kana": "じょうげん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "幼虫",
+      "japanese": "幼虫",
+      "kana": "ようちゅう",
+      "romaji": "youchuu",
+      "tokens": [
+        {
+          "text": "幼虫",
+          "kana": "ようちゅう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "终端；终端装置",
+      "japanese": "端末",
+      "kana": "たんまつ",
+      "romaji": "tanmatsu",
+      "tokens": [
+        {
+          "text": "端末",
+          "kana": "たんまつ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "指导方针，大纲",
+      "japanese": "ガイドライン",
+      "kana": "がいどらいん",
+      "romaji": "gaidorain",
+      "tokens": [
+        {
+          "text": "ガイドライン",
+          "kana": "がいどらいん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "房间布局，平面布置",
+      "japanese": "間取り",
+      "kana": "まどり",
+      "romaji": "madori",
+      "tokens": [
+        {
+          "text": "間取り",
+          "kana": "まどり"
+        }
+      ]
+    }
+  ]
+}

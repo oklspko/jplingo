@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-61",
+  "coursePackId": "jp-n2",
+  "title": "名词 61",
+  "order": 61,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "移动；改变；轮班",
+      "japanese": "シフト",
+      "kana": "しふと",
+      "romaji": "shifuto",
+      "tokens": [
+        {
+          "text": "シフト",
+          "kana": "しふと"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "调味，加佐料",
+      "japanese": "味付け",
+      "kana": "あじつけ",
+      "romaji": "ajitsuke",
+      "tokens": [
+        {
+          "text": "味付け",
+          "kana": "あじつけ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "缘，缘分",
+      "japanese": "縁",
+      "kana": "えん",
+      "romaji": "en",
+      "tokens": [
+        {
+          "text": "縁",
+          "kana": "えん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "魔术，魔法",
+      "japanese": "魔法",
+      "kana": "まほう",
+      "romaji": "mahou",
+      "tokens": [
+        {
+          "text": "魔法",
+          "kana": "まほう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "服装；剧装，戏装",
+      "japanese": "衣装",
+      "kana": "いしょう",
+      "romaji": "ishou",
+      "tokens": [
+        {
+          "text": "衣装",
+          "kana": "いしょう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "遭遇，遇到",
+      "japanese": "遭遇",
+      "kana": "そうぐう",
+      "romaji": "souguu",
+      "tokens": [
+        {
+          "text": "遭遇",
+          "kana": "そうぐう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "回归，回来，返回",
+      "japanese": "帰還",
+      "kana": "きかん",
+      "romaji": "kikan",
+      "tokens": [
+        {
+          "text": "帰還",
+          "kana": "きかん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "音声，声音",
+      "japanese": "音声",
+      "kana": "おんせい",
+      "romaji": "onsei",
+      "tokens": [
+        {
+          "text": "音声",
+          "kana": "おんせい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "监护人，家长",
+      "japanese": "保護者",
+      "kana": "ほごしゃ",
+      "romaji": "hogosha",
+      "tokens": [
+        {
+          "text": "保護者",
+          "kana": "ほごしゃ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "自负，自满，自大，自傲",
+      "japanese": "自負",
+      "kana": "じふ",
+      "romaji": "jifu",
+      "tokens": [
+        {
+          "text": "自負",
+          "kana": "じふ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "工作岗位，部门，职守",
+      "japanese": "部署",
+      "kana": "ぶしょ",
+      "romaji": "busho",
+      "tokens": [
+        {
+          "text": "部署",
+          "kana": "ぶしょ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "常客，熟客",
+      "japanese": "常連",
+      "kana": "じょうれん",
+      "romaji": "jouren",
+      "tokens": [
+        {
+          "text": "常連",
+          "kana": "じょうれん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "空洞，窟窿",
+      "japanese": "空洞",
+      "kana": "くうどう",
+      "romaji": "kuudou",
+      "tokens": [
+        {
+          "text": "空洞",
+          "kana": "くうどう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "上部，上面；上层",
+      "japanese": "上部",
+      "kana": "じょうぶ",
+      "romaji": "joubu",
+      "tokens": [
+        {
+          "text": "上部",
+          "kana": "じょうぶ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "经理，管理人；（体育社团等的）干事；（艺人等的）经纪人",
+      "japanese": "マネージャー",
+      "kana": "まねえじゃあ",
+      "romaji": "maneejaa",
+      "tokens": [
+        {
+          "text": "マネージャー",
+          "kana": "まねえじゃあ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "退席，退场",
+      "japanese": "退場",
+      "kana": "たいじょう",
+      "romaji": "taijou",
+      "tokens": [
+        {
+          "text": "退場",
+          "kana": "たいじょう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "退出，退下",
+      "japanese": "退出",
+      "kana": "たいしゅつ",
+      "romaji": "taishutsu",
+      "tokens": [
+        {
+          "text": "退出",
+          "kana": "たいしゅつ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "民房，老百姓家",
+      "japanese": "民家",
+      "kana": "みんか",
+      "romaji": "minka",
+      "tokens": [
+        {
+          "text": "民家",
+          "kana": "みんか"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "分量，量，量感；音量；卷，册",
+      "japanese": "ボリューム",
+      "kana": "ぼりゅうむ",
+      "romaji": "boryuumu",
+      "tokens": [
+        {
+          "text": "ボリューム",
+          "kana": "ぼりゅうむ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "适得其反的效果",
+      "japanese": "逆効果",
+      "kana": "ぎゃくこうか",
+      "romaji": "gyakukouka",
+      "tokens": [
+        {
+          "text": "逆効果",
+          "kana": "ぎゃくこうか"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "名门，世家",
+      "japanese": "名門",
+      "kana": "めいもん",
+      "romaji": "meimon",
+      "tokens": [
+        {
+          "text": "名門",
+          "kana": "めいもん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "上身，上半身",
+      "japanese": "上体",
+      "kana": "じょうたい",
+      "romaji": "joutai",
+      "tokens": [
+        {
+          "text": "上体",
+          "kana": "じょうたい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "观战，观看比赛",
+      "japanese": "観戦",
+      "kana": "かんせん",
+      "romaji": "kansen",
+      "tokens": [
+        {
+          "text": "観戦",
+          "kana": "かんせん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "运动神经",
+      "japanese": "運動神経",
+      "kana": "うんどうしんけい",
+      "romaji": "undoushinkei",
+      "tokens": [
+        {
+          "text": "運動神経",
+          "kana": "うんどうしんけい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "红叶，枫叶；变成红叶",
+      "japanese": "紅葉",
+      "kana": "こうよう",
+      "romaji": "kouyou",
+      "tokens": [
+        {
+          "text": "紅葉",
+          "kana": "こうよう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "袖珍本文集，丛书",
+      "japanese": "文庫",
+      "kana": "ぶんこ",
+      "romaji": "bunko",
+      "tokens": [
+        {
+          "text": "文庫",
+          "kana": "ぶんこ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "直接连结；（与……）直接有关联",
+      "japanese": "直結",
+      "kana": "ちょっけつ",
+      "romaji": "chokketsu",
+      "tokens": [
+        {
+          "text": "直結",
+          "kana": "ちょっけつ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "突起，隆起",
+      "japanese": "突起",
+      "kana": "とっき",
+      "romaji": "tokki",
+      "tokens": [
+        {
+          "text": "突起",
+          "kana": "とっき"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "商品，货物",
+      "japanese": "グッズ",
+      "kana": "ぐっず",
+      "romaji": "guzzu",
+      "tokens": [
+        {
+          "text": "グッズ",
+          "kana": "ぐっず"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "事例，例子",
+      "japanese": "事例",
+      "kana": "じれい",
+      "romaji": "jirei",
+      "tokens": [
+        {
+          "text": "事例",
+          "kana": "じれい"
+        }
+      ]
+    }
+  ]
+}

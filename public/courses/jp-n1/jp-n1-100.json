@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-100",
+  "coursePackId": "jp-n1",
+  "title": "动词 9",
+  "order": 100,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "不一致，有分歧；错位",
+      "japanese": "食い違う",
+      "kana": "くいちがう",
+      "romaji": "kuichigau",
+      "tokens": [
+        {
+          "text": "食い違う",
+          "kana": "くいちがう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "侵犯，侵入，侵害；患，侵袭",
+      "japanese": "侵す",
+      "kana": "おかす",
+      "romaji": "okasu",
+      "tokens": [
+        {
+          "text": "侵す",
+          "kana": "おかす"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "哄睡；放平；闲置",
+      "japanese": "寝かせる",
+      "kana": "ねかせる",
+      "romaji": "nekaseru",
+      "tokens": [
+        {
+          "text": "寝かせる",
+          "kana": "ねかせる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "留心，注意",
+      "japanese": "心がける",
+      "kana": "こころがける",
+      "romaji": "kokorogakeru",
+      "tokens": [
+        {
+          "text": "心がける",
+          "kana": "こころがける"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "安放；使……就座；使就……职位",
+      "japanese": "据える",
+      "kana": "すえる",
+      "romaji": "sueru",
+      "tokens": [
+        {
+          "text": "据える",
+          "kana": "すえる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "澄清；全神贯注；装作与己无关",
+      "japanese": "澄ます",
+      "kana": "すます",
+      "romaji": "sumasu",
+      "tokens": [
+        {
+          "text": "澄ます",
+          "kana": "すます"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "使（植物）生长；留（胡子）",
+      "japanese": "生やす",
+      "kana": "はやす",
+      "romaji": "hayasu",
+      "tokens": [
+        {
+          "text": "生やす",
+          "kana": "はやす"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "躲藏；藏在（心里）",
+      "japanese": "潜む",
+      "kana": "ひそむ",
+      "romaji": "hisomu",
+      "tokens": [
+        {
+          "text": "潜む",
+          "kana": "ひそむ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "修理，修缮；整理（仪容）；敷衍，掩饰",
+      "japanese": "繕う",
+      "kana": "つくろう",
+      "romaji": "tsukurou",
+      "tokens": [
+        {
+          "text": "繕う",
+          "kana": "つくろう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "措施，处理",
+      "japanese": "措置",
+      "kana": "そち",
+      "romaji": "sochi",
+      "tokens": [
+        {
+          "text": "措置",
+          "kana": "そち"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "阻挡，阻碍",
+      "japanese": "阻む",
+      "kana": "はばむ",
+      "romaji": "habamu",
+      "tokens": [
+        {
+          "text": "阻む",
+          "kana": "はばむ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "（用线等）操控；巧妙地运用，驾驭；操纵，暗中控制",
+      "japanese": "操る",
+      "kana": "あやつる",
+      "romaji": "ayatsuru",
+      "tokens": [
+        {
+          "text": "操る",
+          "kana": "あやつる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "装扮；假装",
+      "japanese": "装う",
+      "kana": "よそおう",
+      "romaji": "yosoou",
+      "tokens": [
+        {
+          "text": "装う",
+          "kana": "よそおう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "就，适应，结合",
+      "japanese": "即する",
+      "kana": "そくする",
+      "romaji": "sokusuru",
+      "tokens": [
+        {
+          "text": "即する",
+          "kana": "そくする"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "束缚，限制",
+      "japanese": "束縛",
+      "kana": "そくばく",
+      "romaji": "sokubaku",
+      "tokens": [
+        {
+          "text": "束縛",
+          "kana": "そくばく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "打进，射进；埋头，专心致志",
+      "japanese": "打ち込む",
+      "kana": "うちこむ",
+      "romaji": "uchikomu",
+      "tokens": [
+        {
+          "text": "打ち込む",
+          "kana": "うちこむ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "（中途）停止",
+      "japanese": "打ち切る",
+      "kana": "うちきる",
+      "romaji": "uchikiru",
+      "tokens": [
+        {
+          "text": "打ち切る",
+          "kana": "うちきる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "带有；肩负",
+      "japanese": "帯びる",
+      "kana": "おびる",
+      "romaji": "obiru",
+      "tokens": [
+        {
+          "text": "帯びる",
+          "kana": "おびる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "偷懒，懈怠，疏忽",
+      "japanese": "怠る",
+      "kana": "おこたる",
+      "romaji": "okotaru",
+      "tokens": [
+        {
+          "text": "怠る",
+          "kana": "おこたる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "堵塞，迟滞，拖延；拖欠",
+      "japanese": "滞る",
+      "kana": "とどこおる",
+      "romaji": "todokooru",
+      "tokens": [
+        {
+          "text": "滞る",
+          "kana": "とどこおる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（用武力）夺取",
+      "japanese": "奪い取る",
+      "kana": "うばいとる",
+      "romaji": "ubaitoru",
+      "tokens": [
+        {
+          "text": "奪い取る",
+          "kana": "うばいとる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "担，挑；担负",
+      "japanese": "担う",
+      "kana": "になう",
+      "romaji": "ninau",
+      "tokens": [
+        {
+          "text": "担う",
+          "kana": "になう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "弹；防（水）；打（算盘）",
+      "japanese": "はじく",
+      "kana": "はじく",
+      "romaji": "hajiku",
+      "tokens": [
+        {
+          "text": "はじく",
+          "kana": "はじく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "跳，弹；起劲，激动",
+      "japanese": "弾む",
+      "kana": "はずむ",
+      "romaji": "hazumu",
+      "tokens": [
+        {
+          "text": "弾む",
+          "kana": "はずむ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "切断；戒",
+      "japanese": "断つ",
+      "kana": "たつ",
+      "romaji": "tatsu",
+      "tokens": [
+        {
+          "text": "断つ",
+          "kana": "たつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "值得",
+      "japanese": "値する",
+      "kana": "あたいする",
+      "romaji": "ataisuru",
+      "tokens": [
+        {
+          "text": "値する",
+          "kana": "あたいする"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "害羞",
+      "japanese": "恥じらう",
+      "kana": "はじらう",
+      "romaji": "hajirau",
+      "tokens": [
+        {
+          "text": "恥じらう",
+          "kana": "はじらう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "竞争，争持，争夺",
+      "japanese": "張り合う",
+      "kana": "はりあう",
+      "romaji": "hariau",
+      "tokens": [
+        {
+          "text": "張り合う",
+          "kana": "はりあう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "尝到苦头不想再做",
+      "japanese": "懲りる",
+      "kana": "こりる",
+      "romaji": "koriru",
+      "tokens": [
+        {
+          "text": "懲りる",
+          "kana": "こりる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "挑衅；挑战",
+      "japanese": "挑む",
+      "kana": "いどむ",
+      "romaji": "idomu",
+      "tokens": [
+        {
+          "text": "挑む",
+          "kana": "いどむ"
+        }
+      ]
+    }
+  ]
+}

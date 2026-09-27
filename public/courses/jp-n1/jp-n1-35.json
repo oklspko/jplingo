@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-35",
+  "coursePackId": "jp-n1",
+  "title": "名词 35",
+  "order": 35,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "黏性；毅力",
+      "japanese": "粘り",
+      "kana": "ねばり",
+      "romaji": "nebari",
+      "tokens": [
+        {
+          "text": "粘り",
+          "kana": "ねばり"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "缴纳，上缴",
+      "japanese": "納入",
+      "kana": "のうにゅう",
+      "romaji": "nounyuu",
+      "tokens": [
+        {
+          "text": "納入",
+          "kana": "のうにゅう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "心里，脑海里",
+      "japanese": "脳裏",
+      "kana": "のうり",
+      "romaji": "nouri",
+      "tokens": [
+        {
+          "text": "脳裏",
+          "kana": "のうり"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "农耕",
+      "japanese": "農耕",
+      "kana": "のうこう",
+      "romaji": "noukou",
+      "tokens": [
+        {
+          "text": "農耕",
+          "kana": "のうこう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "破损，损坏",
+      "japanese": "破損",
+      "kana": "はそん",
+      "romaji": "hason",
+      "tokens": [
+        {
+          "text": "破損",
+          "kana": "はそん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "破裂",
+      "japanese": "破裂",
+      "kana": "はれつ",
+      "romaji": "haretsu",
+      "tokens": [
+        {
+          "text": "破裂",
+          "kana": "はれつ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "废弃，废除",
+      "japanese": "廃棄",
+      "kana": "はいき",
+      "romaji": "haiki",
+      "tokens": [
+        {
+          "text": "廃棄",
+          "kana": "はいき"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "战败，（比赛）失败",
+      "japanese": "敗北",
+      "kana": "はいぼく",
+      "romaji": "haiboku",
+      "tokens": [
+        {
+          "text": "敗北",
+          "kana": "はいぼく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "背后；背地，幕后",
+      "japanese": "背後",
+      "kana": "はいご",
+      "romaji": "haigo",
+      "tokens": [
+        {
+          "text": "背後",
+          "kana": "はいご"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "配给，分配（物资）；定量供应",
+      "japanese": "配給",
+      "kana": "はいきゅう",
+      "romaji": "haikyuu",
+      "tokens": [
+        {
+          "text": "配給",
+          "kana": "はいきゅう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "配偶",
+      "japanese": "配偶者",
+      "kana": "はいぐうしゃ",
+      "romaji": "haiguusha",
+      "tokens": [
+        {
+          "text": "配偶者",
+          "kana": "はいぐうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "配置，布置，部署",
+      "japanese": "配置",
+      "kana": "はいち",
+      "romaji": "haichi",
+      "tokens": [
+        {
+          "text": "配置",
+          "kana": "はいち"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "分配",
+      "japanese": "配分",
+      "kana": "はいぶん",
+      "romaji": "haibun",
+      "tokens": [
+        {
+          "text": "配分",
+          "kana": "はいぶん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "排列",
+      "japanese": "配列",
+      "kana": "はいれつ",
+      "romaji": "hairetsu",
+      "tokens": [
+        {
+          "text": "配列",
+          "kana": "はいれつ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "发掘，挖掘；发现",
+      "japanese": "発掘",
+      "kana": "はっくつ",
+      "romaji": "hakkutsu",
+      "tokens": [
+        {
+          "text": "発掘",
+          "kana": "はっくつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "（组织等）成立，开始活动",
+      "japanese": "発足",
+      "kana": "ほっそく",
+      "romaji": "hossoku",
+      "tokens": [
+        {
+          "text": "発足",
+          "kana": "ほっそく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "发端，起因",
+      "japanese": "発端",
+      "kana": "ほったん",
+      "romaji": "hottan",
+      "tokens": [
+        {
+          "text": "発端",
+          "kana": "ほったん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（语言学）发声，表达",
+      "japanese": "発話",
+      "kana": "はつわ",
+      "romaji": "hatsuwa",
+      "tokens": [
+        {
+          "text": "発話",
+          "kana": "はつわ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "伴奏",
+      "japanese": "伴奏",
+      "kana": "ばんそう",
+      "romaji": "bansou",
+      "tokens": [
+        {
+          "text": "伴奏",
+          "kana": "ばんそう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "判明，弄清楚",
+      "japanese": "判明",
+      "kana": "はんめい",
+      "romaji": "hanmei",
+      "tokens": [
+        {
+          "text": "判明",
+          "kana": "はんめい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "零头，尾数；不彻底；无用（的人）",
+      "japanese": "半端",
+      "kana": "はんぱ",
+      "romaji": "hanpa",
+      "tokens": [
+        {
+          "text": "半端",
+          "kana": "はんぱ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "回音；反响",
+      "japanese": "反響",
+      "kana": "はんきょう",
+      "romaji": "hankyou",
+      "tokens": [
+        {
+          "text": "反響",
+          "kana": "はんきょう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "泛滥",
+      "japanese": "氾濫",
+      "kana": "はんらん",
+      "romaji": "hanran",
+      "tokens": [
+        {
+          "text": "氾濫",
+          "kana": "はんらん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "繁荣，兴隆",
+      "japanese": "繁盛",
+      "kana": "はんじょう",
+      "romaji": "hanjou",
+      "tokens": [
+        {
+          "text": "繁盛",
+          "kana": "はんじょう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "晚年",
+      "japanese": "晩年",
+      "kana": "ばんねん",
+      "romaji": "bannen",
+      "tokens": [
+        {
+          "text": "晩年",
+          "kana": "ばんねん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "悲鸣；叫苦声",
+      "japanese": "悲鳴",
+      "kana": "ひめい",
+      "romaji": "himei",
+      "tokens": [
+        {
+          "text": "悲鳴",
+          "kana": "ひめい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "肥料",
+      "japanese": "肥料",
+      "kana": "ひりょう",
+      "romaji": "hiryou",
+      "tokens": [
+        {
+          "text": "肥料",
+          "kana": "ひりょう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "表彰",
+      "japanese": "表彰",
+      "kana": "ひょうしょう",
+      "romaji": "hyoushou",
+      "tokens": [
+        {
+          "text": "表彰",
+          "kana": "ひょうしょう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "描写，描绘，描述",
+      "japanese": "描写",
+      "kana": "びょうしゃ",
+      "romaji": "byousha",
+      "tokens": [
+        {
+          "text": "描写",
+          "kana": "びょうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "频繁",
+      "japanese": "頻繁",
+      "kana": "ひんぱん",
+      "romaji": "hinpan",
+      "tokens": [
+        {
+          "text": "頻繁",
+          "kana": "ひんぱん"
+        }
+      ]
+    }
+  ]
+}

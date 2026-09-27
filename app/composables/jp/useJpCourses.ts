@@ -7,9 +7,23 @@ import {
 
 const PACK_PRIORITY = ["jp-kana", "jp-basic-01"];
 
-// 高考「无分类测试」：虚拟课程 id，不存在对应 JSON，进入练习时动态聚合全部高考词库
+// 词汇课程包（高考 + N5–N1）：均支持「无分类测试」虚拟课程
+export const VOCAB_PACK_IDS = ["jp-gaokao", "jp-n5", "jp-n4", "jp-n3", "jp-n2", "jp-n1"];
 export const GAOKAO_PACK_ID = "jp-gaokao";
-export const GAOKAO_MIXED_COURSE_ID = "jp-gaokao-all";
+export const GAOKAO_MIXED_COURSE_ID = "jp-gaokao-all"; // 兼容旧引用
+
+export function isVocabPack(packId: string): boolean {
+  return VOCAB_PACK_IDS.includes(packId);
+}
+
+// 无分类测试的虚拟课程 id：不存在对应 JSON，进入练习时动态聚合该包全部词库
+export function mixedCourseIdOf(packId: string): string {
+  return `${packId}-all`;
+}
+
+export function isMixedCourse(packId: string, courseId: string): boolean {
+  return isVocabPack(packId) && courseId === mixedCourseIdOf(packId);
+}
 
 export type LearnedKind = "word" | "sentence" | "kana";
 
@@ -43,14 +57,14 @@ export async function fetchCourse(
   const imported = getImportedCourse(packId, courseId);
   if (imported) return imported;
 
-  // 高考无分类测试：动态聚合全部高考词库（按原文去重）
-  if (packId === GAOKAO_PACK_ID && courseId === GAOKAO_MIXED_COURSE_ID) {
+  // 无分类测试：动态聚合该词汇包全部词库（按原文去重）
+  if (isMixedCourse(packId, courseId)) {
     return {
-      id: GAOKAO_MIXED_COURSE_ID,
-      coursePackId: GAOKAO_PACK_ID,
+      id: courseId,
+      coursePackId: packId,
       title: "无分类测试",
       order: 0,
-      statements: await fetchGaokaoAllStatements(),
+      statements: await fetchMixedStatements(packId),
     };
   }
 
@@ -59,17 +73,17 @@ export async function fetchCourse(
   return (await res.json()) as JpCourse;
 }
 
-// 聚合全部高考词库语句（跨课去重，保持首次出现顺序）
-export async function fetchGaokaoAllStatements(): Promise<JpStatement[]> {
+// 聚合某词汇包全部课程语句（跨课去重，保持首次出现顺序）
+export async function fetchMixedStatements(packId: string): Promise<JpStatement[]> {
   const packs = await fetchCoursePacks();
-  const gaokao = packs.find((p) => p.id === GAOKAO_PACK_ID);
-  const courseIds = (gaokao?.courses || []).filter(
-    (id) => id !== GAOKAO_MIXED_COURSE_ID,
+  const pack = packs.find((p) => p.id === packId);
+  const courseIds = (pack?.courses || []).filter(
+    (id) => id !== mixedCourseIdOf(packId),
   );
   const all: JpStatement[] = [];
   for (const id of courseIds) {
     try {
-      const course = await fetchCourse(GAOKAO_PACK_ID, id);
+      const course = await fetchCourse(packId, id);
       all.push(...(course.statements || []));
     } catch {
       // 单个课程加载失败时跳过，不阻断整体测试
@@ -129,9 +143,10 @@ export function dedupeStatements(statements: JpStatement[]): JpStatement[] {
   return out;
 }
 
-// 每项内容在整节课里的出现总次数（高考单词课 3 遍；句子生长走 buildGrowingOrder，不在此计数）
+// 每项内容在整节课里的出现总次数（高考/N5–N1 单词课 3 遍；句子生长走 buildGrowingOrder，不在此计数）
 export function getCourseExposures(packId: string): number {
   if (packId === "jp-gaokao") return 3; // 高考单词：学 1 遍 + 分组循环 + 整体复习
+  if (/^jp-n[1-5]$/.test(packId)) return 3; // N5–N1 词汇课同样循环 3 遍
   return 1; // 五十音等：每词每句只考 1 遍，不再循环重复
 }
 

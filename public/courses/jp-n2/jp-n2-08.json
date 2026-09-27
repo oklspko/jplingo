@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-08",
+  "coursePackId": "jp-n2",
+  "title": "名词 8",
+  "order": 8,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "限度，极限；在……范围内；只要……就……",
+      "japanese": "限り",
+      "kana": "かぎり",
+      "romaji": "kagiri",
+      "tokens": [
+        {
+          "text": "限り",
+          "kana": "かぎり"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "误解，误会",
+      "japanese": "誤解",
+      "kana": "ごかい",
+      "romaji": "gokai",
+      "tokens": [
+        {
+          "text": "誤解",
+          "kana": "ごかい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "公开",
+      "japanese": "公開",
+      "kana": "こうかい",
+      "romaji": "koukai",
+      "tokens": [
+        {
+          "text": "公開",
+          "kana": "こうかい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "效率",
+      "japanese": "効率",
+      "kana": "こうりつ",
+      "romaji": "kouritsu",
+      "tokens": [
+        {
+          "text": "効率",
+          "kana": "こうりつ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "好恶，挑剔",
+      "japanese": "好き嫌い",
+      "kana": "すききらい",
+      "romaji": "sukikirai",
+      "tokens": [
+        {
+          "text": "好き嫌い",
+          "kana": "すききらい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "幸运；幸亏",
+      "japanese": "幸い",
+      "kana": "さいわい",
+      "romaji": "saiwai",
+      "tokens": [
+        {
+          "text": "幸い",
+          "kana": "さいわい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "幸福",
+      "japanese": "幸福",
+      "kana": "こうふく",
+      "romaji": "koufuku",
+      "tokens": [
+        {
+          "text": "幸福",
+          "kana": "こうふく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "航空",
+      "japanese": "航空",
+      "kana": "こうくう",
+      "romaji": "koukuu",
+      "tokens": [
+        {
+          "text": "航空",
+          "kana": "こうくう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（有日程安排且有计划的）仪式，活动",
+      "japanese": "行事",
+      "kana": "ぎょうじ",
+      "romaji": "gyouji",
+      "tokens": [
+        {
+          "text": "行事",
+          "kana": "ぎょうじ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "行列，队伍",
+      "japanese": "行列",
+      "kana": "ぎょうれつ",
+      "romaji": "gyouretsu",
+      "tokens": [
+        {
+          "text": "行列",
+          "kana": "ぎょうれつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "（大学的）课程；（系统编成的）讲习会、广播节目、出版物",
+      "japanese": "講座",
+      "kana": "こうざ",
+      "romaji": "kouza",
+      "tokens": [
+        {
+          "text": "講座",
+          "kana": "こうざ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "项目；条目",
+      "japanese": "項目",
+      "kana": "こうもく",
+      "romaji": "koumoku",
+      "tokens": [
+        {
+          "text": "項目",
+          "kana": "こうもく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "香水",
+      "japanese": "香水",
+      "kana": "こうすい",
+      "romaji": "kousui",
+      "tokens": [
+        {
+          "text": "香水",
+          "kana": "こうすい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "高级",
+      "japanese": "高級",
+      "kana": "こうきゅう",
+      "romaji": "koukyuu",
+      "tokens": [
+        {
+          "text": "高級",
+          "kana": "こうきゅう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "各国",
+      "japanese": "国々",
+      "kana": "くにぐに",
+      "romaji": "kuniguni",
+      "tokens": [
+        {
+          "text": "国々",
+          "kana": "くにぐに"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "国家",
+      "japanese": "国家",
+      "kana": "こっか",
+      "romaji": "kokka",
+      "tokens": [
+        {
+          "text": "国家",
+          "kana": "こっか"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "国会",
+      "japanese": "国会",
+      "kana": "こっかい",
+      "romaji": "kokkai",
+      "tokens": [
+        {
+          "text": "国会",
+          "kana": "こっかい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "国民",
+      "japanese": "国民",
+      "kana": "こくみん",
+      "romaji": "kokumin",
+      "tokens": [
+        {
+          "text": "国民",
+          "kana": "こくみん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "困难；贫穷",
+      "japanese": "困難",
+      "kana": "こんなん",
+      "romaji": "konnan",
+      "tokens": [
+        {
+          "text": "困難",
+          "kana": "こんなん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "混乱",
+      "japanese": "混乱",
+      "kana": "こんらん",
+      "romaji": "konran",
+      "tokens": [
+        {
+          "text": "混乱",
+          "kana": "こんらん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "座位",
+      "japanese": "座席",
+      "kana": "ざせき",
+      "romaji": "zaseki",
+      "tokens": [
+        {
+          "text": "座席",
+          "kana": "ざせき"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "才能",
+      "japanese": "才能",
+      "kana": "さいのう",
+      "romaji": "sainou",
+      "tokens": [
+        {
+          "text": "才能",
+          "kana": "さいのう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "财产",
+      "japanese": "財産",
+      "kana": "ざいさん",
+      "romaji": "zaisan",
+      "tokens": [
+        {
+          "text": "財産",
+          "kana": "ざいさん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "工作，作业",
+      "japanese": "作業",
+      "kana": "さぎょう",
+      "romaji": "sagyou",
+      "tokens": [
+        {
+          "text": "作業",
+          "kana": "さぎょう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "作者",
+      "japanese": "作者",
+      "kana": "さくしゃ",
+      "romaji": "sakusha",
+      "tokens": [
+        {
+          "text": "作者",
+          "kana": "さくしゃ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "写，作（文章、图表、文件、计划、方针等）",
+      "japanese": "作成",
+      "kana": "さくせい",
+      "romaji": "sakusei",
+      "tokens": [
+        {
+          "text": "作成",
+          "kana": "さくせい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "去年",
+      "japanese": "昨年",
+      "kana": "さくねん",
+      "romaji": "sakunen",
+      "tokens": [
+        {
+          "text": "昨年",
+          "kana": "さくねん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "摄影，拍摄",
+      "japanese": "撮影",
+      "kana": "さつえい",
+      "romaji": "satsuei",
+      "tokens": [
+        {
+          "text": "撮影",
+          "kana": "さつえい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "产地",
+      "japanese": "産地",
+      "kana": "さんち",
+      "romaji": "sanchi",
+      "tokens": [
+        {
+          "text": "産地",
+          "kana": "さんち"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "姐妹；同一系统之物",
+      "japanese": "姉妹",
+      "kana": "しまい",
+      "romaji": "shimai",
+      "tokens": [
+        {
+          "text": "姉妹",
+          "kana": "しまい"
+        }
+      ]
+    }
+  ]
+}

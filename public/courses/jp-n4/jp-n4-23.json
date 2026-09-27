@@ -1,0 +1,164 @@
+{
+  "id": "jp-n4-23",
+  "coursePackId": "jp-n4",
+  "title": "动词 6",
+  "order": 23,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "搬运；来，去；进展",
+      "japanese": "運ぶ",
+      "kana": "はこぶ",
+      "romaji": "hakobu",
+      "tokens": [
+        {
+          "text": "運ぶ",
+          "kana": "はこぶ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "度过；生活；过度",
+      "japanese": "過ごす",
+      "kana": "すごす",
+      "romaji": "sugosu",
+      "tokens": [
+        {
+          "text": "過ごす",
+          "kana": "すごす"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "减少；饿",
+      "japanese": "減る",
+      "kana": "へる",
+      "romaji": "heru",
+      "tokens": [
+        {
+          "text": "減る",
+          "kana": "へる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "辞职",
+      "japanese": "辞める",
+      "kana": "やめる",
+      "romaji": "yameru",
+      "tokens": [
+        {
+          "text": "辞める",
+          "kana": "やめる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "使前进；推进，前进",
+      "japanese": "進める",
+      "kana": "すすめる",
+      "romaji": "susumeru",
+      "tokens": [
+        {
+          "text": "進める",
+          "kana": "すすめる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "断开；用尽；到期；头脑敏锐",
+      "japanese": "切れる",
+      "kana": "きれる",
+      "romaji": "kireru",
+      "tokens": [
+        {
+          "text": "切れる",
+          "kana": "きれる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "拒绝；预先通知",
+      "japanese": "断る",
+      "kana": "ことわる",
+      "romaji": "kotowaru",
+      "tokens": [
+        {
+          "text": "断る",
+          "kana": "ことわる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "穿过，通过；领进；通过（考试、审议等）",
+      "japanese": "通す",
+      "kana": "とおす",
+      "romaji": "toosu",
+      "tokens": [
+        {
+          "text": "通す",
+          "kana": "とおす"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "归还，恢复；使……倒退",
+      "japanese": "戻す",
+      "kana": "もどす",
+      "romaji": "modosu",
+      "tokens": [
+        {
+          "text": "戻す",
+          "kana": "もどす"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "爱；爱恋；爱好",
+      "japanese": "愛する",
+      "kana": "あいする",
+      "romaji": "aisuru",
+      "tokens": [
+        {
+          "text": "愛する",
+          "kana": "あいする"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "掉下；消除；理解；收获",
+      "japanese": "取れる",
+      "kana": "とれる",
+      "romaji": "toreru",
+      "tokens": [
+        {
+          "text": "取れる",
+          "kana": "とれる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "（産）生产，分娩；（生）产生",
+      "japanese": "生む",
+      "kana": "うむ",
+      "romaji": "umu",
+      "tokens": [
+        {
+          "text": "生む",
+          "kana": "うむ"
+        }
+      ]
+    }
+  ]
+}

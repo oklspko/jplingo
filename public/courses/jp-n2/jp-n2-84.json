@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-84",
+  "coursePackId": "jp-n2",
+  "title": "动词 13",
+  "order": 84,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "支配，控制，调节",
+      "japanese": "コントロール",
+      "kana": "こんとろうる",
+      "romaji": "kontorouru",
+      "tokens": [
+        {
+          "text": "コントロール",
+          "kana": "こんとろうる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "好不容易走到",
+      "japanese": "たどり着く",
+      "kana": "たどりつく",
+      "romaji": "tadoritsuku",
+      "tokens": [
+        {
+          "text": "たどり着く",
+          "kana": "たどりつく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "沿路前进；艰难前行；追寻；走向",
+      "japanese": "たどる",
+      "kana": "たどる",
+      "romaji": "tadoru",
+      "tokens": [
+        {
+          "text": "たどる",
+          "kana": "たどる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "（小声自言自语）嘟囔，嘀咕，碎碎念",
+      "japanese": "つぶやく",
+      "kana": "つぶやく",
+      "romaji": "tsubuyaku",
+      "tokens": [
+        {
+          "text": "つぶやく",
+          "kana": "つぶやく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "停下；留下；止于",
+      "japanese": "とどめる",
+      "kana": "とどめる",
+      "romaji": "todomeru",
+      "tokens": [
+        {
+          "text": "とどめる",
+          "kana": "とどめる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "熟悉，适应；调和",
+      "japanese": "なじむ",
+      "kana": "なじむ",
+      "romaji": "najimu",
+      "tokens": [
+        {
+          "text": "なじむ",
+          "kana": "なじむ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "套上，嵌入；吻合；陷入，中圈套；热衷",
+      "japanese": "はまる",
+      "kana": "はまる",
+      "romaji": "hamaru",
+      "tokens": [
+        {
+          "text": "はまる",
+          "kana": "はまる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "恶心，要吐；生气",
+      "japanese": "むかつく",
+      "kana": "むかつく",
+      "romaji": "mukatsuku",
+      "tokens": [
+        {
+          "text": "むかつく",
+          "kana": "むかつく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "转移",
+      "japanese": "そらす",
+      "kana": "そらす",
+      "romaji": "sorasu",
+      "tokens": [
+        {
+          "text": "そらす",
+          "kana": "そらす"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "回去；取回；收养，领养",
+      "japanese": "引き取る",
+      "kana": "ひきとる",
+      "romaji": "hikitoru",
+      "tokens": [
+        {
+          "text": "引き取る",
+          "kana": "ひきとる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "扮演；作出，造成",
+      "japanese": "演じる",
+      "kana": "えんじる",
+      "romaji": "enjiru",
+      "tokens": [
+        {
+          "text": "演じる",
+          "kana": "えんじる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "远离；疏远",
+      "japanese": "遠ざかる",
+      "kana": "とおざかる",
+      "romaji": "toozakaru",
+      "tokens": [
+        {
+          "text": "遠ざかる",
+          "kana": "とおざかる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "强行插入",
+      "japanese": "割り込む",
+      "kana": "わりこむ",
+      "romaji": "warikomu",
+      "tokens": [
+        {
+          "text": "割り込む",
+          "kana": "わりこむ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "团，卷起来；笼络；剃光头",
+      "japanese": "丸める",
+      "kana": "まるめる",
+      "romaji": "marumeru",
+      "tokens": [
+        {
+          "text": "丸める",
+          "kana": "まるめる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "靠，倚靠；依靠",
+      "japanese": "寄り掛かる",
+      "kana": "よりかかる",
+      "romaji": "yorikakaru",
+      "tokens": [
+        {
+          "text": "寄り掛かる",
+          "kana": "よりかかる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "写下，记下；铭记",
+      "japanese": "記す",
+      "kana": "しるす",
+      "romaji": "shirusu",
+      "tokens": [
+        {
+          "text": "記す",
+          "kana": "しるす"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "教导，教诲，教训",
+      "japanese": "教訓",
+      "kana": "きょうくん",
+      "romaji": "kyoukun",
+      "tokens": [
+        {
+          "text": "教訓",
+          "kana": "きょうくん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（肌肉）酸痛；热衷；讲究",
+      "japanese": "凝る",
+      "kana": "こる",
+      "romaji": "koru",
+      "tokens": [
+        {
+          "text": "凝る",
+          "kana": "こる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "达到极点；彻底查明",
+      "japanese": "極める",
+      "kana": "きわめる",
+      "romaji": "kiwameru",
+      "tokens": [
+        {
+          "text": "極める",
+          "kana": "きわめる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "接上；继承",
+      "japanese": "継ぐ",
+      "kana": "つぐ",
+      "romaji": "tsugu",
+      "tokens": [
+        {
+          "text": "継ぐ",
+          "kana": "つぐ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "检索",
+      "japanese": "検索",
+      "kana": "けんさく",
+      "romaji": "kensaku",
+      "tokens": [
+        {
+          "text": "検索",
+          "kana": "けんさく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "看作，认为；（姑且）当作，比作",
+      "japanese": "見なす",
+      "kana": "みなす",
+      "romaji": "minasu",
+      "tokens": [
+        {
+          "text": "見なす",
+          "kana": "みなす"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "看漏；置之不理，放任不管",
+      "japanese": "見過ごす",
+      "kana": "みすごす",
+      "romaji": "misugosu",
+      "tokens": [
+        {
+          "text": "見過ごす",
+          "kana": "みすごす"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "（目测）估计；估价",
+      "japanese": "見積もる",
+      "kana": "みつもる",
+      "romaji": "mitsumoru",
+      "tokens": [
+        {
+          "text": "見積もる",
+          "kana": "みつもる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "看到了却没注意到；装作没看到；错过（看的机会）",
+      "japanese": "見逃す",
+      "kana": "みのがす",
+      "romaji": "minogasu",
+      "tokens": [
+        {
+          "text": "見逃す",
+          "kana": "みのがす"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "交，交换；交叉，交织",
+      "japanese": "交わす",
+      "kana": "かわす",
+      "romaji": "kawasu",
+      "tokens": [
+        {
+          "text": "交わす",
+          "kana": "かわす"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "手工；（为某一目的而）活动",
+      "japanese": "工作",
+      "kana": "こうさく",
+      "romaji": "kousaku",
+      "tokens": [
+        {
+          "text": "工作",
+          "kana": "こうさく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "糟蹋，毁坏；偷盗",
+      "japanese": "荒らす",
+      "kana": "あらす",
+      "romaji": "arasu",
+      "tokens": [
+        {
+          "text": "荒らす",
+          "kana": "あらす"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "完成，做完",
+      "japanese": "仕上げる",
+      "kana": "しあげる",
+      "romaji": "shiageru",
+      "tokens": [
+        {
+          "text": "仕上げる",
+          "kana": "しあげる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "施舍；施行",
+      "japanese": "施す",
+      "kana": "ほどこす",
+      "romaji": "hodokosu",
+      "tokens": [
+        {
+          "text": "施す",
+          "kana": "ほどこす"
+        }
+      ]
+    }
+  ]
+}

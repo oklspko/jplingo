@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-79",
+  "coursePackId": "jp-n1",
+  "title": "名词 79",
+  "order": 79,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "电路，回路；环状跑道",
+      "japanese": "サーキット",
+      "kana": "さあきっと",
+      "romaji": "saakitto",
+      "tokens": [
+        {
+          "text": "サーキット",
+          "kana": "さあきっと"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "营利，谋利",
+      "japanese": "営利",
+      "kana": "えいり",
+      "romaji": "eiri",
+      "tokens": [
+        {
+          "text": "営利",
+          "kana": "えいり"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "无执照",
+      "japanese": "無免許",
+      "kana": "むめんきょ",
+      "romaji": "mumenkyo",
+      "tokens": [
+        {
+          "text": "無免許",
+          "kana": "むめんきょ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "社会保障",
+      "japanese": "社会保障",
+      "kana": "しゃかいほしょう",
+      "romaji": "shakaihoshou",
+      "tokens": [
+        {
+          "text": "社会保障",
+          "kana": "しゃかいほしょう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "缝补，补丁",
+      "japanese": "継ぎ",
+      "kana": "つぎ",
+      "romaji": "tsugi",
+      "tokens": [
+        {
+          "text": "継ぎ",
+          "kana": "つぎ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "石器",
+      "japanese": "石器",
+      "kana": "せっき",
+      "romaji": "sekki",
+      "tokens": [
+        {
+          "text": "石器",
+          "kana": "せっき"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "地区性社会",
+      "japanese": "地域社会",
+      "kana": "ちいきしゃかい",
+      "romaji": "chiikishakai",
+      "tokens": [
+        {
+          "text": "地域社会",
+          "kana": "ちいきしゃかい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "外来语",
+      "japanese": "外来語",
+      "kana": "がいらいご",
+      "romaji": "gairaigo",
+      "tokens": [
+        {
+          "text": "外来語",
+          "kana": "がいらいご"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "集中性暴雨",
+      "japanese": "集中豪雨",
+      "kana": "しゅうちゅうごうう",
+      "romaji": "shuuchuugouu",
+      "tokens": [
+        {
+          "text": "集中豪雨",
+          "kana": "しゅうちゅうごうう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "所要，所需",
+      "japanese": "所要",
+      "kana": "しょよう",
+      "romaji": "shoyou",
+      "tokens": [
+        {
+          "text": "所要",
+          "kana": "しょよう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "生鲜食品",
+      "japanese": "生物[なまもの]",
+      "kana": "なまもの",
+      "romaji": "namamono",
+      "tokens": [
+        {
+          "text": "生物[なまもの]",
+          "kana": "なまもの"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "脸，面部",
+      "japanese": "顔面",
+      "kana": "がんめん",
+      "romaji": "ganmen",
+      "tokens": [
+        {
+          "text": "顔面",
+          "kana": "がんめん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "大声疾呼，拼命喊叫",
+      "japanese": "絶叫",
+      "kana": "ぜっきょう",
+      "romaji": "zekkyou",
+      "tokens": [
+        {
+          "text": "絶叫",
+          "kana": "ぜっきょう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "探索，搜寻",
+      "japanese": "探索",
+      "kana": "たんさく",
+      "romaji": "tansaku",
+      "tokens": [
+        {
+          "text": "探索",
+          "kana": "たんさく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "赌，赌博；（比喻）孤注一掷",
+      "japanese": "賭け",
+      "kana": "かけ",
+      "romaji": "kake",
+      "tokens": [
+        {
+          "text": "賭け",
+          "kana": "かけ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "别人的事",
+      "japanese": "他人事",
+      "kana": "ひとごと",
+      "romaji": "hitogoto",
+      "tokens": [
+        {
+          "text": "他人事",
+          "kana": "ひとごと"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "假，虚伪，不真实",
+      "japanese": "偽り",
+      "kana": "いつわり",
+      "romaji": "itsuwari",
+      "tokens": [
+        {
+          "text": "偽り",
+          "kana": "いつわり"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "女主人公",
+      "japanese": "ヒロイン",
+      "kana": "ひろいん",
+      "romaji": "hiroin",
+      "tokens": [
+        {
+          "text": "ヒロイン",
+          "kana": "ひろいん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "战栗，颤抖",
+      "japanese": "戦慄",
+      "kana": "せんりつ",
+      "romaji": "senritsu",
+      "tokens": [
+        {
+          "text": "戦慄",
+          "kana": "せんりつ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "龟，乌龟，海龟",
+      "japanese": "亀",
+      "kana": "かめ",
+      "romaji": "kame",
+      "tokens": [
+        {
+          "text": "亀",
+          "kana": "かめ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "闲聊，闲谈",
+      "japanese": "世間話",
+      "kana": "せけんばなし",
+      "romaji": "sekenbanashi",
+      "tokens": [
+        {
+          "text": "世間話",
+          "kana": "せけんばなし"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "村长",
+      "japanese": "村長",
+      "kana": "そんちょう",
+      "romaji": "sonchou",
+      "tokens": [
+        {
+          "text": "村長",
+          "kana": "そんちょう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "脸红，惭愧，害羞",
+      "japanese": "赤面",
+      "kana": "せきめん",
+      "romaji": "sekimen",
+      "tokens": [
+        {
+          "text": "赤面",
+          "kana": "せきめん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "分身",
+      "japanese": "分身",
+      "kana": "ぶんしん",
+      "romaji": "bunshin",
+      "tokens": [
+        {
+          "text": "分身",
+          "kana": "ぶんしん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "胸中，内心",
+      "japanese": "胸中",
+      "kana": "きょうちゅう",
+      "romaji": "kyouchuu",
+      "tokens": [
+        {
+          "text": "胸中",
+          "kana": "きょうちゅう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "士气；热情，干劲",
+      "japanese": "士気",
+      "kana": "しき",
+      "romaji": "shiki",
+      "tokens": [
+        {
+          "text": "士気",
+          "kana": "しき"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "散乱，零乱；散射",
+      "japanese": "散乱",
+      "kana": "さんらん",
+      "romaji": "sanran",
+      "tokens": [
+        {
+          "text": "散乱",
+          "kana": "さんらん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "沥青，柏油",
+      "japanese": "アスファルト",
+      "kana": "あすふぁると",
+      "romaji": "asufuaruto",
+      "tokens": [
+        {
+          "text": "アスファルト",
+          "kana": "あすふぁると"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "黑，黑色；黑咖啡；（构成复合词）黑暗的，非法的",
+      "japanese": "ブラック",
+      "kana": "ぶらっく",
+      "romaji": "burakku",
+      "tokens": [
+        {
+          "text": "ブラック",
+          "kana": "ぶらっく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "气魄，气概，气势",
+      "japanese": "気迫",
+      "kana": "きはく",
+      "romaji": "kihaku",
+      "tokens": [
+        {
+          "text": "気迫",
+          "kana": "きはく"
+        }
+      ]
+    }
+  ]
+}

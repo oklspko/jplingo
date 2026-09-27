@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-65",
+  "coursePackId": "jp-n2",
+  "title": "名词 65",
+  "order": 65,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "真实感，现实感",
+      "japanese": "リアリティー",
+      "kana": "りありてぃい",
+      "romaji": "riariteii",
+      "tokens": [
+        {
+          "text": "リアリティー",
+          "kana": "りありてぃい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "廉价，贱价",
+      "japanese": "安値",
+      "kana": "やすね",
+      "romaji": "yasune",
+      "tokens": [
+        {
+          "text": "安値",
+          "kana": "やすね"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "光合作用",
+      "japanese": "光合成",
+      "kana": "こうごうせい",
+      "romaji": "kougousei",
+      "tokens": [
+        {
+          "text": "光合成",
+          "kana": "こうごうせい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "教练，艺术指导",
+      "japanese": "インストラクター",
+      "kana": "いんすとらくたあ",
+      "romaji": "insutorakutaa",
+      "tokens": [
+        {
+          "text": "インストラクター",
+          "kana": "いんすとらくたあ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "年内",
+      "japanese": "年内",
+      "kana": "ねんない",
+      "romaji": "nennai",
+      "tokens": [
+        {
+          "text": "年内",
+          "kana": "ねんない"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "参观，观摩",
+      "japanese": "参観",
+      "kana": "さんかん",
+      "romaji": "sankan",
+      "tokens": [
+        {
+          "text": "参観",
+          "kana": "さんかん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "时事",
+      "japanese": "時事",
+      "kana": "じじ",
+      "romaji": "jiji",
+      "tokens": [
+        {
+          "text": "時事",
+          "kana": "じじ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（西洋式的）园艺",
+      "japanese": "ガーデニング",
+      "kana": "があでにんぐ",
+      "romaji": "gaadeningu",
+      "tokens": [
+        {
+          "text": "ガーデニング",
+          "kana": "があでにんぐ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "赛跑",
+      "japanese": "徒競走",
+      "kana": "ときょうそう",
+      "romaji": "tokyousou",
+      "tokens": [
+        {
+          "text": "徒競走",
+          "kana": "ときょうそう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "植物性神经，自主神经",
+      "japanese": "自律神経",
+      "kana": "じりつしんけい",
+      "romaji": "jiritsushinkei",
+      "tokens": [
+        {
+          "text": "自律神経",
+          "kana": "じりつしんけい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "鸟巢箱；蜂箱",
+      "japanese": "巣箱",
+      "kana": "すばこ",
+      "romaji": "subako",
+      "tokens": [
+        {
+          "text": "巣箱",
+          "kana": "すばこ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "节电，省电",
+      "japanese": "節電",
+      "kana": "せつでん",
+      "romaji": "setsuden",
+      "tokens": [
+        {
+          "text": "節電",
+          "kana": "せつでん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "语言学",
+      "japanese": "言語学",
+      "kana": "げんごがく",
+      "romaji": "gengogaku",
+      "tokens": [
+        {
+          "text": "言語学",
+          "kana": "げんごがく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "学名；学术声望",
+      "japanese": "学名",
+      "kana": "がくめい",
+      "romaji": "gakumei",
+      "tokens": [
+        {
+          "text": "学名",
+          "kana": "がくめい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "流行歌曲",
+      "japanese": "歌謡曲",
+      "kana": "かようきょく",
+      "romaji": "kayoukyoku",
+      "tokens": [
+        {
+          "text": "歌謡曲",
+          "kana": "かようきょく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "岁暮，年底；年终酬赠的礼品，赠送年终礼品",
+      "japanese": "歳暮",
+      "kana": "せいぼ",
+      "romaji": "seibo",
+      "tokens": [
+        {
+          "text": "歳暮",
+          "kana": "せいぼ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "经济；经济实惠",
+      "japanese": "エコノミー",
+      "kana": "えこのみい",
+      "romaji": "ekonomii",
+      "tokens": [
+        {
+          "text": "エコノミー",
+          "kana": "えこのみい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "住处，行踪",
+      "japanese": "居場所",
+      "kana": "いばしょ",
+      "romaji": "ibasho",
+      "tokens": [
+        {
+          "text": "居場所",
+          "kana": "いばしょ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "下课后，放学后",
+      "japanese": "放課後",
+      "kana": "ほうかご",
+      "romaji": "houkago",
+      "tokens": [
+        {
+          "text": "放課後",
+          "kana": "ほうかご"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（三四个人，或者五六个人）数人",
+      "japanese": "数人",
+      "kana": "すうにん",
+      "romaji": "suunin",
+      "tokens": [
+        {
+          "text": "数人",
+          "kana": "すうにん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "恶意；恶意歪曲",
+      "japanese": "悪意",
+      "kana": "あくい",
+      "romaji": "akui",
+      "tokens": [
+        {
+          "text": "悪意",
+          "kana": "あくい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "目的地",
+      "japanese": "目的地",
+      "kana": "もくてきち",
+      "romaji": "mokutekichi",
+      "tokens": [
+        {
+          "text": "目的地",
+          "kana": "もくてきち"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "焦躁，急躁，着急",
+      "japanese": "焦り",
+      "kana": "あせり",
+      "romaji": "aseri",
+      "tokens": [
+        {
+          "text": "焦り",
+          "kana": "あせり"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "动画片；视频",
+      "japanese": "動画",
+      "kana": "どうが",
+      "romaji": "douga",
+      "tokens": [
+        {
+          "text": "動画",
+          "kana": "どうが"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "商店街",
+      "japanese": "商店街",
+      "kana": "しょうてんがい",
+      "romaji": "shoutengai",
+      "tokens": [
+        {
+          "text": "商店街",
+          "kana": "しょうてんがい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "第一步，开端",
+      "japanese": "第一歩",
+      "kana": "だいいっぽ",
+      "romaji": "daiippo",
+      "tokens": [
+        {
+          "text": "第一歩",
+          "kana": "だいいっぽ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（日本年号）平成",
+      "japanese": "平成",
+      "kana": "へいせい",
+      "romaji": "heisei",
+      "tokens": [
+        {
+          "text": "平成",
+          "kana": "へいせい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（大学、高中、初中等）文化节，文化祭",
+      "japanese": "文化祭",
+      "kana": "ぶんかさい",
+      "romaji": "bunkasai",
+      "tokens": [
+        {
+          "text": "文化祭",
+          "kana": "ぶんかさい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "靠垫；缓冲；缓冲物",
+      "japanese": "クッション",
+      "kana": "くっしょん",
+      "romaji": "kusshon",
+      "tokens": [
+        {
+          "text": "クッション",
+          "kana": "くっしょん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（特指医生、护士和科学家等所穿的）白衣",
+      "japanese": "白衣",
+      "kana": "はくい",
+      "romaji": "hakui",
+      "tokens": [
+        {
+          "text": "白衣",
+          "kana": "はくい"
+        }
+      ]
+    }
+  ]
+}

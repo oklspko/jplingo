@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-37",
+  "coursePackId": "jp-n3",
+  "title": "名词 37",
+  "order": 37,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "旧书",
+      "japanese": "古本",
+      "kana": "ふるほん",
+      "romaji": "furuhon",
+      "tokens": [
+        {
+          "text": "古本",
+          "kana": "ふるほん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "行为；品行",
+      "japanese": "行い",
+      "kana": "おこない",
+      "romaji": "okonai",
+      "tokens": [
+        {
+          "text": "行い",
+          "kana": "おこない"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "左撇子",
+      "japanese": "左利き",
+      "kana": "ひだりきき",
+      "romaji": "hidarikiki",
+      "tokens": [
+        {
+          "text": "左利き",
+          "kana": "ひだりきき"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "起死回生；重新做人；回收，再生；（音频、视频）重新播放",
+      "japanese": "再生",
+      "kana": "さいせい",
+      "romaji": "saisei",
+      "tokens": [
+        {
+          "text": "再生",
+          "kana": "さいせい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "最新",
+      "japanese": "最新",
+      "kana": "さいしん",
+      "romaji": "saishin",
+      "tokens": [
+        {
+          "text": "最新",
+          "kana": "さいしん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "支付",
+      "japanese": "支給",
+      "kana": "しきゅう",
+      "romaji": "shikyuu",
+      "tokens": [
+        {
+          "text": "支給",
+          "kana": "しきゅう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "时差",
+      "japanese": "時差",
+      "kana": "じさ",
+      "romaji": "jisa",
+      "tokens": [
+        {
+          "text": "時差",
+          "kana": "じさ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（草坪的）草",
+      "japanese": "芝",
+      "kana": "しば",
+      "romaji": "shiba",
+      "tokens": [
+        {
+          "text": "芝",
+          "kana": "しば"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "存入，汇",
+      "japanese": "振り込み",
+      "kana": "ふりこみ",
+      "romaji": "furikomi",
+      "tokens": [
+        {
+          "text": "振り込み",
+          "kana": "ふりこみ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "切身；身边",
+      "japanese": "身近",
+      "kana": "みぢか",
+      "romaji": "mijika",
+      "tokens": [
+        {
+          "text": "身近",
+          "kana": "みぢか"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "人体",
+      "japanese": "人体",
+      "kana": "じんたい",
+      "romaji": "jintai",
+      "tokens": [
+        {
+          "text": "人体",
+          "kana": "じんたい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "天空",
+      "japanese": "大空",
+      "kana": "おおぞら",
+      "romaji": "oozora",
+      "tokens": [
+        {
+          "text": "大空",
+          "kana": "おおぞら"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "早市",
+      "japanese": "朝市",
+      "kana": "あさいち",
+      "romaji": "asaichi",
+      "tokens": [
+        {
+          "text": "朝市",
+          "kana": "あさいち"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "套餐",
+      "japanese": "定食",
+      "kana": "ていしょく",
+      "romaji": "teishoku",
+      "tokens": [
+        {
+          "text": "定食",
+          "kana": "ていしょく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "打中，命中；中（奖）；头绪",
+      "japanese": "当たり",
+      "kana": "あたり",
+      "romaji": "atari",
+      "tokens": [
+        {
+          "text": "当たり",
+          "kana": "あたり"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "秘密",
+      "japanese": "内緒",
+      "kana": "ないしょ",
+      "romaji": "naisho",
+      "tokens": [
+        {
+          "text": "内緒",
+          "kana": "ないしょ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "昼夜；不分昼夜",
+      "japanese": "日夜",
+      "kana": "にちや",
+      "romaji": "nichiya",
+      "tokens": [
+        {
+          "text": "日夜",
+          "kana": "にちや"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "避难",
+      "japanese": "避難",
+      "kana": "ひなん",
+      "romaji": "hinan",
+      "tokens": [
+        {
+          "text": "避難",
+          "kana": "ひなん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "状态不佳；（谈判等）破裂",
+      "japanese": "不調",
+      "kana": "ふちょう",
+      "romaji": "fuchou",
+      "tokens": [
+        {
+          "text": "不調",
+          "kana": "ふちょう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "文书，文件，公文",
+      "japanese": "文書",
+      "kana": "ぶんしょ",
+      "romaji": "bunsho",
+      "tokens": [
+        {
+          "text": "文書",
+          "kana": "ぶんしょ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "归还，退还",
+      "japanese": "返却",
+      "kana": "へんきゃく",
+      "romaji": "henkyaku",
+      "tokens": [
+        {
+          "text": "返却",
+          "kana": "へんきゃく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "步行",
+      "japanese": "歩行",
+      "kana": "ほこう",
+      "romaji": "hokou",
+      "tokens": [
+        {
+          "text": "歩行",
+          "kana": "ほこう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "无效；（法律上）不生效",
+      "japanese": "無効",
+      "kana": "むこう",
+      "romaji": "mukou",
+      "tokens": [
+        {
+          "text": "無効",
+          "kana": "むこう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "名牌，姓名牌",
+      "japanese": "名札",
+      "kana": "なふだ",
+      "romaji": "nafuda",
+      "tokens": [
+        {
+          "text": "名札",
+          "kana": "なふだ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "……数量；……金额；……升值",
+      "japanese": "高",
+      "kana": "たか",
+      "romaji": "taka",
+      "tokens": [
+        {
+          "text": "高",
+          "kana": "たか"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "使……一致，配合；比赛",
+      "japanese": "合わせ",
+      "kana": "あわせ",
+      "romaji": "awase",
+      "tokens": [
+        {
+          "text": "合わせ",
+          "kana": "あわせ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "止住，停止，禁止",
+      "japanese": "止め",
+      "kana": "とめ",
+      "romaji": "tome",
+      "tokens": [
+        {
+          "text": "止め",
+          "kana": "とめ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "访问，存取；交通",
+      "japanese": "アクセス",
+      "kana": "あくせす",
+      "romaji": "akusesu",
+      "tokens": [
+        {
+          "text": "アクセス",
+          "kana": "あくせす"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "情报，信息",
+      "japanese": "インフォメーション",
+      "kana": "いんふぉめえしょん",
+      "romaji": "infuomeeshon",
+      "tokens": [
+        {
+          "text": "インフォメーション",
+          "kana": "いんふぉめえしょん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "回礼；报复；找回的钱",
+      "japanese": "お返し",
+      "kana": "おかえし",
+      "romaji": "okaeshi",
+      "tokens": [
+        {
+          "text": "お返し",
+          "kana": "おかえし"
+        }
+      ]
+    }
+  ]
+}

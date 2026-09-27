@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-98",
+  "coursePackId": "jp-n2",
+  "title": "形容词 6",
+  "order": 98,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "非常便宜",
+      "japanese": "格安",
+      "kana": "かくやす",
+      "romaji": "kakuyasu",
+      "tokens": [
+        {
+          "text": "格安",
+          "kana": "かくやす"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "漫不经心，浑浑噩噩",
+      "japanese": "漫然",
+      "kana": "まんぜん",
+      "romaji": "manzen",
+      "tokens": [
+        {
+          "text": "漫然",
+          "kana": "まんぜん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "不自然，做作",
+      "japanese": "不自然",
+      "kana": "ふしぜん",
+      "romaji": "fushizen",
+      "tokens": [
+        {
+          "text": "不自然",
+          "kana": "ふしぜん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "无力；没能力",
+      "japanese": "無力",
+      "kana": "むりょく",
+      "romaji": "muryoku",
+      "tokens": [
+        {
+          "text": "無力",
+          "kana": "むりょく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "厚，较厚",
+      "japanese": "分厚い",
+      "kana": "ぶあつい",
+      "romaji": "buatsui",
+      "tokens": [
+        {
+          "text": "分厚い",
+          "kana": "ぶあつい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "无关，没关系",
+      "japanese": "無関係",
+      "kana": "むかんけい",
+      "romaji": "mukankei",
+      "tokens": [
+        {
+          "text": "無関係",
+          "kana": "むかんけい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "鲜明；清晰",
+      "japanese": "鮮明",
+      "kana": "せんめい",
+      "romaji": "senmei",
+      "tokens": [
+        {
+          "text": "鮮明",
+          "kana": "せんめい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "最适合，最合适",
+      "japanese": "最適",
+      "kana": "さいてき",
+      "romaji": "saiteki",
+      "tokens": [
+        {
+          "text": "最適",
+          "kana": "さいてき"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "个人的，私人的",
+      "japanese": "プライベート",
+      "kana": "ぷらいべえと",
+      "romaji": "puraibeeto",
+      "tokens": [
+        {
+          "text": "プライベート",
+          "kana": "ぷらいべえと"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "现实的；真实的",
+      "japanese": "リアル",
+      "kana": "りある",
+      "romaji": "riaru",
+      "tokens": [
+        {
+          "text": "リアル",
+          "kana": "りある"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "麻利，敏捷",
+      "japanese": "手早い",
+      "kana": "てばやい",
+      "romaji": "tebayai",
+      "tokens": [
+        {
+          "text": "手早い",
+          "kana": "てばやい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "不便；不妥当",
+      "japanese": "不都合",
+      "kana": "ふつごう",
+      "romaji": "futsugou",
+      "tokens": [
+        {
+          "text": "不都合",
+          "kana": "ふつごう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "古式，旧式",
+      "japanese": "古風",
+      "kana": "こふう",
+      "romaji": "kofuu",
+      "tokens": [
+        {
+          "text": "古風",
+          "kana": "こふう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "不必要，非必需",
+      "japanese": "不必要",
+      "kana": "ふひつよう",
+      "romaji": "fuhitsuyou",
+      "tokens": [
+        {
+          "text": "不必要",
+          "kana": "ふひつよう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "公平的，正大光明的；商品展览会",
+      "japanese": "フェア",
+      "kana": "ふぇあ",
+      "romaji": "fyea",
+      "tokens": [
+        {
+          "text": "フェア",
+          "kana": "ふぇあ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "大声，高声",
+      "japanese": "声高",
+      "kana": "こわだか",
+      "romaji": "kowadaka",
+      "tokens": [
+        {
+          "text": "声高",
+          "kana": "こわだか"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "有害",
+      "japanese": "有害",
+      "kana": "ゆうがい",
+      "romaji": "yuugai",
+      "tokens": [
+        {
+          "text": "有害",
+          "kana": "ゆうがい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "有限",
+      "japanese": "有限",
+      "kana": "ゆうげん",
+      "romaji": "yuugen",
+      "tokens": [
+        {
+          "text": "有限",
+          "kana": "ゆうげん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（颜色）美丽多彩，丰富多彩",
+      "japanese": "多彩",
+      "kana": "たさい",
+      "romaji": "tasai",
+      "tokens": [
+        {
+          "text": "多彩",
+          "kana": "たさい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "有力的，有生气的，动态的",
+      "japanese": "ダイナミック",
+      "kana": "だいなみっく",
+      "romaji": "dainamikku",
+      "tokens": [
+        {
+          "text": "ダイナミック",
+          "kana": "だいなみっく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "安乐，舒适",
+      "japanese": "安楽",
+      "kana": "あんらく",
+      "romaji": "anraku",
+      "tokens": [
+        {
+          "text": "安楽",
+          "kana": "あんらく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "乐观的",
+      "japanese": "楽天的",
+      "kana": "らくてんてき",
+      "romaji": "rakutenteki",
+      "tokens": [
+        {
+          "text": "楽天的",
+          "kana": "らくてんてき"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（就质和量来说）价钱比较贵",
+      "japanese": "割高",
+      "kana": "わりだか",
+      "romaji": "waridaka",
+      "tokens": [
+        {
+          "text": "割高",
+          "kana": "わりだか"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "单方面的，片面的",
+      "japanese": "一方的",
+      "kana": "いっぽうてき",
+      "romaji": "ippouteki",
+      "tokens": [
+        {
+          "text": "一方的",
+          "kana": "いっぽうてき"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "一时的，暂时的",
+      "japanese": "一時的",
+      "kana": "いちじてき",
+      "romaji": "ichijiteki",
+      "tokens": [
+        {
+          "text": "一時的",
+          "kana": "いちじてき"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "感觉羞耻，害羞",
+      "japanese": "気恥ずかしい",
+      "kana": "きはずかしい",
+      "romaji": "kihazukashii",
+      "tokens": [
+        {
+          "text": "気恥ずかしい",
+          "kana": "きはずかしい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "睡眠不足",
+      "japanese": "寝不足",
+      "kana": "ねぶそく",
+      "romaji": "nebusoku",
+      "tokens": [
+        {
+          "text": "寝不足",
+          "kana": "ねぶそく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "想像的那样，如愿，称心如意",
+      "japanese": "思い通り",
+      "kana": "おもいどおり",
+      "romaji": "omoidoori",
+      "tokens": [
+        {
+          "text": "思い通り",
+          "kana": "おもいどおり"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "稀里糊涂，粗心大意，马虎",
+      "japanese": "迂闊[うかつ]",
+      "kana": "うかつ",
+      "romaji": "ukatsu",
+      "tokens": [
+        {
+          "text": "迂闊[うかつ]",
+          "kana": "うかつ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（觉得）寂寞；荒凉；空虚",
+      "japanese": "さみしい",
+      "kana": "さみしい",
+      "romaji": "samishii",
+      "tokens": [
+        {
+          "text": "さみしい",
+          "kana": "さみしい"
+        }
+      ]
+    }
+  ]
+}

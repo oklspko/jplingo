@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-40",
+  "coursePackId": "jp-n1",
+  "title": "名词 40",
+  "order": 40,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "小型摩托车",
+      "japanese": "スクーター",
+      "kana": "すくうたあ",
+      "romaji": "sukuutaa",
+      "tokens": [
+        {
+          "text": "スクーター",
+          "kana": "すくうたあ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "比例尺；规模；（人的）度量",
+      "japanese": "スケール",
+      "kana": "すけえる",
+      "romaji": "sukeeru",
+      "tokens": [
+        {
+          "text": "スケール",
+          "kana": "すけえる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "社会地位，身份",
+      "japanese": "ステータス",
+      "kana": "すてえたす",
+      "romaji": "suteetasu",
+      "tokens": [
+        {
+          "text": "ステータス",
+          "kana": "すてえたす"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "库存",
+      "japanese": "ストック",
+      "kana": "すとっく",
+      "romaji": "sutokku",
+      "tokens": [
+        {
+          "text": "ストック",
+          "kana": "すとっく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "全身湿透",
+      "japanese": "ずぶぬれ",
+      "kana": "ずぶぬれ",
+      "romaji": "zubunure",
+      "tokens": [
+        {
+          "text": "ずぶぬれ",
+          "kana": "ずぶぬれ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "场所，地点",
+      "japanese": "スポット",
+      "kana": "すぽっと",
+      "romaji": "supotto",
+      "tokens": [
+        {
+          "text": "スポット",
+          "kana": "すぽっと"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "赞助商",
+      "japanese": "スポンサー",
+      "kana": "すぽんさあ",
+      "romaji": "suponsaa",
+      "tokens": [
+        {
+          "text": "スポンサー",
+          "kana": "すぽんさあ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "偏差；分歧",
+      "japanese": "ずれ",
+      "kana": "ずれ",
+      "romaji": "zure",
+      "tokens": [
+        {
+          "text": "ずれ",
+          "kana": "ずれ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "标语，口号",
+      "japanese": "スローガン",
+      "kana": "すろうがん",
+      "romaji": "surougan",
+      "tokens": [
+        {
+          "text": "スローガン",
+          "kana": "すろうがん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "推销员",
+      "japanese": "セールスマン",
+      "kana": "せえるすまん",
+      "romaji": "seerusuman",
+      "tokens": [
+        {
+          "text": "セールスマン",
+          "kana": "せえるすまん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "不管不顾；优秀，出色",
+      "japanese": "そっちのけ",
+      "kana": "そっちのけ",
+      "romaji": "sotchinoke",
+      "tokens": [
+        {
+          "text": "そっちのけ",
+          "kana": "そっちのけ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "终点站；机场大楼",
+      "japanese": "ターミナル",
+      "kana": "たあみなる",
+      "romaji": "taaminaru",
+      "tokens": [
+        {
+          "text": "ターミナル",
+          "kana": "たあみなる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "罐；坦克",
+      "japanese": "タンク",
+      "kana": "たんく",
+      "romaji": "tanku",
+      "tokens": [
+        {
+          "text": "タンク",
+          "kana": "たんく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "操盘，干预行情；援助",
+      "japanese": "てこ入れ",
+      "kana": "てこいれ",
+      "romaji": "tekoire",
+      "tokens": [
+        {
+          "text": "てこ入れ",
+          "kana": "てこいれ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "初次登台，初出茅庐",
+      "japanese": "デビュー",
+      "kana": "でびゅう",
+      "romaji": "debyuu",
+      "tokens": [
+        {
+          "text": "デビュー",
+          "kana": "でびゅう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "诽谤，谣言",
+      "japanese": "デマ",
+      "kana": "でま",
+      "romaji": "dema",
+      "tokens": [
+        {
+          "text": "デマ",
+          "kana": "でま"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "话题，主题",
+      "japanese": "トピック",
+      "kana": "とぴっく",
+      "romaji": "topikku",
+      "tokens": [
+        {
+          "text": "トピック",
+          "kana": "とぴっく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "底层，最下层，最差的状态",
+      "japanese": "どん底",
+      "kana": "どんぞこ",
+      "romaji": "donzoko",
+      "tokens": [
+        {
+          "text": "どん底",
+          "kana": "どんぞこ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "熟悉，熟人",
+      "japanese": "馴[な]染み",
+      "kana": "なじみ",
+      "romaji": "najimi",
+      "tokens": [
+        {
+          "text": "馴[な]染み",
+          "kana": "なじみ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（幼儿用语）爬",
+      "japanese": "はいはい",
+      "kana": "はいはい",
+      "romaji": "haihai",
+      "tokens": [
+        {
+          "text": "はいはい",
+          "kana": "はいはい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "参差不齐；数值分布不规则",
+      "japanese": "ばらつき",
+      "kana": "ばらつき",
+      "romaji": "baratsuki",
+      "tokens": [
+        {
+          "text": "ばらつき",
+          "kana": "ばらつき"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "歪；不良风气",
+      "japanese": "ひずみ",
+      "kana": "ひずみ",
+      "romaji": "hizumi",
+      "tokens": [
+        {
+          "text": "ひずみ",
+          "kana": "ひずみ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（在脑海里）闪现；闪烁",
+      "japanese": "ひらめき",
+      "kana": "ひらめき",
+      "romaji": "hirameki",
+      "tokens": [
+        {
+          "text": "ひらめき",
+          "kana": "ひらめき"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "紧急关头，危机",
+      "japanese": "ピンチ",
+      "kana": "ぴんち",
+      "romaji": "pinchi",
+      "tokens": [
+        {
+          "text": "ピンチ",
+          "kana": "ぴんち"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "焦距；要点",
+      "japanese": "ピント",
+      "kana": "ぴんと",
+      "romaji": "pinto",
+      "tokens": [
+        {
+          "text": "ピント",
+          "kana": "ぴんと"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "空白；空白期",
+      "japanese": "ブランク",
+      "kana": "ぶらんく",
+      "romaji": "buranku",
+      "tokens": [
+        {
+          "text": "ブランク",
+          "kana": "ぶらんく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "编程",
+      "japanese": "プログラミング",
+      "kana": "ぷろぐらみんぐ",
+      "romaji": "puroguramingu",
+      "tokens": [
+        {
+          "text": "プログラミング",
+          "kana": "ぷろぐらみんぐ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "基本，基础",
+      "japanese": "ベース",
+      "kana": "べえす",
+      "romaji": "beesu",
+      "tokens": [
+        {
+          "text": "ベース",
+          "kana": "べえす"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "软管，胶皮管",
+      "japanese": "ホース",
+      "kana": "ほうす",
+      "romaji": "housu",
+      "tokens": [
+        {
+          "text": "ホース",
+          "kana": "ほうす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "拳击",
+      "japanese": "ボクシング",
+      "kana": "ぼくしんぐ",
+      "romaji": "bokushingu",
+      "tokens": [
+        {
+          "text": "ボクシング",
+          "kana": "ぼくしんぐ"
+        }
+      ]
+    }
+  ]
+}

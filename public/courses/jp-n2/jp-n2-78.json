@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-78",
+  "coursePackId": "jp-n2",
+  "title": "动词 7",
+  "order": 78,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "宠，惯",
+      "japanese": "甘やかす",
+      "kana": "あまやかす",
+      "romaji": "amayakasu",
+      "tokens": [
+        {
+          "text": "甘やかす",
+          "kana": "あまやかす"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "愿望",
+      "japanese": "願望",
+      "kana": "がんぼう",
+      "romaji": "ganbou",
+      "tokens": [
+        {
+          "text": "願望",
+          "kana": "がんぼう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "救助，解救，拯救",
+      "japanese": "救う",
+      "kana": "すくう",
+      "romaji": "sukuu",
+      "tokens": [
+        {
+          "text": "救う",
+          "kana": "すくう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "离开；时间流逝；消除",
+      "japanese": "去る",
+      "kana": "さる",
+      "romaji": "saru",
+      "tokens": [
+        {
+          "text": "去る",
+          "kana": "さる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "倾斜；倾向于……；（日、月）西斜；衰落",
+      "japanese": "傾く",
+      "kana": "かたむく",
+      "romaji": "katamuku",
+      "tokens": [
+        {
+          "text": "傾く",
+          "kana": "かたむく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "被赋予；富有",
+      "japanese": "恵まれる",
+      "kana": "めぐまれる",
+      "romaji": "megumareru",
+      "tokens": [
+        {
+          "text": "恵まれる",
+          "kana": "めぐまれる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "尊敬，敬重",
+      "japanese": "敬う",
+      "kana": "うやまう",
+      "romaji": "uyamau",
+      "tokens": [
+        {
+          "text": "敬う",
+          "kana": "うやまう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "兼具，兼任；（かねる）难以，办不到",
+      "japanese": "兼ねる",
+      "kana": "かねる",
+      "romaji": "kaneru",
+      "tokens": [
+        {
+          "text": "兼ねる",
+          "kana": "かねる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "巡逻，巡视",
+      "japanese": "見回る",
+      "kana": "みまわる",
+      "romaji": "mimawaru",
+      "tokens": [
+        {
+          "text": "見回る",
+          "kana": "みまわる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "看惯，司空见惯",
+      "japanese": "見慣れる",
+      "kana": "みなれる",
+      "romaji": "minareru",
+      "tokens": [
+        {
+          "text": "見慣れる",
+          "kana": "みなれる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "吩咐；告发；说习惯",
+      "japanese": "言いつける",
+      "kana": "いいつける",
+      "romaji": "iitsukeru",
+      "tokens": [
+        {
+          "text": "言いつける",
+          "kana": "いいつける"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "限于，限制；（「…に限る」の形で）只限……；最好",
+      "japanese": "限る",
+      "kana": "かぎる",
+      "romaji": "kagiru",
+      "tokens": [
+        {
+          "text": "限る",
+          "kana": "かぎる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "喜欢，喜爱；想要，希望",
+      "japanese": "好む",
+      "kana": "このむ",
+      "romaji": "konomu",
+      "tokens": [
+        {
+          "text": "好む",
+          "kana": "このむ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "耕作",
+      "japanese": "耕す",
+      "kana": "たがやす",
+      "romaji": "tagayasu",
+      "tokens": [
+        {
+          "text": "耕す",
+          "kana": "たがやす"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "伸出；帮助",
+      "japanese": "差し伸べる",
+      "kana": "さしのべる",
+      "romaji": "sashinoberu",
+      "tokens": [
+        {
+          "text": "差し伸べる",
+          "kana": "さしのべる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "堵，填；捂住，堵住；挡，占",
+      "japanese": "塞ぐ",
+      "kana": "ふさぐ",
+      "romaji": "fusagu",
+      "tokens": [
+        {
+          "text": "塞ぐ",
+          "kana": "ふさぐ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "完成，解决",
+      "japanese": "済ませる",
+      "kana": "すませる",
+      "romaji": "sumaseru",
+      "tokens": [
+        {
+          "text": "済ませる",
+          "kana": "すませる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "错过，擦肩而过；产生分歧",
+      "japanese": "擦れ違う",
+      "kana": "すれちがう",
+      "romaji": "surechigau",
+      "tokens": [
+        {
+          "text": "擦れ違う",
+          "kana": "すれちがう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "固执地认为；下定决心",
+      "japanese": "思い込む",
+      "kana": "おもいこむ",
+      "romaji": "omoikomu",
+      "tokens": [
+        {
+          "text": "思い込む",
+          "kana": "おもいこむ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "继……之后；次于，亚于",
+      "japanese": "次ぐ",
+      "kana": "つぐ",
+      "romaji": "tsugu",
+      "tokens": [
+        {
+          "text": "次ぐ",
+          "kana": "つぐ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "潮湿；心情忧郁",
+      "japanese": "湿る",
+      "kana": "しめる",
+      "romaji": "shimeru",
+      "tokens": [
+        {
+          "text": "湿る",
+          "kana": "しめる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "收进来；收获（农作物）；吸收，采用",
+      "japanese": "取り入れる",
+      "kana": "とりいれる",
+      "romaji": "toriireru",
+      "tokens": [
+        {
+          "text": "取り入れる",
+          "kana": "とりいれる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "担任，负责",
+      "japanese": "受け持つ",
+      "kana": "うけもつ",
+      "romaji": "ukemotsu",
+      "tokens": [
+        {
+          "text": "受け持つ",
+          "kana": "うけもつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "收纳；平息，结束",
+      "japanese": "収まる",
+      "kana": "おさまる",
+      "romaji": "osamaru",
+      "tokens": [
+        {
+          "text": "収まる",
+          "kana": "おさまる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "收纳；取得",
+      "japanese": "収める",
+      "kana": "おさめる",
+      "romaji": "osameru",
+      "tokens": [
+        {
+          "text": "収める",
+          "kana": "おさめる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "循环；巡游；（…をめぐって）围绕",
+      "japanese": "巡る",
+      "kana": "めぐる",
+      "romaji": "meguru",
+      "tokens": [
+        {
+          "text": "巡る",
+          "kana": "めぐる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "消除，铲除；除去，除外",
+      "japanese": "除く",
+      "kana": "のぞく",
+      "romaji": "nozoku",
+      "tokens": [
+        {
+          "text": "除く",
+          "kana": "のぞく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "接受；聆听",
+      "japanese": "承る",
+      "kana": "うけたまわる",
+      "romaji": "uketamawaru",
+      "tokens": [
+        {
+          "text": "承る",
+          "kana": "うけたまわる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "招呼；招待，邀请；聘请；招致",
+      "japanese": "招く",
+      "kana": "まねく",
+      "romaji": "maneku",
+      "tokens": [
+        {
+          "text": "招く",
+          "kana": "まねく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "照亮，照射；（…に照らして）对比，参照",
+      "japanese": "照らす",
+      "kana": "てらす",
+      "romaji": "terasu",
+      "tokens": [
+        {
+          "text": "照らす",
+          "kana": "てらす"
+        }
+      ]
+    }
+  ]
+}

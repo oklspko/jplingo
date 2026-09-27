@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-104",
+  "coursePackId": "jp-n2",
+  "title": "副词 5",
+  "order": 104,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "叹气；放心，安心",
+      "japanese": "ほっと",
+      "kana": "ほっと",
+      "romaji": "hotto",
+      "tokens": [
+        {
+          "text": "ほっと",
+          "kana": "ほっと"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "几乎，大概",
+      "japanese": "ほぼ",
+      "kana": "ほぼ",
+      "romaji": "hobo",
+      "tokens": [
+        {
+          "text": "ほぼ",
+          "kana": "ほぼ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "极少，几乎（不）",
+      "japanese": "めったに",
+      "kana": "めったに",
+      "romaji": "mettani",
+      "tokens": [
+        {
+          "text": "めったに",
+          "kana": "めったに"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "本来；（多く「AはもとよりBも」の形で）A自不必说，B也……",
+      "japanese": "もとより",
+      "kana": "もとより",
+      "romaji": "motoyori",
+      "tokens": [
+        {
+          "text": "もとより",
+          "kana": "もとより"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "居然，竟敢",
+      "japanese": "よくも",
+      "kana": "よくも",
+      "romaji": "yokumo",
+      "tokens": [
+        {
+          "text": "よくも",
+          "kana": "よくも"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "特意；故意",
+      "japanese": "わざわざ",
+      "kana": "わざわざ",
+      "romaji": "wazawaza",
+      "tokens": [
+        {
+          "text": "わざわざ",
+          "kana": "わざわざ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "一口气；一下子",
+      "japanese": "一気に",
+      "kana": "いっきに",
+      "romaji": "ikkini",
+      "tokens": [
+        {
+          "text": "一気に",
+          "kana": "いっきに"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "轻轻地；轻而易举地",
+      "japanese": "軽々",
+      "kana": "かるがる",
+      "romaji": "karugaru",
+      "tokens": [
+        {
+          "text": "軽々",
+          "kana": "かるがる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（带有与过去对比的意味）现今，如今；现在这时候",
+      "japanese": "今時",
+      "kana": "いまどき",
+      "romaji": "imadoki",
+      "tokens": [
+        {
+          "text": "今時",
+          "kana": "いまどき"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "下定决心，坚定地",
+      "japanese": "思い切って",
+      "kana": "おもいきって",
+      "romaji": "omoikitte",
+      "tokens": [
+        {
+          "text": "思い切って",
+          "kana": "おもいきって"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "相继，陆续",
+      "japanese": "相次いで",
+      "kana": "あいついで",
+      "romaji": "aitsuide",
+      "tokens": [
+        {
+          "text": "相次いで",
+          "kana": "あいついで"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "谁都（不），一个人都（不）",
+      "japanese": "誰一人",
+      "kana": "だれひとり",
+      "romaji": "darehitori",
+      "tokens": [
+        {
+          "text": "誰一人",
+          "kana": "だれひとり"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "最晚，最迟",
+      "japanese": "遅くとも",
+      "kana": "おそくとも",
+      "romaji": "osokutomo",
+      "tokens": [
+        {
+          "text": "遅くとも",
+          "kana": "おそくとも"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "敢于，硬，勉强；并（不）",
+      "japanese": "あえて",
+      "kana": "あえて",
+      "romaji": "aete",
+      "tokens": [
+        {
+          "text": "あえて",
+          "kana": "あえて"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "事先",
+      "japanese": "あらかじめ",
+      "kana": "あらかじめ",
+      "romaji": "arakajime",
+      "tokens": [
+        {
+          "text": "あらかじめ",
+          "kana": "あらかじめ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "如何；多么",
+      "japanese": "いかに",
+      "kana": "いかに",
+      "romaji": "ikani",
+      "tokens": [
+        {
+          "text": "いかに",
+          "kana": "いかに"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "不情愿，勉强",
+      "japanese": "いやいや",
+      "kana": "いやいや",
+      "romaji": "iyaiya",
+      "tokens": [
+        {
+          "text": "いやいや",
+          "kana": "いやいや"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "自然地，自动地",
+      "japanese": "自[おの]ずから",
+      "kana": "おのずから",
+      "romaji": "onozukara",
+      "tokens": [
+        {
+          "text": "自[おの]ずから",
+          "kana": "おのずから"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "以前如此，向来",
+      "japanese": "かねて",
+      "kana": "かねて",
+      "romaji": "kanete",
+      "tokens": [
+        {
+          "text": "かねて",
+          "kana": "かねて"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "无所顾忌地盯着看",
+      "japanese": "じろじろ",
+      "kana": "じろじろ",
+      "romaji": "jirojiro",
+      "tokens": [
+        {
+          "text": "じろじろ",
+          "kana": "じろじろ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "仔细，用心；痛切，深切",
+      "japanese": "つくづく",
+      "kana": "つくづく",
+      "romaji": "tsukuzuku",
+      "tokens": [
+        {
+          "text": "つくづく",
+          "kana": "つくづく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "好不容易才；仿佛",
+      "japanese": "どうやら",
+      "kana": "どうやら",
+      "romaji": "douyara",
+      "tokens": [
+        {
+          "text": "どうやら",
+          "kana": "どうやら"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "特别，格外",
+      "japanese": "とりわけ",
+      "kana": "とりわけ",
+      "romaji": "toriwake",
+      "tokens": [
+        {
+          "text": "とりわけ",
+          "kana": "とりわけ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "进而，不但……甚至",
+      "japanese": "ひいては",
+      "kana": "ひいては",
+      "romaji": "hiiteha",
+      "tokens": [
+        {
+          "text": "ひいては",
+          "kana": "ひいては"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "肥大不合体",
+      "japanese": "ぶかぶか",
+      "kana": "ぶかぶか",
+      "romaji": "bukabuka",
+      "tokens": [
+        {
+          "text": "ぶかぶか",
+          "kana": "ぶかぶか"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "（事到如今）已经",
+      "japanese": "もはや",
+      "kana": "もはや",
+      "romaji": "mohaya",
+      "tokens": [
+        {
+          "text": "もはや",
+          "kana": "もはや"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（不好的结果）果然，不出所料",
+      "japanese": "案の定",
+      "kana": "あんのじょう",
+      "romaji": "annojou",
+      "tokens": [
+        {
+          "text": "案の定",
+          "kana": "あんのじょう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "假如；临时，姑且",
+      "japanese": "仮に",
+      "kana": "かりに",
+      "romaji": "karini",
+      "tokens": [
+        {
+          "text": "仮に",
+          "kana": "かりに"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "特别，格外",
+      "japanese": "格別",
+      "kana": "かくべつ",
+      "romaji": "kakubetsu",
+      "tokens": [
+        {
+          "text": "格別",
+          "kana": "かくべつ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "极其，非常",
+      "japanese": "極めて",
+      "kana": "きわめて",
+      "romaji": "kiwamete",
+      "tokens": [
+        {
+          "text": "極めて",
+          "kana": "きわめて"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-30",
+  "coursePackId": "jp-n1",
+  "title": "名词 30",
+  "order": 30,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "修行，修炼",
+      "japanese": "修行",
+      "kana": "しゅぎょう",
+      "romaji": "shugyou",
+      "tokens": [
+        {
+          "text": "修行",
+          "kana": "しゅぎょう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "方便，便利；珍视，爱惜",
+      "japanese": "重宝",
+      "kana": "ちょうほう",
+      "romaji": "chouhou",
+      "tokens": [
+        {
+          "text": "重宝",
+          "kana": "ちょうほう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "熟练",
+      "japanese": "熟練",
+      "kana": "じゅくれん",
+      "romaji": "jukuren",
+      "tokens": [
+        {
+          "text": "熟練",
+          "kana": "じゅくれん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "生孩子",
+      "japanese": "出産",
+      "kana": "しゅっさん",
+      "romaji": "shussan",
+      "tokens": [
+        {
+          "text": "出産",
+          "kana": "しゅっさん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "花费，开销",
+      "japanese": "出費",
+      "kana": "しゅっぴ",
+      "romaji": "shuppi",
+      "tokens": [
+        {
+          "text": "出費",
+          "kana": "しゅっぴ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "处置，处理，措施；处理（伤口），治疗",
+      "japanese": "処置",
+      "kana": "しょち",
+      "romaji": "shochi",
+      "tokens": [
+        {
+          "text": "処置",
+          "kana": "しょち"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "所在地；所在",
+      "japanese": "所在",
+      "kana": "しょざい",
+      "romaji": "shozai",
+      "tokens": [
+        {
+          "text": "所在",
+          "kana": "しょざい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "携带",
+      "japanese": "所持",
+      "kana": "しょじ",
+      "romaji": "shoji",
+      "tokens": [
+        {
+          "text": "所持",
+          "kana": "しょじ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "指定，规定",
+      "japanese": "所定",
+      "kana": "しょてい",
+      "romaji": "shotei",
+      "tokens": [
+        {
+          "text": "所定",
+          "kana": "しょてい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "百姓，普通人",
+      "japanese": "庶民",
+      "kana": "しょみん",
+      "romaji": "shomin",
+      "tokens": [
+        {
+          "text": "庶民",
+          "kana": "しょみん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "书评",
+      "japanese": "書評",
+      "kana": "しょひょう",
+      "romaji": "shohyou",
+      "tokens": [
+        {
+          "text": "書評",
+          "kana": "しょひょう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "应允，同意",
+      "japanese": "承諾",
+      "kana": "しょうだく",
+      "romaji": "shoudaku",
+      "tokens": [
+        {
+          "text": "承諾",
+          "kana": "しょうだく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "对照，核查",
+      "japanese": "照合",
+      "kana": "しょうごう",
+      "romaji": "shougou",
+      "tokens": [
+        {
+          "text": "照合",
+          "kana": "しょうごう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "冲击；震惊",
+      "japanese": "衝撃",
+      "kana": "しょうげき",
+      "romaji": "shougeki",
+      "tokens": [
+        {
+          "text": "衝撃",
+          "kana": "しょうげき"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "证词；作证",
+      "japanese": "証言",
+      "kana": "しょうげん",
+      "romaji": "shougen",
+      "tokens": [
+        {
+          "text": "証言",
+          "kana": "しょうげん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "身高，高度；长度，尺寸",
+      "japanese": "丈",
+      "kana": "たけ",
+      "romaji": "take",
+      "tokens": [
+        {
+          "text": "丈",
+          "kana": "たけ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "情趣，风趣；情绪",
+      "japanese": "情緒",
+      "kana": "じょうちょ",
+      "romaji": "joucho",
+      "tokens": [
+        {
+          "text": "情緒",
+          "kana": "じょうちょ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "形势，局势",
+      "japanese": "情勢",
+      "kana": "じょうせい",
+      "romaji": "jousei",
+      "tokens": [
+        {
+          "text": "情勢",
+          "kana": "じょうせい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "条约",
+      "japanese": "条約",
+      "kana": "じょうやく",
+      "romaji": "jouyaku",
+      "tokens": [
+        {
+          "text": "条約",
+          "kana": "じょうやく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "让步",
+      "japanese": "譲歩",
+      "kana": "じょうほ",
+      "romaji": "jouho",
+      "tokens": [
+        {
+          "text": "譲歩",
+          "kana": "じょうほ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "墨镜；有色眼镜，偏见",
+      "japanese": "色眼鏡",
+      "kana": "いろめがね",
+      "romaji": "iromegane",
+      "tokens": [
+        {
+          "text": "色眼鏡",
+          "kana": "いろめがね"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "色彩，色调；倾向",
+      "japanese": "色彩",
+      "kana": "しきさい",
+      "romaji": "shikisai",
+      "tokens": [
+        {
+          "text": "色彩",
+          "kana": "しきさい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "信念",
+      "japanese": "信念",
+      "kana": "しんねん",
+      "romaji": "shinnen",
+      "tokens": [
+        {
+          "text": "信念",
+          "kana": "しんねん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "心情",
+      "japanese": "心情",
+      "kana": "しんじょう",
+      "romaji": "shinjou",
+      "tokens": [
+        {
+          "text": "心情",
+          "kana": "しんじょう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "出发点，起点",
+      "japanese": "振り出し",
+      "kana": "ふりだし",
+      "romaji": "furidashi",
+      "tokens": [
+        {
+          "text": "振り出し",
+          "kana": "ふりだし"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "真实情况；真的",
+      "japanese": "真実",
+      "kana": "しんじつ",
+      "romaji": "shinjitsu",
+      "tokens": [
+        {
+          "text": "真実",
+          "kana": "しんじつ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "真心，诚意",
+      "japanese": "真心",
+      "kana": "まごころ",
+      "romaji": "magokoro",
+      "tokens": [
+        {
+          "text": "真心",
+          "kana": "まごころ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "绅士；男士",
+      "japanese": "紳士",
+      "kana": "しんし",
+      "romaji": "shinshi",
+      "tokens": [
+        {
+          "text": "紳士",
+          "kana": "しんし"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "亲近；亲属；亲信",
+      "japanese": "親近",
+      "kana": "しんきん",
+      "romaji": "shinkin",
+      "tokens": [
+        {
+          "text": "親近",
+          "kana": "しんきん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "奉送，赠送",
+      "japanese": "進呈",
+      "kana": "しんてい",
+      "romaji": "shintei",
+      "tokens": [
+        {
+          "text": "進呈",
+          "kana": "しんてい"
+        }
+      ]
+    }
+  ]
+}

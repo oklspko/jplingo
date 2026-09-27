@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-51",
+  "coursePackId": "jp-n3",
+  "title": "动词 9",
+  "order": 51,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "浮，漂浮；心神不宁",
+      "japanese": "浮く",
+      "kana": "うく",
+      "romaji": "uku",
+      "tokens": [
+        {
+          "text": "浮く",
+          "kana": "うく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "讨厌",
+      "japanese": "嫌う",
+      "kana": "きらう",
+      "romaji": "kirau",
+      "tokens": [
+        {
+          "text": "嫌う",
+          "kana": "きらう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "疲劳；穿旧，用旧",
+      "japanese": "くたびれる",
+      "kana": "くたびれる",
+      "romaji": "kutabireru",
+      "tokens": [
+        {
+          "text": "くたびれる",
+          "kana": "くたびれる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "拿进来；采用，采纳",
+      "japanese": "取り込む",
+      "kana": "とりこむ",
+      "romaji": "torikomu",
+      "tokens": [
+        {
+          "text": "取り込む",
+          "kana": "とりこむ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "溢出；很多",
+      "japanese": "あふれる",
+      "kana": "あふれる",
+      "romaji": "afureru",
+      "tokens": [
+        {
+          "text": "あふれる",
+          "kana": "あふれる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "爬",
+      "japanese": "はう",
+      "kana": "はう",
+      "romaji": "hau",
+      "tokens": [
+        {
+          "text": "はう",
+          "kana": "はう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "煮，烫；焯水",
+      "japanese": "ゆでる",
+      "kana": "ゆでる",
+      "romaji": "yuderu",
+      "tokens": [
+        {
+          "text": "ゆでる",
+          "kana": "ゆでる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "咬，啃；略懂一二",
+      "japanese": "かじる",
+      "kana": "かじる",
+      "romaji": "kajiru",
+      "tokens": [
+        {
+          "text": "かじる",
+          "kana": "かじる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "对待；处理，应对；操作",
+      "japanese": "扱う",
+      "kana": "あつかう",
+      "romaji": "atsukau",
+      "tokens": [
+        {
+          "text": "扱う",
+          "kana": "あつかう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "安慰；抚慰",
+      "japanese": "慰める",
+      "kana": "なぐさめる",
+      "romaji": "nagusameru",
+      "tokens": [
+        {
+          "text": "慰める",
+          "kana": "なぐさめる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "抽出，拉出；提取；激发",
+      "japanese": "引き出す",
+      "kana": "ひきだす",
+      "romaji": "hikidasu",
+      "tokens": [
+        {
+          "text": "引き出す",
+          "kana": "ひきだす"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "挂；溅上；欺骗",
+      "japanese": "引っ掛ける",
+      "kana": "ひっかける",
+      "romaji": "hikkakeru",
+      "tokens": [
+        {
+          "text": "引っ掛ける",
+          "kana": "ひっかける"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "醒过来；清醒",
+      "japanese": "覚める",
+      "kana": "さめる",
+      "romaji": "sameru",
+      "tokens": [
+        {
+          "text": "覚める",
+          "kana": "さめる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "根据；起因于",
+      "japanese": "基づく",
+      "kana": "もとづく",
+      "romaji": "motozuku",
+      "tokens": [
+        {
+          "text": "基づく",
+          "kana": "もとづく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "堵塞；塞满；缩短；窘迫",
+      "japanese": "詰まる",
+      "kana": "つまる",
+      "romaji": "tsumaru",
+      "tokens": [
+        {
+          "text": "詰まる",
+          "kana": "つまる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "向……学习，受教",
+      "japanese": "教わる",
+      "kana": "おそわる",
+      "romaji": "osowaru",
+      "tokens": [
+        {
+          "text": "教わる",
+          "kana": "おそわる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "响，回响；影响",
+      "japanese": "響く",
+      "kana": "ひびく",
+      "romaji": "hibiku",
+      "tokens": [
+        {
+          "text": "響く",
+          "kana": "ひびく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "打招呼；呼吁，号召",
+      "japanese": "呼びかける",
+      "kana": "よびかける",
+      "romaji": "yobikakeru",
+      "tokens": [
+        {
+          "text": "呼びかける",
+          "kana": "よびかける"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "采；录用",
+      "japanese": "採る",
+      "kana": "とる",
+      "romaji": "toru",
+      "tokens": [
+        {
+          "text": "採る",
+          "kana": "とる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "忽然想出；想起",
+      "japanese": "思いつく",
+      "kana": "おもいつく",
+      "romaji": "omoitsuku",
+      "tokens": [
+        {
+          "text": "思いつく",
+          "kana": "おもいつく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "带来，带去",
+      "japanese": "持参",
+      "kana": "じさん",
+      "romaji": "jisan",
+      "tokens": [
+        {
+          "text": "持参",
+          "kana": "じさん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "拿起，举起；采纳，受理；没收，征收",
+      "japanese": "取り上げる",
+      "kana": "とりあげる",
+      "romaji": "toriageru",
+      "tokens": [
+        {
+          "text": "取り上げる",
+          "kana": "とりあげる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "生，长",
+      "japanese": "生える",
+      "kana": "はえる",
+      "romaji": "haeru",
+      "tokens": [
+        {
+          "text": "生える",
+          "kana": "はえる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "到达；达到，达成",
+      "japanese": "達する",
+      "kana": "たっする",
+      "romaji": "tassuru",
+      "tokens": [
+        {
+          "text": "達する",
+          "kana": "たっする"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "超过，赶过",
+      "japanese": "追い越す",
+      "kana": "おいこす",
+      "romaji": "oikosu",
+      "tokens": [
+        {
+          "text": "追い越す",
+          "kana": "おいこす"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "超过",
+      "japanese": "追い抜く",
+      "kana": "おいぬく",
+      "romaji": "oinuku",
+      "tokens": [
+        {
+          "text": "追い抜く",
+          "kana": "おいぬく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "追上，赶上",
+      "japanese": "追いつく",
+      "kana": "おいつく",
+      "romaji": "oitsuku",
+      "tokens": [
+        {
+          "text": "追いつく",
+          "kana": "おいつく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "溺水；沉溺于",
+      "japanese": "溺れる",
+      "kana": "おぼれる",
+      "romaji": "oboreru",
+      "tokens": [
+        {
+          "text": "溺れる",
+          "kana": "おぼれる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "展览",
+      "japanese": "展覧",
+      "kana": "てんらん",
+      "romaji": "tenran",
+      "tokens": [
+        {
+          "text": "展覧",
+          "kana": "てんらん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "点燃；打开（电源）",
+      "japanese": "点[つ]ける",
+      "kana": "つける",
+      "romaji": "tsukeru",
+      "tokens": [
+        {
+          "text": "点[つ]ける",
+          "kana": "つける"
+        }
+      ]
+    }
+  ]
+}

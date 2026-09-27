@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-55",
+  "coursePackId": "jp-n3",
+  "title": "形容词 2",
+  "order": 55,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "肥大的；宽松的；和缓的",
+      "japanese": "緩い",
+      "kana": "ゆるい",
+      "romaji": "yurui",
+      "tokens": [
+        {
+          "text": "緩い",
+          "kana": "ゆるい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "可怜，悲惨",
+      "japanese": "気の毒",
+      "kana": "きのどく",
+      "romaji": "kinodoku",
+      "tokens": [
+        {
+          "text": "気の毒",
+          "kana": "きのどく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "辛苦，艰苦，费事",
+      "japanese": "苦労",
+      "kana": "くろう",
+      "romaji": "kurou",
+      "tokens": [
+        {
+          "text": "苦労",
+          "kana": "くろう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "意想不到；偶然",
+      "japanese": "偶然",
+      "kana": "ぐうぜん",
+      "romaji": "guuzen",
+      "tokens": [
+        {
+          "text": "偶然",
+          "kana": "ぐうぜん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "竭尽全力",
+      "japanese": "懸命",
+      "kana": "けんめい",
+      "romaji": "kenmei",
+      "tokens": [
+        {
+          "text": "懸命",
+          "kana": "けんめい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "高速；（「高速道路」の略）高速公路",
+      "japanese": "高速",
+      "kana": "こうそく",
+      "romaji": "kousoku",
+      "tokens": [
+        {
+          "text": "高速",
+          "kana": "こうそく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "细长的",
+      "japanese": "細長い",
+      "kana": "ほそながい",
+      "romaji": "hosonagai",
+      "tokens": [
+        {
+          "text": "細長い",
+          "kana": "ほそながい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "主要",
+      "japanese": "主要",
+      "kana": "しゅよう",
+      "romaji": "shuyou",
+      "tokens": [
+        {
+          "text": "主要",
+          "kana": "しゅよう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "重大，重要，严重",
+      "japanese": "重大",
+      "kana": "じゅうだい",
+      "romaji": "juudai",
+      "tokens": [
+        {
+          "text": "重大",
+          "kana": "じゅうだい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "消极的",
+      "japanese": "消極的",
+      "kana": "しょうきょくてき",
+      "romaji": "shoukyokuteki",
+      "tokens": [
+        {
+          "text": "消極的",
+          "kana": "しょうきょくてき"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "十分抱歉",
+      "japanese": "申し訳ない",
+      "kana": "もうしわけない",
+      "romaji": "moushiwakenai",
+      "tokens": [
+        {
+          "text": "申し訳ない",
+          "kana": "もうしわけない"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "可惜；珍惜；惋惜",
+      "japanese": "惜しい",
+      "kana": "おしい",
+      "romaji": "oshii",
+      "tokens": [
+        {
+          "text": "惜しい",
+          "kana": "おしい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "令人羡慕的",
+      "japanese": "羨ましい",
+      "kana": "うらやましい",
+      "romaji": "urayamashii",
+      "tokens": [
+        {
+          "text": "羨ましい",
+          "kana": "うらやましい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "极好，绝妙",
+      "japanese": "素敵",
+      "kana": "すてき",
+      "romaji": "suteki",
+      "tokens": [
+        {
+          "text": "素敵",
+          "kana": "すてき"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "可恶的，可憎的；（反语）优秀到令人感到可恨的地步",
+      "japanese": "憎らしい",
+      "kana": "にくらしい",
+      "romaji": "nikurashii",
+      "tokens": [
+        {
+          "text": "憎らしい",
+          "kana": "にくらしい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "贫穷；贫乏",
+      "japanese": "貧しい",
+      "kana": "まずしい",
+      "romaji": "mazushii",
+      "tokens": [
+        {
+          "text": "貧しい",
+          "kana": "まずしい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "痒",
+      "japanese": "かゆい",
+      "kana": "かゆい",
+      "romaji": "kayui",
+      "tokens": [
+        {
+          "text": "かゆい",
+          "kana": "かゆい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "讨人喜欢的；小巧玲珑的",
+      "japanese": "かわいらしい",
+      "kana": "かわいらしい",
+      "romaji": "kawairashii",
+      "tokens": [
+        {
+          "text": "かわいらしい",
+          "kana": "かわいらしい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "狡猾，奸猾",
+      "japanese": "ずるい",
+      "kana": "ずるい",
+      "romaji": "zurui",
+      "tokens": [
+        {
+          "text": "ずるい",
+          "kana": "ずるい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "发倦，慵懒",
+      "japanese": "だるい",
+      "kana": "だるい",
+      "romaji": "darui",
+      "tokens": [
+        {
+          "text": "だるい",
+          "kana": "だるい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "浪费，可惜；不胜惶恐，受之有愧",
+      "japanese": "もったいない",
+      "kana": "もったいない",
+      "romaji": "mottainai",
+      "tokens": [
+        {
+          "text": "もったいない",
+          "kana": "もったいない"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "繁荣；旺盛",
+      "japanese": "盛ん",
+      "kana": "さかん",
+      "romaji": "sakan",
+      "tokens": [
+        {
+          "text": "盛ん",
+          "kana": "さかん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "话虽如此，可是；合理，正当",
+      "japanese": "もっとも",
+      "kana": "もっとも",
+      "romaji": "mottomo",
+      "tokens": [
+        {
+          "text": "もっとも",
+          "kana": "もっとも"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "浓烈的；纠缠不休的",
+      "japanese": "しつこい",
+      "kana": "しつこい",
+      "romaji": "shitsukoi",
+      "tokens": [
+        {
+          "text": "しつこい",
+          "kana": "しつこい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "散漫的，邋遢的；没出息的",
+      "japanese": "だらしない",
+      "kana": "だらしない",
+      "romaji": "darashinai",
+      "tokens": [
+        {
+          "text": "だらしない",
+          "kana": "だらしない"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "确定，确凿",
+      "japanese": "確実",
+      "kana": "かくじつ",
+      "romaji": "kakujitsu",
+      "tokens": [
+        {
+          "text": "確実",
+          "kana": "かくじつ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "钦佩，佩服",
+      "japanese": "感心",
+      "kana": "かんしん",
+      "romaji": "kanshin",
+      "tokens": [
+        {
+          "text": "感心",
+          "kana": "かんしん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "微妙的",
+      "japanese": "微妙",
+      "kana": "びみょう",
+      "romaji": "bimyou",
+      "tokens": [
+        {
+          "text": "微妙",
+          "kana": "びみょう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "想念，爱慕，眷恋",
+      "japanese": "恋しい",
+      "kana": "こいしい",
+      "romaji": "koishii",
+      "tokens": [
+        {
+          "text": "恋しい",
+          "kana": "こいしい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "有……的味道；……似的",
+      "japanese": "くさい",
+      "kana": "くさい",
+      "romaji": "kusai",
+      "tokens": [
+        {
+          "text": "くさい",
+          "kana": "くさい"
+        }
+      ]
+    }
+  ]
+}

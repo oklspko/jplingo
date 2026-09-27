@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-36",
+  "coursePackId": "jp-n3",
+  "title": "名词 36",
+  "order": 36,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "台阶；段落；等级",
+      "japanese": "段",
+      "kana": "だん",
+      "romaji": "dan",
+      "tokens": [
+        {
+          "text": "段",
+          "kana": "だん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "中旬",
+      "japanese": "中旬",
+      "kana": "ちゅうじゅん",
+      "romaji": "chuujun",
+      "tokens": [
+        {
+          "text": "中旬",
+          "kana": "ちゅうじゅん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "注释，注解",
+      "japanese": "注",
+      "kana": "ちゅう",
+      "romaji": "chuu",
+      "tokens": [
+        {
+          "text": "注",
+          "kana": "ちゅう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "沸腾；情绪激昂",
+      "japanese": "沸騰",
+      "kana": "ふっとう",
+      "romaji": "futtou",
+      "tokens": [
+        {
+          "text": "沸騰",
+          "kana": "ふっとう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "听取；听懂",
+      "japanese": "聞き取り",
+      "kana": "ききとり",
+      "romaji": "kikitori",
+      "tokens": [
+        {
+          "text": "聞き取り",
+          "kana": "ききとり"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "擅长倾听（的人）",
+      "japanese": "聞き上手",
+      "kana": "ききじょうず",
+      "romaji": "kikijouzu",
+      "tokens": [
+        {
+          "text": "聞き上手",
+          "kana": "ききじょうず"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "闭馆；停业",
+      "japanese": "閉館",
+      "kana": "へいかん",
+      "romaji": "heikan",
+      "tokens": [
+        {
+          "text": "閉館",
+          "kana": "へいかん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "晚霞",
+      "japanese": "夕焼け",
+      "kana": "ゆうやけ",
+      "romaji": "yuuyake",
+      "tokens": [
+        {
+          "text": "夕焼け",
+          "kana": "ゆうやけ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "用品",
+      "japanese": "用品",
+      "kana": "ようひん",
+      "romaji": "youhin",
+      "tokens": [
+        {
+          "text": "用品",
+          "kana": "ようひん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "背面，反面",
+      "japanese": "裏側",
+      "kana": "うらがわ",
+      "romaji": "uragawa",
+      "tokens": [
+        {
+          "text": "裏側",
+          "kana": "うらがわ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "偶像",
+      "japanese": "アイドル",
+      "kana": "あいどる",
+      "romaji": "aidoru",
+      "tokens": [
+        {
+          "text": "アイドル",
+          "kana": "あいどる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "提高；特写",
+      "japanese": "アップ",
+      "kana": "あっぷ",
+      "romaji": "appu",
+      "tokens": [
+        {
+          "text": "アップ",
+          "kana": "あっぷ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "病毒",
+      "japanese": "ウイルス",
+      "kana": "ういるす",
+      "romaji": "uirusu",
+      "tokens": [
+        {
+          "text": "ウイルス",
+          "kana": "ういるす"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "新人培训；入学说明会",
+      "japanese": "オリエンテーション",
+      "kana": "おりえんてえしょん",
+      "romaji": "orienteeshon",
+      "tokens": [
+        {
+          "text": "オリエンテーション",
+          "kana": "おりえんてえしょん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "价值，意义",
+      "japanese": "かい",
+      "kana": "かい",
+      "romaji": "kai",
+      "tokens": [
+        {
+          "text": "かい",
+          "kana": "かい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "爵士音乐",
+      "japanese": "ジャズ",
+      "kana": "じゃず",
+      "romaji": "jazu",
+      "tokens": [
+        {
+          "text": "ジャズ",
+          "kana": "じゃず"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "改变；交换",
+      "japanese": "チェンジ",
+      "kana": "ちぇんじ",
+      "romaji": "chenji",
+      "tokens": [
+        {
+          "text": "チェンジ",
+          "kana": "ちぇんじ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "餐后甜点",
+      "japanese": "デザート",
+      "kana": "でざあと",
+      "romaji": "dezaato",
+      "tokens": [
+        {
+          "text": "デザート",
+          "kana": "でざあと"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "正面，前方；服务台",
+      "japanese": "フロント",
+      "kana": "ふろんと",
+      "romaji": "furonto",
+      "tokens": [
+        {
+          "text": "フロント",
+          "kana": "ふろんと"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "最好；全力",
+      "japanese": "ベスト",
+      "kana": "べすと",
+      "romaji": "besuto",
+      "tokens": [
+        {
+          "text": "ベスト",
+          "kana": "べすと"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（电脑、手机等的）信息；留言；致辞",
+      "japanese": "メッセージ",
+      "kana": "めっせえじ",
+      "romaji": "messeeji",
+      "tokens": [
+        {
+          "text": "メッセージ",
+          "kana": "めっせえじ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "课程",
+      "japanese": "レッスン",
+      "kana": "れっすん",
+      "romaji": "ressun",
+      "tokens": [
+        {
+          "text": "レッスン",
+          "kana": "れっすん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "烤炉",
+      "japanese": "レンジ",
+      "kana": "れんじ",
+      "romaji": "renji",
+      "tokens": [
+        {
+          "text": "レンジ",
+          "kana": "れんじ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "绳索，钢缆",
+      "japanese": "ロープ",
+      "kana": "ろうぷ",
+      "romaji": "roupu",
+      "tokens": [
+        {
+          "text": "ロープ",
+          "kana": "ろうぷ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "心术；固执，倔强；贪婪",
+      "japanese": "意地",
+      "kana": "いじ",
+      "romaji": "iji",
+      "tokens": [
+        {
+          "text": "意地",
+          "kana": "いじ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "一样，同样；平常，普通",
+      "japanese": "一様",
+      "kana": "いちよう",
+      "romaji": "ichiyou",
+      "tokens": [
+        {
+          "text": "一様",
+          "kana": "いちよう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "日元升值",
+      "japanese": "円高",
+      "kana": "えんだか",
+      "romaji": "endaka",
+      "tokens": [
+        {
+          "text": "円高",
+          "kana": "えんだか"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "护理",
+      "japanese": "介護",
+      "kana": "かいご",
+      "romaji": "kaigo",
+      "tokens": [
+        {
+          "text": "介護",
+          "kana": "かいご"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "开门营业；开设店铺",
+      "japanese": "開店",
+      "kana": "かいてん",
+      "romaji": "kaiten",
+      "tokens": [
+        {
+          "text": "開店",
+          "kana": "かいてん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "空地",
+      "japanese": "空き地",
+      "kana": "あきち",
+      "romaji": "akichi",
+      "tokens": [
+        {
+          "text": "空き地",
+          "kana": "あきち"
+        }
+      ]
+    }
+  ]
+}

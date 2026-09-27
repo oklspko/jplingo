@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-26",
+  "coursePackId": "jp-n1",
+  "title": "名词 26",
+  "order": 26,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "技能，本领",
+      "japanese": "技能",
+      "kana": "ぎのう",
+      "romaji": "ginou",
+      "tokens": [
+        {
+          "text": "技能",
+          "kana": "ぎのう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "牺牲；受害者",
+      "japanese": "犠牲",
+      "kana": "ぎせい",
+      "romaji": "gisei",
+      "tokens": [
+        {
+          "text": "犠牲",
+          "kana": "ぎせい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "改编成戏剧或电影；夸张",
+      "japanese": "脚色",
+      "kana": "きゃくしょく",
+      "romaji": "kyakushoku",
+      "tokens": [
+        {
+          "text": "脚色",
+          "kana": "きゃくしょく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "脚本，剧本",
+      "japanese": "脚本",
+      "kana": "きゃくほん",
+      "romaji": "kyakuhon",
+      "tokens": [
+        {
+          "text": "脚本",
+          "kana": "きゃくほん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "丘陵",
+      "japanese": "丘陵",
+      "kana": "きゅうりょう",
+      "romaji": "kyuuryou",
+      "tokens": [
+        {
+          "text": "丘陵",
+          "kana": "きゅうりょう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "究竟，最终",
+      "japanese": "究極",
+      "kana": "きゅうきょく",
+      "romaji": "kyuukyoku",
+      "tokens": [
+        {
+          "text": "究極",
+          "kana": "きゅうきょく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "狭小；拘束；死板",
+      "japanese": "窮屈",
+      "kana": "きゅうくつ",
+      "romaji": "kyuukutsu",
+      "tokens": [
+        {
+          "text": "窮屈",
+          "kana": "きゅうくつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "拒绝",
+      "japanese": "拒絶",
+      "kana": "きょぜつ",
+      "romaji": "kyozetsu",
+      "tokens": [
+        {
+          "text": "拒絶",
+          "kana": "きょぜつ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "基地，据点",
+      "japanese": "拠点",
+      "kana": "きょてん",
+      "romaji": "kyoten",
+      "tokens": [
+        {
+          "text": "拠点",
+          "kana": "きょてん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "容许，接受",
+      "japanese": "許容",
+      "kana": "きょよう",
+      "romaji": "kyoyou",
+      "tokens": [
+        {
+          "text": "許容",
+          "kana": "きょよう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "享受",
+      "japanese": "享受",
+      "kana": "きょうじゅ",
+      "romaji": "kyouju",
+      "tokens": [
+        {
+          "text": "享受",
+          "kana": "きょうじゅ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "共存",
+      "japanese": "共存",
+      "kana": "きょうそん",
+      "romaji": "kyouson",
+      "tokens": [
+        {
+          "text": "共存",
+          "kana": "きょうそん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "歉收",
+      "japanese": "凶作",
+      "kana": "きょうさく",
+      "romaji": "kyousaku",
+      "tokens": [
+        {
+          "text": "凶作",
+          "kana": "きょうさく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "利害或立场不同的人互相让步，彼此合作",
+      "japanese": "協調",
+      "kana": "きょうちょう",
+      "romaji": "kyouchou",
+      "tokens": [
+        {
+          "text": "協調",
+          "kana": "きょうちょう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "强硬",
+      "japanese": "強硬",
+      "kana": "きょうこう",
+      "romaji": "kyoukou",
+      "tokens": [
+        {
+          "text": "強硬",
+          "kana": "きょうこう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "强制，强迫",
+      "japanese": "強制",
+      "kana": "きょうせい",
+      "romaji": "kyousei",
+      "tokens": [
+        {
+          "text": "強制",
+          "kana": "きょうせい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "架桥；牵线搭桥",
+      "japanese": "橋渡し",
+      "kana": "はしわたし",
+      "romaji": "hashiwatashi",
+      "tokens": [
+        {
+          "text": "橋渡し",
+          "kana": "はしわたし"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "乡土，故乡；乡间",
+      "japanese": "郷土",
+      "kana": "きょうど",
+      "romaji": "kyoudo",
+      "tokens": [
+        {
+          "text": "郷土",
+          "kana": "きょうど"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "故乡，老家",
+      "japanese": "郷里",
+      "kana": "きょうり",
+      "romaji": "kyouri",
+      "tokens": [
+        {
+          "text": "郷里",
+          "kana": "きょうり"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "业界",
+      "japanese": "業界",
+      "kana": "ぎょうかい",
+      "romaji": "gyoukai",
+      "tokens": [
+        {
+          "text": "業界",
+          "kana": "ぎょうかい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "工商业者，专业公司；同业者",
+      "japanese": "業者",
+      "kana": "ぎょうしゃ",
+      "romaji": "gyousha",
+      "tokens": [
+        {
+          "text": "業者",
+          "kana": "ぎょうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "忌讳；切忌",
+      "japanese": "禁物",
+      "kana": "きんもつ",
+      "romaji": "kinmotsu",
+      "tokens": [
+        {
+          "text": "禁物",
+          "kana": "きんもつ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "近郊，郊区",
+      "japanese": "近郊",
+      "kana": "きんこう",
+      "romaji": "kinkou",
+      "tokens": [
+        {
+          "text": "近郊",
+          "kana": "きんこう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "近邻，邻近",
+      "japanese": "近隣",
+      "kana": "きんりん",
+      "romaji": "kinrin",
+      "tokens": [
+        {
+          "text": "近隣",
+          "kana": "きんりん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "铁锤；（すぐ水に沈むことから）不会游泳的人",
+      "japanese": "金 槌[づち]",
+      "kana": "かなづち",
+      "romaji": "kanazuchi",
+      "tokens": [
+        {
+          "text": "金 槌[づち]",
+          "kana": "かなづち"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "斟酌，仔细挑选",
+      "japanese": "吟味",
+      "kana": "ぎんみ",
+      "romaji": "ginmi",
+      "tokens": [
+        {
+          "text": "吟味",
+          "kana": "ぎんみ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "群众",
+      "japanese": "群衆",
+      "kana": "ぐんしゅう",
+      "romaji": "gunshuu",
+      "tokens": [
+        {
+          "text": "群衆",
+          "kana": "ぐんしゅう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "倾斜；倾向",
+      "japanese": "傾斜",
+      "kana": "けいしゃ",
+      "romaji": "keisha",
+      "tokens": [
+        {
+          "text": "傾斜",
+          "kana": "けいしゃ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "形态",
+      "japanese": "形態",
+      "kana": "けいたい",
+      "romaji": "keitai",
+      "tokens": [
+        {
+          "text": "形態",
+          "kana": "けいたい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "经历，履历",
+      "japanese": "経歴",
+      "kana": "けいれき",
+      "romaji": "keireki",
+      "tokens": [
+        {
+          "text": "経歴",
+          "kana": "けいれき"
+        }
+      ]
+    }
+  ]
+}

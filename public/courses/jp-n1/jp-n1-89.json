@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-89",
+  "coursePackId": "jp-n1",
+  "title": "名词 89",
+  "order": 89,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "命名，起名",
+      "japanese": "ネーミング",
+      "kana": "ねえみんぐ",
+      "romaji": "neemingu",
+      "tokens": [
+        {
+          "text": "ネーミング",
+          "kana": "ねえみんぐ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "怀旧，乡愁",
+      "japanese": "ノスタルジー",
+      "kana": "のすたるじい",
+      "romaji": "nosutarujii",
+      "tokens": [
+        {
+          "text": "ノスタルジー",
+          "kana": "のすたるじい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "鬣狗；投机者，机会主义者",
+      "japanese": "ハイエナ",
+      "kana": "はいえな",
+      "romaji": "haiena",
+      "tokens": [
+        {
+          "text": "ハイエナ",
+          "kana": "はいえな"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "自由职业者",
+      "japanese": "フリーランス",
+      "kana": "ふりいらんす",
+      "romaji": "furiiransu",
+      "tokens": [
+        {
+          "text": "フリーランス",
+          "kana": "ふりいらんす"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "风险，投机",
+      "japanese": "ベンチャー",
+      "kana": "べんちゃあ",
+      "romaji": "benchaa",
+      "tokens": [
+        {
+          "text": "ベンチャー",
+          "kana": "べんちゃあ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "方法，方式",
+      "japanese": "メソッド",
+      "kana": "めそっど",
+      "romaji": "mesoddo",
+      "tokens": [
+        {
+          "text": "メソッド",
+          "kana": "めそっど"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "说话方式，措辞；异议；争吵，争论",
+      "japanese": "物言い",
+      "kana": "ものいい",
+      "romaji": "monoii",
+      "tokens": [
+        {
+          "text": "物言い",
+          "kana": "ものいい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "联盟，联赛",
+      "japanese": "リーグ",
+      "kana": "りいぐ",
+      "romaji": "riigu",
+      "tokens": [
+        {
+          "text": "リーグ",
+          "kana": "りいぐ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "回头客",
+      "japanese": "リピーター",
+      "kana": "りぴいたあ",
+      "romaji": "ripiitaa",
+      "tokens": [
+        {
+          "text": "リピーター",
+          "kana": "りぴいたあ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "依据，根据",
+      "japanese": "依拠",
+      "kana": "いきょ",
+      "romaji": "ikyo",
+      "tokens": [
+        {
+          "text": "依拠",
+          "kana": "いきょ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "变迁，变化",
+      "japanese": "移ろい",
+      "kana": "うつろい",
+      "romaji": "utsuroi",
+      "tokens": [
+        {
+          "text": "移ろい",
+          "kana": "うつろい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "一个方案，一个办法",
+      "japanese": "一案",
+      "kana": "いちあん",
+      "romaji": "ichian",
+      "tokens": [
+        {
+          "text": "一案",
+          "kana": "いちあん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（「一丸となる」の形で）一团，团结一致",
+      "japanese": "一丸",
+      "kana": "いちがん",
+      "romaji": "ichigan",
+      "tokens": [
+        {
+          "text": "一丸",
+          "kana": "いちがん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "一支箭",
+      "japanese": "一矢",
+      "kana": "いっし",
+      "romaji": "isshi",
+      "tokens": [
+        {
+          "text": "一矢",
+          "kana": "いっし"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "因素，因子",
+      "japanese": "因子",
+      "kana": "いんし",
+      "romaji": "inshi",
+      "tokens": [
+        {
+          "text": "因子",
+          "kana": "いんし"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "闭门不出，宅在家里的人，蛰居",
+      "japanese": "引きこもり",
+      "kana": "ひきこもり",
+      "romaji": "hikikomori",
+      "tokens": [
+        {
+          "text": "引きこもり",
+          "kana": "ひきこもり"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "（医院等“院”的）院长",
+      "japanese": "院長",
+      "kana": "いんちょう",
+      "romaji": "inchou",
+      "tokens": [
+        {
+          "text": "院長",
+          "kana": "いんちょう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "营，经营",
+      "japanese": "営為",
+      "kana": "えいい",
+      "romaji": "eii",
+      "tokens": [
+        {
+          "text": "営為",
+          "kana": "えいい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "盖章",
+      "japanese": "押印",
+      "kana": "おういん",
+      "romaji": "ouin",
+      "tokens": [
+        {
+          "text": "押印",
+          "kana": "おういん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "介在，介于……之间",
+      "japanese": "介在",
+      "kana": "かいざい",
+      "romaji": "kaizai",
+      "tokens": [
+        {
+          "text": "介在",
+          "kana": "かいざい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "固执己见；不和，嫌隙，龃龉",
+      "japanese": "確執",
+      "kana": "かくしつ",
+      "romaji": "kakushitsu",
+      "tokens": [
+        {
+          "text": "確執",
+          "kana": "かくしつ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "学际，跨学科",
+      "japanese": "学際",
+      "kana": "がくさい",
+      "romaji": "gakusai",
+      "tokens": [
+        {
+          "text": "学際",
+          "kana": "がくさい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（特指向神佛祈愿的）愿望，心愿",
+      "japanese": "願い事",
+      "kana": "ねがいごと",
+      "romaji": "negaigoto",
+      "tokens": [
+        {
+          "text": "願い事",
+          "kana": "ねがいごと"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "忌避，规避，逃避；（法律）回避",
+      "japanese": "忌避",
+      "kana": "きひ",
+      "romaji": "kihi",
+      "tokens": [
+        {
+          "text": "忌避",
+          "kana": "きひ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "勇猛，气势",
+      "japanese": "気負い",
+      "kana": "きおい",
+      "romaji": "kioi",
+      "tokens": [
+        {
+          "text": "気負い",
+          "kana": "きおい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "仇人；仇恨；报复；危害",
+      "japanese": "仇[あだ]",
+      "kana": "あだ",
+      "romaji": "ada",
+      "tokens": [
+        {
+          "text": "仇[あだ]",
+          "kana": "あだ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "苦役，艰苦的劳动",
+      "japanese": "苦役",
+      "kana": "くえき",
+      "romaji": "kueki",
+      "tokens": [
+        {
+          "text": "苦役",
+          "kana": "くえき"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "空栏，空白处",
+      "japanese": "空欄",
+      "kana": "くうらん",
+      "romaji": "kuuran",
+      "tokens": [
+        {
+          "text": "空欄",
+          "kana": "くうらん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "担心，操心；厌倦，无聊",
+      "japanese": "屈託",
+      "kana": "くったく",
+      "romaji": "kuttaku",
+      "tokens": [
+        {
+          "text": "屈託",
+          "kana": "くったく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "钻研，研究",
+      "japanese": "研 鑽[さん]",
+      "kana": "けんさん",
+      "romaji": "kensan",
+      "tokens": [
+        {
+          "text": "研 鑽[さん]",
+          "kana": "けんさん"
+        }
+      ]
+    }
+  ]
+}

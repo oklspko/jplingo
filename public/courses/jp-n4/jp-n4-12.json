@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-12",
+  "coursePackId": "jp-n4",
+  "title": "名词 12",
+  "order": 12,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "签名；信号，暗号",
+      "japanese": "サイン",
+      "kana": "さいん",
+      "romaji": "sain",
+      "tokens": [
+        {
+          "text": "サイン",
+          "kana": "さいん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "季节；好时节",
+      "japanese": "シーズン",
+      "kana": "しいずん",
+      "romaji": "shiizun",
+      "tokens": [
+        {
+          "text": "シーズン",
+          "kana": "しいずん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "跑步，慢跑",
+      "japanese": "ジョギング",
+      "kana": "じょぎんぐ",
+      "romaji": "jogingu",
+      "tokens": [
+        {
+          "text": "ジョギング",
+          "kana": "じょぎんぐ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "沙司，酱料，调味汁",
+      "japanese": "ソース",
+      "kana": "そうす",
+      "romaji": "sousu",
+      "tokens": [
+        {
+          "text": "ソース",
+          "kana": "そうす"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "毛巾",
+      "japanese": "タオル",
+      "kana": "たおる",
+      "romaji": "taoru",
+      "tokens": [
+        {
+          "text": "タオル",
+          "kana": "たおる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "机会，良机",
+      "japanese": "チャンス",
+      "kana": "ちゃんす",
+      "romaji": "chansu",
+      "tokens": [
+        {
+          "text": "チャンス",
+          "kana": "ちゃんす"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "日期；约会",
+      "japanese": "デート",
+      "kana": "でえと",
+      "romaji": "deeto",
+      "tokens": [
+        {
+          "text": "デート",
+          "kana": "でえと"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "开车远游，兜风",
+      "japanese": "ドライブ",
+      "kana": "どらいぶ",
+      "romaji": "doraibu",
+      "tokens": [
+        {
+          "text": "ドライブ",
+          "kana": "どらいぶ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "项链",
+      "japanese": "ネックレス",
+      "kana": "ねっくれす",
+      "romaji": "nekkuresu",
+      "tokens": [
+        {
+          "text": "ネックレス",
+          "kana": "ねっくれす"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "宠物",
+      "japanese": "ペット",
+      "kana": "ぺっと",
+      "romaji": "petto",
+      "tokens": [
+        {
+          "text": "ペット",
+          "kana": "ぺっと"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "家；疗养院，招待所",
+      "japanese": "ホーム",
+      "kana": "ほうむ",
+      "romaji": "houmu",
+      "tokens": [
+        {
+          "text": "ホーム",
+          "kana": "ほうむ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "主页",
+      "japanese": "ホームページ",
+      "kana": "ほうむぺえじ",
+      "romaji": "houmupeeji",
+      "tokens": [
+        {
+          "text": "ホームページ",
+          "kana": "ほうむぺえじ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "招贴，广告画，海报",
+      "japanese": "ポスター",
+      "kana": "ぽすたあ",
+      "romaji": "posutaa",
+      "tokens": [
+        {
+          "text": "ポスター",
+          "kana": "ぽすたあ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "礼貌，礼节，规矩",
+      "japanese": "マナー",
+      "kana": "まなあ",
+      "romaji": "manaa",
+      "tokens": [
+        {
+          "text": "マナー",
+          "kana": "まなあ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "规则，制度",
+      "japanese": "ルール",
+      "kana": "るうる",
+      "romaji": "ruuru",
+      "tokens": [
+        {
+          "text": "ルール",
+          "kana": "るうる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "水平，水准",
+      "japanese": "レベル",
+      "kana": "れべる",
+      "romaji": "reberu",
+      "tokens": [
+        {
+          "text": "レベル",
+          "kana": "れべる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "机器人；自动装置",
+      "japanese": "ロボット",
+      "kana": "ろぼっと",
+      "romaji": "robotto",
+      "tokens": [
+        {
+          "text": "ロボット",
+          "kana": "ろぼっと"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "以来，以后",
+      "japanese": "以来",
+      "kana": "いらい",
+      "romaji": "irai",
+      "tokens": [
+        {
+          "text": "以来",
+          "kana": "いらい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "位置；位于",
+      "japanese": "位置",
+      "kana": "いち",
+      "romaji": "ichi",
+      "tokens": [
+        {
+          "text": "位置",
+          "kana": "いち"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "一生，一辈子",
+      "japanese": "一生",
+      "kana": "いっしょう",
+      "romaji": "isshou",
+      "tokens": [
+        {
+          "text": "一生",
+          "kana": "いっしょう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "一部分；一册",
+      "japanese": "一部",
+      "kana": "いちぶ",
+      "romaji": "ichibu",
+      "tokens": [
+        {
+          "text": "一部",
+          "kana": "いちぶ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "一个方向；一个；一直",
+      "japanese": "一方",
+      "kana": "いっぽう",
+      "romaji": "ippou",
+      "tokens": [
+        {
+          "text": "一方",
+          "kana": "いっぽう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "里头，内部，深处；里屋，内宅",
+      "japanese": "奥",
+      "kana": "おく",
+      "romaji": "oku",
+      "tokens": [
+        {
+          "text": "奥",
+          "kana": "おく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "可能",
+      "japanese": "可能",
+      "kana": "かのう",
+      "romaji": "kanou",
+      "tokens": [
+        {
+          "text": "可能",
+          "kana": "かのう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "过去，既往",
+      "japanese": "過去",
+      "kana": "かこ",
+      "romaji": "kako",
+      "tokens": [
+        {
+          "text": "過去",
+          "kana": "かこ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "海岸，海边",
+      "japanese": "海岸",
+      "kana": "かいがん",
+      "romaji": "kaigan",
+      "tokens": [
+        {
+          "text": "海岸",
+          "kana": "かいがん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "确认，证实",
+      "japanese": "確認",
+      "kana": "かくにん",
+      "romaji": "kakunin",
+      "tokens": [
+        {
+          "text": "確認",
+          "kana": "かくにん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "舒适；轻松",
+      "japanese": "楽",
+      "kana": "らく",
+      "romaji": "raku",
+      "tokens": [
+        {
+          "text": "楽",
+          "kana": "らく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "感谢",
+      "japanese": "感謝",
+      "kana": "かんしゃ",
+      "romaji": "kansha",
+      "tokens": [
+        {
+          "text": "感謝",
+          "kana": "かんしゃ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "期待，期望",
+      "japanese": "期待",
+      "kana": "きたい",
+      "romaji": "kitai",
+      "tokens": [
+        {
+          "text": "期待",
+          "kana": "きたい"
+        }
+      ]
+    }
+  ]
+}

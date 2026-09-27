@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-58",
+  "coursePackId": "jp-n2",
+  "title": "名词 58",
+  "order": 58,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "单据，票据",
+      "japanese": "伝票",
+      "kana": "でんぴょう",
+      "romaji": "denpyou",
+      "tokens": [
+        {
+          "text": "伝票",
+          "kana": "でんぴょう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "相扑比赛场；（比喻）进行议论、对决的场所",
+      "japanese": "土俵",
+      "kana": "どひょう",
+      "romaji": "dohyou",
+      "tokens": [
+        {
+          "text": "土俵",
+          "kana": "どひょう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "劈头盖脸，毫不留情，不容分说",
+      "japanese": "頭ごなし",
+      "kana": "あたまごなし",
+      "romaji": "atamagonashi",
+      "tokens": [
+        {
+          "text": "頭ごなし",
+          "kana": "あたまごなし"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "二氧化碳，CO2",
+      "japanese": "二酸化炭素",
+      "kana": "にさんかたんそ",
+      "romaji": "nisankatanso",
+      "tokens": [
+        {
+          "text": "二酸化炭素",
+          "kana": "にさんかたんそ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "住进，搬进",
+      "japanese": "入居",
+      "kana": "にゅうきょ",
+      "romaji": "nyuukyo",
+      "tokens": [
+        {
+          "text": "入居",
+          "kana": "にゅうきょ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "念头；注意",
+      "japanese": "念",
+      "kana": "ねん",
+      "romaji": "nen",
+      "tokens": [
+        {
+          "text": "念",
+          "kana": "ねん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "交货",
+      "japanese": "納品",
+      "kana": "のうひん",
+      "romaji": "nouhin",
+      "tokens": [
+        {
+          "text": "納品",
+          "kana": "のうひん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "脑；头脑",
+      "japanese": "脳",
+      "kana": "のう",
+      "romaji": "nou",
+      "tokens": [
+        {
+          "text": "脳",
+          "kana": "のう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "败者",
+      "japanese": "敗者",
+      "kana": "はいしゃ",
+      "romaji": "haisha",
+      "tokens": [
+        {
+          "text": "敗者",
+          "kana": "はいしゃ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "背景；背后",
+      "japanese": "背景",
+      "kana": "はいけい",
+      "romaji": "haikei",
+      "tokens": [
+        {
+          "text": "背景",
+          "kana": "はいけい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "（电影）分配角色",
+      "japanese": "配役",
+      "kana": "はいやく",
+      "romaji": "haiyaku",
+      "tokens": [
+        {
+          "text": "配役",
+          "kana": "はいやく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "发散，散发",
+      "japanese": "発散",
+      "kana": "はっさん",
+      "romaji": "hassan",
+      "tokens": [
+        {
+          "text": "発散",
+          "kana": "はっさん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "图章；（纸张大小）开数",
+      "japanese": "判",
+      "kana": "はん",
+      "romaji": "han",
+      "tokens": [
+        {
+          "text": "判",
+          "kana": "はん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "半数",
+      "japanese": "半数",
+      "kana": "はんすう",
+      "romaji": "hansuu",
+      "tokens": [
+        {
+          "text": "半数",
+          "kana": "はんすう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "百科；百科辞典",
+      "japanese": "百科",
+      "kana": "ひゃっか",
+      "romaji": "hyakka",
+      "tokens": [
+        {
+          "text": "百科",
+          "kana": "ひゃっか"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "票，选票",
+      "japanese": "票",
+      "kana": "ひょう",
+      "romaji": "hyou",
+      "tokens": [
+        {
+          "text": "票",
+          "kana": "ひょう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "不擅长；不习惯",
+      "japanese": "不得手",
+      "kana": "ふえて",
+      "romaji": "fuete",
+      "tokens": [
+        {
+          "text": "不得手",
+          "kana": "ふえて"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（信）封，订线处，封口",
+      "japanese": "封",
+      "kana": "ふう",
+      "romaji": "fuu",
+      "tokens": [
+        {
+          "text": "封",
+          "kana": "ふう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "分裂",
+      "japanese": "分裂",
+      "kana": "ぶんれつ",
+      "romaji": "bunretsu",
+      "tokens": [
+        {
+          "text": "分裂",
+          "kana": "ぶんれつ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "平常心",
+      "japanese": "平常心",
+      "kana": "へいじょうしん",
+      "romaji": "heijoushin",
+      "tokens": [
+        {
+          "text": "平常心",
+          "kana": "へいじょうしん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "偏，偏向；偏颇，偏倚",
+      "japanese": "偏り",
+      "kana": "かたより",
+      "romaji": "katayori",
+      "tokens": [
+        {
+          "text": "偏り",
+          "kana": "かたより"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "变形",
+      "japanese": "変形",
+      "kana": "へんけい",
+      "romaji": "henkei",
+      "tokens": [
+        {
+          "text": "変形",
+          "kana": "へんけい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "还钱；退钱",
+      "japanese": "返金",
+      "kana": "へんきん",
+      "romaji": "henkin",
+      "tokens": [
+        {
+          "text": "返金",
+          "kana": "へんきん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "本职工作",
+      "japanese": "本業",
+      "kana": "ほんぎょう",
+      "romaji": "hongyou",
+      "tokens": [
+        {
+          "text": "本業",
+          "kana": "ほんぎょう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "本心，真心；良心",
+      "japanese": "本心",
+      "kana": "ほんしん",
+      "romaji": "honshin",
+      "tokens": [
+        {
+          "text": "本心",
+          "kana": "ほんしん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "正式开拍，正式广播，正式表演",
+      "japanese": "本番",
+      "kana": "ほんばん",
+      "romaji": "honban",
+      "tokens": [
+        {
+          "text": "本番",
+          "kana": "ほんばん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "味道；趣味",
+      "japanese": "味わい",
+      "kana": "あじわい",
+      "romaji": "ajiwai",
+      "tokens": [
+        {
+          "text": "味わい",
+          "kana": "あじわい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "无缘，没有关系；死后无亲人祭祀",
+      "japanese": "無縁",
+      "kana": "むえん",
+      "romaji": "muen",
+      "tokens": [
+        {
+          "text": "無縁",
+          "kana": "むえん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "无条件",
+      "japanese": "無条件",
+      "kana": "むじょうけん",
+      "romaji": "mujouken",
+      "tokens": [
+        {
+          "text": "無条件",
+          "kana": "むじょうけん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "模型",
+      "japanese": "模型",
+      "kana": "もけい",
+      "romaji": "mokei",
+      "tokens": [
+        {
+          "text": "模型",
+          "kana": "もけい"
+        }
+      ]
+    }
+  ]
+}

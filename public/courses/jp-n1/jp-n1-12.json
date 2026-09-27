@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-12",
+  "coursePackId": "jp-n1",
+  "title": "名词 12",
+  "order": 12,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "奖品",
+      "japanese": "賞品",
+      "kana": "しょうひん",
+      "romaji": "shouhin",
+      "tokens": [
+        {
+          "text": "賞品",
+          "kana": "しょうひん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "日式拉门，隔扇",
+      "japanese": "障子",
+      "kana": "しょうじ",
+      "romaji": "shouji",
+      "tokens": [
+        {
+          "text": "障子",
+          "kana": "しょうじ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "上旬",
+      "japanese": "上旬",
+      "kana": "じょうじゅん",
+      "romaji": "joujun",
+      "tokens": [
+        {
+          "text": "上旬",
+          "kana": "じょうじゅん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "激情，热情",
+      "japanese": "情熱",
+      "kana": "じょうねつ",
+      "romaji": "jounetsu",
+      "tokens": [
+        {
+          "text": "情熱",
+          "kana": "じょうねつ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "（庭院里）栽种的树；盆栽",
+      "japanese": "植木",
+      "kana": "うえき",
+      "romaji": "ueki",
+      "tokens": [
+        {
+          "text": "植木",
+          "kana": "うえき"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（主食等）食物，粮食",
+      "japanese": "食糧",
+      "kana": "しょくりょう",
+      "romaji": "shokuryou",
+      "tokens": [
+        {
+          "text": "食糧",
+          "kana": "しょくりょう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "进路；前途",
+      "japanese": "進路",
+      "kana": "しんろ",
+      "romaji": "shinro",
+      "tokens": [
+        {
+          "text": "進路",
+          "kana": "しんろ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（小孩）认生，怕生",
+      "japanese": "人見知り",
+      "kana": "ひとみしり",
+      "romaji": "hitomishiri",
+      "tokens": [
+        {
+          "text": "人見知り",
+          "kana": "ひとみしり"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "人种，种族",
+      "japanese": "人種",
+      "kana": "じんしゅ",
+      "romaji": "jinshu",
+      "tokens": [
+        {
+          "text": "人種",
+          "kana": "じんしゅ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "图形，图示",
+      "japanese": "図形",
+      "kana": "ずけい",
+      "romaji": "zukei",
+      "tokens": [
+        {
+          "text": "図形",
+          "kana": "ずけい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "推断，估计；（法律）推定",
+      "japanese": "推定",
+      "kana": "すいてい",
+      "romaji": "suitei",
+      "tokens": [
+        {
+          "text": "推定",
+          "kana": "すいてい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "水平线；地平线",
+      "japanese": "水平線",
+      "kana": "すいへいせん",
+      "romaji": "suiheisen",
+      "tokens": [
+        {
+          "text": "水平線",
+          "kana": "すいへいせん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "随笔，散文",
+      "japanese": "随筆",
+      "kana": "ずいひつ",
+      "romaji": "zuihitsu",
+      "tokens": [
+        {
+          "text": "随筆",
+          "kana": "ずいひつ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "杉树",
+      "japanese": "杉",
+      "kana": "すぎ",
+      "romaji": "sugi",
+      "tokens": [
+        {
+          "text": "杉",
+          "kana": "すぎ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "尺寸，尺码；计划，步骤，打算",
+      "japanese": "寸法",
+      "kana": "すんぽう",
+      "romaji": "sunpou",
+      "tokens": [
+        {
+          "text": "寸法",
+          "kana": "すんぽう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "实质内容，净重；真货；实价",
+      "japanese": "正味",
+      "kana": "しょうみ",
+      "romaji": "shoumi",
+      "tokens": [
+        {
+          "text": "正味",
+          "kana": "しょうみ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "誊清，抄写清楚",
+      "japanese": "清書",
+      "kana": "せいしょ",
+      "romaji": "seisho",
+      "tokens": [
+        {
+          "text": "清書",
+          "kana": "せいしょ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "海关",
+      "japanese": "税関",
+      "kana": "ぜいかん",
+      "romaji": "zeikan",
+      "tokens": [
+        {
+          "text": "税関",
+          "kana": "ぜいかん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "接近；靠近",
+      "japanese": "接近",
+      "kana": "せっきん",
+      "romaji": "sekkin",
+      "tokens": [
+        {
+          "text": "接近",
+          "kana": "せっきん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "灭绝；消灭，使……灭绝",
+      "japanese": "絶滅",
+      "kana": "ぜつめつ",
+      "romaji": "zetsumetsu",
+      "tokens": [
+        {
+          "text": "絶滅",
+          "kana": "ぜつめつ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "插入",
+      "japanese": "挿入",
+      "kana": "そうにゅう",
+      "romaji": "sounyuu",
+      "tokens": [
+        {
+          "text": "挿入",
+          "kana": "そうにゅう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "逮捕，刑事拘留",
+      "japanese": "逮捕",
+      "kana": "たいほ",
+      "romaji": "taiho",
+      "tokens": [
+        {
+          "text": "逮捕",
+          "kana": "たいほ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "大半，大部分",
+      "japanese": "大半",
+      "kana": "たいはん",
+      "romaji": "taihan",
+      "tokens": [
+        {
+          "text": "大半",
+          "kana": "たいはん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "（诗歌、小说、电影等）短篇",
+      "japanese": "短編",
+      "kana": "たんぺん",
+      "romaji": "tanpen",
+      "tokens": [
+        {
+          "text": "短編",
+          "kana": "たんぺん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（日本统辖和代表都、道、府、县的长官）知事",
+      "japanese": "知事",
+      "kana": "ちじ",
+      "romaji": "chiji",
+      "tokens": [
+        {
+          "text": "知事",
+          "kana": "ちじ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "地质",
+      "japanese": "地質",
+      "kana": "ちしつ",
+      "romaji": "chishitsu",
+      "tokens": [
+        {
+          "text": "地質",
+          "kana": "ちしつ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "地面，地基，基础；地盘",
+      "japanese": "地盤",
+      "kana": "じばん",
+      "romaji": "jiban",
+      "tokens": [
+        {
+          "text": "地盤",
+          "kana": "じばん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "中世纪",
+      "japanese": "中世",
+      "kana": "ちゅうせい",
+      "romaji": "chuusei",
+      "tokens": [
+        {
+          "text": "中世",
+          "kana": "ちゅうせい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "中途，半途",
+      "japanese": "中途",
+      "kana": "ちゅうと",
+      "romaji": "chuuto",
+      "tokens": [
+        {
+          "text": "中途",
+          "kana": "ちゅうと"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "储藏，储存",
+      "japanese": "貯蔵",
+      "kana": "ちょぞう",
+      "romaji": "chozou",
+      "tokens": [
+        {
+          "text": "貯蔵",
+          "kana": "ちょぞう"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-14",
+  "coursePackId": "jp-n3",
+  "title": "名词 14",
+  "order": 14,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "应用，运用",
+      "japanese": "応用",
+      "kana": "おうよう",
+      "romaji": "ouyou",
+      "tokens": [
+        {
+          "text": "応用",
+          "kana": "おうよう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "屋顶，房顶",
+      "japanese": "屋根",
+      "kana": "やね",
+      "romaji": "yane",
+      "tokens": [
+        {
+          "text": "屋根",
+          "kana": "やね"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "化妆；装饰，装潢",
+      "japanese": "化粧",
+      "kana": "けしょう",
+      "romaji": "keshou",
+      "tokens": [
+        {
+          "text": "化粧",
+          "kana": "けしょう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "价值",
+      "japanese": "価値",
+      "kana": "かち",
+      "romaji": "kachi",
+      "tokens": [
+        {
+          "text": "価値",
+          "kana": "かち"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "房租",
+      "japanese": "家賃",
+      "kana": "やちん",
+      "romaji": "yachin",
+      "tokens": [
+        {
+          "text": "家賃",
+          "kana": "やちん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "科目，学科",
+      "japanese": "科目",
+      "kana": "かもく",
+      "romaji": "kamoku",
+      "tokens": [
+        {
+          "text": "科目",
+          "kana": "かもく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "歌手",
+      "japanese": "歌手",
+      "kana": "かしゅ",
+      "romaji": "kashu",
+      "tokens": [
+        {
+          "text": "歌手",
+          "kana": "かしゅ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "火灾",
+      "japanese": "火災",
+      "kana": "かさい",
+      "romaji": "kasai",
+      "tokens": [
+        {
+          "text": "火災",
+          "kana": "かさい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "焰火，花火",
+      "japanese": "花火",
+      "kana": "はなび",
+      "romaji": "hanabi",
+      "tokens": [
+        {
+          "text": "花火",
+          "kana": "はなび"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "科；课",
+      "japanese": "課",
+      "kana": "か",
+      "romaji": "ka",
+      "tokens": [
+        {
+          "text": "課",
+          "kana": "か"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "忍耐，忍受",
+      "japanese": "我慢",
+      "kana": "がまん",
+      "romaji": "gaman",
+      "tokens": [
+        {
+          "text": "我慢",
+          "kana": "がまん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "会员",
+      "japanese": "会員",
+      "kana": "かいいん",
+      "romaji": "kaiin",
+      "tokens": [
+        {
+          "text": "会員",
+          "kana": "かいいん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "检票口",
+      "japanese": "改札口",
+      "kana": "かいさつぐち",
+      "romaji": "kaisatsuguchi",
+      "tokens": [
+        {
+          "text": "改札口",
+          "kana": "かいさつぐち"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "美术明信片",
+      "japanese": "絵葉書",
+      "kana": "えはがき",
+      "romaji": "ehagaki",
+      "tokens": [
+        {
+          "text": "絵葉書",
+          "kana": "えはがき"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "外出",
+      "japanese": "外出",
+      "kana": "がいしゅつ",
+      "romaji": "gaishutsu",
+      "tokens": [
+        {
+          "text": "外出",
+          "kana": "がいしゅつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "盖子",
+      "japanese": "蓋",
+      "kana": "ふた",
+      "romaji": "futa",
+      "tokens": [
+        {
+          "text": "蓋",
+          "kana": "ふた"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "慢车，每站停车",
+      "japanese": "各駅停車",
+      "kana": "かくえきていしゃ",
+      "romaji": "kakuekiteisha",
+      "tokens": [
+        {
+          "text": "各駅停車",
+          "kana": "かくえきていしゃ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "各国",
+      "japanese": "各国",
+      "kana": "かっこく",
+      "romaji": "kakkoku",
+      "tokens": [
+        {
+          "text": "各国",
+          "kana": "かっこく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "各地",
+      "japanese": "各地",
+      "kana": "かくち",
+      "romaji": "kakuchi",
+      "tokens": [
+        {
+          "text": "各地",
+          "kana": "かくち"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "方形；角度",
+      "japanese": "角",
+      "kana": "かく",
+      "romaji": "kaku",
+      "tokens": [
+        {
+          "text": "角",
+          "kana": "かく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "专业，学科",
+      "japanese": "学科",
+      "kana": "がっか",
+      "romaji": "gakka",
+      "tokens": [
+        {
+          "text": "学科",
+          "kana": "がっか"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "学期",
+      "japanese": "学期",
+      "kana": "がっき",
+      "romaji": "gakki",
+      "tokens": [
+        {
+          "text": "学期",
+          "kana": "がっき"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "学历",
+      "japanese": "学歴",
+      "kana": "がくれき",
+      "romaji": "gakureki",
+      "tokens": [
+        {
+          "text": "学歴",
+          "kana": "がくれき"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "乐器",
+      "japanese": "楽器",
+      "kana": "がっき",
+      "romaji": "gakki",
+      "tokens": [
+        {
+          "text": "楽器",
+          "kana": "がっき"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "折扣，减价",
+      "japanese": "割引",
+      "kana": "わりびき",
+      "romaji": "waribiki",
+      "tokens": [
+        {
+          "text": "割引",
+          "kana": "わりびき"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "比例",
+      "japanese": "割合",
+      "kana": "わりあい",
+      "romaji": "wariai",
+      "tokens": [
+        {
+          "text": "割合",
+          "kana": "わりあい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "干燥",
+      "japanese": "乾燥",
+      "kana": "かんそう",
+      "romaji": "kansou",
+      "tokens": [
+        {
+          "text": "乾燥",
+          "kana": "かんそう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "完成",
+      "japanese": "完成",
+      "kana": "かんせい",
+      "romaji": "kansei",
+      "tokens": [
+        {
+          "text": "完成",
+          "kana": "かんせい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "完全，完整，完美",
+      "japanese": "完全",
+      "kana": "かんぜん",
+      "romaji": "kanzen",
+      "tokens": [
+        {
+          "text": "完全",
+          "kana": "かんぜん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "完结，完成",
+      "japanese": "完了",
+      "kana": "かんりょう",
+      "romaji": "kanryou",
+      "tokens": [
+        {
+          "text": "完了",
+          "kana": "かんりょう"
+        }
+      ]
+    }
+  ]
+}

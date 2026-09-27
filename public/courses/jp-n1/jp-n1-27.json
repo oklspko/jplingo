@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-27",
+  "coursePackId": "jp-n1",
+  "title": "名词 27",
+  "order": 27,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "途径，路线",
+      "japanese": "経路",
+      "kana": "けいろ",
+      "romaji": "keiro",
+      "tokens": [
+        {
+          "text": "経路",
+          "kana": "けいろ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "警戒，防范",
+      "japanese": "警戒",
+      "kana": "けいかい",
+      "romaji": "keikai",
+      "tokens": [
+        {
+          "text": "警戒",
+          "kana": "けいかい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "减轻",
+      "japanese": "軽減",
+      "kana": "けいげん",
+      "romaji": "keigen",
+      "tokens": [
+        {
+          "text": "軽減",
+          "kana": "けいげん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "轻率，草率",
+      "japanese": "軽率",
+      "kana": "けいそつ",
+      "romaji": "keisotsu",
+      "tokens": [
+        {
+          "text": "軽率",
+          "kana": "けいそつ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "剧团，剧院",
+      "japanese": "劇団",
+      "kana": "げきだん",
+      "romaji": "gekidan",
+      "tokens": [
+        {
+          "text": "劇団",
+          "kana": "げきだん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "急剧减少",
+      "japanese": "激減",
+      "kana": "げきげん",
+      "romaji": "gekigen",
+      "tokens": [
+        {
+          "text": "激減",
+          "kana": "げきげん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "缺乏，缺少",
+      "japanese": "欠如",
+      "kana": "けつじょ",
+      "romaji": "ketsujo",
+      "tokens": [
+        {
+          "text": "欠如",
+          "kana": "けつじょ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "结账，结算",
+      "japanese": "決算",
+      "kana": "けっさん",
+      "romaji": "kessan",
+      "tokens": [
+        {
+          "text": "決算",
+          "kana": "けっさん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "结合，连接",
+      "japanese": "結合",
+      "kana": "けつごう",
+      "romaji": "ketsugou",
+      "tokens": [
+        {
+          "text": "結合",
+          "kana": "けつごう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "结成，组成",
+      "japanese": "結成",
+      "kana": "けっせい",
+      "romaji": "kessei",
+      "tokens": [
+        {
+          "text": "結成",
+          "kana": "けっせい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "团结；捆扎",
+      "japanese": "結束",
+      "kana": "けっそく",
+      "romaji": "kessoku",
+      "tokens": [
+        {
+          "text": "結束",
+          "kana": "けっそく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "每个月的学费",
+      "japanese": "月謝",
+      "kana": "げっしゃ",
+      "romaji": "gessha",
+      "tokens": [
+        {
+          "text": "月謝",
+          "kana": "げっしゃ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "牢靠，稳妥",
+      "japanese": "堅実",
+      "kana": "けんじつ",
+      "romaji": "kenjitsu",
+      "tokens": [
+        {
+          "text": "堅実",
+          "kana": "けんじつ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "权威，权势；权威，泰斗",
+      "japanese": "権威",
+      "kana": "けんい",
+      "romaji": "ken'i",
+      "tokens": [
+        {
+          "text": "権威",
+          "kana": "けんい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "权限；职权范围",
+      "japanese": "権限",
+      "kana": "けんげん",
+      "romaji": "kengen",
+      "tokens": [
+        {
+          "text": "権限",
+          "kana": "けんげん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "值得一看的地方；前程",
+      "japanese": "見どころ",
+      "kana": "みどころ",
+      "romaji": "midokoro",
+      "tokens": [
+        {
+          "text": "見どころ",
+          "kana": "みどころ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "见地，观点，角度",
+      "japanese": "見地",
+      "kana": "けんち",
+      "romaji": "kenchi",
+      "tokens": [
+        {
+          "text": "見地",
+          "kana": "けんち"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "原型，模型",
+      "japanese": "原型",
+      "kana": "げんけい",
+      "romaji": "genkei",
+      "tokens": [
+        {
+          "text": "原型",
+          "kana": "げんけい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "固有，特有",
+      "japanese": "固有",
+      "kana": "こゆう",
+      "romaji": "koyuu",
+      "tokens": [
+        {
+          "text": "固有",
+          "kana": "こゆう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "孤立",
+      "japanese": "孤立",
+      "kana": "こりつ",
+      "romaji": "koritsu",
+      "tokens": [
+        {
+          "text": "孤立",
+          "kana": "こりつ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "困惑，不知所措",
+      "japanese": "戸惑い",
+      "kana": "とまどい",
+      "romaji": "tomadoi",
+      "tokens": [
+        {
+          "text": "戸惑い",
+          "kana": "とまどい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "夸张，夸大",
+      "japanese": "誇張",
+      "kana": "こちょう",
+      "romaji": "kochou",
+      "tokens": [
+        {
+          "text": "誇張",
+          "kana": "こちょう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "误差；差错",
+      "japanese": "誤差",
+      "kana": "ごさ",
+      "romaji": "gosa",
+      "tokens": [
+        {
+          "text": "誤差",
+          "kana": "ごさ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "交易，贸易",
+      "japanese": "交易",
+      "kana": "こうえき",
+      "romaji": "koueki",
+      "tokens": [
+        {
+          "text": "交易",
+          "kana": "こうえき"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "互相，交替",
+      "japanese": "交互",
+      "kana": "こうご",
+      "romaji": "kougo",
+      "tokens": [
+        {
+          "text": "交互",
+          "kana": "こうご"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "交付，发给，颁发",
+      "japanese": "交付",
+      "kana": "こうふ",
+      "romaji": "koufu",
+      "tokens": [
+        {
+          "text": "交付",
+          "kana": "こうふ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "口头传播，街谈巷议",
+      "japanese": "口コミ",
+      "kana": "くちこみ",
+      "romaji": "kuchikomi",
+      "tokens": [
+        {
+          "text": "口コミ",
+          "kana": "くちこみ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "口头",
+      "japanese": "口頭",
+      "kana": "こうとう",
+      "romaji": "koutou",
+      "tokens": [
+        {
+          "text": "口頭",
+          "kana": "こうとう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "宣传，报导",
+      "japanese": "広報",
+      "kana": "こうほう",
+      "romaji": "kouhou",
+      "tokens": [
+        {
+          "text": "広報",
+          "kana": "こうほう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "拘留；束缚，限制",
+      "japanese": "拘束",
+      "kana": "こうそく",
+      "romaji": "kousoku",
+      "tokens": [
+        {
+          "text": "拘束",
+          "kana": "こうそく"
+        }
+      ]
+    }
+  ]
+}

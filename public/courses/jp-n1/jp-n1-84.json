@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-84",
+  "coursePackId": "jp-n1",
+  "title": "名词 84",
+  "order": 84,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "成长，发育，生长",
+      "japanese": "成育",
+      "kana": "せいいく",
+      "romaji": "seiiku",
+      "tokens": [
+        {
+          "text": "成育",
+          "kana": "せいいく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "新学说",
+      "japanese": "新説",
+      "kana": "しんせつ",
+      "romaji": "shinsetsu",
+      "tokens": [
+        {
+          "text": "新説",
+          "kana": "しんせつ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "有名，出名",
+      "japanese": "知名",
+      "kana": "ちめい",
+      "romaji": "chimei",
+      "tokens": [
+        {
+          "text": "知名",
+          "kana": "ちめい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "软件",
+      "japanese": "ソフトウエア",
+      "kana": "そふとうえあ",
+      "romaji": "sofutouea",
+      "tokens": [
+        {
+          "text": "ソフトウエア",
+          "kana": "そふとうえあ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "运笔；笔法，写法",
+      "japanese": "筆遣い",
+      "kana": "ふでづかい",
+      "romaji": "fudezukai",
+      "tokens": [
+        {
+          "text": "筆遣い",
+          "kana": "ふでづかい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "国家公园",
+      "japanese": "国立公園",
+      "kana": "こくりつこうえん",
+      "romaji": "kokuritsukouen",
+      "tokens": [
+        {
+          "text": "国立公園",
+          "kana": "こくりつこうえん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "修饰语",
+      "japanese": "修飾語",
+      "kana": "しゅうしょくご",
+      "romaji": "shuushokugo",
+      "tokens": [
+        {
+          "text": "修飾語",
+          "kana": "しゅうしょくご"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "开垦荒地（的人）；开拓（者），先驱（者）",
+      "japanese": "草分け",
+      "kana": "くさわけ",
+      "romaji": "kusawake",
+      "tokens": [
+        {
+          "text": "草分け",
+          "kana": "くさわけ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "黄树叶",
+      "japanese": "黄葉",
+      "kana": "こうよう",
+      "romaji": "kouyou",
+      "tokens": [
+        {
+          "text": "黄葉",
+          "kana": "こうよう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "靠近村庄的山，后山",
+      "japanese": "里山",
+      "kana": "さとやま",
+      "romaji": "satoyama",
+      "tokens": [
+        {
+          "text": "里山",
+          "kana": "さとやま"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "名胜",
+      "japanese": "名勝",
+      "kana": "めいしょう",
+      "romaji": "meishou",
+      "tokens": [
+        {
+          "text": "名勝",
+          "kana": "めいしょう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "沼气，甲烷",
+      "japanese": "メタンガス",
+      "kana": "めたんがす",
+      "romaji": "metangasu",
+      "tokens": [
+        {
+          "text": "メタンガス",
+          "kana": "めたんがす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "锐利的武器；利器，便利的工具",
+      "japanese": "利器",
+      "kana": "りき",
+      "romaji": "riki",
+      "tokens": [
+        {
+          "text": "利器",
+          "kana": "りき"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "坦桑尼亚",
+      "japanese": "タンザニア",
+      "kana": "たんざにあ",
+      "romaji": "tanzania",
+      "tokens": [
+        {
+          "text": "タンザニア",
+          "kana": "たんざにあ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "姐妹城市",
+      "japanese": "姉妹都市",
+      "kana": "しまいとし",
+      "romaji": "shimaitoshi",
+      "tokens": [
+        {
+          "text": "姉妹都市",
+          "kana": "しまいとし"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "彩色印刷",
+      "japanese": "色刷り",
+      "kana": "いろずり",
+      "romaji": "irozuri",
+      "tokens": [
+        {
+          "text": "色刷り",
+          "kana": "いろずり"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "（空中）索道",
+      "japanese": "ロープウエー",
+      "kana": "ろうぷうええ",
+      "romaji": "roupuuee",
+      "tokens": [
+        {
+          "text": "ロープウエー",
+          "kana": "ろうぷうええ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "敬老节",
+      "japanese": "敬老の日",
+      "kana": "けいろうのひ",
+      "romaji": "keirounohi",
+      "tokens": [
+        {
+          "text": "敬老の日",
+          "kana": "けいろうのひ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "绿阴",
+      "japanese": "緑陰",
+      "kana": "りょくいん",
+      "romaji": "ryokuin",
+      "tokens": [
+        {
+          "text": "緑陰",
+          "kana": "りょくいん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（六至十五岁）义务教育的年龄；（应该进入小学的）学龄",
+      "japanese": "学齢",
+      "kana": "がくれい",
+      "romaji": "gakurei",
+      "tokens": [
+        {
+          "text": "学齢",
+          "kana": "がくれい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "报应",
+      "japanese": "罰",
+      "kana": "ばち",
+      "romaji": "bachi",
+      "tokens": [
+        {
+          "text": "罰",
+          "kana": "ばち"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "真挚，认真，一丝不苟",
+      "japanese": "真摯",
+      "kana": "しんし",
+      "romaji": "shinshi",
+      "tokens": [
+        {
+          "text": "真摯",
+          "kana": "しんし"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "代价，等价报酬，补偿，对价",
+      "japanese": "対価",
+      "kana": "たいか",
+      "romaji": "taika",
+      "tokens": [
+        {
+          "text": "対価",
+          "kana": "たいか"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "史料，历史材料；资料",
+      "japanese": "史料",
+      "kana": "しりょう",
+      "romaji": "shiryou",
+      "tokens": [
+        {
+          "text": "史料",
+          "kana": "しりょう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（抽象时）舍弃，舍去表面现象，抽象",
+      "japanese": "捨象",
+      "kana": "しゃしょう",
+      "romaji": "shashou",
+      "tokens": [
+        {
+          "text": "捨象",
+          "kana": "しゃしょう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "表象；象征",
+      "japanese": "表象",
+      "kana": "ひょうしょう",
+      "romaji": "hyoushou",
+      "tokens": [
+        {
+          "text": "表象",
+          "kana": "ひょうしょう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "初，初期",
+      "japanese": "初頭",
+      "kana": "しょとう",
+      "romaji": "shotou",
+      "tokens": [
+        {
+          "text": "初頭",
+          "kana": "しょとう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "狭小，狭窄；（心胸）狭窄，气量小",
+      "japanese": "偏狭",
+      "kana": "へんきょう",
+      "romaji": "henkyou",
+      "tokens": [
+        {
+          "text": "偏狭",
+          "kana": "へんきょう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "敝店",
+      "japanese": "弊店",
+      "kana": "へいてん",
+      "romaji": "heiten",
+      "tokens": [
+        {
+          "text": "弊店",
+          "kana": "へいてん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "过当，过分",
+      "japanese": "過当",
+      "kana": "かとう",
+      "romaji": "katou",
+      "tokens": [
+        {
+          "text": "過当",
+          "kana": "かとう"
+        }
+      ]
+    }
+  ]
+}

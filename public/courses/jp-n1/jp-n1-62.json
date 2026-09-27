@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-62",
+  "coursePackId": "jp-n1",
+  "title": "名词 62",
+  "order": 62,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "媒介物，媒体，手段",
+      "japanese": "媒体",
+      "kana": "ばいたい",
+      "romaji": "baitai",
+      "tokens": [
+        {
+          "text": "媒体",
+          "kana": "ばいたい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "新鲜的程度，鲜度",
+      "japanese": "鮮度",
+      "kana": "せんど",
+      "romaji": "sendo",
+      "tokens": [
+        {
+          "text": "鮮度",
+          "kana": "せんど"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "进货价，成本价；成本，生产费用",
+      "japanese": "原価",
+      "kana": "げんか",
+      "romaji": "genka",
+      "tokens": [
+        {
+          "text": "原価",
+          "kana": "げんか"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "最好",
+      "japanese": "最良",
+      "kana": "さいりょう",
+      "romaji": "sairyou",
+      "tokens": [
+        {
+          "text": "最良",
+          "kana": "さいりょう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "白纸；空白的纸；事前不带偏见；原状",
+      "japanese": "白紙",
+      "kana": "はくし",
+      "romaji": "hakushi",
+      "tokens": [
+        {
+          "text": "白紙",
+          "kana": "はくし"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "难关",
+      "japanese": "難関",
+      "kana": "なんかん",
+      "romaji": "nankan",
+      "tokens": [
+        {
+          "text": "難関",
+          "kana": "なんかん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "达到顶点，涨到极限",
+      "japanese": "頭打ち",
+      "kana": "あたまうち",
+      "romaji": "atamauchi",
+      "tokens": [
+        {
+          "text": "頭打ち",
+          "kana": "あたまうち"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "维修，维持，维护，保养",
+      "japanese": "メンテナンス",
+      "kana": "めんてなんす",
+      "romaji": "mentenansu",
+      "tokens": [
+        {
+          "text": "メンテナンス",
+          "kana": "めんてなんす"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "小树，幼树",
+      "japanese": "若木",
+      "kana": "わかぎ",
+      "romaji": "wakagi",
+      "tokens": [
+        {
+          "text": "若木",
+          "kana": "わかぎ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "品格，品位，风度",
+      "japanese": "品位",
+      "kana": "ひんい",
+      "romaji": "hin'i",
+      "tokens": [
+        {
+          "text": "品位",
+          "kana": "ひんい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "劣势",
+      "japanese": "劣勢",
+      "kana": "れっせい",
+      "romaji": "ressei",
+      "tokens": [
+        {
+          "text": "劣勢",
+          "kana": "れっせい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "激流，急流",
+      "japanese": "激流",
+      "kana": "げきりゅう",
+      "romaji": "gekiryuu",
+      "tokens": [
+        {
+          "text": "激流",
+          "kana": "げきりゅう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "农民，农夫",
+      "japanese": "農夫",
+      "kana": "のうふ",
+      "romaji": "noufu",
+      "tokens": [
+        {
+          "text": "農夫",
+          "kana": "のうふ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "临床",
+      "japanese": "臨床",
+      "kana": "りんしょう",
+      "romaji": "rinshou",
+      "tokens": [
+        {
+          "text": "臨床",
+          "kana": "りんしょう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "村庄；乡下；老家",
+      "japanese": "里",
+      "kana": "さと",
+      "romaji": "sato",
+      "tokens": [
+        {
+          "text": "里",
+          "kana": "さと"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "仙人，神仙",
+      "japanese": "仙人",
+      "kana": "せんにん",
+      "romaji": "sennin",
+      "tokens": [
+        {
+          "text": "仙人",
+          "kana": "せんにん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "妖怪，鬼怪，魔鬼；拥有非凡能力的人",
+      "japanese": "化け物",
+      "kana": "ばけもの",
+      "romaji": "bakemono",
+      "tokens": [
+        {
+          "text": "化け物",
+          "kana": "ばけもの"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "室内温度，室温",
+      "japanese": "室温",
+      "kana": "しつおん",
+      "romaji": "shitsuon",
+      "tokens": [
+        {
+          "text": "室温",
+          "kana": "しつおん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（装裱成卷轴的）书画",
+      "japanese": "巻物",
+      "kana": "まきもの",
+      "romaji": "makimono",
+      "tokens": [
+        {
+          "text": "巻物",
+          "kana": "まきもの"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "混沌，混乱",
+      "japanese": "混 沌[とん]",
+      "kana": "こんとん",
+      "romaji": "konton",
+      "tokens": [
+        {
+          "text": "混 沌[とん]",
+          "kana": "こんとん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "歧路，岔道",
+      "japanese": "岐路",
+      "kana": "きろ",
+      "romaji": "kiro",
+      "tokens": [
+        {
+          "text": "岐路",
+          "kana": "きろ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "表面张力",
+      "japanese": "表面張力",
+      "kana": "ひょうめんちょうりょく",
+      "romaji": "hyoumenchouryoku",
+      "tokens": [
+        {
+          "text": "表面張力",
+          "kana": "ひょうめんちょうりょく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "盘腿坐",
+      "japanese": "あぐら",
+      "kana": "あぐら",
+      "romaji": "agura",
+      "tokens": [
+        {
+          "text": "あぐら",
+          "kana": "あぐら"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "渔民",
+      "japanese": "漁民",
+      "kana": "ぎょみん",
+      "romaji": "gyomin",
+      "tokens": [
+        {
+          "text": "漁民",
+          "kana": "ぎょみん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "图案，图样，花样",
+      "japanese": "絵柄",
+      "kana": "えがら",
+      "romaji": "egara",
+      "tokens": [
+        {
+          "text": "絵柄",
+          "kana": "えがら"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "（神社、庙宇的）院内，院落",
+      "japanese": "境内",
+      "kana": "けいだい",
+      "romaji": "keidai",
+      "tokens": [
+        {
+          "text": "境内",
+          "kana": "けいだい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "趋势，趋向，动向，倾向",
+      "japanese": "趨[すう]勢",
+      "kana": "すうせい",
+      "romaji": "suusei",
+      "tokens": [
+        {
+          "text": "趨[すう]勢",
+          "kana": "すうせい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "同列，同排；同等地位",
+      "japanese": "同列",
+      "kana": "どうれつ",
+      "romaji": "douretsu",
+      "tokens": [
+        {
+          "text": "同列",
+          "kana": "どうれつ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "石垣，石墙",
+      "japanese": "石垣",
+      "kana": "いしがき",
+      "romaji": "ishigaki",
+      "tokens": [
+        {
+          "text": "石垣",
+          "kana": "いしがき"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "意表，意外",
+      "japanese": "意表",
+      "kana": "いひょう",
+      "romaji": "ihyou",
+      "tokens": [
+        {
+          "text": "意表",
+          "kana": "いひょう"
+        }
+      ]
+    }
+  ]
+}

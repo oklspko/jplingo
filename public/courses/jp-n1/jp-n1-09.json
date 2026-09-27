@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-09",
+  "coursePackId": "jp-n1",
+  "title": "名词 9",
+  "order": 9,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "利害，得失",
+      "japanese": "利害",
+      "kana": "りがい",
+      "romaji": "rigai",
+      "tokens": [
+        {
+          "text": "利害",
+          "kana": "りがい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "大树，巨树",
+      "japanese": "大木",
+      "kana": "たいぼく",
+      "romaji": "taiboku",
+      "tokens": [
+        {
+          "text": "大木",
+          "kana": "たいぼく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "库房，储藏室",
+      "japanese": "物置",
+      "kana": "ものおき",
+      "romaji": "monooki",
+      "tokens": [
+        {
+          "text": "物置",
+          "kana": "ものおき"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "记号，符号",
+      "japanese": "記号",
+      "kana": "きごう",
+      "romaji": "kigou",
+      "tokens": [
+        {
+          "text": "記号",
+          "kana": "きごう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "一人份；成年；够格，独当一面",
+      "japanese": "一人前",
+      "kana": "いちにんまえ",
+      "romaji": "ichininmae",
+      "tokens": [
+        {
+          "text": "一人前",
+          "kana": "いちにんまえ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "难点；缺点",
+      "japanese": "難点",
+      "kana": "なんてん",
+      "romaji": "nanten",
+      "tokens": [
+        {
+          "text": "難点",
+          "kana": "なんてん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "从下往上（的路）；逆流而上；从终点到起点方向（的列车或巴士）；由地方去首都",
+      "japanese": "上り",
+      "kana": "のぼり",
+      "romaji": "nobori",
+      "tokens": [
+        {
+          "text": "上り",
+          "kana": "のぼり"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "活动身体；自由行动",
+      "japanese": "身動き",
+      "kana": "みうごき",
+      "romaji": "miugoki",
+      "tokens": [
+        {
+          "text": "身動き",
+          "kana": "みうごき"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "碎屑；废物",
+      "japanese": "くず",
+      "kana": "くず",
+      "romaji": "kuzu",
+      "tokens": [
+        {
+          "text": "くず",
+          "kana": "くず"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "痕迹；迹象；行踪；遗迹",
+      "japanese": "跡",
+      "kana": "あと",
+      "romaji": "ato",
+      "tokens": [
+        {
+          "text": "跡",
+          "kana": "あと"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "条纹，格纹；条纹花样",
+      "japanese": "縞[しま]",
+      "kana": "しま",
+      "romaji": "shima",
+      "tokens": [
+        {
+          "text": "縞[しま]",
+          "kana": "しま"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "随声附和，帮腔",
+      "japanese": "相 槌[づち]",
+      "kana": "あいづち",
+      "romaji": "aizuchi",
+      "tokens": [
+        {
+          "text": "相 槌[づち]",
+          "kana": "あいづち"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "田地",
+      "japanese": "田んぼ",
+      "kana": "たんぼ",
+      "romaji": "tanbo",
+      "tokens": [
+        {
+          "text": "田んぼ",
+          "kana": "たんぼ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "发条，弹簧；（腿、腰等的）弹性",
+      "japanese": "ばね",
+      "kana": "ばね",
+      "romaji": "bane",
+      "tokens": [
+        {
+          "text": "ばね",
+          "kana": "ばね"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "砖，砖块",
+      "japanese": "れんが",
+      "kana": "れんが",
+      "romaji": "renga",
+      "tokens": [
+        {
+          "text": "れんが",
+          "kana": "れんが"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "陨石",
+      "japanese": "隕[いん]石",
+      "kana": "いんせき",
+      "romaji": "inseki",
+      "tokens": [
+        {
+          "text": "隕[いん]石",
+          "kana": "いんせき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "混凝土",
+      "japanese": "コンクリート",
+      "kana": "こんくりいと",
+      "romaji": "konkuriito",
+      "tokens": [
+        {
+          "text": "コンクリート",
+          "kana": "こんくりいと"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "象征；符号",
+      "japanese": "シンボル",
+      "kana": "しんぼる",
+      "romaji": "shinboru",
+      "tokens": [
+        {
+          "text": "シンボル",
+          "kana": "しんぼる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "幻灯片，幻灯机；滑动，滑座",
+      "japanese": "スライド",
+      "kana": "すらいど",
+      "romaji": "suraido",
+      "tokens": [
+        {
+          "text": "スライド",
+          "kana": "すらいど"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "护士，女护士",
+      "japanese": "ナース",
+      "kana": "なあす",
+      "romaji": "naasu",
+      "tokens": [
+        {
+          "text": "ナース",
+          "kana": "なあす"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "网络；网状组织",
+      "japanese": "ネットワーク",
+      "kana": "ねっとわあく",
+      "romaji": "nettowaaku",
+      "tokens": [
+        {
+          "text": "ネットワーク",
+          "kana": "ねっとわあく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "表演，演出；效果，性能",
+      "japanese": "パフォーマンス",
+      "kana": "ぱふぉうまんす",
+      "romaji": "pafuoumansu",
+      "tokens": [
+        {
+          "text": "パフォーマンス",
+          "kana": "ぱふぉうまんす"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "靠打工维持生计的人",
+      "japanese": "フリーター",
+      "kana": "ふりいたあ",
+      "romaji": "furiitaa",
+      "tokens": [
+        {
+          "text": "フリーター",
+          "kana": "ふりいたあ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "马达，发动机；车",
+      "japanese": "モーター",
+      "kana": "もうたあ",
+      "romaji": "moutaa",
+      "tokens": [
+        {
+          "text": "モーター",
+          "kana": "もうたあ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "帆船，游艇",
+      "japanese": "ヨット",
+      "kana": "よっと",
+      "romaji": "yotto",
+      "tokens": [
+        {
+          "text": "ヨット",
+          "kana": "よっと"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "危险，风险",
+      "japanese": "リスク",
+      "kana": "りすく",
+      "romaji": "risuku",
+      "tokens": [
+        {
+          "text": "リスク",
+          "kana": "りすく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "余暇，空闲；休闲娱乐",
+      "japanese": "レジャー",
+      "kana": "れじゃあ",
+      "romaji": "rejaa",
+      "tokens": [
+        {
+          "text": "レジャー",
+          "kana": "れじゃあ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "贷款",
+      "japanese": "ローン",
+      "kana": "ろうん",
+      "romaji": "roun",
+      "tokens": [
+        {
+          "text": "ローン",
+          "kana": "ろうん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "压缩；缩短，缩减；（电脑）压缩",
+      "japanese": "圧縮",
+      "kana": "あっしゅく",
+      "romaji": "asshuku",
+      "tokens": [
+        {
+          "text": "圧縮",
+          "kana": "あっしゅく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "外汇",
+      "japanese": "為替",
+      "kana": "かわせ",
+      "romaji": "kawase",
+      "tokens": [
+        {
+          "text": "為替",
+          "kana": "かわせ"
+        }
+      ]
+    }
+  ]
+}

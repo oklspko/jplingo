@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-38",
+  "coursePackId": "jp-n3",
+  "title": "名词 38",
+  "order": 38,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "心理咨询师",
+      "japanese": "カウンセラー",
+      "kana": "かうんせらあ",
+      "romaji": "kaunseraa",
+      "tokens": [
+        {
+          "text": "カウンセラー",
+          "kana": "かうんせらあ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "地点；网站",
+      "japanese": "サイト",
+      "kana": "さいと",
+      "romaji": "saito",
+      "tokens": [
+        {
+          "text": "サイト",
+          "kana": "さいと"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "（儿童用语）爸爸",
+      "japanese": "パパ",
+      "kana": "ぱぱ",
+      "romaji": "papa",
+      "tokens": [
+        {
+          "text": "パパ",
+          "kana": "ぱぱ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "（特指事务类工作的）职员；实业家",
+      "japanese": "ビジネスマン",
+      "kana": "びじねすまん",
+      "romaji": "bijinesuman",
+      "tokens": [
+        {
+          "text": "ビジネスマン",
+          "kana": "びじねすまん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "游戏；比赛；戏剧",
+      "japanese": "プレー",
+      "kana": "ぷれえ",
+      "romaji": "puree",
+      "tokens": [
+        {
+          "text": "プレー",
+          "kana": "ぷれえ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "运动员；（音乐）播放器；表演者",
+      "japanese": "プレーヤー",
+      "kana": "ぷれえやあ",
+      "romaji": "pureeyaa",
+      "tokens": [
+        {
+          "text": "プレーヤー",
+          "kana": "ぷれえやあ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（男）主人；男招待",
+      "japanese": "ホスト",
+      "kana": "ほすと",
+      "romaji": "hosuto",
+      "tokens": [
+        {
+          "text": "ホスト",
+          "kana": "ほすと"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "毫，千分之一",
+      "japanese": "ミリ",
+      "kana": "みり",
+      "romaji": "miri",
+      "tokens": [
+        {
+          "text": "ミリ",
+          "kana": "みり"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "原因，理由",
+      "japanese": "所以[ゆえん]",
+      "kana": "ゆえん",
+      "romaji": "yuen",
+      "tokens": [
+        {
+          "text": "所以[ゆえん]",
+          "kana": "ゆえん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "屋子，房间",
+      "japanese": "ルーム",
+      "kana": "るうむ",
+      "romaji": "ruumu",
+      "tokens": [
+        {
+          "text": "ルーム",
+          "kana": "るうむ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "牡蛎，生蚝",
+      "japanese": "牡蠣[かき]",
+      "kana": "かき",
+      "romaji": "kaki",
+      "tokens": [
+        {
+          "text": "牡蠣[かき]",
+          "kana": "かき"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "以下，如下",
+      "japanese": "下記",
+      "kana": "かき",
+      "romaji": "kaki",
+      "tokens": [
+        {
+          "text": "下記",
+          "kana": "かき"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "会费",
+      "japanese": "会費",
+      "kana": "かいひ",
+      "romaji": "kaihi",
+      "tokens": [
+        {
+          "text": "会費",
+          "kana": "かいひ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "股份制；股票",
+      "japanese": "株式",
+      "kana": "かぶしき",
+      "romaji": "kabushiki",
+      "tokens": [
+        {
+          "text": "株式",
+          "kana": "かぶしき"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "习惯，习惯化",
+      "japanese": "慣れ",
+      "kana": "なれ",
+      "romaji": "nare",
+      "tokens": [
+        {
+          "text": "慣れ",
+          "kana": "なれ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "棒球场",
+      "japanese": "球場",
+      "kana": "きゅうじょう",
+      "romaji": "kyuujou",
+      "tokens": [
+        {
+          "text": "球場",
+          "kana": "きゅうじょう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "一起，共同；一共；都",
+      "japanese": "共",
+      "kana": "とも",
+      "romaji": "tomo",
+      "tokens": [
+        {
+          "text": "共",
+          "kana": "とも"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "荧光",
+      "japanese": "蛍光",
+      "kana": "けいこう",
+      "romaji": "keikou",
+      "tokens": [
+        {
+          "text": "蛍光",
+          "kana": "けいこう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "结，系；结束，结尾；饭团",
+      "japanese": "結び",
+      "kana": "むすび",
+      "romaji": "musubi",
+      "tokens": [
+        {
+          "text": "結び",
+          "kana": "むすび"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "日后；事后",
+      "japanese": "後日",
+      "kana": "ごじつ",
+      "romaji": "gojitsu",
+      "tokens": [
+        {
+          "text": "後日",
+          "kana": "ごじつ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "最上面；最高，最好",
+      "japanese": "最上",
+      "kana": "さいじょう",
+      "romaji": "saijou",
+      "tokens": [
+        {
+          "text": "最上",
+          "kana": "さいじょう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "策划，谋略",
+      "japanese": "策",
+      "kana": "さく",
+      "romaji": "saku",
+      "tokens": [
+        {
+          "text": "策",
+          "kana": "さく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "胜者，胜利的人",
+      "japanese": "勝者",
+      "kana": "しょうしゃ",
+      "romaji": "shousha",
+      "tokens": [
+        {
+          "text": "勝者",
+          "kana": "しょうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "上空，高空",
+      "japanese": "上空",
+      "kana": "じょうくう",
+      "romaji": "joukuu",
+      "tokens": [
+        {
+          "text": "上空",
+          "kana": "じょうくう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（经济）上市；上演",
+      "japanese": "上場",
+      "kana": "じょうじょう",
+      "romaji": "joujou",
+      "tokens": [
+        {
+          "text": "上場",
+          "kana": "じょうじょう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "新型",
+      "japanese": "新型",
+      "kana": "しんがた",
+      "romaji": "shingata",
+      "tokens": [
+        {
+          "text": "新型",
+          "kana": "しんがた"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "水族馆",
+      "japanese": "水族館",
+      "kana": "すいぞくかん",
+      "romaji": "suizokukan",
+      "tokens": [
+        {
+          "text": "水族館",
+          "kana": "すいぞくかん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "折扇，扇子",
+      "japanese": "扇子",
+      "kana": "せんす",
+      "romaji": "sensu",
+      "tokens": [
+        {
+          "text": "扇子",
+          "kana": "せんす"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "前面，前方",
+      "japanese": "前方",
+      "kana": "ぜんぽう",
+      "romaji": "zenpou",
+      "tokens": [
+        {
+          "text": "前方",
+          "kana": "ぜんぽう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "早晨",
+      "japanese": "早朝",
+      "kana": "そうちょう",
+      "romaji": "souchou",
+      "tokens": [
+        {
+          "text": "早朝",
+          "kana": "そうちょう"
+        }
+      ]
+    }
+  ]
+}

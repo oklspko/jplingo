@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-77",
+  "coursePackId": "jp-n1",
+  "title": "名词 77",
+  "order": 77,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "下坡；衰退，下降；（天气）转坏",
+      "japanese": "下り坂",
+      "kana": "くだりざか",
+      "romaji": "kudarizaka",
+      "tokens": [
+        {
+          "text": "下り坂",
+          "kana": "くだりざか"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "转机，转折点",
+      "japanese": "転機",
+      "kana": "てんき",
+      "romaji": "tenki",
+      "tokens": [
+        {
+          "text": "転機",
+          "kana": "てんき"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "常规，惯例；定例",
+      "japanese": "定例",
+      "kana": "ていれい",
+      "romaji": "teirei",
+      "tokens": [
+        {
+          "text": "定例",
+          "kana": "ていれい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "坐（交通工具等）的感觉",
+      "japanese": "乗り心地",
+      "kana": "のりごこち",
+      "romaji": "norigokochi",
+      "tokens": [
+        {
+          "text": "乗り心地",
+          "kana": "のりごこち"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "驻在，驻；（「駐在所」の略）派出所",
+      "japanese": "駐在",
+      "kana": "ちゅうざい",
+      "romaji": "chuuzai",
+      "tokens": [
+        {
+          "text": "駐在",
+          "kana": "ちゅうざい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "资本主义",
+      "japanese": "資本主義",
+      "kana": "しほんしゅぎ",
+      "romaji": "shihonshugi",
+      "tokens": [
+        {
+          "text": "資本主義",
+          "kana": "しほんしゅぎ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "自然现象",
+      "japanese": "自然現象",
+      "kana": "しぜんげんしょう",
+      "romaji": "shizengenshou",
+      "tokens": [
+        {
+          "text": "自然現象",
+          "kana": "しぜんげんしょう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "车头灯，前灯",
+      "japanese": "ヘッドライト",
+      "kana": "へっどらいと",
+      "romaji": "heddoraito",
+      "tokens": [
+        {
+          "text": "ヘッドライト",
+          "kana": "へっどらいと"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "故意；（法律）蓄意",
+      "japanese": "故意",
+      "kana": "こい",
+      "romaji": "koi",
+      "tokens": [
+        {
+          "text": "故意",
+          "kana": "こい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "诞生",
+      "japanese": "生誕",
+      "kana": "せいたん",
+      "romaji": "seitan",
+      "tokens": [
+        {
+          "text": "生誕",
+          "kana": "せいたん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "稿纸",
+      "japanese": "原稿用紙",
+      "kana": "げんこうようし",
+      "romaji": "genkouyoushi",
+      "tokens": [
+        {
+          "text": "原稿用紙",
+          "kana": "げんこうようし"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "标高，海拔",
+      "japanese": "標高",
+      "kana": "ひょうこう",
+      "romaji": "hyoukou",
+      "tokens": [
+        {
+          "text": "標高",
+          "kana": "ひょうこう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（小学）一、二年级（的学生）",
+      "japanese": "低学年",
+      "kana": "ていがくねん",
+      "romaji": "teigakunen",
+      "tokens": [
+        {
+          "text": "低学年",
+          "kana": "ていがくねん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（为登山者设置的）山中小屋，山中休息处",
+      "japanese": "山小屋",
+      "kana": "やまごや",
+      "romaji": "yamagoya",
+      "tokens": [
+        {
+          "text": "山小屋",
+          "kana": "やまごや"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（武道、艺术等）奥义，秘法",
+      "japanese": "極意",
+      "kana": "ごくい",
+      "romaji": "gokui",
+      "tokens": [
+        {
+          "text": "極意",
+          "kana": "ごくい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "侦探小说，推理小说",
+      "japanese": "推理小説",
+      "kana": "すいりしょうせつ",
+      "romaji": "suirishousetsu",
+      "tokens": [
+        {
+          "text": "推理小説",
+          "kana": "すいりしょうせつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "专家，内行，行家",
+      "japanese": "エキスパート",
+      "kana": "えきすぱあと",
+      "romaji": "ekisupaato",
+      "tokens": [
+        {
+          "text": "エキスパート",
+          "kana": "えきすぱあと"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "浸水",
+      "japanese": "浸水",
+      "kana": "しんすい",
+      "romaji": "shinsui",
+      "tokens": [
+        {
+          "text": "浸水",
+          "kana": "しんすい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（物价）暴涨，高涨",
+      "japanese": "高騰",
+      "kana": "こうとう",
+      "romaji": "koutou",
+      "tokens": [
+        {
+          "text": "高騰",
+          "kana": "こうとう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "转变方向，转变；背叛",
+      "japanese": "転向",
+      "kana": "てんこう",
+      "romaji": "tenkou",
+      "tokens": [
+        {
+          "text": "転向",
+          "kana": "てんこう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "人事费，劳务费，人员费用",
+      "japanese": "人件費",
+      "kana": "じんけんひ",
+      "romaji": "jinkenhi",
+      "tokens": [
+        {
+          "text": "人件費",
+          "kana": "じんけんひ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "光亮的地方；公开的地方，大庭广众之下",
+      "japanese": "明るみ",
+      "kana": "あかるみ",
+      "romaji": "akarumi",
+      "tokens": [
+        {
+          "text": "明るみ",
+          "kana": "あかるみ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "会同，在场",
+      "japanese": "立ち会い",
+      "kana": "たちあい",
+      "romaji": "tachiai",
+      "tokens": [
+        {
+          "text": "立ち会い",
+          "kana": "たちあい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "备件，备用品；（保龄球）头两个球把十个柱全打倒",
+      "japanese": "スペア",
+      "kana": "すぺあ",
+      "romaji": "supea",
+      "tokens": [
+        {
+          "text": "スペア",
+          "kana": "すぺあ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "救命，救生",
+      "japanese": "救命",
+      "kana": "きゅうめい",
+      "romaji": "kyuumei",
+      "tokens": [
+        {
+          "text": "救命",
+          "kana": "きゅうめい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "共生，共栖",
+      "japanese": "共生",
+      "kana": "きょうせい",
+      "romaji": "kyousei",
+      "tokens": [
+        {
+          "text": "共生",
+          "kana": "きょうせい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "一定时间内重复进行的动作次数；螺距；音调；（棒球）投球；足球场",
+      "japanese": "ピッチ",
+      "kana": "ぴっち",
+      "romaji": "pitchi",
+      "tokens": [
+        {
+          "text": "ピッチ",
+          "kana": "ぴっち"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "无色；中正",
+      "japanese": "無色",
+      "kana": "むしょく",
+      "romaji": "mushoku",
+      "tokens": [
+        {
+          "text": "無色",
+          "kana": "むしょく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "三脚架；三脚椅子",
+      "japanese": "三脚",
+      "kana": "さんきゃく",
+      "romaji": "sankyaku",
+      "tokens": [
+        {
+          "text": "三脚",
+          "kana": "さんきゃく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "哺乳类",
+      "japanese": "哺乳類",
+      "kana": "ほにゅうるい",
+      "romaji": "honyuurui",
+      "tokens": [
+        {
+          "text": "哺乳類",
+          "kana": "ほにゅうるい"
+        }
+      ]
+    }
+  ]
+}

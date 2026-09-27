@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-52",
+  "coursePackId": "jp-n1",
+  "title": "名词 52",
+  "order": 52,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "发育，成长",
+      "japanese": "発育",
+      "kana": "はついく",
+      "romaji": "hatsuiku",
+      "tokens": [
+        {
+          "text": "発育",
+          "kana": "はついく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "发酵",
+      "japanese": "発酵",
+      "kana": "はっこう",
+      "romaji": "hakkou",
+      "tokens": [
+        {
+          "text": "発酵",
+          "kana": "はっこう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "订购",
+      "japanese": "発注",
+      "kana": "はっちゅう",
+      "romaji": "hatchuu",
+      "tokens": [
+        {
+          "text": "発注",
+          "kana": "はっちゅう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "发病，得病",
+      "japanese": "発病",
+      "kana": "はつびょう",
+      "romaji": "hatsubyou",
+      "tokens": [
+        {
+          "text": "発病",
+          "kana": "はつびょう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "惩罚，处罚",
+      "japanese": "罰",
+      "kana": "ばつ",
+      "romaji": "batsu",
+      "tokens": [
+        {
+          "text": "罰",
+          "kana": "ばつ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "拔刀就砍；突袭",
+      "japanese": "抜き打ち",
+      "kana": "ぬきうち",
+      "romaji": "nukiuchi",
+      "tokens": [
+        {
+          "text": "抜き打ち",
+          "kana": "ぬきうち"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "超群",
+      "japanese": "抜群",
+      "kana": "ばつぐん",
+      "romaji": "batsugun",
+      "tokens": [
+        {
+          "text": "抜群",
+          "kana": "ばつぐん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "摘录",
+      "japanese": "抜粋",
+      "kana": "ばっすい",
+      "romaji": "bassui",
+      "tokens": [
+        {
+          "text": "抜粋",
+          "kana": "ばっすい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "销路",
+      "japanese": "販路",
+      "kana": "はんろ",
+      "romaji": "hanro",
+      "tokens": [
+        {
+          "text": "販路",
+          "kana": "はんろ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "繁杂，麻烦",
+      "japanese": "煩雑",
+      "kana": "はんざつ",
+      "romaji": "hanzatsu",
+      "tokens": [
+        {
+          "text": "煩雑",
+          "kana": "はんざつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "值班人，看守人",
+      "japanese": "番人",
+      "kana": "ばんにん",
+      "romaji": "bannin",
+      "tokens": [
+        {
+          "text": "番人",
+          "kana": "ばんにん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "跳跃；飞跃；不连贯",
+      "japanese": "飛躍",
+      "kana": "ひやく",
+      "romaji": "hiyaku",
+      "tokens": [
+        {
+          "text": "飛躍",
+          "kana": "ひやく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "微生物",
+      "japanese": "微生物",
+      "kana": "びせいぶつ",
+      "romaji": "biseibutsu",
+      "tokens": [
+        {
+          "text": "微生物",
+          "kana": "びせいぶつ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "必然性",
+      "japanese": "必然性",
+      "kana": "ひつぜんせい",
+      "romaji": "hitsuzensei",
+      "tokens": [
+        {
+          "text": "必然性",
+          "kana": "ひつぜんせい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "表面，外表；公开",
+      "japanese": "表向き",
+      "kana": "おもてむき",
+      "romaji": "omotemuki",
+      "tokens": [
+        {
+          "text": "表向き",
+          "kana": "おもてむき"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "贫富",
+      "japanese": "貧富",
+      "kana": "ひんぷ",
+      "romaji": "hinpu",
+      "tokens": [
+        {
+          "text": "貧富",
+          "kana": "ひんぷ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "不稳定，险恶",
+      "japanese": "不穏",
+      "kana": "ふおん",
+      "romaji": "fuon",
+      "tokens": [
+        {
+          "text": "不穏",
+          "kana": "ふおん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "难以理解，不可思议",
+      "japanese": "不可解",
+      "kana": "ふかかい",
+      "romaji": "fukakai",
+      "tokens": [
+        {
+          "text": "不可解",
+          "kana": "ふかかい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "丑闻，坏事",
+      "japanese": "不祥事",
+      "kana": "ふしょうじ",
+      "romaji": "fushouji",
+      "tokens": [
+        {
+          "text": "不祥事",
+          "kana": "ふしょうじ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "不信任的感觉",
+      "japanese": "不信感",
+      "kana": "ふしんかん",
+      "romaji": "fushinkan",
+      "tokens": [
+        {
+          "text": "不信感",
+          "kana": "ふしんかん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "不情愿，非本意",
+      "japanese": "不本意",
+      "kana": "ふほんい",
+      "romaji": "fuhon'i",
+      "tokens": [
+        {
+          "text": "不本意",
+          "kana": "ふほんい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "财富",
+      "japanese": "富",
+      "kana": "とみ",
+      "romaji": "tomi",
+      "tokens": [
+        {
+          "text": "富",
+          "kana": "とみ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "浮雕；刻画，使形象突出",
+      "japanese": "浮き彫り",
+      "kana": "うきぼり",
+      "romaji": "ukibori",
+      "tokens": [
+        {
+          "text": "浮き彫り",
+          "kana": "うきぼり"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "符合，一致",
+      "japanese": "符合",
+      "kana": "ふごう",
+      "romaji": "fugou",
+      "tokens": [
+        {
+          "text": "符合",
+          "kana": "ふごう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "附加",
+      "japanese": "付加",
+      "kana": "ふか",
+      "romaji": "fuka",
+      "tokens": [
+        {
+          "text": "付加",
+          "kana": "ふか"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "部族，部落",
+      "japanese": "部族",
+      "kana": "ぶぞく",
+      "romaji": "buzoku",
+      "tokens": [
+        {
+          "text": "部族",
+          "kana": "ぶぞく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（纺织品、纸张等的）手感和观感",
+      "japanese": "風合い",
+      "kana": "ふうあい",
+      "romaji": "fuuai",
+      "tokens": [
+        {
+          "text": "風合い",
+          "kana": "ふうあい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "风俗，习俗",
+      "japanese": "風俗",
+      "kana": "ふうぞく",
+      "romaji": "fuuzoku",
+      "tokens": [
+        {
+          "text": "風俗",
+          "kana": "ふうぞく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "副业",
+      "japanese": "副業",
+      "kana": "ふくぎょう",
+      "romaji": "fukugyou",
+      "tokens": [
+        {
+          "text": "副業",
+          "kana": "ふくぎょう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "福利",
+      "japanese": "福利",
+      "kana": "ふくり",
+      "romaji": "fukuri",
+      "tokens": [
+        {
+          "text": "福利",
+          "kana": "ふくり"
+        }
+      ]
+    }
+  ]
+}

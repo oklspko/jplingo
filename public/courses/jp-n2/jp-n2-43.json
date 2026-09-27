@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-43",
+  "coursePackId": "jp-n2",
+  "title": "名词 43",
+  "order": 43,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（优劣的）形势；厚度；十分之一；百分之一",
+      "japanese": "分",
+      "kana": "ぶ",
+      "romaji": "bu",
+      "tokens": [
+        {
+          "text": "分",
+          "kana": "ぶ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "分配，分发",
+      "japanese": "分配",
+      "kana": "ぶんぱい",
+      "romaji": "bunpai",
+      "tokens": [
+        {
+          "text": "分配",
+          "kana": "ぶんぱい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "退货",
+      "japanese": "返品",
+      "kana": "へんぴん",
+      "romaji": "henpin",
+      "tokens": [
+        {
+          "text": "返品",
+          "kana": "へんぴん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "保护，庇护",
+      "japanese": "保護",
+      "kana": "ほご",
+      "romaji": "hogo",
+      "tokens": [
+        {
+          "text": "保護",
+          "kana": "ほご"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "保障，保证",
+      "japanese": "保障",
+      "kana": "ほしょう",
+      "romaji": "hoshou",
+      "tokens": [
+        {
+          "text": "保障",
+          "kana": "ほしょう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "补充，补足",
+      "japanese": "補足",
+      "kana": "ほそく",
+      "romaji": "hosoku",
+      "tokens": [
+        {
+          "text": "補足",
+          "kana": "ほそく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（幼儿语）抱",
+      "japanese": "抱っこ",
+      "kana": "だっこ",
+      "romaji": "dakko",
+      "tokens": [
+        {
+          "text": "抱っこ",
+          "kana": "だっこ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "方式，方法",
+      "japanese": "方式",
+      "kana": "ほうしき",
+      "romaji": "houshiki",
+      "tokens": [
+        {
+          "text": "方式",
+          "kana": "ほうしき"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "蜂，蜂类",
+      "japanese": "蜂",
+      "kana": "はち",
+      "romaji": "hachi",
+      "tokens": [
+        {
+          "text": "蜂",
+          "kana": "はち"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "暴力，武力",
+      "japanese": "暴力",
+      "kana": "ぼうりょく",
+      "romaji": "bouryoku",
+      "tokens": [
+        {
+          "text": "暴力",
+          "kana": "ぼうりょく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "本……，我……",
+      "japanese": "本",
+      "kana": "ほん",
+      "romaji": "hon",
+      "tokens": [
+        {
+          "text": "本",
+          "kana": "ほん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "本质",
+      "japanese": "本質",
+      "kana": "ほんしつ",
+      "romaji": "honshitsu",
+      "tokens": [
+        {
+          "text": "本質",
+          "kana": "ほんしつ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "紧挨；关系密切",
+      "japanese": "密接",
+      "kana": "みっせつ",
+      "romaji": "missetsu",
+      "tokens": [
+        {
+          "text": "密接",
+          "kana": "みっせつ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "职责，义务",
+      "japanese": "務め",
+      "kana": "つとめ",
+      "romaji": "tsutome",
+      "tokens": [
+        {
+          "text": "務め",
+          "kana": "つとめ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "擅自，私自",
+      "japanese": "無断",
+      "kana": "むだん",
+      "romaji": "mudan",
+      "tokens": [
+        {
+          "text": "無断",
+          "kana": "むだん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "没用；不用，无须；没事",
+      "japanese": "無用",
+      "kana": "むよう",
+      "romaji": "muyou",
+      "tokens": [
+        {
+          "text": "無用",
+          "kana": "むよう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "名产，特产",
+      "japanese": "名産",
+      "kana": "めいさん",
+      "romaji": "meisan",
+      "tokens": [
+        {
+          "text": "名産",
+          "kana": "めいさん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "脸面；面具；表面；平面；方面",
+      "japanese": "面",
+      "kana": "めん",
+      "romaji": "men",
+      "tokens": [
+        {
+          "text": "面",
+          "kana": "めん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "模范，榜样，标准",
+      "japanese": "模範",
+      "kana": "もはん",
+      "romaji": "mohan",
+      "tokens": [
+        {
+          "text": "模範",
+          "kana": "もはん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "忧郁，愁闷",
+      "japanese": "憂鬱",
+      "kana": "ゆううつ",
+      "romaji": "yuuutsu",
+      "tokens": [
+        {
+          "text": "憂鬱",
+          "kana": "ゆううつ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "有意义，有价值",
+      "japanese": "有意義",
+      "kana": "ゆういぎ",
+      "romaji": "yuuigi",
+      "tokens": [
+        {
+          "text": "有意義",
+          "kana": "ゆういぎ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "预选，预赛",
+      "japanese": "予選",
+      "kana": "よせん",
+      "romaji": "yosen",
+      "tokens": [
+        {
+          "text": "予選",
+          "kana": "よせん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "容积；容量",
+      "japanese": "容量",
+      "kana": "ようりょう",
+      "romaji": "youryou",
+      "tokens": [
+        {
+          "text": "容量",
+          "kana": "ようりょう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "乱，混乱",
+      "japanese": "乱れ",
+      "kana": "みだれ",
+      "romaji": "midare",
+      "tokens": [
+        {
+          "text": "乱れ",
+          "kana": "みだれ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "旅途，旅行目的地",
+      "japanese": "旅先",
+      "kana": "たびさき",
+      "romaji": "tabisaki",
+      "tokens": [
+        {
+          "text": "旅先",
+          "kana": "たびさき"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "日本纸",
+      "japanese": "和紙",
+      "kana": "わし",
+      "romaji": "washi",
+      "tokens": [
+        {
+          "text": "和紙",
+          "kana": "わし"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "加速器，油门",
+      "japanese": "アクセル",
+      "kana": "あくせる",
+      "romaji": "akuseru",
+      "tokens": [
+        {
+          "text": "アクセル",
+          "kana": "あくせる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "接近；研究",
+      "japanese": "アプローチ",
+      "kana": "あぷろうち",
+      "romaji": "apurouchi",
+      "tokens": [
+        {
+          "text": "アプローチ",
+          "kana": "あぷろうち"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "如实",
+      "japanese": "ありのまま",
+      "kana": "ありのまま",
+      "romaji": "arinomama",
+      "tokens": [
+        {
+          "text": "ありのまま",
+          "kana": "ありのまま"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "冲击，影响",
+      "japanese": "インパクト",
+      "kana": "いんぱくと",
+      "romaji": "inpakuto",
+      "tokens": [
+        {
+          "text": "インパクト",
+          "kana": "いんぱくと"
+        }
+      ]
+    }
+  ]
+}

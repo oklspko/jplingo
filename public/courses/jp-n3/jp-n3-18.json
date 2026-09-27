@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-18",
+  "coursePackId": "jp-n3",
+  "title": "名词 18",
+  "order": 18,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "手段",
+      "japanese": "手段",
+      "kana": "しゅだん",
+      "romaji": "shudan",
+      "tokens": [
+        {
+          "text": "手段",
+          "kana": "しゅだん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "首相",
+      "japanese": "首相",
+      "kana": "しゅしょう",
+      "romaji": "shushou",
+      "tokens": [
+        {
+          "text": "首相",
+          "kana": "しゅしょう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "首都",
+      "japanese": "首都",
+      "kana": "しゅと",
+      "romaji": "shuto",
+      "tokens": [
+        {
+          "text": "首都",
+          "kana": "しゅと"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "报考",
+      "japanese": "受験",
+      "kana": "じゅけん",
+      "romaji": "juken",
+      "tokens": [
+        {
+          "text": "受験",
+          "kana": "じゅけん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "就职，找到工作",
+      "japanese": "就職",
+      "kana": "しゅうしょく",
+      "romaji": "shuushoku",
+      "tokens": [
+        {
+          "text": "就職",
+          "kana": "しゅうしょく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "结束",
+      "japanese": "終了",
+      "kana": "しゅうりょう",
+      "romaji": "shuuryou",
+      "tokens": [
+        {
+          "text": "終了",
+          "kana": "しゅうりょう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "集中",
+      "japanese": "集中",
+      "kana": "しゅうちゅう",
+      "romaji": "shuuchuu",
+      "tokens": [
+        {
+          "text": "集中",
+          "kana": "しゅうちゅう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "祝贺，祝福，祝愿",
+      "japanese": "祝い",
+      "kana": "いわい",
+      "romaji": "iwai",
+      "tokens": [
+        {
+          "text": "祝い",
+          "kana": "いわい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "补习班",
+      "japanese": "塾",
+      "kana": "じゅく",
+      "romaji": "juku",
+      "tokens": [
+        {
+          "text": "塾",
+          "kana": "じゅく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "出勤，上班",
+      "japanese": "出勤",
+      "kana": "しゅっきん",
+      "romaji": "shukkin",
+      "tokens": [
+        {
+          "text": "出勤",
+          "kana": "しゅっきん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "籍贯；出身；毕业",
+      "japanese": "出身",
+      "kana": "しゅっしん",
+      "romaji": "shusshin",
+      "tokens": [
+        {
+          "text": "出身",
+          "kana": "しゅっしん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "顺序，依次，轮流",
+      "japanese": "順番",
+      "kana": "じゅんばん",
+      "romaji": "junban",
+      "tokens": [
+        {
+          "text": "順番",
+          "kana": "じゅんばん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "初级",
+      "japanese": "初級",
+      "kana": "しょきゅう",
+      "romaji": "shokyuu",
+      "tokens": [
+        {
+          "text": "初級",
+          "kana": "しょきゅう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "女孩子；女子",
+      "japanese": "女子",
+      "kana": "じょし",
+      "romaji": "joshi",
+      "tokens": [
+        {
+          "text": "女子",
+          "kana": "じょし"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "商业",
+      "japanese": "商業",
+      "kana": "しょうぎょう",
+      "romaji": "shougyou",
+      "tokens": [
+        {
+          "text": "商業",
+          "kana": "しょうぎょう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "商店",
+      "japanese": "商店",
+      "kana": "しょうてん",
+      "romaji": "shouten",
+      "tokens": [
+        {
+          "text": "商店",
+          "kana": "しょうてん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "商品",
+      "japanese": "商品",
+      "kana": "しょうひん",
+      "romaji": "shouhin",
+      "tokens": [
+        {
+          "text": "商品",
+          "kana": "しょうひん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "奖学金；助学贷款",
+      "japanese": "奨学金",
+      "kana": "しょうがくきん",
+      "romaji": "shougakukin",
+      "tokens": [
+        {
+          "text": "奨学金",
+          "kana": "しょうがくきん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "小型",
+      "japanese": "小型",
+      "kana": "こがた",
+      "romaji": "kogata",
+      "tokens": [
+        {
+          "text": "小型",
+          "kana": "こがた"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "零钱，零用钱",
+      "japanese": "小遣い",
+      "kana": "こづかい",
+      "romaji": "kozukai",
+      "tokens": [
+        {
+          "text": "小遣い",
+          "kana": "こづかい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "小拇指",
+      "japanese": "小指",
+      "kana": "こゆび",
+      "romaji": "koyubi",
+      "tokens": [
+        {
+          "text": "小指",
+          "kana": "こゆび"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "小麦",
+      "japanese": "小麦",
+      "kana": "こむぎ",
+      "romaji": "komugi",
+      "tokens": [
+        {
+          "text": "小麦",
+          "kana": "こむぎ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "招待，邀请",
+      "japanese": "招待",
+      "kana": "しょうたい",
+      "romaji": "shoutai",
+      "tokens": [
+        {
+          "text": "招待",
+          "kana": "しょうたい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "消费；花费",
+      "japanese": "消費",
+      "kana": "しょうひ",
+      "romaji": "shouhi",
+      "tokens": [
+        {
+          "text": "消費",
+          "kana": "しょうひ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "证明；证据",
+      "japanese": "証明",
+      "kana": "しょうめい",
+      "romaji": "shoumei",
+      "tokens": [
+        {
+          "text": "証明",
+          "kana": "しょうめい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "上级；高年级",
+      "japanese": "上級",
+      "kana": "じょうきゅう",
+      "romaji": "joukyuu",
+      "tokens": [
+        {
+          "text": "上級",
+          "kana": "じょうきゅう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "乘车",
+      "japanese": "乗車",
+      "kana": "じょうしゃ",
+      "romaji": "jousha",
+      "tokens": [
+        {
+          "text": "乗車",
+          "kana": "じょうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "装饰",
+      "japanese": "飾り",
+      "kana": "かざり",
+      "romaji": "kazari",
+      "tokens": [
+        {
+          "text": "飾り",
+          "kana": "かざり"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "餐具",
+      "japanese": "食器",
+      "kana": "しょっき",
+      "romaji": "shokki",
+      "tokens": [
+        {
+          "text": "食器",
+          "kana": "しょっき"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "食品",
+      "japanese": "食品",
+      "kana": "しょくひん",
+      "romaji": "shokuhin",
+      "tokens": [
+        {
+          "text": "食品",
+          "kana": "しょくひん"
+        }
+      ]
+    }
+  ]
+}

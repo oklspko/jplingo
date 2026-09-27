@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-42",
+  "coursePackId": "jp-n1",
+  "title": "名词 42",
+  "order": 42,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "偏离（社会轨道、规矩等）",
+      "japanese": "逸脱",
+      "kana": "いつだつ",
+      "romaji": "itsudatsu",
+      "tokens": [
+        {
+          "text": "逸脱",
+          "kana": "いつだつ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "割稻子",
+      "japanese": "稲刈り",
+      "kana": "いねかり",
+      "romaji": "inekari",
+      "tokens": [
+        {
+          "text": "稲刈り",
+          "kana": "いねかり"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "雨云，乌云",
+      "japanese": "雨雲",
+      "kana": "あまぐも",
+      "romaji": "amagumo",
+      "tokens": [
+        {
+          "text": "雨雲",
+          "kana": "あまぐも"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "偷懒，耍滑头",
+      "japanese": "横着",
+      "kana": "おうちゃく",
+      "romaji": "ouchaku",
+      "tokens": [
+        {
+          "text": "横着",
+          "kana": "おうちゃく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "流动摊位，路边摊",
+      "japanese": "屋台",
+      "kana": "やたい",
+      "romaji": "yatai",
+      "tokens": [
+        {
+          "text": "屋台",
+          "kana": "やたい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "承包，转包",
+      "japanese": "下請け",
+      "kana": "したうけ",
+      "romaji": "shitauke",
+      "tokens": [
+        {
+          "text": "下請け",
+          "kana": "したうけ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "劳动；（机器）运转",
+      "japanese": "稼働",
+      "kana": "かどう",
+      "romaji": "kadou",
+      "tokens": [
+        {
+          "text": "稼働",
+          "kana": "かどう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "言过其实",
+      "japanese": "過言",
+      "kana": "かごん",
+      "romaji": "kagon",
+      "tokens": [
+        {
+          "text": "過言",
+          "kana": "かごん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "满意，得意",
+      "japanese": "会心",
+      "kana": "かいしん",
+      "romaji": "kaishin",
+      "tokens": [
+        {
+          "text": "会心",
+          "kana": "かいしん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "回避；推卸",
+      "japanese": "回避",
+      "kana": "かいひ",
+      "romaji": "kaihi",
+      "tokens": [
+        {
+          "text": "回避",
+          "kana": "かいひ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "快乐，享乐",
+      "japanese": "快楽",
+      "kana": "かいらく",
+      "romaji": "kairaku",
+      "tokens": [
+        {
+          "text": "快楽",
+          "kana": "かいらく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "欣然允诺",
+      "japanese": "快諾",
+      "kana": "かいだく",
+      "romaji": "kaidaku",
+      "tokens": [
+        {
+          "text": "快諾",
+          "kana": "かいだく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（道路、建筑等）改建，修复",
+      "japanese": "改修",
+      "kana": "かいしゅう",
+      "romaji": "kaishuu",
+      "tokens": [
+        {
+          "text": "改修",
+          "kana": "かいしゅう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "海底",
+      "japanese": "海底",
+      "kana": "かいてい",
+      "romaji": "kaitei",
+      "tokens": [
+        {
+          "text": "海底",
+          "kana": "かいてい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "开设（公园或幼儿园等）；（公园或幼儿园等）开门",
+      "japanese": "開園",
+      "kana": "かいえん",
+      "romaji": "kaien",
+      "tokens": [
+        {
+          "text": "開園",
+          "kana": "かいえん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "开业；正在营业",
+      "japanese": "開業",
+      "kana": "かいぎょう",
+      "romaji": "kaigyou",
+      "tokens": [
+        {
+          "text": "開業",
+          "kana": "かいぎょう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "开设学校，建校",
+      "japanese": "開校",
+      "kana": "かいこう",
+      "romaji": "kaikou",
+      "tokens": [
+        {
+          "text": "開校",
+          "kana": "かいこう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "概略，概要",
+      "japanese": "概略",
+      "kana": "がいりゃく",
+      "romaji": "gairyaku",
+      "tokens": [
+        {
+          "text": "概略",
+          "kana": "がいりゃく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "街灯，路灯",
+      "japanese": "街灯",
+      "kana": "がいとう",
+      "romaji": "gaitou",
+      "tokens": [
+        {
+          "text": "街灯",
+          "kana": "がいとう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "核心，关键",
+      "japanese": "核心",
+      "kana": "かくしん",
+      "romaji": "kakushin",
+      "tokens": [
+        {
+          "text": "核心",
+          "kana": "かくしん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "隔一周",
+      "japanese": "隔週",
+      "kana": "かくしゅう",
+      "romaji": "kakushuu",
+      "tokens": [
+        {
+          "text": "隔週",
+          "kana": "かくしゅう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "分配，分摊",
+      "japanese": "割り当て",
+      "kana": "わりあて",
+      "romaji": "wariate",
+      "tokens": [
+        {
+          "text": "割り当て",
+          "kana": "わりあて"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "精通；十分满足，享受",
+      "japanese": "堪能",
+      "kana": "たんのう",
+      "romaji": "tannou",
+      "tokens": [
+        {
+          "text": "堪能",
+          "kana": "たんのう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "完结，结束",
+      "japanese": "完結",
+      "kana": "かんけつ",
+      "romaji": "kanketsu",
+      "tokens": [
+        {
+          "text": "完結",
+          "kana": "かんけつ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "铭感，铭刻在心中",
+      "japanese": "感銘",
+      "kana": "かんめい",
+      "romaji": "kanmei",
+      "tokens": [
+        {
+          "text": "感銘",
+          "kana": "かんめい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "重要，关键",
+      "japanese": "肝要",
+      "kana": "かんよう",
+      "romaji": "kan'you",
+      "tokens": [
+        {
+          "text": "肝要",
+          "kana": "かんよう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "相形见绌",
+      "japanese": "顔負け",
+      "kana": "かおまけ",
+      "romaji": "kaomake",
+      "tokens": [
+        {
+          "text": "顔負け",
+          "kana": "かおまけ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "气概，气魄",
+      "japanese": "気概",
+      "kana": "きがい",
+      "romaji": "kigai",
+      "tokens": [
+        {
+          "text": "気概",
+          "kana": "きがい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "气势，劲头",
+      "japanese": "気合",
+      "kana": "きあい",
+      "romaji": "kiai",
+      "tokens": [
+        {
+          "text": "気合",
+          "kana": "きあい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "性情，脾气，性格",
+      "japanese": "気心",
+      "kana": "きごころ",
+      "romaji": "kigokoro",
+      "tokens": [
+        {
+          "text": "気心",
+          "kana": "きごころ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-09",
+  "coursePackId": "jp-n5",
+  "title": "名词 9",
+  "order": 9,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "课，上课",
+      "japanese": "授業",
+      "kana": "じゅぎょう",
+      "romaji": "jugyou",
+      "tokens": [
+        {
+          "text": "授業",
+          "kana": "じゅぎょう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "秋天",
+      "japanese": "秋",
+      "kana": "あき",
+      "romaji": "aki",
+      "tokens": [
+        {
+          "text": "秋",
+          "kana": "あき"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "周，礼拜",
+      "japanese": "週",
+      "kana": "しゅう",
+      "romaji": "shuu",
+      "tokens": [
+        {
+          "text": "週",
+          "kana": "しゅう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "十号；十天",
+      "japanese": "十日",
+      "kana": "とおか",
+      "romaji": "tooka",
+      "tokens": [
+        {
+          "text": "十日",
+          "kana": "とおか"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "作业",
+      "japanese": "宿題",
+      "kana": "しゅくだい",
+      "romaji": "shukudai",
+      "tokens": [
+        {
+          "text": "宿題",
+          "kana": "しゅくだい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "出口",
+      "japanese": "出口",
+      "kana": "でぐち",
+      "romaji": "deguchi",
+      "tokens": [
+        {
+          "text": "出口",
+          "kana": "でぐち"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "春天，春季",
+      "japanese": "春",
+      "kana": "はる",
+      "romaji": "haru",
+      "tokens": [
+        {
+          "text": "春",
+          "kana": "はる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "场所，地方",
+      "japanese": "所",
+      "kana": "ところ",
+      "romaji": "tokoro",
+      "tokens": [
+        {
+          "text": "所",
+          "kana": "ところ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "女性，女人",
+      "japanese": "女",
+      "kana": "おんな",
+      "romaji": "onna",
+      "tokens": [
+        {
+          "text": "女",
+          "kana": "おんな"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "女孩子；年轻女性",
+      "japanese": "女の子",
+      "kana": "おんなのこ",
+      "romaji": "onnanoko",
+      "tokens": [
+        {
+          "text": "女の子",
+          "kana": "おんなのこ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "女性，女人",
+      "japanese": "女性",
+      "kana": "じょせい",
+      "romaji": "josei",
+      "tokens": [
+        {
+          "text": "女性",
+          "kana": "じょせい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "小学",
+      "japanese": "小学校",
+      "kana": "しょうがっこう",
+      "romaji": "shougakkou",
+      "tokens": [
+        {
+          "text": "小学校",
+          "kana": "しょうがっこう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "小学生",
+      "japanese": "小学生",
+      "kana": "しょうがくせい",
+      "romaji": "shougakusei",
+      "tokens": [
+        {
+          "text": "小学生",
+          "kana": "しょうがくせい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "上面；表面；前面；（程度、地位、等级等）高；（年龄）大",
+      "japanese": "上",
+      "kana": "うえ",
+      "romaji": "ue",
+      "tokens": [
+        {
+          "text": "上",
+          "kana": "うえ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "擅长，高明",
+      "japanese": "上手",
+      "kana": "じょうず",
+      "romaji": "jouzu",
+      "tokens": [
+        {
+          "text": "上手",
+          "kana": "じょうず"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "颜色；肤色；种类",
+      "japanese": "色",
+      "kana": "いろ",
+      "romaji": "iro",
+      "tokens": [
+        {
+          "text": "色",
+          "kana": "いろ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "食物，食品",
+      "japanese": "食べ物",
+      "kana": "たべもの",
+      "romaji": "tabemono",
+      "tokens": [
+        {
+          "text": "食べ物",
+          "kana": "たべもの"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "食堂，餐厅",
+      "japanese": "食堂",
+      "kana": "しょくどう",
+      "romaji": "shokudou",
+      "tokens": [
+        {
+          "text": "食堂",
+          "kana": "しょくどう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "信号；红绿灯",
+      "japanese": "信号",
+      "kana": "しんごう",
+      "romaji": "shingou",
+      "tokens": [
+        {
+          "text": "信号",
+          "kana": "しんごう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "报纸",
+      "japanese": "新聞",
+      "kana": "しんぶん",
+      "romaji": "shinbun",
+      "tokens": [
+        {
+          "text": "新聞",
+          "kana": "しんぶん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "父母",
+      "japanese": "親",
+      "kana": "おや",
+      "romaji": "oya",
+      "tokens": [
+        {
+          "text": "親",
+          "kana": "おや"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "人；某人；人品",
+      "japanese": "人",
+      "kana": "ひと",
+      "romaji": "hito",
+      "tokens": [
+        {
+          "text": "人",
+          "kana": "ひと"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "图书馆",
+      "japanese": "図書館",
+      "kana": "としょかん",
+      "romaji": "toshokan",
+      "tokens": [
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "水",
+      "japanese": "水",
+      "kana": "みず",
+      "romaji": "mizu",
+      "tokens": [
+        {
+          "text": "水",
+          "kana": "みず"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "周三",
+      "japanese": "水曜日",
+      "kana": "すいようび",
+      "romaji": "suiyoubi",
+      "tokens": [
+        {
+          "text": "水曜日",
+          "kana": "すいようび"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "晴天",
+      "japanese": "晴れ",
+      "kana": "はれ",
+      "romaji": "hare",
+      "tokens": [
+        {
+          "text": "晴れ",
+          "kana": "はれ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（初中或高中的）学生",
+      "japanese": "生徒",
+      "kana": "せいと",
+      "romaji": "seito",
+      "tokens": [
+        {
+          "text": "生徒",
+          "kana": "せいと"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "西方",
+      "japanese": "西",
+      "kana": "にし",
+      "romaji": "nishi",
+      "tokens": [
+        {
+          "text": "西",
+          "kana": "にし"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "蓝色；青色，绿色；绿灯",
+      "japanese": "青",
+      "kana": "あお",
+      "romaji": "ao",
+      "tokens": [
+        {
+          "text": "青",
+          "kana": "あお"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "红色；完全",
+      "japanese": "赤",
+      "kana": "あか",
+      "romaji": "aka",
+      "tokens": [
+        {
+          "text": "赤",
+          "kana": "あか"
+        }
+      ]
+    }
+  ]
+}

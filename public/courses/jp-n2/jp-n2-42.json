@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-42",
+  "coursePackId": "jp-n2",
+  "title": "名词 42",
+  "order": 42,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（内部）调动工作，转职",
+      "japanese": "転勤",
+      "kana": "てんきん",
+      "romaji": "tenkin",
+      "tokens": [
+        {
+          "text": "転勤",
+          "kana": "てんきん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "徒步，步行",
+      "japanese": "徒歩",
+      "kana": "とほ",
+      "romaji": "toho",
+      "tokens": [
+        {
+          "text": "徒歩",
+          "kana": "とほ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "愤怒，生气",
+      "japanese": "怒り",
+      "kana": "いかり",
+      "romaji": "ikari",
+      "tokens": [
+        {
+          "text": "怒り",
+          "kana": "いかり"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "本公司",
+      "japanese": "当社",
+      "kana": "とうしゃ",
+      "romaji": "tousha",
+      "tokens": [
+        {
+          "text": "当社",
+          "kana": "とうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "当初，最初",
+      "japanese": "当初",
+      "kana": "とうしょ",
+      "romaji": "tousho",
+      "tokens": [
+        {
+          "text": "当初",
+          "kana": "とうしょ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "逃亡，逃匿",
+      "japanese": "逃亡",
+      "kana": "とうぼう",
+      "romaji": "toubou",
+      "tokens": [
+        {
+          "text": "逃亡",
+          "kana": "とうぼう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "动机",
+      "japanese": "動機",
+      "kana": "どうき",
+      "romaji": "douki",
+      "tokens": [
+        {
+          "text": "動機",
+          "kana": "どうき"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "颠簸，摇摆；动摇，不安",
+      "japanese": "動揺",
+      "kana": "どうよう",
+      "romaji": "douyou",
+      "tokens": [
+        {
+          "text": "動揺",
+          "kana": "どうよう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（一家人）同居；（与家人以外的人）同住；（比喻异质的事物）并存",
+      "japanese": "同居",
+      "kana": "どうきょ",
+      "romaji": "doukyo",
+      "tokens": [
+        {
+          "text": "同居",
+          "kana": "どうきょ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "导入，引进",
+      "japanese": "導入",
+      "kana": "どうにゅう",
+      "romaji": "dounyuu",
+      "tokens": [
+        {
+          "text": "導入",
+          "kana": "どうにゅう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "路边，路旁",
+      "japanese": "道端",
+      "kana": "みちばた",
+      "romaji": "michibata",
+      "tokens": [
+        {
+          "text": "道端",
+          "kana": "みちばた"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "内部",
+      "japanese": "内部",
+      "kana": "ないぶ",
+      "romaji": "naibu",
+      "tokens": [
+        {
+          "text": "内部",
+          "kana": "ないぶ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "平常，平素",
+      "japanese": "日頃",
+      "kana": "ひごろ",
+      "romaji": "higoro",
+      "tokens": [
+        {
+          "text": "日頃",
+          "kana": "ひごろ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "入会",
+      "japanese": "入会",
+      "kana": "にゅうかい",
+      "romaji": "nyuukai",
+      "tokens": [
+        {
+          "text": "入会",
+          "kana": "にゅうかい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "入款；收进来的款项",
+      "japanese": "入金",
+      "kana": "にゅうきん",
+      "romaji": "nyuukin",
+      "tokens": [
+        {
+          "text": "入金",
+          "kana": "にゅうきん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "认识，了解",
+      "japanese": "認識",
+      "kana": "にんしき",
+      "romaji": "ninshiki",
+      "tokens": [
+        {
+          "text": "認識",
+          "kana": "にんしき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "燃料",
+      "japanese": "燃料",
+      "kana": "ねんりょう",
+      "romaji": "nenryou",
+      "tokens": [
+        {
+          "text": "燃料",
+          "kana": "ねんりょう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "破坏",
+      "japanese": "破壊",
+      "kana": "はかい",
+      "romaji": "hakai",
+      "tokens": [
+        {
+          "text": "破壊",
+          "kana": "はかい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "废止，废除",
+      "japanese": "廃止",
+      "kana": "はいし",
+      "romaji": "haishi",
+      "tokens": [
+        {
+          "text": "廃止",
+          "kana": "はいし"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "关怀，照料，关照",
+      "japanese": "配慮",
+      "kana": "はいりょ",
+      "romaji": "hairyo",
+      "tokens": [
+        {
+          "text": "配慮",
+          "kana": "はいりょ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（国家向民间）收购；（「お買い上げ」の形で）购买",
+      "japanese": "買い上げ",
+      "kana": "かいあげ",
+      "romaji": "kaiage",
+      "tokens": [
+        {
+          "text": "買い上げ",
+          "kana": "かいあげ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "薄型",
+      "japanese": "薄型",
+      "kana": "うすがた",
+      "romaji": "usugata",
+      "tokens": [
+        {
+          "text": "薄型",
+          "kana": "うすがた"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "悲哀，悲伤",
+      "japanese": "悲しみ",
+      "kana": "かなしみ",
+      "romaji": "kanashimi",
+      "tokens": [
+        {
+          "text": "悲しみ",
+          "kana": "かなしみ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "比例，正比；成比例",
+      "japanese": "比例",
+      "kana": "ひれい",
+      "romaji": "hirei",
+      "tokens": [
+        {
+          "text": "比例",
+          "kana": "ひれい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "不合常理，脱离常识",
+      "japanese": "非常識",
+      "kana": "ひじょうしき",
+      "romaji": "hijoushiki",
+      "tokens": [
+        {
+          "text": "非常識",
+          "kana": "ひじょうしき"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "不可或缺",
+      "japanese": "不可欠",
+      "kana": "ふかけつ",
+      "romaji": "fukaketsu",
+      "tokens": [
+        {
+          "text": "不可欠",
+          "kana": "ふかけつ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "不完备，存在缺陷",
+      "japanese": "不完全",
+      "kana": "ふかんぜん",
+      "romaji": "fukanzen",
+      "tokens": [
+        {
+          "text": "不完全",
+          "kana": "ふかんぜん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "不明，不清楚；无能，愚昧",
+      "japanese": "不明",
+      "kana": "ふめい",
+      "romaji": "fumei",
+      "tokens": [
+        {
+          "text": "不明",
+          "kana": "ふめい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "不好；品行不佳",
+      "japanese": "不良",
+      "kana": "ふりょう",
+      "romaji": "furyou",
+      "tokens": [
+        {
+          "text": "不良",
+          "kana": "ふりょう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "福祉，福利",
+      "japanese": "福祉",
+      "kana": "ふくし",
+      "romaji": "fukushi",
+      "tokens": [
+        {
+          "text": "福祉",
+          "kana": "ふくし"
+        }
+      ]
+    }
+  ]
+}

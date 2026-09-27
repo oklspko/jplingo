@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-04",
+  "coursePackId": "jp-n2",
+  "title": "名词 4",
+  "order": 4,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "恋爱，爱情",
+      "japanese": "恋",
+      "kana": "こい",
+      "romaji": "koi",
+      "tokens": [
+        {
+          "text": "恋",
+          "kana": "こい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "肢体动作，特指武打等演技",
+      "japanese": "アクション",
+      "kana": "あくしょん",
+      "romaji": "akushon",
+      "tokens": [
+        {
+          "text": "アクション",
+          "kana": "あくしょん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "装饰品；零件",
+      "japanese": "アクセサリー",
+      "kana": "あくせさりい",
+      "romaji": "akusesarii",
+      "tokens": [
+        {
+          "text": "アクセサリー",
+          "kana": "あくせさりい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "哪个；反正，迟早会；不久，过几天",
+      "japanese": "いずれ",
+      "kana": "いずれ",
+      "romaji": "izure",
+      "tokens": [
+        {
+          "text": "いずれ",
+          "kana": "いずれ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "流行性感冒",
+      "japanese": "インフルエンザ",
+      "kana": "いんふるえんざ",
+      "romaji": "infuruenza",
+      "tokens": [
+        {
+          "text": "インフルエンザ",
+          "kana": "いんふるえんざ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "关掉，停止",
+      "japanese": "オフ",
+      "kana": "おふ",
+      "romaji": "ofu",
+      "tokens": [
+        {
+          "text": "オフ",
+          "kana": "おふ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "大体；凡是；完全（不）；大约，大概",
+      "japanese": "およそ",
+      "kana": "およそ",
+      "romaji": "oyoso",
+      "tokens": [
+        {
+          "text": "およそ",
+          "kana": "およそ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "色彩；彩色；颜料；特色",
+      "japanese": "カラー",
+      "kana": "からあ",
+      "romaji": "karaa",
+      "tokens": [
+        {
+          "text": "カラー",
+          "kana": "からあ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "开端；机会，契机",
+      "japanese": "きっかけ",
+      "kana": "きっかけ",
+      "romaji": "kikkake",
+      "tokens": [
+        {
+          "text": "きっかけ",
+          "kana": "きっかけ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "大学校园",
+      "japanese": "キャンパス",
+      "kana": "きゃんぱす",
+      "romaji": "kyanpasu",
+      "tokens": [
+        {
+          "text": "キャンパス",
+          "kana": "きゃんぱす"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "露营",
+      "japanese": "キャンプ",
+      "kana": "きゃんぷ",
+      "romaji": "kyanpu",
+      "tokens": [
+        {
+          "text": "キャンプ",
+          "kana": "きゃんぷ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "最大限度，极限",
+      "japanese": "ぎりぎり",
+      "kana": "ぎりぎり",
+      "romaji": "girigiri",
+      "tokens": [
+        {
+          "text": "ぎりぎり",
+          "kana": "ぎりぎり"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "成本，生产费",
+      "japanese": "コスト",
+      "kana": "こすと",
+      "romaji": "kosuto",
+      "tokens": [
+        {
+          "text": "コスト",
+          "kana": "こすと"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "竞赛，比赛",
+      "japanese": "コンテスト",
+      "kana": "こんてすと",
+      "romaji": "kontesuto",
+      "tokens": [
+        {
+          "text": "コンテスト",
+          "kana": "こんてすと"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "快门；卷帘门",
+      "japanese": "シャッター",
+      "kana": "しゃったあ",
+      "romaji": "shattaa",
+      "tokens": [
+        {
+          "text": "シャッター",
+          "kana": "しゃったあ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "陈列；演出",
+      "japanese": "ショー",
+      "kana": "しょう",
+      "romaji": "shou",
+      "tokens": [
+        {
+          "text": "ショー",
+          "kana": "しょう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "商店",
+      "japanese": "ショップ",
+      "kana": "しょっぷ",
+      "romaji": "shoppu",
+      "tokens": [
+        {
+          "text": "ショップ",
+          "kana": "しょっぷ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "系列，丛书；（体育）联赛",
+      "japanese": "シリーズ",
+      "kana": "しりいず",
+      "romaji": "shiriizu",
+      "tokens": [
+        {
+          "text": "シリーズ",
+          "kana": "しりいず"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "学校",
+      "japanese": "スクール",
+      "kana": "すくうる",
+      "romaji": "sukuuru",
+      "tokens": [
+        {
+          "text": "スクール",
+          "kana": "すくうる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "冰鞋，冰刀；滑冰，溜冰",
+      "japanese": "スケート",
+      "kana": "すけえと",
+      "romaji": "sukeeto",
+      "tokens": [
+        {
+          "text": "スケート",
+          "kana": "すけえと"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "身材；式样；风格",
+      "japanese": "スタイル",
+      "kana": "すたいる",
+      "romaji": "sutairu",
+      "tokens": [
+        {
+          "text": "スタイル",
+          "kana": "すたいる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "车站；站",
+      "japanese": "ステーション",
+      "kana": "すてえしょん",
+      "romaji": "suteeshon",
+      "tokens": [
+        {
+          "text": "ステーション",
+          "kana": "すてえしょん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "奢侈，浪费；过分的要求，奢望",
+      "japanese": "贅[ぜい]沢",
+      "kana": "ぜいたく",
+      "romaji": "zeitaku",
+      "tokens": [
+        {
+          "text": "贅[ぜい]沢",
+          "kana": "ぜいたく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "轮胎，车胎",
+      "japanese": "タイヤ",
+      "kana": "たいや",
+      "romaji": "taiya",
+      "tokens": [
+        {
+          "text": "タイヤ",
+          "kana": "たいや"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（旅行社的团体）旅游；短途旅行；巡回演出",
+      "japanese": "ツアー",
+      "kana": "つああ",
+      "romaji": "tsuaa",
+      "tokens": [
+        {
+          "text": "ツアー",
+          "kana": "つああ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "设计师",
+      "japanese": "デザイナー",
+      "kana": "でざいなあ",
+      "romaji": "dezainaa",
+      "tokens": [
+        {
+          "text": "デザイナー",
+          "kana": "でざいなあ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "拍子；（发展）速度",
+      "japanese": "テンポ",
+      "kana": "てんぽ",
+      "romaji": "tenpo",
+      "tokens": [
+        {
+          "text": "テンポ",
+          "kana": "てんぽ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "首位，最高",
+      "japanese": "トップ",
+      "kana": "とっぷ",
+      "romaji": "toppu",
+      "tokens": [
+        {
+          "text": "トップ",
+          "kana": "とっぷ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "女士礼服",
+      "japanese": "ドレス",
+      "kana": "どれす",
+      "romaji": "doresu",
+      "tokens": [
+        {
+          "text": "ドレス",
+          "kana": "どれす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "网；网络；球网",
+      "japanese": "ネット",
+      "kana": "ねっと",
+      "romaji": "netto",
+      "tokens": [
+        {
+          "text": "ネット",
+          "kana": "ねっと"
+        }
+      ]
+    }
+  ]
+}

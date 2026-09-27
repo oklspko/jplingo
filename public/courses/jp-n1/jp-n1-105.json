@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-105",
+  "coursePackId": "jp-n1",
+  "title": "动词 14",
+  "order": 105,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "亲自负责，亲自培养",
+      "japanese": "手がける",
+      "kana": "てがける",
+      "romaji": "tegakeru",
+      "tokens": [
+        {
+          "text": "手がける",
+          "kana": "てがける"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "深思熟虑",
+      "japanese": "熟慮",
+      "kana": "じゅくりょ",
+      "romaji": "jukuryo",
+      "tokens": [
+        {
+          "text": "熟慮",
+          "kana": "じゅくりょ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "助长，促进",
+      "japanese": "助長",
+      "kana": "じょちょう",
+      "romaji": "jochou",
+      "tokens": [
+        {
+          "text": "助長",
+          "kana": "じょちょう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "消失",
+      "japanese": "消え去る",
+      "kana": "きえさる",
+      "romaji": "kiesaru",
+      "tokens": [
+        {
+          "text": "消え去る",
+          "kana": "きえさる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "乘（车船等）出去；着手；探出",
+      "japanese": "乗り出す",
+      "kana": "のりだす",
+      "romaji": "noridasu",
+      "tokens": [
+        {
+          "text": "乗り出す",
+          "kana": "のりだす"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "擦拭，擦掉",
+      "japanese": "拭き取る",
+      "kana": "ふきとる",
+      "romaji": "fukitoru",
+      "tokens": [
+        {
+          "text": "拭き取る",
+          "kana": "ふきとる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "防止，阻止，控制住（情况的发展或扩大）",
+      "japanese": "食い止める",
+      "kana": "くいとめる",
+      "romaji": "kuitomeru",
+      "tokens": [
+        {
+          "text": "食い止める",
+          "kana": "くいとめる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "浸；沉迷",
+      "japanese": "浸る",
+      "kana": "ひたる",
+      "romaji": "hitaru",
+      "tokens": [
+        {
+          "text": "浸る",
+          "kana": "ひたる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "消除；雪除",
+      "japanese": "晴らす",
+      "kana": "はらす",
+      "romaji": "harasu",
+      "tokens": [
+        {
+          "text": "晴らす",
+          "kana": "はらす"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "完全放晴",
+      "japanese": "晴れ渡る",
+      "kana": "はれわたる",
+      "romaji": "harewataru",
+      "tokens": [
+        {
+          "text": "晴れ渡る",
+          "kana": "はれわたる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "承包（工程等）",
+      "japanese": "請け負う",
+      "kana": "うけおう",
+      "romaji": "ukeou",
+      "tokens": [
+        {
+          "text": "請け負う",
+          "kana": "うけおう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "积攒，积累",
+      "japanese": "積み立てる",
+      "kana": "つみたてる",
+      "romaji": "tsumitateru",
+      "tokens": [
+        {
+          "text": "積み立てる",
+          "kana": "つみたてる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "杀出，突围；摆脱，逃脱，闯过",
+      "japanese": "切り抜ける",
+      "kana": "きりぬける",
+      "romaji": "kirinukeru",
+      "tokens": [
+        {
+          "text": "切り抜ける",
+          "kana": "きりぬける"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "割开，断开",
+      "japanese": "切り離す",
+      "kana": "きりはなす",
+      "romaji": "kirihanasu",
+      "tokens": [
+        {
+          "text": "切り離す",
+          "kana": "きりはなす"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "说明",
+      "japanese": "説く",
+      "kana": "とく",
+      "romaji": "toku",
+      "tokens": [
+        {
+          "text": "説く",
+          "kana": "とく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "前述，上述",
+      "japanese": "先述",
+      "kana": "せんじゅつ",
+      "romaji": "senjutsu",
+      "tokens": [
+        {
+          "text": "先述",
+          "kana": "せんじゅつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "出风头，贸然行事",
+      "japanese": "先走る",
+      "kana": "さきばしる",
+      "romaji": "sakibashiru",
+      "tokens": [
+        {
+          "text": "先走る",
+          "kana": "さきばしる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "先导，带路",
+      "japanese": "先導",
+      "kana": "せんどう",
+      "romaji": "sendou",
+      "tokens": [
+        {
+          "text": "先導",
+          "kana": "せんどう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "以……为对手争执，（特指）起诉……",
+      "japanese": "相手取る",
+      "kana": "あいてどる",
+      "romaji": "aitedoru",
+      "tokens": [
+        {
+          "text": "相手取る",
+          "kana": "あいてどる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "遵守，遵照，遵循",
+      "japanese": "則[のっと]る",
+      "kana": "のっとる",
+      "romaji": "nottoru",
+      "tokens": [
+        {
+          "text": "則[のっと]る",
+          "kana": "のっとる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "损害；（前接动词的连用形）没成功",
+      "japanese": "損ねる",
+      "kana": "そこねる",
+      "romaji": "sokoneru",
+      "tokens": [
+        {
+          "text": "損ねる",
+          "kana": "そこねる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "亲密，融洽，无隔阂",
+      "japanese": "打ち解ける",
+      "kana": "うちとける",
+      "romaji": "uchitokeru",
+      "tokens": [
+        {
+          "text": "打ち解ける",
+          "kana": "うちとける"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（做好心理准备后）等待",
+      "japanese": "待ち受ける",
+      "kana": "まちうける",
+      "romaji": "machiukeru",
+      "tokens": [
+        {
+          "text": "待ち受ける",
+          "kana": "まちうける"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "托付，委托；托词；寄托",
+      "japanese": "託す",
+      "kana": "たくす",
+      "romaji": "takusu",
+      "tokens": [
+        {
+          "text": "託す",
+          "kana": "たくす"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "装满；洋溢",
+      "japanese": "たたえる",
+      "kana": "たたえる",
+      "romaji": "tataeru",
+      "tokens": [
+        {
+          "text": "たたえる",
+          "kana": "たたえる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "切断；断绝",
+      "japanese": "断ち切る",
+      "kana": "たちきる",
+      "romaji": "tachikiru",
+      "tokens": [
+        {
+          "text": "断ち切る",
+          "kana": "たちきる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（视觉、听觉、嗅觉、味觉、触觉）知觉；（通过感觉器官的作用）察觉，辨别",
+      "japanese": "知覚",
+      "kana": "ちかく",
+      "romaji": "chikaku",
+      "tokens": [
+        {
+          "text": "知覚",
+          "kana": "ちかく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "轰走，驱赶，驱逐",
+      "japanese": "追い払う",
+      "kana": "おいはらう",
+      "romaji": "oiharau",
+      "tokens": [
+        {
+          "text": "追い払う",
+          "kana": "おいはらう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "出示（证件等）",
+      "japanese": "呈示",
+      "kana": "ていじ",
+      "romaji": "teiji",
+      "tokens": [
+        {
+          "text": "呈示",
+          "kana": "ていじ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "用力勒紧；严加管教",
+      "japanese": "締めつける",
+      "kana": "しめつける",
+      "romaji": "shimetsukeru",
+      "tokens": [
+        {
+          "text": "締めつける",
+          "kana": "しめつける"
+        }
+      ]
+    }
+  ]
+}

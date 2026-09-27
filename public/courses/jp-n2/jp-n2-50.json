@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-50",
+  "coursePackId": "jp-n2",
+  "title": "名词 50",
+  "order": 50,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "适合，适应",
+      "japanese": "適応",
+      "kana": "てきおう",
+      "romaji": "tekiou",
+      "tokens": [
+        {
+          "text": "適応",
+          "kana": "てきおう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "展示，展出",
+      "japanese": "展示",
+      "kana": "てんじ",
+      "romaji": "tenji",
+      "tokens": [
+        {
+          "text": "展示",
+          "kana": "てんじ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "逐一检查（是否有异常）",
+      "japanese": "点検",
+      "kana": "てんけん",
+      "romaji": "tenken",
+      "tokens": [
+        {
+          "text": "点検",
+          "kana": "てんけん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "登记，注册",
+      "japanese": "登録",
+      "kana": "とうろく",
+      "romaji": "touroku",
+      "tokens": [
+        {
+          "text": "登録",
+          "kana": "とうろく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "途中，中途",
+      "japanese": "途上",
+      "kana": "とじょう",
+      "romaji": "tojou",
+      "tokens": [
+        {
+          "text": "途上",
+          "kana": "とじょう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "地基；基础；根本上",
+      "japanese": "土台",
+      "kana": "どだい",
+      "romaji": "dodai",
+      "tokens": [
+        {
+          "text": "土台",
+          "kana": "どだい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "达到，到达",
+      "japanese": "到達",
+      "kana": "とうたつ",
+      "romaji": "toutatsu",
+      "tokens": [
+        {
+          "text": "到達",
+          "kana": "とうたつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "讨论",
+      "japanese": "討論",
+      "kana": "とうろん",
+      "romaji": "touron",
+      "tokens": [
+        {
+          "text": "討論",
+          "kana": "とうろん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "陶器",
+      "japanese": "陶器",
+      "kana": "とうき",
+      "romaji": "touki",
+      "tokens": [
+        {
+          "text": "陶器",
+          "kana": "とうき"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "相同的意思；同意，赞成",
+      "japanese": "同意",
+      "kana": "どうい",
+      "romaji": "doui",
+      "tokens": [
+        {
+          "text": "同意",
+          "kana": "どうい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "同情",
+      "japanese": "同情",
+      "kana": "どうじょう",
+      "romaji": "doujou",
+      "tokens": [
+        {
+          "text": "同情",
+          "kana": "どうじょう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "（等级、程度等）同等",
+      "japanese": "同等",
+      "kana": "どうとう",
+      "romaji": "doutou",
+      "tokens": [
+        {
+          "text": "同等",
+          "kana": "どうとう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "擅长",
+      "japanese": "得手",
+      "kana": "えて",
+      "romaji": "ete",
+      "tokens": [
+        {
+          "text": "得手",
+          "kana": "えて"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "独占；垄断",
+      "japanese": "独占",
+      "kana": "どくせん",
+      "romaji": "dokusen",
+      "tokens": [
+        {
+          "text": "独占",
+          "kana": "どくせん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "读者",
+      "japanese": "読者",
+      "kana": "どくしゃ",
+      "romaji": "dokusha",
+      "tokens": [
+        {
+          "text": "読者",
+          "kana": "どくしゃ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "感觉迟钝",
+      "japanese": "鈍感",
+      "kana": "どんかん",
+      "romaji": "donkan",
+      "tokens": [
+        {
+          "text": "鈍感",
+          "kana": "どんかん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "阴凉处",
+      "japanese": "日陰",
+      "kana": "ひかげ",
+      "romaji": "hikage",
+      "tokens": [
+        {
+          "text": "日陰",
+          "kana": "ひかげ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "婴儿",
+      "japanese": "乳児",
+      "kana": "にゅうじ",
+      "romaji": "nyuuji",
+      "tokens": [
+        {
+          "text": "乳児",
+          "kana": "にゅうじ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "乳制品",
+      "japanese": "乳製品",
+      "kana": "にゅうせいひん",
+      "romaji": "nyuuseihin",
+      "tokens": [
+        {
+          "text": "乳製品",
+          "kana": "にゅうせいひん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "得到，到手",
+      "japanese": "入手",
+      "kana": "にゅうしゅ",
+      "romaji": "nyuushu",
+      "tokens": [
+        {
+          "text": "入手",
+          "kana": "にゅうしゅ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "获奖",
+      "japanese": "入賞",
+      "kana": "にゅうしょう",
+      "romaji": "nyuushou",
+      "tokens": [
+        {
+          "text": "入賞",
+          "kana": "にゅうしょう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "心里，想法中",
+      "japanese": "念頭",
+      "kana": "ねんとう",
+      "romaji": "nentou",
+      "tokens": [
+        {
+          "text": "念頭",
+          "kana": "ねんとう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "掌握；充分理解",
+      "japanese": "把握",
+      "kana": "はあく",
+      "romaji": "haaku",
+      "tokens": [
+        {
+          "text": "把握",
+          "kana": "はあく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "散发，广为分发",
+      "japanese": "配布",
+      "kana": "はいふ",
+      "romaji": "haifu",
+      "tokens": [
+        {
+          "text": "配布",
+          "kana": "はいふ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "倍增",
+      "japanese": "倍増",
+      "kana": "ばいぞう",
+      "romaji": "baizou",
+      "tokens": [
+        {
+          "text": "倍増",
+          "kana": "ばいぞう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "盆栽",
+      "japanese": "鉢植え",
+      "kana": "はちうえ",
+      "romaji": "hachiue",
+      "tokens": [
+        {
+          "text": "鉢植え",
+          "kana": "はちうえ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "发芽",
+      "japanese": "発芽",
+      "kana": "はつが",
+      "romaji": "hatsuga",
+      "tokens": [
+        {
+          "text": "発芽",
+          "kana": "はつが"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "反应",
+      "japanese": "反応",
+      "kana": "はんのう",
+      "romaji": "hannou",
+      "tokens": [
+        {
+          "text": "反応",
+          "kana": "はんのう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "反射",
+      "japanese": "反射",
+      "kana": "はんしゃ",
+      "romaji": "hansha",
+      "tokens": [
+        {
+          "text": "反射",
+          "kana": "はんしゃ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "弹回；反感",
+      "japanese": "反発",
+      "kana": "はんぱつ",
+      "romaji": "hanpatsu",
+      "tokens": [
+        {
+          "text": "反発",
+          "kana": "はんぱつ"
+        }
+      ]
+    }
+  ]
+}

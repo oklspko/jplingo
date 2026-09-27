@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-29",
+  "coursePackId": "jp-n2",
+  "title": "名词 29",
+  "order": 29,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "主力",
+      "japanese": "主力",
+      "kana": "しゅりょく",
+      "romaji": "shuryoku",
+      "tokens": [
+        {
+          "text": "主力",
+          "kana": "しゅりょく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "取材，采访",
+      "japanese": "取材",
+      "kana": "しゅざい",
+      "romaji": "shuzai",
+      "tokens": [
+        {
+          "text": "取材",
+          "kana": "しゅざい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "工夫，劳力和时间",
+      "japanese": "手間",
+      "kana": "てま",
+      "romaji": "tema",
+      "tokens": [
+        {
+          "text": "手間",
+          "kana": "てま"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "获奖，得奖",
+      "japanese": "受賞",
+      "kana": "じゅしょう",
+      "romaji": "jushou",
+      "tokens": [
+        {
+          "text": "受賞",
+          "kana": "じゅしょう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "需要，需求",
+      "japanese": "需要",
+      "kana": "じゅよう",
+      "romaji": "juyou",
+      "tokens": [
+        {
+          "text": "需要",
+          "kana": "じゅよう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "收获",
+      "japanese": "収穫",
+      "kana": "しゅうかく",
+      "romaji": "shuukaku",
+      "tokens": [
+        {
+          "text": "収穫",
+          "kana": "しゅうかく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "周围；环境",
+      "japanese": "周囲",
+      "kana": "しゅうい",
+      "romaji": "shuui",
+      "tokens": [
+        {
+          "text": "周囲",
+          "kana": "しゅうい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（不足或不当之处）修正，改正",
+      "japanese": "修正",
+      "kana": "しゅうせい",
+      "romaji": "shuusei",
+      "tokens": [
+        {
+          "text": "修正",
+          "kana": "しゅうせい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "习字，练字",
+      "japanese": "習字",
+      "kana": "しゅうじ",
+      "romaji": "shuuji",
+      "tokens": [
+        {
+          "text": "習字",
+          "kana": "しゅうじ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "集会",
+      "japanese": "集会",
+      "kana": "しゅうかい",
+      "romaji": "shuukai",
+      "tokens": [
+        {
+          "text": "集会",
+          "kana": "しゅうかい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "住；住所，住处",
+      "japanese": "住まい",
+      "kana": "すまい",
+      "romaji": "sumai",
+      "tokens": [
+        {
+          "text": "住まい",
+          "kana": "すまい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "重要角色，要职；董事，监事",
+      "japanese": "重役",
+      "kana": "じゅうやく",
+      "romaji": "juuyaku",
+      "tokens": [
+        {
+          "text": "重役",
+          "kana": "じゅうやく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "重力，万有引力",
+      "japanese": "重力",
+      "kana": "じゅうりょく",
+      "romaji": "juuryoku",
+      "tokens": [
+        {
+          "text": "重力",
+          "kana": "じゅうりょく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "住宿",
+      "japanese": "宿泊",
+      "kana": "しゅくはく",
+      "romaji": "shukuhaku",
+      "tokens": [
+        {
+          "text": "宿泊",
+          "kana": "しゅくはく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "出人头地，升职",
+      "japanese": "出世",
+      "kana": "しゅっせ",
+      "romaji": "shusse",
+      "tokens": [
+        {
+          "text": "出世",
+          "kana": "しゅっせ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "瞬间",
+      "japanese": "瞬間",
+      "kana": "しゅんかん",
+      "romaji": "shunkan",
+      "tokens": [
+        {
+          "text": "瞬間",
+          "kana": "しゅんかん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "循环",
+      "japanese": "循環",
+      "kana": "じゅんかん",
+      "romaji": "junkan",
+      "tokens": [
+        {
+          "text": "循環",
+          "kana": "じゅんかん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（学问、技艺等）初学，入门",
+      "japanese": "初歩",
+      "kana": "しょほ",
+      "romaji": "shoho",
+      "tokens": [
+        {
+          "text": "初歩",
+          "kana": "しょほ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "所有，拥有",
+      "japanese": "所有",
+      "kana": "しょゆう",
+      "romaji": "shoyuu",
+      "tokens": [
+        {
+          "text": "所有",
+          "kana": "しょゆう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "书籍，图书",
+      "japanese": "書籍",
+      "kana": "しょせき",
+      "romaji": "shoseki",
+      "tokens": [
+        {
+          "text": "書籍",
+          "kana": "しょせき"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "书籍，图书",
+      "japanese": "書物",
+      "kana": "しょもつ",
+      "romaji": "shomotsu",
+      "tokens": [
+        {
+          "text": "書物",
+          "kana": "しょもつ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "助手",
+      "japanese": "助手",
+      "kana": "じょしゅ",
+      "romaji": "joshu",
+      "tokens": [
+        {
+          "text": "助手",
+          "kana": "じょしゅ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "将棋",
+      "japanese": "将棋",
+      "kana": "しょうぎ",
+      "romaji": "shougi",
+      "tokens": [
+        {
+          "text": "将棋",
+          "kana": "しょうぎ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "小木屋，简易棚；戏棚",
+      "japanese": "小屋",
+      "kana": "こや",
+      "romaji": "koya",
+      "tokens": [
+        {
+          "text": "小屋",
+          "kana": "こや"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "少量",
+      "japanese": "少量",
+      "kana": "しょうりょう",
+      "romaji": "shouryou",
+      "tokens": [
+        {
+          "text": "少量",
+          "kana": "しょうりょう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "批准；承认",
+      "japanese": "承認",
+      "kana": "しょうにん",
+      "romaji": "shounin",
+      "tokens": [
+        {
+          "text": "承認",
+          "kana": "しょうにん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "消化，吸收；理解，掌握",
+      "japanese": "消化",
+      "kana": "しょうか",
+      "romaji": "shouka",
+      "tokens": [
+        {
+          "text": "消化",
+          "kana": "しょうか"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "消耗，用尽；耗尽（体力、精力等）",
+      "japanese": "消耗",
+      "kana": "しょうもう",
+      "romaji": "shoumou",
+      "tokens": [
+        {
+          "text": "消耗",
+          "kana": "しょうもう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "焦点，中心",
+      "japanese": "焦点",
+      "kana": "しょうてん",
+      "romaji": "shouten",
+      "tokens": [
+        {
+          "text": "焦点",
+          "kana": "しょうてん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "症状，病情",
+      "japanese": "症状",
+      "kana": "しょうじょう",
+      "romaji": "shoujou",
+      "tokens": [
+        {
+          "text": "症状",
+          "kana": "しょうじょう"
+        }
+      ]
+    }
+  ]
+}

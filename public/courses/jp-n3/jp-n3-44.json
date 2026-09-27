@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-44",
+  "coursePackId": "jp-n3",
+  "title": "动词 2",
+  "order": 44,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "批评，训斥",
+      "japanese": "叱る",
+      "kana": "しかる",
+      "romaji": "shikaru",
+      "tokens": [
+        {
+          "text": "叱る",
+          "kana": "しかる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "映，照",
+      "japanese": "写る",
+      "kana": "うつる",
+      "romaji": "utsuru",
+      "tokens": [
+        {
+          "text": "写る",
+          "kana": "うつる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "吃，喝",
+      "japanese": "召し上がる",
+      "kana": "めしあがる",
+      "romaji": "meshiagaru",
+      "tokens": [
+        {
+          "text": "召し上がる",
+          "kana": "めしあがる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "燃烧；烧成；晒黑",
+      "japanese": "焼ける",
+      "kana": "やける",
+      "romaji": "yakeru",
+      "tokens": [
+        {
+          "text": "焼ける",
+          "kana": "やける"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "使发笑；令人看不起",
+      "japanese": "笑わせる",
+      "kana": "わらわせる",
+      "romaji": "warawaseru",
+      "tokens": [
+        {
+          "text": "笑わせる",
+          "kana": "わらわせる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "种，种植",
+      "japanese": "植える",
+      "kana": "うえる",
+      "romaji": "ueru",
+      "tokens": [
+        {
+          "text": "植える",
+          "kana": "うえる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（「言う」の謙譲語）说，讲；（「お／ご…申し上げる」の形で）做，为",
+      "japanese": "申し上げる",
+      "kana": "もうしあげる",
+      "romaji": "moushiageru",
+      "tokens": [
+        {
+          "text": "申し上げる",
+          "kana": "もうしあげる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "折，折断",
+      "japanese": "折る",
+      "kana": "おる",
+      "romaji": "oru",
+      "tokens": [
+        {
+          "text": "折る",
+          "kana": "おる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "折，折断；转弯；让步，迁就",
+      "japanese": "折れる",
+      "kana": "おれる",
+      "romaji": "oreru",
+      "tokens": [
+        {
+          "text": "折れる",
+          "kana": "おれる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "瘦",
+      "japanese": "痩せる",
+      "kana": "やせる",
+      "romaji": "yaseru",
+      "tokens": [
+        {
+          "text": "痩せる",
+          "kana": "やせる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "吵闹；不安；骚乱",
+      "japanese": "騒ぐ",
+      "kana": "さわぐ",
+      "romaji": "sawagu",
+      "tokens": [
+        {
+          "text": "騒ぐ",
+          "kana": "さわぐ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "赠送",
+      "japanese": "贈る",
+      "kana": "おくる",
+      "romaji": "okuru",
+      "tokens": [
+        {
+          "text": "贈る",
+          "kana": "おくる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "胖，发福",
+      "japanese": "太る",
+      "kana": "ふとる",
+      "romaji": "futoru",
+      "tokens": [
+        {
+          "text": "太る",
+          "kana": "ふとる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "暖气（设备）",
+      "japanese": "暖房",
+      "kana": "だんぼう",
+      "romaji": "danbou",
+      "tokens": [
+        {
+          "text": "暖房",
+          "kana": "だんぼう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "做；致以",
+      "japanese": "致す",
+      "kana": "いたす",
+      "romaji": "itasu",
+      "tokens": [
+        {
+          "text": "致す",
+          "kana": "いたす"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "超出，超过，多出",
+      "japanese": "超える",
+      "kana": "こえる",
+      "romaji": "koeru",
+      "tokens": [
+        {
+          "text": "超える",
+          "kana": "こえる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "传；传播；闻名；传导；传入",
+      "japanese": "伝わる",
+      "kana": "つたわる",
+      "romaji": "tsutawaru",
+      "tokens": [
+        {
+          "text": "伝わる",
+          "kana": "つたわる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "涂，涂抹",
+      "japanese": "塗る",
+      "kana": "ぬる",
+      "romaji": "nuru",
+      "tokens": [
+        {
+          "text": "塗る",
+          "kana": "ぬる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "踩；走上",
+      "japanese": "踏む",
+      "kana": "ふむ",
+      "romaji": "fumu",
+      "tokens": [
+        {
+          "text": "踏む",
+          "kana": "ふむ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "燃烧；充满",
+      "japanese": "燃える",
+      "kana": "もえる",
+      "romaji": "moeru",
+      "tokens": [
+        {
+          "text": "燃える",
+          "kana": "もえる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "分发，分派；用心周到",
+      "japanese": "配る",
+      "kana": "くばる",
+      "romaji": "kubaru",
+      "tokens": [
+        {
+          "text": "配る",
+          "kana": "くばる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "表达，表示，表现",
+      "japanese": "表す",
+      "kana": "あらわす",
+      "romaji": "arawasu",
+      "tokens": [
+        {
+          "text": "表す",
+          "kana": "あらわす"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "分为，划分，分歧",
+      "japanese": "分かれる",
+      "kana": "わかれる",
+      "romaji": "wakareru",
+      "tokens": [
+        {
+          "text": "分かれる",
+          "kana": "わかれる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "给……听；中听，动听",
+      "japanese": "聞かせる",
+      "kana": "きかせる",
+      "romaji": "kikaseru",
+      "tokens": [
+        {
+          "text": "聞かせる",
+          "kana": "きかせる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "收拾整齐；得到解决",
+      "japanese": "片付く",
+      "kana": "かたづく",
+      "romaji": "katazuku",
+      "tokens": [
+        {
+          "text": "片付く",
+          "kana": "かたづく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "编织；编辑",
+      "japanese": "編む",
+      "kana": "あむ",
+      "romaji": "amu",
+      "tokens": [
+        {
+          "text": "編む",
+          "kana": "あむ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "抓住；逮捕",
+      "japanese": "捕まえる",
+      "kana": "つかまえる",
+      "romaji": "tsukamaeru",
+      "tokens": [
+        {
+          "text": "捕まえる",
+          "kana": "つかまえる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "称赞，夸奖",
+      "japanese": "褒める",
+      "kana": "ほめる",
+      "romaji": "homeru",
+      "tokens": [
+        {
+          "text": "褒める",
+          "kana": "ほめる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "失去，丧失；消灭，消除",
+      "japanese": "無くす",
+      "kana": "なくす",
+      "romaji": "nakusu",
+      "tokens": [
+        {
+          "text": "無くす",
+          "kana": "なくす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（鸟、虫、兽等）鸣叫，叫",
+      "japanese": "鳴く",
+      "kana": "なく",
+      "romaji": "naku",
+      "tokens": [
+        {
+          "text": "鳴く",
+          "kana": "なく"
+        }
+      ]
+    }
+  ]
+}

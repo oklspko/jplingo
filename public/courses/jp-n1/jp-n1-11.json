@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-11",
+  "coursePackId": "jp-n1",
+  "title": "名词 11",
+  "order": 11,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "区域，范围",
+      "japanese": "区域",
+      "kana": "くいき",
+      "romaji": "kuiki",
+      "tokens": [
+        {
+          "text": "区域",
+          "kana": "くいき"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "空中，太空中",
+      "japanese": "空中",
+      "kana": "くうちゅう",
+      "romaji": "kuuchuu",
+      "tokens": [
+        {
+          "text": "空中",
+          "kana": "くうちゅう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "刑警；刑事",
+      "japanese": "刑事",
+      "kana": "けいじ",
+      "romaji": "keiji",
+      "tokens": [
+        {
+          "text": "刑事",
+          "kana": "けいじ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "原始，原初",
+      "japanese": "原始",
+      "kana": "げんし",
+      "romaji": "genshi",
+      "tokens": [
+        {
+          "text": "原始",
+          "kana": "げんし"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "限度，界限",
+      "japanese": "限度",
+      "kana": "げんど",
+      "romaji": "gendo",
+      "tokens": [
+        {
+          "text": "限度",
+          "kana": "げんど"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "之后，稍后；将来；死后",
+      "japanese": "のち",
+      "kana": "のち",
+      "romaji": "nochi",
+      "tokens": [
+        {
+          "text": "のち",
+          "kana": "のち"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "借口，理由",
+      "japanese": "口実",
+      "kana": "こうじつ",
+      "romaji": "koujitsu",
+      "tokens": [
+        {
+          "text": "口実",
+          "kana": "こうじつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "游玩，出游",
+      "japanese": "行楽",
+      "kana": "こうらく",
+      "romaji": "kouraku",
+      "tokens": [
+        {
+          "text": "行楽",
+          "kana": "こうらく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "合流，汇合；会合",
+      "japanese": "合流",
+      "kana": "ごうりゅう",
+      "romaji": "gouryuu",
+      "tokens": [
+        {
+          "text": "合流",
+          "kana": "ごうりゅう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "混合，混在一起",
+      "japanese": "混合",
+      "kana": "こんごう",
+      "romaji": "kongou",
+      "tokens": [
+        {
+          "text": "混合",
+          "kana": "こんごう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "区分；歧视",
+      "japanese": "差別",
+      "kana": "さべつ",
+      "romaji": "sabetsu",
+      "tokens": [
+        {
+          "text": "差別",
+          "kana": "さべつ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "最尖端",
+      "japanese": "最先端",
+      "kana": "さいせんたん",
+      "romaji": "saisentan",
+      "tokens": [
+        {
+          "text": "最先端",
+          "kana": "さいせんたん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "审理，审判",
+      "japanese": "裁判",
+      "kana": "さいばん",
+      "romaji": "saiban",
+      "tokens": [
+        {
+          "text": "裁判",
+          "kana": "さいばん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "新月，月牙",
+      "japanese": "三日月",
+      "kana": "みかづき",
+      "romaji": "mikazuki",
+      "tokens": [
+        {
+          "text": "三日月",
+          "kana": "みかづき"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "山林",
+      "japanese": "山林",
+      "kana": "さんりん",
+      "romaji": "sanrin",
+      "tokens": [
+        {
+          "text": "山林",
+          "kana": "さんりん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "子孙，后代",
+      "japanese": "子孫",
+      "kana": "しそん",
+      "romaji": "shison",
+      "tokens": [
+        {
+          "text": "子孫",
+          "kana": "しそん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "资本",
+      "japanese": "資本",
+      "kana": "しほん",
+      "romaji": "shihon",
+      "tokens": [
+        {
+          "text": "資本",
+          "kana": "しほん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "时速",
+      "japanese": "時速",
+      "kana": "じそく",
+      "romaji": "jisoku",
+      "tokens": [
+        {
+          "text": "時速",
+          "kana": "じそく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "执笔，写文章",
+      "japanese": "執筆",
+      "kana": "しっぴつ",
+      "romaji": "shippitsu",
+      "tokens": [
+        {
+          "text": "執筆",
+          "kana": "しっぴつ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "实例，实际的例子",
+      "japanese": "実例",
+      "kana": "じつれい",
+      "romaji": "jitsurei",
+      "tokens": [
+        {
+          "text": "実例",
+          "kana": "じつれい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "戏剧；演技；花招",
+      "japanese": "芝居",
+      "kana": "しばい",
+      "romaji": "shibai",
+      "tokens": [
+        {
+          "text": "芝居",
+          "kana": "しばい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "宗教",
+      "japanese": "宗教",
+      "kana": "しゅうきょう",
+      "romaji": "shuukyou",
+      "tokens": [
+        {
+          "text": "宗教",
+          "kana": "しゅうきょう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "房屋，家；旅馆，旅店",
+      "japanese": "宿",
+      "kana": "やど",
+      "romaji": "yado",
+      "tokens": [
+        {
+          "text": "宿",
+          "kana": "やど"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "完成；完成情况",
+      "japanese": "出来上がり",
+      "kana": "できあがり",
+      "romaji": "dekiagari",
+      "tokens": [
+        {
+          "text": "出来上がり",
+          "kana": "できあがり"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "纯净，纯粹；纯粹，单纯",
+      "japanese": "純粋",
+      "kana": "じゅんすい",
+      "romaji": "junsui",
+      "tokens": [
+        {
+          "text": "純粋",
+          "kana": "じゅんすい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "处理，扔掉；处分",
+      "japanese": "処分",
+      "kana": "しょぶん",
+      "romaji": "shobun",
+      "tokens": [
+        {
+          "text": "処分",
+          "kana": "しょぶん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "书斋，书房",
+      "japanese": "書斎",
+      "kana": "しょさい",
+      "romaji": "shosai",
+      "tokens": [
+        {
+          "text": "書斎",
+          "kana": "しょさい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "女演员，女艺人",
+      "japanese": "女優",
+      "kana": "じょゆう",
+      "romaji": "joyuu",
+      "tokens": [
+        {
+          "text": "女優",
+          "kana": "じょゆう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "商人，从事买卖的人",
+      "japanese": "商人",
+      "kana": "しょうにん",
+      "romaji": "shounin",
+      "tokens": [
+        {
+          "text": "商人",
+          "kana": "しょうにん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "消去，消除",
+      "japanese": "消去",
+      "kana": "しょうきょ",
+      "romaji": "shoukyo",
+      "tokens": [
+        {
+          "text": "消去",
+          "kana": "しょうきょ"
+        }
+      ]
+    }
+  ]
+}

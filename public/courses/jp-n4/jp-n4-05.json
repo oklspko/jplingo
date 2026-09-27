@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-05",
+  "coursePackId": "jp-n4",
+  "title": "名词 5",
+  "order": 5,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "钢琴",
+      "japanese": "ピアノ",
+      "kana": "ぴあの",
+      "romaji": "piano",
+      "tokens": [
+        {
+          "text": "ピアノ",
+          "kana": "ぴあの"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "录像，视频；录像机",
+      "japanese": "ビデオ",
+      "kana": "びでお",
+      "romaji": "bideo",
+      "tokens": [
+        {
+          "text": "ビデオ",
+          "kana": "びでお"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "大部分；几乎",
+      "japanese": "ほとんど",
+      "kana": "ほとんど",
+      "romaji": "hotondo",
+      "tokens": [
+        {
+          "text": "ほとんど",
+          "kana": "ほとんど"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "……的样子不变",
+      "japanese": "まま",
+      "kana": "まま",
+      "romaji": "mama",
+      "tokens": [
+        {
+          "text": "まま",
+          "kana": "まま"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "菜单，选单",
+      "japanese": "メニュー",
+      "kana": "めにゅう",
+      "romaji": "menyuu",
+      "tokens": [
+        {
+          "text": "メニュー",
+          "kana": "めにゅう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "甜瓜，蜜瓜",
+      "japanese": "メロン",
+      "kana": "めろん",
+      "romaji": "meron",
+      "tokens": [
+        {
+          "text": "メロン",
+          "kana": "めろん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "做法，方法",
+      "japanese": "やり方",
+      "kana": "やりかた",
+      "romaji": "yarikata",
+      "tokens": [
+        {
+          "text": "やり方",
+          "kana": "やりかた"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "收银机；收银台；收银员",
+      "japanese": "レジ",
+      "kana": "れじ",
+      "romaji": "reji",
+      "tokens": [
+        {
+          "text": "レジ",
+          "kana": "れじ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "爱，爱情，热爱",
+      "japanese": "愛",
+      "kana": "あい",
+      "romaji": "ai",
+      "tokens": [
+        {
+          "text": "愛",
+          "kana": "あい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "问候，寒暄；致辞",
+      "japanese": "挨拶",
+      "kana": "あいさつ",
+      "romaji": "aisatsu",
+      "tokens": [
+        {
+          "text": "挨拶",
+          "kana": "あいさつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "放心，安心",
+      "japanese": "安心",
+      "kana": "あんしん",
+      "romaji": "anshin",
+      "tokens": [
+        {
+          "text": "安心",
+          "kana": "あんしん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "安全",
+      "japanese": "安全",
+      "kana": "あんぜん",
+      "romaji": "anzen",
+      "tokens": [
+        {
+          "text": "安全",
+          "kana": "あんぜん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "引导，向导；传达；通知，指南",
+      "japanese": "案内",
+      "kana": "あんない",
+      "romaji": "annai",
+      "tokens": [
+        {
+          "text": "案内",
+          "kana": "あんない"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "下述，接下来的；以下",
+      "japanese": "以下",
+      "kana": "いか",
+      "romaji": "ika",
+      "tokens": [
+        {
+          "text": "以下",
+          "kana": "いか"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（提）意见；劝告",
+      "japanese": "意見",
+      "kana": "いけん",
+      "romaji": "iken",
+      "tokens": [
+        {
+          "text": "意見",
+          "kana": "いけん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "差异，不同",
+      "japanese": "違い",
+      "kana": "ちがい",
+      "romaji": "chigai",
+      "tokens": [
+        {
+          "text": "違い",
+          "kana": "ちがい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "抽屉；提取",
+      "japanese": "引き出し",
+      "kana": "ひきだし",
+      "romaji": "hikidashi",
+      "tokens": [
+        {
+          "text": "引き出し",
+          "kana": "ひきだし"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "搬家",
+      "japanese": "引っ越し",
+      "kana": "ひっこし",
+      "romaji": "hikkoshi",
+      "tokens": [
+        {
+          "text": "引っ越し",
+          "kana": "ひっこし"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "驾驶；操作",
+      "japanese": "運転",
+      "kana": "うんてん",
+      "romaji": "unten",
+      "tokens": [
+        {
+          "text": "運転",
+          "kana": "うんてん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "司机",
+      "japanese": "運転手",
+      "kana": "うんてんしゅ",
+      "romaji": "untenshu",
+      "tokens": [
+        {
+          "text": "運転手",
+          "kana": "うんてんしゅ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "云，云彩",
+      "japanese": "雲",
+      "kana": "くも",
+      "romaji": "kumo",
+      "tokens": [
+        {
+          "text": "雲",
+          "kana": "くも"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "营业，经商",
+      "japanese": "営業",
+      "kana": "えいぎょう",
+      "romaji": "eigyou",
+      "tokens": [
+        {
+          "text": "営業",
+          "kana": "えいぎょう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "车站工作人员",
+      "japanese": "駅員",
+      "kana": "えきいん",
+      "romaji": "ekiin",
+      "tokens": [
+        {
+          "text": "駅員",
+          "kana": "えきいん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "客气；谢绝",
+      "japanese": "遠慮",
+      "kana": "えんりょ",
+      "romaji": "enryo",
+      "tokens": [
+        {
+          "text": "遠慮",
+          "kana": "えんりょ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "赏花，特指赏樱花",
+      "japanese": "花見",
+      "kana": "はなみ",
+      "romaji": "hanami",
+      "tokens": [
+        {
+          "text": "花見",
+          "kana": "はなみ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "会场",
+      "japanese": "会場",
+      "kana": "かいじょう",
+      "romaji": "kaijou",
+      "tokens": [
+        {
+          "text": "会場",
+          "kana": "かいじょう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（人或物的）外观，外表",
+      "japanese": "格好",
+      "kana": "かっこう",
+      "romaji": "kakkou",
+      "tokens": [
+        {
+          "text": "格好",
+          "kana": "かっこう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "乐趣；期待",
+      "japanese": "楽しみ",
+      "kana": "たのしみ",
+      "romaji": "tanoshimi",
+      "tokens": [
+        {
+          "text": "楽しみ",
+          "kana": "たのしみ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "（金属制的）罐，桶；罐头",
+      "japanese": "缶",
+      "kana": "かん",
+      "romaji": "kan",
+      "tokens": [
+        {
+          "text": "缶",
+          "kana": "かん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（两个事物的）中间；时间段；人与人的关系",
+      "japanese": "間",
+      "kana": "あいだ",
+      "romaji": "aida",
+      "tokens": [
+        {
+          "text": "間",
+          "kana": "あいだ"
+        }
+      ]
+    }
+  ]
+}

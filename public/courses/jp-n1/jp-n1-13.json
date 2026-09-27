@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-13",
+  "coursePackId": "jp-n1",
+  "title": "名词 13",
+  "order": 13,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "早晨和晚上；每天，经常",
+      "japanese": "朝夕",
+      "kana": "あさゆう",
+      "romaji": "asayuu",
+      "tokens": [
+        {
+          "text": "朝夕",
+          "kana": "あさゆう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "直线",
+      "japanese": "直線",
+      "kana": "ちょくせん",
+      "romaji": "chokusen",
+      "tokens": [
+        {
+          "text": "直線",
+          "kana": "ちょくせん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "规尺；标准，规则",
+      "japanese": "定規",
+      "kana": "じょうぎ",
+      "romaji": "jougi",
+      "tokens": [
+        {
+          "text": "定規",
+          "kana": "じょうぎ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "适用，应用",
+      "japanese": "適用",
+      "kana": "てきよう",
+      "romaji": "tekiyou",
+      "tokens": [
+        {
+          "text": "適用",
+          "kana": "てきよう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "老爷，大人",
+      "japanese": "殿",
+      "kana": "との",
+      "romaji": "tono",
+      "tokens": [
+        {
+          "text": "殿",
+          "kana": "との"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "插秧",
+      "japanese": "田植え",
+      "kana": "たうえ",
+      "romaji": "taue",
+      "tokens": [
+        {
+          "text": "田植え",
+          "kana": "たうえ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "电线杆",
+      "japanese": "電柱",
+      "kana": "でんちゅう",
+      "romaji": "denchuu",
+      "tokens": [
+        {
+          "text": "電柱",
+          "kana": "でんちゅう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "投稿；（意见、批评、抱怨或期望等）写信，投书",
+      "japanese": "投書",
+      "kana": "とうしょ",
+      "romaji": "tousho",
+      "tokens": [
+        {
+          "text": "投書",
+          "kana": "とうしょ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "值班，当班的人",
+      "japanese": "当番",
+      "kana": "とうばん",
+      "romaji": "touban",
+      "tokens": [
+        {
+          "text": "当番",
+          "kana": "とうばん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "陶瓷工艺",
+      "japanese": "陶芸",
+      "kana": "とうげい",
+      "romaji": "tougei",
+      "tokens": [
+        {
+          "text": "陶芸",
+          "kana": "とうげい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "脑；头脑，智力；首脑",
+      "japanese": "頭脳",
+      "kana": "ずのう",
+      "romaji": "zunou",
+      "tokens": [
+        {
+          "text": "頭脳",
+          "kana": "ずのう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "干活能手，勤劳的人",
+      "japanese": "働き者",
+      "kana": "はたらきもの",
+      "romaji": "hatarakimono",
+      "tokens": [
+        {
+          "text": "働き者",
+          "kana": "はたらきもの"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "同期；同学年；同步",
+      "japanese": "同期",
+      "kana": "どうき",
+      "romaji": "douki",
+      "tokens": [
+        {
+          "text": "同期",
+          "kana": "どうき"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "童话",
+      "japanese": "童話",
+      "kana": "どうわ",
+      "romaji": "douwa",
+      "tokens": [
+        {
+          "text": "童話",
+          "kana": "どうわ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（人）吃肉；（动物）肉食",
+      "japanese": "肉食",
+      "kana": "にくしょく",
+      "romaji": "nikushoku",
+      "tokens": [
+        {
+          "text": "肉食",
+          "kana": "にくしょく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "浓度",
+      "japanese": "濃度",
+      "kana": "のうど",
+      "romaji": "noudo",
+      "tokens": [
+        {
+          "text": "濃度",
+          "kana": "のうど"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "俳句",
+      "japanese": "俳句",
+      "kana": "はいく",
+      "romaji": "haiku",
+      "tokens": [
+        {
+          "text": "俳句",
+          "kana": "はいく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "买卖",
+      "japanese": "売買",
+      "kana": "ばいばい",
+      "romaji": "baibai",
+      "tokens": [
+        {
+          "text": "売買",
+          "kana": "ばいばい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "博学的人；博士",
+      "japanese": "博士",
+      "kana": "はかせ",
+      "romaji": "hakase",
+      "tokens": [
+        {
+          "text": "博士",
+          "kana": "はかせ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "发射",
+      "japanese": "発射",
+      "kana": "はっしゃ",
+      "romaji": "hassha",
+      "tokens": [
+        {
+          "text": "発射",
+          "kana": "はっしゃ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "半径",
+      "japanese": "半径",
+      "kana": "はんけい",
+      "romaji": "hankei",
+      "tokens": [
+        {
+          "text": "半径",
+          "kana": "はんけい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "悲剧",
+      "japanese": "悲劇",
+      "kana": "ひげき",
+      "romaji": "higeki",
+      "tokens": [
+        {
+          "text": "悲劇",
+          "kana": "ひげき"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "讽刺，挖苦，嘲讽",
+      "japanese": "皮肉",
+      "kana": "ひにく",
+      "romaji": "hiniku",
+      "tokens": [
+        {
+          "text": "皮肉",
+          "kana": "ひにく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "必需品",
+      "japanese": "必需品",
+      "kana": "ひつじゅひん",
+      "romaji": "hitsujuhin",
+      "tokens": [
+        {
+          "text": "必需品",
+          "kana": "ひつじゅひん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "标识，标志，标记",
+      "japanese": "標識",
+      "kana": "ひょうしき",
+      "romaji": "hyoushiki",
+      "tokens": [
+        {
+          "text": "標識",
+          "kana": "ひょうしき"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "标准；平均水平",
+      "japanese": "標準",
+      "kana": "ひょうじゅん",
+      "romaji": "hyoujun",
+      "tokens": [
+        {
+          "text": "標準",
+          "kana": "ひょうじゅん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "不正当，不正经",
+      "japanese": "不正",
+      "kana": "ふせい",
+      "romaji": "fusei",
+      "tokens": [
+        {
+          "text": "不正",
+          "kana": "ふせい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "武士",
+      "japanese": "武士",
+      "kana": "ぶし",
+      "romaji": "bushi",
+      "tokens": [
+        {
+          "text": "武士",
+          "kana": "ぶし"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "包袱皮，用于包东西的方形布",
+      "japanese": "風呂敷",
+      "kana": "ふろしき",
+      "romaji": "furoshiki",
+      "tokens": [
+        {
+          "text": "風呂敷",
+          "kana": "ふろしき"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "火山喷发",
+      "japanese": "噴火",
+      "kana": "ふんか",
+      "romaji": "funka",
+      "tokens": [
+        {
+          "text": "噴火",
+          "kana": "ふんか"
+        }
+      ]
+    }
+  ]
+}

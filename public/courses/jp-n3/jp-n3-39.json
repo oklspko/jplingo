@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-39",
+  "coursePackId": "jp-n3",
+  "title": "名词 39",
+  "order": 39,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "大雪",
+      "japanese": "大雪",
+      "kana": "おおゆき",
+      "romaji": "ooyuki",
+      "tokens": [
+        {
+          "text": "大雪",
+          "kana": "おおゆき"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "入门；拜师",
+      "japanese": "入門",
+      "kana": "にゅうもん",
+      "romaji": "nyuumon",
+      "tokens": [
+        {
+          "text": "入門",
+          "kana": "にゅうもん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "美术",
+      "japanese": "美術",
+      "kana": "びじゅつ",
+      "romaji": "bijutsu",
+      "tokens": [
+        {
+          "text": "美術",
+          "kana": "びじゅつ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "不需要；没用",
+      "japanese": "不要",
+      "kana": "ふよう",
+      "romaji": "fuyou",
+      "tokens": [
+        {
+          "text": "不要",
+          "kana": "ふよう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "保育（婴幼儿）",
+      "japanese": "保育",
+      "kana": "ほいく",
+      "romaji": "hoiku",
+      "tokens": [
+        {
+          "text": "保育",
+          "kana": "ほいく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "万人，大众",
+      "japanese": "万人",
+      "kana": "ばんにん",
+      "romaji": "bannin",
+      "tokens": [
+        {
+          "text": "万人",
+          "kana": "ばんにん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（电子邮件的）标题；（从某一特定角度分类的）项目名",
+      "japanese": "件名",
+      "kana": "けんめい",
+      "romaji": "kenmei",
+      "tokens": [
+        {
+          "text": "件名",
+          "kana": "けんめい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "交通费",
+      "japanese": "交通費",
+      "kana": "こうつうひ",
+      "romaji": "koutsuuhi",
+      "tokens": [
+        {
+          "text": "交通費",
+          "kana": "こうつうひ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "吸尘器",
+      "japanese": "掃除機",
+      "kana": "そうじき",
+      "romaji": "soujiki",
+      "tokens": [
+        {
+          "text": "掃除機",
+          "kana": "そうじき"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "这个，那个，当",
+      "japanese": "当",
+      "kana": "とう",
+      "romaji": "tou",
+      "tokens": [
+        {
+          "text": "当",
+          "kana": "とう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "附着；燃烧；运气",
+      "japanese": "付き",
+      "kana": "つき",
+      "romaji": "tsuki",
+      "tokens": [
+        {
+          "text": "付き",
+          "kana": "つき"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "体察，理解，体会",
+      "japanese": "察し",
+      "kana": "さっし",
+      "romaji": "sasshi",
+      "tokens": [
+        {
+          "text": "察し",
+          "kana": "さっし"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "左转，左拐弯",
+      "japanese": "左折",
+      "kana": "させつ",
+      "romaji": "sasetsu",
+      "tokens": [
+        {
+          "text": "左折",
+          "kana": "させつ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "室内，屋内",
+      "japanese": "屋内",
+      "kana": "おくない",
+      "romaji": "okunai",
+      "tokens": [
+        {
+          "text": "屋内",
+          "kana": "おくない"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "用具，工具",
+      "japanese": "用具",
+      "kana": "ようぐ",
+      "romaji": "yougu",
+      "tokens": [
+        {
+          "text": "用具",
+          "kana": "ようぐ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "衣橱，衣柜",
+      "japanese": "たんす",
+      "kana": "たんす",
+      "romaji": "tansu",
+      "tokens": [
+        {
+          "text": "たんす",
+          "kana": "たんす"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "入学考试",
+      "japanese": "入試",
+      "kana": "にゅうし",
+      "romaji": "nyuushi",
+      "tokens": [
+        {
+          "text": "入試",
+          "kana": "にゅうし"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "古怪的人，怪人，异常的人",
+      "japanese": "変人",
+      "kana": "へんじん",
+      "romaji": "henjin",
+      "tokens": [
+        {
+          "text": "変人",
+          "kana": "へんじん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "炒饭",
+      "japanese": "チャーハン",
+      "kana": "ちゃーはん",
+      "romaji": "cha-han",
+      "tokens": [
+        {
+          "text": "チャーハン",
+          "kana": "ちゃーはん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（二、三天到五、六天之间）几天，数日",
+      "japanese": "数日",
+      "kana": "すうじつ",
+      "romaji": "suujitsu",
+      "tokens": [
+        {
+          "text": "数日",
+          "kana": "すうじつ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "邀请；引诱；劝诱",
+      "japanese": "誘い",
+      "kana": "さそい",
+      "romaji": "sasoi",
+      "tokens": [
+        {
+          "text": "誘い",
+          "kana": "さそい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "睡觉，睡眠",
+      "japanese": "眠り",
+      "kana": "ねむり",
+      "romaji": "nemuri",
+      "tokens": [
+        {
+          "text": "眠り",
+          "kana": "ねむり"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "第二天早晨，次晨",
+      "japanese": "翌朝",
+      "kana": "よくあさ",
+      "romaji": "yokuasa",
+      "tokens": [
+        {
+          "text": "翌朝",
+          "kana": "よくあさ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "北海道",
+      "japanese": "北海道",
+      "kana": "ほっかいどう",
+      "romaji": "hokkaidou",
+      "tokens": [
+        {
+          "text": "北海道",
+          "kana": "ほっかいどう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "图书室",
+      "japanese": "図書室",
+      "kana": "としょしつ",
+      "romaji": "toshoshitsu",
+      "tokens": [
+        {
+          "text": "図書室",
+          "kana": "としょしつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "开关，开闭",
+      "japanese": "開閉",
+      "kana": "かいへい",
+      "romaji": "kaihei",
+      "tokens": [
+        {
+          "text": "開閉",
+          "kana": "かいへい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "多一些，略多些",
+      "japanese": "多め",
+      "kana": "おおめ",
+      "romaji": "oome",
+      "tokens": [
+        {
+          "text": "多め",
+          "kana": "おおめ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "交通事故，车祸",
+      "japanese": "交通事故",
+      "kana": "こうつうじこ",
+      "romaji": "koutsuujiko",
+      "tokens": [
+        {
+          "text": "交通事故",
+          "kana": "こうつうじこ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "冰；冰激凌",
+      "japanese": "アイス",
+      "kana": "あいす",
+      "romaji": "aisu",
+      "tokens": [
+        {
+          "text": "アイス",
+          "kana": "あいす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "报纸；旧报纸",
+      "japanese": "新聞紙",
+      "kana": "しんぶんし",
+      "romaji": "shinbunshi",
+      "tokens": [
+        {
+          "text": "新聞紙",
+          "kana": "しんぶんし"
+        }
+      ]
+    }
+  ]
+}

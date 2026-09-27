@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-14",
+  "coursePackId": "jp-n4",
+  "title": "名词 14",
+  "order": 14,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "老实，正直",
+      "japanese": "正直",
+      "kana": "しょうじき",
+      "romaji": "shoujiki",
+      "tokens": [
+        {
+          "text": "正直",
+          "kana": "しょうじき"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "绝对；决；决（不）",
+      "japanese": "絶対",
+      "kana": "ぜったい",
+      "romaji": "zettai",
+      "tokens": [
+        {
+          "text": "絶対",
+          "kana": "ぜったい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "所有，整体",
+      "japanese": "全体",
+      "kana": "ぜんたい",
+      "romaji": "zentai",
+      "tokens": [
+        {
+          "text": "全体",
+          "kana": "ぜんたい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "伙伴；对方；（竞争）对手",
+      "japanese": "相手",
+      "kana": "あいて",
+      "romaji": "aite",
+      "tokens": [
+        {
+          "text": "相手",
+          "kana": "あいて"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "呼吸，气息",
+      "japanese": "息",
+      "kana": "いき",
+      "romaji": "iki",
+      "tokens": [
+        {
+          "text": "息",
+          "kana": "いき"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "别人；（没有血缘关系的）外人；局外人",
+      "japanese": "他人",
+      "kana": "たにん",
+      "romaji": "tanin",
+      "tokens": [
+        {
+          "text": "他人",
+          "kana": "たにん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "体育",
+      "japanese": "体育",
+      "kana": "たいいく",
+      "romaji": "taiiku",
+      "tokens": [
+        {
+          "text": "体育",
+          "kana": "たいいく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "许多人，大批人",
+      "japanese": "大勢",
+      "kana": "おおぜい",
+      "romaji": "oozei",
+      "tokens": [
+        {
+          "text": "大勢",
+          "kana": "おおぜい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "第一，首先；最优秀；最重要",
+      "japanese": "第一",
+      "kana": "だいいち",
+      "romaji": "daiichi",
+      "tokens": [
+        {
+          "text": "第一",
+          "kana": "だいいち"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "迟到",
+      "japanese": "遅刻",
+      "kana": "ちこく",
+      "romaji": "chikoku",
+      "tokens": [
+        {
+          "text": "遅刻",
+          "kana": "ちこく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "朋友，伙伴；同类",
+      "japanese": "仲間",
+      "kana": "なかま",
+      "romaji": "nakama",
+      "tokens": [
+        {
+          "text": "仲間",
+          "kana": "なかま"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "午睡，午觉",
+      "japanese": "昼寝",
+      "kana": "ひるね",
+      "romaji": "hirune",
+      "tokens": [
+        {
+          "text": "昼寝",
+          "kana": "ひるね"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "存款，储蓄",
+      "japanese": "貯金",
+      "kana": "ちょきん",
+      "romaji": "chokin",
+      "tokens": [
+        {
+          "text": "貯金",
+          "kana": "ちょきん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "音调；语气；情况；势头",
+      "japanese": "調子",
+      "kana": "ちょうし",
+      "romaji": "choushi",
+      "tokens": [
+        {
+          "text": "調子",
+          "kana": "ちょうし"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "直接",
+      "japanese": "直接",
+      "kana": "ちょくせつ",
+      "romaji": "chokusetsu",
+      "tokens": [
+        {
+          "text": "直接",
+          "kana": "ちょくせつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "疼痛；悲痛，苦恼",
+      "japanese": "痛み",
+      "kana": "いたみ",
+      "romaji": "itami",
+      "tokens": [
+        {
+          "text": "痛み",
+          "kana": "いたみ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "电子",
+      "japanese": "電子",
+      "kana": "でんし",
+      "romaji": "denshi",
+      "tokens": [
+        {
+          "text": "電子",
+          "kana": "でんし"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "努力",
+      "japanese": "努力",
+      "kana": "どりょく",
+      "romaji": "doryoku",
+      "tokens": [
+        {
+          "text": "努力",
+          "kana": "どりょく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "土地；土壤；地面",
+      "japanese": "土",
+      "kana": "つち",
+      "romaji": "tsuchi",
+      "tokens": [
+        {
+          "text": "土",
+          "kana": "つち"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "到达，抵达",
+      "japanese": "到着",
+      "kana": "とうちゃく",
+      "romaji": "touchaku",
+      "tokens": [
+        {
+          "text": "到着",
+          "kana": "とうちゃく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "擅长，拿手",
+      "japanese": "得意",
+      "kana": "とくい",
+      "romaji": "tokui",
+      "tokens": [
+        {
+          "text": "得意",
+          "kana": "とくい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "皮肤；表皮",
+      "japanese": "肌",
+      "kana": "はだ",
+      "romaji": "hada",
+      "tokens": [
+        {
+          "text": "肌",
+          "kana": "はだ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "发现",
+      "japanese": "発見",
+      "kana": "はっけん",
+      "romaji": "hakken",
+      "tokens": [
+        {
+          "text": "発見",
+          "kana": "はっけん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "物品；品格",
+      "japanese": "品",
+      "kana": "ひん",
+      "romaji": "hin",
+      "tokens": [
+        {
+          "text": "品",
+          "kana": "ひん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "不安，焦虑",
+      "japanese": "不安",
+      "kana": "ふあん",
+      "romaji": "fuan",
+      "tokens": [
+        {
+          "text": "不安",
+          "kana": "ふあん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "不可思议",
+      "japanese": "不思議",
+      "kana": "ふしぎ",
+      "romaji": "fushigi",
+      "tokens": [
+        {
+          "text": "不思議",
+          "kana": "ふしぎ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "不满，不满意",
+      "japanese": "不満",
+      "kana": "ふまん",
+      "romaji": "fuman",
+      "tokens": [
+        {
+          "text": "不満",
+          "kana": "ふまん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "平常日；非节假日",
+      "japanese": "平日",
+      "kana": "へいじつ",
+      "romaji": "heijitsu",
+      "tokens": [
+        {
+          "text": "平日",
+          "kana": "へいじつ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "贸易",
+      "japanese": "貿易",
+      "kana": "ぼうえき",
+      "romaji": "boueki",
+      "tokens": [
+        {
+          "text": "貿易",
+          "kana": "ぼうえき"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "脸颊",
+      "japanese": "頬",
+      "kana": "ほお",
+      "romaji": "hoo",
+      "tokens": [
+        {
+          "text": "頬",
+          "kana": "ほお"
+        }
+      ]
+    }
+  ]
+}

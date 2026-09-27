@@ -1,0 +1,86 @@
+{
+  "id": "jp-n4-17",
+  "coursePackId": "jp-n4",
+  "title": "名词 17",
+  "order": 17,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "警察，警官",
+      "japanese": "警察官",
+      "kana": "けいさつかん",
+      "romaji": "keisatsukan",
+      "tokens": [
+        {
+          "text": "警察官",
+          "kana": "けいさつかん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "体育馆",
+      "japanese": "体育館",
+      "kana": "たいいくかん",
+      "romaji": "taiikukan",
+      "tokens": [
+        {
+          "text": "体育館",
+          "kana": "たいいくかん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "空罐",
+      "japanese": "空き缶",
+      "kana": "あきかん",
+      "romaji": "akikan",
+      "tokens": [
+        {
+          "text": "空き缶",
+          "kana": "あきかん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "折纸手工",
+      "japanese": "折り紙",
+      "kana": "おりがみ",
+      "romaji": "origami",
+      "tokens": [
+        {
+          "text": "折り紙",
+          "kana": "おりがみ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "传真；传真机",
+      "japanese": "ファクス",
+      "kana": "ふぁくす",
+      "romaji": "fuakusu",
+      "tokens": [
+        {
+          "text": "ファクス",
+          "kana": "ふぁくす"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "站台，月台",
+      "japanese": "ホーム",
+      "kana": "ほうむ",
+      "romaji": "houmu",
+      "tokens": [
+        {
+          "text": "ホーム",
+          "kana": "ほうむ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-36",
+  "coursePackId": "jp-n1",
+  "title": "名词 36",
+  "order": 36,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "不在，不在场",
+      "japanese": "不在",
+      "kana": "ふざい",
+      "romaji": "fuzai",
+      "tokens": [
+        {
+          "text": "不在",
+          "kana": "ふざい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "可疑",
+      "japanese": "不審",
+      "kana": "ふしん",
+      "romaji": "fushin",
+      "tokens": [
+        {
+          "text": "不審",
+          "kana": "ふしん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "不正当，非法",
+      "japanese": "不当",
+      "kana": "ふとう",
+      "romaji": "futou",
+      "tokens": [
+        {
+          "text": "不当",
+          "kana": "ふとう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "不完备",
+      "japanese": "不備",
+      "kana": "ふび",
+      "romaji": "fubi",
+      "tokens": [
+        {
+          "text": "不備",
+          "kana": "ふび"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "异议，不服",
+      "japanese": "不服",
+      "kana": "ふふく",
+      "romaji": "fufuku",
+      "tokens": [
+        {
+          "text": "不服",
+          "kana": "ふふく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "普遍，一般",
+      "japanese": "普遍",
+      "kana": "ふへん",
+      "romaji": "fuhen",
+      "tokens": [
+        {
+          "text": "普遍",
+          "kana": "ふへん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "腐烂；腐败",
+      "japanese": "腐敗",
+      "kana": "ふはい",
+      "romaji": "fuhai",
+      "tokens": [
+        {
+          "text": "腐敗",
+          "kana": "ふはい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "负债",
+      "japanese": "負債",
+      "kana": "ふさい",
+      "romaji": "fusai",
+      "tokens": [
+        {
+          "text": "負債",
+          "kana": "ふさい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "赴任",
+      "japanese": "赴任",
+      "kana": "ふにん",
+      "romaji": "funin",
+      "tokens": [
+        {
+          "text": "赴任",
+          "kana": "ふにん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "武士门第；武士",
+      "japanese": "武家",
+      "kana": "ぶけ",
+      "romaji": "buke",
+      "tokens": [
+        {
+          "text": "武家",
+          "kana": "ぶけ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "风景，风物",
+      "japanese": "風物",
+      "kana": "ふうぶつ",
+      "romaji": "fuubutsu",
+      "tokens": [
+        {
+          "text": "風物",
+          "kana": "ふうぶつ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "复活；恢复，复兴",
+      "japanese": "復活",
+      "kana": "ふっかつ",
+      "romaji": "fukkatsu",
+      "tokens": [
+        {
+          "text": "復活",
+          "kana": "ふっかつ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "复兴",
+      "japanese": "復興",
+      "kana": "ふっこう",
+      "romaji": "fukkou",
+      "tokens": [
+        {
+          "text": "復興",
+          "kana": "ふっこう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "佛像",
+      "japanese": "仏像",
+      "kana": "ぶつぞう",
+      "romaji": "butsuzou",
+      "tokens": [
+        {
+          "text": "仏像",
+          "kana": "ぶつぞう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "分工",
+      "japanese": "分業",
+      "kana": "ぶんぎょう",
+      "romaji": "bungyou",
+      "tokens": [
+        {
+          "text": "分業",
+          "kana": "ぶんぎょう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "分散",
+      "japanese": "分散",
+      "kana": "ぶんさん",
+      "romaji": "bunsan",
+      "tokens": [
+        {
+          "text": "分散",
+          "kana": "ぶんさん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "奋战；奋斗",
+      "japanese": "奮闘",
+      "kana": "ふんとう",
+      "romaji": "funtou",
+      "tokens": [
+        {
+          "text": "奮闘",
+          "kana": "ふんとう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "粉末",
+      "japanese": "粉末",
+      "kana": "ふんまつ",
+      "romaji": "funmatsu",
+      "tokens": [
+        {
+          "text": "粉末",
+          "kana": "ふんまつ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "士兵，战士",
+      "japanese": "兵士",
+      "kana": "へいし",
+      "romaji": "heishi",
+      "tokens": [
+        {
+          "text": "兵士",
+          "kana": "へいし"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "并列，并排；并联",
+      "japanese": "並列",
+      "kana": "へいれつ",
+      "romaji": "heiretsu",
+      "tokens": [
+        {
+          "text": "並列",
+          "kana": "へいれつ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "偏见",
+      "japanese": "偏見",
+      "kana": "へんけん",
+      "romaji": "henken",
+      "tokens": [
+        {
+          "text": "偏見",
+          "kana": "へんけん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "变迁",
+      "japanese": "変遷",
+      "kana": "へんせん",
+      "romaji": "hensen",
+      "tokens": [
+        {
+          "text": "変遷",
+          "kana": "へんせん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "归还，退还",
+      "japanese": "返還",
+      "kana": "へんかん",
+      "romaji": "henkan",
+      "tokens": [
+        {
+          "text": "返還",
+          "kana": "へんかん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "辩解，申辩，辩白",
+      "japanese": "弁解",
+      "kana": "べんかい",
+      "romaji": "benkai",
+      "tokens": [
+        {
+          "text": "弁解",
+          "kana": "べんかい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "赔偿",
+      "japanese": "弁償",
+      "kana": "べんしょう",
+      "romaji": "benshou",
+      "tokens": [
+        {
+          "text": "弁償",
+          "kana": "べんしょう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "保守；保养",
+      "japanese": "保守",
+      "kana": "ほしゅ",
+      "romaji": "hoshu",
+      "tokens": [
+        {
+          "text": "保守",
+          "kana": "ほしゅ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "捕获",
+      "japanese": "捕獲",
+      "kana": "ほかく",
+      "romaji": "hokaku",
+      "tokens": [
+        {
+          "text": "捕獲",
+          "kana": "ほかく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "补给",
+      "japanese": "補給",
+      "kana": "ほきゅう",
+      "romaji": "hokyuu",
+      "tokens": [
+        {
+          "text": "補給",
+          "kana": "ほきゅう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "加强，强化",
+      "japanese": "補強",
+      "kana": "ほきょう",
+      "romaji": "hokyou",
+      "tokens": [
+        {
+          "text": "補強",
+          "kana": "ほきょう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "补充",
+      "japanese": "補充",
+      "kana": "ほじゅう",
+      "romaji": "hojuu",
+      "tokens": [
+        {
+          "text": "補充",
+          "kana": "ほじゅう"
+        }
+      ]
+    }
+  ]
+}

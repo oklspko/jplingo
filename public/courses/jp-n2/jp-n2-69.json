@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-69",
+  "coursePackId": "jp-n2",
+  "title": "名词 69",
+  "order": 69,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "神鹰，美洲秃鹫",
+      "japanese": "コンドル",
+      "kana": "こんどる",
+      "romaji": "kondoru",
+      "tokens": [
+        {
+          "text": "コンドル",
+          "kana": "こんどる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "名著，杰出的著作",
+      "japanese": "名著",
+      "kana": "めいちょ",
+      "romaji": "meicho",
+      "tokens": [
+        {
+          "text": "名著",
+          "kana": "めいちょ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "册数",
+      "japanese": "冊数",
+      "kana": "さっすう",
+      "romaji": "sassuu",
+      "tokens": [
+        {
+          "text": "冊数",
+          "kana": "さっすう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "汗腺",
+      "japanese": "汗腺",
+      "kana": "かんせん",
+      "romaji": "kansen",
+      "tokens": [
+        {
+          "text": "汗腺",
+          "kana": "かんせん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "洒水，洒的水",
+      "japanese": "打ち水",
+      "kana": "うちみず",
+      "romaji": "uchimizu",
+      "tokens": [
+        {
+          "text": "打ち水",
+          "kana": "うちみず"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "编者，编辑人",
+      "japanese": "編者",
+      "kana": "へんじゃ",
+      "romaji": "henja",
+      "tokens": [
+        {
+          "text": "編者",
+          "kana": "へんじゃ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "海豚",
+      "japanese": "イルカ",
+      "kana": "いるか",
+      "romaji": "iruka",
+      "tokens": [
+        {
+          "text": "イルカ",
+          "kana": "いるか"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "以大米为主食",
+      "japanese": "米食",
+      "kana": "べいしょく",
+      "romaji": "beishoku",
+      "tokens": [
+        {
+          "text": "米食",
+          "kana": "べいしょく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（封面和封底的）衬页，环衬",
+      "japanese": "見返し",
+      "kana": "みかえし",
+      "romaji": "mikaeshi",
+      "tokens": [
+        {
+          "text": "見返し",
+          "kana": "みかえし"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "不整齐，参差不齐",
+      "japanese": "不ぞろい",
+      "kana": "ふぞろい",
+      "romaji": "fuzoroi",
+      "tokens": [
+        {
+          "text": "不ぞろい",
+          "kana": "ふぞろい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "企图，打算;（艺术作品的）构想，创作意图",
+      "japanese": "作意",
+      "kana": "さくい",
+      "romaji": "sakui",
+      "tokens": [
+        {
+          "text": "作意",
+          "kana": "さくい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "洋纸，西洋纸",
+      "japanese": "洋紙",
+      "kana": "ようし",
+      "romaji": "youshi",
+      "tokens": [
+        {
+          "text": "洋紙",
+          "kana": "ようし"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "人工加速培育，促成",
+      "japanese": "促成",
+      "kana": "そくせい",
+      "romaji": "sokusei",
+      "tokens": [
+        {
+          "text": "促成",
+          "kana": "そくせい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "书面语，书面语言",
+      "japanese": "書き言葉",
+      "kana": "かきことば",
+      "romaji": "kakikotoba",
+      "tokens": [
+        {
+          "text": "書き言葉",
+          "kana": "かきことば"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "古迹",
+      "japanese": "旧跡",
+      "kana": "きゅうせき",
+      "romaji": "kyuuseki",
+      "tokens": [
+        {
+          "text": "旧跡",
+          "kana": "きゅうせき"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "（烹饪时的）大火，武火",
+      "japanese": "強火",
+      "kana": "つよび",
+      "romaji": "tsuyobi",
+      "tokens": [
+        {
+          "text": "強火",
+          "kana": "つよび"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "听讲，听课",
+      "japanese": "受講",
+      "kana": "じゅこう",
+      "romaji": "jukou",
+      "tokens": [
+        {
+          "text": "受講",
+          "kana": "じゅこう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "石墨",
+      "japanese": "黒鉛",
+      "kana": "こくえん",
+      "romaji": "kokuen",
+      "tokens": [
+        {
+          "text": "黒鉛",
+          "kana": "こくえん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "商行；公司",
+      "japanese": "商会",
+      "kana": "しょうかい",
+      "romaji": "shoukai",
+      "tokens": [
+        {
+          "text": "商会",
+          "kana": "しょうかい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "名器，珍贵器物",
+      "japanese": "名器",
+      "kana": "めいき",
+      "romaji": "meiki",
+      "tokens": [
+        {
+          "text": "名器",
+          "kana": "めいき"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "花芽",
+      "japanese": "花芽",
+      "kana": "はなめ",
+      "romaji": "haname",
+      "tokens": [
+        {
+          "text": "花芽",
+          "kana": "はなめ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "乖离，背离",
+      "japanese": "乖[かい]離",
+      "kana": "かいり",
+      "romaji": "kairi",
+      "tokens": [
+        {
+          "text": "乖[かい]離",
+          "kana": "かいり"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "手写，手抄",
+      "japanese": "手書き",
+      "kana": "てがき",
+      "romaji": "tegaki",
+      "tokens": [
+        {
+          "text": "手書き",
+          "kana": "てがき"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "事多，很忙，百忙；经常使用",
+      "japanese": "多用",
+      "kana": "たよう",
+      "romaji": "tayou",
+      "tokens": [
+        {
+          "text": "多用",
+          "kana": "たよう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "准确度，准确性",
+      "japanese": "確度",
+      "kana": "かくど",
+      "romaji": "kakudo",
+      "tokens": [
+        {
+          "text": "確度",
+          "kana": "かくど"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "至理名言",
+      "japanese": "至言",
+      "kana": "しげん",
+      "romaji": "shigen",
+      "tokens": [
+        {
+          "text": "至言",
+          "kana": "しげん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "自嘲，自我嘲笑",
+      "japanese": "自嘲",
+      "kana": "じちょう",
+      "romaji": "jichou",
+      "tokens": [
+        {
+          "text": "自嘲",
+          "kana": "じちょう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "文科",
+      "japanese": "文系",
+      "kana": "ぶんけい",
+      "romaji": "bunkei",
+      "tokens": [
+        {
+          "text": "文系",
+          "kana": "ぶんけい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "周年",
+      "japanese": "周年",
+      "kana": "しゅうねん",
+      "romaji": "shuunen",
+      "tokens": [
+        {
+          "text": "周年",
+          "kana": "しゅうねん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "战术",
+      "japanese": "戦法",
+      "kana": "せんぽう",
+      "romaji": "senpou",
+      "tokens": [
+        {
+          "text": "戦法",
+          "kana": "せんぽう"
+        }
+      ]
+    }
+  ]
+}

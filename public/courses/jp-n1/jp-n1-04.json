@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-04",
+  "coursePackId": "jp-n1",
+  "title": "名词 4",
+  "order": 4,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "公会，行会，合作社；工会",
+      "japanese": "組合",
+      "kana": "くみあい",
+      "romaji": "kumiai",
+      "tokens": [
+        {
+          "text": "組合",
+          "kana": "くみあい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "霜",
+      "japanese": "霜",
+      "kana": "しも",
+      "romaji": "shimo",
+      "tokens": [
+        {
+          "text": "霜",
+          "kana": "しも"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "脚踝",
+      "japanese": "足首",
+      "kana": "あしくび",
+      "romaji": "ashikubi",
+      "tokens": [
+        {
+          "text": "足首",
+          "kana": "あしくび"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "相互对照；对比",
+      "japanese": "対照",
+      "kana": "たいしょう",
+      "romaji": "taishou",
+      "tokens": [
+        {
+          "text": "対照",
+          "kana": "たいしょう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "大气",
+      "japanese": "大気",
+      "kana": "たいき",
+      "romaji": "taiki",
+      "tokens": [
+        {
+          "text": "大気",
+          "kana": "たいき"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "木匠，木工",
+      "japanese": "大工",
+      "kana": "だいく",
+      "romaji": "daiku",
+      "tokens": [
+        {
+          "text": "大工",
+          "kana": "だいく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "大陆",
+      "japanese": "大陸",
+      "kana": "たいりく",
+      "romaji": "tairiku",
+      "tokens": [
+        {
+          "text": "大陸",
+          "kana": "たいりく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（40至50岁）中年",
+      "japanese": "中年",
+      "kana": "ちゅうねん",
+      "romaji": "chuunen",
+      "tokens": [
+        {
+          "text": "中年",
+          "kana": "ちゅうねん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "接受；吃，喝；请给",
+      "japanese": "頂戴",
+      "kana": "ちょうだい",
+      "romaji": "choudai",
+      "tokens": [
+        {
+          "text": "頂戴",
+          "kana": "ちょうだい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "指甲；爪子",
+      "japanese": "爪",
+      "kana": "つめ",
+      "romaji": "tsume",
+      "tokens": [
+        {
+          "text": "爪",
+          "kana": "つめ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "电线，电缆",
+      "japanese": "電線",
+      "kana": "でんせん",
+      "romaji": "densen",
+      "tokens": [
+        {
+          "text": "電線",
+          "kana": "でんせん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "统计",
+      "japanese": "統計",
+      "kana": "とうけい",
+      "romaji": "toukei",
+      "tokens": [
+        {
+          "text": "統計",
+          "kana": "とうけい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "农村",
+      "japanese": "農村",
+      "kana": "のうそん",
+      "romaji": "nouson",
+      "tokens": [
+        {
+          "text": "農村",
+          "kana": "のうそん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "农民",
+      "japanese": "農民",
+      "kana": "のうみん",
+      "romaji": "noumin",
+      "tokens": [
+        {
+          "text": "農民",
+          "kana": "のうみん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "犯罪",
+      "japanese": "犯罪",
+      "kana": "はんざい",
+      "romaji": "hanzai",
+      "tokens": [
+        {
+          "text": "犯罪",
+          "kana": "はんざい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "肘，肘关节",
+      "japanese": "肘",
+      "kana": "ひじ",
+      "romaji": "hiji",
+      "tokens": [
+        {
+          "text": "肘",
+          "kana": "ひじ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "不幸；委婉地表示亲人去世",
+      "japanese": "不幸",
+      "kana": "ふこう",
+      "romaji": "fukou",
+      "tokens": [
+        {
+          "text": "不幸",
+          "kana": "ふこう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "不小心，疏忽",
+      "japanese": "不注意",
+      "kana": "ふちゅうい",
+      "romaji": "fuchuui",
+      "tokens": [
+        {
+          "text": "不注意",
+          "kana": "ふちゅうい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "令郎；小男孩，少爷",
+      "japanese": "坊ちゃん",
+      "kana": "ぼっちゃん",
+      "romaji": "botchan",
+      "tokens": [
+        {
+          "text": "坊ちゃん",
+          "kana": "ぼっちゃん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "防止",
+      "japanese": "防止",
+      "kana": "ぼうし",
+      "romaji": "boushi",
+      "tokens": [
+        {
+          "text": "防止",
+          "kana": "ぼうし"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "尝味道，尝咸淡",
+      "japanese": "味見",
+      "kana": "あじみ",
+      "romaji": "ajimi",
+      "tokens": [
+        {
+          "text": "味見",
+          "kana": "あじみ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "雾；喷雾",
+      "japanese": "霧",
+      "kana": "きり",
+      "romaji": "kiri",
+      "tokens": [
+        {
+          "text": "霧",
+          "kana": "きり"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "名词",
+      "japanese": "名詞",
+      "kana": "めいし",
+      "romaji": "meishi",
+      "tokens": [
+        {
+          "text": "名詞",
+          "kana": "めいし"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "裸体；裸露",
+      "japanese": "裸",
+      "kana": "はだか",
+      "romaji": "hadaka",
+      "tokens": [
+        {
+          "text": "裸",
+          "kana": "はだか"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "列岛，群岛",
+      "japanese": "列島",
+      "kana": "れっとう",
+      "romaji": "rettou",
+      "tokens": [
+        {
+          "text": "列島",
+          "kana": "れっとう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "……金额",
+      "japanese": "額",
+      "kana": "がく",
+      "romaji": "gaku",
+      "tokens": [
+        {
+          "text": "額",
+          "kana": "がく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（校园）暴力，欺负，霸凌",
+      "japanese": "いじめ",
+      "kana": "いじめ",
+      "romaji": "ijime",
+      "tokens": [
+        {
+          "text": "いじめ",
+          "kana": "いじめ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "窗户；橱窗",
+      "japanese": "ウィンドー",
+      "kana": "うぃんどう",
+      "romaji": "uindou",
+      "tokens": [
+        {
+          "text": "ウィンドー",
+          "kana": "うぃんどう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "癌症；祸害",
+      "japanese": "癌[がん]",
+      "kana": "がん",
+      "romaji": "gan",
+      "tokens": [
+        {
+          "text": "癌[がん]",
+          "kana": "がん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "被炉，暖炉",
+      "japanese": "こたつ",
+      "kana": "こたつ",
+      "romaji": "kotatsu",
+      "tokens": [
+        {
+          "text": "こたつ",
+          "kana": "こたつ"
+        }
+      ]
+    }
+  ]
+}

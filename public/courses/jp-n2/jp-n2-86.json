@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-86",
+  "coursePackId": "jp-n2",
+  "title": "动词 15",
+  "order": 86,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "赶出，赶走",
+      "japanese": "追い出す",
+      "kana": "おいだす",
+      "romaji": "oidasu",
+      "tokens": [
+        {
+          "text": "追い出す",
+          "kana": "おいだす"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "使疼痛，弄伤；使痛苦",
+      "japanese": "痛める",
+      "kana": "いためる",
+      "romaji": "itameru",
+      "tokens": [
+        {
+          "text": "痛める",
+          "kana": "いためる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "决定，确定；安定",
+      "japanese": "定まる",
+      "kana": "さだまる",
+      "romaji": "sadamaru",
+      "tokens": [
+        {
+          "text": "定まる",
+          "kana": "さだまる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "决定，制定；平息",
+      "japanese": "定める",
+      "kana": "さだめる",
+      "romaji": "sadameru",
+      "tokens": [
+        {
+          "text": "定める",
+          "kana": "さだめる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "定义",
+      "japanese": "定義",
+      "kana": "ていぎ",
+      "romaji": "teigi",
+      "tokens": [
+        {
+          "text": "定義",
+          "kana": "ていぎ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "附加，增添",
+      "japanese": "添える",
+      "kana": "そえる",
+      "romaji": "soeru",
+      "tokens": [
+        {
+          "text": "添える",
+          "kana": "そえる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（方向、状态等）转换，改变",
+      "japanese": "転じる",
+      "kana": "てんじる",
+      "romaji": "tenjiru",
+      "tokens": [
+        {
+          "text": "転じる",
+          "kana": "てんじる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "放跑，错过；（動詞のあとに付いて）错过……",
+      "japanese": "逃す",
+      "kana": "のがす",
+      "romaji": "nogasu",
+      "tokens": [
+        {
+          "text": "逃す",
+          "kana": "のがす"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "逃脱，摆脱；逃避",
+      "japanese": "逃れる",
+      "kana": "のがれる",
+      "romaji": "nogareru",
+      "tokens": [
+        {
+          "text": "逃れる",
+          "kana": "のがれる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "附在信封内",
+      "japanese": "同封",
+      "kana": "どうふう",
+      "romaji": "doufuu",
+      "tokens": [
+        {
+          "text": "同封",
+          "kana": "どうふう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "大声朗读；读完",
+      "japanese": "読み上げる",
+      "kana": "よみあげる",
+      "romaji": "yomiageru",
+      "tokens": [
+        {
+          "text": "読み上げる",
+          "kana": "よみあげる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "褪色；剥落",
+      "japanese": "剝げる",
+      "kana": "はげる",
+      "romaji": "hageru",
+      "tokens": [
+        {
+          "text": "剝げる",
+          "kana": "はげる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "花费，耗费；浪费",
+      "japanese": "費やす",
+      "kana": "ついやす",
+      "romaji": "tsuiyasu",
+      "tokens": [
+        {
+          "text": "費やす",
+          "kana": "ついやす"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "飞散，飘落",
+      "japanese": "飛び散る",
+      "kana": "とびちる",
+      "romaji": "tobichiru",
+      "tokens": [
+        {
+          "text": "飛び散る",
+          "kana": "とびちる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "装备，装有；具备（资质等）",
+      "japanese": "備わる",
+      "kana": "そなわる",
+      "romaji": "sonawaru",
+      "tokens": [
+        {
+          "text": "備わる",
+          "kana": "そなわる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "背；承担；蒙受；仰赖",
+      "japanese": "負う",
+      "kana": "おう",
+      "romaji": "ou",
+      "tokens": [
+        {
+          "text": "負う",
+          "kana": "おう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "走；走过，度过；发展",
+      "japanese": "歩む",
+      "kana": "あゆむ",
+      "romaji": "ayumu",
+      "tokens": [
+        {
+          "text": "歩む",
+          "kana": "あゆむ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "预感",
+      "japanese": "予感",
+      "kana": "よかん",
+      "romaji": "yokan",
+      "tokens": [
+        {
+          "text": "予感",
+          "kana": "よかん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "养，抚养；饲养；培养",
+      "japanese": "養う",
+      "kana": "やしなう",
+      "romaji": "yashinau",
+      "tokens": [
+        {
+          "text": "養う",
+          "kana": "やしなう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "缠在……上；牵涉；胡搅蛮缠",
+      "japanese": "絡む",
+      "kana": "からむ",
+      "romaji": "karamu",
+      "tokens": [
+        {
+          "text": "絡む",
+          "kana": "からむ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "临时垫付",
+      "japanese": "立て替える",
+      "kana": "たてかえる",
+      "romaji": "tatekaeru",
+      "tokens": [
+        {
+          "text": "立て替える",
+          "kana": "たてかえる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "揉合；锻炼；仔细推敲，研究",
+      "japanese": "練る",
+      "kana": "ねる",
+      "romaji": "neru",
+      "tokens": [
+        {
+          "text": "練る",
+          "kana": "ねる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "迷惑，蛊惑，欺骗",
+      "japanese": "惑わす",
+      "kana": "まどわす",
+      "romaji": "madowasu",
+      "tokens": [
+        {
+          "text": "惑わす",
+          "kana": "まどわす"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "咬合；吻合",
+      "japanese": "嚙[か]み合う",
+      "kana": "かみあう",
+      "romaji": "kamiau",
+      "tokens": [
+        {
+          "text": "嚙[か]み合う",
+          "kana": "かみあう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "摇摆；动摇",
+      "japanese": "ぐらつく",
+      "kana": "ぐらつく",
+      "romaji": "guratsuku",
+      "tokens": [
+        {
+          "text": "ぐらつく",
+          "kana": "ぐらつく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "消化；运用自如；完成工作；熟练地……",
+      "japanese": "こなす",
+      "kana": "こなす",
+      "romaji": "konasu",
+      "tokens": [
+        {
+          "text": "こなす",
+          "kana": "こなす"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "支持，支援",
+      "japanese": "サポート",
+      "kana": "さぽうと",
+      "romaji": "sapouto",
+      "tokens": [
+        {
+          "text": "サポート",
+          "kana": "さぽうと"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "比作；模仿",
+      "japanese": "なぞらえる",
+      "kana": "なぞらえる",
+      "romaji": "nazoraeru",
+      "tokens": [
+        {
+          "text": "なぞらえる",
+          "kana": "なぞらえる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "（在已经写好的字、画上）描，描摹；模仿",
+      "japanese": "なぞる",
+      "kana": "なぞる",
+      "romaji": "nazoru",
+      "tokens": [
+        {
+          "text": "なぞる",
+          "kana": "なぞる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "渗透出来；流露出来",
+      "japanese": "にじみ出る",
+      "kana": "にじみでる",
+      "romaji": "nijimideru",
+      "tokens": [
+        {
+          "text": "にじみ出る",
+          "kana": "にじみでる"
+        }
+      ]
+    }
+  ]
+}

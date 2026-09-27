@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-41",
+  "coursePackId": "jp-n3",
+  "title": "名词 41",
+  "order": 41,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "家庭教师，家教",
+      "japanese": "家庭教師",
+      "kana": "かていきょうし",
+      "romaji": "kateikyoushi",
+      "tokens": [
+        {
+          "text": "家庭教師",
+          "kana": "かていきょうし"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "坡道，斜坡",
+      "japanese": "坂道",
+      "kana": "さかみち",
+      "romaji": "sakamichi",
+      "tokens": [
+        {
+          "text": "坂道",
+          "kana": "さかみち"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "狮子",
+      "japanese": "ライオン",
+      "kana": "らいおん",
+      "romaji": "raion",
+      "tokens": [
+        {
+          "text": "ライオン",
+          "kana": "らいおん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "首位；一位",
+      "japanese": "一位",
+      "kana": "いちい",
+      "romaji": "ichii",
+      "tokens": [
+        {
+          "text": "一位",
+          "kana": "いちい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "生活费",
+      "japanese": "生活費",
+      "kana": "せいかつひ",
+      "romaji": "seikatsuhi",
+      "tokens": [
+        {
+          "text": "生活費",
+          "kana": "せいかつひ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "关门，打烊；歇业，倒闭",
+      "japanese": "閉店",
+      "kana": "へいてん",
+      "romaji": "heiten",
+      "tokens": [
+        {
+          "text": "閉店",
+          "kana": "へいてん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "一宿，住一夜",
+      "japanese": "一泊",
+      "kana": "いっぱく",
+      "romaji": "ippaku",
+      "tokens": [
+        {
+          "text": "一泊",
+          "kana": "いっぱく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（东京）银座；繁华街",
+      "japanese": "銀座",
+      "kana": "ぎんざ",
+      "romaji": "ginza",
+      "tokens": [
+        {
+          "text": "銀座",
+          "kana": "ぎんざ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "面粉",
+      "japanese": "小麦粉",
+      "kana": "こむぎこ",
+      "romaji": "komugiko",
+      "tokens": [
+        {
+          "text": "小麦粉",
+          "kana": "こむぎこ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "炒面",
+      "japanese": "焼きそば",
+      "kana": "やきそば",
+      "romaji": "yakisoba",
+      "tokens": [
+        {
+          "text": "焼きそば",
+          "kana": "やきそば"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "瓦楞纸，硬纸板",
+      "japanese": "段ボール",
+      "kana": "だんぼうる",
+      "romaji": "danbouru",
+      "tokens": [
+        {
+          "text": "段ボール",
+          "kana": "だんぼうる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "轮椅",
+      "japanese": "車椅子",
+      "kana": "くるまいす",
+      "romaji": "kurumaisu",
+      "tokens": [
+        {
+          "text": "車椅子",
+          "kana": "くるまいす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "甜甜圈",
+      "japanese": "ドーナツ",
+      "kana": "どうなつ",
+      "romaji": "dounatsu",
+      "tokens": [
+        {
+          "text": "ドーナツ",
+          "kana": "どうなつ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "观光景点，旅游胜地",
+      "japanese": "観光地",
+      "kana": "かんこうち",
+      "romaji": "kankouchi",
+      "tokens": [
+        {
+          "text": "観光地",
+          "kana": "かんこうち"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "街道里",
+      "japanese": "町内",
+      "kana": "ちょうない",
+      "romaji": "chounai",
+      "tokens": [
+        {
+          "text": "町内",
+          "kana": "ちょうない"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "香肠，红肠，腊肠",
+      "japanese": "ソーセージ",
+      "kana": "そうせえじ",
+      "romaji": "souseeji",
+      "tokens": [
+        {
+          "text": "ソーセージ",
+          "kana": "そうせえじ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "集结，集聚，集中",
+      "japanese": "結集",
+      "kana": "けっしゅう",
+      "romaji": "kesshuu",
+      "tokens": [
+        {
+          "text": "結集",
+          "kana": "けっしゅう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（西餐的）油炸食品",
+      "japanese": "フライ",
+      "kana": "ふらい",
+      "romaji": "furai",
+      "tokens": [
+        {
+          "text": "フライ",
+          "kana": "ふらい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "莴苣，生菜",
+      "japanese": "レタス",
+      "kana": "れたす",
+      "romaji": "retasu",
+      "tokens": [
+        {
+          "text": "レタス",
+          "kana": "れたす"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "空房",
+      "japanese": "空き家",
+      "kana": "あきや",
+      "romaji": "akiya",
+      "tokens": [
+        {
+          "text": "空き家",
+          "kana": "あきや"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "山村",
+      "japanese": "山村",
+      "kana": "さんそん",
+      "romaji": "sanson",
+      "tokens": [
+        {
+          "text": "山村",
+          "kana": "さんそん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "朝霞",
+      "japanese": "朝焼け",
+      "kana": "あさやけ",
+      "romaji": "asayake",
+      "tokens": [
+        {
+          "text": "朝焼け",
+          "kana": "あさやけ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "西点，西式点心",
+      "japanese": "洋菓子",
+      "kana": "ようがし",
+      "romaji": "yougashi",
+      "tokens": [
+        {
+          "text": "洋菓子",
+          "kana": "ようがし"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "爬山，登山",
+      "japanese": "山登り",
+      "kana": "やまのぼり",
+      "romaji": "yamanobori",
+      "tokens": [
+        {
+          "text": "山登り",
+          "kana": "やまのぼり"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "语言游戏",
+      "japanese": "言葉遊び",
+      "kana": "ことばあそび",
+      "romaji": "kotobaasobi",
+      "tokens": [
+        {
+          "text": "言葉遊び",
+          "kana": "ことばあそび"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "白菜，大白菜",
+      "japanese": "白菜",
+      "kana": "はくさい",
+      "romaji": "hakusai",
+      "tokens": [
+        {
+          "text": "白菜",
+          "kana": "はくさい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "夹子；曲别针",
+      "japanese": "クリップ",
+      "kana": "くりっぷ",
+      "romaji": "kurippu",
+      "tokens": [
+        {
+          "text": "クリップ",
+          "kana": "くりっぷ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "鸟类",
+      "japanese": "鳥類",
+      "kana": "ちょうるい",
+      "romaji": "chourui",
+      "tokens": [
+        {
+          "text": "鳥類",
+          "kana": "ちょうるい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "招呼，呼唤；号召，呼吁",
+      "japanese": "呼びかけ",
+      "kana": "よびかけ",
+      "romaji": "yobikake",
+      "tokens": [
+        {
+          "text": "呼びかけ",
+          "kana": "よびかけ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "意大利面（条）",
+      "japanese": "スパゲッティ",
+      "kana": "すぱげってぃ",
+      "romaji": "supagettei",
+      "tokens": [
+        {
+          "text": "スパゲッティ",
+          "kana": "すぱげってぃ"
+        }
+      ]
+    }
+  ]
+}

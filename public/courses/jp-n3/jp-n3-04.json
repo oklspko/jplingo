@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-04",
+  "coursePackId": "jp-n3",
+  "title": "名词 4",
+  "order": 4,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "厨房",
+      "japanese": "キッチン",
+      "kana": "きっちん",
+      "romaji": "kitchin",
+      "tokens": [
+        {
+          "text": "キッチン",
+          "kana": "きっちん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "黄瓜",
+      "japanese": "きゅうり",
+      "kana": "きゅうり",
+      "romaji": "kyuuri",
+      "tokens": [
+        {
+          "text": "きゅうり",
+          "kana": "きゅうり"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "玻璃杯",
+      "japanese": "グラス",
+      "kana": "ぐらす",
+      "romaji": "gurasu",
+      "tokens": [
+        {
+          "text": "グラス",
+          "kana": "ぐらす"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "同班同学",
+      "japanese": "クラスメート",
+      "kana": "くらすめえと",
+      "romaji": "kurasumeeto",
+      "tokens": [
+        {
+          "text": "クラスメート",
+          "kana": "くらすめえと"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "胡椒",
+      "japanese": "こしょう",
+      "kana": "こしょう",
+      "romaji": "koshou",
+      "tokens": [
+        {
+          "text": "こしょう",
+          "kana": "こしょう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "款待，宴请；丰盛的酒菜",
+      "japanese": "ごちそう",
+      "kana": "ごちそう",
+      "romaji": "gochisou",
+      "tokens": [
+        {
+          "text": "ごちそう",
+          "kana": "ごちそう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "上次，不久以前",
+      "japanese": "この間",
+      "kana": "このあいだ",
+      "romaji": "konoaida",
+      "tokens": [
+        {
+          "text": "この間",
+          "kana": "このあいだ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "这些",
+      "japanese": "これら",
+      "kana": "これら",
+      "romaji": "korera",
+      "tokens": [
+        {
+          "text": "これら",
+          "kana": "これら"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "您知道，您认识",
+      "japanese": "ご存じ",
+      "kana": "ごぞんじ",
+      "romaji": "gozonji",
+      "tokens": [
+        {
+          "text": "ご存じ",
+          "kana": "ごぞんじ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "大小，尺寸",
+      "japanese": "サイズ",
+      "kana": "さいず",
+      "romaji": "saizu",
+      "tokens": [
+        {
+          "text": "サイズ",
+          "kana": "さいず"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "凉鞋",
+      "japanese": "サンダル",
+      "kana": "さんだる",
+      "romaji": "sandaru",
+      "tokens": [
+        {
+          "text": "サンダル",
+          "kana": "さんだる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "牛排",
+      "japanese": "ステーキ",
+      "kana": "すてえき",
+      "romaji": "suteeki",
+      "tokens": [
+        {
+          "text": "ステーキ",
+          "kana": "すてえき"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "压力，紧张情绪",
+      "japanese": "ストレス",
+      "kana": "すとれす",
+      "romaji": "sutoresu",
+      "tokens": [
+        {
+          "text": "ストレス",
+          "kana": "すとれす"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "咳嗽",
+      "japanese": "咳[せき]",
+      "kana": "せき",
+      "romaji": "seki",
+      "tokens": [
+        {
+          "text": "咳[せき]",
+          "kana": "せき"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "中心，中央",
+      "japanese": "センター",
+      "kana": "せんたあ",
+      "romaji": "sentaa",
+      "tokens": [
+        {
+          "text": "センター",
+          "kana": "せんたあ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "减肥，减重",
+      "japanese": "ダイエット",
+      "kana": "だいえっと",
+      "romaji": "daietto",
+      "tokens": [
+        {
+          "text": "ダイエット",
+          "kana": "だいえっと"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "一般；大概，大致；（不）一般",
+      "japanese": "たいてい",
+      "kana": "たいてい",
+      "romaji": "taitei",
+      "tokens": [
+        {
+          "text": "たいてい",
+          "kana": "たいてい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "入住登记；（飞机）登机手续",
+      "japanese": "チェックイン",
+      "kana": "ちぇっくいん",
+      "romaji": "chekkuin",
+      "tokens": [
+        {
+          "text": "チェックイン",
+          "kana": "ちぇっくいん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "德国",
+      "japanese": "ドイツ",
+      "kana": "どいつ",
+      "romaji": "doitsu",
+      "tokens": [
+        {
+          "text": "ドイツ",
+          "kana": "どいつ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "海苔；紫菜",
+      "japanese": "海苔[のり]",
+      "kana": "のり",
+      "romaji": "nori",
+      "tokens": [
+        {
+          "text": "海苔[のり]",
+          "kana": "のり"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "剪刀",
+      "japanese": "はさみ",
+      "kana": "はさみ",
+      "romaji": "hasami",
+      "tokens": [
+        {
+          "text": "はさみ",
+          "kana": "はさみ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "护照",
+      "japanese": "パスポート",
+      "kana": "ぱすぽうと",
+      "romaji": "pasupouto",
+      "tokens": [
+        {
+          "text": "パスポート",
+          "kana": "ぱすぽうと"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "黄油",
+      "japanese": "バター",
+      "kana": "ばたあ",
+      "romaji": "bataa",
+      "tokens": [
+        {
+          "text": "バター",
+          "kana": "ばたあ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "包",
+      "japanese": "バッグ",
+      "kana": "ばっぐ",
+      "romaji": "baggu",
+      "tokens": [
+        {
+          "text": "バッグ",
+          "kana": "ばっぐ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "熊猫",
+      "japanese": "パンダ",
+      "kana": "ぱんだ",
+      "romaji": "panda",
+      "tokens": [
+        {
+          "text": "パンダ",
+          "kana": "ぱんだ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "粉红色，桃红色",
+      "japanese": "ピンク",
+      "kana": "ぴんく",
+      "romaji": "pinku",
+      "tokens": [
+        {
+          "text": "ピンク",
+          "kana": "ぴんく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "柠檬",
+      "japanese": "レモン",
+      "kana": "れもん",
+      "romaji": "remon",
+      "tokens": [
+        {
+          "text": "レモン",
+          "kana": "れもん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "葡萄酒，红酒",
+      "japanese": "ワイン",
+      "kana": "わいん",
+      "romaji": "wain",
+      "tokens": [
+        {
+          "text": "ワイン",
+          "kana": "わいん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "医学",
+      "japanese": "医学",
+      "kana": "いがく",
+      "romaji": "igaku",
+      "tokens": [
+        {
+          "text": "医学",
+          "kana": "いがく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "前天",
+      "japanese": "一昨日",
+      "kana": "いっさくじつ",
+      "romaji": "issakujitsu",
+      "tokens": [
+        {
+          "text": "一昨日",
+          "kana": "いっさくじつ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "id": "jp-n3-53",
+  "coursePackId": "jp-n3",
+  "title": "动词 11",
+  "order": 53,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "重建（经济、公司等）",
+      "japanese": "建て直す",
+      "kana": "たてなおす",
+      "romaji": "tatenaosu",
+      "tokens": [
+        {
+          "text": "建て直す",
+          "kana": "たてなおす"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "判断，察觉；体谅，谅察",
+      "japanese": "察する",
+      "kana": "さっする",
+      "romaji": "sassuru",
+      "tokens": [
+        {
+          "text": "察する",
+          "kana": "さっする"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "包围，环绕",
+      "japanese": "取り囲む",
+      "kana": "とりかこむ",
+      "romaji": "torikakomu",
+      "tokens": [
+        {
+          "text": "取り囲む",
+          "kana": "とりかこむ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "切换，转换",
+      "japanese": "切り替える",
+      "kana": "きりかえる",
+      "romaji": "kirikaeru",
+      "tokens": [
+        {
+          "text": "切り替える",
+          "kana": "きりかえる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "（电影，广播等）复制，拷贝",
+      "japanese": "ダビング",
+      "kana": "だびんぐ",
+      "romaji": "dabingu",
+      "tokens": [
+        {
+          "text": "ダビング",
+          "kana": "だびんぐ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "严禁",
+      "japanese": "厳禁",
+      "kana": "げんきん",
+      "romaji": "genkin",
+      "tokens": [
+        {
+          "text": "厳禁",
+          "kana": "げんきん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "扔掉，丢弃；（把做了一半的工作等）丢在一边",
+      "japanese": "投げ捨てる",
+      "kana": "なげすてる",
+      "romaji": "nagesuteru",
+      "tokens": [
+        {
+          "text": "投げ捨てる",
+          "kana": "なげすてる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "存；积累",
+      "japanese": "たまる",
+      "kana": "たまる",
+      "romaji": "tamaru",
+      "tokens": [
+        {
+          "text": "たまる",
+          "kana": "たまる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "顺，沿",
+      "japanese": "伝う",
+      "kana": "つたう",
+      "romaji": "tsutau",
+      "tokens": [
+        {
+          "text": "伝う",
+          "kana": "つたう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "互相搭话；相互泼；交涉，谈判",
+      "japanese": "掛け合う",
+      "kana": "かけあう",
+      "romaji": "kakeau",
+      "tokens": [
+        {
+          "text": "掛け合う",
+          "kana": "かけあう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "起来，站起来，爬起来",
+      "japanese": "起き上がる",
+      "kana": "おきあがる",
+      "romaji": "okiagaru",
+      "tokens": [
+        {
+          "text": "起き上がる",
+          "kana": "おきあがる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "引起，造成，招致",
+      "japanese": "来す",
+      "kana": "きたす",
+      "romaji": "kitasu",
+      "tokens": [
+        {
+          "text": "来す",
+          "kana": "きたす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "寻找，搜查（不见的东西）",
+      "japanese": "捜す",
+      "kana": "さがす",
+      "romaji": "sagasu",
+      "tokens": [
+        {
+          "text": "捜す",
+          "kana": "さがす"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "顶嘴，还口",
+      "japanese": "言い返す",
+      "kana": "いいかえす",
+      "romaji": "iikaesu",
+      "tokens": [
+        {
+          "text": "言い返す",
+          "kana": "いいかえす"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "转生；新生，脱胎换骨",
+      "japanese": "生まれ変わる",
+      "kana": "うまれかわる",
+      "romaji": "umarekawaru",
+      "tokens": [
+        {
+          "text": "生まれ変わる",
+          "kana": "うまれかわる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "（以强硬的语气）询问",
+      "japanese": "訊[たず]ねる",
+      "kana": "たずねる",
+      "romaji": "tazuneru",
+      "tokens": [
+        {
+          "text": "訊[たず]ねる",
+          "kana": "たずねる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "锁",
+      "japanese": "ロック",
+      "kana": "ろっく",
+      "romaji": "rokku",
+      "tokens": [
+        {
+          "text": "ロック",
+          "kana": "ろっく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "搅拌，混合",
+      "japanese": "かき混ぜる",
+      "kana": "かきまぜる",
+      "romaji": "kakimazeru",
+      "tokens": [
+        {
+          "text": "かき混ぜる",
+          "kana": "かきまぜる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "烤面包（片），吐司",
+      "japanese": "トースト",
+      "kana": "とうすと",
+      "romaji": "tousuto",
+      "tokens": [
+        {
+          "text": "トースト",
+          "kana": "とうすと"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "孵化",
+      "japanese": "孵[かえ]る",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "tokens": [
+        {
+          "text": "孵[かえ]る",
+          "kana": "かえる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "卖剩下，滞销",
+      "japanese": "売れ残る",
+      "kana": "うれのこる",
+      "romaji": "urenokoru",
+      "tokens": [
+        {
+          "text": "売れ残る",
+          "kana": "うれのこる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "迁居",
+      "japanese": "移り住む",
+      "kana": "うつりすむ",
+      "romaji": "utsurisumu",
+      "tokens": [
+        {
+          "text": "移り住む",
+          "kana": "うつりすむ"
+        }
+      ]
+    }
+  ]
+}

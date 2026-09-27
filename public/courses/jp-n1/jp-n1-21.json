@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-21",
+  "coursePackId": "jp-n1",
+  "title": "名词 21",
+  "order": 21,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "保管",
+      "japanese": "保管",
+      "kana": "ほかん",
+      "romaji": "hokan",
+      "tokens": [
+        {
+          "text": "保管",
+          "kana": "ほかん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "祖国",
+      "japanese": "母国",
+      "kana": "ぼこく",
+      "romaji": "bokoku",
+      "tokens": [
+        {
+          "text": "母国",
+          "kana": "ぼこく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "丰收",
+      "japanese": "豊作",
+      "kana": "ほうさく",
+      "romaji": "housaku",
+      "tokens": [
+        {
+          "text": "豊作",
+          "kana": "ほうさく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "无意义，无价值，白费",
+      "japanese": "無意味",
+      "kana": "むいみ",
+      "romaji": "muimi",
+      "tokens": [
+        {
+          "text": "無意味",
+          "kana": "むいみ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "天真烂漫，单纯",
+      "japanese": "無邪気",
+      "kana": "むじゃき",
+      "romaji": "mujaki",
+      "tokens": [
+        {
+          "text": "無邪気",
+          "kana": "むじゃき"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "细致，周密",
+      "japanese": "綿密",
+      "kana": "めんみつ",
+      "romaji": "menmitsu",
+      "tokens": [
+        {
+          "text": "綿密",
+          "kana": "めんみつ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "目击，亲眼看到",
+      "japanese": "目撃",
+      "kana": "もくげき",
+      "romaji": "mokugeki",
+      "tokens": [
+        {
+          "text": "目撃",
+          "kana": "もくげき"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "管理职，要职；（泛指）职责，职务",
+      "japanese": "役職",
+      "kana": "やくしょく",
+      "romaji": "yakushoku",
+      "tokens": [
+        {
+          "text": "役職",
+          "kana": "やくしょく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "雄，公，牡",
+      "japanese": "雄",
+      "kana": "おす",
+      "romaji": "osu",
+      "tokens": [
+        {
+          "text": "雄",
+          "kana": "おす"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "样式，方式；一定的形式，格式；风格，格调",
+      "japanese": "様式",
+      "kana": "ようしき",
+      "romaji": "youshiki",
+      "tokens": [
+        {
+          "text": "様式",
+          "kana": "ようしき"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "西式",
+      "japanese": "洋風",
+      "kana": "ようふう",
+      "romaji": "youfuu",
+      "tokens": [
+        {
+          "text": "洋風",
+          "kana": "ようふう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "要求，强烈希望",
+      "japanese": "要望",
+      "kana": "ようぼう",
+      "romaji": "youbou",
+      "tokens": [
+        {
+          "text": "要望",
+          "kana": "ようぼう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "进入",
+      "japanese": "立ち入り",
+      "kana": "たちいり",
+      "romaji": "tachiiri",
+      "tokens": [
+        {
+          "text": "立ち入り",
+          "kana": "たちいり"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "流出；外流",
+      "japanese": "流出",
+      "kana": "りゅうしゅつ",
+      "romaji": "ryuushutsu",
+      "tokens": [
+        {
+          "text": "流出",
+          "kana": "りゅうしゅつ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "优质，品质好的",
+      "japanese": "良質",
+      "kana": "りょうしつ",
+      "romaji": "ryoushitsu",
+      "tokens": [
+        {
+          "text": "良質",
+          "kana": "りょうしつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "类似，相似",
+      "japanese": "類似",
+      "kana": "るいじ",
+      "romaji": "ruiji",
+      "tokens": [
+        {
+          "text": "類似",
+          "kana": "るいじ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "勤奋，努力；勉励，鼓舞",
+      "japanese": "励み",
+      "kana": "はげみ",
+      "romaji": "hagemi",
+      "tokens": [
+        {
+          "text": "励み",
+          "kana": "はげみ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "朗读，朗诵",
+      "japanese": "朗読",
+      "kana": "ろうどく",
+      "romaji": "roudoku",
+      "tokens": [
+        {
+          "text": "朗読",
+          "kana": "ろうどく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "浪费，糟蹋",
+      "japanese": "浪費",
+      "kana": "ろうひ",
+      "romaji": "rouhi",
+      "tokens": [
+        {
+          "text": "浪費",
+          "kana": "ろうひ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "老店，老字号",
+      "japanese": "老舗",
+      "kana": "しにせ",
+      "romaji": "shinise",
+      "tokens": [
+        {
+          "text": "老舗",
+          "kana": "しにせ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "介绍，斡旋；斡旋，居中调解",
+      "japanese": "斡旋[あっせん]",
+      "kana": "あっせん",
+      "romaji": "assen",
+      "tokens": [
+        {
+          "text": "斡旋[あっせん]",
+          "kana": "あっせん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "束手无策",
+      "japanese": "お手上げ",
+      "kana": "おてあげ",
+      "romaji": "oteage",
+      "tokens": [
+        {
+          "text": "お手上げ",
+          "kana": "おてあげ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "关键词",
+      "japanese": "キーワード",
+      "kana": "きいわあど",
+      "romaji": "kiiwaado",
+      "tokens": [
+        {
+          "text": "キーワード",
+          "kana": "きいわあど"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "个性；人物",
+      "japanese": "キャラクター",
+      "kana": "きゃらくたあ",
+      "romaji": "kyarakutaa",
+      "tokens": [
+        {
+          "text": "キャラクター",
+          "kana": "きゃらくたあ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "起重机",
+      "japanese": "クレーン",
+      "kana": "くれえん",
+      "romaji": "kureen",
+      "tokens": [
+        {
+          "text": "クレーン",
+          "kana": "くれえん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "隐形眼镜",
+      "japanese": "コンタクトレンズ",
+      "kana": "こんたくとれんず",
+      "romaji": "kontakutorenzu",
+      "tokens": [
+        {
+          "text": "コンタクトレンズ",
+          "kana": "こんたくとれんず"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "对比，对照",
+      "japanese": "コントラスト",
+      "kana": "こんとらすと",
+      "romaji": "kontorasuto",
+      "tokens": [
+        {
+          "text": "コントラスト",
+          "kana": "こんとらすと"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "周期，循环；自行车",
+      "japanese": "サイクル",
+      "kana": "さいくる",
+      "romaji": "saikuru",
+      "tokens": [
+        {
+          "text": "サイクル",
+          "kana": "さいくる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "脚本，剧本",
+      "japanese": "シナリオ",
+      "kana": "しなりお",
+      "romaji": "shinario",
+      "tokens": [
+        {
+          "text": "シナリオ",
+          "kana": "しなりお"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "丑闻",
+      "japanese": "スキャンダル",
+      "kana": "すきゃんだる",
+      "romaji": "sukyandaru",
+      "tokens": [
+        {
+          "text": "スキャンダル",
+          "kana": "すきゃんだる"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-01",
+  "coursePackId": "jp-n2",
+  "title": "名词 1",
+  "order": 1,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "圆，圆形；句号",
+      "japanese": "丸",
+      "kana": "まる",
+      "romaji": "maru",
+      "tokens": [
+        {
+          "text": "丸",
+          "kana": "まる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "（日本年号）明治",
+      "japanese": "明治",
+      "kana": "めいじ",
+      "romaji": "meiji",
+      "tokens": [
+        {
+          "text": "明治",
+          "kana": "めいじ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "党羽，同伙；政党",
+      "japanese": "党",
+      "kana": "とう",
+      "romaji": "tou",
+      "tokens": [
+        {
+          "text": "党",
+          "kana": "とう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "理科",
+      "japanese": "理系",
+      "kana": "りけい",
+      "romaji": "rikei",
+      "tokens": [
+        {
+          "text": "理系",
+          "kana": "りけい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "贝；贝壳",
+      "japanese": "貝",
+      "kana": "かい",
+      "romaji": "kai",
+      "tokens": [
+        {
+          "text": "貝",
+          "kana": "かい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "撒出来的东西；成绩掉队的学生",
+      "japanese": "落ちこぼれ",
+      "kana": "おちこぼれ",
+      "romaji": "ochikobore",
+      "tokens": [
+        {
+          "text": "落ちこぼれ",
+          "kana": "おちこぼれ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "盛得很满；盛大碗",
+      "japanese": "大盛り",
+      "kana": "おおもり",
+      "romaji": "oomori",
+      "tokens": [
+        {
+          "text": "大盛り",
+          "kana": "おおもり"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "乌冬面",
+      "japanese": "うどん",
+      "kana": "うどん",
+      "romaji": "udon",
+      "tokens": [
+        {
+          "text": "うどん",
+          "kana": "うどん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "圣诞节",
+      "japanese": "クリスマス",
+      "kana": "くりすます",
+      "romaji": "kurisumasu",
+      "tokens": [
+        {
+          "text": "クリスマス",
+          "kana": "くりすます"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "肥皂",
+      "japanese": "石 鹸[けん]",
+      "kana": "せっけん",
+      "romaji": "sekken",
+      "tokens": [
+        {
+          "text": "石 鹸[けん]",
+          "kana": "せっけん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "笔记本电脑，笔电",
+      "japanese": "ノートパソコン",
+      "kana": "のうとぱそこん",
+      "romaji": "noutopasokon",
+      "tokens": [
+        {
+          "text": "ノートパソコン",
+          "kana": "のうとぱそこん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "啤酒",
+      "japanese": "ビール",
+      "kana": "びいる",
+      "romaji": "biiru",
+      "tokens": [
+        {
+          "text": "ビール",
+          "kana": "びいる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "警察，警官",
+      "japanese": "警官",
+      "kana": "けいかん",
+      "romaji": "keikan",
+      "tokens": [
+        {
+          "text": "警官",
+          "kana": "けいかん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "下下个月",
+      "japanese": "再来月",
+      "kana": "さらいげつ",
+      "romaji": "saraigetsu",
+      "tokens": [
+        {
+          "text": "再来月",
+          "kana": "さらいげつ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "后年",
+      "japanese": "再来年",
+      "kana": "さらいねん",
+      "romaji": "sarainen",
+      "tokens": [
+        {
+          "text": "再来年",
+          "kana": "さらいねん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "纵，竖",
+      "japanese": "縦",
+      "kana": "たて",
+      "romaji": "tate",
+      "tokens": [
+        {
+          "text": "縦",
+          "kana": "たて"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "神，上帝",
+      "japanese": "神",
+      "kana": "かみ",
+      "romaji": "kami",
+      "tokens": [
+        {
+          "text": "神",
+          "kana": "かみ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "相扑（运动）",
+      "japanese": "相撲",
+      "kana": "すもう",
+      "romaji": "sumou",
+      "tokens": [
+        {
+          "text": "相撲",
+          "kana": "すもう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "地震",
+      "japanese": "地震",
+      "kana": "じしん",
+      "romaji": "jishin",
+      "tokens": [
+        {
+          "text": "地震",
+          "kana": "じしん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "规定的价格",
+      "japanese": "定価",
+      "kana": "ていか",
+      "romaji": "teika",
+      "tokens": [
+        {
+          "text": "定価",
+          "kana": "ていか"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（相对较短的时间内）天气状况",
+      "japanese": "天候",
+      "kana": "てんこう",
+      "romaji": "tenkou",
+      "tokens": [
+        {
+          "text": "天候",
+          "kana": "てんこう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "都市，城市",
+      "japanese": "都市",
+      "kana": "とし",
+      "romaji": "toshi",
+      "tokens": [
+        {
+          "text": "都市",
+          "kana": "とし"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "养老金",
+      "japanese": "年金",
+      "kana": "ねんきん",
+      "romaji": "nenkin",
+      "tokens": [
+        {
+          "text": "年金",
+          "kana": "ねんきん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "面条",
+      "japanese": "麺",
+      "kana": "めん",
+      "romaji": "men",
+      "tokens": [
+        {
+          "text": "麺",
+          "kana": "めん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "宿舍",
+      "japanese": "寮",
+      "kana": "りょう",
+      "romaji": "ryou",
+      "tokens": [
+        {
+          "text": "寮",
+          "kana": "りょう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "（表示行政区域）……区",
+      "japanese": "区",
+      "kana": "く",
+      "romaji": "ku",
+      "tokens": [
+        {
+          "text": "区",
+          "kana": "く"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "非洲",
+      "japanese": "アフリカ",
+      "kana": "あふりか",
+      "romaji": "afurika",
+      "tokens": [
+        {
+          "text": "アフリカ",
+          "kana": "あふりか"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（米饭等主食的）配菜，菜肴",
+      "japanese": "おかず",
+      "kana": "おかず",
+      "romaji": "okazu",
+      "tokens": [
+        {
+          "text": "おかず",
+          "kana": "おかず"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "（男性对同辈或晚辈的称呼）你",
+      "japanese": "お前",
+      "kana": "おまえ",
+      "romaji": "omae",
+      "tokens": [
+        {
+          "text": "お前",
+          "kana": "おまえ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "咖喱饭",
+      "japanese": "カレーライス",
+      "kana": "かれえらいす",
+      "romaji": "kareeraisu",
+      "tokens": [
+        {
+          "text": "カレーライス",
+          "kana": "かれえらいす"
+        }
+      ]
+    }
+  ]
+}

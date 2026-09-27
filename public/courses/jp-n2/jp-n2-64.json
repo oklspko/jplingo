@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-64",
+  "coursePackId": "jp-n2",
+  "title": "名词 64",
+  "order": 64,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "农场",
+      "japanese": "農園",
+      "kana": "のうえん",
+      "romaji": "nouen",
+      "tokens": [
+        {
+          "text": "農園",
+          "kana": "のうえん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "美食家；美食",
+      "japanese": "グルメ",
+      "kana": "ぐるめ",
+      "romaji": "gurume",
+      "tokens": [
+        {
+          "text": "グルメ",
+          "kana": "ぐるめ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "特效药",
+      "japanese": "特効薬",
+      "kana": "とっこうやく",
+      "romaji": "tokkouyaku",
+      "tokens": [
+        {
+          "text": "特効薬",
+          "kana": "とっこうやく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "开设，开办",
+      "japanese": "開設",
+      "kana": "かいせつ",
+      "romaji": "kaisetsu",
+      "tokens": [
+        {
+          "text": "開設",
+          "kana": "かいせつ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "风浪；风波，纠纷",
+      "japanese": "波風",
+      "kana": "なみかぜ",
+      "romaji": "namikaze",
+      "tokens": [
+        {
+          "text": "波風",
+          "kana": "なみかぜ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "彩色纸，彩纸",
+      "japanese": "色紙",
+      "kana": "いろがみ",
+      "romaji": "irogami",
+      "tokens": [
+        {
+          "text": "色紙",
+          "kana": "いろがみ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "单口相声",
+      "japanese": "落語",
+      "kana": "らくご",
+      "romaji": "rakugo",
+      "tokens": [
+        {
+          "text": "落語",
+          "kana": "らくご"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "手势",
+      "japanese": "手振り",
+      "kana": "てぶり",
+      "romaji": "teburi",
+      "tokens": [
+        {
+          "text": "手振り",
+          "kana": "てぶり"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "本校；总校",
+      "japanese": "本校",
+      "kana": "ほんこう",
+      "romaji": "honkou",
+      "tokens": [
+        {
+          "text": "本校",
+          "kana": "ほんこう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "人造卫星",
+      "japanese": "人工衛星",
+      "kana": "じんこうえいせい",
+      "romaji": "jinkoueisei",
+      "tokens": [
+        {
+          "text": "人工衛星",
+          "kana": "じんこうえいせい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "围棋",
+      "japanese": "囲碁",
+      "kana": "いご",
+      "romaji": "igo",
+      "tokens": [
+        {
+          "text": "囲碁",
+          "kana": "いご"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "图画纸",
+      "japanese": "画用紙",
+      "kana": "がようし",
+      "romaji": "gayoushi",
+      "tokens": [
+        {
+          "text": "画用紙",
+          "kana": "がようし"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "无重量，无重力，失重",
+      "japanese": "無重力",
+      "kana": "むじゅうりょく",
+      "romaji": "mujuuryoku",
+      "tokens": [
+        {
+          "text": "無重力",
+          "kana": "むじゅうりょく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "镇上的居民",
+      "japanese": "町民",
+      "kana": "ちょうみん",
+      "romaji": "choumin",
+      "tokens": [
+        {
+          "text": "町民",
+          "kana": "ちょうみん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "实录，纪实",
+      "japanese": "ドキュメンタリー",
+      "kana": "どきゅめんたりい",
+      "romaji": "dokyumentarii",
+      "tokens": [
+        {
+          "text": "ドキュメンタリー",
+          "kana": "どきゅめんたりい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "辞职；下班",
+      "japanese": "退社",
+      "kana": "たいしゃ",
+      "romaji": "taisha",
+      "tokens": [
+        {
+          "text": "退社",
+          "kana": "たいしゃ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "拍照的对象",
+      "japanese": "被写体",
+      "kana": "ひしゃたい",
+      "romaji": "hishatai",
+      "tokens": [
+        {
+          "text": "被写体",
+          "kana": "ひしゃたい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "社会生活",
+      "japanese": "社会生活",
+      "kana": "しゃかいせいかつ",
+      "romaji": "shakaiseikatsu",
+      "tokens": [
+        {
+          "text": "社会生活",
+          "kana": "しゃかいせいかつ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "野鸟，山鸟",
+      "japanese": "野鳥",
+      "kana": "やちょう",
+      "romaji": "yachou",
+      "tokens": [
+        {
+          "text": "野鳥",
+          "kana": "やちょう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "蜡笔",
+      "japanese": "クレヨン",
+      "kana": "くれよん",
+      "romaji": "kureyon",
+      "tokens": [
+        {
+          "text": "クレヨン",
+          "kana": "くれよん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "册数，份数",
+      "japanese": "部数",
+      "kana": "ぶすう",
+      "romaji": "busuu",
+      "tokens": [
+        {
+          "text": "部数",
+          "kana": "ぶすう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "针叶树",
+      "japanese": "針葉樹",
+      "kana": "しんようじゅ",
+      "romaji": "shin'youju",
+      "tokens": [
+        {
+          "text": "針葉樹",
+          "kana": "しんようじゅ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "低气压；不高兴",
+      "japanese": "低気圧",
+      "kana": "ていきあつ",
+      "romaji": "teikiatsu",
+      "tokens": [
+        {
+          "text": "低気圧",
+          "kana": "ていきあつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "蒲公英",
+      "japanese": "たんぽぽ",
+      "kana": "たんぽぽ",
+      "romaji": "tanpopo",
+      "tokens": [
+        {
+          "text": "たんぽぽ",
+          "kana": "たんぽぽ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "下降；退步，后退",
+      "japanese": "下がり",
+      "kana": "さがり",
+      "romaji": "sagari",
+      "tokens": [
+        {
+          "text": "下がり",
+          "kana": "さがり"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "恒温；常温",
+      "japanese": "常温",
+      "kana": "じょうおん",
+      "romaji": "jouon",
+      "tokens": [
+        {
+          "text": "常温",
+          "kana": "じょうおん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "数量",
+      "japanese": "数量",
+      "kana": "すうりょう",
+      "romaji": "suuryou",
+      "tokens": [
+        {
+          "text": "数量",
+          "kana": "すうりょう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "读者",
+      "japanese": "読み手",
+      "kana": "よみて",
+      "romaji": "yomite",
+      "tokens": [
+        {
+          "text": "読み手",
+          "kana": "よみて"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "水质",
+      "japanese": "水質",
+      "kana": "すいしつ",
+      "romaji": "suishitsu",
+      "tokens": [
+        {
+          "text": "水質",
+          "kana": "すいしつ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "偏食，挑食",
+      "japanese": "偏食",
+      "kana": "へんしょく",
+      "romaji": "henshoku",
+      "tokens": [
+        {
+          "text": "偏食",
+          "kana": "へんしょく"
+        }
+      ]
+    }
+  ]
+}

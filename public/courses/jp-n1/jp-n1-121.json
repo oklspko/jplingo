@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-121",
+  "coursePackId": "jp-n1",
+  "title": "形容词 3",
+  "order": 121,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "保守的",
+      "japanese": "保守的",
+      "kana": "ほしゅてき",
+      "romaji": "hoshuteki",
+      "tokens": [
+        {
+          "text": "保守的",
+          "kana": "ほしゅてき"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "太简单，不尽兴",
+      "japanese": "あっけない",
+      "kana": "あっけない",
+      "romaji": "akkenai",
+      "tokens": [
+        {
+          "text": "あっけない",
+          "kana": "あっけない"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "郁闷的，阴郁的；烦人的，碍眼的",
+      "japanese": "うっとうしい",
+      "kana": "うっとうしい",
+      "romaji": "uttoushii",
+      "tokens": [
+        {
+          "text": "うっとうしい",
+          "kana": "うっとうしい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "优雅，雅致",
+      "japanese": "エレガント",
+      "kana": "えれがんと",
+      "romaji": "ereganto",
+      "tokens": [
+        {
+          "text": "エレガント",
+          "kana": "えれがんと"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "大量，浩瀚；非常，很",
+      "japanese": "おびただしい",
+      "kana": "おびただしい",
+      "romaji": "obitadashii",
+      "tokens": [
+        {
+          "text": "おびただしい",
+          "kana": "おびただしい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "敷衍，马虎",
+      "japanese": "おろそか",
+      "kana": "おろそか",
+      "romaji": "orosoka",
+      "tokens": [
+        {
+          "text": "おろそか",
+          "kana": "おろそか"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "柔软，柔韧；柔美，优美",
+      "japanese": "しなやか",
+      "kana": "しなやか",
+      "romaji": "shinayaka",
+      "tokens": [
+        {
+          "text": "しなやか",
+          "kana": "しなやか"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "严厉，毫不留情",
+      "japanese": "シビア",
+      "kana": "しびあ",
+      "romaji": "shibia",
+      "tokens": [
+        {
+          "text": "シビア",
+          "kana": "しびあ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "即使身处逆境也不气馁，顽强",
+      "japanese": "しぶとい",
+      "kana": "しぶとい",
+      "romaji": "shibutoi",
+      "tokens": [
+        {
+          "text": "しぶとい",
+          "kana": "しぶとい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "清新舒畅，清爽",
+      "japanese": "すがすがしい",
+      "kana": "すがすがしい",
+      "romaji": "sugasugashii",
+      "tokens": [
+        {
+          "text": "すがすがしい",
+          "kana": "すがすがしい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "潦草，马虎；粗鲁，无礼",
+      "japanese": "ぞんざい",
+      "kana": "ぞんざい",
+      "romaji": "zonzai",
+      "tokens": [
+        {
+          "text": "ぞんざい",
+          "kana": "ぞんざい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "容易，轻易",
+      "japanese": "たやすい",
+      "kana": "たやすい",
+      "romaji": "tayasui",
+      "tokens": [
+        {
+          "text": "たやすい",
+          "kana": "たやすい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（明明关系没有特别亲近，却毫不顾忌地表现出亲密的样子）狎昵",
+      "japanese": "なれなれしい",
+      "kana": "なれなれしい",
+      "romaji": "narenareshii",
+      "tokens": [
+        {
+          "text": "なれなれしい",
+          "kana": "なれなれしい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "恬静，和煦",
+      "japanese": "のどか",
+      "kana": "のどか",
+      "romaji": "nodoka",
+      "tokens": [
+        {
+          "text": "のどか",
+          "kana": "のどか"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "短暂的，无常的；虚幻的，不可靠的",
+      "japanese": "はかない",
+      "kana": "はかない",
+      "romaji": "hakanai",
+      "tokens": [
+        {
+          "text": "はかない",
+          "kana": "はかない"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "暗中，偷偷",
+      "japanese": "ひそか",
+      "kana": "ひそか",
+      "romaji": "hisoka",
+      "tokens": [
+        {
+          "text": "ひそか",
+          "kana": "ひそか"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "茫然；发呆",
+      "japanese": "茫[ぼう]然",
+      "kana": "ぼうぜん",
+      "romaji": "bouzen",
+      "tokens": [
+        {
+          "text": "茫[ぼう]然",
+          "kana": "ぼうぜん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "愕然，吃惊，目瞪口呆",
+      "japanese": "呆[ぼう]然",
+      "kana": "ぼうぜん",
+      "romaji": "bouzen",
+      "tokens": [
+        {
+          "text": "呆[ぼう]然",
+          "kana": "ぼうぜん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "稀疏，零星",
+      "japanese": "まばら",
+      "kana": "まばら",
+      "romaji": "mabara",
+      "tokens": [
+        {
+          "text": "まばら",
+          "kana": "まばら"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "空洞的；徒然的；变幻无常的",
+      "japanese": "むなしい",
+      "kana": "むなしい",
+      "romaji": "munashii",
+      "tokens": [
+        {
+          "text": "むなしい",
+          "kana": "むなしい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "心急如焚的，令人不耐烦的",
+      "japanese": "もどかしい",
+      "kana": "もどかしい",
+      "romaji": "modokashii",
+      "tokens": [
+        {
+          "text": "もどかしい",
+          "kana": "もどかしい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "脆的；脆弱的",
+      "japanese": "もろい",
+      "kana": "もろい",
+      "romaji": "moroi",
+      "tokens": [
+        {
+          "text": "もろい",
+          "kana": "もろい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "麻烦的，复杂的，难办的",
+      "japanese": "ややこしい",
+      "kana": "ややこしい",
+      "romaji": "yayakoshii",
+      "tokens": [
+        {
+          "text": "ややこしい",
+          "kana": "ややこしい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "松懈，懒散",
+      "japanese": "ルーズ",
+      "kana": "るうず",
+      "romaji": "ruuzu",
+      "tokens": [
+        {
+          "text": "ルーズ",
+          "kana": "るうず"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "廉价的；庸俗的，让人瞧不起的",
+      "japanese": "安っぽい",
+      "kana": "やすっぽい",
+      "romaji": "yasuppoi",
+      "tokens": [
+        {
+          "text": "安っぽい",
+          "kana": "やすっぽい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "一条，一根；一心一意",
+      "japanese": "一筋",
+      "kana": "ひとすじ",
+      "romaji": "hitosuji",
+      "tokens": [
+        {
+          "text": "一筋",
+          "kana": "ひとすじ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "无意，不经意，若无其事",
+      "japanese": "何げない",
+      "kana": "なにげない",
+      "romaji": "nanigenai",
+      "tokens": [
+        {
+          "text": "何げない",
+          "kana": "なにげない"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "华丽；辉煌",
+      "japanese": "華やか",
+      "kana": "はなやか",
+      "romaji": "hanayaka",
+      "tokens": [
+        {
+          "text": "華やか",
+          "kana": "はなやか"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "划时代的",
+      "japanese": "画期的",
+      "kana": "かっきてき",
+      "romaji": "kakkiteki",
+      "tokens": [
+        {
+          "text": "画期的",
+          "kana": "かっきてき"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "宽恕，宽容",
+      "japanese": "寛容",
+      "kana": "かんよう",
+      "romaji": "kan'you",
+      "tokens": [
+        {
+          "text": "寛容",
+          "kana": "かんよう"
+        }
+      ]
+    }
+  ]
+}

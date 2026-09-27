@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-01",
+  "coursePackId": "jp-n4",
+  "title": "名词 1",
+  "order": 1,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "间，期间",
+      "japanese": "間",
+      "kana": "かん",
+      "romaji": "kan",
+      "tokens": [
+        {
+          "text": "間",
+          "kana": "かん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "（家具、汽车、机器等）……台，……辆；台子",
+      "japanese": "台",
+      "kana": "だい",
+      "romaji": "dai",
+      "tokens": [
+        {
+          "text": "台",
+          "kana": "だい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "程度；……次；（角度，经纬度，温度等）……度",
+      "japanese": "度",
+      "kana": "ど",
+      "romaji": "do",
+      "tokens": [
+        {
+          "text": "度",
+          "kana": "ど"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "冰激凌",
+      "japanese": "アイスクリーム",
+      "kana": "あいすくりいむ",
+      "romaji": "aisukuriimu",
+      "tokens": [
+        {
+          "text": "アイスクリーム",
+          "kana": "あいすくりいむ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "糖果",
+      "japanese": "飴[あめ]",
+      "kana": "あめ",
+      "romaji": "ame",
+      "tokens": [
+        {
+          "text": "飴[あめ]",
+          "kana": "あめ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "互联网",
+      "japanese": "インターネット",
+      "kana": "いんたあねっと",
+      "romaji": "intaanetto",
+      "tokens": [
+        {
+          "text": "インターネット",
+          "kana": "いんたあねっと"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "卡拉OK，KTV",
+      "japanese": "カラオケ",
+      "kana": "からおけ",
+      "romaji": "karaoke",
+      "tokens": [
+        {
+          "text": "カラオケ",
+          "kana": "からおけ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "垃圾箱",
+      "japanese": "ごみ箱",
+      "kana": "ごみばこ",
+      "romaji": "gomibako",
+      "tokens": [
+        {
+          "text": "ごみ箱",
+          "kana": "ごみばこ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "便利店",
+      "japanese": "コンビニ",
+      "kana": "こんびに",
+      "romaji": "konbini",
+      "tokens": [
+        {
+          "text": "コンビニ",
+          "kana": "こんびに"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "（室内用）拖鞋",
+      "japanese": "スリッパ",
+      "kana": "すりっぱ",
+      "romaji": "surippa",
+      "tokens": [
+        {
+          "text": "スリッパ",
+          "kana": "すりっぱ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "零，零点；什么都没有",
+      "japanese": "ゼロ",
+      "kana": "ぜろ",
+      "romaji": "zero",
+      "tokens": [
+        {
+          "text": "ゼロ",
+          "kana": "ぜろ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "厘米",
+      "japanese": "センチ",
+      "kana": "せんち",
+      "romaji": "senchi",
+      "tokens": [
+        {
+          "text": "センチ",
+          "kana": "せんち"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "然后，从那以后",
+      "japanese": "その後",
+      "kana": "そのご",
+      "romaji": "sonogo",
+      "tokens": [
+        {
+          "text": "その後",
+          "kana": "そのご"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "荞麦面",
+      "japanese": "蕎麦[そば]",
+      "kana": "そば",
+      "romaji": "soba",
+      "tokens": [
+        {
+          "text": "蕎麦[そば]",
+          "kana": "そば"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "烟草，香烟",
+      "japanese": "タバコ",
+      "kana": "たばこ",
+      "romaji": "tabako",
+      "tokens": [
+        {
+          "text": "タバコ",
+          "kana": "たばこ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "奶酪，芝士",
+      "japanese": "チーズ",
+      "kana": "ちいず",
+      "romaji": "chiizu",
+      "tokens": [
+        {
+          "text": "チーズ",
+          "kana": "ちいず"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "天妇罗（一种鱼和蔬菜等裹上面粉后油炸的食物）",
+      "japanese": "天ぷら",
+      "kana": "てんぷら",
+      "romaji": "tenpura",
+      "tokens": [
+        {
+          "text": "天ぷら",
+          "kana": "てんぷら"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "领带",
+      "japanese": "ネクタイ",
+      "kana": "ねくたい",
+      "romaji": "nekutai",
+      "tokens": [
+        {
+          "text": "ネクタイ",
+          "kana": "ねくたい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "手帕",
+      "japanese": "ハンカチ",
+      "kana": "はんかち",
+      "romaji": "hankachi",
+      "tokens": [
+        {
+          "text": "ハンカチ",
+          "kana": "はんかち"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "信箱；职位",
+      "japanese": "ポスト",
+      "kana": "ぽすと",
+      "romaji": "posuto",
+      "tokens": [
+        {
+          "text": "ポスト",
+          "kana": "ぽすと"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "纽扣；按钮",
+      "japanese": "ボタン",
+      "kana": "ぼたん",
+      "romaji": "botan",
+      "tokens": [
+        {
+          "text": "ボタン",
+          "kana": "ぼたん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "味噌汤",
+      "japanese": "みそ汁",
+      "kana": "みそしる",
+      "romaji": "misoshiru",
+      "tokens": [
+        {
+          "text": "みそ汁",
+          "kana": "みそしる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "牛奶",
+      "japanese": "ミルク",
+      "kana": "みるく",
+      "romaji": "miruku",
+      "tokens": [
+        {
+          "text": "ミルク",
+          "kana": "みるく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "欧洲",
+      "japanese": "ヨーロッパ",
+      "kana": "ようろっぱ",
+      "romaji": "youroppa",
+      "tokens": [
+        {
+          "text": "ヨーロッパ",
+          "kana": "ようろっぱ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "以外",
+      "japanese": "以外",
+      "kana": "いがい",
+      "romaji": "igai",
+      "tokens": [
+        {
+          "text": "以外",
+          "kana": "いがい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "以上",
+      "japanese": "以上",
+      "kana": "いじょう",
+      "romaji": "ijou",
+      "tokens": [
+        {
+          "text": "以上",
+          "kana": "いじょう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "以前，之前；（在某时期）以前",
+      "japanese": "以前",
+      "kana": "いぜん",
+      "romaji": "izen",
+      "tokens": [
+        {
+          "text": "以前",
+          "kana": "いぜん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "以内，之内",
+      "japanese": "以内",
+      "kana": "いない",
+      "romaji": "inai",
+      "tokens": [
+        {
+          "text": "以内",
+          "kana": "いない"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "意思；意图；价值",
+      "japanese": "意味",
+      "kana": "いみ",
+      "romaji": "imi",
+      "tokens": [
+        {
+          "text": "意味",
+          "kana": "いみ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "运动",
+      "japanese": "運動",
+      "kana": "うんどう",
+      "romaji": "undou",
+      "tokens": [
+        {
+          "text": "運動",
+          "kana": "うんどう"
+        }
+      ]
+    }
+  ]
+}

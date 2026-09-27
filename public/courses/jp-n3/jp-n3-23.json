@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-23",
+  "coursePackId": "jp-n3",
+  "title": "名词 23",
+  "order": 23,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "单程",
+      "japanese": "片道",
+      "kana": "かたみち",
+      "romaji": "katamichi",
+      "tokens": [
+        {
+          "text": "片道",
+          "kana": "かたみち"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "人行道",
+      "japanese": "歩道",
+      "kana": "ほどう",
+      "romaji": "hodou",
+      "tokens": [
+        {
+          "text": "歩道",
+          "kana": "ほどう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "募集，招募",
+      "japanese": "募集",
+      "kana": "ぼしゅう",
+      "romaji": "boshuu",
+      "tokens": [
+        {
+          "text": "募集",
+          "kana": "ぼしゅう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "包裹，包装",
+      "japanese": "包み",
+      "kana": "つつみ",
+      "romaji": "tsutsumi",
+      "tokens": [
+        {
+          "text": "包み",
+          "kana": "つつみ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "菜刀",
+      "japanese": "包丁",
+      "kana": "ほうちょう",
+      "romaji": "houchou",
+      "tokens": [
+        {
+          "text": "包丁",
+          "kana": "ほうちょう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "访问，拜访",
+      "japanese": "訪問",
+      "kana": "ほうもん",
+      "romaji": "houmon",
+      "tokens": [
+        {
+          "text": "訪問",
+          "kana": "ほうもん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "本人",
+      "japanese": "本人",
+      "kana": "ほんにん",
+      "romaji": "honnin",
+      "tokens": [
+        {
+          "text": "本人",
+          "kana": "ほんにん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "满分；绝佳",
+      "japanese": "満点",
+      "kana": "まんてん",
+      "romaji": "manten",
+      "tokens": [
+        {
+          "text": "満点",
+          "kana": "まんてん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "未来，将来",
+      "japanese": "未来",
+      "kana": "みらい",
+      "romaji": "mirai",
+      "tokens": [
+        {
+          "text": "未来",
+          "kana": "みらい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "热衷",
+      "japanese": "夢中",
+      "kana": "むちゅう",
+      "romaji": "muchuu",
+      "tokens": [
+        {
+          "text": "夢中",
+          "kana": "むちゅう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "免费",
+      "japanese": "無料",
+      "kana": "むりょう",
+      "romaji": "muryou",
+      "tokens": [
+        {
+          "text": "無料",
+          "kana": "むりょう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "名片",
+      "japanese": "名刺",
+      "kana": "めいし",
+      "romaji": "meishi",
+      "tokens": [
+        {
+          "text": "名刺",
+          "kana": "めいし"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "许可；执照",
+      "japanese": "免許",
+      "kana": "めんきょ",
+      "romaji": "menkyo",
+      "tokens": [
+        {
+          "text": "免許",
+          "kana": "めんきょ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "面试",
+      "japanese": "面接",
+      "kana": "めんせつ",
+      "romaji": "mensetsu",
+      "tokens": [
+        {
+          "text": "面接",
+          "kana": "めんせつ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "麻烦；照顾",
+      "japanese": "面倒",
+      "kana": "めんどう",
+      "romaji": "mendou",
+      "tokens": [
+        {
+          "text": "面倒",
+          "kana": "めんどう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "目标，指标",
+      "japanese": "目標",
+      "kana": "もくひょう",
+      "romaji": "mokuhyou",
+      "tokens": [
+        {
+          "text": "目標",
+          "kana": "もくひょう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "官署，机关",
+      "japanese": "役所",
+      "kana": "やくしょ",
+      "romaji": "yakusho",
+      "tokens": [
+        {
+          "text": "役所",
+          "kana": "やくしょ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "约定；简要；大约",
+      "japanese": "約",
+      "kana": "やく",
+      "romaji": "yaku",
+      "tokens": [
+        {
+          "text": "約",
+          "kana": "やく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "意思；理由，原因",
+      "japanese": "訳",
+      "kana": "わけ",
+      "romaji": "wake",
+      "tokens": [
+        {
+          "text": "訳",
+          "kana": "わけ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "冠军",
+      "japanese": "優勝",
+      "kana": "ゆうしょう",
+      "romaji": "yuushou",
+      "tokens": [
+        {
+          "text": "優勝",
+          "kana": "ゆうしょう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "预报，天气预报",
+      "japanese": "予報",
+      "kana": "よほう",
+      "romaji": "yohou",
+      "tokens": [
+        {
+          "text": "予報",
+          "kana": "よほう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "来店",
+      "japanese": "来店",
+      "kana": "らいてん",
+      "romaji": "raiten",
+      "tokens": [
+        {
+          "text": "来店",
+          "kana": "らいてん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "理科",
+      "japanese": "理科",
+      "kana": "りか",
+      "romaji": "rika",
+      "tokens": [
+        {
+          "text": "理科",
+          "kana": "りか"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "理想",
+      "japanese": "理想",
+      "kana": "りそう",
+      "romaji": "risou",
+      "tokens": [
+        {
+          "text": "理想",
+          "kana": "りそう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "流，流水；流程；潮流",
+      "japanese": "流れ",
+      "kana": "ながれ",
+      "romaji": "nagare",
+      "tokens": [
+        {
+          "text": "流れ",
+          "kana": "ながれ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "流行；（疾病）蔓延",
+      "japanese": "流行",
+      "kana": "りゅうこう",
+      "romaji": "ryuukou",
+      "tokens": [
+        {
+          "text": "流行",
+          "kana": "りゅうこう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "看家，看家人",
+      "japanese": "留守番",
+      "kana": "るすばん",
+      "romaji": "rusuban",
+      "tokens": [
+        {
+          "text": "留守番",
+          "kana": "るすばん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "旅行，旅游",
+      "japanese": "旅",
+      "kana": "たび",
+      "romaji": "tabi",
+      "tokens": [
+        {
+          "text": "旅",
+          "kana": "たび"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "兑换（货币）",
+      "japanese": "両替",
+      "kana": "りょうがえ",
+      "romaji": "ryougae",
+      "tokens": [
+        {
+          "text": "両替",
+          "kana": "りょうがえ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "分量，数量",
+      "japanese": "量",
+      "kana": "りょう",
+      "romaji": "ryou",
+      "tokens": [
+        {
+          "text": "量",
+          "kana": "りょう"
+        }
+      ]
+    }
+  ]
+}

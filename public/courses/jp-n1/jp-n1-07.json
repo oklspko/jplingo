@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-07",
+  "coursePackId": "jp-n1",
+  "title": "名词 7",
+  "order": 7,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（车站或医院等的）等候室",
+      "japanese": "待合室",
+      "kana": "まちあいしつ",
+      "romaji": "machiaishitsu",
+      "tokens": [
+        {
+          "text": "待合室",
+          "kana": "まちあいしつ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "远古，很久以前",
+      "japanese": "大昔",
+      "kana": "おおむかし",
+      "romaji": "oomukashi",
+      "tokens": [
+        {
+          "text": "大昔",
+          "kana": "おおむかし"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "住宅区，小区",
+      "japanese": "団地",
+      "kana": "だんち",
+      "romaji": "danchi",
+      "tokens": [
+        {
+          "text": "団地",
+          "kana": "だんち"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "停水",
+      "japanese": "断水",
+      "kana": "だんすい",
+      "romaji": "dansui",
+      "tokens": [
+        {
+          "text": "断水",
+          "kana": "だんすい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "断定，判断",
+      "japanese": "断定",
+      "kana": "だんてい",
+      "romaji": "dantei",
+      "tokens": [
+        {
+          "text": "断定",
+          "kana": "だんてい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "早晚；每天，经常",
+      "japanese": "朝晩",
+      "kana": "あさばん",
+      "romaji": "asaban",
+      "tokens": [
+        {
+          "text": "朝晩",
+          "kana": "あさばん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "听讲，旁听",
+      "japanese": "聴講",
+      "kana": "ちょうこう",
+      "romaji": "choukou",
+      "tokens": [
+        {
+          "text": "聴講",
+          "kana": "ちょうこう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "租赁，出租",
+      "japanese": "賃貸",
+      "kana": "ちんたい",
+      "romaji": "chintai",
+      "tokens": [
+        {
+          "text": "賃貸",
+          "kana": "ちんたい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "糖分，甜味",
+      "japanese": "糖分",
+      "kana": "とうぶん",
+      "romaji": "toubun",
+      "tokens": [
+        {
+          "text": "糖分",
+          "kana": "とうぶん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "同行，一起走",
+      "japanese": "同行",
+      "kana": "どうこう",
+      "romaji": "doukou",
+      "tokens": [
+        {
+          "text": "同行",
+          "kana": "どうこう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "同学会",
+      "japanese": "同窓会",
+      "kana": "どうそうかい",
+      "romaji": "dousoukai",
+      "tokens": [
+        {
+          "text": "同窓会",
+          "kana": "どうそうかい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "铜",
+      "japanese": "銅",
+      "kana": "どう",
+      "romaji": "dou",
+      "tokens": [
+        {
+          "text": "銅",
+          "kana": "どう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "读物；（有内容的）可以一读的文章",
+      "japanese": "読み物",
+      "kana": "よみもの",
+      "romaji": "yomimono",
+      "tokens": [
+        {
+          "text": "読み物",
+          "kana": "よみもの"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "容器，器具",
+      "japanese": "入れ物",
+      "kana": "いれもの",
+      "romaji": "iremono",
+      "tokens": [
+        {
+          "text": "入れ物",
+          "kana": "いれもの"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "受灾者；被害人",
+      "japanese": "被害者",
+      "kana": "ひがいしゃ",
+      "romaji": "higaisha",
+      "tokens": [
+        {
+          "text": "被害者",
+          "kana": "ひがいしゃ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "尾巴；尾部",
+      "japanese": "尾",
+      "kana": "お",
+      "romaji": "o",
+      "tokens": [
+        {
+          "text": "尾",
+          "kana": "お"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "眉毛",
+      "japanese": "眉",
+      "kana": "まゆ",
+      "romaji": "mayu",
+      "tokens": [
+        {
+          "text": "眉",
+          "kana": "まゆ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "毛笔；用毛笔写（的书法或绘画）；文章",
+      "japanese": "筆",
+      "kana": "ふで",
+      "romaji": "fude",
+      "tokens": [
+        {
+          "text": "筆",
+          "kana": "ふで"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "病房，病室",
+      "japanese": "病室",
+      "kana": "びょうしつ",
+      "romaji": "byoushitsu",
+      "tokens": [
+        {
+          "text": "病室",
+          "kana": "びょうしつ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "病人",
+      "japanese": "病人",
+      "kana": "びょうにん",
+      "romaji": "byounin",
+      "tokens": [
+        {
+          "text": "病人",
+          "kana": "びょうにん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "妇女，女士",
+      "japanese": "婦人",
+      "kana": "ふじん",
+      "romaji": "fujin",
+      "tokens": [
+        {
+          "text": "婦人",
+          "kana": "ふじん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "响动，声音",
+      "japanese": "物音",
+      "kana": "ものおと",
+      "romaji": "monooto",
+      "tokens": [
+        {
+          "text": "物音",
+          "kana": "ものおと"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "一只手；一只",
+      "japanese": "片手",
+      "kana": "かたて",
+      "romaji": "katate",
+      "tokens": [
+        {
+          "text": "片手",
+          "kana": "かたて"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "盛开，全开",
+      "japanese": "満開",
+      "kana": "まんかい",
+      "romaji": "mankai",
+      "tokens": [
+        {
+          "text": "満開",
+          "kana": "まんかい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "未成年",
+      "japanese": "未成年",
+      "kana": "みせいねん",
+      "romaji": "miseinen",
+      "tokens": [
+        {
+          "text": "未成年",
+          "kana": "みせいねん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "民间；私营",
+      "japanese": "民間",
+      "kana": "みんかん",
+      "romaji": "minkan",
+      "tokens": [
+        {
+          "text": "民間",
+          "kana": "みんかん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "不关心，不感兴趣",
+      "japanese": "無関心",
+      "kana": "むかんしん",
+      "romaji": "mukanshin",
+      "tokens": [
+        {
+          "text": "無関心",
+          "kana": "むかんしん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "浪费，乱花钱",
+      "japanese": "無駄遣い",
+      "kana": "むだづかい",
+      "romaji": "mudazukai",
+      "tokens": [
+        {
+          "text": "無駄遣い",
+          "kana": "むだづかい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "花纹，图案；情况",
+      "japanese": "模様",
+      "kana": "もよう",
+      "romaji": "moyou",
+      "tokens": [
+        {
+          "text": "模様",
+          "kana": "もよう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "炎热，酷暑",
+      "japanese": "猛暑",
+      "kana": "もうしょ",
+      "romaji": "mousho",
+      "tokens": [
+        {
+          "text": "猛暑",
+          "kana": "もうしょ"
+        }
+      ]
+    }
+  ]
+}

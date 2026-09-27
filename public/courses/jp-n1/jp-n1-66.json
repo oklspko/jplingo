@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-66",
+  "coursePackId": "jp-n1",
+  "title": "名词 66",
+  "order": 66,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "商定，约定，缔结，协定",
+      "japanese": "取り決め",
+      "kana": "とりきめ",
+      "romaji": "torikime",
+      "tokens": [
+        {
+          "text": "取り決め",
+          "kana": "とりきめ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "荣冠，荣誉",
+      "japanese": "栄冠",
+      "kana": "えいかん",
+      "romaji": "eikan",
+      "tokens": [
+        {
+          "text": "栄冠",
+          "kana": "えいかん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "朝上，仰；趋涨",
+      "japanese": "上向き",
+      "kana": "うわむき",
+      "romaji": "uwamuki",
+      "tokens": [
+        {
+          "text": "上向き",
+          "kana": "うわむき"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "物品；（不动产以外的）有形物品，动产",
+      "japanese": "物品",
+      "kana": "ぶっぴん",
+      "romaji": "buppin",
+      "tokens": [
+        {
+          "text": "物品",
+          "kana": "ぶっぴん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "进深，纵深；（学识、思考、感情的）深度",
+      "japanese": "奥行き",
+      "kana": "おくゆき",
+      "romaji": "okuyuki",
+      "tokens": [
+        {
+          "text": "奥行き",
+          "kana": "おくゆき"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "水边，水滨",
+      "japanese": "水辺",
+      "kana": "みずべ",
+      "romaji": "mizube",
+      "tokens": [
+        {
+          "text": "水辺",
+          "kana": "みずべ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "原案",
+      "japanese": "原案",
+      "kana": "げんあん",
+      "romaji": "gen'an",
+      "tokens": [
+        {
+          "text": "原案",
+          "kana": "げんあん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "机身，机体；飞机",
+      "japanese": "機体",
+      "kana": "きたい",
+      "romaji": "kitai",
+      "tokens": [
+        {
+          "text": "機体",
+          "kana": "きたい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "频度，频率",
+      "japanese": "頻度",
+      "kana": "ひんど",
+      "romaji": "hindo",
+      "tokens": [
+        {
+          "text": "頻度",
+          "kana": "ひんど"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "溪谷，山谷",
+      "japanese": "渓谷",
+      "kana": "けいこく",
+      "romaji": "keikoku",
+      "tokens": [
+        {
+          "text": "渓谷",
+          "kana": "けいこく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "被告",
+      "japanese": "被告",
+      "kana": "ひこく",
+      "romaji": "hikoku",
+      "tokens": [
+        {
+          "text": "被告",
+          "kana": "ひこく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "善恶",
+      "japanese": "善悪",
+      "kana": "ぜんあく",
+      "romaji": "zen'aku",
+      "tokens": [
+        {
+          "text": "善悪",
+          "kana": "ぜんあく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "腊月，（阴历）十二月",
+      "japanese": "師走",
+      "kana": "しわす",
+      "romaji": "shiwasu",
+      "tokens": [
+        {
+          "text": "師走",
+          "kana": "しわす"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "加上若干；附加部分",
+      "japanese": "プラスアルファ",
+      "kana": "ぷらすあるふぁ",
+      "romaji": "purasuarufua",
+      "tokens": [
+        {
+          "text": "プラスアルファ",
+          "kana": "ぷらすあるふぁ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "口气，口吻",
+      "japanese": "話しぶり",
+      "kana": "はなしぶり",
+      "romaji": "hanashiburi",
+      "tokens": [
+        {
+          "text": "話しぶり",
+          "kana": "はなしぶり"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "精锐，精英",
+      "japanese": "精鋭",
+      "kana": "せいえい",
+      "romaji": "seiei",
+      "tokens": [
+        {
+          "text": "精鋭",
+          "kana": "せいえい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "时价，市值",
+      "japanese": "時価",
+      "kana": "じか",
+      "romaji": "jika",
+      "tokens": [
+        {
+          "text": "時価",
+          "kana": "じか"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "恩惠，价值",
+      "japanese": "ありがたみ",
+      "kana": "ありがたみ",
+      "romaji": "arigatami",
+      "tokens": [
+        {
+          "text": "ありがたみ",
+          "kana": "ありがたみ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "恩人",
+      "japanese": "恩人",
+      "kana": "おんじん",
+      "romaji": "onjin",
+      "tokens": [
+        {
+          "text": "恩人",
+          "kana": "おんじん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "严冬，隆冬",
+      "japanese": "厳冬",
+      "kana": "げんとう",
+      "romaji": "gentou",
+      "tokens": [
+        {
+          "text": "厳冬",
+          "kana": "げんとう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "最高峰；巅峰",
+      "japanese": "最高峰",
+      "kana": "さいこうほう",
+      "romaji": "saikouhou",
+      "tokens": [
+        {
+          "text": "最高峰",
+          "kana": "さいこうほう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "布料，衣料",
+      "japanese": "布地",
+      "kana": "ぬのじ",
+      "romaji": "nunoji",
+      "tokens": [
+        {
+          "text": "布地",
+          "kana": "ぬのじ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "大国，强国",
+      "japanese": "大国",
+      "kana": "たいこく",
+      "romaji": "taikoku",
+      "tokens": [
+        {
+          "text": "大国",
+          "kana": "たいこく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "佛阁，佛堂，寺院",
+      "japanese": "仏閣",
+      "kana": "ぶっかく",
+      "romaji": "bukkaku",
+      "tokens": [
+        {
+          "text": "仏閣",
+          "kana": "ぶっかく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "本色木料",
+      "japanese": "白木",
+      "kana": "しらき",
+      "romaji": "shiraki",
+      "tokens": [
+        {
+          "text": "白木",
+          "kana": "しらき"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "有志气，要强，出息",
+      "japanese": "甲斐[かい]性",
+      "kana": "かいしょう",
+      "romaji": "kaishou",
+      "tokens": [
+        {
+          "text": "甲斐[かい]性",
+          "kana": "かいしょう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "用地，地皮",
+      "japanese": "敷地",
+      "kana": "しきち",
+      "romaji": "shikichi",
+      "tokens": [
+        {
+          "text": "敷地",
+          "kana": "しきち"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "流派，门派",
+      "japanese": "流派",
+      "kana": "りゅうは",
+      "romaji": "ryuuha",
+      "tokens": [
+        {
+          "text": "流派",
+          "kana": "りゅうは"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "实权",
+      "japanese": "実権",
+      "kana": "じっけん",
+      "romaji": "jikken",
+      "tokens": [
+        {
+          "text": "実権",
+          "kana": "じっけん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "油炸的食品",
+      "japanese": "揚げ物",
+      "kana": "あげもの",
+      "romaji": "agemono",
+      "tokens": [
+        {
+          "text": "揚げ物",
+          "kana": "あげもの"
+        }
+      ]
+    }
+  ]
+}

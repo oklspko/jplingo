@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-03",
+  "coursePackId": "jp-n1",
+  "title": "名词 3",
+  "order": 3,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "应对，接待，应酬",
+      "japanese": "応対",
+      "kana": "おうたい",
+      "romaji": "outai",
+      "tokens": [
+        {
+          "text": "応対",
+          "kana": "おうたい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "脏水；下水道",
+      "japanese": "下水",
+      "kana": "げすい",
+      "romaji": "gesui",
+      "tokens": [
+        {
+          "text": "下水",
+          "kana": "げすい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "火山",
+      "japanese": "火山",
+      "kana": "かざん",
+      "romaji": "kazan",
+      "tokens": [
+        {
+          "text": "火山",
+          "kana": "かざん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "蚊子",
+      "japanese": "蚊",
+      "kana": "か",
+      "romaji": "ka",
+      "tokens": [
+        {
+          "text": "蚊",
+          "kana": "か"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "（集会和活动的场所）会馆",
+      "japanese": "会館",
+      "kana": "かいかん",
+      "romaji": "kaikan",
+      "tokens": [
+        {
+          "text": "会館",
+          "kana": "かいかん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "外科",
+      "japanese": "外科",
+      "kana": "げか",
+      "romaji": "geka",
+      "tokens": [
+        {
+          "text": "外科",
+          "kana": "げか"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "学费",
+      "japanese": "学費",
+      "kana": "がくひ",
+      "romaji": "gakuhi",
+      "tokens": [
+        {
+          "text": "学費",
+          "kana": "がくひ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "关西地区",
+      "japanese": "関西",
+      "kana": "かんさい",
+      "romaji": "kansai",
+      "tokens": [
+        {
+          "text": "関西",
+          "kana": "かんさい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "空；身上什么都没有；只有形式没有实质内容",
+      "japanese": "空",
+      "kana": "から",
+      "romaji": "kara",
+      "tokens": [
+        {
+          "text": "空",
+          "kana": "から"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "空隙；闲暇；漏洞",
+      "japanese": "隙",
+      "kana": "すき",
+      "romaji": "suki",
+      "tokens": [
+        {
+          "text": "隙",
+          "kana": "すき"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "缺勤，请假",
+      "japanese": "欠勤",
+      "kana": "けっきん",
+      "romaji": "kekkin",
+      "tokens": [
+        {
+          "text": "欠勤",
+          "kana": "けっきん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "外观，外貌",
+      "japanese": "見かけ",
+      "kana": "みかけ",
+      "romaji": "mikake",
+      "tokens": [
+        {
+          "text": "見かけ",
+          "kana": "みかけ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "交往，应酬",
+      "japanese": "交際",
+      "kana": "こうさい",
+      "romaji": "kousai",
+      "tokens": [
+        {
+          "text": "交際",
+          "kana": "こうさい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "公害",
+      "japanese": "公害",
+      "kana": "こうがい",
+      "romaji": "kougai",
+      "tokens": [
+        {
+          "text": "公害",
+          "kana": "こうがい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "口头禅",
+      "japanese": "口癖",
+      "kana": "くちぐせ",
+      "romaji": "kuchiguse",
+      "tokens": [
+        {
+          "text": "口癖",
+          "kana": "くちぐせ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "国籍",
+      "japanese": "国籍",
+      "kana": "こくせき",
+      "romaji": "kokuseki",
+      "tokens": [
+        {
+          "text": "国籍",
+          "kana": "こくせき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "犯罪，罪过",
+      "japanese": "罪",
+      "kana": "つみ",
+      "romaji": "tsumi",
+      "tokens": [
+        {
+          "text": "罪",
+          "kana": "つみ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "私立",
+      "japanese": "私立",
+      "kana": "しりつ",
+      "romaji": "shiritsu",
+      "tokens": [
+        {
+          "text": "私立",
+          "kana": "しりつ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "资金",
+      "japanese": "資金",
+      "kana": "しきん",
+      "romaji": "shikin",
+      "tokens": [
+        {
+          "text": "資金",
+          "kana": "しきん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "失业",
+      "japanese": "失業",
+      "kana": "しつぎょう",
+      "romaji": "shitsugyou",
+      "tokens": [
+        {
+          "text": "失業",
+          "kana": "しつぎょう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "失恋",
+      "japanese": "失恋",
+      "kana": "しつれん",
+      "romaji": "shitsuren",
+      "tokens": [
+        {
+          "text": "失恋",
+          "kana": "しつれん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "住所，住宅",
+      "japanese": "住居",
+      "kana": "じゅうきょ",
+      "romaji": "juukyo",
+      "tokens": [
+        {
+          "text": "住居",
+          "kana": "じゅうきょ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "节日",
+      "japanese": "祝日",
+      "kana": "しゅくじつ",
+      "romaji": "shukujitsu",
+      "tokens": [
+        {
+          "text": "祝日",
+          "kana": "しゅくじつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "品尝期限，有效期",
+      "japanese": "賞味期限",
+      "kana": "しょうみきげん",
+      "romaji": "shoumikigen",
+      "tokens": [
+        {
+          "text": "賞味期限",
+          "kana": "しょうみきげん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "蒸汽；水蒸气",
+      "japanese": "蒸気",
+      "kana": "じょうき",
+      "romaji": "jouki",
+      "tokens": [
+        {
+          "text": "蒸気",
+          "kana": "じょうき"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "尾巴；末端",
+      "japanese": "尻尾",
+      "kana": "しっぽ",
+      "romaji": "shippo",
+      "tokens": [
+        {
+          "text": "尻尾",
+          "kana": "しっぽ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "通红，鲜红；纯粹",
+      "japanese": "真っ赤",
+      "kana": "まっか",
+      "romaji": "makka",
+      "tokens": [
+        {
+          "text": "真っ赤",
+          "kana": "まっか"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "人事；人世间的事",
+      "japanese": "人事",
+      "kana": "じんじ",
+      "romaji": "jinji",
+      "tokens": [
+        {
+          "text": "人事",
+          "kana": "じんじ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "水蒸气",
+      "japanese": "水蒸気",
+      "kana": "すいじょうき",
+      "romaji": "suijouki",
+      "tokens": [
+        {
+          "text": "水蒸気",
+          "kana": "すいじょうき"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "祖先",
+      "japanese": "祖先",
+      "kana": "そせん",
+      "romaji": "sosen",
+      "tokens": [
+        {
+          "text": "祖先",
+          "kana": "そせん"
+        }
+      ]
+    }
+  ]
+}

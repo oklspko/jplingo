@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-20",
+  "coursePackId": "jp-n3",
+  "title": "名词 20",
+  "order": 20,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "仓库",
+      "japanese": "倉庫",
+      "kana": "そうこ",
+      "romaji": "souko",
+      "tokens": [
+        {
+          "text": "倉庫",
+          "kana": "そうこ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "想象",
+      "japanese": "想像",
+      "kana": "そうぞう",
+      "romaji": "souzou",
+      "tokens": [
+        {
+          "text": "想像",
+          "kana": "そうぞう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "增加，增多",
+      "japanese": "増加",
+      "kana": "ぞうか",
+      "romaji": "zouka",
+      "tokens": [
+        {
+          "text": "増加",
+          "kana": "ぞうか"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "速度",
+      "japanese": "速度",
+      "kana": "そくど",
+      "romaji": "sokudo",
+      "tokens": [
+        {
+          "text": "速度",
+          "kana": "そくど"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "袖子，衣袖",
+      "japanese": "袖",
+      "kana": "そで",
+      "romaji": "sode",
+      "tokens": [
+        {
+          "text": "袖",
+          "kana": "そで"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "尊敬，敬仰",
+      "japanese": "尊敬",
+      "kana": "そんけい",
+      "romaji": "sonkei",
+      "tokens": [
+        {
+          "text": "尊敬",
+          "kana": "そんけい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "多少；稍微",
+      "japanese": "多少",
+      "kana": "たしょう",
+      "romaji": "tashou",
+      "tokens": [
+        {
+          "text": "多少",
+          "kana": "たしょう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "体重",
+      "japanese": "体重",
+      "kana": "たいじゅう",
+      "romaji": "taijuu",
+      "tokens": [
+        {
+          "text": "体重",
+          "kana": "たいじゅう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "逗留，旅居",
+      "japanese": "滞在",
+      "kana": "たいざい",
+      "romaji": "taizai",
+      "tokens": [
+        {
+          "text": "滞在",
+          "kana": "たいざい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "货款，款",
+      "japanese": "代金",
+      "kana": "だいきん",
+      "romaji": "daikin",
+      "tokens": [
+        {
+          "text": "代金",
+          "kana": "だいきん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "代表",
+      "japanese": "代表",
+      "kana": "だいひょう",
+      "romaji": "daihyou",
+      "tokens": [
+        {
+          "text": "代表",
+          "kana": "だいひょう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "大会，大赛",
+      "japanese": "大会",
+      "kana": "たいかい",
+      "romaji": "taikai",
+      "tokens": [
+        {
+          "text": "大会",
+          "kana": "たいかい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "大与小",
+      "japanese": "大小",
+      "kana": "だいしょう",
+      "romaji": "daishou",
+      "tokens": [
+        {
+          "text": "大小",
+          "kana": "だいしょう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（计算中使用的）单位；学分",
+      "japanese": "単位",
+      "kana": "たんい",
+      "romaji": "tan'i",
+      "tokens": [
+        {
+          "text": "単位",
+          "kana": "たんい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "单词",
+      "japanese": "単語",
+      "kana": "たんご",
+      "romaji": "tango",
+      "tokens": [
+        {
+          "text": "単語",
+          "kana": "たんご"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "男孩子；男子",
+      "japanese": "男子",
+      "kana": "だんし",
+      "romaji": "danshi",
+      "tokens": [
+        {
+          "text": "男子",
+          "kana": "だんし"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "知识",
+      "japanese": "知識",
+      "kana": "ちしき",
+      "romaji": "chishiki",
+      "tokens": [
+        {
+          "text": "知識",
+          "kana": "ちしき"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "素净；质朴",
+      "japanese": "地味",
+      "kana": "じみ",
+      "romaji": "jimi",
+      "tokens": [
+        {
+          "text": "地味",
+          "kana": "じみ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "换衣服；换的衣服",
+      "japanese": "着替え",
+      "kana": "きがえ",
+      "romaji": "kigae",
+      "tokens": [
+        {
+          "text": "着替え",
+          "kana": "きがえ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "容纳的东西，内容",
+      "japanese": "中身",
+      "kana": "なかみ",
+      "romaji": "nakami",
+      "tokens": [
+        {
+          "text": "中身",
+          "kana": "なかみ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "关系，交情",
+      "japanese": "仲",
+      "kana": "なか",
+      "romaji": "naka",
+      "tokens": [
+        {
+          "text": "仲",
+          "kana": "なか"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "订购；要求",
+      "japanese": "注文",
+      "kana": "ちゅうもん",
+      "romaji": "chuumon",
+      "tokens": [
+        {
+          "text": "注文",
+          "kana": "ちゅうもん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "调查",
+      "japanese": "調査",
+      "kana": "ちょうさ",
+      "romaji": "chousa",
+      "tokens": [
+        {
+          "text": "調査",
+          "kana": "ちょうさ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "上下学",
+      "japanese": "通学",
+      "kana": "つうがく",
+      "romaji": "tsuugaku",
+      "tokens": [
+        {
+          "text": "通学",
+          "kana": "つうがく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "通勤，上下班",
+      "japanese": "通勤",
+      "kana": "つうきん",
+      "romaji": "tsuukin",
+      "tokens": [
+        {
+          "text": "通勤",
+          "kana": "つうきん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "通行",
+      "japanese": "通行",
+      "kana": "つうこう",
+      "romaji": "tsuukou",
+      "tokens": [
+        {
+          "text": "通行",
+          "kana": "つうこう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "通知，告知",
+      "japanese": "通知",
+      "kana": "つうち",
+      "romaji": "tsuuchi",
+      "tokens": [
+        {
+          "text": "通知",
+          "kana": "つうち"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "口译",
+      "japanese": "通訳",
+      "kana": "つうやく",
+      "romaji": "tsuuyaku",
+      "tokens": [
+        {
+          "text": "通訳",
+          "kana": "つうやく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "钓鱼；零钱",
+      "japanese": "釣り",
+      "kana": "つり",
+      "romaji": "tsuri",
+      "tokens": [
+        {
+          "text": "釣り",
+          "kana": "つり"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "停电",
+      "japanese": "停電",
+      "kana": "ていでん",
+      "romaji": "teiden",
+      "tokens": [
+        {
+          "text": "停電",
+          "kana": "ていでん"
+        }
+      ]
+    }
+  ]
+}

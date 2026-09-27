@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-26",
+  "coursePackId": "jp-n3",
+  "title": "名词 26",
+  "order": 26,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "最盛时期，正在进行",
+      "japanese": "最中",
+      "kana": "さいちゅう",
+      "romaji": "saichuu",
+      "tokens": [
+        {
+          "text": "最中",
+          "kana": "さいちゅう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "构造，样式；（つくり）体格；装作",
+      "japanese": "作り",
+      "kana": "つくり",
+      "romaji": "tsukuri",
+      "tokens": [
+        {
+          "text": "作り",
+          "kana": "つくり"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "加班",
+      "japanese": "残業",
+      "kana": "ざんぎょう",
+      "romaji": "zangyou",
+      "tokens": [
+        {
+          "text": "残業",
+          "kana": "ざんぎょう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "市政府",
+      "japanese": "市役所",
+      "kana": "しやくしょ",
+      "romaji": "shiyakusho",
+      "tokens": [
+        {
+          "text": "市役所",
+          "kana": "しやくしょ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "支出，开支",
+      "japanese": "支出",
+      "kana": "ししゅつ",
+      "romaji": "shishutsu",
+      "tokens": [
+        {
+          "text": "支出",
+          "kana": "ししゅつ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "试吃",
+      "japanese": "試食",
+      "kana": "ししょく",
+      "romaji": "shishoku",
+      "tokens": [
+        {
+          "text": "試食",
+          "kana": "ししょく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "带回去；外带",
+      "japanese": "持ち帰り",
+      "kana": "もちかえり",
+      "romaji": "mochikaeri",
+      "tokens": [
+        {
+          "text": "持ち帰り",
+          "kana": "もちかえり"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "所有物；携带物品",
+      "japanese": "持ち物",
+      "kana": "もちもの",
+      "romaji": "mochimono",
+      "tokens": [
+        {
+          "text": "持ち物",
+          "kana": "もちもの"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "时薪",
+      "japanese": "時給",
+      "kana": "じきゅう",
+      "romaji": "jikyuu",
+      "tokens": [
+        {
+          "text": "時給",
+          "kana": "じきゅう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "时刻表",
+      "japanese": "時刻表",
+      "kana": "じこくひょう",
+      "romaji": "jikokuhyou",
+      "tokens": [
+        {
+          "text": "時刻表",
+          "kana": "じこくひょう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "自夸，骄傲",
+      "japanese": "自慢",
+      "kana": "じまん",
+      "romaji": "jiman",
+      "tokens": [
+        {
+          "text": "自慢",
+          "kana": "じまん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "室内",
+      "japanese": "室内",
+      "kana": "しつない",
+      "romaji": "shitsunai",
+      "tokens": [
+        {
+          "text": "室内",
+          "kana": "しつない"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（出生地的）老家，父母家",
+      "japanese": "実家",
+      "kana": "じっか",
+      "romaji": "jikka",
+      "tokens": [
+        {
+          "text": "実家",
+          "kana": "じっか"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "车库",
+      "japanese": "車庫",
+      "kana": "しゃこ",
+      "romaji": "shako",
+      "tokens": [
+        {
+          "text": "車庫",
+          "kana": "しゃこ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "借钱，欠债",
+      "japanese": "借金",
+      "kana": "しゃっきん",
+      "romaji": "shakkin",
+      "tokens": [
+        {
+          "text": "借金",
+          "kana": "しゃっきん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "年轻人",
+      "japanese": "若者",
+      "kana": "わかもの",
+      "romaji": "wakamono",
+      "tokens": [
+        {
+          "text": "若者",
+          "kana": "わかもの"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "修理",
+      "japanese": "修理",
+      "kana": "しゅうり",
+      "romaji": "shuuri",
+      "tokens": [
+        {
+          "text": "修理",
+          "kana": "しゅうり"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "终点站；终点",
+      "japanese": "終点",
+      "kana": "しゅうてん",
+      "romaji": "shuuten",
+      "tokens": [
+        {
+          "text": "終点",
+          "kana": "しゅうてん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "周刊杂志",
+      "japanese": "週刊誌",
+      "kana": "しゅうかんし",
+      "romaji": "shuukanshi",
+      "tokens": [
+        {
+          "text": "週刊誌",
+          "kana": "しゅうかんし"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "出国，出境",
+      "japanese": "出国",
+      "kana": "しゅっこく",
+      "romaji": "shukkoku",
+      "tokens": [
+        {
+          "text": "出国",
+          "kana": "しゅっこく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "进出；常客；收支",
+      "japanese": "出入り",
+      "kana": "でいり",
+      "romaji": "deiri",
+      "tokens": [
+        {
+          "text": "出入り",
+          "kana": "でいり"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "笑；嘲笑",
+      "japanese": "笑い",
+      "kana": "わらい",
+      "romaji": "warai",
+      "tokens": [
+        {
+          "text": "笑い",
+          "kana": "わらい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "典雅，雅致",
+      "japanese": "上品",
+      "kana": "じょうひん",
+      "romaji": "jouhin",
+      "tokens": [
+        {
+          "text": "上品",
+          "kana": "じょうひん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "饭后",
+      "japanese": "食後",
+      "kana": "しょくご",
+      "romaji": "shokugo",
+      "tokens": [
+        {
+          "text": "食後",
+          "kana": "しょくご"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "慎重，谨慎",
+      "japanese": "慎重",
+      "kana": "しんちょう",
+      "romaji": "shinchou",
+      "tokens": [
+        {
+          "text": "慎重",
+          "kana": "しんちょう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "挥动；姿态，举止；假装",
+      "japanese": "振り",
+      "kana": "ふり",
+      "romaji": "furi",
+      "tokens": [
+        {
+          "text": "振り",
+          "kana": "ふり"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "新加入",
+      "japanese": "新入",
+      "kana": "しんにゅう",
+      "romaji": "shinnyuu",
+      "tokens": [
+        {
+          "text": "新入",
+          "kana": "しんにゅう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "父母和子女；具有主从关系的两个事物",
+      "japanese": "親子",
+      "kana": "おやこ",
+      "romaji": "oyako",
+      "tokens": [
+        {
+          "text": "親子",
+          "kana": "おやこ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "诊断；检查，分析",
+      "japanese": "診断",
+      "kana": "しんだん",
+      "romaji": "shindan",
+      "tokens": [
+        {
+          "text": "診断",
+          "kana": "しんだん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "人工，人造",
+      "japanese": "人工",
+      "kana": "じんこう",
+      "romaji": "jinkou",
+      "tokens": [
+        {
+          "text": "人工",
+          "kana": "じんこう"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-133",
+  "coursePackId": "jp-n1",
+  "title": "副词 3",
+  "order": 133,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "原来，原本",
+      "japanese": "元来",
+      "kana": "がんらい",
+      "romaji": "ganrai",
+      "tokens": [
+        {
+          "text": "元来",
+          "kana": "がんらい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "事到如今；现在重新",
+      "japanese": "今更",
+      "kana": "いまさら",
+      "romaji": "imasara",
+      "tokens": [
+        {
+          "text": "今更",
+          "kana": "いまさら"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "有时，偶尔，时而",
+      "japanese": "時折",
+      "kana": "ときおり",
+      "romaji": "tokiori",
+      "tokens": [
+        {
+          "text": "時折",
+          "kana": "ときおり"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "专门，净，专心致志",
+      "japanese": "もっぱら",
+      "kana": "もっぱら",
+      "romaji": "moppara",
+      "tokens": [
+        {
+          "text": "もっぱら",
+          "kana": "もっぱら"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "当前；面临",
+      "japanese": "当面",
+      "kana": "とうめん",
+      "romaji": "toumen",
+      "tokens": [
+        {
+          "text": "当面",
+          "kana": "とうめん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "不用说，当然",
+      "japanese": "むろん",
+      "kana": "むろん",
+      "romaji": "muron",
+      "tokens": [
+        {
+          "text": "むろん",
+          "kana": "むろん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "慌慌张张",
+      "japanese": "あたふた",
+      "kana": "あたふた",
+      "romaji": "atafuta",
+      "tokens": [
+        {
+          "text": "あたふた",
+          "kana": "あたふた"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（因为想做）跃跃欲试，坐不住",
+      "japanese": "うずうず",
+      "kana": "うずうず",
+      "romaji": "uzuuzu",
+      "tokens": [
+        {
+          "text": "うずうず",
+          "kana": "うずうず"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "自然而然地",
+      "japanese": "自[おの]ずと",
+      "kana": "おのずと",
+      "romaji": "onozuto",
+      "tokens": [
+        {
+          "text": "自[おの]ずと",
+          "kana": "おのずと"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "（干燥的物体接触时的）沙沙声；粗野的（人）；干燥的",
+      "japanese": "がさがさ",
+      "kana": "がさがさ",
+      "romaji": "gasagasa",
+      "tokens": [
+        {
+          "text": "がさがさ",
+          "kana": "がさがさ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "唠叨",
+      "japanese": "がみがみ",
+      "kana": "がみがみ",
+      "romaji": "gamigami",
+      "tokens": [
+        {
+          "text": "がみがみ",
+          "kana": "がみがみ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "（很多人）大声喧哗",
+      "japanese": "がやがや",
+      "kana": "がやがや",
+      "romaji": "gayagaya",
+      "tokens": [
+        {
+          "text": "がやがや",
+          "kana": "がやがや"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "晴朗；松脆；（性格）爽朗",
+      "japanese": "からっと",
+      "kana": "からっと",
+      "romaji": "karatto",
+      "tokens": [
+        {
+          "text": "からっと",
+          "kana": "からっと"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "［ナ形］皱巴巴⓪；［ナ形］乱蓬蓬⓪；［副・自動3］心情郁闷①②",
+      "japanese": "くしゃくしゃ",
+      "kana": "くしゃくしゃ",
+      "romaji": "kushakusha",
+      "tokens": [
+        {
+          "text": "くしゃくしゃ",
+          "kana": "くしゃくしゃ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "到处，不留死角地；晴朗无云",
+      "japanese": "くまなく",
+      "kana": "くまなく",
+      "romaji": "kumanaku",
+      "tokens": [
+        {
+          "text": "くまなく",
+          "kana": "くまなく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "（轻触薄物时发出的声音）沙沙声",
+      "japanese": "さわさわ",
+      "kana": "さわさわ",
+      "romaji": "sawasawa",
+      "tokens": [
+        {
+          "text": "さわさわ",
+          "kana": "さわさわ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "变软，蔫",
+      "japanese": "しんなり",
+      "kana": "しんなり",
+      "romaji": "shinnari",
+      "tokens": [
+        {
+          "text": "しんなり",
+          "kana": "しんなり"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "直言不讳，毫不客气地说",
+      "japanese": "ずけずけ",
+      "kana": "ずけずけ",
+      "romaji": "zukezuke",
+      "tokens": [
+        {
+          "text": "ずけずけ",
+          "kana": "ずけずけ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "颇，非常",
+      "japanese": "すこぶる",
+      "kana": "すこぶる",
+      "romaji": "sukoburu",
+      "tokens": [
+        {
+          "text": "すこぶる",
+          "kana": "すこぶる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（液体）往下直流；冗长；倾斜度小而长；散漫",
+      "japanese": "だらだら",
+      "kana": "だらだら",
+      "romaji": "daradara",
+      "tokens": [
+        {
+          "text": "だらだら",
+          "kana": "だらだら"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "数量多；（重物掉落）咚地一声",
+      "japanese": "どっさり",
+      "kana": "どっさり",
+      "romaji": "dossari",
+      "tokens": [
+        {
+          "text": "どっさり",
+          "kana": "どっさり"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "寂静；默默地",
+      "japanese": "ひっそり",
+      "kana": "ひっそり",
+      "romaji": "hissori",
+      "tokens": [
+        {
+          "text": "ひっそり",
+          "kana": "ひっそり"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "立刻领会；绷紧；猛地弹起",
+      "japanese": "ぴんと",
+      "kana": "ぴんと",
+      "romaji": "pinto",
+      "tokens": [
+        {
+          "text": "ぴんと",
+          "kana": "ぴんと"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "还行，还可以",
+      "japanese": "まだしも",
+      "kana": "まだしも",
+      "romaji": "madashimo",
+      "tokens": [
+        {
+          "text": "まだしも",
+          "kana": "まだしも"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（不偷工减料地）充分（做、学习等）",
+      "japanese": "みっちり",
+      "kana": "みっちり",
+      "romaji": "mitchiri",
+      "tokens": [
+        {
+          "text": "みっちり",
+          "kana": "みっちり"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "烦恼，恼火，心烦意乱",
+      "japanese": "むしゃくしゃ",
+      "kana": "むしゃくしゃ",
+      "romaji": "mushakusha",
+      "tokens": [
+        {
+          "text": "むしゃくしゃ",
+          "kana": "むしゃくしゃ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "低声哭泣",
+      "japanese": "めそめそ",
+      "kana": "めそめそ",
+      "romaji": "mesomeso",
+      "tokens": [
+        {
+          "text": "めそめそ",
+          "kana": "めそめそ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "匆忙，仓皇",
+      "japanese": "急 遽[きょ]",
+      "kana": "きゅうきょ",
+      "romaji": "kyuukyo",
+      "tokens": [
+        {
+          "text": "急 遽[きょ]",
+          "kana": "きゅうきょ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "极力，尽量",
+      "japanese": "極力",
+      "kana": "きょくりょく",
+      "romaji": "kyokuryoku",
+      "tokens": [
+        {
+          "text": "極力",
+          "kana": "きょくりょく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "高高地；高声地；顶多",
+      "japanese": "高々",
+      "kana": "たかだか",
+      "romaji": "takadaka",
+      "tokens": [
+        {
+          "text": "高々",
+          "kana": "たかだか"
+        }
+      ]
+    }
+  ]
+}

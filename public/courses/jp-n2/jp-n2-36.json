@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-36",
+  "coursePackId": "jp-n2",
+  "title": "名词 36",
+  "order": 36,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "呼吁；有吸引力",
+      "japanese": "アピール",
+      "kana": "あぴいる",
+      "romaji": "apiiru",
+      "tokens": [
+        {
+          "text": "アピール",
+          "kana": "あぴいる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "约定",
+      "japanese": "アポイントメント",
+      "kana": "あぽいんとめんと",
+      "romaji": "apointomento",
+      "tokens": [
+        {
+          "text": "アポイントメント",
+          "kana": "あぽいんとめんと"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "业余爱好者",
+      "japanese": "アマチュア",
+      "kana": "あまちゅあ",
+      "romaji": "amachua",
+      "tokens": [
+        {
+          "text": "アマチュア",
+          "kana": "あまちゅあ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "蚂蚁",
+      "japanese": "蟻[あり]",
+      "kana": "あり",
+      "romaji": "ari",
+      "tokens": [
+        {
+          "text": "蟻[あり]",
+          "kana": "あり"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "风琴，键盘乐器",
+      "japanese": "オルガン",
+      "kana": "おるがん",
+      "romaji": "orugan",
+      "tokens": [
+        {
+          "text": "オルガン",
+          "kana": "おるがん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "经常就诊",
+      "japanese": "かかりつけ",
+      "kana": "かかりつけ",
+      "romaji": "kakaritsuke",
+      "tokens": [
+        {
+          "text": "かかりつけ",
+          "kana": "かかりつけ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（棒球）投接球练习；（比喻）相互交流",
+      "japanese": "キャッチボール",
+      "kana": "きゃっちぼうる",
+      "romaji": "kyatchibouru",
+      "tokens": [
+        {
+          "text": "キャッチボール",
+          "kana": "きゃっちぼうる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "签，抽签",
+      "japanese": "くじ",
+      "kana": "くじ",
+      "romaji": "kuji",
+      "tokens": [
+        {
+          "text": "くじ",
+          "kana": "くじ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "抽签",
+      "japanese": "くじ引き",
+      "kana": "くじびき",
+      "romaji": "kujibiki",
+      "tokens": [
+        {
+          "text": "くじ引き",
+          "kana": "くじびき"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "在乎，计较；拘泥于……",
+      "japanese": "こだわり",
+      "kana": "こだわり",
+      "romaji": "kodawari",
+      "tokens": [
+        {
+          "text": "こだわり",
+          "kana": "こだわり"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "要领，要害",
+      "japanese": "コツ",
+      "kana": "こつ",
+      "romaji": "kotsu",
+      "tokens": [
+        {
+          "text": "コツ",
+          "kana": "こつ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "这回，这次",
+      "japanese": "この度",
+      "kana": "このたび",
+      "romaji": "konotabi",
+      "tokens": [
+        {
+          "text": "この度",
+          "kana": "このたび"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "内容；目录",
+      "japanese": "コンテンツ",
+      "kana": "こんてんつ",
+      "romaji": "kontentsu",
+      "tokens": [
+        {
+          "text": "コンテンツ",
+          "kana": "こんてんつ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "锈",
+      "japanese": "錆[さび]",
+      "kana": "さび",
+      "romaji": "sabi",
+      "tokens": [
+        {
+          "text": "錆[さび]",
+          "kana": "さび"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（对孩子的）教育，教养",
+      "japanese": "しつけ",
+      "kana": "しつけ",
+      "romaji": "shitsuke",
+      "tokens": [
+        {
+          "text": "しつけ",
+          "kana": "しつけ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "种类，体裁",
+      "japanese": "ジャンル",
+      "kana": "じゃんる",
+      "romaji": "janru",
+      "tokens": [
+        {
+          "text": "ジャンル",
+          "kana": "じゃんる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "麻烦，纠纷；故障",
+      "japanese": "トラブル",
+      "kana": "とらぶる",
+      "romaji": "toraburu",
+      "tokens": [
+        {
+          "text": "トラブル",
+          "kana": "とらぶる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "需求，需要",
+      "japanese": "ニーズ",
+      "kana": "にいず",
+      "romaji": "niizu",
+      "tokens": [
+        {
+          "text": "ニーズ",
+          "kana": "にいず"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "跳蚤市场，自由市场",
+      "japanese": "フリーマーケット",
+      "kana": "ふりいまあけっと",
+      "romaji": "furiimaaketto",
+      "tokens": [
+        {
+          "text": "フリーマーケット",
+          "kana": "ふりいまあけっと"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "瓶子，特指酒瓶",
+      "japanese": "ボトル",
+      "kana": "ぼとる",
+      "romaji": "botoru",
+      "tokens": [
+        {
+          "text": "ボトル",
+          "kana": "ぼとる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "指南，说明书；（汽车）手动档",
+      "japanese": "マニュアル",
+      "kana": "まにゅある",
+      "romaji": "manyuaru",
+      "tokens": [
+        {
+          "text": "マニュアル",
+          "kana": "まにゅある"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "好处，优点",
+      "japanese": "メリット",
+      "kana": "めりっと",
+      "romaji": "meritto",
+      "tokens": [
+        {
+          "text": "メリット",
+          "kana": "めりっと"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "恶化，变坏",
+      "japanese": "悪化",
+      "kana": "あっか",
+      "romaji": "akka",
+      "tokens": [
+        {
+          "text": "悪化",
+          "kana": "あっか"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "意思，想法",
+      "japanese": "意思",
+      "kana": "いし",
+      "romaji": "ishi",
+      "tokens": [
+        {
+          "text": "意思",
+          "kana": "いし"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "意图，打算（做）",
+      "japanese": "意図",
+      "kana": "いと",
+      "romaji": "ito",
+      "tokens": [
+        {
+          "text": "意図",
+          "kana": "いと"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "突然改变，一转",
+      "japanese": "一転",
+      "kana": "いってん",
+      "romaji": "itten",
+      "tokens": [
+        {
+          "text": "一転",
+          "kana": "いってん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "继续；接着",
+      "japanese": "引き続き",
+      "kana": "ひきつづき",
+      "romaji": "hikitsuzuki",
+      "tokens": [
+        {
+          "text": "引き続き",
+          "kana": "ひきつづき"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "雨天",
+      "japanese": "雨天",
+      "kana": "うてん",
+      "romaji": "uten",
+      "tokens": [
+        {
+          "text": "雨天",
+          "kana": "うてん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "影像，画面",
+      "japanese": "映像",
+      "kana": "えいぞう",
+      "romaji": "eizou",
+      "tokens": [
+        {
+          "text": "映像",
+          "kana": "えいぞう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "临时的；假的",
+      "japanese": "仮",
+      "kana": "かり",
+      "romaji": "kari",
+      "tokens": [
+        {
+          "text": "仮",
+          "kana": "かり"
+        }
+      ]
+    }
+  ]
+}

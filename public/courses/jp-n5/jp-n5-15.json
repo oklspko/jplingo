@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-15",
+  "coursePackId": "jp-n5",
+  "title": "名词 15",
+  "order": 15,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "机场",
+      "japanese": "空港",
+      "kana": "くうこう",
+      "romaji": "kuukou",
+      "tokens": [
+        {
+          "text": "空港",
+          "kana": "くうこう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "月亮；一个月",
+      "japanese": "月",
+      "kana": "つき",
+      "romaji": "tsuki",
+      "tokens": [
+        {
+          "text": "月",
+          "kana": "つき"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "想法，思想",
+      "japanese": "考え",
+      "kana": "かんがえ",
+      "romaji": "kangae",
+      "tokens": [
+        {
+          "text": "考え",
+          "kana": "かんがえ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "高中生",
+      "japanese": "高校生",
+      "kana": "こうこうせい",
+      "romaji": "koukousei",
+      "tokens": [
+        {
+          "text": "高校生",
+          "kana": "こうこうせい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "妻子",
+      "japanese": "妻",
+      "kana": "つま",
+      "romaji": "tsuma",
+      "tokens": [
+        {
+          "text": "妻",
+          "kana": "つま"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（自己的）姐姐；嫂子",
+      "japanese": "姉",
+      "kana": "あね",
+      "romaji": "ane",
+      "tokens": [
+        {
+          "text": "姉",
+          "kana": "あね"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "爱好",
+      "japanese": "趣味",
+      "kana": "しゅみ",
+      "romaji": "shumi",
+      "tokens": [
+        {
+          "text": "趣味",
+          "kana": "しゅみ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "终，末尾，结束",
+      "japanese": "終わり",
+      "kana": "おわり",
+      "romaji": "owari",
+      "tokens": [
+        {
+          "text": "終わり",
+          "kana": "おわり"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "初次，当初",
+      "japanese": "初め",
+      "kana": "はじめ",
+      "romaji": "hajime",
+      "tokens": [
+        {
+          "text": "初め",
+          "kana": "はじめ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "橡皮",
+      "japanese": "消しゴム",
+      "kana": "けしごむ",
+      "romaji": "keshigomu",
+      "tokens": [
+        {
+          "text": "消しゴム",
+          "kana": "けしごむ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "外套；上衣",
+      "japanese": "上着",
+      "kana": "うわぎ",
+      "romaji": "uwagi",
+      "tokens": [
+        {
+          "text": "上着",
+          "kana": "うわぎ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "吃饭，进餐",
+      "japanese": "食事",
+      "kana": "しょくじ",
+      "romaji": "shokuji",
+      "tokens": [
+        {
+          "text": "食事",
+          "kana": "しょくじ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "森林",
+      "japanese": "森",
+      "kana": "もり",
+      "romaji": "mori",
+      "tokens": [
+        {
+          "text": "森",
+          "kana": "もり"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "祖父；外祖父",
+      "japanese": "祖父",
+      "kana": "そふ",
+      "romaji": "sofu",
+      "tokens": [
+        {
+          "text": "祖父",
+          "kana": "そふ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "祖母；外祖母",
+      "japanese": "祖母",
+      "kana": "そぼ",
+      "romaji": "sobo",
+      "tokens": [
+        {
+          "text": "祖母",
+          "kana": "そぼ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "脚，腿",
+      "japanese": "足",
+      "kana": "あし",
+      "romaji": "ashi",
+      "tokens": [
+        {
+          "text": "足",
+          "kana": "あし"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "厨房",
+      "japanese": "台所",
+      "kana": "だいどころ",
+      "romaji": "daidokoro",
+      "tokens": [
+        {
+          "text": "台所",
+          "kana": "だいどころ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "男性",
+      "japanese": "男性",
+      "kana": "だんせい",
+      "romaji": "dansei",
+      "tokens": [
+        {
+          "text": "男性",
+          "kana": "だんせい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "中文，汉语",
+      "japanese": "中国語",
+      "kana": "ちゅうごくご",
+      "romaji": "chuugokugo",
+      "tokens": [
+        {
+          "text": "中国語",
+          "kana": "ちゅうごくご"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "午休",
+      "japanese": "昼休み",
+      "kana": "ひるやすみ",
+      "romaji": "hiruyasumi",
+      "tokens": [
+        {
+          "text": "昼休み",
+          "kana": "ひるやすみ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "店员",
+      "japanese": "店員",
+      "kana": "てんいん",
+      "romaji": "ten'in",
+      "tokens": [
+        {
+          "text": "店員",
+          "kana": "てんいん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "内部；我（们）的；（うち）时候",
+      "japanese": "内",
+      "kana": "うち",
+      "romaji": "uchi",
+      "tokens": [
+        {
+          "text": "内",
+          "kana": "うち"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "太阳；白天；天",
+      "japanese": "日",
+      "kana": "ひ",
+      "romaji": "hi",
+      "tokens": [
+        {
+          "text": "日",
+          "kana": "ひ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "纳豆",
+      "japanese": "納豆",
+      "kana": "なっとう",
+      "romaji": "nattou",
+      "tokens": [
+        {
+          "text": "納豆",
+          "kana": "なっとう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "箱子，匣子",
+      "japanese": "箱",
+      "kana": "はこ",
+      "romaji": "hako",
+      "tokens": [
+        {
+          "text": "箱",
+          "kana": "はこ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "答应，回答，回信",
+      "japanese": "返事",
+      "kana": "へんじ",
+      "romaji": "henji",
+      "tokens": [
+        {
+          "text": "返事",
+          "kana": "へんじ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "邮政，邮件",
+      "japanese": "郵便",
+      "kana": "ゆうびん",
+      "romaji": "yuubin",
+      "tokens": [
+        {
+          "text": "郵便",
+          "kana": "ゆうびん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "电梯，升降电梯",
+      "japanese": "エレベーター",
+      "kana": "えれべえたあ",
+      "romaji": "erebeetaa",
+      "tokens": [
+        {
+          "text": "エレベーター",
+          "kana": "えれべえたあ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "（不好结果的）原因",
+      "japanese": "せい",
+      "kana": "せい",
+      "romaji": "sei",
+      "tokens": [
+        {
+          "text": "せい",
+          "kana": "せい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "沙发",
+      "japanese": "ソファー",
+      "kana": "そふぁあ",
+      "romaji": "sofuaa",
+      "tokens": [
+        {
+          "text": "ソファー",
+          "kana": "そふぁあ"
+        }
+      ]
+    }
+  ]
+}

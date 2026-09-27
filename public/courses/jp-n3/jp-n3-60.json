@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-60",
+  "coursePackId": "jp-n3",
+  "title": "其他 1",
+  "order": 60,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "……们，……等",
+      "japanese": "〜ら",
+      "kana": "〜ら",
+      "romaji": "~ra",
+      "tokens": [
+        {
+          "text": "〜ら",
+          "kana": "〜ら"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "……末，……尾",
+      "japanese": "〜末",
+      "kana": "〜末",
+      "romaji": "~末",
+      "tokens": [
+        {
+          "text": "〜末",
+          "kana": "〜末"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "小……；稍微……",
+      "japanese": "小〜",
+      "kana": "小〜",
+      "romaji": "小~",
+      "tokens": [
+        {
+          "text": "小〜",
+          "kana": "小〜"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "（时间、距离、数量等）每隔……",
+      "japanese": "〜おき",
+      "kana": "〜おき",
+      "romaji": "~oki",
+      "tokens": [
+        {
+          "text": "〜おき",
+          "kana": "〜おき"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "……层楼",
+      "japanese": "〜建て",
+      "kana": "〜建て",
+      "romaji": "~建te",
+      "tokens": [
+        {
+          "text": "〜建て",
+          "kana": "〜建て"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（表示房屋）……所，……栋",
+      "japanese": "〜軒",
+      "kana": "〜軒",
+      "romaji": "~軒",
+      "tokens": [
+        {
+          "text": "〜軒",
+          "kana": "〜軒"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（表示产地）……制造",
+      "japanese": "〜製",
+      "kana": "〜製",
+      "romaji": "~製",
+      "tokens": [
+        {
+          "text": "〜製",
+          "kana": "〜製"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "……费；……时代；表示年龄范围",
+      "japanese": "〜代",
+      "kana": "〜代",
+      "romaji": "~代",
+      "tokens": [
+        {
+          "text": "〜代",
+          "kana": "〜代"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "……岛",
+      "japanese": "島",
+      "kana": "とう",
+      "romaji": "tou",
+      "tokens": [
+        {
+          "text": "島",
+          "kana": "とう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "（牛、马等）……头，匹；（昆虫）……只",
+      "japanese": "〜頭",
+      "kana": "〜頭",
+      "romaji": "~頭",
+      "tokens": [
+        {
+          "text": "〜頭",
+          "kana": "〜頭"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "见，见面，会见，拜会",
+      "japanese": "お目にかかる",
+      "kana": "おめにかかる",
+      "romaji": "omenikakaru",
+      "tokens": [
+        {
+          "text": "お目にかかる",
+          "kana": "おめにかかる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "看",
+      "japanese": "ご覧になる",
+      "kana": "ごらんになる",
+      "romaji": "goranninaru",
+      "tokens": [
+        {
+          "text": "ご覧になる",
+          "kana": "ごらんになる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "于是；那么，那样的话",
+      "japanese": "すると",
+      "kana": "すると",
+      "romaji": "suruto",
+      "tokens": [
+        {
+          "text": "すると",
+          "kana": "すると"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "因此，所以；（转移话题）那么",
+      "japanese": "そこで",
+      "kana": "そこで",
+      "romaji": "sokode",
+      "tokens": [
+        {
+          "text": "そこで",
+          "kana": "そこで"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "因此，所以",
+      "japanese": "そのため",
+      "kana": "そのため",
+      "romaji": "sonotame",
+      "tokens": [
+        {
+          "text": "そのため",
+          "kana": "そのため"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "除此之外，另外",
+      "japanese": "そのほか",
+      "kana": "そのほか",
+      "romaji": "sonohoka",
+      "tokens": [
+        {
+          "text": "そのほか",
+          "kana": "そのほか"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "如果可以的话",
+      "japanese": "できれば",
+      "kana": "できれば",
+      "romaji": "dekireba",
+      "tokens": [
+        {
+          "text": "できれば",
+          "kana": "できれば"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（转换话题时）对了",
+      "japanese": "ところで",
+      "kana": "ところで",
+      "romaji": "tokorode",
+      "tokens": [
+        {
+          "text": "ところで",
+          "kana": "ところで"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "怎样的",
+      "japanese": "どのよう",
+      "kana": "どのよう",
+      "romaji": "donoyou",
+      "tokens": [
+        {
+          "text": "どのよう",
+          "kana": "どのよう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（用于提醒）喏，瞧",
+      "japanese": "ほら",
+      "kana": "ほら",
+      "romaji": "hora",
+      "tokens": [
+        {
+          "text": "ほら",
+          "kana": "ほら"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（表示惊讶或吓人）哇",
+      "japanese": "わあ",
+      "kana": "わあ",
+      "romaji": "waa",
+      "tokens": [
+        {
+          "text": "わあ",
+          "kana": "わあ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "小心，注意，警惕",
+      "japanese": "気を付ける",
+      "kana": "きをつける",
+      "romaji": "kiwotsukeru",
+      "tokens": [
+        {
+          "text": "気を付ける",
+          "kana": "きをつける"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "低……",
+      "japanese": "低",
+      "kana": "てい",
+      "romaji": "tei",
+      "tokens": [
+        {
+          "text": "低",
+          "kana": "てい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "……种（方法、种类等）",
+      "japanese": "〜通り",
+      "kana": "〜通り",
+      "romaji": "~通ri",
+      "tokens": [
+        {
+          "text": "〜通り",
+          "kana": "〜通り"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "按照……；程度",
+      "japanese": "〜通り",
+      "kana": "〜通り",
+      "romaji": "~通ri",
+      "tokens": [
+        {
+          "text": "〜通り",
+          "kana": "〜通り"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "而且，并且",
+      "japanese": "そのうえ",
+      "kana": "そのうえ",
+      "romaji": "sonoue",
+      "tokens": [
+        {
+          "text": "そのうえ",
+          "kana": "そのうえ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（虽然，虽说）……但是，可是",
+      "japanese": "だが",
+      "kana": "だが",
+      "romaji": "daga",
+      "tokens": [
+        {
+          "text": "だが",
+          "kana": "だが"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "或，或者",
+      "japanese": "または",
+      "kana": "または",
+      "romaji": "mataha",
+      "tokens": [
+        {
+          "text": "または",
+          "kana": "または"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "面向……，以……为对象",
+      "japanese": "〜向け",
+      "kana": "〜向け",
+      "romaji": "~向ke",
+      "tokens": [
+        {
+          "text": "〜向け",
+          "kana": "〜向け"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "……寺",
+      "japanese": "〜寺",
+      "kana": "〜寺",
+      "romaji": "~寺",
+      "tokens": [
+        {
+          "text": "〜寺",
+          "kana": "〜寺"
+        }
+      ]
+    }
+  ]
+}

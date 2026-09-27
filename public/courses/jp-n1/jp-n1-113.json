@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-113",
+  "coursePackId": "jp-n1",
+  "title": "动词 22",
+  "order": 113,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "推迟，拖延",
+      "japanese": "ずれ込む",
+      "kana": "ずれこむ",
+      "romaji": "zurekomu",
+      "tokens": [
+        {
+          "text": "ずれ込む",
+          "kana": "ずれこむ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "强行通过；硬干，固执到底",
+      "japanese": "押し通す",
+      "kana": "おしとおす",
+      "romaji": "oshitoosu",
+      "tokens": [
+        {
+          "text": "押し通す",
+          "kana": "おしとおす"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "落到；降临",
+      "japanese": "降りかかる",
+      "kana": "ふりかかる",
+      "romaji": "furikakaru",
+      "tokens": [
+        {
+          "text": "降りかかる",
+          "kana": "ふりかかる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "扒，搂；搜罗，搜集",
+      "japanese": "かき集める",
+      "kana": "かきあつめる",
+      "romaji": "kakiatsumeru",
+      "tokens": [
+        {
+          "text": "かき集める",
+          "kana": "かきあつめる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "决定，商定，议定",
+      "japanese": "取り決める",
+      "kana": "とりきめる",
+      "romaji": "torikimeru",
+      "tokens": [
+        {
+          "text": "取り決める",
+          "kana": "とりきめる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "往下深挖；深入思考，挖掘（思想）",
+      "japanese": "掘り下げる",
+      "kana": "ほりさげる",
+      "romaji": "horisageru",
+      "tokens": [
+        {
+          "text": "掘り下げる",
+          "kana": "ほりさげる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "哄，逗（小孩子）",
+      "japanese": "あやす",
+      "kana": "あやす",
+      "romaji": "ayasu",
+      "tokens": [
+        {
+          "text": "あやす",
+          "kana": "あやす"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（行人）往来",
+      "japanese": "行き交う",
+      "kana": "ゆきかう",
+      "romaji": "yukikau",
+      "tokens": [
+        {
+          "text": "行き交う",
+          "kana": "ゆきかう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "消瘦，瘦弱",
+      "japanese": "痩せ衰える",
+      "kana": "やせおとろえる",
+      "romaji": "yaseotoroeru",
+      "tokens": [
+        {
+          "text": "痩せ衰える",
+          "kana": "やせおとろえる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "开，解开；舒畅，开朗",
+      "japanese": "ほぐれる",
+      "kana": "ほぐれる",
+      "romaji": "hogureru",
+      "tokens": [
+        {
+          "text": "ほぐれる",
+          "kana": "ほぐれる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "互相缠绕，搅在一起；互相纠缠，彼此牵扯",
+      "japanese": "絡み合う",
+      "kana": "からみあう",
+      "romaji": "karamiau",
+      "tokens": [
+        {
+          "text": "絡み合う",
+          "kana": "からみあう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "挽，卷起；（接在动词连用形后）激烈地，持续不断地",
+      "japanese": "まくる",
+      "kana": "まくる",
+      "romaji": "makuru",
+      "tokens": [
+        {
+          "text": "まくる",
+          "kana": "まくる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（从高处或行驶的交通工具）跳下",
+      "japanese": "飛び降りる",
+      "kana": "とびおりる",
+      "romaji": "tobioriru",
+      "tokens": [
+        {
+          "text": "飛び降りる",
+          "kana": "とびおりる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "扎，刺；刺痛",
+      "japanese": "突き刺す",
+      "kana": "つきさす",
+      "romaji": "tsukisasu",
+      "tokens": [
+        {
+          "text": "突き刺す",
+          "kana": "つきさす"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "流入，注入",
+      "japanese": "流れ込む",
+      "kana": "ながれこむ",
+      "romaji": "nagarekomu",
+      "tokens": [
+        {
+          "text": "流れ込む",
+          "kana": "ながれこむ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "（对照着）比较，对比",
+      "japanese": "見比べる",
+      "kana": "みくらべる",
+      "romaji": "mikuraberu",
+      "tokens": [
+        {
+          "text": "見比べる",
+          "kana": "みくらべる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "进入；介入，干涉",
+      "japanese": "立ち入る",
+      "kana": "たちいる",
+      "romaji": "tachiiru",
+      "tokens": [
+        {
+          "text": "立ち入る",
+          "kana": "たちいる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "通过；过去，消逝",
+      "japanese": "過ぎ去る",
+      "kana": "すぎさる",
+      "romaji": "sugisaru",
+      "tokens": [
+        {
+          "text": "過ぎ去る",
+          "kana": "すぎさる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "剪票夹，打孔机；拳击；简洁有力，魄力",
+      "japanese": "パンチ",
+      "kana": "ぱんち",
+      "romaji": "panchi",
+      "tokens": [
+        {
+          "text": "パンチ",
+          "kana": "ぱんち"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "辨别，分辨",
+      "japanese": "判別",
+      "kana": "はんべつ",
+      "romaji": "hanbetsu",
+      "tokens": [
+        {
+          "text": "判別",
+          "kana": "はんべつ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "赢得，夺得",
+      "japanese": "勝ち取る",
+      "kana": "かちとる",
+      "romaji": "kachitoru",
+      "tokens": [
+        {
+          "text": "勝ち取る",
+          "kana": "かちとる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "保留，搁置",
+      "japanese": "保留",
+      "kana": "ほりゅう",
+      "romaji": "horyuu",
+      "tokens": [
+        {
+          "text": "保留",
+          "kana": "ほりゅう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（日光、雨水等）不断落下，洒下",
+      "japanese": "降り注ぐ",
+      "kana": "ふりそそぐ",
+      "romaji": "furisosogu",
+      "tokens": [
+        {
+          "text": "降り注ぐ",
+          "kana": "ふりそそぐ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "幸存，保住性命",
+      "japanese": "生き延びる",
+      "kana": "いきのびる",
+      "romaji": "ikinobiru",
+      "tokens": [
+        {
+          "text": "生き延びる",
+          "kana": "いきのびる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "深深认识到，领会到",
+      "japanese": "思い知る",
+      "kana": "おもいしる",
+      "romaji": "omoishiru",
+      "tokens": [
+        {
+          "text": "思い知る",
+          "kana": "おもいしる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "浇，泼；给予",
+      "japanese": "浴びせる",
+      "kana": "あびせる",
+      "romaji": "abiseru",
+      "tokens": [
+        {
+          "text": "浴びせる",
+          "kana": "あびせる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（为了做某事而）集会，聚会",
+      "japanese": "集う",
+      "kana": "つどう",
+      "romaji": "tsudou",
+      "tokens": [
+        {
+          "text": "集う",
+          "kana": "つどう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "深入，陷入；侵入，挤进；亏本，赔钱",
+      "japanese": "食い込む",
+      "kana": "くいこむ",
+      "romaji": "kuikomu",
+      "tokens": [
+        {
+          "text": "食い込む",
+          "kana": "くいこむ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "嫌恶，厌恶",
+      "japanese": "嫌悪",
+      "kana": "けんお",
+      "romaji": "ken'o",
+      "tokens": [
+        {
+          "text": "嫌悪",
+          "kana": "けんお"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "透过……看见，透明的",
+      "japanese": "透ける",
+      "kana": "すける",
+      "romaji": "sukeru",
+      "tokens": [
+        {
+          "text": "透ける",
+          "kana": "すける"
+        }
+      ]
+    }
+  ]
+}

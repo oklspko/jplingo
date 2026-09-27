@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-111",
+  "coursePackId": "jp-n1",
+  "title": "动词 20",
+  "order": 111,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "搅拌好；精炼，推敲",
+      "japanese": "練り上げる",
+      "kana": "ねりあげる",
+      "romaji": "neriageru",
+      "tokens": [
+        {
+          "text": "練り上げる",
+          "kana": "ねりあげる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "镶嵌",
+      "japanese": "ちりばめる",
+      "kana": "ちりばめる",
+      "romaji": "chiribameru",
+      "tokens": [
+        {
+          "text": "ちりばめる",
+          "kana": "ちりばめる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "改变拿法；恢复；好转",
+      "japanese": "持ち直す",
+      "kana": "もちなおす",
+      "romaji": "mochinaosu",
+      "tokens": [
+        {
+          "text": "持ち直す",
+          "kana": "もちなおす"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "变旧，陈旧",
+      "japanese": "古びる",
+      "kana": "ふるびる",
+      "romaji": "furubiru",
+      "tokens": [
+        {
+          "text": "古びる",
+          "kana": "ふるびる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "突出，伸出；公布，揭示",
+      "japanese": "張り出す",
+      "kana": "はりだす",
+      "romaji": "haridasu",
+      "tokens": [
+        {
+          "text": "張り出す",
+          "kana": "はりだす"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "举起来；被提出；被逮捕",
+      "japanese": "挙がる",
+      "kana": "あがる",
+      "romaji": "agaru",
+      "tokens": [
+        {
+          "text": "挙がる",
+          "kana": "あがる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "飞溅；（物价等）暴涨；行动过激",
+      "japanese": "跳ね上がる",
+      "kana": "はねあがる",
+      "romaji": "haneagaru",
+      "tokens": [
+        {
+          "text": "跳ね上がる",
+          "kana": "はねあがる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "央求，纠缠",
+      "japanese": "せがむ",
+      "kana": "せがむ",
+      "romaji": "segamu",
+      "tokens": [
+        {
+          "text": "せがむ",
+          "kana": "せがむ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "消失",
+      "japanese": "失[う]せる",
+      "kana": "うせる",
+      "romaji": "useru",
+      "tokens": [
+        {
+          "text": "失[う]せる",
+          "kana": "うせる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "显著，显眼，与众不同",
+      "japanese": "際立つ",
+      "kana": "きわだつ",
+      "romaji": "kiwadatsu",
+      "tokens": [
+        {
+          "text": "際立つ",
+          "kana": "きわだつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "再揉和；重新思考，推敲",
+      "japanese": "練り直す",
+      "kana": "ねりなおす",
+      "romaji": "nerinaosu",
+      "tokens": [
+        {
+          "text": "練り直す",
+          "kana": "ねりなおす"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "中间变细",
+      "japanese": "くびれる",
+      "kana": "くびれる",
+      "romaji": "kubireru",
+      "tokens": [
+        {
+          "text": "くびれる",
+          "kana": "くびれる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "用尽，用光",
+      "japanese": "切らす",
+      "kana": "きらす",
+      "romaji": "kirasu",
+      "tokens": [
+        {
+          "text": "切らす",
+          "kana": "きらす"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "超出限度，越出范围",
+      "japanese": "はみ出す",
+      "kana": "はみだす",
+      "romaji": "hamidasu",
+      "tokens": [
+        {
+          "text": "はみ出す",
+          "kana": "はみだす"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "写上，记入",
+      "japanese": "書き入れる",
+      "kana": "かきいれる",
+      "romaji": "kakiireru",
+      "tokens": [
+        {
+          "text": "書き入れる",
+          "kana": "かきいれる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "推销；出卖（秘密）",
+      "japanese": "売り込む",
+      "kana": "うりこむ",
+      "romaji": "urikomu",
+      "tokens": [
+        {
+          "text": "売り込む",
+          "kana": "うりこむ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "填海造地",
+      "japanese": "埋め立てる",
+      "kana": "うめたてる",
+      "romaji": "umetateru",
+      "tokens": [
+        {
+          "text": "埋め立てる",
+          "kana": "うめたてる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（为了获利）全部买下，囤积",
+      "japanese": "買い占める",
+      "kana": "かいしめる",
+      "romaji": "kaishimeru",
+      "tokens": [
+        {
+          "text": "買い占める",
+          "kana": "かいしめる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "费事，费工夫，费时间",
+      "japanese": "手間取る",
+      "kana": "てまどる",
+      "romaji": "temadoru",
+      "tokens": [
+        {
+          "text": "手間取る",
+          "kana": "てまどる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（除法）除尽；想开，看开",
+      "japanese": "割り切る",
+      "kana": "わりきる",
+      "romaji": "warikiru",
+      "tokens": [
+        {
+          "text": "割り切る",
+          "kana": "わりきる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "紧绷，紧致；紧张，不松懈",
+      "japanese": "引き締まる",
+      "kana": "ひきしまる",
+      "romaji": "hikishimaru",
+      "tokens": [
+        {
+          "text": "引き締まる",
+          "kana": "ひきしまる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "发黑，带黑色",
+      "japanese": "黒ずむ",
+      "kana": "くろずむ",
+      "romaji": "kurozumu",
+      "tokens": [
+        {
+          "text": "黒ずむ",
+          "kana": "くろずむ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "彷徨，徘徊，闲荡",
+      "japanese": "うろつく",
+      "kana": "うろつく",
+      "romaji": "urotsuku",
+      "tokens": [
+        {
+          "text": "うろつく",
+          "kana": "うろつく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "念念不忘，祈祷；默念",
+      "japanese": "念じる",
+      "kana": "ねんじる",
+      "romaji": "nenjiru",
+      "tokens": [
+        {
+          "text": "念じる",
+          "kana": "ねんじる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "凝固，凝结；狂热，热衷",
+      "japanese": "凝り固まる",
+      "kana": "こりかたまる",
+      "romaji": "korikatamaru",
+      "tokens": [
+        {
+          "text": "凝り固まる",
+          "kana": "こりかたまる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "洞悉，深知，了如指掌",
+      "japanese": "知り抜く",
+      "kana": "しりぬく",
+      "romaji": "shirinuku",
+      "tokens": [
+        {
+          "text": "知り抜く",
+          "kana": "しりぬく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "灌入，浇注",
+      "japanese": "流し込む",
+      "kana": "ながしこむ",
+      "romaji": "nagashikomu",
+      "tokens": [
+        {
+          "text": "流し込む",
+          "kana": "ながしこむ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "袭击过来，猛扑过来，进攻过来",
+      "japanese": "襲いかかる",
+      "kana": "おそいかかる",
+      "romaji": "osoikakaru",
+      "tokens": [
+        {
+          "text": "襲いかかる",
+          "kana": "おそいかかる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "保有，留下；怀孕",
+      "japanese": "宿す",
+      "kana": "やどす",
+      "romaji": "yadosu",
+      "tokens": [
+        {
+          "text": "宿す",
+          "kana": "やどす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "兴高采烈，得意忘形",
+      "japanese": "浮かれる",
+      "kana": "うかれる",
+      "romaji": "ukareru",
+      "tokens": [
+        {
+          "text": "浮かれる",
+          "kana": "うかれる"
+        }
+      ]
+    }
+  ]
+}

@@ -94,7 +94,7 @@
             <span class="shortcut">Ctrl ;</span>
           </button>
           <button class="jp-btn" @click="reset">重置</button>
-          <button v-if="isGaokaoMixed" class="jp-btn" @click="resetMixedMemory">🔄 重置记忆</button>
+          <button v-if="isMixed" class="jp-btn" @click="resetMixedMemory">🔄 重置记忆</button>
           <button
             v-if="result === 'correct' && !isLastQuestion"
             class="jp-btn next"
@@ -173,9 +173,9 @@ import {
   fetchCourse,
   buildPracticeOrder,
   shuffle,
-  GAOKAO_MIXED_COURSE_ID,
+  isMixedCourse,
 } from "~/composables/jp/useJpCourses";
-import { useJpGaokaoMemory, GAOKAO_MASTER_THRESHOLD } from "~/composables/jp/useJpGaokaoMemory";
+import { useJpVocabMemory, GAOKAO_MASTER_THRESHOLD } from "~/composables/jp/useJpGaokaoMemory";
 import type { JpStatement } from "~/types/jp";
 
 const route = useRoute();
@@ -195,13 +195,13 @@ const showSpaceHint = ref(true);
 const hadWrongAttempt = ref(false);
 const allMastered = ref(false);
 
-const gaokaoMemory = useJpGaokaoMemory();
+const vocabMemory = useJpVocabMemory(route.params.coursePackId as string);
 
 const coursePackId = computed(() => route.params.coursePackId as string);
 const courseId = computed(() => route.params.id as string);
 const isSingleKana = computed(() => isSingleKanaCourseId(courseId.value));
-const isGaokaoMixed = computed(
-  () => coursePackId.value === "jp-gaokao" && courseId.value === GAOKAO_MIXED_COURSE_ID,
+const isMixed = computed(
+  () => isMixedCourse(coursePackId.value, courseId.value),
 );
 
 const showSpaceHintCard = computed(() => {
@@ -351,12 +351,12 @@ async function loadCourseData() {
   const data = await fetchCourse(packId, id);
   let list = data.statements || [];
   allMastered.value = false;
-  if (isGaokaoMixed.value) {
+  if (isMixed.value) {
     // 已掌握（连续答对 5 次）的词不再进入测试；无分类则打乱全部词库
-    list = shuffle(list.filter((s) => !gaokaoMemory.isMastered(s.japanese)));
+    list = shuffle(list.filter((s) => !vocabMemory.isMastered(s.japanese)));
   }
   statements.value = buildPracticeOrder(packId, list, 6);
-  if (isGaokaoMixed.value && statements.value.length === 0) allMastered.value = true;
+  if (isMixed.value && statements.value.length === 0) allMastered.value = true;
   courseTitle.value = data.title || id;
   currentIndex.value = 0;
   nextTick(() => {
@@ -507,15 +507,15 @@ function submitAnswer() {
   const parts = rawInput.value.split(" ");
   if (parts.length < stmt.tokens.length) {
     result.value = "wrong"; editingIndex.value = -1; playErrorSound();
-    if (isGaokaoMixed.value) gaokaoMemory.recordWrong(stmt.japanese);
+    if (isMixed.value) vocabMemory.recordWrong(stmt.japanese);
     return;
   }
   if (checkAllCorrect()) {
     result.value = "correct"; editingIndex.value = -1;
     playSuccessSound(); playAudio();
-    if (isGaokaoMixed.value) {
+    if (isMixed.value) {
       recordStatement(courseId.value, stmt.japanese);
-      const newCount = gaokaoMemory.recordCorrect(stmt.japanese);
+      const newCount = vocabMemory.recordCorrect(stmt.japanese);
       if (newCount >= GAOKAO_MASTER_THRESHOLD) {
         recordMastered(courseId.value, stmt.japanese);
         removeFutureCopies(stmt.japanese);
@@ -531,7 +531,7 @@ function submitAnswer() {
     }
   } else {
     result.value = "wrong"; editingIndex.value = -1; hadWrongAttempt.value = true; playErrorSound();
-    if (isGaokaoMixed.value) gaokaoMemory.recordWrong(stmt.japanese);
+    if (isMixed.value) vocabMemory.recordWrong(stmt.japanese);
   }
 }
 
@@ -560,7 +560,7 @@ function removeFutureCopies(japanese: string) {
 }
 
 async function resetMixedMemory() {
-  gaokaoMemory.resetAll();
+  vocabMemory.resetAll();
   allMastered.value = false;
   await loadCourseData();
 }

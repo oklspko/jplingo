@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-07",
+  "coursePackId": "jp-n3",
+  "title": "名词 7",
+  "order": 7,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "坡，斜坡",
+      "japanese": "坂",
+      "kana": "さか",
+      "romaji": "saka",
+      "tokens": [
+        {
+          "text": "坂",
+          "kana": "さか"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "山路",
+      "japanese": "山道",
+      "kana": "やまみち",
+      "romaji": "yamamichi",
+      "tokens": [
+        {
+          "text": "山道",
+          "kana": "やまみち"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "产业，工业",
+      "japanese": "産業",
+      "kana": "さんぎょう",
+      "romaji": "sangyou",
+      "tokens": [
+        {
+          "text": "産業",
+          "kana": "さんぎょう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "赞成，同意",
+      "japanese": "賛成",
+      "kana": "さんせい",
+      "romaji": "sansei",
+      "tokens": [
+        {
+          "text": "賛成",
+          "kana": "さんせい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "生鱼片；生肉片",
+      "japanese": "刺身",
+      "kana": "さしみ",
+      "romaji": "sashimi",
+      "tokens": [
+        {
+          "text": "刺身",
+          "kana": "さしみ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "四角，方形",
+      "japanese": "四角",
+      "kana": "しかく",
+      "romaji": "shikaku",
+      "tokens": [
+        {
+          "text": "四角",
+          "kana": "しかく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "四季",
+      "japanese": "四季",
+      "kana": "しき",
+      "romaji": "shiki",
+      "tokens": [
+        {
+          "text": "四季",
+          "kana": "しき"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "开头，开始",
+      "japanese": "始め",
+      "kana": "はじめ",
+      "romaji": "hajime",
+      "tokens": [
+        {
+          "text": "始め",
+          "kana": "はじめ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "戒指",
+      "japanese": "指輪",
+      "kana": "ゆびわ",
+      "romaji": "yubiwa",
+      "tokens": [
+        {
+          "text": "指輪",
+          "kana": "ゆびわ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "（用于正式场合）我；私，私事",
+      "japanese": "私",
+      "kana": "わたくし",
+      "romaji": "watakushi",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたくし"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "线；丝；线索",
+      "japanese": "糸",
+      "kana": "いと",
+      "romaji": "ito",
+      "tokens": [
+        {
+          "text": "糸",
+          "kana": "いと"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "事故",
+      "japanese": "事故",
+      "kana": "じこ",
+      "romaji": "jiko",
+      "tokens": [
+        {
+          "text": "事故",
+          "kana": "じこ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "事实，实际；的确",
+      "japanese": "実際",
+      "kana": "じっさい",
+      "romaji": "jissai",
+      "tokens": [
+        {
+          "text": "実際",
+          "kana": "じっさい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "妨碍；打扰",
+      "japanese": "邪魔",
+      "kana": "じゃま",
+      "romaji": "jama",
+      "tokens": [
+        {
+          "text": "邪魔",
+          "kana": "じゃま"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "家庭主妇",
+      "japanese": "主婦",
+      "kana": "しゅふ",
+      "romaji": "shufu",
+      "tokens": [
+        {
+          "text": "主婦",
+          "kana": "しゅふ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "收入",
+      "japanese": "収入",
+      "kana": "しゅうにゅう",
+      "romaji": "shuunyuu",
+      "tokens": [
+        {
+          "text": "収入",
+          "kana": "しゅうにゅう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "习惯；风俗",
+      "japanese": "習慣",
+      "kana": "しゅうかん",
+      "romaji": "shuukan",
+      "tokens": [
+        {
+          "text": "習慣",
+          "kana": "しゅうかん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "周刊",
+      "japanese": "週刊",
+      "kana": "しゅうかん",
+      "romaji": "shuukan",
+      "tokens": [
+        {
+          "text": "週刊",
+          "kana": "しゅうかん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "集合",
+      "japanese": "集合",
+      "kana": "しゅうごう",
+      "romaji": "shuugou",
+      "tokens": [
+        {
+          "text": "集合",
+          "kana": "しゅうごう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "柔道",
+      "japanese": "柔道",
+      "kana": "じゅうどう",
+      "romaji": "juudou",
+      "tokens": [
+        {
+          "text": "柔道",
+          "kana": "じゅうどう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "堵车，停滞不前",
+      "japanese": "渋滞",
+      "kana": "じゅうたい",
+      "romaji": "juutai",
+      "tokens": [
+        {
+          "text": "渋滞",
+          "kana": "じゅうたい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "出席",
+      "japanese": "出席",
+      "kana": "しゅっせき",
+      "romaji": "shusseki",
+      "tokens": [
+        {
+          "text": "出席",
+          "kana": "しゅっせき"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "出入口",
+      "japanese": "出入り口",
+      "kana": "でいりぐち",
+      "romaji": "deiriguchi",
+      "tokens": [
+        {
+          "text": "出入り口",
+          "kana": "でいりぐち"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "小鸟",
+      "japanese": "小鳥",
+      "kana": "ことり",
+      "romaji": "kotori",
+      "tokens": [
+        {
+          "text": "小鳥",
+          "kana": "ことり"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "少许，稍微",
+      "japanese": "少々",
+      "kana": "しょうしょう",
+      "romaji": "shoushou",
+      "tokens": [
+        {
+          "text": "少々",
+          "kana": "しょうしょう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "上司，上级",
+      "japanese": "上司",
+      "kana": "じょうし",
+      "romaji": "joushi",
+      "tokens": [
+        {
+          "text": "上司",
+          "kana": "じょうし"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "换乘",
+      "japanese": "乗り換え",
+      "kana": "のりかえ",
+      "romaji": "norikae",
+      "tokens": [
+        {
+          "text": "乗り換え",
+          "kana": "のりかえ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "交通工具",
+      "japanese": "乗り物",
+      "kana": "のりもの",
+      "romaji": "norimono",
+      "tokens": [
+        {
+          "text": "乗り物",
+          "kana": "のりもの"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "草席，草垫，榻榻米",
+      "japanese": "畳",
+      "kana": "たたみ",
+      "romaji": "tatami",
+      "tokens": [
+        {
+          "text": "畳",
+          "kana": "たたみ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "新生",
+      "japanese": "新入生",
+      "kana": "しんにゅうせい",
+      "romaji": "shinnyuusei",
+      "tokens": [
+        {
+          "text": "新入生",
+          "kana": "しんにゅうせい"
+        }
+      ]
+    }
+  ]
+}

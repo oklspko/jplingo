@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-24",
+  "coursePackId": "jp-n3",
+  "title": "名词 24",
+  "order": 24,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "俏皮话，幽默，玩笑话；（おしゃれ）爱漂亮，爱打扮",
+      "japanese": "しゃれ",
+      "kana": "しゃれ",
+      "romaji": "share",
+      "tokens": [
+        {
+          "text": "しゃれ",
+          "kana": "しゃれ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "……处；地方",
+      "japanese": "箇所",
+      "kana": "かしょ",
+      "romaji": "kasho",
+      "tokens": [
+        {
+          "text": "箇所",
+          "kana": "かしょ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "朝向……；适合……",
+      "japanese": "向き",
+      "kana": "むき",
+      "romaji": "muki",
+      "tokens": [
+        {
+          "text": "向き",
+          "kana": "むき"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "包含……在内",
+      "japanese": "込み",
+      "kana": "こみ",
+      "romaji": "komi",
+      "tokens": [
+        {
+          "text": "込み",
+          "kana": "こみ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "（用……）做的",
+      "japanese": "作り",
+      "kana": "つくり",
+      "romaji": "tsukuri",
+      "tokens": [
+        {
+          "text": "作り",
+          "kana": "つくり"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "……生产",
+      "japanese": "産",
+      "kana": "さん",
+      "romaji": "san",
+      "tokens": [
+        {
+          "text": "産",
+          "kana": "さん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（打）哈欠",
+      "japanese": "あくび",
+      "kana": "あくび",
+      "romaji": "akubi",
+      "tokens": [
+        {
+          "text": "あくび",
+          "kana": "あくび"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "漱口",
+      "japanese": "うがい",
+      "kana": "うがい",
+      "romaji": "ugai",
+      "tokens": [
+        {
+          "text": "うがい",
+          "kana": "うがい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "尿布，尿裤",
+      "japanese": "おむつ",
+      "kana": "おむつ",
+      "romaji": "omutsu",
+      "tokens": [
+        {
+          "text": "おむつ",
+          "kana": "おむつ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "压岁钱",
+      "japanese": "お年玉",
+      "kana": "おとしだま",
+      "romaji": "otoshidama",
+      "tokens": [
+        {
+          "text": "お年玉",
+          "kana": "おとしだま"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "咖啡；咖啡厅",
+      "japanese": "カフェ",
+      "kana": "かふぇ",
+      "romaji": "kafye",
+      "tokens": [
+        {
+          "text": "カフェ",
+          "kana": "かふぇ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "奶油；乳液；冰激凌",
+      "japanese": "クリーム",
+      "kana": "くりいむ",
+      "romaji": "kuriimu",
+      "tokens": [
+        {
+          "text": "クリーム",
+          "kana": "くりいむ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "圆；小组，社团",
+      "japanese": "サークル",
+      "kana": "さあくる",
+      "romaji": "saakuru",
+      "tokens": [
+        {
+          "text": "サークル",
+          "kana": "さあくる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "日程（表）",
+      "japanese": "スケジュール",
+      "kana": "すけじゅうる",
+      "romaji": "sukejuuru",
+      "tokens": [
+        {
+          "text": "スケジュール",
+          "kana": "すけじゅうる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "当场；当时",
+      "japanese": "その場",
+      "kana": "そのば",
+      "romaji": "sonoba",
+      "tokens": [
+        {
+          "text": "その場",
+          "kana": "そのば"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "调味汁，沙拉酱",
+      "japanese": "ドレッシング",
+      "kana": "どれっしんぐ",
+      "romaji": "doresshingu",
+      "tokens": [
+        {
+          "text": "ドレッシング",
+          "kana": "どれっしんぐ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "青椒，灯笼椒",
+      "japanese": "ピーマン",
+      "kana": "ぴいまん",
+      "romaji": "piiman",
+      "tokens": [
+        {
+          "text": "ピーマン",
+          "kana": "ぴいまん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "暗示，启发",
+      "japanese": "ヒント",
+      "kana": "ひんと",
+      "romaji": "hinto",
+      "tokens": [
+        {
+          "text": "ヒント",
+          "kana": "ひんと"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "长椅，长凳",
+      "japanese": "ベンチ",
+      "kana": "べんち",
+      "romaji": "benchi",
+      "tokens": [
+        {
+          "text": "ベンチ",
+          "kana": "べんち"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（留学生）寄宿在别人家中",
+      "japanese": "ホームステイ",
+      "kana": "ほうむすてい",
+      "romaji": "houmusutei",
+      "tokens": [
+        {
+          "text": "ホームステイ",
+          "kana": "ほうむすてい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "马拉松",
+      "japanese": "マラソン",
+      "kana": "まらそん",
+      "romaji": "marason",
+      "tokens": [
+        {
+          "text": "マラソン",
+          "kana": "まらそん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "收据",
+      "japanese": "レシート",
+      "kana": "れしいと",
+      "romaji": "reshiito",
+      "tokens": [
+        {
+          "text": "レシート",
+          "kana": "れしいと"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "烹调法，菜谱",
+      "japanese": "レシピ",
+      "kana": "れしぴ",
+      "romaji": "reshipi",
+      "tokens": [
+        {
+          "text": "レシピ",
+          "kana": "れしぴ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "喜欢用",
+      "japanese": "愛用",
+      "kana": "あいよう",
+      "romaji": "aiyou",
+      "tokens": [
+        {
+          "text": "愛用",
+          "kana": "あいよう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "密码",
+      "japanese": "暗証番号",
+      "kana": "あんしょうばんごう",
+      "romaji": "anshoubangou",
+      "tokens": [
+        {
+          "text": "暗証番号",
+          "kana": "あんしょうばんごう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "异常，反常",
+      "japanese": "異常",
+      "kana": "いじょう",
+      "romaji": "ijou",
+      "tokens": [
+        {
+          "text": "異常",
+          "kana": "いじょう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "某时，当时；暂时，片刻；一时，临时",
+      "japanese": "一時",
+      "kana": "いちじ",
+      "romaji": "ichiji",
+      "tokens": [
+        {
+          "text": "一時",
+          "kana": "いちじ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "一个人生活",
+      "japanese": "一人暮らし",
+      "kana": "ひとりぐらし",
+      "romaji": "hitorigurashi",
+      "tokens": [
+        {
+          "text": "一人暮らし",
+          "kana": "ひとりぐらし"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "一晚，一晚上",
+      "japanese": "一晩",
+      "kana": "ひとばん",
+      "romaji": "hitoban",
+      "tokens": [
+        {
+          "text": "一晩",
+          "kana": "ひとばん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "一部分",
+      "japanese": "一部分",
+      "kana": "いちぶぶん",
+      "romaji": "ichibubun",
+      "tokens": [
+        {
+          "text": "一部分",
+          "kana": "いちぶぶん"
+        }
+      ]
+    }
+  ]
+}

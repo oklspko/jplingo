@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-08",
+  "coursePackId": "jp-n3",
+  "title": "名词 8",
+  "order": 8,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "正中，正中间",
+      "japanese": "真ん中",
+      "kana": "まんなか",
+      "romaji": "mannaka",
+      "tokens": [
+        {
+          "text": "真ん中",
+          "kana": "まんなか"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "亲戚",
+      "japanese": "親戚",
+      "kana": "しんせき",
+      "romaji": "shinseki",
+      "tokens": [
+        {
+          "text": "親戚",
+          "kana": "しんせき"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "玩偶，人偶",
+      "japanese": "人形",
+      "kana": "にんぎょう",
+      "romaji": "ningyou",
+      "tokens": [
+        {
+          "text": "人形",
+          "kana": "にんぎょう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "自来水管道",
+      "japanese": "水道",
+      "kana": "すいどう",
+      "romaji": "suidou",
+      "tokens": [
+        {
+          "text": "水道",
+          "kana": "すいどう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "数学",
+      "japanese": "数学",
+      "kana": "すうがく",
+      "romaji": "suugaku",
+      "tokens": [
+        {
+          "text": "数学",
+          "kana": "すうがく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "政治",
+      "japanese": "政治",
+      "kana": "せいじ",
+      "romaji": "seiji",
+      "tokens": [
+        {
+          "text": "政治",
+          "kana": "せいじ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "整理，整顿；清理，裁减",
+      "japanese": "整理",
+      "kana": "せいり",
+      "romaji": "seiri",
+      "tokens": [
+        {
+          "text": "整理",
+          "kana": "せいり"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "正确答案",
+      "japanese": "正解",
+      "kana": "せいかい",
+      "romaji": "seikai",
+      "tokens": [
+        {
+          "text": "正解",
+          "kana": "せいかい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "西洋，西方",
+      "japanese": "西洋",
+      "kana": "せいよう",
+      "romaji": "seiyou",
+      "tokens": [
+        {
+          "text": "西洋",
+          "kana": "せいよう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "蓝天，青天",
+      "japanese": "青空",
+      "kana": "あおぞら",
+      "romaji": "aozora",
+      "tokens": [
+        {
+          "text": "青空",
+          "kana": "あおぞら"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "婴儿",
+      "japanese": "赤ちゃん",
+      "kana": "あかちゃん",
+      "romaji": "akachan",
+      "tokens": [
+        {
+          "text": "赤ちゃん",
+          "kana": "あかちゃん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "舌头",
+      "japanese": "舌",
+      "kana": "した",
+      "romaji": "shita",
+      "tokens": [
+        {
+          "text": "舌",
+          "kana": "した"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "选手；运动员",
+      "japanese": "選手",
+      "kana": "せんしゅ",
+      "romaji": "senshu",
+      "tokens": [
+        {
+          "text": "選手",
+          "kana": "せんしゅ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "全国",
+      "japanese": "全国",
+      "kana": "ぜんこく",
+      "romaji": "zenkoku",
+      "tokens": [
+        {
+          "text": "全国",
+          "kana": "ぜんこく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "早退",
+      "japanese": "早退",
+      "kana": "そうたい",
+      "romaji": "soutai",
+      "tokens": [
+        {
+          "text": "早退",
+          "kana": "そうたい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "窗口",
+      "japanese": "窓口",
+      "kana": "まどぐち",
+      "romaji": "madoguchi",
+      "tokens": [
+        {
+          "text": "窓口",
+          "kana": "まどぐち"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "体操",
+      "japanese": "体操",
+      "kana": "たいそう",
+      "romaji": "taisou",
+      "tokens": [
+        {
+          "text": "体操",
+          "kana": "たいそう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "出院",
+      "japanese": "退院",
+      "kana": "たいいん",
+      "romaji": "taiin",
+      "tokens": [
+        {
+          "text": "退院",
+          "kana": "たいいん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "台风",
+      "japanese": "台風",
+      "kana": "たいふう",
+      "romaji": "taifuu",
+      "tokens": [
+        {
+          "text": "台風",
+          "kana": "たいふう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "大雨",
+      "japanese": "大雨",
+      "kana": "おおあめ",
+      "romaji": "ooame",
+      "tokens": [
+        {
+          "text": "大雨",
+          "kana": "おおあめ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "大型，巨型",
+      "japanese": "大型",
+      "kana": "おおがた",
+      "romaji": "oogata",
+      "tokens": [
+        {
+          "text": "大型",
+          "kana": "おおがた"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "大声",
+      "japanese": "大声",
+      "kana": "おおごえ",
+      "romaji": "oogoe",
+      "tokens": [
+        {
+          "text": "大声",
+          "kana": "おおごえ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "大马路，大街",
+      "japanese": "大通り",
+      "kana": "おおどおり",
+      "romaji": "oodoori",
+      "tokens": [
+        {
+          "text": "大通り",
+          "kana": "おおどおり"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "大城市",
+      "japanese": "大都会",
+      "kana": "だいとかい",
+      "romaji": "daitokai",
+      "tokens": [
+        {
+          "text": "大都会",
+          "kana": "だいとかい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "大部分，大致",
+      "japanese": "大部分",
+      "kana": "だいぶぶん",
+      "romaji": "daibubun",
+      "tokens": [
+        {
+          "text": "大部分",
+          "kana": "だいぶぶん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "棚，架",
+      "japanese": "棚",
+      "kana": "たな",
+      "romaji": "tana",
+      "tokens": [
+        {
+          "text": "棚",
+          "kana": "たな"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "男女",
+      "japanese": "男女",
+      "kana": "だんじょ",
+      "romaji": "danjo",
+      "tokens": [
+        {
+          "text": "男女",
+          "kana": "だんじょ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "熟人，熟识",
+      "japanese": "知り合い",
+      "kana": "しりあい",
+      "romaji": "shiriai",
+      "tokens": [
+        {
+          "text": "知り合い",
+          "kana": "しりあい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "地球",
+      "japanese": "地球",
+      "kana": "ちきゅう",
+      "romaji": "chikyuu",
+      "tokens": [
+        {
+          "text": "地球",
+          "kana": "ちきゅう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "中指",
+      "japanese": "中指",
+      "kana": "なかゆび",
+      "romaji": "nakayubi",
+      "tokens": [
+        {
+          "text": "中指",
+          "kana": "なかゆび"
+        }
+      ]
+    }
+  ]
+}

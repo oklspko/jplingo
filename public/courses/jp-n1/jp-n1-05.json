@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-05",
+  "coursePackId": "jp-n1",
+  "title": "名词 5",
+  "order": 5,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "科学，自然科学",
+      "japanese": "サイエンス",
+      "kana": "さいえんす",
+      "romaji": "saiensu",
+      "tokens": [
+        {
+          "text": "サイエンス",
+          "kana": "さいえんす"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "色拉油",
+      "japanese": "サラダ油",
+      "kana": "さらだゆ",
+      "romaji": "saradayu",
+      "tokens": [
+        {
+          "text": "サラダ油",
+          "kana": "さらだゆ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "叹气，长吁短叹",
+      "japanese": "ため息",
+      "kana": "ためいき",
+      "romaji": "tameiki",
+      "tokens": [
+        {
+          "text": "ため息",
+          "kana": "ためいき"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "带子；腰带；乐队",
+      "japanese": "バンド",
+      "kana": "ばんど",
+      "romaji": "bando",
+      "tokens": [
+        {
+          "text": "バンド",
+          "kana": "ばんど"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "女式罩衫，衬衫",
+      "japanese": "ブラウス",
+      "kana": "ぶらうす",
+      "romaji": "burausu",
+      "tokens": [
+        {
+          "text": "ブラウス",
+          "kana": "ぶらうす"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "婴儿车",
+      "japanese": "ベビーカー",
+      "kana": "べびいかあ",
+      "romaji": "bebiikaa",
+      "tokens": [
+        {
+          "text": "ベビーカー",
+          "kana": "べびいかあ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "口水",
+      "japanese": "よだれ",
+      "kana": "よだれ",
+      "romaji": "yodare",
+      "tokens": [
+        {
+          "text": "よだれ",
+          "kana": "よだれ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "一周；周游",
+      "japanese": "一周",
+      "kana": "いっしゅう",
+      "romaji": "isshuu",
+      "tokens": [
+        {
+          "text": "一周",
+          "kana": "いっしゅう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "单向通行；只传达单方面的意见",
+      "japanese": "一方通行",
+      "kana": "いっぽうつうこう",
+      "romaji": "ippoutsuukou",
+      "tokens": [
+        {
+          "text": "一方通行",
+          "kana": "いっぽうつうこう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "运行",
+      "japanese": "運行",
+      "kana": "うんこう",
+      "romaji": "unkou",
+      "tokens": [
+        {
+          "text": "運行",
+          "kana": "うんこう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "（书面语）英文；英国文学",
+      "japanese": "英文",
+      "kana": "えいぶん",
+      "romaji": "eibun",
+      "tokens": [
+        {
+          "text": "英文",
+          "kana": "えいぶん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "加工",
+      "japanese": "加工",
+      "kana": "かこう",
+      "romaji": "kakou",
+      "tokens": [
+        {
+          "text": "加工",
+          "kana": "かこう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "房屋，住房",
+      "japanese": "家屋",
+      "kana": "かおく",
+      "romaji": "kaoku",
+      "tokens": [
+        {
+          "text": "家屋",
+          "kana": "かおく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "家畜",
+      "japanese": "家畜",
+      "kana": "かちく",
+      "romaji": "kachiku",
+      "tokens": [
+        {
+          "text": "家畜",
+          "kana": "かちく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "自己，自身",
+      "japanese": "我",
+      "kana": "われ",
+      "romaji": "ware",
+      "tokens": [
+        {
+          "text": "我",
+          "kana": "われ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "画质",
+      "japanese": "画質",
+      "kana": "がしつ",
+      "romaji": "gashitsu",
+      "tokens": [
+        {
+          "text": "画質",
+          "kana": "がしつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "解答，答案",
+      "japanese": "解答",
+      "kana": "かいとう",
+      "romaji": "kaitou",
+      "tokens": [
+        {
+          "text": "解答",
+          "kana": "かいとう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "外币；进口货",
+      "japanese": "外貨",
+      "kana": "がいか",
+      "romaji": "gaika",
+      "tokens": [
+        {
+          "text": "外貨",
+          "kana": "がいか"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "核，核心；核武器",
+      "japanese": "核",
+      "kana": "かく",
+      "romaji": "kaku",
+      "tokens": [
+        {
+          "text": "核",
+          "kana": "かく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "大学校长",
+      "japanese": "学長",
+      "kana": "がくちょう",
+      "romaji": "gakuchou",
+      "tokens": [
+        {
+          "text": "学長",
+          "kana": "がくちょう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "干事；组织人员，负责人",
+      "japanese": "幹事",
+      "kana": "かんじ",
+      "romaji": "kanji",
+      "tokens": [
+        {
+          "text": "幹事",
+          "kana": "かんじ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "罐头",
+      "japanese": "缶詰",
+      "kana": "かんづめ",
+      "romaji": "kanzume",
+      "tokens": [
+        {
+          "text": "缶詰",
+          "kana": "かんづめ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "喜剧；滑稽剧",
+      "japanese": "喜劇",
+      "kana": "きげき",
+      "romaji": "kigeki",
+      "tokens": [
+        {
+          "text": "喜劇",
+          "kana": "きげき"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "挂念，担心",
+      "japanese": "気がかり",
+      "kana": "きがかり",
+      "romaji": "kigakari",
+      "tokens": [
+        {
+          "text": "気がかり",
+          "kana": "きがかり"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "起点",
+      "japanese": "起点",
+      "kana": "きてん",
+      "romaji": "kiten",
+      "tokens": [
+        {
+          "text": "起点",
+          "kana": "きてん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "冒牌货，赝品",
+      "japanese": "偽物",
+      "kana": "にせもの",
+      "romaji": "nisemono",
+      "tokens": [
+        {
+          "text": "偽物",
+          "kana": "にせもの"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "叫喊声，呼声",
+      "japanese": "叫び声",
+      "kana": "さけびごえ",
+      "romaji": "sakebigoe",
+      "tokens": [
+        {
+          "text": "叫び声",
+          "kana": "さけびごえ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "勤勉，勤劳，勤奋",
+      "japanese": "勤勉",
+      "kana": "きんべん",
+      "romaji": "kinben",
+      "tokens": [
+        {
+          "text": "勤勉",
+          "kana": "きんべん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "紧急，急迫",
+      "japanese": "緊急",
+      "kana": "きんきゅう",
+      "romaji": "kinkyuu",
+      "tokens": [
+        {
+          "text": "緊急",
+          "kana": "きんきゅう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "空，空虚",
+      "japanese": "空っぽ",
+      "kana": "からっぽ",
+      "romaji": "karappo",
+      "tokens": [
+        {
+          "text": "空っぽ",
+          "kana": "からっぽ"
+        }
+      ]
+    }
+  ]
+}

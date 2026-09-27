@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-29",
+  "coursePackId": "jp-n3",
+  "title": "名词 29",
+  "order": 29,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "本日，今天",
+      "japanese": "本日",
+      "kana": "ほんじつ",
+      "romaji": "honjitsu",
+      "tokens": [
+        {
+          "text": "本日",
+          "kana": "ほんじつ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "正文；本文，原文",
+      "japanese": "本文",
+      "kana": "ほんぶん",
+      "romaji": "honbun",
+      "tokens": [
+        {
+          "text": "本文",
+          "kana": "ほんぶん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "树叶",
+      "japanese": "木の葉",
+      "kana": "このは",
+      "romaji": "konoha",
+      "tokens": [
+        {
+          "text": "木の葉",
+          "kana": "このは"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "药房，取药处",
+      "japanese": "薬局",
+      "kana": "やっきょく",
+      "romaji": "yakkyoku",
+      "tokens": [
+        {
+          "text": "薬局",
+          "kana": "やっきょく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "无名指",
+      "japanese": "薬指",
+      "kana": "くすりゆび",
+      "romaji": "kusuriyubi",
+      "tokens": [
+        {
+          "text": "薬指",
+          "kana": "くすりゆび"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "预想，预料",
+      "japanese": "予想",
+      "kana": "よそう",
+      "romaji": "yosou",
+      "tokens": [
+        {
+          "text": "予想",
+          "kana": "よそう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "出乎预料",
+      "japanese": "予想外",
+      "kana": "よそうがい",
+      "romaji": "yosougai",
+      "tokens": [
+        {
+          "text": "予想外",
+          "kana": "よそうがい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "西式",
+      "japanese": "洋式",
+      "kana": "ようしき",
+      "romaji": "youshiki",
+      "tokens": [
+        {
+          "text": "洋式",
+          "kana": "ようしき"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "西餐",
+      "japanese": "洋食",
+      "kana": "ようしょく",
+      "romaji": "youshoku",
+      "tokens": [
+        {
+          "text": "洋食",
+          "kana": "ようしょく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "（药物的）用量，剂量",
+      "japanese": "用量",
+      "kana": "ようりょう",
+      "romaji": "youryou",
+      "tokens": [
+        {
+          "text": "用量",
+          "kana": "ようりょう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "次日，第二天，翌日",
+      "japanese": "翌日",
+      "kana": "よくじつ",
+      "romaji": "yokujitsu",
+      "tokens": [
+        {
+          "text": "翌日",
+          "kana": "よくじつ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "次年，第二年，翌年",
+      "japanese": "翌年",
+      "kana": "よくねん",
+      "romaji": "yokunen",
+      "tokens": [
+        {
+          "text": "翌年",
+          "kana": "よくねん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "发票",
+      "japanese": "領収書",
+      "kana": "りょうしゅうしょ",
+      "romaji": "ryoushuusho",
+      "tokens": [
+        {
+          "text": "領収書",
+          "kana": "りょうしゅうしょ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "冷冻",
+      "japanese": "冷凍",
+      "kana": "れいとう",
+      "romaji": "reitou",
+      "tokens": [
+        {
+          "text": "冷凍",
+          "kana": "れいとう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "连假",
+      "japanese": "連休",
+      "kana": "れんきゅう",
+      "romaji": "renkyuu",
+      "tokens": [
+        {
+          "text": "連休",
+          "kana": "れんきゅう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "日式点心",
+      "japanese": "和菓子",
+      "kana": "わがし",
+      "romaji": "wagashi",
+      "tokens": [
+        {
+          "text": "和菓子",
+          "kana": "わがし"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "日式房间",
+      "japanese": "和室",
+      "kana": "わしつ",
+      "romaji": "washitsu",
+      "tokens": [
+        {
+          "text": "和室",
+          "kana": "わしつ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "工作；功绩；功能",
+      "japanese": "働き",
+      "kana": "はたらき",
+      "romaji": "hataraki",
+      "tokens": [
+        {
+          "text": "働き",
+          "kana": "はたらき"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "锋利程度；切片；机敏；……用完",
+      "japanese": "切れ",
+      "kana": "きれ",
+      "romaji": "kire",
+      "tokens": [
+        {
+          "text": "切れ",
+          "kana": "きれ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "气势，势头；趋势；顺势",
+      "japanese": "勢い",
+      "kana": "いきおい",
+      "romaji": "ikioi",
+      "tokens": [
+        {
+          "text": "勢い",
+          "kana": "いきおい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "职业的，专家",
+      "japanese": "プロ",
+      "kana": "ぷろ",
+      "romaji": "puro",
+      "tokens": [
+        {
+          "text": "プロ",
+          "kana": "ぷろ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "高价，大价钱的",
+      "japanese": "高価",
+      "kana": "こうか",
+      "romaji": "kouka",
+      "tokens": [
+        {
+          "text": "高価",
+          "kana": "こうか"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "缩小，缩减",
+      "japanese": "縮小",
+      "kana": "しゅくしょう",
+      "romaji": "shukushou",
+      "tokens": [
+        {
+          "text": "縮小",
+          "kana": "しゅくしょう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "无规律的，不整齐的",
+      "japanese": "不規則",
+      "kana": "ふきそく",
+      "romaji": "fukisoku",
+      "tokens": [
+        {
+          "text": "不規則",
+          "kana": "ふきそく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "右拐，右转弯",
+      "japanese": "右折",
+      "kana": "うせつ",
+      "romaji": "usetsu",
+      "tokens": [
+        {
+          "text": "右折",
+          "kana": "うせつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "进入公司，就职",
+      "japanese": "入社",
+      "kana": "にゅうしゃ",
+      "romaji": "nyuusha",
+      "tokens": [
+        {
+          "text": "入社",
+          "kana": "にゅうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "复数，有两个以上",
+      "japanese": "複数",
+      "kana": "ふくすう",
+      "romaji": "fukusuu",
+      "tokens": [
+        {
+          "text": "複数",
+          "kana": "ふくすう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "地下；阴间",
+      "japanese": "地下",
+      "kana": "ちか",
+      "romaji": "chika",
+      "tokens": [
+        {
+          "text": "地下",
+          "kana": "ちか"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "紧接在……后面",
+      "japanese": "直後",
+      "kana": "ちょくご",
+      "romaji": "chokugo",
+      "tokens": [
+        {
+          "text": "直後",
+          "kana": "ちょくご"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "下划线",
+      "japanese": "下線",
+      "kana": "かせん",
+      "romaji": "kasen",
+      "tokens": [
+        {
+          "text": "下線",
+          "kana": "かせん"
+        }
+      ]
+    }
+  ]
+}

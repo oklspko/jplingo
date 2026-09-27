@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-78",
+  "coursePackId": "jp-n1",
+  "title": "名词 78",
+  "order": 78,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "幼鸟，鸡雏，小鸡；小毛孩，毛孩子",
+      "japanese": "ひよこ",
+      "kana": "ひよこ",
+      "romaji": "hiyoko",
+      "tokens": [
+        {
+          "text": "ひよこ",
+          "kana": "ひよこ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "鱼类",
+      "japanese": "魚類",
+      "kana": "ぎょるい",
+      "romaji": "gyorui",
+      "tokens": [
+        {
+          "text": "魚類",
+          "kana": "ぎょるい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "股东",
+      "japanese": "株主",
+      "kana": "かぶぬし",
+      "romaji": "kabunushi",
+      "tokens": [
+        {
+          "text": "株主",
+          "kana": "かぶぬし"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "落选；没有（挑）选上",
+      "japanese": "落選",
+      "kana": "らくせん",
+      "romaji": "rakusen",
+      "tokens": [
+        {
+          "text": "落選",
+          "kana": "らくせん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "角，犄角；触角",
+      "japanese": "角",
+      "kana": "つの",
+      "romaji": "tsuno",
+      "tokens": [
+        {
+          "text": "角",
+          "kana": "つの"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "坐禅，打坐，打禅",
+      "japanese": "座禅",
+      "kana": "ざぜん",
+      "romaji": "zazen",
+      "tokens": [
+        {
+          "text": "座禅",
+          "kana": "ざぜん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "滑行",
+      "japanese": "滑走",
+      "kana": "かっそう",
+      "romaji": "kassou",
+      "tokens": [
+        {
+          "text": "滑走",
+          "kana": "かっそう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "名曲",
+      "japanese": "名曲",
+      "kana": "めいきょく",
+      "romaji": "meikyoku",
+      "tokens": [
+        {
+          "text": "名曲",
+          "kana": "めいきょく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "出题，提问；提出的题目",
+      "japanese": "設問",
+      "kana": "せつもん",
+      "romaji": "setsumon",
+      "tokens": [
+        {
+          "text": "設問",
+          "kana": "せつもん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "染的色，上的色；染色，上色",
+      "japanese": "染色",
+      "kana": "せんしょく",
+      "romaji": "senshoku",
+      "tokens": [
+        {
+          "text": "染色",
+          "kana": "せんしょく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "分化",
+      "japanese": "分化",
+      "kana": "ぶんか",
+      "romaji": "bunka",
+      "tokens": [
+        {
+          "text": "分化",
+          "kana": "ぶんか"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "产卵",
+      "japanese": "産卵",
+      "kana": "さんらん",
+      "romaji": "sanran",
+      "tokens": [
+        {
+          "text": "産卵",
+          "kana": "さんらん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "固形，固体",
+      "japanese": "固形",
+      "kana": "こけい",
+      "romaji": "kokei",
+      "tokens": [
+        {
+          "text": "固形",
+          "kana": "こけい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "故都，古都",
+      "japanese": "古都",
+      "kana": "こと",
+      "romaji": "koto",
+      "tokens": [
+        {
+          "text": "古都",
+          "kana": "こと"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "字幕",
+      "japanese": "字幕",
+      "kana": "じまく",
+      "romaji": "jimaku",
+      "tokens": [
+        {
+          "text": "字幕",
+          "kana": "じまく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "曲艺场，说书场，杂技场",
+      "japanese": "寄席",
+      "kana": "よせ",
+      "romaji": "yose",
+      "tokens": [
+        {
+          "text": "寄席",
+          "kana": "よせ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "过与不足，多或少",
+      "japanese": "過不足",
+      "kana": "かふそく",
+      "romaji": "kafusoku",
+      "tokens": [
+        {
+          "text": "過不足",
+          "kana": "かふそく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "字体；书写风格",
+      "japanese": "書体",
+      "kana": "しょたい",
+      "romaji": "shotai",
+      "tokens": [
+        {
+          "text": "書体",
+          "kana": "しょたい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "已不使用的语言，已过时的词汇",
+      "japanese": "死語",
+      "kana": "しご",
+      "romaji": "shigo",
+      "tokens": [
+        {
+          "text": "死語",
+          "kana": "しご"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "作词，作歌词",
+      "japanese": "作詞",
+      "kana": "さくし",
+      "romaji": "sakushi",
+      "tokens": [
+        {
+          "text": "作詞",
+          "kana": "さくし"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "软体动物",
+      "japanese": "軟体動物",
+      "kana": "なんたいどうぶつ",
+      "romaji": "nantaidoubutsu",
+      "tokens": [
+        {
+          "text": "軟体動物",
+          "kana": "なんたいどうぶつ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "夏季",
+      "japanese": "夏季",
+      "kana": "かき",
+      "romaji": "kaki",
+      "tokens": [
+        {
+          "text": "夏季",
+          "kana": "かき"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "努力，辛苦，尽力",
+      "japanese": "骨折り",
+      "kana": "ほねおり",
+      "romaji": "honeori",
+      "tokens": [
+        {
+          "text": "骨折り",
+          "kana": "ほねおり"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "一端，一头；一部分，一端",
+      "japanese": "一端",
+      "kana": "いったん",
+      "romaji": "ittan",
+      "tokens": [
+        {
+          "text": "一端",
+          "kana": "いったん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "饲料",
+      "japanese": "飼料",
+      "kana": "しりょう",
+      "romaji": "shiryou",
+      "tokens": [
+        {
+          "text": "飼料",
+          "kana": "しりょう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "燕子",
+      "japanese": "燕[つばめ]",
+      "kana": "つばめ",
+      "romaji": "tsubame",
+      "tokens": [
+        {
+          "text": "燕[つばめ]",
+          "kana": "つばめ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "屏风",
+      "japanese": "屏[びょう]風",
+      "kana": "びょうぶ",
+      "romaji": "byoubu",
+      "tokens": [
+        {
+          "text": "屏[びょう]風",
+          "kana": "びょうぶ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（广告等的）吸引人注意的词句",
+      "japanese": "キャッチフレーズ",
+      "kana": "きゃっちふれえず",
+      "romaji": "kyatchifureezu",
+      "tokens": [
+        {
+          "text": "キャッチフレーズ",
+          "kana": "きゃっちふれえず"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "造纸",
+      "japanese": "製紙",
+      "kana": "せいし",
+      "romaji": "seishi",
+      "tokens": [
+        {
+          "text": "製紙",
+          "kana": "せいし"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "山脉，连山",
+      "japanese": "山並み",
+      "kana": "やまなみ",
+      "romaji": "yamanami",
+      "tokens": [
+        {
+          "text": "山並み",
+          "kana": "やまなみ"
+        }
+      ]
+    }
+  ]
+}

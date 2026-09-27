@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-45",
+  "coursePackId": "jp-n3",
+  "title": "动词 3",
+  "order": 45,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（非生物）鸣，响",
+      "japanese": "鳴る",
+      "kana": "なる",
+      "romaji": "naru",
+      "tokens": [
+        {
+          "text": "鳴る",
+          "kana": "なる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "沉默，不作声",
+      "japanese": "黙る",
+      "kana": "だまる",
+      "romaji": "damaru",
+      "tokens": [
+        {
+          "text": "黙る",
+          "kana": "だまる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "跳舞",
+      "japanese": "踊る",
+      "kana": "おどる",
+      "romaji": "odoru",
+      "tokens": [
+        {
+          "text": "踊る",
+          "kana": "おどる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "变凉，放凉；感觉冷；（关系）变冷淡",
+      "japanese": "冷える",
+      "kana": "ひえる",
+      "romaji": "hieru",
+      "tokens": [
+        {
+          "text": "冷える",
+          "kana": "ひえる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "带，领",
+      "japanese": "連れる",
+      "kana": "つれる",
+      "romaji": "tsureru",
+      "tokens": [
+        {
+          "text": "連れる",
+          "kana": "つれる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "劝告，建议",
+      "japanese": "アドバイス",
+      "kana": "あどばいす",
+      "romaji": "adobaisu",
+      "tokens": [
+        {
+          "text": "アドバイス",
+          "kana": "あどばいす"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "广播",
+      "japanese": "アナウンス",
+      "kana": "あなうんす",
+      "romaji": "anaunsu",
+      "tokens": [
+        {
+          "text": "アナウンス",
+          "kana": "あなうんす"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "印象，形象",
+      "japanese": "イメージ",
+      "kana": "いめえじ",
+      "romaji": "imeeji",
+      "tokens": [
+        {
+          "text": "イメージ",
+          "kana": "いめえじ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "导游；指南",
+      "japanese": "ガイド",
+      "kana": "がいど",
+      "romaji": "gaido",
+      "tokens": [
+        {
+          "text": "ガイド",
+          "kana": "がいど"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "切，剪",
+      "japanese": "カット",
+      "kana": "かっと",
+      "romaji": "katto",
+      "tokens": [
+        {
+          "text": "カット",
+          "kana": "かっと"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "套子；弥补",
+      "japanese": "カバー",
+      "kana": "かばあ",
+      "romaji": "kabaa",
+      "tokens": [
+        {
+          "text": "カバー",
+          "kana": "かばあ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "取消",
+      "japanese": "キャンセル",
+      "kana": "きゃんせる",
+      "romaji": "kyanseru",
+      "tokens": [
+        {
+          "text": "キャンセル",
+          "kana": "きゃんせる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "一套；布景；做头发；调好",
+      "japanese": "セット",
+      "kana": "せっと",
+      "romaji": "setto",
+      "tokens": [
+        {
+          "text": "セット",
+          "kana": "せっと"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "整齐，一致；齐备；（人）到齐",
+      "japanese": "そろう",
+      "kana": "そろう",
+      "romaji": "sorou",
+      "tokens": [
+        {
+          "text": "そろう",
+          "kana": "そろう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "敲打；指责",
+      "japanese": "叩[たた]く",
+      "kana": "たたく",
+      "romaji": "tataku",
+      "tokens": [
+        {
+          "text": "叩[たた]く",
+          "kana": "たたく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "抓，抓住；掌握",
+      "japanese": "つかむ",
+      "kana": "つかむ",
+      "romaji": "tsukamu",
+      "tokens": [
+        {
+          "text": "つかむ",
+          "kana": "つかむ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "样式；设计",
+      "japanese": "デザイン",
+      "kana": "でざいん",
+      "romaji": "dezain",
+      "tokens": [
+        {
+          "text": "デザイン",
+          "kana": "でざいん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "抚摸",
+      "japanese": "撫[な]でる",
+      "kana": "なでる",
+      "romaji": "naderu",
+      "tokens": [
+        {
+          "text": "撫[な]でる",
+          "kana": "なでる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "敲打，敲",
+      "japanese": "ノック",
+      "kana": "のっく",
+      "romaji": "nokku",
+      "tokens": [
+        {
+          "text": "ノック",
+          "kana": "のっく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "碰撞；冲突；遇到",
+      "japanese": "ぶつかる",
+      "kana": "ぶつかる",
+      "romaji": "butsukaru",
+      "tokens": [
+        {
+          "text": "ぶつかる",
+          "kana": "ぶつかる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "投掷；撞上；发泄",
+      "japanese": "ぶつける",
+      "kana": "ぶつける",
+      "romaji": "butsukeru",
+      "tokens": [
+        {
+          "text": "ぶつける",
+          "kana": "ぶつける"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "加；加号；正数；正极；有用；阳性；盈利",
+      "japanese": "プラス",
+      "kana": "ぷらす",
+      "romaji": "purasu",
+      "tokens": [
+        {
+          "text": "プラス",
+          "kana": "ぷらす"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "印刷品；打印",
+      "japanese": "プリント",
+      "kana": "ぷりんと",
+      "romaji": "purinto",
+      "tokens": [
+        {
+          "text": "プリント",
+          "kana": "ぷりんと"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "节目单；计划表；（电脑）程序",
+      "japanese": "プログラム",
+      "kana": "ぷろぐらむ",
+      "romaji": "puroguramu",
+      "tokens": [
+        {
+          "text": "プログラム",
+          "kana": "ぷろぐらむ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "记号，标志；商标",
+      "japanese": "マーク",
+      "kana": "まあく",
+      "romaji": "maaku",
+      "tokens": [
+        {
+          "text": "マーク",
+          "kana": "まあく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "汇集，归纳；商定，谈妥",
+      "japanese": "まとめる",
+      "kana": "まとめる",
+      "romaji": "matomeru",
+      "tokens": [
+        {
+          "text": "まとめる",
+          "kana": "まとめる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "包围",
+      "japanese": "囲む",
+      "kana": "かこむ",
+      "romaji": "kakomu",
+      "tokens": [
+        {
+          "text": "囲む",
+          "kana": "かこむ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "发育，生长",
+      "japanese": "育つ",
+      "kana": "そだつ",
+      "romaji": "sodatsu",
+      "tokens": [
+        {
+          "text": "育つ",
+          "kana": "そだつ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "承担，接受；保证",
+      "japanese": "引き受ける",
+      "kana": "ひきうける",
+      "romaji": "hikiukeru",
+      "tokens": [
+        {
+          "text": "引き受ける",
+          "kana": "ひきうける"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "拉，拽；拉拢；硬拉",
+      "japanese": "引っ張る",
+      "kana": "ひっぱる",
+      "romaji": "hipparu",
+      "tokens": [
+        {
+          "text": "引っ張る",
+          "kana": "ひっぱる"
+        }
+      ]
+    }
+  ]
+}

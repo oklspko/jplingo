@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-13",
+  "coursePackId": "jp-n2",
+  "title": "名词 13",
+  "order": 13,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "必死；拼命",
+      "japanese": "必死",
+      "kana": "ひっし",
+      "romaji": "hisshi",
+      "tokens": [
+        {
+          "text": "必死",
+          "kana": "ひっし"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "表示，显示；表明",
+      "japanese": "表示",
+      "kana": "ひょうじ",
+      "romaji": "hyouji",
+      "tokens": [
+        {
+          "text": "表示",
+          "kana": "ひょうじ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "表情，神情",
+      "japanese": "表情",
+      "kana": "ひょうじょう",
+      "romaji": "hyoujou",
+      "tokens": [
+        {
+          "text": "表情",
+          "kana": "ひょうじょう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "附近",
+      "japanese": "付近",
+      "kana": "ふきん",
+      "romaji": "fukin",
+      "tokens": [
+        {
+          "text": "付近",
+          "kana": "ふきん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "布",
+      "japanese": "布",
+      "kana": "ぬの",
+      "romaji": "nuno",
+      "tokens": [
+        {
+          "text": "布",
+          "kana": "ぬの"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "普及",
+      "japanese": "普及",
+      "kana": "ふきゅう",
+      "romaji": "fukyuu",
+      "tokens": [
+        {
+          "text": "普及",
+          "kana": "ふきゅう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "舞台；场面",
+      "japanese": "舞台",
+      "kana": "ぶたい",
+      "romaji": "butai",
+      "tokens": [
+        {
+          "text": "舞台",
+          "kana": "ぶたい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "风景，景色；情景，状况",
+      "japanese": "風景",
+      "kana": "ふうけい",
+      "romaji": "fuukei",
+      "tokens": [
+        {
+          "text": "風景",
+          "kana": "ふうけい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "宽度；幅度",
+      "japanese": "幅",
+      "kana": "はば",
+      "romaji": "haba",
+      "tokens": [
+        {
+          "text": "幅",
+          "kana": "はば"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "一切事物",
+      "japanese": "物事",
+      "kana": "ものごと",
+      "romaji": "monogoto",
+      "tokens": [
+        {
+          "text": "物事",
+          "kana": "ものごと"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "气氛，氛围",
+      "japanese": "雰囲気",
+      "kana": "ふんいき",
+      "romaji": "fun'iki",
+      "tokens": [
+        {
+          "text": "雰囲気",
+          "kana": "ふんいき"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "变更；改动",
+      "japanese": "変更",
+      "kana": "へんこう",
+      "romaji": "henkou",
+      "tokens": [
+        {
+          "text": "変更",
+          "kana": "へんこう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "保存",
+      "japanese": "保存",
+      "kana": "ほぞん",
+      "romaji": "hozon",
+      "tokens": [
+        {
+          "text": "保存",
+          "kana": "ほぞん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "黄昏；季末；年终",
+      "japanese": "暮れ",
+      "kana": "くれ",
+      "romaji": "kure",
+      "tokens": [
+        {
+          "text": "暮れ",
+          "kana": "くれ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "方面，领域；（开往……）方向",
+      "japanese": "方面",
+      "kana": "ほうめん",
+      "romaji": "houmen",
+      "tokens": [
+        {
+          "text": "方面",
+          "kana": "ほうめん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "末尾；前途；最小的",
+      "japanese": "末",
+      "kana": "すえ",
+      "romaji": "sue",
+      "tokens": [
+        {
+          "text": "末",
+          "kana": "すえ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "吸引力，魅力",
+      "japanese": "魅力",
+      "kana": "みりょく",
+      "romaji": "miryoku",
+      "tokens": [
+        {
+          "text": "魅力",
+          "kana": "みりょく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "无，没有",
+      "japanese": "無し",
+      "kana": "なし",
+      "romaji": "nashi",
+      "tokens": [
+        {
+          "text": "無し",
+          "kana": "なし"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "无视，忽视",
+      "japanese": "無視",
+      "kana": "むし",
+      "romaji": "mushi",
+      "tokens": [
+        {
+          "text": "無視",
+          "kana": "むし"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "名胜古迹",
+      "japanese": "名所",
+      "kana": "めいしょ",
+      "romaji": "meisho",
+      "tokens": [
+        {
+          "text": "名所",
+          "kana": "めいしょ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "名家，专家；（围棋、将棋的）名人，国手",
+      "japanese": "名人",
+      "kana": "めいじん",
+      "romaji": "meijin",
+      "tokens": [
+        {
+          "text": "名人",
+          "kana": "めいじん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "（当地的）名产；（当地的）有名的东西",
+      "japanese": "名物",
+      "kana": "めいぶつ",
+      "romaji": "meibutsu",
+      "tokens": [
+        {
+          "text": "名物",
+          "kana": "めいぶつ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "职务；角色",
+      "japanese": "役",
+      "kana": "やく",
+      "romaji": "yaku",
+      "tokens": [
+        {
+          "text": "役",
+          "kana": "やく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "任务，作用",
+      "japanese": "役割",
+      "kana": "やくわり",
+      "romaji": "yakuwari",
+      "tokens": [
+        {
+          "text": "役割",
+          "kana": "やくわり"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "愉快",
+      "japanese": "愉快",
+      "kana": "ゆかい",
+      "romaji": "yukai",
+      "tokens": [
+        {
+          "text": "愉快",
+          "kana": "ゆかい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "有效",
+      "japanese": "有効",
+      "kana": "ゆうこう",
+      "romaji": "yuukou",
+      "tokens": [
+        {
+          "text": "有効",
+          "kana": "ゆうこう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "预算",
+      "japanese": "予算",
+      "kana": "よさん",
+      "romaji": "yosan",
+      "tokens": [
+        {
+          "text": "予算",
+          "kana": "よさん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "预料，预测",
+      "japanese": "予測",
+      "kana": "よそく",
+      "romaji": "yosoku",
+      "tokens": [
+        {
+          "text": "予測",
+          "kana": "よそく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "从容；富余",
+      "japanese": "余裕",
+      "kana": "よゆう",
+      "romaji": "yoyuu",
+      "tokens": [
+        {
+          "text": "余裕",
+          "kana": "よゆう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "要求；需要",
+      "japanese": "要求",
+      "kana": "ようきゅう",
+      "romaji": "youkyuu",
+      "tokens": [
+        {
+          "text": "要求",
+          "kana": "ようきゅう"
+        }
+      ]
+    }
+  ]
+}

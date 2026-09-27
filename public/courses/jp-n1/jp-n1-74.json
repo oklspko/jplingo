@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-74",
+  "coursePackId": "jp-n1",
+  "title": "名词 74",
+  "order": 74,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "无赖，坏蛋",
+      "japanese": "悪党",
+      "kana": "あくとう",
+      "romaji": "akutou",
+      "tokens": [
+        {
+          "text": "悪党",
+          "kana": "あくとう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "隔离；隔绝",
+      "japanese": "隔離",
+      "kana": "かくり",
+      "romaji": "kakuri",
+      "tokens": [
+        {
+          "text": "隔離",
+          "kana": "かくり"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "寂静，沉静，清静",
+      "japanese": "静けさ",
+      "kana": "しずけさ",
+      "romaji": "shizukesa",
+      "tokens": [
+        {
+          "text": "静けさ",
+          "kana": "しずけさ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "空想，幻想；幻想曲",
+      "japanese": "ファンタジー",
+      "kana": "ふぁんたじい",
+      "romaji": "fuantajii",
+      "tokens": [
+        {
+          "text": "ファンタジー",
+          "kana": "ふぁんたじい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "杂音，噪音",
+      "japanese": "ノイズ",
+      "kana": "のいず",
+      "romaji": "noizu",
+      "tokens": [
+        {
+          "text": "ノイズ",
+          "kana": "のいず"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "扳机；起因",
+      "japanese": "引き金",
+      "kana": "ひきがね",
+      "romaji": "hikigane",
+      "tokens": [
+        {
+          "text": "引き金",
+          "kana": "ひきがね"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "本事，本领，技能",
+      "japanese": "技量",
+      "kana": "ぎりょう",
+      "romaji": "giryou",
+      "tokens": [
+        {
+          "text": "技量",
+          "kana": "ぎりょう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "素颜；原状，本色，真实面貌",
+      "japanese": "素顔",
+      "kana": "すがお",
+      "romaji": "sugao",
+      "tokens": [
+        {
+          "text": "素顔",
+          "kana": "すがお"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "疾驶，快跑",
+      "japanese": "疾走",
+      "kana": "しっそう",
+      "romaji": "shissou",
+      "tokens": [
+        {
+          "text": "疾走",
+          "kana": "しっそう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "机械材料，机器和材料",
+      "japanese": "機材",
+      "kana": "きざい",
+      "romaji": "kizai",
+      "tokens": [
+        {
+          "text": "機材",
+          "kana": "きざい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "武术，武艺",
+      "japanese": "武術",
+      "kana": "ぶじゅつ",
+      "romaji": "bujutsu",
+      "tokens": [
+        {
+          "text": "武術",
+          "kana": "ぶじゅつ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "黏膜",
+      "japanese": "粘膜",
+      "kana": "ねんまく",
+      "romaji": "nenmaku",
+      "tokens": [
+        {
+          "text": "粘膜",
+          "kana": "ねんまく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "手腕，才干，才能，本事，本领",
+      "japanese": "手腕",
+      "kana": "しゅわん",
+      "romaji": "shuwan",
+      "tokens": [
+        {
+          "text": "手腕",
+          "kana": "しゅわん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "生活，生存，栖息",
+      "japanese": "生息",
+      "kana": "せいそく",
+      "romaji": "seisoku",
+      "tokens": [
+        {
+          "text": "生息",
+          "kana": "せいそく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "青蛙，蛤蟆",
+      "japanese": "蛙[かえる]",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "tokens": [
+        {
+          "text": "蛙[かえる]",
+          "kana": "かえる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "近处，附近，近旁",
+      "japanese": "近辺",
+      "kana": "きんぺん",
+      "romaji": "kinpen",
+      "tokens": [
+        {
+          "text": "近辺",
+          "kana": "きんぺん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "装束，服装；装饰，修饰",
+      "japanese": "装い",
+      "kana": "よそおい",
+      "romaji": "yosooi",
+      "tokens": [
+        {
+          "text": "装い",
+          "kana": "よそおい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "典礼，仪式",
+      "japanese": "式典",
+      "kana": "しきてん",
+      "romaji": "shikiten",
+      "tokens": [
+        {
+          "text": "式典",
+          "kana": "しきてん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "主人，老板；丈夫",
+      "japanese": "亭主",
+      "kana": "ていしゅ",
+      "romaji": "teishu",
+      "tokens": [
+        {
+          "text": "亭主",
+          "kana": "ていしゅ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "轨迹，经历，历程",
+      "japanese": "軌跡",
+      "kana": "きせき",
+      "romaji": "kiseki",
+      "tokens": [
+        {
+          "text": "軌跡",
+          "kana": "きせき"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "闹市，繁华街",
+      "japanese": "繁華街",
+      "kana": "はんかがい",
+      "romaji": "hankagai",
+      "tokens": [
+        {
+          "text": "繁華街",
+          "kana": "はんかがい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "将来，前途",
+      "japanese": "行く末",
+      "kana": "ゆくすえ",
+      "romaji": "yukusue",
+      "tokens": [
+        {
+          "text": "行く末",
+          "kana": "ゆくすえ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "机密",
+      "japanese": "機密",
+      "kana": "きみつ",
+      "romaji": "kimitsu",
+      "tokens": [
+        {
+          "text": "機密",
+          "kana": "きみつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "止境，尽头",
+      "japanese": "際限",
+      "kana": "さいげん",
+      "romaji": "saigen",
+      "tokens": [
+        {
+          "text": "際限",
+          "kana": "さいげん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "触，接触；涉及，参与；笔触；指法",
+      "japanese": "タッチ",
+      "kana": "たっち",
+      "romaji": "tatchi",
+      "tokens": [
+        {
+          "text": "タッチ",
+          "kana": "たっち"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "稀少，稀罕，罕见",
+      "japanese": "希少",
+      "kana": "きしょう",
+      "romaji": "kishou",
+      "tokens": [
+        {
+          "text": "希少",
+          "kana": "きしょう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "价格便宜，品质低劣的物品",
+      "japanese": "安物",
+      "kana": "やすもの",
+      "romaji": "yasumono",
+      "tokens": [
+        {
+          "text": "安物",
+          "kana": "やすもの"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "传感器，感应器",
+      "japanese": "センサー",
+      "kana": "せんさあ",
+      "romaji": "sensaa",
+      "tokens": [
+        {
+          "text": "センサー",
+          "kana": "せんさあ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "当前，目前，现在",
+      "japanese": "目下",
+      "kana": "もっか",
+      "romaji": "mokka",
+      "tokens": [
+        {
+          "text": "目下",
+          "kana": "もっか"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "电路，回路，线路",
+      "japanese": "回線",
+      "kana": "かいせん",
+      "romaji": "kaisen",
+      "tokens": [
+        {
+          "text": "回線",
+          "kana": "かいせん"
+        }
+      ]
+    }
+  ]
+}

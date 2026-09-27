@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-18",
+  "coursePackId": "jp-n4",
+  "title": "动词 1",
+  "order": 18,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "变成，成为；当",
+      "japanese": "なる",
+      "kana": "なる",
+      "romaji": "naru",
+      "tokens": [
+        {
+          "text": "なる",
+          "kana": "なる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "穿（下身衣物）",
+      "japanese": "はく",
+      "kana": "はく",
+      "romaji": "haku",
+      "tokens": [
+        {
+          "text": "はく",
+          "kana": "はく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "不一样；错误",
+      "japanese": "違う",
+      "kana": "ちがう",
+      "romaji": "chigau",
+      "tokens": [
+        {
+          "text": "違う",
+          "kana": "ちがう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "拉；减；画（线）；吸引",
+      "japanese": "引く",
+      "kana": "ひく",
+      "romaji": "hiku",
+      "tokens": [
+        {
+          "text": "引く",
+          "kana": "ひく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "压，按；推",
+      "japanese": "押す",
+      "kana": "おす",
+      "romaji": "osu",
+      "tokens": [
+        {
+          "text": "押す",
+          "kana": "おす"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "打开；开始营业",
+      "japanese": "開く",
+      "kana": "あく",
+      "romaji": "aku",
+      "tokens": [
+        {
+          "text": "開く",
+          "kana": "あく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "吸；吮吸；吸收",
+      "japanese": "吸う",
+      "kana": "すう",
+      "romaji": "suu",
+      "tokens": [
+        {
+          "text": "吸う",
+          "kana": "すう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "哭，哭泣",
+      "japanese": "泣く",
+      "kana": "なく",
+      "romaji": "naku",
+      "tokens": [
+        {
+          "text": "泣く",
+          "kana": "なく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（混）拥挤；（込）费事，精巧",
+      "japanese": "込む",
+      "kana": "こむ",
+      "romaji": "komu",
+      "tokens": [
+        {
+          "text": "込む",
+          "kana": "こむ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "照射；撑，打；注入（液体）",
+      "japanese": "差す",
+      "kana": "さす",
+      "romaji": "sasu",
+      "tokens": [
+        {
+          "text": "差す",
+          "kana": "さす"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "照相，摄像",
+      "japanese": "撮る",
+      "kana": "とる",
+      "romaji": "toru",
+      "tokens": [
+        {
+          "text": "撮る",
+          "kana": "とる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "思考；认为",
+      "japanese": "思う",
+      "kana": "おもう",
+      "romaji": "omou",
+      "tokens": [
+        {
+          "text": "思う",
+          "kana": "おもう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "死亡",
+      "japanese": "死ぬ",
+      "kana": "しぬ",
+      "romaji": "shinu",
+      "tokens": [
+        {
+          "text": "死ぬ",
+          "kana": "しぬ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "遵守；保护",
+      "japanese": "守る",
+      "kana": "まもる",
+      "romaji": "mamoru",
+      "tokens": [
+        {
+          "text": "守る",
+          "kana": "まもる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "洗手间；用手洗",
+      "japanese": "手洗い",
+      "kana": "てあらい",
+      "romaji": "tearai",
+      "tokens": [
+        {
+          "text": "手洗い",
+          "kana": "てあらい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "出门，出发",
+      "japanese": "出かける",
+      "kana": "でかける",
+      "romaji": "dekakeru",
+      "tokens": [
+        {
+          "text": "出かける",
+          "kana": "でかける"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "熄灭；消失",
+      "japanese": "消える",
+      "kana": "きえる",
+      "romaji": "kieru",
+      "tokens": [
+        {
+          "text": "消える",
+          "kana": "きえる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "相信，信赖；信仰",
+      "japanese": "信じる",
+      "kana": "しんじる",
+      "romaji": "shinjiru",
+      "tokens": [
+        {
+          "text": "信じる",
+          "kana": "しんじる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "叫作",
+      "japanese": "申す",
+      "kana": "もうす",
+      "romaji": "mousu",
+      "tokens": [
+        {
+          "text": "申す",
+          "kana": "もうす"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "刮风；吹",
+      "japanese": "吹く",
+      "kana": "ふく",
+      "romaji": "fuku",
+      "tokens": [
+        {
+          "text": "吹く",
+          "kana": "ふく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "邮寄，发送；派遣；送别；度过",
+      "japanese": "送る",
+      "kana": "おくる",
+      "romaji": "okuru",
+      "tokens": [
+        {
+          "text": "送る",
+          "kana": "おくる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "寻找（想要的东西）",
+      "japanese": "探す",
+      "kana": "さがす",
+      "romaji": "sagasu",
+      "tokens": [
+        {
+          "text": "探す",
+          "kana": "さがす"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（用手演奏乐器）弹",
+      "japanese": "弾く",
+      "kana": "ひく",
+      "romaji": "hiku",
+      "tokens": [
+        {
+          "text": "弾く",
+          "kana": "ひく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "贴，张贴",
+      "japanese": "貼る",
+      "kana": "はる",
+      "romaji": "haru",
+      "tokens": [
+        {
+          "text": "貼る",
+          "kana": "はる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "通知，传达；传授",
+      "japanese": "伝える",
+      "kana": "つたえる",
+      "romaji": "tsutaeru",
+      "tokens": [
+        {
+          "text": "伝える",
+          "kana": "つたえる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "登上",
+      "japanese": "登る",
+      "kana": "のぼる",
+      "romaji": "noboru",
+      "tokens": [
+        {
+          "text": "登る",
+          "kana": "のぼる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "输，不如；难以忍受",
+      "japanese": "負ける",
+      "kana": "まける",
+      "romaji": "makeru",
+      "tokens": [
+        {
+          "text": "負ける",
+          "kana": "まける"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "关闭",
+      "japanese": "閉まる",
+      "kana": "しまる",
+      "romaji": "shimaru",
+      "tokens": [
+        {
+          "text": "閉まる",
+          "kana": "しまる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "关上（窗户、门等打开的东西）",
+      "japanese": "閉める",
+      "kana": "しめる",
+      "romaji": "shimeru",
+      "tokens": [
+        {
+          "text": "閉める",
+          "kana": "しめる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "归还；翻（过来）",
+      "japanese": "返す",
+      "kana": "かえす",
+      "romaji": "kaesu",
+      "tokens": [
+        {
+          "text": "返す",
+          "kana": "かえす"
+        }
+      ]
+    }
+  ]
+}

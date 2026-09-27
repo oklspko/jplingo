@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-82",
+  "coursePackId": "jp-n1",
+  "title": "名词 82",
+  "order": 82,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "一新，刷新，革新",
+      "japanese": "一新",
+      "kana": "いっしん",
+      "romaji": "isshin",
+      "tokens": [
+        {
+          "text": "一新",
+          "kana": "いっしん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "初次，第一次；一次，线性",
+      "japanese": "一次",
+      "kana": "いちじ",
+      "romaji": "ichiji",
+      "tokens": [
+        {
+          "text": "一次",
+          "kana": "いちじ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "银杏树",
+      "japanese": "銀杏[いちょう]",
+      "kana": "いちょう",
+      "romaji": "ichou",
+      "tokens": [
+        {
+          "text": "銀杏[いちょう]",
+          "kana": "いちょう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "古书；旧书",
+      "japanese": "古書",
+      "kana": "こしょ",
+      "romaji": "kosho",
+      "tokens": [
+        {
+          "text": "古書",
+          "kana": "こしょ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "莺；歌喉好的人",
+      "japanese": "鶯[うぐいす]",
+      "kana": "うぐいす",
+      "romaji": "uguisu",
+      "tokens": [
+        {
+          "text": "鶯[うぐいす]",
+          "kana": "うぐいす"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "潜力，底力，深厚的力量",
+      "japanese": "底力",
+      "kana": "そこぢから",
+      "romaji": "sokojikara",
+      "tokens": [
+        {
+          "text": "底力",
+          "kana": "そこぢから"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "雁，大雁",
+      "japanese": "雁[がん]",
+      "kana": "がん",
+      "romaji": "gan",
+      "tokens": [
+        {
+          "text": "雁[がん]",
+          "kana": "がん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "被动，落后",
+      "japanese": "後手",
+      "kana": "ごて",
+      "romaji": "gote",
+      "tokens": [
+        {
+          "text": "後手",
+          "kana": "ごて"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "覆盖（物），罩（子），套（子）",
+      "japanese": "覆い",
+      "kana": "おおい",
+      "romaji": "ooi",
+      "tokens": [
+        {
+          "text": "覆い",
+          "kana": "おおい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "取舍选择",
+      "japanese": "取捨選択",
+      "kana": "しゅしゃせんたく",
+      "romaji": "shushasentaku",
+      "tokens": [
+        {
+          "text": "取捨選択",
+          "kana": "しゅしゃせんたく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "严正，严格",
+      "japanese": "厳正",
+      "kana": "げんせい",
+      "romaji": "gensei",
+      "tokens": [
+        {
+          "text": "厳正",
+          "kana": "げんせい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "血气，意气，热情",
+      "japanese": "血気",
+      "kana": "けっき",
+      "romaji": "kekki",
+      "tokens": [
+        {
+          "text": "血気",
+          "kana": "けっき"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "跃进，飞跃的进展",
+      "japanese": "躍進",
+      "kana": "やくしん",
+      "romaji": "yakushin",
+      "tokens": [
+        {
+          "text": "躍進",
+          "kana": "やくしん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "风势，风力（强）；招风，受非难，受责难",
+      "japanese": "風当たり",
+      "kana": "かぜあたり",
+      "romaji": "kazeatari",
+      "tokens": [
+        {
+          "text": "風当たり",
+          "kana": "かぜあたり"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "声调，语调，抑扬",
+      "japanese": "イントネーション",
+      "kana": "いんとねえしょん",
+      "romaji": "intoneeshon",
+      "tokens": [
+        {
+          "text": "イントネーション",
+          "kana": "いんとねえしょん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "雪景",
+      "japanese": "雪景色",
+      "kana": "ゆきげしき",
+      "romaji": "yukigeshiki",
+      "tokens": [
+        {
+          "text": "雪景色",
+          "kana": "ゆきげしき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "高潮，顶点，最高峰",
+      "japanese": "山場",
+      "kana": "やまば",
+      "romaji": "yamaba",
+      "tokens": [
+        {
+          "text": "山場",
+          "kana": "やまば"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "听懂，听话",
+      "japanese": "聞き分け",
+      "kana": "ききわけ",
+      "romaji": "kikiwake",
+      "tokens": [
+        {
+          "text": "聞き分け",
+          "kana": "ききわけ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "树袋熊，考拉",
+      "japanese": "コアラ",
+      "kana": "こあら",
+      "romaji": "koara",
+      "tokens": [
+        {
+          "text": "コアラ",
+          "kana": "こあら"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "父母的家，父母住的地方",
+      "japanese": "親元",
+      "kana": "おやもと",
+      "romaji": "oyamoto",
+      "tokens": [
+        {
+          "text": "親元",
+          "kana": "おやもと"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "定居",
+      "japanese": "土着",
+      "kana": "どちゃく",
+      "romaji": "dochaku",
+      "tokens": [
+        {
+          "text": "土着",
+          "kana": "どちゃく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "反问",
+      "japanese": "反問",
+      "kana": "はんもん",
+      "romaji": "hanmon",
+      "tokens": [
+        {
+          "text": "反問",
+          "kana": "はんもん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（戏剧的）幕间（休息）",
+      "japanese": "幕 間[あい]",
+      "kana": "まくあい",
+      "romaji": "makuai",
+      "tokens": [
+        {
+          "text": "幕 間[あい]",
+          "kana": "まくあい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "世界遗产",
+      "japanese": "世界遺産",
+      "kana": "せかいいさん",
+      "romaji": "sekaiisan",
+      "tokens": [
+        {
+          "text": "世界遺産",
+          "kana": "せかいいさん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "排水口；销路；发泄",
+      "japanese": "はけ口",
+      "kana": "はけぐち",
+      "romaji": "hakeguchi",
+      "tokens": [
+        {
+          "text": "はけ口",
+          "kana": "はけぐち"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "计入，列入",
+      "japanese": "計上",
+      "kana": "けいじょう",
+      "romaji": "keijou",
+      "tokens": [
+        {
+          "text": "計上",
+          "kana": "けいじょう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "空欢喜，希望落空",
+      "japanese": "ぬか喜び",
+      "kana": "ぬかよろこび",
+      "romaji": "nukayorokobi",
+      "tokens": [
+        {
+          "text": "ぬか喜び",
+          "kana": "ぬかよろこび"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "湿地",
+      "japanese": "湿地",
+      "kana": "しっち",
+      "romaji": "shitchi",
+      "tokens": [
+        {
+          "text": "湿地",
+          "kana": "しっち"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "原画",
+      "japanese": "原画",
+      "kana": "げんが",
+      "romaji": "genga",
+      "tokens": [
+        {
+          "text": "原画",
+          "kana": "げんが"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "甲虫",
+      "japanese": "甲虫",
+      "kana": "こうちゅう",
+      "romaji": "kouchuu",
+      "tokens": [
+        {
+          "text": "甲虫",
+          "kana": "こうちゅう"
+        }
+      ]
+    }
+  ]
+}

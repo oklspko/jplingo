@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-35",
+  "coursePackId": "jp-n3",
+  "title": "名词 35",
+  "order": 35,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "发育，成长情况；成长环境，家教",
+      "japanese": "育ち",
+      "kana": "そだち",
+      "romaji": "sodachi",
+      "tokens": [
+        {
+          "text": "育ち",
+          "kana": "そだち"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "搬运；进行，进展；（お運び）来、去的尊敬语",
+      "japanese": "運び",
+      "kana": "はこび",
+      "romaji": "hakobi",
+      "tokens": [
+        {
+          "text": "運び",
+          "kana": "はこび"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "应答，回答",
+      "japanese": "応答",
+      "kana": "おうとう",
+      "romaji": "outou",
+      "tokens": [
+        {
+          "text": "応答",
+          "kana": "おうとう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "建馆；开馆",
+      "japanese": "開館",
+      "kana": "かいかん",
+      "romaji": "kaikan",
+      "tokens": [
+        {
+          "text": "開館",
+          "kana": "かいかん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "课程，教学科目",
+      "japanese": "教科",
+      "kana": "きょうか",
+      "romaji": "kyouka",
+      "tokens": [
+        {
+          "text": "教科",
+          "kana": "きょうか"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "惊讶，震惊",
+      "japanese": "驚き",
+      "kana": "おどろき",
+      "romaji": "odoroki",
+      "tokens": [
+        {
+          "text": "驚き",
+          "kana": "おどろき"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "衣领，领子",
+      "japanese": "襟",
+      "kana": "えり",
+      "romaji": "eri",
+      "tokens": [
+        {
+          "text": "襟",
+          "kana": "えり"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "近道；捷径",
+      "japanese": "近道",
+      "kana": "ちかみち",
+      "romaji": "chikamichi",
+      "tokens": [
+        {
+          "text": "近道",
+          "kana": "ちかみち"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "抱怨，发牢骚",
+      "japanese": "愚痴",
+      "kana": "ぐち",
+      "romaji": "guchi",
+      "tokens": [
+        {
+          "text": "愚痴",
+          "kana": "ぐち"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "一个月期间",
+      "japanese": "月間",
+      "kana": "げっかん",
+      "romaji": "gekkan",
+      "tokens": [
+        {
+          "text": "月間",
+          "kana": "げっかん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "平原；荒原",
+      "japanese": "原",
+      "kana": "はら",
+      "romaji": "hara",
+      "tokens": [
+        {
+          "text": "原",
+          "kana": "はら"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "后半，后半部分",
+      "japanese": "後半",
+      "kana": "こうはん",
+      "romaji": "kouhan",
+      "tokens": [
+        {
+          "text": "後半",
+          "kana": "こうはん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "后方",
+      "japanese": "後方",
+      "kana": "こうほう",
+      "romaji": "kouhou",
+      "tokens": [
+        {
+          "text": "後方",
+          "kana": "こうほう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "交通工具",
+      "japanese": "交通機関",
+      "kana": "こうつうきかん",
+      "romaji": "koutsuukikan",
+      "tokens": [
+        {
+          "text": "交通機関",
+          "kana": "こうつうきかん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "喜欢的东西，爱吃的东西",
+      "japanese": "好物",
+      "kana": "こうぶつ",
+      "romaji": "koubutsu",
+      "tokens": [
+        {
+          "text": "好物",
+          "kana": "こうぶつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "去；方向",
+      "japanese": "行き",
+      "kana": "ゆき",
+      "romaji": "yuki",
+      "tokens": [
+        {
+          "text": "行き",
+          "kana": "ゆき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "方式，方法；规格",
+      "japanese": "仕様",
+      "kana": "しよう",
+      "romaji": "shiyou",
+      "tokens": [
+        {
+          "text": "仕様",
+          "kana": "しよう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "市长",
+      "japanese": "市長",
+      "kana": "しちょう",
+      "romaji": "shichou",
+      "tokens": [
+        {
+          "text": "市長",
+          "kana": "しちょう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "设施，设备",
+      "japanese": "施設",
+      "kana": "しせつ",
+      "romaji": "shisetsu",
+      "tokens": [
+        {
+          "text": "施設",
+          "kana": "しせつ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（物）收进；承认，答应；（人）接纳，收容",
+      "japanese": "受け入れ",
+      "kana": "うけいれ",
+      "romaji": "ukeire",
+      "tokens": [
+        {
+          "text": "受け入れ",
+          "kana": "うけいれ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "帮助，救助",
+      "japanese": "助け",
+      "kana": "たすけ",
+      "romaji": "tasuke",
+      "tokens": [
+        {
+          "text": "助け",
+          "kana": "たすけ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "小声，低声",
+      "japanese": "小声",
+      "kana": "こごえ",
+      "romaji": "kogoe",
+      "tokens": [
+        {
+          "text": "小声",
+          "kana": "こごえ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "零钱；少量资金",
+      "japanese": "小銭",
+      "kana": "こぜに",
+      "romaji": "kozeni",
+      "tokens": [
+        {
+          "text": "小銭",
+          "kana": "こぜに"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "进度；进步，长进",
+      "japanese": "進み",
+      "kana": "すすみ",
+      "romaji": "susumi",
+      "tokens": [
+        {
+          "text": "進み",
+          "kana": "すすみ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "前进；进展；发展",
+      "japanese": "進行",
+      "kana": "しんこう",
+      "romaji": "shinkou",
+      "tokens": [
+        {
+          "text": "進行",
+          "kana": "しんこう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "人际关系",
+      "japanese": "人間関係",
+      "kana": "にんげんかんけい",
+      "romaji": "ningenkankei",
+      "tokens": [
+        {
+          "text": "人間関係",
+          "kana": "にんげんかんけい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "正确；正式；正好；正数",
+      "japanese": "正",
+      "kana": "せい",
+      "romaji": "sei",
+      "tokens": [
+        {
+          "text": "正",
+          "kana": "せい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "选项",
+      "japanese": "選択肢",
+      "kana": "せんたくし",
+      "romaji": "sentakushi",
+      "tokens": [
+        {
+          "text": "選択肢",
+          "kana": "せんたくし"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "等待，会面",
+      "japanese": "待ち合わせ",
+      "kana": "まちあわせ",
+      "romaji": "machiawase",
+      "tokens": [
+        {
+          "text": "待ち合わせ",
+          "kana": "まちあわせ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "退学",
+      "japanese": "退学",
+      "kana": "たいがく",
+      "romaji": "taigaku",
+      "tokens": [
+        {
+          "text": "退学",
+          "kana": "たいがく"
+        }
+      ]
+    }
+  ]
+}

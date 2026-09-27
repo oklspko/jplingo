@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-32",
+  "coursePackId": "jp-n2",
+  "title": "名词 32",
+  "order": 32,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "智力，智慧",
+      "japanese": "知能",
+      "kana": "ちのう",
+      "romaji": "chinou",
+      "tokens": [
+        {
+          "text": "知能",
+          "kana": "ちのう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "地位，身份",
+      "japanese": "地位",
+      "kana": "ちい",
+      "romaji": "chii",
+      "tokens": [
+        {
+          "text": "地位",
+          "kana": "ちい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "地下水",
+      "japanese": "地下水",
+      "kana": "ちかすい",
+      "romaji": "chikasui",
+      "tokens": [
+        {
+          "text": "地下水",
+          "kana": "ちかすい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "地带",
+      "japanese": "地帯",
+      "kana": "ちたい",
+      "romaji": "chitai",
+      "tokens": [
+        {
+          "text": "地帯",
+          "kana": "ちたい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "中央，中心；中枢；中央，首都",
+      "japanese": "中央",
+      "kana": "ちゅうおう",
+      "romaji": "chuuou",
+      "tokens": [
+        {
+          "text": "中央",
+          "kana": "ちゅうおう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "中略，中间省略",
+      "japanese": "中略",
+      "kana": "ちゅうりゃく",
+      "romaji": "chuuryaku",
+      "tokens": [
+        {
+          "text": "中略",
+          "kana": "ちゅうりゃく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "雕刻，雕塑",
+      "japanese": "彫刻",
+      "kana": "ちょうこく",
+      "romaji": "choukoku",
+      "tokens": [
+        {
+          "text": "彫刻",
+          "kana": "ちょうこく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "直径",
+      "japanese": "直径",
+      "kana": "ちょっけい",
+      "romaji": "chokkei",
+      "tokens": [
+        {
+          "text": "直径",
+          "kana": "ちょっけい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "追加，添补",
+      "japanese": "追加",
+      "kana": "ついか",
+      "romaji": "tsuika",
+      "tokens": [
+        {
+          "text": "追加",
+          "kana": "ついか"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "通用，有效，行得通",
+      "japanese": "通用",
+      "kana": "つうよう",
+      "romaji": "tsuuyou",
+      "tokens": [
+        {
+          "text": "通用",
+          "kana": "つうよう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "通道，过道，出入口",
+      "japanese": "通路",
+      "kana": "つうろ",
+      "romaji": "tsuuro",
+      "tokens": [
+        {
+          "text": "通路",
+          "kana": "つうろ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "中止，停止",
+      "japanese": "停止",
+      "kana": "ていし",
+      "romaji": "teishi",
+      "tokens": [
+        {
+          "text": "停止",
+          "kana": "ていし"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "抵抗，反抗；抵触",
+      "japanese": "抵抗",
+      "kana": "ていこう",
+      "romaji": "teikou",
+      "tokens": [
+        {
+          "text": "抵抗",
+          "kana": "ていこう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "准确，恰当",
+      "japanese": "的確",
+      "kana": "てきかく",
+      "romaji": "tekikaku",
+      "tokens": [
+        {
+          "text": "的確",
+          "kana": "てきかく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "合适，恰当",
+      "japanese": "適切",
+      "kana": "てきせつ",
+      "romaji": "tekisetsu",
+      "tokens": [
+        {
+          "text": "適切",
+          "kana": "てきせつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "哲学",
+      "japanese": "哲学",
+      "kana": "てつがく",
+      "romaji": "tetsugaku",
+      "tokens": [
+        {
+          "text": "哲学",
+          "kana": "てつがく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "彻底；贯彻",
+      "japanese": "徹底",
+      "kana": "てってい",
+      "romaji": "tettei",
+      "tokens": [
+        {
+          "text": "徹底",
+          "kana": "てってい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "整夜（不眠），通宵",
+      "japanese": "徹夜",
+      "kana": "てつや",
+      "romaji": "tetsuya",
+      "tokens": [
+        {
+          "text": "徹夜",
+          "kana": "てつや"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "开展，展开；展现",
+      "japanese": "展開",
+      "kana": "てんかい",
+      "romaji": "tenkai",
+      "tokens": [
+        {
+          "text": "展開",
+          "kana": "てんかい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "电波，信号",
+      "japanese": "電波",
+      "kana": "でんぱ",
+      "romaji": "denpa",
+      "tokens": [
+        {
+          "text": "電波",
+          "kana": "でんぱ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "电力，电功率",
+      "japanese": "電力",
+      "kana": "でんりょく",
+      "romaji": "denryoku",
+      "tokens": [
+        {
+          "text": "電力",
+          "kana": "でんりょく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "投票",
+      "japanese": "投票",
+      "kana": "とうひょう",
+      "romaji": "touhyou",
+      "tokens": [
+        {
+          "text": "投票",
+          "kana": "とうひょう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "当时",
+      "japanese": "当時",
+      "kana": "とうじ",
+      "romaji": "touji",
+      "tokens": [
+        {
+          "text": "当時",
+          "kana": "とうじ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "统一",
+      "japanese": "統一",
+      "kana": "とういつ",
+      "romaji": "touitsu",
+      "tokens": [
+        {
+          "text": "統一",
+          "kana": "とういつ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "同一，相同；同等，相等",
+      "japanese": "同一",
+      "kana": "どういつ",
+      "romaji": "douitsu",
+      "tokens": [
+        {
+          "text": "同一",
+          "kana": "どういつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "甩卖，廉价销售",
+      "japanese": "特売",
+      "kana": "とくばい",
+      "romaji": "tokubai",
+      "tokens": [
+        {
+          "text": "特売",
+          "kana": "とくばい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "自言自语",
+      "japanese": "独り言",
+      "kana": "ひとりごと",
+      "romaji": "hitorigoto",
+      "tokens": [
+        {
+          "text": "独り言",
+          "kana": "ひとりごと"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "质地柔软，不坚固；软弱，柔弱",
+      "japanese": "軟弱",
+      "kana": "なんじゃく",
+      "romaji": "nanjaku",
+      "tokens": [
+        {
+          "text": "軟弱",
+          "kana": "なんじゃく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "彩虹",
+      "japanese": "虹",
+      "kana": "にじ",
+      "romaji": "niji",
+      "tokens": [
+        {
+          "text": "虹",
+          "kana": "にじ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "热带",
+      "japanese": "熱帯",
+      "kana": "ねったい",
+      "romaji": "nettai",
+      "tokens": [
+        {
+          "text": "熱帯",
+          "kana": "ねったい"
+        }
+      ]
+    }
+  ]
+}

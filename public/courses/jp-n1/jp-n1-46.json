@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-46",
+  "coursePackId": "jp-n1",
+  "title": "名词 46",
+  "order": 46,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "对某事有很深的感情；沉思的表情",
+      "japanese": "思い入れ",
+      "kana": "おもいいれ",
+      "romaji": "omoiire",
+      "tokens": [
+        {
+          "text": "思い入れ",
+          "kana": "おもいいれ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "思考，思索",
+      "japanese": "思索",
+      "kana": "しさく",
+      "romaji": "shisaku",
+      "tokens": [
+        {
+          "text": "思索",
+          "kana": "しさく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "青春期",
+      "japanese": "思春期",
+      "kana": "ししゅんき",
+      "romaji": "shishunki",
+      "tokens": [
+        {
+          "text": "思春期",
+          "kana": "ししゅんき"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "（经济、数学上的）指数",
+      "japanese": "指数",
+      "kana": "しすう",
+      "romaji": "shisuu",
+      "tokens": [
+        {
+          "text": "指数",
+          "kana": "しすう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "障碍",
+      "japanese": "支障",
+      "kana": "ししょう",
+      "romaji": "shishou",
+      "tokens": [
+        {
+          "text": "支障",
+          "kana": "ししょう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "死后",
+      "japanese": "死後",
+      "kana": "しご",
+      "romaji": "shigo",
+      "tokens": [
+        {
+          "text": "死後",
+          "kana": "しご"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "死绝，灭绝，绝种",
+      "japanese": "死滅",
+      "kana": "しめつ",
+      "romaji": "shimetsu",
+      "tokens": [
+        {
+          "text": "死滅",
+          "kana": "しめつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "紫外线",
+      "japanese": "紫外線",
+      "kana": "しがいせん",
+      "romaji": "shigaisen",
+      "tokens": [
+        {
+          "text": "紫外線",
+          "kana": "しがいせん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "锻炼，考验",
+      "japanese": "試練",
+      "kana": "しれん",
+      "romaji": "shiren",
+      "tokens": [
+        {
+          "text": "試練",
+          "kana": "しれん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "车闸；煞住",
+      "japanese": "歯止め",
+      "kana": "はどめ",
+      "romaji": "hadome",
+      "tokens": [
+        {
+          "text": "歯止め",
+          "kana": "はどめ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "事态，现象",
+      "japanese": "事象",
+      "kana": "じしょう",
+      "romaji": "jishou",
+      "tokens": [
+        {
+          "text": "事象",
+          "kana": "じしょう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "半斤八两，大同小异",
+      "japanese": "似たり寄ったり",
+      "kana": "にたりよったり",
+      "romaji": "nitariyottari",
+      "tokens": [
+        {
+          "text": "似たり寄ったり",
+          "kana": "にたりよったり"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "字体",
+      "japanese": "字体",
+      "kana": "じたい",
+      "romaji": "jitai",
+      "tokens": [
+        {
+          "text": "字体",
+          "kana": "じたい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "本国",
+      "japanese": "自国",
+      "kana": "じこく",
+      "romaji": "jikoku",
+      "tokens": [
+        {
+          "text": "自国",
+          "kana": "じこく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "自慎，自我约束",
+      "japanese": "自粛",
+      "kana": "じしゅく",
+      "romaji": "jishuku",
+      "tokens": [
+        {
+          "text": "自粛",
+          "kana": "じしゅく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "自制，自我克制",
+      "japanese": "自制",
+      "kana": "じせい",
+      "romaji": "jisei",
+      "tokens": [
+        {
+          "text": "自制",
+          "kana": "じせい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "轴，中心",
+      "japanese": "軸",
+      "kana": "じく",
+      "romaji": "jiku",
+      "tokens": [
+        {
+          "text": "軸",
+          "kana": "じく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "实况",
+      "japanese": "実況",
+      "kana": "じっきょう",
+      "romaji": "jikkyou",
+      "tokens": [
+        {
+          "text": "実況",
+          "kana": "じっきょう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "实际存在",
+      "japanese": "実在",
+      "kana": "じつざい",
+      "romaji": "jitsuzai",
+      "tokens": [
+        {
+          "text": "実在",
+          "kana": "じつざい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "切断，阻隔",
+      "japanese": "遮断",
+      "kana": "しゃだん",
+      "romaji": "shadan",
+      "tokens": [
+        {
+          "text": "遮断",
+          "kana": "しゃだん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "阐明，说明，申明，辩解",
+      "japanese": "釈明",
+      "kana": "しゃくめい",
+      "romaji": "shakumei",
+      "tokens": [
+        {
+          "text": "釈明",
+          "kana": "しゃくめい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "泄气的话",
+      "japanese": "弱音",
+      "kana": "よわね",
+      "romaji": "yowane",
+      "tokens": [
+        {
+          "text": "弱音",
+          "kana": "よわね"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "弱肉强食",
+      "japanese": "弱肉強食",
+      "kana": "じゃくにくきょうしょく",
+      "romaji": "jakunikukyoushoku",
+      "tokens": [
+        {
+          "text": "弱肉強食",
+          "kana": "じゃくにくきょうしょく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "主演，主角",
+      "japanese": "主演",
+      "kana": "しゅえん",
+      "romaji": "shuen",
+      "tokens": [
+        {
+          "text": "主演",
+          "kana": "しゅえん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "主旨，中心思想",
+      "japanese": "主旨",
+      "kana": "しゅし",
+      "romaji": "shushi",
+      "tokens": [
+        {
+          "text": "主旨",
+          "kana": "しゅし"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "自主性；主体性",
+      "japanese": "主体性",
+      "kana": "しゅたいせい",
+      "romaji": "shutaisei",
+      "tokens": [
+        {
+          "text": "主体性",
+          "kana": "しゅたいせい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "手指尖；手下，爪牙",
+      "japanese": "手先",
+      "kana": "てさき",
+      "romaji": "tesaki",
+      "tokens": [
+        {
+          "text": "手先",
+          "kana": "てさき"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "种子",
+      "japanese": "種子",
+      "kana": "しゅし",
+      "romaji": "shushi",
+      "tokens": [
+        {
+          "text": "種子",
+          "kana": "しゅし"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "应答，对答，应付",
+      "japanese": "受け答え",
+      "kana": "うけこたえ",
+      "romaji": "ukekotae",
+      "tokens": [
+        {
+          "text": "受け答え",
+          "kana": "うけこたえ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "接受订货",
+      "japanese": "受注",
+      "kana": "じゅちゅう",
+      "romaji": "juchuu",
+      "tokens": [
+        {
+          "text": "受注",
+          "kana": "じゅちゅう"
+        }
+      ]
+    }
+  ]
+}

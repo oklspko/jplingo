@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-57",
+  "coursePackId": "jp-n3",
+  "title": "副词 1",
+  "order": 57,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（因无力而身体）晃悠，晕；游移不定；糊里糊涂",
+      "japanese": "ふらふら",
+      "kana": "ふらふら",
+      "romaji": "furafura",
+      "tokens": [
+        {
+          "text": "ふらふら",
+          "kana": "ふらふら"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "至今为止",
+      "japanese": "今まで",
+      "kana": "いままで",
+      "romaji": "imamade",
+      "tokens": [
+        {
+          "text": "今まで",
+          "kana": "いままで"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "每次，每回",
+      "japanese": "毎回",
+      "kana": "まいかい",
+      "romaji": "maikai",
+      "tokens": [
+        {
+          "text": "毎回",
+          "kana": "まいかい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "永远，始终",
+      "japanese": "いつまでも",
+      "kana": "いつまでも",
+      "romaji": "itsumademo",
+      "tokens": [
+        {
+          "text": "いつまでも",
+          "kana": "いつまでも"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "刚才，方才",
+      "japanese": "さっき",
+      "kana": "さっき",
+      "romaji": "sakki",
+      "tokens": [
+        {
+          "text": "さっき",
+          "kana": "さっき"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（虽然时间不长，但也不是马上就能完成的样子）暂时，暂且；（经过了一段相当长的时间）许久，好久",
+      "japanese": "しばらく",
+      "kana": "しばらく",
+      "romaji": "shibaraku",
+      "tokens": [
+        {
+          "text": "しばらく",
+          "kana": "しばらく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "那样地；（并非）那么地……",
+      "japanese": "それほど",
+      "kana": "それほど",
+      "romaji": "sorehodo",
+      "tokens": [
+        {
+          "text": "それほど",
+          "kana": "それほど"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "一点也（不）",
+      "japanese": "ちっとも",
+      "kana": "ちっとも",
+      "romaji": "chittomo",
+      "tokens": [
+        {
+          "text": "ちっとも",
+          "kana": "ちっとも"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "总之，归根结底；也就是说",
+      "japanese": "つまり",
+      "kana": "つまり",
+      "romaji": "tsumari",
+      "tokens": [
+        {
+          "text": "つまり",
+          "kana": "つまり"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "尽量，尽可能",
+      "japanese": "できるだけ",
+      "kana": "できるだけ",
+      "romaji": "dekirudake",
+      "tokens": [
+        {
+          "text": "できるだけ",
+          "kana": "できるだけ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "终于，终究",
+      "japanese": "とうとう",
+      "kana": "とうとう",
+      "romaji": "toutou",
+      "tokens": [
+        {
+          "text": "とうとう",
+          "kana": "とうとう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "尽量，尽可能",
+      "japanese": "なるべく",
+      "kana": "なるべく",
+      "romaji": "narubeku",
+      "tokens": [
+        {
+          "text": "なるべく",
+          "kana": "なるべく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（正如所听说的）的确；（对对方说的话表示同意）原来如此",
+      "japanese": "なるほど",
+      "kana": "なるほど",
+      "romaji": "naruhodo",
+      "tokens": [
+        {
+          "text": "なるほど",
+          "kana": "なるほど"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "突然，紧急",
+      "japanese": "急に",
+      "kana": "きゅうに",
+      "romaji": "kyuuni",
+      "tokens": [
+        {
+          "text": "急に",
+          "kana": "きゅうに"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "相当，很；不像话，过分",
+      "japanese": "随分",
+      "kana": "ずいぶん",
+      "romaji": "zuibun",
+      "tokens": [
+        {
+          "text": "随分",
+          "kana": "ずいぶん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "（不）太……；太……",
+      "japanese": "あんまり",
+      "kana": "あんまり",
+      "romaji": "anmari",
+      "tokens": [
+        {
+          "text": "あんまり",
+          "kana": "あんまり"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "不知什么时候，不知不觉中",
+      "japanese": "いつの間にか",
+      "kana": "いつのまにか",
+      "romaji": "itsunomanika",
+      "tokens": [
+        {
+          "text": "いつの間にか",
+          "kana": "いつのまにか"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "不留神，无意中",
+      "japanese": "うっかり",
+      "kana": "うっかり",
+      "romaji": "ukkari",
+      "tokens": [
+        {
+          "text": "うっかり",
+          "kana": "うっかり"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "失望，沮丧",
+      "japanese": "がっかり",
+      "kana": "がっかり",
+      "romaji": "gakkari",
+      "tokens": [
+        {
+          "text": "がっかり",
+          "kana": "がっかり"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "好好地，正确，恰当；整齐地",
+      "japanese": "きちんと",
+      "kana": "きちんと",
+      "romaji": "kichinto",
+      "tokens": [
+        {
+          "text": "きちんと",
+          "kana": "きちんと"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "酣睡，熟睡",
+      "japanese": "ぐっすり",
+      "kana": "ぐっすり",
+      "romaji": "gussuri",
+      "tokens": [
+        {
+          "text": "ぐっすり",
+          "kana": "ぐっすり"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "这样；于是",
+      "japanese": "こうして",
+      "kana": "こうして",
+      "romaji": "koushite",
+      "tokens": [
+        {
+          "text": "こうして",
+          "kana": "こうして"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "马上，迅速",
+      "japanese": "早速",
+      "kana": "さっそく",
+      "romaji": "sassoku",
+      "tokens": [
+        {
+          "text": "早速",
+          "kana": "さっそく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "特地；好不容易，难得",
+      "japanese": "せっかく",
+      "kana": "せっかく",
+      "romaji": "sekkaku",
+      "tokens": [
+        {
+          "text": "せっかく",
+          "kana": "せっかく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "顺便，顺手",
+      "japanese": "ついでに",
+      "kana": "ついでに",
+      "romaji": "tsuideni",
+      "tokens": [
+        {
+          "text": "ついでに",
+          "kana": "ついでに"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "终于；始终（也不）",
+      "japanese": "ついに",
+      "kana": "ついに",
+      "romaji": "tsuini",
+      "tokens": [
+        {
+          "text": "ついに",
+          "kana": "ついに"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "怎么也（不）；无论如何",
+      "japanese": "どうしても",
+      "kana": "どうしても",
+      "romaji": "doushitemo",
+      "tokens": [
+        {
+          "text": "どうしても",
+          "kana": "どうしても"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "终归，反正",
+      "japanese": "どうせ",
+      "kana": "どうせ",
+      "romaji": "douse",
+      "tokens": [
+        {
+          "text": "どうせ",
+          "kana": "どうせ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "（因剧烈运动、恐惧、不安、兴奋、期待等）心脏剧烈跳动",
+      "japanese": "どきどき",
+      "kana": "どきどき",
+      "romaji": "dokidoki",
+      "tokens": [
+        {
+          "text": "どきどき",
+          "kana": "どきどき"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "总之，反正",
+      "japanese": "とにかく",
+      "kana": "とにかく",
+      "romaji": "tonikaku",
+      "tokens": [
+        {
+          "text": "とにかく",
+          "kana": "とにかく"
+        }
+      ]
+    }
+  ]
+}

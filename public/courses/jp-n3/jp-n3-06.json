@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-06",
+  "coursePackId": "jp-n3",
+  "title": "名词 6",
+  "order": 6,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "镜子",
+      "japanese": "鏡",
+      "kana": "かがみ",
+      "romaji": "kagami",
+      "tokens": [
+        {
+          "text": "鏡",
+          "kana": "かがみ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "禁止吸烟；戒烟",
+      "japanese": "禁煙",
+      "kana": "きんえん",
+      "romaji": "kin'en",
+      "tokens": [
+        {
+          "text": "禁煙",
+          "kana": "きんえん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "有钱人，富人",
+      "japanese": "金持ち",
+      "kana": "かねもち",
+      "romaji": "kanemochi",
+      "tokens": [
+        {
+          "text": "金持ち",
+          "kana": "かねもち"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "不善于；难对付，棘手",
+      "japanese": "苦手",
+      "kana": "にがて",
+      "romaji": "nigate",
+      "tokens": [
+        {
+          "text": "苦手",
+          "kana": "にがて"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "敬语",
+      "japanese": "敬語",
+      "kana": "けいご",
+      "romaji": "keigo",
+      "tokens": [
+        {
+          "text": "敬語",
+          "kana": "けいご"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "经济",
+      "japanese": "経済",
+      "kana": "けいざい",
+      "romaji": "keizai",
+      "tokens": [
+        {
+          "text": "経済",
+          "kana": "けいざい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "缺席",
+      "japanese": "欠席",
+      "kana": "けっせき",
+      "romaji": "kesseki",
+      "tokens": [
+        {
+          "text": "欠席",
+          "kana": "けっせき"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "吵架，打架",
+      "japanese": "喧嘩[けんか]",
+      "kana": "けんか",
+      "romaji": "kenka",
+      "tokens": [
+        {
+          "text": "喧嘩[けんか]",
+          "kana": "けんか"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "研究室",
+      "japanese": "研究室",
+      "kana": "けんきゅうしつ",
+      "romaji": "kenkyuushitsu",
+      "tokens": [
+        {
+          "text": "研究室",
+          "kana": "けんきゅうしつ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "研究者",
+      "japanese": "研究者",
+      "kana": "けんきゅうしゃ",
+      "romaji": "kenkyuusha",
+      "tokens": [
+        {
+          "text": "研究者",
+          "kana": "けんきゅうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "研究所",
+      "japanese": "研究所",
+      "kana": "けんきゅうじょ",
+      "romaji": "kenkyuujo",
+      "tokens": [
+        {
+          "text": "研究所",
+          "kana": "けんきゅうじょ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "送行；搁置",
+      "japanese": "見送り",
+      "kana": "みおくり",
+      "romaji": "miokuri",
+      "tokens": [
+        {
+          "text": "見送り",
+          "kana": "みおくり"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "观赏，游览",
+      "japanese": "見物",
+      "kana": "けんぶつ",
+      "romaji": "kenbutsu",
+      "tokens": [
+        {
+          "text": "見物",
+          "kana": "けんぶつ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "言语，语言",
+      "japanese": "言語",
+      "kana": "げんご",
+      "romaji": "gengo",
+      "tokens": [
+        {
+          "text": "言語",
+          "kana": "げんご"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "晚辈；学弟，学妹",
+      "japanese": "後輩",
+      "kana": "こうはい",
+      "romaji": "kouhai",
+      "tokens": [
+        {
+          "text": "後輩",
+          "kana": "こうはい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "交通",
+      "japanese": "交通",
+      "kana": "こうつう",
+      "romaji": "koutsuu",
+      "tokens": [
+        {
+          "text": "交通",
+          "kana": "こうつう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "公务员",
+      "japanese": "公務員",
+      "kana": "こうむいん",
+      "romaji": "koumuin",
+      "tokens": [
+        {
+          "text": "公務員",
+          "kana": "こうむいん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "工业",
+      "japanese": "工業",
+      "kana": "こうぎょう",
+      "romaji": "kougyou",
+      "tokens": [
+        {
+          "text": "工業",
+          "kana": "こうぎょう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "面积；广博",
+      "japanese": "広さ",
+      "kana": "ひろさ",
+      "romaji": "hirosa",
+      "tokens": [
+        {
+          "text": "広さ",
+          "kana": "ひろさ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "想法",
+      "japanese": "考え方",
+      "kana": "かんがえかた",
+      "romaji": "kangaekata",
+      "tokens": [
+        {
+          "text": "考え方",
+          "kana": "かんがえかた"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（特指）大学课程",
+      "japanese": "講義",
+      "kana": "こうぎ",
+      "romaji": "kougi",
+      "tokens": [
+        {
+          "text": "講義",
+          "kana": "こうぎ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "郊外，城外",
+      "japanese": "郊外",
+      "kana": "こうがい",
+      "romaji": "kougai",
+      "tokens": [
+        {
+          "text": "郊外",
+          "kana": "こうがい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "芳香",
+      "japanese": "香り",
+      "kana": "かおり",
+      "romaji": "kaori",
+      "tokens": [
+        {
+          "text": "香り",
+          "kana": "かおり"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "高速公路",
+      "japanese": "高速道路",
+      "kana": "こうそくどうろ",
+      "romaji": "kousokudouro",
+      "tokens": [
+        {
+          "text": "高速道路",
+          "kana": "こうそくどうろ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "及格，考上；合格",
+      "japanese": "合格",
+      "kana": "ごうかく",
+      "romaji": "goukaku",
+      "tokens": [
+        {
+          "text": "合格",
+          "kana": "ごうかく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "国语；日语；语文",
+      "japanese": "国語",
+      "kana": "こくご",
+      "romaji": "kokugo",
+      "tokens": [
+        {
+          "text": "国語",
+          "kana": "こくご"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "国际",
+      "japanese": "国際",
+      "kana": "こくさい",
+      "romaji": "kokusai",
+      "tokens": [
+        {
+          "text": "国際",
+          "kana": "こくさい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "国内",
+      "japanese": "国内",
+      "kana": "こくない",
+      "romaji": "kokunai",
+      "tokens": [
+        {
+          "text": "国内",
+          "kana": "こくない"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "沙子",
+      "japanese": "砂",
+      "kana": "すな",
+      "romaji": "suna",
+      "tokens": [
+        {
+          "text": "砂",
+          "kana": "すな"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "材料，原料；素材",
+      "japanese": "材料",
+      "kana": "ざいりょう",
+      "romaji": "zairyou",
+      "tokens": [
+        {
+          "text": "材料",
+          "kana": "ざいりょう"
+        }
+      ]
+    }
+  ]
+}

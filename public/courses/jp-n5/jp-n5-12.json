@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-12",
+  "coursePackId": "jp-n5",
+  "title": "名词 12",
+  "order": 12,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "日本人",
+      "japanese": "日本人",
+      "kana": "にほんじん",
+      "romaji": "nihonjin",
+      "tokens": [
+        {
+          "text": "日本人",
+          "kana": "にほんじん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "周日",
+      "japanese": "日曜日",
+      "kana": "にちようび",
+      "romaji": "nichiyoubi",
+      "tokens": [
+        {
+          "text": "日曜日",
+          "kana": "にちようび"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "猫",
+      "japanese": "猫",
+      "kana": "ねこ",
+      "romaji": "neko",
+      "tokens": [
+        {
+          "text": "猫",
+          "kana": "ねこ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "年；年龄",
+      "japanese": "年",
+      "kana": "とし",
+      "romaji": "toshi",
+      "tokens": [
+        {
+          "text": "年",
+          "kana": "とし"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "买东西；买的东西",
+      "japanese": "買い物",
+      "kana": "かいもの",
+      "romaji": "kaimono",
+      "tokens": [
+        {
+          "text": "買い物",
+          "kana": "かいもの"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "白，白色",
+      "japanese": "白",
+      "kana": "しろ",
+      "romaji": "shiro",
+      "tokens": [
+        {
+          "text": "白",
+          "kana": "しろ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "筷子",
+      "japanese": "箸",
+      "kana": "はし",
+      "romaji": "hashi",
+      "tokens": [
+        {
+          "text": "箸",
+          "kana": "はし"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "八个；八岁",
+      "japanese": "八つ",
+      "kana": "やっつ",
+      "romaji": "yattsu",
+      "tokens": [
+        {
+          "text": "八つ",
+          "kana": "やっつ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "八天；八号",
+      "japanese": "八日",
+      "kana": "ようか",
+      "romaji": "youka",
+      "tokens": [
+        {
+          "text": "八日",
+          "kana": "ようか"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "头发",
+      "japanese": "髪",
+      "kana": "かみ",
+      "romaji": "kami",
+      "tokens": [
+        {
+          "text": "髪",
+          "kana": "かみ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "半，一半",
+      "japanese": "半",
+      "kana": "はん",
+      "romaji": "han",
+      "tokens": [
+        {
+          "text": "半",
+          "kana": "はん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "一半",
+      "japanese": "半分",
+      "kana": "はんぶん",
+      "romaji": "hanbun",
+      "tokens": [
+        {
+          "text": "半分",
+          "kana": "はんぶん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "夜晚，晚上",
+      "japanese": "晩",
+      "kana": "ばん",
+      "romaji": "ban",
+      "tokens": [
+        {
+          "text": "晩",
+          "kana": "ばん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "晚饭",
+      "japanese": "晩ご飯",
+      "kana": "ばんごはん",
+      "romaji": "bangohan",
+      "tokens": [
+        {
+          "text": "晩ご飯",
+          "kana": "ばんごはん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "号码",
+      "japanese": "番号",
+      "kana": "ばんごう",
+      "romaji": "bangou",
+      "tokens": [
+        {
+          "text": "番号",
+          "kana": "ばんごう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "他；男朋友",
+      "japanese": "彼",
+      "kana": "かれ",
+      "romaji": "kare",
+      "tokens": [
+        {
+          "text": "彼",
+          "kana": "かれ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "她；女朋友",
+      "japanese": "彼女",
+      "kana": "かのじょ",
+      "romaji": "kanojo",
+      "tokens": [
+        {
+          "text": "彼女",
+          "kana": "かのじょ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "飞机",
+      "japanese": "飛行機",
+      "kana": "ひこうき",
+      "romaji": "hikouki",
+      "tokens": [
+        {
+          "text": "飛行機",
+          "kana": "ひこうき"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "鼻子",
+      "japanese": "鼻",
+      "kana": "はな",
+      "romaji": "hana",
+      "tokens": [
+        {
+          "text": "鼻",
+          "kana": "はな"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "百",
+      "japanese": "百",
+      "kana": "ひゃく",
+      "romaji": "hyaku",
+      "tokens": [
+        {
+          "text": "百",
+          "kana": "ひゃく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "医院（拥有20张及以上床位）",
+      "japanese": "病院",
+      "kana": "びょういん",
+      "romaji": "byouin",
+      "tokens": [
+        {
+          "text": "病院",
+          "kana": "びょういん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "丈夫",
+      "japanese": "夫",
+      "kana": "おっと",
+      "romaji": "otto",
+      "tokens": [
+        {
+          "text": "夫",
+          "kana": "おっと"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（跟别人提及时）爸爸，父亲",
+      "japanese": "父",
+      "kana": "ちち",
+      "romaji": "chichi",
+      "tokens": [
+        {
+          "text": "父",
+          "kana": "ちち"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "房间",
+      "japanese": "部屋",
+      "kana": "へや",
+      "romaji": "heya",
+      "tokens": [
+        {
+          "text": "部屋",
+          "kana": "へや"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "风",
+      "japanese": "風",
+      "kana": "かぜ",
+      "romaji": "kaze",
+      "tokens": [
+        {
+          "text": "風",
+          "kana": "かぜ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "感冒",
+      "japanese": "風邪",
+      "kana": "かぜ",
+      "romaji": "kaze",
+      "tokens": [
+        {
+          "text": "風邪",
+          "kana": "かぜ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "浴缸；洗澡；澡堂",
+      "japanese": "風呂",
+      "kana": "ふろ",
+      "romaji": "furo",
+      "tokens": [
+        {
+          "text": "風呂",
+          "kana": "ふろ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "衣服",
+      "japanese": "服",
+      "kana": "ふく",
+      "romaji": "fuku",
+      "tokens": [
+        {
+          "text": "服",
+          "kana": "ふく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "东西，物品",
+      "japanese": "物",
+      "kana": "もの",
+      "romaji": "mono",
+      "tokens": [
+        {
+          "text": "物",
+          "kana": "もの"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "平假名",
+      "japanese": "平仮名",
+      "kana": "ひらがな",
+      "romaji": "hiragana",
+      "tokens": [
+        {
+          "text": "平仮名",
+          "kana": "ひらがな"
+        }
+      ]
+    }
+  ]
+}

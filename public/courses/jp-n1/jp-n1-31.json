@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-31",
+  "coursePackId": "jp-n1",
+  "title": "名词 31",
+  "order": 31,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "进展，发展",
+      "japanese": "進展",
+      "kana": "しんてん",
+      "romaji": "shinten",
+      "tokens": [
+        {
+          "text": "進展",
+          "kana": "しんてん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "人格，人品",
+      "japanese": "人格",
+      "kana": "じんかく",
+      "romaji": "jinkaku",
+      "tokens": [
+        {
+          "text": "人格",
+          "kana": "じんかく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "人权",
+      "japanese": "人権",
+      "kana": "じんけん",
+      "romaji": "jinken",
+      "tokens": [
+        {
+          "text": "人権",
+          "kana": "じんけん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "人潮，人流",
+      "japanese": "人波",
+      "kana": "ひとなみ",
+      "romaji": "hitonami",
+      "tokens": [
+        {
+          "text": "人波",
+          "kana": "ひとなみ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "迅速",
+      "japanese": "迅速",
+      "kana": "じんそく",
+      "romaji": "jinsoku",
+      "tokens": [
+        {
+          "text": "迅速",
+          "kana": "じんそく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "推进",
+      "japanese": "推進",
+      "kana": "すいしん",
+      "romaji": "suishin",
+      "tokens": [
+        {
+          "text": "推進",
+          "kana": "すいしん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "执行到底，完成",
+      "japanese": "遂行",
+      "kana": "すいこう",
+      "romaji": "suikou",
+      "tokens": [
+        {
+          "text": "遂行",
+          "kana": "すいこう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "更正，改正，纠正",
+      "japanese": "是正",
+      "kana": "ぜせい",
+      "romaji": "zesei",
+      "tokens": [
+        {
+          "text": "是正",
+          "kana": "ぜせい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "支配，控制；调节",
+      "japanese": "制御",
+      "kana": "せいぎょ",
+      "romaji": "seigyo",
+      "tokens": [
+        {
+          "text": "制御",
+          "kana": "せいぎょ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "政权",
+      "japanese": "政権",
+      "kana": "せいけん",
+      "romaji": "seiken",
+      "tokens": [
+        {
+          "text": "政権",
+          "kana": "せいけん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "正规",
+      "japanese": "正規",
+      "kana": "せいき",
+      "romaji": "seiki",
+      "tokens": [
+        {
+          "text": "正規",
+          "kana": "せいき"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "正义",
+      "japanese": "正義",
+      "kana": "せいぎ",
+      "romaji": "seigi",
+      "tokens": [
+        {
+          "text": "正義",
+          "kana": "せいぎ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "一生，生涯",
+      "japanese": "生涯",
+      "kana": "しょうがい",
+      "romaji": "shougai",
+      "tokens": [
+        {
+          "text": "生涯",
+          "kana": "しょうがい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "生气，活力",
+      "japanese": "生気",
+      "kana": "せいき",
+      "romaji": "seiki",
+      "tokens": [
+        {
+          "text": "生気",
+          "kana": "せいき"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "生死",
+      "japanese": "生死",
+      "kana": "せいし",
+      "romaji": "seishi",
+      "tokens": [
+        {
+          "text": "生死",
+          "kana": "せいし"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "活人，有血有肉的人",
+      "japanese": "生身",
+      "kana": "なまみ",
+      "romaji": "namami",
+      "tokens": [
+        {
+          "text": "生身",
+          "kana": "なまみ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "盛大，规模宏大",
+      "japanese": "盛大",
+      "kana": "せいだい",
+      "romaji": "seidai",
+      "tokens": [
+        {
+          "text": "盛大",
+          "kana": "せいだい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "精巧，精密",
+      "japanese": "精巧",
+      "kana": "せいこう",
+      "romaji": "seikou",
+      "tokens": [
+        {
+          "text": "精巧",
+          "kana": "せいこう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "精密，精确",
+      "japanese": "精密",
+      "kana": "せいみつ",
+      "romaji": "seimitsu",
+      "tokens": [
+        {
+          "text": "精密",
+          "kana": "せいみつ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "制作方法",
+      "japanese": "製法",
+      "kana": "せいほう",
+      "romaji": "seihou",
+      "tokens": [
+        {
+          "text": "製法",
+          "kana": "せいほう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "青春",
+      "japanese": "青春",
+      "kana": "せいしゅん",
+      "romaji": "seishun",
+      "tokens": [
+        {
+          "text": "青春",
+          "kana": "せいしゅん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "静止",
+      "japanese": "静止",
+      "kana": "せいし",
+      "romaji": "seishi",
+      "tokens": [
+        {
+          "text": "静止",
+          "kana": "せいし"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "段落；间断，中断；裂缝",
+      "japanese": "切れ目",
+      "kana": "きれめ",
+      "romaji": "kireme",
+      "tokens": [
+        {
+          "text": "切れ目",
+          "kana": "きれめ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "设立，成立",
+      "japanese": "設立",
+      "kana": "せつりつ",
+      "romaji": "setsuritsu",
+      "tokens": [
+        {
+          "text": "設立",
+          "kana": "せつりつ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "绝版",
+      "japanese": "絶版",
+      "kana": "ぜっぱん",
+      "romaji": "zeppan",
+      "tokens": [
+        {
+          "text": "絶版",
+          "kana": "ぜっぱん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "失望，绝望",
+      "japanese": "絶望",
+      "kana": "ぜつぼう",
+      "romaji": "zetsubou",
+      "tokens": [
+        {
+          "text": "絶望",
+          "kana": "ぜつぼう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "占领，占据",
+      "japanese": "占領",
+      "kana": "せんりょう",
+      "romaji": "senryou",
+      "tokens": [
+        {
+          "text": "占領",
+          "kana": "せんりょう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "宣言，（正式）宣布",
+      "japanese": "宣言",
+      "kana": "せんげん",
+      "romaji": "sengen",
+      "tokens": [
+        {
+          "text": "宣言",
+          "kana": "せんげん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "序言，开场白",
+      "japanese": "前置き",
+      "kana": "まえおき",
+      "romaji": "maeoki",
+      "tokens": [
+        {
+          "text": "前置き",
+          "kana": "まえおき"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "前例，先例",
+      "japanese": "前例",
+      "kana": "ぜんれい",
+      "romaji": "zenrei",
+      "tokens": [
+        {
+          "text": "前例",
+          "kana": "ぜんれい"
+        }
+      ]
+    }
+  ]
+}

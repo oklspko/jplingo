@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-96",
+  "coursePackId": "jp-n1",
+  "title": "动词 5",
+  "order": 96,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "盛入；加入（内容、功能等）",
+      "japanese": "盛り込む",
+      "kana": "もりこむ",
+      "romaji": "morikomu",
+      "tokens": [
+        {
+          "text": "盛り込む",
+          "kana": "もりこむ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "开垦，开拓；杀开；开辟，开创",
+      "japanese": "切り開く",
+      "kana": "きりひらく",
+      "romaji": "kirihiraku",
+      "tokens": [
+        {
+          "text": "切り開く",
+          "kana": "きりひらく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "将木材或石头切割后运出；开始说重要的事情",
+      "japanese": "切り出す",
+      "kana": "きりだす",
+      "romaji": "kiridasu",
+      "tokens": [
+        {
+          "text": "切り出す",
+          "kana": "きりだす"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "断绝",
+      "japanese": "絶つ",
+      "kana": "たつ",
+      "romaji": "tatsu",
+      "tokens": [
+        {
+          "text": "絶つ",
+          "kana": "たつ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "碎，破碎；被撕掉，被揪掉",
+      "japanese": "千切れる",
+      "kana": "ちぎれる",
+      "romaji": "chigireru",
+      "tokens": [
+        {
+          "text": "千切れる",
+          "kana": "ちぎれる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "推荐，推举",
+      "japanese": "薦める",
+      "kana": "すすめる",
+      "romaji": "susumeru",
+      "tokens": [
+        {
+          "text": "薦める",
+          "kana": "すすめる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "打出，射出；开始敲打；提出（主张）",
+      "japanese": "打ち出す",
+      "kana": "うちだす",
+      "romaji": "uchidasu",
+      "tokens": [
+        {
+          "text": "打ち出す",
+          "kana": "うちだす"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "超过；超出",
+      "japanese": "超す",
+      "kana": "こす",
+      "romaji": "kosu",
+      "tokens": [
+        {
+          "text": "超す",
+          "kana": "こす"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "起跳；下决心付诸实施",
+      "japanese": "踏み切る",
+      "kana": "ふみきる",
+      "romaji": "fumikiru",
+      "tokens": [
+        {
+          "text": "踏み切る",
+          "kana": "ふみきる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "脱落，揭下",
+      "japanese": "剝がれる",
+      "kana": "はがれる",
+      "romaji": "hagareru",
+      "tokens": [
+        {
+          "text": "剝がれる",
+          "kana": "はがれる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "捆绑到某物上；束缚",
+      "japanese": "縛り付ける",
+      "kana": "しばりつける",
+      "romaji": "shibaritsukeru",
+      "tokens": [
+        {
+          "text": "縛り付ける",
+          "kana": "しばりつける"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "拔出，抽出；选出，选拔",
+      "japanese": "抜き出す",
+      "kana": "ぬきだす",
+      "romaji": "nukidasu",
+      "tokens": [
+        {
+          "text": "抜き出す",
+          "kana": "ぬきだす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "漂浮；充满，弥漫；徘徊",
+      "japanese": "漂う",
+      "kana": "ただよう",
+      "romaji": "tadayou",
+      "tokens": [
+        {
+          "text": "漂う",
+          "kana": "ただよう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "膨胀，鼓起；不高兴",
+      "japanese": "膨れる",
+      "kana": "ふくれる",
+      "romaji": "fukureru",
+      "tokens": [
+        {
+          "text": "膨れる",
+          "kana": "ふくれる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "超出；肿胀",
+      "japanese": "膨れ上がる",
+      "kana": "ふくれあがる",
+      "romaji": "fukureagaru",
+      "tokens": [
+        {
+          "text": "膨れ上がる",
+          "kana": "ふくれあがる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "医治，解除（疲劳、痛苦等）",
+      "japanese": "癒やす",
+      "kana": "いやす",
+      "romaji": "iyasu",
+      "tokens": [
+        {
+          "text": "癒やす",
+          "kana": "いやす"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "站起身离开",
+      "japanese": "立ち去る",
+      "kana": "たちさる",
+      "romaji": "tachisaru",
+      "tokens": [
+        {
+          "text": "立ち去る",
+          "kana": "たちさる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "恢复，复原；（经济）好转",
+      "japanese": "立ち直る",
+      "kana": "たちなおる",
+      "romaji": "tachinaoru",
+      "tokens": [
+        {
+          "text": "立ち直る",
+          "kana": "たちなおる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "鼓励，激励，勉励",
+      "japanese": "励ます",
+      "kana": "はげます",
+      "romaji": "hagemasu",
+      "tokens": [
+        {
+          "text": "励ます",
+          "kana": "はげます"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "恋爱，喜爱",
+      "japanese": "恋する",
+      "kana": "こいする",
+      "romaji": "koisuru",
+      "tokens": [
+        {
+          "text": "恋する",
+          "kana": "こいする"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（留）停，停留；（止）止于，限于",
+      "japanese": "とどまる",
+      "kana": "とどまる",
+      "romaji": "todomaru",
+      "tokens": [
+        {
+          "text": "とどまる",
+          "kana": "とどまる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "常有，司空见惯",
+      "japanese": "ありふれる",
+      "kana": "ありふれる",
+      "romaji": "arifureru",
+      "tokens": [
+        {
+          "text": "ありふれる",
+          "kana": "ありふれる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "怜恤，体贴；慰劳",
+      "japanese": "いたわる",
+      "kana": "いたわる",
+      "romaji": "itawaru",
+      "tokens": [
+        {
+          "text": "いたわる",
+          "kana": "いたわる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "胆怯，恐惧",
+      "japanese": "おびえる",
+      "kana": "おびえる",
+      "romaji": "obieru",
+      "tokens": [
+        {
+          "text": "おびえる",
+          "kana": "おびえる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "搅拌；搅乱",
+      "japanese": "かき回す",
+      "kana": "かきまわす",
+      "romaji": "kakimawasu",
+      "tokens": [
+        {
+          "text": "かき回す",
+          "kana": "かきまわす"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "体积大，占地方",
+      "japanese": "嵩張[かさば]る",
+      "kana": "かさばる",
+      "romaji": "kasabaru",
+      "tokens": [
+        {
+          "text": "嵩張[かさば]る",
+          "kana": "かさばる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（数量）增多；（体积）增大",
+      "japanese": "かさむ",
+      "kana": "かさむ",
+      "romaji": "kasamu",
+      "tokens": [
+        {
+          "text": "かさむ",
+          "kana": "かさむ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "捆绑；总结",
+      "japanese": "くくる",
+      "kana": "くくる",
+      "romaji": "kukuru",
+      "tokens": [
+        {
+          "text": "くくる",
+          "kana": "くくる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "贬低，诋毁",
+      "japanese": "けなす",
+      "kana": "けなす",
+      "romaji": "kenasu",
+      "tokens": [
+        {
+          "text": "けなす",
+          "kana": "けなす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（事态）复杂化，恶化；病情恶化",
+      "japanese": "こじれる",
+      "kana": "こじれる",
+      "romaji": "kojireru",
+      "tokens": [
+        {
+          "text": "こじれる",
+          "kana": "こじれる"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-109",
+  "coursePackId": "jp-n1",
+  "title": "动词 18",
+  "order": 109,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "特设",
+      "japanese": "特設",
+      "kana": "とくせつ",
+      "romaji": "tokusetsu",
+      "tokens": [
+        {
+          "text": "特設",
+          "kana": "とくせつ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "扑灭，消灭",
+      "japanese": "撲滅",
+      "kana": "ぼくめつ",
+      "romaji": "bokumetsu",
+      "tokens": [
+        {
+          "text": "撲滅",
+          "kana": "ぼくめつ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "制定方案，筹划",
+      "japanese": "立案",
+      "kana": "りつあん",
+      "romaji": "ritsuan",
+      "tokens": [
+        {
+          "text": "立案",
+          "kana": "りつあん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "充当，填补，充作",
+      "japanese": "充当",
+      "kana": "じゅうとう",
+      "romaji": "juutou",
+      "tokens": [
+        {
+          "text": "充当",
+          "kana": "じゅうとう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "磕碰，碰撞",
+      "japanese": "打撲",
+      "kana": "だぼく",
+      "romaji": "daboku",
+      "tokens": [
+        {
+          "text": "打撲",
+          "kana": "だぼく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "过热；过度，过于激烈",
+      "japanese": "過熱",
+      "kana": "かねつ",
+      "romaji": "kanetsu",
+      "tokens": [
+        {
+          "text": "過熱",
+          "kana": "かねつ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "编纂",
+      "japanese": "編 纂[さん]",
+      "kana": "へんさん",
+      "romaji": "hensan",
+      "tokens": [
+        {
+          "text": "編 纂[さん]",
+          "kana": "へんさん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "优先取得，先得到；预先领取，预先得到",
+      "japanese": "先取り",
+      "kana": "さきどり",
+      "romaji": "sakidori",
+      "tokens": [
+        {
+          "text": "先取り",
+          "kana": "さきどり"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "撤回，撤销",
+      "japanese": "撤回",
+      "kana": "てっかい",
+      "romaji": "tekkai",
+      "tokens": [
+        {
+          "text": "撤回",
+          "kana": "てっかい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "增设",
+      "japanese": "増設",
+      "kana": "ぞうせつ",
+      "romaji": "zousetsu",
+      "tokens": [
+        {
+          "text": "増設",
+          "kana": "ぞうせつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "立意，构思，主意",
+      "japanese": "着想",
+      "kana": "ちゃくそう",
+      "romaji": "chakusou",
+      "tokens": [
+        {
+          "text": "着想",
+          "kana": "ちゃくそう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "仔细考虑，深思熟虑",
+      "japanese": "熟考",
+      "kana": "じゅっこう",
+      "romaji": "jukkou",
+      "tokens": [
+        {
+          "text": "熟考",
+          "kana": "じゅっこう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（在后面）推（的人）；支援（者）",
+      "japanese": "後押し",
+      "kana": "あとおし",
+      "romaji": "atooshi",
+      "tokens": [
+        {
+          "text": "後押し",
+          "kana": "あとおし"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "泄漏",
+      "japanese": "漏 洩[えい]",
+      "kana": "ろうえい",
+      "romaji": "rouei",
+      "tokens": [
+        {
+          "text": "漏 洩[えい]",
+          "kana": "ろうえい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "供述，口供",
+      "japanese": "供述",
+      "kana": "きょうじゅつ",
+      "romaji": "kyoujutsu",
+      "tokens": [
+        {
+          "text": "供述",
+          "kana": "きょうじゅつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "不受理，驳回（申请、诉讼等）",
+      "japanese": "却下",
+      "kana": "きゃっか",
+      "romaji": "kyakka",
+      "tokens": [
+        {
+          "text": "却下",
+          "kana": "きゃっか"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "无上的称赞，最好的赞美",
+      "japanese": "絶賛",
+      "kana": "ぜっさん",
+      "romaji": "zessan",
+      "tokens": [
+        {
+          "text": "絶賛",
+          "kana": "ぜっさん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "调解，仲裁",
+      "japanese": "仲裁",
+      "kana": "ちゅうさい",
+      "romaji": "chuusai",
+      "tokens": [
+        {
+          "text": "仲裁",
+          "kana": "ちゅうさい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "转让",
+      "japanese": "譲渡",
+      "kana": "じょうと",
+      "romaji": "jouto",
+      "tokens": [
+        {
+          "text": "譲渡",
+          "kana": "じょうと"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "著作，著书",
+      "japanese": "著作",
+      "kana": "ちょさく",
+      "romaji": "chosaku",
+      "tokens": [
+        {
+          "text": "著作",
+          "kana": "ちょさく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "校阅，校订",
+      "japanese": "校閲",
+      "kana": "こうえつ",
+      "romaji": "kouetsu",
+      "tokens": [
+        {
+          "text": "校閲",
+          "kana": "こうえつ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "复位",
+      "japanese": "リセット",
+      "kana": "りせっと",
+      "romaji": "risetto",
+      "tokens": [
+        {
+          "text": "リセット",
+          "kana": "りせっと"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "仿效，模仿；口技",
+      "japanese": "物真似",
+      "kana": "ものまね",
+      "romaji": "monomane",
+      "tokens": [
+        {
+          "text": "物真似",
+          "kana": "ものまね"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "飞跑；（向着某个目标）冲刺",
+      "japanese": "突っ走る",
+      "kana": "つっぱしる",
+      "romaji": "tsuppashiru",
+      "tokens": [
+        {
+          "text": "突っ走る",
+          "kana": "つっぱしる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（系着的东西）解开；消，解消",
+      "japanese": "ほどける",
+      "kana": "ほどける",
+      "romaji": "hodokeru",
+      "tokens": [
+        {
+          "text": "ほどける",
+          "kana": "ほどける"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "（挣扎着）活下去",
+      "japanese": "生き抜く",
+      "kana": "いきぬく",
+      "romaji": "ikinuku",
+      "tokens": [
+        {
+          "text": "生き抜く",
+          "kana": "いきぬく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "遍布，普及",
+      "japanese": "行き渡る",
+      "kana": "ゆきわたる",
+      "romaji": "yukiwataru",
+      "tokens": [
+        {
+          "text": "行き渡る",
+          "kana": "ゆきわたる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "看准，看清",
+      "japanese": "見定める",
+      "kana": "みさだめる",
+      "romaji": "misadameru",
+      "tokens": [
+        {
+          "text": "見定める",
+          "kana": "みさだめる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "锁上（门窗）；闭上；封锁；封闭",
+      "japanese": "閉ざす",
+      "kana": "とざす",
+      "romaji": "tozasu",
+      "tokens": [
+        {
+          "text": "閉ざす",
+          "kana": "とざす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "挪到；调换，替换",
+      "japanese": "置き換える",
+      "kana": "おきかえる",
+      "romaji": "okikaeru",
+      "tokens": [
+        {
+          "text": "置き換える",
+          "kana": "おきかえる"
+        }
+      ]
+    }
+  ]
+}

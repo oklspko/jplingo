@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-51",
+  "coursePackId": "jp-n1",
+  "title": "名词 51",
+  "order": 51,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "靶子；目标",
+      "japanese": "的",
+      "kana": "まと",
+      "romaji": "mato",
+      "tokens": [
+        {
+          "text": "的",
+          "kana": "まと"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "取消，撤销",
+      "japanese": "撤廃",
+      "kana": "てっぱい",
+      "romaji": "teppai",
+      "tokens": [
+        {
+          "text": "撤廃",
+          "kana": "てっぱい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "天体",
+      "japanese": "天体",
+      "kana": "てんたい",
+      "romaji": "tentai",
+      "tokens": [
+        {
+          "text": "天体",
+          "kana": "てんたい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "天文",
+      "japanese": "天文",
+      "kana": "てんもん",
+      "romaji": "tenmon",
+      "tokens": [
+        {
+          "text": "天文",
+          "kana": "てんもん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "转化，转变",
+      "japanese": "転化",
+      "kana": "てんか",
+      "romaji": "tenka",
+      "tokens": [
+        {
+          "text": "転化",
+          "kana": "てんか"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "置之度外",
+      "japanese": "度外視",
+      "kana": "どがいし",
+      "romaji": "dogaishi",
+      "tokens": [
+        {
+          "text": "度外視",
+          "kana": "どがいし"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "冬天的山",
+      "japanese": "冬山",
+      "kana": "ふゆやま",
+      "romaji": "fuyuyama",
+      "tokens": [
+        {
+          "text": "冬山",
+          "kana": "ふゆやま"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "投球",
+      "japanese": "投球",
+      "kana": "とうきゅう",
+      "romaji": "toukyuu",
+      "tokens": [
+        {
+          "text": "投球",
+          "kana": "とうきゅう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "东南",
+      "japanese": "東南",
+      "kana": "とうなん",
+      "romaji": "tounan",
+      "tokens": [
+        {
+          "text": "東南",
+          "kana": "とうなん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "陪同，（男女）同行",
+      "japanese": "同伴",
+      "kana": "どうはん",
+      "romaji": "douhan",
+      "tokens": [
+        {
+          "text": "同伴",
+          "kana": "どうはん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "（动物的）躯体；腰身",
+      "japanese": "胴",
+      "kana": "どう",
+      "romaji": "dou",
+      "tokens": [
+        {
+          "text": "胴",
+          "kana": "どう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "路程，距离",
+      "japanese": "道のり",
+      "kana": "みちのり",
+      "romaji": "michinori",
+      "tokens": [
+        {
+          "text": "道のり",
+          "kana": "みちのり"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "道路；道理，条理",
+      "japanese": "道筋",
+      "kana": "みちすじ",
+      "romaji": "michisuji",
+      "tokens": [
+        {
+          "text": "道筋",
+          "kana": "みちすじ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "自学",
+      "japanese": "独学",
+      "kana": "どくがく",
+      "romaji": "dokugaku",
+      "tokens": [
+        {
+          "text": "独学",
+          "kana": "どくがく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "难以航行；进展迟缓",
+      "japanese": "難航",
+      "kana": "なんこう",
+      "romaji": "nankou",
+      "tokens": [
+        {
+          "text": "難航",
+          "kana": "なんこう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "天气；晴天；形势",
+      "japanese": "日和",
+      "kana": "ひより",
+      "romaji": "hiyori",
+      "tokens": [
+        {
+          "text": "日和",
+          "kana": "ひより"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "进货，到货",
+      "japanese": "入荷",
+      "kana": "にゅうか",
+      "romaji": "nyuuka",
+      "tokens": [
+        {
+          "text": "入荷",
+          "kana": "にゅうか"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "细心，精心，周到",
+      "japanese": "入念",
+      "kana": "にゅうねん",
+      "romaji": "nyuunen",
+      "tokens": [
+        {
+          "text": "入念",
+          "kana": "にゅうねん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "沸腾的热水，滚烫的水",
+      "japanese": "熱湯",
+      "kana": "ねっとう",
+      "romaji": "nettou",
+      "tokens": [
+        {
+          "text": "熱湯",
+          "kana": "ねっとう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "热量；热情的程度",
+      "japanese": "熱量",
+      "kana": "ねつりょう",
+      "romaji": "netsuryou",
+      "tokens": [
+        {
+          "text": "熱量",
+          "kana": "ねつりょう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "年薪",
+      "japanese": "年俸",
+      "kana": "ねんぽう",
+      "romaji": "nenpou",
+      "tokens": [
+        {
+          "text": "年俸",
+          "kana": "ねんぽう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "筹措；想出",
+      "japanese": "捻出",
+      "kana": "ねんしゅつ",
+      "romaji": "nenshutsu",
+      "tokens": [
+        {
+          "text": "捻出",
+          "kana": "ねんしゅつ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "交货期",
+      "japanese": "納期",
+      "kana": "のうき",
+      "romaji": "nouki",
+      "tokens": [
+        {
+          "text": "納期",
+          "kana": "のうき"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "农场",
+      "japanese": "農場",
+      "kana": "のうじょう",
+      "romaji": "noujou",
+      "tokens": [
+        {
+          "text": "農場",
+          "kana": "のうじょう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "波及",
+      "japanese": "波及",
+      "kana": "はきゅう",
+      "romaji": "hakyuu",
+      "tokens": [
+        {
+          "text": "波及",
+          "kana": "はきゅう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "破裂，失败，破产",
+      "japanese": "破綻",
+      "kana": "はたん",
+      "romaji": "hatan",
+      "tokens": [
+        {
+          "text": "破綻",
+          "kana": "はたん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "困境",
+      "japanese": "羽目",
+      "kana": "はめ",
+      "romaji": "hame",
+      "tokens": [
+        {
+          "text": "羽目",
+          "kana": "はめ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "废弃物",
+      "japanese": "廃棄物",
+      "kana": "はいきぶつ",
+      "romaji": "haikibutsu",
+      "tokens": [
+        {
+          "text": "廃棄物",
+          "kana": "はいきぶつ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "分配，分发（给某个固定群体）",
+      "japanese": "配付",
+      "kana": "はいふ",
+      "romaji": "haifu",
+      "tokens": [
+        {
+          "text": "配付",
+          "kana": "はいふ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "节拍；当……",
+      "japanese": "拍子",
+      "kana": "ひょうし",
+      "romaji": "hyoushi",
+      "tokens": [
+        {
+          "text": "拍子",
+          "kana": "ひょうし"
+        }
+      ]
+    }
+  ]
+}

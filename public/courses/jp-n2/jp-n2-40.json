@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-40",
+  "coursePackId": "jp-n2",
+  "title": "名词 40",
+  "order": 40,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "振动，摆动",
+      "japanese": "振動",
+      "kana": "しんどう",
+      "romaji": "shindou",
+      "tokens": [
+        {
+          "text": "振動",
+          "kana": "しんどう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "进化；进步，发展",
+      "japanese": "進化",
+      "kana": "しんか",
+      "romaji": "shinka",
+      "tokens": [
+        {
+          "text": "進化",
+          "kana": "しんか"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "（体育赛事中）晋级；打入，进入（新领域）",
+      "japanese": "進出",
+      "kana": "しんしゅつ",
+      "romaji": "shinshutsu",
+      "tokens": [
+        {
+          "text": "進出",
+          "kana": "しんしゅつ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "（人或交通工具）进入",
+      "japanese": "進入",
+      "kana": "しんにゅう",
+      "romaji": "shinnyuu",
+      "tokens": [
+        {
+          "text": "進入",
+          "kana": "しんにゅう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "推测，猜测",
+      "japanese": "推測",
+      "kana": "すいそく",
+      "romaji": "suisoku",
+      "tokens": [
+        {
+          "text": "推測",
+          "kana": "すいそく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（衣服的）下摆，裤脚，下端；山麓",
+      "japanese": "裾",
+      "kana": "すそ",
+      "romaji": "suso",
+      "tokens": [
+        {
+          "text": "裾",
+          "kana": "すそ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "世代，一代，辈",
+      "japanese": "世代",
+      "kana": "せだい",
+      "romaji": "sedai",
+      "tokens": [
+        {
+          "text": "世代",
+          "kana": "せだい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "人生的意义",
+      "japanese": "生きがい",
+      "kana": "いきがい",
+      "romaji": "ikigai",
+      "tokens": [
+        {
+          "text": "生きがい",
+          "kana": "いきがい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "生计，维持生活的手段",
+      "japanese": "生計",
+      "kana": "せいけい",
+      "romaji": "seikei",
+      "tokens": [
+        {
+          "text": "生計",
+          "kana": "せいけい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "竭尽全力",
+      "japanese": "精一杯",
+      "kana": "せいいっぱい",
+      "romaji": "seiippai",
+      "tokens": [
+        {
+          "text": "精一杯",
+          "kana": "せいいっぱい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "安装，设置；设立",
+      "japanese": "設置",
+      "kana": "せっち",
+      "romaji": "setchi",
+      "tokens": [
+        {
+          "text": "設置",
+          "kana": "せっち"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "设定，订立",
+      "japanese": "設定",
+      "kana": "せってい",
+      "romaji": "settei",
+      "tokens": [
+        {
+          "text": "設定",
+          "kana": "せってい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "说服，劝说",
+      "japanese": "説得",
+      "kana": "せっとく",
+      "romaji": "settoku",
+      "tokens": [
+        {
+          "text": "説得",
+          "kana": "せっとく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "说服力",
+      "japanese": "説得力",
+      "kana": "せっとくりょく",
+      "romaji": "settokuryoku",
+      "tokens": [
+        {
+          "text": "説得力",
+          "kana": "せっとくりょく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "先到，先到的人",
+      "japanese": "先着",
+      "kana": "せんちゃく",
+      "romaji": "senchaku",
+      "tokens": [
+        {
+          "text": "先着",
+          "kana": "せんちゃく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "专业",
+      "japanese": "専業",
+      "kana": "せんぎょう",
+      "romaji": "sengyou",
+      "tokens": [
+        {
+          "text": "専業",
+          "kana": "せんぎょう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "战斗，战争",
+      "japanese": "戦い",
+      "kana": "たたかい",
+      "romaji": "tatakai",
+      "tokens": [
+        {
+          "text": "戦い",
+          "kana": "たたかい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "战略，战术",
+      "japanese": "戦略",
+      "kana": "せんりゃく",
+      "romaji": "senryaku",
+      "tokens": [
+        {
+          "text": "戦略",
+          "kana": "せんりゃく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "选用，选拔人才",
+      "japanese": "選考",
+      "kana": "せんこう",
+      "romaji": "senkou",
+      "tokens": [
+        {
+          "text": "選考",
+          "kana": "せんこう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "前提",
+      "japanese": "前提",
+      "kana": "ぜんてい",
+      "romaji": "zentei",
+      "tokens": [
+        {
+          "text": "前提",
+          "kana": "ぜんてい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "好，善良",
+      "japanese": "善",
+      "kana": "ぜん",
+      "romaji": "zen",
+      "tokens": [
+        {
+          "text": "善",
+          "kana": "ぜん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "原料，素材；题材",
+      "japanese": "素材",
+      "kana": "そざい",
+      "romaji": "sozai",
+      "tokens": [
+        {
+          "text": "素材",
+          "kana": "そざい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "申诉，诉讼",
+      "japanese": "訴え",
+      "kana": "うったえ",
+      "romaji": "uttae",
+      "tokens": [
+        {
+          "text": "訴え",
+          "kana": "うったえ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "设想，预期",
+      "japanese": "想定",
+      "kana": "そうてい",
+      "romaji": "soutei",
+      "tokens": [
+        {
+          "text": "想定",
+          "kana": "そうてい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "火速，火急",
+      "japanese": "早急",
+      "kana": "さっきゅう",
+      "romaji": "sakkyuu",
+      "tokens": [
+        {
+          "text": "早急",
+          "kana": "さっきゅう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "争论，纠纷，竞争",
+      "japanese": "争い",
+      "kana": "あらそい",
+      "romaji": "arasoi",
+      "tokens": [
+        {
+          "text": "争い",
+          "kana": "あらそい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "合得来，性情相投；（电脑等）兼容性",
+      "japanese": "相性",
+      "kana": "あいしょう",
+      "romaji": "aishou",
+      "tokens": [
+        {
+          "text": "相性",
+          "kana": "あいしょう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "总额",
+      "japanese": "総額",
+      "kana": "そうがく",
+      "romaji": "sougaku",
+      "tokens": [
+        {
+          "text": "総額",
+          "kana": "そうがく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "总括，综合",
+      "japanese": "総合",
+      "kana": "そうごう",
+      "romaji": "sougou",
+      "tokens": [
+        {
+          "text": "総合",
+          "kana": "そうごう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "花草",
+      "japanese": "草花",
+      "kana": "くさばな",
+      "romaji": "kusabana",
+      "tokens": [
+        {
+          "text": "草花",
+          "kana": "くさばな"
+        }
+      ]
+    }
+  ]
+}

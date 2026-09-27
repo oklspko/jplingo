@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-08",
+  "coursePackId": "jp-n1",
+  "title": "名词 8",
+  "order": 8,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "网；法网",
+      "japanese": "網",
+      "kana": "あみ",
+      "romaji": "ami",
+      "tokens": [
+        {
+          "text": "網",
+          "kana": "あみ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "年糕",
+      "japanese": "餅",
+      "kana": "もち",
+      "romaji": "mochi",
+      "tokens": [
+        {
+          "text": "餅",
+          "kana": "もち"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "（团体等的）负责人；（公司的）董事",
+      "japanese": "役員",
+      "kana": "やくいん",
+      "romaji": "yakuin",
+      "tokens": [
+        {
+          "text": "役員",
+          "kana": "やくいん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "跳动，朝气蓬勃",
+      "japanese": "躍動",
+      "kana": "やくどう",
+      "romaji": "yakudou",
+      "tokens": [
+        {
+          "text": "躍動",
+          "kana": "やくどう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "油画",
+      "japanese": "油絵",
+      "kana": "あぶらえ",
+      "romaji": "aburae",
+      "tokens": [
+        {
+          "text": "油絵",
+          "kana": "あぶらえ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "由来，来历；原本，本来",
+      "japanese": "由来",
+      "kana": "ゆらい",
+      "romaji": "yurai",
+      "tokens": [
+        {
+          "text": "由来",
+          "kana": "ゆらい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "黄昏，傍晚",
+      "japanese": "夕暮れ",
+      "kana": "ゆうぐれ",
+      "romaji": "yuugure",
+      "tokens": [
+        {
+          "text": "夕暮れ",
+          "kana": "ゆうぐれ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "西洋……，西式……",
+      "japanese": "洋",
+      "kana": "よう",
+      "romaji": "you",
+      "tokens": [
+        {
+          "text": "洋",
+          "kana": "よう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "欲望",
+      "japanese": "欲望",
+      "kana": "よくぼう",
+      "romaji": "yokubou",
+      "tokens": [
+        {
+          "text": "欲望",
+          "kana": "よくぼう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "离婚",
+      "japanese": "離婚",
+      "kana": "りこん",
+      "romaji": "rikon",
+      "tokens": [
+        {
+          "text": "離婚",
+          "kana": "りこん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "颗粒，圆粒",
+      "japanese": "粒",
+      "kana": "つぶ",
+      "romaji": "tsubu",
+      "tokens": [
+        {
+          "text": "粒",
+          "kana": "つぶ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "连日，接连几天",
+      "japanese": "連日",
+      "kana": "れんじつ",
+      "romaji": "renjitsu",
+      "tokens": [
+        {
+          "text": "連日",
+          "kana": "れんじつ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "鼾声",
+      "japanese": "いびき",
+      "kana": "いびき",
+      "romaji": "ibiki",
+      "tokens": [
+        {
+          "text": "いびき",
+          "kana": "いびき"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "圆圈，圆形；车轮",
+      "japanese": "輪",
+      "kana": "わ",
+      "romaji": "wa",
+      "tokens": [
+        {
+          "text": "輪",
+          "kana": "わ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "钉子",
+      "japanese": "くぎ",
+      "kana": "くぎ",
+      "romaji": "kugi",
+      "tokens": [
+        {
+          "text": "くぎ",
+          "kana": "くぎ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "勺子",
+      "japanese": "さじ",
+      "kana": "さじ",
+      "romaji": "saji",
+      "tokens": [
+        {
+          "text": "さじ",
+          "kana": "さじ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "要点，要领；窍门，诀窍",
+      "japanese": "要領",
+      "kana": "ようりょう",
+      "romaji": "youryou",
+      "tokens": [
+        {
+          "text": "要領",
+          "kana": "ようりょう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "水平；平衡",
+      "japanese": "水平",
+      "kana": "すいへい",
+      "romaji": "suihei",
+      "tokens": [
+        {
+          "text": "水平",
+          "kana": "すいへい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "赞成，通过",
+      "japanese": "可決",
+      "kana": "かけつ",
+      "romaji": "kaketsu",
+      "tokens": [
+        {
+          "text": "可決",
+          "kana": "かけつ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "方言，土话",
+      "japanese": "方言",
+      "kana": "ほうげん",
+      "romaji": "hougen",
+      "tokens": [
+        {
+          "text": "方言",
+          "kana": "ほうげん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "不利，不妙",
+      "japanese": "不利",
+      "kana": "ふり",
+      "romaji": "furi",
+      "tokens": [
+        {
+          "text": "不利",
+          "kana": "ふり"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "图表；曲线图，坐标图",
+      "japanese": "図表",
+      "kana": "ずひょう",
+      "romaji": "zuhyou",
+      "tokens": [
+        {
+          "text": "図表",
+          "kana": "ずひょう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "复印，复制",
+      "japanese": "複写",
+      "kana": "ふくしゃ",
+      "romaji": "fukusha",
+      "tokens": [
+        {
+          "text": "複写",
+          "kana": "ふくしゃ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "署名，签名",
+      "japanese": "署名",
+      "kana": "しょめい",
+      "romaji": "shomei",
+      "tokens": [
+        {
+          "text": "署名",
+          "kana": "しょめい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "体系，系统",
+      "japanese": "体系",
+      "kana": "たいけい",
+      "romaji": "taikei",
+      "tokens": [
+        {
+          "text": "体系",
+          "kana": "たいけい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "索赔；投诉，抱怨",
+      "japanese": "クレーム",
+      "kana": "くれえむ",
+      "romaji": "kureemu",
+      "tokens": [
+        {
+          "text": "クレーム",
+          "kana": "くれえむ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "功绩，功业",
+      "japanese": "功績",
+      "kana": "こうせき",
+      "romaji": "kouseki",
+      "tokens": [
+        {
+          "text": "功績",
+          "kana": "こうせき"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "集合，集会",
+      "japanese": "会合",
+      "kana": "かいごう",
+      "romaji": "kaigou",
+      "tokens": [
+        {
+          "text": "会合",
+          "kana": "かいごう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "洗脸池",
+      "japanese": "洗面台",
+      "kana": "せんめんだい",
+      "romaji": "senmendai",
+      "tokens": [
+        {
+          "text": "洗面台",
+          "kana": "せんめんだい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "祖先，祖宗",
+      "japanese": "先祖",
+      "kana": "せんぞ",
+      "romaji": "senzo",
+      "tokens": [
+        {
+          "text": "先祖",
+          "kana": "せんぞ"
+        }
+      ]
+    }
+  ]
+}

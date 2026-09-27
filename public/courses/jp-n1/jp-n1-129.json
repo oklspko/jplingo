@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-129",
+  "coursePackId": "jp-n1",
+  "title": "形容词 11",
+  "order": 129,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "做得不好；收成不好",
+      "japanese": "不出来",
+      "kana": "ふでき",
+      "romaji": "fudeki",
+      "tokens": [
+        {
+          "text": "不出来",
+          "kana": "ふでき"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "多疑",
+      "japanese": "疑[うたぐ]り深い",
+      "kana": "うたぐりぶかい",
+      "romaji": "utaguribukai",
+      "tokens": [
+        {
+          "text": "疑[うたぐ]り深い",
+          "kana": "うたぐりぶかい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "煳味",
+      "japanese": "焦げ臭い",
+      "kana": "こげくさい",
+      "romaji": "kogekusai",
+      "tokens": [
+        {
+          "text": "焦げ臭い",
+          "kana": "こげくさい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "博学",
+      "japanese": "博学",
+      "kana": "はくがく",
+      "romaji": "hakugaku",
+      "tokens": [
+        {
+          "text": "博学",
+          "kana": "はくがく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "好像很有道理，好像很正经，煞有介事",
+      "japanese": "もっともらしい",
+      "kana": "もっともらしい",
+      "romaji": "mottomorashii",
+      "tokens": [
+        {
+          "text": "もっともらしい",
+          "kana": "もっともらしい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "单调",
+      "japanese": "一本調子",
+      "kana": "いっぽんぢょうし",
+      "romaji": "ipponjoushi",
+      "tokens": [
+        {
+          "text": "一本調子",
+          "kana": "いっぽんぢょうし"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（对小事）喋喋不休",
+      "japanese": "口やかましい",
+      "kana": "くちやかましい",
+      "romaji": "kuchiyakamashii",
+      "tokens": [
+        {
+          "text": "口やかましい",
+          "kana": "くちやかましい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "清楚，分明",
+      "japanese": "分明",
+      "kana": "ぶんめい",
+      "romaji": "bunmei",
+      "tokens": [
+        {
+          "text": "分明",
+          "kana": "ぶんめい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "不适当，不合适",
+      "japanese": "不適",
+      "kana": "ふてき",
+      "romaji": "futeki",
+      "tokens": [
+        {
+          "text": "不適",
+          "kana": "ふてき"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "内在的；内心的",
+      "japanese": "内的",
+      "kana": "ないてき",
+      "romaji": "naiteki",
+      "tokens": [
+        {
+          "text": "内的",
+          "kana": "ないてき"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "否定的；消极的",
+      "japanese": "ネガティブ",
+      "kana": "ねがてぃぶ",
+      "romaji": "negateibu",
+      "tokens": [
+        {
+          "text": "ネガティブ",
+          "kana": "ねがてぃぶ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "散漫放纵，肆无忌惮；漫无边际",
+      "japanese": "野放図",
+      "kana": "のほうず",
+      "romaji": "nohouzu",
+      "tokens": [
+        {
+          "text": "野放図",
+          "kana": "のほうず"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "坚牢，坚固，牢固",
+      "japanese": "堅 牢[ろう]",
+      "kana": "けんろう",
+      "romaji": "kenrou",
+      "tokens": [
+        {
+          "text": "堅 牢[ろう]",
+          "kana": "けんろう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "黯然",
+      "japanese": "暗然",
+      "kana": "あんぜん",
+      "romaji": "anzen",
+      "tokens": [
+        {
+          "text": "暗然",
+          "kana": "あんぜん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（平凡、守旧的）照例，老一套",
+      "japanese": "型どおり",
+      "kana": "かたどおり",
+      "romaji": "katadoori",
+      "tokens": [
+        {
+          "text": "型どおり",
+          "kana": "かたどおり"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "部分",
+      "japanese": "部分的",
+      "kana": "ぶぶんてき",
+      "romaji": "bubunteki",
+      "tokens": [
+        {
+          "text": "部分的",
+          "kana": "ぶぶんてき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "有规则，规规矩矩",
+      "japanese": "規則的",
+      "kana": "きそくてき",
+      "romaji": "kisokuteki",
+      "tokens": [
+        {
+          "text": "規則的",
+          "kana": "きそくてき"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "反射性的",
+      "japanese": "反射的",
+      "kana": "はんしゃてき",
+      "romaji": "hanshateki",
+      "tokens": [
+        {
+          "text": "反射的",
+          "kana": "はんしゃてき"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "必然的",
+      "japanese": "必然的",
+      "kana": "ひつぜんてき",
+      "romaji": "hitsuzenteki",
+      "tokens": [
+        {
+          "text": "必然的",
+          "kana": "ひつぜんてき"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "理性的，理智的",
+      "japanese": "理性的",
+      "kana": "りせいてき",
+      "romaji": "riseiteki",
+      "tokens": [
+        {
+          "text": "理性的",
+          "kana": "りせいてき"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "有实质的，有实际内容；实际上，实质上",
+      "japanese": "実質的",
+      "kana": "じっしつてき",
+      "romaji": "jisshitsuteki",
+      "tokens": [
+        {
+          "text": "実質的",
+          "kana": "じっしつてき"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "热情高涨地，积极主动地",
+      "japanese": "意欲的",
+      "kana": "いよくてき",
+      "romaji": "iyokuteki",
+      "tokens": [
+        {
+          "text": "意欲的",
+          "kana": "いよくてき"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "自主，主动",
+      "japanese": "自主的",
+      "kana": "じしゅてき",
+      "romaji": "jishuteki",
+      "tokens": [
+        {
+          "text": "自主的",
+          "kana": "じしゅてき"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "（「…とおぼしい」 「…とおぼしき」の形で）好像是，总觉得",
+      "japanese": "おぼしい",
+      "kana": "おぼしい",
+      "romaji": "oboshii",
+      "tokens": [
+        {
+          "text": "おぼしい",
+          "kana": "おぼしい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（形状）圆，圆润；（味道）醇和，醇厚",
+      "japanese": "まろやか",
+      "kana": "まろやか",
+      "romaji": "maroyaka",
+      "tokens": [
+        {
+          "text": "まろやか",
+          "kana": "まろやか"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "崇高，高尚",
+      "japanese": "崇高",
+      "kana": "すうこう",
+      "romaji": "suukou",
+      "tokens": [
+        {
+          "text": "崇高",
+          "kana": "すうこう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "对比鲜明，正相反",
+      "japanese": "対照的",
+      "kana": "たいしょうてき",
+      "romaji": "taishouteki",
+      "tokens": [
+        {
+          "text": "対照的",
+          "kana": "たいしょうてき"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "迅速，敏捷",
+      "japanese": "スピーディー",
+      "kana": "すぴいでぃい",
+      "romaji": "supiideii",
+      "tokens": [
+        {
+          "text": "スピーディー",
+          "kana": "すぴいでぃい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "奇怪，诧异，疑惑",
+      "japanese": "怪訝[けげん]",
+      "kana": "けげん",
+      "romaji": "kegen",
+      "tokens": [
+        {
+          "text": "怪訝[けげん]",
+          "kana": "けげん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "兴致勃勃地，欢快地",
+      "japanese": "嬉々",
+      "kana": "きき",
+      "romaji": "kiki",
+      "tokens": [
+        {
+          "text": "嬉々",
+          "kana": "きき"
+        }
+      ]
+    }
+  ]
+}

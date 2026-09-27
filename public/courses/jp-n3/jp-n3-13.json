@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-13",
+  "coursePackId": "jp-n3",
+  "title": "名词 13",
+  "order": 13,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（儿童用语）妈妈；女掌柜，妈妈桑",
+      "japanese": "ママ",
+      "kana": "まま",
+      "romaji": "mama",
+      "tokens": [
+        {
+          "text": "ママ",
+          "kana": "まま"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "成员，分子",
+      "japanese": "メンバー",
+      "kana": "めんばあ",
+      "romaji": "menbaa",
+      "tokens": [
+        {
+          "text": "メンバー",
+          "kana": "めんばあ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "幽默，诙谐",
+      "japanese": "ユーモア",
+      "kana": "ゆうもあ",
+      "romaji": "yuumoa",
+      "tokens": [
+        {
+          "text": "ユーモア",
+          "kana": "ゆうもあ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "（上下班）高峰时间",
+      "japanese": "ラッシュアワー",
+      "kana": "らっしゅあわあ",
+      "romaji": "rasshuawaa",
+      "tokens": [
+        {
+          "text": "ラッシュアワー",
+          "kana": "らっしゅあわあ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "午餐",
+      "japanese": "ランチ",
+      "kana": "らんち",
+      "romaji": "ranchi",
+      "tokens": [
+        {
+          "text": "ランチ",
+          "kana": "らんち"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（废品）再利用",
+      "japanese": "リサイクル",
+      "kana": "りさいくる",
+      "romaji": "risaikuru",
+      "tokens": [
+        {
+          "text": "リサイクル",
+          "kana": "りさいくる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "名单；一览表",
+      "japanese": "リスト",
+      "kana": "りすと",
+      "romaji": "risuto",
+      "tokens": [
+        {
+          "text": "リスト",
+          "kana": "りすと"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "衣帽柜，存放柜",
+      "japanese": "ロッカー",
+      "kana": "ろっかあ",
+      "romaji": "rokkaa",
+      "tokens": [
+        {
+          "text": "ロッカー",
+          "kana": "ろっかあ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "大堂，门厅",
+      "japanese": "ロビー",
+      "kana": "ろびい",
+      "romaji": "robii",
+      "tokens": [
+        {
+          "text": "ロビー",
+          "kana": "ろびい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "连衣裙",
+      "japanese": "ワンピース",
+      "kana": "わんぴいす",
+      "romaji": "wanpiisu",
+      "tokens": [
+        {
+          "text": "ワンピース",
+          "kana": "わんぴいす"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "背诵",
+      "japanese": "暗記",
+      "kana": "あんき",
+      "romaji": "anki",
+      "tokens": [
+        {
+          "text": "暗記",
+          "kana": "あんき"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "以后，之后",
+      "japanese": "以降",
+      "kana": "いこう",
+      "romaji": "ikou",
+      "tokens": [
+        {
+          "text": "以降",
+          "kana": "いこう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "意志，志向",
+      "japanese": "意志",
+      "kana": "いし",
+      "romaji": "ishi",
+      "tokens": [
+        {
+          "text": "意志",
+          "kana": "いし"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "神智；意识",
+      "japanese": "意識",
+      "kana": "いしき",
+      "romaji": "ishiki",
+      "tokens": [
+        {
+          "text": "意識",
+          "kana": "いしき"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "移动，转移",
+      "japanese": "移動",
+      "kana": "いどう",
+      "romaji": "idou",
+      "tokens": [
+        {
+          "text": "移動",
+          "kana": "いどう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "胃",
+      "japanese": "胃",
+      "kana": "い",
+      "romaji": "i",
+      "tokens": [
+        {
+          "text": "胃",
+          "kana": "い"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "医生",
+      "japanese": "医師",
+      "kana": "いし",
+      "romaji": "ishi",
+      "tokens": [
+        {
+          "text": "医師",
+          "kana": "いし"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "每个人，各自",
+      "japanese": "一人一人",
+      "kana": "ひとりひとり",
+      "romaji": "hitorihitori",
+      "tokens": [
+        {
+          "text": "一人一人",
+          "kana": "ひとりひとり"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "一般，普遍",
+      "japanese": "一般",
+      "kana": "いっぱん",
+      "romaji": "ippan",
+      "tokens": [
+        {
+          "text": "一般",
+          "kana": "いっぱん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "第一流，最好的",
+      "japanese": "一流",
+      "kana": "いちりゅう",
+      "romaji": "ichiryuu",
+      "tokens": [
+        {
+          "text": "一流",
+          "kana": "いちりゅう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "印刷",
+      "japanese": "印刷",
+      "kana": "いんさつ",
+      "romaji": "insatsu",
+      "tokens": [
+        {
+          "text": "印刷",
+          "kana": "いんさつ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "印象",
+      "japanese": "印象",
+      "kana": "いんしょう",
+      "romaji": "inshou",
+      "tokens": [
+        {
+          "text": "印象",
+          "kana": "いんしょう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "研究生",
+      "japanese": "院生",
+      "kana": "いんせい",
+      "romaji": "insei",
+      "tokens": [
+        {
+          "text": "院生",
+          "kana": "いんせい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "饵食；诱饵",
+      "japanese": "餌",
+      "kana": "えさ",
+      "romaji": "esa",
+      "tokens": [
+        {
+          "text": "餌",
+          "kana": "えさ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "影子；映像",
+      "japanese": "影",
+      "kana": "かげ",
+      "romaji": "kage",
+      "tokens": [
+        {
+          "text": "影",
+          "kana": "かげ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "营养",
+      "japanese": "栄養",
+      "kana": "えいよう",
+      "romaji": "eiyou",
+      "tokens": [
+        {
+          "text": "栄養",
+          "kana": "えいよう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "液体，液态",
+      "japanese": "液体",
+      "kana": "えきたい",
+      "romaji": "ekitai",
+      "tokens": [
+        {
+          "text": "液体",
+          "kana": "えきたい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "演奏",
+      "japanese": "演奏",
+      "kana": "えんそう",
+      "romaji": "ensou",
+      "tokens": [
+        {
+          "text": "演奏",
+          "kana": "えんそう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "猴子，猿猴",
+      "japanese": "猿",
+      "kana": "さる",
+      "romaji": "saru",
+      "tokens": [
+        {
+          "text": "猿",
+          "kana": "さる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "往返，来回；来往",
+      "japanese": "往復",
+      "kana": "おうふく",
+      "romaji": "oufuku",
+      "tokens": [
+        {
+          "text": "往復",
+          "kana": "おうふく"
+        }
+      ]
+    }
+  ]
+}

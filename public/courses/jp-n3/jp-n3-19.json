@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-19",
+  "coursePackId": "jp-n3",
+  "title": "名词 19",
+  "order": 19,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "食欲",
+      "japanese": "食欲",
+      "kana": "しょくよく",
+      "romaji": "shokuyoku",
+      "tokens": [
+        {
+          "text": "食欲",
+          "kana": "しょくよく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "心脏",
+      "japanese": "心臓",
+      "kana": "しんぞう",
+      "romaji": "shinzou",
+      "tokens": [
+        {
+          "text": "心臓",
+          "kana": "しんぞう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "森林",
+      "japanese": "森林",
+      "kana": "しんりん",
+      "romaji": "shinrin",
+      "tokens": [
+        {
+          "text": "森林",
+          "kana": "しんりん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "大拇指",
+      "japanese": "親指",
+      "kana": "おやゆび",
+      "romaji": "oyayubi",
+      "tokens": [
+        {
+          "text": "親指",
+          "kana": "おやゆび"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "亲密的朋友",
+      "japanese": "親友",
+      "kana": "しんゆう",
+      "romaji": "shin'yuu",
+      "tokens": [
+        {
+          "text": "親友",
+          "kana": "しんゆう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "看病，检查",
+      "japanese": "診察",
+      "kana": "しんさつ",
+      "romaji": "shinsatsu",
+      "tokens": [
+        {
+          "text": "診察",
+          "kana": "しんさつ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "身高",
+      "japanese": "身長",
+      "kana": "しんちょう",
+      "romaji": "shinchou",
+      "tokens": [
+        {
+          "text": "身長",
+          "kana": "しんちょう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "升学",
+      "japanese": "進学",
+      "kana": "しんがく",
+      "romaji": "shingaku",
+      "tokens": [
+        {
+          "text": "進学",
+          "kana": "しんがく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "进步",
+      "japanese": "進歩",
+      "kana": "しんぽ",
+      "romaji": "shinpo",
+      "tokens": [
+        {
+          "text": "進歩",
+          "kana": "しんぽ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "针；刺；指针",
+      "japanese": "針",
+      "kana": "はり",
+      "romaji": "hari",
+      "tokens": [
+        {
+          "text": "針",
+          "kana": "はり"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "一生；人生",
+      "japanese": "人生",
+      "kana": "じんせい",
+      "romaji": "jinsei",
+      "tokens": [
+        {
+          "text": "人生",
+          "kana": "じんせい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "醋",
+      "japanese": "酢",
+      "kana": "す",
+      "romaji": "su",
+      "tokens": [
+        {
+          "text": "酢",
+          "kana": "す"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "图表；地图",
+      "japanese": "図",
+      "kana": "ず",
+      "romaji": "zu",
+      "tokens": [
+        {
+          "text": "図",
+          "kana": "ず"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "性别",
+      "japanese": "性別",
+      "kana": "せいべつ",
+      "romaji": "seibetsu",
+      "tokens": [
+        {
+          "text": "性別",
+          "kana": "せいべつ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "成绩，成果",
+      "japanese": "成績",
+      "kana": "せいせき",
+      "romaji": "seiseki",
+      "tokens": [
+        {
+          "text": "成績",
+          "kana": "せいせき"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "正面，前方；直接，面对面",
+      "japanese": "正面",
+      "kana": "しょうめん",
+      "romaji": "shoumen",
+      "tokens": [
+        {
+          "text": "正面",
+          "kana": "しょうめん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "生；直接",
+      "japanese": "生",
+      "kana": "なま",
+      "romaji": "nama",
+      "tokens": [
+        {
+          "text": "生",
+          "kana": "なま"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "生物，动物；有生命力的东西",
+      "japanese": "生き物",
+      "kana": "いきもの",
+      "romaji": "ikimono",
+      "tokens": [
+        {
+          "text": "生き物",
+          "kana": "いきもの"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "插花；（用艺术手法）插的花",
+      "japanese": "生け花",
+      "kana": "いけばな",
+      "romaji": "ikebana",
+      "tokens": [
+        {
+          "text": "生け花",
+          "kana": "いけばな"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "出生；出生地；出身",
+      "japanese": "生まれ",
+      "kana": "うまれ",
+      "romaji": "umare",
+      "tokens": [
+        {
+          "text": "生まれ",
+          "kana": "うまれ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "出生年月日",
+      "japanese": "生年月日",
+      "kana": "せいねんがっぴ",
+      "romaji": "seinengappi",
+      "tokens": [
+        {
+          "text": "生年月日",
+          "kana": "せいねんがっぴ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "生物",
+      "japanese": "生物",
+      "kana": "せいぶつ",
+      "romaji": "seibutsu",
+      "tokens": [
+        {
+          "text": "生物",
+          "kana": "せいぶつ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "制品，产品",
+      "japanese": "製品",
+      "kana": "せいひん",
+      "romaji": "seihin",
+      "tokens": [
+        {
+          "text": "製品",
+          "kana": "せいひん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "税款，税金",
+      "japanese": "税金",
+      "kana": "ぜいきん",
+      "romaji": "zeikin",
+      "tokens": [
+        {
+          "text": "税金",
+          "kana": "ぜいきん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "石油",
+      "japanese": "石油",
+      "kana": "せきゆ",
+      "romaji": "sekiyu",
+      "tokens": [
+        {
+          "text": "石油",
+          "kana": "せきゆ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "前几天，前些日子",
+      "japanese": "先日",
+      "kana": "せんじつ",
+      "romaji": "senjitsu",
+      "tokens": [
+        {
+          "text": "先日",
+          "kana": "せんじつ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "宣传",
+      "japanese": "宣伝",
+      "kana": "せんでん",
+      "romaji": "senden",
+      "tokens": [
+        {
+          "text": "宣伝",
+          "kana": "せんでん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "洗涤剂，洗衣剂",
+      "japanese": "洗剤",
+      "kana": "せんざい",
+      "romaji": "senzai",
+      "tokens": [
+        {
+          "text": "洗剤",
+          "kana": "せんざい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "选择，挑选",
+      "japanese": "選択",
+      "kana": "せんたく",
+      "romaji": "sentaku",
+      "tokens": [
+        {
+          "text": "選択",
+          "kana": "せんたく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "前后；前后颠倒；相继",
+      "japanese": "前後",
+      "kana": "ぜんご",
+      "romaji": "zengo",
+      "tokens": [
+        {
+          "text": "前後",
+          "kana": "ぜんご"
+        }
+      ]
+    }
+  ]
+}

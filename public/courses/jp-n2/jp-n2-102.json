@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-102",
+  "coursePackId": "jp-n2",
+  "title": "副词 3",
+  "order": 102,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "稍微，一点",
+      "japanese": "やや",
+      "kana": "やや",
+      "romaji": "yaya",
+      "tokens": [
+        {
+          "text": "やや",
+          "kana": "やや"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "继续，接连不断地",
+      "japanese": "続々",
+      "kana": "ぞくぞく",
+      "romaji": "zokuzoku",
+      "tokens": [
+        {
+          "text": "続々",
+          "kana": "ぞくぞく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "大致，大体上",
+      "japanese": "おおよそ",
+      "kana": "おおよそ",
+      "romaji": "ooyoso",
+      "tokens": [
+        {
+          "text": "おおよそ",
+          "kana": "おおよそ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "屡屡，多次",
+      "japanese": "度々",
+      "kana": "たびたび",
+      "romaji": "tabitabi",
+      "tokens": [
+        {
+          "text": "度々",
+          "kana": "たびたび"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "宁可，与其……不如……",
+      "japanese": "むしろ",
+      "kana": "むしろ",
+      "romaji": "mushiro",
+      "tokens": [
+        {
+          "text": "むしろ",
+          "kana": "むしろ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "始终，彻底",
+      "japanese": "あくまで",
+      "kana": "あくまで",
+      "romaji": "akumade",
+      "tokens": [
+        {
+          "text": "あくまで",
+          "kana": "あくまで"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "勉强，强迫",
+      "japanese": "無理やり",
+      "kana": "むりやり",
+      "romaji": "muriyari",
+      "tokens": [
+        {
+          "text": "無理やり",
+          "kana": "むりやり"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "不久",
+      "japanese": "やがて",
+      "kana": "やがて",
+      "romaji": "yagate",
+      "tokens": [
+        {
+          "text": "やがて",
+          "kana": "やがて"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "入迷，陶醉",
+      "japanese": "うっとり",
+      "kana": "うっとり",
+      "romaji": "uttori",
+      "tokens": [
+        {
+          "text": "うっとり",
+          "kana": "うっとり"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "迷迷糊糊，似睡非睡",
+      "japanese": "うとうと",
+      "kana": "うとうと",
+      "romaji": "utouto",
+      "tokens": [
+        {
+          "text": "うとうと",
+          "kana": "うとうと"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "装得满满的，挤得满满的",
+      "japanese": "ぎっしり",
+      "kana": "ぎっしり",
+      "romaji": "gisshiri",
+      "tokens": [
+        {
+          "text": "ぎっしり",
+          "kana": "ぎっしり"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "疲惫不堪⓪；用旧失去弹性⓪；煮得软烂①②",
+      "japanese": "くたくた",
+      "kana": "くたくた",
+      "romaji": "kutakuta",
+      "tokens": [
+        {
+          "text": "くたくた",
+          "kana": "くたくた"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "猛地，突飞猛进状",
+      "japanese": "ぐんぐん",
+      "kana": "ぐんぐん",
+      "romaji": "gungun",
+      "tokens": [
+        {
+          "text": "ぐんぐん",
+          "kana": "ぐんぐん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（反复敲打硬物）咯噔咯噔；勤勤恳恳，孜孜不倦",
+      "japanese": "こつこつ",
+      "kana": "こつこつ",
+      "romaji": "kotsukotsu",
+      "tokens": [
+        {
+          "text": "こつこつ",
+          "kana": "こつこつ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "大而重的物体滚动（的声音、样子）；雷鸣；（猫的喉咙）咕噜声；到处都是；无所事事",
+      "japanese": "ごろごろ",
+      "kana": "ごろごろ",
+      "romaji": "gorogoro",
+      "tokens": [
+        {
+          "text": "ごろごろ",
+          "kana": "ごろごろ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "轻快、迅速地行动的样子；事情进行得很顺利的样子",
+      "japanese": "すいすい",
+      "kana": "すいすい",
+      "romaji": "suisui",
+      "tokens": [
+        {
+          "text": "すいすい",
+          "kana": "すいすい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "流畅，流利",
+      "japanese": "すらすら",
+      "kana": "すらすら",
+      "romaji": "surasura",
+      "tokens": [
+        {
+          "text": "すらすら",
+          "kana": "すらすら"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "勤勤恳恳地，孜孜不倦地",
+      "japanese": "せっせと",
+      "kana": "せっせと",
+      "romaji": "sesseto",
+      "tokens": [
+        {
+          "text": "せっせと",
+          "kana": "せっせと"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "至少，哪怕是……（也好）",
+      "japanese": "せめて",
+      "kana": "せめて",
+      "romaji": "semete",
+      "tokens": [
+        {
+          "text": "せめて",
+          "kana": "せめて"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "充足，足够；宽绰",
+      "japanese": "たっぷり",
+      "kana": "たっぷり",
+      "romaji": "tappuri",
+      "tokens": [
+        {
+          "text": "たっぷり",
+          "kana": "たっぷり"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "设法；总算，勉强",
+      "japanese": "どうにか",
+      "kana": "どうにか",
+      "romaji": "dounika",
+      "tokens": [
+        {
+          "text": "どうにか",
+          "kana": "どうにか"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "很早，早就",
+      "japanese": "とっくに",
+      "kana": "とっくに",
+      "romaji": "tokkuni",
+      "tokens": [
+        {
+          "text": "とっくに",
+          "kana": "とっくに"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "无论如何，总之；先不管，暂且不谈",
+      "japanese": "ともかく",
+      "kana": "ともかく",
+      "romaji": "tomokaku",
+      "tokens": [
+        {
+          "text": "ともかく",
+          "kana": "ともかく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "动作缓慢",
+      "japanese": "のろのろ",
+      "kana": "のろのろ",
+      "romaji": "noronoro",
+      "tokens": [
+        {
+          "text": "のろのろ",
+          "kana": "のろのろ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（言语或动作）干脆，爽快；头脑敏捷",
+      "japanese": "はきはき",
+      "kana": "はきはき",
+      "romaji": "hakihaki",
+      "tokens": [
+        {
+          "text": "はきはき",
+          "kana": "はきはき"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "突然倒下；意外相遇；突然中断",
+      "japanese": "ばったり",
+      "kana": "ばったり",
+      "romaji": "battari",
+      "tokens": [
+        {
+          "text": "ばったり",
+          "kana": "ばったり"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "湿透，湿淋淋",
+      "japanese": "びっしょり",
+      "kana": "びっしょり",
+      "romaji": "bisshori",
+      "tokens": [
+        {
+          "text": "びっしょり",
+          "kana": "びっしょり"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "模糊，不清楚；发呆",
+      "japanese": "ぼんやり",
+      "kana": "ぼんやり",
+      "romaji": "bon'yari",
+      "tokens": [
+        {
+          "text": "ぼんやり",
+          "kana": "ぼんやり"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "舒畅；有余裕，宽敞",
+      "japanese": "ゆったり",
+      "kana": "ゆったり",
+      "romaji": "yuttari",
+      "tokens": [
+        {
+          "text": "ゆったり",
+          "kana": "ゆったり"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "暂时；一旦",
+      "japanese": "いったん",
+      "kana": "いったん",
+      "romaji": "ittan",
+      "tokens": [
+        {
+          "text": "いったん",
+          "kana": "いったん"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-101",
+  "coursePackId": "jp-n1",
+  "title": "动词 10",
+  "order": 101,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "进展顺利",
+      "japanese": "はかどる",
+      "kana": "はかどる",
+      "romaji": "hakadoru",
+      "tokens": [
+        {
+          "text": "はかどる",
+          "kana": "はかどる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "提倡",
+      "japanese": "提唱",
+      "kana": "ていしょう",
+      "romaji": "teishou",
+      "tokens": [
+        {
+          "text": "提唱",
+          "kana": "ていしょう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "间断，中断",
+      "japanese": "途切れる",
+      "kana": "とぎれる",
+      "romaji": "togireru",
+      "tokens": [
+        {
+          "text": "途切れる",
+          "kana": "とぎれる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "投；献身；投入",
+      "japanese": "投じる",
+      "kana": "とうじる",
+      "romaji": "toujiru",
+      "tokens": [
+        {
+          "text": "投じる",
+          "kana": "とうじる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "踏，用力踏；根据，立足于",
+      "japanese": "踏まえる",
+      "kana": "ふまえる",
+      "romaji": "fumaeru",
+      "tokens": [
+        {
+          "text": "踏まえる",
+          "kana": "ふまえる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "踏入；陷入；突然闯进；深入",
+      "japanese": "踏み込む",
+      "kana": "ふみこむ",
+      "romaji": "fumikomu",
+      "tokens": [
+        {
+          "text": "踏み込む",
+          "kana": "ふみこむ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "支撑；（肌肉）僵硬；固执己见",
+      "japanese": "突っ張る",
+      "kana": "つっぱる",
+      "romaji": "tsupparu",
+      "tokens": [
+        {
+          "text": "突っ張る",
+          "kana": "つっぱる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（刀具等）变钝；（感觉等）变迟钝",
+      "japanese": "鈍る",
+      "kana": "にぶる",
+      "romaji": "niburu",
+      "tokens": [
+        {
+          "text": "鈍る",
+          "kana": "にぶる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "发黏；坚持不懈",
+      "japanese": "粘る",
+      "kana": "ねばる",
+      "romaji": "nebaru",
+      "tokens": [
+        {
+          "text": "粘る",
+          "kana": "ねばる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "（曾经兴盛的事物）过时，衰退",
+      "japanese": "廃れる",
+      "kana": "すたれる",
+      "romaji": "sutareru",
+      "tokens": [
+        {
+          "text": "廃れる",
+          "kana": "すたれる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "媒介，传播",
+      "japanese": "媒介",
+      "kana": "ばいかい",
+      "romaji": "baikai",
+      "tokens": [
+        {
+          "text": "媒介",
+          "kana": "ばいかい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "飞来飞去",
+      "japanese": "飛び交う",
+      "kana": "とびかう",
+      "romaji": "tobikau",
+      "tokens": [
+        {
+          "text": "飛び交う",
+          "kana": "とびかう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "富有；富于",
+      "japanese": "富む",
+      "kana": "とむ",
+      "romaji": "tomu",
+      "tokens": [
+        {
+          "text": "富む",
+          "kana": "とむ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "赴，前往；趋于，倾向",
+      "japanese": "赴く",
+      "kana": "おもむく",
+      "romaji": "omomuku",
+      "tokens": [
+        {
+          "text": "赴く",
+          "kana": "おもむく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "打翻；推翻",
+      "japanese": "覆す",
+      "kana": "くつがえす",
+      "romaji": "kutsugaesu",
+      "tokens": [
+        {
+          "text": "覆す",
+          "kana": "くつがえす"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "愤怒，气愤，愤慨",
+      "japanese": "憤る",
+      "kana": "いきどおる",
+      "romaji": "ikidooru",
+      "tokens": [
+        {
+          "text": "憤る",
+          "kana": "いきどおる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "混淆；混进；排解郁闷或烦恼",
+      "japanese": "紛れる",
+      "kana": "まぎれる",
+      "romaji": "magireru",
+      "tokens": [
+        {
+          "text": "紛れる",
+          "kana": "まぎれる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "还钱，偿还",
+      "japanese": "返済",
+      "kana": "へんさい",
+      "romaji": "hensai",
+      "tokens": [
+        {
+          "text": "返済",
+          "kana": "へんさい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "保持",
+      "japanese": "保持",
+      "kana": "ほじ",
+      "romaji": "hoji",
+      "tokens": [
+        {
+          "text": "保持",
+          "kana": "ほじ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "保全",
+      "japanese": "保全",
+      "kana": "ほぜん",
+      "romaji": "hozen",
+      "tokens": [
+        {
+          "text": "保全",
+          "kana": "ほぜん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（某种感觉）越来越厉害；招募",
+      "japanese": "募る",
+      "kana": "つのる",
+      "romaji": "tsunoru",
+      "tokens": [
+        {
+          "text": "募る",
+          "kana": "つのる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "想念；景仰；追随",
+      "japanese": "慕う",
+      "kana": "したう",
+      "romaji": "shitau",
+      "tokens": [
+        {
+          "text": "慕う",
+          "kana": "したう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "包括，总括",
+      "japanese": "包括",
+      "kana": "ほうかつ",
+      "romaji": "houkatsu",
+      "tokens": [
+        {
+          "text": "包括",
+          "kana": "ほうかつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "报答；报道",
+      "japanese": "報じる",
+      "kana": "ほうじる",
+      "romaji": "houjiru",
+      "tokens": [
+        {
+          "text": "報じる",
+          "kana": "ほうじる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "捧举；献上；献出",
+      "japanese": "捧[ささ]げる",
+      "kana": "ささげる",
+      "romaji": "sasageru",
+      "tokens": [
+        {
+          "text": "捧[ささ]げる",
+          "kana": "ささげる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "消亡，灭亡，灭绝",
+      "japanese": "滅びる",
+      "kana": "ほろびる",
+      "romaji": "horobiru",
+      "tokens": [
+        {
+          "text": "滅びる",
+          "kana": "ほろびる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "毁灭；使……灭亡",
+      "japanese": "滅ぼす",
+      "kana": "ほろぼす",
+      "romaji": "horobosu",
+      "tokens": [
+        {
+          "text": "滅ぼす",
+          "kana": "ほろぼす"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "模拟",
+      "japanese": "模擬",
+      "kana": "もぎ",
+      "romaji": "mogi",
+      "tokens": [
+        {
+          "text": "模擬",
+          "kana": "もぎ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "大幅摇动，摇晃；震惊，使……动摇",
+      "japanese": "揺さぶる",
+      "kana": "ゆさぶる",
+      "romaji": "yusaburu",
+      "tokens": [
+        {
+          "text": "揺さぶる",
+          "kana": "ゆさぶる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "摇动，摇晃；摇摇欲坠，岌岌可危",
+      "japanese": "揺らぐ",
+      "kana": "ゆらぐ",
+      "romaji": "yuragu",
+      "tokens": [
+        {
+          "text": "揺らぐ",
+          "kana": "ゆらぐ"
+        }
+      ]
+    }
+  ]
+}

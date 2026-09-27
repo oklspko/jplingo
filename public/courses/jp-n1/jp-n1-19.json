@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-19",
+  "coursePackId": "jp-n1",
+  "title": "名词 19",
+  "order": 19,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "装饰，装饰物",
+      "japanese": "装飾",
+      "kana": "そうしょく",
+      "romaji": "soushoku",
+      "tokens": [
+        {
+          "text": "装飾",
+          "kana": "そうしょく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "体格",
+      "japanese": "体格",
+      "kana": "たいかく",
+      "romaji": "taikaku",
+      "tokens": [
+        {
+          "text": "体格",
+          "kana": "たいかく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "对称",
+      "japanese": "対称",
+      "kana": "たいしょう",
+      "romaji": "taishou",
+      "tokens": [
+        {
+          "text": "対称",
+          "kana": "たいしょう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "对战，交锋",
+      "japanese": "対戦",
+      "kana": "たいせん",
+      "romaji": "taisen",
+      "tokens": [
+        {
+          "text": "対戦",
+          "kana": "たいせん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "对待，服务；待遇",
+      "japanese": "待遇",
+      "kana": "たいぐう",
+      "romaji": "taiguu",
+      "tokens": [
+        {
+          "text": "待遇",
+          "kana": "たいぐう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "态势，状态，准备",
+      "japanese": "態勢",
+      "kana": "たいせい",
+      "romaji": "taisei",
+      "tokens": [
+        {
+          "text": "態勢",
+          "kana": "たいせい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "退会",
+      "japanese": "退会",
+      "kana": "たいかい",
+      "romaji": "taikai",
+      "tokens": [
+        {
+          "text": "退会",
+          "kana": "たいかい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "重大使命，艰巨任务",
+      "japanese": "大役",
+      "kana": "たいやく",
+      "romaji": "taiyaku",
+      "tokens": [
+        {
+          "text": "大役",
+          "kana": "たいやく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "炭，木炭",
+      "japanese": "炭",
+      "kana": "すみ",
+      "romaji": "sumi",
+      "tokens": [
+        {
+          "text": "炭",
+          "kana": "すみ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "减价，降价",
+      "japanese": "値下げ",
+      "kana": "ねさげ",
+      "romaji": "nesage",
+      "tokens": [
+        {
+          "text": "値下げ",
+          "kana": "ねさげ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "地区，地域",
+      "japanese": "地区",
+      "kana": "ちく",
+      "romaji": "chiku",
+      "tokens": [
+        {
+          "text": "地区",
+          "kana": "ちく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "脚踏实地",
+      "japanese": "地道",
+      "kana": "じみち",
+      "romaji": "jimichi",
+      "tokens": [
+        {
+          "text": "地道",
+          "kana": "じみち"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "半途而废，不明确，不彻底",
+      "japanese": "中途半端",
+      "kana": "ちゅうとはんぱ",
+      "romaji": "chuutohanpa",
+      "tokens": [
+        {
+          "text": "中途半端",
+          "kana": "ちゅうとはんぱ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "忠告，劝告",
+      "japanese": "忠告",
+      "kana": "ちゅうこく",
+      "romaji": "chuukoku",
+      "tokens": [
+        {
+          "text": "忠告",
+          "kana": "ちゅうこく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "长寿，长生不老",
+      "japanese": "長生き",
+      "kana": "ながいき",
+      "romaji": "nagaiki",
+      "tokens": [
+        {
+          "text": "長生き",
+          "kana": "ながいき"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "持久，长久保持",
+      "japanese": "長続き",
+      "kana": "ながつづき",
+      "romaji": "nagatsuzuki",
+      "tokens": [
+        {
+          "text": "長続き",
+          "kana": "ながつづき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "直接……",
+      "japanese": "直〜",
+      "kana": "直〜",
+      "romaji": "直~",
+      "tokens": [
+        {
+          "text": "直〜",
+          "kana": "直〜"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "追求",
+      "japanese": "追求",
+      "kana": "ついきゅう",
+      "romaji": "tsuikyuu",
+      "tokens": [
+        {
+          "text": "追求",
+          "kana": "ついきゅう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "转向，翻转",
+      "japanese": "転回",
+      "kana": "てんかい",
+      "romaji": "tenkai",
+      "tokens": [
+        {
+          "text": "転回",
+          "kana": "てんかい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（前接连体修饰）每次，每当",
+      "japanese": "都度",
+      "kana": "つど",
+      "romaji": "tsudo",
+      "tokens": [
+        {
+          "text": "都度",
+          "kana": "つど"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "倒闭，破产",
+      "japanese": "倒産",
+      "kana": "とうさん",
+      "romaji": "tousan",
+      "tokens": [
+        {
+          "text": "倒産",
+          "kana": "とうさん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "本店",
+      "japanese": "当店",
+      "kana": "とうてん",
+      "romaji": "touten",
+      "tokens": [
+        {
+          "text": "当店",
+          "kana": "とうてん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "躲避，逃避",
+      "japanese": "逃避",
+      "kana": "とうひ",
+      "romaji": "touhi",
+      "tokens": [
+        {
+          "text": "逃避",
+          "kana": "とうひ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "匿名",
+      "japanese": "匿名",
+      "kana": "とくめい",
+      "romaji": "tokumei",
+      "tokens": [
+        {
+          "text": "匿名",
+          "kana": "とくめい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "特产",
+      "japanese": "特産",
+      "kana": "とくさん",
+      "romaji": "tokusan",
+      "tokens": [
+        {
+          "text": "特産",
+          "kana": "とくさん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "特有",
+      "japanese": "特有",
+      "kana": "とくゆう",
+      "romaji": "tokuyuu",
+      "tokens": [
+        {
+          "text": "特有",
+          "kana": "とくゆう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "独自；独特",
+      "japanese": "独自",
+      "kana": "どくじ",
+      "romaji": "dokuji",
+      "tokens": [
+        {
+          "text": "独自",
+          "kana": "どくじ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "肉眼",
+      "japanese": "肉眼",
+      "kana": "にくがん",
+      "romaji": "nikugan",
+      "tokens": [
+        {
+          "text": "肉眼",
+          "kana": "にくがん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "沐浴",
+      "japanese": "入浴",
+      "kana": "にゅうよく",
+      "romaji": "nyuuyoku",
+      "tokens": [
+        {
+          "text": "入浴",
+          "kana": "にゅうよく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "大致的年龄；年龄大",
+      "japanese": "年配",
+      "kana": "ねんぱい",
+      "romaji": "nenpai",
+      "tokens": [
+        {
+          "text": "年配",
+          "kana": "ねんぱい"
+        }
+      ]
+    }
+  ]
+}

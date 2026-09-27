@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-97",
+  "coursePackId": "jp-n2",
+  "title": "形容词 5",
+  "order": 97,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "理智，知性；智慧，智力",
+      "japanese": "知的",
+      "kana": "ちてき",
+      "romaji": "chiteki",
+      "tokens": [
+        {
+          "text": "知的",
+          "kana": "ちてき"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "显著的",
+      "japanese": "著しい",
+      "kana": "いちじるしい",
+      "romaji": "ichijirushii",
+      "tokens": [
+        {
+          "text": "著しい",
+          "kana": "いちじるしい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "必然",
+      "japanese": "必然",
+      "kana": "ひつぜん",
+      "romaji": "hitsuzen",
+      "tokens": [
+        {
+          "text": "必然",
+          "kana": "ひつぜん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "缺乏；贫困",
+      "japanese": "乏しい",
+      "kana": "とぼしい",
+      "romaji": "toboshii",
+      "tokens": [
+        {
+          "text": "乏しい",
+          "kana": "とぼしい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "正宗的，正统的；正式的",
+      "japanese": "本格的",
+      "kana": "ほんかくてき",
+      "romaji": "honkakuteki",
+      "tokens": [
+        {
+          "text": "本格的",
+          "kana": "ほんかくてき"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "最有希望；有力",
+      "japanese": "有力",
+      "kana": "ゆうりょく",
+      "romaji": "yuuryoku",
+      "tokens": [
+        {
+          "text": "有力",
+          "kana": "ゆうりょく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "平静，安详，和睦",
+      "japanese": "和やか",
+      "kana": "なごやか",
+      "romaji": "nagoyaka",
+      "tokens": [
+        {
+          "text": "和やか",
+          "kana": "なごやか"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "合计；整体的",
+      "japanese": "トータル",
+      "kana": "とうたる",
+      "romaji": "toutaru",
+      "tokens": [
+        {
+          "text": "トータル",
+          "kana": "とうたる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "压倒的，绝对的",
+      "japanese": "圧倒的",
+      "kana": "あっとうてき",
+      "romaji": "attouteki",
+      "tokens": [
+        {
+          "text": "圧倒的",
+          "kana": "あっとうてき"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "胡乱，随便，盲目",
+      "japanese": "闇雲",
+      "kana": "やみくも",
+      "romaji": "yamikumo",
+      "tokens": [
+        {
+          "text": "闇雲",
+          "kana": "やみくも"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "幽深；深奥的",
+      "japanese": "奥深い",
+      "kana": "おくふかい",
+      "romaji": "okufukai",
+      "tokens": [
+        {
+          "text": "奥深い",
+          "kana": "おくふかい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "过于苛刻，过于残酷",
+      "japanese": "過酷",
+      "kana": "かこく",
+      "romaji": "kakoku",
+      "tokens": [
+        {
+          "text": "過酷",
+          "kana": "かこく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "不直截了当，转弯抹角的",
+      "japanese": "回りくどい",
+      "kana": "まわりくどい",
+      "romaji": "mawarikudoi",
+      "tokens": [
+        {
+          "text": "回りくどい",
+          "kana": "まわりくどい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "耀眼的；辉煌的，灿烂的",
+      "japanese": "輝かしい",
+      "kana": "かがやかしい",
+      "romaji": "kagayakashii",
+      "tokens": [
+        {
+          "text": "輝かしい",
+          "kana": "かがやかしい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "极其的",
+      "japanese": "極まりない",
+      "kana": "きわまりない",
+      "romaji": "kiwamarinai",
+      "tokens": [
+        {
+          "text": "極まりない",
+          "kana": "きわまりない"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "戏剧性的",
+      "japanese": "劇的",
+      "kana": "げきてき",
+      "romaji": "gekiteki",
+      "tokens": [
+        {
+          "text": "劇的",
+          "kana": "げきてき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "谦虚，谨慎；节制",
+      "japanese": "控えめ",
+      "kana": "ひかえめ",
+      "romaji": "hikaeme",
+      "tokens": [
+        {
+          "text": "控えめ",
+          "kana": "ひかえめ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "根深蒂固的，不易动摇的",
+      "japanese": "根強い",
+      "kana": "ねづよい",
+      "romaji": "nezuyoi",
+      "tokens": [
+        {
+          "text": "根強い",
+          "kana": "ねづよい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "根本的",
+      "japanese": "根本的",
+      "kana": "こんぽんてき",
+      "romaji": "konponteki",
+      "tokens": [
+        {
+          "text": "根本的",
+          "kana": "こんぽんてき"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "害羞，难为情",
+      "japanese": "照れくさい",
+      "kana": "てれくさい",
+      "romaji": "terekusai",
+      "tokens": [
+        {
+          "text": "照れくさい",
+          "kana": "てれくさい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "高额",
+      "japanese": "多額",
+      "kana": "たがく",
+      "romaji": "tagaku",
+      "tokens": [
+        {
+          "text": "多額",
+          "kana": "たがく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "令人痛心的，惨不忍睹的",
+      "japanese": "痛ましい",
+      "kana": "いたましい",
+      "romaji": "itamashii",
+      "tokens": [
+        {
+          "text": "痛ましい",
+          "kana": "いたましい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（颜色、味道、香气、成分等）浓厚，浓重；很可能；（爱意表达）强烈",
+      "japanese": "濃厚",
+      "kana": "のうこう",
+      "romaji": "noukou",
+      "tokens": [
+        {
+          "text": "濃厚",
+          "kana": "のうこう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "状况不佳，故障",
+      "japanese": "不具合",
+      "kana": "ふぐあい",
+      "romaji": "fuguai",
+      "tokens": [
+        {
+          "text": "不具合",
+          "kana": "ふぐあい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "法律上",
+      "japanese": "法的",
+      "kana": "ほうてき",
+      "romaji": "houteki",
+      "tokens": [
+        {
+          "text": "法的",
+          "kana": "ほうてき"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "没有经历，没有经验",
+      "japanese": "未経験",
+      "kana": "みけいけん",
+      "romaji": "mikeiken",
+      "tokens": [
+        {
+          "text": "未経験",
+          "kana": "みけいけん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "可靠的，靠得住的；有出息的",
+      "japanese": "頼もしい",
+      "kana": "たのもしい",
+      "romaji": "tanomoshii",
+      "tokens": [
+        {
+          "text": "頼もしい",
+          "kana": "たのもしい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "有逻辑",
+      "japanese": "論理的",
+      "kana": "ろんりてき",
+      "romaji": "ronriteki",
+      "tokens": [
+        {
+          "text": "論理的",
+          "kana": "ろんりてき"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "钝，不快；迟钝；暗淡，不清晰",
+      "japanese": "鈍い",
+      "kana": "にぶい",
+      "romaji": "nibui",
+      "tokens": [
+        {
+          "text": "鈍い",
+          "kana": "にぶい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "令人满意",
+      "japanese": "好ましい",
+      "kana": "このましい",
+      "romaji": "konomashii",
+      "tokens": [
+        {
+          "text": "好ましい",
+          "kana": "このましい"
+        }
+      ]
+    }
+  ]
+}

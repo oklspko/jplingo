@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-22",
+  "coursePackId": "jp-n3",
+  "title": "名词 22",
+  "order": 22,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "梅树；梅子",
+      "japanese": "梅",
+      "kana": "うめ",
+      "romaji": "ume",
+      "tokens": [
+        {
+          "text": "梅",
+          "kana": "うめ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "田地；专业的领域",
+      "japanese": "畑",
+      "kana": "はたけ",
+      "romaji": "hatake",
+      "tokens": [
+        {
+          "text": "畑",
+          "kana": "はたけ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "卖，发售",
+      "japanese": "発売",
+      "kana": "はつばい",
+      "romaji": "hatsubai",
+      "tokens": [
+        {
+          "text": "発売",
+          "kana": "はつばい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "发表，公布",
+      "japanese": "発表",
+      "kana": "はっぴょう",
+      "romaji": "happyou",
+      "tokens": [
+        {
+          "text": "発表",
+          "kana": "はっぴょう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "比较",
+      "japanese": "比較",
+      "kana": "ひかく",
+      "romaji": "hikaku",
+      "tokens": [
+        {
+          "text": "比較",
+          "kana": "ひかく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "美容",
+      "japanese": "美容",
+      "kana": "びよう",
+      "romaji": "biyou",
+      "tokens": [
+        {
+          "text": "美容",
+          "kana": "びよう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "膝盖",
+      "japanese": "膝",
+      "kana": "ひざ",
+      "romaji": "hiza",
+      "tokens": [
+        {
+          "text": "膝",
+          "kana": "ひざ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "笔者，作者",
+      "japanese": "筆者",
+      "kana": "ひっしゃ",
+      "romaji": "hissha",
+      "tokens": [
+        {
+          "text": "筆者",
+          "kana": "ひっしゃ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "带子，细绳",
+      "japanese": "紐[ひも]",
+      "kana": "ひも",
+      "romaji": "himo",
+      "tokens": [
+        {
+          "text": "紐[ひも]",
+          "kana": "ひも"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "冰",
+      "japanese": "氷",
+      "kana": "こおり",
+      "romaji": "koori",
+      "tokens": [
+        {
+          "text": "氷",
+          "kana": "こおり"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "表格；……表",
+      "japanese": "表",
+      "kana": "ひょう",
+      "romaji": "hyou",
+      "tokens": [
+        {
+          "text": "表",
+          "kana": "ひょう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "表现，表达",
+      "japanese": "表現",
+      "kana": "ひょうげん",
+      "romaji": "hyougen",
+      "tokens": [
+        {
+          "text": "表現",
+          "kana": "ひょうげん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "表面；外表",
+      "japanese": "表面",
+      "kana": "ひょうめん",
+      "romaji": "hyoumen",
+      "tokens": [
+        {
+          "text": "表面",
+          "kana": "ひょうめん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "秒",
+      "japanese": "秒",
+      "kana": "びょう",
+      "romaji": "byou",
+      "tokens": [
+        {
+          "text": "秒",
+          "kana": "びょう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "物品；商品；质量",
+      "japanese": "品",
+      "kana": "しな",
+      "romaji": "shina",
+      "tokens": [
+        {
+          "text": "品",
+          "kana": "しな"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "不足；不满足",
+      "japanese": "不足",
+      "kana": "ふそく",
+      "romaji": "fusoku",
+      "tokens": [
+        {
+          "text": "不足",
+          "kana": "ふそく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "父母",
+      "japanese": "父母",
+      "kana": "ふぼ",
+      "romaji": "fubo",
+      "tokens": [
+        {
+          "text": "父母",
+          "kana": "ふぼ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "零件，部件",
+      "japanese": "部品",
+      "kana": "ぶひん",
+      "romaji": "buhin",
+      "tokens": [
+        {
+          "text": "部品",
+          "kana": "ぶひん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "部分，一部分",
+      "japanese": "部分",
+      "kana": "ぶぶん",
+      "romaji": "bubun",
+      "tokens": [
+        {
+          "text": "部分",
+          "kana": "ぶぶん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "物价",
+      "japanese": "物価",
+      "kana": "ぶっか",
+      "romaji": "bukka",
+      "tokens": [
+        {
+          "text": "物価",
+          "kana": "ぶっか"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "部分；份；程度；地位",
+      "japanese": "分",
+      "kana": "ぶん",
+      "romaji": "bun",
+      "tokens": [
+        {
+          "text": "分",
+          "kana": "ぶん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "粉，粉末",
+      "japanese": "粉",
+      "kana": "こな",
+      "romaji": "kona",
+      "tokens": [
+        {
+          "text": "粉",
+          "kana": "こな"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "词句；牢骚",
+      "japanese": "文句",
+      "kana": "もんく",
+      "romaji": "monku",
+      "tokens": [
+        {
+          "text": "文句",
+          "kana": "もんく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "冷静，不介意，不在乎",
+      "japanese": "平気",
+      "kana": "へいき",
+      "romaji": "heiki",
+      "tokens": [
+        {
+          "text": "平気",
+          "kana": "へいき"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "平均；平均值",
+      "japanese": "平均",
+      "kana": "へいきん",
+      "romaji": "heikin",
+      "tokens": [
+        {
+          "text": "平均",
+          "kana": "へいきん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "平等，同等",
+      "japanese": "平等",
+      "kana": "びょうどう",
+      "romaji": "byoudou",
+      "tokens": [
+        {
+          "text": "平等",
+          "kana": "びょうどう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "体格；人品；身份；花样",
+      "japanese": "柄",
+      "kana": "がら",
+      "romaji": "gara",
+      "tokens": [
+        {
+          "text": "柄",
+          "kana": "がら"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "习惯，毛病；（非比寻常的）特点",
+      "japanese": "癖",
+      "kana": "くせ",
+      "romaji": "kuse",
+      "tokens": [
+        {
+          "text": "癖",
+          "kana": "くせ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "分别；各自",
+      "japanese": "別々",
+      "kana": "べつべつ",
+      "romaji": "betsubetsu",
+      "tokens": [
+        {
+          "text": "別々",
+          "kana": "べつべつ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "分离，告别；永别",
+      "japanese": "別れ",
+      "kana": "わかれ",
+      "romaji": "wakare",
+      "tokens": [
+        {
+          "text": "別れ",
+          "kana": "わかれ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-21",
+  "coursePackId": "jp-n3",
+  "title": "名词 21",
+  "order": 21,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "定员，规定的人数",
+      "japanese": "定員",
+      "kana": "ていいん",
+      "romaji": "teiin",
+      "tokens": [
+        {
+          "text": "定員",
+          "kana": "ていいん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "月票，定期车票",
+      "japanese": "定期券",
+      "kana": "ていきけん",
+      "romaji": "teikiken",
+      "tokens": [
+        {
+          "text": "定期券",
+          "kana": "ていきけん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "程度；（数量）……左右",
+      "japanese": "程度",
+      "kana": "ていど",
+      "romaji": "teido",
+      "tokens": [
+        {
+          "text": "程度",
+          "kana": "ていど"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "截止日期",
+      "japanese": "締め切り",
+      "kana": "しめきり",
+      "romaji": "shimekiri",
+      "tokens": [
+        {
+          "text": "締め切り",
+          "kana": "しめきり"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "敌人；对手",
+      "japanese": "敵",
+      "kana": "てき",
+      "romaji": "teki",
+      "tokens": [
+        {
+          "text": "敵",
+          "kana": "てき"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "适当，酌情；随便，敷衍",
+      "japanese": "適当",
+      "kana": "てきとう",
+      "romaji": "tekitou",
+      "tokens": [
+        {
+          "text": "適当",
+          "kana": "てきとう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "铁；钢铁般的，坚强的",
+      "japanese": "鉄",
+      "kana": "てつ",
+      "romaji": "tetsu",
+      "tokens": [
+        {
+          "text": "鉄",
+          "kana": "てつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "铁路，铁道",
+      "japanese": "鉄道",
+      "kana": "てつどう",
+      "romaji": "tetsudou",
+      "tokens": [
+        {
+          "text": "鉄道",
+          "kana": "てつどう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "分数；（表示物品的）件数",
+      "japanese": "点数",
+      "kana": "てんすう",
+      "romaji": "tensuu",
+      "tokens": [
+        {
+          "text": "点数",
+          "kana": "てんすう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "电子计算器",
+      "japanese": "電卓",
+      "kana": "でんたく",
+      "romaji": "dentaku",
+      "tokens": [
+        {
+          "text": "電卓",
+          "kana": "でんたく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "电池",
+      "japanese": "電池",
+      "kana": "でんち",
+      "romaji": "denchi",
+      "tokens": [
+        {
+          "text": "電池",
+          "kana": "でんち"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "爬山",
+      "japanese": "登山",
+      "kana": "とざん",
+      "romaji": "tozan",
+      "tokens": [
+        {
+          "text": "登山",
+          "kana": "とざん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "登场；出现",
+      "japanese": "登場",
+      "kana": "とうじょう",
+      "romaji": "toujou",
+      "tokens": [
+        {
+          "text": "登場",
+          "kana": "とうじょう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "当日，当天",
+      "japanese": "当日",
+      "kana": "とうじつ",
+      "romaji": "toujitsu",
+      "tokens": [
+        {
+          "text": "当日",
+          "kana": "とうじつ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "头痛；烦恼",
+      "japanese": "頭痛",
+      "kana": "ずつう",
+      "romaji": "zutsuu",
+      "tokens": [
+        {
+          "text": "頭痛",
+          "kana": "ずつう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "动作",
+      "japanese": "動作",
+      "kana": "どうさ",
+      "romaji": "dousa",
+      "tokens": [
+        {
+          "text": "動作",
+          "kana": "どうさ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "同时",
+      "japanese": "同時",
+      "kana": "どうじ",
+      "romaji": "douji",
+      "tokens": [
+        {
+          "text": "同時",
+          "kana": "どうじ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "道路",
+      "japanese": "道路",
+      "kana": "どうろ",
+      "romaji": "douro",
+      "tokens": [
+        {
+          "text": "道路",
+          "kana": "どうろ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "特征，特色",
+      "japanese": "特徴",
+      "kana": "とくちょう",
+      "romaji": "tokuchou",
+      "tokens": [
+        {
+          "text": "特徴",
+          "kana": "とくちょう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "毒",
+      "japanese": "毒",
+      "kana": "どく",
+      "romaji": "doku",
+      "tokens": [
+        {
+          "text": "毒",
+          "kana": "どく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "当天往返",
+      "japanese": "日帰り",
+      "kana": "ひがえり",
+      "romaji": "higaeri",
+      "tokens": [
+        {
+          "text": "日帰り",
+          "kana": "ひがえり"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "日常，平时",
+      "japanese": "日常",
+      "kana": "にちじょう",
+      "romaji": "nichijou",
+      "tokens": [
+        {
+          "text": "日常",
+          "kana": "にちじょう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "日程",
+      "japanese": "日程",
+      "kana": "にってい",
+      "romaji": "nittei",
+      "tokens": [
+        {
+          "text": "日程",
+          "kana": "にってい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "输入",
+      "japanese": "入力",
+      "kana": "にゅうりょく",
+      "romaji": "nyuuryoku",
+      "tokens": [
+        {
+          "text": "入力",
+          "kana": "にゅうりょく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "老人，上年纪的人",
+      "japanese": "年寄り",
+      "kana": "としより",
+      "romaji": "toshiyori",
+      "tokens": [
+        {
+          "text": "年寄り",
+          "kana": "としより"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "年龄",
+      "japanese": "年齢",
+      "kana": "ねんれい",
+      "romaji": "nenrei",
+      "tokens": [
+        {
+          "text": "年齢",
+          "kana": "ねんれい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "理解，同意",
+      "japanese": "納得",
+      "kana": "なっとく",
+      "romaji": "nattoku",
+      "tokens": [
+        {
+          "text": "納得",
+          "kana": "なっとく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "农业",
+      "japanese": "農業",
+      "kana": "のうぎょう",
+      "romaji": "nougyou",
+      "tokens": [
+        {
+          "text": "農業",
+          "kana": "のうぎょう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "波浪；潮流；起伏",
+      "japanese": "波",
+      "kana": "なみ",
+      "romaji": "nami",
+      "tokens": [
+        {
+          "text": "波",
+          "kana": "なみ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "华丽，花哨；阔绰，浮夸",
+      "japanese": "派手",
+      "kana": "はで",
+      "romaji": "hade",
+      "tokens": [
+        {
+          "text": "派手",
+          "kana": "はで"
+        }
+      ]
+    }
+  ]
+}

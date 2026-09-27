@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-33",
+  "coursePackId": "jp-n2",
+  "title": "名词 33",
+  "order": 33,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "热衷，对……入迷",
+      "japanese": "熱中",
+      "kana": "ねっちゅう",
+      "romaji": "netchuu",
+      "tokens": [
+        {
+          "text": "熱中",
+          "kana": "ねっちゅう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "年月，岁月",
+      "japanese": "年月",
+      "kana": "ねんげつ",
+      "romaji": "nengetsu",
+      "tokens": [
+        {
+          "text": "年月",
+          "kana": "ねんげつ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "农药",
+      "japanese": "農薬",
+      "kana": "のうやく",
+      "romaji": "nouyaku",
+      "tokens": [
+        {
+          "text": "農薬",
+          "kana": "のうやく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "碎片",
+      "japanese": "破片",
+      "kana": "はへん",
+      "romaji": "hahen",
+      "tokens": [
+        {
+          "text": "破片",
+          "kana": "はへん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "钵；花盆",
+      "japanese": "鉢",
+      "kana": "はち",
+      "romaji": "hachi",
+      "tokens": [
+        {
+          "text": "鉢",
+          "kana": "はち"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "发挥，施展",
+      "japanese": "発揮",
+      "kana": "はっき",
+      "romaji": "hakki",
+      "tokens": [
+        {
+          "text": "発揮",
+          "kana": "はっき"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "发行；印发",
+      "japanese": "発行",
+      "kana": "はっこう",
+      "romaji": "hakkou",
+      "tokens": [
+        {
+          "text": "発行",
+          "kana": "はっこう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "发电",
+      "japanese": "発電",
+      "kana": "はつでん",
+      "romaji": "hatsuden",
+      "tokens": [
+        {
+          "text": "発電",
+          "kana": "はつでん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "映照，反射；反映",
+      "japanese": "反映",
+      "kana": "はんえい",
+      "romaji": "han'ei",
+      "tokens": [
+        {
+          "text": "反映",
+          "kana": "はんえい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "反省",
+      "japanese": "反省",
+      "kana": "はんせい",
+      "romaji": "hansei",
+      "tokens": [
+        {
+          "text": "反省",
+          "kana": "はんせい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "板，木板",
+      "japanese": "板",
+      "kana": "いた",
+      "romaji": "ita",
+      "tokens": [
+        {
+          "text": "板",
+          "kana": "いた"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "被害，受害",
+      "japanese": "被害",
+      "kana": "ひがい",
+      "romaji": "higai",
+      "tokens": [
+        {
+          "text": "被害",
+          "kana": "ひがい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "笔记，写下来",
+      "japanese": "筆記",
+      "kana": "ひっき",
+      "romaji": "hikki",
+      "tokens": [
+        {
+          "text": "筆記",
+          "kana": "ひっき"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "封面，书皮",
+      "japanese": "表紙",
+      "kana": "ひょうし",
+      "romaji": "hyoushi",
+      "tokens": [
+        {
+          "text": "表紙",
+          "kana": "ひょうし"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "评定，评价；（给予）好评",
+      "japanese": "評価",
+      "kana": "ひょうか",
+      "romaji": "hyouka",
+      "tokens": [
+        {
+          "text": "評価",
+          "kana": "ひょうか"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "舆论，评价；好评",
+      "japanese": "評判",
+      "kana": "ひょうばん",
+      "romaji": "hyouban",
+      "tokens": [
+        {
+          "text": "評判",
+          "kana": "ひょうばん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "（对事物的善恶、优劣、价值等进行）评论",
+      "japanese": "評論",
+      "kana": "ひょうろん",
+      "romaji": "hyouron",
+      "tokens": [
+        {
+          "text": "評論",
+          "kana": "ひょうろん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "不可以……；不合格",
+      "japanese": "不可",
+      "kana": "ふか",
+      "romaji": "fuka",
+      "tokens": [
+        {
+          "text": "不可",
+          "kana": "ふか"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "不愉快；身体不适",
+      "japanese": "不快",
+      "kana": "ふかい",
+      "romaji": "fukai",
+      "tokens": [
+        {
+          "text": "不快",
+          "kana": "ふかい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "附属",
+      "japanese": "付属",
+      "kana": "ふぞく",
+      "romaji": "fuzoku",
+      "tokens": [
+        {
+          "text": "付属",
+          "kana": "ふぞく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "承担；负担",
+      "japanese": "負担",
+      "kana": "ふたん",
+      "romaji": "futan",
+      "tokens": [
+        {
+          "text": "負担",
+          "kana": "ふたん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "武器",
+      "japanese": "武器",
+      "kana": "ぶき",
+      "romaji": "buki",
+      "tokens": [
+        {
+          "text": "武器",
+          "kana": "ぶき"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "物质",
+      "japanese": "物質",
+      "kana": "ぶっしつ",
+      "romaji": "busshitsu",
+      "tokens": [
+        {
+          "text": "物質",
+          "kana": "ぶっしつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "不太平，动荡；危险",
+      "japanese": "物騒",
+      "kana": "ぶっそう",
+      "romaji": "bussou",
+      "tokens": [
+        {
+          "text": "物騒",
+          "kana": "ぶっそう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "拆开；分解",
+      "japanese": "分解",
+      "kana": "ぶんかい",
+      "romaji": "bunkai",
+      "tokens": [
+        {
+          "text": "分解",
+          "kana": "ぶんかい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "分析",
+      "japanese": "分析",
+      "kana": "ぶんせき",
+      "romaji": "bunseki",
+      "tokens": [
+        {
+          "text": "分析",
+          "kana": "ぶんせき"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "区域，领域",
+      "japanese": "分野",
+      "kana": "ぶんや",
+      "romaji": "bun'ya",
+      "tokens": [
+        {
+          "text": "分野",
+          "kana": "ぶんや"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "物品的重量、大小、数量、比例等的多少程度",
+      "japanese": "分量",
+      "kana": "ぶんりょう",
+      "romaji": "bunryou",
+      "tokens": [
+        {
+          "text": "分量",
+          "kana": "ぶんりょう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "文献，参考资料",
+      "japanese": "文献",
+      "kana": "ぶんけん",
+      "romaji": "bunken",
+      "tokens": [
+        {
+          "text": "文献",
+          "kana": "ぶんけん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "文体；文风，风格",
+      "japanese": "文体",
+      "kana": "ぶんたい",
+      "romaji": "buntai",
+      "tokens": [
+        {
+          "text": "文体",
+          "kana": "ぶんたい"
+        }
+      ]
+    }
+  ]
+}

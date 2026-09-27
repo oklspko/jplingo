@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-28",
+  "coursePackId": "jp-n2",
+  "title": "名词 28",
+  "order": 28,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "贡献",
+      "japanese": "貢献",
+      "kana": "こうけん",
+      "romaji": "kouken",
+      "tokens": [
+        {
+          "text": "貢献",
+          "kana": "こうけん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "高空；高层",
+      "japanese": "高層",
+      "kana": "こうそう",
+      "romaji": "kousou",
+      "tokens": [
+        {
+          "text": "高層",
+          "kana": "こうそう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "联合，合并",
+      "japanese": "合同",
+      "kana": "ごうどう",
+      "romaji": "goudou",
+      "tokens": [
+        {
+          "text": "合同",
+          "kana": "ごうどう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "克服",
+      "japanese": "克服",
+      "kana": "こくふく",
+      "romaji": "kokufuku",
+      "tokens": [
+        {
+          "text": "克服",
+          "kana": "こくふく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "（举办）活动",
+      "japanese": "催し",
+      "kana": "もよおし",
+      "romaji": "moyooshi",
+      "tokens": [
+        {
+          "text": "催し",
+          "kana": "もよおし"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "催促，催讨，催逼",
+      "japanese": "催促",
+      "kana": "さいそく",
+      "romaji": "saisoku",
+      "tokens": [
+        {
+          "text": "催促",
+          "kana": "さいそく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "时候，之际",
+      "japanese": "際",
+      "kana": "さい",
+      "romaji": "sai",
+      "tokens": [
+        {
+          "text": "際",
+          "kana": "さい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "在学，在校",
+      "japanese": "在学",
+      "kana": "ざいがく",
+      "romaji": "zaigaku",
+      "tokens": [
+        {
+          "text": "在学",
+          "kana": "ざいがく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "作曲，谱曲",
+      "japanese": "作曲",
+      "kana": "さっきょく",
+      "romaji": "sakkyoku",
+      "tokens": [
+        {
+          "text": "作曲",
+          "kana": "さっきょく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "礼节，礼法，礼貌",
+      "japanese": "作法",
+      "kana": "さほう",
+      "romaji": "sahou",
+      "tokens": [
+        {
+          "text": "作法",
+          "kana": "さほう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "删除",
+      "japanese": "削除",
+      "kana": "さくじょ",
+      "romaji": "sakujo",
+      "tokens": [
+        {
+          "text": "削除",
+          "kana": "さくじょ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "杂草",
+      "japanese": "雑草",
+      "kana": "ざっそう",
+      "romaji": "zassou",
+      "tokens": [
+        {
+          "text": "雑草",
+          "kana": "ざっそう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "闲谈，闲聊",
+      "japanese": "雑談",
+      "kana": "ざつだん",
+      "romaji": "zatsudan",
+      "tokens": [
+        {
+          "text": "雑談",
+          "kana": "ざつだん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "酸性",
+      "japanese": "酸性",
+      "kana": "さんせい",
+      "romaji": "sansei",
+      "tokens": [
+        {
+          "text": "酸性",
+          "kana": "さんせい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "氧气",
+      "japanese": "酸素",
+      "kana": "さんそ",
+      "romaji": "sanso",
+      "tokens": [
+        {
+          "text": "酸素",
+          "kana": "さんそ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "刺激",
+      "japanese": "刺激",
+      "kana": "しげき",
+      "romaji": "shigeki",
+      "tokens": [
+        {
+          "text": "刺激",
+          "kana": "しげき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "抚养孩子",
+      "japanese": "子育て",
+      "kana": "こそだて",
+      "romaji": "kosodate",
+      "tokens": [
+        {
+          "text": "子育て",
+          "kana": "こそだて"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "断念，死心；尽情地，痛快地",
+      "japanese": "思い切り",
+      "kana": "おもいきり",
+      "romaji": "omoikiri",
+      "tokens": [
+        {
+          "text": "思い切り",
+          "kana": "おもいきり"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "思想，想法",
+      "japanese": "思想",
+      "kana": "しそう",
+      "romaji": "shisou",
+      "tokens": [
+        {
+          "text": "思想",
+          "kana": "しそう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "统治；支配，影响",
+      "japanese": "支配",
+      "kana": "しはい",
+      "romaji": "shihai",
+      "tokens": [
+        {
+          "text": "支配",
+          "kana": "しはい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "线头；线索，头绪",
+      "japanese": "糸口",
+      "kana": "いとぐち",
+      "romaji": "itoguchi",
+      "tokens": [
+        {
+          "text": "糸口",
+          "kana": "いとぐち"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "紫色；紫草",
+      "japanese": "紫",
+      "kana": "むらさき",
+      "romaji": "murasaki",
+      "tokens": [
+        {
+          "text": "紫",
+          "kana": "むらさき"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "火急，火速",
+      "japanese": "至急",
+      "kana": "しきゅう",
+      "romaji": "shikyuu",
+      "tokens": [
+        {
+          "text": "至急",
+          "kana": "しきゅう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "齿轮；构成整体的各要素",
+      "japanese": "歯車",
+      "kana": "はぐるま",
+      "romaji": "haguruma",
+      "tokens": [
+        {
+          "text": "歯車",
+          "kana": "はぐるま"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "事态，局势",
+      "japanese": "事態",
+      "kana": "じたい",
+      "romaji": "jitai",
+      "tokens": [
+        {
+          "text": "事態",
+          "kana": "じたい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "儿童",
+      "japanese": "児童",
+      "kana": "じどう",
+      "romaji": "jidou",
+      "tokens": [
+        {
+          "text": "児童",
+          "kana": "じどう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "自己；亲自",
+      "japanese": "自ら",
+      "kana": "みずから",
+      "romaji": "mizukara",
+      "tokens": [
+        {
+          "text": "自ら",
+          "kana": "みずから"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "施行，举行",
+      "japanese": "実施",
+      "kana": "じっし",
+      "romaji": "jisshi",
+      "tokens": [
+        {
+          "text": "実施",
+          "kana": "じっし"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "写生",
+      "japanese": "写生",
+      "kana": "しゃせい",
+      "romaji": "shasei",
+      "tokens": [
+        {
+          "text": "写生",
+          "kana": "しゃせい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "主义，原则",
+      "japanese": "主義",
+      "kana": "しゅぎ",
+      "romaji": "shugi",
+      "tokens": [
+        {
+          "text": "主義",
+          "kana": "しゅぎ"
+        }
+      ]
+    }
+  ]
+}

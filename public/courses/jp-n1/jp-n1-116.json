@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-116",
+  "coursePackId": "jp-n1",
+  "title": "动词 25",
+  "order": 116,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "萧条，冷落，凋零，衰败",
+      "japanese": "寂れる",
+      "kana": "さびれる",
+      "romaji": "sabireru",
+      "tokens": [
+        {
+          "text": "寂れる",
+          "kana": "さびれる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "承销，转卖，零售；现学现卖，听话学话",
+      "japanese": "受け売り",
+      "kana": "うけうり",
+      "romaji": "ukeuri",
+      "tokens": [
+        {
+          "text": "受け売り",
+          "kana": "うけうり"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "过多，富余",
+      "japanese": "有り余る",
+      "kana": "ありあまる",
+      "romaji": "ariamaru",
+      "tokens": [
+        {
+          "text": "有り余る",
+          "kana": "ありあまる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "咬住；猛烈地反驳",
+      "japanese": "嚙[か]み付く",
+      "kana": "かみつく",
+      "romaji": "kamitsuku",
+      "tokens": [
+        {
+          "text": "嚙[か]み付く",
+          "kana": "かみつく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "虚构，假设；虚假",
+      "japanese": "虚構",
+      "kana": "きょこう",
+      "romaji": "kyokou",
+      "tokens": [
+        {
+          "text": "虚構",
+          "kana": "きょこう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "贴近，靠近",
+      "japanese": "擦り寄る",
+      "kana": "すりよる",
+      "romaji": "suriyoru",
+      "tokens": [
+        {
+          "text": "擦り寄る",
+          "kana": "すりよる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "勤奋，勤勉，努力",
+      "japanese": "いそしむ",
+      "kana": "いそしむ",
+      "romaji": "isoshimu",
+      "tokens": [
+        {
+          "text": "いそしむ",
+          "kana": "いそしむ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "腐蚀，侵蚀",
+      "japanese": "腐食",
+      "kana": "ふしょく",
+      "romaji": "fushoku",
+      "tokens": [
+        {
+          "text": "腐食",
+          "kana": "ふしょく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "自卖自夸",
+      "japanese": "自画自賛",
+      "kana": "じがじさん",
+      "romaji": "jigajisan",
+      "tokens": [
+        {
+          "text": "自画自賛",
+          "kana": "じがじさん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "博得，获得，赢得",
+      "japanese": "博する",
+      "kana": "はくする",
+      "romaji": "hakusuru",
+      "tokens": [
+        {
+          "text": "博する",
+          "kana": "はくする"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "驯服；使归服，使顺从，使就范",
+      "japanese": "手なずける",
+      "kana": "てなずける",
+      "romaji": "tenazukeru",
+      "tokens": [
+        {
+          "text": "手なずける",
+          "kana": "てなずける"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "（绞尽脑汁）想出；（千方百计地）筹措",
+      "japanese": "ひねり出す",
+      "kana": "ひねりだす",
+      "romaji": "hineridasu",
+      "tokens": [
+        {
+          "text": "ひねり出す",
+          "kana": "ひねりだす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "启蒙，启发",
+      "japanese": "啓 蒙[もう]",
+      "kana": "けいもう",
+      "romaji": "keimou",
+      "tokens": [
+        {
+          "text": "啓 蒙[もう]",
+          "kana": "けいもう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "立断，立即决定",
+      "japanese": "即断",
+      "kana": "そくだん",
+      "romaji": "sokudan",
+      "tokens": [
+        {
+          "text": "即断",
+          "kana": "そくだん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "预先判断",
+      "japanese": "予断",
+      "kana": "よだん",
+      "romaji": "yodan",
+      "tokens": [
+        {
+          "text": "予断",
+          "kana": "よだん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "费心，费劲；尽力，出力",
+      "japanese": "骨折る",
+      "kana": "ほねおる",
+      "romaji": "honeoru",
+      "tokens": [
+        {
+          "text": "骨折る",
+          "kana": "ほねおる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "滥用，挪用",
+      "japanese": "乱用",
+      "kana": "らんよう",
+      "romaji": "ran'you",
+      "tokens": [
+        {
+          "text": "乱用",
+          "kana": "らんよう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "放任（自流）",
+      "japanese": "放任",
+      "kana": "ほうにん",
+      "romaji": "hounin",
+      "tokens": [
+        {
+          "text": "放任",
+          "kana": "ほうにん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "修养",
+      "japanese": "修養",
+      "kana": "しゅうよう",
+      "romaji": "shuuyou",
+      "tokens": [
+        {
+          "text": "修養",
+          "kana": "しゅうよう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "倾听，谨听，洗耳恭听",
+      "japanese": "傾聴",
+      "kana": "けいちょう",
+      "romaji": "keichou",
+      "tokens": [
+        {
+          "text": "傾聴",
+          "kana": "けいちょう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（一一）数出来，列举，枚举",
+      "japanese": "数え上げる",
+      "kana": "かぞえあげる",
+      "romaji": "kazoeageru",
+      "tokens": [
+        {
+          "text": "数え上げる",
+          "kana": "かぞえあげる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "交换，互换",
+      "japanese": "取り交わす",
+      "kana": "とりかわす",
+      "romaji": "torikawasu",
+      "tokens": [
+        {
+          "text": "取り交わす",
+          "kana": "とりかわす"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "启发，启蒙",
+      "japanese": "啓発",
+      "kana": "けいはつ",
+      "romaji": "keihatsu",
+      "tokens": [
+        {
+          "text": "啓発",
+          "kana": "けいはつ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "滤，过滤",
+      "japanese": "濾[こ]す",
+      "kana": "こす",
+      "romaji": "kosu",
+      "tokens": [
+        {
+          "text": "濾[こ]す",
+          "kana": "こす"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "伸出",
+      "japanese": "伸べる",
+      "kana": "のべる",
+      "romaji": "noberu",
+      "tokens": [
+        {
+          "text": "伸べる",
+          "kana": "のべる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "休息，消遣",
+      "japanese": "憩う",
+      "kana": "いこう",
+      "romaji": "ikou",
+      "tokens": [
+        {
+          "text": "憩う",
+          "kana": "いこう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "以……自居",
+      "japanese": "自任",
+      "kana": "じにん",
+      "romaji": "jinin",
+      "tokens": [
+        {
+          "text": "自任",
+          "kana": "じにん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "孵，孵化",
+      "japanese": "孵[かえ]す",
+      "kana": "かえす",
+      "romaji": "kaesu",
+      "tokens": [
+        {
+          "text": "孵[かえ]す",
+          "kana": "かえす"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "转入，拨归，结转",
+      "japanese": "繰り越す",
+      "kana": "くりこす",
+      "romaji": "kurikosu",
+      "tokens": [
+        {
+          "text": "繰り越す",
+          "kana": "くりこす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（将不足的部分）补充（完整）",
+      "japanese": "補完",
+      "kana": "ほかん",
+      "romaji": "hokan",
+      "tokens": [
+        {
+          "text": "補完",
+          "kana": "ほかん"
+        }
+      ]
+    }
+  ]
+}

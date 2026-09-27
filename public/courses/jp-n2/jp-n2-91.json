@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-91",
+  "coursePackId": "jp-n2",
+  "title": "动词 20",
+  "order": 91,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "提上来；提前",
+      "japanese": "繰り上げる",
+      "kana": "くりあげる",
+      "romaji": "kuriageru",
+      "tokens": [
+        {
+          "text": "繰り上げる",
+          "kana": "くりあげる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "授受",
+      "japanese": "授受",
+      "kana": "じゅじゅ",
+      "romaji": "juju",
+      "tokens": [
+        {
+          "text": "授受",
+          "kana": "じゅじゅ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "挤，拥挤",
+      "japanese": "込み合う",
+      "kana": "こみあう",
+      "romaji": "komiau",
+      "tokens": [
+        {
+          "text": "込み合う",
+          "kana": "こみあう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "卷成旋涡，呈旋涡状；激动，混乱",
+      "japanese": "渦巻く",
+      "kana": "うずまく",
+      "romaji": "uzumaku",
+      "tokens": [
+        {
+          "text": "渦巻く",
+          "kana": "うずまく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "（冰等）覆盖了一整片区域；紧张",
+      "japanese": "張り詰める",
+      "kana": "はりつめる",
+      "romaji": "haritsumeru",
+      "tokens": [
+        {
+          "text": "張り詰める",
+          "kana": "はりつめる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "咀嚼；理解，体会",
+      "japanese": "咀嚼[そしゃく]",
+      "kana": "そしゃく",
+      "romaji": "soshaku",
+      "tokens": [
+        {
+          "text": "咀嚼[そしゃく]",
+          "kana": "そしゃく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "抢，抢夺",
+      "japanese": "横取り",
+      "kana": "よこどり",
+      "romaji": "yokodori",
+      "tokens": [
+        {
+          "text": "横取り",
+          "kana": "よこどり"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "声援",
+      "japanese": "声援",
+      "kana": "せいえん",
+      "romaji": "seien",
+      "tokens": [
+        {
+          "text": "声援",
+          "kana": "せいえん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "互相帮助",
+      "japanese": "助け合う",
+      "kana": "たすけあう",
+      "romaji": "tasukeau",
+      "tokens": [
+        {
+          "text": "助け合う",
+          "kana": "たすけあう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "喷出，涌出；涌现",
+      "japanese": "湧き出る",
+      "kana": "わきでる",
+      "romaji": "wakideru",
+      "tokens": [
+        {
+          "text": "湧き出る",
+          "kana": "わきでる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "拆除，撤除，拆掉",
+      "japanese": "取り払う",
+      "kana": "とりはらう",
+      "romaji": "toriharau",
+      "tokens": [
+        {
+          "text": "取り払う",
+          "kana": "とりはらう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "使劲，用力；虚张声势，逞强",
+      "japanese": "力む",
+      "kana": "りきむ",
+      "romaji": "rikimu",
+      "tokens": [
+        {
+          "text": "力む",
+          "kana": "りきむ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "死守",
+      "japanese": "死守",
+      "kana": "ししゅ",
+      "romaji": "shishu",
+      "tokens": [
+        {
+          "text": "死守",
+          "kana": "ししゅ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "摆出；列举，罗列",
+      "japanese": "並べ立てる",
+      "kana": "ならべたてる",
+      "romaji": "narabetateru",
+      "tokens": [
+        {
+          "text": "並べ立てる",
+          "kana": "ならべたてる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "可能",
+      "japanese": "有り得る",
+      "kana": "ありうる",
+      "romaji": "ariuru",
+      "tokens": [
+        {
+          "text": "有り得る",
+          "kana": "ありうる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "写下，留传；漏写，没写完",
+      "japanese": "書き残す",
+      "kana": "かきのこす",
+      "romaji": "kakinokosu",
+      "tokens": [
+        {
+          "text": "書き残す",
+          "kana": "かきのこす"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "织入；穿插，编入",
+      "japanese": "織り込む",
+      "kana": "おりこむ",
+      "romaji": "orikomu",
+      "tokens": [
+        {
+          "text": "織り込む",
+          "kana": "おりこむ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "估计，估量；计划，策划",
+      "japanese": "目算",
+      "kana": "もくさん",
+      "romaji": "mokusan",
+      "tokens": [
+        {
+          "text": "目算",
+          "kana": "もくさん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "沾上；沾染上",
+      "japanese": "染み付く",
+      "kana": "しみつく",
+      "romaji": "shimitsuku",
+      "tokens": [
+        {
+          "text": "染み付く",
+          "kana": "しみつく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "亮化，（向建筑物）投光照明",
+      "japanese": "ライトアップ",
+      "kana": "らいとあっぷ",
+      "romaji": "raitoappu",
+      "tokens": [
+        {
+          "text": "ライトアップ",
+          "kana": "らいとあっぷ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "代写，代笔，代书",
+      "japanese": "代筆",
+      "kana": "だいひつ",
+      "romaji": "daihitsu",
+      "tokens": [
+        {
+          "text": "代筆",
+          "kana": "だいひつ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "牵扯，牵涉",
+      "japanese": "関わり合う",
+      "kana": "かかわりあう",
+      "romaji": "kakawariau",
+      "tokens": [
+        {
+          "text": "関わり合う",
+          "kana": "かかわりあう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "重新审查，重新研究，重新考虑",
+      "japanese": "再検討",
+      "kana": "さいけんとう",
+      "romaji": "saikentou",
+      "tokens": [
+        {
+          "text": "再検討",
+          "kana": "さいけんとう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "迷惑，使困惑；诱惑，诱骗",
+      "japanese": "迷わす",
+      "kana": "まよわす",
+      "romaji": "mayowasu",
+      "tokens": [
+        {
+          "text": "迷わす",
+          "kana": "まよわす"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（电脑）输出",
+      "japanese": "アウトプット",
+      "kana": "あうとぷっと",
+      "romaji": "autoputto",
+      "tokens": [
+        {
+          "text": "アウトプット",
+          "kana": "あうとぷっと"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "误读，错读",
+      "japanese": "誤読",
+      "kana": "ごどく",
+      "romaji": "godoku",
+      "tokens": [
+        {
+          "text": "誤読",
+          "kana": "ごどく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（用文字或图画）表现出来",
+      "japanese": "書き表す",
+      "kana": "かきあらわす",
+      "romaji": "kakiarawasu",
+      "tokens": [
+        {
+          "text": "書き表す",
+          "kana": "かきあらわす"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（照片）修图",
+      "japanese": "修整",
+      "kana": "しゅうせい",
+      "romaji": "shuusei",
+      "tokens": [
+        {
+          "text": "修整",
+          "kana": "しゅうせい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "闪，闪耀，闪烁；飘动，飘扬，飘荡；闪现，忽然想出",
+      "japanese": "ひらめく",
+      "kana": "ひらめく",
+      "romaji": "hirameku",
+      "tokens": [
+        {
+          "text": "ひらめく",
+          "kana": "ひらめく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "设定条件并缩小范围",
+      "japanese": "絞り込む",
+      "kana": "しぼりこむ",
+      "romaji": "shiborikomu",
+      "tokens": [
+        {
+          "text": "絞り込む",
+          "kana": "しぼりこむ"
+        }
+      ]
+    }
+  ]
+}

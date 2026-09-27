@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-02",
+  "coursePackId": "jp-n3",
+  "title": "名词 2",
+  "order": 2,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（非正式场合的男性自称）我",
+      "japanese": "俺",
+      "kana": "おれ",
+      "romaji": "ore",
+      "tokens": [
+        {
+          "text": "俺",
+          "kana": "おれ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "家庭",
+      "japanese": "家庭",
+      "kana": "かてい",
+      "romaji": "katei",
+      "tokens": [
+        {
+          "text": "家庭",
+          "kana": "かてい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "海外，国外",
+      "japanese": "海外",
+      "kana": "かいがい",
+      "romaji": "kaigai",
+      "tokens": [
+        {
+          "text": "海外",
+          "kana": "かいがい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "迎新会",
+      "japanese": "歓迎会",
+      "kana": "かんげいかい",
+      "romaji": "kangeikai",
+      "tokens": [
+        {
+          "text": "歓迎会",
+          "kana": "かんげいかい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "企业",
+      "japanese": "企業",
+      "kana": "きぎょう",
+      "romaji": "kigyou",
+      "tokens": [
+        {
+          "text": "企業",
+          "kana": "きぎょう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "气温",
+      "japanese": "気温",
+      "kana": "きおん",
+      "romaji": "kion",
+      "tokens": [
+        {
+          "text": "気温",
+          "kana": "きおん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "纪念品",
+      "japanese": "記念品",
+      "kana": "きねんひん",
+      "romaji": "kinenhin",
+      "tokens": [
+        {
+          "text": "記念品",
+          "kana": "きねんひん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "银行工作人员",
+      "japanese": "銀行員",
+      "kana": "ぎんこういん",
+      "romaji": "ginkouin",
+      "tokens": [
+        {
+          "text": "銀行員",
+          "kana": "ぎんこういん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "健康；健康的",
+      "japanese": "健康",
+      "kana": "けんこう",
+      "romaji": "kenkou",
+      "tokens": [
+        {
+          "text": "健康",
+          "kana": "けんこう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "单词，词语",
+      "japanese": "語",
+      "kana": "ご",
+      "romaji": "go",
+      "tokens": [
+        {
+          "text": "語",
+          "kana": "ご"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "喉咙，嗓子",
+      "japanese": "喉",
+      "kana": "のど",
+      "romaji": "nodo",
+      "tokens": [
+        {
+          "text": "喉",
+          "kana": "のど"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "作家",
+      "japanese": "作家",
+      "kana": "さっか",
+      "romaji": "sakka",
+      "tokens": [
+        {
+          "text": "作家",
+          "kana": "さっか"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "自己",
+      "japanese": "自己",
+      "kana": "じこ",
+      "romaji": "jiko",
+      "tokens": [
+        {
+          "text": "自己",
+          "kana": "じこ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "汽车",
+      "japanese": "自動車",
+      "kana": "じどうしゃ",
+      "romaji": "jidousha",
+      "tokens": [
+        {
+          "text": "自動車",
+          "kana": "じどうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "社会",
+      "japanese": "社会",
+      "kana": "しゃかい",
+      "romaji": "shakai",
+      "tokens": [
+        {
+          "text": "社会",
+          "kana": "しゃかい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "一家之主；店主；丈夫",
+      "japanese": "主人",
+      "kana": "しゅじん",
+      "romaji": "shujin",
+      "tokens": [
+        {
+          "text": "主人",
+          "kana": "しゅじん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "出差",
+      "japanese": "出張",
+      "kana": "しゅっちょう",
+      "romaji": "shutchou",
+      "tokens": [
+        {
+          "text": "出張",
+          "kana": "しゅっちょう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "文件，资料",
+      "japanese": "書類",
+      "kana": "しょるい",
+      "romaji": "shorui",
+      "tokens": [
+        {
+          "text": "書類",
+          "kana": "しょるい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "新鲜，鲜活",
+      "japanese": "新鮮",
+      "kana": "しんせん",
+      "romaji": "shinsen",
+      "tokens": [
+        {
+          "text": "新鮮",
+          "kana": "しんせん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "数字",
+      "japanese": "数字",
+      "kana": "すうじ",
+      "romaji": "suuji",
+      "tokens": [
+        {
+          "text": "数字",
+          "kana": "すうじ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "洗衣机",
+      "japanese": "洗濯機",
+      "kana": "せんたくき",
+      "romaji": "sentakuki",
+      "tokens": [
+        {
+          "text": "洗濯機",
+          "kana": "せんたくき"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "全体成员",
+      "japanese": "全員",
+      "kana": "ぜんいん",
+      "romaji": "zen'in",
+      "tokens": [
+        {
+          "text": "全員",
+          "kana": "ぜんいん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "祖父母",
+      "japanese": "祖父母",
+      "kana": "そふぼ",
+      "romaji": "sofubo",
+      "tokens": [
+        {
+          "text": "祖父母",
+          "kana": "そふぼ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "太阳",
+      "japanese": "太陽",
+      "kana": "たいよう",
+      "romaji": "taiyou",
+      "tokens": [
+        {
+          "text": "太陽",
+          "kana": "たいよう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "代替，替代；（お代わり）再来一份，再来一碗",
+      "japanese": "代わり",
+      "kana": "かわり",
+      "romaji": "kawari",
+      "tokens": [
+        {
+          "text": "代わり",
+          "kana": "かわり"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "碗，茶杯，饭碗",
+      "japanese": "茶 碗[わん]",
+      "kana": "ちゃわん",
+      "romaji": "chawan",
+      "tokens": [
+        {
+          "text": "茶 碗[わん]",
+          "kana": "ちゃわん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "中国菜",
+      "japanese": "中華料理",
+      "kana": "ちゅうかりょうり",
+      "romaji": "chuukaryouri",
+      "tokens": [
+        {
+          "text": "中華料理",
+          "kana": "ちゅうかりょうり"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "乡下，农村；老家",
+      "japanese": "田舎",
+      "kana": "いなか",
+      "romaji": "inaka",
+      "tokens": [
+        {
+          "text": "田舎",
+          "kana": "いなか"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "都市，大城市",
+      "japanese": "都会",
+      "kana": "とかい",
+      "romaji": "tokai",
+      "tokens": [
+        {
+          "text": "都会",
+          "kana": "とかい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "猪肉",
+      "japanese": "豚肉",
+      "kana": "ぶたにく",
+      "romaji": "butaniku",
+      "tokens": [
+        {
+          "text": "豚肉",
+          "kana": "ぶたにく"
+        }
+      ]
+    }
+  ]
+}

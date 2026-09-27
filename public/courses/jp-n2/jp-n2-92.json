@@ -1,0 +1,216 @@
+{
+  "id": "jp-n2-92",
+  "coursePackId": "jp-n2",
+  "title": "动词 21",
+  "order": 92,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "追求",
+      "japanese": "追い求める",
+      "kana": "おいもとめる",
+      "romaji": "oimotomeru",
+      "tokens": [
+        {
+          "text": "追い求める",
+          "kana": "おいもとめる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "加印上，印刷进去；（从小时候起）灌输",
+      "japanese": "刷り込む",
+      "kana": "すりこむ",
+      "romaji": "surikomu",
+      "tokens": [
+        {
+          "text": "刷り込む",
+          "kana": "すりこむ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "涌出，溢出",
+      "japanese": "あふれ出す",
+      "kana": "あふれだす",
+      "romaji": "afuredasu",
+      "tokens": [
+        {
+          "text": "あふれ出す",
+          "kana": "あふれだす"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "彻底教会，灌输",
+      "japanese": "教え込む",
+      "kana": "おしえこむ",
+      "romaji": "oshiekomu",
+      "tokens": [
+        {
+          "text": "教え込む",
+          "kana": "おしえこむ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "跑上去",
+      "japanese": "駆け上がる",
+      "kana": "かけあがる",
+      "romaji": "kakeagaru",
+      "tokens": [
+        {
+          "text": "駆け上がる",
+          "kana": "かけあがる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "唤进，让进来",
+      "japanese": "呼び込む",
+      "kana": "よびこむ",
+      "romaji": "yobikomu",
+      "tokens": [
+        {
+          "text": "呼び込む",
+          "kana": "よびこむ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "扎根",
+      "japanese": "根付く",
+      "kana": "ねづく",
+      "romaji": "nezuku",
+      "tokens": [
+        {
+          "text": "根付く",
+          "kana": "ねづく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "混在一起，交融",
+      "japanese": "混じり合う",
+      "kana": "まじりあう",
+      "romaji": "majiriau",
+      "tokens": [
+        {
+          "text": "混じり合う",
+          "kana": "まじりあう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "深信不疑，坚信，认定",
+      "japanese": "信じ込む",
+      "kana": "しんじこむ",
+      "romaji": "shinjikomu",
+      "tokens": [
+        {
+          "text": "信じ込む",
+          "kana": "しんじこむ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "生来具有",
+      "japanese": "生まれ持つ",
+      "kana": "うまれもつ",
+      "romaji": "umaremotsu",
+      "tokens": [
+        {
+          "text": "生まれ持つ",
+          "kana": "うまれもつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "开始洗；洗出；查明",
+      "japanese": "洗い出す",
+      "kana": "あらいだす",
+      "romaji": "araidasu",
+      "tokens": [
+        {
+          "text": "洗い出す",
+          "kana": "あらいだす"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "重新打；重新弹（棉花）",
+      "japanese": "打ち直す",
+      "kana": "うちなおす",
+      "romaji": "uchinaosu",
+      "tokens": [
+        {
+          "text": "打ち直す",
+          "kana": "うちなおす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "彻底读懂；（电脑）导入数据",
+      "japanese": "読み込む",
+      "kana": "よみこむ",
+      "romaji": "yomikomu",
+      "tokens": [
+        {
+          "text": "読み込む",
+          "kana": "よみこむ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "驱使，推动",
+      "japanese": "突き動かす",
+      "kana": "つきうごかす",
+      "romaji": "tsukiugokasu",
+      "tokens": [
+        {
+          "text": "突き動かす",
+          "kana": "つきうごかす"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "买给",
+      "japanese": "買い与える",
+      "kana": "かいあたえる",
+      "romaji": "kaiataeru",
+      "tokens": [
+        {
+          "text": "買い与える",
+          "kana": "かいあたえる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "漂流而至",
+      "japanese": "流れ着く",
+      "kana": "ながれつく",
+      "romaji": "nagaretsuku",
+      "tokens": [
+        {
+          "text": "流れ着く",
+          "kana": "ながれつく"
+        }
+      ]
+    }
+  ]
+}

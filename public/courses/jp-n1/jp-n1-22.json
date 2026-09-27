@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-22",
+  "coursePackId": "jp-n1",
+  "title": "名词 22",
+  "order": 22,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "摄影棚，录音室；演播室，播音室；（舞蹈、戏剧等）练习室；艺术家工作室",
+      "japanese": "スタジオ",
+      "kana": "すたじお",
+      "romaji": "sutajio",
+      "tokens": [
+        {
+          "text": "スタジオ",
+          "kana": "すたじお"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "精力，体力，耐力",
+      "japanese": "スタミナ",
+      "kana": "すたみな",
+      "romaji": "sutamina",
+      "tokens": [
+        {
+          "text": "スタミナ",
+          "kana": "すたみな"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "聚光灯；公众瞩目的焦点",
+      "japanese": "スポットライト",
+      "kana": "すぽっとらいと",
+      "romaji": "supottoraito",
+      "tokens": [
+        {
+          "text": "スポットライト",
+          "kana": "すぽっとらいと"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "果冻；胶状物，啫喱",
+      "japanese": "ゼリー",
+      "kana": "ぜりい",
+      "romaji": "zerii",
+      "tokens": [
+        {
+          "text": "ゼリー",
+          "kana": "ぜりい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "合作",
+      "japanese": "チームワーク",
+      "kana": "ちいむわあく",
+      "romaji": "chiimuwaaku",
+      "tokens": [
+        {
+          "text": "チームワーク",
+          "kana": "ちいむわあく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "音调；色调",
+      "japanese": "トーン",
+      "kana": "とうん",
+      "romaji": "toun",
+      "tokens": [
+        {
+          "text": "トーン",
+          "kana": "とうん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "瞬间，猛然",
+      "japanese": "とっさ",
+      "kana": "とっさ",
+      "romaji": "tossa",
+      "tokens": [
+        {
+          "text": "とっさ",
+          "kana": "とっさ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "司机；螺丝刀；驱动程序",
+      "japanese": "ドライバー",
+      "kana": "どらいばあ",
+      "romaji": "doraibaa",
+      "tokens": [
+        {
+          "text": "ドライバー",
+          "kana": "どらいばあ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "餐巾；卫生巾",
+      "japanese": "ナプキン",
+      "kana": "なぷきん",
+      "romaji": "napukin",
+      "tokens": [
+        {
+          "text": "ナプキン",
+          "kana": "なぷきん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "语气，语感；微妙的感觉",
+      "japanese": "ニュアンス",
+      "kana": "にゅあんす",
+      "romaji": "nyuansu",
+      "tokens": [
+        {
+          "text": "ニュアンス",
+          "kana": "にゅあんす"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "（寿司等的）材料；证据；新闻报道的材料；魔术的道具",
+      "japanese": "ねた",
+      "kana": "ねた",
+      "romaji": "neta",
+      "tokens": [
+        {
+          "text": "ねた",
+          "kana": "ねた"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "技术知识，技术秘密；诀窍",
+      "japanese": "ノウハウ",
+      "kana": "のうはう",
+      "romaji": "nouhau",
+      "tokens": [
+        {
+          "text": "ノウハウ",
+          "kana": "のうはう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "烫发",
+      "japanese": "パーマ",
+      "kana": "ぱあま",
+      "romaji": "paama",
+      "tokens": [
+        {
+          "text": "パーマ",
+          "kana": "ぱあま"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "徽章，纪念章",
+      "japanese": "バッジ",
+      "kana": "ばっじ",
+      "romaji": "bajji",
+      "tokens": [
+        {
+          "text": "バッジ",
+          "kana": "ばっじ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "泡沫",
+      "japanese": "バブル",
+      "kana": "ばぶる",
+      "romaji": "baburu",
+      "tokens": [
+        {
+          "text": "バブル",
+          "kana": "ばぶる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "衣架",
+      "japanese": "ハンガー",
+      "kana": "はんがあ",
+      "romaji": "hangaa",
+      "tokens": [
+        {
+          "text": "ハンガー",
+          "kana": "はんがあ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "（棒球的）安打；大受欢迎",
+      "japanese": "ヒット",
+      "kana": "ひっと",
+      "romaji": "hitto",
+      "tokens": [
+        {
+          "text": "ヒット",
+          "kana": "ひっと"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "向阳处",
+      "japanese": "日なた",
+      "kana": "ひなた",
+      "romaji": "hinata",
+      "tokens": [
+        {
+          "text": "日なた",
+          "kana": "ひなた"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "过滤器；滤镜",
+      "japanese": "フィルター",
+      "kana": "ふぃるたあ",
+      "romaji": "fyirutaa",
+      "tokens": [
+        {
+          "text": "フィルター",
+          "kana": "ふぃるたあ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "一双，一对",
+      "japanese": "ペア",
+      "kana": "ぺあ",
+      "romaji": "pea",
+      "tokens": [
+        {
+          "text": "ペア",
+          "kana": "ぺあ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "地位，职位；（防守）位置",
+      "japanese": "ポジション",
+      "kana": "ぽじしょん",
+      "romaji": "pojishon",
+      "tokens": [
+        {
+          "text": "ポジション",
+          "kana": "ぽじしょん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "形形色色，各不相同",
+      "japanese": "まちまち",
+      "kana": "まちまち",
+      "romaji": "machimachi",
+      "tokens": [
+        {
+          "text": "まちまち",
+          "kana": "まちまち"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "目标，头绪",
+      "japanese": "めど",
+      "kana": "めど",
+      "romaji": "medo",
+      "tokens": [
+        {
+          "text": "めど",
+          "kana": "めど"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "旋律，曲调",
+      "japanese": "メロディー",
+      "kana": "めろでぃい",
+      "romaji": "merodeii",
+      "tokens": [
+        {
+          "text": "メロディー",
+          "kana": "めろでぃい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "监视器；显示器，屏幕；评论员①",
+      "japanese": "モニター",
+      "kana": "もにたあ",
+      "romaji": "monitaa",
+      "tokens": [
+        {
+          "text": "モニター",
+          "kana": "もにたあ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "设法安排，筹划，筹措",
+      "japanese": "やりくり",
+      "kana": "やりくり",
+      "romaji": "yarikuri",
+      "tokens": [
+        {
+          "text": "やりくり",
+          "kana": "やりくり"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "用户",
+      "japanese": "ユーザー",
+      "kana": "ゆうざあ",
+      "romaji": "yuuzaa",
+      "tokens": [
+        {
+          "text": "ユーザー",
+          "kana": "ゆうざあ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（空间、时间、经济、精神上）宽裕，余裕",
+      "japanese": "ゆとり",
+      "kana": "ゆとり",
+      "romaji": "yutori",
+      "tokens": [
+        {
+          "text": "ゆとり",
+          "kana": "ゆとり"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "横着爬；（经济）没有浮动，持平",
+      "japanese": "横ばい",
+      "kana": "よこばい",
+      "romaji": "yokobai",
+      "tokens": [
+        {
+          "text": "横ばい",
+          "kana": "よこばい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "好坏，善恶；有好也有坏，有利也有弊",
+      "japanese": "善し 悪[あ]し",
+      "kana": "よしあし",
+      "romaji": "yoshiashi",
+      "tokens": [
+        {
+          "text": "善し 悪[あ]し",
+          "kana": "よしあし"
+        }
+      ]
+    }
+  ]
+}

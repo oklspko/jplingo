@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-89",
+  "coursePackId": "jp-n2",
+  "title": "动词 18",
+  "order": 89,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "镇定，平息（混乱）；镇，止住（疼痛）",
+      "japanese": "鎮める",
+      "kana": "しずめる",
+      "romaji": "shizumeru",
+      "tokens": [
+        {
+          "text": "鎮める",
+          "kana": "しずめる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "在心里描绘，想像",
+      "japanese": "思い描く",
+      "kana": "おもいえがく",
+      "romaji": "omoiegaku",
+      "tokens": [
+        {
+          "text": "思い描く",
+          "kana": "おもいえがく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "课，使负担；使担任，使做（某事）",
+      "japanese": "課する",
+      "kana": "かする",
+      "romaji": "kasuru",
+      "tokens": [
+        {
+          "text": "課する",
+          "kana": "かする"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "偏离",
+      "japanese": "それる",
+      "kana": "それる",
+      "romaji": "soreru",
+      "tokens": [
+        {
+          "text": "それる",
+          "kana": "それる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "证实，（从旁）支持，佐证",
+      "japanese": "裏付ける",
+      "kana": "うらづける",
+      "romaji": "urazukeru",
+      "tokens": [
+        {
+          "text": "裏付ける",
+          "kana": "うらづける"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "说给……听，劝说，忠告，开导，教诲",
+      "japanese": "言い聞かせる",
+      "kana": "いいきかせる",
+      "romaji": "iikikaseru",
+      "tokens": [
+        {
+          "text": "言い聞かせる",
+          "kana": "いいきかせる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（尽量）装入，塞入",
+      "japanese": "詰め込む",
+      "kana": "つめこむ",
+      "romaji": "tsumekomu",
+      "tokens": [
+        {
+          "text": "詰め込む",
+          "kana": "つめこむ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "跑进",
+      "japanese": "駆け込む",
+      "kana": "かけこむ",
+      "romaji": "kakekomu",
+      "tokens": [
+        {
+          "text": "駆け込む",
+          "kana": "かけこむ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "平衡，相称；互相对看",
+      "japanese": "見合う",
+      "kana": "みあう",
+      "romaji": "miau",
+      "tokens": [
+        {
+          "text": "見合う",
+          "kana": "みあう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "切下",
+      "japanese": "切り取る",
+      "kana": "きりとる",
+      "romaji": "kiritoru",
+      "tokens": [
+        {
+          "text": "切り取る",
+          "kana": "きりとる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "手牵手；争夺；理睬",
+      "japanese": "取り合う",
+      "kana": "とりあう",
+      "romaji": "toriau",
+      "tokens": [
+        {
+          "text": "取り合う",
+          "kana": "とりあう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "买下，收购",
+      "japanese": "買い取る",
+      "kana": "かいとる",
+      "romaji": "kaitoru",
+      "tokens": [
+        {
+          "text": "買い取る",
+          "kana": "かいとる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "飞来飞去；跑来跑去；东奔西走",
+      "japanese": "飛び回る",
+      "kana": "とびまわる",
+      "romaji": "tobimawaru",
+      "tokens": [
+        {
+          "text": "飛び回る",
+          "kana": "とびまわる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "到达（目的地）；事物达到最终状态",
+      "japanese": "行き着く",
+      "kana": "いきつく",
+      "romaji": "ikitsuku",
+      "tokens": [
+        {
+          "text": "行き着く",
+          "kana": "いきつく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "继续进行",
+      "japanese": "続行",
+      "kana": "ぞっこう",
+      "romaji": "zokkou",
+      "tokens": [
+        {
+          "text": "続行",
+          "kana": "ぞっこう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "吐出；倾吐",
+      "japanese": "吐き出す",
+      "kana": "はきだす",
+      "romaji": "hakidasu",
+      "tokens": [
+        {
+          "text": "吐き出す",
+          "kana": "はきだす"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "浮出；浮现出；翻身",
+      "japanese": "浮かび上がる",
+      "kana": "うかびあがる",
+      "romaji": "ukabiagaru",
+      "tokens": [
+        {
+          "text": "浮かび上がる",
+          "kana": "うかびあがる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "攻占；巧妙地进攻并打败对手",
+      "japanese": "攻略",
+      "kana": "こうりゃく",
+      "romaji": "kouryaku",
+      "tokens": [
+        {
+          "text": "攻略",
+          "kana": "こうりゃく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "走近；互让，妥协",
+      "japanese": "歩み寄る",
+      "kana": "あゆみよる",
+      "romaji": "ayumiyoru",
+      "tokens": [
+        {
+          "text": "歩み寄る",
+          "kana": "あゆみよる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "潜水；躲入，钻进；隐匿，潜伏",
+      "japanese": "潜る",
+      "kana": "もぐる",
+      "romaji": "moguru",
+      "tokens": [
+        {
+          "text": "潜る",
+          "kana": "もぐる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（从……中间）跑过去",
+      "japanese": "駆け抜ける",
+      "kana": "かけぬける",
+      "romaji": "kakenukeru",
+      "tokens": [
+        {
+          "text": "駆け抜ける",
+          "kana": "かけぬける"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "展开，打开；进行，开展",
+      "japanese": "繰り広げる",
+      "kana": "くりひろげる",
+      "romaji": "kurihirogeru",
+      "tokens": [
+        {
+          "text": "繰り広げる",
+          "kana": "くりひろげる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "使分离；拉开距离",
+      "japanese": "引き離す",
+      "kana": "ひきはなす",
+      "romaji": "hikihanasu",
+      "tokens": [
+        {
+          "text": "引き離す",
+          "kana": "ひきはなす"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "逐回，赶回去",
+      "japanese": "追い返す",
+      "kana": "おいかえす",
+      "romaji": "oikaesu",
+      "tokens": [
+        {
+          "text": "追い返す",
+          "kana": "おいかえす"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "表明，表示",
+      "japanese": "表明",
+      "kana": "ひょうめい",
+      "romaji": "hyoumei",
+      "tokens": [
+        {
+          "text": "表明",
+          "kana": "ひょうめい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "洗练，高雅",
+      "japanese": "洗練",
+      "kana": "せんれん",
+      "romaji": "senren",
+      "tokens": [
+        {
+          "text": "洗練",
+          "kana": "せんれん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "横卧，随便躺下",
+      "japanese": "寝転がる",
+      "kana": "ねころがる",
+      "romaji": "nekorogaru",
+      "tokens": [
+        {
+          "text": "寝転がる",
+          "kana": "ねころがる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "拉上；交给，提交",
+      "japanese": "引き渡す",
+      "kana": "ひきわたす",
+      "romaji": "hikiwatasu",
+      "tokens": [
+        {
+          "text": "引き渡す",
+          "kana": "ひきわたす"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "缠绕，缠；纠纷，纠葛，纠缠",
+      "japanese": "絡まる",
+      "kana": "からまる",
+      "romaji": "karamaru",
+      "tokens": [
+        {
+          "text": "絡まる",
+          "kana": "からまる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "吸出；剥削，压榨",
+      "japanese": "吸い取る",
+      "kana": "すいとる",
+      "romaji": "suitoru",
+      "tokens": [
+        {
+          "text": "吸い取る",
+          "kana": "すいとる"
+        }
+      ]
+    }
+  ]
+}

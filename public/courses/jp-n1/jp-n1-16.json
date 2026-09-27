@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-16",
+  "coursePackId": "jp-n1",
+  "title": "名词 16",
+  "order": 16,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "宫殿",
+      "japanese": "宮殿",
+      "kana": "きゅうでん",
+      "romaji": "kyuuden",
+      "tokens": [
+        {
+          "text": "宮殿",
+          "kana": "きゅうでん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "（学校、工厂等）供餐，提供饮食",
+      "japanese": "給食",
+      "kana": "きゅうしょく",
+      "romaji": "kyuushoku",
+      "tokens": [
+        {
+          "text": "給食",
+          "kana": "きゅうしょく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "居住",
+      "japanese": "居住",
+      "kana": "きょじゅう",
+      "romaji": "kyojuu",
+      "tokens": [
+        {
+          "text": "居住",
+          "kana": "きょじゅう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "叫喊，喊声；拼命诉求",
+      "japanese": "叫び",
+      "kana": "さけび",
+      "romaji": "sakebi",
+      "tokens": [
+        {
+          "text": "叫び",
+          "kana": "さけび"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "学生，徒弟，门徒",
+      "japanese": "教え子",
+      "kana": "おしえご",
+      "romaji": "oshiego",
+      "tokens": [
+        {
+          "text": "教え子",
+          "kana": "おしえご"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "月刊",
+      "japanese": "月刊",
+      "kana": "げっかん",
+      "romaji": "gekkan",
+      "tokens": [
+        {
+          "text": "月刊",
+          "kana": "げっかん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "表面上的主义，方针，原则",
+      "japanese": "建て前",
+      "kana": "たてまえ",
+      "romaji": "tatemae",
+      "tokens": [
+        {
+          "text": "建て前",
+          "kana": "たてまえ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（名片等上面附加于姓名旁的）职称；（社会上的）头衔，身份，地位",
+      "japanese": "肩書き",
+      "kana": "かたがき",
+      "romaji": "katagaki",
+      "tokens": [
+        {
+          "text": "肩書き",
+          "kana": "かたがき"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "相亲；平衡，相称",
+      "japanese": "見合い",
+      "kana": "みあい",
+      "romaji": "miai",
+      "tokens": [
+        {
+          "text": "見合い",
+          "kana": "みあい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "原则，原理",
+      "japanese": "原則",
+      "kana": "げんそく",
+      "romaji": "gensoku",
+      "tokens": [
+        {
+          "text": "原則",
+          "kana": "げんそく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "原文",
+      "japanese": "原文",
+      "kana": "げんぶん",
+      "romaji": "genbun",
+      "tokens": [
+        {
+          "text": "原文",
+          "kana": "げんぶん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "主张；不满",
+      "japanese": "言い分",
+      "kana": "いいぶん",
+      "romaji": "iibun",
+      "tokens": [
+        {
+          "text": "言い分",
+          "kana": "いいぶん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "古今，今与昔",
+      "japanese": "古今",
+      "kana": "ここん",
+      "romaji": "kokon",
+      "tokens": [
+        {
+          "text": "古今",
+          "kana": "ここん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "雇用，雇佣",
+      "japanese": "雇用",
+      "kana": "こよう",
+      "romaji": "koyou",
+      "tokens": [
+        {
+          "text": "雇用",
+          "kana": "こよう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "后世",
+      "japanese": "後世",
+      "kana": "こうせい",
+      "romaji": "kousei",
+      "tokens": [
+        {
+          "text": "後世",
+          "kana": "こうせい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "候补人员，候选人",
+      "japanese": "候補者",
+      "kana": "こうほしゃ",
+      "romaji": "kouhosha",
+      "tokens": [
+        {
+          "text": "候補者",
+          "kana": "こうほしゃ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "好意，善意",
+      "japanese": "好意",
+      "kana": "こうい",
+      "romaji": "koui",
+      "tokens": [
+        {
+          "text": "好意",
+          "kana": "こうい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "繁荣，景气",
+      "japanese": "好況",
+      "kana": "こうきょう",
+      "romaji": "koukyou",
+      "tokens": [
+        {
+          "text": "好況",
+          "kana": "こうきょう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "抗议，呼吁",
+      "japanese": "抗議",
+      "kana": "こうぎ",
+      "romaji": "kougi",
+      "tokens": [
+        {
+          "text": "抗議",
+          "kana": "こうぎ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "考古学",
+      "japanese": "考古学",
+      "kana": "こうこがく",
+      "romaji": "koukogaku",
+      "tokens": [
+        {
+          "text": "考古学",
+          "kana": "こうこがく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "行政；政务",
+      "japanese": "行政",
+      "kana": "ぎょうせい",
+      "romaji": "gyousei",
+      "tokens": [
+        {
+          "text": "行政",
+          "kana": "ぎょうせい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "矿山",
+      "japanese": "鉱山",
+      "kana": "こうざん",
+      "romaji": "kouzan",
+      "tokens": [
+        {
+          "text": "鉱山",
+          "kana": "こうざん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "降水",
+      "japanese": "降水",
+      "kana": "こうすい",
+      "romaji": "kousui",
+      "tokens": [
+        {
+          "text": "降水",
+          "kana": "こうすい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "昆虫",
+      "japanese": "昆虫",
+      "kana": "こんちゅう",
+      "romaji": "konchuu",
+      "tokens": [
+        {
+          "text": "昆虫",
+          "kana": "こんちゅう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "混淆，混同",
+      "japanese": "混同",
+      "kana": "こんどう",
+      "romaji": "kondou",
+      "tokens": [
+        {
+          "text": "混同",
+          "kana": "こんどう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "采纳，通过",
+      "japanese": "採択",
+      "kana": "さいたく",
+      "romaji": "saitaku",
+      "tokens": [
+        {
+          "text": "採択",
+          "kana": "さいたく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "灾难，灾祸",
+      "japanese": "災い",
+      "kana": "わざわい",
+      "romaji": "wazawai",
+      "tokens": [
+        {
+          "text": "災い",
+          "kana": "わざわい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "库存",
+      "japanese": "在庫",
+      "kana": "ざいこ",
+      "romaji": "zaiko",
+      "tokens": [
+        {
+          "text": "在庫",
+          "kana": "ざいこ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "在学籍，在编，在册",
+      "japanese": "在籍",
+      "kana": "ざいせき",
+      "romaji": "zaiseki",
+      "tokens": [
+        {
+          "text": "在籍",
+          "kana": "ざいせき"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "削减，减少",
+      "japanese": "削減",
+      "kana": "さくげん",
+      "romaji": "sakugen",
+      "tokens": [
+        {
+          "text": "削減",
+          "kana": "さくげん"
+        }
+      ]
+    }
+  ]
+}

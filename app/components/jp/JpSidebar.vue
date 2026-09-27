@@ -64,6 +64,7 @@ const mainTabs = [
   { key: "home", label: "课程", icon: "📚", path: "/jp-home" },
   { key: "record", label: "记录", icon: "📋", path: "/jp-record" },
   { key: "grammar", label: "语法", icon: "📖", path: "/jp-kana-chart" },
+  { key: "words", label: "词库", icon: "🗂️", path: "/jp-words" },
   { key: "editor", label: "编辑器", icon: "✏️", path: "/jp-editor" },
 ];
 
@@ -216,7 +217,7 @@ function isActive(path: string) {
   text-decoration: underline;
 }
 
-/* 移动端：侧栏转为固定底部 Tab 栏（5 个主入口，无横向滚动） */
+/* 移动端：侧栏转为固定底部 Tab 栏（6 个主入口，无横向滚动） */
 @media (max-width: 768px) {
   .jp-sidebar {
     position: fixed;

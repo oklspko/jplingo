@@ -1,0 +1,398 @@
+{
+  "id": "jp-n5-25",
+  "coursePackId": "jp-n5",
+  "title": "副词 1",
+  "order": 25,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "立刻，马上；很近",
+      "japanese": "すぐ",
+      "kana": "すぐ",
+      "romaji": "sugu",
+      "tokens": [
+        {
+          "text": "すぐ",
+          "kana": "すぐ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "（表示同意、肯定）对，嗯；（突然想到）啊；那样，那么",
+      "japanese": "そう",
+      "kana": "そう",
+      "romaji": "sou",
+      "tokens": [
+        {
+          "text": "そう",
+          "kana": "そう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "渐渐地，慢慢地",
+      "japanese": "だんだん",
+      "kana": "だんだん",
+      "romaji": "dandan",
+      "tokens": [
+        {
+          "text": "だんだん",
+          "kana": "だんだん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "正好，恰好",
+      "japanese": "ちょうど",
+      "kana": "ちょうど",
+      "romaji": "choudo",
+      "tokens": [
+        {
+          "text": "ちょうど",
+          "kana": "ちょうど"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "稍微，一点点",
+      "japanese": "ちょっと",
+      "kana": "ちょっと",
+      "romaji": "chotto",
+      "tokens": [
+        {
+          "text": "ちょっと",
+          "kana": "ちょっと"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "怎么样",
+      "japanese": "どう",
+      "kana": "どう",
+      "romaji": "dou",
+      "tokens": [
+        {
+          "text": "どう",
+          "kana": "どう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "为什么",
+      "japanese": "どうして",
+      "kana": "どうして",
+      "romaji": "doushite",
+      "tokens": [
+        {
+          "text": "どうして",
+          "kana": "どうして"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "请",
+      "japanese": "どうぞ",
+      "kana": "どうぞ",
+      "romaji": "douzo",
+      "tokens": [
+        {
+          "text": "どうぞ",
+          "kana": "どうぞ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "非常，很；怎么也（不）；总觉得",
+      "japanese": "どうも",
+      "kana": "どうも",
+      "romaji": "doumo",
+      "tokens": [
+        {
+          "text": "どうも",
+          "kana": "どうも"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "很，非常",
+      "japanese": "とても",
+      "kana": "とても",
+      "romaji": "totemo",
+      "tokens": [
+        {
+          "text": "とても",
+          "kana": "とても"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "为什么，为何",
+      "japanese": "なぜ",
+      "kana": "なぜ",
+      "romaji": "naze",
+      "tokens": [
+        {
+          "text": "なぜ",
+          "kana": "なぜ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "首先；大概，大致",
+      "japanese": "まず",
+      "kana": "まず",
+      "romaji": "mazu",
+      "tokens": [
+        {
+          "text": "まず",
+          "kana": "まず"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "又，再；同样；另外，下次",
+      "japanese": "また",
+      "kana": "また",
+      "romaji": "mata",
+      "tokens": [
+        {
+          "text": "また",
+          "kana": "また"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "还没；还",
+      "japanese": "まだ",
+      "kana": "まだ",
+      "romaji": "mada",
+      "tokens": [
+        {
+          "text": "まだ",
+          "kana": "まだ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "大家，诸位；全部",
+      "japanese": "みんな",
+      "kana": "みんな",
+      "romaji": "minna",
+      "tokens": [
+        {
+          "text": "みんな",
+          "kana": "みんな"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "已经；马上；再",
+      "japanese": "もう",
+      "kana": "もう",
+      "romaji": "mou",
+      "tokens": [
+        {
+          "text": "もう",
+          "kana": "もう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "更加",
+      "japanese": "もっと",
+      "kana": "もっと",
+      "romaji": "motto",
+      "tokens": [
+        {
+          "text": "もっと",
+          "kana": "もっと"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "缓慢地；悠闲地，舒服地",
+      "japanese": "ゆっくり",
+      "kana": "ゆっくり",
+      "romaji": "yukkuri",
+      "tokens": [
+        {
+          "text": "ゆっくり",
+          "kana": "ゆっくり"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "有时，偶尔",
+      "japanese": "時々",
+      "kana": "ときどき",
+      "romaji": "tokidoki",
+      "tokens": [
+        {
+          "text": "時々",
+          "kana": "ときどき"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "初次，第一次",
+      "japanese": "初めて",
+      "kana": "はじめて",
+      "romaji": "hajimete",
+      "tokens": [
+        {
+          "text": "初めて",
+          "kana": "はじめて"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "很少，一点点",
+      "japanese": "少し",
+      "kana": "すこし",
+      "romaji": "sukoshi",
+      "tokens": [
+        {
+          "text": "少し",
+          "kana": "すこし"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "每个月",
+      "japanese": "毎月",
+      "kana": "まいつき",
+      "romaji": "maitsuki",
+      "tokens": [
+        {
+          "text": "毎月",
+          "kana": "まいつき"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "每周",
+      "japanese": "毎週",
+      "kana": "まいしゅう",
+      "romaji": "maishuu",
+      "tokens": [
+        {
+          "text": "毎週",
+          "kana": "まいしゅう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "每天早上",
+      "japanese": "毎朝",
+      "kana": "まいあさ",
+      "romaji": "maiasa",
+      "tokens": [
+        {
+          "text": "毎朝",
+          "kana": "まいあさ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "每天",
+      "japanese": "毎日",
+      "kana": "まいにち",
+      "romaji": "mainichi",
+      "tokens": [
+        {
+          "text": "毎日",
+          "kana": "まいにち"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "每年",
+      "japanese": "毎年",
+      "kana": "まいとし",
+      "romaji": "maitoshi",
+      "tokens": [
+        {
+          "text": "毎年",
+          "kana": "まいとし"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "每晚",
+      "japanese": "毎晩",
+      "kana": "まいばん",
+      "romaji": "maiban",
+      "tokens": [
+        {
+          "text": "毎晩",
+          "kana": "まいばん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "那样，那么",
+      "japanese": "ああ",
+      "kana": "ああ",
+      "romaji": "aa",
+      "tokens": [
+        {
+          "text": "ああ",
+          "kana": "ああ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "无论什么时候，总是",
+      "japanese": "いつでも",
+      "kana": "いつでも",
+      "romaji": "itsudemo",
+      "tokens": [
+        {
+          "text": "いつでも",
+          "kana": "いつでも"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "这样，这么",
+      "japanese": "こう",
+      "kana": "こう",
+      "romaji": "kou",
+      "tokens": [
+        {
+          "text": "こう",
+          "kana": "こう"
+        }
+      ]
+    }
+  ]
+}

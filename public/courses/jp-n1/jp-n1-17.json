@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-17",
+  "coursePackId": "jp-n1",
+  "title": "名词 17",
+  "order": 17,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "山腰",
+      "japanese": "山腹",
+      "kana": "さんぷく",
+      "romaji": "sanpuku",
+      "tokens": [
+        {
+          "text": "山腹",
+          "kana": "さんぷく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "收看；关注",
+      "japanese": "視聴",
+      "kana": "しちょう",
+      "romaji": "shichou",
+      "tokens": [
+        {
+          "text": "視聴",
+          "kana": "しちょう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "资产",
+      "japanese": "資産",
+      "kana": "しさん",
+      "romaji": "shisan",
+      "tokens": [
+        {
+          "text": "資産",
+          "kana": "しさん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "自立，独立",
+      "japanese": "自立",
+      "kana": "じりつ",
+      "romaji": "jiritsu",
+      "tokens": [
+        {
+          "text": "自立",
+          "kana": "じりつ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "实体，本质",
+      "japanese": "実体",
+      "kana": "じったい",
+      "romaji": "jittai",
+      "tokens": [
+        {
+          "text": "実体",
+          "kana": "じったい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "若干，多少，有些",
+      "japanese": "若干",
+      "kana": "じゃっかん",
+      "romaji": "jakkan",
+      "tokens": [
+        {
+          "text": "若干",
+          "kana": "じゃっかん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "弱者",
+      "japanese": "弱者",
+      "kana": "じゃくしゃ",
+      "romaji": "jakusha",
+      "tokens": [
+        {
+          "text": "弱者",
+          "kana": "じゃくしゃ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "主办，举办",
+      "japanese": "主催",
+      "kana": "しゅさい",
+      "romaji": "shusai",
+      "tokens": [
+        {
+          "text": "主催",
+          "kana": "しゅさい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "主题，中心思想；中心旋律",
+      "japanese": "主題",
+      "kana": "しゅだい",
+      "romaji": "shudai",
+      "tokens": [
+        {
+          "text": "主題",
+          "kana": "しゅだい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "监管，控制，取缔",
+      "japanese": "取り締まり",
+      "kana": "とりしまり",
+      "romaji": "torishimari",
+      "tokens": [
+        {
+          "text": "取り締まり",
+          "kana": "とりしまり"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "收支",
+      "japanese": "収支",
+      "kana": "しゅうし",
+      "romaji": "shuushi",
+      "tokens": [
+        {
+          "text": "収支",
+          "kana": "しゅうし"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "就学",
+      "japanese": "就学",
+      "kana": "しゅうがく",
+      "romaji": "shuugaku",
+      "tokens": [
+        {
+          "text": "就学",
+          "kana": "しゅうがく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "开始工作；就业",
+      "japanese": "就業",
+      "kana": "しゅうぎょう",
+      "romaji": "shuugyou",
+      "tokens": [
+        {
+          "text": "就業",
+          "kana": "しゅうぎょう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "修饰，装饰",
+      "japanese": "修飾",
+      "kana": "しゅうしょく",
+      "romaji": "shuushoku",
+      "tokens": [
+        {
+          "text": "修飾",
+          "kana": "しゅうしょく"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（动物）习性；（人）习惯",
+      "japanese": "習性",
+      "kana": "しゅうせい",
+      "romaji": "shuusei",
+      "tokens": [
+        {
+          "text": "習性",
+          "kana": "しゅうせい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "重复",
+      "japanese": "重複",
+      "kana": "ちょうふく",
+      "romaji": "choufuku",
+      "tokens": [
+        {
+          "text": "重複",
+          "kana": "ちょうふく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "重视",
+      "japanese": "重要視",
+      "kana": "じゅうようし",
+      "romaji": "juuyoushi",
+      "tokens": [
+        {
+          "text": "重要視",
+          "kana": "じゅうようし"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "宿命，命运",
+      "japanese": "宿命",
+      "kana": "しゅくめい",
+      "romaji": "shukumei",
+      "tokens": [
+        {
+          "text": "宿命",
+          "kana": "しゅくめい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（在展览会、展示会等）展出",
+      "japanese": "出品",
+      "kana": "しゅっぴん",
+      "romaji": "shuppin",
+      "tokens": [
+        {
+          "text": "出品",
+          "kana": "しゅっぴん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "初次的",
+      "japanese": "初",
+      "kana": "はつ",
+      "romaji": "hatsu",
+      "tokens": [
+        {
+          "text": "初",
+          "kana": "はつ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "所得，收入",
+      "japanese": "所得",
+      "kana": "しょとく",
+      "romaji": "shotoku",
+      "tokens": [
+        {
+          "text": "所得",
+          "kana": "しょとく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "出主意，从旁教导",
+      "japanese": "助言",
+      "kana": "じょげん",
+      "romaji": "jogen",
+      "tokens": [
+        {
+          "text": "助言",
+          "kana": "じょげん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "输赢，胜负",
+      "japanese": "勝ち負け",
+      "kana": "かちまけ",
+      "romaji": "kachimake",
+      "tokens": [
+        {
+          "text": "勝ち負け",
+          "kana": "かちまけ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "胜利，成功",
+      "japanese": "勝利",
+      "kana": "しょうり",
+      "romaji": "shouri",
+      "tokens": [
+        {
+          "text": "勝利",
+          "kana": "しょうり"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "鼓励",
+      "japanese": "奨励",
+      "kana": "しょうれい",
+      "romaji": "shourei",
+      "tokens": [
+        {
+          "text": "奨励",
+          "kana": "しょうれい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "晋升，晋级",
+      "japanese": "昇進",
+      "kana": "しょうしん",
+      "romaji": "shoushin",
+      "tokens": [
+        {
+          "text": "昇進",
+          "kana": "しょうしん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "品味，品尝",
+      "japanese": "賞味",
+      "kana": "しょうみ",
+      "romaji": "shoumi",
+      "tokens": [
+        {
+          "text": "賞味",
+          "kana": "しょうみ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "上游；前半个……",
+      "japanese": "上",
+      "kana": "かみ",
+      "romaji": "kami",
+      "tokens": [
+        {
+          "text": "上",
+          "kana": "かみ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "上映，放映",
+      "japanese": "上映",
+      "kana": "じょうえい",
+      "romaji": "jouei",
+      "tokens": [
+        {
+          "text": "上映",
+          "kana": "じょうえい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "织物",
+      "japanese": "織物",
+      "kana": "おりもの",
+      "romaji": "orimono",
+      "tokens": [
+        {
+          "text": "織物",
+          "kana": "おりもの"
+        }
+      ]
+    }
+  ]
+}

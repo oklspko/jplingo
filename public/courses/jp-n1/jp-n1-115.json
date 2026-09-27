@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-115",
+  "coursePackId": "jp-n1",
+  "title": "动词 24",
+  "order": 115,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "凭直觉进行观察，直观",
+      "japanese": "直観",
+      "kana": "ちょっかん",
+      "romaji": "chokkan",
+      "tokens": [
+        {
+          "text": "直観",
+          "kana": "ちょっかん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "防水",
+      "japanese": "防水",
+      "kana": "ぼうすい",
+      "romaji": "bousui",
+      "tokens": [
+        {
+          "text": "防水",
+          "kana": "ぼうすい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "读一次，念一遍",
+      "japanese": "一読",
+      "kana": "いちどく",
+      "romaji": "ichidoku",
+      "tokens": [
+        {
+          "text": "一読",
+          "kana": "いちどく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "弃置不顾，丢下不管",
+      "japanese": "ほったらかす",
+      "kana": "ほったらかす",
+      "romaji": "hottarakasu",
+      "tokens": [
+        {
+          "text": "ほったらかす",
+          "kana": "ほったらかす"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "更换，替换",
+      "japanese": "差し替える",
+      "kana": "さしかえる",
+      "romaji": "sashikaeru",
+      "tokens": [
+        {
+          "text": "差し替える",
+          "kana": "さしかえる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "列入，编入，纳入",
+      "japanese": "組み入れる",
+      "kana": "くみいれる",
+      "romaji": "kumiireru",
+      "tokens": [
+        {
+          "text": "組み入れる",
+          "kana": "くみいれる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "合理化",
+      "japanese": "合理化",
+      "kana": "ごうりか",
+      "romaji": "gourika",
+      "tokens": [
+        {
+          "text": "合理化",
+          "kana": "ごうりか"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "使……合适",
+      "japanese": "適[かな]える",
+      "kana": "かなえる",
+      "romaji": "kanaeru",
+      "tokens": [
+        {
+          "text": "適[かな]える",
+          "kana": "かなえる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "凝视，注视",
+      "japanese": "凝視",
+      "kana": "ぎょうし",
+      "romaji": "gyoushi",
+      "tokens": [
+        {
+          "text": "凝視",
+          "kana": "ぎょうし"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "希望，想要，想做",
+      "japanese": "欲する",
+      "kana": "ほっする",
+      "romaji": "hossuru",
+      "tokens": [
+        {
+          "text": "欲する",
+          "kana": "ほっする"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "轻视，小看",
+      "japanese": "侮る",
+      "kana": "あなどる",
+      "romaji": "anadoru",
+      "tokens": [
+        {
+          "text": "侮る",
+          "kana": "あなどる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "让后来的人先走；做得过头",
+      "japanese": "やり過ごす",
+      "kana": "やりすごす",
+      "romaji": "yarisugosu",
+      "tokens": [
+        {
+          "text": "やり過ごす",
+          "kana": "やりすごす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "畏怯，畏缩，畏惧，害怕",
+      "japanese": "ひるむ",
+      "kana": "ひるむ",
+      "romaji": "hirumu",
+      "tokens": [
+        {
+          "text": "ひるむ",
+          "kana": "ひるむ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "禁止外出，禁闭",
+      "japanese": "足止め",
+      "kana": "あしどめ",
+      "romaji": "ashidome",
+      "tokens": [
+        {
+          "text": "足止め",
+          "kana": "あしどめ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "携，携带；偕同；携手",
+      "japanese": "携える",
+      "kana": "たずさえる",
+      "romaji": "tazusaeru",
+      "tokens": [
+        {
+          "text": "携える",
+          "kana": "たずさえる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "跳跃；心跳加速",
+      "japanese": "躍る",
+      "kana": "おどる",
+      "romaji": "odoru",
+      "tokens": [
+        {
+          "text": "躍る",
+          "kana": "おどる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "虐待，折磨，使苦恼",
+      "japanese": "さいなむ",
+      "kana": "さいなむ",
+      "romaji": "sainamu",
+      "tokens": [
+        {
+          "text": "さいなむ",
+          "kana": "さいなむ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "找出，看出，发掘",
+      "japanese": "見いだす",
+      "kana": "みいだす",
+      "romaji": "miidasu",
+      "tokens": [
+        {
+          "text": "見いだす",
+          "kana": "みいだす"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "力竭",
+      "japanese": "力尽きる",
+      "kana": "ちからつきる",
+      "romaji": "chikaratsukiru",
+      "tokens": [
+        {
+          "text": "力尽きる",
+          "kana": "ちからつきる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "讴歌，颂扬；主张，强调",
+      "japanese": "謳[うた]う",
+      "kana": "うたう",
+      "romaji": "utau",
+      "tokens": [
+        {
+          "text": "謳[うた]う",
+          "kana": "うたう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "紧迫，紧急",
+      "japanese": "切羽詰まる",
+      "kana": "せっぱつまる",
+      "romaji": "seppatsumaru",
+      "tokens": [
+        {
+          "text": "切羽詰まる",
+          "kana": "せっぱつまる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "销售，推销；理整齐，弄好；妥善料理，出色地处理，操纵",
+      "japanese": "さばく",
+      "kana": "さばく",
+      "romaji": "sabaku",
+      "tokens": [
+        {
+          "text": "さばく",
+          "kana": "さばく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "敬爱",
+      "japanese": "敬愛",
+      "kana": "けいあい",
+      "romaji": "keiai",
+      "tokens": [
+        {
+          "text": "敬愛",
+          "kana": "けいあい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "轻视，小看，看不起",
+      "japanese": "見くびる",
+      "kana": "みくびる",
+      "romaji": "mikubiru",
+      "tokens": [
+        {
+          "text": "見くびる",
+          "kana": "みくびる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "收拾，整顿",
+      "japanese": "収拾",
+      "kana": "しゅうしゅう",
+      "romaji": "shuushuu",
+      "tokens": [
+        {
+          "text": "収拾",
+          "kana": "しゅうしゅう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "错综复杂，互相纠缠，头绪纷繁",
+      "japanese": "入り組む",
+      "kana": "いりくむ",
+      "romaji": "irikumu",
+      "tokens": [
+        {
+          "text": "入り組む",
+          "kana": "いりくむ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "抢先",
+      "japanese": "先んじる",
+      "kana": "さきんじる",
+      "romaji": "sakinjiru",
+      "tokens": [
+        {
+          "text": "先んじる",
+          "kana": "さきんじる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "公开出来，暴露出来",
+      "japanese": "表立つ",
+      "kana": "おもてだつ",
+      "romaji": "omotedatsu",
+      "tokens": [
+        {
+          "text": "表立つ",
+          "kana": "おもてだつ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "畏缩，无精打采；乖僻，消极",
+      "japanese": "いじける",
+      "kana": "いじける",
+      "romaji": "ijikeru",
+      "tokens": [
+        {
+          "text": "いじける",
+          "kana": "いじける"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（花）盛开，灿烂地开",
+      "japanese": "咲き誇る",
+      "kana": "さきほこる",
+      "romaji": "sakihokoru",
+      "tokens": [
+        {
+          "text": "咲き誇る",
+          "kana": "さきほこる"
+        }
+      ]
+    }
+  ]
+}

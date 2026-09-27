@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-17",
+  "coursePackId": "jp-n2",
+  "title": "名词 17",
+  "order": 17,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "公司内部",
+      "japanese": "社内",
+      "kana": "しゃない",
+      "romaji": "shanai",
+      "tokens": [
+        {
+          "text": "社内",
+          "kana": "しゃない"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "车辆；（火车等的）车厢",
+      "japanese": "車両",
+      "kana": "しゃりょう",
+      "romaji": "sharyou",
+      "tokens": [
+        {
+          "text": "車両",
+          "kana": "しゃりょう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "手头，身边",
+      "japanese": "手元",
+      "kana": "てもと",
+      "romaji": "temoto",
+      "tokens": [
+        {
+          "text": "手元",
+          "kana": "てもと"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "自己做，手工做（的东西）",
+      "japanese": "手作り",
+      "kana": "てづくり",
+      "romaji": "tezukuri",
+      "tokens": [
+        {
+          "text": "手作り",
+          "kana": "てづくり"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "手续费",
+      "japanese": "手数料",
+      "kana": "てすうりょう",
+      "romaji": "tesuuryou",
+      "tokens": [
+        {
+          "text": "手数料",
+          "kana": "てすうりょう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "跟前；靠近自己的一边",
+      "japanese": "手前",
+      "kana": "てまえ",
+      "romaji": "temae",
+      "tokens": [
+        {
+          "text": "手前",
+          "kana": "てまえ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "接收（电报、电话、广播等）",
+      "japanese": "受信",
+      "kana": "じゅしん",
+      "romaji": "jushin",
+      "tokens": [
+        {
+          "text": "受信",
+          "kana": "じゅしん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "寿命",
+      "japanese": "寿命",
+      "kana": "じゅみょう",
+      "romaji": "jumyou",
+      "tokens": [
+        {
+          "text": "寿命",
+          "kana": "じゅみょう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "充电",
+      "japanese": "充電",
+      "kana": "じゅうでん",
+      "romaji": "juuden",
+      "tokens": [
+        {
+          "text": "充電",
+          "kana": "じゅうでん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "工作人员，职工",
+      "japanese": "従業員",
+      "kana": "じゅうぎょういん",
+      "romaji": "juugyouin",
+      "tokens": [
+        {
+          "text": "従業員",
+          "kana": "じゅうぎょういん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "重视",
+      "japanese": "重視",
+      "kana": "じゅうし",
+      "romaji": "juushi",
+      "tokens": [
+        {
+          "text": "重視",
+          "kana": "じゅうし"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "相遇，偶遇",
+      "japanese": "出会い",
+      "kana": "であい",
+      "romaji": "deai",
+      "tokens": [
+        {
+          "text": "出会い",
+          "kana": "であい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "初学者",
+      "japanese": "初心者",
+      "kana": "しょしんしゃ",
+      "romaji": "shoshinsha",
+      "tokens": [
+        {
+          "text": "初心者",
+          "kana": "しょしんしゃ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "书法",
+      "japanese": "書道",
+      "kana": "しょどう",
+      "romaji": "shodou",
+      "tokens": [
+        {
+          "text": "書道",
+          "kana": "しょどう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "胜负；比赛",
+      "japanese": "勝負",
+      "kana": "しょうぶ",
+      "romaji": "shoubu",
+      "tokens": [
+        {
+          "text": "勝負",
+          "kana": "しょうぶ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "撞上；冲突",
+      "japanese": "衝突",
+      "kana": "しょうとつ",
+      "romaji": "shoutotsu",
+      "tokens": [
+        {
+          "text": "衝突",
+          "kana": "しょうとつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "上等，高级",
+      "japanese": "上等",
+      "kana": "じょうとう",
+      "romaji": "joutou",
+      "tokens": [
+        {
+          "text": "上等",
+          "kana": "じょうとう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "上半身",
+      "japanese": "上半身",
+      "kana": "じょうはんしん",
+      "romaji": "jouhanshin",
+      "tokens": [
+        {
+          "text": "上半身",
+          "kana": "じょうはんしん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "上下车",
+      "japanese": "乗り降り",
+      "kana": "のりおり",
+      "romaji": "noriori",
+      "tokens": [
+        {
+          "text": "乗り降り",
+          "kana": "のりおり"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "车票",
+      "japanese": "乗車券",
+      "kana": "じょうしゃけん",
+      "romaji": "joushaken",
+      "tokens": [
+        {
+          "text": "乗車券",
+          "kana": "じょうしゃけん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "职员",
+      "japanese": "職員",
+      "kana": "しょくいん",
+      "romaji": "shokuin",
+      "tokens": [
+        {
+          "text": "職員",
+          "kana": "しょくいん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "新车",
+      "japanese": "新車",
+      "kana": "しんしゃ",
+      "romaji": "shinsha",
+      "tokens": [
+        {
+          "text": "新車",
+          "kana": "しんしゃ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "漆黑；暗淡",
+      "japanese": "真っ暗",
+      "kana": "まっくら",
+      "romaji": "makkura",
+      "tokens": [
+        {
+          "text": "真っ暗",
+          "kana": "まっくら"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "神，上帝；专家，……之神",
+      "japanese": "神様",
+      "kana": "かみさま",
+      "romaji": "kamisama",
+      "tokens": [
+        {
+          "text": "神様",
+          "kana": "かみさま"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "人前，众人的面前；外表",
+      "japanese": "人前",
+      "kana": "ひとまえ",
+      "romaji": "hitomae",
+      "tokens": [
+        {
+          "text": "人前",
+          "kana": "ひとまえ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "制作，创作（艺术作品）",
+      "japanese": "制作",
+      "kana": "せいさく",
+      "romaji": "seisaku",
+      "tokens": [
+        {
+          "text": "制作",
+          "kana": "せいさく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "长大，成人",
+      "japanese": "成人",
+      "kana": "せいじん",
+      "romaji": "seijin",
+      "tokens": [
+        {
+          "text": "成人",
+          "kana": "せいじん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "生活方式，生活态度",
+      "japanese": "生き方",
+      "kana": "いきかた",
+      "romaji": "ikikata",
+      "tokens": [
+        {
+          "text": "生き方",
+          "kana": "いきかた"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "账单",
+      "japanese": "請求書",
+      "kana": "せいきゅうしょ",
+      "romaji": "seikyuusho",
+      "tokens": [
+        {
+          "text": "請求書",
+          "kana": "せいきゅうしょ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "煤，煤炭",
+      "japanese": "石炭",
+      "kana": "せきたん",
+      "romaji": "sekitan",
+      "tokens": [
+        {
+          "text": "石炭",
+          "kana": "せきたん"
+        }
+      ]
+    }
+  ]
+}

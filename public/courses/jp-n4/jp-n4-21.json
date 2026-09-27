@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-21",
+  "coursePackId": "jp-n4",
+  "title": "动词 4",
+  "order": 21,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "碰，撞；拍，打；感动",
+      "japanese": "打つ",
+      "kana": "うつ",
+      "romaji": "utsu",
+      "tokens": [
+        {
+          "text": "打つ",
+          "kana": "うつ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "（替）代；代（表）",
+      "japanese": "代わる",
+      "kana": "かわる",
+      "romaji": "kawaru",
+      "tokens": [
+        {
+          "text": "代わる",
+          "kana": "かわる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "通知",
+      "japanese": "知らせる",
+      "kana": "しらせる",
+      "romaji": "shiraseru",
+      "tokens": [
+        {
+          "text": "知らせる",
+          "kana": "しらせる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "迟到；进展慢",
+      "japanese": "遅れる",
+      "kana": "おくれる",
+      "romaji": "okureru",
+      "tokens": [
+        {
+          "text": "遅れる",
+          "kana": "おくれる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "查，调查",
+      "japanese": "調べる",
+      "kana": "しらべる",
+      "romaji": "shiraberu",
+      "tokens": [
+        {
+          "text": "調べる",
+          "kana": "しらべる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "修改，改正；重新做",
+      "japanese": "直す",
+      "kana": "なおす",
+      "romaji": "naosu",
+      "tokens": [
+        {
+          "text": "直す",
+          "kana": "なおす"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "改正；修好",
+      "japanese": "直る",
+      "kana": "なおる",
+      "romaji": "naoru",
+      "tokens": [
+        {
+          "text": "直る",
+          "kana": "なおる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "通过，走过，穿过；合格；得到承认",
+      "japanese": "通る",
+      "kana": "とおる",
+      "romaji": "tooru",
+      "tokens": [
+        {
+          "text": "通る",
+          "kana": "とおる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "发怒；骂，训斥",
+      "japanese": "怒る",
+      "kana": "おこる",
+      "romaji": "okoru",
+      "tokens": [
+        {
+          "text": "怒る",
+          "kana": "おこる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "绊倒，倒下",
+      "japanese": "倒れる",
+      "kana": "たおれる",
+      "romaji": "taoreru",
+      "tokens": [
+        {
+          "text": "倒れる",
+          "kana": "たおれる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "扔，投；提出；放弃",
+      "japanese": "投げる",
+      "kana": "なげる",
+      "romaji": "nageru",
+      "tokens": [
+        {
+          "text": "投げる",
+          "kana": "なげる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "偷盗，偷窃",
+      "japanese": "盗む",
+      "kana": "ぬすむ",
+      "romaji": "nusumu",
+      "tokens": [
+        {
+          "text": "盗む",
+          "kana": "ぬすむ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "打中，命中；撞上；猜中；相当于",
+      "japanese": "当たる",
+      "kana": "あたる",
+      "romaji": "ataru",
+      "tokens": [
+        {
+          "text": "当たる",
+          "kana": "あたる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "碰，撞；命中；猜（中）；晒",
+      "japanese": "当てる",
+      "kana": "あてる",
+      "romaji": "ateru",
+      "tokens": [
+        {
+          "text": "当てる",
+          "kana": "あてる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "逃跑；逃避",
+      "japanese": "逃げる",
+      "kana": "にげる",
+      "romaji": "nigeru",
+      "tokens": [
+        {
+          "text": "逃げる",
+          "kana": "にげる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "动，活动，开动；移动；动摇",
+      "japanese": "動く",
+      "kana": "うごく",
+      "romaji": "ugoku",
+      "tokens": [
+        {
+          "text": "動く",
+          "kana": "うごく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "送，送到；申报",
+      "japanese": "届ける",
+      "kana": "とどける",
+      "romaji": "todokeru",
+      "tokens": [
+        {
+          "text": "届ける",
+          "kana": "とどける"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "畅销；知名",
+      "japanese": "売れる",
+      "kana": "うれる",
+      "romaji": "ureru",
+      "tokens": [
+        {
+          "text": "売れる",
+          "kana": "うれる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "住宿；（船）靠岸",
+      "japanese": "泊まる",
+      "kana": "とまる",
+      "romaji": "tomaru",
+      "tokens": [
+        {
+          "text": "泊まる",
+          "kana": "とまる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "比较，对照",
+      "japanese": "比べる",
+      "kana": "くらべる",
+      "romaji": "kuraberu",
+      "tokens": [
+        {
+          "text": "比べる",
+          "kana": "くらべる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "支付；拂去",
+      "japanese": "払う",
+      "kana": "はらう",
+      "romaji": "harau",
+      "tokens": [
+        {
+          "text": "払う",
+          "kana": "はらう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "分开，划分，分类；分配",
+      "japanese": "分ける",
+      "kana": "わける",
+      "romaji": "wakeru",
+      "tokens": [
+        {
+          "text": "分ける",
+          "kana": "わける"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "听得见，听到；听起来觉得……",
+      "japanese": "聞こえる",
+      "kana": "きこえる",
+      "romaji": "kikoeru",
+      "tokens": [
+        {
+          "text": "聞こえる",
+          "kana": "きこえる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "离别；分手，离婚",
+      "japanese": "別れる",
+      "kana": "わかれる",
+      "romaji": "wakareru",
+      "tokens": [
+        {
+          "text": "別れる",
+          "kana": "わかれる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "改变，变更",
+      "japanese": "変える",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "tokens": [
+        {
+          "text": "変える",
+          "kana": "かえる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "改变，变化；不同寻常；［他動］更换座位、住址、所属单位等",
+      "japanese": "変わる",
+      "kana": "かわる",
+      "romaji": "kawaru",
+      "tokens": [
+        {
+          "text": "変わる",
+          "kana": "かわる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "收拾好，整理好；处理好",
+      "japanese": "片付ける",
+      "kana": "かたづける",
+      "romaji": "katazukeru",
+      "tokens": [
+        {
+          "text": "片付ける",
+          "kana": "かたづける"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "生活，度日",
+      "japanese": "暮らす",
+      "kana": "くらす",
+      "romaji": "kurasu",
+      "tokens": [
+        {
+          "text": "暮らす",
+          "kana": "くらす"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "包；包围，笼罩",
+      "japanese": "包む",
+      "kana": "つつむ",
+      "romaji": "tsutsumu",
+      "tokens": [
+        {
+          "text": "包む",
+          "kana": "つつむ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "访问，拜访",
+      "japanese": "訪ねる",
+      "kana": "たずねる",
+      "romaji": "tazuneru",
+      "tokens": [
+        {
+          "text": "訪ねる",
+          "kana": "たずねる"
+        }
+      ]
+    }
+  ]
+}

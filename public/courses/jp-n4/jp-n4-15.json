@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-15",
+  "coursePackId": "jp-n4",
+  "title": "名词 15",
+  "order": 15,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "真货，真人；正式，正规",
+      "japanese": "本物",
+      "kana": "ほんもの",
+      "romaji": "honmono",
+      "tokens": [
+        {
+          "text": "本物",
+          "kana": "ほんもの"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "平安，太平无事",
+      "japanese": "無事",
+      "kana": "ぶじ",
+      "romaji": "buji",
+      "tokens": [
+        {
+          "text": "無事",
+          "kana": "ぶじ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "命令",
+      "japanese": "命令",
+      "kana": "めいれい",
+      "romaji": "meirei",
+      "tokens": [
+        {
+          "text": "命令",
+          "kana": "めいれい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "输出，出口",
+      "japanese": "輸出",
+      "kana": "ゆしゅつ",
+      "romaji": "yushutsu",
+      "tokens": [
+        {
+          "text": "輸出",
+          "kana": "ゆしゅつ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "进口",
+      "japanese": "輸入",
+      "kana": "ゆにゅう",
+      "romaji": "yunyuu",
+      "tokens": [
+        {
+          "text": "輸入",
+          "kana": "ゆにゅう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "友人，朋友",
+      "japanese": "友人",
+      "kana": "ゆうじん",
+      "romaji": "yuujin",
+      "tokens": [
+        {
+          "text": "友人",
+          "kana": "ゆうじん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "冷藏",
+      "japanese": "冷蔵",
+      "kana": "れいぞう",
+      "romaji": "reizou",
+      "tokens": [
+        {
+          "text": "冷蔵",
+          "kana": "れいぞう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "和，和平，和睦；日本，日本式的",
+      "japanese": "和",
+      "kana": "わ",
+      "romaji": "wa",
+      "tokens": [
+        {
+          "text": "和",
+          "kana": "わ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "日式饭菜",
+      "japanese": "和食",
+      "kana": "わしょく",
+      "romaji": "washoku",
+      "tokens": [
+        {
+          "text": "和食",
+          "kana": "わしょく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "……套，……副，……对；……班；……组",
+      "japanese": "組",
+      "kana": "くみ",
+      "romaji": "kumi",
+      "tokens": [
+        {
+          "text": "組",
+          "kana": "くみ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "（组织部门）……部；（书、报等）……份；部分",
+      "japanese": "部",
+      "kana": "ぶ",
+      "romaji": "bu",
+      "tokens": [
+        {
+          "text": "部",
+          "kana": "ぶ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "……步",
+      "japanese": "歩",
+      "kana": "ほ",
+      "romaji": "ho",
+      "tokens": [
+        {
+          "text": "歩",
+          "kana": "ほ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "想法，主意",
+      "japanese": "アイデア",
+      "kana": "あいであ",
+      "romaji": "aidea",
+      "tokens": [
+        {
+          "text": "アイデア",
+          "kana": "あいであ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "有用；由于；为了",
+      "japanese": "ため",
+      "kana": "ため",
+      "romaji": "tame",
+      "tokens": [
+        {
+          "text": "ため",
+          "kana": "ため"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "收信人的姓名、地址",
+      "japanese": "宛先",
+      "kana": "あてさき",
+      "romaji": "atesaki",
+      "tokens": [
+        {
+          "text": "宛先",
+          "kana": "あてさき"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "假名",
+      "japanese": "仮名",
+      "kana": "かな",
+      "romaji": "kana",
+      "tokens": [
+        {
+          "text": "仮名",
+          "kana": "かな"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "绘本，图画书",
+      "japanese": "絵本",
+      "kana": "えほん",
+      "romaji": "ehon",
+      "tokens": [
+        {
+          "text": "絵本",
+          "kana": "えほん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "急救车",
+      "japanese": "救急車",
+      "kana": "きゅうきゅうしゃ",
+      "romaji": "kyuukyuusha",
+      "tokens": [
+        {
+          "text": "救急車",
+          "kana": "きゅうきゅうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "自我介绍",
+      "japanese": "自己紹介",
+      "kana": "じこしょうかい",
+      "romaji": "jikoshoukai",
+      "tokens": [
+        {
+          "text": "自己紹介",
+          "kana": "じこしょうかい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "结束",
+      "japanese": "しまい",
+      "kana": "しまい",
+      "romaji": "shimai",
+      "tokens": [
+        {
+          "text": "しまい",
+          "kana": "しまい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "笑脸",
+      "japanese": "笑顔",
+      "kana": "えがお",
+      "romaji": "egao",
+      "tokens": [
+        {
+          "text": "笑顔",
+          "kana": "えがお"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "胡萝卜",
+      "japanese": "にんじん",
+      "kana": "にんじん",
+      "romaji": "ninjin",
+      "tokens": [
+        {
+          "text": "にんじん",
+          "kana": "にんじん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "接待，招待",
+      "japanese": "接待",
+      "kana": "せったい",
+      "romaji": "settai",
+      "tokens": [
+        {
+          "text": "接待",
+          "kana": "せったい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "包，袋",
+      "japanese": "袋",
+      "kana": "ふくろ",
+      "romaji": "fukuro",
+      "tokens": [
+        {
+          "text": "袋",
+          "kana": "ふくろ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "研究生院",
+      "japanese": "大学院",
+      "kana": "だいがくいん",
+      "romaji": "daigakuin",
+      "tokens": [
+        {
+          "text": "大学院",
+          "kana": "だいがくいん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "大使馆",
+      "japanese": "大使館",
+      "kana": "たいしかん",
+      "romaji": "taishikan",
+      "tokens": [
+        {
+          "text": "大使館",
+          "kana": "たいしかん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "微波炉",
+      "japanese": "電子レンジ",
+      "kana": "でんしれんじ",
+      "romaji": "denshirenji",
+      "tokens": [
+        {
+          "text": "電子レンジ",
+          "kana": "でんしれんじ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "活动；动向",
+      "japanese": "動き",
+      "kana": "うごき",
+      "romaji": "ugoki",
+      "tokens": [
+        {
+          "text": "動き",
+          "kana": "うごき"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "读法，念法",
+      "japanese": "読み方",
+      "kana": "よみかた",
+      "romaji": "yomikata",
+      "tokens": [
+        {
+          "text": "読み方",
+          "kana": "よみかた"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "半年",
+      "japanese": "半年",
+      "kana": "はんとし",
+      "romaji": "hantoshi",
+      "tokens": [
+        {
+          "text": "半年",
+          "kana": "はんとし"
+        }
+      ]
+    }
+  ]
+}

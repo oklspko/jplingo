@@ -1,0 +1,177 @@
+{
+  "id": "jp-n5-26",
+  "coursePackId": "jp-n5",
+  "title": "副词 2",
+  "order": 26,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "……得很；一直",
+      "japanese": "ずっと",
+      "kana": "ずっと",
+      "romaji": "zutto",
+      "tokens": [
+        {
+          "text": "ずっと",
+          "kana": "ずっと"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "快要，就要（做某事）",
+      "japanese": "そろそろ",
+      "kana": "そろそろ",
+      "romaji": "sorosoro",
+      "tokens": [
+        {
+          "text": "そろそろ",
+          "kana": "そろそろ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "为什么，为何",
+      "japanese": "何で",
+      "kana": "なんで",
+      "romaji": "nande",
+      "tokens": [
+        {
+          "text": "何で",
+          "kana": "なんで"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "马上就要",
+      "japanese": "もうすぐ",
+      "kana": "もうすぐ",
+      "romaji": "mousugu",
+      "tokens": [
+        {
+          "text": "もうすぐ",
+          "kana": "もうすぐ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "再稍微；差一点，几乎",
+      "japanese": "もう少し",
+      "kana": "もうすこし",
+      "romaji": "mousukoshi",
+      "tokens": [
+        {
+          "text": "もう少し",
+          "kana": "もうすこし"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "终于",
+      "japanese": "やっと",
+      "kana": "やっと",
+      "romaji": "yatto",
+      "tokens": [
+        {
+          "text": "やっと",
+          "kana": "やっと"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "好好地；经常",
+      "japanese": "よく",
+      "kana": "よく",
+      "romaji": "yoku",
+      "tokens": [
+        {
+          "text": "よく",
+          "kana": "よく"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "偶尔",
+      "japanese": "たまに",
+      "kana": "たまに",
+      "romaji": "tamani",
+      "tokens": [
+        {
+          "text": "たまに",
+          "kana": "たまに"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（指未来）总有一天，早晚；（指过去）曾经；不知不觉",
+      "japanese": "いつか",
+      "kana": "いつか",
+      "romaji": "itsuka",
+      "tokens": [
+        {
+          "text": "いつか",
+          "kana": "いつか"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "请多加；总算，设法；不知为何，不正常",
+      "japanese": "どうか",
+      "kana": "どうか",
+      "romaji": "douka",
+      "tokens": [
+        {
+          "text": "どうか",
+          "kana": "どうか"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "万一，倘若",
+      "japanese": "もしも",
+      "kana": "もしも",
+      "romaji": "moshimo",
+      "tokens": [
+        {
+          "text": "もしも",
+          "kana": "もしも"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "最，第一",
+      "japanese": "最も",
+      "kana": "もっとも",
+      "romaji": "mottomo",
+      "tokens": [
+        {
+          "text": "最も",
+          "kana": "もっとも"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "适当地；请关照",
+      "japanese": "よろしく",
+      "kana": "よろしく",
+      "romaji": "yoroshiku",
+      "tokens": [
+        {
+          "text": "よろしく",
+          "kana": "よろしく"
+        }
+      ]
+    }
+  ]
+}

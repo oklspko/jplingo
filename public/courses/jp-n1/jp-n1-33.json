@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-33",
+  "coursePackId": "jp-n1",
+  "title": "名词 33",
+  "order": 33,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "中立",
+      "japanese": "中立",
+      "kana": "ちゅうりつ",
+      "romaji": "chuuritsu",
+      "tokens": [
+        {
+          "text": "中立",
+          "kana": "ちゅうりつ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "忠诚；忠实",
+      "japanese": "忠実",
+      "kana": "ちゅうじつ",
+      "romaji": "chuujitsu",
+      "tokens": [
+        {
+          "text": "忠実",
+          "kana": "ちゅうじつ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "著作",
+      "japanese": "著書",
+      "kana": "ちょしょ",
+      "romaji": "chosho",
+      "tokens": [
+        {
+          "text": "著書",
+          "kana": "ちょしょ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "著名",
+      "japanese": "著名",
+      "kana": "ちょめい",
+      "romaji": "chomei",
+      "tokens": [
+        {
+          "text": "著名",
+          "kana": "ちょめい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "储存，积蓄",
+      "japanese": "貯蓄",
+      "kana": "ちょちく",
+      "romaji": "chochiku",
+      "tokens": [
+        {
+          "text": "貯蓄",
+          "kana": "ちょちく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "预兆，兆头",
+      "japanese": "兆し",
+      "kana": "きざし",
+      "romaji": "kizashi",
+      "tokens": [
+        {
+          "text": "兆し",
+          "kana": "きざし"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "挑战",
+      "japanese": "挑戦",
+      "kana": "ちょうせん",
+      "romaji": "chousen",
+      "tokens": [
+        {
+          "text": "挑戦",
+          "kana": "ちょうせん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "听觉",
+      "japanese": "聴覚",
+      "kana": "ちょうかく",
+      "romaji": "choukaku",
+      "tokens": [
+        {
+          "text": "聴覚",
+          "kana": "ちょうかく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "协调，和谐",
+      "japanese": "調和",
+      "kana": "ちょうわ",
+      "romaji": "chouwa",
+      "tokens": [
+        {
+          "text": "調和",
+          "kana": "ちょうわ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "直觉，凭直觉感到",
+      "japanese": "直感",
+      "kana": "ちょっかん",
+      "romaji": "chokkan",
+      "tokens": [
+        {
+          "text": "直感",
+          "kana": "ちょっかん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "面对，直面",
+      "japanese": "直面",
+      "kana": "ちょくめん",
+      "romaji": "chokumen",
+      "tokens": [
+        {
+          "text": "直面",
+          "kana": "ちょくめん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "沉默",
+      "japanese": "沈黙",
+      "kana": "ちんもく",
+      "romaji": "chinmoku",
+      "tokens": [
+        {
+          "text": "沈黙",
+          "kana": "ちんもく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "工资，薪水",
+      "japanese": "賃金",
+      "kana": "ちんぎん",
+      "romaji": "chingin",
+      "tokens": [
+        {
+          "text": "賃金",
+          "kana": "ちんぎん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "陈列，展览",
+      "japanese": "陳列",
+      "kana": "ちんれつ",
+      "romaji": "chinretsu",
+      "tokens": [
+        {
+          "text": "陳列",
+          "kana": "ちんれつ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "坠落，掉下",
+      "japanese": "墜落",
+      "kana": "ついらく",
+      "romaji": "tsuiraku",
+      "tokens": [
+        {
+          "text": "墜落",
+          "kana": "ついらく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "驱逐（出境），赶出；开除，革职，肃清",
+      "japanese": "追放",
+      "kana": "ついほう",
+      "romaji": "tsuihou",
+      "tokens": [
+        {
+          "text": "追放",
+          "kana": "ついほう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "深感，深切认识",
+      "japanese": "痛感",
+      "kana": "つうかん",
+      "romaji": "tsuukan",
+      "tokens": [
+        {
+          "text": "痛感",
+          "kana": "つうかん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "停滞，滞留",
+      "japanese": "停滞",
+      "kana": "ていたい",
+      "romaji": "teitai",
+      "tokens": [
+        {
+          "text": "停滞",
+          "kana": "ていたい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "提携，合作",
+      "japanese": "提携",
+      "kana": "ていけい",
+      "romaji": "teikei",
+      "tokens": [
+        {
+          "text": "提携",
+          "kana": "ていけい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "天才",
+      "japanese": "天才",
+      "kana": "てんさい",
+      "romaji": "tensai",
+      "tokens": [
+        {
+          "text": "天才",
+          "kana": "てんさい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "天地；世界；上下",
+      "japanese": "天地",
+      "kana": "てんち",
+      "romaji": "tenchi",
+      "tokens": [
+        {
+          "text": "天地",
+          "kana": "てんち"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "顶，顶峰",
+      "japanese": "てっぺん",
+      "kana": "てっぺん",
+      "romaji": "teppen",
+      "tokens": [
+        {
+          "text": "てっぺん",
+          "kana": "てっぺん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "展望；眺望",
+      "japanese": "展望",
+      "kana": "てんぼう",
+      "romaji": "tenbou",
+      "tokens": [
+        {
+          "text": "展望",
+          "kana": "てんぼう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "铺面，门面，门市",
+      "japanese": "店頭",
+      "kana": "てんとう",
+      "romaji": "tentou",
+      "tokens": [
+        {
+          "text": "店頭",
+          "kana": "てんとう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "传说",
+      "japanese": "伝説",
+      "kana": "でんせつ",
+      "romaji": "densetsu",
+      "tokens": [
+        {
+          "text": "伝説",
+          "kana": "でんせつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "田园",
+      "japanese": "田園",
+      "kana": "でんえん",
+      "romaji": "den'en",
+      "tokens": [
+        {
+          "text": "田園",
+          "kana": "でんえん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "候鸟；到处谋生的人",
+      "japanese": "渡り鳥",
+      "kana": "わたりどり",
+      "romaji": "wataridori",
+      "tokens": [
+        {
+          "text": "渡り鳥",
+          "kana": "わたりどり"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "砂土",
+      "japanese": "土砂",
+      "kana": "どしゃ",
+      "romaji": "dosha",
+      "tokens": [
+        {
+          "text": "土砂",
+          "kana": "どしゃ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "投资",
+      "japanese": "投資",
+      "kana": "とうし",
+      "romaji": "toushi",
+      "tokens": [
+        {
+          "text": "投資",
+          "kana": "とうし"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "投入",
+      "japanese": "投入",
+      "kana": "とうにゅう",
+      "romaji": "tounyuu",
+      "tokens": [
+        {
+          "text": "投入",
+          "kana": "とうにゅう"
+        }
+      ]
+    }
+  ]
+}

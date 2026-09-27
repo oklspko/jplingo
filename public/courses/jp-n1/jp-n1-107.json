@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-107",
+  "coursePackId": "jp-n1",
+  "title": "动词 16",
+  "order": 107,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "离开；搬出",
+      "japanese": "立ち退く",
+      "kana": "たちのく",
+      "romaji": "tachinoku",
+      "tokens": [
+        {
+          "text": "立ち退く",
+          "kana": "たちのく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "返回原地",
+      "japanese": "立ち返る",
+      "kana": "たちかえる",
+      "romaji": "tachikaeru",
+      "tokens": [
+        {
+          "text": "立ち返る",
+          "kana": "たちかえる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "（字迹）不清楚；（声音）沙哑",
+      "japanese": "かすれる",
+      "kana": "かすれる",
+      "romaji": "kasureru",
+      "tokens": [
+        {
+          "text": "かすれる",
+          "kana": "かすれる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "摆弄（物品）；玩弄（感情、命运等）",
+      "japanese": "弄ぶ",
+      "kana": "もてあそぶ",
+      "romaji": "moteasobu",
+      "tokens": [
+        {
+          "text": "弄ぶ",
+          "kana": "もてあそぶ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "评论，社论",
+      "japanese": "論説",
+      "kana": "ろんせつ",
+      "romaji": "ronsetsu",
+      "tokens": [
+        {
+          "text": "論説",
+          "kana": "ろんせつ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "平静下来，温和",
+      "japanese": "和む",
+      "kana": "なごむ",
+      "romaji": "nagomu",
+      "tokens": [
+        {
+          "text": "和む",
+          "kana": "なごむ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "缓和，变温和",
+      "japanese": "和らぐ",
+      "kana": "やわらぐ",
+      "romaji": "yawaragu",
+      "tokens": [
+        {
+          "text": "和らぐ",
+          "kana": "やわらぐ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "闭眼；假装不知道；死，瞑目",
+      "japanese": "つぶる",
+      "kana": "つぶる",
+      "romaji": "tsuburu",
+      "tokens": [
+        {
+          "text": "つぶる",
+          "kana": "つぶる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "倒退；退职",
+      "japanese": "退く",
+      "kana": "しりぞく",
+      "romaji": "shirizoku",
+      "tokens": [
+        {
+          "text": "退く",
+          "kana": "しりぞく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "威胁",
+      "japanese": "脅かす",
+      "kana": "おびやかす",
+      "romaji": "obiyakasu",
+      "tokens": [
+        {
+          "text": "脅かす",
+          "kana": "おびやかす"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "捏，撮，夹；吃；摘取，摘要",
+      "japanese": "つまむ",
+      "kana": "つまむ",
+      "romaji": "tsumamu",
+      "tokens": [
+        {
+          "text": "つまむ",
+          "kana": "つまむ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "（物体）歪斜；（内心）不正",
+      "japanese": "ゆがむ",
+      "kana": "ゆがむ",
+      "romaji": "yugamu",
+      "tokens": [
+        {
+          "text": "ゆがむ",
+          "kana": "ゆがむ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "涮，洗濯；漱口；（不好的评价）洗掉，雪除",
+      "japanese": "すすぐ",
+      "kana": "すすぐ",
+      "romaji": "susugu",
+      "tokens": [
+        {
+          "text": "すすぐ",
+          "kana": "すすぐ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "威胁，威吓；恐吓",
+      "japanese": "脅かす",
+      "kana": "おどかす",
+      "romaji": "odokasu",
+      "tokens": [
+        {
+          "text": "脅かす",
+          "kana": "おどかす"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "除去，去掉，消除",
+      "japanese": "除去",
+      "kana": "じょきょ",
+      "romaji": "jokyo",
+      "tokens": [
+        {
+          "text": "除去",
+          "kana": "じょきょ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "录像",
+      "japanese": "録画",
+      "kana": "ろくが",
+      "romaji": "rokuga",
+      "tokens": [
+        {
+          "text": "録画",
+          "kana": "ろくが"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "朗读，诵读；按（日语）音读法读",
+      "japanese": "音読",
+      "kana": "おんどく",
+      "romaji": "ondoku",
+      "tokens": [
+        {
+          "text": "音読",
+          "kana": "おんどく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "直接经营，直属",
+      "japanese": "直営",
+      "kana": "ちょくえい",
+      "romaji": "chokuei",
+      "tokens": [
+        {
+          "text": "直営",
+          "kana": "ちょくえい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "借给，出借，贷与",
+      "japanese": "貸与",
+      "kana": "たいよ",
+      "romaji": "taiyo",
+      "tokens": [
+        {
+          "text": "貸与",
+          "kana": "たいよ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "才智，机智；筹措",
+      "japanese": "才覚",
+      "kana": "さいかく",
+      "romaji": "saikaku",
+      "tokens": [
+        {
+          "text": "才覚",
+          "kana": "さいかく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "交易，贸易；交易，讨价还价",
+      "japanese": "取引",
+      "kana": "とりひき",
+      "romaji": "torihiki",
+      "tokens": [
+        {
+          "text": "取引",
+          "kana": "とりひき"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "默读",
+      "japanese": "黙読",
+      "kana": "もくどく",
+      "romaji": "mokudoku",
+      "tokens": [
+        {
+          "text": "黙読",
+          "kana": "もくどく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "忍耐",
+      "japanese": "忍耐",
+      "kana": "にんたい",
+      "romaji": "nintai",
+      "tokens": [
+        {
+          "text": "忍耐",
+          "kana": "にんたい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "衬里，裱里；（多く「裏打ちされる」の形で）从旁得到佐证",
+      "japanese": "裏打ち",
+      "kana": "うらうち",
+      "romaji": "urauchi",
+      "tokens": [
+        {
+          "text": "裏打ち",
+          "kana": "うらうち"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "杀菌，灭菌，消毒",
+      "japanese": "殺菌",
+      "kana": "さっきん",
+      "romaji": "sakkin",
+      "tokens": [
+        {
+          "text": "殺菌",
+          "kana": "さっきん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "再次考虑，重新考虑",
+      "japanese": "再考",
+      "kana": "さいこう",
+      "romaji": "saikou",
+      "tokens": [
+        {
+          "text": "再考",
+          "kana": "さいこう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "洗涤，洗净",
+      "japanese": "洗浄",
+      "kana": "せんじょう",
+      "romaji": "senjou",
+      "tokens": [
+        {
+          "text": "洗浄",
+          "kana": "せんじょう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "爱护，保护",
+      "japanese": "愛護",
+      "kana": "あいご",
+      "romaji": "aigo",
+      "tokens": [
+        {
+          "text": "愛護",
+          "kana": "あいご"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "推测，推察；体谅，谅查",
+      "japanese": "推察",
+      "kana": "すいさつ",
+      "romaji": "suisatsu",
+      "tokens": [
+        {
+          "text": "推察",
+          "kana": "すいさつ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "防御",
+      "japanese": "防御",
+      "kana": "ぼうぎょ",
+      "romaji": "bougyo",
+      "tokens": [
+        {
+          "text": "防御",
+          "kana": "ぼうぎょ"
+        }
+      ]
+    }
+  ]
+}

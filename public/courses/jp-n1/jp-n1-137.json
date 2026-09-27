@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-137",
+  "coursePackId": "jp-n1",
+  "title": "其他 1",
+  "order": 137,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "注意到，发觉；清醒过来，苏醒过来",
+      "japanese": "気が付く",
+      "kana": "きがつく",
+      "romaji": "kigatsuku",
+      "tokens": [
+        {
+          "text": "気が付く",
+          "kana": "きがつく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "……只，……艘",
+      "japanese": "〜隻",
+      "kana": "〜隻",
+      "romaji": "~隻",
+      "tokens": [
+        {
+          "text": "〜隻",
+          "kana": "〜隻"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "……先生，……女士，……台启",
+      "japanese": "〜殿",
+      "kana": "〜殿",
+      "romaji": "~殿",
+      "tokens": [
+        {
+          "text": "〜殿",
+          "kana": "〜殿"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "长……",
+      "japanese": "長",
+      "kana": "なが",
+      "romaji": "naga",
+      "tokens": [
+        {
+          "text": "長",
+          "kana": "なが"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "同……，该……",
+      "japanese": "同",
+      "kana": "どう",
+      "romaji": "dou",
+      "tokens": [
+        {
+          "text": "同",
+          "kana": "どう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "粗糙，不光滑；（粗糙颗粒状的物体相互接触发出声音）哗啦哗啦",
+      "japanese": "ざらざら",
+      "kana": "ざらざら",
+      "romaji": "zarazara",
+      "tokens": [
+        {
+          "text": "ざらざら",
+          "kana": "ざらざら"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（手上等粘上黏东西后）黏糊糊",
+      "japanese": "ねばねば",
+      "kana": "ねばねば",
+      "romaji": "nebaneba",
+      "tokens": [
+        {
+          "text": "ねばねば",
+          "kana": "ねばねば"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "……街",
+      "japanese": "街",
+      "kana": "がい",
+      "romaji": "gai",
+      "tokens": [
+        {
+          "text": "街",
+          "kana": "がい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "超过……一点；强",
+      "japanese": "強",
+      "kana": "きょう",
+      "romaji": "kyou",
+      "tokens": [
+        {
+          "text": "強",
+          "kana": "きょう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "紧要关头，危急时刻",
+      "japanese": "いざという時",
+      "kana": "いざというとき",
+      "romaji": "izatoiutoki",
+      "tokens": [
+        {
+          "text": "いざという時",
+          "kana": "いざというとき"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "意外的，偶然的",
+      "japanese": "ふとした",
+      "kana": "ふとした",
+      "romaji": "futoshita",
+      "tokens": [
+        {
+          "text": "ふとした",
+          "kana": "ふとした"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "低……",
+      "japanese": "安",
+      "kana": "やす",
+      "romaji": "yasu",
+      "tokens": [
+        {
+          "text": "安",
+          "kana": "やす"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "现在的，当下的",
+      "japanese": "現",
+      "kana": "げん",
+      "romaji": "gen",
+      "tokens": [
+        {
+          "text": "現",
+          "kana": "げん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "古老，陈旧的，以前的",
+      "japanese": "古〜",
+      "kana": "古〜",
+      "romaji": "古~",
+      "tokens": [
+        {
+          "text": "古〜",
+          "kana": "古〜"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "出乎意料",
+      "japanese": "思いもよらない",
+      "kana": "おもいもよらない",
+      "romaji": "omoimoyoranai",
+      "tokens": [
+        {
+          "text": "思いもよらない",
+          "kana": "おもいもよらない"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "不如意的",
+      "japanese": "思わしくない",
+      "kana": "おもわしくない",
+      "romaji": "omowashikunai",
+      "tokens": [
+        {
+          "text": "思わしくない",
+          "kana": "おもわしくない"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "不辞辛劳",
+      "japanese": "骨身を惜しまず",
+      "kana": "ほねみをおしまず",
+      "romaji": "honemiwooshimazu",
+      "tokens": [
+        {
+          "text": "骨身を惜しまず",
+          "kana": "ほねみをおしまず"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "特别……；超……",
+      "japanese": "超〜",
+      "kana": "超〜",
+      "romaji": "超~",
+      "tokens": [
+        {
+          "text": "超〜",
+          "kana": "超〜"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "保险起见",
+      "japanese": "念のため",
+      "kana": "ねんのため",
+      "romaji": "nennotame",
+      "tokens": [
+        {
+          "text": "念のため",
+          "kana": "ねんのため"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "所以，因此",
+      "japanese": "それゆえ",
+      "kana": "それゆえ",
+      "romaji": "soreyue",
+      "tokens": [
+        {
+          "text": "それゆえ",
+          "kana": "それゆえ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "与……有密切关联；包括……在内；接近",
+      "japanese": "〜がらみ",
+      "kana": "〜がらみ",
+      "romaji": "~garami",
+      "tokens": [
+        {
+          "text": "〜がらみ",
+          "kana": "〜がらみ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "包括……在内，全部",
+      "japanese": "〜ぐるみ",
+      "kana": "〜ぐるみ",
+      "romaji": "~gurumi",
+      "tokens": [
+        {
+          "text": "〜ぐるみ",
+          "kana": "〜ぐるみ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "尽是……，清一色……",
+      "japanese": "〜ずくめ",
+      "kana": "〜ずくめ",
+      "romaji": "~zukume",
+      "tokens": [
+        {
+          "text": "〜ずくめ",
+          "kana": "〜ずくめ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "沾满……",
+      "japanese": "〜まみれ",
+      "kana": "〜まみれ",
+      "romaji": "~mamire",
+      "tokens": [
+        {
+          "text": "〜まみれ",
+          "kana": "〜まみれ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "隔着……；某一期间一直……",
+      "japanese": "〜越し",
+      "kana": "〜越し",
+      "romaji": "~越shi",
+      "tokens": [
+        {
+          "text": "〜越し",
+          "kana": "〜越し"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "……圈，范围",
+      "japanese": "圏",
+      "kana": "けん",
+      "romaji": "ken",
+      "tokens": [
+        {
+          "text": "圏",
+          "kana": "けん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "拘泥于……",
+      "japanese": "〜ばる",
+      "kana": "〜ばる",
+      "romaji": "~baru",
+      "tokens": [
+        {
+          "text": "〜ばる",
+          "kana": "〜ばる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "表示药品或食材的种类",
+      "japanese": "味",
+      "kana": "み",
+      "romaji": "mi",
+      "tokens": [
+        {
+          "text": "味",
+          "kana": "み"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "相辅相成，相互作用",
+      "japanese": "相まって",
+      "kana": "あいまって",
+      "romaji": "aimatte",
+      "tokens": [
+        {
+          "text": "相まって",
+          "kana": "あいまって"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "所有的",
+      "japanese": "ありとあらゆる",
+      "kana": "ありとあらゆる",
+      "romaji": "aritoarayuru",
+      "tokens": [
+        {
+          "text": "ありとあらゆる",
+          "kana": "ありとあらゆる"
+        }
+      ]
+    }
+  ]
+}

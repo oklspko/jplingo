@@ -1,0 +1,151 @@
+{
+  "id": "jp-n4-25",
+  "coursePackId": "jp-n4",
+  "title": "形容词 2",
+  "order": 25,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "有睡意的，犯困的",
+      "japanese": "眠い",
+      "kana": "ねむい",
+      "romaji": "nemui",
+      "tokens": [
+        {
+          "text": "眠い",
+          "kana": "ねむい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "痛苦；困难",
+      "japanese": "苦しい",
+      "kana": "くるしい",
+      "romaji": "kurushii",
+      "tokens": [
+        {
+          "text": "苦しい",
+          "kana": "くるしい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "详细；精通",
+      "japanese": "詳しい",
+      "kana": "くわしい",
+      "romaji": "kuwashii",
+      "tokens": [
+        {
+          "text": "詳しい",
+          "kana": "くわしい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "少见的，稀罕的",
+      "japanese": "珍しい",
+      "kana": "めずらしい",
+      "romaji": "mezurashii",
+      "tokens": [
+        {
+          "text": "珍しい",
+          "kana": "めずらしい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "理所当然；普通",
+      "japanese": "当たり前",
+      "kana": "あたりまえ",
+      "romaji": "atarimae",
+      "tokens": [
+        {
+          "text": "当たり前",
+          "kana": "あたりまえ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "秘密",
+      "japanese": "秘密",
+      "kana": "ひみつ",
+      "romaji": "himitsu",
+      "tokens": [
+        {
+          "text": "秘密",
+          "kana": "ひみつ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "帅气的，潇洒的",
+      "japanese": "かっこいい",
+      "kana": "かっこいい",
+      "romaji": "kakkoii",
+      "tokens": [
+        {
+          "text": "かっこいい",
+          "kana": "かっこいい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "确实；好像",
+      "japanese": "確か",
+      "kana": "たしか",
+      "romaji": "tashika",
+      "tokens": [
+        {
+          "text": "確か",
+          "kana": "たしか"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "可怕的；惊人的",
+      "japanese": "恐ろしい",
+      "kana": "おそろしい",
+      "romaji": "osoroshii",
+      "tokens": [
+        {
+          "text": "恐ろしい",
+          "kana": "おそろしい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "当然，理所当然",
+      "japanese": "当然",
+      "kana": "とうぜん",
+      "romaji": "touzen",
+      "tokens": [
+        {
+          "text": "当然",
+          "kana": "とうぜん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "开业；开放",
+      "japanese": "オープン",
+      "kana": "おうぷん",
+      "romaji": "oupun",
+      "tokens": [
+        {
+          "text": "オープン",
+          "kana": "おうぷん"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-25",
+  "coursePackId": "jp-n1",
+  "title": "名词 25",
+  "order": 25,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "滑稽",
+      "japanese": "滑稽",
+      "kana": "こっけい",
+      "romaji": "kokkei",
+      "tokens": [
+        {
+          "text": "滑稽",
+          "kana": "こっけい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "饶恕，容忍",
+      "japanese": "勘弁",
+      "kana": "かんべん",
+      "romaji": "kanben",
+      "tokens": [
+        {
+          "text": "勘弁",
+          "kana": "かんべん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "感慨",
+      "japanese": "感慨",
+      "kana": "かんがい",
+      "romaji": "kangai",
+      "tokens": [
+        {
+          "text": "感慨",
+          "kana": "かんがい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "触感；感觉",
+      "japanese": "感触",
+      "kana": "かんしょく",
+      "romaji": "kanshoku",
+      "tokens": [
+        {
+          "text": "感触",
+          "kana": "かんしょく"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "习惯，习俗",
+      "japanese": "慣習",
+      "kana": "かんしゅう",
+      "romaji": "kanshuu",
+      "tokens": [
+        {
+          "text": "慣習",
+          "kana": "かんしゅう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "简单，简朴",
+      "japanese": "簡素",
+      "kana": "かんそ",
+      "romaji": "kanso",
+      "tokens": [
+        {
+          "text": "簡素",
+          "kana": "かんそ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "缓和，缓解",
+      "japanese": "緩和",
+      "kana": "かんわ",
+      "romaji": "kanwa",
+      "tokens": [
+        {
+          "text": "緩和",
+          "kana": "かんわ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "五脏六腑；肝脏；胆量；要点",
+      "japanese": "肝",
+      "kana": "きも",
+      "romaji": "kimo",
+      "tokens": [
+        {
+          "text": "肝",
+          "kana": "きも"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "还原，复原，归还；（化学）还原",
+      "japanese": "還元",
+      "kana": "かんげん",
+      "romaji": "kangen",
+      "tokens": [
+        {
+          "text": "還元",
+          "kana": "かんげん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "正要做某事的时候",
+      "japanese": "間際",
+      "kana": "まぎわ",
+      "romaji": "magiwa",
+      "tokens": [
+        {
+          "text": "間際",
+          "kana": "まぎわ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "（人与人的）关系",
+      "japanese": "間柄",
+      "kana": "あいだがら",
+      "romaji": "aidagara",
+      "tokens": [
+        {
+          "text": "間柄",
+          "kana": "あいだがら"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "目光，眼神",
+      "japanese": "眼差し",
+      "kana": "まなざし",
+      "romaji": "manazashi",
+      "tokens": [
+        {
+          "text": "眼差し",
+          "kana": "まなざし"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "容器；才干，人才",
+      "japanese": "器",
+      "kana": "うつわ",
+      "romaji": "utsuwa",
+      "tokens": [
+        {
+          "text": "器",
+          "kana": "うつわ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "赠予，捐赠",
+      "japanese": "寄贈",
+      "kana": "きぞう",
+      "romaji": "kizou",
+      "tokens": [
+        {
+          "text": "寄贈",
+          "kana": "きぞう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "贡献",
+      "japanese": "寄与",
+      "kana": "きよ",
+      "romaji": "kiyo",
+      "tokens": [
+        {
+          "text": "寄与",
+          "kana": "きよ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "许多",
+      "japanese": "幾多",
+      "kana": "いくた",
+      "romaji": "ikuta",
+      "tokens": [
+        {
+          "text": "幾多",
+          "kana": "いくた"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "机构，组织；构造，结构",
+      "japanese": "機構",
+      "kana": "きこう",
+      "romaji": "kikou",
+      "tokens": [
+        {
+          "text": "機構",
+          "kana": "きこう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "心血来潮，任性；反复无常，变化无常",
+      "japanese": "気まぐれ",
+      "kana": "きまぐれ",
+      "romaji": "kimagure",
+      "tokens": [
+        {
+          "text": "気まぐれ",
+          "kana": "きまぐれ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "气质，性情",
+      "japanese": "気質",
+      "kana": "きしつ",
+      "romaji": "kishitsu",
+      "tokens": [
+        {
+          "text": "気質",
+          "kana": "きしつ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "规格",
+      "japanese": "規格",
+      "kana": "きかく",
+      "romaji": "kikaku",
+      "tokens": [
+        {
+          "text": "規格",
+          "kana": "きかく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "限制，规定",
+      "japanese": "規制",
+      "kana": "きせい",
+      "romaji": "kisei",
+      "tokens": [
+        {
+          "text": "規制",
+          "kana": "きせい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "规范，标准",
+      "japanese": "規範",
+      "kana": "きはん",
+      "romaji": "kihan",
+      "tokens": [
+        {
+          "text": "規範",
+          "kana": "きはん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "规章，章程",
+      "japanese": "規約",
+      "kana": "きやく",
+      "romaji": "kiyaku",
+      "tokens": [
+        {
+          "text": "規約",
+          "kana": "きやく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "记载，刊载",
+      "japanese": "記載",
+      "kana": "きさい",
+      "romaji": "kisai",
+      "tokens": [
+        {
+          "text": "記載",
+          "kana": "きさい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "记述",
+      "japanese": "記述",
+      "kana": "きじゅつ",
+      "romaji": "kijutsu",
+      "tokens": [
+        {
+          "text": "記述",
+          "kana": "きじゅつ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "记名，写上姓名",
+      "japanese": "記名",
+      "kana": "きめい",
+      "romaji": "kimei",
+      "tokens": [
+        {
+          "text": "記名",
+          "kana": "きめい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "起源",
+      "japanese": "起源",
+      "kana": "きげん",
+      "romaji": "kigen",
+      "tokens": [
+        {
+          "text": "起源",
+          "kana": "きげん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "起伏；跌宕",
+      "japanese": "起伏",
+      "kana": "きふく",
+      "romaji": "kifuku",
+      "tokens": [
+        {
+          "text": "起伏",
+          "kana": "きふく"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "轨道",
+      "japanese": "軌道",
+      "kana": "きどう",
+      "romaji": "kidou",
+      "tokens": [
+        {
+          "text": "軌道",
+          "kana": "きどう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "伪造",
+      "japanese": "偽造",
+      "kana": "ぎぞう",
+      "romaji": "gizou",
+      "tokens": [
+        {
+          "text": "偽造",
+          "kana": "ぎぞう"
+        }
+      ]
+    }
+  ]
+}

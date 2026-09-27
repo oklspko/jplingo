@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-22",
+  "coursePackId": "jp-n2",
+  "title": "名词 22",
+  "order": 22,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "内线，内线电话",
+      "japanese": "内線",
+      "kana": "ないせん",
+      "romaji": "naisen",
+      "tokens": [
+        {
+          "text": "内線",
+          "kana": "ないせん"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "（数量、程度）增大，增强",
+      "japanese": "増大",
+      "kana": "ぞうだい",
+      "romaji": "zoudai",
+      "tokens": [
+        {
+          "text": "増大",
+          "kana": "ぞうだい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "加速",
+      "japanese": "加速",
+      "kana": "かそく",
+      "romaji": "kasoku",
+      "tokens": [
+        {
+          "text": "加速",
+          "kana": "かそく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "隐退，退役",
+      "japanese": "引退",
+      "kana": "いんたい",
+      "romaji": "intai",
+      "tokens": [
+        {
+          "text": "引退",
+          "kana": "いんたい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "弟子，徒弟",
+      "japanese": "弟子",
+      "kana": "でし",
+      "romaji": "deshi",
+      "tokens": [
+        {
+          "text": "弟子",
+          "kana": "でし"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "强化，加强",
+      "japanese": "強化",
+      "kana": "きょうか",
+      "romaji": "kyouka",
+      "tokens": [
+        {
+          "text": "強化",
+          "kana": "きょうか"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "攻击；抨击",
+      "japanese": "攻撃",
+      "kana": "こうげき",
+      "romaji": "kougeki",
+      "tokens": [
+        {
+          "text": "攻撃",
+          "kana": "こうげき"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "从上往下（的路）；顺流而下；从起点到终点方向（的列车或巴士）；从首都去地方",
+      "japanese": "下り",
+      "kana": "くだり",
+      "romaji": "kudari",
+      "tokens": [
+        {
+          "text": "下り",
+          "kana": "くだり"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "夜间，夜晚",
+      "japanese": "夜間",
+      "kana": "やかん",
+      "romaji": "yakan",
+      "tokens": [
+        {
+          "text": "夜間",
+          "kana": "やかん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "山麓，山脚下的部分",
+      "japanese": "麓",
+      "kana": "ふもと",
+      "romaji": "fumoto",
+      "tokens": [
+        {
+          "text": "麓",
+          "kana": "ふもと"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "承认，肯定",
+      "japanese": "肯定",
+      "kana": "こうてい",
+      "romaji": "koutei",
+      "tokens": [
+        {
+          "text": "肯定",
+          "kana": "こうてい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "平凡，普通",
+      "japanese": "平凡",
+      "kana": "へいぼん",
+      "romaji": "heibon",
+      "tokens": [
+        {
+          "text": "平凡",
+          "kana": "へいぼん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "公正",
+      "japanese": "公正",
+      "kana": "こうせい",
+      "romaji": "kousei",
+      "tokens": [
+        {
+          "text": "公正",
+          "kana": "こうせい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "特定；作出断定",
+      "japanese": "特定",
+      "kana": "とくてい",
+      "romaji": "tokutei",
+      "tokens": [
+        {
+          "text": "特定",
+          "kana": "とくてい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "有利，形势好的",
+      "japanese": "有利",
+      "kana": "ゆうり",
+      "romaji": "yuuri",
+      "tokens": [
+        {
+          "text": "有利",
+          "kana": "ゆうり"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "南极，南极洲",
+      "japanese": "南極",
+      "kana": "なんきょく",
+      "romaji": "nankyoku",
+      "tokens": [
+        {
+          "text": "南極",
+          "kana": "なんきょく"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "日光，太阳光",
+      "japanese": "日光",
+      "kana": "にっこう",
+      "romaji": "nikkou",
+      "tokens": [
+        {
+          "text": "日光",
+          "kana": "にっこう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "无限",
+      "japanese": "無限",
+      "kana": "むげん",
+      "romaji": "mugen",
+      "tokens": [
+        {
+          "text": "無限",
+          "kana": "むげん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "主角，主要人物",
+      "japanese": "主役",
+      "kana": "しゅやく",
+      "romaji": "shuyaku",
+      "tokens": [
+        {
+          "text": "主役",
+          "kana": "しゅやく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "简单，朴素",
+      "japanese": "質素",
+      "kana": "しっそ",
+      "romaji": "shisso",
+      "tokens": [
+        {
+          "text": "質素",
+          "kana": "しっそ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "曲线",
+      "japanese": "曲線",
+      "kana": "きょくせん",
+      "romaji": "kyokusen",
+      "tokens": [
+        {
+          "text": "曲線",
+          "kana": "きょくせん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "创造",
+      "japanese": "創造",
+      "kana": "そうぞう",
+      "romaji": "souzou",
+      "tokens": [
+        {
+          "text": "創造",
+          "kana": "そうぞう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "过程",
+      "japanese": "過程",
+      "kana": "かてい",
+      "romaji": "katei",
+      "tokens": [
+        {
+          "text": "過程",
+          "kana": "かてい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "要点，重要之处",
+      "japanese": "要点",
+      "kana": "ようてん",
+      "romaji": "youten",
+      "tokens": [
+        {
+          "text": "要点",
+          "kana": "ようてん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "戏法，魔术",
+      "japanese": "手品",
+      "kana": "てじな",
+      "romaji": "tejina",
+      "tokens": [
+        {
+          "text": "手品",
+          "kana": "てじな"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "菜单，食谱",
+      "japanese": "献立",
+      "kana": "こんだて",
+      "romaji": "kondate",
+      "tokens": [
+        {
+          "text": "献立",
+          "kana": "こんだて"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "道德",
+      "japanese": "道徳",
+      "kana": "どうとく",
+      "romaji": "doutoku",
+      "tokens": [
+        {
+          "text": "道徳",
+          "kana": "どうとく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "幸运",
+      "japanese": "幸運",
+      "kana": "こううん",
+      "romaji": "kouun",
+      "tokens": [
+        {
+          "text": "幸運",
+          "kana": "こううん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "弱点，缺点",
+      "japanese": "弱点",
+      "kana": "じゃくてん",
+      "romaji": "jakuten",
+      "tokens": [
+        {
+          "text": "弱点",
+          "kana": "じゃくてん"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "见解，看法，想法",
+      "japanese": "見解",
+      "kana": "けんかい",
+      "romaji": "kenkai",
+      "tokens": [
+        {
+          "text": "見解",
+          "kana": "けんかい"
+        }
+      ]
+    }
+  ]
+}

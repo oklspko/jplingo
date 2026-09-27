@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-70",
+  "coursePackId": "jp-n1",
+  "title": "名词 70",
+  "order": 70,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "大浪，巨浪",
+      "japanese": "大波",
+      "kana": "おおなみ",
+      "romaji": "oonami",
+      "tokens": [
+        {
+          "text": "大波",
+          "kana": "おおなみ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "水量",
+      "japanese": "水量",
+      "kana": "すいりょう",
+      "romaji": "suiryou",
+      "tokens": [
+        {
+          "text": "水量",
+          "kana": "すいりょう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "七色；七种，多种",
+      "japanese": "七色",
+      "kana": "なないろ",
+      "romaji": "nanairo",
+      "tokens": [
+        {
+          "text": "七色",
+          "kana": "なないろ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "波纹；影响",
+      "japanese": "波紋",
+      "kana": "はもん",
+      "romaji": "hamon",
+      "tokens": [
+        {
+          "text": "波紋",
+          "kana": "はもん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "社会上的评论，舆论",
+      "japanese": "世評",
+      "kana": "せひょう",
+      "romaji": "sehyou",
+      "tokens": [
+        {
+          "text": "世評",
+          "kana": "せひょう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "白皮书",
+      "japanese": "白書",
+      "kana": "はくしょ",
+      "romaji": "hakusho",
+      "tokens": [
+        {
+          "text": "白書",
+          "kana": "はくしょ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "能力；本领",
+      "japanese": "力量",
+      "kana": "りきりょう",
+      "romaji": "rikiryou",
+      "tokens": [
+        {
+          "text": "力量",
+          "kana": "りきりょう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "副产品；附带的收获",
+      "japanese": "副産物",
+      "kana": "ふくさんぶつ",
+      "romaji": "fukusanbutsu",
+      "tokens": [
+        {
+          "text": "副産物",
+          "kana": "ふくさんぶつ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "恶臭，难闻的气味",
+      "japanese": "悪臭",
+      "kana": "あくしゅう",
+      "romaji": "akushuu",
+      "tokens": [
+        {
+          "text": "悪臭",
+          "kana": "あくしゅう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "适量",
+      "japanese": "適量",
+      "kana": "てきりょう",
+      "romaji": "tekiryou",
+      "tokens": [
+        {
+          "text": "適量",
+          "kana": "てきりょう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "校内，学校里",
+      "japanese": "校内",
+      "kana": "こうない",
+      "romaji": "kounai",
+      "tokens": [
+        {
+          "text": "校内",
+          "kana": "こうない"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "居丧，服丧",
+      "japanese": "喪",
+      "kana": "も",
+      "romaji": "mo",
+      "tokens": [
+        {
+          "text": "喪",
+          "kana": "も"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "二选一",
+      "japanese": "二者択一",
+      "kana": "にしゃたくいつ",
+      "romaji": "nishatakuitsu",
+      "tokens": [
+        {
+          "text": "二者択一",
+          "kana": "にしゃたくいつ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "鬣羚（日本羚羊）",
+      "japanese": "かもしか",
+      "kana": "かもしか",
+      "romaji": "kamoshika",
+      "tokens": [
+        {
+          "text": "かもしか",
+          "kana": "かもしか"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "山村，山中的村庄",
+      "japanese": "山里",
+      "kana": "やまざと",
+      "romaji": "yamazato",
+      "tokens": [
+        {
+          "text": "山里",
+          "kana": "やまざと"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "名门",
+      "japanese": "家柄",
+      "kana": "いえがら",
+      "romaji": "iegara",
+      "tokens": [
+        {
+          "text": "家柄",
+          "kana": "いえがら"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "藻类",
+      "japanese": "藻類",
+      "kana": "そうるい",
+      "romaji": "sourui",
+      "tokens": [
+        {
+          "text": "藻類",
+          "kana": "そうるい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "中生代",
+      "japanese": "中生代",
+      "kana": "ちゅうせいだい",
+      "romaji": "chuuseidai",
+      "tokens": [
+        {
+          "text": "中生代",
+          "kana": "ちゅうせいだい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "拼命，忘我",
+      "japanese": "無我夢中",
+      "kana": "むがむちゅう",
+      "romaji": "mugamuchuu",
+      "tokens": [
+        {
+          "text": "無我夢中",
+          "kana": "むがむちゅう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "债务",
+      "japanese": "債務",
+      "kana": "さいむ",
+      "romaji": "saimu",
+      "tokens": [
+        {
+          "text": "債務",
+          "kana": "さいむ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "破例，破格，没有前例",
+      "japanese": "異例",
+      "kana": "いれい",
+      "romaji": "irei",
+      "tokens": [
+        {
+          "text": "異例",
+          "kana": "いれい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "血管；脉络，条理",
+      "japanese": "脈絡",
+      "kana": "みゃくらく",
+      "romaji": "myakuraku",
+      "tokens": [
+        {
+          "text": "脈絡",
+          "kana": "みゃくらく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "私事；私人秘密，隐私",
+      "japanese": "私事",
+      "kana": "しじ",
+      "romaji": "shiji",
+      "tokens": [
+        {
+          "text": "私事",
+          "kana": "しじ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "空论，空谈，脱离实际的理论",
+      "japanese": "空論",
+      "kana": "くうろん",
+      "romaji": "kuuron",
+      "tokens": [
+        {
+          "text": "空論",
+          "kana": "くうろん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "桩子",
+      "japanese": "杭[くい]",
+      "kana": "くい",
+      "romaji": "kui",
+      "tokens": [
+        {
+          "text": "杭[くい]",
+          "kana": "くい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "物流",
+      "japanese": "物流",
+      "kana": "ぶつりゅう",
+      "romaji": "butsuryuu",
+      "tokens": [
+        {
+          "text": "物流",
+          "kana": "ぶつりゅう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "盛况",
+      "japanese": "盛況",
+      "kana": "せいきょう",
+      "romaji": "seikyou",
+      "tokens": [
+        {
+          "text": "盛況",
+          "kana": "せいきょう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "余波；影响",
+      "japanese": "余波",
+      "kana": "よは",
+      "romaji": "yoha",
+      "tokens": [
+        {
+          "text": "余波",
+          "kana": "よは"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "立足处；脚手架；（精神上的）立足点，基础；交通之便",
+      "japanese": "足場",
+      "kana": "あしば",
+      "romaji": "ashiba",
+      "tokens": [
+        {
+          "text": "足場",
+          "kana": "あしば"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "话语的数量；人数；件数",
+      "japanese": "口数",
+      "kana": "くちかず",
+      "romaji": "kuchikazu",
+      "tokens": [
+        {
+          "text": "口数",
+          "kana": "くちかず"
+        }
+      ]
+    }
+  ]
+}

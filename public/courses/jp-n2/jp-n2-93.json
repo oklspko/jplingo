@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-93",
+  "coursePackId": "jp-n2",
+  "title": "形容词 1",
+  "order": 93,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "柔软；软件",
+      "japanese": "ソフト",
+      "kana": "そふと",
+      "romaji": "sofuto",
+      "tokens": [
+        {
+          "text": "ソフト",
+          "kana": "そふと"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "丰富，富裕；饱满，丰满",
+      "japanese": "豊か",
+      "kana": "ゆたか",
+      "romaji": "yutaka",
+      "tokens": [
+        {
+          "text": "豊か",
+          "kana": "ゆたか"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "啰嗦；（味道或颜色）过于浓厚",
+      "japanese": "くどい",
+      "kana": "くどい",
+      "romaji": "kudoi",
+      "tokens": [
+        {
+          "text": "くどい",
+          "kana": "くどい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "自由；免费",
+      "japanese": "フリー",
+      "kana": "ふりい",
+      "romaji": "furii",
+      "tokens": [
+        {
+          "text": "フリー",
+          "kana": "ふりい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "稳定；安稳",
+      "japanese": "安定",
+      "kana": "あんてい",
+      "romaji": "antei",
+      "tokens": [
+        {
+          "text": "安定",
+          "kana": "あんてい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "伟大，出色",
+      "japanese": "偉大",
+      "kana": "いだい",
+      "romaji": "idai",
+      "tokens": [
+        {
+          "text": "偉大",
+          "kana": "いだい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "平稳；温和",
+      "japanese": "穏やか",
+      "kana": "おだやか",
+      "romaji": "odayaka",
+      "tokens": [
+        {
+          "text": "穏やか",
+          "kana": "おだやか"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "心情",
+      "japanese": "機嫌",
+      "kana": "きげん",
+      "romaji": "kigen",
+      "tokens": [
+        {
+          "text": "機嫌",
+          "kana": "きげん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "迅速，快速",
+      "japanese": "急速",
+      "kana": "きゅうそく",
+      "romaji": "kyuusoku",
+      "tokens": [
+        {
+          "text": "急速",
+          "kana": "きゅうそく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "巨大",
+      "japanese": "巨大",
+      "kana": "きょだい",
+      "romaji": "kyodai",
+      "tokens": [
+        {
+          "text": "巨大",
+          "kana": "きょだい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "激烈的；（程度）厉害的",
+      "japanese": "激しい",
+      "kana": "はげしい",
+      "romaji": "hageshii",
+      "tokens": [
+        {
+          "text": "激しい",
+          "kana": "はげしい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "谦虚",
+      "japanese": "謙虚",
+      "kana": "けんきょ",
+      "romaji": "kenkyo",
+      "tokens": [
+        {
+          "text": "謙虚",
+          "kana": "けんきょ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "谦逊，谦虚，谦让",
+      "japanese": "謙遜",
+      "kana": "けんそん",
+      "romaji": "kenson",
+      "tokens": [
+        {
+          "text": "謙遜",
+          "kana": "けんそん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "聪明",
+      "japanese": "賢い",
+      "kana": "かしこい",
+      "romaji": "kashikoi",
+      "tokens": [
+        {
+          "text": "賢い",
+          "kana": "かしこい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "闷热的",
+      "japanese": "蒸し暑い",
+      "kana": "むしあつい",
+      "romaji": "mushiatsui",
+      "tokens": [
+        {
+          "text": "蒸し暑い",
+          "kana": "むしあつい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "新；重新",
+      "japanese": "新た",
+      "kana": "あらた",
+      "romaji": "arata",
+      "tokens": [
+        {
+          "text": "新た",
+          "kana": "あらた"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "严重，严峻；严肃",
+      "japanese": "深刻",
+      "kana": "しんこく",
+      "romaji": "shinkoku",
+      "tokens": [
+        {
+          "text": "深刻",
+          "kana": "しんこく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "直率，老实",
+      "japanese": "素直",
+      "kana": "すなお",
+      "romaji": "sunao",
+      "tokens": [
+        {
+          "text": "素直",
+          "kana": "すなお"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（天气）清爽，（心情）爽快；清楚，鲜明",
+      "japanese": "爽やか",
+      "kana": "さわやか",
+      "romaji": "sawayaka",
+      "tokens": [
+        {
+          "text": "爽やか",
+          "kana": "さわやか"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "平，平坦",
+      "japanese": "平ら",
+      "kana": "たいら",
+      "romaji": "taira",
+      "tokens": [
+        {
+          "text": "平ら",
+          "kana": "たいら"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "明显，清楚",
+      "japanese": "明らか",
+      "kana": "あきらか",
+      "romaji": "akiraka",
+      "tokens": [
+        {
+          "text": "明らか",
+          "kana": "あきらか"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "优秀，优异",
+      "japanese": "優秀",
+      "kana": "ゆうしゅう",
+      "romaji": "yuushuu",
+      "tokens": [
+        {
+          "text": "優秀",
+          "kana": "ゆうしゅう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "难得的；值得感谢的",
+      "japanese": "有り難い",
+      "kana": "ありがたい",
+      "romaji": "arigatai",
+      "tokens": [
+        {
+          "text": "有り難い",
+          "kana": "ありがたい"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "幼小的；幼稚的",
+      "japanese": "幼い",
+      "kana": "おさない",
+      "romaji": "osanai",
+      "tokens": [
+        {
+          "text": "幼い",
+          "kana": "おさない"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "含糊不清，模棱两可",
+      "japanese": "曖昧",
+      "kana": "あいまい",
+      "romaji": "aimai",
+      "tokens": [
+        {
+          "text": "曖昧",
+          "kana": "あいまい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "难……",
+      "japanese": "づらい",
+      "kana": "づらい",
+      "romaji": "zurai",
+      "tokens": [
+        {
+          "text": "づらい",
+          "kana": "づらい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "简单，朴素",
+      "japanese": "シンプル",
+      "kana": "しんぷる",
+      "romaji": "shinpuru",
+      "tokens": [
+        {
+          "text": "シンプル",
+          "kana": "しんぷる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "灵巧；巧妙，精明",
+      "japanese": "器用",
+      "kana": "きよう",
+      "romaji": "kiyou",
+      "tokens": [
+        {
+          "text": "器用",
+          "kana": "きよう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "很有兴趣的，颇有意思的",
+      "japanese": "興味深い",
+      "kana": "きょうみぶかい",
+      "romaji": "kyoumibukai",
+      "tokens": [
+        {
+          "text": "興味深い",
+          "kana": "きょうみぶかい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "慌张的，匆忙的，不稳的",
+      "japanese": "慌ただしい",
+      "kana": "あわただしい",
+      "romaji": "awatadashii",
+      "tokens": [
+        {
+          "text": "慌ただしい",
+          "kana": "あわただしい"
+        }
+      ]
+    }
+  ]
+}

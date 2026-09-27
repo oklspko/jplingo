@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-09",
+  "coursePackId": "jp-n4",
+  "title": "名词 9",
+  "order": 9,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "成功",
+      "japanese": "成功",
+      "kana": "せいこう",
+      "romaji": "seikou",
+      "tokens": [
+        {
+          "text": "成功",
+          "kana": "せいこう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "星星；星号；明星",
+      "japanese": "星",
+      "kana": "ほし",
+      "romaji": "hoshi",
+      "tokens": [
+        {
+          "text": "星",
+          "kana": "ほし"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "新年，正月",
+      "japanese": "正月",
+      "kana": "しょうがつ",
+      "romaji": "shougatsu",
+      "tokens": [
+        {
+          "text": "正月",
+          "kana": "しょうがつ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "生产，制造",
+      "japanese": "生産",
+      "kana": "せいさん",
+      "romaji": "seisan",
+      "tokens": [
+        {
+          "text": "生産",
+          "kana": "せいさん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "过去，以前",
+      "japanese": "昔",
+      "kana": "むかし",
+      "romaji": "mukashi",
+      "tokens": [
+        {
+          "text": "昔",
+          "kana": "むかし"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "石头，石子",
+      "japanese": "石",
+      "kana": "いし",
+      "romaji": "ishi",
+      "tokens": [
+        {
+          "text": "石",
+          "kana": "いし"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "说明，解释",
+      "japanese": "説明",
+      "kana": "せつめい",
+      "romaji": "setsumei",
+      "tokens": [
+        {
+          "text": "説明",
+          "kana": "せつめい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "专业，专门",
+      "japanese": "専門",
+      "kana": "せんもん",
+      "romaji": "senmon",
+      "tokens": [
+        {
+          "text": "専門",
+          "kana": "せんもん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "线，线条",
+      "japanese": "線",
+      "kana": "せん",
+      "romaji": "sen",
+      "tokens": [
+        {
+          "text": "線",
+          "kana": "せん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "一切，所有，全部",
+      "japanese": "全て",
+      "kana": "すべて",
+      "romaji": "subete",
+      "tokens": [
+        {
+          "text": "全て",
+          "kana": "すべて"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "商量，商议，征求意见",
+      "japanese": "相談",
+      "kana": "そうだん",
+      "romaji": "soudan",
+      "tokens": [
+        {
+          "text": "相談",
+          "kana": "そうだん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "礼物",
+      "japanese": "贈り物",
+      "kana": "おくりもの",
+      "romaji": "okurimono",
+      "tokens": [
+        {
+          "text": "贈り物",
+          "kana": "おくりもの"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "毕业",
+      "japanese": "卒業",
+      "kana": "そつぎょう",
+      "romaji": "sotsugyou",
+      "tokens": [
+        {
+          "text": "卒業",
+          "kana": "そつぎょう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "重要；珍惜，保重；大事，重大问题",
+      "japanese": "大事",
+      "kana": "だいじ",
+      "romaji": "daiji",
+      "tokens": [
+        {
+          "text": "大事",
+          "kana": "だいじ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "概要；大致；本来",
+      "japanese": "大体",
+      "kana": "だいたい",
+      "romaji": "daitai",
+      "tokens": [
+        {
+          "text": "大体",
+          "kana": "だいたい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "价格",
+      "japanese": "値段",
+      "kana": "ねだん",
+      "romaji": "nedan",
+      "tokens": [
+        {
+          "text": "値段",
+          "kana": "ねだん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "通知，告示",
+      "japanese": "知らせ",
+      "kana": "しらせ",
+      "romaji": "shirase",
+      "tokens": [
+        {
+          "text": "知らせ",
+          "kana": "しらせ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "大地，土地；场所",
+      "japanese": "地",
+      "kana": "ち",
+      "romaji": "chi",
+      "tokens": [
+        {
+          "text": "地",
+          "kana": "ち"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "和服",
+      "japanese": "着物",
+      "kana": "きもの",
+      "romaji": "kimono",
+      "tokens": [
+        {
+          "text": "着物",
+          "kana": "きもの"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "中心；重要之处",
+      "japanese": "中心",
+      "kana": "ちゅうしん",
+      "romaji": "chuushin",
+      "tokens": [
+        {
+          "text": "中心",
+          "kana": "ちゅうしん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "注意，留神；提醒，警告",
+      "japanese": "注意",
+      "kana": "ちゅうい",
+      "romaji": "chuui",
+      "tokens": [
+        {
+          "text": "注意",
+          "kana": "ちゅうい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "虫子",
+      "japanese": "虫",
+      "kana": "むし",
+      "romaji": "mushi",
+      "tokens": [
+        {
+          "text": "虫",
+          "kana": "むし"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "长……，远……",
+      "japanese": "長",
+      "kana": "ちょう",
+      "romaji": "chou",
+      "tokens": [
+        {
+          "text": "長",
+          "kana": "ちょう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "大街，马路；来往；流通；一样，同样",
+      "japanese": "通り",
+      "kana": "とおり",
+      "romaji": "toori",
+      "tokens": [
+        {
+          "text": "通り",
+          "kana": "とおり"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "点；标点；分数；方面；……件",
+      "japanese": "点",
+      "kana": "てん",
+      "romaji": "ten",
+      "tokens": [
+        {
+          "text": "点",
+          "kana": "てん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "田，稻田",
+      "japanese": "田",
+      "kana": "た",
+      "romaji": "ta",
+      "tokens": [
+        {
+          "text": "田",
+          "kana": "た"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "途中；中途",
+      "japanese": "途中",
+      "kana": "とちゅう",
+      "romaji": "tochuu",
+      "tokens": [
+        {
+          "text": "途中",
+          "kana": "とちゅう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "方便（与否）；情况",
+      "japanese": "都合",
+      "kana": "つごう",
+      "romaji": "tsugou",
+      "tokens": [
+        {
+          "text": "都合",
+          "kana": "つごう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "特产，土特产",
+      "japanese": "土産",
+      "kana": "みやげ",
+      "romaji": "miyage",
+      "tokens": [
+        {
+          "text": "土産",
+          "kana": "みやげ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "岛，岛屿",
+      "japanese": "島",
+      "kana": "しま",
+      "romaji": "shima",
+      "tokens": [
+        {
+          "text": "島",
+          "kana": "しま"
+        }
+      ]
+    }
+  ]
+}

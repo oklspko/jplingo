@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-60",
+  "coursePackId": "jp-n1",
+  "title": "名词 60",
+  "order": 60,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "年长者，资格老的，前辈",
+      "japanese": "シニア",
+      "kana": "しにあ",
+      "romaji": "shinia",
+      "tokens": [
+        {
+          "text": "シニア",
+          "kana": "しにあ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "起头，开头，开始",
+      "japanese": "皮切り",
+      "kana": "かわきり",
+      "romaji": "kawakiri",
+      "tokens": [
+        {
+          "text": "皮切り",
+          "kana": "かわきり"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "尺子；长度，尺寸；标准，尺度",
+      "japanese": "尺度",
+      "kana": "しゃくど",
+      "romaji": "shakudo",
+      "tokens": [
+        {
+          "text": "尺度",
+          "kana": "しゃくど"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "陷阱；圈套",
+      "japanese": "罠[わな]",
+      "kana": "わな",
+      "romaji": "wana",
+      "tokens": [
+        {
+          "text": "罠[わな]",
+          "kana": "わな"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "自己",
+      "japanese": "我が身",
+      "kana": "わがみ",
+      "romaji": "wagami",
+      "tokens": [
+        {
+          "text": "我が身",
+          "kana": "わがみ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（报刊、电视、广播等）大众传媒",
+      "japanese": "マスメディア",
+      "kana": "ますめでぃあ",
+      "romaji": "masumedeia",
+      "tokens": [
+        {
+          "text": "マスメディア",
+          "kana": "ますめでぃあ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "声响，声音",
+      "japanese": "音響",
+      "kana": "おんきょう",
+      "romaji": "onkyou",
+      "tokens": [
+        {
+          "text": "音響",
+          "kana": "おんきょう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "比别人更加……",
+      "japanese": "人一倍",
+      "kana": "ひといちばい",
+      "romaji": "hitoichibai",
+      "tokens": [
+        {
+          "text": "人一倍",
+          "kana": "ひといちばい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "民间故事，民间传说",
+      "japanese": "民話",
+      "kana": "みんわ",
+      "romaji": "minwa",
+      "tokens": [
+        {
+          "text": "民話",
+          "kana": "みんわ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "正式文本，正本；本书，此书",
+      "japanese": "本書",
+      "kana": "ほんしょ",
+      "romaji": "honsho",
+      "tokens": [
+        {
+          "text": "本書",
+          "kana": "ほんしょ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "工具，特指机械加工用的刀具类",
+      "japanese": "工具",
+      "kana": "こうぐ",
+      "romaji": "kougu",
+      "tokens": [
+        {
+          "text": "工具",
+          "kana": "こうぐ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "排错（的字），误排",
+      "japanese": "誤植",
+      "kana": "ごしょく",
+      "romaji": "goshoku",
+      "tokens": [
+        {
+          "text": "誤植",
+          "kana": "ごしょく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "指针；方针，准则",
+      "japanese": "指針",
+      "kana": "ししん",
+      "romaji": "shishin",
+      "tokens": [
+        {
+          "text": "指針",
+          "kana": "ししん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（处理某事的）态度，方式",
+      "japanese": "出方",
+      "kana": "でかた",
+      "romaji": "dekata",
+      "tokens": [
+        {
+          "text": "出方",
+          "kana": "でかた"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "相反的极端",
+      "japanese": "対極",
+      "kana": "たいきょく",
+      "romaji": "taikyoku",
+      "tokens": [
+        {
+          "text": "対極",
+          "kana": "たいきょく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "水中，水里",
+      "japanese": "水中",
+      "kana": "すいちゅう",
+      "romaji": "suichuu",
+      "tokens": [
+        {
+          "text": "水中",
+          "kana": "すいちゅう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "助手，助理",
+      "japanese": "アシスタント",
+      "kana": "あしすたんと",
+      "romaji": "ashisutanto",
+      "tokens": [
+        {
+          "text": "アシスタント",
+          "kana": "あしすたんと"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "挑东西的人；旗手，核心人物",
+      "japanese": "担い手",
+      "kana": "にないて",
+      "romaji": "ninaite",
+      "tokens": [
+        {
+          "text": "担い手",
+          "kana": "にないて"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（事情的）经过，原委；经度和纬度",
+      "japanese": "経緯",
+      "kana": "けいい",
+      "romaji": "keii",
+      "tokens": [
+        {
+          "text": "経緯",
+          "kana": "けいい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "逝者；利欲熏心的人",
+      "japanese": "亡者",
+      "kana": "もうじゃ",
+      "romaji": "mouja",
+      "tokens": [
+        {
+          "text": "亡者",
+          "kana": "もうじゃ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "风趣，情趣；样子，情况；（接尾）……之类",
+      "japanese": "風情",
+      "kana": "ふぜい",
+      "romaji": "fuzei",
+      "tokens": [
+        {
+          "text": "風情",
+          "kana": "ふぜい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "杂志上，杂志的篇幅",
+      "japanese": "誌面",
+      "kana": "しめん",
+      "romaji": "shimen",
+      "tokens": [
+        {
+          "text": "誌面",
+          "kana": "しめん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "土器，陶器",
+      "japanese": "土器",
+      "kana": "どき",
+      "romaji": "doki",
+      "tokens": [
+        {
+          "text": "土器",
+          "kana": "どき"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "河滩",
+      "japanese": "河原",
+      "kana": "かわら",
+      "romaji": "kawara",
+      "tokens": [
+        {
+          "text": "河原",
+          "kana": "かわら"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "南半球",
+      "japanese": "南半球",
+      "kana": "みなみはんきゅう",
+      "romaji": "minamihankyuu",
+      "tokens": [
+        {
+          "text": "南半球",
+          "kana": "みなみはんきゅう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "店头，店面",
+      "japanese": "店先",
+      "kana": "みせさき",
+      "romaji": "misesaki",
+      "tokens": [
+        {
+          "text": "店先",
+          "kana": "みせさき"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "湿润；利益，补益；风趣，情趣",
+      "japanese": "潤い",
+      "kana": "うるおい",
+      "romaji": "uruoi",
+      "tokens": [
+        {
+          "text": "潤い",
+          "kana": "うるおい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "容易迷路的道路，迷宫",
+      "japanese": "迷路",
+      "kana": "めいろ",
+      "romaji": "meiro",
+      "tokens": [
+        {
+          "text": "迷路",
+          "kana": "めいろ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "首尾，始终；经过，结果",
+      "japanese": "首尾",
+      "kana": "しゅび",
+      "romaji": "shubi",
+      "tokens": [
+        {
+          "text": "首尾",
+          "kana": "しゅび"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "良书，好书",
+      "japanese": "良書",
+      "kana": "りょうしょ",
+      "romaji": "ryousho",
+      "tokens": [
+        {
+          "text": "良書",
+          "kana": "りょうしょ"
+        }
+      ]
+    }
+  ]
+}

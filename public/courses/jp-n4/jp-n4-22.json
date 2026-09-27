@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-22",
+  "coursePackId": "jp-n4",
+  "title": "动词 5",
+  "order": 22,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "亡故，去世",
+      "japanese": "亡くなる",
+      "kana": "なくなる",
+      "romaji": "nakunaru",
+      "tokens": [
+        {
+          "text": "亡くなる",
+          "kana": "なくなる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "睡着，睡觉；长眠；闲置",
+      "japanese": "眠る",
+      "kana": "ねむる",
+      "romaji": "nemuru",
+      "tokens": [
+        {
+          "text": "眠る",
+          "kana": "ねむる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "丢失；用完；消失",
+      "japanese": "無くなる",
+      "kana": "なくなる",
+      "romaji": "nakunaru",
+      "tokens": [
+        {
+          "text": "無くなる",
+          "kana": "なくなる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "迷，迷失；犹豫；迷恋",
+      "japanese": "迷う",
+      "kana": "まよう",
+      "romaji": "mayou",
+      "tokens": [
+        {
+          "text": "迷う",
+          "kana": "まよう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "回来，返回；恢复",
+      "japanese": "戻る",
+      "kana": "もどる",
+      "romaji": "modoru",
+      "tokens": [
+        {
+          "text": "戻る",
+          "kana": "もどる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "掉落；降低；不及格",
+      "japanese": "落ちる",
+      "kana": "おちる",
+      "romaji": "ochiru",
+      "tokens": [
+        {
+          "text": "落ちる",
+          "kana": "おちる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "使落下；遗失；弄掉",
+      "japanese": "落とす",
+      "kana": "おとす",
+      "romaji": "otosu",
+      "tokens": [
+        {
+          "text": "落とす",
+          "kana": "おとす"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "流，流动；传开；流逝",
+      "japanese": "流れる",
+      "kana": "ながれる",
+      "romaji": "nagareru",
+      "tokens": [
+        {
+          "text": "流れる",
+          "kana": "ながれる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "说；喋喋不休",
+      "japanese": "しゃべる",
+      "kana": "しゃべる",
+      "romaji": "shaberu",
+      "tokens": [
+        {
+          "text": "しゃべる",
+          "kana": "しゃべる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "开关",
+      "japanese": "スイッチ",
+      "kana": "すいっち",
+      "romaji": "suitchi",
+      "tokens": [
+        {
+          "text": "スイッチ",
+          "kana": "すいっち"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "握；掌握，抓住；捏（饭团、寿司等）",
+      "japanese": "握る",
+      "kana": "にぎる",
+      "romaji": "nigiru",
+      "tokens": [
+        {
+          "text": "握る",
+          "kana": "にぎる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "映；映像",
+      "japanese": "映る",
+      "kana": "うつる",
+      "romaji": "utsuru",
+      "tokens": [
+        {
+          "text": "映る",
+          "kana": "うつる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "取下，摘下，解开；偏离；除名",
+      "japanese": "外す",
+      "kana": "はずす",
+      "romaji": "hazusu",
+      "tokens": [
+        {
+          "text": "外す",
+          "kana": "はずす"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "靠近；途中经过；聚集",
+      "japanese": "寄る",
+      "kana": "よる",
+      "romaji": "yoru",
+      "tokens": [
+        {
+          "text": "寄る",
+          "kana": "よる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "注意到，发觉；清醒过来，苏醒过来",
+      "japanese": "気づく",
+      "kana": "きづく",
+      "romaji": "kizuku",
+      "tokens": [
+        {
+          "text": "気づく",
+          "kana": "きづく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "反复，重复",
+      "japanese": "繰り返す",
+      "kana": "くりかえす",
+      "romaji": "kurikaesu",
+      "tokens": [
+        {
+          "text": "繰り返す",
+          "kana": "くりかえす"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "合并；配合；核对",
+      "japanese": "合わせる",
+      "kana": "あわせる",
+      "romaji": "awaseru",
+      "tokens": [
+        {
+          "text": "合わせる",
+          "kana": "あわせる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "留下；遗留",
+      "japanese": "残す",
+      "kana": "のこす",
+      "romaji": "nokosu",
+      "tokens": [
+        {
+          "text": "残す",
+          "kana": "のこす"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "合适，般配",
+      "japanese": "似合う",
+      "kana": "にあう",
+      "romaji": "niau",
+      "tokens": [
+        {
+          "text": "似合う",
+          "kana": "にあう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "道歉，谢罪",
+      "japanese": "謝る",
+      "kana": "あやまる",
+      "romaji": "ayamaru",
+      "tokens": [
+        {
+          "text": "謝る",
+          "kana": "あやまる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "做完，完成",
+      "japanese": "終える",
+      "kana": "おえる",
+      "romaji": "oeru",
+      "tokens": [
+        {
+          "text": "終える",
+          "kana": "おえる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "碰触，接触",
+      "japanese": "触る",
+      "kana": "さわる",
+      "romaji": "sawaru",
+      "tokens": [
+        {
+          "text": "触る",
+          "kana": "さわる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "数，计算；列举",
+      "japanese": "数える",
+      "kana": "かぞえる",
+      "romaji": "kazoeru",
+      "tokens": [
+        {
+          "text": "数える",
+          "kana": "かぞえる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "战斗；比赛；竞争",
+      "japanese": "戦う",
+      "kana": "たたかう",
+      "romaji": "tatakau",
+      "tokens": [
+        {
+          "text": "戦う",
+          "kana": "たたかう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "联合，组织，组成；交叉；交叉搭成",
+      "japanese": "組む",
+      "kana": "くむ",
+      "romaji": "kumu",
+      "tokens": [
+        {
+          "text": "組む",
+          "kana": "くむ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "启动；移动；感动",
+      "japanese": "動かす",
+      "kana": "うごかす",
+      "romaji": "ugokasu",
+      "tokens": [
+        {
+          "text": "動かす",
+          "kana": "うごかす"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "收到；够得着",
+      "japanese": "届く",
+      "kana": "とどく",
+      "romaji": "todoku",
+      "tokens": [
+        {
+          "text": "届く",
+          "kana": "とどく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "合上；结束",
+      "japanese": "閉じる",
+      "kana": "とじる",
+      "romaji": "tojiru",
+      "tokens": [
+        {
+          "text": "閉じる",
+          "kana": "とじる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "邀请；引发",
+      "japanese": "誘う",
+      "kana": "さそう",
+      "romaji": "sasou",
+      "tokens": [
+        {
+          "text": "誘う",
+          "kana": "さそう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "使流走；冲走；传播",
+      "japanese": "流す",
+      "kana": "ながす",
+      "romaji": "nagasu",
+      "tokens": [
+        {
+          "text": "流す",
+          "kana": "ながす"
+        }
+      ]
+    }
+  ]
+}

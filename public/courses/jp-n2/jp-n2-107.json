@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-107",
+  "coursePackId": "jp-n2",
+  "title": "其他 1",
+  "order": 107,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（表示惊讶，女性用语）哎呀",
+      "japanese": "あら",
+      "kana": "あら",
+      "romaji": "ara",
+      "tokens": [
+        {
+          "text": "あら",
+          "kana": "あら"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "不难",
+      "japanese": "難くない",
+      "kana": "かたくない",
+      "romaji": "katakunai",
+      "tokens": [
+        {
+          "text": "難くない",
+          "kana": "かたくない"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "眨眼间，转眼间",
+      "japanese": "あっという間",
+      "kana": "あっというま",
+      "romaji": "attoiuma",
+      "tokens": [
+        {
+          "text": "あっという間",
+          "kana": "あっというま"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "（用于承上启下或转换话题）那么",
+      "japanese": "さて",
+      "kana": "さて",
+      "romaji": "sate",
+      "tokens": [
+        {
+          "text": "さて",
+          "kana": "さて"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "而且；但，却",
+      "japanese": "しかも",
+      "kana": "しかも",
+      "romaji": "shikamo",
+      "tokens": [
+        {
+          "text": "しかも",
+          "kana": "しかも"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "即，即是",
+      "japanese": "すなわち",
+      "kana": "すなわち",
+      "romaji": "sunawachi",
+      "tokens": [
+        {
+          "text": "すなわち",
+          "kana": "すなわち"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "了不起；（没什么）大不了",
+      "japanese": "たいした〜",
+      "kana": "たいした〜",
+      "romaji": "taishita~",
+      "tokens": [
+        {
+          "text": "たいした〜",
+          "kana": "たいした〜"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "但，但是",
+      "japanese": "ただし",
+      "kana": "ただし",
+      "romaji": "tadashi",
+      "tokens": [
+        {
+          "text": "ただし",
+          "kana": "ただし"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "轻飘飘；软绵绵；心神不定",
+      "japanese": "ふわふわ",
+      "kana": "ふわふわ",
+      "romaji": "fuwafuwa",
+      "tokens": [
+        {
+          "text": "ふわふわ",
+          "kana": "ふわふわ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "少许，一点点，仅仅",
+      "japanese": "ほんの",
+      "kana": "ほんの",
+      "romaji": "honno",
+      "tokens": [
+        {
+          "text": "ほんの",
+          "kana": "ほんの"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "容易……，往往……",
+      "japanese": "〜がち",
+      "kana": "〜がち",
+      "romaji": "~gachi",
+      "tokens": [
+        {
+          "text": "〜がち",
+          "kana": "〜がち"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "将心情或模样表现出来",
+      "japanese": "〜がる",
+      "kana": "〜がる",
+      "romaji": "~garu",
+      "tokens": [
+        {
+          "text": "〜がる",
+          "kana": "〜がる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "有某种倾向；处于某种状态",
+      "japanese": "〜ぽい",
+      "kana": "〜ぽい",
+      "romaji": "~poi",
+      "tokens": [
+        {
+          "text": "〜ぽい",
+          "kana": "〜ぽい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "……的（样子、状态、程度）",
+      "japanese": "〜み",
+      "kana": "〜み",
+      "romaji": "~mi",
+      "tokens": [
+        {
+          "text": "〜み",
+          "kana": "〜み"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（计算鸟或兔子的量词）……只",
+      "japanese": "〜羽",
+      "kana": "〜羽",
+      "romaji": "~羽",
+      "tokens": [
+        {
+          "text": "〜羽",
+          "kana": "〜羽"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "带有……；……样子；隶属……",
+      "japanese": "〜付き",
+      "kana": "〜付き",
+      "romaji": "~付ki",
+      "tokens": [
+        {
+          "text": "〜付き",
+          "kana": "〜付き"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "毫无办法",
+      "japanese": "仕様がない",
+      "kana": "しようがない",
+      "romaji": "shiyouganai",
+      "tokens": [
+        {
+          "text": "仕様がない",
+          "kana": "しようがない"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（催促对方往下说）那么",
+      "japanese": "で",
+      "kana": "で",
+      "romaji": "de",
+      "tokens": [
+        {
+          "text": "で",
+          "kana": "で"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "到哪里都；始终，坚决",
+      "japanese": "どこまでも",
+      "kana": "どこまでも",
+      "romaji": "dokomademo",
+      "tokens": [
+        {
+          "text": "どこまでも",
+          "kana": "どこまでも"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "锃亮，闪闪放光",
+      "japanese": "ぴかぴか",
+      "kana": "ぴかぴか",
+      "romaji": "pikapika",
+      "tokens": [
+        {
+          "text": "ぴかぴか",
+          "kana": "ぴかぴか"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "黏糊糊；厚厚地涂，粘满；男女之间撒娇缠绵的样子",
+      "japanese": "べたべた",
+      "kana": "べたべた",
+      "romaji": "betabeta",
+      "tokens": [
+        {
+          "text": "べたべた",
+          "kana": "べたべた"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "暖乎乎，热乎乎",
+      "japanese": "ほかほか",
+      "kana": "ほかほか",
+      "romaji": "hokahoka",
+      "tokens": [
+        {
+          "text": "ほかほか",
+          "kana": "ほかほか"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "被吸引，被迷住",
+      "japanese": "引かれる",
+      "kana": "ひかれる",
+      "romaji": "hikareru",
+      "tokens": [
+        {
+          "text": "引かれる",
+          "kana": "ひかれる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "我的……，我们的……",
+      "japanese": "我が",
+      "kana": "わが",
+      "romaji": "waga",
+      "tokens": [
+        {
+          "text": "我が",
+          "kana": "わが"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "高……",
+      "japanese": "高",
+      "kana": "こう",
+      "romaji": "kou",
+      "tokens": [
+        {
+          "text": "高",
+          "kana": "こう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "什么都，全部",
+      "japanese": "なにもかも",
+      "kana": "なにもかも",
+      "romaji": "nanimokamo",
+      "tokens": [
+        {
+          "text": "なにもかも",
+          "kana": "なにもかも"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "那么说来，说起来",
+      "japanese": "そう言えば",
+      "kana": "そういえば",
+      "romaji": "souieba",
+      "tokens": [
+        {
+          "text": "そう言えば",
+          "kana": "そういえば"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "无聊的，没用的",
+      "japanese": "くだらない",
+      "kana": "くだらない",
+      "romaji": "kudaranai",
+      "tokens": [
+        {
+          "text": "くだらない",
+          "kana": "くだらない"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "意外的，意想不到的",
+      "japanese": "思いがけない",
+      "kana": "おもいがけない",
+      "romaji": "omoigakenai",
+      "tokens": [
+        {
+          "text": "思いがけない",
+          "kana": "おもいがけない"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "所谓的",
+      "japanese": "いわゆる",
+      "kana": "いわゆる",
+      "romaji": "iwayuru",
+      "tokens": [
+        {
+          "text": "いわゆる",
+          "kana": "いわゆる"
+        }
+      ]
+    }
+  ]
+}

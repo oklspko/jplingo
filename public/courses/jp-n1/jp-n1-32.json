@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-32",
+  "coursePackId": "jp-n1",
+  "title": "名词 32",
+  "order": 32,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "全盛，鼎盛",
+      "japanese": "全盛",
+      "kana": "ぜんせい",
+      "romaji": "zensei",
+      "tokens": [
+        {
+          "text": "全盛",
+          "kana": "ぜんせい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "朴素；单纯",
+      "japanese": "素朴",
+      "kana": "そぼく",
+      "romaji": "soboku",
+      "tokens": [
+        {
+          "text": "素朴",
+          "kana": "そぼく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "诉讼",
+      "japanese": "訴訟",
+      "kana": "そしょう",
+      "romaji": "soshou",
+      "tokens": [
+        {
+          "text": "訴訟",
+          "kana": "そしょう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "丧失",
+      "japanese": "喪失",
+      "kana": "そうしつ",
+      "romaji": "soushitsu",
+      "tokens": [
+        {
+          "text": "喪失",
+          "kana": "そうしつ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "搜查",
+      "japanese": "捜査",
+      "kana": "そうさ",
+      "romaji": "sousa",
+      "tokens": [
+        {
+          "text": "捜査",
+          "kana": "そうさ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "行情，市价",
+      "japanese": "相場",
+      "kana": "そうば",
+      "romaji": "souba",
+      "tokens": [
+        {
+          "text": "相場",
+          "kana": "そうば"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "装备，配备",
+      "japanese": "装備",
+      "kana": "そうび",
+      "romaji": "soubi",
+      "tokens": [
+        {
+          "text": "装備",
+          "kana": "そうび"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "促进",
+      "japanese": "促進",
+      "kana": "そくしん",
+      "romaji": "sokushin",
+      "tokens": [
+        {
+          "text": "促進",
+          "kana": "そくしん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "存续，延续",
+      "japanese": "存続",
+      "kana": "そんぞく",
+      "romaji": "sonzoku",
+      "tokens": [
+        {
+          "text": "存続",
+          "kana": "そんぞく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "其他方面，另一方；虽然如此，但是从另一方面来看的话",
+      "japanese": "他方",
+      "kana": "たほう",
+      "romaji": "tahou",
+      "tokens": [
+        {
+          "text": "他方",
+          "kana": "たほう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "唾液，口水",
+      "japanese": "唾",
+      "kana": "つば",
+      "romaji": "tsuba",
+      "tokens": [
+        {
+          "text": "唾",
+          "kana": "つば"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "妥协",
+      "japanese": "妥協",
+      "kana": "だきょう",
+      "romaji": "dakyou",
+      "tokens": [
+        {
+          "text": "妥協",
+          "kana": "だきょう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "打开，打破",
+      "japanese": "打開",
+      "kana": "だかい",
+      "romaji": "dakai",
+      "tokens": [
+        {
+          "text": "打開",
+          "kana": "だかい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "打击；击打",
+      "japanese": "打撃",
+      "kana": "だげき",
+      "romaji": "dageki",
+      "tokens": [
+        {
+          "text": "打撃",
+          "kana": "だげき"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "对谈",
+      "japanese": "対談",
+      "kana": "たいだん",
+      "romaji": "taidan",
+      "tokens": [
+        {
+          "text": "対談",
+          "kana": "たいだん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "滞纳，拖欠",
+      "japanese": "滞納",
+      "kana": "たいのう",
+      "romaji": "tainou",
+      "tokens": [
+        {
+          "text": "滞納",
+          "kana": "たいのう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "大部分，大致；大概，概要；适度，适可而止；大致上",
+      "japanese": "大概",
+      "kana": "たいがい",
+      "romaji": "taigai",
+      "tokens": [
+        {
+          "text": "大概",
+          "kana": "たいがい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "梗概，主要内容",
+      "japanese": "大筋",
+      "kana": "おおすじ",
+      "romaji": "oosuji",
+      "tokens": [
+        {
+          "text": "大筋",
+          "kana": "おおすじ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "巨款，巨额的钱",
+      "japanese": "大金",
+      "kana": "たいきん",
+      "romaji": "taikin",
+      "tokens": [
+        {
+          "text": "大金",
+          "kana": "たいきん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "大部分；一般人；大致；大概，或许",
+      "japanese": "大方",
+      "kana": "おおかた",
+      "romaji": "ookata",
+      "tokens": [
+        {
+          "text": "大方",
+          "kana": "おおかた"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "脱离，退出",
+      "japanese": "脱退",
+      "kana": "だったい",
+      "romaji": "dattai",
+      "tokens": [
+        {
+          "text": "脱退",
+          "kana": "だったい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "单一",
+      "japanese": "単一",
+      "kana": "たんいつ",
+      "romaji": "tan'itsu",
+      "tokens": [
+        {
+          "text": "単一",
+          "kana": "たんいつ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "探险",
+      "japanese": "探検",
+      "kana": "たんけん",
+      "romaji": "tanken",
+      "tokens": [
+        {
+          "text": "探検",
+          "kana": "たんけん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "弹力，弹性",
+      "japanese": "弾力",
+      "kana": "だんりょく",
+      "romaji": "danryoku",
+      "tokens": [
+        {
+          "text": "弾力",
+          "kana": "だんりょく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "断言，断定",
+      "japanese": "断言",
+      "kana": "だんげん",
+      "romaji": "dangen",
+      "tokens": [
+        {
+          "text": "断言",
+          "kana": "だんげん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "估价，评价；价值",
+      "japanese": "値打ち",
+      "kana": "ねうち",
+      "romaji": "neuchi",
+      "tokens": [
+        {
+          "text": "値打ち",
+          "kana": "ねうち"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "畜产",
+      "japanese": "畜産",
+      "kana": "ちくさん",
+      "romaji": "chikusan",
+      "tokens": [
+        {
+          "text": "畜産",
+          "kana": "ちくさん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "着手，开始",
+      "japanese": "着手",
+      "kana": "ちゃくしゅ",
+      "romaji": "chakushu",
+      "tokens": [
+        {
+          "text": "着手",
+          "kana": "ちゃくしゅ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "着眼，注目",
+      "japanese": "着目",
+      "kana": "ちゃくもく",
+      "romaji": "chakumoku",
+      "tokens": [
+        {
+          "text": "着目",
+          "kana": "ちゃくもく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "中伤，诽谤",
+      "japanese": "中傷",
+      "kana": "ちゅうしょう",
+      "romaji": "chuushou",
+      "tokens": [
+        {
+          "text": "中傷",
+          "kana": "ちゅうしょう"
+        }
+      ]
+    }
+  ]
+}

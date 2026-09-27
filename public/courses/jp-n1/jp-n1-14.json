@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-14",
+  "coursePackId": "jp-n1",
+  "title": "名词 14",
+  "order": 14,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "文艺；学问和技艺",
+      "japanese": "文芸",
+      "kana": "ぶんげい",
+      "romaji": "bungei",
+      "tokens": [
+        {
+          "text": "文芸",
+          "kana": "ぶんげい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "文脉，语境",
+      "japanese": "文脈",
+      "kana": "ぶんみゃく",
+      "romaji": "bunmyaku",
+      "tokens": [
+        {
+          "text": "文脈",
+          "kana": "ぶんみゃく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "文明",
+      "japanese": "文明",
+      "kana": "ぶんめい",
+      "romaji": "bunmei",
+      "tokens": [
+        {
+          "text": "文明",
+          "kana": "ぶんめい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "宝石",
+      "japanese": "宝石",
+      "kana": "ほうせき",
+      "romaji": "houseki",
+      "tokens": [
+        {
+          "text": "宝石",
+          "kana": "ほうせき"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "男孩；不懂世故的年轻人",
+      "japanese": "坊や",
+      "kana": "ぼうや",
+      "romaji": "bouya",
+      "tokens": [
+        {
+          "text": "坊や",
+          "kana": "ぼうや"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "望远镜",
+      "japanese": "望遠鏡",
+      "kana": "ぼうえんきょう",
+      "romaji": "bouenkyou",
+      "tokens": [
+        {
+          "text": "望遠鏡",
+          "kana": "ぼうえんきょう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "冒险",
+      "japanese": "冒険",
+      "kana": "ぼうけん",
+      "romaji": "bouken",
+      "tokens": [
+        {
+          "text": "冒険",
+          "kana": "ぼうけん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "畜牧",
+      "japanese": "牧畜",
+      "kana": "ぼくちく",
+      "romaji": "bokuchiku",
+      "tokens": [
+        {
+          "text": "牧畜",
+          "kana": "ぼくちく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "盆，托盘；（お盆）盂兰盆节",
+      "japanese": "盆",
+      "kana": "ぼん",
+      "romaji": "bon",
+      "tokens": [
+        {
+          "text": "盆",
+          "kana": "ぼん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "大致的目标，标准",
+      "japanese": "目安",
+      "kana": "めやす",
+      "romaji": "meyasu",
+      "tokens": [
+        {
+          "text": "目安",
+          "kana": "めやす"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "目录",
+      "japanese": "目次",
+      "kana": "もくじ",
+      "romaji": "mokuji",
+      "tokens": [
+        {
+          "text": "目次",
+          "kana": "もくじ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "箭头符号",
+      "japanese": "矢印",
+      "kana": "やじるし",
+      "romaji": "yajirushi",
+      "tokens": [
+        {
+          "text": "矢印",
+          "kana": "やじるし"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "演员；（深谙世故、善于交涉等有手腕的）人才",
+      "japanese": "役者",
+      "kana": "やくしゃ",
+      "romaji": "yakusha",
+      "tokens": [
+        {
+          "text": "役者",
+          "kana": "やくしゃ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "有才能",
+      "japanese": "有能",
+      "kana": "ゆうのう",
+      "romaji": "yuunou",
+      "tokens": [
+        {
+          "text": "有能",
+          "kana": "ゆうのう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "剩余；多余",
+      "japanese": "余分",
+      "kana": "よぶん",
+      "romaji": "yobun",
+      "tokens": [
+        {
+          "text": "余分",
+          "kana": "よぶん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "后门；走后门",
+      "japanese": "裏口",
+      "kana": "うらぐち",
+      "romaji": "uraguchi",
+      "tokens": [
+        {
+          "text": "裏口",
+          "kana": "うらぐち"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "陆地，旱地",
+      "japanese": "陸",
+      "kana": "りく",
+      "romaji": "riku",
+      "tokens": [
+        {
+          "text": "陸",
+          "kana": "りく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "联想",
+      "japanese": "連想",
+      "kana": "れんそう",
+      "romaji": "rensou",
+      "tokens": [
+        {
+          "text": "連想",
+          "kana": "れんそう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "老，衰老；老年人",
+      "japanese": "老い",
+      "kana": "おい",
+      "romaji": "oi",
+      "tokens": [
+        {
+          "text": "老い",
+          "kana": "おい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "晚年，老年",
+      "japanese": "老後",
+      "kana": "ろうご",
+      "romaji": "rougo",
+      "tokens": [
+        {
+          "text": "老後",
+          "kana": "ろうご"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "触感，感觉",
+      "japanese": "触り",
+      "kana": "さわり",
+      "romaji": "sawari",
+      "tokens": [
+        {
+          "text": "触り",
+          "kana": "さわり"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "……厅，……署",
+      "japanese": "庁",
+      "kana": "ちょう",
+      "romaji": "chou",
+      "tokens": [
+        {
+          "text": "庁",
+          "kana": "ちょう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "说谎，说谎的人",
+      "japanese": "嘘[うそ]つき",
+      "kana": "うそつき",
+      "romaji": "usotsuki",
+      "tokens": [
+        {
+          "text": "嘘[うそ]つき",
+          "kana": "うそつき"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "狼；表面和善实际凶恶的人",
+      "japanese": "おおかみ",
+      "kana": "おおかみ",
+      "romaji": "ookami",
+      "tokens": [
+        {
+          "text": "おおかみ",
+          "kana": "おおかみ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "拍卖",
+      "japanese": "オークション",
+      "kana": "おうくしょん",
+      "romaji": "oukushon",
+      "tokens": [
+        {
+          "text": "オークション",
+          "kana": "おうくしょん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "减价；赠品；另外附加（的东西）",
+      "japanese": "おまけ",
+      "kana": "おまけ",
+      "romaji": "omake",
+      "tokens": [
+        {
+          "text": "おまけ",
+          "kana": "おまけ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "汽车自动导航仪",
+      "japanese": "カーナビ",
+      "kana": "かあなび",
+      "romaji": "kaanabi",
+      "tokens": [
+        {
+          "text": "カーナビ",
+          "kana": "かあなび"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "纽带，羁绊",
+      "japanese": "絆[きずな]",
+      "kana": "きずな",
+      "romaji": "kizuna",
+      "tokens": [
+        {
+          "text": "絆[きずな]",
+          "kana": "きずな"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "嗜好，爱好",
+      "japanese": "嗜[し]好",
+      "kana": "しこう",
+      "romaji": "shikou",
+      "tokens": [
+        {
+          "text": "嗜[し]好",
+          "kana": "しこう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "麻雀",
+      "japanese": "雀[すずめ]",
+      "kana": "すずめ",
+      "romaji": "suzume",
+      "tokens": [
+        {
+          "text": "雀[すずめ]",
+          "kana": "すずめ"
+        }
+      ]
+    }
+  ]
+}

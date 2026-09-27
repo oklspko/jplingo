@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-74",
+  "coursePackId": "jp-n2",
+  "title": "动词 3",
+  "order": 74,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "支撑；维持",
+      "japanese": "支える",
+      "kana": "ささえる",
+      "romaji": "sasaeru",
+      "tokens": [
+        {
+          "text": "支える",
+          "kana": "ささえる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "失去；错过；迷失",
+      "japanese": "失う",
+      "kana": "うしなう",
+      "romaji": "ushinau",
+      "tokens": [
+        {
+          "text": "失う",
+          "kana": "うしなう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "就，就职，上任",
+      "japanese": "就く",
+      "kana": "つく",
+      "romaji": "tsuku",
+      "tokens": [
+        {
+          "text": "就く",
+          "kana": "つく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "让（某人）就任职位",
+      "japanese": "就ける",
+      "kana": "つける",
+      "romaji": "tsukeru",
+      "tokens": [
+        {
+          "text": "就ける",
+          "kana": "つける"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "祝贺，庆贺",
+      "japanese": "祝う",
+      "kana": "いわう",
+      "romaji": "iwau",
+      "tokens": [
+        {
+          "text": "祝う",
+          "kana": "いわう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "（长度、面积、体积、时间、间隔等）缩短，缩小；（因为恐怖、紧张等）畏缩",
+      "japanese": "縮む",
+      "kana": "ちぢむ",
+      "romaji": "chijimu",
+      "tokens": [
+        {
+          "text": "縮む",
+          "kana": "ちぢむ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "缩短，缩小；蜷曲",
+      "japanese": "縮める",
+      "kana": "ちぢめる",
+      "romaji": "chijimeru",
+      "tokens": [
+        {
+          "text": "縮める",
+          "kana": "ちぢめる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "完成，做完，做好",
+      "japanese": "出来上がる",
+      "kana": "できあがる",
+      "romaji": "dekiagaru",
+      "tokens": [
+        {
+          "text": "出来上がる",
+          "kana": "できあがる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "叙述，陈述，说明",
+      "japanese": "述べる",
+      "kana": "のべる",
+      "romaji": "noberu",
+      "tokens": [
+        {
+          "text": "述べる",
+          "kana": "のべる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "得救；负担减轻",
+      "japanese": "助かる",
+      "kana": "たすかる",
+      "romaji": "tasukaru",
+      "tokens": [
+        {
+          "text": "助かる",
+          "kana": "たすかる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "省略；节省",
+      "japanese": "省く",
+      "kana": "はぶく",
+      "romaji": "habuku",
+      "tokens": [
+        {
+          "text": "省く",
+          "kana": "はぶく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "转让；谦让；出让",
+      "japanese": "譲る",
+      "kana": "ゆずる",
+      "romaji": "yuzuru",
+      "tokens": [
+        {
+          "text": "譲る",
+          "kana": "ゆずる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "（男性用语）吃；生活；（くう）花费",
+      "japanese": "食う",
+      "kana": "くう",
+      "romaji": "kuu",
+      "tokens": [
+        {
+          "text": "食う",
+          "kana": "くう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "行动，动作；招待",
+      "japanese": "振る舞う",
+      "kana": "ふるまう",
+      "romaji": "furumau",
+      "tokens": [
+        {
+          "text": "振る舞う",
+          "kana": "ふるまう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "（事物的程度）加深，变深",
+      "japanese": "深まる",
+      "kana": "ふかまる",
+      "romaji": "fukamaru",
+      "tokens": [
+        {
+          "text": "深まる",
+          "kana": "ふかまる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "效仿，模仿",
+      "japanese": "真似る",
+      "kana": "まねる",
+      "romaji": "maneru",
+      "tokens": [
+        {
+          "text": "真似る",
+          "kana": "まねる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "震动；发抖",
+      "japanese": "震える",
+      "kana": "ふるえる",
+      "romaji": "furueru",
+      "tokens": [
+        {
+          "text": "震える",
+          "kana": "ふるえる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "长；发生，产生",
+      "japanese": "生じる",
+      "kana": "しょうじる",
+      "romaji": "shoujiru",
+      "tokens": [
+        {
+          "text": "生じる",
+          "kana": "しょうじる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "装载；堆积；积累",
+      "japanese": "積む",
+      "kana": "つむ",
+      "romaji": "tsumu",
+      "tokens": [
+        {
+          "text": "積む",
+          "kana": "つむ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "堆积；累积；估算",
+      "japanese": "積もる",
+      "kana": "つもる",
+      "romaji": "tsumoru",
+      "tokens": [
+        {
+          "text": "積もる",
+          "kana": "つもる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "设备，配备",
+      "japanese": "設備",
+      "kana": "せつび",
+      "romaji": "setsubi",
+      "tokens": [
+        {
+          "text": "設備",
+          "kana": "せつび"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "尖；紧张；不高兴，发火",
+      "japanese": "尖[とが]る",
+      "kana": "とがる",
+      "romaji": "togaru",
+      "tokens": [
+        {
+          "text": "尖[とが]る",
+          "kana": "とがる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "争夺；争论",
+      "japanese": "争う",
+      "kana": "あらそう",
+      "romaji": "arasou",
+      "tokens": [
+        {
+          "text": "争う",
+          "kana": "あらそう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "弄碎，弄坏；败坏；消磨",
+      "japanese": "潰す",
+      "kana": "つぶす",
+      "romaji": "tsubusu",
+      "tokens": [
+        {
+          "text": "潰す",
+          "kana": "つぶす"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "截至，结束",
+      "japanese": "締め切る",
+      "kana": "しめきる",
+      "romaji": "shimekiru",
+      "tokens": [
+        {
+          "text": "締め切る",
+          "kana": "しめきる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "背；担负",
+      "japanese": "背負う",
+      "kana": "せおう",
+      "romaji": "seou",
+      "tokens": [
+        {
+          "text": "背負う",
+          "kana": "せおう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "拔出；放掉，排除；省略；超过",
+      "japanese": "抜く",
+      "kana": "ぬく",
+      "romaji": "nuku",
+      "tokens": [
+        {
+          "text": "抜く",
+          "kana": "ぬく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "伴随；带领，携同",
+      "japanese": "伴う",
+      "kana": "ともなう",
+      "romaji": "tomonau",
+      "tokens": [
+        {
+          "text": "伴う",
+          "kana": "ともなう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "跳入；突然闯入；参加，投入",
+      "japanese": "飛び込む",
+      "kana": "とびこむ",
+      "romaji": "tobikomu",
+      "tokens": [
+        {
+          "text": "飛び込む",
+          "kana": "とびこむ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "表现，显出",
+      "japanese": "表れる",
+      "kana": "あらわれる",
+      "romaji": "arawareru",
+      "tokens": [
+        {
+          "text": "表れる",
+          "kana": "あらわれる"
+        }
+      ]
+    }
+  ]
+}

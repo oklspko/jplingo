@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-20",
+  "coursePackId": "jp-n2",
+  "title": "名词 20",
+  "order": 20,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "半天",
+      "japanese": "半日",
+      "kana": "はんにち",
+      "romaji": "hannichi",
+      "tokens": [
+        {
+          "text": "半日",
+          "kana": "はんにち"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "门；扉页",
+      "japanese": "扉",
+      "kana": "とびら",
+      "romaji": "tobira",
+      "tokens": [
+        {
+          "text": "扉",
+          "kana": "とびら"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "评论",
+      "japanese": "批評",
+      "kana": "ひひょう",
+      "romaji": "hihyou",
+      "tokens": [
+        {
+          "text": "批評",
+          "kana": "ひひょう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "鼻涕",
+      "japanese": "鼻水",
+      "kana": "はなみず",
+      "romaji": "hanamizu",
+      "tokens": [
+        {
+          "text": "鼻水",
+          "kana": "はなみず"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "物品的品质，质量",
+      "japanese": "品質",
+      "kana": "ひんしつ",
+      "romaji": "hinshitsu",
+      "tokens": [
+        {
+          "text": "品質",
+          "kana": "ひんしつ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "不稳定",
+      "japanese": "不安定",
+      "kana": "ふあんてい",
+      "romaji": "fuantei",
+      "tokens": [
+        {
+          "text": "不安定",
+          "kana": "ふあんてい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "不可能",
+      "japanese": "不可能",
+      "kana": "ふかのう",
+      "romaji": "fukanou",
+      "tokens": [
+        {
+          "text": "不可能",
+          "kana": "ふかのう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "不公平",
+      "japanese": "不公平",
+      "kana": "ふこうへい",
+      "romaji": "fukouhei",
+      "tokens": [
+        {
+          "text": "不公平",
+          "kana": "ふこうへい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "不充足，不完全",
+      "japanese": "不十分",
+      "kana": "ふじゅうぶん",
+      "romaji": "fujuubun",
+      "tokens": [
+        {
+          "text": "不十分",
+          "kana": "ふじゅうぶん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "不愉快，不痛快",
+      "japanese": "不愉快",
+      "kana": "ふゆかい",
+      "romaji": "fuyukai",
+      "tokens": [
+        {
+          "text": "不愉快",
+          "kana": "ふゆかい"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "部下，下属",
+      "japanese": "部下",
+      "kana": "ぶか",
+      "romaji": "buka",
+      "tokens": [
+        {
+          "text": "部下",
+          "kana": "ぶか"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "物理",
+      "japanese": "物理",
+      "kana": "ぶつり",
+      "romaji": "butsuri",
+      "tokens": [
+        {
+          "text": "物理",
+          "kana": "ぶつり"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "分担，分工",
+      "japanese": "分担",
+      "kana": "ぶんたん",
+      "romaji": "buntan",
+      "tokens": [
+        {
+          "text": "分担",
+          "kana": "ぶんたん"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "（根据种类）分类，区别",
+      "japanese": "分別",
+      "kana": "ぶんべつ",
+      "romaji": "bunbetsu",
+      "tokens": [
+        {
+          "text": "分別",
+          "kana": "ぶんべつ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "听者，听众；善于倾听的人",
+      "japanese": "聞き手",
+      "kana": "ききて",
+      "romaji": "kikite",
+      "tokens": [
+        {
+          "text": "聞き手",
+          "kana": "ききて"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "（对自己公司的谦称）敝公司",
+      "japanese": "弊社",
+      "kana": "へいしゃ",
+      "romaji": "heisha",
+      "tokens": [
+        {
+          "text": "弊社",
+          "kana": "へいしゃ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "别墅",
+      "japanese": "別荘",
+      "kana": "べっそう",
+      "romaji": "bessou",
+      "tokens": [
+        {
+          "text": "別荘",
+          "kana": "べっそう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "改变，变换",
+      "japanese": "変換",
+      "kana": "へんかん",
+      "romaji": "henkan",
+      "tokens": [
+        {
+          "text": "変換",
+          "kana": "へんかん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "保证，担保",
+      "japanese": "保証",
+      "kana": "ほしょう",
+      "romaji": "hoshou",
+      "tokens": [
+        {
+          "text": "保証",
+          "kana": "ほしょう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "包装",
+      "japanese": "包装",
+      "kana": "ほうそう",
+      "romaji": "housou",
+      "tokens": [
+        {
+          "text": "包装",
+          "kana": "ほうそう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "宝贝，宝物",
+      "japanese": "宝",
+      "kana": "たから",
+      "romaji": "takara",
+      "tokens": [
+        {
+          "text": "宝",
+          "kana": "たから"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "各位，诸位",
+      "japanese": "方々",
+      "kana": "かたがた",
+      "romaji": "katagata",
+      "tokens": [
+        {
+          "text": "方々",
+          "kana": "かたがた"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "总公司",
+      "japanese": "本社",
+      "kana": "ほんしゃ",
+      "romaji": "honsha",
+      "tokens": [
+        {
+          "text": "本社",
+          "kana": "ほんしゃ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "民族",
+      "japanese": "民族",
+      "kana": "みんぞく",
+      "romaji": "minzoku",
+      "tokens": [
+        {
+          "text": "民族",
+          "kana": "みんぞく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "睡意，困倦",
+      "japanese": "眠気",
+      "kana": "ねむけ",
+      "romaji": "nemuke",
+      "tokens": [
+        {
+          "text": "眠気",
+          "kana": "ねむけ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "没有责任；无责任感，不负责任",
+      "japanese": "無責任",
+      "kana": "むせきにん",
+      "romaji": "musekinin",
+      "tokens": [
+        {
+          "text": "無責任",
+          "kana": "むせきにん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（虫、鸟、兽等的）叫声，鸣叫声",
+      "japanese": "鳴き声",
+      "kana": "なきごえ",
+      "romaji": "nakigoe",
+      "tokens": [
+        {
+          "text": "鳴き声",
+          "kana": "なきごえ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "木材",
+      "japanese": "木材",
+      "kana": "もくざい",
+      "romaji": "mokuzai",
+      "tokens": [
+        {
+          "text": "木材",
+          "kana": "もくざい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "木造，木结构",
+      "japanese": "木造",
+      "kana": "もくぞう",
+      "romaji": "mokuzou",
+      "tokens": [
+        {
+          "text": "木造",
+          "kana": "もくぞう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "地位、阶级或年龄比自己高的人",
+      "japanese": "目上",
+      "kana": "めうえ",
+      "romaji": "meue",
+      "tokens": [
+        {
+          "text": "目上",
+          "kana": "めうえ"
+        }
+      ]
+    }
+  ]
+}

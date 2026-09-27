@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-57",
+  "coursePackId": "jp-n1",
+  "title": "名词 57",
+  "order": 57,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "制冰",
+      "japanese": "製氷",
+      "kana": "せいひょう",
+      "romaji": "seihyou",
+      "tokens": [
+        {
+          "text": "製氷",
+          "kana": "せいひょう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "冷却；冷静",
+      "japanese": "冷却",
+      "kana": "れいきゃく",
+      "romaji": "reikyaku",
+      "tokens": [
+        {
+          "text": "冷却",
+          "kana": "れいきゃく"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "联锁，联动，传动",
+      "japanese": "連動",
+      "kana": "れんどう",
+      "romaji": "rendou",
+      "tokens": [
+        {
+          "text": "連動",
+          "kana": "れんどう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "消账，清账；一笔勾销，互相抵消",
+      "japanese": "帳消し",
+      "kana": "ちょうけし",
+      "romaji": "choukeshi",
+      "tokens": [
+        {
+          "text": "帳消し",
+          "kana": "ちょうけし"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "君临，统治；（在某个领域）称霸",
+      "japanese": "君臨",
+      "kana": "くんりん",
+      "romaji": "kunrin",
+      "tokens": [
+        {
+          "text": "君臨",
+          "kana": "くんりん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "轻装",
+      "japanese": "軽装",
+      "kana": "けいそう",
+      "romaji": "keisou",
+      "tokens": [
+        {
+          "text": "軽装",
+          "kana": "けいそう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "自然灭亡，自取灭亡",
+      "japanese": "自滅",
+      "kana": "じめつ",
+      "romaji": "jimetsu",
+      "tokens": [
+        {
+          "text": "自滅",
+          "kana": "じめつ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "附着，粘着",
+      "japanese": "付着",
+      "kana": "ふちゃく",
+      "romaji": "fuchaku",
+      "tokens": [
+        {
+          "text": "付着",
+          "kana": "ふちゃく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "和好；和解，调解",
+      "japanese": "和解",
+      "kana": "わかい",
+      "romaji": "wakai",
+      "tokens": [
+        {
+          "text": "和解",
+          "kana": "わかい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "必须送到，一定送到",
+      "japanese": "必着",
+      "kana": "ひっちゃく",
+      "romaji": "hitchaku",
+      "tokens": [
+        {
+          "text": "必着",
+          "kana": "ひっちゃく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "挫折，受挫，气馁",
+      "japanese": "挫折",
+      "kana": "ざせつ",
+      "romaji": "zasetsu",
+      "tokens": [
+        {
+          "text": "挫折",
+          "kana": "ざせつ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "白炽，灼热；最高潮，白热",
+      "japanese": "白熱",
+      "kana": "はくねつ",
+      "romaji": "hakunetsu",
+      "tokens": [
+        {
+          "text": "白熱",
+          "kana": "はくねつ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "苦笑",
+      "japanese": "苦笑い",
+      "kana": "にがわらい",
+      "romaji": "nigawarai",
+      "tokens": [
+        {
+          "text": "苦笑い",
+          "kana": "にがわらい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "接近；邻近",
+      "japanese": "近接",
+      "kana": "きんせつ",
+      "romaji": "kinsetsu",
+      "tokens": [
+        {
+          "text": "近接",
+          "kana": "きんせつ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "一仗，一战",
+      "japanese": "一戦",
+      "kana": "いっせん",
+      "romaji": "issen",
+      "tokens": [
+        {
+          "text": "一戦",
+          "kana": "いっせん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "归结，归宿，结果",
+      "japanese": "帰結",
+      "kana": "きけつ",
+      "romaji": "kiketsu",
+      "tokens": [
+        {
+          "text": "帰結",
+          "kana": "きけつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "当候选人，参加竞选",
+      "japanese": "立候補",
+      "kana": "りっこうほ",
+      "romaji": "rikkouho",
+      "tokens": [
+        {
+          "text": "立候補",
+          "kana": "りっこうほ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "绘图，画图，作图",
+      "japanese": "作図",
+      "kana": "さくず",
+      "romaji": "sakuzu",
+      "tokens": [
+        {
+          "text": "作図",
+          "kana": "さくず"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "肥大",
+      "japanese": "肥大",
+      "kana": "ひだい",
+      "romaji": "hidai",
+      "tokens": [
+        {
+          "text": "肥大",
+          "kana": "ひだい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "分散，分布，遍布",
+      "japanese": "散在",
+      "kana": "さんざい",
+      "romaji": "sanzai",
+      "tokens": [
+        {
+          "text": "散在",
+          "kana": "さんざい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "逃税，偷税，漏税",
+      "japanese": "脱税",
+      "kana": "だつぜい",
+      "romaji": "datsuzei",
+      "tokens": [
+        {
+          "text": "脱税",
+          "kana": "だつぜい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "迎合，逢迎，投其所好",
+      "japanese": "迎合",
+      "kana": "げいごう",
+      "romaji": "geigou",
+      "tokens": [
+        {
+          "text": "迎合",
+          "kana": "げいごう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "出发和到达",
+      "japanese": "発着",
+      "kana": "はっちゃく",
+      "romaji": "hatchaku",
+      "tokens": [
+        {
+          "text": "発着",
+          "kana": "はっちゃく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "访日，访问日本",
+      "japanese": "訪日",
+      "kana": "ほうにち",
+      "romaji": "hounichi",
+      "tokens": [
+        {
+          "text": "訪日",
+          "kana": "ほうにち"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "代替",
+      "japanese": "代替",
+      "kana": "だいたい",
+      "romaji": "daitai",
+      "tokens": [
+        {
+          "text": "代替",
+          "kana": "だいたい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "惊叹",
+      "japanese": "驚嘆",
+      "kana": "きょうたん",
+      "romaji": "kyoutan",
+      "tokens": [
+        {
+          "text": "驚嘆",
+          "kana": "きょうたん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "解除禁令",
+      "japanese": "解禁",
+      "kana": "かいきん",
+      "romaji": "kaikin",
+      "tokens": [
+        {
+          "text": "解禁",
+          "kana": "かいきん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "起用，擢用，任用",
+      "japanese": "起用",
+      "kana": "きよう",
+      "romaji": "kiyou",
+      "tokens": [
+        {
+          "text": "起用",
+          "kana": "きよう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "片，薄片，切片",
+      "japanese": "スライス",
+      "kana": "すらいす",
+      "romaji": "suraisu",
+      "tokens": [
+        {
+          "text": "スライス",
+          "kana": "すらいす"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "方法，手段，办法",
+      "japanese": "手立て",
+      "kana": "てだて",
+      "romaji": "tedate",
+      "tokens": [
+        {
+          "text": "手立て",
+          "kana": "てだて"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-88",
+  "coursePackId": "jp-n1",
+  "title": "名词 88",
+  "order": 88,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "（与真品相似到难以区分）疑似，假设，虚拟",
+      "japanese": "疑似",
+      "kana": "ぎじ",
+      "romaji": "giji",
+      "tokens": [
+        {
+          "text": "疑似",
+          "kana": "ぎじ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "寒冷",
+      "japanese": "寒冷",
+      "kana": "かんれい",
+      "romaji": "kanrei",
+      "tokens": [
+        {
+          "text": "寒冷",
+          "kana": "かんれい"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "冥顽，顽固",
+      "japanese": "頑迷",
+      "kana": "がんめい",
+      "romaji": "ganmei",
+      "tokens": [
+        {
+          "text": "頑迷",
+          "kana": "がんめい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "错误，谬误",
+      "japanese": "誤 謬[びゅう]",
+      "kana": "ごびゅう",
+      "romaji": "gobyuu",
+      "tokens": [
+        {
+          "text": "誤 謬[びゅう]",
+          "kana": "ごびゅう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "忠实，诚实，正直",
+      "japanese": "律儀",
+      "kana": "りちぎ",
+      "romaji": "richigi",
+      "tokens": [
+        {
+          "text": "律儀",
+          "kana": "りちぎ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "读完",
+      "japanese": "読了",
+      "kana": "どくりょう",
+      "romaji": "dokuryou",
+      "tokens": [
+        {
+          "text": "読了",
+          "kana": "どくりょう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "自恋狂",
+      "japanese": "ナルシスト",
+      "kana": "なるしすと",
+      "romaji": "narushisuto",
+      "tokens": [
+        {
+          "text": "ナルシスト",
+          "kana": "なるしすと"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "好色（的人）",
+      "japanese": "すけべ",
+      "kana": "すけべ",
+      "romaji": "sukebe",
+      "tokens": [
+        {
+          "text": "すけべ",
+          "kana": "すけべ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "上情下达",
+      "japanese": "上意下達",
+      "kana": "じょういかたつ",
+      "romaji": "jouikatatsu",
+      "tokens": [
+        {
+          "text": "上意下達",
+          "kana": "じょういかたつ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "同义",
+      "japanese": "同義",
+      "kana": "どうぎ",
+      "romaji": "dougi",
+      "tokens": [
+        {
+          "text": "同義",
+          "kana": "どうぎ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "粒状，颗粒状",
+      "japanese": "粒状",
+      "kana": "りゅうじょう",
+      "romaji": "ryuujou",
+      "tokens": [
+        {
+          "text": "粒状",
+          "kana": "りゅうじょう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "摆脱，抛弃（不好的东西）；逃出，脱离（不好的状态）",
+      "japanese": "脱却",
+      "kana": "だっきゃく",
+      "romaji": "dakkyaku",
+      "tokens": [
+        {
+          "text": "脱却",
+          "kana": "だっきゃく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "回头看，理睬",
+      "japanese": "見向き",
+      "kana": "みむき",
+      "romaji": "mimuki",
+      "tokens": [
+        {
+          "text": "見向き",
+          "kana": "みむき"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "博客",
+      "japanese": "ブログ",
+      "kana": "ぶろぐ",
+      "romaji": "burogu",
+      "tokens": [
+        {
+          "text": "ブログ",
+          "kana": "ぶろぐ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "卓越，超群",
+      "japanese": "卓越",
+      "kana": "たくえつ",
+      "romaji": "takuetsu",
+      "tokens": [
+        {
+          "text": "卓越",
+          "kana": "たくえつ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "早就，（很久）以前",
+      "japanese": "前々",
+      "kana": "まえまえ",
+      "romaji": "maemae",
+      "tokens": [
+        {
+          "text": "前々",
+          "kana": "まえまえ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "水黾",
+      "japanese": "あめんぼ",
+      "kana": "あめんぼ",
+      "romaji": "amenbo",
+      "tokens": [
+        {
+          "text": "あめんぼ",
+          "kana": "あめんぼ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "乱涂乱画，涂鸦",
+      "japanese": "いたずら書き",
+      "kana": "いたずらがき",
+      "romaji": "itazuragaki",
+      "tokens": [
+        {
+          "text": "いたずら書き",
+          "kana": "いたずらがき"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "意识形态，思想体系",
+      "japanese": "イデオロギー",
+      "kana": "いでおろぎい",
+      "romaji": "ideorogii",
+      "tokens": [
+        {
+          "text": "イデオロギー",
+          "kana": "いでおろぎい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "插画家",
+      "japanese": "イラストレーター",
+      "kana": "いらすとれえたあ",
+      "romaji": "irasutoreetaa",
+      "tokens": [
+        {
+          "text": "イラストレーター",
+          "kana": "いらすとれえたあ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "激励；销售奖金",
+      "japanese": "インセンティブ",
+      "kana": "いんせんてぃぶ",
+      "romaji": "insenteibu",
+      "tokens": [
+        {
+          "text": "インセンティブ",
+          "kana": "いんせんてぃぶ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "感质",
+      "japanese": "クオリア",
+      "kana": "くおりあ",
+      "romaji": "kuoria",
+      "tokens": [
+        {
+          "text": "クオリア",
+          "kana": "くおりあ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（新闻）评论员",
+      "japanese": "コメンテーター",
+      "kana": "こめんてえたあ",
+      "romaji": "komenteetaa",
+      "tokens": [
+        {
+          "text": "コメンテーター",
+          "kana": "こめんてえたあ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "依从；合规，遵从法规",
+      "japanese": "コンプライアンス",
+      "kana": "こんぷらいあんす",
+      "romaji": "konpuraiansu",
+      "tokens": [
+        {
+          "text": "コンプライアンス",
+          "kana": "こんぷらいあんす"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "社会性别",
+      "japanese": "ジェンダー",
+      "kana": "じぇんだあ",
+      "romaji": "jendaa",
+      "tokens": [
+        {
+          "text": "ジェンダー",
+          "kana": "じぇんだあ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "协同作用，协作效应",
+      "japanese": "シナジー",
+      "kana": "しなじい",
+      "romaji": "shinajii",
+      "tokens": [
+        {
+          "text": "シナジー",
+          "kana": "しなじい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "超级计算机",
+      "japanese": "スーパーコンピューター",
+      "kana": "すうぱあこんぴゅうたあ",
+      "romaji": "suupaakonpyuutaa",
+      "tokens": [
+        {
+          "text": "スーパーコンピューター",
+          "kana": "すうぱあこんぴゅうたあ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（印刷）铅板；格式化，千篇一律，墨守成规",
+      "japanese": "ステレオタイプ",
+      "kana": "すてれおたいぷ",
+      "romaji": "sutereotaipu",
+      "tokens": [
+        {
+          "text": "ステレオタイプ",
+          "kana": "すてれおたいぷ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "（女用）披肩，围巾",
+      "japanese": "ストール",
+      "kana": "すとうる",
+      "romaji": "sutouru",
+      "tokens": [
+        {
+          "text": "ストール",
+          "kana": "すとうる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "（勾芡后的）黏糊状（汤汁）",
+      "japanese": "とろみ",
+      "kana": "とろみ",
+      "romaji": "toromi",
+      "tokens": [
+        {
+          "text": "とろみ",
+          "kana": "とろみ"
+        }
+      ]
+    }
+  ]
+}

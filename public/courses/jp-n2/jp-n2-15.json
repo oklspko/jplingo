@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-15",
+  "coursePackId": "jp-n2",
+  "title": "名词 15",
+  "order": 15,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "坏话",
+      "japanese": "悪口",
+      "kana": "わるくち",
+      "romaji": "warukuchi",
+      "tokens": [
+        {
+          "text": "悪口",
+          "kana": "わるくち"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "坏天气",
+      "japanese": "悪天候",
+      "kana": "あくてんこう",
+      "romaji": "akutenkou",
+      "tokens": [
+        {
+          "text": "悪天候",
+          "kana": "あくてんこう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "图章，印章",
+      "japanese": "印鑑",
+      "kana": "いんかん",
+      "romaji": "inkan",
+      "tokens": [
+        {
+          "text": "印鑑",
+          "kana": "いんかん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "命运",
+      "japanese": "運命",
+      "kana": "うんめい",
+      "romaji": "unmei",
+      "tokens": [
+        {
+          "text": "運命",
+          "kana": "うんめい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "卫星",
+      "japanese": "衛星",
+      "kana": "えいせい",
+      "romaji": "eisei",
+      "tokens": [
+        {
+          "text": "衛星",
+          "kana": "えいせい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "温室效应",
+      "japanese": "温暖化",
+      "kana": "おんだんか",
+      "romaji": "ondanka",
+      "tokens": [
+        {
+          "text": "温暖化",
+          "kana": "おんだんか"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "什么事情；（责备的语气）怎么回事；万事，凡事",
+      "japanese": "何事",
+      "kana": "なにごと",
+      "romaji": "nanigoto",
+      "tokens": [
+        {
+          "text": "何事",
+          "kana": "なにごと"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "家电",
+      "japanese": "家電",
+      "kana": "かでん",
+      "romaji": "kaden",
+      "tokens": [
+        {
+          "text": "家電",
+          "kana": "かでん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "花粉过敏症",
+      "japanese": "花粉症",
+      "kana": "かふんしょう",
+      "romaji": "kafunshou",
+      "tokens": [
+        {
+          "text": "花粉症",
+          "kana": "かふんしょう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "会长",
+      "japanese": "会長",
+      "kana": "かいちょう",
+      "romaji": "kaichou",
+      "tokens": [
+        {
+          "text": "会長",
+          "kana": "かいちょう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "手电筒",
+      "japanese": "懐中電灯",
+      "kana": "かいちゅうでんとう",
+      "romaji": "kaichuudentou",
+      "tokens": [
+        {
+          "text": "懐中電灯",
+          "kana": "かいちゅうでんとう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "修改（法律、规则、规约等不当或不完备之处）",
+      "japanese": "改正",
+      "kana": "かいせい",
+      "romaji": "kaisei",
+      "tokens": [
+        {
+          "text": "改正",
+          "kana": "かいせい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "外侧，外面",
+      "japanese": "外側",
+      "kana": "そとがわ",
+      "romaji": "sotogawa",
+      "tokens": [
+        {
+          "text": "外側",
+          "kana": "そとがわ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "外来；门诊",
+      "japanese": "外来",
+      "kana": "がいらい",
+      "romaji": "gairai",
+      "tokens": [
+        {
+          "text": "外来",
+          "kana": "がいらい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "概念",
+      "japanese": "概念",
+      "kana": "がいねん",
+      "romaji": "gainen",
+      "tokens": [
+        {
+          "text": "概念",
+          "kana": "がいねん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "扩大（范围、规模、势力等）",
+      "japanese": "拡張",
+      "kana": "かくちょう",
+      "romaji": "kakuchou",
+      "tokens": [
+        {
+          "text": "拡張",
+          "kana": "かくちょう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "学习实力，学力",
+      "japanese": "学力",
+      "kana": "がくりょく",
+      "romaji": "gakuryoku",
+      "tokens": [
+        {
+          "text": "学力",
+          "kana": "がくりょく"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "计算；结账",
+      "japanese": "勘定",
+      "kana": "かんじょう",
+      "romaji": "kanjou",
+      "tokens": [
+        {
+          "text": "勘定",
+          "kana": "かんじょう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "观感；样子",
+      "japanese": "観",
+      "kana": "かん",
+      "romaji": "kan",
+      "tokens": [
+        {
+          "text": "観",
+          "kana": "かん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "规划，计划，策划",
+      "japanese": "企画",
+      "kana": "きかく",
+      "romaji": "kikaku",
+      "tokens": [
+        {
+          "text": "企画",
+          "kana": "きかく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "转换心情",
+      "japanese": "気分転換",
+      "kana": "きぶんてんかん",
+      "romaji": "kibuntenkan",
+      "tokens": [
+        {
+          "text": "気分転換",
+          "kana": "きぶんてんかん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "规模；范围",
+      "japanese": "規模",
+      "kana": "きぼ",
+      "romaji": "kibo",
+      "tokens": [
+        {
+          "text": "規模",
+          "kana": "きぼ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "贵重物品",
+      "japanese": "貴重品",
+      "kana": "きちょうひん",
+      "romaji": "kichouhin",
+      "tokens": [
+        {
+          "text": "貴重品",
+          "kana": "きちょうひん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "起床",
+      "japanese": "起床",
+      "kana": "きしょう",
+      "romaji": "kishou",
+      "tokens": [
+        {
+          "text": "起床",
+          "kana": "きしょう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "日式小酒馆",
+      "japanese": "居酒屋",
+      "kana": "いざかや",
+      "romaji": "izakaya",
+      "tokens": [
+        {
+          "text": "居酒屋",
+          "kana": "いざかや"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "协会",
+      "japanese": "協会",
+      "kana": "きょうかい",
+      "romaji": "kyoukai",
+      "tokens": [
+        {
+          "text": "協会",
+          "kana": "きょうかい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "教员，教师",
+      "japanese": "教員",
+      "kana": "きょういん",
+      "romaji": "kyouin",
+      "tokens": [
+        {
+          "text": "教員",
+          "kana": "きょういん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "上班",
+      "japanese": "勤務",
+      "kana": "きんむ",
+      "romaji": "kinmu",
+      "tokens": [
+        {
+          "text": "勤務",
+          "kana": "きんむ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "各个角落，各方面",
+      "japanese": "隅々",
+      "kana": "すみずみ",
+      "romaji": "sumizumi",
+      "tokens": [
+        {
+          "text": "隅々",
+          "kana": "すみずみ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "经费，开支",
+      "japanese": "経費",
+      "kana": "けいひ",
+      "romaji": "keihi",
+      "tokens": [
+        {
+          "text": "経費",
+          "kana": "けいひ"
+        }
+      ]
+    }
+  ]
+}

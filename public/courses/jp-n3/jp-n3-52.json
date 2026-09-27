@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-52",
+  "coursePackId": "jp-n3",
+  "title": "动词 10",
+  "order": 52,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "放跑；错过",
+      "japanese": "逃がす",
+      "kana": "にがす",
+      "romaji": "nigasu",
+      "tokens": [
+        {
+          "text": "逃がす",
+          "kana": "にがす"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "放，抛；飞溅；疾驶；跳过",
+      "japanese": "飛ばす",
+      "kana": "とばす",
+      "romaji": "tobasu",
+      "tokens": [
+        {
+          "text": "飛ばす",
+          "kana": "とばす"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "烧开；激动，兴奋",
+      "japanese": "沸く",
+      "kana": "わく",
+      "romaji": "waku",
+      "tokens": [
+        {
+          "text": "沸く",
+          "kana": "わく"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "叫，吼",
+      "japanese": "吠[ほ]える",
+      "kana": "ほえる",
+      "romaji": "hoeru",
+      "tokens": [
+        {
+          "text": "吠[ほ]える",
+          "kana": "ほえる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "使……发出声响",
+      "japanese": "鳴らす",
+      "kana": "ならす",
+      "romaji": "narasu",
+      "tokens": [
+        {
+          "text": "鳴らす",
+          "kana": "ならす"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "代为保管；担任，管理",
+      "japanese": "預かる",
+      "kana": "あずかる",
+      "romaji": "azukaru",
+      "tokens": [
+        {
+          "text": "預かる",
+          "kana": "あずかる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "寄存，委托别人保管",
+      "japanese": "預ける",
+      "kana": "あずける",
+      "romaji": "azukeru",
+      "tokens": [
+        {
+          "text": "預ける",
+          "kana": "あずける"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "摇晃；动摇",
+      "japanese": "揺れる",
+      "kana": "ゆれる",
+      "romaji": "yureru",
+      "tokens": [
+        {
+          "text": "揺れる",
+          "kana": "ゆれる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "抑制，限制；镇压",
+      "japanese": "抑える",
+      "kana": "おさえる",
+      "romaji": "osaeru",
+      "tokens": [
+        {
+          "text": "抑える",
+          "kana": "おさえる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "进入……；充分……",
+      "japanese": "込む",
+      "kana": "こむ",
+      "romaji": "komu",
+      "tokens": [
+        {
+          "text": "込む",
+          "kana": "こむ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "问卷调查",
+      "japanese": "アンケート",
+      "kana": "あんけえと",
+      "romaji": "ankeeto",
+      "tokens": [
+        {
+          "text": "アンケート",
+          "kana": "あんけえと"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "炒（菜）",
+      "japanese": "炒[いた]める",
+      "kana": "いためる",
+      "romaji": "itameru",
+      "tokens": [
+        {
+          "text": "炒[いた]める",
+          "kana": "いためる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "舔，品尝；经历；轻视；烧光",
+      "japanese": "なめる",
+      "kana": "なめる",
+      "romaji": "nameru",
+      "tokens": [
+        {
+          "text": "なめる",
+          "kana": "なめる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "硬塞；闯入（抢劫或偷盗）",
+      "japanese": "押し込む",
+      "kana": "おしこむ",
+      "romaji": "oshikomu",
+      "tokens": [
+        {
+          "text": "押し込む",
+          "kana": "おしこむ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "打折；低估，打折扣",
+      "japanese": "割り引く",
+      "kana": "わりびく",
+      "romaji": "waribiku",
+      "tokens": [
+        {
+          "text": "割り引く",
+          "kana": "わりびく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "面对面",
+      "japanese": "向き合う",
+      "kana": "むきあう",
+      "romaji": "mukiau",
+      "tokens": [
+        {
+          "text": "向き合う",
+          "kana": "むきあう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "安装；达成（协议）",
+      "japanese": "取り付ける",
+      "kana": "とりつける",
+      "romaji": "toritsukeru",
+      "tokens": [
+        {
+          "text": "取り付ける",
+          "kana": "とりつける"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "受理（申请）；（不）接受（意见等）；（不）吸收（营养、水分等）",
+      "japanese": "受け付ける",
+      "kana": "うけつける",
+      "romaji": "uketsukeru",
+      "tokens": [
+        {
+          "text": "受け付ける",
+          "kana": "うけつける"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（烧）焦",
+      "japanese": "焦げる",
+      "kana": "こげる",
+      "romaji": "kogeru",
+      "tokens": [
+        {
+          "text": "焦げる",
+          "kana": "こげる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "上升；上溯；高达；被提出",
+      "japanese": "上る",
+      "kana": "のぼる",
+      "romaji": "noboru",
+      "tokens": [
+        {
+          "text": "上る",
+          "kana": "のぼる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "（産）生出；（生）生产出，创造",
+      "japanese": "生み出す",
+      "kana": "うみだす",
+      "romaji": "umidasu",
+      "tokens": [
+        {
+          "text": "生み出す",
+          "kana": "うみだす"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "出借；放贷",
+      "japanese": "貸し出す",
+      "kana": "かしだす",
+      "romaji": "kashidasu",
+      "tokens": [
+        {
+          "text": "貸し出す",
+          "kana": "かしだす"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "跳，跳起，跳跃",
+      "japanese": "跳ぶ",
+      "kana": "とぶ",
+      "romaji": "tobu",
+      "tokens": [
+        {
+          "text": "跳ぶ",
+          "kana": "とぶ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "发行（车票、入场券、钞票等）",
+      "japanese": "発券",
+      "kana": "はっけん",
+      "romaji": "hakken",
+      "tokens": [
+        {
+          "text": "発券",
+          "kana": "はっけん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "返还；恢复；（对方）回应",
+      "japanese": "返る",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "tokens": [
+        {
+          "text": "返る",
+          "kana": "かえる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "睡醒；觉醒；醒悟",
+      "japanese": "目覚める",
+      "kana": "めざめる",
+      "romaji": "mezameru",
+      "tokens": [
+        {
+          "text": "目覚める",
+          "kana": "めざめる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "（从银行账户）支付，转账；拉倒，拽倒",
+      "japanese": "引き落とす",
+      "kana": "ひきおとす",
+      "romaji": "hikiotosu",
+      "tokens": [
+        {
+          "text": "引き落とす",
+          "kana": "ひきおとす"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "使休息；使平静",
+      "japanese": "休める",
+      "kana": "やすめる",
+      "romaji": "yasumeru",
+      "tokens": [
+        {
+          "text": "休める",
+          "kana": "やすめる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "快跑，飞奔",
+      "japanese": "駆ける",
+      "kana": "かける",
+      "romaji": "kakeru",
+      "tokens": [
+        {
+          "text": "駆ける",
+          "kana": "かける"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "经过；经历",
+      "japanese": "経る",
+      "kana": "へる",
+      "romaji": "heru",
+      "tokens": [
+        {
+          "text": "経る",
+          "kana": "へる"
+        }
+      ]
+    }
+  ]
+}

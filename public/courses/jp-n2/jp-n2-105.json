@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-105",
+  "coursePackId": "jp-n2",
+  "title": "副词 6",
+  "order": 105,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "差一点，再加把劲",
+      "japanese": "いまいち",
+      "kana": "いまいち",
+      "romaji": "imaichi",
+      "tokens": [
+        {
+          "text": "いまいち",
+          "kana": "いまいち"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "极其",
+      "japanese": "至って",
+      "kana": "いたって",
+      "romaji": "itatte",
+      "tokens": [
+        {
+          "text": "至って",
+          "kana": "いたって"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "预先，事先",
+      "japanese": "前もって",
+      "kana": "まえもって",
+      "romaji": "maemotte",
+      "tokens": [
+        {
+          "text": "前もって",
+          "kana": "まえもって"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "断然；显然",
+      "japanese": "断然",
+      "kana": "だんぜん",
+      "romaji": "danzen",
+      "tokens": [
+        {
+          "text": "断然",
+          "kana": "だんぜん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "尽量，尽可能",
+      "japanese": "努めて",
+      "kana": "つとめて",
+      "romaji": "tsutomete",
+      "tokens": [
+        {
+          "text": "努めて",
+          "kana": "つとめて"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "怎么也（不），无论如何也（不）",
+      "japanese": "到底",
+      "kana": "とうてい",
+      "romaji": "toutei",
+      "tokens": [
+        {
+          "text": "到底",
+          "kana": "とうてい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "至今仍（未）",
+      "japanese": "いまだに",
+      "kana": "いまだに",
+      "romaji": "imadani",
+      "tokens": [
+        {
+          "text": "いまだに",
+          "kana": "いまだに"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "很，相当；很想……，差一点就……",
+      "japanese": "よほど",
+      "kana": "よほど",
+      "romaji": "yohodo",
+      "tokens": [
+        {
+          "text": "よほど",
+          "kana": "よほど"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "实在，真的；果然，的确",
+      "japanese": "いかにも",
+      "kana": "いかにも",
+      "romaji": "ikanimo",
+      "tokens": [
+        {
+          "text": "いかにも",
+          "kana": "いかにも"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "用力地拧（握，捆等）",
+      "japanese": "ぎゅっと",
+      "kana": "ぎゅっと",
+      "romaji": "gyutto",
+      "tokens": [
+        {
+          "text": "ぎゅっと",
+          "kana": "ぎゅっと"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "筋疲力尽",
+      "japanese": "ぐったり",
+      "kana": "ぐったり",
+      "romaji": "guttari",
+      "tokens": [
+        {
+          "text": "ぐったり",
+          "kana": "ぐったり"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "人声嘈杂；（风吹动树叶）沙沙作响",
+      "japanese": "ざわざわ",
+      "kana": "ざわざわ",
+      "romaji": "zawazawa",
+      "tokens": [
+        {
+          "text": "ざわざわ",
+          "kana": "ざわざわ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "手忙脚乱，惊慌失措；手脚乱动，拼命挣扎",
+      "japanese": "じたばた",
+      "kana": "じたばた",
+      "romaji": "jitabata",
+      "tokens": [
+        {
+          "text": "じたばた",
+          "kana": "じたばた"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "片刻，暂时",
+      "japanese": "しばし",
+      "kana": "しばし",
+      "romaji": "shibashi",
+      "tokens": [
+        {
+          "text": "しばし",
+          "kana": "しばし"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "因寒冷、恐惧或强烈感动而颤抖的样子",
+      "japanese": "ぞっと",
+      "kana": "ぞっと",
+      "romaji": "zotto",
+      "tokens": [
+        {
+          "text": "ぞっと",
+          "kana": "ぞっと"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "一个跟着一个，络绎不绝；后面长长地拖着",
+      "japanese": "ぞろぞろ",
+      "kana": "ぞろぞろ",
+      "romaji": "zorozoro",
+      "tokens": [
+        {
+          "text": "ぞろぞろ",
+          "kana": "ぞろぞろ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "纷纷；一闪一闪；（无意间）听到，看到",
+      "japanese": "ちらちら",
+      "kana": "ちらちら",
+      "romaji": "chirachira",
+      "tokens": [
+        {
+          "text": "ちらちら",
+          "kana": "ちらちら"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（花、头发等大量聚集后下垂状）一簇簇",
+      "japanese": "ふさふさ",
+      "kana": "ふさふさ",
+      "romaji": "fusafusa",
+      "tokens": [
+        {
+          "text": "ふさふさ",
+          "kana": "ふさふさ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "（并非）完全，（未必）一定",
+      "japanese": "まんざら",
+      "kana": "まんざら",
+      "romaji": "manzara",
+      "tokens": [
+        {
+          "text": "まんざら",
+          "kana": "まんざら"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "（后接否定）任何，丝毫",
+      "japanese": "何ら",
+      "kana": "なんら",
+      "romaji": "nanra",
+      "tokens": [
+        {
+          "text": "何ら",
+          "kana": "なんら"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "稍微，一些",
+      "japanese": "何らか",
+      "kana": "なんらか",
+      "romaji": "nanraka",
+      "tokens": [
+        {
+          "text": "何らか",
+          "kana": "なんらか"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "正是现在；如今，当今；眼看就",
+      "japanese": "今や",
+      "kana": "いまや",
+      "romaji": "imaya",
+      "tokens": [
+        {
+          "text": "今や",
+          "kana": "いまや"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "尽情地",
+      "japanese": "思う存分",
+      "kana": "おもうぞんぶん",
+      "romaji": "omouzonbun",
+      "tokens": [
+        {
+          "text": "思う存分",
+          "kana": "おもうぞんぶん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "怪不得，当然",
+      "japanese": "どうりで",
+      "kana": "どうりで",
+      "romaji": "douride",
+      "tokens": [
+        {
+          "text": "どうりで",
+          "kana": "どうりで"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "一齐，同时",
+      "japanese": "一斉に",
+      "kana": "いっせいに",
+      "romaji": "isseini",
+      "tokens": [
+        {
+          "text": "一斉に",
+          "kana": "いっせいに"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "静悄悄，鸦雀无声",
+      "japanese": "しんと",
+      "kana": "しんと",
+      "romaji": "shinto",
+      "tokens": [
+        {
+          "text": "しんと",
+          "kana": "しんと"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "稍稍，略略",
+      "japanese": "薄々",
+      "kana": "うすうす",
+      "romaji": "usuusu",
+      "tokens": [
+        {
+          "text": "薄々",
+          "kana": "うすうす"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "果然；到底，究竟",
+      "japanese": "果たして",
+      "kana": "はたして",
+      "romaji": "hatashite",
+      "tokens": [
+        {
+          "text": "果たして",
+          "kana": "はたして"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "草草了事；差强人意；（接尾）大约，左右",
+      "japanese": "そこそこ",
+      "kana": "そこそこ",
+      "romaji": "sokosoko",
+      "tokens": [
+        {
+          "text": "そこそこ",
+          "kana": "そこそこ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "再度，第二次，又一次",
+      "japanese": "再度",
+      "kana": "さいど",
+      "romaji": "saido",
+      "tokens": [
+        {
+          "text": "再度",
+          "kana": "さいど"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-12",
+  "coursePackId": "jp-n3",
+  "title": "名词 12",
+  "order": 12,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "床单",
+      "japanese": "シーツ",
+      "kana": "しいつ",
+      "romaji": "shiitsu",
+      "tokens": [
+        {
+          "text": "シーツ",
+          "kana": "しいつ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "牛仔裤",
+      "japanese": "ジーンズ",
+      "kana": "じいんず",
+      "romaji": "jiinzu",
+      "tokens": [
+        {
+          "text": "ジーンズ",
+          "kana": "じいんず"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "打嗝",
+      "japanese": "しゃっくり",
+      "kana": "しゃっくり",
+      "romaji": "shakkuri",
+      "tokens": [
+        {
+          "text": "しゃっくり",
+          "kana": "しゃっくり"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "出发（点），起点；开始",
+      "japanese": "スタート",
+      "kana": "すたあと",
+      "romaji": "sutaato",
+      "tokens": [
+        {
+          "text": "スタート",
+          "kana": "すたあと"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "停止，终止；车站",
+      "japanese": "ストップ",
+      "kana": "すとっぷ",
+      "romaji": "sutoppu",
+      "tokens": [
+        {
+          "text": "ストップ",
+          "kana": "すとっぷ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "演说，致辞",
+      "japanese": "スピーチ",
+      "kana": "すぴいち",
+      "romaji": "supiichi",
+      "tokens": [
+        {
+          "text": "スピーチ",
+          "kana": "すぴいち"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "速度；快速",
+      "japanese": "スピード",
+      "kana": "すぴいど",
+      "romaji": "supiido",
+      "tokens": [
+        {
+          "text": "スピード",
+          "kana": "すぴいど"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "大减价",
+      "japanese": "セール",
+      "kana": "せえる",
+      "romaji": "seeru",
+      "tokens": [
+        {
+          "text": "セール",
+          "kana": "せえる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "主题；（论文等的）题目",
+      "japanese": "テーマ",
+      "kana": "てえま",
+      "romaji": "teema",
+      "tokens": [
+        {
+          "text": "テーマ",
+          "kana": "てえま"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "数码，数字",
+      "japanese": "デジタル",
+      "kana": "でじたる",
+      "romaji": "dejitaru",
+      "tokens": [
+        {
+          "text": "デジタル",
+          "kana": "でじたる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "卡车",
+      "japanese": "トラック",
+      "kana": "とらっく",
+      "romaji": "torakku",
+      "tokens": [
+        {
+          "text": "トラック",
+          "kana": "とらっく"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "戏剧，电视剧",
+      "japanese": "ドラマ",
+      "kana": "どらま",
+      "romaji": "dorama",
+      "tokens": [
+        {
+          "text": "ドラマ",
+          "kana": "どらま"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "美元；加拿大、澳洲、新西兰等国的货币单位",
+      "japanese": "ドル",
+      "kana": "どる",
+      "romaji": "doru",
+      "tokens": [
+        {
+          "text": "ドル",
+          "kana": "どる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "百分率，百分比",
+      "japanese": "パーセント",
+      "kana": "ぱあせんと",
+      "romaji": "paasento",
+      "tokens": [
+        {
+          "text": "パーセント",
+          "kana": "ぱあせんと"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "小提琴",
+      "japanese": "バイオリン",
+      "kana": "ばいおりん",
+      "romaji": "baiorin",
+      "tokens": [
+        {
+          "text": "バイオリン",
+          "kana": "ばいおりん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "水桶",
+      "japanese": "バケツ",
+      "kana": "ばけつ",
+      "romaji": "baketsu",
+      "tokens": [
+        {
+          "text": "バケツ",
+          "kana": "ばけつ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "方向盘；把手",
+      "japanese": "ハンドル",
+      "kana": "はんどる",
+      "romaji": "handoru",
+      "tokens": [
+        {
+          "text": "ハンドル",
+          "kana": "はんどる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "小册子",
+      "japanese": "パンフレット",
+      "kana": "ぱんふれっと",
+      "romaji": "panfuretto",
+      "tokens": [
+        {
+          "text": "パンフレット",
+          "kana": "ぱんふれっと"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "商务，生意",
+      "japanese": "ビジネス",
+      "kana": "びじねす",
+      "romaji": "bijinesu",
+      "tokens": [
+        {
+          "text": "ビジネス",
+          "kana": "びじねす"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "维生素",
+      "japanese": "ビタミン",
+      "kana": "びたみん",
+      "romaji": "bitamin",
+      "tokens": [
+        {
+          "text": "ビタミン",
+          "kana": "びたみん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "摄像机",
+      "japanese": "ビデオカメラ",
+      "kana": "びでおかめら",
+      "romaji": "bideokamera",
+      "tokens": [
+        {
+          "text": "ビデオカメラ",
+          "kana": "びでおかめら"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "流行，时尚",
+      "japanese": "ファッション",
+      "kana": "ふぁっしょん",
+      "romaji": "fuasshon",
+      "tokens": [
+        {
+          "text": "ファッション",
+          "kana": "ふぁっしょん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "风扇；粉丝",
+      "japanese": "ファン",
+      "kana": "ふぁん",
+      "romaji": "fuan",
+      "tokens": [
+        {
+          "text": "ファン",
+          "kana": "ふぁん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "平底锅，煎锅",
+      "japanese": "フライパン",
+      "kana": "ふらいぱん",
+      "romaji": "furaipan",
+      "tokens": [
+        {
+          "text": "フライパン",
+          "kana": "ふらいぱん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "刷子",
+      "japanese": "ブラシ",
+      "kana": "ぶらし",
+      "romaji": "burashi",
+      "tokens": [
+        {
+          "text": "ブラシ",
+          "kana": "ぶらし"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "塑料",
+      "japanese": "プラスチック",
+      "kana": "ぷらすちっく",
+      "romaji": "purasuchikku",
+      "tokens": [
+        {
+          "text": "プラスチック",
+          "kana": "ぷらすちっく"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "法国",
+      "japanese": "フランス",
+      "kana": "ふらんす",
+      "romaji": "furansu",
+      "tokens": [
+        {
+          "text": "フランス",
+          "kana": "ふらんす"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "刹车；制止",
+      "japanese": "ブレーキ",
+      "kana": "ぶれえき",
+      "romaji": "bureeki",
+      "tokens": [
+        {
+          "text": "ブレーキ",
+          "kana": "ぶれえき"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "阳台",
+      "japanese": "ベランダ",
+      "kana": "べらんだ",
+      "romaji": "beranda",
+      "tokens": [
+        {
+          "text": "ベランダ",
+          "kana": "べらんだ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "围巾；（车的）消音器",
+      "japanese": "マフラー",
+      "kana": "まふらあ",
+      "romaji": "mafuraa",
+      "tokens": [
+        {
+          "text": "マフラー",
+          "kana": "まふらあ"
+        }
+      ]
+    }
+  ]
+}

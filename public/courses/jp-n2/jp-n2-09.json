@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-09",
+  "coursePackId": "jp-n2",
+  "title": "名词 9",
+  "order": 9,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "资格；身份",
+      "japanese": "資格",
+      "kana": "しかく",
+      "romaji": "shikaku",
+      "tokens": [
+        {
+          "text": "資格",
+          "kana": "しかく"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "自习，自学",
+      "japanese": "自習",
+      "kana": "じしゅう",
+      "romaji": "jishuu",
+      "tokens": [
+        {
+          "text": "自習",
+          "kana": "じしゅう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "失望",
+      "japanese": "失望",
+      "kana": "しつぼう",
+      "romaji": "shitsubou",
+      "tokens": [
+        {
+          "text": "失望",
+          "kana": "しつぼう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "质量；素质",
+      "japanese": "質",
+      "kana": "しつ",
+      "romaji": "shitsu",
+      "tokens": [
+        {
+          "text": "質",
+          "kana": "しつ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "真实感受，体会",
+      "japanese": "実感",
+      "kana": "じっかん",
+      "romaji": "jikkan",
+      "tokens": [
+        {
+          "text": "実感",
+          "kana": "じっかん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "实现",
+      "japanese": "実現",
+      "kana": "じつげん",
+      "romaji": "jitsugen",
+      "tokens": [
+        {
+          "text": "実現",
+          "kana": "じつげん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "实际成绩，实际成果",
+      "japanese": "実績",
+      "kana": "じっせき",
+      "romaji": "jisseki",
+      "tokens": [
+        {
+          "text": "実績",
+          "kana": "じっせき"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "手续，程序",
+      "japanese": "手続き",
+      "kana": "てつづき",
+      "romaji": "tetsuzuki",
+      "tokens": [
+        {
+          "text": "手続き",
+          "kana": "てつづき"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "收拾，修整；检举，搜捕",
+      "japanese": "手入れ",
+      "kana": "ていれ",
+      "romaji": "teire",
+      "tokens": [
+        {
+          "text": "手入れ",
+          "kana": "ていれ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "种子；原因；素材",
+      "japanese": "種",
+      "kana": "たね",
+      "romaji": "tane",
+      "tokens": [
+        {
+          "text": "種",
+          "kana": "たね"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "学费",
+      "japanese": "授業料",
+      "kana": "じゅぎょうりょう",
+      "romaji": "jugyouryou",
+      "tokens": [
+        {
+          "text": "授業料",
+          "kana": "じゅぎょうりょう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "周边，四周",
+      "japanese": "周辺",
+      "kana": "しゅうへん",
+      "romaji": "shuuhen",
+      "tokens": [
+        {
+          "text": "周辺",
+          "kana": "しゅうへん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "集会；集合",
+      "japanese": "集まり",
+      "kana": "あつまり",
+      "romaji": "atsumari",
+      "tokens": [
+        {
+          "text": "集まり",
+          "kana": "あつまり"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "集体，集团",
+      "japanese": "集団",
+      "kana": "しゅうだん",
+      "romaji": "shuudan",
+      "tokens": [
+        {
+          "text": "集団",
+          "kana": "しゅうだん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "住宅，住房",
+      "japanese": "住宅",
+      "kana": "じゅうたく",
+      "romaji": "juutaku",
+      "tokens": [
+        {
+          "text": "住宅",
+          "kana": "じゅうたく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "居民",
+      "japanese": "住民",
+      "kana": "じゅうみん",
+      "romaji": "juumin",
+      "tokens": [
+        {
+          "text": "住民",
+          "kana": "じゅうみん"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "重点",
+      "japanese": "重点",
+      "kana": "じゅうてん",
+      "romaji": "juuten",
+      "tokens": [
+        {
+          "text": "重点",
+          "kana": "じゅうてん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "出版",
+      "japanese": "出版",
+      "kana": "しゅっぱん",
+      "romaji": "shuppan",
+      "tokens": [
+        {
+          "text": "出版",
+          "kana": "しゅっぱん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "事件，事故",
+      "japanese": "出来事",
+      "kana": "できごと",
+      "romaji": "dekigoto",
+      "tokens": [
+        {
+          "text": "出来事",
+          "kana": "できごと"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "顺序；流程",
+      "japanese": "順序",
+      "kana": "じゅんじょ",
+      "romaji": "junjo",
+      "tokens": [
+        {
+          "text": "順序",
+          "kana": "じゅんじょ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "顺利，顺畅",
+      "japanese": "順調",
+      "kana": "じゅんちょう",
+      "romaji": "junchou",
+      "tokens": [
+        {
+          "text": "順調",
+          "kana": "じゅんちょう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "处理，办理",
+      "japanese": "処理",
+      "kana": "しょり",
+      "romaji": "shori",
+      "tokens": [
+        {
+          "text": "処理",
+          "kana": "しょり"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "初次见面",
+      "japanese": "初対面",
+      "kana": "しょたいめん",
+      "romaji": "shotaimen",
+      "tokens": [
+        {
+          "text": "初対面",
+          "kana": "しょたいめん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "书店",
+      "japanese": "書店",
+      "kana": "しょてん",
+      "romaji": "shoten",
+      "tokens": [
+        {
+          "text": "書店",
+          "kana": "しょてん"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "随意，任意，擅自",
+      "japanese": "勝手",
+      "kana": "かって",
+      "romaji": "katte",
+      "tokens": [
+        {
+          "text": "勝手",
+          "kana": "かって"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "买卖，生意",
+      "japanese": "商売",
+      "kana": "しょうばい",
+      "romaji": "shoubai",
+      "tokens": [
+        {
+          "text": "商売",
+          "kana": "しょうばい"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "奖，奖赏",
+      "japanese": "賞",
+      "kana": "しょう",
+      "romaji": "shou",
+      "tokens": [
+        {
+          "text": "賞",
+          "kana": "しょう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（技艺、学术等）长进，进步",
+      "japanese": "上達",
+      "kana": "じょうたつ",
+      "romaji": "joutatsu",
+      "tokens": [
+        {
+          "text": "上達",
+          "kana": "じょうたつ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "乘客，旅客",
+      "japanese": "乗客",
+      "kana": "じょうきゃく",
+      "romaji": "joukyaku",
+      "tokens": [
+        {
+          "text": "乗客",
+          "kana": "じょうきゃく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "场面，场景",
+      "japanese": "場面",
+      "kana": "ばめん",
+      "romaji": "bamen",
+      "tokens": [
+        {
+          "text": "場面",
+          "kana": "ばめん"
+        }
+      ]
+    }
+  ]
+}

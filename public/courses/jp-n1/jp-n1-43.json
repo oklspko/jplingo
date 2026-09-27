@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-43",
+  "coursePackId": "jp-n1",
+  "title": "名词 43",
+  "order": 43,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "议事",
+      "japanese": "議事",
+      "kana": "ぎじ",
+      "romaji": "giji",
+      "tokens": [
+        {
+          "text": "議事",
+          "kana": "ぎじ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "逆行，倒行，退行，开倒车",
+      "japanese": "逆行",
+      "kana": "ぎゃっこう",
+      "romaji": "gyakkou",
+      "tokens": [
+        {
+          "text": "逆行",
+          "kana": "ぎゃっこう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "紧急任务，当务之急",
+      "japanese": "急務",
+      "kana": "きゅうむ",
+      "romaji": "kyuumu",
+      "tokens": [
+        {
+          "text": "急務",
+          "kana": "きゅうむ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "（植物）球根",
+      "japanese": "球根",
+      "kana": "きゅうこん",
+      "romaji": "kyuukon",
+      "tokens": [
+        {
+          "text": "球根",
+          "kana": "きゅうこん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "球状",
+      "japanese": "球状",
+      "kana": "きゅうじょう",
+      "romaji": "kyuujou",
+      "tokens": [
+        {
+          "text": "球状",
+          "kana": "きゅうじょう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "调查清楚",
+      "japanese": "究明",
+      "kana": "きゅうめい",
+      "romaji": "kyuumei",
+      "tokens": [
+        {
+          "text": "究明",
+          "kana": "きゅうめい"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "（艺术领域的）巨匠，泰斗",
+      "japanese": "巨匠",
+      "kana": "きょしょう",
+      "romaji": "kyoshou",
+      "tokens": [
+        {
+          "text": "巨匠",
+          "kana": "きょしょう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "捕鱼，捕捞；渔获",
+      "japanese": "漁獲",
+      "kana": "ぎょかく",
+      "romaji": "gyokaku",
+      "tokens": [
+        {
+          "text": "漁獲",
+          "kana": "ぎょかく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "供给，提供",
+      "japanese": "供与",
+      "kana": "きょうよ",
+      "romaji": "kyouyo",
+      "tokens": [
+        {
+          "text": "供与",
+          "kana": "きょうよ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "竞争",
+      "japanese": "競合",
+      "kana": "きょうごう",
+      "romaji": "kyougou",
+      "tokens": [
+        {
+          "text": "競合",
+          "kana": "きょうごう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "凶器",
+      "japanese": "凶器",
+      "kana": "きょうき",
+      "romaji": "kyouki",
+      "tokens": [
+        {
+          "text": "凶器",
+          "kana": "きょうき"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "恐龙",
+      "japanese": "恐竜",
+      "kana": "きょうりゅう",
+      "romaji": "kyouryuu",
+      "tokens": [
+        {
+          "text": "恐竜",
+          "kana": "きょうりゅう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "发疯，发狂",
+      "japanese": "狂気",
+      "kana": "きょうき",
+      "romaji": "kyouki",
+      "tokens": [
+        {
+          "text": "狂気",
+          "kana": "きょうき"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "非常吃惊",
+      "japanese": "仰天",
+      "kana": "ぎょうてん",
+      "romaji": "gyouten",
+      "tokens": [
+        {
+          "text": "仰天",
+          "kana": "ぎょうてん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "凝结，凝聚",
+      "japanese": "凝縮",
+      "kana": "ぎょうしゅく",
+      "romaji": "gyoushuku",
+      "tokens": [
+        {
+          "text": "凝縮",
+          "kana": "ぎょうしゅく"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "黎明时分；……之际",
+      "japanese": "暁",
+      "kana": "あかつき",
+      "romaji": "akatsuki",
+      "tokens": [
+        {
+          "text": "暁",
+          "kana": "あかつき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "局面，局势",
+      "japanese": "局面",
+      "kana": "きょくめん",
+      "romaji": "kyokumen",
+      "tokens": [
+        {
+          "text": "局面",
+          "kana": "きょくめん"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "均质，等质",
+      "japanese": "均質",
+      "kana": "きんしつ",
+      "romaji": "kinshitsu",
+      "tokens": [
+        {
+          "text": "均質",
+          "kana": "きんしつ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "紧迫，紧张",
+      "japanese": "緊迫",
+      "kana": "きんぱく",
+      "romaji": "kinpaku",
+      "tokens": [
+        {
+          "text": "緊迫",
+          "kana": "きんぱく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "紧密，密切",
+      "japanese": "緊密",
+      "kana": "きんみつ",
+      "romaji": "kinmitsu",
+      "tokens": [
+        {
+          "text": "緊密",
+          "kana": "きんみつ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "小五金，金属零件",
+      "japanese": "金具",
+      "kana": "かなぐ",
+      "romaji": "kanagu",
+      "tokens": [
+        {
+          "text": "金具",
+          "kana": "かなぐ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "（用药剂等）消灭，驱除",
+      "japanese": "駆除",
+      "kana": "くじょ",
+      "romaji": "kujo",
+      "tokens": [
+        {
+          "text": "駆除",
+          "kana": "くじょ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "空白",
+      "japanese": "空白",
+      "kana": "くうはく",
+      "romaji": "kuuhaku",
+      "tokens": [
+        {
+          "text": "空白",
+          "kana": "くうはく"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "串，签子，竹签",
+      "japanese": "串",
+      "kana": "くし",
+      "romaji": "kushi",
+      "tokens": [
+        {
+          "text": "串",
+          "kana": "くし"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "休息",
+      "japanese": "憩い",
+      "kana": "いこい",
+      "romaji": "ikoi",
+      "tokens": [
+        {
+          "text": "憩い",
+          "kana": "いこい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "敬而远之，有意回避",
+      "japanese": "敬遠",
+      "kana": "けいえん",
+      "romaji": "keien",
+      "tokens": [
+        {
+          "text": "敬遠",
+          "kana": "けいえん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "景观，风景",
+      "japanese": "景観",
+      "kana": "けいかん",
+      "romaji": "keikan",
+      "tokens": [
+        {
+          "text": "景観",
+          "kana": "けいかん"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（船舶、飞机）停运",
+      "japanese": "欠航",
+      "kana": "けっこう",
+      "romaji": "kekkou",
+      "tokens": [
+        {
+          "text": "欠航",
+          "kana": "けっこう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "结合，联系，关系",
+      "japanese": "結び付き",
+      "kana": "むすびつき",
+      "romaji": "musubitsuki",
+      "tokens": [
+        {
+          "text": "結び付き",
+          "kana": "むすびつき"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "血缘",
+      "japanese": "血縁",
+      "kana": "けつえん",
+      "romaji": "ketsuen",
+      "tokens": [
+        {
+          "text": "血縁",
+          "kana": "けつえん"
+        }
+      ]
+    }
+  ]
+}

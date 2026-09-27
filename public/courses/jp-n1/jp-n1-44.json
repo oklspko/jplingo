@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-44",
+  "coursePackId": "jp-n1",
+  "title": "名词 44",
+  "order": 44,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "血液循环",
+      "japanese": "血行",
+      "kana": "けっこう",
+      "romaji": "kekkou",
+      "tokens": [
+        {
+          "text": "血行",
+          "kana": "けっこう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "审查",
+      "japanese": "検閲",
+      "kana": "けんえつ",
+      "romaji": "ken'etsu",
+      "tokens": [
+        {
+          "text": "検閲",
+          "kana": "けんえつ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "验证，检验；勘验",
+      "japanese": "検証",
+      "kana": "けんしょう",
+      "romaji": "kenshou",
+      "tokens": [
+        {
+          "text": "検証",
+          "kana": "けんしょう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "（显得）好看，美观",
+      "japanese": "見栄え",
+      "kana": "みばえ",
+      "romaji": "mibae",
+      "tokens": [
+        {
+          "text": "見栄え",
+          "kana": "みばえ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "分辨（事物，判断善恶好坏）",
+      "japanese": "見境",
+      "kana": "みさかい",
+      "romaji": "misakai",
+      "tokens": [
+        {
+          "text": "見境",
+          "kana": "みさかい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "见识，见地，见解",
+      "japanese": "見識",
+      "kana": "けんしき",
+      "romaji": "kenshiki",
+      "tokens": [
+        {
+          "text": "見識",
+          "kana": "けんしき"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "见闻，知识",
+      "japanese": "見聞",
+      "kana": "けんぶん",
+      "romaji": "kenbun",
+      "tokens": [
+        {
+          "text": "見聞",
+          "kana": "けんぶん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "回头看，回顾；抵押品，回报",
+      "japanese": "見返り",
+      "kana": "みかえり",
+      "romaji": "mikaeri",
+      "tokens": [
+        {
+          "text": "見返り",
+          "kana": "みかえり"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "本钱，本金",
+      "japanese": "元手",
+      "kana": "もとで",
+      "romaji": "motode",
+      "tokens": [
+        {
+          "text": "元手",
+          "kana": "もとで"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "第一代祖先；鼻祖，创始者",
+      "japanese": "元祖",
+      "kana": "がんそ",
+      "romaji": "ganso",
+      "tokens": [
+        {
+          "text": "元祖",
+          "kana": "がんそ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "原点，基准点；出发点，根源",
+      "japanese": "原点",
+      "kana": "げんてん",
+      "romaji": "genten",
+      "tokens": [
+        {
+          "text": "原点",
+          "kana": "げんてん"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "动力，原动力",
+      "japanese": "原動力",
+      "kana": "げんどうりょく",
+      "romaji": "gendouryoku",
+      "tokens": [
+        {
+          "text": "原動力",
+          "kana": "げんどうりょく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "原油",
+      "japanese": "原油",
+      "kana": "げんゆ",
+      "romaji": "gen'yu",
+      "tokens": [
+        {
+          "text": "原油",
+          "kana": "げんゆ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "幻想",
+      "japanese": "幻想",
+      "kana": "げんそう",
+      "romaji": "gensou",
+      "tokens": [
+        {
+          "text": "幻想",
+          "kana": "げんそう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "减税",
+      "japanese": "減税",
+      "kana": "げんぜい",
+      "romaji": "genzei",
+      "tokens": [
+        {
+          "text": "減税",
+          "kana": "げんぜい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "现役（人员）；应届高考考生",
+      "japanese": "現役",
+      "kana": "げんえき",
+      "romaji": "gen'eki",
+      "tokens": [
+        {
+          "text": "現役",
+          "kana": "げんえき"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "措辞",
+      "japanese": "言い回し",
+      "kana": "いいまわし",
+      "romaji": "iimawashi",
+      "tokens": [
+        {
+          "text": "言い回し",
+          "kana": "いいまわし"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "提及，说到",
+      "japanese": "言及",
+      "kana": "げんきゅう",
+      "romaji": "genkyuu",
+      "tokens": [
+        {
+          "text": "言及",
+          "kana": "げんきゅう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "言语和行动，言行",
+      "japanese": "言動",
+      "kana": "げんどう",
+      "romaji": "gendou",
+      "tokens": [
+        {
+          "text": "言動",
+          "kana": "げんどう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "大腿",
+      "japanese": "もも",
+      "kana": "もも",
+      "romaji": "momo",
+      "tokens": [
+        {
+          "text": "もも",
+          "kana": "もも"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "顾问",
+      "japanese": "顧問",
+      "kana": "こもん",
+      "romaji": "komon",
+      "tokens": [
+        {
+          "text": "顧問",
+          "kana": "こもん"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "（视觉、听觉、嗅觉、味觉、触觉的）五感",
+      "japanese": "五感",
+      "kana": "ごかん",
+      "romaji": "gokan",
+      "tokens": [
+        {
+          "text": "五感",
+          "kana": "ごかん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "后援，支援；援军",
+      "japanese": "後援",
+      "kana": "こうえん",
+      "romaji": "kouen",
+      "tokens": [
+        {
+          "text": "後援",
+          "kana": "こうえん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "运转失误，控制失灵",
+      "japanese": "誤作動",
+      "kana": "ごさどう",
+      "romaji": "gosadou",
+      "tokens": [
+        {
+          "text": "誤作動",
+          "kana": "ごさどう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "交错，错杂",
+      "japanese": "交錯",
+      "kana": "こうさく",
+      "romaji": "kousaku",
+      "tokens": [
+        {
+          "text": "交錯",
+          "kana": "こうさく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "效能，功效",
+      "japanese": "効能",
+      "kana": "こうのう",
+      "romaji": "kounou",
+      "tokens": [
+        {
+          "text": "効能",
+          "kana": "こうのう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "厚生，保健",
+      "japanese": "厚生",
+      "kana": "こうせい",
+      "romaji": "kousei",
+      "tokens": [
+        {
+          "text": "厚生",
+          "kana": "こうせい"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "插嘴，干预",
+      "japanese": "口出し",
+      "kana": "くちだし",
+      "romaji": "kuchidashi",
+      "tokens": [
+        {
+          "text": "口出し",
+          "kana": "くちだし"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "工序；阶段",
+      "japanese": "工程",
+      "kana": "こうてい",
+      "romaji": "koutei",
+      "tokens": [
+        {
+          "text": "工程",
+          "kana": "こうてい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "设法筹措；经济状况",
+      "japanese": "工面",
+      "kana": "くめん",
+      "romaji": "kumen",
+      "tokens": [
+        {
+          "text": "工面",
+          "kana": "くめん"
+        }
+      ]
+    }
+  ]
+}

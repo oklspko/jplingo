@@ -58,12 +58,12 @@
                   <p class="pack-desc">{{ pack.description }}</p>
                   <div class="course-list">
                     <a
-                      v-if="pack.id === 'jp-gaokao'"
+                      v-if="isVocabPack(pack.id)"
                       class="course-card mixed-test-card"
-                      :href="mixedGameUrl"
+                      :href="mixedGameUrl(pack.id)"
                     >
                       <div class="course-title">🎯 无分类测试</div>
-                      <div class="course-meta">已掌握 {{ mixedMasteredCount }} 词 · 连续答对 5 次即掌握</div>
+                      <div class="course-meta">已掌握 {{ mixedMasteredCount(pack.id) }} 词 · 连续答对 5 次即掌握</div>
                     </a>
                     <a
                       v-for="courseId in pack.courses"
@@ -135,9 +135,10 @@ import {
   fetchCoursePacks,
   fetchCourseMeta,
   sortCoursePacks,
-  GAOKAO_MIXED_COURSE_ID,
+  isVocabPack,
+  mixedCourseIdOf,
 } from "~/composables/jp/useJpCourses";
-import { useJpGaokaoMemory } from "~/composables/jp/useJpGaokaoMemory";
+import { useJpVocabMemory } from "~/composables/jp/useJpGaokaoMemory";
 import {
   importPackFromUrl,
   importPackFromFile,
@@ -155,10 +156,13 @@ const courseIndex = ref<CourseIndex>({});
 const loading = ref(true);
 const importedPackIds = ref<Set<string>>(new Set());
 
-// 高考「无分类测试」进度（已掌握词数）
-const gaokaoMemory = useJpGaokaoMemory();
-const mixedMasteredCount = ref(0);
-const mixedGameUrl = `/jp-game/jp-gaokao/${GAOKAO_MIXED_COURSE_ID}`;
+// 各词汇包「无分类测试」进度（已掌握词数）
+function mixedGameUrl(packId: string) {
+  return `/jp-game/${packId}/${mixedCourseIdOf(packId)}`;
+}
+function mixedMasteredCount(packId: string) {
+  return useJpVocabMemory(packId).masteredCount();
+}
 
 // 导入弹窗状态
 const showImport = ref(false);
@@ -191,7 +195,6 @@ async function loadAll() {
     const packs = sortCoursePacks(await fetchCoursePacks());
     coursePacks.value = packs;
     importedPackIds.value = new Set(listImportedPacks().map((p) => p.id));
-    mixedMasteredCount.value = gaokaoMemory.masteredCount();
 
     // 默认展开第一个（排序后是五十音）；已展开过则不重置
     if (expandedPacks.value.size === 0 && packs.length > 0) {

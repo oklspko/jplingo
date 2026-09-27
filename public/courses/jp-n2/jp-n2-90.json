@@ -1,0 +1,398 @@
+{
+  "id": "jp-n2-90",
+  "coursePackId": "jp-n2",
+  "title": "动词 19",
+  "order": 90,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "考察，研究",
+      "japanese": "考察",
+      "kana": "こうさつ",
+      "romaji": "kousatsu",
+      "tokens": [
+        {
+          "text": "考察",
+          "kana": "こうさつ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "系，结，捆扎；梳扎（头发）",
+      "japanese": "結う",
+      "kana": "ゆう",
+      "romaji": "yuu",
+      "tokens": [
+        {
+          "text": "結う",
+          "kana": "ゆう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "分割；分期付款",
+      "japanese": "分割",
+      "kana": "ぶんかつ",
+      "romaji": "bunkatsu",
+      "tokens": [
+        {
+          "text": "分割",
+          "kana": "ぶんかつ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "刻上；铭刻（于心）",
+      "japanese": "刻み込む",
+      "kana": "きざみこむ",
+      "romaji": "kizamikomu",
+      "tokens": [
+        {
+          "text": "刻み込む",
+          "kana": "きざみこむ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "自制（品）；自己写作（的作品）",
+      "japanese": "自作",
+      "kana": "じさく",
+      "romaji": "jisaku",
+      "tokens": [
+        {
+          "text": "自作",
+          "kana": "じさく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "选拔",
+      "japanese": "選抜",
+      "kana": "せんばつ",
+      "romaji": "senbatsu",
+      "tokens": [
+        {
+          "text": "選抜",
+          "kana": "せんばつ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "重读，再读",
+      "japanese": "読み返す",
+      "kana": "よみかえす",
+      "romaji": "yomikaesu",
+      "tokens": [
+        {
+          "text": "読み返す",
+          "kana": "よみかえす"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "挑选，筛选，拣选",
+      "japanese": "選別",
+      "kana": "せんべつ",
+      "romaji": "senbetsu",
+      "tokens": [
+        {
+          "text": "選別",
+          "kana": "せんべつ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（供）使用，使……有用",
+      "japanese": "役立てる",
+      "kana": "やくだてる",
+      "romaji": "yakudateru",
+      "tokens": [
+        {
+          "text": "役立てる",
+          "kana": "やくだてる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "联结，连接",
+      "japanese": "連結",
+      "kana": "れんけつ",
+      "romaji": "renketsu",
+      "tokens": [
+        {
+          "text": "連結",
+          "kana": "れんけつ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "选出，选拔出来",
+      "japanese": "選出",
+      "kana": "せんしゅつ",
+      "romaji": "senshutsu",
+      "tokens": [
+        {
+          "text": "選出",
+          "kana": "せんしゅつ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "混杂，掺杂，混在一起",
+      "japanese": "入り交じる",
+      "kana": "いりまじる",
+      "romaji": "irimajiru",
+      "tokens": [
+        {
+          "text": "入り交じる",
+          "kana": "いりまじる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "装进，装载货物，装货",
+      "japanese": "積み込む",
+      "kana": "つみこむ",
+      "romaji": "tsumikomu",
+      "tokens": [
+        {
+          "text": "積み込む",
+          "kana": "つみこむ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "密闭，密封",
+      "japanese": "密閉",
+      "kana": "みっぺい",
+      "romaji": "mippei",
+      "tokens": [
+        {
+          "text": "密閉",
+          "kana": "みっぺい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "提问；开始问",
+      "japanese": "問いかける",
+      "kana": "といかける",
+      "romaji": "toikakeru",
+      "tokens": [
+        {
+          "text": "問いかける",
+          "kana": "といかける"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "骤冷，气温急剧下降；着凉，受寒",
+      "japanese": "冷え込む",
+      "kana": "ひえこむ",
+      "romaji": "hiekomu",
+      "tokens": [
+        {
+          "text": "冷え込む",
+          "kana": "ひえこむ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "贷借，借出和借入",
+      "japanese": "貸し借り",
+      "kana": "かしかり",
+      "romaji": "kashikari",
+      "tokens": [
+        {
+          "text": "貸し借り",
+          "kana": "かしかり"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "拆毁，拆除，拆掉（建筑物）",
+      "japanese": "取り壊す",
+      "kana": "とりこわす",
+      "romaji": "torikowasu",
+      "tokens": [
+        {
+          "text": "取り壊す",
+          "kana": "とりこわす"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "倒过来算，倒算，倒数",
+      "japanese": "逆算",
+      "kana": "ぎゃくさん",
+      "romaji": "gyakusan",
+      "tokens": [
+        {
+          "text": "逆算",
+          "kana": "ぎゃくさん"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "列举，枚举，一一列出",
+      "japanese": "列挙",
+      "kana": "れっきょ",
+      "romaji": "rekkyo",
+      "tokens": [
+        {
+          "text": "列挙",
+          "kana": "れっきょ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "养育，抚养",
+      "japanese": "養育",
+      "kana": "よういく",
+      "romaji": "youiku",
+      "tokens": [
+        {
+          "text": "養育",
+          "kana": "よういく"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "（电视）播送",
+      "japanese": "放映",
+      "kana": "ほうえい",
+      "romaji": "houei",
+      "tokens": [
+        {
+          "text": "放映",
+          "kana": "ほうえい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "（电脑）输入",
+      "japanese": "インプット",
+      "kana": "いんぷっと",
+      "romaji": "inputto",
+      "tokens": [
+        {
+          "text": "インプット",
+          "kana": "いんぷっと"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "重做，改做；室内改装，翻修，装修",
+      "japanese": "リフォーム",
+      "kana": "りふぉうむ",
+      "romaji": "rifuoumu",
+      "tokens": [
+        {
+          "text": "リフォーム",
+          "kana": "りふぉうむ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "解除合同，废约",
+      "japanese": "解約",
+      "kana": "かいやく",
+      "romaji": "kaiyaku",
+      "tokens": [
+        {
+          "text": "解約",
+          "kana": "かいやく"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "强行推销（的人）；强迫别人接受",
+      "japanese": "押し売り",
+      "kana": "おしうり",
+      "romaji": "oshiuri",
+      "tokens": [
+        {
+          "text": "押し売り",
+          "kana": "おしうり"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "扑过来，冲过来；（被吸引得）扑过去",
+      "japanese": "飛びつく",
+      "kana": "とびつく",
+      "romaji": "tobitsuku",
+      "tokens": [
+        {
+          "text": "飛びつく",
+          "kana": "とびつく"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "申报，登记，报告",
+      "japanese": "届け出る",
+      "kana": "とどけでる",
+      "romaji": "todokederu",
+      "tokens": [
+        {
+          "text": "届け出る",
+          "kana": "とどけでる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "熟读，精读，品读",
+      "japanese": "熟読",
+      "kana": "じゅくどく",
+      "romaji": "jukudoku",
+      "tokens": [
+        {
+          "text": "熟読",
+          "kana": "じゅくどく"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "停滞不前，进度缓慢",
+      "japanese": "伸び悩む",
+      "kana": "のびなやむ",
+      "romaji": "nobinayamu",
+      "tokens": [
+        {
+          "text": "伸び悩む",
+          "kana": "のびなやむ"
+        }
+      ]
+    }
+  ]
+}

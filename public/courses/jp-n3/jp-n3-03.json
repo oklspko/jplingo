@@ -1,0 +1,398 @@
+{
+  "id": "jp-n3-03",
+  "coursePackId": "jp-n3",
+  "title": "名词 3",
+  "order": 3,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "二十岁",
+      "japanese": "二十歳",
+      "kana": "はたち",
+      "romaji": "hatachi",
+      "tokens": [
+        {
+          "text": "二十歳",
+          "kana": "はたち"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "（从六月到七月持续下雨）梅雨季节",
+      "japanese": "梅雨",
+      "kana": "つゆ",
+      "romaji": "tsuyu",
+      "tokens": [
+        {
+          "text": "梅雨",
+          "kana": "つゆ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "博物馆",
+      "japanese": "博物館",
+      "kana": "はくぶつかん",
+      "romaji": "hakubutsukan",
+      "tokens": [
+        {
+          "text": "博物館",
+          "kana": "はくぶつかん"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "皮，表皮",
+      "japanese": "皮",
+      "kana": "かわ",
+      "romaji": "kawa",
+      "tokens": [
+        {
+          "text": "皮",
+          "kana": "かわ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "幼儿园",
+      "japanese": "幼稚園",
+      "kana": "ようちえん",
+      "romaji": "youchien",
+      "tokens": [
+        {
+          "text": "幼稚園",
+          "kana": "ようちえん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "夏季简便和服，浴衣",
+      "japanese": "浴衣",
+      "kana": "ゆかた",
+      "romaji": "yukata",
+      "tokens": [
+        {
+          "text": "浴衣",
+          "kana": "ゆかた"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "零",
+      "japanese": "零",
+      "kana": "れい",
+      "romaji": "rei",
+      "tokens": [
+        {
+          "text": "零",
+          "kana": "れい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "学年；……年级",
+      "japanese": "学年",
+      "kana": "がくねん",
+      "romaji": "gakunen",
+      "tokens": [
+        {
+          "text": "学年",
+          "kana": "がくねん"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（表示行政区域的）……县",
+      "japanese": "県",
+      "kana": "けん",
+      "romaji": "ken",
+      "tokens": [
+        {
+          "text": "県",
+          "kana": "けん"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "……号线",
+      "japanese": "番線",
+      "kana": "ばんせん",
+      "romaji": "bansen",
+      "tokens": [
+        {
+          "text": "番線",
+          "kana": "ばんせん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "亚洲",
+      "japanese": "アジア",
+      "kana": "あじあ",
+      "romaji": "ajia",
+      "tokens": [
+        {
+          "text": "アジア",
+          "kana": "あじあ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "这边那边，到处",
+      "japanese": "あちこち",
+      "kana": "あちこち",
+      "romaji": "achikochi",
+      "tokens": [
+        {
+          "text": "あちこち",
+          "kana": "あちこち"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "地址，住址",
+      "japanese": "アドレス",
+      "kana": "あどれす",
+      "romaji": "adoresu",
+      "tokens": [
+        {
+          "text": "アドレス",
+          "kana": "あどれす"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "动画片，动漫",
+      "japanese": "アニメ",
+      "kana": "あにめ",
+      "romaji": "anime",
+      "tokens": [
+        {
+          "text": "アニメ",
+          "kana": "あにめ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "若干，几个",
+      "japanese": "いくつか",
+      "kana": "いくつか",
+      "romaji": "ikutsuka",
+      "tokens": [
+        {
+          "text": "いくつか",
+          "kana": "いくつか"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "意大利",
+      "japanese": "イタリア",
+      "kana": "いたりあ",
+      "romaji": "itaria",
+      "tokens": [
+        {
+          "text": "イタリア",
+          "kana": "いたりあ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "印度",
+      "japanese": "インド",
+      "kana": "いんど",
+      "romaji": "indo",
+      "tokens": [
+        {
+          "text": "インド",
+          "kana": "いんど"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "能源，能量；精力",
+      "japanese": "エネルギー",
+      "kana": "えねるぎい",
+      "romaji": "enerugii",
+      "tokens": [
+        {
+          "text": "エネルギー",
+          "kana": "えねるぎい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "虾",
+      "japanese": "えび",
+      "kana": "えび",
+      "romaji": "ebi",
+      "tokens": [
+        {
+          "text": "えび",
+          "kana": "えび"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "发动机，引擎",
+      "japanese": "エンジン",
+      "kana": "えんじん",
+      "romaji": "enjin",
+      "tokens": [
+        {
+          "text": "エンジン",
+          "kana": "えんじん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "恩惠，托……的福；由于……的缘故",
+      "japanese": "おかげ",
+      "kana": "おかげ",
+      "romaji": "okage",
+      "tokens": [
+        {
+          "text": "おかげ",
+          "kana": "おかげ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "奥运会",
+      "japanese": "オリンピック",
+      "kana": "おりんぴっく",
+      "romaji": "orinpikku",
+      "tokens": [
+        {
+          "text": "オリンピック",
+          "kana": "おりんぴっく"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "橙子，柑橘",
+      "japanese": "オレンジ",
+      "kana": "おれんじ",
+      "romaji": "orenji",
+      "tokens": [
+        {
+          "text": "オレンジ",
+          "kana": "おれんじ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "您的家，贵府，贵公司；（オタク）专注于爱好和其他兴趣，不喜欢社交的人，御宅族",
+      "japanese": "お宅",
+      "kana": "おたく",
+      "romaji": "otaku",
+      "tokens": [
+        {
+          "text": "お宅",
+          "kana": "おたく"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "零钱",
+      "japanese": "お釣り",
+      "kana": "おつり",
+      "romaji": "otsuri",
+      "tokens": [
+        {
+          "text": "お釣り",
+          "kana": "おつり"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "窗帘",
+      "japanese": "カーテン",
+      "kana": "かあてん",
+      "romaji": "kaaten",
+      "tokens": [
+        {
+          "text": "カーテン",
+          "kana": "かあてん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "气体；煤气",
+      "japanese": "ガス",
+      "kana": "がす",
+      "romaji": "gasu",
+      "tokens": [
+        {
+          "text": "ガス",
+          "kana": "がす"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "汽油",
+      "japanese": "ガソリン",
+      "kana": "がそりん",
+      "romaji": "gasorin",
+      "tokens": [
+        {
+          "text": "ガソリン",
+          "kana": "がそりん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "加油站",
+      "japanese": "ガソリンスタンド",
+      "kana": "がそりんすたんど",
+      "romaji": "gasorinsutando",
+      "tokens": [
+        {
+          "text": "ガソリンスタンド",
+          "kana": "がそりんすたんど"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "玻璃",
+      "japanese": "ガラス",
+      "kana": "がらす",
+      "romaji": "garasu",
+      "tokens": [
+        {
+          "text": "ガラス",
+          "kana": "がらす"
+        }
+      ]
+    }
+  ]
+}

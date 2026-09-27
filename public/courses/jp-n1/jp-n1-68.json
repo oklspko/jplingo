@@ -1,0 +1,398 @@
+{
+  "id": "jp-n1-68",
+  "coursePackId": "jp-n1",
+  "title": "名词 68",
+  "order": 68,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "好坏，是非；赞成与反对",
+      "japanese": "可否",
+      "kana": "かひ",
+      "romaji": "kahi",
+      "tokens": [
+        {
+          "text": "可否",
+          "kana": "かひ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "绿洲；抚慰身心的事物",
+      "japanese": "オアシス",
+      "kana": "おあしす",
+      "romaji": "oashisu",
+      "tokens": [
+        {
+          "text": "オアシス",
+          "kana": "おあしす"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "内情，内幕；其实，说实在的",
+      "japanese": "内実",
+      "kana": "ないじつ",
+      "romaji": "naijitsu",
+      "tokens": [
+        {
+          "text": "内実",
+          "kana": "ないじつ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "条例",
+      "japanese": "条例",
+      "kana": "じょうれい",
+      "romaji": "jourei",
+      "tokens": [
+        {
+          "text": "条例",
+          "kana": "じょうれい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "不同的颜色；特色",
+      "japanese": "異色",
+      "kana": "いしょく",
+      "romaji": "ishoku",
+      "tokens": [
+        {
+          "text": "異色",
+          "kana": "いしょく"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "远隔，远距离",
+      "japanese": "遠隔",
+      "kana": "えんかく",
+      "romaji": "enkaku",
+      "tokens": [
+        {
+          "text": "遠隔",
+          "kana": "えんかく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "优惠，特殊利益",
+      "japanese": "特典",
+      "kana": "とくてん",
+      "romaji": "tokuten",
+      "tokens": [
+        {
+          "text": "特典",
+          "kana": "とくてん"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "抿嘴笑",
+      "japanese": "含み笑い",
+      "kana": "ふくみわらい",
+      "romaji": "fukumiwarai",
+      "tokens": [
+        {
+          "text": "含み笑い",
+          "kana": "ふくみわらい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（动）脑筋，（下）工夫",
+      "japanese": "趣向",
+      "kana": "しゅこう",
+      "romaji": "shukou",
+      "tokens": [
+        {
+          "text": "趣向",
+          "kana": "しゅこう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "（文章中的）词句",
+      "japanese": "文言",
+      "kana": "もんごん",
+      "romaji": "mongon",
+      "tokens": [
+        {
+          "text": "文言",
+          "kana": "もんごん"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "近海",
+      "japanese": "近海",
+      "kana": "きんかい",
+      "romaji": "kinkai",
+      "tokens": [
+        {
+          "text": "近海",
+          "kana": "きんかい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "附笔，跋，后记",
+      "japanese": "後書き",
+      "kana": "あとがき",
+      "romaji": "atogaki",
+      "tokens": [
+        {
+          "text": "後書き",
+          "kana": "あとがき"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "第一人，首屈一指的人",
+      "japanese": "第一人者",
+      "kana": "だいいちにんしゃ",
+      "romaji": "daiichininsha",
+      "tokens": [
+        {
+          "text": "第一人者",
+          "kana": "だいいちにんしゃ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "年轻（人）",
+      "japanese": "若年",
+      "kana": "じゃくねん",
+      "romaji": "jakunen",
+      "tokens": [
+        {
+          "text": "若年",
+          "kana": "じゃくねん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "行距；行间，字里行间",
+      "japanese": "行間",
+      "kana": "ぎょうかん",
+      "romaji": "gyoukan",
+      "tokens": [
+        {
+          "text": "行間",
+          "kana": "ぎょうかん"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "随感",
+      "japanese": "随想",
+      "kana": "ずいそう",
+      "romaji": "zuisou",
+      "tokens": [
+        {
+          "text": "随想",
+          "kana": "ずいそう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "深奥的妙趣，乐趣",
+      "japanese": "醍醐[だいご]味",
+      "kana": "だいごみ",
+      "romaji": "daigomi",
+      "tokens": [
+        {
+          "text": "醍醐[だいご]味",
+          "kana": "だいごみ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "世系，世家",
+      "japanese": "家系",
+      "kana": "かけい",
+      "romaji": "kakei",
+      "tokens": [
+        {
+          "text": "家系",
+          "kana": "かけい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "素不相识，陌生",
+      "japanese": "見ず知らず",
+      "kana": "みずしらず",
+      "romaji": "mizushirazu",
+      "tokens": [
+        {
+          "text": "見ず知らず",
+          "kana": "みずしらず"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "先锋，前卫，先驱",
+      "japanese": "前衛",
+      "kana": "ぜんえい",
+      "romaji": "zen'ei",
+      "tokens": [
+        {
+          "text": "前衛",
+          "kana": "ぜんえい"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "相扑力士",
+      "japanese": "力士",
+      "kana": "りきし",
+      "romaji": "rikishi",
+      "tokens": [
+        {
+          "text": "力士",
+          "kana": "りきし"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "（比赛中的）成绩，得分",
+      "japanese": "スコア",
+      "kana": "すこあ",
+      "romaji": "sukoa",
+      "tokens": [
+        {
+          "text": "スコア",
+          "kana": "すこあ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "击球时两脚叉开的姿势；立场，立足点",
+      "japanese": "スタンス",
+      "kana": "すたんす",
+      "romaji": "sutansu",
+      "tokens": [
+        {
+          "text": "スタンス",
+          "kana": "すたんす"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "内外，里外；国内外；左右，上下",
+      "japanese": "内外",
+      "kana": "ないがい",
+      "romaji": "naigai",
+      "tokens": [
+        {
+          "text": "内外",
+          "kana": "ないがい"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "营养师",
+      "japanese": "栄養士",
+      "kana": "えいようし",
+      "romaji": "eiyoushi",
+      "tokens": [
+        {
+          "text": "栄養士",
+          "kana": "えいようし"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "凡人，庸人",
+      "japanese": "凡人",
+      "kana": "ぼんじん",
+      "romaji": "bonjin",
+      "tokens": [
+        {
+          "text": "凡人",
+          "kana": "ぼんじん"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "论据",
+      "japanese": "論拠",
+      "kana": "ろんきょ",
+      "romaji": "ronkyo",
+      "tokens": [
+        {
+          "text": "論拠",
+          "kana": "ろんきょ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "小行星",
+      "japanese": "小惑星",
+      "kana": "しょうわくせい",
+      "romaji": "shouwakusei",
+      "tokens": [
+        {
+          "text": "小惑星",
+          "kana": "しょうわくせい"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "通货紧缩",
+      "japanese": "デフレ",
+      "kana": "でふれ",
+      "romaji": "defure",
+      "tokens": [
+        {
+          "text": "デフレ",
+          "kana": "でふれ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "西洋画，油画；西方影片，外国影片",
+      "japanese": "洋画",
+      "kana": "ようが",
+      "romaji": "youga",
+      "tokens": [
+        {
+          "text": "洋画",
+          "kana": "ようが"
+        }
+      ]
+    }
+  ]
+}

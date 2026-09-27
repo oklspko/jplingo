@@ -1,0 +1,21 @@
+{
+  "id": "jp-n2-110",
+  "coursePackId": "jp-n2",
+  "title": "其他 4",
+  "order": 110,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "前，以前；前一个",
+      "japanese": "前〜",
+      "kana": "前〜",
+      "romaji": "前~",
+      "tokens": [
+        {
+          "text": "前〜",
+          "kana": "前〜"
+        }
+      ]
+    }
+  ]
+}

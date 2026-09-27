@@ -1,0 +1,398 @@
+{
+  "id": "jp-n4-27",
+  "coursePackId": "jp-n4",
+  "title": "其他 1",
+  "order": 27,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "简单的，容易……的",
+      "japanese": "〜やすい",
+      "kana": "〜やすい",
+      "romaji": "~yasui",
+      "tokens": [
+        {
+          "text": "〜やすい",
+          "kana": "〜やすい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "超过……；过分……，过度……",
+      "japanese": "〜過ぎ",
+      "kana": "〜過ぎ",
+      "romaji": "~過gi",
+      "tokens": [
+        {
+          "text": "〜過ぎ",
+          "kana": "〜過ぎ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "难……",
+      "japanese": "〜にくい",
+      "kana": "〜にくい",
+      "romaji": "~nikui",
+      "tokens": [
+        {
+          "text": "〜にくい",
+          "kana": "〜にくい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "（人的复数）……们",
+      "japanese": "〜達",
+      "kana": "〜達",
+      "romaji": "~達",
+      "tokens": [
+        {
+          "text": "〜達",
+          "kana": "〜達"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "（附在表示年月、时间、地点的词语后）整整……，整个……",
+      "japanese": "〜中",
+      "kana": "〜中",
+      "romaji": "~中",
+      "tokens": [
+        {
+          "text": "〜中",
+          "kana": "〜中"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "……杯；计算船、章鱼、乌贼等的量词",
+      "japanese": "〜杯",
+      "kana": "〜杯",
+      "romaji": "~杯",
+      "tokens": [
+        {
+          "text": "〜杯",
+          "kana": "〜杯"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "第……号，第……个",
+      "japanese": "〜番目",
+      "kana": "〜番目",
+      "romaji": "~番目",
+      "tokens": [
+        {
+          "text": "〜番目",
+          "kana": "〜番目"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "（表达敬意）……先生，……女士",
+      "japanese": "〜様",
+      "kana": "〜様",
+      "romaji": "~様",
+      "tokens": [
+        {
+          "text": "〜様",
+          "kana": "〜様"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "（吃惊、感动）啊，呀；（打招呼）喂",
+      "japanese": "あ",
+      "kana": "あ",
+      "romaji": "a",
+      "tokens": [
+        {
+          "text": "あ",
+          "kana": "あ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "不，不是",
+      "japanese": "いや",
+      "kana": "いや",
+      "romaji": "iya",
+      "tokens": [
+        {
+          "text": "いや",
+          "kana": "いや"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "（催促或邀请别人）快，喂；（犹豫或感到为难时）唉",
+      "japanese": "さあ",
+      "kana": "さあ",
+      "romaji": "saa",
+      "tokens": [
+        {
+          "text": "さあ",
+          "kana": "さあ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "每……",
+      "japanese": "ずつ",
+      "kana": "ずつ",
+      "romaji": "zutsu",
+      "tokens": [
+        {
+          "text": "ずつ",
+          "kana": "ずつ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "是啊，就是；（突然想到）对了",
+      "japanese": "そうだ",
+      "kana": "そうだ",
+      "romaji": "souda",
+      "tokens": [
+        {
+          "text": "そうだ",
+          "kana": "そうだ"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "接着，其次",
+      "japanese": "次に",
+      "kana": "つぎに",
+      "romaji": "tsugini",
+      "tokens": [
+        {
+          "text": "次に",
+          "kana": "つぎに"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "……年级生",
+      "japanese": "年生",
+      "kana": "ねんせい",
+      "romaji": "nensei",
+      "tokens": [
+        {
+          "text": "年生",
+          "kana": "ねんせい"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "……方法",
+      "japanese": "〜方",
+      "kana": "〜方",
+      "romaji": "~方",
+      "tokens": [
+        {
+          "text": "〜方",
+          "kana": "〜方"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "某，某个",
+      "japanese": "ある〜",
+      "kana": "ある〜",
+      "romaji": "aru~",
+      "tokens": [
+        {
+          "text": "ある〜",
+          "kana": "ある〜"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "（犹豫或思考时）啊，嗯",
+      "japanese": "ええと",
+      "kana": "ええと",
+      "romaji": "eeto",
+      "tokens": [
+        {
+          "text": "ええと",
+          "kana": "ええと"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "不过，可是",
+      "japanese": "けれど",
+      "kana": "けれど",
+      "romaji": "keredo",
+      "tokens": [
+        {
+          "text": "けれど",
+          "kana": "けれど"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "因此，所以；（表示催促）那么，后来",
+      "japanese": "それで",
+      "kana": "それで",
+      "romaji": "sorede",
+      "tokens": [
+        {
+          "text": "それで",
+          "kana": "それで"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "或者，还是",
+      "japanese": "それとも",
+      "kana": "それとも",
+      "romaji": "soretomo",
+      "tokens": [
+        {
+          "text": "それとも",
+          "kana": "それとも"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "如果那样的话",
+      "japanese": "それなら",
+      "kana": "それなら",
+      "romaji": "sorenara",
+      "tokens": [
+        {
+          "text": "それなら",
+          "kana": "それなら"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "而且，还有",
+      "japanese": "それに",
+      "kana": "それに",
+      "romaji": "soreni",
+      "tokens": [
+        {
+          "text": "それに",
+          "kana": "それに"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "可是，然而",
+      "japanese": "だけど",
+      "kana": "だけど",
+      "romaji": "dakedo",
+      "tokens": [
+        {
+          "text": "だけど",
+          "kana": "だけど"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "（惊讶）哦，嘿",
+      "japanese": "へえ",
+      "kana": "へえ",
+      "romaji": "hee",
+      "tokens": [
+        {
+          "text": "へえ",
+          "kana": "へえ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "表示尊敬",
+      "japanese": "ご〜",
+      "kana": "ご〜",
+      "romaji": "go~",
+      "tokens": [
+        {
+          "text": "ご〜",
+          "kana": "ご〜"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "至今，迄今；到此为止",
+      "japanese": "これまで",
+      "kana": "これまで",
+      "romaji": "koremade",
+      "tokens": [
+        {
+          "text": "これまで",
+          "kana": "これまで"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "（对对方的话或之前提到的事情表示反对）可是；即使；听说；因为",
+      "japanese": "だって",
+      "kana": "だって",
+      "romaji": "datte",
+      "tokens": [
+        {
+          "text": "だって",
+          "kana": "だって"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "从事某种买卖的店或人；具有某种性格的人",
+      "japanese": "〜屋",
+      "kana": "〜屋",
+      "romaji": "~屋",
+      "tokens": [
+        {
+          "text": "〜屋",
+          "kana": "〜屋"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "像……般的；……（上）的；关于",
+      "japanese": "〜的",
+      "kana": "〜的",
+      "romaji": "~的",
+      "tokens": [
+        {
+          "text": "〜的",
+          "kana": "〜的"
+        }
+      ]
+    }
+  ]
+}
