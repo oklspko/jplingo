@@ -93,7 +93,8 @@
 
         <!-- ===== 词典状态（不阻塞编辑） ===== -->
         <div v-if="tokenizerError" class="dict-warning">
-          ⚠️ 词典加载失败：自动「生成假名」不可用，请手动填写假名/罗马字，或检查网络后刷新重试。
+          <span>⚠️ 词典加载失败：自动「生成假名」不可用，请手动填写假名/罗马字。</span>
+          <button class="dict-retry-btn" @click="onRetryTokenizer">重试加载</button>
         </div>
         <div v-else-if="!tokenizerReady" class="dict-loading-note">
           <span class="loading-spinner small"></span>
@@ -395,8 +396,13 @@ const aiPrompt = `请帮我制作一个日语学习课程包，主题是「<在�
 const {
   ready: tokenizerReady,
   error: tokenizerError,
+  retry: retryTokenizer,
   analyzeSegment,
 } = useJpTokenizer();
+
+async function onRetryTokenizer() {
+  await retryTokenizer();
+}
 
 // ===== 加载已有课程 =====
 onMounted(loadCourseOptions);
@@ -1209,6 +1215,10 @@ async function copyPrompt() {
 
 /* ===== 词典状态提示 ===== */
 .dict-warning {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 12px;
   margin-bottom: 24px;
   padding: 12px 16px;
   border: 1px solid #fde68a;
@@ -1217,6 +1227,26 @@ async function copyPrompt() {
   color: #92400e;
   font-size: 14px;
   line-height: 1.6;
+}
+
+.dict-retry-btn {
+  padding: 6px 14px;
+  border: 1px solid #fbbf24;
+  border-radius: 8px;
+  background: #fff;
+  color: #92400e;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+  white-space: nowrap;
+}
+
+.dict-retry-btn:hover {
+  background: #fef3c7;
+  border-color: #f59e0b;
+  color: #78350f;
 }
 
 .dict-loading-note {

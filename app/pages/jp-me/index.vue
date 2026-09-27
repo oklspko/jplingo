@@ -33,6 +33,29 @@
           </a>
         </section>
 
+        <!-- ===== 更多入口 ===== -->
+        <section class="me-section">
+          <h2>🧭 更多入口</h2>
+          <div class="links-grid">
+            <a href="/jp-words" class="link-card">
+              <span class="link-icon">🗂️</span>
+              <span class="link-text">
+                <span class="link-label">词库</span>
+                <span class="link-desc">单词检索 · 按等级词性浏览</span>
+              </span>
+              <span class="link-arrow">→</span>
+            </a>
+            <a href="/jp-editor" class="link-card">
+              <span class="link-icon">✏️</span>
+              <span class="link-text">
+                <span class="link-label">编辑器</span>
+                <span class="link-desc">课程制作 · 自定义课程包</span>
+              </span>
+              <span class="link-arrow">→</span>
+            </a>
+          </div>
+        </section>
+
         <!-- ===== 学习统计 ===== -->
         <section class="me-section">
           <h2>📊 学习统计</h2>
@@ -394,6 +417,79 @@ function doReset() {
   font-size: 12px;
   color: #059669;
   margin-top: 6px;
+}
+
+/* 更多入口 */
+.links-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.link-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 20px;
+  background: #ffffff;
+  border: 1px solid #e8f6ff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(186, 230, 253, 0.15);
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s;
+}
+
+.link-card:hover {
+  transform: translateY(-3px);
+  border-color: #bae6fd;
+  box-shadow: 0 8px 24px rgba(125, 211, 252, 0.25);
+}
+
+.link-icon {
+  font-size: 26px;
+  flex-shrink: 0;
+}
+
+.link-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.link-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #075985;
+}
+
+.link-desc {
+  font-size: 12px;
+  color: #7dd3fc;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.link-arrow {
+  flex-shrink: 0;
+  font-size: 18px;
+  color: #7dd3fc;
+  transition: transform 0.2s;
+}
+
+.link-card:hover .link-arrow {
+  transform: translateX(3px);
+  color: #0284c7;
+}
+
+@media (max-width: 768px) {
+  .links-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
 }
 
 /* 关于 */

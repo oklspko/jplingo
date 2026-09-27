@@ -21,8 +21,95 @@
           <div v-if="loading" class="loading">加载中…</div>
 
           <template v-else>
+            <!-- ===== 单词课程收纳（高考日语 + N1–N5）===== -->
+            <section class="vocab-collection" :class="{ expanded: collectionExpanded }">
+              <div
+                class="collection-header"
+                role="button"
+                tabindex="0"
+                @click="collectionExpanded = !collectionExpanded"
+                @keydown.enter.prevent="collectionExpanded = !collectionExpanded"
+                :aria-expanded="collectionExpanded"
+              >
+                <div class="collection-header-left">
+                  <span class="pack-arrow" :class="{ rotated: collectionExpanded }">▶</span>
+                  <span class="collection-icon">📚</span>
+                  <div class="collection-title-block">
+                    <h2>单词课程</h2>
+                    <p class="collection-desc">高考日语 · N1–N5 全部词汇课程，按词性分课 + 无分类测试</p>
+                  </div>
+                </div>
+                <span class="collection-count">{{ vocabPacks.length }} 个课程包</span>
+              </div>
+
+              <transition name="fold">
+                <div v-show="collectionExpanded" class="collection-body">
+                  <section
+                    v-for="pack in vocabPacks"
+                    :key="pack.id"
+                    class="course-pack"
+                    :class="{ expanded: isExpanded(pack.id) }"
+                  >
+                    <!-- 课程包标题（可点击折叠） -->
+                    <div
+                      class="pack-header"
+                      role="button"
+                      tabindex="0"
+                      @click="togglePack(pack.id)"
+                      @keydown.enter.prevent="togglePack(pack.id)"
+                      :aria-expanded="isExpanded(pack.id)"
+                    >
+                      <div class="pack-header-left">
+                        <span class="pack-arrow" :class="{ rotated: isExpanded(pack.id) }">▶</span>
+                        <h2>{{ pack.title }}</h2>
+                        <span class="pack-level">{{ pack.level }}</span>
+                      </div>
+                      <div class="pack-header-right">
+                        <span v-if="isImported(pack.id)" class="imported-badge">已导入</span>
+                        <button
+                          v-if="isImported(pack.id)"
+                          class="remove-pack-btn"
+                          @click.stop="removePack(pack.id)"
+                        >删除</button>
+                        <span class="pack-count">{{ pack.courses.length }} 课</span>
+                      </div>
+                    </div>
+
+                    <!-- 课程列表（可折叠区域） -->
+                    <transition name="fold">
+                      <div v-show="isExpanded(pack.id)" class="course-list-wrapper">
+                        <p class="pack-desc">{{ pack.description }}</p>
+                        <div class="course-list">
+                          <a
+                            v-if="isVocabPack(pack.id)"
+                            class="course-card mixed-test-card"
+                            :href="mixedGameUrl(pack.id)"
+                          >
+                            <div class="course-title">🎯 无分类测试</div>
+                            <div class="course-meta">已掌握 {{ mixedMasteredCount(pack.id) }} 词 · 连续答对 5 次即掌握</div>
+                          </a>
+                          <a
+                            v-for="courseId in pack.courses"
+                            :key="courseId"
+                            class="course-card"
+                            :href="`/jp-study/${pack.id}/${courseId}`"
+                          >
+                            <div class="course-title">{{ getCourseTitle(pack.id, courseId) }}</div>
+                            <div class="course-meta">
+                              {{ getCourseCount(pack.id, courseId) }} 题
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </transition>
+                  </section>
+                </div>
+              </transition>
+            </section>
+
+            <!-- ===== 其他课程包（五十音 / 句子生长等）===== -->
             <section
-              v-for="(pack, index) in coursePacks"
+              v-for="pack in nonVocabPacks"
               :key="pack.id"
               class="course-pack"
               :class="{ expanded: isExpanded(pack.id) }"
@@ -129,7 +216,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
+import { computed, onMounted, ref } from "vue";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
 import {
   fetchCoursePacks,
@@ -155,6 +242,11 @@ const coursePacks = ref<JpCoursePack[]>([]);
 const courseIndex = ref<CourseIndex>({});
 const loading = ref(true);
 const importedPackIds = ref<Set<string>>(new Set());
+
+// 单词课程收纳：把 6 个词汇包（高考日语 + N5–N1）归为一组，点开使用
+const collectionExpanded = ref(false);
+const vocabPacks = computed(() => coursePacks.value.filter((p) => isVocabPack(p.id)));
+const nonVocabPacks = computed(() => coursePacks.value.filter((p) => !isVocabPack(p.id)));
 
 // 各词汇包「无分类测试」进度（已掌握词数）
 function mixedGameUrl(packId: string) {
@@ -196,9 +288,9 @@ async function loadAll() {
     coursePacks.value = packs;
     importedPackIds.value = new Set(listImportedPacks().map((p) => p.id));
 
-    // 默认展开第一个（排序后是五十音）；已展开过则不重置
-    if (expandedPacks.value.size === 0 && packs.length > 0) {
-      expandedPacks.value = new Set([packs[0].id]);
+    // 默认展开第一个非词汇包（排序后是五十音）；已展开过则不重置
+    if (expandedPacks.value.size === 0 && nonVocabPacks.value.length > 0) {
+      expandedPacks.value = new Set([nonVocabPacks.value[0].id]);
     }
 
     for (const pack of packs) {
@@ -379,6 +471,129 @@ async function removePack(packId: string) {
   color: #7dd3fc;
   padding: 80px 0;
   font-size: 16px;
+}
+
+/* ===== 单词课程收纳 ===== */
+.vocab-collection {
+  margin-bottom: 20px;
+  border: 1px solid #bae6fd;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 2px 12px rgba(186, 230, 253, 0.18);
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.vocab-collection.expanded {
+  box-shadow: 0 10px 36px rgba(56, 189, 248, 0.28);
+  border-color: #7dd3fc;
+}
+
+.collection-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 22px 24px;
+  background: linear-gradient(120deg, #e0f2fe 0%, #d4efff 50%, #c7edff 100%);
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: left;
+  transition: background 0.2s;
+}
+
+.collection-header:hover {
+  background: linear-gradient(120deg, #d4efff 0%, #c7edff 100%);
+}
+
+.collection-header-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+  flex: 1;
+}
+
+.collection-icon {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  box-shadow: 0 6px 18px rgba(2, 132, 199, 0.35);
+}
+
+.collection-title-block {
+  min-width: 0;
+}
+
+.collection-title-block h2 {
+  font-size: 22px;
+  margin: 0;
+  color: #075985;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.collection-desc {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: #0369a1;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.collection-count {
+  flex-shrink: 0;
+  padding: 6px 14px;
+  background: rgba(255, 255, 255, 0.85);
+  color: #0284c7;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 999px;
+}
+
+.collection-body {
+  padding: 16px;
+  background: #f8fcff;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@media (max-width: 768px) {
+  .collection-header {
+    padding: 16px 18px;
+    gap: 10px;
+  }
+  .collection-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    border-radius: 12px;
+  }
+  .collection-title-block h2 {
+    font-size: 18px;
+  }
+  .collection-desc {
+    font-size: 12px;
+  }
+  .collection-count {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  .collection-body {
+    padding: 10px;
+    gap: 10px;
+  }
 }
 
 /* ===== 课程包 ===== */

@@ -49,21 +49,63 @@ interface Segment {
   romaji: string;
 }
 
+// 模块级单例缓存：词典约 18MB（解压后更大），跨页面复用已构建的 tokenizer，
+// 避免在「编辑器 ↔ 其他页」来回切换时反复下载、解压、重建，重复进入编辑器即秒开。
+let cachedTokenizer: any = null;
+let building: Promise<any> | null = null;
+
+async function buildTokenizer(): Promise<any> {
+  if (cachedTokenizer) return cachedTokenizer;
+  // 复用进行中的构建，避免并发重复下载
+  if (!building) {
+    building = (async () => {
+      const builder = new kuromoji.TokenizerBuilder({ loader: customLoader });
+      return await builder.build();
+    })();
+  }
+  try {
+    const t = await building;
+    cachedTokenizer = t;
+    return t;
+  } finally {
+    building = null;
+  }
+}
+
 export function useJpTokenizer() {
-  const ready = ref(false);
+  const ready = ref(!!cachedTokenizer);
   const error = ref("");
-  let tokenizer: any = null;
+  let tokenizer: any = cachedTokenizer;
 
   onMounted(async () => {
-    try {
-      const builder = new kuromoji.TokenizerBuilder({ loader: customLoader });
-      tokenizer = await builder.build();
+    if (cachedTokenizer) {
+      tokenizer = cachedTokenizer;
       ready.value = true;
+      return;
+    }
+    try {
+      tokenizer = await buildTokenizer();
+      ready.value = true;
+      error.value = "";
     } catch (err) {
       console.error("词典加载失败：", err);
       error.value = (err as Error).message || String(err);
     }
   });
+
+  // 加载失败后手动重试（网络抖动等瞬时失败可恢复）
+  async function retry(): Promise<boolean> {
+    error.value = "";
+    try {
+      tokenizer = await buildTokenizer();
+      ready.value = true;
+      return true;
+    } catch (err) {
+      console.error("词典重试加载失败：", err);
+      error.value = (err as Error).message || String(err);
+      return false;
+    }
+  }
 
   function analyzeSegment(seg: string): Segment {
     const analysis = tokenizer.tokenize(seg);
@@ -73,5 +115,5 @@ export function useJpTokenizer() {
     return { text: seg, kana, romaji: toRomaji(kana) };
   }
 
-  return { ready, error, analyzeSegment };
+  return { ready, error, retry, analyzeSegment };
 }
