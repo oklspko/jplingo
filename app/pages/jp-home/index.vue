@@ -21,7 +21,68 @@
           <div v-if="loading" class="loading">加载中…</div>
 
           <template v-else>
-            <!-- ===== 单词课程收纳（高考日语 + N1–N5）===== -->
+            <!-- ===== 其他课程包（五十音 / 句子生长等，保持学习顺序在前）===== -->
+            <section
+              v-for="pack in nonVocabPacks"
+              :key="pack.id"
+              class="course-pack"
+              :class="{ expanded: isExpanded(pack.id) }"
+            >
+              <!-- 课程包标题（可点击折叠） -->
+              <div
+                class="pack-header"
+                role="button"
+                tabindex="0"
+                @click="togglePack(pack.id)"
+                @keydown.enter.prevent="togglePack(pack.id)"
+                :aria-expanded="isExpanded(pack.id)"
+              >
+                <div class="pack-header-left">
+                  <span class="pack-arrow" :class="{ rotated: isExpanded(pack.id) }">▶</span>
+                  <h2>{{ pack.title }}</h2>
+                  <span class="pack-level">{{ pack.level }}</span>
+                </div>
+                <div class="pack-header-right">
+                  <span v-if="isImported(pack.id)" class="imported-badge">已导入</span>
+                  <button
+                    v-if="isImported(pack.id)"
+                    class="remove-pack-btn"
+                    @click.stop="removePack(pack.id)"
+                  >删除</button>
+                  <span class="pack-count">{{ pack.courses.length }} 课</span>
+                </div>
+              </div>
+
+              <!-- 课程列表（可折叠区域） -->
+              <transition name="fold">
+                <div v-show="isExpanded(pack.id)" class="course-list-wrapper">
+                  <p class="pack-desc">{{ pack.description }}</p>
+                  <div class="course-list">
+                    <a
+                      v-if="isVocabPack(pack.id)"
+                      class="course-card mixed-test-card"
+                      :href="mixedGameUrl(pack.id)"
+                    >
+                      <div class="course-title">🎯 无分类测试</div>
+                      <div class="course-meta">已掌握 {{ mixedMasteredCount(pack.id) }} 词 · 连续答对 5 次即掌握</div>
+                    </a>
+                    <a
+                      v-for="courseId in pack.courses"
+                      :key="courseId"
+                      class="course-card"
+                      :href="`/jp-study/${pack.id}/${courseId}`"
+                    >
+                      <div class="course-title">{{ getCourseTitle(pack.id, courseId) }}</div>
+                      <div class="course-meta">
+                        {{ getCourseCount(pack.id, courseId) }} 题
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </transition>
+            </section>
+
+            <!-- ===== 单词课程收纳（高考日语 + N1–N5，放在句子生长之后）===== -->
             <section class="vocab-collection" :class="{ expanded: collectionExpanded }">
               <div
                 class="collection-header"
@@ -36,10 +97,9 @@
                   <span class="collection-icon">📚</span>
                   <div class="collection-title-block">
                     <h2>单词课程</h2>
-                    <p class="collection-desc">高考日语 · N1–N5 全部词汇课程，按词性分课 + 无分类测试</p>
+                    <p class="collection-desc">高考日语 · N1–N5 · 共 {{ vocabPacks.length }} 个课程包</p>
                   </div>
                 </div>
-                <span class="collection-count">{{ vocabPacks.length }} 个课程包</span>
               </div>
 
               <transition name="fold">
@@ -103,67 +163,6 @@
                       </div>
                     </transition>
                   </section>
-                </div>
-              </transition>
-            </section>
-
-            <!-- ===== 其他课程包（五十音 / 句子生长等）===== -->
-            <section
-              v-for="pack in nonVocabPacks"
-              :key="pack.id"
-              class="course-pack"
-              :class="{ expanded: isExpanded(pack.id) }"
-            >
-              <!-- 课程包标题（可点击折叠） -->
-              <div
-                class="pack-header"
-                role="button"
-                tabindex="0"
-                @click="togglePack(pack.id)"
-                @keydown.enter.prevent="togglePack(pack.id)"
-                :aria-expanded="isExpanded(pack.id)"
-              >
-                <div class="pack-header-left">
-                  <span class="pack-arrow" :class="{ rotated: isExpanded(pack.id) }">▶</span>
-                  <h2>{{ pack.title }}</h2>
-                  <span class="pack-level">{{ pack.level }}</span>
-                </div>
-                <div class="pack-header-right">
-                  <span v-if="isImported(pack.id)" class="imported-badge">已导入</span>
-                  <button
-                    v-if="isImported(pack.id)"
-                    class="remove-pack-btn"
-                    @click.stop="removePack(pack.id)"
-                  >删除</button>
-                  <span class="pack-count">{{ pack.courses.length }} 课</span>
-                </div>
-              </div>
-
-              <!-- 课程列表（可折叠区域） -->
-              <transition name="fold">
-                <div v-show="isExpanded(pack.id)" class="course-list-wrapper">
-                  <p class="pack-desc">{{ pack.description }}</p>
-                  <div class="course-list">
-                    <a
-                      v-if="isVocabPack(pack.id)"
-                      class="course-card mixed-test-card"
-                      :href="mixedGameUrl(pack.id)"
-                    >
-                      <div class="course-title">🎯 无分类测试</div>
-                      <div class="course-meta">已掌握 {{ mixedMasteredCount(pack.id) }} 词 · 连续答对 5 次即掌握</div>
-                    </a>
-                    <a
-                      v-for="courseId in pack.courses"
-                      :key="courseId"
-                      class="course-card"
-                      :href="`/jp-study/${pack.id}/${courseId}`"
-                    >
-                      <div class="course-title">{{ getCourseTitle(pack.id, courseId) }}</div>
-                      <div class="course-meta">
-                        {{ getCourseCount(pack.id, courseId) }} 题
-                      </div>
-                    </a>
-                  </div>
                 </div>
               </transition>
             </section>
@@ -551,16 +550,6 @@ async function removePack(packId: string) {
   white-space: nowrap;
 }
 
-.collection-count {
-  flex-shrink: 0;
-  padding: 6px 14px;
-  background: rgba(255, 255, 255, 0.85);
-  color: #0284c7;
-  font-size: 13px;
-  font-weight: 600;
-  border-radius: 999px;
-}
-
 .collection-body {
   padding: 16px;
   background: #f8fcff;
@@ -585,10 +574,6 @@ async function removePack(packId: string) {
   }
   .collection-desc {
     font-size: 12px;
-  }
-  .collection-count {
-    font-size: 12px;
-    padding: 5px 10px;
   }
   .collection-body {
     padding: 10px;
