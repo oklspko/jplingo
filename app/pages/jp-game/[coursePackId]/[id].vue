@@ -235,6 +235,11 @@ function flushStudyTime() {
   }
 }
 
+function handleBeforeUnload() {
+  flushStudyTime();
+  saveResume();
+}
+
 const currentStatement = computed(() => statements.value[currentIndex.value]);
 
 const progressPercent = computed(() => {
@@ -284,6 +289,62 @@ function dismissSpaceHint() {
   localStorage.setItem("jp-space-hint-dismissed", "true");
 }
 
+// ===== 练习进度续学：退出时记录当前词，重进时恢复到该词 =====
+const RESUME_KEY = "jp-study-resume";
+const courseCompleted = ref(false);
+
+function resumeKey() {
+  return `${coursePackId.value}/${courseId.value}`;
+}
+
+function saveResume() {
+  if (courseCompleted.value) return; // 已完成课程不再续学
+  const stmt = currentStatement.value;
+  if (!stmt) return;
+  try {
+    const raw = localStorage.getItem(RESUME_KEY);
+    const map = raw ? JSON.parse(raw) : {};
+    map[resumeKey()] = { japanese: stmt.japanese, index: currentIndex.value };
+    localStorage.setItem(RESUME_KEY, JSON.stringify(map));
+  } catch {}
+}
+
+function clearResume() {
+  try {
+    const raw = localStorage.getItem(RESUME_KEY);
+    if (!raw) return;
+    const map = JSON.parse(raw);
+    delete map[resumeKey()];
+    localStorage.setItem(RESUME_KEY, JSON.stringify(map));
+  } catch {}
+}
+
+function loadResume(): { japanese: string; index: number } | null {
+  try {
+    const raw = localStorage.getItem(RESUME_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw)[resumeKey()] || null;
+  } catch {
+    return null;
+  }
+}
+
+// 由退出时记录的「词 + 索引」恢复当前题号。练习顺序可能因随机复习/无分类打乱而
+// 变化，故先按索引对号，对不上再按词文本查找；词已被掌握移除时回退到最近位置。
+function restoreIndex(): number {
+  const r = loadResume();
+  const n = statements.value.length;
+  if (!r || n === 0) return 0;
+  if (statements.value[r.index]?.japanese === r.japanese) return r.index;
+  for (let i = r.index; i < n; i++) {
+    if (statements.value[i].japanese === r.japanese) return i;
+  }
+  for (let i = 0; i < r.index; i++) {
+    if (statements.value[i].japanese === r.japanese) return i;
+  }
+  return Math.min(r.index, n - 1);
+}
+
 useJpGlobalKeyboard({
   onToggleRomaji: () => (showRomajiHint.value = !showRomajiHint.value),
   onToggleKana: () => (showKanaHint.value = !showKanaHint.value),
@@ -308,19 +369,21 @@ onMounted(async () => {
   if (dismissed === "true") showSpaceHint.value = false;
   startTimer();
   timeHeartbeat = setInterval(flushStudyTime, 5000);
-  window.addEventListener("beforeunload", flushStudyTime);
+  window.addEventListener("beforeunload", handleBeforeUnload);
 });
 
 onUnmounted(() => {
   flushStudyTime();
+  saveResume();
   if (timeHeartbeat) clearInterval(timeHeartbeat);
-  window.removeEventListener("beforeunload", flushStudyTime);
+  window.removeEventListener("beforeunload", handleBeforeUnload);
 });
 
 watch(showRomajiHint, (v) => localStorage.setItem("jp-romaji-hint", v ? "true" : "false"));
 watch(showKanaHint, (v) => localStorage.setItem("jp-kana-hint", v ? "true" : "false"));
 
 watch(currentIndex, () => {
+  saveResume();
   rawInput.value = "";
   result.value = "";
   showAnswer.value = false;
@@ -358,7 +421,7 @@ async function loadCourseData() {
   statements.value = buildPracticeOrder(packId, list, 6);
   if (isMixed.value && statements.value.length === 0) allMastered.value = true;
   courseTitle.value = data.title || id;
-  currentIndex.value = 0;
+  currentIndex.value = restoreIndex();
   nextTick(() => {
     inputRef.value?.focus();
     setTimeout(() => playAudio(), 500);
@@ -526,6 +589,8 @@ function submitAnswer() {
     }
     if (isLastQuestion.value) {
       recordCourseCompleted(courseId.value);
+      courseCompleted.value = true;
+      clearResume();
       pickRandomMotivation();
       setTimeout(() => (showCompleteModal.value = true), 800);
     }
@@ -562,6 +627,8 @@ function removeFutureCopies(japanese: string) {
 async function resetMixedMemory() {
   vocabMemory.resetAll();
   allMastered.value = false;
+  courseCompleted.value = false;
+  clearResume();
   await loadCourseData();
 }
 
