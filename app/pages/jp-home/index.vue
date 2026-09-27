@@ -711,6 +711,8 @@ async function removePack(packId: string) {
   border-radius: 10px;
   font-weight: 600;
   flex-shrink: 0;
+  white-space: nowrap;
+  line-height: 1.4;
 }
 
 .pack-header-right {
@@ -722,11 +724,14 @@ async function removePack(packId: string) {
 
 .pack-count {
   font-size: 13px;
-  color: #7dd3fc;
+  color: #0369a1;
   padding: 4px 12px;
-  background: #f5fbff;
+  background: #e8f6ff;
   border-radius: 10px;
-  font-weight: 500;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+  line-height: 1.4;
 }
 
 /* ===== 折叠区域 ===== */
@@ -775,7 +780,8 @@ async function removePack(packId: string) {
 
 .course-meta {
   font-size: 13px;
-  color: #7dd3fc;
+  color: #0369a1;
+  line-height: 1.5;
 }
 
 .course-card.mixed-test-card {
