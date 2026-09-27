@@ -74,7 +74,7 @@
                     >
                       <div class="course-title">{{ getCourseTitle(pack.id, courseId) }}</div>
                       <div class="course-meta">
-                        {{ getCourseCount(pack.id, courseId) }} 题
+                        {{ courseMetaText(pack.id, courseId) }}
                       </div>
                     </a>
                   </div>
@@ -156,7 +156,7 @@
                           >
                             <div class="course-title">{{ getCourseTitle(pack.id, courseId) }}</div>
                             <div class="course-meta">
-                              {{ getCourseCount(pack.id, courseId) }} 题
+                              {{ courseMetaText(pack.id, courseId) }}
                             </div>
                           </a>
                         </div>
@@ -241,6 +241,9 @@ const coursePacks = ref<JpCoursePack[]>([]);
 const courseIndex = ref<CourseIndex>({});
 const loading = ref(true);
 const importedPackIds = ref<Set<string>>(new Set());
+// 已加载过元数据的课程包（避免重复请求）／正在加载中的课程包（用于「加载中…」提示）
+const loadedPacks = ref<Set<string>>(new Set());
+const loadingPacks = ref<Set<string>>(new Set());
 
 // 单词课程收纳：把 6 个词汇包（高考日语 + N5–N1）归为一组，点开使用
 const collectionExpanded = ref(false);
@@ -276,8 +279,53 @@ function togglePack(packId: string) {
     newSet.delete(packId);
   } else {
     newSet.add(packId);
+    loadPackMeta(packId); // 展开时按需加载该包课程标题/题数
   }
   expandedPacks.value = newSet;
+}
+
+// 并发上限：一次最多同时请求的课程数，避免展开大包时瞬间发出上百个请求
+const META_CONCURRENCY = 6;
+
+async function mapConcurrent<T, R>(
+  items: T[],
+  limit: number,
+  fn: (item: T) => Promise<R>,
+): Promise<R[]> {
+  const out: R[] = new Array(items.length);
+  let i = 0;
+  const workers = Array.from({ length: Math.min(limit, items.length) }, async () => {
+    while (i < items.length) {
+      const idx = i++;
+      out[idx] = await fn(items[idx]);
+    }
+  });
+  await Promise.all(workers);
+  return out;
+}
+
+// 加载某个课程包下所有课程的标题+题数（并行、带并发上限，结果合并进 courseIndex）
+async function loadPackMeta(packId: string) {
+  if (loadedPacks.value.has(packId) || loadingPacks.value.has(packId)) return;
+  const pack = coursePacks.value.find((p) => p.id === packId);
+  if (!pack || pack.courses.length === 0) return;
+
+  loadingPacks.value = new Set([...loadingPacks.value, packId]);
+  try {
+    const metas = await mapConcurrent(pack.courses, META_CONCURRENCY, (courseId) =>
+      fetchCourseMeta(packId, courseId).then((meta) => ({ courseId, meta })),
+    );
+    const next = { ...courseIndex.value };
+    for (const { courseId, meta } of metas) {
+      next[`${packId}/${courseId}`] = meta;
+    }
+    courseIndex.value = next;
+    loadedPacks.value = new Set([...loadedPacks.value, packId]);
+  } finally {
+    const s = new Set(loadingPacks.value);
+    s.delete(packId);
+    loadingPacks.value = s;
+  }
 }
 
 async function loadAll() {
@@ -292,14 +340,11 @@ async function loadAll() {
       expandedPacks.value = new Set([nonVocabPacks.value[0].id]);
     }
 
-    for (const pack of packs) {
-      for (const courseId of pack.courses) {
-        courseIndex.value[`${pack.id}/${courseId}`] = await fetchCourseMeta(
-          pack.id,
-          courseId,
-        );
-      }
-    }
+    // 课程元数据按需加载：只请求当前已展开的课程包，其余在展开时再加载
+    courseIndex.value = {};
+    loadedPacks.value = new Set();
+    loadingPacks.value = new Set();
+    await Promise.all([...expandedPacks.value].map(loadPackMeta));
   } catch (err) {
     console.error("加载课程失败：", err);
   } finally {
@@ -313,8 +358,10 @@ function getCourseTitle(packId: string, courseId: string) {
   return courseIndex.value[`${packId}/${courseId}`]?.title || courseId;
 }
 
-function getCourseCount(packId: string, courseId: string) {
-  return courseIndex.value[`${packId}/${courseId}`]?.count || 0;
+function courseMetaText(packId: string, courseId: string): string {
+  const meta = courseIndex.value[`${packId}/${courseId}`];
+  if (meta) return `${meta.count} 题`;
+  return loadingPacks.value.has(packId) ? "加载中…" : "0 题";
 }
 
 function isImported(packId: string): boolean {
