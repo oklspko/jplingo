@@ -129,6 +129,42 @@ async function mergeFromData(data: any, sourceUrl: string | null): Promise<JpCou
   return mergePacks(packs, courses);
 }
 
+// 把单个课程并入导入存储：同包追加、同课覆盖，不破坏包内其他课程。返回所属课程包。
+export function upsertImportedCourse(course: JpCourse): JpCoursePack {
+  const s = getStore();
+  const packId = course.coursePackId || "my-pack";
+  const courseId = course.id;
+  let pack = s.packs.find((p) => p.id === packId);
+  if (!pack) {
+    pack = {
+      id: packId,
+      title: course.title || packId,
+      language: "ja",
+      level: "N5",
+      description: "",
+      courses: [],
+    };
+    s.packs.push(pack);
+  }
+  if (!pack.courses.includes(courseId)) pack.courses.push(courseId);
+  s.courses[courseKey(packId, courseId)] = course;
+  saveStore();
+  return pack;
+}
+
+// 导入课程包数据（兼容「单课 JSON」和「单文件课程包 JSON」）到本地存储。
+// 供编辑器粘贴/文件导入时直接落库，免去「导出 → 首页再导入」的来回。返回新增/更新的包。
+export async function importPackFromData(data: any): Promise<JpCoursePack[]> {
+  if (data && data.courses && typeof data.courses === "object") {
+    return mergeFromData(data, null);
+  }
+  const course = data as JpCourse;
+  if (!course || !course.id || !Array.isArray(course.statements)) {
+    throw new Error("JSON 格式不对：缺少 id 或 statements");
+  }
+  return [upsertImportedCourse(course)];
+}
+
 export function removeImportedPack(packId: string) {
   const s = getStore();
   const pack = s.packs.find((p) => p.id === packId);

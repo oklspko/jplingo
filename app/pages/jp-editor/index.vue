@@ -16,9 +16,11 @@
               @change="loadSelectedCourse"
             >
               <option value="" disabled>选择课程…</option>
-              <option v-for="opt in courseOptions" :key="opt.key" :value="opt.key">
-                {{ opt.label }}
-              </option>
+              <optgroup v-for="g in courseGroups" :key="g.packId" :label="g.title">
+                <option v-for="opt in g.options" :key="opt.key" :value="opt.key">
+                  {{ opt.label }}
+                </option>
+              </optgroup>
             </select>
             <button class="editor-btn" @click="loadSelectedCourse">加载</button>
             <button class="editor-btn" @click="showCreateModal = true">
@@ -84,11 +86,11 @@
               </div>
             </div>
             <div class="help-step">
-              <h3>③ 导出成课程包，导入 App/网页学习</h3>
+              <h3>③ 导出成课程包，备份 / 迁移 / 分享</h3>
               <p>
-                编辑完成后点「📦 导出课程包」导出当前这一课，得到一个可直接导入的单文件课程包；
-                点「📦 导出全部课程」可把课程页上的全部课程（内置 + 已导入）一次性打包。
-                到首页点「导入课程包」选择该文件，即可在网页或 App 里学习。
+                粘贴或文件导入的课程会直接保存到本地，「课程」页面立即可见、可直接学习。
+                「📦 导出课程包」用于导出当前单课、「📦 导出全部课程」一次性打包全部课程（内置 +
+                已导入），可备份，或在其它设备 / App 的「导入课程包」里再次导入。
               </p>
             </div>
           </div>
@@ -334,10 +336,11 @@
 </template>
 
 <script setup lang="ts">
-import { nextTick, onMounted, reactive, ref } from "vue";
+import { computed, nextTick, onMounted, reactive, ref } from "vue";
 import { toHiragana } from "wanakana";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
 import { fetchCourse, fetchCoursePacks } from "~/composables/jp/useJpCourses";
+import { importPackFromData } from "~/composables/jp/useJpImportedPacks";
 import { useJpTokenizer } from "~/composables/jp/useJpTokenizer";
 import { splitSegments, kanaToInputRomaji } from "~/composables/jp/useJpRomaji";
 import {
@@ -355,10 +358,36 @@ const selectedKey = ref("");
 interface CourseOption {
   key: string;
   packId: string;
-  courseId: string;
   label: string;
 }
 const courseOptions = ref<CourseOption[]>([]);
+
+// 课程包 id → 标题（用于选择器分组标题，取不到时回退为 id）
+const packTitleById = computed(() => {
+  const m = new Map<string, string>();
+  for (const p of packs.value) m.set(p.id, p.title);
+  return m;
+});
+
+// 按课程包分组的课程选项（编辑器下拉框用 optgroup 收纳，避免上百条平铺过密）
+const courseGroups = computed(() => {
+  const groups: { packId: string; title: string; options: CourseOption[] }[] = [];
+  const byId = new Map<string, { packId: string; title: string; options: CourseOption[] }>();
+  for (const o of courseOptions.value) {
+    let g = byId.get(o.packId);
+    if (!g) {
+      g = {
+        packId: o.packId,
+        title: packTitleById.value.get(o.packId) || o.packId,
+        options: [],
+      };
+      byId.set(o.packId, g);
+      groups.push(g);
+    }
+    g.options.push(o);
+  }
+  return groups;
+});
 
 // 新建弹窗
 const showCreateModal = ref(false);
@@ -434,23 +463,23 @@ async function onRetryTokenizer() {
 // ===== 加载已有课程 =====
 onMounted(loadCourseOptions);
 
+// 重新拉取「内置 + 导入」课程包并重建选择器选项（不含自动选中副作用）
+async function refreshCourseOptions() {
+  packs.value = await fetchCoursePacks();
+  const opts: CourseOption[] = [];
+  for (const p of packs.value) {
+    for (const cid of p.courses || []) {
+      opts.push({ key: `${p.id}/${cid}`, packId: p.id, label: cid });
+    }
+  }
+  courseOptions.value = opts;
+}
+
 async function loadCourseOptions() {
   try {
-    packs.value = await fetchCoursePacks();
-    const opts: CourseOption[] = [];
-    for (const p of packs.value) {
-      for (const cid of p.courses || []) {
-        opts.push({
-          key: `${p.id}/${cid}`,
-          packId: p.id,
-          courseId: cid,
-          label: `[${p.title}] ${cid}`,
-        });
-      }
-    }
-    courseOptions.value = opts;
-    if (opts.length && !selectedKey.value) {
-      selectedKey.value = opts[0].key;
+    await refreshCourseOptions();
+    if (courseOptions.value.length && !selectedKey.value) {
+      selectedKey.value = courseOptions.value[0].key;
       await loadSelectedCourse();
     }
   } catch (err) {
@@ -501,8 +530,7 @@ function createCourse() {
     courseOptions.value.push({
       key,
       packId,
-      courseId: newCourse.id,
-      label: `[${packId}] ${newCourse.id}`,
+      label: newCourse.id,
     });
   }
   selectedKey.value = key;
@@ -523,7 +551,7 @@ function createCourse() {
 
 // ===== 导入 JSON =====
 // 同时支持「单课 JSON」和「单文件课程包 JSON」（取第一课编辑，其余可分别导入）。
-// 文件导入与粘贴导入共用下面这套解析/载入逻辑。
+// 文件导入与粘贴导入共用：先持久化到本地导入存储（课程页面立刻可见），再载入编辑器。
 
 // 解析课程 JSON：容忍 AI 输出常见的 ```json ... ``` 代码块包裹
 function parseCourseJson(text: string): any {
@@ -533,13 +561,13 @@ function parseCourseJson(text: string): any {
   return JSON.parse(t);
 }
 
-// 把解析后的课程数据载入编辑器；返回 { error } 或 { note }
-function loadCourseFromData(data: any): { error?: string; note?: string } {
+// 从导入数据中取出要编辑的课程（单课或课程包第一课）；不合法则抛错
+function extractCourseData(data: any): { courseData: JpCourse; note: string } {
   let courseData: any;
   let note = "";
   if (data && data.courses && typeof data.courses === "object") {
     const keys = Object.keys(data.courses);
-    if (keys.length === 0) return { error: "课程包内没有课程" };
+    if (keys.length === 0) throw new Error("课程包内没有课程");
     courseData = data.courses[keys[0]];
     if (keys.length > 1) {
       note = `课程包共 ${keys.length} 课，已载入第 1 课，其余可分别导入`;
@@ -549,22 +577,19 @@ function loadCourseFromData(data: any): { error?: string; note?: string } {
   }
 
   if (!courseData?.id || !Array.isArray(courseData.statements)) {
-    return { error: "JSON 格式不对：缺少 id 或 statements" };
+    throw new Error("JSON 格式不对：缺少 id 或 statements");
   }
+  return { courseData, note };
+}
 
+// 导入并载入：先写入本地存储（课程页面立刻可见），再刷新选择器并载入编辑器
+async function doImport(data: any): Promise<string> {
+  const { courseData, note } = extractCourseData(data);
+  await importPackFromData(data);
   course.value = courseData;
-  const importedPackId = courseData.coursePackId || "my-pack";
-  const key = `${importedPackId}/${courseData.id}`;
-  if (!courseOptions.value.some((o) => o.key === key)) {
-    courseOptions.value.push({
-      key,
-      packId: importedPackId,
-      courseId: courseData.id,
-      label: `[${importedPackId}] ${courseData.id}`,
-    });
-  }
-  selectedKey.value = key;
-  return { note };
+  await refreshCourseOptions();
+  selectedKey.value = `${courseData.coursePackId || "my-pack"}/${courseData.id}`;
+  return note;
 }
 
 async function importJson(event: Event) {
@@ -574,12 +599,8 @@ async function importJson(event: Event) {
 
   try {
     const data = parseCourseJson(await file.text());
-    const r = loadCourseFromData(data);
-    if (r.error) {
-      alert(r.error);
-      return;
-    }
-    alert("导入成功！" + (r.note ? `（${r.note}）` : ""));
+    const note = await doImport(data);
+    alert("导入成功！已加入课程页面，可直接学习。" + (note ? `（${note}）` : ""));
   } catch (err) {
     alert("导入失败：" + (err as Error).message);
   } finally {
@@ -603,7 +624,7 @@ function closePasteModal() {
   showPasteModal.value = false;
 }
 
-function doPasteImport() {
+async function doPasteImport() {
   const text = pasteText.value.trim();
   if (!text) {
     pasteError.value = "请先粘贴课程 JSON 代码";
@@ -618,15 +639,14 @@ function doPasteImport() {
     return;
   }
 
-  const r = loadCourseFromData(data);
-  if (r.error) {
-    pasteError.value = r.error;
-    return;
+  try {
+    const note = await doImport(data);
+    showPasteModal.value = false;
+    pasteText.value = "";
+    alert("导入成功！已加入课程页面，可直接学习。" + (note ? `（${note}）` : ""));
+  } catch (err) {
+    pasteError.value = (err as Error).message || "导入失败";
   }
-
-  showPasteModal.value = false;
-  pasteText.value = "";
-  alert("导入成功！" + (r.note ? `（${r.note}）` : ""));
 }
 
 // ===== 句子操作 =====
