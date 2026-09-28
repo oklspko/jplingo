@@ -5,7 +5,9 @@ node_modules
 .vercel
 .env
 .tts.env
+.tts-local.env
 test.mp3
+test-local.mp3
 *.log
 .DS_Store
 .claude
