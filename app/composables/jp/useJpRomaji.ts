@@ -59,10 +59,36 @@ function moraRomaji(kana: string, i: number): string {
   return KANA_ROMAJI_ONE[ch] ?? toRomaji(ch);
 }
 
-export function kanaToInputRomaji(kana: string): string {
-  let result = "";
-  for (let i = 0; i < kana.length; ) {
+// 取单个假名的元音（用于长音符 ー 的展开）。
+function kanaVowel(ch: string): string {
+  if (ch === "ぁ" || ch === "ゃ") return "a";
+  if (ch === "ぃ") return "i";
+  if (ch === "ぅ" || ch === "ゅ") return "u";
+  if (ch === "ぇ") return "e";
+  if (ch === "ぉ" || ch === "ょ") return "o";
+  const r = KANA_ROMAJI_ONE[ch] ?? toRomaji(ch);
+  return r.length ? r[r.length - 1] : "";
+}
+
+// 把长音符 ー 展开为前一个音节的元音：ゆにーく → ゆにいく、かーど → かあど。
+// 展开保持长度不变（每个 ー 恰好替换成 1 个元音），因此可按长度映射回原串。
+export function expandLongMark(kana: string): string {
+  let out = "";
+  for (let i = 0; i < kana.length; i++) {
     const ch = kana[i];
+    if (ch === "ー") out += i > 0 ? kanaVowel(kana[i - 1]) : "";
+    else out += ch;
+  }
+  return out;
+}
+
+export function kanaToInputRomaji(kana: string): string {
+  // 长音符先展开成双元音（ゆにーく → ゆにいく），提示即可按双元音输入，
+  // 手机键盘无需切符号层；促音 っ 仍用「双写辅音」，与长音的「双写元音」互不干扰。
+  const src = expandLongMark(kana);
+  let result = "";
+  for (let i = 0; i < src.length; ) {
+    const ch = src[i];
     if (ch === " ") {
       result += " ";
       i++;
@@ -70,17 +96,17 @@ export function kanaToInputRomaji(kana: string): string {
     }
     if (ch === "っ") {
       // 促音：双写下一音节的首字母；孤立在末尾时用 xtu。
-      if (i + 1 < kana.length) result += moraRomaji(kana, i + 1)[0];
+      if (i + 1 < src.length) result += moraRomaji(src, i + 1)[0];
       else result += "xtu";
       i++;
       continue;
     }
-    if (i + 1 < kana.length && KANA_ROMAJI_TWO[kana.slice(i, i + 2)]) {
-      result += KANA_ROMAJI_TWO[kana.slice(i, i + 2)];
+    if (i + 1 < src.length && KANA_ROMAJI_TWO[src.slice(i, i + 2)]) {
+      result += KANA_ROMAJI_TWO[src.slice(i, i + 2)];
       i += 2;
       continue;
     }
-    result += moraRomaji(kana, i);
+    result += moraRomaji(src, i);
     i++;
   }
   return result;
@@ -118,11 +144,16 @@ export function checkToken(
     return getTokenRomajiAlternatives(token).includes(trimmed);
   }
   const input = toHiragana(trimmed);
-  if (input === token.kana) return true;
+  const inputNN = toHiragana(trimmed.replace(/nn/g, "n'"));
+  if (input === token.kana || inputNN === token.kana) return true;
   // 双写 n（nn）作为「ん」的输入习惯：honni → ほんい、honn → ほん。
-  // 标准罗马字里 ん 后接元音需用 n' 分隔（hon'i），但输入法/学习者常用 nn 表示 ん，
-  // 这里把 nn 等价成 n' 再转换，从而同时接受两种拼法（先按标准拼法判定，再回退到 nn 拼法）。
-  if (toHiragana(trimmed.replace(/nn/g, "n'")) === token.kana) return true;
+  // 标准罗马字里 ん 后接元音需用 n' 分隔（hon'i），但输入法/学习者常用 nn 表示 ん。
+  // 长音符：目标含 ー 时，允许按双元音输入（yuniiku → ゆにーく），
+  // 与促音的双写辅音（かって → katte）字符集不同，互不冲突。
+  if (token.kana.includes("ー")) {
+    const expanded = expandLongMark(token.kana);
+    if (input === expanded || inputNN === expanded) return true;
+  }
   // 允许直接输入原文形（汉字/片假名）：面白い → 面白い、パン → パン
   // toHiragana 会把片假名转成平假名、保留汉字，因此与 token.text 归一后比较即可。
   return input === toHiragana(token.text);
@@ -141,6 +172,12 @@ export function romajiToKanaForDisplay(raw: string, targetKana: string): string 
   // 当目标假名更符合 nn 双写解读时（如 ほんい ← honni）优先采用它
   if (targetKana.startsWith(dbl) && !targetKana.startsWith(std)) {
     result = dbl;
+  }
+  // 长音符：目标含 ー 时，把输入展开成双元音比对，命中后按长度映射回含 ー 的原目标显示
+  if (targetKana.includes("ー")) {
+    const expanded = expandLongMark(targetKana);
+    const base = expanded.startsWith(dbl) && !expanded.startsWith(std) ? dbl : std;
+    if (expanded.startsWith(base)) result = targetKana.slice(0, base.length);
   }
   // 结尾单独一个 n 是待定 n，显示为拉丁 n
   if (/(^|[^n])n$/.test(s) && result.endsWith("ん")) {
