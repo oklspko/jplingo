@@ -10,18 +10,35 @@
             <p class="editor-subtitle">创建、编辑、导出日语课程</p>
           </div>
           <div class="editor-actions">
-            <select
-              v-model="selectedKey"
-              class="editor-input editor-select"
-              @change="loadSelectedCourse"
-            >
-              <option value="" disabled>选择课程…</option>
-              <optgroup v-for="g in courseGroups" :key="g.packId" :label="g.title">
-                <option v-for="opt in g.options" :key="opt.key" :value="opt.key">
-                  {{ opt.label }}
-                </option>
-              </optgroup>
-            </select>
+            <div ref="pickerEl" class="course-picker">
+              <button class="editor-btn course-picker-trigger" @click="togglePicker">
+                <span class="picker-trigger-label">{{ selectedLabel || "📂 选择课程…" }}</span>
+                <span class="picker-caret">{{ pickerOpen ? "▴" : "▾" }}</span>
+              </button>
+              <transition name="picker">
+                <div v-if="pickerOpen" class="picker-panel">
+                  <div v-for="g in courseGroups" :key="g.packId" class="picker-group">
+                    <button class="picker-group-head" @click="toggleGroup(g.packId)">
+                      <span class="picker-group-arrow">{{ isGroupOpen(g.packId) ? "▾" : "▸" }}</span>
+                      <span class="picker-group-title">📁 {{ g.title }}</span>
+                      <span class="picker-group-count">{{ g.options.length }}</span>
+                    </button>
+                    <div v-if="isGroupOpen(g.packId)" class="picker-group-body">
+                      <button
+                        v-for="opt in g.options"
+                        :key="opt.key"
+                        class="picker-option"
+                        :class="{ active: opt.key === selectedKey }"
+                        @click="selectCourse(opt)"
+                      >
+                        {{ opt.label }}
+                      </button>
+                    </div>
+                  </div>
+                  <div v-if="!courseGroups.length" class="picker-empty">暂无课程</div>
+                </div>
+              </transition>
+            </div>
             <button class="editor-btn" @click="loadSelectedCourse">加载</button>
             <button class="editor-btn" @click="showCreateModal = true">
               ➕ 新建
@@ -336,7 +353,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, nextTick, onMounted, reactive, ref } from "vue";
+import { computed, nextTick, onBeforeUnmount, onMounted, reactive, ref } from "vue";
 import { toHiragana } from "wanakana";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
 import { fetchCourse, fetchCoursePacks } from "~/composables/jp/useJpCourses";
@@ -388,6 +405,49 @@ const courseGroups = computed(() => {
   }
   return groups;
 });
+
+// ===== 自定义课程选择器（可折叠文件夹，替代原生 optgroup） =====
+const pickerEl = ref<HTMLElement | null>(null);
+const pickerOpen = ref(false);
+// 哪些文件夹已展开
+const groupOpen = ref<Record<string, boolean>>({});
+
+// 当前选中课程的展示文字（带所属文件夹前缀）
+const selectedLabel = computed(() => {
+  if (!selectedKey.value) return "";
+  const opt = courseOptions.value.find((o) => o.key === selectedKey.value);
+  if (!opt) return selectedKey.value;
+  const title = packTitleById.value.get(opt.packId);
+  return title ? `${title} · ${opt.label}` : opt.label;
+});
+
+function togglePicker() {
+  pickerOpen.value = !pickerOpen.value;
+}
+
+function isGroupOpen(packId: string): boolean {
+  return !!groupOpen.value[packId];
+}
+
+function toggleGroup(packId: string) {
+  groupOpen.value[packId] = !groupOpen.value[packId];
+}
+
+function selectCourse(opt: CourseOption) {
+  selectedKey.value = opt.key;
+  pickerOpen.value = false;
+  loadSelectedCourse();
+}
+
+// 点击面板外部时收起选择器
+function onDocumentClick(e: MouseEvent) {
+  if (pickerEl.value && !pickerEl.value.contains(e.target as Node)) {
+    pickerOpen.value = false;
+  }
+}
+
+onMounted(() => document.addEventListener("click", onDocumentClick));
+onBeforeUnmount(() => document.removeEventListener("click", onDocumentClick));
 
 // 新建弹窗
 const showCreateModal = ref(false);
@@ -1353,13 +1413,144 @@ async function copyPrompt() {
   opacity: 0;
 }
 
-/* ===== 课程选择器 ===== */
-.editor-select {
-  width: auto;
-  min-width: 220px;
-  max-width: 340px;
-  padding: 12px 16px;
+/* ===== 自定义课程选择器（可折叠文件夹） ===== */
+.course-picker {
+  position: relative;
+}
+
+.course-picker-trigger {
+  min-width: 240px;
+  max-width: 360px;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.picker-trigger-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.picker-caret {
+  font-size: 11px;
+  color: #7dd3fc;
+}
+
+.picker-panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  z-index: 200;
+  width: 320px;
+  max-width: 80vw;
+  max-height: 60vh;
+  overflow-y: auto;
+  background: #ffffff;
+  border: 1px solid #e8f6ff;
+  border-radius: 14px;
+  box-shadow: 0 16px 40px rgba(7, 89, 133, 0.18);
+  padding: 8px;
+}
+
+.picker-group {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.picker-group + .picker-group {
+  margin-top: 4px;
+}
+
+.picker-group-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 10px 12px;
+  border: none;
+  background: #f0f9ff;
   cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: #075985;
+  font-family: inherit;
+  text-align: left;
+  transition: background 0.15s;
+}
+
+.picker-group-head:hover {
+  background: #e0f2fe;
+}
+
+.picker-group-arrow {
+  flex-shrink: 0;
+  width: 14px;
+  color: #0284c7;
+}
+
+.picker-group-title {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.picker-group-count {
+  flex-shrink: 0;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: #bae6fd;
+  color: #075985;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.picker-group-body {
+  padding: 2px 0 4px;
+}
+
+.picker-option {
+  display: block;
+  width: 100%;
+  padding: 9px 12px 9px 34px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 13px;
+  color: #0369a1;
+  font-family: inherit;
+  text-align: left;
+  transition: background 0.15s;
+}
+
+.picker-option:hover {
+  background: #f5fbff;
+}
+
+.picker-option.active {
+  background: #e0f2fe;
+  color: #075985;
+  font-weight: 600;
+}
+
+.picker-empty {
+  padding: 20px;
+  text-align: center;
+  color: #7dd3fc;
+  font-size: 13px;
+}
+
+/* 选择器面板过渡 */
+.picker-enter-active,
+.picker-leave-active {
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+.picker-enter-from,
+.picker-leave-to {
+  opacity: 0;
+  transform: translateY(-6px);
 }
 
 /* ===== 词典状态提示 ===== */

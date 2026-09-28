@@ -68,14 +68,21 @@ function mergePacks(packs: JpCoursePack[], courses: Record<string, JpCourse>): J
   const added: JpCoursePack[] = [];
   for (const p of packs) {
     if (!p || !p.id) continue;
-    const oldIdx = s.packs.findIndex((x) => x.id === p.id);
-    if (oldIdx >= 0) {
-      const old = s.packs[oldIdx];
-      for (const cid of old.courses || []) delete s.courses[courseKey(p.id, cid)];
-      s.packs.splice(oldIdx, 1);
+    const existing = s.packs.find((x) => x.id === p.id);
+    if (existing) {
+      // 同 id 合并：追加新课程（去重），不删除已有课程，避免多次导入同一包时丢课
+      const ids = new Set(existing.courses || []);
+      for (const cid of p.courses || []) ids.add(cid);
+      existing.courses = [...ids];
+      if (p.title) existing.title = p.title;
+      if (p.description) existing.description = p.description;
+      if (p.level) existing.level = p.level;
+      if (p.language) existing.language = p.language;
+      added.push(existing);
+    } else {
+      s.packs.push(p);
+      added.push(p);
     }
-    s.packs.push(p);
-    added.push(p);
   }
   for (const [key, course] of Object.entries(courses)) {
     s.courses[key] = course;
@@ -163,6 +170,79 @@ export async function importPackFromData(data: any): Promise<JpCoursePack[]> {
     throw new Error("JSON 格式不对：缺少 id 或 statements");
   }
   return [upsertImportedCourse(course)];
+}
+
+// 新建一个空的导入课程包（文件夹）
+export function createImportedPack(title: string): JpCoursePack {
+  const s = getStore();
+  const pack: JpCoursePack = {
+    id: "my-pack-" + Date.now().toString(36),
+    title: title || "新建文件夹",
+    language: "ja",
+    level: "N5",
+    description: "",
+    courses: [],
+  };
+  s.packs.push(pack);
+  saveStore();
+  return pack;
+}
+
+// 重命名导入课程包（文件夹）
+export function renameImportedPack(packId: string, title: string) {
+  const s = getStore();
+  const p = s.packs.find((x) => x.id === packId);
+  if (p) {
+    p.title = title;
+    saveStore();
+  }
+}
+
+// 删除导入课程包里的单个课程
+export function removeImportedCourse(packId: string, courseId: string) {
+  const s = getStore();
+  const p = s.packs.find((x) => x.id === packId);
+  if (p) p.courses = (p.courses || []).filter((c) => c !== courseId);
+  delete s.courses[courseKey(packId, courseId)];
+  saveStore();
+}
+
+// 把课程从某个导入包移动到另一个导入包（目标不存在则新建文件夹）
+export function moveImportedCourse(courseId: string, fromPackId: string, toPackId: string): JpCoursePack {
+  const s = getStore();
+  const fromKey = courseKey(fromPackId, courseId);
+  const course = s.courses[fromKey];
+  if (!course) throw new Error("课程不存在");
+
+  const from = s.packs.find((x) => x.id === fromPackId);
+  if (from) from.courses = (from.courses || []).filter((c) => c !== courseId);
+
+  let to = s.packs.find((x) => x.id === toPackId);
+  if (!to) {
+    to = { id: toPackId, title: toPackId, language: "ja", level: "N5", description: "", courses: [] };
+    s.packs.push(to);
+  }
+  if (!(to.courses || []).includes(courseId)) to.courses = [...(to.courses || []), courseId];
+
+  delete s.courses[fromKey];
+  course.coursePackId = toPackId;
+  s.courses[courseKey(toPackId, courseId)] = course;
+  saveStore();
+  return to;
+}
+
+// 在某个导入包内上移/下移课程（delta 为 -1 或 1）
+export function moveImportedCourseInPack(packId: string, courseId: string, delta: -1 | 1) {
+  const s = getStore();
+  const p = s.packs.find((x) => x.id === packId);
+  if (!p) return;
+  const arr = [...(p.courses || [])];
+  const i = arr.indexOf(courseId);
+  const j = i + delta;
+  if (i < 0 || j < 0 || j >= arr.length) return;
+  [arr[i], arr[j]] = [arr[j], arr[i]];
+  p.courses = arr;
+  saveStore();
 }
 
 export function removeImportedPack(packId: string) {

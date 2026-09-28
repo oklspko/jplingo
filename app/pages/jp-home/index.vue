@@ -13,6 +13,7 @@
             </span>
           </div>
           <div class="home-actions">
+            <button class="import-btn" @click="createFolder">🗂 新建文件夹</button>
             <button class="import-btn" @click="openImport">📥 导入课程包</button>
           </div>
         </header>
@@ -46,6 +47,11 @@
                   <span v-if="isImported(pack.id)" class="imported-badge">已导入</span>
                   <button
                     v-if="isImported(pack.id)"
+                    class="rename-pack-btn"
+                    @click.stop="renamePack(pack.id)"
+                  >✏️</button>
+                  <button
+                    v-if="isImported(pack.id)"
                     class="remove-pack-btn"
                     @click.stop="removePack(pack.id)"
                   >删除</button>
@@ -66,17 +72,53 @@
                       <div class="course-title">🎯 无分类测试</div>
                       <div class="course-meta">已掌握 {{ mixedMasteredCount(pack.id) }} 词 · 连续答对 5 次即掌握</div>
                     </a>
-                    <a
+                    <div
                       v-for="courseId in pack.courses"
                       :key="courseId"
-                      class="course-card"
-                      :href="`/jp-study/${pack.id}/${courseId}`"
+                      class="course-card-wrap"
                     >
-                      <div class="course-title">{{ getCourseTitle(pack.id, courseId) }}</div>
-                      <div class="course-meta">
-                        {{ courseMetaText(pack.id, courseId) }}
+                      <a
+                        class="course-card"
+                        :href="`/jp-study/${pack.id}/${courseId}`"
+                      >
+                        <div class="course-title">{{ getCourseTitle(pack.id, courseId) }}</div>
+                        <div class="course-meta">
+                          {{ courseMetaText(pack.id, courseId) }}
+                        </div>
+                      </a>
+                      <div v-if="isImported(pack.id)" class="course-card-actions">
+                        <button
+                          class="course-act-btn"
+                          :disabled="isFirstCourse(pack, courseId)"
+                          title="上移"
+                          @click="moveCourseInPack(pack.id, courseId, -1)"
+                        >↑</button>
+                        <button
+                          class="course-act-btn"
+                          :disabled="isLastCourse(pack, courseId)"
+                          title="下移"
+                          @click="moveCourseInPack(pack.id, courseId, 1)"
+                        >↓</button>
+                        <select
+                          class="course-move-select"
+                          title="移动到文件夹"
+                          @change="moveCourseTo(pack.id, courseId, $event)"
+                        >
+                          <option value="">📁 移动…</option>
+                          <option
+                            v-for="tp in importedPacks"
+                            :key="tp.id"
+                            :value="tp.id"
+                            :disabled="tp.id === pack.id"
+                          >{{ tp.title }}</option>
+                        </select>
+                        <button
+                          class="course-act-btn danger"
+                          title="删除"
+                          @click="deleteCourse(pack.id, courseId)"
+                        >🗑</button>
                       </div>
-                    </a>
+                    </div>
                   </div>
                 </div>
               </transition>
@@ -230,6 +272,11 @@ import {
   importPackFromFile,
   removeImportedPack,
   listImportedPacks,
+  createImportedPack,
+  renameImportedPack,
+  removeImportedCourse,
+  moveImportedCourse,
+  moveImportedCourseInPack,
 } from "~/composables/jp/useJpImportedPacks";
 import type { JpCoursePack } from "~/types/jp";
 
@@ -249,6 +296,8 @@ const loadingPacks = ref<Set<string>>(new Set());
 const collectionExpanded = ref(false);
 const vocabPacks = computed(() => coursePacks.value.filter((p) => isVocabPack(p.id)));
 const nonVocabPacks = computed(() => coursePacks.value.filter((p) => !isVocabPack(p.id)));
+// 已导入的课程包（文件夹），供「移动到文件夹」下拉选择
+const importedPacks = computed(() => coursePacks.value.filter((p) => importedPackIds.value.has(p.id)));
 
 // 各词汇包「无分类测试」进度（已掌握词数）
 function mixedGameUrl(packId: string) {
@@ -417,6 +466,51 @@ async function doImportFile(event: Event) {
 async function removePack(packId: string) {
   if (!confirm("确定删除该课程包？")) return;
   removeImportedPack(packId);
+  await loadAll();
+}
+
+// ===== 文件夹管理（仅导入的课程包） =====
+function isFirstCourse(pack: JpCoursePack, courseId: string): boolean {
+  return (pack.courses || []).indexOf(courseId) === 0;
+}
+
+function isLastCourse(pack: JpCoursePack, courseId: string): boolean {
+  const arr = pack.courses || [];
+  return arr.indexOf(courseId) === arr.length - 1;
+}
+
+async function moveCourseInPack(packId: string, courseId: string, delta: -1 | 1) {
+  moveImportedCourseInPack(packId, courseId, delta);
+  await loadAll();
+}
+
+async function moveCourseTo(packId: string, courseId: string, event: Event) {
+  const sel = event.target as HTMLSelectElement;
+  const toPackId = sel.value;
+  if (!toPackId) return;
+  moveImportedCourse(courseId, packId, toPackId);
+  sel.value = "";
+  await loadAll();
+}
+
+async function deleteCourse(packId: string, courseId: string) {
+  if (!confirm(`确定删除课程「${getCourseTitle(packId, courseId)}」？`)) return;
+  removeImportedCourse(packId, courseId);
+  await loadAll();
+}
+
+async function renamePack(packId: string) {
+  const p = coursePacks.value.find((x) => x.id === packId);
+  const name = prompt("重命名文件夹：", p?.title || packId);
+  if (!name) return;
+  renameImportedPack(packId, name);
+  await loadAll();
+}
+
+async function createFolder() {
+  const name = prompt("新建文件夹名称：", "新建文件夹");
+  if (!name) return;
+  createImportedPack(name);
   await loadAll();
 }
 </script>
@@ -913,6 +1007,87 @@ async function removePack(packId: string) {
 .remove-pack-btn:hover {
   background: #fef2f2;
   border-color: #ef4444;
+}
+
+.rename-pack-btn {
+  padding: 4px 10px;
+  border: 1px solid #e0f2fe;
+  border-radius: 8px;
+  background: #fff;
+  color: #0369a1;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.rename-pack-btn:hover {
+  background: #f0f9ff;
+  border-color: #bae6fd;
+}
+
+/* ===== 导入课程的文件夹管理控件 ===== */
+.course-card-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.course-card-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.course-act-btn {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #e0f2fe;
+  border-radius: 8px;
+  background: #fff;
+  color: #0369a1;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.course-act-btn:hover:not(:disabled) {
+  background: #f0f9ff;
+  border-color: #bae6fd;
+  color: #0284c7;
+}
+
+.course-act-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.course-act-btn.danger {
+  color: #dc2626;
+  border-color: #fecaca;
+}
+
+.course-act-btn.danger:hover:not(:disabled) {
+  background: #fef2f2;
+  border-color: #ef4444;
+}
+
+.course-move-select {
+  flex: 1;
+  min-width: 90px;
+  padding: 5px 8px;
+  border: 1px solid #e0f2fe;
+  border-radius: 8px;
+  background: #fff;
+  color: #0369a1;
+  font-size: 12px;
+  font-family: inherit;
+  cursor: pointer;
 }
 
 /* 弹窗 */
