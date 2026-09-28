@@ -70,39 +70,51 @@
 
           <div class="stats-grid">
             <div class="stat-card">
-              <div class="stat-icon">🔥</div>
-              <div class="stat-value">{{ streak }}<span class="stat-unit">天</span></div>
-              <div class="stat-label">连续打卡</div>
+              <span class="stat-icon">🔥</span>
+              <span class="stat-body">
+                <span class="stat-value">{{ streak }}<span class="stat-unit">天</span></span>
+                <span class="stat-label">连续打卡</span>
+              </span>
             </div>
 
             <div class="stat-card highlight">
-              <div class="stat-icon">📅</div>
-              <div class="stat-value">{{ todayMinutes }}<span class="stat-unit">分</span></div>
-              <div class="stat-label">今日学习</div>
+              <span class="stat-icon">📅</span>
+              <span class="stat-body">
+                <span class="stat-value">{{ todayMinutes }}<span class="stat-unit">分</span></span>
+                <span class="stat-label">今日学习</span>
+              </span>
             </div>
 
             <div class="stat-card">
-              <div class="stat-icon">📚</div>
-              <div class="stat-value">{{ record.courseCount }}</div>
-              <div class="stat-label">已学课程</div>
+              <span class="stat-icon">📚</span>
+              <span class="stat-body">
+                <span class="stat-value">{{ record.courseCount }}</span>
+                <span class="stat-label">已学课程</span>
+              </span>
             </div>
 
             <div class="stat-card">
-              <div class="stat-icon">✏️</div>
-              <div class="stat-value">{{ record.statementCount }}</div>
-              <div class="stat-label">已学句子</div>
+              <span class="stat-icon">✏️</span>
+              <span class="stat-body">
+                <span class="stat-value">{{ record.statementCount }}</span>
+                <span class="stat-label">已学句子</span>
+              </span>
             </div>
 
             <div class="stat-card">
-              <div class="stat-icon">⭐</div>
-              <div class="stat-value">{{ record.masteredCount }}</div>
-              <div class="stat-label">已掌握</div>
+              <span class="stat-icon">⭐</span>
+              <span class="stat-body">
+                <span class="stat-value">{{ record.masteredCount }}</span>
+                <span class="stat-label">已掌握</span>
+              </span>
             </div>
 
             <div class="stat-card">
-              <div class="stat-icon">⏱</div>
-              <div class="stat-value">{{ totalDuration }}</div>
-              <div class="stat-label">总学习时长</div>
+              <span class="stat-icon">⏱</span>
+              <span class="stat-body">
+                <span class="stat-value">{{ totalDuration }}</span>
+                <span class="stat-label">总学习时长</span>
+              </span>
             </div>
           </div>
 
@@ -607,27 +619,29 @@ function doReset() {
   transform: translateY(-2px);
 }
 
-/* 统计卡片 */
+/* 统计卡片（紧凑横向布局） */
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+  gap: 12px;
   margin-bottom: 20px;
 }
 
 .stat-card {
-  padding: 24px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
   background: #ffffff;
   border: 1px solid #e8f6ff;
-  border-radius: 16px;
-  text-align: center;
+  border-radius: 14px;
   box-shadow: 0 2px 12px rgba(186, 230, 253, 0.15);
   transition: all 0.25s;
 }
 
 .stat-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 28px rgba(186, 230, 253, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(186, 230, 253, 0.3);
   border-color: #bae6fd;
 }
 
@@ -638,29 +652,39 @@ function doReset() {
 }
 
 .stat-icon {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.stat-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
 }
 
 .stat-value {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   color: #0284c7;
-  margin-bottom: 6px;
   line-height: 1.2;
   word-break: break-all;
 }
 
 .stat-unit {
-  font-size: 14px;
+  font-size: 12px;
   color: #7dd3fc;
   font-weight: 500;
   margin-left: 2px;
 }
 
 .stat-label {
-  font-size: 13px;
+  font-size: 12px;
   color: #7dd3fc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .daily-info {
@@ -843,11 +867,16 @@ function doReset() {
   }
 
   .stat-card {
-    padding: 18px 14px;
+    padding: 12px 12px;
+    gap: 8px;
+  }
+
+  .stat-icon {
+    font-size: 18px;
   }
 
   .stat-value {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .daily-info {

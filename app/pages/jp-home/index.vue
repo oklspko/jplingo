@@ -13,9 +13,15 @@
             </span>
           </div>
           <div class="home-actions">
-            <button class="import-btn" @click="createFolder">🗂 新建文件夹</button>
-            <button class="import-btn" @click="openManage">📂 分组管理</button>
-            <button class="import-btn" @click="openImport">📥 导入课程包</button>
+            <button class="action-btn action-btn--primary" @click="openImport">
+              <span class="action-ico">📥</span>导入课程包
+            </button>
+            <button class="action-btn" @click="createFolder">
+              <span class="action-ico">🗂</span>新建文件夹
+            </button>
+            <button class="action-btn" @click="openManage">
+              <span class="action-ico">📂</span>分组管理
+            </button>
           </div>
         </header>
 
@@ -48,15 +54,16 @@
                   <span v-if="isImported(pack.id)" class="imported-badge">已导入</span>
                   <button
                     v-if="isImported(pack.id)"
-                    class="rename-pack-btn"
+                    class="pack-icon-btn"
+                    title="重命名"
                     @click.stop="renamePack(pack.id)"
                   >✏️</button>
                   <button
                     v-if="isImported(pack.id)"
-                    class="remove-pack-btn"
+                    class="pack-icon-btn danger"
+                    title="删除"
                     @click.stop="removePack(pack.id)"
-                  >删除</button>
-                  <span class="pack-count">{{ pack.courses.length }} 课</span>
+                  >🗑</button>
                 </div>
               </div>
 
@@ -135,10 +142,10 @@
                         <span v-if="isImported(pack.id)" class="imported-badge">已导入</span>
                         <button
                           v-if="isImported(pack.id)"
-                          class="remove-pack-btn"
+                          class="pack-icon-btn danger"
+                          title="删除"
                           @click.stop="removePack(pack.id)"
-                        >删除</button>
-                        <span class="pack-count">{{ pack.courses.length }} 课</span>
+                        >🗑</button>
                       </div>
                     </div>
 
@@ -834,18 +841,6 @@ async function createFolder() {
   gap: 8px;
 }
 
-.pack-count {
-  font-size: 13px;
-  color: #0369a1;
-  padding: 4px 12px;
-  background: #e8f6ff;
-  border-radius: 10px;
-  font-weight: 600;
-  white-space: nowrap;
-  flex-shrink: 0;
-  line-height: 1.4;
-}
-
 /* ===== 折叠区域 ===== */
 .course-list-wrapper {
   padding: 20px 24px 24px;
@@ -952,11 +947,6 @@ async function createFolder() {
     padding: 2px 8px;
   }
 
-  .pack-count {
-    font-size: 12px;
-    padding: 3px 8px;
-  }
-
   .course-list-wrapper {
     padding: 16px 18px 20px;
   }
@@ -975,31 +965,63 @@ async function createFolder() {
   }
 }
 
-/* ===== 导入课程包 ===== */
+/* ===== 首页操作按钮 ===== */
 .home-actions {
-  margin-top: 20px;
-  text-align: center;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 
-.import-btn {
+.action-btn {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 10px 22px;
-  border: 2px dashed #7dd3fc;
-  border-radius: 12px;
+  padding: 11px 22px;
+  border-radius: 999px;
+  border: 1.5px solid #bae6fd;
   background: #ffffff;
-  color: #0284c7;
+  color: #0369a1;
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
+  font-family: inherit;
   transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(186, 230, 253, 0.18);
 }
 
-.import-btn:hover {
+.action-btn:hover {
   background: #f0f9ff;
-  border-color: #0284c7;
-  box-shadow: 0 4px 16px rgba(125, 211, 252, 0.25);
+  border-color: #7dd3fc;
+  color: #0284c7;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(125, 211, 252, 0.28);
+}
+
+.action-ico {
+  font-size: 17px;
+  line-height: 1;
+}
+
+.action-btn--primary {
+  background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);
+  border-color: transparent;
+  color: #fff;
+  box-shadow: 0 6px 16px rgba(2, 132, 199, 0.32);
+}
+
+.action-btn--primary:hover {
+  background: linear-gradient(135deg, #0ea5e9 0%, #0369a1 100%);
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .action-btn {
+    padding: 10px 16px;
+    font-size: 14px;
+    gap: 6px;
+  }
 }
 
 .imported-badge {
@@ -1011,36 +1033,37 @@ async function createFolder() {
   border-radius: 8px;
 }
 
-.remove-pack-btn {
-  padding: 4px 12px;
-  border: 1px solid #fca5a5;
-  border-radius: 8px;
-  background: #fff;
-  color: #dc2626;
-  font-size: 13px;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.remove-pack-btn:hover {
-  background: #fef2f2;
-  border-color: #ef4444;
-}
-
-.rename-pack-btn {
-  padding: 4px 10px;
+.pack-icon-btn {
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
   border: 1px solid #e0f2fe;
   border-radius: 8px;
   background: #fff;
   color: #0369a1;
-  font-size: 13px;
+  font-size: 15px;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.15s;
+  flex-shrink: 0;
 }
 
-.rename-pack-btn:hover {
+.pack-icon-btn:hover {
   background: #f0f9ff;
   border-color: #bae6fd;
+  color: #0284c7;
+}
+
+.pack-icon-btn.danger {
+  color: #dc2626;
+  border-color: #fecaca;
+}
+
+.pack-icon-btn.danger:hover {
+  background: #fef2f2;
+  border-color: #ef4444;
 }
 
 /* ===== 分组管理弹窗 ===== */

@@ -40,19 +40,28 @@
             <div class="empty-icon">📭</div>
             <p>还没有学过课程，去「课程」页开始学习吧</p>
           </div>
-          <div v-else class="course-list">
-            <div v-for="c in courseList" :key="c.id" class="course-card">
-              <div class="course-head">
-                <div class="course-title">{{ c.title }}</div>
-                <span class="badge" :class="c.completed ? 'done' : 'doing'">
-                  {{ c.completed ? "已完成" : "进行中" }}
-                </span>
+          <div v-else class="course-groups">
+            <div v-for="g in courseGroups" :key="g.packId" class="course-pack-group">
+              <div class="pack-group-head">
+                <span class="pack-group-icon">📁</span>
+                <span class="pack-group-title">{{ g.packTitle }}</span>
+                <span class="pack-group-count">{{ g.courses.length }} 课</span>
               </div>
-              <div class="course-meta">
-                {{ c.learned }} / {{ c.total }} 题 · 掌握 {{ c.mastered }}
-              </div>
-              <div class="progress">
-                <div class="progress-fill" :style="{ width: pct(c) + '%' }"></div>
+              <div class="course-list">
+                <div v-for="c in g.courses" :key="c.id" class="course-card">
+                  <div class="course-head">
+                    <div class="course-title">{{ c.title }}</div>
+                    <span class="badge" :class="c.completed ? 'done' : 'doing'">
+                      {{ c.completed ? "已完成" : "进行中" }}
+                    </span>
+                  </div>
+                  <div class="course-meta">
+                    {{ c.learned }} / {{ c.total }} 题 · 掌握 {{ c.mastered }}
+                  </div>
+                  <div class="progress">
+                    <div class="progress-fill" :style="{ width: pct(c) + '%' }"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -129,6 +138,8 @@ const tabs = (Object.keys(KIND_LABELS) as LearnedKind[]).map((key) => ({
 interface CourseRow {
   id: string;
   title: string;
+  packId: string;
+  packTitle: string;
   total: number;
   learned: number;
   mastered: number;
@@ -178,7 +189,6 @@ async function load() {
     console.error("加载学习记录失败：", err);
   } finally {
     loading.value = false;
-    openFirstOfActive();
   }
 }
 
@@ -186,7 +196,9 @@ async function doLoad() {
   const packs = await getPacks();
 
   const packOfCourse = new Map<string, string>();
+  const packTitleMap = new Map<string, string>();
   for (const p of packs) {
+    packTitleMap.set(p.id, p.title || p.id);
     for (const cid of p.courses || []) packOfCourse.set(cid, p.id);
   }
 
@@ -225,6 +237,8 @@ async function doLoad() {
     rows.push({
       id: cid,
       title: course.title || cid,
+      packId,
+      packTitle: packTitleMap.get(packId) || packId,
       total: (course.statements || []).length,
       learned,
       mastered,
@@ -242,13 +256,6 @@ const recordSig = computed(
 );
 watch(recordSig, () => load(), { immediate: true });
 
-function openFirstOfActive() {
-  const first = activeGroups.value[0];
-  openGroups.value = first ? new Set([first.courseId]) : new Set();
-}
-
-watch(activeTab, openFirstOfActive);
-
 function countByKind(kind: LearnedKind) {
   return items.value.filter((i) => i.kind === kind).length;
 }
@@ -258,6 +265,21 @@ const sentenceCount = computed(() => countByKind("sentence"));
 const kanaCount = computed(() => countByKind("kana"));
 
 const activeItems = computed(() => items.value.filter((i) => i.kind === activeTab.value));
+
+const courseGroups = computed(() => {
+  const groups: { packId: string; packTitle: string; courses: CourseRow[] }[] = [];
+  const seen = new Map<string, number>();
+  for (const c of courseList.value) {
+    let idx = seen.get(c.packId);
+    if (idx === undefined) {
+      idx = groups.length;
+      seen.set(c.packId, idx);
+      groups.push({ packId: c.packId, packTitle: c.packTitle, courses: [] });
+    }
+    groups[idx].courses.push(c);
+  }
+  return groups;
+});
 
 const activeGroups = computed(() => {
   const groups: { courseId: string; courseTitle: string; items: ItemRow[] }[] = [];
@@ -402,6 +424,57 @@ function pct(c: CourseRow) {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+.course-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.course-pack-group {
+  border: 1px solid #e8f6ff;
+  border-radius: 16px;
+  background: #fbfeff;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(186, 230, 253, 0.12);
+}
+
+.pack-group-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 18px;
+  background: linear-gradient(120deg, #e0f2fe 0%, #d4efff 100%);
+}
+
+.pack-group-icon {
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.pack-group-title {
+  flex: 1;
+  font-size: 15px;
+  font-weight: 600;
+  color: #075985;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pack-group-count {
+  font-size: 12px;
+  color: #0369a1;
+  background: #ffffff;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.course-pack-group .course-list {
+  padding: 12px;
 }
 
 .course-card {

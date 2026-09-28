@@ -60,11 +60,14 @@ function moraRomaji(kana: string, i: number): string {
 }
 
 export function kanaToInputRomaji(kana: string): string {
+  // 先归一：片假名 → 平假名（保留长音符 ー）。下面的映射表键为平假名，
+  // 且 っ/ん 的判定也按平假名处理，必须先归一，否则片假名（フォ・ッ・ン等）会拼错。
+  const src = katakanaToHiragana(kana);
   // 长音符 ー 直接用减号 - 输入（ka- → かー），无需记忆双元音展开；
   // 促音 っ 仍用「双写辅音」（かって → katte）。
   let result = "";
-  for (let i = 0; i < kana.length; ) {
-    const ch = kana[i];
+  for (let i = 0; i < src.length; ) {
+    const ch = src[i];
     if (ch === " ") {
       result += " ";
       i++;
@@ -77,17 +80,17 @@ export function kanaToInputRomaji(kana: string): string {
     }
     if (ch === "っ") {
       // 促音：双写下一音节的首字母；孤立在末尾时用 xtu。
-      if (i + 1 < kana.length) result += moraRomaji(kana, i + 1)[0];
+      if (i + 1 < src.length) result += moraRomaji(src, i + 1)[0];
       else result += "xtu";
       i++;
       continue;
     }
-    if (i + 1 < kana.length && KANA_ROMAJI_TWO[kana.slice(i, i + 2)]) {
-      result += KANA_ROMAJI_TWO[kana.slice(i, i + 2)];
+    if (i + 1 < src.length && KANA_ROMAJI_TWO[src.slice(i, i + 2)]) {
+      result += KANA_ROMAJI_TWO[src.slice(i, i + 2)];
       i += 2;
       continue;
     }
-    result += moraRomaji(kana, i);
+    result += moraRomaji(src, i);
     i++;
   }
   return result;
@@ -112,7 +115,8 @@ const ROMAJI_ALIASES: Record<string, string[]> = {
 
 export function getTokenRomajiAlternatives(token: JpToken): string[] {
   const primary = getTokenRomaji(token);
-  return [primary, ...(ROMAJI_ALIASES[token.kana] || [])];
+  const kana = katakanaToHiragana(token.kana);
+  return [primary, ...(ROMAJI_ALIASES[kana] || [])];
 }
 
 export function checkToken(
@@ -124,15 +128,20 @@ export function checkToken(
   if (isSingleKana) {
     return getTokenRomajiAlternatives(token).includes(trimmed);
   }
-  const input = toHiragana(trimmed);
-  const inputNN = toHiragana(trimmed.replace(/nn/g, "n'"));
-  if (input === token.kana || inputNN === token.kana) return true;
+  // 输入可能是罗马字（suma-tofon）或直接输入的假名原文（スマートフォン）。
+  // 直接原文时用 katakanaToHiragana 保留长音符 ー；罗马字时用 toHiragana（- → ー）。
+  const hasKana = /[ぁ-ヿ]/.test(trimmed);
+  const input = hasKana ? katakanaToHiragana(trimmed) : toHiragana(trimmed);
+  const inputNN = hasKana ? input : toHiragana(trimmed.replace(/nn/g, "n'"));
+  // 目标假名统一归一到「平假名 + 保留长音符 ー」再比较。
+  // 片假名词（スマートフォン）的 kana/text 是片假名，且 wanakana 的 toHiragana 会把
+  // 片假名里的 ー 展开成前一元音（スマート→すまあ），与罗马字输入的 -→ー 不一致，
+  // 导致无论怎么输入都判错。这里用 katakanaToHiragana 保留 ー，两者才对齐。
+  const targetKana = katakanaToHiragana(token.kana);
+  if (input === targetKana || inputNN === targetKana) return true;
   // 双写 n（nn）作为「ん」的输入习惯：honni → ほんい、honn → ほん。
-  // 标准罗马字里 ん 后接元音需用 n' 分隔（hon'i），但输入法/学习者常用 nn 表示 ん。
-  // 长音符 ー 直接用 - 输入（ka- → かー），toHiragana 已把 - 转成 ー。
-  // 允许直接输入原文形（汉字/片假名）：面白い → 面白い、パン → パン
-  // toHiragana 会把片假名转成平假名、保留汉字，因此与 token.text 归一后比较即可。
-  return input === toHiragana(token.text);
+  // 允许直接输入原文形（汉字/片假名）：面白い → 面白い、パン → パン。
+  return input === katakanaToHiragana(token.text);
 }
 
 // 练习输入框的实时显示：把罗马字转成假名，并正确处理「ん」的歧义。
@@ -142,6 +151,9 @@ export function checkToken(
 export function romajiToKanaForDisplay(raw: string, targetKana: string): string {
   const s = raw.toLowerCase();
   if (!s) return "";
+  // 目标是片假名时，显示也输出片假名（输入 suma-tofon 显示 スマートフォン，而非平假名）
+  const isKata = targetKana !== katakanaToHiragana(targetKana);
+  const target = katakanaToHiragana(targetKana);
 
   // 结尾连续 n：n 默认显示 ん；连打 nn 即确认一个 ん，nnn → んん……（每两个 n 折成一个 ん）。
   // 中间再接元音时，这个 n 会变成 な/に/ぬ/ね/の（由 toHiragana 处理）。
@@ -154,11 +166,12 @@ export function romajiToKanaForDisplay(raw: string, targetKana: string): string 
   const headStd = toHiragana(head);
   const headDbl = toHiragana(head.replace(/nn/g, "n'"));
   let headKana = headStd;
-  if (targetKana.startsWith(headDbl + tailKana) && !targetKana.startsWith(headStd + tailKana)) {
+  if (target.startsWith(headDbl + tailKana) && !target.startsWith(headStd + tailKana)) {
     headKana = headDbl;
   }
 
-  return headKana + tailKana;
+  const out = headKana + tailKana;
+  return isKata ? hiraganaToKatakana(out) : out;
 }
 
 export function calcWordWidth(kana: string, isSingleKana: boolean): number {
@@ -170,8 +183,16 @@ export function calcWordWidth(kana: string, isSingleKana: boolean): number {
 }
 
 export function katakanaToHiragana(str: string): string {
-  return str.replace(/[\u30a0-\u30ff]/g, (ch) =>
+  // 只转换片假名字母（ァ〜ヶ），排除 ー(长音)・(中点)等与平假名共享的符号，
+  // 否则 ー 会被错减成 ゜。长音符 ー 在日文中不分平/片，应原样保留。
+  return str.replace(/[\u30a1-\u30f6]/g, (ch) =>
     String.fromCharCode(ch.charCodeAt(0) - 0x60),
+  );
+}
+
+export function hiraganaToKatakana(str: string): string {
+  return str.replace(/[\u3041-\u3096]/g, (ch) =>
+    String.fromCharCode(ch.charCodeAt(0) + 0x60),
   );
 }
 
