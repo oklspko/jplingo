@@ -32,8 +32,10 @@
 
         <div class="kana-tips">
           <span class="kana-tips-title">💡 输入技巧：</span>
-          ん 输入 <b>n</b>（后接元音或な行时用 <b>nn</b>）；っ（促音）双写下一辅音，如 <b>kka</b> → っか；
-          し / ち / つ / ふ 也可输入 <b>si / ti / tu / hu</b>；を = <b>wo</b>，ぢ = <b>di</b>，づ = <b>du</b>。
+          ん 输入 <b>n</b>（后接元音会拼成 <b>na/ni/nu/ne/no</b>，连打 <b>nn</b> 即确认一个 ん）；
+          长音 ー 输入 <b>-</b>（减号），如 <b>ka-</b> → かー、<b>ko-hi-</b> → こーひー；
+          っ（促音）双写下一辅音，如 <b>kka</b> → っか；し / ち / つ / ふ 也可输入 <b>si / ti / tu / hu</b>；
+          を = <b>wo</b>，ぢ = <b>di</b>，づ = <b>du</b>。
         </div>
 
         <!-- 片假名测试 -->

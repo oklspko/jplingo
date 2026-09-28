@@ -245,6 +245,29 @@ export function moveImportedCourseInPack(packId: string, courseId: string, delta
   saveStore();
 }
 
+// 重命名导入课程包里的单个课程
+export function renameImportedCourse(packId: string, courseId: string, title: string) {
+  const s = getStore();
+  const c = s.courses[courseKey(packId, courseId)];
+  if (c) {
+    c.title = title;
+    saveStore();
+  }
+}
+
+// 按课程名排序某个导入课程包内的课程
+export function sortImportedCoursesByName(packId: string) {
+  const s = getStore();
+  const p = s.packs.find((x) => x.id === packId);
+  if (!p) return;
+  p.courses = [...(p.courses || [])].sort((a, b) => {
+    const ta = s.courses[courseKey(packId, a)]?.title || a;
+    const tb = s.courses[courseKey(packId, b)]?.title || b;
+    return ta.localeCompare(tb, "ja");
+  });
+  saveStore();
+}
+
 export function removeImportedPack(packId: string) {
   const s = getStore();
   const pack = s.packs.find((p) => p.id === packId);

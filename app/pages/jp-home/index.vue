@@ -14,6 +14,7 @@
           </div>
           <div class="home-actions">
             <button class="import-btn" @click="createFolder">🗂 新建文件夹</button>
+            <button class="import-btn" @click="openManage">📂 分组管理</button>
             <button class="import-btn" @click="openImport">📥 导入课程包</button>
           </div>
         </header>
@@ -72,53 +73,17 @@
                       <div class="course-title">🎯 无分类测试</div>
                       <div class="course-meta">已掌握 {{ mixedMasteredCount(pack.id) }} 词 · 连续答对 5 次即掌握</div>
                     </a>
-                    <div
+                    <a
                       v-for="courseId in pack.courses"
                       :key="courseId"
-                      class="course-card-wrap"
+                      class="course-card"
+                      :href="`/jp-study/${pack.id}/${courseId}`"
                     >
-                      <a
-                        class="course-card"
-                        :href="`/jp-study/${pack.id}/${courseId}`"
-                      >
-                        <div class="course-title">{{ getCourseTitle(pack.id, courseId) }}</div>
-                        <div class="course-meta">
-                          {{ courseMetaText(pack.id, courseId) }}
-                        </div>
-                      </a>
-                      <div v-if="isImported(pack.id)" class="course-card-actions">
-                        <button
-                          class="course-act-btn"
-                          :disabled="isFirstCourse(pack, courseId)"
-                          title="上移"
-                          @click="moveCourseInPack(pack.id, courseId, -1)"
-                        >↑</button>
-                        <button
-                          class="course-act-btn"
-                          :disabled="isLastCourse(pack, courseId)"
-                          title="下移"
-                          @click="moveCourseInPack(pack.id, courseId, 1)"
-                        >↓</button>
-                        <select
-                          class="course-move-select"
-                          title="移动到文件夹"
-                          @change="moveCourseTo(pack.id, courseId, $event)"
-                        >
-                          <option value="">📁 移动…</option>
-                          <option
-                            v-for="tp in importedPacks"
-                            :key="tp.id"
-                            :value="tp.id"
-                            :disabled="tp.id === pack.id"
-                          >{{ tp.title }}</option>
-                        </select>
-                        <button
-                          class="course-act-btn danger"
-                          title="删除"
-                          @click="deleteCourse(pack.id, courseId)"
-                        >🗑</button>
+                      <div class="course-title">{{ getCourseTitle(pack.id, courseId) }}</div>
+                      <div class="course-meta">
+                        {{ courseMetaText(pack.id, courseId) }}
                       </div>
-                    </div>
+                    </a>
                   </div>
                 </div>
               </transition>
@@ -252,6 +217,53 @@
           </div>
         </div>
       </div>
+
+      <!-- 分组管理弹窗 -->
+      <div v-if="showManage" class="manage-overlay" @click.self="showManage = false">
+        <div class="manage-modal" role="dialog" aria-modal="true">
+          <div class="manage-head">
+            <h3>🗂 分组管理</h3>
+            <button class="manage-close" @click="showManage = false">×</button>
+          </div>
+          <p class="manage-hint">重命名课程、移动到其他文件夹、按名称排序，都在这里完成。</p>
+
+          <div v-if="importedPacks.length === 0" class="manage-empty">
+            还没有导入的课程包，先「📥 导入课程包」或「🗂 新建文件夹」吧。
+          </div>
+
+          <div v-for="p in importedPacks" :key="p.id" class="manage-group">
+            <div class="manage-group-head">
+              <span class="manage-group-icon">📁</span>
+              <span class="manage-group-name">{{ p.title }}</span>
+              <span class="manage-group-count">{{ p.courses.length }} 课</span>
+              <button class="manage-mini" title="重命名文件夹" @click="renamePack(p.id)">✏️</button>
+              <button class="manage-mini" title="按名称排序" @click="sortPackByName(p.id)">🔤 排序</button>
+              <button class="manage-mini danger" title="删除文件夹" @click="removePack(p.id)">🗑</button>
+            </div>
+            <div class="manage-course-list">
+              <div v-for="cid in p.courses" :key="cid" class="manage-course-row">
+                <span class="manage-course-name">{{ courseTitleOf(p.id, cid) }}</span>
+                <button class="manage-mini" title="重命名课程" @click="renameCourse(p.id, cid)">✏️</button>
+                <select
+                  class="manage-move"
+                  title="移动到文件夹"
+                  @change="moveCourseTo(p.id, cid, $event)"
+                >
+                  <option value="">移动到…</option>
+                  <option
+                    v-for="tp in importedPacks"
+                    :key="tp.id"
+                    :value="tp.id"
+                    :disabled="tp.id === p.id"
+                  >{{ tp.title }}</option>
+                </select>
+                <button class="manage-mini danger" title="删除课程" @click="deleteCourse(p.id, cid)">🗑</button>
+              </div>
+              <div v-if="p.courses.length === 0" class="manage-course-empty">（空文件夹）</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   </div>
 </template>
@@ -276,7 +288,9 @@ import {
   renameImportedPack,
   removeImportedCourse,
   moveImportedCourse,
-  moveImportedCourseInPack,
+  renameImportedCourse,
+  sortImportedCoursesByName,
+  getImportedCourse,
 } from "~/composables/jp/useJpImportedPacks";
 import type { JpCoursePack } from "~/types/jp";
 
@@ -384,10 +398,7 @@ async function loadAll() {
     coursePacks.value = packs;
     importedPackIds.value = new Set(listImportedPacks().map((p) => p.id));
 
-    // 默认展开第一个非词汇包（排序后是五十音）；已展开过则不重置
-    if (expandedPacks.value.size === 0 && nonVocabPacks.value.length > 0) {
-      expandedPacks.value = new Set([nonVocabPacks.value[0].id]);
-    }
+    // 默认全部折叠，由用户自行展开
 
     // 课程元数据按需加载：只请求当前已展开的课程包，其余在展开时再加载
     courseIndex.value = {};
@@ -469,18 +480,26 @@ async function removePack(packId: string) {
   await loadAll();
 }
 
-// ===== 文件夹管理（仅导入的课程包） =====
-function isFirstCourse(pack: JpCoursePack, courseId: string): boolean {
-  return (pack.courses || []).indexOf(courseId) === 0;
+// ===== 分组管理（仅导入的课程包） =====
+const showManage = ref(false);
+
+function openManage() {
+  showManage.value = true;
 }
 
-function isLastCourse(pack: JpCoursePack, courseId: string): boolean {
-  const arr = pack.courses || [];
-  return arr.indexOf(courseId) === arr.length - 1;
+function courseTitleOf(packId: string, courseId: string): string {
+  return getImportedCourse(packId, courseId)?.title || courseId;
 }
 
-async function moveCourseInPack(packId: string, courseId: string, delta: -1 | 1) {
-  moveImportedCourseInPack(packId, courseId, delta);
+async function renameCourse(packId: string, courseId: string) {
+  const name = prompt("重命名课程：", courseTitleOf(packId, courseId));
+  if (!name) return;
+  renameImportedCourse(packId, courseId, name);
+  await loadAll();
+}
+
+async function sortPackByName(packId: string) {
+  sortImportedCoursesByName(packId);
   await loadAll();
 }
 
@@ -489,12 +508,11 @@ async function moveCourseTo(packId: string, courseId: string, event: Event) {
   const toPackId = sel.value;
   if (!toPackId) return;
   moveImportedCourse(courseId, packId, toPackId);
-  sel.value = "";
   await loadAll();
 }
 
 async function deleteCourse(packId: string, courseId: string) {
-  if (!confirm(`确定删除课程「${getCourseTitle(packId, courseId)}」？`)) return;
+  if (!confirm(`确定删除课程「${courseTitleOf(packId, courseId)}」？`)) return;
   removeImportedCourse(packId, courseId);
   await loadAll();
 }
@@ -1025,69 +1043,180 @@ async function createFolder() {
   border-color: #bae6fd;
 }
 
-/* ===== 导入课程的文件夹管理控件 ===== */
-.course-card-wrap {
+/* ===== 分组管理弹窗 ===== */
+.manage-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(7, 89, 133, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1100;
+  padding: 20px;
+}
+
+.manage-modal {
+  width: 100%;
+  max-width: 640px;
+  max-height: 80vh;
+  overflow-y: auto;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 20px 60px rgba(7, 89, 133, 0.3);
+}
+
+.manage-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.manage-head h3 {
+  margin: 0;
+  color: #075985;
+  font-size: 20px;
+}
+
+.manage-close {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 8px;
+  background: #f0f9ff;
+  color: #0369a1;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.manage-hint {
+  margin: 0 0 16px;
+  font-size: 13px;
+  color: #7dd3fc;
+  line-height: 1.6;
+}
+
+.manage-empty {
+  padding: 32px 0;
+  text-align: center;
+  color: #7dd3fc;
+  font-size: 14px;
+}
+
+.manage-group {
+  border: 1px solid #e8f6ff;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.manage-group-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  background: #f0f9ff;
+  flex-wrap: wrap;
+}
+
+.manage-group-icon {
+  font-size: 16px;
+}
+
+.manage-group-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #075985;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.manage-group-count {
+  font-size: 12px;
+  color: #0369a1;
+  background: #e0f2fe;
+  padding: 2px 8px;
+  border-radius: 8px;
+}
+
+.manage-course-list {
+  padding: 8px;
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
 
-.course-card-actions {
+.manage-course-row {
   display: flex;
   align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
+  gap: 8px;
+  padding: 6px 8px;
+  border: 1px solid #eef7fd;
+  border-radius: 10px;
 }
 
-.course-act-btn {
-  width: 30px;
-  height: 30px;
+.manage-course-name {
+  flex: 1;
+  min-width: 0;
+  font-size: 14px;
+  color: #075985;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.manage-course-empty {
+  padding: 12px;
+  text-align: center;
+  color: #bae6fd;
+  font-size: 13px;
+}
+
+.manage-mini {
+  flex-shrink: 0;
+  padding: 5px 10px;
   border: 1px solid #e0f2fe;
   border-radius: 8px;
   background: #fff;
   color: #0369a1;
+  font-size: 13px;
   cursor: pointer;
-  font-size: 14px;
-  line-height: 1;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s;
-  flex-shrink: 0;
+  white-space: nowrap;
+  transition: all 0.15s;
 }
 
-.course-act-btn:hover:not(:disabled) {
+.manage-mini:hover {
   background: #f0f9ff;
   border-color: #bae6fd;
   color: #0284c7;
 }
 
-.course-act-btn:disabled {
-  opacity: 0.35;
-  cursor: not-allowed;
-}
-
-.course-act-btn.danger {
+.manage-mini.danger {
   color: #dc2626;
   border-color: #fecaca;
 }
 
-.course-act-btn.danger:hover:not(:disabled) {
+.manage-mini.danger:hover {
   background: #fef2f2;
   border-color: #ef4444;
 }
 
-.course-move-select {
-  flex: 1;
-  min-width: 90px;
+.manage-move {
+  flex-shrink: 0;
   padding: 5px 8px;
   border: 1px solid #e0f2fe;
   border-radius: 8px;
   background: #fff;
   color: #0369a1;
-  font-size: 12px;
+  font-size: 13px;
   font-family: inherit;
   cursor: pointer;
+  max-width: 140px;
 }
 
 /* 弹窗 */
