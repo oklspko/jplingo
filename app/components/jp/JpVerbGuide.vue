@@ -98,6 +98,27 @@
         </div>
         <p class="vg-note">特殊：<b>行く → 行って</b>（いって，唯一不规则）。た形 只是把 て→た、で→だ（例：書く→書いた）。</p>
       </div>
+
+      <!-- 名词·形容词的て形 -->
+      <div class="vg-onbin">
+        <h4 class="vg-sub-title">📌 名词・形容词的て形（で形）</h4>
+        <p class="vg-block-intro">「て形」不只是动词有：名词和二类形容词用 <b>で形</b>（即 だ→で），一类形容词把词尾 <b>い → く＋て</b>。用途与动词て形一致——并列、中顿、原因。</p>
+        <div class="vg-table-scroll">
+          <div class="vg-table vg-table--3">
+            <div class="vg-row vg-row-head">
+              <span class="vg-cell">词类</span>
+              <span class="vg-cell">变形规则</span>
+              <span class="vg-cell">例</span>
+            </div>
+            <div v-for="r in teFormRows" :key="r.type" class="vg-row">
+              <span class="vg-cell vg-cell-key">{{ r.type }}</span>
+              <span class="vg-cell">{{ r.rule }}</span>
+              <span class="vg-cell">{{ r.example }}</span>
+            </div>
+          </div>
+        </div>
+        <p class="vg-note">例：<b>安くて</b>おいしい（又便宜又好吃）・<b>きれいで</b>静かだ（又漂亮又安静）・<b>学生で</b>、二十歳です（是学生，二十岁）。</p>
+      </div>
     </section>
   </div>
 </template>
@@ -133,6 +154,12 @@ const onbinRows = [
   { tail: "す", form: "して", example: "話す → 話して" },
   { tail: "う・つ・る", form: "って", example: "買う → 買って" },
   { tail: "ぬ・ぶ・む", form: "んで", example: "読む → 読んで" },
+];
+
+const teFormRows = [
+  { type: "一类形容词（い形）", rule: "い → く ＋ て", example: "高い → 高くて" },
+  { type: "二类形容词（な形）", rule: "＋ で", example: "きれい → きれいで" },
+  { type: "名词", rule: "＋ で", example: "学生 → 学生で" },
 ];
 </script>
 

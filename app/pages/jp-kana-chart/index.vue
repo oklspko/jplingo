@@ -130,6 +130,52 @@
             </div>
           </transition>
         </section>
+
+        <!-- 六、数量词 -->
+        <section class="page-section">
+          <h2
+            class="page-section-title"
+            role="button"
+            tabindex="0"
+            :aria-expanded="openNumbers"
+            @click="openNumbers = !openNumbers"
+            @keydown.enter.prevent="openNumbers = !openNumbers"
+            @keydown.space.prevent="openNumbers = !openNumbers"
+          >
+            <span class="page-num">六</span>
+            <span class="page-title-text">数量词</span>
+            <span class="section-toggle">{{ openNumbers ? "▾ 收起" : "▸ 展开" }}</span>
+          </h2>
+          <transition name="fold">
+            <div v-show="openNumbers" class="page-section-body">
+              <p class="page-section-intro">基数词、序数词、常用助数词（量词）一览，含读音变化。</p>
+              <JpNumbers />
+            </div>
+          </transition>
+        </section>
+
+        <!-- 七、尊他·自谦 -->
+        <section class="page-section">
+          <h2
+            class="page-section-title"
+            role="button"
+            tabindex="0"
+            :aria-expanded="openKeigo"
+            @click="openKeigo = !openKeigo"
+            @keydown.enter.prevent="openKeigo = !openKeigo"
+            @keydown.space.prevent="openKeigo = !openKeigo"
+          >
+            <span class="page-num">七</span>
+            <span class="page-title-text">尊他·自谦</span>
+            <span class="section-toggle">{{ openKeigo ? "▾ 收起" : "▸ 展开" }}</span>
+          </h2>
+          <transition name="fold">
+            <div v-show="openKeigo" class="page-section-body">
+              <p class="page-section-intro">敬语（尊敬語・謙譲語・丁重語）一览，含特殊动词与固定句型。</p>
+              <JpKeigo />
+            </div>
+          </transition>
+        </section>
       </div>
     </main>
   </div>
@@ -143,12 +189,16 @@ import JpPredicateSentences from "~/components/jp/JpPredicateSentences.vue";
 import JpKanaChart from "~/components/jp/JpKanaChart.vue";
 import JpParticles from "~/components/jp/JpParticles.vue";
 import JpVerbGuide from "~/components/jp/JpVerbGuide.vue";
+import JpNumbers from "~/components/jp/JpNumbers.vue";
+import JpKeigo from "~/components/jp/JpKeigo.vue";
 
 const openInput = ref(false);
 const openPredicate = ref(false);
 const openVerb = ref(false);
 const openParticles = ref(false);
 const openLogic = ref(false);
+const openNumbers = ref(false);
+const openKeigo = ref(false);
 </script>
 
 <style scoped>
