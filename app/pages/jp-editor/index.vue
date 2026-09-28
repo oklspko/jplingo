@@ -33,6 +33,9 @@
                 @change="importJson"
               />
             </label>
+            <button class="editor-btn" @click="openPasteModal">
+              📋 粘贴导入
+            </button>
             <button
               class="editor-btn primary"
               @click="exportJson"
@@ -74,7 +77,7 @@
             </div>
             <div class="help-step">
               <h3>② 用 AI 批量生成</h3>
-              <p>复制下面提示词发给 AI（Claude / ChatGPT 等），让它按格式生成课程 JSON，再「📂 导入」到编辑器微调：</p>
+              <p>复制下面提示词发给 AI（Claude / ChatGPT 等），让它按格式生成课程 JSON，再「📋 粘贴导入」（直接粘贴代码）或「📂 导入」到编辑器微调：</p>
               <div class="prompt-box">
                 <pre>{{ aiPrompt }}</pre>
                 <button class="editor-btn small primary" @click="copyPrompt">📋 复制提示词</button>
@@ -303,6 +306,30 @@
         </div>
       </div>
     </transition>
+
+    <!-- ===== 粘贴导入弹窗 ===== -->
+    <transition name="modal">
+      <div v-if="showPasteModal" class="modal-mask" @click.self="closePasteModal">
+        <div class="modal-box modal-box--wide">
+          <h3>粘贴导入课程</h3>
+          <p class="paste-hint">
+            把课程 JSON 代码粘到下面（支持单课 JSON 或课程包 JSON，可带
+            <code>```json</code> 代码块），点「导入」直接建立课程，无需文件。
+          </p>
+          <textarea
+            v-model="pasteText"
+            class="paste-textarea"
+            placeholder="在此粘贴 JSON 代码…"
+            spellcheck="false"
+          ></textarea>
+          <p v-if="pasteError" class="paste-error">{{ pasteError }}</p>
+          <div class="modal-actions">
+            <button class="editor-btn" @click="closePasteModal">取消</button>
+            <button class="editor-btn primary" @click="doPasteImport">导入</button>
+          </div>
+        </div>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -495,57 +522,111 @@ function createCourse() {
 }
 
 // ===== 导入 JSON =====
-// 同时支持「单课 JSON」和「单文件课程包 JSON」（取第一课编辑，其余可分别导入）
+// 同时支持「单课 JSON」和「单文件课程包 JSON」（取第一课编辑，其余可分别导入）。
+// 文件导入与粘贴导入共用下面这套解析/载入逻辑。
+
+// 解析课程 JSON：容忍 AI 输出常见的 ```json ... ``` 代码块包裹
+function parseCourseJson(text: string): any {
+  let t = text.trim();
+  const fence = t.match(/^```(?:json)?\s*\n?([\s\S]*?)\n?```\s*$/);
+  if (fence) t = fence[1].trim();
+  return JSON.parse(t);
+}
+
+// 把解析后的课程数据载入编辑器；返回 { error } 或 { note }
+function loadCourseFromData(data: any): { error?: string; note?: string } {
+  let courseData: any;
+  let note = "";
+  if (data && data.courses && typeof data.courses === "object") {
+    const keys = Object.keys(data.courses);
+    if (keys.length === 0) return { error: "课程包内没有课程" };
+    courseData = data.courses[keys[0]];
+    if (keys.length > 1) {
+      note = `课程包共 ${keys.length} 课，已载入第 1 课，其余可分别导入`;
+    }
+  } else {
+    courseData = data;
+  }
+
+  if (!courseData?.id || !Array.isArray(courseData.statements)) {
+    return { error: "JSON 格式不对：缺少 id 或 statements" };
+  }
+
+  course.value = courseData;
+  const importedPackId = courseData.coursePackId || "my-pack";
+  const key = `${importedPackId}/${courseData.id}`;
+  if (!courseOptions.value.some((o) => o.key === key)) {
+    courseOptions.value.push({
+      key,
+      packId: importedPackId,
+      courseId: courseData.id,
+      label: `[${importedPackId}] ${courseData.id}`,
+    });
+  }
+  selectedKey.value = key;
+  return { note };
+}
+
 async function importJson(event: Event) {
   const input = event.target as HTMLInputElement;
   const file = input.files?.[0];
   if (!file) return;
 
   try {
-    const text = await file.text();
-    const data = JSON.parse(text);
-
-    let courseData: any;
-    let note = "";
-    if (data && data.courses && typeof data.courses === "object") {
-      const keys = Object.keys(data.courses);
-      if (keys.length === 0) {
-        alert("课程包内没有课程");
-        return;
-      }
-      courseData = data.courses[keys[0]];
-      if (keys.length > 1) {
-        note = `（课程包共 ${keys.length} 课，已载入第 1 课，其余可分别导入）`;
-      }
-    } else {
-      courseData = data;
-    }
-
-    if (!courseData?.id || !Array.isArray(courseData.statements)) {
-      alert("JSON 格式不对：缺少 id 或 statements");
+    const data = parseCourseJson(await file.text());
+    const r = loadCourseFromData(data);
+    if (r.error) {
+      alert(r.error);
       return;
     }
-
-    course.value = courseData;
-    const importedPackId = courseData.coursePackId || "my-pack";
-    const key = `${importedPackId}/${courseData.id}`;
-    if (!courseOptions.value.some((o) => o.key === key)) {
-      courseOptions.value.push({
-        key,
-        packId: importedPackId,
-        courseId: courseData.id,
-        label: `[${importedPackId}] ${courseData.id}`,
-      });
-    }
-    selectedKey.value = key;
-
-    alert("导入成功！" + note);
+    alert("导入成功！" + (r.note ? `（${r.note}）` : ""));
   } catch (err) {
     alert("导入失败：" + (err as Error).message);
   } finally {
     // 清空 file input，允许重复导入同一个文件
     input.value = "";
   }
+}
+
+// ===== 粘贴导入 =====
+const showPasteModal = ref(false);
+const pasteText = ref("");
+const pasteError = ref("");
+
+function openPasteModal() {
+  pasteText.value = "";
+  pasteError.value = "";
+  showPasteModal.value = true;
+}
+
+function closePasteModal() {
+  showPasteModal.value = false;
+}
+
+function doPasteImport() {
+  const text = pasteText.value.trim();
+  if (!text) {
+    pasteError.value = "请先粘贴课程 JSON 代码";
+    return;
+  }
+
+  let data: any;
+  try {
+    data = parseCourseJson(text);
+  } catch (err) {
+    pasteError.value = "不是合法的 JSON：" + (err as Error).message;
+    return;
+  }
+
+  const r = loadCourseFromData(data);
+  if (r.error) {
+    pasteError.value = r.error;
+    return;
+  }
+
+  showPasteModal.value = false;
+  pasteText.value = "";
+  alert("导入成功！" + (r.note ? `（${r.note}）` : ""));
 }
 
 // ===== 句子操作 =====
@@ -1171,6 +1252,54 @@ async function copyPrompt() {
   color: #075985;
   margin: 0 0 24px;
   font-weight: 600;
+}
+
+.modal-box--wide {
+  max-width: 720px;
+}
+
+.paste-hint {
+  margin: 0 0 16px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #0369a1;
+}
+
+.paste-hint code {
+  background: #f0f9ff;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #0284c7;
+}
+
+.paste-textarea {
+  width: 100%;
+  min-height: 220px;
+  padding: 12px 14px;
+  border: 2px solid #e8f6ff;
+  border-radius: 10px;
+  font-size: 12px;
+  line-height: 1.6;
+  font-family: "SF Mono", "Consolas", monospace;
+  color: #075985;
+  background: #f8fcff;
+  outline: none;
+  resize: vertical;
+  box-sizing: border-box;
+  transition: all 0.2s;
+}
+
+.paste-textarea:focus {
+  border-color: #bae6fd;
+  box-shadow: 0 0 0 4px rgba(186, 230, 253, 0.2);
+  background: #fff;
+}
+
+.paste-error {
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: #dc2626;
 }
 
 .modal-row {
