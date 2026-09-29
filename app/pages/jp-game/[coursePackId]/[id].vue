@@ -43,7 +43,7 @@
         <div class="jp-input-area" @click="focusInput">
           <div class="jp-words">
             <div
-              v-for="(word, i) in input.userInputWords"
+              v-for="(word, i) in userInputWords"
               :key="i"
               class="jp-word"
               :class="wordClass(word)"
@@ -55,7 +55,7 @@
           </div>
           <input
             ref="inputRef"
-            :value="input.inputValue"
+            :value="inputValue"
             class="jp-hidden-input"
             type="text"
             autocapitalize="off"
@@ -256,6 +256,9 @@ const input = useJpInput({
   getInputCursorPosition,
   fixCallback: () => playJumpSound(),
 });
+// 模板里不能用嵌套 ref（input.inputValue 不会自动解包，会变成 "[object Object]"），
+// 拆到顶层供模板自动解包；input 本身仍保留给脚本里的方法调用（initialize/setInputValue 等）。
+const { inputValue, userInputWords } = input;
 
 const progressPercent = computed(() => {
   if (statements.value.length === 0) return 0;
