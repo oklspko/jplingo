@@ -99,12 +99,12 @@
       "id": "08",
       "chinese": "合计；整体的",
       "japanese": "トータル",
-      "kana": "とうたる",
-      "romaji": "toutaru",
+      "kana": "とーたる",
+      "romaji": "to-taru",
       "tokens": [
         {
           "text": "トータル",
-          "kana": "とうたる"
+          "kana": "とーたる"
         }
       ]
     },

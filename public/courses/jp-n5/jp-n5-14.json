@@ -229,12 +229,12 @@
       "id": "18",
       "chinese": "曲奇饼干",
       "japanese": "クッキー",
-      "kana": "くっきい",
-      "romaji": "kukkii",
+      "kana": "くっきー",
+      "romaji": "kukki-",
       "tokens": [
         {
           "text": "クッキー",
-          "kana": "くっきい"
+          "kana": "くっきー"
         }
       ]
     },
@@ -268,12 +268,12 @@
       "id": "21",
       "chinese": "篮球",
       "japanese": "バスケットボール",
-      "kana": "ばすけっとぼうる",
-      "romaji": "basukettobouru",
+      "kana": "ばすけっとぼーる",
+      "romaji": "basukettobo-ru",
       "tokens": [
         {
           "text": "バスケットボール",
-          "kana": "ばすけっとぼうる"
+          "kana": "ばすけっとぼーる"
         }
       ]
     },
@@ -294,12 +294,12 @@
       "id": "23",
       "chinese": "球",
       "japanese": "ボール",
-      "kana": "ぼうる",
-      "romaji": "bouru",
+      "kana": "ぼーる",
+      "romaji": "bo-ru",
       "tokens": [
         {
           "text": "ボール",
-          "kana": "ぼうる"
+          "kana": "ぼーる"
         }
       ]
     },

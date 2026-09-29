@@ -34,12 +34,12 @@
       "id": "03",
       "chinese": "路线；途径",
       "japanese": "ルート",
-      "kana": "るうと",
-      "romaji": "ruuto",
+      "kana": "るーと",
+      "romaji": "ru-to",
       "tokens": [
         {
           "text": "ルート",
-          "kana": "るうと"
+          "kana": "るーと"
         }
       ]
     },
@@ -47,12 +47,12 @@
       "id": "04",
       "chinese": "控制杆，操纵杆",
       "japanese": "レバー",
-      "kana": "ればあ",
-      "romaji": "rebaa",
+      "kana": "ればー",
+      "romaji": "reba-",
       "tokens": [
         {
           "text": "レバー",
-          "kana": "ればあ"
+          "kana": "ればー"
         }
       ]
     },

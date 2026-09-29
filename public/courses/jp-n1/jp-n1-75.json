@@ -112,12 +112,12 @@
       "id": "09",
       "chinese": "动机，中心思想，主题",
       "japanese": "モチーフ",
-      "kana": "もちいふ",
-      "romaji": "mochiifu",
+      "kana": "もちーふ",
+      "romaji": "mochi-fu",
       "tokens": [
         {
           "text": "モチーフ",
-          "kana": "もちいふ"
+          "kana": "もちーふ"
         }
       ]
     },
@@ -242,12 +242,12 @@
       "id": "19",
       "chinese": "画廊；观众，观览席",
       "japanese": "ギャラリー",
-      "kana": "ぎゃらりい",
-      "romaji": "gyararii",
+      "kana": "ぎゃらりー",
+      "romaji": "gyarari-",
       "tokens": [
         {
           "text": "ギャラリー",
-          "kana": "ぎゃらりい"
+          "kana": "ぎゃらりー"
         }
       ]
     },
@@ -320,12 +320,12 @@
       "id": "25",
       "chinese": "姿态，姿势，手势；摆样子，作姿态",
       "japanese": "ジェスチャー",
-      "kana": "じぇすちゃあ",
-      "romaji": "jesuchaa",
+      "kana": "じぇすちゃー",
+      "romaji": "jiesucha-",
       "tokens": [
         {
           "text": "ジェスチャー",
-          "kana": "じぇすちゃあ"
+          "kana": "じぇすちゃー"
         }
       ]
     },

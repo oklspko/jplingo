@@ -9,7 +9,7 @@
       "chinese": "能量",
       "japanese": "エネルギー",
       "kana": "えねるぎー",
-      "romaji": "enerugii",
+      "romaji": "enerugi-",
       "tokens": [
         {
           "text": "エネルギー",
@@ -35,7 +35,7 @@
       "chinese": "互联网",
       "japanese": "インターネット",
       "kana": "いんたーねっと",
-      "romaji": "intaanetto",
+      "romaji": "inta-netto",
       "tokens": [
         {
           "text": "インターネット",
@@ -61,7 +61,7 @@
       "chinese": "电梯",
       "japanese": "エレベーター",
       "kana": "えれべーたー",
-      "romaji": "erebeetaa",
+      "romaji": "erebe-ta-",
       "tokens": [
         {
           "text": "エレベーター",
@@ -74,7 +74,7 @@
       "chinese": "卡片",
       "japanese": "カード",
       "kana": "かーど",
-      "romaji": "kaado",
+      "romaji": "ka-do",
       "tokens": [
         {
           "text": "カード",
@@ -87,7 +87,7 @@
       "chinese": "日历",
       "japanese": "カレンダー",
       "kana": "かれんだー",
-      "romaji": "karendaa",
+      "romaji": "karenda-",
       "tokens": [
         {
           "text": "カレンダー",
@@ -139,7 +139,7 @@
       "chinese": "问卷",
       "japanese": "アンケート",
       "kana": "あんけーと",
-      "romaji": "ankeeto",
+      "romaji": "anke-to",
       "tokens": [
         {
           "text": "アンケート",
@@ -191,7 +191,7 @@
       "chinese": "澳大利亚",
       "japanese": "オーストラリア",
       "kana": "おーすとらりあ",
-      "romaji": "oosutoraria",
+      "romaji": "o-sutoraria",
       "tokens": [
         {
           "text": "オーストラリア",
@@ -204,7 +204,7 @@
       "chinese": "开放",
       "japanese": "オープン",
       "kana": "おーぷん",
-      "romaji": "oopun",
+      "romaji": "o-pun",
       "tokens": [
         {
           "text": "オープン",
@@ -217,7 +217,7 @@
       "chinese": "公寓",
       "japanese": "アパート",
       "kana": "あぱーと",
-      "romaji": "apaato",
+      "romaji": "apa-to",
       "tokens": [
         {
           "text": "アパート",
@@ -308,7 +308,7 @@
       "chinese": "形象",
       "japanese": "イメージ",
       "kana": "いめーじ",
-      "romaji": "imeeji",
+      "romaji": "ime-ji",
       "tokens": [
         {
           "text": "イメージ",
@@ -321,7 +321,7 @@
       "chinese": "窗帘",
       "japanese": "カーテン",
       "kana": "かーてん",
-      "romaji": "kaaten",
+      "romaji": "ka-ten",
       "tokens": [
         {
           "text": "カーテン",
@@ -425,7 +425,7 @@
       "chinese": "问卷",
       "japanese": "アンケート",
       "kana": "あんけーと",
-      "romaji": "ankeeto",
+      "romaji": "anke-to",
       "tokens": [
         {
           "text": "アンケート",
@@ -451,7 +451,7 @@
       "chinese": "窗帘",
       "japanese": "カーテン",
       "kana": "かーてん",
-      "romaji": "kaaten",
+      "romaji": "ka-ten",
       "tokens": [
         {
           "text": "カーテン",
@@ -464,7 +464,7 @@
       "chinese": "澳大利亚",
       "japanese": "オーストラリア",
       "kana": "おーすとらりあ",
-      "romaji": "oosutoraria",
+      "romaji": "o-sutoraria",
       "tokens": [
         {
           "text": "オーストラリア",
@@ -490,7 +490,7 @@
       "chinese": "能量",
       "japanese": "エネルギー",
       "kana": "えねるぎー",
-      "romaji": "enerugii",
+      "romaji": "enerugi-",
       "tokens": [
         {
           "text": "エネルギー",
@@ -568,7 +568,7 @@
       "chinese": "电梯",
       "japanese": "エレベーター",
       "kana": "えれべーたー",
-      "romaji": "erebeetaa",
+      "romaji": "erebe-ta-",
       "tokens": [
         {
           "text": "エレベーター",
@@ -581,7 +581,7 @@
       "chinese": "开放",
       "japanese": "オープン",
       "kana": "おーぷん",
-      "romaji": "oopun",
+      "romaji": "o-pun",
       "tokens": [
         {
           "text": "オープン",
@@ -594,7 +594,7 @@
       "chinese": "公寓",
       "japanese": "アパート",
       "kana": "あぱーと",
-      "romaji": "apaato",
+      "romaji": "apa-to",
       "tokens": [
         {
           "text": "アパート",
@@ -659,7 +659,7 @@
       "chinese": "日历",
       "japanese": "カレンダー",
       "kana": "かれんだー",
-      "romaji": "karendaa",
+      "romaji": "karenda-",
       "tokens": [
         {
           "text": "カレンダー",
@@ -711,7 +711,7 @@
       "chinese": "卡片",
       "japanese": "カード",
       "kana": "かーど",
-      "romaji": "kaado",
+      "romaji": "ka-do",
       "tokens": [
         {
           "text": "カード",
@@ -724,7 +724,7 @@
       "chinese": "形象",
       "japanese": "イメージ",
       "kana": "いめーじ",
-      "romaji": "imeeji",
+      "romaji": "ime-ji",
       "tokens": [
         {
           "text": "イメージ",
@@ -737,7 +737,7 @@
       "chinese": "互联网",
       "japanese": "インターネット",
       "kana": "いんたーねっと",
-      "romaji": "intaanetto",
+      "romaji": "inta-netto",
       "tokens": [
         {
           "text": "インターネット",
@@ -802,7 +802,7 @@
       "chinese": "公寓",
       "japanese": "アパート",
       "kana": "あぱーと",
-      "romaji": "apaato",
+      "romaji": "apa-to",
       "tokens": [
         {
           "text": "アパート",
@@ -828,7 +828,7 @@
       "chinese": "开放",
       "japanese": "オープン",
       "kana": "おーぷん",
-      "romaji": "oopun",
+      "romaji": "o-pun",
       "tokens": [
         {
           "text": "オープン",
@@ -841,7 +841,7 @@
       "chinese": "形象",
       "japanese": "イメージ",
       "kana": "いめーじ",
-      "romaji": "imeeji",
+      "romaji": "ime-ji",
       "tokens": [
         {
           "text": "イメージ",
@@ -854,7 +854,7 @@
       "chinese": "卡片",
       "japanese": "カード",
       "kana": "かーど",
-      "romaji": "kaado",
+      "romaji": "ka-do",
       "tokens": [
         {
           "text": "カード",
@@ -880,7 +880,7 @@
       "chinese": "窗帘",
       "japanese": "カーテン",
       "kana": "かーてん",
-      "romaji": "kaaten",
+      "romaji": "ka-ten",
       "tokens": [
         {
           "text": "カーテン",
@@ -893,7 +893,7 @@
       "chinese": "电梯",
       "japanese": "エレベーター",
       "kana": "えれべーたー",
-      "romaji": "erebeetaa",
+      "romaji": "erebe-ta-",
       "tokens": [
         {
           "text": "エレベーター",
@@ -958,7 +958,7 @@
       "chinese": "澳大利亚",
       "japanese": "オーストラリア",
       "kana": "おーすとらりあ",
-      "romaji": "oosutoraria",
+      "romaji": "o-sutoraria",
       "tokens": [
         {
           "text": "オーストラリア",
@@ -997,7 +997,7 @@
       "chinese": "互联网",
       "japanese": "インターネット",
       "kana": "いんたーねっと",
-      "romaji": "intaanetto",
+      "romaji": "inta-netto",
       "tokens": [
         {
           "text": "インターネット",
@@ -1010,7 +1010,7 @@
       "chinese": "日历",
       "japanese": "カレンダー",
       "kana": "かれんだー",
-      "romaji": "karendaa",
+      "romaji": "karenda-",
       "tokens": [
         {
           "text": "カレンダー",
@@ -1075,7 +1075,7 @@
       "chinese": "能量",
       "japanese": "エネルギー",
       "kana": "えねるぎー",
-      "romaji": "enerugii",
+      "romaji": "enerugi-",
       "tokens": [
         {
           "text": "エネルギー",
@@ -1114,7 +1114,7 @@
       "chinese": "问卷",
       "japanese": "アンケート",
       "kana": "あんけーと",
-      "romaji": "ankeeto",
+      "romaji": "anke-to",
       "tokens": [
         {
           "text": "アンケート",

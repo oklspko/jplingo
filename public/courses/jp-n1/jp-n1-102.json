@@ -164,12 +164,12 @@
       "id": "13",
       "chinese": "保持，保留",
       "japanese": "キープ",
-      "kana": "きいぷ",
-      "romaji": "kiipu",
+      "kana": "きーぷ",
+      "romaji": "ki-pu",
       "tokens": [
         {
           "text": "キープ",
-          "kana": "きいぷ"
+          "kana": "きーぷ"
         }
       ]
     },
@@ -190,12 +190,12 @@
       "id": "15",
       "chinese": "搭配，组合",
       "japanese": "コーディネート",
-      "kana": "こうでぃねえと",
-      "romaji": "koudeineeto",
+      "kana": "こーでぃねーと",
+      "romaji": "ko-deine-to",
       "tokens": [
         {
           "text": "コーディネート",
-          "kana": "こうでぃねえと"
+          "kana": "こーでぃねーと"
         }
       ]
     },
@@ -307,12 +307,12 @@
       "id": "24",
       "chinese": "包装",
       "japanese": "パッケージ",
-      "kana": "ぱっけえじ",
-      "romaji": "pakkeeji",
+      "kana": "ぱっけーじ",
+      "romaji": "pakke-ji",
       "tokens": [
         {
           "text": "パッケージ",
-          "kana": "ぱっけえじ"
+          "kana": "ぱっけーじ"
         }
       ]
     },
@@ -372,12 +372,12 @@
       "id": "29",
       "chinese": "帮助；追踪；（社交媒体的）关注",
       "japanese": "フォロー",
-      "kana": "ふぉろう",
-      "romaji": "fuorou",
+      "kana": "ふぉろー",
+      "romaji": "fuoro-",
       "tokens": [
         {
           "text": "フォロー",
-          "kana": "ふぉろう"
+          "kana": "ふぉろー"
         }
       ]
     },

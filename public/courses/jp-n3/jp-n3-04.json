@@ -47,12 +47,12 @@
       "id": "04",
       "chinese": "同班同学",
       "japanese": "クラスメート",
-      "kana": "くらすめえと",
-      "romaji": "kurasumeeto",
+      "kana": "くらすめーと",
+      "romaji": "kurasume-to",
       "tokens": [
         {
           "text": "クラスメート",
-          "kana": "くらすめえと"
+          "kana": "くらすめーと"
         }
       ]
     },
@@ -151,12 +151,12 @@
       "id": "12",
       "chinese": "牛排",
       "japanese": "ステーキ",
-      "kana": "すてえき",
-      "romaji": "suteeki",
+      "kana": "すてーき",
+      "romaji": "sute-ki",
       "tokens": [
         {
           "text": "ステーキ",
-          "kana": "すてえき"
+          "kana": "すてーき"
         }
       ]
     },
@@ -190,12 +190,12 @@
       "id": "15",
       "chinese": "中心，中央",
       "japanese": "センター",
-      "kana": "せんたあ",
-      "romaji": "sentaa",
+      "kana": "せんたー",
+      "romaji": "senta-",
       "tokens": [
         {
           "text": "センター",
-          "kana": "せんたあ"
+          "kana": "せんたー"
         }
       ]
     },
@@ -281,12 +281,12 @@
       "id": "22",
       "chinese": "护照",
       "japanese": "パスポート",
-      "kana": "ぱすぽうと",
-      "romaji": "pasupouto",
+      "kana": "ぱすぽーと",
+      "romaji": "pasupo-to",
       "tokens": [
         {
           "text": "パスポート",
-          "kana": "ぱすぽうと"
+          "kana": "ぱすぽーと"
         }
       ]
     },
@@ -294,12 +294,12 @@
       "id": "23",
       "chinese": "黄油",
       "japanese": "バター",
-      "kana": "ばたあ",
-      "romaji": "bataa",
+      "kana": "ばたー",
+      "romaji": "bata-",
       "tokens": [
         {
           "text": "バター",
-          "kana": "ばたあ"
+          "kana": "ばたー"
         }
       ]
     },

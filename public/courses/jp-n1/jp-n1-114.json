@@ -216,12 +216,12 @@
       "id": "17",
       "chinese": "节省，节约；救球；（电脑）保存",
       "japanese": "セーブ",
-      "kana": "せえぶ",
-      "romaji": "seebu",
+      "kana": "せーぶ",
+      "romaji": "se-bu",
       "tokens": [
         {
           "text": "セーブ",
-          "kana": "せえぶ"
+          "kana": "せーぶ"
         }
       ]
     },

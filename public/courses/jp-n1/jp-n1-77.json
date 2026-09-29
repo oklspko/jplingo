@@ -216,12 +216,12 @@
       "id": "17",
       "chinese": "专家，内行，行家",
       "japanese": "エキスパート",
-      "kana": "えきすぱあと",
-      "romaji": "ekisupaato",
+      "kana": "えきすぱーと",
+      "romaji": "ekisupa-to",
       "tokens": [
         {
           "text": "エキスパート",
-          "kana": "えきすぱあと"
+          "kana": "えきすぱーと"
         }
       ]
     },

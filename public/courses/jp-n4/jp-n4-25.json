@@ -138,12 +138,12 @@
       "id": "11",
       "chinese": "开业；开放",
       "japanese": "オープン",
-      "kana": "おうぷん",
-      "romaji": "oupun",
+      "kana": "おーぷん",
+      "romaji": "o-pun",
       "tokens": [
         {
           "text": "オープン",
-          "kana": "おうぷん"
+          "kana": "おーぷん"
         }
       ]
     }

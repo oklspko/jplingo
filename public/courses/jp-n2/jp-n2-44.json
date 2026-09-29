@@ -73,12 +73,12 @@
       "id": "06",
       "chinese": "座位，席位",
       "japanese": "シート",
-      "kana": "しいと",
-      "romaji": "shiito",
+      "kana": "しーと",
+      "romaji": "shi-to",
       "tokens": [
         {
           "text": "シート",
-          "kana": "しいと"
+          "kana": "しーと"
         }
       ]
     },
@@ -86,12 +86,12 @@
       "id": "07",
       "chinese": "场景",
       "japanese": "シーン",
-      "kana": "しいん",
-      "romaji": "shiin",
+      "kana": "しーん",
+      "romaji": "shi-n",
       "tokens": [
         {
           "text": "シーン",
-          "kana": "しいん"
+          "kana": "しーん"
         }
       ]
     },
@@ -138,12 +138,12 @@
       "id": "11",
       "chinese": "空间；空白；宇宙",
       "japanese": "スペース",
-      "kana": "すぺえす",
-      "romaji": "supeesu",
+      "kana": "すぺーす",
+      "romaji": "supe-su",
       "tokens": [
         {
           "text": "スペース",
-          "kana": "すぺえす"
+          "kana": "すぺーす"
         }
       ]
     },
@@ -151,12 +151,12 @@
       "id": "12",
       "chinese": "推销，推销员",
       "japanese": "セールス",
-      "kana": "せえるす",
-      "romaji": "seerusu",
+      "kana": "せーるす",
+      "romaji": "se-rusu",
       "tokens": [
         {
           "text": "セールス",
-          "kana": "せえるす"
+          "kana": "せーるす"
         }
       ]
     },
@@ -177,12 +177,12 @@
       "id": "14",
       "chinese": "秒表，定时器",
       "japanese": "タイマー",
-      "kana": "たいまあ",
-      "romaji": "taimaa",
+      "kana": "たいまー",
+      "romaji": "taima-",
       "tokens": [
         {
           "text": "タイマー",
-          "kana": "たいまあ"
+          "kana": "たいまー"
         }
       ]
     },
@@ -242,12 +242,12 @@
       "id": "19",
       "chinese": "夜场比赛",
       "japanese": "ナイター",
-      "kana": "ないたあ",
-      "romaji": "naitaa",
+      "kana": "ないたー",
+      "romaji": "naita-",
       "tokens": [
         {
           "text": "ナイター",
-          "kana": "ないたあ"
+          "kana": "ないたー"
         }
       ]
     },
@@ -268,12 +268,12 @@
       "id": "21",
       "chinese": "姿势；形态；表格",
       "japanese": "フォーム",
-      "kana": "ふぉうむ",
-      "romaji": "fuoumu",
+      "kana": "ふぉーむ",
+      "romaji": "fuo-mu",
       "tokens": [
         {
           "text": "フォーム",
-          "kana": "ふぉうむ"
+          "kana": "ふぉーむ"
         }
       ]
     },
@@ -281,12 +281,12 @@
       "id": "22",
       "chinese": "隐私",
       "japanese": "プライバシー",
-      "kana": "ぷらいばしい",
-      "romaji": "puraibashii",
+      "kana": "ぷらいばしー",
+      "romaji": "puraibashi-",
       "tokens": [
         {
           "text": "プライバシー",
-          "kana": "ぷらいばしい"
+          "kana": "ぷらいばしー"
         }
       ]
     },
@@ -294,12 +294,12 @@
       "id": "23",
       "chinese": "步伐；进度",
       "japanese": "ペース",
-      "kana": "ぺえす",
-      "romaji": "peesu",
+      "kana": "ぺーす",
+      "romaji": "pe-su",
       "tokens": [
         {
           "text": "ペース",
-          "kana": "ぺえす"
+          "kana": "ぺーす"
         }
       ]
     },
@@ -307,12 +307,12 @@
       "id": "24",
       "chinese": "畅销书",
       "japanese": "ベストセラー",
-      "kana": "べすとせらあ",
-      "romaji": "besutoseraa",
+      "kana": "べすとせらー",
+      "romaji": "besutosera-",
       "tokens": [
         {
           "text": "ベストセラー",
-          "kana": "べすとせらあ"
+          "kana": "べすとせらー"
         }
       ]
     },
@@ -333,12 +333,12 @@
       "id": "26",
       "chinese": "制造商，厂家",
       "japanese": "メーカー",
-      "kana": "めえかあ",
-      "romaji": "meekaa",
+      "kana": "めーかー",
+      "romaji": "me-ka-",
       "tokens": [
         {
           "text": "メーカー",
-          "kana": "めえかあ"
+          "kana": "めーかー"
         }
       ]
     },
@@ -372,12 +372,12 @@
       "id": "29",
       "chinese": "竞赛，竞速，竞争",
       "japanese": "レース",
-      "kana": "れえす",
-      "romaji": "reesu",
+      "kana": "れーす",
+      "romaji": "re-su",
       "tokens": [
         {
           "text": "レース",
-          "kana": "れえす"
+          "kana": "れーす"
         }
       ]
     },

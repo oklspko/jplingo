@@ -372,12 +372,12 @@
       "id": "29",
       "chinese": "情报，信息",
       "japanese": "インフォメーション",
-      "kana": "いんふぉめえしょん",
-      "romaji": "infuomeeshon",
+      "kana": "いんふぉめーしょん",
+      "romaji": "infuome-shon",
       "tokens": [
         {
           "text": "インフォメーション",
-          "kana": "いんふぉめえしょん"
+          "kana": "いんふぉめーしょん"
         }
       ]
     },

@@ -47,12 +47,12 @@
       "id": "04",
       "chinese": "果冻；胶状物，啫喱",
       "japanese": "ゼリー",
-      "kana": "ぜりい",
-      "romaji": "zerii",
+      "kana": "ぜりー",
+      "romaji": "zeri-",
       "tokens": [
         {
           "text": "ゼリー",
-          "kana": "ぜりい"
+          "kana": "ぜりー"
         }
       ]
     },
@@ -60,12 +60,12 @@
       "id": "05",
       "chinese": "合作",
       "japanese": "チームワーク",
-      "kana": "ちいむわあく",
-      "romaji": "chiimuwaaku",
+      "kana": "ちーむわーく",
+      "romaji": "chi-muwa-ku",
       "tokens": [
         {
           "text": "チームワーク",
-          "kana": "ちいむわあく"
+          "kana": "ちーむわーく"
         }
       ]
     },
@@ -73,12 +73,12 @@
       "id": "06",
       "chinese": "音调；色调",
       "japanese": "トーン",
-      "kana": "とうん",
-      "romaji": "toun",
+      "kana": "とーん",
+      "romaji": "to-n",
       "tokens": [
         {
           "text": "トーン",
-          "kana": "とうん"
+          "kana": "とーん"
         }
       ]
     },
@@ -99,12 +99,12 @@
       "id": "08",
       "chinese": "司机；螺丝刀；驱动程序",
       "japanese": "ドライバー",
-      "kana": "どらいばあ",
-      "romaji": "doraibaa",
+      "kana": "どらいばー",
+      "romaji": "doraiba-",
       "tokens": [
         {
           "text": "ドライバー",
-          "kana": "どらいばあ"
+          "kana": "どらいばー"
         }
       ]
     },
@@ -164,12 +164,12 @@
       "id": "13",
       "chinese": "烫发",
       "japanese": "パーマ",
-      "kana": "ぱあま",
-      "romaji": "paama",
+      "kana": "ぱーま",
+      "romaji": "pa-ma",
       "tokens": [
         {
           "text": "パーマ",
-          "kana": "ぱあま"
+          "kana": "ぱーま"
         }
       ]
     },
@@ -203,12 +203,12 @@
       "id": "16",
       "chinese": "衣架",
       "japanese": "ハンガー",
-      "kana": "はんがあ",
-      "romaji": "hangaa",
+      "kana": "はんがー",
+      "romaji": "hanga-",
       "tokens": [
         {
           "text": "ハンガー",
-          "kana": "はんがあ"
+          "kana": "はんがー"
         }
       ]
     },
@@ -242,12 +242,12 @@
       "id": "19",
       "chinese": "过滤器；滤镜",
       "japanese": "フィルター",
-      "kana": "ふぃるたあ",
-      "romaji": "fyirutaa",
+      "kana": "ふぃるたー",
+      "romaji": "fyiruta-",
       "tokens": [
         {
           "text": "フィルター",
-          "kana": "ふぃるたあ"
+          "kana": "ふぃるたー"
         }
       ]
     },
@@ -307,12 +307,12 @@
       "id": "24",
       "chinese": "旋律，曲调",
       "japanese": "メロディー",
-      "kana": "めろでぃい",
-      "romaji": "merodeii",
+      "kana": "めろでぃー",
+      "romaji": "merodei-",
       "tokens": [
         {
           "text": "メロディー",
-          "kana": "めろでぃい"
+          "kana": "めろでぃー"
         }
       ]
     },
@@ -320,12 +320,12 @@
       "id": "25",
       "chinese": "监视器；显示器，屏幕；评论员①",
       "japanese": "モニター",
-      "kana": "もにたあ",
-      "romaji": "monitaa",
+      "kana": "もにたー",
+      "romaji": "monita-",
       "tokens": [
         {
           "text": "モニター",
-          "kana": "もにたあ"
+          "kana": "もにたー"
         }
       ]
     },
@@ -346,12 +346,12 @@
       "id": "27",
       "chinese": "用户",
       "japanese": "ユーザー",
-      "kana": "ゆうざあ",
-      "romaji": "yuuzaa",
+      "kana": "ゆーざー",
+      "romaji": "yu-za-",
       "tokens": [
         {
           "text": "ユーザー",
-          "kana": "ゆうざあ"
+          "kana": "ゆーざー"
         }
       ]
     },

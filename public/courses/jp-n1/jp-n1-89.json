@@ -8,12 +8,12 @@
       "id": "01",
       "chinese": "命名，起名",
       "japanese": "ネーミング",
-      "kana": "ねえみんぐ",
-      "romaji": "neemingu",
+      "kana": "ねーみんぐ",
+      "romaji": "ne-mingu",
       "tokens": [
         {
           "text": "ネーミング",
-          "kana": "ねえみんぐ"
+          "kana": "ねーみんぐ"
         }
       ]
     },
@@ -21,12 +21,12 @@
       "id": "02",
       "chinese": "怀旧，乡愁",
       "japanese": "ノスタルジー",
-      "kana": "のすたるじい",
-      "romaji": "nosutarujii",
+      "kana": "のすたるじー",
+      "romaji": "nosutaruji-",
       "tokens": [
         {
           "text": "ノスタルジー",
-          "kana": "のすたるじい"
+          "kana": "のすたるじー"
         }
       ]
     },
@@ -47,12 +47,12 @@
       "id": "04",
       "chinese": "自由职业者",
       "japanese": "フリーランス",
-      "kana": "ふりいらんす",
-      "romaji": "furiiransu",
+      "kana": "ふりーらんす",
+      "romaji": "furi-ransu",
       "tokens": [
         {
           "text": "フリーランス",
-          "kana": "ふりいらんす"
+          "kana": "ふりーらんす"
         }
       ]
     },
@@ -60,12 +60,12 @@
       "id": "05",
       "chinese": "风险，投机",
       "japanese": "ベンチャー",
-      "kana": "べんちゃあ",
-      "romaji": "benchaa",
+      "kana": "べんちゃー",
+      "romaji": "bencha-",
       "tokens": [
         {
           "text": "ベンチャー",
-          "kana": "べんちゃあ"
+          "kana": "べんちゃー"
         }
       ]
     },
@@ -99,12 +99,12 @@
       "id": "08",
       "chinese": "联盟，联赛",
       "japanese": "リーグ",
-      "kana": "りいぐ",
-      "romaji": "riigu",
+      "kana": "りーぐ",
+      "romaji": "ri-gu",
       "tokens": [
         {
           "text": "リーグ",
-          "kana": "りいぐ"
+          "kana": "りーぐ"
         }
       ]
     },
@@ -112,12 +112,12 @@
       "id": "09",
       "chinese": "回头客",
       "japanese": "リピーター",
-      "kana": "りぴいたあ",
-      "romaji": "ripiitaa",
+      "kana": "りぴーたー",
+      "romaji": "ripi-ta-",
       "tokens": [
         {
           "text": "リピーター",
-          "kana": "りぴいたあ"
+          "kana": "りぴーたー"
         }
       ]
     },

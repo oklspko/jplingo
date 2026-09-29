@@ -99,12 +99,12 @@
       "id": "08",
       "chinese": "潇洒，俊俏，苗条；高性能，尖端",
       "japanese": "スマート",
-      "kana": "すまあと",
-      "romaji": "sumaato",
+      "kana": "すまーと",
+      "romaji": "suma-to",
       "tokens": [
         {
           "text": "スマート",
-          "kana": "すまあと"
+          "kana": "すまーと"
         }
       ]
     },
@@ -359,12 +359,12 @@
       "id": "28",
       "chinese": "个人的",
       "japanese": "パーソナル",
-      "kana": "ぱあそなる",
-      "romaji": "paasonaru",
+      "kana": "ぱーそなる",
+      "romaji": "pa-sonaru",
       "tokens": [
         {
           "text": "パーソナル",
-          "kana": "ぱあそなる"
+          "kana": "ぱーそなる"
         }
       ]
     },

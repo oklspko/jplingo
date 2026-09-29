@@ -22,7 +22,7 @@
       "chinese": "短裙",
       "japanese": "スカート",
       "kana": "すかーと",
-      "romaji": "sukaato",
+      "romaji": "suka-to",
       "tokens": [
         {
           "text": "スカート",
@@ -35,7 +35,7 @@
       "chinese": "速度",
       "japanese": "スピード",
       "kana": "すぴーど",
-      "romaji": "supiido",
+      "romaji": "supi-do",
       "tokens": [
         {
           "text": "スピード",
@@ -48,7 +48,7 @@
       "chinese": "超市",
       "japanese": "スーパー",
       "kana": "すーぱー",
-      "romaji": "suupaa",
+      "romaji": "su-pa-",
       "tokens": [
         {
           "text": "スーパー",
@@ -61,7 +61,7 @@
       "chinese": "日程",
       "japanese": "スケジュール",
       "kana": "すけじゅーる",
-      "romaji": "sukejuuru",
+      "romaji": "sukeju-ru",
       "tokens": [
         {
           "text": "スケジュール",
@@ -74,7 +74,7 @@
       "chinese": "滑冰",
       "japanese": "スケート",
       "kana": "すけーと",
-      "romaji": "sukeeto",
+      "romaji": "suke-to",
       "tokens": [
         {
           "text": "スケート",
@@ -87,7 +87,7 @@
       "chinese": "滑雪",
       "japanese": "スキー",
       "kana": "すきー",
-      "romaji": "sukii",
+      "romaji": "suki-",
       "tokens": [
         {
           "text": "スキー",
@@ -100,7 +100,7 @@
       "chinese": "果汁",
       "japanese": "ジュース",
       "kana": "じゅーす",
-      "romaji": "juusu",
+      "romaji": "ju-su",
       "tokens": [
         {
           "text": "ジュース",
@@ -165,7 +165,7 @@
       "chinese": "毛衣",
       "japanese": "セーター",
       "kana": "せーたー",
-      "romaji": "seetaa",
+      "romaji": "se-ta-",
       "tokens": [
         {
           "text": "セーター",
@@ -178,7 +178,7 @@
       "chinese": "团队",
       "japanese": "チーム",
       "kana": "ちーむ",
-      "romaji": "chiimu",
+      "romaji": "chi-mu",
       "tokens": [
         {
           "text": "チーム",
@@ -191,7 +191,7 @@
       "chinese": "出租车",
       "japanese": "タクシー",
       "kana": "たくしー",
-      "romaji": "takushii",
+      "romaji": "takushi-",
       "tokens": [
         {
           "text": "タクシー",
@@ -204,7 +204,7 @@
       "chinese": "体育中心",
       "japanese": "スポーツセンター",
       "kana": "すぽーつせんたー",
-      "romaji": "supootsusentaa",
+      "romaji": "supo-tsusenta-",
       "tokens": [
         {
           "text": "スポーツセンター",
@@ -256,7 +256,7 @@
       "chinese": "开始",
       "japanese": "スタート",
       "kana": "すたーと",
-      "romaji": "sutaato",
+      "romaji": "suta-to",
       "tokens": [
         {
           "text": "スタート",
@@ -269,7 +269,7 @@
       "chinese": "演讲",
       "japanese": "スピーチ",
       "kana": "すぴーち",
-      "romaji": "supiichi",
+      "romaji": "supi-chi",
       "tokens": [
         {
           "text": "スピーチ",
@@ -308,7 +308,7 @@
       "chinese": "中心",
       "japanese": "センター",
       "kana": "せんたー",
-      "romaji": "sentaa",
+      "romaji": "senta-",
       "tokens": [
         {
           "text": "センター",
@@ -347,7 +347,7 @@
       "chinese": "体育",
       "japanese": "スポーツ",
       "kana": "すぽーつ",
-      "romaji": "supootsu",
+      "romaji": "supo-tsu",
       "tokens": [
         {
           "text": "スポーツ",
@@ -373,7 +373,7 @@
       "chinese": "汤",
       "japanese": "スープ",
       "kana": "すーぷ",
-      "romaji": "suupu",
+      "romaji": "su-pu",
       "tokens": [
         {
           "text": "スープ",
@@ -386,7 +386,7 @@
       "chinese": "暖炉",
       "japanese": "ストーブ",
       "kana": "すとーぶ",
-      "romaji": "sutoobu",
+      "romaji": "suto-bu",
       "tokens": [
         {
           "text": "ストーブ",
@@ -399,7 +399,7 @@
       "chinese": "果汁",
       "japanese": "ジュース",
       "kana": "じゅーす",
-      "romaji": "juusu",
+      "romaji": "ju-su",
       "tokens": [
         {
           "text": "ジュース",
@@ -412,7 +412,7 @@
       "chinese": "出租车",
       "japanese": "タクシー",
       "kana": "たくしー",
-      "romaji": "takushii",
+      "romaji": "takushi-",
       "tokens": [
         {
           "text": "タクシー",
@@ -451,7 +451,7 @@
       "chinese": "中心",
       "japanese": "センター",
       "kana": "せんたー",
-      "romaji": "sentaa",
+      "romaji": "senta-",
       "tokens": [
         {
           "text": "センター",
@@ -464,7 +464,7 @@
       "chinese": "速度",
       "japanese": "スピード",
       "kana": "すぴーど",
-      "romaji": "supiido",
+      "romaji": "supi-do",
       "tokens": [
         {
           "text": "スピード",
@@ -477,7 +477,7 @@
       "chinese": "暖炉",
       "japanese": "ストーブ",
       "kana": "すとーぶ",
-      "romaji": "sutoobu",
+      "romaji": "suto-bu",
       "tokens": [
         {
           "text": "ストーブ",
@@ -503,7 +503,7 @@
       "chinese": "短裙",
       "japanese": "スカート",
       "kana": "すかーと",
-      "romaji": "sukaato",
+      "romaji": "suka-to",
       "tokens": [
         {
           "text": "スカート",
@@ -529,7 +529,7 @@
       "chinese": "滑冰",
       "japanese": "スケート",
       "kana": "すけーと",
-      "romaji": "sukeeto",
+      "romaji": "suke-to",
       "tokens": [
         {
           "text": "スケート",
@@ -542,7 +542,7 @@
       "chinese": "毛衣",
       "japanese": "セーター",
       "kana": "せーたー",
-      "romaji": "seetaa",
+      "romaji": "se-ta-",
       "tokens": [
         {
           "text": "セーター",
@@ -555,7 +555,7 @@
       "chinese": "体育",
       "japanese": "スポーツ",
       "kana": "すぽーつ",
-      "romaji": "supootsu",
+      "romaji": "supo-tsu",
       "tokens": [
         {
           "text": "スポーツ",
@@ -568,7 +568,7 @@
       "chinese": "开始",
       "japanese": "スタート",
       "kana": "すたーと",
-      "romaji": "sutaato",
+      "romaji": "suta-to",
       "tokens": [
         {
           "text": "スタート",
@@ -607,7 +607,7 @@
       "chinese": "日程",
       "japanese": "スケジュール",
       "kana": "すけじゅーる",
-      "romaji": "sukejuuru",
+      "romaji": "sukeju-ru",
       "tokens": [
         {
           "text": "スケジュール",
@@ -620,7 +620,7 @@
       "chinese": "演讲",
       "japanese": "スピーチ",
       "kana": "すぴーち",
-      "romaji": "supiichi",
+      "romaji": "supi-chi",
       "tokens": [
         {
           "text": "スピーチ",
@@ -646,7 +646,7 @@
       "chinese": "超市",
       "japanese": "スーパー",
       "kana": "すーぱー",
-      "romaji": "suupaa",
+      "romaji": "su-pa-",
       "tokens": [
         {
           "text": "スーパー",
@@ -659,7 +659,7 @@
       "chinese": "体育中心",
       "japanese": "スポーツセンター",
       "kana": "すぽーつせんたー",
-      "romaji": "supootsusentaa",
+      "romaji": "supo-tsusenta-",
       "tokens": [
         {
           "text": "スポーツセンター",
@@ -711,7 +711,7 @@
       "chinese": "汤",
       "japanese": "スープ",
       "kana": "すーぷ",
-      "romaji": "suupu",
+      "romaji": "su-pu",
       "tokens": [
         {
           "text": "スープ",
@@ -763,7 +763,7 @@
       "chinese": "滑雪",
       "japanese": "スキー",
       "kana": "すきー",
-      "romaji": "sukii",
+      "romaji": "suki-",
       "tokens": [
         {
           "text": "スキー",
@@ -776,7 +776,7 @@
       "chinese": "团队",
       "japanese": "チーム",
       "kana": "ちーむ",
-      "romaji": "chiimu",
+      "romaji": "chi-mu",
       "tokens": [
         {
           "text": "チーム",
@@ -789,7 +789,7 @@
       "chinese": "短裙",
       "japanese": "スカート",
       "kana": "すかーと",
-      "romaji": "sukaato",
+      "romaji": "suka-to",
       "tokens": [
         {
           "text": "スカート",
@@ -841,7 +841,7 @@
       "chinese": "团队",
       "japanese": "チーム",
       "kana": "ちーむ",
-      "romaji": "chiimu",
+      "romaji": "chi-mu",
       "tokens": [
         {
           "text": "チーム",
@@ -867,7 +867,7 @@
       "chinese": "毛衣",
       "japanese": "セーター",
       "kana": "せーたー",
-      "romaji": "seetaa",
+      "romaji": "se-ta-",
       "tokens": [
         {
           "text": "セーター",
@@ -880,7 +880,7 @@
       "chinese": "开始",
       "japanese": "スタート",
       "kana": "すたーと",
-      "romaji": "sutaato",
+      "romaji": "suta-to",
       "tokens": [
         {
           "text": "スタート",
@@ -919,7 +919,7 @@
       "chinese": "速度",
       "japanese": "スピード",
       "kana": "すぴーど",
-      "romaji": "supiido",
+      "romaji": "supi-do",
       "tokens": [
         {
           "text": "スピード",
@@ -932,7 +932,7 @@
       "chinese": "体育中心",
       "japanese": "スポーツセンター",
       "kana": "すぽーつせんたー",
-      "romaji": "supootsusentaa",
+      "romaji": "supo-tsusenta-",
       "tokens": [
         {
           "text": "スポーツセンター",
@@ -958,7 +958,7 @@
       "chinese": "汤",
       "japanese": "スープ",
       "kana": "すーぷ",
-      "romaji": "suupu",
+      "romaji": "su-pu",
       "tokens": [
         {
           "text": "スープ",
@@ -971,7 +971,7 @@
       "chinese": "暖炉",
       "japanese": "ストーブ",
       "kana": "すとーぶ",
-      "romaji": "sutoobu",
+      "romaji": "suto-bu",
       "tokens": [
         {
           "text": "ストーブ",
@@ -1023,7 +1023,7 @@
       "chinese": "中心",
       "japanese": "センター",
       "kana": "せんたー",
-      "romaji": "sentaa",
+      "romaji": "senta-",
       "tokens": [
         {
           "text": "センター",
@@ -1049,7 +1049,7 @@
       "chinese": "滑冰",
       "japanese": "スケート",
       "kana": "すけーと",
-      "romaji": "sukeeto",
+      "romaji": "suke-to",
       "tokens": [
         {
           "text": "スケート",
@@ -1062,7 +1062,7 @@
       "chinese": "日程",
       "japanese": "スケジュール",
       "kana": "すけじゅーる",
-      "romaji": "sukejuuru",
+      "romaji": "sukeju-ru",
       "tokens": [
         {
           "text": "スケジュール",
@@ -1075,7 +1075,7 @@
       "chinese": "演讲",
       "japanese": "スピーチ",
       "kana": "すぴーち",
-      "romaji": "supiichi",
+      "romaji": "supi-chi",
       "tokens": [
         {
           "text": "スピーチ",
@@ -1101,7 +1101,7 @@
       "chinese": "超市",
       "japanese": "スーパー",
       "kana": "すーぱー",
-      "romaji": "suupaa",
+      "romaji": "su-pa-",
       "tokens": [
         {
           "text": "スーパー",
@@ -1114,7 +1114,7 @@
       "chinese": "出租车",
       "japanese": "タクシー",
       "kana": "たくしー",
-      "romaji": "takushii",
+      "romaji": "takushi-",
       "tokens": [
         {
           "text": "タクシー",
@@ -1140,7 +1140,7 @@
       "chinese": "果汁",
       "japanese": "ジュース",
       "kana": "じゅーす",
-      "romaji": "juusu",
+      "romaji": "ju-su",
       "tokens": [
         {
           "text": "ジュース",
@@ -1153,7 +1153,7 @@
       "chinese": "滑雪",
       "japanese": "スキー",
       "kana": "すきー",
-      "romaji": "sukii",
+      "romaji": "suki-",
       "tokens": [
         {
           "text": "スキー",
@@ -1166,7 +1166,7 @@
       "chinese": "体育",
       "japanese": "スポーツ",
       "kana": "すぽーつ",
-      "romaji": "supootsu",
+      "romaji": "supo-tsu",
       "tokens": [
         {
           "text": "スポーツ",

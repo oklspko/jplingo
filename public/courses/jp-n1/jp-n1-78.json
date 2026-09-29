@@ -359,12 +359,12 @@
       "id": "28",
       "chinese": "（广告等的）吸引人注意的词句",
       "japanese": "キャッチフレーズ",
-      "kana": "きゃっちふれえず",
-      "romaji": "kyatchifureezu",
+      "kana": "きゃっちふれーず",
+      "romaji": "kyacchifure-zu",
       "tokens": [
         {
           "text": "キャッチフレーズ",
-          "kana": "きゃっちふれえず"
+          "kana": "きゃっちふれーず"
         }
       ]
     },

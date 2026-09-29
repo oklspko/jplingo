@@ -47,12 +47,12 @@
       "id": "04",
       "chinese": "空想，幻想；幻想曲",
       "japanese": "ファンタジー",
-      "kana": "ふぁんたじい",
-      "romaji": "fuantajii",
+      "kana": "ふぁんたじー",
+      "romaji": "fuantaji-",
       "tokens": [
         {
           "text": "ファンタジー",
-          "kana": "ふぁんたじい"
+          "kana": "ふぁんたじー"
         }
       ]
     },
@@ -359,12 +359,12 @@
       "id": "28",
       "chinese": "传感器，感应器",
       "japanese": "センサー",
-      "kana": "せんさあ",
-      "romaji": "sensaa",
+      "kana": "せんさー",
+      "romaji": "sensa-",
       "tokens": [
         {
           "text": "センサー",
-          "kana": "せんさあ"
+          "kana": "せんさー"
         }
       ]
     },

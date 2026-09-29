@@ -99,12 +99,12 @@
       "id": "08",
       "chinese": "播音员",
       "japanese": "アナウンサー",
-      "kana": "あなうんさあ",
-      "romaji": "anaunsaa",
+      "kana": "あなうんさー",
+      "romaji": "anaunsa-",
       "tokens": [
         {
           "text": "アナウンサー",
-          "kana": "あなうんさあ"
+          "kana": "あなうんさー"
         }
       ]
     },
@@ -138,12 +138,12 @@
       "id": "11",
       "chinese": "摩托车",
       "japanese": "オートバイ",
-      "kana": "おうとばい",
-      "romaji": "outobai",
+      "kana": "おーとばい",
+      "romaji": "o-tobai",
       "tokens": [
         {
           "text": "オートバイ",
-          "kana": "おうとばい"
+          "kana": "おーとばい"
         }
       ]
     },
@@ -164,12 +164,12 @@
       "id": "13",
       "chinese": "卡，卡片",
       "japanese": "カード",
-      "kana": "かあど",
-      "romaji": "kaado",
+      "kana": "かーど",
+      "romaji": "ka-do",
       "tokens": [
         {
           "text": "カード",
-          "kana": "かあど"
+          "kana": "かーど"
         }
       ]
     },
@@ -203,12 +203,12 @@
       "id": "16",
       "chinese": "游戏；比赛",
       "japanese": "ゲーム",
-      "kana": "げえむ",
-      "romaji": "geemu",
+      "kana": "げーむ",
+      "romaji": "ge-mu",
       "tokens": [
         {
           "text": "ゲーム",
-          "kana": "げえむ"
+          "kana": "げーむ"
         }
       ]
     },
@@ -242,12 +242,12 @@
       "id": "19",
       "chinese": "音乐会，演奏会",
       "japanese": "コンサート",
-      "kana": "こんさあと",
-      "romaji": "konsaato",
+      "kana": "こんさーと",
+      "romaji": "konsa-to",
       "tokens": [
         {
           "text": "コンサート",
-          "kana": "こんさあと"
+          "kana": "こんさーと"
         }
       ]
     },
@@ -255,12 +255,12 @@
       "id": "20",
       "chinese": "电脑，计算机",
       "japanese": "コンピューター",
-      "kana": "こんぴゅうたあ",
-      "romaji": "konpyuutaa",
+      "kana": "こんぴゅーたー",
+      "romaji": "konpyu-ta-",
       "tokens": [
         {
           "text": "コンピューター",
-          "kana": "こんぴゅうたあ"
+          "kana": "こんぴゅーたー"
         }
       ]
     },
@@ -294,12 +294,12 @@
       "id": "23",
       "chinese": "西装，西服",
       "japanese": "スーツ",
-      "kana": "すうつ",
-      "romaji": "suutsu",
+      "kana": "すーつ",
+      "romaji": "su-tsu",
       "tokens": [
         {
           "text": "スーツ",
-          "kana": "すうつ"
+          "kana": "すーつ"
         }
       ]
     },
@@ -307,12 +307,12 @@
       "id": "24",
       "chinese": "旅行箱，行李箱",
       "japanese": "スーツケース",
-      "kana": "すうつけえす",
-      "romaji": "suutsukeesu",
+      "kana": "すーつけーす",
+      "romaji": "su-tsuke-su",
       "tokens": [
         {
           "text": "スーツケース",
-          "kana": "すうつけえす"
+          "kana": "すーつけーす"
         }
       ]
     },
@@ -320,12 +320,12 @@
       "id": "25",
       "chinese": "超市",
       "japanese": "スーパーマーケット",
-      "kana": "すうぱあまあけっと",
-      "romaji": "suupaamaaketto",
+      "kana": "すーぱーまーけっと",
+      "romaji": "su-pa-ma-ketto",
       "tokens": [
         {
           "text": "スーパーマーケット",
-          "kana": "すうぱあまあけっと"
+          "kana": "すーぱーまーけっと"
         }
       ]
     },
@@ -385,12 +385,12 @@
       "id": "30",
       "chinese": "汉堡牛肉饼，汉堡排",
       "japanese": "ハンバーグ",
-      "kana": "はんばあぐ",
-      "romaji": "hanbaagu",
+      "kana": "はんばーぐ",
+      "romaji": "hanba-gu",
       "tokens": [
         {
           "text": "ハンバーグ",
-          "kana": "はんばあぐ"
+          "kana": "はんばーぐ"
         }
       ]
     }

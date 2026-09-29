@@ -34,12 +34,12 @@
       "id": "03",
       "chinese": "封印，封缄；（装饰用）贴纸",
       "japanese": "シール",
-      "kana": "しいる",
-      "romaji": "shiiru",
+      "kana": "しーる",
+      "romaji": "shi-ru",
       "tokens": [
         {
           "text": "シール",
-          "kana": "しいる"
+          "kana": "しーる"
         }
       ]
     },
@@ -60,12 +60,12 @@
       "id": "05",
       "chinese": "舞台，讲台；阶段",
       "japanese": "ステージ",
-      "kana": "すてえじ",
-      "romaji": "suteeji",
+      "kana": "すてーじ",
+      "romaji": "sute-ji",
       "tokens": [
         {
           "text": "ステージ",
-          "kana": "すてえじ"
+          "kana": "すてーじ"
         }
       ]
     },
@@ -112,12 +112,12 @@
       "id": "09",
       "chinese": "乙烯树脂，塑料薄膜",
       "japanese": "ビニール",
-      "kana": "びにいる",
-      "romaji": "biniiru",
+      "kana": "びにーる",
+      "romaji": "bini-ru",
       "tokens": [
         {
           "text": "ビニール",
-          "kana": "びにいる"
+          "kana": "びにーる"
         }
       ]
     },
@@ -125,12 +125,12 @@
       "id": "10",
       "chinese": "潮流，……热",
       "japanese": "ブーム",
-      "kana": "ぶうむ",
-      "romaji": "buumu",
+      "kana": "ぶーむ",
+      "romaji": "bu-mu",
       "tokens": [
         {
           "text": "ブーム",
-          "kana": "ぶうむ"
+          "kana": "ぶーむ"
         }
       ]
     },
@@ -138,12 +138,12 @@
       "id": "11",
       "chinese": "放映机；计划者",
       "japanese": "プロジェクター",
-      "kana": "ぷろじぇくたあ",
-      "romaji": "purojekutaa",
+      "kana": "ぷろじぇくたー",
+      "romaji": "purojiekuta-",
       "tokens": [
         {
           "text": "プロジェクター",
-          "kana": "ぷろじぇくたあ"
+          "kana": "ぷろじぇくたー"
         }
       ]
     },
@@ -164,12 +164,12 @@
       "id": "13",
       "chinese": "直升机",
       "japanese": "ヘリコプター",
-      "kana": "へりこぷたあ",
-      "romaji": "herikoputaa",
+      "kana": "へりこぷたー",
+      "romaji": "herikoputa-",
       "tokens": [
         {
           "text": "ヘリコプター",
-          "kana": "へりこぷたあ"
+          "kana": "へりこぷたー"
         }
       ]
     },
@@ -268,12 +268,12 @@
       "id": "21",
       "chinese": "娱乐，消遣",
       "japanese": "レクリエーション",
-      "kana": "れくりええしょん",
-      "romaji": "rekurieeshon",
+      "kana": "れくりえーしょん",
+      "romaji": "rekurie-shon",
       "tokens": [
         {
           "text": "レクリエーション",
-          "kana": "れくりええしょん"
+          "kana": "れくりえーしょん"
         }
       ]
     },

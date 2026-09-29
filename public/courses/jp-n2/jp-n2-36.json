@@ -8,12 +8,12 @@
       "id": "01",
       "chinese": "呼吁；有吸引力",
       "japanese": "アピール",
-      "kana": "あぴいる",
-      "romaji": "apiiru",
+      "kana": "あぴーる",
+      "romaji": "api-ru",
       "tokens": [
         {
           "text": "アピール",
-          "kana": "あぴいる"
+          "kana": "あぴーる"
         }
       ]
     },
@@ -86,12 +86,12 @@
       "id": "07",
       "chinese": "（棒球）投接球练习；（比喻）相互交流",
       "japanese": "キャッチボール",
-      "kana": "きゃっちぼうる",
-      "romaji": "kyatchibouru",
+      "kana": "きゃっちぼーる",
+      "romaji": "kyacchibo-ru",
       "tokens": [
         {
           "text": "キャッチボール",
-          "kana": "きゃっちぼうる"
+          "kana": "きゃっちぼーる"
         }
       ]
     },
@@ -229,12 +229,12 @@
       "id": "18",
       "chinese": "需求，需要",
       "japanese": "ニーズ",
-      "kana": "にいず",
-      "romaji": "niizu",
+      "kana": "にーず",
+      "romaji": "ni-zu",
       "tokens": [
         {
           "text": "ニーズ",
-          "kana": "にいず"
+          "kana": "にーず"
         }
       ]
     },
@@ -242,12 +242,12 @@
       "id": "19",
       "chinese": "跳蚤市场，自由市场",
       "japanese": "フリーマーケット",
-      "kana": "ふりいまあけっと",
-      "romaji": "furiimaaketto",
+      "kana": "ふりーまーけっと",
+      "romaji": "furi-ma-ketto",
       "tokens": [
         {
           "text": "フリーマーケット",
-          "kana": "ふりいまあけっと"
+          "kana": "ふりーまーけっと"
         }
       ]
     },

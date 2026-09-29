@@ -216,12 +216,12 @@
       "id": "17",
       "chinese": "灵感",
       "japanese": "インスピレーション",
-      "kana": "いんすぴれえしょん",
-      "romaji": "insupireeshon",
+      "kana": "いんすぴれーしょん",
+      "romaji": "insupire-shon",
       "tokens": [
         {
           "text": "インスピレーション",
-          "kana": "いんすぴれえしょん"
+          "kana": "いんすぴれーしょん"
         }
       ]
     },
@@ -242,12 +242,12 @@
       "id": "19",
       "chinese": "随笔",
       "japanese": "エッセー",
-      "kana": "えっせえ",
-      "romaji": "essee",
+      "kana": "えっせー",
+      "romaji": "esse-",
       "tokens": [
         {
           "text": "エッセー",
-          "kana": "えっせえ"
+          "kana": "えっせー"
         }
       ]
     },
@@ -255,12 +255,12 @@
       "id": "20",
       "chinese": "插曲；插话；逸事",
       "japanese": "エピソード",
-      "kana": "えぴそうど",
-      "romaji": "episoudo",
+      "kana": "えぴそーど",
+      "romaji": "episo-do",
       "tokens": [
         {
           "text": "エピソード",
-          "kana": "えぴそうど"
+          "kana": "えぴそーど"
         }
       ]
     },
@@ -268,12 +268,12 @@
       "id": "21",
       "chinese": "精英",
       "japanese": "エリート",
-      "kana": "えりいと",
-      "romaji": "eriito",
+      "kana": "えりーと",
+      "romaji": "eri-to",
       "tokens": [
         {
           "text": "エリート",
-          "kana": "えりいと"
+          "kana": "えりーと"
         }
       ]
     },
@@ -281,12 +281,12 @@
       "id": "22",
       "chinese": "报名（参加运动会等）",
       "japanese": "エントリー",
-      "kana": "えんとりい",
-      "romaji": "entorii",
+      "kana": "えんとりー",
+      "romaji": "entori-",
       "tokens": [
         {
           "text": "エントリー",
-          "kana": "えんとりい"
+          "kana": "えんとりー"
         }
       ]
     },
@@ -320,12 +320,12 @@
       "id": "25",
       "chinese": "联票；优惠券",
       "japanese": "クーポン",
-      "kana": "くうぽん",
-      "romaji": "kuupon",
+      "kana": "くーぽん",
+      "romaji": "ku-pon",
       "tokens": [
         {
           "text": "クーポン",
-          "kana": "くうぽん"
+          "kana": "くーぽん"
         }
       ]
     },
@@ -346,12 +346,12 @@
       "id": "27",
       "chinese": "冲浪",
       "japanese": "サーフィン",
-      "kana": "さあふぃん",
-      "romaji": "saafyin",
+      "kana": "さーふぃん",
+      "romaji": "sa-fyin",
       "tokens": [
         {
           "text": "サーフィン",
-          "kana": "さあふぃん"
+          "kana": "さーふぃん"
         }
       ]
     },
@@ -359,12 +359,12 @@
       "id": "28",
       "chinese": "新闻工作者",
       "japanese": "ジャーナリスト",
-      "kana": "じゃあなりすと",
-      "romaji": "jaanarisuto",
+      "kana": "じゃーなりすと",
+      "romaji": "ja-narisuto",
       "tokens": [
         {
           "text": "ジャーナリスト",
-          "kana": "じゃあなりすと"
+          "kana": "じゃーなりすと"
         }
       ]
     },
@@ -372,12 +372,12 @@
       "id": "29",
       "chinese": "新闻界",
       "japanese": "ジャーナリズム",
-      "kana": "じゃあなりずむ",
-      "romaji": "jaanarizumu",
+      "kana": "じゃーなりずむ",
+      "romaji": "ja-narizumu",
       "tokens": [
         {
           "text": "ジャーナリズム",
-          "kana": "じゃあなりずむ"
+          "kana": "じゃーなりずむ"
         }
       ]
     },

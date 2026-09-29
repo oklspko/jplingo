@@ -359,12 +359,12 @@
       "id": "28",
       "chinese": "窗户；橱窗",
       "japanese": "ウィンドー",
-      "kana": "うぃんどう",
-      "romaji": "uindou",
+      "kana": "うぃんどー",
+      "romaji": "uindo-",
       "tokens": [
         {
           "text": "ウィンドー",
-          "kana": "うぃんどう"
+          "kana": "うぃんどー"
         }
       ]
     },

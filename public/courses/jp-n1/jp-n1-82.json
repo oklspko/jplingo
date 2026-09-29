@@ -190,12 +190,12 @@
       "id": "15",
       "chinese": "声调，语调，抑扬",
       "japanese": "イントネーション",
-      "kana": "いんとねえしょん",
-      "romaji": "intoneeshon",
+      "kana": "いんとねーしょん",
+      "romaji": "intone-shon",
       "tokens": [
         {
           "text": "イントネーション",
-          "kana": "いんとねえしょん"
+          "kana": "いんとねーしょん"
         }
       ]
     },

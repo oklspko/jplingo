@@ -8,12 +8,12 @@
       "id": "01",
       "chinese": "模式，式样；图案",
       "japanese": "パターン",
-      "kana": "ぱたあん",
-      "romaji": "pataan",
+      "kana": "ぱたーん",
+      "romaji": "pata-n",
       "tokens": [
         {
           "text": "パターン",
-          "kana": "ぱたあん"
+          "kana": "ぱたーん"
         }
       ]
     },
@@ -60,12 +60,12 @@
       "id": "05",
       "chinese": "大厅；会场",
       "japanese": "ホール",
-      "kana": "ほうる",
-      "romaji": "houru",
+      "kana": "ほーる",
+      "romaji": "ho-ru",
       "tokens": [
         {
           "text": "ホール",
-          "kana": "ほうる"
+          "kana": "ほーる"
         }
       ]
     },
@@ -99,12 +99,12 @@
       "id": "08",
       "chinese": "会议",
       "japanese": "ミーティング",
-      "kana": "みいてぃんぐ",
-      "romaji": "miiteingu",
+      "kana": "みーてぃんぐ",
+      "romaji": "mi-tingu",
       "tokens": [
         {
           "text": "ミーティング",
-          "kana": "みいてぃんぐ"
+          "kana": "みーてぃんぐ"
         }
       ]
     },

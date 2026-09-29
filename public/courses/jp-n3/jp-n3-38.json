@@ -8,12 +8,12 @@
       "id": "01",
       "chinese": "心理咨询师",
       "japanese": "カウンセラー",
-      "kana": "かうんせらあ",
-      "romaji": "kaunseraa",
+      "kana": "かうんせらー",
+      "romaji": "kaunsera-",
       "tokens": [
         {
           "text": "カウンセラー",
-          "kana": "かうんせらあ"
+          "kana": "かうんせらー"
         }
       ]
     },
@@ -60,12 +60,12 @@
       "id": "05",
       "chinese": "游戏；比赛；戏剧",
       "japanese": "プレー",
-      "kana": "ぷれえ",
-      "romaji": "puree",
+      "kana": "ぷれー",
+      "romaji": "pure-",
       "tokens": [
         {
           "text": "プレー",
-          "kana": "ぷれえ"
+          "kana": "ぷれー"
         }
       ]
     },
@@ -73,12 +73,12 @@
       "id": "06",
       "chinese": "运动员；（音乐）播放器；表演者",
       "japanese": "プレーヤー",
-      "kana": "ぷれえやあ",
-      "romaji": "pureeyaa",
+      "kana": "ぷれーやー",
+      "romaji": "pure-ya-",
       "tokens": [
         {
           "text": "プレーヤー",
-          "kana": "ぷれえやあ"
+          "kana": "ぷれーやー"
         }
       ]
     },
@@ -125,12 +125,12 @@
       "id": "10",
       "chinese": "屋子，房间",
       "japanese": "ルーム",
-      "kana": "るうむ",
-      "romaji": "ruumu",
+      "kana": "るーむ",
+      "romaji": "ru-mu",
       "tokens": [
         {
           "text": "ルーム",
-          "kana": "るうむ"
+          "kana": "るーむ"
         }
       ]
     },

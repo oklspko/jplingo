@@ -47,12 +47,12 @@
       "id": "04",
       "chinese": "数据库",
       "japanese": "データベース",
-      "kana": "でえたべえす",
-      "romaji": "deetabeesu",
+      "kana": "でーたべーす",
+      "romaji": "de-tabe-su",
       "tokens": [
         {
           "text": "データベース",
-          "kana": "でえたべえす"
+          "kana": "でーたべーす"
         }
       ]
     },

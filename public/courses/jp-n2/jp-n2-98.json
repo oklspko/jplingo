@@ -112,12 +112,12 @@
       "id": "09",
       "chinese": "个人的，私人的",
       "japanese": "プライベート",
-      "kana": "ぷらいべえと",
-      "romaji": "puraibeeto",
+      "kana": "ぷらいべーと",
+      "romaji": "puraibe-to",
       "tokens": [
         {
           "text": "プライベート",
-          "kana": "ぷらいべえと"
+          "kana": "ぷらいべーと"
         }
       ]
     },

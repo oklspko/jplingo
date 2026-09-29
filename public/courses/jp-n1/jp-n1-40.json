@@ -8,12 +8,12 @@
       "id": "01",
       "chinese": "小型摩托车",
       "japanese": "スクーター",
-      "kana": "すくうたあ",
-      "romaji": "sukuutaa",
+      "kana": "すくーたー",
+      "romaji": "suku-ta-",
       "tokens": [
         {
           "text": "スクーター",
-          "kana": "すくうたあ"
+          "kana": "すくーたー"
         }
       ]
     },
@@ -21,12 +21,12 @@
       "id": "02",
       "chinese": "比例尺；规模；（人的）度量",
       "japanese": "スケール",
-      "kana": "すけえる",
-      "romaji": "sukeeru",
+      "kana": "すけーる",
+      "romaji": "suke-ru",
       "tokens": [
         {
           "text": "スケール",
-          "kana": "すけえる"
+          "kana": "すけーる"
         }
       ]
     },
@@ -34,12 +34,12 @@
       "id": "03",
       "chinese": "社会地位，身份",
       "japanese": "ステータス",
-      "kana": "すてえたす",
-      "romaji": "suteetasu",
+      "kana": "すてーたす",
+      "romaji": "sute-tasu",
       "tokens": [
         {
           "text": "ステータス",
-          "kana": "すてえたす"
+          "kana": "すてーたす"
         }
       ]
     },
@@ -86,12 +86,12 @@
       "id": "07",
       "chinese": "赞助商",
       "japanese": "スポンサー",
-      "kana": "すぽんさあ",
-      "romaji": "suponsaa",
+      "kana": "すぽんさー",
+      "romaji": "suponsa-",
       "tokens": [
         {
           "text": "スポンサー",
-          "kana": "すぽんさあ"
+          "kana": "すぽんさー"
         }
       ]
     },
@@ -112,12 +112,12 @@
       "id": "09",
       "chinese": "标语，口号",
       "japanese": "スローガン",
-      "kana": "すろうがん",
-      "romaji": "surougan",
+      "kana": "すろーがん",
+      "romaji": "suro-gan",
       "tokens": [
         {
           "text": "スローガン",
-          "kana": "すろうがん"
+          "kana": "すろーがん"
         }
       ]
     },
@@ -125,12 +125,12 @@
       "id": "10",
       "chinese": "推销员",
       "japanese": "セールスマン",
-      "kana": "せえるすまん",
-      "romaji": "seerusuman",
+      "kana": "せーるすまん",
+      "romaji": "se-rusuman",
       "tokens": [
         {
           "text": "セールスマン",
-          "kana": "せえるすまん"
+          "kana": "せーるすまん"
         }
       ]
     },
@@ -151,12 +151,12 @@
       "id": "12",
       "chinese": "终点站；机场大楼",
       "japanese": "ターミナル",
-      "kana": "たあみなる",
-      "romaji": "taaminaru",
+      "kana": "たーみなる",
+      "romaji": "ta-minaru",
       "tokens": [
         {
           "text": "ターミナル",
-          "kana": "たあみなる"
+          "kana": "たーみなる"
         }
       ]
     },
@@ -190,12 +190,12 @@
       "id": "15",
       "chinese": "初次登台，初出茅庐",
       "japanese": "デビュー",
-      "kana": "でびゅう",
-      "romaji": "debyuu",
+      "kana": "でびゅー",
+      "romaji": "debyu-",
       "tokens": [
         {
           "text": "デビュー",
-          "kana": "でびゅう"
+          "kana": "でびゅー"
         }
       ]
     },
@@ -359,12 +359,12 @@
       "id": "28",
       "chinese": "基本，基础",
       "japanese": "ベース",
-      "kana": "べえす",
-      "romaji": "beesu",
+      "kana": "べーす",
+      "romaji": "be-su",
       "tokens": [
         {
           "text": "ベース",
-          "kana": "べえす"
+          "kana": "べーす"
         }
       ]
     },
@@ -372,12 +372,12 @@
       "id": "29",
       "chinese": "软管，胶皮管",
       "japanese": "ホース",
-      "kana": "ほうす",
-      "romaji": "housu",
+      "kana": "ほーす",
+      "romaji": "ho-su",
       "tokens": [
         {
           "text": "ホース",
-          "kana": "ほうす"
+          "kana": "ほーす"
         }
       ]
     },

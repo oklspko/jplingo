@@ -99,12 +99,12 @@
       "id": "08",
       "chinese": "澳大利亚",
       "japanese": "オーストラリア",
-      "kana": "おうすとらりあ",
-      "romaji": "ousutoraria",
+      "kana": "おーすとらりあ",
+      "romaji": "o-sutoraria",
       "tokens": [
         {
           "text": "オーストラリア",
-          "kana": "おうすとらりあ"
+          "kana": "おーすとらりあ"
         }
       ]
     },
@@ -125,12 +125,12 @@
       "id": "10",
       "chinese": "纪录；唱片",
       "japanese": "レコード",
-      "kana": "れこうど",
-      "romaji": "rekoudo",
+      "kana": "れこーど",
+      "romaji": "reko-do",
       "tokens": [
         {
           "text": "レコード",
-          "kana": "れこうど"
+          "kana": "れこーど"
         }
       ]
     },
@@ -203,12 +203,12 @@
       "id": "16",
       "chinese": "灰色",
       "japanese": "グレー",
-      "kana": "ぐれえ",
-      "romaji": "guree",
+      "kana": "ぐれー",
+      "romaji": "gure-",
       "tokens": [
         {
           "text": "グレー",
-          "kana": "ぐれえ"
+          "kana": "ぐれー"
         }
       ]
     },
@@ -216,12 +216,12 @@
       "id": "17",
       "chinese": "大门",
       "japanese": "ゲート",
-      "kana": "げえと",
-      "romaji": "geeto",
+      "kana": "げーと",
+      "romaji": "ge-to",
       "tokens": [
         {
           "text": "ゲート",
-          "kana": "げえと"
+          "kana": "げーと"
         }
       ]
     },
@@ -255,12 +255,12 @@
       "id": "20",
       "chinese": "男朋友；男性朋友",
       "japanese": "ボーイフレンド",
-      "kana": "ぼういふれんど",
-      "romaji": "bouifurendo",
+      "kana": "ぼーいふれんど",
+      "romaji": "bo-ifurendo",
       "tokens": [
         {
           "text": "ボーイフレンド",
-          "kana": "ぼういふれんど"
+          "kana": "ぼーいふれんど"
         }
       ]
     },

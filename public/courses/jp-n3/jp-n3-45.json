@@ -99,12 +99,12 @@
       "id": "08",
       "chinese": "印象，形象",
       "japanese": "イメージ",
-      "kana": "いめえじ",
-      "romaji": "imeeji",
+      "kana": "いめーじ",
+      "romaji": "ime-ji",
       "tokens": [
         {
           "text": "イメージ",
-          "kana": "いめえじ"
+          "kana": "いめーじ"
         }
       ]
     },
@@ -138,12 +138,12 @@
       "id": "11",
       "chinese": "套子；弥补",
       "japanese": "カバー",
-      "kana": "かばあ",
-      "romaji": "kabaa",
+      "kana": "かばー",
+      "romaji": "kaba-",
       "tokens": [
         {
           "text": "カバー",
-          "kana": "かばあ"
+          "kana": "かばー"
         }
       ]
     },
@@ -320,12 +320,12 @@
       "id": "25",
       "chinese": "记号，标志；商标",
       "japanese": "マーク",
-      "kana": "まあく",
-      "romaji": "maaku",
+      "kana": "まーく",
+      "romaji": "ma-ku",
       "tokens": [
         {
           "text": "マーク",
-          "kana": "まあく"
+          "kana": "まーく"
         }
       ]
     },

@@ -21,12 +21,12 @@
       "id": "02",
       "chinese": "研究",
       "japanese": "リサーチ",
-      "kana": "りさあち",
-      "romaji": "risaachi",
+      "kana": "りさーち",
+      "romaji": "risa-chi",
       "tokens": [
         {
           "text": "リサーチ",
-          "kana": "りさあち"
+          "kana": "りさーち"
         }
       ]
     },
@@ -47,12 +47,12 @@
       "id": "04",
       "chinese": "接力传递",
       "japanese": "リレー",
-      "kana": "りれえ",
-      "romaji": "riree",
+      "kana": "りれー",
+      "romaji": "rire-",
       "tokens": [
         {
           "text": "リレー",
-          "kana": "りれえ"
+          "kana": "りれー"
         }
       ]
     },

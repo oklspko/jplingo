@@ -86,12 +86,12 @@
       "id": "07",
       "chinese": "市场；销售市场",
       "japanese": "マーケット",
-      "kana": "まあけっと",
-      "romaji": "maaketto",
+      "kana": "まーけっと",
+      "romaji": "ma-ketto",
       "tokens": [
         {
           "text": "マーケット",
-          "kana": "まあけっと"
+          "kana": "まーけっと"
         }
       ]
     },
@@ -99,12 +99,12 @@
       "id": "08",
       "chinese": "雨衣",
       "japanese": "レインコート",
-      "kana": "れいんこうと",
-      "romaji": "reinkouto",
+      "kana": "れいんこーと",
+      "romaji": "reinko-to",
       "tokens": [
         {
           "text": "レインコート",
-          "kana": "れいんこうと"
+          "kana": "れいんこーと"
         }
       ]
     },
@@ -242,12 +242,12 @@
       "id": "19",
       "chinese": "警车",
       "japanese": "パトカー",
-      "kana": "ぱとかあ",
-      "romaji": "patokaa",
+      "kana": "ぱとかー",
+      "romaji": "patoka-",
       "tokens": [
         {
           "text": "パトカー",
-          "kana": "ぱとかあ"
+          "kana": "ぱとかー"
         }
       ]
     },

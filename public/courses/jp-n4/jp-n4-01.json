@@ -47,12 +47,12 @@
       "id": "04",
       "chinese": "冰激凌",
       "japanese": "アイスクリーム",
-      "kana": "あいすくりいむ",
-      "romaji": "aisukuriimu",
+      "kana": "あいすくりーむ",
+      "romaji": "aisukuri-mu",
       "tokens": [
         {
           "text": "アイスクリーム",
-          "kana": "あいすくりいむ"
+          "kana": "あいすくりーむ"
         }
       ]
     },
@@ -73,12 +73,12 @@
       "id": "06",
       "chinese": "互联网",
       "japanese": "インターネット",
-      "kana": "いんたあねっと",
-      "romaji": "intaanetto",
+      "kana": "いんたーねっと",
+      "romaji": "inta-netto",
       "tokens": [
         {
           "text": "インターネット",
-          "kana": "いんたあねっと"
+          "kana": "いんたーねっと"
         }
       ]
     },
@@ -203,12 +203,12 @@
       "id": "16",
       "chinese": "奶酪，芝士",
       "japanese": "チーズ",
-      "kana": "ちいず",
-      "romaji": "chiizu",
+      "kana": "ちーず",
+      "romaji": "chi-zu",
       "tokens": [
         {
           "text": "チーズ",
-          "kana": "ちいず"
+          "kana": "ちーず"
         }
       ]
     },
@@ -307,12 +307,12 @@
       "id": "24",
       "chinese": "欧洲",
       "japanese": "ヨーロッパ",
-      "kana": "ようろっぱ",
-      "romaji": "youroppa",
+      "kana": "よーろっぱ",
+      "romaji": "yo-roppa",
       "tokens": [
         {
           "text": "ヨーロッパ",
-          "kana": "ようろっぱ"
+          "kana": "よーろっぱ"
         }
       ]
     },

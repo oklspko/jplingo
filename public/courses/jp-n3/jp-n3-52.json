@@ -138,12 +138,12 @@
       "id": "11",
       "chinese": "问卷调查",
       "japanese": "アンケート",
-      "kana": "あんけえと",
-      "romaji": "ankeeto",
+      "kana": "あんけーと",
+      "romaji": "anke-to",
       "tokens": [
         {
           "text": "アンケート",
-          "kana": "あんけえと"
+          "kana": "あんけーと"
         }
       ]
     },

@@ -73,12 +73,12 @@
       "id": "06",
       "chinese": "站台，月台",
       "japanese": "ホーム",
-      "kana": "ほうむ",
-      "romaji": "houmu",
+      "kana": "ほーむ",
+      "romaji": "ho-mu",
       "tokens": [
         {
           "text": "ホーム",
-          "kana": "ほうむ"
+          "kana": "ほーむ"
         }
       ]
     }

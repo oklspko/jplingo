@@ -22,7 +22,7 @@
       "chinese": "成员",
       "japanese": "メンバー",
       "kana": "めんばー",
-      "romaji": "menbaa",
+      "romaji": "menba-",
       "tokens": [
         {
           "text": "メンバー",
@@ -35,7 +35,7 @@
       "chinese": "米",
       "japanese": "メートル",
       "kana": "めーとる",
-      "romaji": "meetoru",
+      "romaji": "me-toru",
       "tokens": [
         {
           "text": "メートル",
@@ -61,7 +61,7 @@
       "chinese": "低腰裙",
       "japanese": "ローレースカート",
       "kana": "ろーれーすかーと",
-      "romaji": "rooreesukaato",
+      "romaji": "ro-re-suka-to",
       "tokens": [
         {
           "text": "ローレースカート",
@@ -74,7 +74,7 @@
       "chinese": "马达",
       "japanese": "モーター",
       "kana": "もーたー",
-      "romaji": "mootaa",
+      "romaji": "mo-ta-",
       "tokens": [
         {
           "text": "モーター",
@@ -87,7 +87,7 @@
       "chinese": "拉面",
       "japanese": "ラーメン",
       "kana": "らーめん",
-      "romaji": "raamen",
+      "romaji": "ra-men",
       "tokens": [
         {
           "text": "ラーメン",
@@ -126,7 +126,7 @@
       "chinese": "领导者、领袖",
       "japanese": "リーダー",
       "kana": "りーだー",
-      "romaji": "riidaa",
+      "romaji": "ri-da-",
       "tokens": [
         {
           "text": "リーダー",
@@ -139,7 +139,7 @@
       "chinese": "报告",
       "japanese": "レポート",
       "kana": "れぽーと",
-      "romaji": "repooto",
+      "romaji": "repo-to",
       "tokens": [
         {
           "text": "レポート",
@@ -152,7 +152,7 @@
       "chinese": "掌握，主人",
       "japanese": "マスター",
       "kana": "ますたー",
-      "romaji": "masutaa",
+      "romaji": "masuta-",
       "tokens": [
         {
           "text": "マスター",
@@ -191,7 +191,7 @@
       "chinese": "礼仪",
       "japanese": "マナー",
       "kana": "まなー",
-      "romaji": "manaa",
+      "romaji": "mana-",
       "tokens": [
         {
           "text": "マナー",
@@ -204,7 +204,7 @@
       "chinese": "邮件",
       "japanese": "メール",
       "kana": "めーる",
-      "romaji": "meeru",
+      "romaji": "me-ru",
       "tokens": [
         {
           "text": "メール",
@@ -243,7 +243,7 @@
       "chinese": "菜单",
       "japanese": "メニュー",
       "kana": "めにゅー",
-      "romaji": "menyuu",
+      "romaji": "menyu-",
       "tokens": [
         {
           "text": "メニュー",
@@ -269,7 +269,7 @@
       "chinese": "规则",
       "japanese": "ルール",
       "kana": "るーる",
-      "romaji": "ruuru",
+      "romaji": "ru-ru",
       "tokens": [
         {
           "text": "ルール",
@@ -295,7 +295,7 @@
       "chinese": "欧洲",
       "japanese": "ヨーロッパ",
       "kana": "よーろっぱ",
-      "romaji": "yooroppa",
+      "romaji": "yo-roppa",
       "tokens": [
         {
           "text": "ヨーロッパ",
@@ -360,7 +360,7 @@
       "chinese": "麻婆豆腐",
       "japanese": "マーボードウフ",
       "kana": "まーぼーどうふ",
-      "romaji": "maaboodoufu",
+      "romaji": "ma-bo-doufu",
       "tokens": [
         {
           "text": "マーボードウフ",
@@ -399,7 +399,7 @@
       "chinese": "规则",
       "japanese": "ルール",
       "kana": "るーる",
-      "romaji": "ruuru",
+      "romaji": "ru-ru",
       "tokens": [
         {
           "text": "ルール",
@@ -412,7 +412,7 @@
       "chinese": "报告",
       "japanese": "レポート",
       "kana": "れぽーと",
-      "romaji": "repooto",
+      "romaji": "repo-to",
       "tokens": [
         {
           "text": "レポート",
@@ -425,7 +425,7 @@
       "chinese": "菜单",
       "japanese": "メニュー",
       "kana": "めにゅー",
-      "romaji": "menyuu",
+      "romaji": "menyu-",
       "tokens": [
         {
           "text": "メニュー",
@@ -451,7 +451,7 @@
       "chinese": "马达",
       "japanese": "モーター",
       "kana": "もーたー",
-      "romaji": "mootaa",
+      "romaji": "mo-ta-",
       "tokens": [
         {
           "text": "モーター",
@@ -477,7 +477,7 @@
       "chinese": "礼仪",
       "japanese": "マナー",
       "kana": "まなー",
-      "romaji": "manaa",
+      "romaji": "mana-",
       "tokens": [
         {
           "text": "マナー",
@@ -490,7 +490,7 @@
       "chinese": "邮件",
       "japanese": "メール",
       "kana": "めーる",
-      "romaji": "meeru",
+      "romaji": "me-ru",
       "tokens": [
         {
           "text": "メール",
@@ -503,7 +503,7 @@
       "chinese": "麻婆豆腐",
       "japanese": "マーボードウフ",
       "kana": "まーぼーどうふ",
-      "romaji": "maaboodoufu",
+      "romaji": "ma-bo-doufu",
       "tokens": [
         {
           "text": "マーボードウフ",
@@ -516,7 +516,7 @@
       "chinese": "低腰裙",
       "japanese": "ローレースカート",
       "kana": "ろーれーすかーと",
-      "romaji": "rooreesukaato",
+      "romaji": "ro-re-suka-to",
       "tokens": [
         {
           "text": "ローレースカート",
@@ -555,7 +555,7 @@
       "chinese": "掌握，主人",
       "japanese": "マスター",
       "kana": "ますたー",
-      "romaji": "masutaa",
+      "romaji": "masuta-",
       "tokens": [
         {
           "text": "マスター",
@@ -607,7 +607,7 @@
       "chinese": "成员",
       "japanese": "メンバー",
       "kana": "めんばー",
-      "romaji": "menbaa",
+      "romaji": "menba-",
       "tokens": [
         {
           "text": "メンバー",
@@ -659,7 +659,7 @@
       "chinese": "米",
       "japanese": "メートル",
       "kana": "めーとる",
-      "romaji": "meetoru",
+      "romaji": "me-toru",
       "tokens": [
         {
           "text": "メートル",
@@ -672,7 +672,7 @@
       "chinese": "拉面",
       "japanese": "ラーメン",
       "kana": "らーめん",
-      "romaji": "raamen",
+      "romaji": "ra-men",
       "tokens": [
         {
           "text": "ラーメン",
@@ -763,7 +763,7 @@
       "chinese": "领导者、领袖",
       "japanese": "リーダー",
       "kana": "りーだー",
-      "romaji": "riidaa",
+      "romaji": "ri-da-",
       "tokens": [
         {
           "text": "リーダー",
@@ -776,7 +776,7 @@
       "chinese": "欧洲",
       "japanese": "ヨーロッパ",
       "kana": "よーろっぱ",
-      "romaji": "yooroppa",
+      "romaji": "yo-roppa",
       "tokens": [
         {
           "text": "ヨーロッパ",
@@ -802,7 +802,7 @@
       "chinese": "成员",
       "japanese": "メンバー",
       "kana": "めんばー",
-      "romaji": "menbaa",
+      "romaji": "menba-",
       "tokens": [
         {
           "text": "メンバー",
@@ -841,7 +841,7 @@
       "chinese": "菜单",
       "japanese": "メニュー",
       "kana": "めにゅー",
-      "romaji": "menyuu",
+      "romaji": "menyu-",
       "tokens": [
         {
           "text": "メニュー",
@@ -919,7 +919,7 @@
       "chinese": "报告",
       "japanese": "レポート",
       "kana": "れぽーと",
-      "romaji": "repooto",
+      "romaji": "repo-to",
       "tokens": [
         {
           "text": "レポート",
@@ -932,7 +932,7 @@
       "chinese": "低腰裙",
       "japanese": "ローレースカート",
       "kana": "ろーれーすかーと",
-      "romaji": "rooreesukaato",
+      "romaji": "ro-re-suka-to",
       "tokens": [
         {
           "text": "ローレースカート",
@@ -958,7 +958,7 @@
       "chinese": "欧洲",
       "japanese": "ヨーロッパ",
       "kana": "よーろっぱ",
-      "romaji": "yooroppa",
+      "romaji": "yo-roppa",
       "tokens": [
         {
           "text": "ヨーロッパ",
@@ -971,7 +971,7 @@
       "chinese": "马达",
       "japanese": "モーター",
       "kana": "もーたー",
-      "romaji": "mootaa",
+      "romaji": "mo-ta-",
       "tokens": [
         {
           "text": "モーター",
@@ -997,7 +997,7 @@
       "chinese": "麻婆豆腐",
       "japanese": "マーボードウフ",
       "kana": "まーぼーどうふ",
-      "romaji": "maaboodoufu",
+      "romaji": "ma-bo-doufu",
       "tokens": [
         {
           "text": "マーボードウフ",
@@ -1010,7 +1010,7 @@
       "chinese": "邮件",
       "japanese": "メール",
       "kana": "めーる",
-      "romaji": "meeru",
+      "romaji": "me-ru",
       "tokens": [
         {
           "text": "メール",
@@ -1023,7 +1023,7 @@
       "chinese": "拉面",
       "japanese": "ラーメン",
       "kana": "らーめん",
-      "romaji": "raamen",
+      "romaji": "ra-men",
       "tokens": [
         {
           "text": "ラーメン",
@@ -1036,7 +1036,7 @@
       "chinese": "米",
       "japanese": "メートル",
       "kana": "めーとる",
-      "romaji": "meetoru",
+      "romaji": "me-toru",
       "tokens": [
         {
           "text": "メートル",
@@ -1049,7 +1049,7 @@
       "chinese": "掌握，主人",
       "japanese": "マスター",
       "kana": "ますたー",
-      "romaji": "masutaa",
+      "romaji": "masuta-",
       "tokens": [
         {
           "text": "マスター",
@@ -1075,7 +1075,7 @@
       "chinese": "领导者、领袖",
       "japanese": "リーダー",
       "kana": "りーだー",
-      "romaji": "riidaa",
+      "romaji": "ri-da-",
       "tokens": [
         {
           "text": "リーダー",
@@ -1127,7 +1127,7 @@
       "chinese": "礼仪",
       "japanese": "マナー",
       "kana": "まなー",
-      "romaji": "manaa",
+      "romaji": "mana-",
       "tokens": [
         {
           "text": "マナー",
@@ -1140,7 +1140,7 @@
       "chinese": "规则",
       "japanese": "ルール",
       "kana": "るーる",
-      "romaji": "ruuru",
+      "romaji": "ru-ru",
       "tokens": [
         {
           "text": "ルール",

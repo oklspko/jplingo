@@ -177,12 +177,12 @@
       "id": "14",
       "chinese": "新人培训；入学说明会",
       "japanese": "オリエンテーション",
-      "kana": "おりえんてえしょん",
-      "romaji": "orienteeshon",
+      "kana": "おりえんてーしょん",
+      "romaji": "oriente-shon",
       "tokens": [
         {
           "text": "オリエンテーション",
-          "kana": "おりえんてえしょん"
+          "kana": "おりえんてーしょん"
         }
       ]
     },
@@ -229,12 +229,12 @@
       "id": "18",
       "chinese": "餐后甜点",
       "japanese": "デザート",
-      "kana": "でざあと",
-      "romaji": "dezaato",
+      "kana": "でざーと",
+      "romaji": "deza-to",
       "tokens": [
         {
           "text": "デザート",
-          "kana": "でざあと"
+          "kana": "でざーと"
         }
       ]
     },
@@ -268,12 +268,12 @@
       "id": "21",
       "chinese": "（电脑、手机等的）信息；留言；致辞",
       "japanese": "メッセージ",
-      "kana": "めっせえじ",
-      "romaji": "messeeji",
+      "kana": "めっせーじ",
+      "romaji": "messe-ji",
       "tokens": [
         {
           "text": "メッセージ",
-          "kana": "めっせえじ"
+          "kana": "めっせーじ"
         }
       ]
     },
@@ -307,12 +307,12 @@
       "id": "24",
       "chinese": "绳索，钢缆",
       "japanese": "ロープ",
-      "kana": "ろうぷ",
-      "romaji": "roupu",
+      "kana": "ろーぷ",
+      "romaji": "ro-pu",
       "tokens": [
         {
           "text": "ロープ",
-          "kana": "ろうぷ"
+          "kana": "ろーぷ"
         }
       ]
     },

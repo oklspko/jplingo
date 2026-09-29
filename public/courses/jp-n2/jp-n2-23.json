@@ -320,12 +320,12 @@
       "id": "25",
       "chinese": "管弦乐，管弦乐团",
       "japanese": "オーケストラ",
-      "kana": "おうけすとら",
-      "romaji": "oukesutora",
+      "kana": "おーけすとら",
+      "romaji": "o-kesutora",
       "tokens": [
         {
           "text": "オーケストラ",
-          "kana": "おうけすとら"
+          "kana": "おーけすとら"
         }
       ]
     },
@@ -372,12 +372,12 @@
       "id": "29",
       "chinese": "合唱，合唱团，合唱曲",
       "japanese": "コーラス",
-      "kana": "こうらす",
-      "romaji": "kourasu",
+      "kana": "こーらす",
+      "romaji": "ko-rasu",
       "tokens": [
         {
           "text": "コーラス",
-          "kana": "こうらす"
+          "kana": "こーらす"
         }
       ]
     },

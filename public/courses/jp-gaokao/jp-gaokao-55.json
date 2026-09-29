@@ -22,7 +22,7 @@
       "chinese": "路线，学科",
       "japanese": "コース",
       "kana": "こーす",
-      "romaji": "koosu",
+      "romaji": "ko-su",
       "tokens": [
         {
           "text": "コース",
@@ -35,7 +35,7 @@
       "chinese": "服务",
       "japanese": "サービス",
       "kana": "さーびす",
-      "romaji": "saabisu",
+      "romaji": "sa-bisu",
       "tokens": [
         {
           "text": "サービス",
@@ -74,7 +74,7 @@
       "chinese": "同班同学",
       "japanese": "クラスメート",
       "kana": "くらすめーと",
-      "romaji": "kurasumeeto",
+      "romaji": "kurasume-to",
       "tokens": [
         {
           "text": "クラスメート",
@@ -87,7 +87,7 @@
       "chinese": "音乐会",
       "japanese": "コンサート",
       "kana": "こんさーと",
-      "romaji": "konsaato",
+      "romaji": "konsa-to",
       "tokens": [
         {
           "text": "コンサート",
@@ -113,7 +113,7 @@
       "chinese": "自动笔",
       "japanese": "シャープペンシル",
       "kana": "しゃーぷぺんしる",
-      "romaji": "shaapupenshiru",
+      "romaji": "sha-pupenshiru",
       "tokens": [
         {
           "text": "シャープペンシル",
@@ -139,7 +139,7 @@
       "chinese": "计算机",
       "japanese": "コンピュータ",
       "kana": "こんぴゅーた",
-      "romaji": "konpyuuta",
+      "romaji": "konpyu-ta",
       "tokens": [
         {
           "text": "コンピュータ",
@@ -191,7 +191,7 @@
       "chinese": "小组",
       "japanese": "グループ",
       "kana": "ぐるーぷ",
-      "romaji": "guruupu",
+      "romaji": "guru-pu",
       "tokens": [
         {
           "text": "グループ",
@@ -204,7 +204,7 @@
       "chinese": "蛋糕",
       "japanese": "ケーキ",
       "kana": "けーき",
-      "romaji": "keeki",
+      "romaji": "ke-ki",
       "tokens": [
         {
           "text": "ケーキ",
@@ -217,7 +217,7 @@
       "chinese": "游戏",
       "japanese": "ゲーム",
       "kana": "げーむ",
-      "romaji": "geemu",
+      "romaji": "ge-mu",
       "tokens": [
         {
           "text": "ゲーム",
@@ -230,7 +230,7 @@
       "chinese": "可乐",
       "japanese": "コーラ",
       "kana": "こーら",
-      "romaji": "koora",
+      "romaji": "ko-ra",
       "tokens": [
         {
           "text": "コーラ",
@@ -243,7 +243,7 @@
       "chinese": "广告",
       "japanese": "コマーシャル",
       "kana": "こまーしゃる",
-      "romaji": "komaasharu",
+      "romaji": "koma-sharu",
       "tokens": [
         {
           "text": "コマーシャル",
@@ -269,7 +269,7 @@
       "chinese": "CD",
       "japanese": "シーディー",
       "kana": "しーでぃー",
-      "romaji": "shiideii",
+      "romaji": "shi-dei-",
       "tokens": [
         {
           "text": "シーディー",
@@ -295,7 +295,7 @@
       "chinese": "沟通",
       "japanese": "コミュニケーション",
       "kana": "こみゅにけーしょん",
-      "romaji": "komyunikeeshon",
+      "romaji": "komyunike-shon",
       "tokens": [
         {
           "text": "コミュニケーション",
@@ -308,7 +308,7 @@
       "chinese": "足球",
       "japanese": "サッカー",
       "kana": "さっかー",
-      "romaji": "sakkaa",
+      "romaji": "sakka-",
       "tokens": [
         {
           "text": "サッカー",
@@ -321,7 +321,7 @@
       "chinese": "大衣",
       "japanese": "コート",
       "kana": "こーと",
-      "romaji": "kooto",
+      "romaji": "ko-to",
       "tokens": [
         {
           "text": "コート",
@@ -334,7 +334,7 @@
       "chinese": "季节",
       "japanese": "シーズン",
       "kana": "しーずん",
-      "romaji": "shiizun",
+      "romaji": "shi-zun",
       "tokens": [
         {
           "text": "シーズン",
@@ -360,7 +360,7 @@
       "chinese": "复印件",
       "japanese": "コピー",
       "kana": "こぴー",
-      "romaji": "kopii",
+      "romaji": "kopi-",
       "tokens": [
         {
           "text": "コピー",
@@ -373,7 +373,7 @@
       "chinese": "咖啡",
       "japanese": "コーヒー",
       "kana": "こーひー",
-      "romaji": "koohii",
+      "romaji": "ko-hi-",
       "tokens": [
         {
           "text": "コーヒー",
@@ -386,7 +386,7 @@
       "chinese": "上班族",
       "japanese": "サラリーマン",
       "kana": "さらりーまん",
-      "romaji": "sarariiman",
+      "romaji": "sarari-man",
       "tokens": [
         {
           "text": "サラリーマン",
@@ -399,7 +399,7 @@
       "chinese": "咖啡",
       "japanese": "コーヒー",
       "kana": "こーひー",
-      "romaji": "koohii",
+      "romaji": "ko-hi-",
       "tokens": [
         {
           "text": "コーヒー",
@@ -425,7 +425,7 @@
       "chinese": "小组",
       "japanese": "グループ",
       "kana": "ぐるーぷ",
-      "romaji": "guruupu",
+      "romaji": "guru-pu",
       "tokens": [
         {
           "text": "グループ",
@@ -438,7 +438,7 @@
       "chinese": "广告",
       "japanese": "コマーシャル",
       "kana": "こまーしゃる",
-      "romaji": "komaasharu",
+      "romaji": "koma-sharu",
       "tokens": [
         {
           "text": "コマーシャル",
@@ -451,7 +451,7 @@
       "chinese": "大衣",
       "japanese": "コート",
       "kana": "こーと",
-      "romaji": "kooto",
+      "romaji": "ko-to",
       "tokens": [
         {
           "text": "コート",
@@ -503,7 +503,7 @@
       "chinese": "服务",
       "japanese": "サービス",
       "kana": "さーびす",
-      "romaji": "saabisu",
+      "romaji": "sa-bisu",
       "tokens": [
         {
           "text": "サービス",
@@ -529,7 +529,7 @@
       "chinese": "音乐会",
       "japanese": "コンサート",
       "kana": "こんさーと",
-      "romaji": "konsaato",
+      "romaji": "konsa-to",
       "tokens": [
         {
           "text": "コンサート",
@@ -542,7 +542,7 @@
       "chinese": "上班族",
       "japanese": "サラリーマン",
       "kana": "さらりーまん",
-      "romaji": "sarariiman",
+      "romaji": "sarari-man",
       "tokens": [
         {
           "text": "サラリーマン",
@@ -555,7 +555,7 @@
       "chinese": "足球",
       "japanese": "サッカー",
       "kana": "さっかー",
-      "romaji": "sakkaa",
+      "romaji": "sakka-",
       "tokens": [
         {
           "text": "サッカー",
@@ -568,7 +568,7 @@
       "chinese": "自动笔",
       "japanese": "シャープペンシル",
       "kana": "しゃーぷぺんしる",
-      "romaji": "shaapupenshiru",
+      "romaji": "sha-pupenshiru",
       "tokens": [
         {
           "text": "シャープペンシル",
@@ -581,7 +581,7 @@
       "chinese": "计算机",
       "japanese": "コンピュータ",
       "kana": "こんぴゅーた",
-      "romaji": "konpyuuta",
+      "romaji": "konpyu-ta",
       "tokens": [
         {
           "text": "コンピュータ",
@@ -594,7 +594,7 @@
       "chinese": "同班同学",
       "japanese": "クラスメート",
       "kana": "くらすめーと",
-      "romaji": "kurasumeeto",
+      "romaji": "kurasume-to",
       "tokens": [
         {
           "text": "クラスメート",
@@ -620,7 +620,7 @@
       "chinese": "路线，学科",
       "japanese": "コース",
       "kana": "こーす",
-      "romaji": "koosu",
+      "romaji": "ko-su",
       "tokens": [
         {
           "text": "コース",
@@ -646,7 +646,7 @@
       "chinese": "沟通",
       "japanese": "コミュニケーション",
       "kana": "こみゅにけーしょん",
-      "romaji": "komyunikeeshon",
+      "romaji": "komyunike-shon",
       "tokens": [
         {
           "text": "コミュニケーション",
@@ -685,7 +685,7 @@
       "chinese": "游戏",
       "japanese": "ゲーム",
       "kana": "げーむ",
-      "romaji": "geemu",
+      "romaji": "ge-mu",
       "tokens": [
         {
           "text": "ゲーム",
@@ -711,7 +711,7 @@
       "chinese": "可乐",
       "japanese": "コーラ",
       "kana": "こーら",
-      "romaji": "koora",
+      "romaji": "ko-ra",
       "tokens": [
         {
           "text": "コーラ",
@@ -724,7 +724,7 @@
       "chinese": "季节",
       "japanese": "シーズン",
       "kana": "しーずん",
-      "romaji": "shiizun",
+      "romaji": "shi-zun",
       "tokens": [
         {
           "text": "シーズン",
@@ -737,7 +737,7 @@
       "chinese": "CD",
       "japanese": "シーディー",
       "kana": "しーでぃー",
-      "romaji": "shiideii",
+      "romaji": "shi-dei-",
       "tokens": [
         {
           "text": "シーディー",
@@ -750,7 +750,7 @@
       "chinese": "复印件",
       "japanese": "コピー",
       "kana": "こぴー",
-      "romaji": "kopii",
+      "romaji": "kopi-",
       "tokens": [
         {
           "text": "コピー",
@@ -763,7 +763,7 @@
       "chinese": "蛋糕",
       "japanese": "ケーキ",
       "kana": "けーき",
-      "romaji": "keeki",
+      "romaji": "ke-ki",
       "tokens": [
         {
           "text": "ケーキ",
@@ -802,7 +802,7 @@
       "chinese": "路线，学科",
       "japanese": "コース",
       "kana": "こーす",
-      "romaji": "koosu",
+      "romaji": "ko-su",
       "tokens": [
         {
           "text": "コース",
@@ -815,7 +815,7 @@
       "chinese": "大衣",
       "japanese": "コート",
       "kana": "こーと",
-      "romaji": "kooto",
+      "romaji": "ko-to",
       "tokens": [
         {
           "text": "コート",
@@ -828,7 +828,7 @@
       "chinese": "自动笔",
       "japanese": "シャープペンシル",
       "kana": "しゃーぷぺんしる",
-      "romaji": "shaapupenshiru",
+      "romaji": "sha-pupenshiru",
       "tokens": [
         {
           "text": "シャープペンシル",
@@ -854,7 +854,7 @@
       "chinese": "游戏",
       "japanese": "ゲーム",
       "kana": "げーむ",
-      "romaji": "geemu",
+      "romaji": "ge-mu",
       "tokens": [
         {
           "text": "ゲーム",
@@ -893,7 +893,7 @@
       "chinese": "小组",
       "japanese": "グループ",
       "kana": "ぐるーぷ",
-      "romaji": "guruupu",
+      "romaji": "guru-pu",
       "tokens": [
         {
           "text": "グループ",
@@ -906,7 +906,7 @@
       "chinese": "服务",
       "japanese": "サービス",
       "kana": "さーびす",
-      "romaji": "saabisu",
+      "romaji": "sa-bisu",
       "tokens": [
         {
           "text": "サービス",
@@ -945,7 +945,7 @@
       "chinese": "复印件",
       "japanese": "コピー",
       "kana": "こぴー",
-      "romaji": "kopii",
+      "romaji": "kopi-",
       "tokens": [
         {
           "text": "コピー",
@@ -958,7 +958,7 @@
       "chinese": "咖啡",
       "japanese": "コーヒー",
       "kana": "こーひー",
-      "romaji": "koohii",
+      "romaji": "ko-hi-",
       "tokens": [
         {
           "text": "コーヒー",
@@ -997,7 +997,7 @@
       "chinese": "上班族",
       "japanese": "サラリーマン",
       "kana": "さらりーまん",
-      "romaji": "sarariiman",
+      "romaji": "sarari-man",
       "tokens": [
         {
           "text": "サラリーマン",
@@ -1010,7 +1010,7 @@
       "chinese": "季节",
       "japanese": "シーズン",
       "kana": "しーずん",
-      "romaji": "shiizun",
+      "romaji": "shi-zun",
       "tokens": [
         {
           "text": "シーズン",
@@ -1023,7 +1023,7 @@
       "chinese": "计算机",
       "japanese": "コンピュータ",
       "kana": "こんぴゅーた",
-      "romaji": "konpyuuta",
+      "romaji": "konpyu-ta",
       "tokens": [
         {
           "text": "コンピュータ",
@@ -1036,7 +1036,7 @@
       "chinese": "音乐会",
       "japanese": "コンサート",
       "kana": "こんさーと",
-      "romaji": "konsaato",
+      "romaji": "konsa-to",
       "tokens": [
         {
           "text": "コンサート",
@@ -1088,7 +1088,7 @@
       "chinese": "可乐",
       "japanese": "コーラ",
       "kana": "こーら",
-      "romaji": "koora",
+      "romaji": "ko-ra",
       "tokens": [
         {
           "text": "コーラ",
@@ -1101,7 +1101,7 @@
       "chinese": "足球",
       "japanese": "サッカー",
       "kana": "さっかー",
-      "romaji": "sakkaa",
+      "romaji": "sakka-",
       "tokens": [
         {
           "text": "サッカー",
@@ -1114,7 +1114,7 @@
       "chinese": "沟通",
       "japanese": "コミュニケーション",
       "kana": "こみゅにけーしょん",
-      "romaji": "komyunikeeshon",
+      "romaji": "komyunike-shon",
       "tokens": [
         {
           "text": "コミュニケーション",
@@ -1127,7 +1127,7 @@
       "chinese": "CD",
       "japanese": "シーディー",
       "kana": "しーでぃー",
-      "romaji": "shiideii",
+      "romaji": "shi-dei-",
       "tokens": [
         {
           "text": "シーディー",
@@ -1140,7 +1140,7 @@
       "chinese": "广告",
       "japanese": "コマーシャル",
       "kana": "こまーしゃる",
-      "romaji": "komaasharu",
+      "romaji": "koma-sharu",
       "tokens": [
         {
           "text": "コマーシャル",
@@ -1153,7 +1153,7 @@
       "chinese": "同班同学",
       "japanese": "クラスメート",
       "kana": "くらすめーと",
-      "romaji": "kurasumeeto",
+      "romaji": "kurasume-to",
       "tokens": [
         {
           "text": "クラスメート",
@@ -1166,7 +1166,7 @@
       "chinese": "蛋糕",
       "japanese": "ケーキ",
       "kana": "けーき",
-      "romaji": "keeki",
+      "romaji": "ke-ki",
       "tokens": [
         {
           "text": "ケーキ",

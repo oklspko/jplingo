@@ -333,12 +333,12 @@
       "id": "26",
       "chinese": "电动扶梯",
       "japanese": "エスカレーター",
-      "kana": "えすかれえたあ",
-      "romaji": "esukareetaa",
+      "kana": "えすかれーたー",
+      "romaji": "esukare-ta-",
       "tokens": [
         {
           "text": "エスカレーター",
-          "kana": "えすかれえたあ"
+          "kana": "えすかれーたー"
         }
       ]
     },
@@ -359,12 +359,12 @@
       "id": "28",
       "chinese": "群，组，集团，伙伴",
       "japanese": "グループ",
-      "kana": "ぐるうぷ",
-      "romaji": "guruupu",
+      "kana": "ぐるーぷ",
+      "romaji": "guru-pu",
       "tokens": [
         {
           "text": "グループ",
-          "kana": "ぐるうぷ"
+          "kana": "ぐるーぷ"
         }
       ]
     },
@@ -372,12 +372,12 @@
       "id": "29",
       "chinese": "信用卡",
       "japanese": "クレジットカード",
-      "kana": "くれじっとかあど",
-      "romaji": "kurejittokaado",
+      "kana": "くれじっとかーど",
+      "romaji": "kurejittoka-do",
       "tokens": [
         {
           "text": "クレジットカード",
-          "kana": "くれじっとかあど"
+          "kana": "くれじっとかーど"
         }
       ]
     },
@@ -385,12 +385,12 @@
       "id": "30",
       "chinese": "服务；接待；打折或附带赠品",
       "japanese": "サービス",
-      "kana": "さあびす",
-      "romaji": "saabisu",
+      "kana": "さーびす",
+      "romaji": "sa-bisu",
       "tokens": [
         {
           "text": "サービス",
-          "kana": "さあびす"
+          "kana": "さーびす"
         }
       ]
     }

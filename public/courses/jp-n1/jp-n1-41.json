@@ -73,12 +73,12 @@
       "id": "06",
       "chinese": "音乐的，配乐的；音乐片",
       "japanese": "ミュージカル",
-      "kana": "みゅうじかる",
-      "romaji": "myuujikaru",
+      "kana": "みゅーじかる",
+      "romaji": "myu-jikaru",
       "tokens": [
         {
           "text": "ミュージカル",
-          "kana": "みゅうじかる"
+          "kana": "みゅーじかる"
         }
       ]
     },
@@ -86,12 +86,12 @@
       "id": "07",
       "chinese": "音乐家",
       "japanese": "ミュージシャン",
-      "kana": "みゅうじしゃん",
-      "romaji": "myuujishan",
+      "kana": "みゅーじしゃん",
+      "romaji": "myu-jishan",
       "tokens": [
         {
           "text": "ミュージシャン",
-          "kana": "みゅうじしゃん"
+          "kana": "みゅーじしゃん"
         }
       ]
     },
@@ -125,12 +125,12 @@
       "id": "10",
       "chinese": "橄榄球",
       "japanese": "ラグビー",
-      "kana": "らぐびい",
-      "romaji": "ragubii",
+      "kana": "らぐびー",
+      "romaji": "ragubi-",
       "tokens": [
         {
           "text": "ラグビー",
-          "kana": "らぐびい"
+          "kana": "らぐびー"
         }
       ]
     },
@@ -151,12 +151,12 @@
       "id": "12",
       "chinese": "比例，比率",
       "japanese": "レート",
-      "kana": "れえと",
-      "romaji": "reeto",
+      "kana": "れーと",
+      "romaji": "re-to",
       "tokens": [
         {
           "text": "レート",
-          "kana": "れえと"
+          "kana": "れーと"
         }
       ]
     },
@@ -164,12 +164,12 @@
       "id": "13",
       "chinese": "正式成员，正式选手；正规，普通；普通汽油",
       "japanese": "レギュラー",
-      "kana": "れぎゅらあ",
-      "romaji": "regyuraa",
+      "kana": "れぎゅらー",
+      "romaji": "regyura-",
       "tokens": [
         {
           "text": "レギュラー",
-          "kana": "れぎゅらあ"
+          "kana": "れぎゅらー"
         }
       ]
     },

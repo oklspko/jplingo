@@ -333,12 +333,12 @@
       "id": "26",
       "chinese": "索赔；投诉，抱怨",
       "japanese": "クレーム",
-      "kana": "くれえむ",
-      "romaji": "kureemu",
+      "kana": "くれーむ",
+      "romaji": "kure-mu",
       "tokens": [
         {
           "text": "クレーム",
-          "kana": "くれえむ"
+          "kana": "くれーむ"
         }
       ]
     },

@@ -242,12 +242,12 @@
       "id": "19",
       "chinese": "教练；指导",
       "japanese": "コーチ",
-      "kana": "こうち",
-      "romaji": "kouchi",
+      "kana": "こーち",
+      "romaji": "ko-chi",
       "tokens": [
         {
           "text": "コーチ",
-          "kana": "こうち"
+          "kana": "こーち"
         }
       ]
     },
@@ -255,12 +255,12 @@
       "id": "20",
       "chinese": "下载",
       "japanese": "ダウンロード",
-      "kana": "だうんろうど",
-      "romaji": "daunroudo",
+      "kana": "だうんろーど",
+      "romaji": "daunro-do",
       "tokens": [
         {
           "text": "ダウンロード",
-          "kana": "だうんろうど"
+          "kana": "だうんろーど"
         }
       ]
     },

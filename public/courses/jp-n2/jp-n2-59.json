@@ -372,12 +372,12 @@
       "id": "29",
       "chinese": "热情，动力",
       "japanese": "モチベーション",
-      "kana": "もちべえしょん",
-      "romaji": "mochibeeshon",
+      "kana": "もちべーしょん",
+      "romaji": "mochibe-shon",
       "tokens": [
         {
           "text": "モチベーション",
-          "kana": "もちべえしょん"
+          "kana": "もちべーしょん"
         }
       ]
     },

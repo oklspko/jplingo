@@ -138,12 +138,12 @@
       "id": "11",
       "chinese": "笔记本电脑，笔电",
       "japanese": "ノートパソコン",
-      "kana": "のうとぱそこん",
-      "romaji": "noutopasokon",
+      "kana": "のーとぱそこん",
+      "romaji": "no-topasokon",
       "tokens": [
         {
           "text": "ノートパソコン",
-          "kana": "のうとぱそこん"
+          "kana": "のーとぱそこん"
         }
       ]
     },
@@ -151,12 +151,12 @@
       "id": "12",
       "chinese": "啤酒",
       "japanese": "ビール",
-      "kana": "びいる",
-      "romaji": "biiru",
+      "kana": "びーる",
+      "romaji": "bi-ru",
       "tokens": [
         {
           "text": "ビール",
-          "kana": "びいる"
+          "kana": "びーる"
         }
       ]
     },
@@ -385,12 +385,12 @@
       "id": "30",
       "chinese": "咖喱饭",
       "japanese": "カレーライス",
-      "kana": "かれえらいす",
-      "romaji": "kareeraisu",
+      "kana": "かれーらいす",
+      "romaji": "kare-raisu",
       "tokens": [
         {
           "text": "カレーライス",
-          "kana": "かれえらいす"
+          "kana": "かれーらいす"
         }
       ]
     }

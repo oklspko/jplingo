@@ -112,12 +112,12 @@
       "id": "09",
       "chinese": "纽约；纽约州",
       "japanese": "ニューヨーク",
-      "kana": "にゅうようく",
-      "romaji": "nyuuyouku",
+      "kana": "にゅーよーく",
+      "romaji": "nyu-yo-ku",
       "tokens": [
         {
           "text": "ニューヨーク",
-          "kana": "にゅうようく"
+          "kana": "にゅーよーく"
         }
       ]
     },
@@ -281,12 +281,12 @@
       "id": "22",
       "chinese": "轻便运动鞋，旅游鞋",
       "japanese": "スニーカー",
-      "kana": "すにいかあ",
-      "romaji": "suniikaa",
+      "kana": "すにーかー",
+      "romaji": "suni-ka-",
       "tokens": [
         {
           "text": "スニーカー",
-          "kana": "すにいかあ"
+          "kana": "すにーかー"
         }
       ]
     },

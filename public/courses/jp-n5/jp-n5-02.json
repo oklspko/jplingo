@@ -86,12 +86,12 @@
       "id": "07",
       "chinese": "咖喱",
       "japanese": "カレー",
-      "kana": "かれえ",
-      "romaji": "karee",
+      "kana": "かれー",
+      "romaji": "kare-",
       "tokens": [
         {
           "text": "カレー",
-          "kana": "かれえ"
+          "kana": "かれー"
         }
       ]
     },
@@ -99,12 +99,12 @@
       "id": "08",
       "chinese": "吉他",
       "japanese": "ギター",
-      "kana": "ぎたあ",
-      "romaji": "gitaa",
+      "kana": "ぎたー",
+      "romaji": "gita-",
       "tokens": [
         {
           "text": "ギター",
-          "kana": "ぎたあ"
+          "kana": "ぎたー"
         }
       ]
     },
@@ -138,12 +138,12 @@
       "id": "11",
       "chinese": "蛋糕",
       "japanese": "ケーキ",
-      "kana": "けえき",
-      "romaji": "keeki",
+      "kana": "けーき",
+      "romaji": "ke-ki",
       "tokens": [
         {
           "text": "ケーキ",
-          "kana": "けえき"
+          "kana": "けーき"
         }
       ]
     },
@@ -151,12 +151,12 @@
       "id": "12",
       "chinese": "外套，大衣",
       "japanese": "コート",
-      "kana": "こうと",
-      "romaji": "kouto",
+      "kana": "こーと",
+      "romaji": "ko-to",
       "tokens": [
         {
           "text": "コート",
-          "kana": "こうと"
+          "kana": "こーと"
         }
       ]
     },
@@ -164,12 +164,12 @@
       "id": "13",
       "chinese": "咖啡",
       "japanese": "コーヒー",
-      "kana": "こうひい",
-      "romaji": "kouhii",
+      "kana": "こーひー",
+      "romaji": "ko-hi-",
       "tokens": [
         {
           "text": "コーヒー",
-          "kana": "こうひい"
+          "kana": "こーひー"
         }
       ]
     },
@@ -255,12 +255,12 @@
       "id": "20",
       "chinese": "足球",
       "japanese": "サッカー",
-      "kana": "さっかあ",
-      "romaji": "sakkaa",
+      "kana": "さっかー",
+      "romaji": "sakka-",
       "tokens": [
         {
           "text": "サッカー",
-          "kana": "さっかあ"
+          "kana": "さっかー"
         }
       ]
     },
@@ -281,12 +281,12 @@
       "id": "22",
       "chinese": "淋浴",
       "japanese": "シャワー",
-      "kana": "しゃわあ",
-      "romaji": "shawaa",
+      "kana": "しゃわー",
+      "romaji": "shawa-",
       "tokens": [
         {
           "text": "シャワー",
-          "kana": "しゃわあ"
+          "kana": "しゃわー"
         }
       ]
     },
@@ -294,12 +294,12 @@
       "id": "23",
       "chinese": "果汁",
       "japanese": "ジュース",
-      "kana": "じゅうす",
-      "romaji": "juusu",
+      "kana": "じゅーす",
+      "romaji": "ju-su",
       "tokens": [
         {
           "text": "ジュース",
-          "kana": "じゅうす"
+          "kana": "じゅーす"
         }
       ]
     },
@@ -333,12 +333,12 @@
       "id": "26",
       "chinese": "裙子",
       "japanese": "スカート",
-      "kana": "すかあと",
-      "romaji": "sukaato",
+      "kana": "すかーと",
+      "romaji": "suka-to",
       "tokens": [
         {
           "text": "スカート",
-          "kana": "すかあと"
+          "kana": "すかーと"
         }
       ]
     },
@@ -346,12 +346,12 @@
       "id": "27",
       "chinese": "滑雪",
       "japanese": "スキー",
-      "kana": "すきい",
-      "romaji": "sukii",
+      "kana": "すきー",
+      "romaji": "suki-",
       "tokens": [
         {
           "text": "スキー",
-          "kana": "すきい"
+          "kana": "すきー"
         }
       ]
     },
@@ -359,12 +359,12 @@
       "id": "28",
       "chinese": "暖炉，炉子",
       "japanese": "ストーブ",
-      "kana": "すとうぶ",
-      "romaji": "sutoubu",
+      "kana": "すとーぶ",
+      "romaji": "suto-bu",
       "tokens": [
         {
           "text": "ストーブ",
-          "kana": "すとうぶ"
+          "kana": "すとーぶ"
         }
       ]
     },
@@ -372,12 +372,12 @@
       "id": "29",
       "chinese": "运动，游戏",
       "japanese": "スポーツ",
-      "kana": "すぽうつ",
-      "romaji": "supoutsu",
+      "kana": "すぽーつ",
+      "romaji": "supo-tsu",
       "tokens": [
         {
           "text": "スポーツ",
-          "kana": "すぽうつ"
+          "kana": "すぽーつ"
         }
       ]
     },

@@ -8,12 +8,12 @@
       "id": "01",
       "chinese": "禁忌之物，避讳的事",
       "japanese": "タブー",
-      "kana": "たぶう",
-      "romaji": "tabuu",
+      "kana": "たぶー",
+      "romaji": "tabu-",
       "tokens": [
         {
           "text": "タブー",
-          "kana": "たぶう"
+          "kana": "たぶー"
         }
       ]
     },
@@ -86,12 +86,12 @@
       "id": "07",
       "chinese": "领导地位；领导能力",
       "japanese": "リーダーシップ",
-      "kana": "りいだあしっぷ",
-      "romaji": "riidaashippu",
+      "kana": "りーだーしっぷ",
+      "romaji": "ri-da-shippu",
       "tokens": [
         {
           "text": "リーダーシップ",
-          "kana": "りいだあしっぷ"
+          "kana": "りーだーしっぷ"
         }
       ]
     },

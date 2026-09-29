@@ -216,12 +216,12 @@
       "id": "17",
       "chinese": "混凝土",
       "japanese": "コンクリート",
-      "kana": "こんくりいと",
-      "romaji": "konkuriito",
+      "kana": "こんくりーと",
+      "romaji": "konkuri-to",
       "tokens": [
         {
           "text": "コンクリート",
-          "kana": "こんくりいと"
+          "kana": "こんくりーと"
         }
       ]
     },
@@ -255,12 +255,12 @@
       "id": "20",
       "chinese": "护士，女护士",
       "japanese": "ナース",
-      "kana": "なあす",
-      "romaji": "naasu",
+      "kana": "なーす",
+      "romaji": "na-su",
       "tokens": [
         {
           "text": "ナース",
-          "kana": "なあす"
+          "kana": "なーす"
         }
       ]
     },
@@ -268,12 +268,12 @@
       "id": "21",
       "chinese": "网络；网状组织",
       "japanese": "ネットワーク",
-      "kana": "ねっとわあく",
-      "romaji": "nettowaaku",
+      "kana": "ねっとわーく",
+      "romaji": "nettowa-ku",
       "tokens": [
         {
           "text": "ネットワーク",
-          "kana": "ねっとわあく"
+          "kana": "ねっとわーく"
         }
       ]
     },
@@ -281,12 +281,12 @@
       "id": "22",
       "chinese": "表演，演出；效果，性能",
       "japanese": "パフォーマンス",
-      "kana": "ぱふぉうまんす",
-      "romaji": "pafuoumansu",
+      "kana": "ぱふぉーまんす",
+      "romaji": "pafuo-mansu",
       "tokens": [
         {
           "text": "パフォーマンス",
-          "kana": "ぱふぉうまんす"
+          "kana": "ぱふぉーまんす"
         }
       ]
     },
@@ -294,12 +294,12 @@
       "id": "23",
       "chinese": "靠打工维持生计的人",
       "japanese": "フリーター",
-      "kana": "ふりいたあ",
-      "romaji": "furiitaa",
+      "kana": "ふりーたー",
+      "romaji": "furi-ta-",
       "tokens": [
         {
           "text": "フリーター",
-          "kana": "ふりいたあ"
+          "kana": "ふりーたー"
         }
       ]
     },
@@ -307,12 +307,12 @@
       "id": "24",
       "chinese": "马达，发动机；车",
       "japanese": "モーター",
-      "kana": "もうたあ",
-      "romaji": "moutaa",
+      "kana": "もーたー",
+      "romaji": "mo-ta-",
       "tokens": [
         {
           "text": "モーター",
-          "kana": "もうたあ"
+          "kana": "もーたー"
         }
       ]
     },
@@ -346,12 +346,12 @@
       "id": "27",
       "chinese": "余暇，空闲；休闲娱乐",
       "japanese": "レジャー",
-      "kana": "れじゃあ",
-      "romaji": "rejaa",
+      "kana": "れじゃー",
+      "romaji": "reja-",
       "tokens": [
         {
           "text": "レジャー",
-          "kana": "れじゃあ"
+          "kana": "れじゃー"
         }
       ]
     },
@@ -359,12 +359,12 @@
       "id": "28",
       "chinese": "贷款",
       "japanese": "ローン",
-      "kana": "ろうん",
-      "romaji": "roun",
+      "kana": "ろーん",
+      "romaji": "ro-n",
       "tokens": [
         {
           "text": "ローン",
-          "kana": "ろうん"
+          "kana": "ろーん"
         }
       ]
     },

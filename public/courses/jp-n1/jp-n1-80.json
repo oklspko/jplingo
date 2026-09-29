@@ -86,12 +86,12 @@
       "id": "07",
       "chinese": "医生；博士",
       "japanese": "ドクター",
-      "kana": "どくたあ",
-      "romaji": "dokutaa",
+      "kana": "どくたー",
+      "romaji": "dokuta-",
       "tokens": [
         {
           "text": "ドクター",
-          "kana": "どくたあ"
+          "kana": "どくたー"
         }
       ]
     },
@@ -112,12 +112,12 @@
       "id": "09",
       "chinese": "框，架",
       "japanese": "フレーム",
-      "kana": "ふれえむ",
-      "romaji": "fureemu",
+      "kana": "ふれーむ",
+      "romaji": "fure-mu",
       "tokens": [
         {
           "text": "フレーム",
-          "kana": "ふれえむ"
+          "kana": "ふれーむ"
         }
       ]
     },
@@ -125,12 +125,12 @@
       "id": "10",
       "chinese": "雷达",
       "japanese": "レーダー",
-      "kana": "れえだあ",
-      "romaji": "reedaa",
+      "kana": "れーだー",
+      "romaji": "re-da-",
       "tokens": [
         {
           "text": "レーダー",
-          "kana": "れえだあ"
+          "kana": "れーだー"
         }
       ]
     },

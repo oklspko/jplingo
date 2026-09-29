@@ -60,12 +60,12 @@
       "id": "05",
       "chinese": "菜单，选单",
       "japanese": "メニュー",
-      "kana": "めにゅう",
-      "romaji": "menyuu",
+      "kana": "めにゅー",
+      "romaji": "menyu-",
       "tokens": [
         {
           "text": "メニュー",
-          "kana": "めにゅう"
+          "kana": "めにゅー"
         }
       ]
     },

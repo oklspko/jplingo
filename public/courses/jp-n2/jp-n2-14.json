@@ -190,12 +190,12 @@
       "id": "15",
       "chinese": "防卫，防守；警卫，警备",
       "japanese": "ガード",
-      "kana": "があど",
-      "romaji": "gaado",
+      "kana": "がーど",
+      "romaji": "ga-do",
       "tokens": [
         {
           "text": "ガード",
-          "kana": "があど"
+          "kana": "がーど"
         }
       ]
     },
@@ -294,12 +294,12 @@
       "id": "23",
       "chinese": "户外烧烤",
       "japanese": "バーベキュー",
-      "kana": "ばあべきゅう",
-      "romaji": "baabekyuu",
+      "kana": "ばーべきゅー",
+      "romaji": "ba-bekyu-",
       "tokens": [
         {
           "text": "バーベキュー",
-          "kana": "ばあべきゅう"
+          "kana": "ばーべきゅー"
         }
       ]
     },
@@ -307,12 +307,12 @@
       "id": "24",
       "chinese": "力量，能力，活力，马力；权力",
       "japanese": "パワー",
-      "kana": "ぱわあ",
-      "romaji": "pawaa",
+      "kana": "ぱわー",
+      "romaji": "pawa-",
       "tokens": [
         {
           "text": "パワー",
-          "kana": "ぱわあ"
+          "kana": "ぱわー"
         }
       ]
     },
@@ -333,12 +333,12 @@
       "id": "26",
       "chinese": "神秘；推理小说",
       "japanese": "ミステリー",
-      "kana": "みすてりい",
-      "romaji": "misuterii",
+      "kana": "みすてりー",
+      "romaji": "misuteri-",
       "tokens": [
         {
           "text": "ミステリー",
-          "kana": "みすてりい"
+          "kana": "みすてりー"
         }
       ]
     },
@@ -385,12 +385,12 @@
       "id": "30",
       "chinese": "报告人；采访记者",
       "japanese": "レポーター",
-      "kana": "れぽうたあ",
-      "romaji": "repoutaa",
+      "kana": "れぽーたー",
+      "romaji": "repo-ta-",
       "tokens": [
         {
           "text": "レポーター",
-          "kana": "れぽうたあ"
+          "kana": "れぽーたー"
         }
       ]
     }

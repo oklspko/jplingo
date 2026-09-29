@@ -151,12 +151,12 @@
       "id": "12",
       "chinese": "（音乐等文艺方面的）比赛",
       "japanese": "コンクール",
-      "kana": "こんくうる",
-      "romaji": "konkuuru",
+      "kana": "こんくーる",
+      "romaji": "konku-ru",
       "tokens": [
         {
           "text": "コンクール",
-          "kana": "こんくうる"
+          "kana": "こんくーる"
         }
       ]
     },
@@ -177,12 +177,12 @@
       "id": "14",
       "chinese": "橱窗，陈列窗",
       "japanese": "ショーウインドー",
-      "kana": "しょうういんどう",
-      "romaji": "shouuindou",
+      "kana": "しょーういんどー",
+      "romaji": "sho-uindo-",
       "tokens": [
         {
           "text": "ショーウインドー",
-          "kana": "しょうういんどう"
+          "kana": "しょーういんどー"
         }
       ]
     },
@@ -190,12 +190,12 @@
       "id": "15",
       "chinese": "透明胶带",
       "japanese": "セロテープ",
-      "kana": "せろてえぷ",
-      "romaji": "seroteepu",
+      "kana": "せろてーぷ",
+      "romaji": "serote-pu",
       "tokens": [
         {
           "text": "セロテープ",
-          "kana": "せろてえぷ"
+          "kana": "せろてーぷ"
         }
       ]
     },
@@ -242,12 +242,12 @@
       "id": "19",
       "chinese": "充电；加油；费用；充值",
       "japanese": "チャージ",
-      "kana": "ちゃあじ",
-      "romaji": "chaaji",
+      "kana": "ちゃーじ",
+      "romaji": "cha-ji",
       "tokens": [
         {
           "text": "チャージ",
-          "kana": "ちゃあじ"
+          "kana": "ちゃーじ"
         }
       ]
     },
@@ -255,12 +255,12 @@
       "id": "20",
       "chinese": "黑猩猩",
       "japanese": "チンパンジー",
-      "kana": "ちんぱんじい",
-      "romaji": "chinpanjii",
+      "kana": "ちんぱんじー",
+      "romaji": "chinpanji-",
       "tokens": [
         {
           "text": "チンパンジー",
-          "kana": "ちんぱんじい"
+          "kana": "ちんぱんじー"
         }
       ]
     },
@@ -294,12 +294,12 @@
       "id": "23",
       "chinese": "跨栏；难关",
       "japanese": "ハードル",
-      "kana": "はあどる",
-      "romaji": "haadoru",
+      "kana": "はーどる",
+      "romaji": "ha-doru",
       "tokens": [
         {
           "text": "ハードル",
-          "kana": "はあどる"
+          "kana": "はーどる"
         }
       ]
     },
@@ -307,12 +307,12 @@
       "id": "24",
       "chinese": "山顶；最高峰",
       "japanese": "ピーク",
-      "kana": "ぴいく",
-      "romaji": "piiku",
+      "kana": "ぴーく",
+      "romaji": "pi-ku",
       "tokens": [
         {
           "text": "ピーク",
-          "kana": "ぴいく"
+          "kana": "ぴーく"
         }
       ]
     },
@@ -359,12 +359,12 @@
       "id": "28",
       "chinese": "公开演示，发表，方案，企画",
       "japanese": "プレゼンテーション",
-      "kana": "ぷれぜんてえしょん",
-      "romaji": "purezenteeshon",
+      "kana": "ぷれぜんてーしょん",
+      "romaji": "purezente-shon",
       "tokens": [
         {
           "text": "プレゼンテーション",
-          "kana": "ぷれぜんてえしょん"
+          "kana": "ぷれぜんてーしょん"
         }
       ]
     },
@@ -372,12 +372,12 @@
       "id": "29",
       "chinese": "（精神方面的）压力",
       "japanese": "プレッシャー",
-      "kana": "ぷれっしゃあ",
-      "romaji": "puresshaa",
+      "kana": "ぷれっしゃー",
+      "romaji": "puressha-",
       "tokens": [
         {
           "text": "プレッシャー",
-          "kana": "ぷれっしゃあ"
+          "kana": "ぷれっしゃー"
         }
       ]
     },

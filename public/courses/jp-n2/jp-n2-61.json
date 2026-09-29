@@ -190,12 +190,12 @@
       "id": "15",
       "chinese": "经理，管理人；（体育社团等的）干事；（艺人等的）经纪人",
       "japanese": "マネージャー",
-      "kana": "まねえじゃあ",
-      "romaji": "maneejaa",
+      "kana": "まねーじゃー",
+      "romaji": "mane-ja-",
       "tokens": [
         {
           "text": "マネージャー",
-          "kana": "まねえじゃあ"
+          "kana": "まねーじゃー"
         }
       ]
     },
@@ -242,12 +242,12 @@
       "id": "19",
       "chinese": "分量，量，量感；音量；卷，册",
       "japanese": "ボリューム",
-      "kana": "ぼりゅうむ",
-      "romaji": "boryuumu",
+      "kana": "ぼりゅーむ",
+      "romaji": "boryu-mu",
       "tokens": [
         {
           "text": "ボリューム",
-          "kana": "ぼりゅうむ"
+          "kana": "ぼりゅーむ"
         }
       ]
     },

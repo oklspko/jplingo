@@ -151,12 +151,12 @@
       "id": "12",
       "chinese": "奶油；乳液；冰激凌",
       "japanese": "クリーム",
-      "kana": "くりいむ",
-      "romaji": "kuriimu",
+      "kana": "くりーむ",
+      "romaji": "kuri-mu",
       "tokens": [
         {
           "text": "クリーム",
-          "kana": "くりいむ"
+          "kana": "くりーむ"
         }
       ]
     },
@@ -164,12 +164,12 @@
       "id": "13",
       "chinese": "圆；小组，社团",
       "japanese": "サークル",
-      "kana": "さあくる",
-      "romaji": "saakuru",
+      "kana": "さーくる",
+      "romaji": "sa-kuru",
       "tokens": [
         {
           "text": "サークル",
-          "kana": "さあくる"
+          "kana": "さーくる"
         }
       ]
     },
@@ -177,12 +177,12 @@
       "id": "14",
       "chinese": "日程（表）",
       "japanese": "スケジュール",
-      "kana": "すけじゅうる",
-      "romaji": "sukejuuru",
+      "kana": "すけじゅーる",
+      "romaji": "sukeju-ru",
       "tokens": [
         {
           "text": "スケジュール",
-          "kana": "すけじゅうる"
+          "kana": "すけじゅーる"
         }
       ]
     },
@@ -216,12 +216,12 @@
       "id": "17",
       "chinese": "青椒，灯笼椒",
       "japanese": "ピーマン",
-      "kana": "ぴいまん",
-      "romaji": "piiman",
+      "kana": "ぴーまん",
+      "romaji": "pi-man",
       "tokens": [
         {
           "text": "ピーマン",
-          "kana": "ぴいまん"
+          "kana": "ぴーまん"
         }
       ]
     },
@@ -255,12 +255,12 @@
       "id": "20",
       "chinese": "（留学生）寄宿在别人家中",
       "japanese": "ホームステイ",
-      "kana": "ほうむすてい",
-      "romaji": "houmusutei",
+      "kana": "ほーむすてい",
+      "romaji": "ho-musutei",
       "tokens": [
         {
           "text": "ホームステイ",
-          "kana": "ほうむすてい"
+          "kana": "ほーむすてい"
         }
       ]
     },
@@ -281,12 +281,12 @@
       "id": "22",
       "chinese": "收据",
       "japanese": "レシート",
-      "kana": "れしいと",
-      "romaji": "reshiito",
+      "kana": "れしーと",
+      "romaji": "reshi-to",
       "tokens": [
         {
           "text": "レシート",
-          "kana": "れしいと"
+          "kana": "れしーと"
         }
       ]
     },

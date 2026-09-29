@@ -47,12 +47,12 @@
       "id": "04",
       "chinese": "采访，会见",
       "japanese": "インタビュー",
-      "kana": "いんたびゅう",
-      "romaji": "intabyuu",
+      "kana": "いんたびゅー",
+      "romaji": "intabyu-",
       "tokens": [
         {
           "text": "インタビュー",
-          "kana": "いんたびゅう"
+          "kana": "いんたびゅー"
         }
       ]
     },
@@ -112,12 +112,12 @@
       "id": "09",
       "chinese": "转弯处，弯曲",
       "japanese": "カーブ",
-      "kana": "かあぶ",
-      "romaji": "kaabu",
+      "kana": "かーぶ",
+      "romaji": "ka-bu",
       "tokens": [
         {
           "text": "カーブ",
-          "kana": "かあぶ"
+          "kana": "かーぶ"
         }
       ]
     },
@@ -125,12 +125,12 @@
       "id": "10",
       "chinese": "盒式录音磁带",
       "japanese": "カセットテープ",
-      "kana": "かせっとてえぷ",
-      "romaji": "kasettoteepu",
+      "kana": "かせっとてーぷ",
+      "romaji": "kasettote-pu",
       "tokens": [
         {
           "text": "カセットテープ",
-          "kana": "かせっとてえぷ"
+          "kana": "かせっとてーぷ"
         }
       ]
     },
@@ -177,12 +177,12 @@
       "id": "14",
       "chinese": "卡路里；热量",
       "japanese": "カロリー",
-      "kana": "かろりい",
-      "romaji": "karorii",
+      "kana": "かろりー",
+      "romaji": "karori-",
       "tokens": [
         {
           "text": "カロリー",
-          "kana": "かろりい"
+          "kana": "かろりー"
         }
       ]
     },
@@ -190,12 +190,12 @@
       "id": "15",
       "chinese": "（电脑，乐器等的）键盘",
       "japanese": "キーボード",
-      "kana": "きいぼうど",
-      "romaji": "kiiboudo",
+      "kana": "きーぼーど",
+      "romaji": "ki-bo-do",
       "tokens": [
         {
           "text": "キーボード",
-          "kana": "きいぼうど"
+          "kana": "きーぼーど"
         }
       ]
     },
@@ -255,12 +255,12 @@
       "id": "20",
       "chinese": "（特指）干洗",
       "japanese": "クリーニング",
-      "kana": "くりいにんぐ",
-      "romaji": "kuriiningu",
+      "kana": "くりーにんぐ",
+      "romaji": "kuri-ningu",
       "tokens": [
         {
           "text": "クリーニング",
-          "kana": "くりいにんぐ"
+          "kana": "くりーにんぐ"
         }
       ]
     },
@@ -268,12 +268,12 @@
       "id": "21",
       "chinese": "箱子，盒子；事例",
       "japanese": "ケース",
-      "kana": "けえす",
-      "romaji": "keesu",
+      "kana": "けーす",
+      "romaji": "ke-su",
       "tokens": [
         {
           "text": "ケース",
-          "kana": "けえす"
+          "kana": "けーす"
         }
       ]
     },
@@ -307,12 +307,12 @@
       "id": "24",
       "chinese": "路线；课程；套餐",
       "japanese": "コース",
-      "kana": "こうす",
-      "romaji": "kousu",
+      "kana": "こーす",
+      "romaji": "ko-su",
       "tokens": [
         {
           "text": "コース",
-          "kana": "こうす"
+          "kana": "こーす"
         }
       ]
     },
@@ -320,12 +320,12 @@
       "id": "25",
       "chinese": "终点；球门；目标",
       "japanese": "ゴール",
-      "kana": "ごうる",
-      "romaji": "gouru",
+      "kana": "ごーる",
+      "romaji": "go-ru",
       "tokens": [
         {
           "text": "ゴール",
-          "kana": "ごうる"
+          "kana": "ごーる"
         }
       ]
     },
@@ -333,12 +333,12 @@
       "id": "26",
       "chinese": "商业广告",
       "japanese": "コマーシャル",
-      "kana": "こまあしゃる",
-      "romaji": "komaasharu",
+      "kana": "こまーしゃる",
+      "romaji": "koma-sharu",
       "tokens": [
         {
           "text": "コマーシャル",
-          "kana": "こまあしゃる"
+          "kana": "こまーしゃる"
         }
       ]
     },
@@ -359,12 +359,12 @@
       "id": "28",
       "chinese": "工薪阶层",
       "japanese": "サラリーマン",
-      "kana": "さらりいまん",
-      "romaji": "sarariiman",
+      "kana": "さらりーまん",
+      "romaji": "sarari-man",
       "tokens": [
         {
           "text": "サラリーマン",
-          "kana": "さらりいまん"
+          "kana": "さらりーまん"
         }
       ]
     },

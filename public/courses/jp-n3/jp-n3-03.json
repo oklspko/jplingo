@@ -229,12 +229,12 @@
       "id": "18",
       "chinese": "能源，能量；精力",
       "japanese": "エネルギー",
-      "kana": "えねるぎい",
-      "romaji": "enerugii",
+      "kana": "えねるぎー",
+      "romaji": "enerugi-",
       "tokens": [
         {
           "text": "エネルギー",
-          "kana": "えねるぎい"
+          "kana": "えねるぎー"
         }
       ]
     },
@@ -333,12 +333,12 @@
       "id": "26",
       "chinese": "窗帘",
       "japanese": "カーテン",
-      "kana": "かあてん",
-      "romaji": "kaaten",
+      "kana": "かーてん",
+      "romaji": "ka-ten",
       "tokens": [
         {
           "text": "カーテン",
-          "kana": "かあてん"
+          "kana": "かーてん"
         }
       ]
     },

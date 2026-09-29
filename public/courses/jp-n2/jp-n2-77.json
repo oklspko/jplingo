@@ -229,12 +229,12 @@
       "id": "18",
       "chinese": "安装",
       "japanese": "インストール",
-      "kana": "いんすとうる",
-      "romaji": "insutouru",
+      "kana": "いんすとーる",
+      "romaji": "insuto-ru",
       "tokens": [
         {
           "text": "インストール",
-          "kana": "いんすとうる"
+          "kana": "いんすとーる"
         }
       ]
     },

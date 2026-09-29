@@ -242,12 +242,12 @@
       "id": "19",
       "chinese": "意识形态，思想体系",
       "japanese": "イデオロギー",
-      "kana": "いでおろぎい",
-      "romaji": "ideorogii",
+      "kana": "いでおろぎー",
+      "romaji": "ideorogi-",
       "tokens": [
         {
           "text": "イデオロギー",
-          "kana": "いでおろぎい"
+          "kana": "いでおろぎー"
         }
       ]
     },
@@ -255,12 +255,12 @@
       "id": "20",
       "chinese": "插画家",
       "japanese": "イラストレーター",
-      "kana": "いらすとれえたあ",
-      "romaji": "irasutoreetaa",
+      "kana": "いらすとれーたー",
+      "romaji": "irasutore-ta-",
       "tokens": [
         {
           "text": "イラストレーター",
-          "kana": "いらすとれえたあ"
+          "kana": "いらすとれーたー"
         }
       ]
     },
@@ -294,12 +294,12 @@
       "id": "23",
       "chinese": "（新闻）评论员",
       "japanese": "コメンテーター",
-      "kana": "こめんてえたあ",
-      "romaji": "komenteetaa",
+      "kana": "こめんてーたー",
+      "romaji": "komente-ta-",
       "tokens": [
         {
           "text": "コメンテーター",
-          "kana": "こめんてえたあ"
+          "kana": "こめんてーたー"
         }
       ]
     },
@@ -320,12 +320,12 @@
       "id": "25",
       "chinese": "社会性别",
       "japanese": "ジェンダー",
-      "kana": "じぇんだあ",
-      "romaji": "jendaa",
+      "kana": "じぇんだー",
+      "romaji": "jienda-",
       "tokens": [
         {
           "text": "ジェンダー",
-          "kana": "じぇんだあ"
+          "kana": "じぇんだー"
         }
       ]
     },
@@ -333,12 +333,12 @@
       "id": "26",
       "chinese": "协同作用，协作效应",
       "japanese": "シナジー",
-      "kana": "しなじい",
-      "romaji": "shinajii",
+      "kana": "しなじー",
+      "romaji": "shinaji-",
       "tokens": [
         {
           "text": "シナジー",
-          "kana": "しなじい"
+          "kana": "しなじー"
         }
       ]
     },
@@ -346,12 +346,12 @@
       "id": "27",
       "chinese": "超级计算机",
       "japanese": "スーパーコンピューター",
-      "kana": "すうぱあこんぴゅうたあ",
-      "romaji": "suupaakonpyuutaa",
+      "kana": "すーぱーこんぴゅーたー",
+      "romaji": "su-pa-konpyu-ta-",
       "tokens": [
         {
           "text": "スーパーコンピューター",
-          "kana": "すうぱあこんぴゅうたあ"
+          "kana": "すーぱーこんぴゅーたー"
         }
       ]
     },
@@ -372,12 +372,12 @@
       "id": "29",
       "chinese": "（女用）披肩，围巾",
       "japanese": "ストール",
-      "kana": "すとうる",
-      "romaji": "sutouru",
+      "kana": "すとーる",
+      "romaji": "suto-ru",
       "tokens": [
         {
           "text": "ストール",
-          "kana": "すとうる"
+          "kana": "すとーる"
         }
       ]
     },

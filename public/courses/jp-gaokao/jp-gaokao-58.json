@@ -22,7 +22,7 @@
       "chinese": "寄宿家庭",
       "japanese": "ホームステイ",
       "kana": "ほーむすてい",
-      "romaji": "hoomusutei",
+      "romaji": "ho-musutei",
       "tokens": [
         {
           "text": "ホームステイ",
@@ -48,7 +48,7 @@
       "chinese": "塑料",
       "japanese": "ビニール",
       "kana": "びにーる",
-      "romaji": "biniiru",
+      "romaji": "bini-ru",
       "tokens": [
         {
           "text": "ビニール",
@@ -61,7 +61,7 @@
       "chinese": "塑料袋",
       "japanese": "ビニール袋",
       "kana": "びにーるぶくろ",
-      "romaji": "biniirubukuro",
+      "romaji": "bini-rubukuro",
       "tokens": [
         {
           "text": "ビニール袋",
@@ -74,7 +74,7 @@
       "chinese": "页",
       "japanese": "ページ",
       "kana": "ぺーじ",
-      "romaji": "peeji",
+      "romaji": "pe-ji",
       "tokens": [
         {
           "text": "ページ",
@@ -100,7 +100,7 @@
       "chinese": "圆珠笔",
       "japanese": "ボールペン",
       "kana": "ぼーるぺん",
-      "romaji": "boorupen",
+      "romaji": "bo-rupen",
       "tokens": [
         {
           "text": "ボールペン",
@@ -152,7 +152,7 @@
       "chinese": "游泳池",
       "japanese": "プール",
       "kana": "ぷーる",
-      "romaji": "puuru",
+      "romaji": "pu-ru",
       "tokens": [
         {
           "text": "プール",
@@ -178,7 +178,7 @@
       "chinese": "排球",
       "japanese": "バレーボール",
       "kana": "ばれーぼーる",
-      "romaji": "bareebooru",
+      "romaji": "bare-bo-ru",
       "tokens": [
         {
           "text": "バレーボール",
@@ -217,7 +217,7 @@
       "chinese": "啤酒",
       "japanese": "ビール",
       "kana": "びーる",
-      "romaji": "biiru",
+      "romaji": "bi-ru",
       "tokens": [
         {
           "text": "ビール",
@@ -230,7 +230,7 @@
       "chinese": "球",
       "japanese": "ボール",
       "kana": "ぼーる",
-      "romaji": "booru",
+      "romaji": "bo-ru",
       "tokens": [
         {
           "text": "ボール",
@@ -269,7 +269,7 @@
       "chinese": "汉堡包",
       "japanese": "ハンバーガー",
       "kana": "はんばーがー",
-      "romaji": "hanbaagaa",
+      "romaji": "hanba-ga-",
       "tokens": [
         {
           "text": "ハンバーガー",
@@ -373,7 +373,7 @@
       "chinese": "月台，家",
       "japanese": "ホーム",
       "kana": "ほーむ",
-      "romaji": "hoomu",
+      "romaji": "ho-mu",
       "tokens": [
         {
           "text": "ホーム",
@@ -425,7 +425,7 @@
       "chinese": "寄宿家庭",
       "japanese": "ホームステイ",
       "kana": "ほーむすてい",
-      "romaji": "hoomusutei",
+      "romaji": "ho-musutei",
       "tokens": [
         {
           "text": "ホームステイ",
@@ -464,7 +464,7 @@
       "chinese": "球",
       "japanese": "ボール",
       "kana": "ぼーる",
-      "romaji": "booru",
+      "romaji": "bo-ru",
       "tokens": [
         {
           "text": "ボール",
@@ -490,7 +490,7 @@
       "chinese": "圆珠笔",
       "japanese": "ボールペン",
       "kana": "ぼーるぺん",
-      "romaji": "boorupen",
+      "romaji": "bo-rupen",
       "tokens": [
         {
           "text": "ボールペン",
@@ -503,7 +503,7 @@
       "chinese": "排球",
       "japanese": "バレーボール",
       "kana": "ばれーぼーる",
-      "romaji": "bareebooru",
+      "romaji": "bare-bo-ru",
       "tokens": [
         {
           "text": "バレーボール",
@@ -516,7 +516,7 @@
       "chinese": "塑料袋",
       "japanese": "ビニール袋",
       "kana": "びにーるぶくろ",
-      "romaji": "biniirubukuro",
+      "romaji": "bini-rubukuro",
       "tokens": [
         {
           "text": "ビニール袋",
@@ -555,7 +555,7 @@
       "chinese": "啤酒",
       "japanese": "ビール",
       "kana": "びーる",
-      "romaji": "biiru",
+      "romaji": "bi-ru",
       "tokens": [
         {
           "text": "ビール",
@@ -620,7 +620,7 @@
       "chinese": "塑料",
       "japanese": "ビニール",
       "kana": "びにーる",
-      "romaji": "biniiru",
+      "romaji": "bini-ru",
       "tokens": [
         {
           "text": "ビニール",
@@ -646,7 +646,7 @@
       "chinese": "游泳池",
       "japanese": "プール",
       "kana": "ぷーる",
-      "romaji": "puuru",
+      "romaji": "pu-ru",
       "tokens": [
         {
           "text": "プール",
@@ -659,7 +659,7 @@
       "chinese": "月台，家",
       "japanese": "ホーム",
       "kana": "ほーむ",
-      "romaji": "hoomu",
+      "romaji": "ho-mu",
       "tokens": [
         {
           "text": "ホーム",
@@ -711,7 +711,7 @@
       "chinese": "页",
       "japanese": "ページ",
       "kana": "ぺーじ",
-      "romaji": "peeji",
+      "romaji": "pe-ji",
       "tokens": [
         {
           "text": "ページ",
@@ -724,7 +724,7 @@
       "chinese": "汉堡包",
       "japanese": "ハンバーガー",
       "kana": "はんばーがー",
-      "romaji": "hanbaagaa",
+      "romaji": "hanba-ga-",
       "tokens": [
         {
           "text": "ハンバーガー",
@@ -802,7 +802,7 @@
       "chinese": "排球",
       "japanese": "バレーボール",
       "kana": "ばれーぼーる",
-      "romaji": "bareebooru",
+      "romaji": "bare-bo-ru",
       "tokens": [
         {
           "text": "バレーボール",
@@ -815,7 +815,7 @@
       "chinese": "寄宿家庭",
       "japanese": "ホームステイ",
       "kana": "ほーむすてい",
-      "romaji": "hoomusutei",
+      "romaji": "ho-musutei",
       "tokens": [
         {
           "text": "ホームステイ",
@@ -893,7 +893,7 @@
       "chinese": "圆珠笔",
       "japanese": "ボールペン",
       "kana": "ぼーるぺん",
-      "romaji": "boorupen",
+      "romaji": "bo-rupen",
       "tokens": [
         {
           "text": "ボールペン",
@@ -984,7 +984,7 @@
       "chinese": "塑料",
       "japanese": "ビニール",
       "kana": "びにーる",
-      "romaji": "biniiru",
+      "romaji": "bini-ru",
       "tokens": [
         {
           "text": "ビニール",
@@ -1049,7 +1049,7 @@
       "chinese": "塑料袋",
       "japanese": "ビニール袋",
       "kana": "びにーるぶくろ",
-      "romaji": "biniirubukuro",
+      "romaji": "bini-rubukuro",
       "tokens": [
         {
           "text": "ビニール袋",
@@ -1062,7 +1062,7 @@
       "chinese": "汉堡包",
       "japanese": "ハンバーガー",
       "kana": "はんばーがー",
-      "romaji": "hanbaagaa",
+      "romaji": "hanba-ga-",
       "tokens": [
         {
           "text": "ハンバーガー",
@@ -1075,7 +1075,7 @@
       "chinese": "页",
       "japanese": "ページ",
       "kana": "ぺーじ",
-      "romaji": "peeji",
+      "romaji": "pe-ji",
       "tokens": [
         {
           "text": "ページ",
@@ -1088,7 +1088,7 @@
       "chinese": "游泳池",
       "japanese": "プール",
       "kana": "ぷーる",
-      "romaji": "puuru",
+      "romaji": "pu-ru",
       "tokens": [
         {
           "text": "プール",
@@ -1101,7 +1101,7 @@
       "chinese": "月台，家",
       "japanese": "ホーム",
       "kana": "ほーむ",
-      "romaji": "hoomu",
+      "romaji": "ho-mu",
       "tokens": [
         {
           "text": "ホーム",
@@ -1140,7 +1140,7 @@
       "chinese": "啤酒",
       "japanese": "ビール",
       "kana": "びーる",
-      "romaji": "biiru",
+      "romaji": "bi-ru",
       "tokens": [
         {
           "text": "ビール",
@@ -1166,7 +1166,7 @@
       "chinese": "球",
       "japanese": "ボール",
       "kana": "ぼーる",
-      "romaji": "booru",
+      "romaji": "bo-ru",
       "tokens": [
         {
           "text": "ボール",

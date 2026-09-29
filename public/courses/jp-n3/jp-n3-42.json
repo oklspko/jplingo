@@ -8,12 +8,12 @@
       "id": "01",
       "chinese": "果子露冰激凌，果冰",
       "japanese": "シャーベット",
-      "kana": "しゃあべっと",
-      "romaji": "shaabetto",
+      "kana": "しゃーべっと",
+      "romaji": "sha-betto",
       "tokens": [
         {
           "text": "シャーベット",
-          "kana": "しゃあべっと"
+          "kana": "しゃーべっと"
         }
       ]
     },

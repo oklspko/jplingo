@@ -5,7 +5,13 @@
 //   首次运行会从 GitHub 下载 notes.csv 并缓存到 node_modules/.cache/jlpt-notes.csv
 import fs from "node:fs";
 import path from "node:path";
-import { toRomaji, toHiragana } from "wanakana";
+import { toRomaji } from "wanakana";
+
+// 片假名 → 平假名，保留长音符 ー（toHiragana 会把 ー 展开成前一元音：アパート→あぱあと）。
+// 与 app/composables/jp/useJpRomaji.ts 的 katakanaToHiragana 保持一致。
+function katakanaToHiragana(str) {
+  return str.replace(/[ァ-ヶ]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) - 0x60));
+}
 
 const CSV_URL =
   "https://raw.githubusercontent.com/5mdld/anki-jlpt-decks/main/deck-source/notes.csv";
@@ -72,7 +78,7 @@ function parseCsv(text) {
     if (!kanji) continue;
     // 外来语（カタカナ語）的「读音」列是拉丁原词 + 语源标注，读音应取原形
     const isKana = /^[ぁ-んァ-ヶー\s・]+$/.test(rawKana) && rawKana !== "";
-    const kana = toHiragana(isKana ? rawKana : kanji);
+    const kana = katakanaToHiragana(isKana ? rawKana : kanji);
     if (!kana || !meaning) continue;
     words.push({ level, kanji, kana, meaning, pos, category: classifyPos(pos) });
   }

@@ -359,12 +359,12 @@
       "id": "28",
       "chinese": "电梯，升降电梯",
       "japanese": "エレベーター",
-      "kana": "えれべえたあ",
-      "romaji": "erebeetaa",
+      "kana": "えれべーたー",
+      "romaji": "erebe-ta-",
       "tokens": [
         {
           "text": "エレベーター",
-          "kana": "えれべえたあ"
+          "kana": "えれべーたー"
         }
       ]
     },
@@ -385,12 +385,12 @@
       "id": "30",
       "chinese": "沙发",
       "japanese": "ソファー",
-      "kana": "そふぁあ",
-      "romaji": "sofuaa",
+      "kana": "そふぁー",
+      "romaji": "sofua-",
       "tokens": [
         {
           "text": "ソファー",
-          "kana": "そふぁあ"
+          "kana": "そふぁー"
         }
       ]
     }

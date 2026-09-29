@@ -21,12 +21,12 @@
       "id": "02",
       "chinese": "季节；好时节",
       "japanese": "シーズン",
-      "kana": "しいずん",
-      "romaji": "shiizun",
+      "kana": "しーずん",
+      "romaji": "shi-zun",
       "tokens": [
         {
           "text": "シーズン",
-          "kana": "しいずん"
+          "kana": "しーずん"
         }
       ]
     },
@@ -47,12 +47,12 @@
       "id": "04",
       "chinese": "沙司，酱料，调味汁",
       "japanese": "ソース",
-      "kana": "そうす",
-      "romaji": "sousu",
+      "kana": "そーす",
+      "romaji": "so-su",
       "tokens": [
         {
           "text": "ソース",
-          "kana": "そうす"
+          "kana": "そーす"
         }
       ]
     },
@@ -86,12 +86,12 @@
       "id": "07",
       "chinese": "日期；约会",
       "japanese": "デート",
-      "kana": "でえと",
-      "romaji": "deeto",
+      "kana": "でーと",
+      "romaji": "de-to",
       "tokens": [
         {
           "text": "デート",
-          "kana": "でえと"
+          "kana": "でーと"
         }
       ]
     },
@@ -138,12 +138,12 @@
       "id": "11",
       "chinese": "家；疗养院，招待所",
       "japanese": "ホーム",
-      "kana": "ほうむ",
-      "romaji": "houmu",
+      "kana": "ほーむ",
+      "romaji": "ho-mu",
       "tokens": [
         {
           "text": "ホーム",
-          "kana": "ほうむ"
+          "kana": "ほーむ"
         }
       ]
     },
@@ -151,12 +151,12 @@
       "id": "12",
       "chinese": "主页",
       "japanese": "ホームページ",
-      "kana": "ほうむぺえじ",
-      "romaji": "houmupeeji",
+      "kana": "ほーむぺーじ",
+      "romaji": "ho-mupe-ji",
       "tokens": [
         {
           "text": "ホームページ",
-          "kana": "ほうむぺえじ"
+          "kana": "ほーむぺーじ"
         }
       ]
     },
@@ -164,12 +164,12 @@
       "id": "13",
       "chinese": "招贴，广告画，海报",
       "japanese": "ポスター",
-      "kana": "ぽすたあ",
-      "romaji": "posutaa",
+      "kana": "ぽすたー",
+      "romaji": "posuta-",
       "tokens": [
         {
           "text": "ポスター",
-          "kana": "ぽすたあ"
+          "kana": "ぽすたー"
         }
       ]
     },
@@ -177,12 +177,12 @@
       "id": "14",
       "chinese": "礼貌，礼节，规矩",
       "japanese": "マナー",
-      "kana": "まなあ",
-      "romaji": "manaa",
+      "kana": "まなー",
+      "romaji": "mana-",
       "tokens": [
         {
           "text": "マナー",
-          "kana": "まなあ"
+          "kana": "まなー"
         }
       ]
     },
@@ -190,12 +190,12 @@
       "id": "15",
       "chinese": "规则，制度",
       "japanese": "ルール",
-      "kana": "るうる",
-      "romaji": "ruuru",
+      "kana": "るーる",
+      "romaji": "ru-ru",
       "tokens": [
         {
           "text": "ルール",
-          "kana": "るうる"
+          "kana": "るーる"
         }
       ]
     },

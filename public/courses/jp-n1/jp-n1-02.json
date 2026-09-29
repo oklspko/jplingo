@@ -268,12 +268,12 @@
       "id": "21",
       "chinese": "等于；等号",
       "japanese": "イコール",
-      "kana": "いこうる",
-      "romaji": "ikouru",
+      "kana": "いこーる",
+      "romaji": "iko-ru",
       "tokens": [
         {
           "text": "イコール",
-          "kana": "いこうる"
+          "kana": "いこーる"
         }
       ]
     },
@@ -294,12 +294,12 @@
       "id": "23",
       "chinese": "（大学）研讨会",
       "japanese": "ゼミナール",
-      "kana": "ぜみなある",
-      "romaji": "zeminaaru",
+      "kana": "ぜみなーる",
+      "romaji": "zemina-ru",
       "tokens": [
         {
           "text": "ゼミナール",
-          "kana": "ぜみなある"
+          "kana": "ぜみなーる"
         }
       ]
     },
@@ -333,12 +333,12 @@
       "id": "26",
       "chinese": "吹风机",
       "japanese": "ドライヤー",
-      "kana": "どらいやあ",
-      "romaji": "doraiyaa",
+      "kana": "どらいやー",
+      "romaji": "doraiya-",
       "tokens": [
         {
           "text": "ドライヤー",
-          "kana": "どらいやあ"
+          "kana": "どらいやー"
         }
       ]
     },
@@ -346,12 +346,12 @@
       "id": "27",
       "chinese": "奖金",
       "japanese": "ボーナス",
-      "kana": "ぼうなす",
-      "romaji": "bounasu",
+      "kana": "ぼーなす",
+      "romaji": "bo-nasu",
       "tokens": [
         {
           "text": "ボーナス",
-          "kana": "ぼうなす"
+          "kana": "ぼーなす"
         }
       ]
     },

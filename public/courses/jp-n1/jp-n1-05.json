@@ -73,12 +73,12 @@
       "id": "06",
       "chinese": "婴儿车",
       "japanese": "ベビーカー",
-      "kana": "べびいかあ",
-      "romaji": "bebiikaa",
+      "kana": "べびーかー",
+      "romaji": "bebi-ka-",
       "tokens": [
         {
           "text": "ベビーカー",
-          "kana": "べびいかあ"
+          "kana": "べびーかー"
         }
       ]
     },

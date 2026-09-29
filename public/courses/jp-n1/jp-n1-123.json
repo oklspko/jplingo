@@ -86,12 +86,12 @@
       "id": "07",
       "chinese": "凉快；冷静",
       "japanese": "クール",
-      "kana": "くうる",
-      "romaji": "kuuru",
+      "kana": "くーる",
+      "romaji": "ku-ru",
       "tokens": [
         {
           "text": "クール",
-          "kana": "くうる"
+          "kana": "くーる"
         }
       ]
     },
@@ -99,12 +99,12 @@
       "id": "08",
       "chinese": "全球的，全世界的",
       "japanese": "グローバル",
-      "kana": "ぐろうばる",
-      "romaji": "guroubaru",
+      "kana": "ぐろーばる",
+      "romaji": "guro-baru",
       "tokens": [
         {
           "text": "グローバル",
-          "kana": "ぐろうばる"
+          "kana": "ぐろーばる"
         }
       ]
     },
@@ -177,12 +177,12 @@
       "id": "14",
       "chinese": "有魅力，迷人",
       "japanese": "チャーミング",
-      "kana": "ちゃあみんぐ",
-      "romaji": "chaamingu",
+      "kana": "ちゃーみんぐ",
+      "romaji": "cha-mingu",
       "tokens": [
         {
           "text": "チャーミング",
-          "kana": "ちゃあみんぐ"
+          "kana": "ちゃーみんぐ"
         }
       ]
     },

@@ -346,12 +346,12 @@
       "id": "27",
       "chinese": "支持，支援",
       "japanese": "サポート",
-      "kana": "さぽうと",
-      "romaji": "sapouto",
+      "kana": "さぽーと",
+      "romaji": "sapo-to",
       "tokens": [
         {
           "text": "サポート",
-          "kana": "さぽうと"
+          "kana": "さぽーと"
         }
       ]
     },

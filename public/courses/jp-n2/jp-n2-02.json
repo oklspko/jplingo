@@ -8,12 +8,12 @@
       "id": "01",
       "chinese": "（电影等的）屏幕",
       "japanese": "スクリーン",
-      "kana": "すくりいん",
-      "romaji": "sukuriin",
+      "kana": "すくりーん",
+      "romaji": "sukuri-n",
       "tokens": [
         {
           "text": "スクリーン",
-          "kana": "すくりいん"
+          "kana": "すくりーん"
         }
       ]
     },
@@ -21,12 +21,12 @@
       "id": "02",
       "chinese": "网球场",
       "japanese": "テニスコート",
-      "kana": "てにすこうと",
-      "romaji": "tenisukouto",
+      "kana": "てにすこーと",
+      "romaji": "tenisuko-to",
       "tokens": [
         {
           "text": "テニスコート",
-          "kana": "てにすこうと"
+          "kana": "てにすこーと"
         }
       ]
     },
@@ -47,12 +47,12 @@
       "id": "04",
       "chinese": "排球",
       "japanese": "バレーボール",
-      "kana": "ばれえぼうる",
-      "romaji": "bareebouru",
+      "kana": "ばれーぼーる",
+      "romaji": "bare-bo-ru",
       "tokens": [
         {
           "text": "バレーボール",
-          "kana": "ばれえぼうる"
+          "kana": "ばれーぼーる"
         }
       ]
     },
@@ -60,12 +60,12 @@
       "id": "05",
       "chinese": "汉堡",
       "japanese": "ハンバーガー",
-      "kana": "はんばあがあ",
-      "romaji": "hanbaagaa",
+      "kana": "はんばーがー",
+      "romaji": "hanba-ga-",
       "tokens": [
         {
           "text": "ハンバーガー",
-          "kana": "はんばあがあ"
+          "kana": "はんばーがー"
         }
       ]
     },
@@ -73,12 +73,12 @@
       "id": "06",
       "chinese": "水果",
       "japanese": "フルーツ",
-      "kana": "ふるうつ",
-      "romaji": "furuutsu",
+      "kana": "ふるーつ",
+      "romaji": "furu-tsu",
       "tokens": [
         {
           "text": "フルーツ",
-          "kana": "ふるうつ"
+          "kana": "ふるーつ"
         }
       ]
     },

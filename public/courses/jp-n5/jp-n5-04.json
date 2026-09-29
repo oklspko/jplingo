@@ -8,12 +8,12 @@
       "id": "01",
       "chinese": "游泳池",
       "japanese": "プール",
-      "kana": "ぷうる",
-      "romaji": "puuru",
+      "kana": "ぷーる",
+      "romaji": "pu-ru",
       "tokens": [
         {
           "text": "プール",
-          "kana": "ぷうる"
+          "kana": "ぷーる"
         }
       ]
     },
@@ -21,12 +21,12 @@
       "id": "02",
       "chinese": "页，页面",
       "japanese": "ページ",
-      "kana": "ぺえじ",
-      "romaji": "peeji",
+      "kana": "ぺーじ",
+      "romaji": "pe-ji",
       "tokens": [
         {
           "text": "ページ",
-          "kana": "ぺえじ"
+          "kana": "ぺーじ"
         }
       ]
     },
@@ -60,12 +60,12 @@
       "id": "05",
       "chinese": "圆珠笔",
       "japanese": "ボールペン",
-      "kana": "ぼうるぺん",
-      "romaji": "bourupen",
+      "kana": "ぼーるぺん",
+      "romaji": "bo-rupen",
       "tokens": [
         {
           "text": "ボールペン",
-          "kana": "ぼうるぺん"
+          "kana": "ぼーるぺん"
         }
       ]
     },
@@ -99,12 +99,12 @@
       "id": "08",
       "chinese": "米",
       "japanese": "メートル",
-      "kana": "めえとる",
-      "romaji": "meetoru",
+      "kana": "めーとる",
+      "romaji": "me-toru",
       "tokens": [
         {
           "text": "メートル",
-          "kana": "めえとる"
+          "kana": "めーとる"
         }
       ]
     },
@@ -112,12 +112,12 @@
       "id": "09",
       "chinese": "（电子）邮件",
       "japanese": "メール",
-      "kana": "めえる",
-      "romaji": "meeru",
+      "kana": "めーる",
+      "romaji": "me-ru",
       "tokens": [
         {
           "text": "メール",
-          "kana": "めえる"
+          "kana": "めーる"
         }
       ]
     },

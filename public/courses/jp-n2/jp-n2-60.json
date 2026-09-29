@@ -47,12 +47,12 @@
       "id": "04",
       "chinese": "损坏，破坏，损伤",
       "japanese": "ダメージ",
-      "kana": "だめえじ",
-      "romaji": "dameeji",
+      "kana": "だめーじ",
+      "romaji": "dame-ji",
       "tokens": [
         {
           "text": "ダメージ",
-          "kana": "だめえじ"
+          "kana": "だめーじ"
         }
       ]
     },
@@ -60,12 +60,12 @@
       "id": "05",
       "chinese": "收款处，柜台",
       "japanese": "カウンター",
-      "kana": "かうんたあ",
-      "romaji": "kauntaa",
+      "kana": "かうんたー",
+      "romaji": "kaunta-",
       "tokens": [
         {
           "text": "カウンター",
-          "kana": "かうんたあ"
+          "kana": "かうんたー"
         }
       ]
     },
@@ -151,12 +151,12 @@
       "id": "12",
       "chinese": "目标，对象",
       "japanese": "ターゲット",
-      "kana": "たあげっと",
-      "romaji": "taagetto",
+      "kana": "たーげっと",
+      "romaji": "ta-getto",
       "tokens": [
         {
           "text": "ターゲット",
-          "kana": "たあげっと"
+          "kana": "たーげっと"
         }
       ]
     },

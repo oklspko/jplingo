@@ -21,12 +21,12 @@
       "id": "02",
       "chinese": "成员，分子",
       "japanese": "メンバー",
-      "kana": "めんばあ",
-      "romaji": "menbaa",
+      "kana": "めんばー",
+      "romaji": "menba-",
       "tokens": [
         {
           "text": "メンバー",
-          "kana": "めんばあ"
+          "kana": "めんばー"
         }
       ]
     },
@@ -34,12 +34,12 @@
       "id": "03",
       "chinese": "幽默，诙谐",
       "japanese": "ユーモア",
-      "kana": "ゆうもあ",
-      "romaji": "yuumoa",
+      "kana": "ゆーもあ",
+      "romaji": "yu-moa",
       "tokens": [
         {
           "text": "ユーモア",
-          "kana": "ゆうもあ"
+          "kana": "ゆーもあ"
         }
       ]
     },
@@ -47,12 +47,12 @@
       "id": "04",
       "chinese": "（上下班）高峰时间",
       "japanese": "ラッシュアワー",
-      "kana": "らっしゅあわあ",
-      "romaji": "rasshuawaa",
+      "kana": "らっしゅあわー",
+      "romaji": "rasshuawa-",
       "tokens": [
         {
           "text": "ラッシュアワー",
-          "kana": "らっしゅあわあ"
+          "kana": "らっしゅあわー"
         }
       ]
     },
@@ -99,12 +99,12 @@
       "id": "08",
       "chinese": "衣帽柜，存放柜",
       "japanese": "ロッカー",
-      "kana": "ろっかあ",
-      "romaji": "rokkaa",
+      "kana": "ろっかー",
+      "romaji": "rokka-",
       "tokens": [
         {
           "text": "ロッカー",
-          "kana": "ろっかあ"
+          "kana": "ろっかー"
         }
       ]
     },
@@ -112,12 +112,12 @@
       "id": "09",
       "chinese": "大堂，门厅",
       "japanese": "ロビー",
-      "kana": "ろびい",
-      "romaji": "robii",
+      "kana": "ろびー",
+      "romaji": "robi-",
       "tokens": [
         {
           "text": "ロビー",
-          "kana": "ろびい"
+          "kana": "ろびー"
         }
       ]
     },
@@ -125,12 +125,12 @@
       "id": "10",
       "chinese": "连衣裙",
       "japanese": "ワンピース",
-      "kana": "わんぴいす",
-      "romaji": "wanpiisu",
+      "kana": "わんぴーす",
+      "romaji": "wanpi-su",
       "tokens": [
         {
           "text": "ワンピース",
-          "kana": "わんぴいす"
+          "kana": "わんぴーす"
         }
       ]
     },

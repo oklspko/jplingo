@@ -817,7 +817,8 @@ async function createFolder() {
   margin: 0;
   color: #075985;
   font-weight: 600;
-  flex: 1;
+  /* 不设 flex:1：避免短标题被拉伸、把等级徽标挤到最右与删除按钮挤成一团。
+     仅 min-width:0 允许超长标题在必要时截断，等级徽标紧跟标题。 */
   min-width: 0;
   white-space: nowrap;
   overflow: hidden;

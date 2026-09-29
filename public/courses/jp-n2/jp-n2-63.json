@@ -125,12 +125,12 @@
       "id": "10",
       "chinese": "彩排，排练",
       "japanese": "リハーサル",
-      "kana": "りはあさる",
-      "romaji": "rihaasaru",
+      "kana": "りはーさる",
+      "romaji": "riha-saru",
       "tokens": [
         {
           "text": "リハーサル",
-          "kana": "りはあさる"
+          "kana": "りはーさる"
         }
       ]
     },

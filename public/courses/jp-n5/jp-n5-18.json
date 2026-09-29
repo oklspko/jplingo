@@ -47,12 +47,12 @@
       "id": "04",
       "chinese": "复印（件）；拷贝",
       "japanese": "コピー",
-      "kana": "こぴい",
-      "romaji": "kopii",
+      "kana": "こぴー",
+      "romaji": "kopi-",
       "tokens": [
         {
           "text": "コピー",
-          "kana": "こぴい"
+          "kana": "こぴー"
         }
       ]
     },
@@ -99,12 +99,12 @@
       "id": "08",
       "chinese": "笔记本，备忘录；记下来",
       "japanese": "ノート",
-      "kana": "のうと",
-      "romaji": "nouto",
+      "kana": "のーと",
+      "romaji": "no-to",
       "tokens": [
         {
           "text": "ノート",
-          "kana": "のうと"
+          "kana": "のーと"
         }
       ]
     },

@@ -151,12 +151,12 @@
       "id": "12",
       "chinese": "过敏",
       "japanese": "アレルギー",
-      "kana": "あれるぎい",
-      "romaji": "arerugii",
+      "kana": "あれるぎー",
+      "romaji": "arerugi-",
       "tokens": [
         {
           "text": "アレルギー",
-          "kana": "あれるぎい"
+          "kana": "あれるぎー"
         }
       ]
     },
@@ -177,12 +177,12 @@
       "id": "14",
       "chinese": "文化",
       "japanese": "カルチャー",
-      "kana": "かるちゃあ",
-      "romaji": "karuchaa",
+      "kana": "かるちゃー",
+      "romaji": "karucha-",
       "tokens": [
         {
           "text": "カルチャー",
-          "kana": "かるちゃあ"
+          "kana": "かるちゃー"
         }
       ]
     },
@@ -203,12 +203,12 @@
       "id": "16",
       "chinese": "拐角；柜台，专柜；专栏，节目",
       "japanese": "コーナー",
-      "kana": "こうなあ",
-      "romaji": "kounaa",
+      "kana": "こーなー",
+      "romaji": "ko-na-",
       "tokens": [
         {
           "text": "コーナー",
-          "kana": "こうなあ"
+          "kana": "こーなー"
         }
       ]
     },
@@ -216,12 +216,12 @@
       "id": "17",
       "chinese": "交流，沟通",
       "japanese": "コミュニケーション",
-      "kana": "こみゅにけえしょん",
-      "romaji": "komyunikeeshon",
+      "kana": "こみゅにけーしょん",
+      "romaji": "komyunike-shon",
       "tokens": [
         {
           "text": "コミュニケーション",
-          "kana": "こみゅにけえしょん"
+          "kana": "こみゅにけーしょん"
         }
       ]
     },
@@ -268,12 +268,12 @@
       "id": "21",
       "chinese": "扬声器，扩音器；说话的人",
       "japanese": "スピーカー",
-      "kana": "すぴいかあ",
-      "romaji": "supiikaa",
+      "kana": "すぴーかー",
+      "romaji": "supi-ka-",
       "tokens": [
         {
           "text": "スピーカー",
-          "kana": "すぴいかあ"
+          "kana": "すぴーかー"
         }
       ]
     },
@@ -294,12 +294,12 @@
       "id": "23",
       "chinese": "训练，锻炼",
       "japanese": "トレーニング",
-      "kana": "とれえにんぐ",
-      "romaji": "toreeningu",
+      "kana": "とれーにんぐ",
+      "romaji": "tore-ningu",
       "tokens": [
         {
           "text": "トレーニング",
-          "kana": "とれえにんぐ"
+          "kana": "とれーにんぐ"
         }
       ]
     },
@@ -333,12 +333,12 @@
       "id": "26",
       "chinese": "电热器；取暖装置",
       "japanese": "ヒーター",
-      "kana": "ひいたあ",
-      "romaji": "hiitaa",
+      "kana": "ひーたー",
+      "romaji": "hi-ta-",
       "tokens": [
         {
           "text": "ヒーター",
-          "kana": "ひいたあ"
+          "kana": "ひーたー"
         }
       ]
     },
@@ -359,12 +359,12 @@
       "id": "28",
       "chinese": "拉链",
       "japanese": "ファスナー",
-      "kana": "ふぁすなあ",
-      "romaji": "fuasunaa",
+      "kana": "ふぁすなー",
+      "romaji": "fuasuna-",
       "tokens": [
         {
           "text": "ファスナー",
-          "kana": "ふぁすなあ"
+          "kana": "ふぁすなー"
         }
       ]
     },
@@ -372,12 +372,12 @@
       "id": "29",
       "chinese": "长靴",
       "japanese": "ブーツ",
-      "kana": "ぶうつ",
-      "romaji": "buutsu",
+      "kana": "ぶーつ",
+      "romaji": "bu-tsu",
       "tokens": [
         {
           "text": "ブーツ",
-          "kana": "ぶうつ"
+          "kana": "ぶーつ"
         }
       ]
     },

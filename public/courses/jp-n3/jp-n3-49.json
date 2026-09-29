@@ -177,12 +177,12 @@
       "id": "14",
       "chinese": "顺序；订货",
       "japanese": "オーダー",
-      "kana": "おうだあ",
-      "romaji": "oudaa",
+      "kana": "おーだー",
+      "romaji": "o-da-",
       "tokens": [
         {
           "text": "オーダー",
-          "kana": "おうだあ"
+          "kana": "おーだー"
         }
       ]
     },

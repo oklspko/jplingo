@@ -151,12 +151,12 @@
       "id": "12",
       "chinese": "公寓",
       "japanese": "アパート",
-      "kana": "あぱあと",
-      "romaji": "apaato",
+      "kana": "あぱーと",
+      "romaji": "apa-to",
       "tokens": [
         {
           "text": "アパート",
-          "kana": "あぱあと"
+          "kana": "あぱーと"
         }
       ]
     },

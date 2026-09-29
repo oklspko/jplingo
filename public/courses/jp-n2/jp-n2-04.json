@@ -34,12 +34,12 @@
       "id": "03",
       "chinese": "装饰品；零件",
       "japanese": "アクセサリー",
-      "kana": "あくせさりい",
-      "romaji": "akusesarii",
+      "kana": "あくせさりー",
+      "romaji": "akusesari-",
       "tokens": [
         {
           "text": "アクセサリー",
-          "kana": "あくせさりい"
+          "kana": "あくせさりー"
         }
       ]
     },
@@ -99,12 +99,12 @@
       "id": "08",
       "chinese": "色彩；彩色；颜料；特色",
       "japanese": "カラー",
-      "kana": "からあ",
-      "romaji": "karaa",
+      "kana": "からー",
+      "romaji": "kara-",
       "tokens": [
         {
           "text": "カラー",
-          "kana": "からあ"
+          "kana": "からー"
         }
       ]
     },
@@ -190,12 +190,12 @@
       "id": "15",
       "chinese": "快门；卷帘门",
       "japanese": "シャッター",
-      "kana": "しゃったあ",
-      "romaji": "shattaa",
+      "kana": "しゃったー",
+      "romaji": "shatta-",
       "tokens": [
         {
           "text": "シャッター",
-          "kana": "しゃったあ"
+          "kana": "しゃったー"
         }
       ]
     },
@@ -203,12 +203,12 @@
       "id": "16",
       "chinese": "陈列；演出",
       "japanese": "ショー",
-      "kana": "しょう",
-      "romaji": "shou",
+      "kana": "しょー",
+      "romaji": "sho-",
       "tokens": [
         {
           "text": "ショー",
-          "kana": "しょう"
+          "kana": "しょー"
         }
       ]
     },
@@ -229,12 +229,12 @@
       "id": "18",
       "chinese": "系列，丛书；（体育）联赛",
       "japanese": "シリーズ",
-      "kana": "しりいず",
-      "romaji": "shiriizu",
+      "kana": "しりーず",
+      "romaji": "shiri-zu",
       "tokens": [
         {
           "text": "シリーズ",
-          "kana": "しりいず"
+          "kana": "しりーず"
         }
       ]
     },
@@ -242,12 +242,12 @@
       "id": "19",
       "chinese": "学校",
       "japanese": "スクール",
-      "kana": "すくうる",
-      "romaji": "sukuuru",
+      "kana": "すくーる",
+      "romaji": "suku-ru",
       "tokens": [
         {
           "text": "スクール",
-          "kana": "すくうる"
+          "kana": "すくーる"
         }
       ]
     },
@@ -255,12 +255,12 @@
       "id": "20",
       "chinese": "冰鞋，冰刀；滑冰，溜冰",
       "japanese": "スケート",
-      "kana": "すけえと",
-      "romaji": "sukeeto",
+      "kana": "すけーと",
+      "romaji": "suke-to",
       "tokens": [
         {
           "text": "スケート",
-          "kana": "すけえと"
+          "kana": "すけーと"
         }
       ]
     },
@@ -281,12 +281,12 @@
       "id": "22",
       "chinese": "车站；站",
       "japanese": "ステーション",
-      "kana": "すてえしょん",
-      "romaji": "suteeshon",
+      "kana": "すてーしょん",
+      "romaji": "sute-shon",
       "tokens": [
         {
           "text": "ステーション",
-          "kana": "すてえしょん"
+          "kana": "すてーしょん"
         }
       ]
     },
@@ -320,12 +320,12 @@
       "id": "25",
       "chinese": "（旅行社的团体）旅游；短途旅行；巡回演出",
       "japanese": "ツアー",
-      "kana": "つああ",
-      "romaji": "tsuaa",
+      "kana": "つあー",
+      "romaji": "tsua-",
       "tokens": [
         {
           "text": "ツアー",
-          "kana": "つああ"
+          "kana": "つあー"
         }
       ]
     },
@@ -333,12 +333,12 @@
       "id": "26",
       "chinese": "设计师",
       "japanese": "デザイナー",
-      "kana": "でざいなあ",
-      "romaji": "dezainaa",
+      "kana": "でざいなー",
+      "romaji": "dezaina-",
       "tokens": [
         {
           "text": "デザイナー",
-          "kana": "でざいなあ"
+          "kana": "でざいなー"
         }
       ]
     },

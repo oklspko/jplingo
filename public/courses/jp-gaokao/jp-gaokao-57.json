@@ -35,7 +35,7 @@
       "chinese": "篮球",
       "japanese": "バスケットボール",
       "kana": "ばすけっとぼーる",
-      "romaji": "basukettobooru",
+      "romaji": "basukettobo-ru",
       "tokens": [
         {
           "text": "バスケットボール",
@@ -48,7 +48,7 @@
       "chinese": "电子游戏",
       "japanese": "テレビゲーム",
       "kana": "てれびげーむ",
-      "romaji": "terebigeemu",
+      "romaji": "terebige-mu",
       "tokens": [
         {
           "text": "テレビゲーム",
@@ -74,7 +74,7 @@
       "chinese": "DVD",
       "japanese": "ディーブイディー",
       "kana": "でぃーぶいでぃー",
-      "romaji": "deiibuideii",
+      "romaji": "dei-buidei-",
       "tokens": [
         {
           "text": "ディーブイディー",
@@ -87,7 +87,7 @@
       "chinese": "新闻",
       "japanese": "ニュース",
       "kana": "にゅーす",
-      "romaji": "nyuusu",
+      "romaji": "nyu-su",
       "tokens": [
         {
           "text": "ニュース",
@@ -113,7 +113,7 @@
       "chinese": "百货商店",
       "japanese": "デパート",
       "kana": "でぱーと",
-      "romaji": "depaato",
+      "romaji": "depa-to",
       "tokens": [
         {
           "text": "デパート",
@@ -139,7 +139,7 @@
       "chinese": "数据",
       "japanese": "データ",
       "kana": "でーた",
-      "romaji": "deeta",
+      "romaji": "de-ta",
       "tokens": [
         {
           "text": "データ",
@@ -152,7 +152,7 @@
       "chinese": "笔记本",
       "japanese": "ノート",
       "kana": "のーと",
-      "romaji": "nooto",
+      "romaji": "no-to",
       "tokens": [
         {
           "text": "ノート",
@@ -178,7 +178,7 @@
       "chinese": "磁带",
       "japanese": "テープ",
       "kana": "てーぷ",
-      "romaji": "teepu",
+      "romaji": "te-pu",
       "tokens": [
         {
           "text": "テープ",
@@ -230,7 +230,7 @@
       "chinese": "桌子",
       "japanese": "テーブル",
       "kana": "てーぶる",
-      "romaji": "teeburu",
+      "romaji": "te-buru",
       "tokens": [
         {
           "text": "テーブル",
@@ -321,7 +321,7 @@
       "chinese": "晚会",
       "japanese": "パーティー",
       "kana": "ぱーてぃー",
-      "romaji": "paateii",
+      "romaji": "pa-ti-",
       "tokens": [
         {
           "text": "パーティー",
@@ -360,7 +360,7 @@
       "chinese": "主题",
       "japanese": "テーマ",
       "kana": "てーま",
-      "romaji": "teema",
+      "romaji": "te-ma",
       "tokens": [
         {
           "text": "テーマ",
@@ -438,7 +438,7 @@
       "chinese": "主题",
       "japanese": "テーマ",
       "kana": "てーま",
-      "romaji": "teema",
+      "romaji": "te-ma",
       "tokens": [
         {
           "text": "テーマ",
@@ -451,7 +451,7 @@
       "chinese": "百货商店",
       "japanese": "デパート",
       "kana": "でぱーと",
-      "romaji": "depaato",
+      "romaji": "depa-to",
       "tokens": [
         {
           "text": "デパート",
@@ -477,7 +477,7 @@
       "chinese": "DVD",
       "japanese": "ディーブイディー",
       "kana": "でぃーぶいでぃー",
-      "romaji": "deiibuideii",
+      "romaji": "dei-buidei-",
       "tokens": [
         {
           "text": "ディーブイディー",
@@ -516,7 +516,7 @@
       "chinese": "电子游戏",
       "japanese": "テレビゲーム",
       "kana": "てれびげーむ",
-      "romaji": "terebigeemu",
+      "romaji": "terebige-mu",
       "tokens": [
         {
           "text": "テレビゲーム",
@@ -555,7 +555,7 @@
       "chinese": "晚会",
       "japanese": "パーティー",
       "kana": "ぱーてぃー",
-      "romaji": "paateii",
+      "romaji": "pa-ti-",
       "tokens": [
         {
           "text": "パーティー",
@@ -594,7 +594,7 @@
       "chinese": "新闻",
       "japanese": "ニュース",
       "kana": "にゅーす",
-      "romaji": "nyuusu",
+      "romaji": "nyu-su",
       "tokens": [
         {
           "text": "ニュース",
@@ -633,7 +633,7 @@
       "chinese": "数据",
       "japanese": "データ",
       "kana": "でーた",
-      "romaji": "deeta",
+      "romaji": "de-ta",
       "tokens": [
         {
           "text": "データ",
@@ -646,7 +646,7 @@
       "chinese": "篮球",
       "japanese": "バスケットボール",
       "kana": "ばすけっとぼーる",
-      "romaji": "basukettobooru",
+      "romaji": "basukettobo-ru",
       "tokens": [
         {
           "text": "バスケットボール",
@@ -659,7 +659,7 @@
       "chinese": "桌子",
       "japanese": "テーブル",
       "kana": "てーぶる",
-      "romaji": "teeburu",
+      "romaji": "te-buru",
       "tokens": [
         {
           "text": "テーブル",
@@ -672,7 +672,7 @@
       "chinese": "磁带",
       "japanese": "テープ",
       "kana": "てーぷ",
-      "romaji": "teepu",
+      "romaji": "te-pu",
       "tokens": [
         {
           "text": "テープ",
@@ -737,7 +737,7 @@
       "chinese": "笔记本",
       "japanese": "ノート",
       "kana": "のーと",
-      "romaji": "nooto",
+      "romaji": "no-to",
       "tokens": [
         {
           "text": "ノート",
@@ -815,7 +815,7 @@
       "chinese": "百货商店",
       "japanese": "デパート",
       "kana": "でぱーと",
-      "romaji": "depaato",
+      "romaji": "depa-to",
       "tokens": [
         {
           "text": "デパート",
@@ -867,7 +867,7 @@
       "chinese": "DVD",
       "japanese": "ディーブイディー",
       "kana": "でぃーぶいでぃー",
-      "romaji": "deiibuideii",
+      "romaji": "dei-buidei-",
       "tokens": [
         {
           "text": "ディーブイディー",
@@ -880,7 +880,7 @@
       "chinese": "篮球",
       "japanese": "バスケットボール",
       "kana": "ばすけっとぼーる",
-      "romaji": "basukettobooru",
+      "romaji": "basukettobo-ru",
       "tokens": [
         {
           "text": "バスケットボール",
@@ -919,7 +919,7 @@
       "chinese": "主题",
       "japanese": "テーマ",
       "kana": "てーま",
-      "romaji": "teema",
+      "romaji": "te-ma",
       "tokens": [
         {
           "text": "テーマ",
@@ -1010,7 +1010,7 @@
       "chinese": "桌子",
       "japanese": "テーブル",
       "kana": "てーぶる",
-      "romaji": "teeburu",
+      "romaji": "te-buru",
       "tokens": [
         {
           "text": "テーブル",
@@ -1049,7 +1049,7 @@
       "chinese": "笔记本",
       "japanese": "ノート",
       "kana": "のーと",
-      "romaji": "nooto",
+      "romaji": "no-to",
       "tokens": [
         {
           "text": "ノート",
@@ -1062,7 +1062,7 @@
       "chinese": "晚会",
       "japanese": "パーティー",
       "kana": "ぱーてぃー",
-      "romaji": "paateii",
+      "romaji": "pa-ti-",
       "tokens": [
         {
           "text": "パーティー",
@@ -1088,7 +1088,7 @@
       "chinese": "新闻",
       "japanese": "ニュース",
       "kana": "にゅーす",
-      "romaji": "nyuusu",
+      "romaji": "nyu-su",
       "tokens": [
         {
           "text": "ニュース",
@@ -1101,7 +1101,7 @@
       "chinese": "磁带",
       "japanese": "テープ",
       "kana": "てーぷ",
-      "romaji": "teepu",
+      "romaji": "te-pu",
       "tokens": [
         {
           "text": "テープ",
@@ -1153,7 +1153,7 @@
       "chinese": "数据",
       "japanese": "データ",
       "kana": "でーた",
-      "romaji": "deeta",
+      "romaji": "de-ta",
       "tokens": [
         {
           "text": "データ",
@@ -1166,7 +1166,7 @@
       "chinese": "电子游戏",
       "japanese": "テレビゲーム",
       "kana": "てれびげーむ",
-      "romaji": "terebigeemu",
+      "romaji": "terebige-mu",
       "tokens": [
         {
           "text": "テレビゲーム",

@@ -320,12 +320,12 @@
       "id": "25",
       "chinese": "拍卖",
       "japanese": "オークション",
-      "kana": "おうくしょん",
-      "romaji": "oukushon",
+      "kana": "おーくしょん",
+      "romaji": "o-kushon",
       "tokens": [
         {
           "text": "オークション",
-          "kana": "おうくしょん"
+          "kana": "おーくしょん"
         }
       ]
     },
@@ -346,12 +346,12 @@
       "id": "27",
       "chinese": "汽车自动导航仪",
       "japanese": "カーナビ",
-      "kana": "かあなび",
-      "romaji": "kaanabi",
+      "kana": "かーなび",
+      "romaji": "ka-nabi",
       "tokens": [
         {
           "text": "カーナビ",
-          "kana": "かあなび"
+          "kana": "かーなび"
         }
       ]
     },

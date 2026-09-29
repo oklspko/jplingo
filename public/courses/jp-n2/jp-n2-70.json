@@ -242,12 +242,12 @@
       "id": "19",
       "chinese": "（特指美术家、歌手等）艺术家",
       "japanese": "アーティスト",
-      "kana": "ああてぃすと",
-      "romaji": "aateisuto",
+      "kana": "あーてぃすと",
+      "romaji": "a-tisuto",
       "tokens": [
         {
           "text": "アーティスト",
-          "kana": "ああてぃすと"
+          "kana": "あーてぃすと"
         }
       ]
     },
@@ -268,12 +268,12 @@
       "id": "21",
       "chinese": "气场，范儿",
       "japanese": "オーラ",
-      "kana": "おうら",
-      "romaji": "oura",
+      "kana": "おーら",
+      "romaji": "o-ra",
       "tokens": [
         {
           "text": "オーラ",
-          "kana": "おうら"
+          "kana": "おーら"
         }
       ]
     },
@@ -320,12 +320,12 @@
       "id": "25",
       "chinese": "碎纸机",
       "japanese": "シュレッダー",
-      "kana": "しゅれっだあ",
-      "romaji": "shureddaa",
+      "kana": "しゅれっだー",
+      "romaji": "shuredda-",
       "tokens": [
         {
           "text": "シュレッダー",
-          "kana": "しゅれっだあ"
+          "kana": "しゅれっだー"
         }
       ]
     },
@@ -372,12 +372,12 @@
       "id": "29",
       "chinese": "因素，要素",
       "japanese": "ファクター",
-      "kana": "ふぁくたあ",
-      "romaji": "fuakutaa",
+      "kana": "ふぁくたー",
+      "romaji": "fuakuta-",
       "tokens": [
         {
           "text": "ファクター",
-          "kana": "ふぁくたあ"
+          "kana": "ふぁくたー"
         }
       ]
     },
@@ -385,12 +385,12 @@
       "id": "30",
       "chinese": "雨刷，刮水器",
       "japanese": "ワイパー",
-      "kana": "わいぱあ",
-      "romaji": "waipaa",
+      "kana": "わいぱー",
+      "romaji": "waipa-",
       "tokens": [
         {
           "text": "ワイパー",
-          "kana": "わいぱあ"
+          "kana": "わいぱー"
         }
       ]
     }

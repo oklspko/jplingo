@@ -138,12 +138,12 @@
       "id": "11",
       "chinese": "瓦楞纸，硬纸板",
       "japanese": "段ボール",
-      "kana": "だんぼうる",
-      "romaji": "danbouru",
+      "kana": "だんぼーる",
+      "romaji": "danbo-ru",
       "tokens": [
         {
           "text": "段ボール",
-          "kana": "だんぼうる"
+          "kana": "だんぼーる"
         }
       ]
     },
@@ -164,12 +164,12 @@
       "id": "13",
       "chinese": "甜甜圈",
       "japanese": "ドーナツ",
-      "kana": "どうなつ",
-      "romaji": "dounatsu",
+      "kana": "どーなつ",
+      "romaji": "do-natsu",
       "tokens": [
         {
           "text": "ドーナツ",
-          "kana": "どうなつ"
+          "kana": "どーなつ"
         }
       ]
     },
@@ -203,12 +203,12 @@
       "id": "16",
       "chinese": "香肠，红肠，腊肠",
       "japanese": "ソーセージ",
-      "kana": "そうせえじ",
-      "romaji": "souseeji",
+      "kana": "そーせーじ",
+      "romaji": "so-se-ji",
       "tokens": [
         {
           "text": "ソーセージ",
-          "kana": "そうせえじ"
+          "kana": "そーせーじ"
         }
       ]
     },

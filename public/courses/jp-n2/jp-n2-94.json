@@ -112,12 +112,12 @@
       "id": "09",
       "chinese": "流畅，圆滑，顺利",
       "japanese": "スムーズ",
-      "kana": "すむうず",
-      "romaji": "sumuuzu",
+      "kana": "すむーず",
+      "romaji": "sumu-zu",
       "tokens": [
         {
           "text": "スムーズ",
-          "kana": "すむうず"
+          "kana": "すむーず"
         }
       ]
     },
@@ -138,12 +138,12 @@
       "id": "11",
       "chinese": "独特，特有",
       "japanese": "ユニーク",
-      "kana": "ゆにいく",
-      "romaji": "yuniiku",
+      "kana": "ゆにーく",
+      "romaji": "yuni-ku",
       "tokens": [
         {
           "text": "ユニーク",
-          "kana": "ゆにいく"
+          "kana": "ゆにーく"
         }
       ]
     },
@@ -268,12 +268,12 @@
       "id": "21",
       "chinese": "适合自己的速度、进度；我行我素",
       "japanese": "マイペース",
-      "kana": "まいぺえす",
-      "romaji": "maipeesu",
+      "kana": "まいぺーす",
+      "romaji": "maipe-su",
       "tokens": [
         {
           "text": "マイペース",
-          "kana": "まいぺえす"
+          "kana": "まいぺーす"
         }
       ]
     },

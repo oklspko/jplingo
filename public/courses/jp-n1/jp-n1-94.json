@@ -8,12 +8,12 @@
       "id": "01",
       "chinese": "老板；硕士；掌握",
       "japanese": "マスター",
-      "kana": "ますたあ",
-      "romaji": "masutaa",
+      "kana": "ますたー",
+      "romaji": "masuta-",
       "tokens": [
         {
           "text": "マスター",
-          "kana": "ますたあ"
+          "kana": "ますたー"
         }
       ]
     },
@@ -21,12 +21,12 @@
       "id": "02",
       "chinese": "按摩",
       "japanese": "マッサージ",
-      "kana": "まっさあじ",
-      "romaji": "massaaji",
+      "kana": "まっさーじ",
+      "romaji": "massa-ji",
       "tokens": [
         {
           "text": "マッサージ",
-          "kana": "まっさあじ"
+          "kana": "まっさーじ"
         }
       ]
     },

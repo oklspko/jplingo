@@ -190,12 +190,12 @@
       "id": "15",
       "chinese": "实录，纪实",
       "japanese": "ドキュメンタリー",
-      "kana": "どきゅめんたりい",
-      "romaji": "dokyumentarii",
+      "kana": "どきゅめんたりー",
+      "romaji": "dokyumentari-",
       "tokens": [
         {
           "text": "ドキュメンタリー",
-          "kana": "どきゅめんたりい"
+          "kana": "どきゅめんたりー"
         }
       ]
     },

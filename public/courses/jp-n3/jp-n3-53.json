@@ -242,12 +242,12 @@
       "id": "19",
       "chinese": "烤面包（片），吐司",
       "japanese": "トースト",
-      "kana": "とうすと",
-      "romaji": "tousuto",
+      "kana": "とーすと",
+      "romaji": "to-suto",
       "tokens": [
         {
           "text": "トースト",
-          "kana": "とうすと"
+          "kana": "とーすと"
         }
       ]
     },

@@ -333,12 +333,12 @@
       "id": "26",
       "chinese": "资料；数据",
       "japanese": "データ",
-      "kana": "でえた",
-      "romaji": "deeta",
+      "kana": "でーた",
+      "romaji": "de-ta",
       "tokens": [
         {
           "text": "データ",
-          "kana": "でえた"
+          "kana": "でーた"
         }
       ]
     },
@@ -372,12 +372,12 @@
       "id": "29",
       "chinese": "领导人，指导者",
       "japanese": "リーダー",
-      "kana": "りいだあ",
-      "romaji": "riidaa",
+      "kana": "りーだー",
+      "romaji": "ri-da-",
       "tokens": [
         {
           "text": "リーダー",
-          "kana": "りいだあ"
+          "kana": "りーだー"
         }
       ]
     },

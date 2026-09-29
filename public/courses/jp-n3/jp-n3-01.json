@@ -47,12 +47,12 @@
       "id": "04",
       "chinese": "……千米，……公里",
       "japanese": "キロメートル",
-      "kana": "きろめえとる",
-      "romaji": "kiromeetoru",
+      "kana": "きろめーとる",
+      "romaji": "kirome-toru",
       "tokens": [
         {
           "text": "キロメートル",
-          "kana": "きろめえとる"
+          "kana": "きろめーとる"
         }
       ]
     },
@@ -112,12 +112,12 @@
       "id": "09",
       "chinese": "可乐",
       "japanese": "コーラ",
-      "kana": "こうら",
-      "romaji": "koura",
+      "kana": "こーら",
+      "romaji": "ko-ra",
       "tokens": [
         {
           "text": "コーラ",
-          "kana": "こうら"
+          "kana": "こーら"
         }
       ]
     },
@@ -177,12 +177,12 @@
       "id": "14",
       "chinese": "汤",
       "japanese": "スープ",
-      "kana": "すうぷ",
-      "romaji": "suupu",
+      "kana": "すーぷ",
+      "romaji": "su-pu",
       "tokens": [
         {
           "text": "スープ",
-          "kana": "すうぷ"
+          "kana": "すーぷ"
         }
       ]
     },
@@ -190,12 +190,12 @@
       "id": "15",
       "chinese": "汤匙，勺子",
       "japanese": "スプーン",
-      "kana": "すぷうん",
-      "romaji": "supuun",
+      "kana": "すぷーん",
+      "romaji": "supu-n",
       "tokens": [
         {
           "text": "スプーン",
-          "kana": "すぷうん"
+          "kana": "すぷーん"
         }
       ]
     },
@@ -203,12 +203,12 @@
       "id": "16",
       "chinese": "队，组",
       "japanese": "チーム",
-      "kana": "ちいむ",
-      "romaji": "chiimu",
+      "kana": "ちーむ",
+      "romaji": "chi-mu",
       "tokens": [
         {
           "text": "チーム",
-          "kana": "ちいむ"
+          "kana": "ちーむ"
         }
       ]
     },
@@ -216,12 +216,12 @@
       "id": "17",
       "chinese": "磁带，录音带；窄长的布、纸等",
       "japanese": "テープ",
-      "kana": "てえぷ",
-      "romaji": "teepu",
+      "kana": "てーぷ",
+      "romaji": "te-pu",
       "tokens": [
         {
           "text": "テープ",
-          "kana": "てえぷ"
+          "kana": "てーぷ"
         }
       ]
     },
@@ -268,12 +268,12 @@
       "id": "21",
       "chinese": "叉子",
       "japanese": "フォーク",
-      "kana": "ふぉうく",
-      "romaji": "fuouku",
+      "kana": "ふぉーく",
+      "romaji": "fuo-ku",
       "tokens": [
         {
           "text": "フォーク",
-          "kana": "ふぉうく"
+          "kana": "ふぉーく"
         }
       ]
     },
@@ -333,12 +333,12 @@
       "id": "26",
       "chinese": "邮箱地址",
       "japanese": "メールアドレス",
-      "kana": "めえるあどれす",
-      "romaji": "meeruadoresu",
+      "kana": "めーるあどれす",
+      "romaji": "me-ruadoresu",
       "tokens": [
         {
           "text": "メールアドレス",
-          "kana": "めえるあどれす"
+          "kana": "めーるあどれす"
         }
       ]
     },

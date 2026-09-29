@@ -8,12 +8,12 @@
       "id": "01",
       "chinese": "真实感，现实感",
       "japanese": "リアリティー",
-      "kana": "りありてぃい",
-      "romaji": "riariteii",
+      "kana": "りありてぃー",
+      "romaji": "riariti-",
       "tokens": [
         {
           "text": "リアリティー",
-          "kana": "りありてぃい"
+          "kana": "りありてぃー"
         }
       ]
     },
@@ -47,12 +47,12 @@
       "id": "04",
       "chinese": "教练，艺术指导",
       "japanese": "インストラクター",
-      "kana": "いんすとらくたあ",
-      "romaji": "insutorakutaa",
+      "kana": "いんすとらくたー",
+      "romaji": "insutorakuta-",
       "tokens": [
         {
           "text": "インストラクター",
-          "kana": "いんすとらくたあ"
+          "kana": "いんすとらくたー"
         }
       ]
     },
@@ -99,12 +99,12 @@
       "id": "08",
       "chinese": "（西洋式的）园艺",
       "japanese": "ガーデニング",
-      "kana": "があでにんぐ",
-      "romaji": "gaadeningu",
+      "kana": "がーでにんぐ",
+      "romaji": "ga-deningu",
       "tokens": [
         {
           "text": "ガーデニング",
-          "kana": "があでにんぐ"
+          "kana": "がーでにんぐ"
         }
       ]
     },
@@ -216,12 +216,12 @@
       "id": "17",
       "chinese": "经济；经济实惠",
       "japanese": "エコノミー",
-      "kana": "えこのみい",
-      "romaji": "ekonomii",
+      "kana": "えこのみー",
+      "romaji": "ekonomi-",
       "tokens": [
         {
           "text": "エコノミー",
-          "kana": "えこのみい"
+          "kana": "えこのみー"
         }
       ]
     },

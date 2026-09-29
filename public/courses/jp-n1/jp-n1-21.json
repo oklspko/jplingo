@@ -294,12 +294,12 @@
       "id": "23",
       "chinese": "关键词",
       "japanese": "キーワード",
-      "kana": "きいわあど",
-      "romaji": "kiiwaado",
+      "kana": "きーわーど",
+      "romaji": "ki-wa-do",
       "tokens": [
         {
           "text": "キーワード",
-          "kana": "きいわあど"
+          "kana": "きーわーど"
         }
       ]
     },
@@ -307,12 +307,12 @@
       "id": "24",
       "chinese": "个性；人物",
       "japanese": "キャラクター",
-      "kana": "きゃらくたあ",
-      "romaji": "kyarakutaa",
+      "kana": "きゃらくたー",
+      "romaji": "kyarakuta-",
       "tokens": [
         {
           "text": "キャラクター",
-          "kana": "きゃらくたあ"
+          "kana": "きゃらくたー"
         }
       ]
     },
@@ -320,12 +320,12 @@
       "id": "25",
       "chinese": "起重机",
       "japanese": "クレーン",
-      "kana": "くれえん",
-      "romaji": "kureen",
+      "kana": "くれーん",
+      "romaji": "kure-n",
       "tokens": [
         {
           "text": "クレーン",
-          "kana": "くれえん"
+          "kana": "くれーん"
         }
       ]
     },

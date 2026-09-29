@@ -8,12 +8,12 @@
       "id": "01",
       "chinese": "床单",
       "japanese": "シーツ",
-      "kana": "しいつ",
-      "romaji": "shiitsu",
+      "kana": "しーつ",
+      "romaji": "shi-tsu",
       "tokens": [
         {
           "text": "シーツ",
-          "kana": "しいつ"
+          "kana": "しーつ"
         }
       ]
     },
@@ -21,12 +21,12 @@
       "id": "02",
       "chinese": "牛仔裤",
       "japanese": "ジーンズ",
-      "kana": "じいんず",
-      "romaji": "jiinzu",
+      "kana": "じーんず",
+      "romaji": "ji-nzu",
       "tokens": [
         {
           "text": "ジーンズ",
-          "kana": "じいんず"
+          "kana": "じーんず"
         }
       ]
     },
@@ -47,12 +47,12 @@
       "id": "04",
       "chinese": "出发（点），起点；开始",
       "japanese": "スタート",
-      "kana": "すたあと",
-      "romaji": "sutaato",
+      "kana": "すたーと",
+      "romaji": "suta-to",
       "tokens": [
         {
           "text": "スタート",
-          "kana": "すたあと"
+          "kana": "すたーと"
         }
       ]
     },
@@ -73,12 +73,12 @@
       "id": "06",
       "chinese": "演说，致辞",
       "japanese": "スピーチ",
-      "kana": "すぴいち",
-      "romaji": "supiichi",
+      "kana": "すぴーち",
+      "romaji": "supi-chi",
       "tokens": [
         {
           "text": "スピーチ",
-          "kana": "すぴいち"
+          "kana": "すぴーち"
         }
       ]
     },
@@ -86,12 +86,12 @@
       "id": "07",
       "chinese": "速度；快速",
       "japanese": "スピード",
-      "kana": "すぴいど",
-      "romaji": "supiido",
+      "kana": "すぴーど",
+      "romaji": "supi-do",
       "tokens": [
         {
           "text": "スピード",
-          "kana": "すぴいど"
+          "kana": "すぴーど"
         }
       ]
     },
@@ -99,12 +99,12 @@
       "id": "08",
       "chinese": "大减价",
       "japanese": "セール",
-      "kana": "せえる",
-      "romaji": "seeru",
+      "kana": "せーる",
+      "romaji": "se-ru",
       "tokens": [
         {
           "text": "セール",
-          "kana": "せえる"
+          "kana": "せーる"
         }
       ]
     },
@@ -112,12 +112,12 @@
       "id": "09",
       "chinese": "主题；（论文等的）题目",
       "japanese": "テーマ",
-      "kana": "てえま",
-      "romaji": "teema",
+      "kana": "てーま",
+      "romaji": "te-ma",
       "tokens": [
         {
           "text": "テーマ",
-          "kana": "てえま"
+          "kana": "てーま"
         }
       ]
     },
@@ -177,12 +177,12 @@
       "id": "14",
       "chinese": "百分率，百分比",
       "japanese": "パーセント",
-      "kana": "ぱあせんと",
-      "romaji": "paasento",
+      "kana": "ぱーせんと",
+      "romaji": "pa-sento",
       "tokens": [
         {
           "text": "パーセント",
-          "kana": "ぱあせんと"
+          "kana": "ぱーせんと"
         }
       ]
     },
@@ -359,12 +359,12 @@
       "id": "28",
       "chinese": "刹车；制止",
       "japanese": "ブレーキ",
-      "kana": "ぶれえき",
-      "romaji": "bureeki",
+      "kana": "ぶれーき",
+      "romaji": "bure-ki",
       "tokens": [
         {
           "text": "ブレーキ",
-          "kana": "ぶれえき"
+          "kana": "ぶれーき"
         }
       ]
     },
@@ -385,12 +385,12 @@
       "id": "30",
       "chinese": "围巾；（车的）消音器",
       "japanese": "マフラー",
-      "kana": "まふらあ",
-      "romaji": "mafuraa",
+      "kana": "まふらー",
+      "romaji": "mafura-",
       "tokens": [
         {
           "text": "マフラー",
-          "kana": "まふらあ"
+          "kana": "まふらー"
         }
       ]
     }
