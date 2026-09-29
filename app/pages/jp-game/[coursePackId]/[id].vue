@@ -43,19 +43,19 @@
         <div class="jp-input-area" @click="focusInput">
           <div class="jp-words">
             <div
-              v-for="(word, i) in words"
+              v-for="(word, i) in input.userInputWords"
               :key="i"
               class="jp-word"
-              :class="wordClass(i)"
+              :class="wordClass(word)"
               :style="{ minWidth: wordWidth(word) + 'ch' }"
             >
-              <div class="jp-word-input">{{ word.userInput }}</div>
+              <div class="jp-word-input">{{ displayFor(word) }}</div>
               <div v-if="word.incorrect" class="jp-word-answer">{{ word.text }}</div>
             </div>
           </div>
           <input
             ref="inputRef"
-            :value="rawInput"
+            :value="input.inputValue"
             class="jp-hidden-input"
             type="text"
             autocapitalize="off"
@@ -163,11 +163,11 @@ import { useJpTimer } from "~/composables/jp/useJpTimer";
 import { useJpStorage } from "~/composables/jp/useJpStorage";
 import {
   isSingleKanaCourseId,
-  checkToken,
   calcWordWidth,
   romajiToKanaForDisplay,
   kanaToInputRomaji,
 } from "~/composables/jp/useJpRomaji";
+import { useJpInput } from "~/composables/jp/useJpInput";
 import { useJpGlobalKeyboard } from "~/composables/jp/useJpKeyboard";
 import {
   fetchCoursePacks,
@@ -182,13 +182,11 @@ import type { JpStatement } from "~/types/jp";
 const route = useRoute();
 const statements = ref<JpStatement[]>([]);
 const currentIndex = ref(0);
-const rawInput = ref("");
 const result = ref<"" | "correct" | "wrong">("");
 const isComposing = ref(false);
 const inputRef = ref<HTMLInputElement>();
 const showAnswer = ref(false);
 const showCompleteModal = ref(false);
-const editingIndex = ref(-1);
 const showRomajiHint = ref(true);
 const showKanaHint = ref(false);
 const courseTitle = ref("");
@@ -243,30 +241,45 @@ function handleBeforeUnload() {
 
 const currentStatement = computed(() => statements.value[currentIndex.value]);
 
+// ===== 输入状态机（对齐 earthworm-main 的 question.ts）：incorrect 只在提交时一次性标记 =====
+function setInputCursorPosition(position: number) {
+  inputRef.value?.setSelectionRange(position, position);
+}
+function getInputCursorPosition() {
+  return inputRef.value?.selectionStart ?? 0;
+}
+
+const input = useJpInput({
+  tokens: () => currentStatement.value?.tokens || [],
+  isSingleKana: () => isSingleKana.value,
+  setInputCursorPosition,
+  getInputCursorPosition,
+  fixCallback: () => playJumpSound(),
+});
+
 const progressPercent = computed(() => {
   if (statements.value.length === 0) return 0;
   return ((currentIndex.value + 1) / statements.value.length) * 100;
 });
 
-const words = computed(() => {
-  const stmt = currentStatement.value;
-  if (!stmt) return [];
-  const parts = rawInput.value.split(" ");
-  return stmt.tokens.map((token, i) => {
-    const raw = parts[i] || "";
-    if (isSingleKana.value) {
-      return {
-        text: token.text, kana: token.kana, userInput: raw,
-        incorrect: result.value === "wrong" && !checkToken(raw, token, true),
-      };
-    }
-    const userInput = romajiToKanaForDisplay(raw, token.kana);
-    return {
-      text: token.text, kana: token.kana, userInput,
-      incorrect: result.value === "wrong" && !checkToken(raw, token, false),
-    };
-  });
-});
+// 展示用：单假名课程直接显示原始罗马字，普通课程把罗马字转成假名
+function displayFor(word: { userInput: string; kana: string }): string {
+  return isSingleKana.value
+    ? word.userInput
+    : romajiToKanaForDisplay(word.userInput, word.kana);
+}
+
+// 词块样式：wrong 态下，正确词「锁定」，当前修复词「editing」，其余错误词红
+function wordClass(word: { incorrect: boolean; isActive: boolean }) {
+  if (result.value !== "wrong") return "";
+  if (!word.incorrect) return "locked";
+  if (word.isActive) return "incorrect editing";
+  return "incorrect";
+}
+
+function wordWidth(word: { kana: string }) {
+  return calcWordWidth(word.kana, isSingleKana.value);
+}
 
 const motivations = [
   "素晴らしい！よくできました！",
@@ -383,13 +396,16 @@ onUnmounted(() => {
 watch(showRomajiHint, (v) => localStorage.setItem("jp-romaji-hint", v ? "true" : "false"));
 watch(showKanaHint, (v) => localStorage.setItem("jp-kana-hint", v ? "true" : "false"));
 
-watch(currentIndex, () => {
-  saveResume();
-  rawInput.value = "";
+function resetInput() {
+  input.initialize();
   result.value = "";
   showAnswer.value = false;
-  editingIndex.value = -1;
   hadWrongAttempt.value = false;
+}
+
+watch(currentIndex, () => {
+  saveResume();
+  resetInput();
   nextTick(() => {
     inputRef.value?.focus();
     setTimeout(() => playAudio(), 200);
@@ -428,6 +444,7 @@ async function loadCourseData() {
   if (isMixed.value && statements.value.length === 0) allMastered.value = true;
   courseTitle.value = data.title || id;
   currentIndex.value = restoreIndex();
+  resetInput();
   nextTick(() => {
     inputRef.value?.focus();
     setTimeout(() => playAudio(), 500);
@@ -448,173 +465,82 @@ function gotoNextCourse() {
 
 function goHome() { window.location.href = "/jp-home"; }
 
-function checkAllCorrect(): boolean {
-  const stmt = currentStatement.value;
-  if (!stmt) return false;
-  const parts = rawInput.value.split(" ");
-  if (parts.length !== stmt.tokens.length) return false;
-  return stmt.tokens.every((token, i) =>
-    checkToken(parts[i] || "", token, isSingleKana.value),
-  );
-}
-
-function wordClass(i: number) {
-  const stmt = currentStatement.value;
-  if (!stmt) return "";
-  if (result.value === "wrong") {
-    const parts = rawInput.value.split(" ");
-    const ok = checkToken(parts[i] || "", stmt.tokens[i], isSingleKana.value);
-    if (ok) return "locked";
-    return editingIndex.value === i ? "incorrect editing" : "incorrect";
-  }
-  return "";
-}
-
-function wordWidth(word: any) {
-  return calcWordWidth(word.kana, isSingleKana.value);
-}
-
-function jumpToNextError() {
-  const stmt = currentStatement.value;
-  if (!stmt || !inputRef.value) return;
-  const parts = rawInput.value.split(" ");
-  const errorIndices: number[] = [];
-  stmt.tokens.forEach((token, i) => {
-    if (!checkToken(parts[i] || "", token, isSingleKana.value)) errorIndices.push(i);
-  });
-  if (errorIndices.length === 0) return;
-  // 只循环跳转「错误项」；当前 editingIndex 若已不在错误集（比如刚被改对），
-  // 从第一个错误重新开始，绝不停留在正确项上。
-  const cur = errorIndices.includes(editingIndex.value) ? editingIndex.value : -1;
-  let nextIdx: number;
-  if (cur === -1) nextIdx = errorIndices[0];
-  else {
-    const after = errorIndices.find((idx) => idx > cur);
-    nextIdx = after !== undefined ? after : errorIndices[0];
-  }
-  editingIndex.value = nextIdx;
-  let charStart = 0;
-  for (let i = 0; i < nextIdx; i++) charStart += (parts[i] || "").length + 1;
-  const charEnd = charStart + (parts[nextIdx] || "").length;
-  nextTick(() => {
-    inputRef.value?.focus();
-    inputRef.value?.setSelectionRange(charStart, charEnd);
-  });
+function advanceOrComplete() {
+  if (isLastQuestion.value) { pickRandomMotivation(); showCompleteModal.value = true; }
+  else next();
 }
 
 function handleKeydown(e: KeyboardEvent) {
+  if (showCompleteModal.value) return;
   if (e.code === "Enter") {
+    if (isComposing.value) return;
     e.preventDefault();
-    handleEnter();
-  }
-}
-
-function handleEnter() {
-  if (isComposing.value) return;
-  if (showCompleteModal.value) return;
-
-  if (result.value === "correct") {
-    if (isLastQuestion.value) { pickRandomMotivation(); showCompleteModal.value = true; }
-    else next();
+    if (result.value === "correct") advanceOrComplete();
+    else submitAnswer();
     return;
   }
-  if (result.value === "wrong") { submitAnswer(); return; }
-
-  const parts = rawInput.value.split(" ");
-  const total = currentStatement.value?.tokens.length || 0;
-  const allFilled =
-    parts.length >= total && parts.slice(0, total).every((p) => p.trim() !== "");
-  if (allFilled) submitAnswer();
-  // 未填完也允许回车提交（判为错误并显示答案），避免「卡在某个意群上无法前进」
-  else if (rawInput.value.trim()) submitAnswer();
-}
-
-function handleSpace() {
-  if (isComposing.value) return;
-  if (showCompleteModal.value) return;
-
-  if (result.value === "correct") {
-    if (isLastQuestion.value) { pickRandomMotivation(); showCompleteModal.value = true; }
-    else next();
+  if (e.code === "Space" && result.value === "correct") {
+    e.preventDefault();
+    advanceOrComplete();
     return;
   }
-
-  if (result.value === "wrong") {
-    if (checkAllCorrect()) submitAnswer();
-    else { jumpToNextError(); playJumpSound(); }
-    return;
-  }
-
-  const stmt = currentStatement.value;
-  const total = stmt?.tokens.length || 0;
-  const parts = rawInput.value.split(" ");
-  const allFilled =
-    parts.length >= total && parts.slice(0, total).every((p) => p.trim() !== "");
-  if (allFilled) { submitAnswer(); return; }
-
-  // 只有「当前这个意群已输入完整」才按空格跳到下一空；
-  // 没拼完整时空格不生效，避免把单个假名误当成一个意群。
-  if (!rawInput.value || rawInput.value.endsWith(" ")) return;
-  const lastIdx = parts.length - 1;
-  if (lastIdx >= total) return;
-  const token = stmt?.tokens[lastIdx];
-  if (!token || !checkToken(parts[lastIdx], token, isSingleKana.value)) return;
-  rawInput.value += " ";
+  input.handleKeyboardInput(e, () => submitAnswer());
 }
 
 function onInput(e: Event) {
   playTypingSound();
   const el = e.target as HTMLInputElement;
   if (!isComposing.value && el.value.endsWith(" ")) {
-    // 手机虚拟键盘按空格常不触发 keydown，这里从 input 事件兜底
-    rawInput.value = el.value.replace(/ +$/, "");
-    handleSpace();
+    // 手机虚拟键盘按空格常不触发 keydown，这里从 input 事件兜底。
+    // 空格被消费（吞掉/修复跳转/提交）时 handleSpace 已更新 inputValue，不再用 DOM 值覆盖。
+    const consumed = input.handleSpace(() => submitAnswer());
+    if (!consumed) input.setInputValue(el.value);
   } else {
-    rawInput.value = el.value;
+    input.setInputValue(el.value);
   }
+}
+
+function onCorrect(stmt: JpStatement) {
+  result.value = "correct";
+  playSuccessSound(); playAudio();
+  if (isMixed.value) {
+    recordStatement(courseId.value, stmt.japanese);
+    const newCount = vocabMemory.recordCorrect(stmt.japanese);
+    if (newCount >= GAOKAO_MASTER_THRESHOLD) {
+      recordMastered(courseId.value, stmt.japanese);
+      removeFutureCopies(stmt.japanese);
+    }
+  } else {
+    recordStatement(courseId.value, stmt.id);
+    if (!hadWrongAttempt.value) recordMastered(courseId.value, stmt.id);
+  }
+  if (isLastQuestion.value) {
+    recordCourseCompleted(courseId.value);
+    courseCompleted.value = true;
+    clearResume();
+    pickRandomMotivation();
+    setTimeout(() => (showCompleteModal.value = true), 800);
+  }
+}
+
+function onWrong(stmt: JpStatement) {
+  result.value = "wrong";
+  hadWrongAttempt.value = true;
+  playErrorSound();
+  if (isMixed.value) vocabMemory.recordWrong(stmt.japanese);
 }
 
 function submitAnswer() {
   const stmt = currentStatement.value;
   if (!stmt) return;
-  const parts = rawInput.value.split(" ");
-  if (parts.length < stmt.tokens.length) {
-    result.value = "wrong"; editingIndex.value = -1; playErrorSound();
-    if (isMixed.value) vocabMemory.recordWrong(stmt.japanese);
-    return;
-  }
-  if (checkAllCorrect()) {
-    result.value = "correct"; editingIndex.value = -1;
-    playSuccessSound(); playAudio();
-    if (isMixed.value) {
-      recordStatement(courseId.value, stmt.japanese);
-      const newCount = vocabMemory.recordCorrect(stmt.japanese);
-      if (newCount >= GAOKAO_MASTER_THRESHOLD) {
-        recordMastered(courseId.value, stmt.japanese);
-        removeFutureCopies(stmt.japanese);
-      }
-    } else {
-      recordStatement(courseId.value, stmt.id);
-      if (!hadWrongAttempt.value) recordMastered(courseId.value, stmt.id);
-    }
-    if (isLastQuestion.value) {
-      recordCourseCompleted(courseId.value);
-      courseCompleted.value = true;
-      clearResume();
-      pickRandomMotivation();
-      setTimeout(() => (showCompleteModal.value = true), 800);
-    }
-  } else {
-    result.value = "wrong"; editingIndex.value = -1; hadWrongAttempt.value = true; playErrorSound();
-    if (isMixed.value) vocabMemory.recordWrong(stmt.japanese);
-  }
+  input.submitAnswer(
+    () => onCorrect(stmt),
+    () => onWrong(stmt),
+  );
 }
 
 function reset() {
-  rawInput.value = "";
-  result.value = "";
-  showAnswer.value = false;
-  editingIndex.value = -1;
+  resetInput();
   nextTick(() => inputRef.value?.focus());
 }
 
