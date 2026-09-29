@@ -181,6 +181,15 @@
                 立即更新
               </button>
             </div>
+            <a
+              v-if="hasUpdate"
+              class="update-direct"
+              :href="directApkUrl"
+              target="_blank"
+              rel="noopener"
+            >
+              加速下载失败？GitHub 直连
+            </a>
           </div>
         </section>
 
@@ -232,6 +241,7 @@ const {
   hasUpdate,
   latestVersion,
   errorMsg,
+  directApkUrl,
   checkUpdate,
   openDownload,
 } = useJpUpdate(appVersion);
@@ -538,6 +548,7 @@ function doReset() {
 /* 版本更新 */
 .update-card {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
@@ -617,6 +628,19 @@ function doReset() {
   background: linear-gradient(135deg, #38bdf8 0%, #0369a1 100%);
   color: #fff;
   transform: translateY(-2px);
+}
+
+.update-direct {
+  flex-basis: 100%;
+  font-size: 13px;
+  color: #0284c7;
+  text-decoration: none;
+  text-align: right;
+  margin-top: -8px;
+}
+
+.update-direct:hover {
+  text-decoration: underline;
 }
 
 /* 统计卡片（紧凑横向布局） */
@@ -897,6 +921,10 @@ function doReset() {
 
   .update-card {
     flex-direction: column;
+    text-align: center;
+  }
+
+  .update-direct {
     text-align: center;
   }
 

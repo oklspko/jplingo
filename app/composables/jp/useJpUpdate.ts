@@ -1,14 +1,20 @@
 import { ref } from "vue";
+import { apkDownloadCandidates, GITHUB_APK_LATEST_URL } from "./useJpApkDownload";
 
 // 版本更新检查：拉取 GitHub Releases 最新 tag，与当前 appVersion 对比。
 // appVersion 来自 nuxt.config 的 runtimeConfig.public.appVersion（唯一来源是 package.json），
 // 因此发新版本 = 改 package.json 版本号 + 打 v* 标签（由 CI 发布 jp-lingo.apk）。
 // 原生 App 点「立即更新」会在系统浏览器打开 APK 下载地址，让用户下载安装。
+// 下载地址默认走加速镜像（国内更快），官方直连作为兜底（directApkUrl）。
 
 const REPO_API =
   "https://api.github.com/repos/oklspko/jplingo/releases/latest";
-const DEFAULT_APK_URL =
-  "https://github.com/oklspko/jplingo/releases/latest/download/jp-lingo.apk";
+
+// 初始候选：加速镜像在前、官方直连在后
+const _defaultCandidates = apkDownloadCandidates(GITHUB_APK_LATEST_URL);
+const DEFAULT_APK_URL = _defaultCandidates[0] || GITHUB_APK_LATEST_URL;
+const DEFAULT_DIRECT_URL =
+  _defaultCandidates[_defaultCandidates.length - 1] || GITHUB_APK_LATEST_URL;
 
 function stripV(v: string): string {
   return v.replace(/^v/i, "");
@@ -44,6 +50,7 @@ export function useJpUpdate(currentVersion: string) {
   const hasUpdate = ref(false);
   const latestVersion = ref("");
   const apkUrl = ref(DEFAULT_APK_URL);
+  const directApkUrl = ref(DEFAULT_DIRECT_URL);
   const errorMsg = ref("");
 
   async function checkUpdate() {
@@ -72,7 +79,10 @@ export function useJpUpdate(currentVersion: string) {
         String(a.name || "").endsWith(".apk"),
       );
       if (apkAsset?.browser_download_url) {
-        apkUrl.value = apkAsset.browser_download_url;
+        const candidates = apkDownloadCandidates(apkAsset.browser_download_url);
+        apkUrl.value = candidates[0] || apkAsset.browser_download_url;
+        directApkUrl.value =
+          candidates[candidates.length - 1] || apkAsset.browser_download_url;
       }
       checked.value = true;
     } catch (err) {
@@ -94,6 +104,7 @@ export function useJpUpdate(currentVersion: string) {
     hasUpdate,
     latestVersion,
     apkUrl,
+    directApkUrl,
     errorMsg,
     checkUpdate,
     openDownload,

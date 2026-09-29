@@ -40,12 +40,21 @@
           <h2>⬇️ 下载安装</h2>
           <a
             class="download-btn"
-            :href="apkUrl"
+            :href="mirrorApkUrl"
             target="_blank"
             rel="noopener"
           >
             <span class="download-icon">🤖</span>
-            下载 Android APK
+            下载 Android APK{{ hasMirror ? "（加速）" : "" }}
+          </a>
+          <a
+            v-if="hasMirror"
+            class="download-direct"
+            :href="directApkUrl"
+            target="_blank"
+            rel="noopener"
+          >
+            加速下载失败？改用 GitHub 官方直连
           </a>
           <p class="download-hint">安装包约 40~50MB，含全部音频与词典</p>
         </section>
@@ -71,10 +80,16 @@
 import { onMounted } from "vue";
 import { Capacitor } from "@capacitor/core";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
+import { apkDownloadCandidates } from "~/composables/jp/useJpApkDownload";
 
 const config = useRuntimeConfig();
-const apkUrl = config.public.apkUrl as string;
+const directApkUrl = config.public.apkUrl as string;
 const appVersion = config.public.appVersion as string;
+
+// 加速镜像优先，官方直连兜底；自定义 CDN（非 github.com）时无镜像，仅一个候选
+const _candidates = apkDownloadCandidates(directApkUrl);
+const mirrorApkUrl = _candidates[0] || directApkUrl;
+const hasMirror = _candidates.length > 1;
 
 // 原生 App 内不再展示下载页，直接回主页
 onMounted(() => {
@@ -208,6 +223,19 @@ h2 {
 
 .download-icon {
   font-size: 24px;
+}
+
+.download-direct {
+  display: block;
+  text-align: center;
+  color: #0284c7;
+  font-size: 14px;
+  text-decoration: none;
+  margin-top: 16px;
+}
+
+.download-direct:hover {
+  text-decoration: underline;
 }
 
 .download-hint {
