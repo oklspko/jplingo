@@ -13,7 +13,7 @@
             </span>
           </div>
           <div class="home-actions">
-            <button class="action-btn action-btn--primary" @click="openImport">
+            <button class="action-btn" @click="openImport">
               <svg class="action-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M12 4v11" /><path d="m7 11 5 5 5-5" /><path d="M4 19a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-1z" />
               </svg>导入课程包
@@ -1035,23 +1035,22 @@ async function createFolder() {
   gap: 8px;
   padding: 11px 22px;
   border-radius: 999px;
-  border: 1.5px solid #bae6fd;
-  background: #ffffff;
-  color: #0369a1;
+  border: 1.5px solid transparent;
+  background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);
+  color: #fff;
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
   font-family: inherit;
   transition: all 0.2s;
-  box-shadow: 0 2px 8px rgba(186, 230, 253, 0.18);
+  box-shadow: 0 6px 16px rgba(2, 132, 199, 0.32);
 }
 
 .action-btn:hover {
-  background: #f0f9ff;
-  border-color: #7dd3fc;
-  color: #0284c7;
+  background: linear-gradient(135deg, #0ea5e9 0%, #0369a1 100%);
+  color: #fff;
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(125, 211, 252, 0.28);
+  box-shadow: 0 8px 20px rgba(2, 132, 199, 0.4);
 }
 
 .action-ico {
@@ -1059,18 +1058,6 @@ async function createFolder() {
   height: 18px;
   flex-shrink: 0;
   display: inline-block;
-}
-
-.action-btn--primary {
-  background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);
-  border-color: transparent;
-  color: #fff;
-  box-shadow: 0 6px 16px rgba(2, 132, 199, 0.32);
-}
-
-.action-btn--primary:hover {
-  background: linear-gradient(135deg, #0ea5e9 0%, #0369a1 100%);
-  color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -1098,6 +1085,11 @@ async function createFolder() {
 .manage-menu {
   position: relative;
   display: inline-flex;
+}
+
+/* 「⋯」向左挪约两个字符，避免紧贴右侧边 */
+.pack-menu {
+  margin-right: 2em;
 }
 
 .pack-icon-btn.pack-more,
