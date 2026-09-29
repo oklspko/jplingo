@@ -461,10 +461,11 @@ function checkAllCorrect(): boolean {
 function wordClass(i: number) {
   const stmt = currentStatement.value;
   if (!stmt) return "";
-  if (editingIndex.value === i && result.value === "wrong") return "incorrect editing";
   if (result.value === "wrong") {
     const parts = rawInput.value.split(" ");
-    return checkToken(parts[i] || "", stmt.tokens[i], isSingleKana.value) ? "" : "incorrect";
+    const ok = checkToken(parts[i] || "", stmt.tokens[i], isSingleKana.value);
+    if (ok) return "locked";
+    return editingIndex.value === i ? "incorrect editing" : "incorrect";
   }
   return "";
 }
@@ -482,10 +483,13 @@ function jumpToNextError() {
     if (!checkToken(parts[i] || "", token, isSingleKana.value)) errorIndices.push(i);
   });
   if (errorIndices.length === 0) return;
+  // 只循环跳转「错误项」；当前 editingIndex 若已不在错误集（比如刚被改对），
+  // 从第一个错误重新开始，绝不停留在正确项上。
+  const cur = errorIndices.includes(editingIndex.value) ? editingIndex.value : -1;
   let nextIdx: number;
-  if (editingIndex.value === -1) nextIdx = errorIndices[0];
+  if (cur === -1) nextIdx = errorIndices[0];
   else {
-    const after = errorIndices.find((idx) => idx > editingIndex.value);
+    const after = errorIndices.find((idx) => idx > cur);
     nextIdx = after !== undefined ? after : errorIndices[0];
   }
   editingIndex.value = nextIdx;
@@ -754,6 +758,8 @@ function playAudio() {
 }
 
 .jp-word.incorrect { border-bottom-color: #ef4444; color: #ef4444; }
+
+.jp-word.locked { border-bottom-color: #10b981; color: #059669; }
 
 .jp-word.incorrect.editing {
   border-bottom-color: #f59e0b; border-bottom-width: 5px;

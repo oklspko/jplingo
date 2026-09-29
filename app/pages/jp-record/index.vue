@@ -42,12 +42,13 @@
           </div>
           <div v-else class="course-groups">
             <div v-for="g in courseGroups" :key="g.packId" class="course-pack-group">
-              <div class="pack-group-head">
+              <button class="pack-group-head" @click="toggleCoursePack(g.packId)">
+                <span class="pack-group-arrow" :class="{ open: openCoursePacks.has(g.packId) }">▶</span>
                 <span class="pack-group-icon">📁</span>
                 <span class="pack-group-title">{{ g.packTitle }}</span>
                 <span class="pack-group-count">{{ g.courses.length }} 课</span>
-              </div>
-              <div class="course-list">
+              </button>
+              <div v-if="openCoursePacks.has(g.packId)" class="course-list">
                 <div v-for="c in g.courses" :key="c.id" class="course-card">
                   <div class="course-head">
                     <div class="course-title">{{ c.title }}</div>
@@ -85,22 +86,30 @@
           </div>
 
           <div v-if="loading" class="empty">加载中…</div>
-          <div v-else-if="activeGroups.length === 0" class="empty">
+          <div v-else-if="activePackGroups.length === 0" class="empty">
             <div class="empty-icon">🗂️</div>
             <p>该分类下还没有记录</p>
           </div>
-          <div v-else class="item-groups">
-            <div v-for="g in activeGroups" :key="g.courseId" class="item-group">
-              <button class="group-head" @click="toggleGroup(g.courseId)">
-                <span class="group-arrow" :class="{ open: openGroups.has(g.courseId) }">▶</span>
-                <span class="group-title">{{ g.courseTitle }}</span>
-                <span class="group-count">{{ g.items.length }} 项</span>
-              </button>
-              <div v-if="openGroups.has(g.courseId)" class="group-body">
-                <div v-for="it in g.items" :key="it.key" class="item-row">
-                  <span class="item-jp">{{ it.japanese }}</span>
-                  <span class="item-kana">{{ it.kana }}</span>
-                  <span class="item-zh">{{ it.chinese }}</span>
+          <div v-else class="item-packs">
+            <div v-for="p in activePackGroups" :key="p.packId" class="item-pack">
+              <div class="item-pack-head">
+                <span class="pack-group-icon">📁</span>
+                <span class="pack-group-title">{{ p.packTitle }}</span>
+              </div>
+              <div class="item-groups">
+                <div v-for="g in p.courses" :key="g.courseId" class="item-group">
+                  <button class="group-head" @click="toggleGroup(g.courseId)">
+                    <span class="group-arrow" :class="{ open: openGroups.has(g.courseId) }">▶</span>
+                    <span class="group-title">{{ g.courseTitle }}</span>
+                    <span class="group-count">{{ g.items.length }} 项</span>
+                  </button>
+                  <div v-if="openGroups.has(g.courseId)" class="group-body">
+                    <div v-for="it in g.items" :key="it.key" class="item-row">
+                      <span class="item-jp">{{ it.japanese }}</span>
+                      <span class="item-kana">{{ it.kana }}</span>
+                      <span class="item-zh">{{ it.chinese }}</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -149,6 +158,8 @@ interface ItemRow {
   key: string;
   courseId: string;
   courseTitle: string;
+  packId: string;
+  packTitle: string;
   japanese: string;
   kana: string;
   chinese: string;
@@ -160,6 +171,7 @@ const courseList = ref<CourseRow[]>([]);
 const items = ref<ItemRow[]>([]);
 const activeTab = ref<LearnedKind>("word");
 const openGroups = ref<Set<string>>(new Set());
+const openCoursePacks = ref<Set<string>>(new Set());
 
 // 模块级缓存：同一页面加载内跨 load() 复用
 let packsCache: JpCoursePack[] | null = null;
@@ -225,6 +237,8 @@ async function doLoad() {
           key,
           courseId: cid,
           courseTitle: course.title || cid,
+          packId,
+          packTitle: packTitleMap.get(packId) || packId,
           japanese: stmt.japanese,
           kana: stmt.kana,
           chinese: stmt.chinese,
@@ -281,19 +295,30 @@ const courseGroups = computed(() => {
   return groups;
 });
 
-const activeGroups = computed(() => {
-  const groups: { courseId: string; courseTitle: string; items: ItemRow[] }[] = [];
+// 已学记录按「课程包 → 课程」归纳
+const activePackGroups = computed(() => {
+  const packs: {
+    packId: string;
+    packTitle: string;
+    courses: { courseId: string; courseTitle: string; items: ItemRow[] }[];
+  }[] = [];
   const seen = new Map<string, number>();
   for (const it of activeItems.value) {
-    let idx = seen.get(it.courseId);
+    let idx = seen.get(it.packId);
     if (idx === undefined) {
-      idx = groups.length;
-      seen.set(it.courseId, idx);
-      groups.push({ courseId: it.courseId, courseTitle: it.courseTitle, items: [] });
+      idx = packs.length;
+      seen.set(it.packId, idx);
+      packs.push({ packId: it.packId, packTitle: it.packTitle, courses: [] });
     }
-    groups[idx].items.push(it);
+    const pack = packs[idx];
+    let course = pack.courses.find((c) => c.courseId === it.courseId);
+    if (!course) {
+      course = { courseId: it.courseId, courseTitle: it.courseTitle, items: [] };
+      pack.courses.push(course);
+    }
+    course.items.push(it);
   }
-  return groups;
+  return packs;
 });
 
 function toggleGroup(courseId: string) {
@@ -301,6 +326,13 @@ function toggleGroup(courseId: string) {
   if (next.has(courseId)) next.delete(courseId);
   else next.add(courseId);
   openGroups.value = next;
+}
+
+function toggleCoursePack(packId: string) {
+  const next = new Set(openCoursePacks.value);
+  if (next.has(packId)) next.delete(packId);
+  else next.add(packId);
+  openCoursePacks.value = next;
 }
 
 function pct(c: CourseRow) {
@@ -444,8 +476,28 @@ function pct(c: CourseRow) {
   display: flex;
   align-items: center;
   gap: 10px;
+  width: 100%;
   padding: 12px 18px;
   background: linear-gradient(120deg, #e0f2fe 0%, #d4efff 100%);
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: left;
+}
+
+.pack-group-head:hover {
+  background: linear-gradient(120deg, #d4efff 0%, #c7edff 100%);
+}
+
+.pack-group-arrow {
+  font-size: 12px;
+  color: #0284c7;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+
+.pack-group-arrow.open {
+  transform: rotate(90deg);
 }
 
 .pack-group-icon {
@@ -594,6 +646,31 @@ function pct(c: CourseRow) {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.item-packs {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.item-pack {
+  border: 1px solid #e8f6ff;
+  border-radius: 16px;
+  background: #fbfeff;
+  overflow: hidden;
+}
+
+.item-pack-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 18px;
+  background: linear-gradient(120deg, #e0f2fe 0%, #d4efff 100%);
+}
+
+.item-pack .item-groups {
+  padding: 12px;
 }
 
 .item-group {

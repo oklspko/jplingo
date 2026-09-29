@@ -1017,10 +1017,21 @@ async function createFolder() {
 }
 
 @media (max-width: 768px) {
-  .action-btn {
-    padding: 10px 16px;
-    font-size: 14px;
+  .home-actions {
     gap: 6px;
+    flex-wrap: nowrap;
+  }
+  .action-btn {
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 9px 4px;
+    font-size: 12px;
+    gap: 4px;
+    white-space: nowrap;
+    justify-content: center;
+  }
+  .action-ico {
+    font-size: 14px;
   }
 }
 
