@@ -693,9 +693,7 @@ function playAudio() {
 .jp-word.incorrect { border-bottom-color: #ef4444; color: #ef4444; }
 
 .jp-word.active {
-  border-bottom-color: #0ea5e9; border-bottom-width: 5px;
-  color: #0284c7; background: rgba(224, 242, 254, 0.35);
-  border-radius: 6px 6px 0 0;
+  border-bottom-color: #0ea5e9;
 }
 
 .jp-word.locked { border-bottom-color: #10b981; color: #059669; }
