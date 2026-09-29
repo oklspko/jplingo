@@ -272,12 +272,16 @@ function displayFor(word: { userInput: string; kana: string }): string {
     : romajiToKanaForDisplay(word.userInput, word.kana);
 }
 
-// 词块样式：wrong 态下，正确词「锁定」，当前修复词「editing」，其余错误词红
+// 词块样式：wrong 态下，正确词「锁定」，当前修复词「editing」，其余错误词红；
+// 输入态下，给当前正在输入的意群加「active」高亮，方便区分正在输入哪个意群。
 function wordClass(word: { incorrect: boolean; isActive: boolean }) {
-  if (result.value !== "wrong") return "";
-  if (!word.incorrect) return "locked";
-  if (word.isActive) return "incorrect editing";
-  return "incorrect";
+  if (result.value === "wrong") {
+    if (!word.incorrect) return "locked";
+    if (word.isActive) return "incorrect editing";
+    return "incorrect";
+  }
+  if (word.isActive) return "active";
+  return "";
 }
 
 function wordWidth(word: { kana: string }) {
@@ -687,6 +691,12 @@ function playAudio() {
 }
 
 .jp-word.incorrect { border-bottom-color: #ef4444; color: #ef4444; }
+
+.jp-word.active {
+  border-bottom-color: #0ea5e9; border-bottom-width: 5px;
+  color: #0284c7; background: rgba(224, 242, 254, 0.35);
+  border-radius: 6px 6px 0 0;
+}
 
 .jp-word.locked { border-bottom-color: #10b981; color: #059669; }
 

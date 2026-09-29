@@ -243,19 +243,16 @@ export function useJpInput(options: JpInputOptions) {
       fixNextIncorrectWord();
       return true;
     }
-    // Input：所有意群都已输入（非空）→ 空格提交；否则中间词仅「拼完整」才放行空格前进
-    const allFilled =
-      userInputWords.length > 0 && userInputWords.every((w) => w.userInput !== "");
-    if (allFilled) {
-      submit?.();
-      return true;
-    }
+    // Input：空格只负责「跳到下一个空」，不做对错拦截（错/空都留到提交时统一判定）；
+    // 只有最后一个意群的空格才触发提交判定。
     const active = getActiveWord();
     if (!active) return true;
     const last = userInputWords[userInputWords.length - 1];
-    if (active.id === last.id) return true; // 最后一个词未填完，吞空格
-    if (!isWordComplete(active)) return true; // 中间词不完整，吞空格
-    return false; // 中间词完整，放行空格（正常前进）
+    if (active.id === last.id) {
+      submit?.();
+      return true;
+    }
+    return false; // 自由前进，跳到下一个意群
   }
 
   function handleKeyboardInput(e: KeyboardEvent, submit?: () => void) {
