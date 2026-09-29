@@ -11,7 +11,7 @@
             <span class="tip-text">
               不会日语输入法？从 <strong>五十音</strong> 开始，边练边熟悉罗马字输入
             </span>
-            <button class="tip-close" @click="toggleTipConfirm" title="关闭">×</button>
+            <button class="tip-close" @click.stop="toggleTipConfirm" title="关闭">×</button>
             <transition name="menu-fade">
               <div v-if="tipConfirmOpen" class="tip-confirm" @click.stop>
                 <div class="tip-confirm-text">不再显示此提示？</div>
@@ -50,7 +50,7 @@
               v-for="pack in nonVocabPacks"
               :key="pack.id"
               class="course-pack"
-              :class="{ expanded: isExpanded(pack.id) }"
+              :class="{ expanded: isExpanded(pack.id), 'menu-open': openMenuId === pack.id }"
             >
               <!-- 课程包标题（可点击折叠） -->
               <div
@@ -114,7 +114,7 @@
             </section>
 
             <!-- ===== 单词课程收纳（高考日语 + N1–N5，放在句子生长之后）===== -->
-            <section class="vocab-collection" :class="{ expanded: collectionExpanded }">
+            <section class="vocab-collection" :class="{ expanded: collectionExpanded, 'menu-open': collectionMenuOpen }">
               <div
                 class="collection-header"
                 role="button"
@@ -139,7 +139,7 @@
                     v-for="pack in vocabPacks"
                     :key="pack.id"
                     class="course-pack"
-                    :class="{ expanded: isExpanded(pack.id) }"
+                    :class="{ expanded: isExpanded(pack.id), 'menu-open': openMenuId === pack.id }"
                   >
                     <!-- 课程包标题（可点击折叠） -->
                     <div
@@ -536,6 +536,8 @@ function openManage() {
 const openMenuId = ref("");
 const openManageMenuId = ref("");
 const openManageCourseMenuId = ref("");
+// 词汇收纳里是否有某个课程包菜单展开（用于临时放开收纳容器的 overflow 裁剪）
+const collectionMenuOpen = computed(() => vocabPacks.value.some((p) => openMenuId.value === p.id));
 
 function togglePackMenu(id: string) {
   openMenuId.value = openMenuId.value === id ? "" : id;
@@ -809,6 +811,7 @@ async function createFolder() {
   border-radius: 18px;
   background: #ffffff;
   box-shadow: 0 2px 12px rgba(186, 230, 253, 0.18);
+  overflow: hidden;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -826,7 +829,6 @@ async function createFolder() {
   padding: 22px 24px;
   background: linear-gradient(120deg, #e0f2fe 0%, #d4efff 50%, #c7edff 100%);
   border: none;
-  border-radius: 17px 17px 0 0;
   cursor: pointer;
   font-family: inherit;
   text-align: left;
@@ -887,7 +889,6 @@ async function createFolder() {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  border-radius: 0 0 17px 17px;
 }
 
 @media (max-width: 768px) {
@@ -920,6 +921,7 @@ async function createFolder() {
   border-radius: 16px;
   background: #ffffff;
   box-shadow: 0 2px 12px rgba(186, 230, 253, 0.15);
+  overflow: hidden;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -951,7 +953,6 @@ async function createFolder() {
 .course-pack.expanded .pack-header {
   background: linear-gradient(135deg, #ffffff 0%, #f5fbff 100%);
   border-bottom: 1px solid #e8f6ff;
-  border-radius: 15px 15px 0 0;
 }
 
 .pack-header-left {
@@ -1205,6 +1206,13 @@ async function createFolder() {
 /* 「⋯」向左挪约两个字符，避免紧贴右侧边 */
 .pack-menu {
   margin-right: 2em;
+}
+
+/* 菜单展开时临时放开卡片 overflow 裁剪，让下拉菜单不被切掉；
+   平时保持 hidden 以正确裁出圆角（否则渐变/背景会顶破圆角）。 */
+.course-pack.menu-open,
+.vocab-collection.menu-open {
+  overflow: visible;
 }
 
 .pack-icon-btn.pack-more,

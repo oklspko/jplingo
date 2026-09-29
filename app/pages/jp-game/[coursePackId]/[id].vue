@@ -776,15 +776,8 @@ function playAudio() {
 .jp-word.locked { border-bottom-color: #10b981; color: #059669; }
 
 .jp-word.incorrect.editing {
-  border-bottom-color: #f59e0b; border-bottom-width: 5px;
-  color: #f59e0b; background: rgba(254, 243, 199, 0.4);
-  border-radius: 6px 6px 0 0;
-  animation: pulse-edit 1.2s ease-in-out infinite;
-}
-
-@keyframes pulse-edit {
-  0%, 100% { background: rgba(254, 243, 199, 0.4); }
-  50% { background: rgba(254, 243, 199, 0.8); }
+  border-bottom-color: #f59e0b;
+  color: #f59e0b;
 }
 
 .jp-word-input { line-height: 1; }

@@ -65,3 +65,18 @@ body {
     padding-bottom: calc(64px + env(safe-area-inset-bottom));
   }
 }
+
+/* 点击（鼠标/触屏）时不再出现浏览器默认的方形焦点框与触屏高亮方框，
+   改为键盘导航时才显示随圆角圆滑的焦点描边，避免圆角按钮被方框阴影破坏观感。 */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 2px solid rgba(14, 165, 233, 0.55);
+  outline-offset: 2px;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
