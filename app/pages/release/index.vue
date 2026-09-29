@@ -56,7 +56,7 @@
           >
             加速下载失败？改用 GitHub 官方直连
           </a>
-          <p class="download-hint">安装包约 40~50MB，含全部音频与词典</p>
+          <p class="download-hint">安装包约 95MB，含全部音频与词典</p>
         </section>
 
         <section class="release-install">

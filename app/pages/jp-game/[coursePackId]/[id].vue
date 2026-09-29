@@ -36,7 +36,14 @@
               <span class="key">空格</span>
               跳到下一空
             </div>
-            <button class="space-hint-close" @click="dismissSpaceHint" title="不再提示">×</button>
+            <button class="space-hint-close" @click="toggleSpaceHintConfirm" title="关闭">×</button>
+            <div v-if="spaceHintConfirmOpen" class="space-hint-confirm" @click.stop>
+              <div class="space-hint-confirm-text">不再显示此提示？</div>
+              <div class="space-hint-confirm-actions">
+                <button class="space-hint-confirm-btn" @click="dismissSpaceHintForever">不再显示</button>
+                <button class="space-hint-confirm-btn ghost" @click="dismissSpaceHintOnce">仅本次关闭</button>
+              </div>
+            </div>
           </div>
         </transition>
 
@@ -305,9 +312,18 @@ function pickRandomMotivation() {
   randomMotivation.value = motivations[Math.floor(Math.random() * motivations.length)];
 }
 
-function dismissSpaceHint() {
+const spaceHintConfirmOpen = ref(false);
+function toggleSpaceHintConfirm() {
+  spaceHintConfirmOpen.value = !spaceHintConfirmOpen.value;
+}
+function dismissSpaceHintForever() {
   showSpaceHint.value = false;
+  spaceHintConfirmOpen.value = false;
   localStorage.setItem("jp-space-hint-dismissed", "true");
+}
+function dismissSpaceHintOnce() {
+  showSpaceHint.value = false;
+  spaceHintConfirmOpen.value = false;
 }
 
 // ===== 练习进度续学：退出时记录当前词，重进时恢复到该词 =====
@@ -497,6 +513,11 @@ function handleKeydown(e: KeyboardEvent) {
 function onInput(e: Event) {
   playTypingSound();
   const el = e.target as HTMLInputElement;
+  if (result.value === "correct" && el.value.endsWith(" ")) {
+    // 手机虚拟键盘按空格常不触发 keydown；答对后空格 = 进入下一题（与桌面空格一致）。
+    advanceOrComplete();
+    return;
+  }
   if (!isComposing.value && el.value.endsWith(" ")) {
     // 手机虚拟键盘按空格常不触发 keydown，这里从 input 事件兜底。
     // 空格被消费（吞掉/修复跳转/提交）时 handleSpace 已更新 inputValue，不再用 DOM 值覆盖。
@@ -674,6 +695,62 @@ function playAudio() {
 }
 
 .space-hint-close:hover { background: #fde68a; color: #78350f; }
+
+.space-hint-confirm {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  min-width: 220px;
+  background: #ffffff;
+  border: 1px solid #fde68a;
+  border-radius: 10px;
+  box-shadow: 0 10px 28px rgba(7, 89, 133, 0.18);
+  padding: 10px 12px;
+  z-index: 30;
+}
+
+.space-hint-confirm-text {
+  font-size: 13px;
+  color: #78350f;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.space-hint-confirm-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.space-hint-confirm-btn {
+  flex: 1;
+  padding: 6px 10px;
+  border: 1px solid #e0f2fe;
+  border-radius: 7px;
+  background: #f0f9ff;
+  color: #0369a1;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.space-hint-confirm-btn:hover {
+  background: #e0f2fe;
+  color: #0284c7;
+}
+
+.space-hint-confirm-btn.ghost {
+  background: #fff;
+  border-color: #fde68a;
+  color: #b45309;
+}
+
+.space-hint-confirm-btn.ghost:hover {
+  background: #fef3c7;
+  color: #92400e;
+}
 
 .jp-input-area { position: relative; padding: 12px 0; width: 100%; }
 .jp-words { display: flex; flex-wrap: wrap; justify-content: center; gap: clamp(12px, 2vw, 30px); min-height: 90px; }

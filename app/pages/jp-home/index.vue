@@ -6,11 +6,21 @@
         <header class="home-header">
           <h1>jp-lingo</h1>
           <p class="subtitle">用连词成句的方式学习日语</p>
-          <div class="beginner-tip">
+          <div v-if="showBeginnerTip" class="beginner-tip">
             <span class="tip-icon">💡</span>
             <span class="tip-text">
               不会日语输入法？从 <strong>五十音</strong> 开始，边练边熟悉罗马字输入
             </span>
+            <button class="tip-close" @click="toggleTipConfirm" title="关闭">×</button>
+            <transition name="menu-fade">
+              <div v-if="tipConfirmOpen" class="tip-confirm" @click.stop>
+                <div class="tip-confirm-text">不再显示此提示？</div>
+                <div class="tip-confirm-actions">
+                  <button class="tip-confirm-btn" @click="dismissTipForever">不再显示</button>
+                  <button class="tip-confirm-btn ghost" @click="dismissTipOnce">仅本次关闭</button>
+                </div>
+              </div>
+            </transition>
           </div>
           <div class="home-actions">
             <button class="action-btn" @click="openImport">
@@ -540,9 +550,32 @@ function closeAllMenus() {
   openMenuId.value = "";
   openManageMenuId.value = "";
   openManageCourseMenuId.value = "";
+  tipConfirmOpen.value = false;
 }
 
-onMounted(() => document.addEventListener("click", closeAllMenus));
+// ===== 新手提示条：可关闭 × + 「是否不再显示」询问 =====
+const showBeginnerTip = ref(true);
+const tipConfirmOpen = ref(false);
+
+function toggleTipConfirm() {
+  tipConfirmOpen.value = !tipConfirmOpen.value;
+}
+function dismissTipForever() {
+  showBeginnerTip.value = false;
+  tipConfirmOpen.value = false;
+  localStorage.setItem("jp-beginner-tip-dismissed", "true");
+}
+function dismissTipOnce() {
+  showBeginnerTip.value = false;
+  tipConfirmOpen.value = false;
+}
+
+onMounted(() => {
+  document.addEventListener("click", closeAllMenus);
+  if (localStorage.getItem("jp-beginner-tip-dismissed") === "true") {
+    showBeginnerTip.value = false;
+  }
+});
 onUnmounted(() => document.removeEventListener("click", closeAllMenus));
 
 function courseTitleOf(packId: string, courseId: string): string {
@@ -634,6 +667,7 @@ async function createFolder() {
 
 /* 新手提示条 */
 .beginner-tip {
+  position: relative;
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -669,6 +703,85 @@ async function createFolder() {
   border-radius: 5px;
 }
 
+.tip-close {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  border: none;
+  background: transparent;
+  color: #b45309;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tip-close:hover {
+  background: #fde68a;
+  color: #78350f;
+}
+
+.tip-confirm {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  min-width: 220px;
+  background: #ffffff;
+  border: 1px solid #fde68a;
+  border-radius: 10px;
+  box-shadow: 0 10px 28px rgba(7, 89, 133, 0.18);
+  padding: 10px 12px;
+  z-index: 30;
+  text-align: left;
+}
+
+.tip-confirm-text {
+  font-size: 13px;
+  color: #78350f;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.tip-confirm-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.tip-confirm-btn {
+  flex: 1;
+  padding: 6px 10px;
+  border: 1px solid #e0f2fe;
+  border-radius: 7px;
+  background: #f0f9ff;
+  color: #0369a1;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.tip-confirm-btn:hover {
+  background: #e0f2fe;
+  color: #0284c7;
+}
+
+.tip-confirm-btn.ghost {
+  background: #fff;
+  border-color: #fde68a;
+  color: #b45309;
+}
+
+.tip-confirm-btn.ghost:hover {
+  background: #fef3c7;
+  color: #92400e;
+}
+
 @media (max-width: 768px) {
   .beginner-tip {
     padding: 10px 14px;
@@ -696,7 +809,6 @@ async function createFolder() {
   border-radius: 18px;
   background: #ffffff;
   box-shadow: 0 2px 12px rgba(186, 230, 253, 0.18);
-  overflow: hidden;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -714,6 +826,7 @@ async function createFolder() {
   padding: 22px 24px;
   background: linear-gradient(120deg, #e0f2fe 0%, #d4efff 50%, #c7edff 100%);
   border: none;
+  border-radius: 17px 17px 0 0;
   cursor: pointer;
   font-family: inherit;
   text-align: left;
@@ -774,6 +887,7 @@ async function createFolder() {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  border-radius: 0 0 17px 17px;
 }
 
 @media (max-width: 768px) {
@@ -806,7 +920,6 @@ async function createFolder() {
   border-radius: 16px;
   background: #ffffff;
   box-shadow: 0 2px 12px rgba(186, 230, 253, 0.15);
-  overflow: hidden;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -838,6 +951,7 @@ async function createFolder() {
 .course-pack.expanded .pack-header {
   background: linear-gradient(135deg, #ffffff 0%, #f5fbff 100%);
   border-bottom: 1px solid #e8f6ff;
+  border-radius: 15px 15px 0 0;
 }
 
 .pack-header-left {
