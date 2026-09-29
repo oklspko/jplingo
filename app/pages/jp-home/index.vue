@@ -695,6 +695,7 @@ async function createFolder() {
 }
 
 .collection-title-block {
+  flex: 1;
   min-width: 0;
 }
 
@@ -816,6 +817,8 @@ async function createFolder() {
   margin: 0;
   color: #075985;
   font-weight: 600;
+  flex: 1;
+  min-width: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

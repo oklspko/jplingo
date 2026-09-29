@@ -185,9 +185,14 @@ export function calcWordWidth(kana: string, isSingleKana: boolean): number {
 export function katakanaToHiragana(str: string): string {
   // 只转换片假名字母（ァ〜ヶ），排除 ー(长音)・(中点)等与平假名共享的符号，
   // 否则 ー 会被错减成 ゜。长音符 ー 在日文中不分平/片，应原样保留。
-  return str.replace(/[\u30a1-\u30f6]/g, (ch) =>
-    String.fromCharCode(ch.charCodeAt(0) - 0x60),
-  );
+  return str
+    .replace(/[\u30a1-\u30f6]/g, (ch) =>
+      String.fromCharCode(ch.charCodeAt(0) - 0x60),
+    )
+    // 旧版 katakanaToHiragana 曾把 ー(U+30FC) 错减成 ゜(U+309C)，已导入的旧数据里
+    // 长音被存成了孤立的 ゜（如「すま゜とふぉん」），导致提示出现垃圾字符 suma゜tofon。
+    // 这里把孤立的 ゜ 还原回长音符 ー（真实语料中不会出现独立的 ゜，安全）。
+    .replace(/゜/g, "ー");
 }
 
 export function hiraganaToKatakana(str: string): string {

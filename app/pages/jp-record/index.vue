@@ -92,11 +92,13 @@
           </div>
           <div v-else class="item-packs">
             <div v-for="p in activePackGroups" :key="p.packId" class="item-pack">
-              <div class="item-pack-head">
+              <button class="item-pack-head" @click="toggleRecordPack(p.packId)">
+                <span class="pack-group-arrow" :class="{ open: openRecordPacks.has(p.packId) }">▶</span>
                 <span class="pack-group-icon">📁</span>
                 <span class="pack-group-title">{{ p.packTitle }}</span>
-              </div>
-              <div class="item-groups">
+                <span class="pack-group-count">{{ p.courses.length }} 课</span>
+              </button>
+              <div v-if="openRecordPacks.has(p.packId)" class="item-groups">
                 <div v-for="g in p.courses" :key="g.courseId" class="item-group">
                   <button class="group-head" @click="toggleGroup(g.courseId)">
                     <span class="group-arrow" :class="{ open: openGroups.has(g.courseId) }">▶</span>
@@ -172,6 +174,7 @@ const items = ref<ItemRow[]>([]);
 const activeTab = ref<LearnedKind>("word");
 const openGroups = ref<Set<string>>(new Set());
 const openCoursePacks = ref<Set<string>>(new Set());
+const openRecordPacks = ref<Set<string>>(new Set());
 
 // 模块级缓存：同一页面加载内跨 load() 复用
 let packsCache: JpCoursePack[] | null = null;
@@ -333,6 +336,13 @@ function toggleCoursePack(packId: string) {
   if (next.has(packId)) next.delete(packId);
   else next.add(packId);
   openCoursePacks.value = next;
+}
+
+function toggleRecordPack(packId: string) {
+  const next = new Set(openRecordPacks.value);
+  if (next.has(packId)) next.delete(packId);
+  else next.add(packId);
+  openRecordPacks.value = next;
 }
 
 function pct(c: CourseRow) {
@@ -665,8 +675,17 @@ function pct(c: CourseRow) {
   display: flex;
   align-items: center;
   gap: 10px;
+  width: 100%;
   padding: 12px 18px;
   background: linear-gradient(120deg, #e0f2fe 0%, #d4efff 100%);
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: left;
+}
+
+.item-pack-head:hover {
+  background: linear-gradient(120deg, #d4efff 0%, #c7edff 100%);
 }
 
 .item-pack .item-groups {
