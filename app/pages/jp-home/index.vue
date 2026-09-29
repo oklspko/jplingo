@@ -14,13 +14,19 @@
           </div>
           <div class="home-actions">
             <button class="action-btn action-btn--primary" @click="openImport">
-              <span class="action-ico">📥</span>导入课程包
+              <svg class="action-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 4v11" /><path d="m7 11 5 5 5-5" /><path d="M4 19a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-1z" />
+              </svg>导入课程包
             </button>
             <button class="action-btn" @click="createFolder">
-              <span class="action-ico">🗂</span>新建文件夹
+              <svg class="action-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M3 6a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6z" /><path d="M12 10v6M9 13h6" />
+              </svg>新建文件夹
             </button>
             <button class="action-btn" @click="openManage">
-              <span class="action-ico">📂</span>分组管理
+              <svg class="action-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="4" y1="6" x2="20" y2="6" /><line x1="4" y1="12" x2="20" y2="12" /><line x1="4" y1="18" x2="20" y2="18" /><circle cx="9" cy="6" r="2" /><circle cx="15" cy="12" r="2" /><circle cx="7" cy="18" r="2" />
+              </svg>分组管理
             </button>
           </div>
         </header>
@@ -51,19 +57,20 @@
                   <span class="pack-level">{{ pack.level }}</span>
                 </div>
                 <div class="pack-header-right">
-                  <span v-if="isImported(pack.id)" class="imported-badge">已导入</span>
-                  <button
-                    v-if="isImported(pack.id)"
-                    class="pack-icon-btn"
-                    title="重命名"
-                    @click.stop="renamePack(pack.id)"
-                  >✏️</button>
-                  <button
-                    v-if="isImported(pack.id)"
-                    class="pack-icon-btn danger"
-                    title="删除"
-                    @click.stop="removePack(pack.id)"
-                  >🗑</button>
+                  <div v-if="isImported(pack.id)" class="pack-menu" @click.stop>
+                    <button
+                      class="pack-icon-btn pack-more"
+                      :class="{ 'pack-more-open': openMenuId === pack.id }"
+                      title="更多操作"
+                      @click="togglePackMenu(pack.id)"
+                    >⋯</button>
+                    <transition name="menu-fade">
+                      <div v-if="openMenuId === pack.id" class="pack-menu-dropdown">
+                        <button class="pack-menu-item" @click="renamePack(pack.id); closeAllMenus()">✏️ 重命名</button>
+                        <button class="pack-menu-item danger" @click="removePack(pack.id); closeAllMenus()">🗑 删除</button>
+                      </div>
+                    </transition>
+                  </div>
                 </div>
               </div>
 
@@ -139,13 +146,20 @@
                         <span class="pack-level">{{ pack.level }}</span>
                       </div>
                       <div class="pack-header-right">
-                        <span v-if="isImported(pack.id)" class="imported-badge">已导入</span>
-                        <button
-                          v-if="isImported(pack.id)"
-                          class="pack-icon-btn danger"
-                          title="删除"
-                          @click.stop="removePack(pack.id)"
-                        >🗑</button>
+                        <div v-if="isImported(pack.id)" class="pack-menu" @click.stop>
+                          <button
+                            class="pack-icon-btn pack-more"
+                            :class="{ 'pack-more-open': openMenuId === pack.id }"
+                            title="更多操作"
+                            @click="togglePackMenu(pack.id)"
+                          >⋯</button>
+                          <transition name="menu-fade">
+                            <div v-if="openMenuId === pack.id" class="pack-menu-dropdown">
+                              <button class="pack-menu-item" @click="renamePack(pack.id); closeAllMenus()">✏️ 重命名</button>
+                              <button class="pack-menu-item danger" @click="removePack(pack.id); closeAllMenus()">🗑 删除</button>
+                            </div>
+                          </transition>
+                        </div>
                       </div>
                     </div>
 
@@ -243,14 +257,20 @@
               <span class="manage-group-icon">📁</span>
               <span class="manage-group-name">{{ p.title }}</span>
               <span class="manage-group-count">{{ p.courses.length }} 课</span>
-              <button class="manage-mini" title="重命名文件夹" @click="renamePack(p.id)">✏️</button>
-              <button class="manage-mini" title="按名称排序" @click="sortPackByName(p.id)">🔤 排序</button>
-              <button class="manage-mini danger" title="删除文件夹" @click="removePack(p.id)">🗑</button>
+              <div class="manage-menu" @click.stop>
+                <button class="manage-mini manage-more" title="更多操作" @click="toggleManageMenu(p.id)">⋯</button>
+                <transition name="menu-fade">
+                  <div v-if="openManageMenuId === p.id" class="manage-menu-dropdown">
+                    <button class="manage-menu-item" @click="renamePack(p.id); closeAllMenus()">✏️ 重命名文件夹</button>
+                    <button class="manage-menu-item" @click="sortPackByName(p.id); closeAllMenus()">🔤 按名称排序</button>
+                    <button class="manage-menu-item danger" @click="removePack(p.id); closeAllMenus()">🗑 删除文件夹</button>
+                  </div>
+                </transition>
+              </div>
             </div>
             <div class="manage-course-list">
               <div v-for="cid in p.courses" :key="cid" class="manage-course-row">
                 <span class="manage-course-name">{{ courseTitleOf(p.id, cid) }}</span>
-                <button class="manage-mini" title="重命名课程" @click="renameCourse(p.id, cid)">✏️</button>
                 <select
                   class="manage-move"
                   title="移动到文件夹"
@@ -264,7 +284,15 @@
                     :disabled="tp.id === p.id"
                   >{{ tp.title }}</option>
                 </select>
-                <button class="manage-mini danger" title="删除课程" @click="deleteCourse(p.id, cid)">🗑</button>
+                <div class="manage-menu" @click.stop>
+                  <button class="manage-mini manage-more" title="更多操作" @click="toggleManageCourseMenu(`${p.id}/${cid}`)">⋯</button>
+                  <transition name="menu-fade">
+                    <div v-if="openManageCourseMenuId === `${p.id}/${cid}`" class="manage-menu-dropdown">
+                      <button class="manage-menu-item" @click="renameCourse(p.id, cid); closeAllMenus()">✏️ 重命名课程</button>
+                      <button class="manage-menu-item danger" @click="deleteCourse(p.id, cid); closeAllMenus()">🗑 删除课程</button>
+                    </div>
+                  </transition>
+                </div>
               </div>
               <div v-if="p.courses.length === 0" class="manage-course-empty">（空文件夹）</div>
             </div>
@@ -276,7 +304,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, ref } from "vue";
+import { computed, onMounted, onUnmounted, ref } from "vue";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
 import {
   fetchCoursePacks,
@@ -493,6 +521,29 @@ const showManage = ref(false);
 function openManage() {
   showManage.value = true;
 }
+
+// ===== 三点拓展菜单（首页课程包 / 分组管理） =====
+const openMenuId = ref("");
+const openManageMenuId = ref("");
+const openManageCourseMenuId = ref("");
+
+function togglePackMenu(id: string) {
+  openMenuId.value = openMenuId.value === id ? "" : id;
+}
+function toggleManageMenu(id: string) {
+  openManageMenuId.value = openManageMenuId.value === id ? "" : id;
+}
+function toggleManageCourseMenu(key: string) {
+  openManageCourseMenuId.value = openManageCourseMenuId.value === key ? "" : key;
+}
+function closeAllMenus() {
+  openMenuId.value = "";
+  openManageMenuId.value = "";
+  openManageCourseMenuId.value = "";
+}
+
+onMounted(() => document.addEventListener("click", closeAllMenus));
+onUnmounted(() => document.removeEventListener("click", closeAllMenus));
 
 function courseTitleOf(packId: string, courseId: string): string {
   return getImportedCourse(packId, courseId)?.title || courseId;
@@ -1004,8 +1055,10 @@ async function createFolder() {
 }
 
 .action-ico {
-  font-size: 17px;
-  line-height: 1;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  display: inline-block;
 }
 
 .action-btn--primary {
@@ -1035,17 +1088,90 @@ async function createFolder() {
     justify-content: center;
   }
   .action-ico {
-    font-size: 14px;
+    width: 15px;
+    height: 15px;
   }
 }
 
-.imported-badge {
-  font-size: 12px;
-  color: #059669;
-  background: #ecfdf5;
-  border: 1px solid #a7f3d0;
-  padding: 2px 8px;
-  border-radius: 8px;
+/* ===== 三点拓展菜单 ===== */
+.pack-menu,
+.manage-menu {
+  position: relative;
+  display: inline-flex;
+}
+
+.pack-icon-btn.pack-more,
+.manage-more {
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.pack-icon-btn.pack-more-open {
+  background: #f0f9ff;
+  border-color: #7dd3fc;
+  color: #0284c7;
+}
+
+.pack-menu-dropdown,
+.manage-menu-dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  min-width: 148px;
+  background: #ffffff;
+  border: 1px solid #e0f2fe;
+  border-radius: 10px;
+  box-shadow: 0 10px 28px rgba(7, 89, 133, 0.18);
+  padding: 5px;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.pack-menu-item,
+.manage-menu-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 7px;
+  background: transparent;
+  color: #0369a1;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  text-align: left;
+  white-space: nowrap;
+  transition: background 0.15s, color 0.15s;
+}
+
+.pack-menu-item:hover,
+.manage-menu-item:hover {
+  background: #f0f9ff;
+  color: #0284c7;
+}
+
+.pack-menu-item.danger,
+.manage-menu-item.danger {
+  color: #dc2626;
+}
+
+.pack-menu-item.danger:hover,
+.manage-menu-item.danger:hover {
+  background: #fef2f2;
+}
+
+.menu-fade-enter-active,
+.menu-fade-leave-active {
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+.menu-fade-enter-from,
+.menu-fade-leave-to {
+  opacity: 0;
+  transform: translateY(-4px);
 }
 
 .pack-icon-btn {
