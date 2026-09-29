@@ -1035,22 +1035,23 @@ async function createFolder() {
   gap: 8px;
   padding: 11px 22px;
   border-radius: 999px;
-  border: 1.5px solid transparent;
-  background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);
-  color: #fff;
+  border: 1.5px solid #bae6fd;
+  background: #ffffff;
+  color: #0369a1;
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
   font-family: inherit;
   transition: all 0.2s;
-  box-shadow: 0 6px 16px rgba(2, 132, 199, 0.32);
+  box-shadow: 0 2px 8px rgba(186, 230, 253, 0.18);
 }
 
 .action-btn:hover {
-  background: linear-gradient(135deg, #0ea5e9 0%, #0369a1 100%);
-  color: #fff;
+  background: #f0f9ff;
+  border-color: #7dd3fc;
+  color: #0284c7;
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(2, 132, 199, 0.4);
+  box-shadow: 0 6px 18px rgba(125, 211, 252, 0.28);
 }
 
 .action-ico {
