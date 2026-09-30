@@ -1,5 +1,6 @@
 package com.jplingo.app;
 
+import android.os.StatFs;
 import android.util.Log;
 
 import com.getcapacitor.JSObject;
@@ -86,6 +87,21 @@ public class JpTtsPlugin extends Plugin {
                 }
                 File dir = modelDir();
                 try {
+                    // 空间预检：解压期间「压缩包 + 解压产物」同时存在（实测 123MB 包解压后 145MB），
+                    // 空间不够时直接给明确提示，而不是让 bz2 解到一半报一句「解压失败」。
+                    long need = (long) (archive.length() * 2.2) + 8L * 1024 * 1024;
+                    StatFs stat = new StatFs(getContext().getFilesDir().getAbsolutePath());
+                    long free = stat.getAvailableBytes();
+                    if (free < need) {
+                        call.reject(
+                            String.format(
+                                "存储空间不足：解压需要约 %d MB，当前可用 %d MB",
+                                need / 1024 / 1024,
+                                free / 1024 / 1024
+                            )
+                        );
+                        return;
+                    }
                     if (!dir.exists() && !dir.mkdirs()) {
                         throw new Exception("无法创建模型目录");
                     }

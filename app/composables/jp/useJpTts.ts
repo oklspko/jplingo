@@ -22,7 +22,9 @@ import { apkDownloadCandidates } from "./useJpApkDownload";
 // 模型包落在 Directory.Data（= Android filesDir），与原生插件读取的目录一致
 export const TTS_ARCHIVE_NAME = "tts-model.tar.bz2";
 export const TTS_MODEL_DIR = "tts-ja";
-// sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2 的精确大小（用于进度与完整性校验）
+// sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2 的精确大小
+// （2026-10-01 实测：官方直连与 gh-proxy 镜像下载均为该字节数，sha256 = 82fa96f9…c427，
+//   与 GitHub Release API 的 digest 一致；解压后 145,325,056 B）
 export const TTS_MODEL_BYTES = 128774318;
 // 试听文本（纯假名，避免依赖模型对汉字的处理）
 export const TTS_TEST_TEXT = "こんにちは、にほんごのおんせいです。";
@@ -203,8 +205,11 @@ export async function downloadOfflineTtsModel(url = TTS_MODEL_URL_DEFAULT): Prom
           directory: Directory.Data,
         });
         const size = Number(stat?.size || 0);
-        if (size < TTS_MODEL_BYTES * 0.95) {
-          throw new Error(`文件不完整（${size} 字节）`);
+        // Capacitor 原生下载只按字节流写文件、不校验 content-length（见
+        // @capacitor/filesystem/android 的 doDownloadInBackground），被截断也会「成功」，
+        // 所以这里必须自己比对：小于官方字节数一律判失败并换下一个地址。
+        if (size < TTS_MODEL_BYTES) {
+          throw new Error(`文件不完整（${size} / ${TTS_MODEL_BYTES} 字节）`);
         }
         lastError = "";
         break;

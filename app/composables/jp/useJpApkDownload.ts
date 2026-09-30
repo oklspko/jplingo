@@ -9,11 +9,15 @@ export const GITHUB_APK_LATEST_URL =
 
 // GitHub 加速镜像前缀（顺序即优先级，可自行增删/替换）。
 // 格式：{前缀}{完整 GitHub URL}，例如 https://gh-proxy.com/https://github.com/...
+// 2026-10-01 实测（对 tts-models 的 123MB 资产发 Range 请求）：gh-proxy / ghfast / ghproxy.net
+// 返回 206 且前 1MB 字节与官方直连完全一致；gh.llkk.cc 已连不上（原第 2 项，换成 ghfast.top）。
 export const APK_MIRROR_PREFIXES = [
   "https://gh-proxy.com/",
-  "https://gh.llkk.cc/",
+  "https://ghfast.top/",
   "https://ghproxy.net/",
 ];
+
+// 离线语音模型（约123MB）走的是同一套镜像前缀：见 useJpTts.ts 的 downloadOfflineTtsModel。
 
 // 直连 URL → 候选下载地址（加速镜像在前，官方直连兜底）。
 // 仅对 github.com 域名叠加镜像；自定义 CDN（NUXT_APK_URL 覆盖）原样返回。
