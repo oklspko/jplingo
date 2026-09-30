@@ -1,5 +1,6 @@
 import { Capacitor } from "@capacitor/core";
 import { cacheBustUrl } from "~/composables/jp/useJpBuildId";
+import { refreshOfflineTtsStatus, synthesizeOffline } from "~/composables/jp/useJpTts";
 
 let audioCtx: AudioContext | null = null;
 let lastTypingTime = 0;
@@ -103,7 +104,8 @@ export function playErrorSound() {
 }
 
 /* ============================================================
-   日语发音 —— 优先播放预生成的讯飞音频，未生成时退回浏览器 TTS
+   日语发音 —— 优先播放预生成的讯飞音频；
+   没有音频时依次退回：内置离线引擎（装了模型）→ 系统 TTS → 浏览器 TTS
    ============================================================ */
 
 // 音频静态目录。若以后把音频挪到自托管服务器，改这里即可（如 https://api.jplingo.cn/audio）
@@ -282,16 +284,52 @@ async function speakViaNativeTts(text: string, rate: number): Promise<boolean> {
   }
 }
 
-/** 兜底发声：原生系统 TTS 优先（APK），其次浏览器 TTS（网页） */
+/**
+ * 内置离线引擎（sherpa-onnx + Supertonic-3）：合成到本地 WAV 再播放。
+ * 只有装了模型（「我的」页下载）才会真正发声，否则立刻返回 false 交给系统 TTS。
+ * 导出给「我的」页试听用。
+ */
+export async function speakOfflineNow(text: string, rate = 1.0): Promise<boolean> {
+  if (!Capacitor.isNativePlatform()) return false;
+  const path = await synthesizeOffline(text, rate);
+  if (!path) return false;
+  try {
+    const el = ensureAudioEl();
+    // 本地 WAV 走 Capacitor 的 file:// 转换地址；语速已在合成时生效，不再二次变速
+    el.src = Capacitor.convertFileSrc(path);
+    el.playbackRate = 1;
+    el.currentTime = 0;
+    await el.play();
+    return true;
+  } catch (err) {
+    console.warn("[jplingo] 离线语音播放失败：", err);
+    return false;
+  }
+}
+
+/** 兜底发声：离线引擎（装了模型才有）→ 原生系统 TTS（APK）→ 浏览器 TTS（网页） */
 function speakFallback(text: string, rate: number) {
-  speakViaNativeTts(text, rate).then((ok) => {
-    if (!ok) speakViaWebSpeech(text, rate);
+  speakOfflineNow(text, rate).then((ok) => {
+    if (ok) return;
+    speakViaNativeTts(text, rate).then((ok2) => {
+      if (!ok2) speakViaWebSpeech(text, rate);
+    });
   });
+}
+
+// 原生端启动时探一次离线引擎状态：装了模型就顺手预热，首次发音不必等模型加载
+if (typeof window !== "undefined") {
+  try {
+    if (Capacitor.isNativePlatform()) refreshOfflineTtsStatus().catch(() => {});
+  } catch {
+    /* 桥未就绪时忽略，发音时会再探一次 */
+  }
 }
 
 /**
  * 日语发音
- * 优先级：预生成音频（音质最好、可离线）→ 系统 TTS（原生 App）→ 浏览器 TTS（网页）
+ * 优先级：预生成音频（音质最好）→ 内置离线引擎（离线、无需系统日语音色）
+ *        → 系统 TTS（原生 App）→ 浏览器 TTS（网页）
  * @param text 要发音的文本（假名或句子）
  * @param rate 语速（音频按 playbackRate 播放；TTS 走自身语速参数）
  */

@@ -64,6 +64,48 @@
           </div>
         </section>
 
+        <!-- ===== 离线发音（安卓端） ===== -->
+        <section class="me-section">
+          <h2>🔊 离线发音</h2>
+          <div class="tts-card">
+            <div class="tts-info">
+              <div class="tts-title">{{ ttsTitle }}</div>
+              <div class="tts-desc">{{ ttsDesc }}</div>
+              <div v-if="ttsTryMsg" class="tts-msg">{{ ttsTryMsg }}</div>
+              <div v-if="ttsError" class="tts-msg tts-msg--err">{{ ttsError }}</div>
+              <div v-if="ttsDownloading || ttsInstalling" class="tts-progress">
+                <div class="tts-progress-bar" :style="{ width: ttsProgressWidth }"></div>
+              </div>
+              <div v-if="ttsDownloading" class="tts-progress-text">{{ ttsProgressText }}</div>
+              <div v-else-if="ttsInstalling" class="tts-progress-text">
+                解压中…（约 123MB，请保持 App 在前台）
+              </div>
+            </div>
+            <div class="tts-actions">
+              <button
+                v-if="ttsSupported && !ttsInstalled"
+                class="tts-btn tts-btn--go"
+                :disabled="ttsDownloading || ttsInstalling"
+                @click="onDownloadTts"
+              >
+                {{ ttsDownloading || ttsInstalling ? "处理中…" : "下载离线语音" }}
+              </button>
+              <template v-else-if="ttsInstalled">
+                <button class="tts-btn" :disabled="ttsTrying" @click="onTryTts">
+                  {{ ttsTrying ? "合成中…" : "试听" }}
+                </button>
+                <button
+                  class="tts-btn tts-btn--danger"
+                  :disabled="ttsDownloading || ttsInstalling"
+                  @click="onDeleteTts"
+                >
+                  删除
+                </button>
+              </template>
+            </div>
+          </div>
+        </section>
+
         <!-- ===== 学习统计 ===== -->
         <section class="me-section">
           <h2>📊 学习统计</h2>
@@ -229,11 +271,83 @@ import {
   useJpStorage,
   calcStreak,
 } from "~/composables/jp/useJpStorage";
+import {
+  useJpTts,
+  ttsPercent,
+  TTS_MODEL_BYTES,
+  TTS_TEST_TEXT,
+} from "~/composables/jp/useJpTts";
+import { speakOfflineNow } from "~/composables/jp/useJpSound";
 
 const { record, resetRecord, syncNow } = useJpStorage();
 const { user, signOut } = useJpAuth();
 const isNative = Capacitor.isNativePlatform();
-const appVersion = useRuntimeConfig().public.appVersion;
+const runtimeConfig = useRuntimeConfig();
+const appVersion = runtimeConfig.public.appVersion;
+
+/* ---------- 离线发音引擎（sherpa-onnx 内置 TTS） ---------- */
+const {
+  supported: ttsSupported,
+  installed: ttsInstalled,
+  downloading: ttsDownloading,
+  installing: ttsInstalling,
+  progress: ttsProgress,
+  receivedBytes: ttsReceivedBytes,
+  error: ttsError,
+  refreshStatus: refreshTtsStatus,
+  downloadModel: downloadTtsModel,
+  deleteModel: deleteTtsModel,
+} = useJpTts();
+
+const ttsModelUrl = String(runtimeConfig.public.ttsModelUrl || "");
+const ttsTrying = ref(false);
+const ttsTryMsg = ref("");
+
+const ttsTitle = computed(() => {
+  if (!ttsSupported.value) return "不可用";
+  return ttsInstalled.value ? "已就绪 ✅" : "未安装";
+});
+
+const ttsDesc = computed(() => {
+  if (!ttsSupported.value) {
+    return "仅安卓 App 支持：网页端用浏览器自带语音，装到手机后才有内置离线引擎";
+  }
+  if (ttsInstalled.value) {
+    return "没有预生成音频的词句也能离线发音，不再依赖系统的日语音色";
+  }
+  return "装一次（约 123MB，建议 WiFi）后，没预生成音频的词句也能发音，全程离线";
+});
+
+const ttsProgressWidth = computed(() => `${ttsPercent(ttsProgress.value)}%`);
+
+const ttsProgressText = computed(() => {
+  const done = (ttsReceivedBytes.value / 1048576).toFixed(1);
+  const total = (TTS_MODEL_BYTES / 1048576).toFixed(0);
+  return `${done} / ${total} MB（${ttsPercent(ttsProgress.value)}%）`;
+});
+
+async function onDownloadTts() {
+  ttsTryMsg.value = "";
+  const ok = await downloadTtsModel(ttsModelUrl);
+  if (ok) ttsTryMsg.value = "✅ 离线语音已就绪，可以去练了";
+}
+
+async function onTryTts() {
+  if (ttsTrying.value) return;
+  ttsTrying.value = true;
+  ttsTryMsg.value = "";
+  const ok = await speakOfflineNow(TTS_TEST_TEXT);
+  ttsTrying.value = false;
+  ttsTryMsg.value = ok
+    ? "✅ 已播放（内置离线引擎合成）"
+    : "⚠️ 播放失败，可重新下载模型后再试";
+}
+
+async function onDeleteTts() {
+  ttsTryMsg.value = "";
+  const ok = await deleteTtsModel();
+  if (ok) ttsTryMsg.value = "已删除离线语音模型（释放约 123MB）";
+}
 
 const {
   checking,
@@ -247,7 +361,11 @@ const {
 } = useJpUpdate(appVersion);
 
 // 进入页面自动检测一次更新；用户也可点「检查更新」手动再查
-onMounted(checkUpdate);
+onMounted(() => {
+  checkUpdate();
+  // 离线语音状态（装了模型就顺手预热，首次发音不必等加载）
+  refreshTtsStatus();
+});
 
 function onCheckUpdate() {
   checkUpdate();
@@ -643,6 +761,126 @@ function doReset() {
   text-decoration: underline;
 }
 
+/* 离线发音 */
+.tts-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px 24px;
+  background: #fff;
+  border: 1px solid #e0f2fe;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(186, 230, 253, 0.15);
+}
+
+.tts-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.tts-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #075985;
+  margin-bottom: 6px;
+}
+
+.tts-desc {
+  font-size: 13px;
+  color: #7dd3fc;
+  line-height: 1.6;
+}
+
+.tts-msg {
+  font-size: 12px;
+  color: #059669;
+  margin-top: 8px;
+}
+
+.tts-msg--err {
+  color: #dc2626;
+}
+
+.tts-progress {
+  height: 6px;
+  margin-top: 12px;
+  background: #e8f6ff;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.tts-progress-bar {
+  height: 100%;
+  background: linear-gradient(135deg, #7dd3fc 0%, #0284c7 100%);
+  border-radius: 999px;
+  transition: width 0.3s;
+}
+
+.tts-progress-text {
+  font-size: 12px;
+  color: #0284c7;
+  margin-top: 6px;
+}
+
+.tts-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.tts-btn {
+  padding: 10px 20px;
+  border: 1px solid #e0f2fe;
+  border-radius: 10px;
+  background: #f5fbff;
+  color: #0369a1;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+  font-family: inherit;
+}
+
+.tts-btn:hover {
+  background: #e0f2fe;
+  border-color: #bae6fd;
+  color: #0284c7;
+}
+
+.tts-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.tts-btn--go {
+  background: linear-gradient(135deg, #7dd3fc 0%, #0284c7 100%);
+  border: none;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
+}
+
+.tts-btn--go:hover {
+  background: linear-gradient(135deg, #38bdf8 0%, #0369a1 100%);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.tts-btn--danger {
+  border-color: #fee2e2;
+  background: #fff5f5;
+  color: #dc2626;
+}
+
+.tts-btn--danger:hover {
+  background: #fee2e2;
+  border-color: #fca5a5;
+  color: #dc2626;
+}
+
 /* 统计卡片（紧凑横向布局） */
 .stats-grid {
   display: grid;
@@ -922,6 +1160,16 @@ function doReset() {
   .update-card {
     flex-direction: column;
     text-align: center;
+  }
+
+  .tts-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .tts-actions {
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .update-direct {

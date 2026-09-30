@@ -130,7 +130,11 @@ public class JpTtsPlugin extends Plugin {
         ).start();
     }
 
-    private void initTts() throws Exception {
+    /**
+     * 加载模型。加锁：前端可能连点发音 / 同时触发 prepare 与 speak，
+     * 并发进入会各自 new 一个 OfflineTts（内存翻倍、句柄泄漏）。
+     */
+    private synchronized void initTts() throws Exception {
         if (tts != null) return;
         File dir = modelDir();
         OfflineTtsSupertonicModelConfig supertonic = new OfflineTtsSupertonicModelConfig();

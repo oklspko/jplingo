@@ -22,6 +22,11 @@ export default defineNuxtConfig({
       apkUrl:
         process.env.NUXT_APK_URL ||
         "https://github.com/oklspko/jplingo/releases/latest/download/jp-lingo.apk",
+      // 离线日语语音模型包（sherpa-onnx Supertonic-3 int8，约 123MB，由 App 首次使用时下载）。
+      // 默认官方 GitHub Release；可用 NUXT_TTS_MODEL_URL 覆盖为自托管/镜像地址（如 https://api.jplingo.cn/tts/...）。
+      ttsModelUrl:
+        process.env.NUXT_TTS_MODEL_URL ||
+        "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2",
     },
   },
   app: {
