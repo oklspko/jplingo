@@ -41,7 +41,12 @@ Nuxt 3 日语学习应用：连词成句 + 语法词典 + 答题练习 + 离线�
   共 60 项断言，覆盖「镜像失败换下一个 / 截断包判失败 / 合成缓存与并发串行 / 状态探测自愈 / 发音回退链四级顺序 / 预合成 / 删除模型」（不进 CI）。
 - 音质与延迟实测（2026-10-01，本机桌面，`scripts/tts-quality-poc.py` 可复现）：采样率 **44100**（文档写的 24000 已过时）、语者 10 个；
   26 字句音频 3.79s / 合成 1.46s（RTF 0.38）；App 里最长的 66 字句音频 11.17s / 合成 3.56s（RTF 0.32，steps=6→2.78s，steps=4→2.00s）。
-  → 手机 CPU 更慢，所以切题时会预合成下一句（`prefetchJapanese`），发音按钮在合成期间显示「🔊 合成中…」。
+  → 手机 CPU 更慢，所以切题时会预合成下一句（`prefetchJapanese`），发音按钮在合成期间显示「🔊 合成中…」；
+  「我的」页会显示「上次合成：N 字 / X 秒」（`useJpTts` 的 `lastSynth`）——这是真机上唯一能拿到的性能数据，调 num_steps 就靠它。
+- APK 级已验证（不用真机就能查的几件事）：
+  - 4 个 arm64 `.so` 的 ELF `p_align=16384` 且 zip 偏移 16KB 对齐（`extractNativeLibs` 已显式设置）→ targetSdk 36 的 **16KB 页设备**不会 dlopen 失败；复查工具：`python tests/offline-tts/check-16kb.py <apk>`。
+  - 清单里有 `INTERNET` 权限（二进制 `AndroidManifest.xml` 字符串是 **UTF-16LE** 编码，用 ASCII 搜会被误判为「没有」）。
+  - Capacitor 的 `PluginCall.resolve/reject` 在**工作线程**调用是安全的：`MessageHandler.sendResponseMessage` 内部 `webView.post(() -> evaluateJavascript(...))` 会回到 UI 线程，所以插件在 `new Thread` 里 resolve 无需自己切线程。
 - 两条踩过的坑，改代码时别回退：
   1. `isReady()` 探测失败**不能缓存**（早期实现缓存了 `statusPromise` 并把 `supported` 置 false）——桥瞬时异常会让整场会话判定「不支持」，
      「我的」页连下载按钮都不显示，用户永远装不上模型；现在失败即清空缓存 + `statusChecked=false`，下次自动重探。

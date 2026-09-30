@@ -147,6 +147,9 @@ function serializeNative<T>(fn: () => Promise<T>): Promise<T> {
 /** 是否正在原生合成（「试听」/发音按钮可以据此显示「合成中…」） */
 export const synthesizing = ref(0);
 
+/** 上一次原生合成的耗时（真机上唯一能拿到的性能数据，用来决定 num_steps 等参数） */
+export const lastSynth = ref<{ text: string; ms: number } | null>(null);
+
 // 同一句正在合成中的任务：并发请求共用一次原生合成。
 // 真实场景：mp3 播放失败时 error 事件与 play() 拒绝会各触发一次回退，同一句会被请求两次。
 const inflight = new Map<string, Promise<string | null>>();
@@ -183,7 +186,13 @@ export async function synthesizeOffline(
   const task = (async () => {
     synthesizing.value++;
     try {
-      const r = await serializeNative(() => JpTts.speak({ text, speed: rate, sid }));
+      const r = await serializeNative(async () => {
+        const t0 = Date.now();
+        const res = await JpTts.speak({ text, speed: rate, sid });
+        // 只统计原生合成本身（不含排队等待），手机上诊断用
+        lastSynth.value = { text, ms: Date.now() - t0 };
+        return res;
+      });
       const path = r?.path || null;
       if (path) audioCache.set(key, path);
       return path;
@@ -312,6 +321,7 @@ export function useJpTts() {
     receivedBytes,
     error,
     synthesizing,
+    lastSynth,
     refreshStatus: refreshOfflineTtsStatus,
     warmUp: warmUpOfflineTts,
     synthesize: synthesizeOffline,

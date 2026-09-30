@@ -72,6 +72,7 @@
               <div class="tts-title">{{ ttsTitle }}</div>
               <div class="tts-desc">{{ ttsDesc }}</div>
               <div v-if="ttsTryMsg" class="tts-msg">{{ ttsTryMsg }}</div>
+              <div v-if="ttsLastSynth" class="tts-msg tts-msg--dim">{{ ttsLastSynth }}</div>
               <div v-if="ttsError" class="tts-msg tts-msg--err">{{ ttsError }}</div>
               <div v-if="ttsDownloading || ttsInstalling" class="tts-progress">
                 <div class="tts-progress-bar" :style="{ width: ttsProgressWidth }"></div>
@@ -294,6 +295,7 @@ const {
   progress: ttsProgress,
   receivedBytes: ttsReceivedBytes,
   error: ttsError,
+  lastSynth: ttsLastSynthRaw,
   refreshStatus: refreshTtsStatus,
   downloadModel: downloadTtsModel,
   deleteModel: deleteTtsModel,
@@ -319,6 +321,13 @@ const ttsDesc = computed(() => {
 });
 
 const ttsProgressWidth = computed(() => `${ttsPercent(ttsProgress.value)}%`);
+
+// 真机诊断：把上一次原生合成的耗时显示出来（手机上唯一能拿到的性能数据）
+const ttsLastSynth = computed(() => {
+  const s = ttsLastSynthRaw.value;
+  if (!s) return "";
+  return `上次合成：${s.text.length} 字 / ${(s.ms / 1000).toFixed(1)} 秒`;
+});
 
 const ttsProgressText = computed(() => {
   const done = (ttsReceivedBytes.value / 1048576).toFixed(1);
@@ -801,6 +810,10 @@ function doReset() {
 
 .tts-msg--err {
   color: #dc2626;
+}
+
+.tts-msg--dim {
+  color: #94a3b8;
 }
 
 .tts-progress {

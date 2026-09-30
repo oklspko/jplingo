@@ -29,7 +29,7 @@ function eq(name: string, actual: unknown, expected: unknown) {
 const callsOf = (prefix: string) => pluginState.calls.filter((c) => c.startsWith(prefix)).length;
 
 async function main() {
-  const { supported, installed, error, progress, synthesizing } = useJpTts();
+  const { supported, installed, error, progress, synthesizing, lastSynth } = useJpTts();
   fsState.fullSize = TTS_MODEL_BYTES;
   const candidates = apkDownloadCandidates(TTS_MODEL_URL_DEFAULT);
 
@@ -148,6 +148,11 @@ async function main() {
   eq("原生侧确实调了三次", callsOf("speak:") - before8, 3);
   eq("同时只跑一个原生合成", pluginState.maxConcurrent, 1);
   eq("合成计数归零", synthesizing.value, 0);
+  check(
+    "记录了上次合成耗时（真机诊断数据）",
+    lastSynth.value !== null && lastSynth.value.ms >= 5,
+    JSON.stringify(lastSynth.value),
+  );
 
   const failed = results.filter((r) => !r.ok);
   console.log(`\n合计 ${results.length} 项，失败 ${failed.length} 项`);
