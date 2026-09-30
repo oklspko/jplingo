@@ -1,16 +1,32 @@
-﻿<template>
+<template>
   <NuxtPage />
   <footer class="site-footer">
     <p class="footer-feedback">
       📮 意见反馈：
       <a class="beian-link" href="mailto:1661769641@qq.com">1661769641@qq.com</a>
     </p>
-    <a
-      class="beian-link"
-      href="https://beian.miit.gov.cn/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >赣ICP备2026023858号</a>
+    <p class="footer-beian">
+      <a
+        class="beian-link"
+        href="https://beian.miit.gov.cn/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >赣ICP备2026023858号</a>
+      <span class="beian-sep">|</span>
+      <a
+        class="beian-link beian-gongan"
+        href="https://beian.mps.gov.cn/#/query/webSearch?code=36072202000346"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          class="beian-icon"
+          src="/beian.png"
+          alt="公安备案图标"
+        />
+        赣公网安备36072202000346号
+      </a>
+    </p>
   </footer>
 </template>
 
@@ -37,6 +53,36 @@
   margin: 0 0 8px;
   font-size: 12px;
   color: #7dd3fc;
+}
+
+.footer-beian {
+  margin: 0;
+  font-size: 12px;
+  color: #7dd3fc;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.beian-sep {
+  font-size: 12px;
+  color: #bae6fd;
+}
+
+/* 公安备案：图标与文字水平居中对齐 */
+.beian-gongan {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.beian-icon {
+  width: 16px;
+  height: 16px;
+  display: block;
+  flex-shrink: 0;
 }
 
 /* 移动端：底部固定 Tab 栏会盖住页脚，留出底部空间让备案号/意见反馈可完整显示 */
