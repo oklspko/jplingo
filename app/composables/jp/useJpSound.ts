@@ -1,6 +1,10 @@
 import { Capacitor } from "@capacitor/core";
 import { cacheBustUrl } from "~/composables/jp/useJpBuildId";
-import { refreshOfflineTtsStatus, synthesizeOffline } from "~/composables/jp/useJpTts";
+import {
+  offlineTtsInstalled,
+  refreshOfflineTtsStatus,
+  synthesizeOffline,
+} from "~/composables/jp/useJpTts";
 
 let audioCtx: AudioContext | null = null;
 let lastTypingTime = 0;
@@ -308,13 +312,31 @@ export async function speakOfflineNow(text: string, rate = 1.0): Promise<boolean
 }
 
 /** 兜底发声：离线引擎（装了模型才有）→ 原生系统 TTS（APK）→ 浏览器 TTS（网页） */
-function speakFallback(text: string, rate: number) {
-  speakOfflineNow(text, rate).then((ok) => {
-    if (ok) return;
-    speakViaNativeTts(text, rate).then((ok2) => {
-      if (!ok2) speakViaWebSpeech(text, rate);
-    });
-  });
+async function speakFallback(text: string, rate: number): Promise<SpeakSource> {
+  if (await speakOfflineNow(text, rate)) return "offline";
+  if (await speakViaNativeTts(text, rate)) return "system-tts";
+  speakViaWebSpeech(text, rate);
+  return "web-speech";
+}
+
+/**
+ * 发音实际走了哪条路。
+ * - audio：预生成音频（最好）
+ * - offline：内置离线引擎
+ * - system-tts：系统 TTS（安卓缺日语音色时会「静默无声」）
+ * - web-speech：浏览器 TTS（WebView 里通常拿不到日语语音）
+ * - none：过期回退（用户已经点了别的句子）
+ */
+export type SpeakSource = "audio" | "offline" | "system-tts" | "web-speech" | "none";
+
+/**
+ * 该不该建议用户去下载内置语音：原生端 + 没装模型 + 这一句没能靠音频/离线引擎出声。
+ * 安卓缺日语音色时系统 TTS 不报错也不出声，用户只会觉得「点了没反应」，所以必须给提示。
+ */
+export function shouldSuggestOfflineEngine(source: SpeakSource): boolean {
+  if (offlineTtsInstalled.value) return false;
+  if (!Capacitor.isNativePlatform()) return false;
+  return source === "system-tts" || source === "web-speech" || source === "none";
 }
 
 // 原生端启动时探一次离线引擎状态：装了模型就顺手预热，首次发音不必等模型加载
@@ -345,43 +367,53 @@ export function prefetchJapanese(text: string) {
     .catch(() => {});
 }
 
+// 每次发音一个序号：过期的回退（例如上一句的错误回调）不再发声，也避免
+// mp3 播放失败时「error 事件 + play() 拒绝」两条回退路径各合成一遍
+let speakToken = 0;
+
 /**
  * 日语发音
  * 优先级：预生成音频（音质最好）→ 内置离线引擎（离线、无需系统日语音色）
  *        → 系统 TTS（原生 App）→ 浏览器 TTS（网页）
  * @param text 要发音的文本（假名或句子）
  * @param rate 语速（音频按 playbackRate 播放；TTS 走自身语速参数）
+ * @returns 实际走的哪条路（调用方可据此决定是否提示去下载内置语音）
  */
-// 每次发音一个序号：过期的回退（例如上一句的错误回调）不再发声，也避免
-// mp3 播放失败时「error 事件 + play() 拒绝」两条回退路径各合成一遍
-let speakToken = 0;
-
-export function speakJapanese(text: string, rate = 1.0) {
-  if (!text) return;
-  if (typeof window === "undefined") return;
+export function speakJapanese(text: string, rate = 1.0): Promise<SpeakSource> {
+  if (!text) return Promise.resolve("none");
+  if (typeof window === "undefined") return Promise.resolve("none");
 
   const token = ++speakToken;
-  const fallbackOnce = () => {
-    if (token !== speakToken) return;
-    speakFallback(text, rate);
-  };
-
-  const key = normalizeKey(text);
-  loadManifest()
-    .then(() => {
-      const file = manifest?.[key];
-      if (file) {
-        const el = ensureAudioEl();
-        el.src = `${AUDIO_BASE}/${file}`;
-        el.playbackRate = rate;
-        el.currentTime = 0;
-        el.addEventListener("error", fallbackOnce, { once: true });
-        el.play().catch(fallbackOnce);
-      } else {
-        fallbackOnce();
+  return new Promise<SpeakSource>((resolve) => {
+    let handled = false;
+    const fallbackOnce = async () => {
+      if (handled) return;
+      handled = true;
+      // 过期回退（用户已经点了别的句子）不再发声
+      if (token !== speakToken) {
+        resolve("none");
+        return;
       }
-    })
-    .catch(fallbackOnce);
+      resolve(await speakFallback(text, rate));
+    };
+
+    const key = normalizeKey(text);
+    loadManifest()
+      .then(() => {
+        const file = manifest?.[key];
+        if (file) {
+          const el = ensureAudioEl();
+          el.src = `${AUDIO_BASE}/${file}`;
+          el.playbackRate = rate;
+          el.currentTime = 0;
+          el.addEventListener("error", fallbackOnce, { once: true });
+          el.play().then(() => resolve("audio")).catch(fallbackOnce);
+        } else {
+          fallbackOnce();
+        }
+      })
+      .catch(fallbackOnce);
+  });
 }
 
 /**

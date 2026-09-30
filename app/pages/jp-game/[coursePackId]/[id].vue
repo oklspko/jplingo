@@ -120,6 +120,15 @@
           </button>
         </div>
 
+        <div v-if="showTtsTip" class="jp-tts-tip">
+          <span class="jp-tts-tip-text">
+            🔇 这句没能发声：手机系统缺日语音色。
+            <a href="/jp-me" class="jp-tts-tip-link">去「我的 → 离线发音」下载内置语音</a>
+            （约 123MB，装好后没音频的词句也能离线发音）
+          </span>
+          <button class="jp-tts-tip-close" title="不再提示" @click="dismissTtsTip">✕</button>
+        </div>
+
         <transition name="pop">
           <div v-if="showAnswer" class="jp-answer-tip">
             <template v-if="!isSingleKana">
@@ -168,6 +177,7 @@ import {
   playErrorSound,
   speakJapanese,
   prefetchJapanese,
+  shouldSuggestOfflineEngine,
 } from "~/composables/jp/useJpSound";
 import { useJpTts } from "~/composables/jp/useJpTts";
 import { useJpTimer } from "~/composables/jp/useJpTimer";
@@ -603,10 +613,37 @@ async function resetMixedMemory() {
   await loadCourseData();
 }
 
-function playAudio() {
+// 「去装内置语音」的提示只在用户没关过时出现（关过一次就不再打扰）
+const TTS_TIP_KEY = "jp-tts-tip-dismissed";
+const showTtsTip = ref(false);
+const ttsTipDismissed = ref(false);
+
+onMounted(() => {
+  try {
+    if (localStorage.getItem(TTS_TIP_KEY) === "1") ttsTipDismissed.value = true;
+  } catch {
+    /* 隐私模式忽略 */
+  }
+});
+
+function dismissTtsTip() {
+  ttsTipDismissed.value = true;
+  showTtsTip.value = false;
+  try {
+    localStorage.setItem(TTS_TIP_KEY, "1");
+  } catch {
+    /* 忽略 */
+  }
+}
+
+async function playAudio() {
   const stmt = currentStatement.value;
   if (!stmt) return;
-  speakJapanese(stmt.kana.replace(/\s+/g, ""));
+  const source = await speakJapanese(stmt.kana.replace(/\s+/g, ""));
+  // 安卓缺日语音色时系统 TTS 静默无声：此时别再让用户干瞪眼，直接告诉他怎么修
+  if (!ttsTipDismissed.value && shouldSuggestOfflineEngine(source)) {
+    showTtsTip.value = true;
+  }
 }
 
 // 内置离线引擎合成一句要几秒（长句更久），切题时先把下一句合成好，别等点了发音才等
@@ -919,6 +956,43 @@ const { synthesizing } = useJpTts();
 
 .jp-btn:not(.primary):not(.next) .shortcut {
   background: #f0f9ff; color: #7dd3fc;
+}
+
+.jp-tts-tip {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 12px;
+  padding: 12px 16px;
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  border-radius: 14px;
+  font-size: clamp(12px, 1.2vw, 14px);
+  line-height: 1.6;
+  color: #92400e;
+}
+
+.jp-tts-tip-text {
+  flex: 1;
+}
+
+.jp-tts-tip-link {
+  color: #b45309;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.jp-tts-tip-close {
+  flex-shrink: 0;
+  border: none;
+  background: transparent;
+  color: #b45309;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0 2px;
+  font-family: inherit;
 }
 
 .jp-answer-tip {

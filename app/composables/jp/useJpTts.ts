@@ -53,6 +53,9 @@ const progress = ref(0);
 const receivedBytes = ref(0);
 const error = ref("");
 
+/** 供发音链判断「要不要提示去下载内置语音」（useJpSound 用） */
+export const offlineTtsInstalled = installed;
+
 let statusChecked = false;
 let statusPromise: Promise<boolean> | null = null;
 let preparePromise: Promise<void> | null = null;
