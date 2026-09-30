@@ -15,6 +15,28 @@
       ]
     },
     {
+      "id": "jp-transform",
+      "title": "变形练习",
+      "language": "ja",
+      "level": "入门",
+      "description": "三类谓语句（名词 / 一类形容词 / 二类形容词）与动词变形专项。动词按变形种类分课，混合各类活用，自行区分。每课 30 题。",
+      "courses": [
+        "jp-tr-noun-01",
+        "jp-tr-adj1-01",
+        "jp-tr-adj2-01",
+        "jp-tr-verb-masu",
+        "jp-tr-verb-nai",
+        "jp-tr-verb-te",
+        "jp-tr-verb-ta",
+        "jp-tr-verb-ba",
+        "jp-tr-verb-ishi",
+        "jp-tr-verb-kanou",
+        "jp-tr-verb-ukemi",
+        "jp-tr-verb-shieki",
+        "jp-tr-verb-meirei"
+      ]
+    },
+    {
       "id": "jp-growing",
       "title": "句子生长",
       "language": "ja",

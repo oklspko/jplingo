@@ -1,0 +1,398 @@
+{
+  "id": "jp-tr-verb-ta",
+  "coursePackId": "jp-transform",
+  "title": "动词变形 · た形",
+  "order": 13,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "游泳（た形）",
+      "japanese": "泳いだ",
+      "kana": "およいだ",
+      "romaji": "oyoida",
+      "tokens": [
+        {
+          "text": "泳いだ",
+          "kana": "およいだ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "等（た形）",
+      "japanese": "待った",
+      "kana": "まった",
+      "romaji": "matta",
+      "tokens": [
+        {
+          "text": "待った",
+          "kana": "まった"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "做（た形）",
+      "japanese": "した",
+      "kana": "した",
+      "romaji": "shita",
+      "tokens": [
+        {
+          "text": "した",
+          "kana": "した"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "去（た形）",
+      "japanese": "行った",
+      "kana": "いった",
+      "romaji": "itta",
+      "tokens": [
+        {
+          "text": "行った",
+          "kana": "いった"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "回（家）（た形）",
+      "japanese": "帰った",
+      "kana": "かえった",
+      "romaji": "kaetta",
+      "tokens": [
+        {
+          "text": "帰った",
+          "kana": "かえった"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "知道（た形）",
+      "japanese": "知った",
+      "kana": "しった",
+      "romaji": "shitta",
+      "tokens": [
+        {
+          "text": "知った",
+          "kana": "しった"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "买（た形）",
+      "japanese": "買った",
+      "kana": "かった",
+      "romaji": "katta",
+      "tokens": [
+        {
+          "text": "買った",
+          "kana": "かった"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "写（た形）",
+      "japanese": "書いた",
+      "kana": "かいた",
+      "romaji": "kaita",
+      "tokens": [
+        {
+          "text": "書いた",
+          "kana": "かいた"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "看（た形）",
+      "japanese": "見た",
+      "kana": "みた",
+      "romaji": "mita",
+      "tokens": [
+        {
+          "text": "見た",
+          "kana": "みた"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "玩（た形）",
+      "japanese": "遊んだ",
+      "kana": "あそんだ",
+      "romaji": "asonda",
+      "tokens": [
+        {
+          "text": "遊んだ",
+          "kana": "あそんだ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "吃（た形）",
+      "japanese": "食べた",
+      "kana": "たべた",
+      "romaji": "tabeta",
+      "tokens": [
+        {
+          "text": "食べた",
+          "kana": "たべた"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "读（た形）",
+      "japanese": "読んだ",
+      "kana": "よんだ",
+      "romaji": "yonda",
+      "tokens": [
+        {
+          "text": "読んだ",
+          "kana": "よんだ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "说（た形）",
+      "japanese": "話した",
+      "kana": "はなした",
+      "romaji": "hanashita",
+      "tokens": [
+        {
+          "text": "話した",
+          "kana": "はなした"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "来（た形）",
+      "japanese": "来た",
+      "kana": "きた",
+      "romaji": "kita",
+      "tokens": [
+        {
+          "text": "来た",
+          "kana": "きた"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "学习（た形）",
+      "japanese": "勉強した",
+      "kana": "べんきょうした",
+      "romaji": "benkiyoushita",
+      "tokens": [
+        {
+          "text": "勉強した",
+          "kana": "べんきょうした"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "死（た形）",
+      "japanese": "死んだ",
+      "kana": "しんだ",
+      "romaji": "shinda",
+      "tokens": [
+        {
+          "text": "死んだ",
+          "kana": "しんだ"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "走路（た形）",
+      "japanese": "歩いた",
+      "kana": "あるいた",
+      "romaji": "aruita",
+      "tokens": [
+        {
+          "text": "歩いた",
+          "kana": "あるいた"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "洗（た形）",
+      "japanese": "洗った",
+      "kana": "あらった",
+      "romaji": "aratta",
+      "tokens": [
+        {
+          "text": "洗った",
+          "kana": "あらった"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "使用（た形）",
+      "japanese": "使った",
+      "kana": "つかった",
+      "romaji": "tsukatta",
+      "tokens": [
+        {
+          "text": "使った",
+          "kana": "つかった"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "叫（た形）",
+      "japanese": "呼んだ",
+      "kana": "よんだ",
+      "romaji": "yonda",
+      "tokens": [
+        {
+          "text": "呼んだ",
+          "kana": "よんだ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "洗衣服（た形）",
+      "japanese": "洗濯した",
+      "kana": "せんたくした",
+      "romaji": "sentakushita",
+      "tokens": [
+        {
+          "text": "洗濯した",
+          "kana": "せんたくした"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "笑（た形）",
+      "japanese": "笑った",
+      "kana": "わらった",
+      "romaji": "waratta",
+      "tokens": [
+        {
+          "text": "笑った",
+          "kana": "わらった"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "记住（た形）",
+      "japanese": "覚えた",
+      "kana": "おぼえた",
+      "romaji": "oboeta",
+      "tokens": [
+        {
+          "text": "覚えた",
+          "kana": "おぼえた"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "进入（た形）",
+      "japanese": "入った",
+      "kana": "はいった",
+      "romaji": "haitta",
+      "tokens": [
+        {
+          "text": "入った",
+          "kana": "はいった"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "赶（时间）（た形）",
+      "japanese": "急いだ",
+      "kana": "いそいだ",
+      "romaji": "isoida",
+      "tokens": [
+        {
+          "text": "急いだ",
+          "kana": "いそいだ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "打扫（た形）",
+      "japanese": "掃除した",
+      "kana": "そうじした",
+      "romaji": "soujishita",
+      "tokens": [
+        {
+          "text": "掃除した",
+          "kana": "そうじした"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "拿出（た形）",
+      "japanese": "出した",
+      "kana": "だした",
+      "romaji": "dashita",
+      "tokens": [
+        {
+          "text": "出した",
+          "kana": "だした"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "工作（た形）",
+      "japanese": "働いた",
+      "kana": "はたらいた",
+      "romaji": "hataraita",
+      "tokens": [
+        {
+          "text": "働いた",
+          "kana": "はたらいた"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "教（た形）",
+      "japanese": "教えた",
+      "kana": "おしえた",
+      "romaji": "oshieta",
+      "tokens": [
+        {
+          "text": "教えた",
+          "kana": "おしえた"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "出门（た形）",
+      "japanese": "出かけた",
+      "kana": "でかけた",
+      "romaji": "dekaketa",
+      "tokens": [
+        {
+          "text": "出かけた",
+          "kana": "でかけた"
+        }
+      ]
+    }
+  ]
+}

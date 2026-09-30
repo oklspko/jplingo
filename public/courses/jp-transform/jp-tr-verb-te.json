@@ -1,0 +1,398 @@
+{
+  "id": "jp-tr-verb-te",
+  "coursePackId": "jp-transform",
+  "title": "动词变形 · て形",
+  "order": 12,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "来（て形）",
+      "japanese": "来て",
+      "kana": "きて",
+      "romaji": "kite",
+      "tokens": [
+        {
+          "text": "来て",
+          "kana": "きて"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "买（て形）",
+      "japanese": "買って",
+      "kana": "かって",
+      "romaji": "katte",
+      "tokens": [
+        {
+          "text": "買って",
+          "kana": "かって"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "回（家）（て形）",
+      "japanese": "帰って",
+      "kana": "かえって",
+      "romaji": "kaette",
+      "tokens": [
+        {
+          "text": "帰って",
+          "kana": "かえって"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "死（て形）",
+      "japanese": "死んで",
+      "kana": "しんで",
+      "romaji": "shinde",
+      "tokens": [
+        {
+          "text": "死んで",
+          "kana": "しんで"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "做（て形）",
+      "japanese": "して",
+      "kana": "して",
+      "romaji": "shite",
+      "tokens": [
+        {
+          "text": "して",
+          "kana": "して"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "说（て形）",
+      "japanese": "話して",
+      "kana": "はなして",
+      "romaji": "hanashite",
+      "tokens": [
+        {
+          "text": "話して",
+          "kana": "はなして"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "知道（て形）",
+      "japanese": "知って",
+      "kana": "しって",
+      "romaji": "shitte",
+      "tokens": [
+        {
+          "text": "知って",
+          "kana": "しって"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "吃（て形）",
+      "japanese": "食べて",
+      "kana": "たべて",
+      "romaji": "tabete",
+      "tokens": [
+        {
+          "text": "食べて",
+          "kana": "たべて"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "玩（て形）",
+      "japanese": "遊んで",
+      "kana": "あそんで",
+      "romaji": "asonde",
+      "tokens": [
+        {
+          "text": "遊んで",
+          "kana": "あそんで"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "等（て形）",
+      "japanese": "待って",
+      "kana": "まって",
+      "romaji": "matte",
+      "tokens": [
+        {
+          "text": "待って",
+          "kana": "まって"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "读（て形）",
+      "japanese": "読んで",
+      "kana": "よんで",
+      "romaji": "yonde",
+      "tokens": [
+        {
+          "text": "読んで",
+          "kana": "よんで"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "写（て形）",
+      "japanese": "書いて",
+      "kana": "かいて",
+      "romaji": "kaite",
+      "tokens": [
+        {
+          "text": "書いて",
+          "kana": "かいて"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "学习（て形）",
+      "japanese": "勉強して",
+      "kana": "べんきょうして",
+      "romaji": "benkiyoushite",
+      "tokens": [
+        {
+          "text": "勉強して",
+          "kana": "べんきょうして"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "看（て形）",
+      "japanese": "見て",
+      "kana": "みて",
+      "romaji": "mite",
+      "tokens": [
+        {
+          "text": "見て",
+          "kana": "みて"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "游泳（て形）",
+      "japanese": "泳いで",
+      "kana": "およいで",
+      "romaji": "oyoide",
+      "tokens": [
+        {
+          "text": "泳いで",
+          "kana": "およいで"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "去（て形）",
+      "japanese": "行って",
+      "kana": "いって",
+      "romaji": "itte",
+      "tokens": [
+        {
+          "text": "行って",
+          "kana": "いって"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "站（て形）",
+      "japanese": "立って",
+      "kana": "たって",
+      "romaji": "tatte",
+      "tokens": [
+        {
+          "text": "立って",
+          "kana": "たって"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "赶（时间）（て形）",
+      "japanese": "急いで",
+      "kana": "いそいで",
+      "romaji": "isoide",
+      "tokens": [
+        {
+          "text": "急いで",
+          "kana": "いそいで"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "拿出（て形）",
+      "japanese": "出して",
+      "kana": "だして",
+      "romaji": "dashite",
+      "tokens": [
+        {
+          "text": "出して",
+          "kana": "だして"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "走路（て形）",
+      "japanese": "歩いて",
+      "kana": "あるいて",
+      "romaji": "aruite",
+      "tokens": [
+        {
+          "text": "歩いて",
+          "kana": "あるいて"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "教（て形）",
+      "japanese": "教えて",
+      "kana": "おしえて",
+      "romaji": "oshiete",
+      "tokens": [
+        {
+          "text": "教えて",
+          "kana": "おしえて"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "笑（て形）",
+      "japanese": "笑って",
+      "kana": "わらって",
+      "romaji": "waratte",
+      "tokens": [
+        {
+          "text": "笑って",
+          "kana": "わらって"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "进入（て形）",
+      "japanese": "入って",
+      "kana": "はいって",
+      "romaji": "haitte",
+      "tokens": [
+        {
+          "text": "入って",
+          "kana": "はいって"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "起床（て形）",
+      "japanese": "起きて",
+      "kana": "おきて",
+      "romaji": "okite",
+      "tokens": [
+        {
+          "text": "起きて",
+          "kana": "おきて"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "洗衣服（て形）",
+      "japanese": "洗濯して",
+      "kana": "せんたくして",
+      "romaji": "sentakushite",
+      "tokens": [
+        {
+          "text": "洗濯して",
+          "kana": "せんたくして"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "住（て形）",
+      "japanese": "住んで",
+      "kana": "すんで",
+      "romaji": "sunde",
+      "tokens": [
+        {
+          "text": "住んで",
+          "kana": "すんで"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "出门（て形）",
+      "japanese": "出かけて",
+      "kana": "でかけて",
+      "romaji": "dekakete",
+      "tokens": [
+        {
+          "text": "出かけて",
+          "kana": "でかけて"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "工作（て形）",
+      "japanese": "働いて",
+      "kana": "はたらいて",
+      "romaji": "hataraite",
+      "tokens": [
+        {
+          "text": "働いて",
+          "kana": "はたらいて"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "打开（て形）",
+      "japanese": "開けて",
+      "kana": "あけて",
+      "romaji": "akete",
+      "tokens": [
+        {
+          "text": "開けて",
+          "kana": "あけて"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "打扫（て形）",
+      "japanese": "掃除して",
+      "kana": "そうじして",
+      "romaji": "soujishite",
+      "tokens": [
+        {
+          "text": "掃除して",
+          "kana": "そうじして"
+        }
+      ]
+    }
+  ]
+}

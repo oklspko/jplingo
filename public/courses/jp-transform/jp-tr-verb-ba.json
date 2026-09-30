@@ -1,0 +1,398 @@
+{
+  "id": "jp-tr-verb-ba",
+  "coursePackId": "jp-transform",
+  "title": "动词变形 · ば形",
+  "order": 14,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "读（ば形）",
+      "japanese": "読めば",
+      "kana": "よめば",
+      "romaji": "yomeba",
+      "tokens": [
+        {
+          "text": "読めば",
+          "kana": "よめば"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "做（ば形）",
+      "japanese": "すれば",
+      "kana": "すれば",
+      "romaji": "sureba",
+      "tokens": [
+        {
+          "text": "すれば",
+          "kana": "すれば"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "来（ば形）",
+      "japanese": "来れば",
+      "kana": "くれば",
+      "romaji": "kureba",
+      "tokens": [
+        {
+          "text": "来れば",
+          "kana": "くれば"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "回（家）（ば形）",
+      "japanese": "帰れば",
+      "kana": "かえれば",
+      "romaji": "kaereba",
+      "tokens": [
+        {
+          "text": "帰れば",
+          "kana": "かえれば"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "说（ば形）",
+      "japanese": "話せば",
+      "kana": "はなせば",
+      "romaji": "hanaseba",
+      "tokens": [
+        {
+          "text": "話せば",
+          "kana": "はなせば"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "知道（ば形）",
+      "japanese": "知れば",
+      "kana": "しれば",
+      "romaji": "shireba",
+      "tokens": [
+        {
+          "text": "知れば",
+          "kana": "しれば"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "死（ば形）",
+      "japanese": "死ねば",
+      "kana": "しねば",
+      "romaji": "shineba",
+      "tokens": [
+        {
+          "text": "死ねば",
+          "kana": "しねば"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "吃（ば形）",
+      "japanese": "食べれば",
+      "kana": "たべれば",
+      "romaji": "tabereba",
+      "tokens": [
+        {
+          "text": "食べれば",
+          "kana": "たべれば"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "游泳（ば形）",
+      "japanese": "泳げば",
+      "kana": "およげば",
+      "romaji": "oyogeba",
+      "tokens": [
+        {
+          "text": "泳げば",
+          "kana": "およげば"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "等（ば形）",
+      "japanese": "待てば",
+      "kana": "まてば",
+      "romaji": "mateba",
+      "tokens": [
+        {
+          "text": "待てば",
+          "kana": "まてば"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "玩（ば形）",
+      "japanese": "遊べば",
+      "kana": "あそべば",
+      "romaji": "asobeba",
+      "tokens": [
+        {
+          "text": "遊べば",
+          "kana": "あそべば"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "学习（ば形）",
+      "japanese": "勉強すれば",
+      "kana": "べんきょうすれば",
+      "romaji": "benkiyousureba",
+      "tokens": [
+        {
+          "text": "勉強すれば",
+          "kana": "べんきょうすれば"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "看（ば形）",
+      "japanese": "見れば",
+      "kana": "みれば",
+      "romaji": "mireba",
+      "tokens": [
+        {
+          "text": "見れば",
+          "kana": "みれば"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "去（ば形）",
+      "japanese": "行けば",
+      "kana": "いけば",
+      "romaji": "ikeba",
+      "tokens": [
+        {
+          "text": "行けば",
+          "kana": "いけば"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "写（ば形）",
+      "japanese": "書けば",
+      "kana": "かけば",
+      "romaji": "kakeba",
+      "tokens": [
+        {
+          "text": "書けば",
+          "kana": "かけば"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "买（ば形）",
+      "japanese": "買えば",
+      "kana": "かえば",
+      "romaji": "kaeba",
+      "tokens": [
+        {
+          "text": "買えば",
+          "kana": "かえば"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "打扫（ば形）",
+      "japanese": "掃除すれば",
+      "kana": "そうじすれば",
+      "romaji": "soujisureba",
+      "tokens": [
+        {
+          "text": "掃除すれば",
+          "kana": "そうじすれば"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "洗（ば形）",
+      "japanese": "洗えば",
+      "kana": "あらえば",
+      "romaji": "araeba",
+      "tokens": [
+        {
+          "text": "洗えば",
+          "kana": "あらえば"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "走路（ば形）",
+      "japanese": "歩けば",
+      "kana": "あるけば",
+      "romaji": "arukeba",
+      "tokens": [
+        {
+          "text": "歩けば",
+          "kana": "あるけば"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "笑（ば形）",
+      "japanese": "笑えば",
+      "kana": "わらえば",
+      "romaji": "waraeba",
+      "tokens": [
+        {
+          "text": "笑えば",
+          "kana": "わらえば"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "跑（ば形）",
+      "japanese": "走れば",
+      "kana": "はしれば",
+      "romaji": "hashireba",
+      "tokens": [
+        {
+          "text": "走れば",
+          "kana": "はしれば"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "站（ば形）",
+      "japanese": "立てば",
+      "kana": "たてば",
+      "romaji": "tateba",
+      "tokens": [
+        {
+          "text": "立てば",
+          "kana": "たてば"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "进入（ば形）",
+      "japanese": "入れば",
+      "kana": "はいれば",
+      "romaji": "haireba",
+      "tokens": [
+        {
+          "text": "入れば",
+          "kana": "はいれば"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "起床（ば形）",
+      "japanese": "起きれば",
+      "kana": "おきれば",
+      "romaji": "okireba",
+      "tokens": [
+        {
+          "text": "起きれば",
+          "kana": "おきれば"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "住（ば形）",
+      "japanese": "住めば",
+      "kana": "すめば",
+      "romaji": "sumeba",
+      "tokens": [
+        {
+          "text": "住めば",
+          "kana": "すめば"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "工作（ば形）",
+      "japanese": "働けば",
+      "kana": "はたらけば",
+      "romaji": "hatarakeba",
+      "tokens": [
+        {
+          "text": "働けば",
+          "kana": "はたらけば"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "拿出（ば形）",
+      "japanese": "出せば",
+      "kana": "だせば",
+      "romaji": "daseba",
+      "tokens": [
+        {
+          "text": "出せば",
+          "kana": "だせば"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "教（ば形）",
+      "japanese": "教えれば",
+      "kana": "おしえれば",
+      "romaji": "oshiereba",
+      "tokens": [
+        {
+          "text": "教えれば",
+          "kana": "おしえれば"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "叫（ば形）",
+      "japanese": "呼べば",
+      "kana": "よべば",
+      "romaji": "yobeba",
+      "tokens": [
+        {
+          "text": "呼べば",
+          "kana": "よべば"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "打开（ば形）",
+      "japanese": "開ければ",
+      "kana": "あければ",
+      "romaji": "akereba",
+      "tokens": [
+        {
+          "text": "開ければ",
+          "kana": "あければ"
+        }
+      ]
+    }
+  ]
+}

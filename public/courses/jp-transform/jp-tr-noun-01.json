@@ -1,0 +1,398 @@
+{
+  "id": "jp-tr-noun-01",
+  "coursePackId": "jp-transform",
+  "title": "名词谓语句变形",
+  "order": 1,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "老师（简体·现在·肯定）",
+      "japanese": "先生だ",
+      "kana": "せんせいだ",
+      "romaji": "senseida",
+      "tokens": [
+        {
+          "text": "先生だ",
+          "kana": "せんせいだ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "学校（简体·现在·否定）",
+      "japanese": "学校ではない",
+      "kana": "がっこうではない",
+      "romaji": "gakkoudehanai",
+      "tokens": [
+        {
+          "text": "学校ではない",
+          "kana": "がっこうではない"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "雨（简体·过去·肯定）",
+      "japanese": "雨だった",
+      "kana": "あめだった",
+      "romaji": "amedatta",
+      "tokens": [
+        {
+          "text": "雨だった",
+          "kana": "あめだった"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "书（简体·过去·否定）",
+      "japanese": "本ではなかった",
+      "kana": "ほんではなかった",
+      "romaji": "hondehanakatta",
+      "tokens": [
+        {
+          "text": "本ではなかった",
+          "kana": "ほんではなかった"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "朋友（敬体·现在·肯定）",
+      "japanese": "友達です",
+      "kana": "ともだちです",
+      "romaji": "tomodachidesu",
+      "tokens": [
+        {
+          "text": "友達です",
+          "kana": "ともだちです"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "公司职员（敬体·现在·否定）",
+      "japanese": "会社員ではありません",
+      "kana": "かいしゃいんではありません",
+      "romaji": "kaishiyaindehaarimasen",
+      "tokens": [
+        {
+          "text": "会社員ではありません",
+          "kana": "かいしゃいんではありません"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "医生（敬体·过去·肯定）",
+      "japanese": "医者でした",
+      "kana": "いしゃでした",
+      "romaji": "ishiyadeshita",
+      "tokens": [
+        {
+          "text": "医者でした",
+          "kana": "いしゃでした"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "学生（敬体·过去·否定）",
+      "japanese": "学生ではありませんでした",
+      "kana": "がくせいではありませんでした",
+      "romaji": "gakuseidehaarimasendeshita",
+      "tokens": [
+        {
+          "text": "学生ではありませんでした",
+          "kana": "がくせいではありませんでした"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "日本人（简体·现在·肯定）",
+      "japanese": "日本人だ",
+      "kana": "にほんじんだ",
+      "romaji": "nihonjinda",
+      "tokens": [
+        {
+          "text": "日本人だ",
+          "kana": "にほんじんだ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "天气（简体·现在·否定）",
+      "japanese": "天気ではない",
+      "kana": "てんきではない",
+      "romaji": "tenkidehanai",
+      "tokens": [
+        {
+          "text": "天気ではない",
+          "kana": "てんきではない"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "老师（简体·过去·肯定）",
+      "japanese": "先生だった",
+      "kana": "せんせいだった",
+      "romaji": "senseidatta",
+      "tokens": [
+        {
+          "text": "先生だった",
+          "kana": "せんせいだった"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "学校（简体·过去·否定）",
+      "japanese": "学校ではなかった",
+      "kana": "がっこうではなかった",
+      "romaji": "gakkoudehanakatta",
+      "tokens": [
+        {
+          "text": "学校ではなかった",
+          "kana": "がっこうではなかった"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "雨（敬体·现在·肯定）",
+      "japanese": "雨です",
+      "kana": "あめです",
+      "romaji": "amedesu",
+      "tokens": [
+        {
+          "text": "雨です",
+          "kana": "あめです"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "书（敬体·现在·否定）",
+      "japanese": "本ではありません",
+      "kana": "ほんではありません",
+      "romaji": "hondehaarimasen",
+      "tokens": [
+        {
+          "text": "本ではありません",
+          "kana": "ほんではありません"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "朋友（敬体·过去·肯定）",
+      "japanese": "友達でした",
+      "kana": "ともだちでした",
+      "romaji": "tomodachideshita",
+      "tokens": [
+        {
+          "text": "友達でした",
+          "kana": "ともだちでした"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "公司职员（敬体·过去·否定）",
+      "japanese": "会社員ではありませんでした",
+      "kana": "かいしゃいんではありませんでした",
+      "romaji": "kaishiyaindehaarimasendeshita",
+      "tokens": [
+        {
+          "text": "会社員ではありませんでした",
+          "kana": "かいしゃいんではありませんでした"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "医生（简体·现在·肯定）",
+      "japanese": "医者だ",
+      "kana": "いしゃだ",
+      "romaji": "ishiyada",
+      "tokens": [
+        {
+          "text": "医者だ",
+          "kana": "いしゃだ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "学生（简体·现在·否定）",
+      "japanese": "学生ではない",
+      "kana": "がくせいではない",
+      "romaji": "gakuseidehanai",
+      "tokens": [
+        {
+          "text": "学生ではない",
+          "kana": "がくせいではない"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "日本人（简体·过去·肯定）",
+      "japanese": "日本人だった",
+      "kana": "にほんじんだった",
+      "romaji": "nihonjindatta",
+      "tokens": [
+        {
+          "text": "日本人だった",
+          "kana": "にほんじんだった"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "天气（简体·过去·否定）",
+      "japanese": "天気ではなかった",
+      "kana": "てんきではなかった",
+      "romaji": "tenkidehanakatta",
+      "tokens": [
+        {
+          "text": "天気ではなかった",
+          "kana": "てんきではなかった"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "老师（敬体·现在·肯定）",
+      "japanese": "先生です",
+      "kana": "せんせいです",
+      "romaji": "senseidesu",
+      "tokens": [
+        {
+          "text": "先生です",
+          "kana": "せんせいです"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "学校（敬体·现在·否定）",
+      "japanese": "学校ではありません",
+      "kana": "がっこうではありません",
+      "romaji": "gakkoudehaarimasen",
+      "tokens": [
+        {
+          "text": "学校ではありません",
+          "kana": "がっこうではありません"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "雨（敬体·过去·肯定）",
+      "japanese": "雨でした",
+      "kana": "あめでした",
+      "romaji": "amedeshita",
+      "tokens": [
+        {
+          "text": "雨でした",
+          "kana": "あめでした"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "书（敬体·过去·否定）",
+      "japanese": "本ではありませんでした",
+      "kana": "ほんではありませんでした",
+      "romaji": "hondehaarimasendeshita",
+      "tokens": [
+        {
+          "text": "本ではありませんでした",
+          "kana": "ほんではありませんでした"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "朋友（简体·现在·肯定）",
+      "japanese": "友達だ",
+      "kana": "ともだちだ",
+      "romaji": "tomodachida",
+      "tokens": [
+        {
+          "text": "友達だ",
+          "kana": "ともだちだ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "公司职员（简体·现在·否定）",
+      "japanese": "会社員ではない",
+      "kana": "かいしゃいんではない",
+      "romaji": "kaishiyaindehanai",
+      "tokens": [
+        {
+          "text": "会社員ではない",
+          "kana": "かいしゃいんではない"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "医生（简体·过去·肯定）",
+      "japanese": "医者だった",
+      "kana": "いしゃだった",
+      "romaji": "ishiyadatta",
+      "tokens": [
+        {
+          "text": "医者だった",
+          "kana": "いしゃだった"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "学生（简体·过去·否定）",
+      "japanese": "学生ではなかった",
+      "kana": "がくせいではなかった",
+      "romaji": "gakuseidehanakatta",
+      "tokens": [
+        {
+          "text": "学生ではなかった",
+          "kana": "がくせいではなかった"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "日本人（敬体·现在·肯定）",
+      "japanese": "日本人です",
+      "kana": "にほんじんです",
+      "romaji": "nihonjindesu",
+      "tokens": [
+        {
+          "text": "日本人です",
+          "kana": "にほんじんです"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "天气（敬体·现在·否定）",
+      "japanese": "天気ではありません",
+      "kana": "てんきではありません",
+      "romaji": "tenkidehaarimasen",
+      "tokens": [
+        {
+          "text": "天気ではありません",
+          "kana": "てんきではありません"
+        }
+      ]
+    }
+  ]
+}

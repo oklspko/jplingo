@@ -1,0 +1,398 @@
+{
+  "id": "jp-tr-verb-nai",
+  "coursePackId": "jp-transform",
+  "title": "动词变形 · ない形",
+  "order": 11,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "做（ない形）",
+      "japanese": "しない",
+      "kana": "しない",
+      "romaji": "shinai",
+      "tokens": [
+        {
+          "text": "しない",
+          "kana": "しない"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "回（家）（ない形）",
+      "japanese": "帰らない",
+      "kana": "かえらない",
+      "romaji": "kaeranai",
+      "tokens": [
+        {
+          "text": "帰らない",
+          "kana": "かえらない"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "买（ない形）",
+      "japanese": "買わない",
+      "kana": "かわない",
+      "romaji": "kawanai",
+      "tokens": [
+        {
+          "text": "買わない",
+          "kana": "かわない"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "去（ない形）",
+      "japanese": "行かない",
+      "kana": "いかない",
+      "romaji": "ikanai",
+      "tokens": [
+        {
+          "text": "行かない",
+          "kana": "いかない"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "玩（ない形）",
+      "japanese": "遊ばない",
+      "kana": "あそばない",
+      "romaji": "asobanai",
+      "tokens": [
+        {
+          "text": "遊ばない",
+          "kana": "あそばない"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "说（ない形）",
+      "japanese": "話さない",
+      "kana": "はなさない",
+      "romaji": "hanasanai",
+      "tokens": [
+        {
+          "text": "話さない",
+          "kana": "はなさない"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "游泳（ない形）",
+      "japanese": "泳がない",
+      "kana": "およがない",
+      "romaji": "oyoganai",
+      "tokens": [
+        {
+          "text": "泳がない",
+          "kana": "およがない"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "吃（ない形）",
+      "japanese": "食べない",
+      "kana": "たべない",
+      "romaji": "tabenai",
+      "tokens": [
+        {
+          "text": "食べない",
+          "kana": "たべない"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "读（ない形）",
+      "japanese": "読まない",
+      "kana": "よまない",
+      "romaji": "yomanai",
+      "tokens": [
+        {
+          "text": "読まない",
+          "kana": "よまない"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "来（ない形）",
+      "japanese": "来ない",
+      "kana": "こない",
+      "romaji": "konai",
+      "tokens": [
+        {
+          "text": "来ない",
+          "kana": "こない"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "等（ない形）",
+      "japanese": "待たない",
+      "kana": "またない",
+      "romaji": "matanai",
+      "tokens": [
+        {
+          "text": "待たない",
+          "kana": "またない"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "写（ない形）",
+      "japanese": "書かない",
+      "kana": "かかない",
+      "romaji": "kakanai",
+      "tokens": [
+        {
+          "text": "書かない",
+          "kana": "かかない"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "学习（ない形）",
+      "japanese": "勉強しない",
+      "kana": "べんきょうしない",
+      "romaji": "benkiyoushinai",
+      "tokens": [
+        {
+          "text": "勉強しない",
+          "kana": "べんきょうしない"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "死（ない形）",
+      "japanese": "死なない",
+      "kana": "しなない",
+      "romaji": "shinanai",
+      "tokens": [
+        {
+          "text": "死なない",
+          "kana": "しなない"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "知道（ない形）",
+      "japanese": "知らない",
+      "kana": "しらない",
+      "romaji": "shiranai",
+      "tokens": [
+        {
+          "text": "知らない",
+          "kana": "しらない"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "看（ない形）",
+      "japanese": "見ない",
+      "kana": "みない",
+      "romaji": "minai",
+      "tokens": [
+        {
+          "text": "見ない",
+          "kana": "みない"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "出门（ない形）",
+      "japanese": "出かけない",
+      "kana": "でかけない",
+      "romaji": "dekakenai",
+      "tokens": [
+        {
+          "text": "出かけない",
+          "kana": "でかけない"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "打开（ない形）",
+      "japanese": "開けない",
+      "kana": "あけない",
+      "romaji": "akenai",
+      "tokens": [
+        {
+          "text": "開けない",
+          "kana": "あけない"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "走路（ない形）",
+      "japanese": "歩かない",
+      "kana": "あるかない",
+      "romaji": "arukanai",
+      "tokens": [
+        {
+          "text": "歩かない",
+          "kana": "あるかない"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "叫（ない形）",
+      "japanese": "呼ばない",
+      "kana": "よばない",
+      "romaji": "yobanai",
+      "tokens": [
+        {
+          "text": "呼ばない",
+          "kana": "よばない"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "进入（ない形）",
+      "japanese": "入らない",
+      "kana": "はいらない",
+      "romaji": "hairanai",
+      "tokens": [
+        {
+          "text": "入らない",
+          "kana": "はいらない"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "跑（ない形）",
+      "japanese": "走らない",
+      "kana": "はしらない",
+      "romaji": "hashiranai",
+      "tokens": [
+        {
+          "text": "走らない",
+          "kana": "はしらない"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "使用（ない形）",
+      "japanese": "使わない",
+      "kana": "つかわない",
+      "romaji": "tsukawanai",
+      "tokens": [
+        {
+          "text": "使わない",
+          "kana": "つかわない"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "教（ない形）",
+      "japanese": "教えない",
+      "kana": "おしえない",
+      "romaji": "oshienai",
+      "tokens": [
+        {
+          "text": "教えない",
+          "kana": "おしえない"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "起床（ない形）",
+      "japanese": "起きない",
+      "kana": "おきない",
+      "romaji": "okinai",
+      "tokens": [
+        {
+          "text": "起きない",
+          "kana": "おきない"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "赶（时间）（ない形）",
+      "japanese": "急がない",
+      "kana": "いそがない",
+      "romaji": "isoganai",
+      "tokens": [
+        {
+          "text": "急がない",
+          "kana": "いそがない"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "洗（ない形）",
+      "japanese": "洗わない",
+      "kana": "あらわない",
+      "romaji": "arawanai",
+      "tokens": [
+        {
+          "text": "洗わない",
+          "kana": "あらわない"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "记住（ない形）",
+      "japanese": "覚えない",
+      "kana": "おぼえない",
+      "romaji": "oboenai",
+      "tokens": [
+        {
+          "text": "覚えない",
+          "kana": "おぼえない"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "站（ない形）",
+      "japanese": "立たない",
+      "kana": "たたない",
+      "romaji": "tatanai",
+      "tokens": [
+        {
+          "text": "立たない",
+          "kana": "たたない"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "拿（ない形）",
+      "japanese": "持たない",
+      "kana": "もたない",
+      "romaji": "motanai",
+      "tokens": [
+        {
+          "text": "持たない",
+          "kana": "もたない"
+        }
+      ]
+    }
+  ]
+}

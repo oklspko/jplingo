@@ -1,0 +1,398 @@
+{
+  "id": "jp-tr-adj2-01",
+  "coursePackId": "jp-transform",
+  "title": "二类形容词谓语句变形",
+  "order": 3,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "安静（简体·现在·肯定）",
+      "japanese": "静かだ",
+      "kana": "しずかだ",
+      "romaji": "shizukada",
+      "tokens": [
+        {
+          "text": "静かだ",
+          "kana": "しずかだ"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "精神好（简体·现在·否定）",
+      "japanese": "元気ではない",
+      "kana": "げんきではない",
+      "romaji": "genkidehanai",
+      "tokens": [
+        {
+          "text": "元気ではない",
+          "kana": "げんきではない"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "空闲（简体·过去·肯定）",
+      "japanese": "暇だった",
+      "kana": "ひまだった",
+      "romaji": "himadatta",
+      "tokens": [
+        {
+          "text": "暇だった",
+          "kana": "ひまだった"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "有名（简体·过去·否定）",
+      "japanese": "有名ではなかった",
+      "kana": "ゆうめいではなかった",
+      "romaji": "yuumeidehanakatta",
+      "tokens": [
+        {
+          "text": "有名ではなかった",
+          "kana": "ゆうめいではなかった"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "热闹（敬体·现在·肯定）",
+      "japanese": "賑やかです",
+      "kana": "にぎやかです",
+      "romaji": "nigiyakadesu",
+      "tokens": [
+        {
+          "text": "賑やかです",
+          "kana": "にぎやかです"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "亲切（敬体·现在·否定）",
+      "japanese": "親切ではありません",
+      "kana": "しんせつではありません",
+      "romaji": "shinsetsudehaarimasen",
+      "tokens": [
+        {
+          "text": "親切ではありません",
+          "kana": "しんせつではありません"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "重要（敬体·过去·肯定）",
+      "japanese": "大切でした",
+      "kana": "たいせつでした",
+      "romaji": "taisetsudeshita",
+      "tokens": [
+        {
+          "text": "大切でした",
+          "kana": "たいせつでした"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "漂亮 / 干净（敬体·过去·否定）",
+      "japanese": "きれいではありませんでした",
+      "kana": "きれいではありませんでした",
+      "romaji": "kireidehaarimasendeshita",
+      "tokens": [
+        {
+          "text": "きれいではありませんでした",
+          "kana": "きれいではありませんでした"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "方便（简体·现在·肯定）",
+      "japanese": "便利だ",
+      "kana": "べんりだ",
+      "romaji": "benrida",
+      "tokens": [
+        {
+          "text": "便利だ",
+          "kana": "べんりだ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "擅长（简体·现在·否定）",
+      "japanese": "上手ではない",
+      "kana": "じょうずではない",
+      "romaji": "jiyouzudehanai",
+      "tokens": [
+        {
+          "text": "上手ではない",
+          "kana": "じょうずではない"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "安静（简体·过去·肯定）",
+      "japanese": "静かだった",
+      "kana": "しずかだった",
+      "romaji": "shizukadatta",
+      "tokens": [
+        {
+          "text": "静かだった",
+          "kana": "しずかだった"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "精神好（简体·过去·否定）",
+      "japanese": "元気ではなかった",
+      "kana": "げんきではなかった",
+      "romaji": "genkidehanakatta",
+      "tokens": [
+        {
+          "text": "元気ではなかった",
+          "kana": "げんきではなかった"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "空闲（敬体·现在·肯定）",
+      "japanese": "暇です",
+      "kana": "ひまです",
+      "romaji": "himadesu",
+      "tokens": [
+        {
+          "text": "暇です",
+          "kana": "ひまです"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "有名（敬体·现在·否定）",
+      "japanese": "有名ではありません",
+      "kana": "ゆうめいではありません",
+      "romaji": "yuumeidehaarimasen",
+      "tokens": [
+        {
+          "text": "有名ではありません",
+          "kana": "ゆうめいではありません"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "热闹（敬体·过去·肯定）",
+      "japanese": "賑やかでした",
+      "kana": "にぎやかでした",
+      "romaji": "nigiyakadeshita",
+      "tokens": [
+        {
+          "text": "賑やかでした",
+          "kana": "にぎやかでした"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "亲切（敬体·过去·否定）",
+      "japanese": "親切ではありませんでした",
+      "kana": "しんせつではありませんでした",
+      "romaji": "shinsetsudehaarimasendeshita",
+      "tokens": [
+        {
+          "text": "親切ではありませんでした",
+          "kana": "しんせつではありませんでした"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "重要（简体·现在·肯定）",
+      "japanese": "大切だ",
+      "kana": "たいせつだ",
+      "romaji": "taisetsuda",
+      "tokens": [
+        {
+          "text": "大切だ",
+          "kana": "たいせつだ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "漂亮 / 干净（简体·现在·否定）",
+      "japanese": "きれいではない",
+      "kana": "きれいではない",
+      "romaji": "kireidehanai",
+      "tokens": [
+        {
+          "text": "きれいではない",
+          "kana": "きれいではない"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "方便（简体·过去·肯定）",
+      "japanese": "便利だった",
+      "kana": "べんりだった",
+      "romaji": "benridatta",
+      "tokens": [
+        {
+          "text": "便利だった",
+          "kana": "べんりだった"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "擅长（简体·过去·否定）",
+      "japanese": "上手ではなかった",
+      "kana": "じょうずではなかった",
+      "romaji": "jiyouzudehanakatta",
+      "tokens": [
+        {
+          "text": "上手ではなかった",
+          "kana": "じょうずではなかった"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "安静（敬体·现在·肯定）",
+      "japanese": "静かです",
+      "kana": "しずかです",
+      "romaji": "shizukadesu",
+      "tokens": [
+        {
+          "text": "静かです",
+          "kana": "しずかです"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "精神好（敬体·现在·否定）",
+      "japanese": "元気ではありません",
+      "kana": "げんきではありません",
+      "romaji": "genkidehaarimasen",
+      "tokens": [
+        {
+          "text": "元気ではありません",
+          "kana": "げんきではありません"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "空闲（敬体·过去·肯定）",
+      "japanese": "暇でした",
+      "kana": "ひまでした",
+      "romaji": "himadeshita",
+      "tokens": [
+        {
+          "text": "暇でした",
+          "kana": "ひまでした"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "有名（敬体·过去·否定）",
+      "japanese": "有名ではありませんでした",
+      "kana": "ゆうめいではありませんでした",
+      "romaji": "yuumeidehaarimasendeshita",
+      "tokens": [
+        {
+          "text": "有名ではありませんでした",
+          "kana": "ゆうめいではありませんでした"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "热闹（简体·现在·肯定）",
+      "japanese": "賑やかだ",
+      "kana": "にぎやかだ",
+      "romaji": "nigiyakada",
+      "tokens": [
+        {
+          "text": "賑やかだ",
+          "kana": "にぎやかだ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "亲切（简体·现在·否定）",
+      "japanese": "親切ではない",
+      "kana": "しんせつではない",
+      "romaji": "shinsetsudehanai",
+      "tokens": [
+        {
+          "text": "親切ではない",
+          "kana": "しんせつではない"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "重要（简体·过去·肯定）",
+      "japanese": "大切だった",
+      "kana": "たいせつだった",
+      "romaji": "taisetsudatta",
+      "tokens": [
+        {
+          "text": "大切だった",
+          "kana": "たいせつだった"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "漂亮 / 干净（简体·过去·否定）",
+      "japanese": "きれいではなかった",
+      "kana": "きれいではなかった",
+      "romaji": "kireidehanakatta",
+      "tokens": [
+        {
+          "text": "きれいではなかった",
+          "kana": "きれいではなかった"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "方便（敬体·现在·肯定）",
+      "japanese": "便利です",
+      "kana": "べんりです",
+      "romaji": "benridesu",
+      "tokens": [
+        {
+          "text": "便利です",
+          "kana": "べんりです"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "擅长（敬体·现在·否定）",
+      "japanese": "上手ではありません",
+      "kana": "じょうずではありません",
+      "romaji": "jiyouzudehaarimasen",
+      "tokens": [
+        {
+          "text": "上手ではありません",
+          "kana": "じょうずではありません"
+        }
+      ]
+    }
+  ]
+}

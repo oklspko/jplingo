@@ -1,0 +1,398 @@
+{
+  "id": "jp-tr-verb-masu",
+  "coursePackId": "jp-transform",
+  "title": "动词变形 · ます形",
+  "order": 10,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "游泳（ます形）",
+      "japanese": "泳ぎます",
+      "kana": "およぎます",
+      "romaji": "oyogimasu",
+      "tokens": [
+        {
+          "text": "泳ぎます",
+          "kana": "およぎます"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "买（ます形）",
+      "japanese": "買います",
+      "kana": "かいます",
+      "romaji": "kaimasu",
+      "tokens": [
+        {
+          "text": "買います",
+          "kana": "かいます"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "读（ます形）",
+      "japanese": "読みます",
+      "kana": "よみます",
+      "romaji": "yomimasu",
+      "tokens": [
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "玩（ます形）",
+      "japanese": "遊びます",
+      "kana": "あそびます",
+      "romaji": "asobimasu",
+      "tokens": [
+        {
+          "text": "遊びます",
+          "kana": "あそびます"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "回（家）（ます形）",
+      "japanese": "帰ります",
+      "kana": "かえります",
+      "romaji": "kaerimasu",
+      "tokens": [
+        {
+          "text": "帰ります",
+          "kana": "かえります"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "死（ます形）",
+      "japanese": "死にます",
+      "kana": "しにます",
+      "romaji": "shinimasu",
+      "tokens": [
+        {
+          "text": "死にます",
+          "kana": "しにます"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "说（ます形）",
+      "japanese": "話します",
+      "kana": "はなします",
+      "romaji": "hanashimasu",
+      "tokens": [
+        {
+          "text": "話します",
+          "kana": "はなします"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "吃（ます形）",
+      "japanese": "食べます",
+      "kana": "たべます",
+      "romaji": "tabemasu",
+      "tokens": [
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "学习（ます形）",
+      "japanese": "勉強します",
+      "kana": "べんきょうします",
+      "romaji": "benkiyoushimasu",
+      "tokens": [
+        {
+          "text": "勉強します",
+          "kana": "べんきょうします"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "知道（ます形）",
+      "japanese": "知ります",
+      "kana": "しります",
+      "romaji": "shirimasu",
+      "tokens": [
+        {
+          "text": "知ります",
+          "kana": "しります"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "做（ます形）",
+      "japanese": "します",
+      "kana": "します",
+      "romaji": "shimasu",
+      "tokens": [
+        {
+          "text": "します",
+          "kana": "します"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "写（ます形）",
+      "japanese": "書きます",
+      "kana": "かきます",
+      "romaji": "kakimasu",
+      "tokens": [
+        {
+          "text": "書きます",
+          "kana": "かきます"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "看（ます形）",
+      "japanese": "見ます",
+      "kana": "みます",
+      "romaji": "mimasu",
+      "tokens": [
+        {
+          "text": "見ます",
+          "kana": "みます"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "等（ます形）",
+      "japanese": "待ちます",
+      "kana": "まちます",
+      "romaji": "machimasu",
+      "tokens": [
+        {
+          "text": "待ちます",
+          "kana": "まちます"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "去（ます形）",
+      "japanese": "行きます",
+      "kana": "いきます",
+      "romaji": "ikimasu",
+      "tokens": [
+        {
+          "text": "行きます",
+          "kana": "いきます"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "来（ます形）",
+      "japanese": "来ます",
+      "kana": "きます",
+      "romaji": "kimasu",
+      "tokens": [
+        {
+          "text": "来ます",
+          "kana": "きます"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "卖（ます形）",
+      "japanese": "売ります",
+      "kana": "うります",
+      "romaji": "urimasu",
+      "tokens": [
+        {
+          "text": "売ります",
+          "kana": "うります"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "拿（ます形）",
+      "japanese": "持ちます",
+      "kana": "もちます",
+      "romaji": "mochimasu",
+      "tokens": [
+        {
+          "text": "持ちます",
+          "kana": "もちます"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "走路（ます形）",
+      "japanese": "歩きます",
+      "kana": "あるきます",
+      "romaji": "arukimasu",
+      "tokens": [
+        {
+          "text": "歩きます",
+          "kana": "あるきます"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "叫（ます形）",
+      "japanese": "呼びます",
+      "kana": "よびます",
+      "romaji": "yobimasu",
+      "tokens": [
+        {
+          "text": "呼びます",
+          "kana": "よびます"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "拿出（ます形）",
+      "japanese": "出します",
+      "kana": "だします",
+      "romaji": "dashimasu",
+      "tokens": [
+        {
+          "text": "出します",
+          "kana": "だします"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "笑（ます形）",
+      "japanese": "笑います",
+      "kana": "わらいます",
+      "romaji": "waraimasu",
+      "tokens": [
+        {
+          "text": "笑います",
+          "kana": "わらいます"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "睡（ます形）",
+      "japanese": "寝ます",
+      "kana": "ねます",
+      "romaji": "nemasu",
+      "tokens": [
+        {
+          "text": "寝ます",
+          "kana": "ねます"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "教（ます形）",
+      "japanese": "教えます",
+      "kana": "おしえます",
+      "romaji": "oshiemasu",
+      "tokens": [
+        {
+          "text": "教えます",
+          "kana": "おしえます"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "洗衣服（ます形）",
+      "japanese": "洗濯します",
+      "kana": "せんたくします",
+      "romaji": "sentakushimasu",
+      "tokens": [
+        {
+          "text": "洗濯します",
+          "kana": "せんたくします"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "赶（时间）（ます形）",
+      "japanese": "急ぎます",
+      "kana": "いそぎます",
+      "romaji": "isogimasu",
+      "tokens": [
+        {
+          "text": "急ぎます",
+          "kana": "いそぎます"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "站（ます形）",
+      "japanese": "立ちます",
+      "kana": "たちます",
+      "romaji": "tachimasu",
+      "tokens": [
+        {
+          "text": "立ちます",
+          "kana": "たちます"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "跑（ます形）",
+      "japanese": "走ります",
+      "kana": "はしります",
+      "romaji": "hashirimasu",
+      "tokens": [
+        {
+          "text": "走ります",
+          "kana": "はしります"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "打开（ます形）",
+      "japanese": "開けます",
+      "kana": "あけます",
+      "romaji": "akemasu",
+      "tokens": [
+        {
+          "text": "開けます",
+          "kana": "あけます"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "起床（ます形）",
+      "japanese": "起きます",
+      "kana": "おきます",
+      "romaji": "okimasu",
+      "tokens": [
+        {
+          "text": "起きます",
+          "kana": "おきます"
+        }
+      ]
+    }
+  ]
+}

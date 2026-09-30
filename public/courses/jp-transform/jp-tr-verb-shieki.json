@@ -1,0 +1,398 @@
+{
+  "id": "jp-tr-verb-shieki",
+  "coursePackId": "jp-transform",
+  "title": "动词变形 · 使役形",
+  "order": 18,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "知道（使役形）",
+      "japanese": "知らせる",
+      "kana": "しらせる",
+      "romaji": "shiraseru",
+      "tokens": [
+        {
+          "text": "知らせる",
+          "kana": "しらせる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "说（使役形）",
+      "japanese": "話させる",
+      "kana": "はなさせる",
+      "romaji": "hanasaseru",
+      "tokens": [
+        {
+          "text": "話させる",
+          "kana": "はなさせる"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "去（使役形）",
+      "japanese": "行かせる",
+      "kana": "いかせる",
+      "romaji": "ikaseru",
+      "tokens": [
+        {
+          "text": "行かせる",
+          "kana": "いかせる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "死（使役形）",
+      "japanese": "死なせる",
+      "kana": "しなせる",
+      "romaji": "shinaseru",
+      "tokens": [
+        {
+          "text": "死なせる",
+          "kana": "しなせる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "游泳（使役形）",
+      "japanese": "泳がせる",
+      "kana": "およがせる",
+      "romaji": "oyogaseru",
+      "tokens": [
+        {
+          "text": "泳がせる",
+          "kana": "およがせる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "来（使役形）",
+      "japanese": "来させる",
+      "kana": "こさせる",
+      "romaji": "kosaseru",
+      "tokens": [
+        {
+          "text": "来させる",
+          "kana": "こさせる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "回（家）（使役形）",
+      "japanese": "帰らせる",
+      "kana": "かえらせる",
+      "romaji": "kaeraseru",
+      "tokens": [
+        {
+          "text": "帰らせる",
+          "kana": "かえらせる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "写（使役形）",
+      "japanese": "書かせる",
+      "kana": "かかせる",
+      "romaji": "kakaseru",
+      "tokens": [
+        {
+          "text": "書かせる",
+          "kana": "かかせる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "买（使役形）",
+      "japanese": "買わせる",
+      "kana": "かわせる",
+      "romaji": "kawaseru",
+      "tokens": [
+        {
+          "text": "買わせる",
+          "kana": "かわせる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "吃（使役形）",
+      "japanese": "食べさせる",
+      "kana": "たべさせる",
+      "romaji": "tabesaseru",
+      "tokens": [
+        {
+          "text": "食べさせる",
+          "kana": "たべさせる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "做（使役形）",
+      "japanese": "させる",
+      "kana": "させる",
+      "romaji": "saseru",
+      "tokens": [
+        {
+          "text": "させる",
+          "kana": "させる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "看（使役形）",
+      "japanese": "見させる",
+      "kana": "みさせる",
+      "romaji": "misaseru",
+      "tokens": [
+        {
+          "text": "見させる",
+          "kana": "みさせる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "读（使役形）",
+      "japanese": "読ませる",
+      "kana": "よませる",
+      "romaji": "yomaseru",
+      "tokens": [
+        {
+          "text": "読ませる",
+          "kana": "よませる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "等（使役形）",
+      "japanese": "待たせる",
+      "kana": "またせる",
+      "romaji": "mataseru",
+      "tokens": [
+        {
+          "text": "待たせる",
+          "kana": "またせる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "学习（使役形）",
+      "japanese": "勉強させる",
+      "kana": "べんきょうさせる",
+      "romaji": "benkiyousaseru",
+      "tokens": [
+        {
+          "text": "勉強させる",
+          "kana": "べんきょうさせる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "玩（使役形）",
+      "japanese": "遊ばせる",
+      "kana": "あそばせる",
+      "romaji": "asobaseru",
+      "tokens": [
+        {
+          "text": "遊ばせる",
+          "kana": "あそばせる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "走路（使役形）",
+      "japanese": "歩かせる",
+      "kana": "あるかせる",
+      "romaji": "arukaseru",
+      "tokens": [
+        {
+          "text": "歩かせる",
+          "kana": "あるかせる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "赶（时间）（使役形）",
+      "japanese": "急がせる",
+      "kana": "いそがせる",
+      "romaji": "isogaseru",
+      "tokens": [
+        {
+          "text": "急がせる",
+          "kana": "いそがせる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "叫（使役形）",
+      "japanese": "呼ばせる",
+      "kana": "よばせる",
+      "romaji": "yobaseru",
+      "tokens": [
+        {
+          "text": "呼ばせる",
+          "kana": "よばせる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "跑（使役形）",
+      "japanese": "走らせる",
+      "kana": "はしらせる",
+      "romaji": "hashiraseru",
+      "tokens": [
+        {
+          "text": "走らせる",
+          "kana": "はしらせる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "住（使役形）",
+      "japanese": "住ませる",
+      "kana": "すませる",
+      "romaji": "sumaseru",
+      "tokens": [
+        {
+          "text": "住ませる",
+          "kana": "すませる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "教（使役形）",
+      "japanese": "教えさせる",
+      "kana": "おしえさせる",
+      "romaji": "oshiesaseru",
+      "tokens": [
+        {
+          "text": "教えさせる",
+          "kana": "おしえさせる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "出门（使役形）",
+      "japanese": "出かけさせる",
+      "kana": "でかけさせる",
+      "romaji": "dekakesaseru",
+      "tokens": [
+        {
+          "text": "出かけさせる",
+          "kana": "でかけさせる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "卖（使役形）",
+      "japanese": "売らせる",
+      "kana": "うらせる",
+      "romaji": "uraseru",
+      "tokens": [
+        {
+          "text": "売らせる",
+          "kana": "うらせる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "使用（使役形）",
+      "japanese": "使わせる",
+      "kana": "つかわせる",
+      "romaji": "tsukawaseru",
+      "tokens": [
+        {
+          "text": "使わせる",
+          "kana": "つかわせる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "站（使役形）",
+      "japanese": "立たせる",
+      "kana": "たたせる",
+      "romaji": "tataseru",
+      "tokens": [
+        {
+          "text": "立たせる",
+          "kana": "たたせる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "笑（使役形）",
+      "japanese": "笑わせる",
+      "kana": "わらわせる",
+      "romaji": "warawaseru",
+      "tokens": [
+        {
+          "text": "笑わせる",
+          "kana": "わらわせる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "打开（使役形）",
+      "japanese": "開けさせる",
+      "kana": "あけさせる",
+      "romaji": "akesaseru",
+      "tokens": [
+        {
+          "text": "開けさせる",
+          "kana": "あけさせる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "起床（使役形）",
+      "japanese": "起きさせる",
+      "kana": "おきさせる",
+      "romaji": "okisaseru",
+      "tokens": [
+        {
+          "text": "起きさせる",
+          "kana": "おきさせる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "洗（使役形）",
+      "japanese": "洗わせる",
+      "kana": "あらわせる",
+      "romaji": "arawaseru",
+      "tokens": [
+        {
+          "text": "洗わせる",
+          "kana": "あらわせる"
+        }
+      ]
+    }
+  ]
+}

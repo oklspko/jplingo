@@ -1,0 +1,398 @@
+{
+  "id": "jp-tr-adj1-01",
+  "coursePackId": "jp-transform",
+  "title": "一类形容词谓语句变形",
+  "order": 2,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "便宜（简体·现在·肯定）",
+      "japanese": "安い",
+      "kana": "やすい",
+      "romaji": "yasui",
+      "tokens": [
+        {
+          "text": "安い",
+          "kana": "やすい"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "大（简体·现在·否定）",
+      "japanese": "大きくない",
+      "kana": "おおきくない",
+      "romaji": "ookikunai",
+      "tokens": [
+        {
+          "text": "大きくない",
+          "kana": "おおきくない"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "新（简体·过去·肯定）",
+      "japanese": "新しかった",
+      "kana": "あたらしかった",
+      "romaji": "atarashikatta",
+      "tokens": [
+        {
+          "text": "新しかった",
+          "kana": "あたらしかった"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "有趣（简体·过去·否定）",
+      "japanese": "面白くなかった",
+      "kana": "おもしろくなかった",
+      "romaji": "omoshirokunakatta",
+      "tokens": [
+        {
+          "text": "面白くなかった",
+          "kana": "おもしろくなかった"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "忙（敬体·现在·肯定）",
+      "japanese": "忙しいです",
+      "kana": "いそがしいです",
+      "romaji": "isogashiidesu",
+      "tokens": [
+        {
+          "text": "忙しいです",
+          "kana": "いそがしいです"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "小（敬体·现在·否定）",
+      "japanese": "小さくないです",
+      "kana": "ちいさくないです",
+      "romaji": "chiisakunaidesu",
+      "tokens": [
+        {
+          "text": "小さくないです",
+          "kana": "ちいさくないです"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "冷（敬体·过去·肯定）",
+      "japanese": "寒かったです",
+      "kana": "さむかったです",
+      "romaji": "samukattadesu",
+      "tokens": [
+        {
+          "text": "寒かったです",
+          "kana": "さむかったです"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "高 / 贵（敬体·过去·否定）",
+      "japanese": "高くなかったです",
+      "kana": "たかくなかったです",
+      "romaji": "takakunakattadesu",
+      "tokens": [
+        {
+          "text": "高くなかったです",
+          "kana": "たかくなかったです"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "好吃（简体·现在·肯定）",
+      "japanese": "おいしい",
+      "kana": "おいしい",
+      "romaji": "oishii",
+      "tokens": [
+        {
+          "text": "おいしい",
+          "kana": "おいしい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "热（简体·现在·否定）",
+      "japanese": "暑くない",
+      "kana": "あつくない",
+      "romaji": "atsukunai",
+      "tokens": [
+        {
+          "text": "暑くない",
+          "kana": "あつくない"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "便宜（简体·过去·肯定）",
+      "japanese": "安かった",
+      "kana": "やすかった",
+      "romaji": "yasukatta",
+      "tokens": [
+        {
+          "text": "安かった",
+          "kana": "やすかった"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "大（简体·过去·否定）",
+      "japanese": "大きくなかった",
+      "kana": "おおきくなかった",
+      "romaji": "ookikunakatta",
+      "tokens": [
+        {
+          "text": "大きくなかった",
+          "kana": "おおきくなかった"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "新（敬体·现在·肯定）",
+      "japanese": "新しいです",
+      "kana": "あたらしいです",
+      "romaji": "atarashiidesu",
+      "tokens": [
+        {
+          "text": "新しいです",
+          "kana": "あたらしいです"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "有趣（敬体·现在·否定）",
+      "japanese": "面白くないです",
+      "kana": "おもしろくないです",
+      "romaji": "omoshirokunaidesu",
+      "tokens": [
+        {
+          "text": "面白くないです",
+          "kana": "おもしろくないです"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "忙（敬体·过去·肯定）",
+      "japanese": "忙しかったです",
+      "kana": "いそがしかったです",
+      "romaji": "isogashikattadesu",
+      "tokens": [
+        {
+          "text": "忙しかったです",
+          "kana": "いそがしかったです"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "小（敬体·过去·否定）",
+      "japanese": "小さくなかったです",
+      "kana": "ちいさくなかったです",
+      "romaji": "chiisakunakattadesu",
+      "tokens": [
+        {
+          "text": "小さくなかったです",
+          "kana": "ちいさくなかったです"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "冷（简体·现在·肯定）",
+      "japanese": "寒い",
+      "kana": "さむい",
+      "romaji": "samui",
+      "tokens": [
+        {
+          "text": "寒い",
+          "kana": "さむい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "高 / 贵（简体·现在·否定）",
+      "japanese": "高くない",
+      "kana": "たかくない",
+      "romaji": "takakunai",
+      "tokens": [
+        {
+          "text": "高くない",
+          "kana": "たかくない"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "好吃（简体·过去·肯定）",
+      "japanese": "おいしかった",
+      "kana": "おいしかった",
+      "romaji": "oishikatta",
+      "tokens": [
+        {
+          "text": "おいしかった",
+          "kana": "おいしかった"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "热（简体·过去·否定）",
+      "japanese": "暑くなかった",
+      "kana": "あつくなかった",
+      "romaji": "atsukunakatta",
+      "tokens": [
+        {
+          "text": "暑くなかった",
+          "kana": "あつくなかった"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "便宜（敬体·现在·肯定）",
+      "japanese": "安いです",
+      "kana": "やすいです",
+      "romaji": "yasuidesu",
+      "tokens": [
+        {
+          "text": "安いです",
+          "kana": "やすいです"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "大（敬体·现在·否定）",
+      "japanese": "大きくないです",
+      "kana": "おおきくないです",
+      "romaji": "ookikunaidesu",
+      "tokens": [
+        {
+          "text": "大きくないです",
+          "kana": "おおきくないです"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "新（敬体·过去·肯定）",
+      "japanese": "新しかったです",
+      "kana": "あたらしかったです",
+      "romaji": "atarashikattadesu",
+      "tokens": [
+        {
+          "text": "新しかったです",
+          "kana": "あたらしかったです"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "有趣（敬体·过去·否定）",
+      "japanese": "面白くなかったです",
+      "kana": "おもしろくなかったです",
+      "romaji": "omoshirokunakattadesu",
+      "tokens": [
+        {
+          "text": "面白くなかったです",
+          "kana": "おもしろくなかったです"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "忙（简体·现在·肯定）",
+      "japanese": "忙しい",
+      "kana": "いそがしい",
+      "romaji": "isogashii",
+      "tokens": [
+        {
+          "text": "忙しい",
+          "kana": "いそがしい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "小（简体·现在·否定）",
+      "japanese": "小さくない",
+      "kana": "ちいさくない",
+      "romaji": "chiisakunai",
+      "tokens": [
+        {
+          "text": "小さくない",
+          "kana": "ちいさくない"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "冷（简体·过去·肯定）",
+      "japanese": "寒かった",
+      "kana": "さむかった",
+      "romaji": "samukatta",
+      "tokens": [
+        {
+          "text": "寒かった",
+          "kana": "さむかった"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "高 / 贵（简体·过去·否定）",
+      "japanese": "高くなかった",
+      "kana": "たかくなかった",
+      "romaji": "takakunakatta",
+      "tokens": [
+        {
+          "text": "高くなかった",
+          "kana": "たかくなかった"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "好吃（敬体·现在·肯定）",
+      "japanese": "おいしいです",
+      "kana": "おいしいです",
+      "romaji": "oishiidesu",
+      "tokens": [
+        {
+          "text": "おいしいです",
+          "kana": "おいしいです"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "热（敬体·现在·否定）",
+      "japanese": "暑くないです",
+      "kana": "あつくないです",
+      "romaji": "atsukunaidesu",
+      "tokens": [
+        {
+          "text": "暑くないです",
+          "kana": "あつくないです"
+        }
+      ]
+    }
+  ]
+}

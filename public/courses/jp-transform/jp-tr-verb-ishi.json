@@ -1,0 +1,398 @@
+{
+  "id": "jp-tr-verb-ishi",
+  "coursePackId": "jp-transform",
+  "title": "动词变形 · 意志形",
+  "order": 15,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "游泳（意志形）",
+      "japanese": "泳ごう",
+      "kana": "およごう",
+      "romaji": "oyogou",
+      "tokens": [
+        {
+          "text": "泳ごう",
+          "kana": "およごう"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "说（意志形）",
+      "japanese": "話そう",
+      "kana": "はなそう",
+      "romaji": "hanasou",
+      "tokens": [
+        {
+          "text": "話そう",
+          "kana": "はなそう"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "去（意志形）",
+      "japanese": "行こう",
+      "kana": "いこう",
+      "romaji": "ikou",
+      "tokens": [
+        {
+          "text": "行こう",
+          "kana": "いこう"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "死（意志形）",
+      "japanese": "死のう",
+      "kana": "しのう",
+      "romaji": "shinou",
+      "tokens": [
+        {
+          "text": "死のう",
+          "kana": "しのう"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "买（意志形）",
+      "japanese": "買おう",
+      "kana": "かおう",
+      "romaji": "kaou",
+      "tokens": [
+        {
+          "text": "買おう",
+          "kana": "かおう"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "学习（意志形）",
+      "japanese": "勉強しよう",
+      "kana": "べんきょうしよう",
+      "romaji": "benkiyoushiyou",
+      "tokens": [
+        {
+          "text": "勉強しよう",
+          "kana": "べんきょうしよう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "玩（意志形）",
+      "japanese": "遊ぼう",
+      "kana": "あそぼう",
+      "romaji": "asobou",
+      "tokens": [
+        {
+          "text": "遊ぼう",
+          "kana": "あそぼう"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "吃（意志形）",
+      "japanese": "食べよう",
+      "kana": "たべよう",
+      "romaji": "tabeyou",
+      "tokens": [
+        {
+          "text": "食べよう",
+          "kana": "たべよう"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "做（意志形）",
+      "japanese": "しよう",
+      "kana": "しよう",
+      "romaji": "shiyou",
+      "tokens": [
+        {
+          "text": "しよう",
+          "kana": "しよう"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "读（意志形）",
+      "japanese": "読もう",
+      "kana": "よもう",
+      "romaji": "yomou",
+      "tokens": [
+        {
+          "text": "読もう",
+          "kana": "よもう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "回（家）（意志形）",
+      "japanese": "帰ろう",
+      "kana": "かえろう",
+      "romaji": "kaerou",
+      "tokens": [
+        {
+          "text": "帰ろう",
+          "kana": "かえろう"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "来（意志形）",
+      "japanese": "来よう",
+      "kana": "こよう",
+      "romaji": "koyou",
+      "tokens": [
+        {
+          "text": "来よう",
+          "kana": "こよう"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "看（意志形）",
+      "japanese": "見よう",
+      "kana": "みよう",
+      "romaji": "miyou",
+      "tokens": [
+        {
+          "text": "見よう",
+          "kana": "みよう"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "知道（意志形）",
+      "japanese": "知ろう",
+      "kana": "しろう",
+      "romaji": "shirou",
+      "tokens": [
+        {
+          "text": "知ろう",
+          "kana": "しろう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "等（意志形）",
+      "japanese": "待とう",
+      "kana": "まとう",
+      "romaji": "matou",
+      "tokens": [
+        {
+          "text": "待とう",
+          "kana": "まとう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "写（意志形）",
+      "japanese": "書こう",
+      "kana": "かこう",
+      "romaji": "kakou",
+      "tokens": [
+        {
+          "text": "書こう",
+          "kana": "かこう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "使用（意志形）",
+      "japanese": "使おう",
+      "kana": "つかおう",
+      "romaji": "tsukaou",
+      "tokens": [
+        {
+          "text": "使おう",
+          "kana": "つかおう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "叫（意志形）",
+      "japanese": "呼ぼう",
+      "kana": "よぼう",
+      "romaji": "yobou",
+      "tokens": [
+        {
+          "text": "呼ぼう",
+          "kana": "よぼう"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "打开（意志形）",
+      "japanese": "開けよう",
+      "kana": "あけよう",
+      "romaji": "akeyou",
+      "tokens": [
+        {
+          "text": "開けよう",
+          "kana": "あけよう"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "站（意志形）",
+      "japanese": "立とう",
+      "kana": "たとう",
+      "romaji": "tatou",
+      "tokens": [
+        {
+          "text": "立とう",
+          "kana": "たとう"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "打扫（意志形）",
+      "japanese": "掃除しよう",
+      "kana": "そうじしよう",
+      "romaji": "soujishiyou",
+      "tokens": [
+        {
+          "text": "掃除しよう",
+          "kana": "そうじしよう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "走路（意志形）",
+      "japanese": "歩こう",
+      "kana": "あるこう",
+      "romaji": "arukou",
+      "tokens": [
+        {
+          "text": "歩こう",
+          "kana": "あるこう"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "出门（意志形）",
+      "japanese": "出かけよう",
+      "kana": "でかけよう",
+      "romaji": "dekakeyou",
+      "tokens": [
+        {
+          "text": "出かけよう",
+          "kana": "でかけよう"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "起床（意志形）",
+      "japanese": "起きよう",
+      "kana": "おきよう",
+      "romaji": "okiyou",
+      "tokens": [
+        {
+          "text": "起きよう",
+          "kana": "おきよう"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "洗（意志形）",
+      "japanese": "洗おう",
+      "kana": "あらおう",
+      "romaji": "araou",
+      "tokens": [
+        {
+          "text": "洗おう",
+          "kana": "あらおう"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "教（意志形）",
+      "japanese": "教えよう",
+      "kana": "おしえよう",
+      "romaji": "oshieyou",
+      "tokens": [
+        {
+          "text": "教えよう",
+          "kana": "おしえよう"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "跑（意志形）",
+      "japanese": "走ろう",
+      "kana": "はしろう",
+      "romaji": "hashirou",
+      "tokens": [
+        {
+          "text": "走ろう",
+          "kana": "はしろう"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "拿（意志形）",
+      "japanese": "持とう",
+      "kana": "もとう",
+      "romaji": "motou",
+      "tokens": [
+        {
+          "text": "持とう",
+          "kana": "もとう"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "赶（时间）（意志形）",
+      "japanese": "急ごう",
+      "kana": "いそごう",
+      "romaji": "isogou",
+      "tokens": [
+        {
+          "text": "急ごう",
+          "kana": "いそごう"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "住（意志形）",
+      "japanese": "住もう",
+      "kana": "すもう",
+      "romaji": "sumou",
+      "tokens": [
+        {
+          "text": "住もう",
+          "kana": "すもう"
+        }
+      ]
+    }
+  ]
+}

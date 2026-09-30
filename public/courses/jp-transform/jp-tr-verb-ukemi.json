@@ -1,0 +1,398 @@
+{
+  "id": "jp-tr-verb-ukemi",
+  "coursePackId": "jp-transform",
+  "title": "动词变形 · 被动形",
+  "order": 17,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "去（被动形）",
+      "japanese": "行かれる",
+      "kana": "いかれる",
+      "romaji": "ikareru",
+      "tokens": [
+        {
+          "text": "行かれる",
+          "kana": "いかれる"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "做（被动形）",
+      "japanese": "される",
+      "kana": "される",
+      "romaji": "sareru",
+      "tokens": [
+        {
+          "text": "される",
+          "kana": "される"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "看（被动形）",
+      "japanese": "見られる",
+      "kana": "みられる",
+      "romaji": "mirareru",
+      "tokens": [
+        {
+          "text": "見られる",
+          "kana": "みられる"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "回（家）（被动形）",
+      "japanese": "帰られる",
+      "kana": "かえられる",
+      "romaji": "kaerareru",
+      "tokens": [
+        {
+          "text": "帰られる",
+          "kana": "かえられる"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "买（被动形）",
+      "japanese": "買われる",
+      "kana": "かわれる",
+      "romaji": "kawareru",
+      "tokens": [
+        {
+          "text": "買われる",
+          "kana": "かわれる"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "学习（被动形）",
+      "japanese": "勉強される",
+      "kana": "べんきょうされる",
+      "romaji": "benkiyousareru",
+      "tokens": [
+        {
+          "text": "勉強される",
+          "kana": "べんきょうされる"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "死（被动形）",
+      "japanese": "死なれる",
+      "kana": "しなれる",
+      "romaji": "shinareru",
+      "tokens": [
+        {
+          "text": "死なれる",
+          "kana": "しなれる"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "来（被动形）",
+      "japanese": "来られる",
+      "kana": "こられる",
+      "romaji": "korareru",
+      "tokens": [
+        {
+          "text": "来られる",
+          "kana": "こられる"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "说（被动形）",
+      "japanese": "話される",
+      "kana": "はなされる",
+      "romaji": "hanasareru",
+      "tokens": [
+        {
+          "text": "話される",
+          "kana": "はなされる"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "读（被动形）",
+      "japanese": "読まれる",
+      "kana": "よまれる",
+      "romaji": "yomareru",
+      "tokens": [
+        {
+          "text": "読まれる",
+          "kana": "よまれる"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "吃（被动形）",
+      "japanese": "食べられる",
+      "kana": "たべられる",
+      "romaji": "taberareru",
+      "tokens": [
+        {
+          "text": "食べられる",
+          "kana": "たべられる"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "写（被动形）",
+      "japanese": "書かれる",
+      "kana": "かかれる",
+      "romaji": "kakareru",
+      "tokens": [
+        {
+          "text": "書かれる",
+          "kana": "かかれる"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "游泳（被动形）",
+      "japanese": "泳がれる",
+      "kana": "およがれる",
+      "romaji": "oyogareru",
+      "tokens": [
+        {
+          "text": "泳がれる",
+          "kana": "およがれる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "等（被动形）",
+      "japanese": "待たれる",
+      "kana": "またれる",
+      "romaji": "matareru",
+      "tokens": [
+        {
+          "text": "待たれる",
+          "kana": "またれる"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "玩（被动形）",
+      "japanese": "遊ばれる",
+      "kana": "あそばれる",
+      "romaji": "asobareru",
+      "tokens": [
+        {
+          "text": "遊ばれる",
+          "kana": "あそばれる"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "知道（被动形）",
+      "japanese": "知られる",
+      "kana": "しられる",
+      "romaji": "shirareru",
+      "tokens": [
+        {
+          "text": "知られる",
+          "kana": "しられる"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "跑（被动形）",
+      "japanese": "走られる",
+      "kana": "はしられる",
+      "romaji": "hashirareru",
+      "tokens": [
+        {
+          "text": "走られる",
+          "kana": "はしられる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "拿出（被动形）",
+      "japanese": "出される",
+      "kana": "だされる",
+      "romaji": "dasareru",
+      "tokens": [
+        {
+          "text": "出される",
+          "kana": "だされる"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "打开（被动形）",
+      "japanese": "開けられる",
+      "kana": "あけられる",
+      "romaji": "akerareru",
+      "tokens": [
+        {
+          "text": "開けられる",
+          "kana": "あけられる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "笑（被动形）",
+      "japanese": "笑われる",
+      "kana": "わらわれる",
+      "romaji": "warawareru",
+      "tokens": [
+        {
+          "text": "笑われる",
+          "kana": "わらわれる"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "工作（被动形）",
+      "japanese": "働かれる",
+      "kana": "はたらかれる",
+      "romaji": "hatarakareru",
+      "tokens": [
+        {
+          "text": "働かれる",
+          "kana": "はたらかれる"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "拿（被动形）",
+      "japanese": "持たれる",
+      "kana": "もたれる",
+      "romaji": "motareru",
+      "tokens": [
+        {
+          "text": "持たれる",
+          "kana": "もたれる"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "睡（被动形）",
+      "japanese": "寝られる",
+      "kana": "ねられる",
+      "romaji": "nerareru",
+      "tokens": [
+        {
+          "text": "寝られる",
+          "kana": "ねられる"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "走路（被动形）",
+      "japanese": "歩かれる",
+      "kana": "あるかれる",
+      "romaji": "arukareru",
+      "tokens": [
+        {
+          "text": "歩かれる",
+          "kana": "あるかれる"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "使用（被动形）",
+      "japanese": "使われる",
+      "kana": "つかわれる",
+      "romaji": "tsukawareru",
+      "tokens": [
+        {
+          "text": "使われる",
+          "kana": "つかわれる"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "站（被动形）",
+      "japanese": "立たれる",
+      "kana": "たたれる",
+      "romaji": "tatareru",
+      "tokens": [
+        {
+          "text": "立たれる",
+          "kana": "たたれる"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "卖（被动形）",
+      "japanese": "売られる",
+      "kana": "うられる",
+      "romaji": "urareru",
+      "tokens": [
+        {
+          "text": "売られる",
+          "kana": "うられる"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "起床（被动形）",
+      "japanese": "起きられる",
+      "kana": "おきられる",
+      "romaji": "okirareru",
+      "tokens": [
+        {
+          "text": "起きられる",
+          "kana": "おきられる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "洗（被动形）",
+      "japanese": "洗われる",
+      "kana": "あらわれる",
+      "romaji": "arawareru",
+      "tokens": [
+        {
+          "text": "洗われる",
+          "kana": "あらわれる"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "住（被动形）",
+      "japanese": "住まれる",
+      "kana": "すまれる",
+      "romaji": "sumareru",
+      "tokens": [
+        {
+          "text": "住まれる",
+          "kana": "すまれる"
+        }
+      ]
+    }
+  ]
+}

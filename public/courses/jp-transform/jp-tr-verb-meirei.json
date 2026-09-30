@@ -1,0 +1,398 @@
+{
+  "id": "jp-tr-verb-meirei",
+  "coursePackId": "jp-transform",
+  "title": "动词变形 · 命令形",
+  "order": 19,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "死（命令形）",
+      "japanese": "死ね",
+      "kana": "しね",
+      "romaji": "shine",
+      "tokens": [
+        {
+          "text": "死ね",
+          "kana": "しね"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "买（命令形）",
+      "japanese": "買え",
+      "kana": "かえ",
+      "romaji": "kae",
+      "tokens": [
+        {
+          "text": "買え",
+          "kana": "かえ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "去（命令形）",
+      "japanese": "行け",
+      "kana": "いけ",
+      "romaji": "ike",
+      "tokens": [
+        {
+          "text": "行け",
+          "kana": "いけ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "玩（命令形）",
+      "japanese": "遊べ",
+      "kana": "あそべ",
+      "romaji": "asobe",
+      "tokens": [
+        {
+          "text": "遊べ",
+          "kana": "あそべ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "回（家）（命令形）",
+      "japanese": "帰れ",
+      "kana": "かえれ",
+      "romaji": "kaere",
+      "tokens": [
+        {
+          "text": "帰れ",
+          "kana": "かえれ"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "看（命令形）",
+      "japanese": "見ろ",
+      "kana": "みろ",
+      "romaji": "miro",
+      "tokens": [
+        {
+          "text": "見ろ",
+          "kana": "みろ"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "游泳（命令形）",
+      "japanese": "泳げ",
+      "kana": "およげ",
+      "romaji": "oyoge",
+      "tokens": [
+        {
+          "text": "泳げ",
+          "kana": "およげ"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "吃（命令形）",
+      "japanese": "食べろ",
+      "kana": "たべろ",
+      "romaji": "tabero",
+      "tokens": [
+        {
+          "text": "食べろ",
+          "kana": "たべろ"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "学习（命令形）",
+      "japanese": "勉強しろ",
+      "kana": "べんきょうしろ",
+      "romaji": "benkiyoushiro",
+      "tokens": [
+        {
+          "text": "勉強しろ",
+          "kana": "べんきょうしろ"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "读（命令形）",
+      "japanese": "読め",
+      "kana": "よめ",
+      "romaji": "yome",
+      "tokens": [
+        {
+          "text": "読め",
+          "kana": "よめ"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "做（命令形）",
+      "japanese": "しろ",
+      "kana": "しろ",
+      "romaji": "shiro",
+      "tokens": [
+        {
+          "text": "しろ",
+          "kana": "しろ"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "写（命令形）",
+      "japanese": "書け",
+      "kana": "かけ",
+      "romaji": "kake",
+      "tokens": [
+        {
+          "text": "書け",
+          "kana": "かけ"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "来（命令形）",
+      "japanese": "来い",
+      "kana": "こい",
+      "romaji": "koi",
+      "tokens": [
+        {
+          "text": "来い",
+          "kana": "こい"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "说（命令形）",
+      "japanese": "話せ",
+      "kana": "はなせ",
+      "romaji": "hanase",
+      "tokens": [
+        {
+          "text": "話せ",
+          "kana": "はなせ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "知道（命令形）",
+      "japanese": "知れ",
+      "kana": "しれ",
+      "romaji": "shire",
+      "tokens": [
+        {
+          "text": "知れ",
+          "kana": "しれ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "等（命令形）",
+      "japanese": "待て",
+      "kana": "まて",
+      "romaji": "mate",
+      "tokens": [
+        {
+          "text": "待て",
+          "kana": "まて"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "使用（命令形）",
+      "japanese": "使え",
+      "kana": "つかえ",
+      "romaji": "tsukae",
+      "tokens": [
+        {
+          "text": "使え",
+          "kana": "つかえ"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "赶（时间）（命令形）",
+      "japanese": "急げ",
+      "kana": "いそげ",
+      "romaji": "isoge",
+      "tokens": [
+        {
+          "text": "急げ",
+          "kana": "いそげ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "洗衣服（命令形）",
+      "japanese": "洗濯しろ",
+      "kana": "せんたくしろ",
+      "romaji": "sentakushiro",
+      "tokens": [
+        {
+          "text": "洗濯しろ",
+          "kana": "せんたくしろ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "叫（命令形）",
+      "japanese": "呼べ",
+      "kana": "よべ",
+      "romaji": "yobe",
+      "tokens": [
+        {
+          "text": "呼べ",
+          "kana": "よべ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "教（命令形）",
+      "japanese": "教えろ",
+      "kana": "おしえろ",
+      "romaji": "oshiero",
+      "tokens": [
+        {
+          "text": "教えろ",
+          "kana": "おしえろ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "卖（命令形）",
+      "japanese": "売れ",
+      "kana": "うれ",
+      "romaji": "ure",
+      "tokens": [
+        {
+          "text": "売れ",
+          "kana": "うれ"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "走路（命令形）",
+      "japanese": "歩け",
+      "kana": "あるけ",
+      "romaji": "aruke",
+      "tokens": [
+        {
+          "text": "歩け",
+          "kana": "あるけ"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "起床（命令形）",
+      "japanese": "起きろ",
+      "kana": "おきろ",
+      "romaji": "okiro",
+      "tokens": [
+        {
+          "text": "起きろ",
+          "kana": "おきろ"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "笑（命令形）",
+      "japanese": "笑え",
+      "kana": "わらえ",
+      "romaji": "warae",
+      "tokens": [
+        {
+          "text": "笑え",
+          "kana": "わらえ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "睡（命令形）",
+      "japanese": "寝ろ",
+      "kana": "ねろ",
+      "romaji": "nero",
+      "tokens": [
+        {
+          "text": "寝ろ",
+          "kana": "ねろ"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "打开（命令形）",
+      "japanese": "開けろ",
+      "kana": "あけろ",
+      "romaji": "akero",
+      "tokens": [
+        {
+          "text": "開けろ",
+          "kana": "あけろ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "记住（命令形）",
+      "japanese": "覚えろ",
+      "kana": "おぼえろ",
+      "romaji": "oboero",
+      "tokens": [
+        {
+          "text": "覚えろ",
+          "kana": "おぼえろ"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "跑（命令形）",
+      "japanese": "走れ",
+      "kana": "はしれ",
+      "romaji": "hashire",
+      "tokens": [
+        {
+          "text": "走れ",
+          "kana": "はしれ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "工作（命令形）",
+      "japanese": "働け",
+      "kana": "はたらけ",
+      "romaji": "hatarake",
+      "tokens": [
+        {
+          "text": "働け",
+          "kana": "はたらけ"
+        }
+      ]
+    }
+  ]
+}
