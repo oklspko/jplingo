@@ -15,6 +15,7 @@
           <p class="study-meta">
             学习 {{ uniqueStatements.length }} 项 · 练习 {{ practiceCount }} 题
           </p>
+          <p v-if="preloadText" class="study-preload">{{ preloadText }}</p>
         </header>
 
         <div v-if="loading" class="study-loading">加载中…</div>
@@ -67,8 +68,10 @@ import {
   fetchCourse,
   dedupeStatements,
   getPracticeCount,
+  buildPracticeOrder,
 } from "~/composables/jp/useJpCourses";
 import { isSingleKanaCourseId, kanaToInputRomaji } from "~/composables/jp/useJpRomaji";
+import { preloadJapaneseInOrder, preloadProgress } from "~/composables/jp/useJpSound";
 import type { JpStatement } from "~/types/jp";
 
 const route = useRoute();
@@ -124,11 +127,26 @@ onMounted(async () => {
       romaji: kanaToInputRomaji(s.kana),
     }));
     courseTitle.value = data.title || id;
+    // 提前把这一课的语音按练习顺序合成好：APK 里没有预生成音频，练习页要当场合成就得等几秒
+    startAudioPreload(packId, data.statements || []);
   } catch (err) {
     console.error("加载课程失败：", err);
   } finally {
     loading.value = false;
   }
+});
+
+/** 学习页提前预加载：顺序 = 练习页实际出题顺序（buildPracticeOrder），逐句合成 */
+function startAudioPreload(packId: string, list: JpStatement[]) {
+  const ordered = buildPracticeOrder(packId, list, 6);
+  preloadJapaneseInOrder(ordered.map((s) => s.kana.replace(/\s+/g, "")));
+}
+
+const preloadText = computed(() => {
+  const { done, total } = preloadProgress.value;
+  if (!total) return "";
+  if (done >= total) return "🔊 本课语音已提前准备好";
+  return `🔊 正在提前准备语音 ${done}/${total}`;
 });
 </script>
 
@@ -236,6 +254,13 @@ onMounted(async () => {
   color: #7dd3fc;
   padding: 80px 0;
   font-size: 15px;
+}
+
+/* 语音提前准备进度（练习页要当场合成就得等，所以在学习页先备好） */
+.study-preload {
+  margin: 8px 0 0;
+  font-size: 13px;
+  color: #0284c7;
 }
 
 /* ===== 上下课导航 ===== */

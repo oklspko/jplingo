@@ -1,4 +1,5 @@
 import { Capacitor } from "@capacitor/core";
+import { ref } from "vue";
 import { cacheBustUrl } from "~/composables/jp/useJpBuildId";
 import {
   offlineTtsInstalled,
@@ -365,6 +366,67 @@ export function prefetchJapanese(text: string) {
       synthesizeOffline(text);
     })
     .catch(() => {});
+}
+
+/**
+ * 按顺序预加载一整课的语音（学习页用，给随后的练习页铺路）。
+ *
+ * - 严格按传入顺序逐句合成（原生合成本来串行，这里再保证顺序）
+ * - 跳过有预生成音频的、以及已经合成过的（synthesizeOffline 内部有缓存）
+ * - 非原生端直接返回；首启正在把内置模型拷到应用目录时，最多等 90 秒再开始
+ * - 离开学习页**不取消**（练习页马上要用）；只有再次调用或显式 cancel 才中止上一轮
+ */
+export const preloadProgress = ref<{ done: number; total: number }>({ done: 0, total: 0 });
+
+let preloadToken = 0;
+
+export function cancelJapanesePreload() {
+  preloadToken++;
+  preloadProgress.value = { done: 0, total: 0 };
+}
+
+async function waitForOfflineReady(timeoutMs = 90_000): Promise<boolean> {
+  if (offlineTtsInstalled.value) return true;
+  const deadline = Date.now() + timeoutMs;
+  while (Date.now() < deadline) {
+    await new Promise((r) => setTimeout(r, 500));
+    if (offlineTtsInstalled.value) return true;
+  }
+  return offlineTtsInstalled.value;
+}
+
+export async function preloadJapaneseInOrder(texts: string[]): Promise<void> {
+  preloadProgress.value = { done: 0, total: 0 };
+  if (typeof window === "undefined") return;
+  if (!Capacitor.isNativePlatform()) return;
+  const token = ++preloadToken;
+
+  await loadManifest().catch(() => null);
+  // 去重 + 跳过已有预生成音频的
+  const targets: string[] = [];
+  for (const raw of texts) {
+    const key = normalizeKey(raw || "");
+    if (!key || targets.includes(key)) continue;
+    if (manifest?.[key]) continue;
+    targets.push(key);
+  }
+  if (!targets.length) return;
+
+  preloadProgress.value = { done: 0, total: targets.length };
+  const ready = await waitForOfflineReady();
+  if (token !== preloadToken) return; // 期间被取消或换了课
+  if (!ready) {
+    preloadProgress.value = { done: 0, total: 0 };
+    return;
+  }
+
+  for (let i = 0; i < targets.length; i++) {
+    if (token !== preloadToken) return;
+    await synthesizeOffline(targets[i]);
+    // 合成期间可能被取消/换课：不能把已经清掉的进度又写回去
+    if (token !== preloadToken) return;
+    preloadProgress.value = { done: i + 1, total: targets.length };
+  }
 }
 
 // 每次发音一个序号：过期的回退（例如上一句的错误回调）不再发声，也避免
