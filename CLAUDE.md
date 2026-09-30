@@ -31,16 +31,21 @@ Nuxt 3 日语学习应用：连词成句 + 语法词典 + 答题练习 + 离线�
   `new OfflineTts(null, config)`（只有 `(AssetManager, OfflineTtsConfig)` 构造，传 null 走 `newFromFile`）、`setExtra(Map<String,String>)`、
   `generateWithConfig(text, gen)`；master 文档里的 builder / 单参构造 / `OfflineTtsCallback` 都是更新版本，别照抄。
 - 模型 `sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2`（128,774,318 B ≈ 123MiB，GitHub Release `tts-models`）：
-  `lang=ja`、语者 sid 0–9、24kHz；7 个文件 = duration_predictor / text_encoder / vector_estimator / vocoder 的 `.int8.onnx` + `tts.json` + `unicode_indexer.bin` + `voice.bin`（按顶层目录整体解压，插件会剥掉包内第一层目录）。
+  `lang=ja`、语者 sid 0–9、采样率 44100（实测；官方文档页写的 24000 已过时）；7 个文件 = duration_predictor / text_encoder / vector_estimator / vocoder 的 `.int8.onnx` + `tts.json` + `unicode_indexer.bin` + `voice.bin`（按顶层目录整体解压，插件会剥掉包内第一层目录）。
 - 前端：`app/composables/jp/useJpTts.ts`（插件桥接 + `@capacitor/filesystem` 原生下载：镜像优先/官方兜底、进度事件、大小校验 → `installModel`；合成结果按句缓存）；
   发音链在 `app/composables/jp/useJpSound.ts` 的 `speakJapanese`：**预生成音频 → 内置离线引擎 → 系统 TTS → 浏览器 TTS**；
   UI 在「我的」页「离线发音」卡片（下载进度 / 试听 / 删除）。
 - 模型地址默认官方 Release，可用 `NUXT_TTS_MODEL_URL` 覆盖为自托管（如 `https://api.jplingo.cn/tts/...`，大陆下载更快）。
 - 排查：手机装 APK 后进「我的 → 离线发音 → 下载离线语音（约123MB，建议 WiFi）」，装完点「试听」；无声先看该卡片的状态/报错。
-- 自测（改发音链后必跑）：`node tests/offline-tts/run.cjs` —— 用 esbuild 把 `tests/offline-tts/spec.ts` 与 mock 的 Capacitor 插件打包后在 Node 里跑，覆盖
-  「镜像失败换下一个 / 截断包判失败 / 合成缓存命中与失效 / 状态探测自愈 / 删除模型」等 33 项断言（不进 CI）。
+- 自测（改发音链后必跑）：`node tests/offline-tts/run.cjs` —— 用 esbuild 把 `tests/offline-tts/spec.ts`、`spec-sound.ts` 与 mock 的 Capacitor 插件打包后在 Node 里跑，
+  共 60 项断言，覆盖「镜像失败换下一个 / 截断包判失败 / 合成缓存与并发串行 / 状态探测自愈 / 发音回退链四级顺序 / 预合成 / 删除模型」（不进 CI）。
+- 音质与延迟实测（2026-10-01，本机桌面，`scripts/tts-quality-poc.py` 可复现）：采样率 **44100**（文档写的 24000 已过时）、语者 10 个；
+  26 字句音频 3.79s / 合成 1.46s（RTF 0.38）；App 里最长的 66 字句音频 11.17s / 合成 3.56s（RTF 0.32，steps=6→2.78s，steps=4→2.00s）。
+  → 手机 CPU 更慢，所以切题时会预合成下一句（`prefetchJapanese`），发音按钮在合成期间显示「🔊 合成中…」。
 - 两条踩过的坑，改代码时别回退：
   1. `isReady()` 探测失败**不能缓存**（早期实现缓存了 `statusPromise` 并把 `supported` 置 false）——桥瞬时异常会让整场会话判定「不支持」，
      「我的」页连下载按钮都不显示，用户永远装不上模型；现在失败即清空缓存 + `statusChecked=false`，下次自动重探。
   2. `@capacitor/filesystem` 的安卓 `downloadFile` **不校验 content-length**（读多少写多少，被截断也算成功），
      所以前端必须把 `stat` 出来的字节数与官方大小（128,774,318）严格比对，不够就换下一个镜像。
+  3. 原生 `speak()` 必须**串行 + 同句去重**（同一 OfflineTts 实例并发不安全，两个线程写同一个 md5 输出文件也会互相破坏）；
+     `speakJapanese` 用序号作废过期回退，否则 mp3 播放失败时「error 事件 + play() 拒绝」会把同一句合成两遍。
