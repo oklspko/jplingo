@@ -21,3 +21,19 @@ Nuxt 3 日语学习应用：连词成句 + 语法词典 + 答题练习 + 离线�
 ## 构建
 - 本机无 Android 工具链：APK 走 GitHub Actions `.github/workflows/build-apk.yml`（push main 产 artifact，打 v* 标签发 Release `jp-lingo.apk`）。本地别跑 gradlew。
 - Web 侧验证：`npm run build` 或 `npx nuxi typecheck`。
+- 注意 `dist/` 在本机是指向 `.output/public` 的 junction（且被 git 跟踪）：跑完本地构建会有几千个 dist 变更，**提交前别 `git add dist`**，`git checkout HEAD -- dist` + `git clean -fd dist` 还原即可（CI 用 `webDir: .output/public`，不吃 dist）。
+
+## 离线日语 TTS（sherpa-onnx + Supertonic-3，安卓内置发音）
+- 原生插件 `android/app/src/main/java/com/jplingo/app/JpTtsPlugin.java`（Capacitor 名 `JpTts`，`MainActivity` 注册）：
+  `isReady` / `installModel`（把 filesDir 下的 .tar.bz2 解压到 `filesDir/tts-ja`）/ `prepare`（预热）/ `speak`（合成 WAV 到 `cacheDir/tts/<md5(text|sid|speed)>.wav`）/ `release`。`initTts` 必须保持 `synchronized`。
+- 运行时用官方 `sherpa-onnx-1.13.8.aar`（CI 下载 + sha256 校验；`android/app/build.gradle` 里走 flatDir `implementation(name:'sherpa-onnx', ext:'aar')`，
+  **必须同时带 `kotlin-stdlib`**，否则运行时 `kotlin/jvm/internal/Intrinsics` 找不到）。v1.13.8 的 API 是 Kotlin setter 风格：
+  `new OfflineTts(null, config)`（只有 `(AssetManager, OfflineTtsConfig)` 构造，传 null 走 `newFromFile`）、`setExtra(Map<String,String>)`、
+  `generateWithConfig(text, gen)`；master 文档里的 builder / 单参构造 / `OfflineTtsCallback` 都是更新版本，别照抄。
+- 模型 `sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2`（128,774,318 B ≈ 123MiB，GitHub Release `tts-models`）：
+  `lang=ja`、语者 sid 0–9、24kHz；7 个文件 = duration_predictor / text_encoder / vector_estimator / vocoder 的 `.int8.onnx` + `tts.json` + `unicode_indexer.bin` + `voice.bin`（按顶层目录整体解压，插件会剥掉包内第一层目录）。
+- 前端：`app/composables/jp/useJpTts.ts`（插件桥接 + `@capacitor/filesystem` 原生下载：镜像优先/官方兜底、进度事件、大小校验 → `installModel`；合成结果按句缓存）；
+  发音链在 `app/composables/jp/useJpSound.ts` 的 `speakJapanese`：**预生成音频 → 内置离线引擎 → 系统 TTS → 浏览器 TTS**；
+  UI 在「我的」页「离线发音」卡片（下载进度 / 试听 / 删除）。
+- 模型地址默认官方 Release，可用 `NUXT_TTS_MODEL_URL` 覆盖为自托管（如 `https://api.jplingo.cn/tts/...`，大陆下载更快）。
+- 排查：手机装 APK 后进「我的 → 离线发音 → 下载离线语音（约123MB，建议 WiFi）」，装完点「试听」；无声先看该卡片的状态/报错。
