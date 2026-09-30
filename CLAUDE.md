@@ -37,3 +37,10 @@ Nuxt 3 日语学习应用：连词成句 + 语法词典 + 答题练习 + 离线�
   UI 在「我的」页「离线发音」卡片（下载进度 / 试听 / 删除）。
 - 模型地址默认官方 Release，可用 `NUXT_TTS_MODEL_URL` 覆盖为自托管（如 `https://api.jplingo.cn/tts/...`，大陆下载更快）。
 - 排查：手机装 APK 后进「我的 → 离线发音 → 下载离线语音（约123MB，建议 WiFi）」，装完点「试听」；无声先看该卡片的状态/报错。
+- 自测（改发音链后必跑）：`node tests/offline-tts/run.cjs` —— 用 esbuild 把 `tests/offline-tts/spec.ts` 与 mock 的 Capacitor 插件打包后在 Node 里跑，覆盖
+  「镜像失败换下一个 / 截断包判失败 / 合成缓存命中与失效 / 状态探测自愈 / 删除模型」等 33 项断言（不进 CI）。
+- 两条踩过的坑，改代码时别回退：
+  1. `isReady()` 探测失败**不能缓存**（早期实现缓存了 `statusPromise` 并把 `supported` 置 false）——桥瞬时异常会让整场会话判定「不支持」，
+     「我的」页连下载按钮都不显示，用户永远装不上模型；现在失败即清空缓存 + `statusChecked=false`，下次自动重探。
+  2. `@capacitor/filesystem` 的安卓 `downloadFile` **不校验 content-length**（读多少写多少，被截断也算成功），
+     所以前端必须把 `stat` 出来的字节数与官方大小（128,774,318）严格比对，不够就换下一个镜像。

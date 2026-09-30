@@ -114,12 +114,16 @@ export function refreshOfflineTtsStatus(force = false): Promise<boolean> {
     try {
       const r = await JpTts.isReady();
       installed.value = !!r?.ready;
+      statusChecked = true;
     } catch (err) {
       console.warn("[jplingo] 离线语音状态检查失败：", err);
-      supported.value = false;
+      // 探测失败（桥还没就绪、瞬时异常）绝不能缓存：
+      // 否则 statusChecked 变 true + supported 变 false 会把整场会话钉死在「不支持/未安装」，
+      // 「我的」页连下载按钮都不显示，用户就永远装不上模型 → 一直没声音。
       installed.value = false;
-    } finally {
-      statusChecked = true;
+      statusChecked = false;
+      statusPromise = null;
+      return false;
     }
     if (installed.value) warmUpOfflineTts();
     return installed.value;
