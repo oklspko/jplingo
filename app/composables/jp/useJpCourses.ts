@@ -4,6 +4,7 @@ import {
   getImportedPacks,
   getImportedCourse,
 } from "~/composables/jp/useJpImportedPacks";
+import { cacheBustUrl } from "~/composables/jp/useJpBuildId";
 
 const PACK_PRIORITY = ["jp-kana", "jp-basic-01"];
 
@@ -42,7 +43,7 @@ export function classifyKind(
 }
 
 export async function fetchCoursePacks(): Promise<JpCoursePack[]> {
-  const res = await fetch("/courses/course-packs.json");
+  const res = await fetch(cacheBustUrl("/courses/course-packs.json"));
   const data = await res.json();
   const builtin = (data.coursePacks || []) as JpCoursePack[];
   // 合并「内置 + 导入」两个来源，导入的包排在后面
@@ -68,7 +69,7 @@ export async function fetchCourse(
     };
   }
 
-  const res = await fetch(`/courses/${packId}/${courseId}.json`);
+  const res = await fetch(cacheBustUrl(`/courses/${packId}/${courseId}.json`));
   if (!res.ok) throw new Error(`课程不存在：${courseId}`);
   return (await res.json()) as JpCourse;
 }

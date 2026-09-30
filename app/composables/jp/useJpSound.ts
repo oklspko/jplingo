@@ -1,3 +1,5 @@
+import { cacheBustUrl } from "~/composables/jp/useJpBuildId";
+
 let audioCtx: AudioContext | null = null;
 let lastTypingTime = 0;
 
@@ -114,7 +116,7 @@ let audioEl: HTMLAudioElement | null = null;
 function loadManifest(): Promise<Record<string, string> | null> {
   if (manifest) return Promise.resolve(manifest);
   if (!manifestPromise) {
-    manifestPromise = fetch(`${AUDIO_BASE}/manifest.json`)
+    manifestPromise = fetch(cacheBustUrl(`${AUDIO_BASE}/manifest.json`))
       .then((r) => (r.ok ? r.json() : null))
       .catch(() => null)
       .then((m) => {

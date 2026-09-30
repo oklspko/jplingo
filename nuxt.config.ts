@@ -14,6 +14,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       appVersion: pkg.version || "1.0.0",
+      // 构建标识：课程/音频这类无内容哈希的静态 JSON 用它做 ?v= 缓存穿透（见 useJpBuildId.ts）
+      buildId: process.env.GITHUB_SHA?.slice(0, 8) || process.env.NUXT_PUBLIC_BUILD_ID || pkg.version,
       supabaseUrl: process.env.NUXT_SUPABASE_URL || "",
       supabaseAnonKey: process.env.NUXT_SUPABASE_ANON_KEY || "",
       // 发布页 APK 下载地址，可通过 NUXT_APK_URL 覆盖
