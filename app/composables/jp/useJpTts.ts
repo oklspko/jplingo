@@ -28,16 +28,23 @@ export const TTS_MODEL_DIR = "tts-ja";
 export const TTS_MODEL_BYTES = 128774318;
 // 试听文本（纯假名，避免依赖模型对汉字的处理）
 export const TTS_TEST_TEXT = "こんにちは、にほんごのおんせいです。";
-// 语者（Supertonic-3 日语共 10 个语者，0–9）
-export const TTS_DEFAULT_SID = 0;
+// 语者（音色）：Supertonic-3 共 10 个（0–9），这里只保留选定的 4 个，界面上不再出现其余的。
+// 注意：10 个语者共用同一个模型，全部音色数据都在 voice.bin（仅 0.5MB），
+// 所以「少留几个语者」不会让 APK 变小 —— 要省体积得换更小的模型（见 CLAUDE.md）。
+export const TTS_SPEAKER_CHOICES = [3, 4, 7, 9];
+export const TTS_DEFAULT_SID = 3;
 // 扩散步数：越少越快、质量略降（实测桌面 66 字长句 steps=8 → 3.56s，4 → 2.00s）
 export const TTS_DEFAULT_STEPS = 8;
 export const TTS_STEP_CHOICES = [4, 6, 8];
-export const TTS_SPEAKER_COUNT = 10;
 
 // 语者/步数可在「我的」页选，存 localStorage（手机上自己 A/B，不用改代码）
 const SID_KEY = "jp-tts-sid";
 const STEPS_KEY = "jp-tts-steps";
+
+/** 只接受保留列表里的语者；旧版本存的 0/1/2/5/6/8 一律回落到默认，免得选了个不存在的音色 */
+function normalizeSid(value: number): number {
+  return TTS_SPEAKER_CHOICES.includes(Math.round(value)) ? Math.round(value) : TTS_DEFAULT_SID;
+}
 
 function loadNumber(key: string, fallback: number): number {
   if (typeof window === "undefined") return fallback;
@@ -57,11 +64,11 @@ function saveNumber(key: string, value: number) {
   }
 }
 
-export const ttsSid = ref(loadNumber(SID_KEY, TTS_DEFAULT_SID));
+export const ttsSid = ref(normalizeSid(loadNumber(SID_KEY, TTS_DEFAULT_SID)));
 export const ttsSteps = ref(loadNumber(STEPS_KEY, TTS_DEFAULT_STEPS));
 
 export function setTtsSid(value: number) {
-  ttsSid.value = Math.max(0, Math.min(TTS_SPEAKER_COUNT - 1, Math.round(value)));
+  ttsSid.value = normalizeSid(value);
   saveNumber(SID_KEY, ttsSid.value);
 }
 

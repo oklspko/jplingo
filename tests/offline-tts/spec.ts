@@ -10,6 +10,7 @@ import {
   TTS_MODEL_URL_DEFAULT,
   TTS_DEFAULT_STEPS,
   TTS_DEFAULT_SID,
+  TTS_SPEAKER_CHOICES,
   downloadOfflineTtsModel,
   synthesizeOffline,
   deleteOfflineTtsModel,
@@ -34,7 +35,7 @@ function eq(name: string, actual: unknown, expected: unknown) {
 const callsOf = (prefix: string) => pluginState.calls.filter((c) => c.startsWith(prefix)).length;
 
 async function main() {
-  const { supported, installed, error, progress, synthesizing, lastSynth, lastPrepare } =
+  const { supported, installed, error, progress, synthesizing, lastSynth, lastPrepare, sid } =
     useJpTts();
   fsState.fullSize = TTS_MODEL_BYTES;
   const candidates = apkDownloadCandidates(TTS_MODEL_URL_DEFAULT);
@@ -175,16 +176,19 @@ async function main() {
   console.log("\n[9] 语者/步数可调：要透传到原生，且换参数不能命中旧缓存");
   const ls = (globalThis as unknown as { __lsStore: Map<string, string> }).__lsStore;
   eq("默认步数是 8", pluginState.lastSpeakArgs?.steps, TTS_DEFAULT_STEPS);
-  eq("默认语者是 0", pluginState.lastSpeakArgs?.sid, TTS_DEFAULT_SID);
+  eq("默认语者是保留列表里的第一个", pluginState.lastSpeakArgs?.sid, TTS_DEFAULT_SID);
+  eq("保留的语者就是 3/4/7/9", TTS_SPEAKER_CHOICES, [3, 4, 7, 9]);
+  setTtsSid(0); // 旧版本可能存着已去掉的语者 0
+  eq("已去掉的语者会回落到默认", sid.value, TTS_DEFAULT_SID);
   setTtsSteps(4);
-  setTtsSid(3);
+  setTtsSid(9);
   eq("步数写进了 localStorage", ls.get("jp-tts-steps"), "4");
-  eq("语者写进了 localStorage", ls.get("jp-tts-sid"), "3");
+  eq("语者写进了 localStorage", ls.get("jp-tts-sid"), "9");
   const before9 = callsOf("speak:");
   const p9 = await synthesizeOffline("にほんご");
   eq("换参数后重新合成（不吃旧缓存）", callsOf("speak:") - before9, 1);
   eq("steps 透传到原生", pluginState.lastSpeakArgs?.steps, 4);
-  eq("sid 透传到原生", pluginState.lastSpeakArgs?.sid, 3);
+  eq("sid 透传到原生", pluginState.lastSpeakArgs?.sid, 9);
   const n9 = callsOf("speak:");
   eq("同参数再取走缓存", await synthesizeOffline("にほんご"), p9);
   eq("没有再调原生", callsOf("speak:") - n9, 0);

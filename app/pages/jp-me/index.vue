@@ -88,8 +88,8 @@
                 <label class="tts-option">
                   <span>语者</span>
                   <select :value="ttsSid" @change="onSidChange">
-                    <option v-for="n in TTS_SPEAKER_COUNT" :key="n" :value="n - 1">
-                      {{ n - 1 }} 号
+                    <option v-for="sid in TTS_SPEAKER_CHOICES" :key="sid" :value="sid">
+                      {{ sid }} 号
                     </option>
                   </select>
                 </label>
@@ -302,7 +302,7 @@ import {
   TTS_MODEL_BYTES,
   TTS_TEST_TEXT,
   TTS_DEFAULT_STEPS,
-  TTS_SPEAKER_COUNT,
+  TTS_SPEAKER_CHOICES,
   TTS_STEP_CHOICES,
 } from "~/composables/jp/useJpTts";
 import { speakOfflineNow } from "~/composables/jp/useJpSound";
