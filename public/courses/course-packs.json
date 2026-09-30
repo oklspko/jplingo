@@ -41,22 +41,9 @@
       "title": "句子生长",
       "language": "ja",
       "level": "入门",
-      "description": "从 1 个单词开始，通过接续规则不断生长，直到复杂句",
+      "description": "一课只练一句话：从一个主谓短句开始，逐词添加，生长成至少 20 个词汇的大长句",
       "courses": [
-        "jp-grow-01",
-        "jp-grow-02",
-        "jp-grow-03",
-        "jp-grow-04",
-        "jp-grow-05",
-        "jp-grow-06",
-        "jp-grow-07",
-        "jp-grow-08",
-        "jp-grow-09",
-        "jp-grow-10",
-        "jp-grow-11",
-        "jp-grow-12",
-        "jp-grow-13",
-        "jp-grow-14"
+        "jp-grow-01"
       ]
     },
     {
