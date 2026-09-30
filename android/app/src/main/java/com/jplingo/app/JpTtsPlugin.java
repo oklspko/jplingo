@@ -231,6 +231,12 @@ public class JpTtsPlugin extends Plugin {
                     extra.put("lang", "ja");
                     gen.setExtra(extra);
                     GeneratedAudio audio = tts.generateWithConfig(text, gen);
+                    float[] samples = audio.getSamples();
+                    if (samples == null || samples.length == 0) {
+                        // 0 采样时 save() 仍会写个几十字节的 WAV 头，前端播出来是「静默」而不是报错
+                        call.reject("合成结果为空（0 采样），这段文本可能不被支持");
+                        return;
+                    }
                     File cacheDir = new File(getContext().getCacheDir(), "tts");
                     if (!cacheDir.exists()) cacheDir.mkdirs();
                     // 文件名要带 steps：换了步数就是另一份音频，否则会命中旧参数的 WAV
@@ -242,6 +248,8 @@ public class JpTtsPlugin extends Plugin {
                     }
                     JSObject ret = new JSObject();
                     ret.put("path", out.getAbsolutePath());
+                    // 音频时长回报给前端：配合前端测的合成耗时，手机上就能算出真实 RTF
+                    ret.put("duration", samples.length / (double) audio.getSampleRate());
                     call.resolve(ret);
                 } catch (Throwable e) {
                     Log.e(TAG, "speak failed", e);

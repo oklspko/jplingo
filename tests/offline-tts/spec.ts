@@ -13,6 +13,7 @@ import {
   downloadOfflineTtsModel,
   synthesizeOffline,
   deleteOfflineTtsModel,
+  formatSynthInfo,
   refreshOfflineTtsStatus,
   setTtsSid,
   setTtsSteps,
@@ -157,6 +158,13 @@ async function main() {
     "记录了上次合成耗时（真机诊断数据）",
     lastSynth.value !== null && lastSynth.value.ms >= 5,
     JSON.stringify(lastSynth.value),
+  );
+  eq("原生回报了音频时长", lastSynth.value?.audioSeconds, 2.5);
+  const infoLine = formatSynthInfo(lastSynth.value);
+  check(
+    "诊断行带 RTF（手机上直接读这个数）",
+    infoLine.includes("音频 2.5 秒") && infoLine.includes("RTF"),
+    infoLine,
   );
   check(
     "记录了模型预热耗时（与逐句合成分开看）",

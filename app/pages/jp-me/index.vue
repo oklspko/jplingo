@@ -294,6 +294,7 @@ import {
 import {
   useJpTts,
   ttsPercent,
+  formatSynthInfo,
   TTS_MODEL_BYTES,
   TTS_TEST_TEXT,
   TTS_DEFAULT_STEPS,
@@ -349,13 +350,12 @@ const ttsDesc = computed(() => {
 
 const ttsProgressWidth = computed(() => `${ttsPercent(ttsProgress.value)}%`);
 
-// 真机诊断：把上一次原生合成的耗时显示出来（手机上唯一能拿到的性能数据）
+// 真机诊断：把上一次原生合成的耗时/音频长度/RTF 显示出来（手机上唯一能拿到的性能数据）
 const ttsLastSynth = computed(() => {
-  const s = ttsLastSynthRaw.value;
-  if (!s) return "";
+  const line = formatSynthInfo(ttsLastSynthRaw.value);
+  if (!line) return "";
   const prepare = ttsLastPrepareRaw.value;
-  const prepareText = prepare ? `（模型加载 ${(prepare.ms / 1000).toFixed(1)} 秒）` : "";
-  return `上次合成：${s.text.length} 字 / ${(s.ms / 1000).toFixed(1)} 秒${prepareText}`;
+  return prepare ? `${line}（模型加载 ${(prepare.ms / 1000).toFixed(1)} 秒）` : line;
 });
 
 const ttsProgressText = computed(() => {

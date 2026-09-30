@@ -77,7 +77,12 @@ interface JpTtsPlugin {
   isReady(): Promise<{ ready: boolean; modelDir: string }>;
   installModel(options: { archive?: string }): Promise<{ ok: boolean; files: number }>;
   prepare(): Promise<{ ok: boolean }>;
-  speak(options: { text: string; speed?: number; sid?: number; steps?: number }): Promise<{ path: string }>;
+  speak(options: {
+    text: string;
+    speed?: number;
+    sid?: number;
+    steps?: number;
+  }): Promise<{ path: string; duration?: number }>;
   release(): Promise<void>;
 }
 
@@ -192,8 +197,20 @@ function serializeNative<T>(fn: () => Promise<T>): Promise<T> {
 /** 是否正在原生合成（「试听」/发音按钮可以据此显示「合成中…」） */
 export const synthesizing = ref(0);
 
-/** 上一次原生合成的耗时（真机上唯一能拿到的性能数据，用来决定 num_steps 等参数） */
-export const lastSynth = ref<{ text: string; ms: number } | null>(null);
+/** 上一次原生合成的结果（真机上唯一能拿到的性能数据，用来决定 num_steps 等参数） */
+export const lastSynth = ref<{ text: string; ms: number; audioSeconds?: number } | null>(null);
+
+/** 把 lastSynth 格式化成「我的」页显示的一行（含 RTF，便于真机上报） */
+export function formatSynthInfo(info: { text: string; ms: number; audioSeconds?: number } | null): string {
+  if (!info) return "";
+  const seconds = (info.ms / 1000).toFixed(1);
+  if (!info.audioSeconds || info.audioSeconds <= 0) {
+    return `上次合成：${info.text.length} 字 / ${seconds} 秒`;
+  }
+  const audio = info.audioSeconds.toFixed(1);
+  const rtf = (info.ms / 1000 / info.audioSeconds).toFixed(2);
+  return `上次合成：${info.text.length} 字 / ${seconds} 秒 → 音频 ${audio} 秒（RTF ${rtf}）`;
+}
 
 /** 最近一次模型预热耗时（首次加载模型与逐句合成是两个量级，诊断时要分开看） */
 export const lastPrepare = ref<{ ms: number } | null>(null);
@@ -239,7 +256,7 @@ export async function synthesizeOffline(
         const t0 = Date.now();
         const res = await JpTts.speak({ text, speed: rate, sid, steps });
         // 只统计原生合成本身（不含排队等待），手机上诊断用
-        lastSynth.value = { text, ms: Date.now() - t0 };
+        lastSynth.value = { text, ms: Date.now() - t0, audioSeconds: res?.duration };
         return res;
       });
       const path = r?.path || null;

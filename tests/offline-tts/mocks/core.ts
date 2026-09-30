@@ -61,7 +61,8 @@ export const fakePlugin = {
       // 真实插件把 WAV 写进 cacheDir/tts/<md5(text|sid|speed)>.wav
       const name = `${o.text.length}-${o.text.charCodeAt(0)}.wav`;
       speakHook.onResult?.(name);
-      return { path: `/data/data/com.jplingo.app/cache/tts/${name}` };
+      // duration 与真实插件一致：音频秒数（前端据此算 RTF）
+      return { path: `/data/data/com.jplingo.app/cache/tts/${name}`, duration: 2.5 };
     } finally {
       pluginState.active--;
     }
