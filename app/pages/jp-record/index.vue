@@ -223,8 +223,9 @@ async function doLoad() {
 
   const rows: CourseRow[] = [];
   const itemRows: ItemRow[] = [];
-  // 去重：词汇课按「每词循环 N 遍」设计（同课内同一 japanese 有多个 id），
-  // 记录列表按 id 匹配会把同一个词显示多次，这里按「课程 + 日语原文」只保留一条。
+  // 自动去重：同一个「单词/句子/假名」在记录里只保留一条。
+  // 来源有两类：① 词汇课按「每词循环 N 遍」设计，同课内同一 japanese 有多个 id；
+  //          ② 同一个词出现在多个课程包里。这里按「类型 + 日语原文」全局去重。
   const seenItemKeys = new Set<string>();
 
   for (const cid of record.value.studiedCourses) {
@@ -239,7 +240,8 @@ async function doLoad() {
       const key = `${cid}/${stmt.id}`;
       if (studiedSet.has(key)) {
         learned++;
-        const dedupKey = `${cid}|${stmt.japanese}`;
+        const kind = classifyKind(course.coursePackId, cid, stmt.tokens.length);
+        const dedupKey = `${kind}|${stmt.japanese}`;
         if (!seenItemKeys.has(dedupKey)) {
           seenItemKeys.add(dedupKey);
           itemRows.push({
@@ -251,7 +253,7 @@ async function doLoad() {
             japanese: stmt.japanese,
             kana: stmt.kana,
             chinese: stmt.chinese,
-            kind: classifyKind(course.coursePackId, cid, stmt.tokens.length),
+            kind,
           });
         }
       }
