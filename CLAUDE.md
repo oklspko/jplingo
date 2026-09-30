@@ -24,21 +24,28 @@ Nuxt 3 日语学习应用：连词成句 + 语法词典 + 答题练习 + 离线�
 - 注意 `dist/` 在本机是指向 `.output/public` 的 junction（且被 git 跟踪）：跑完本地构建会有几千个 dist 变更，**提交前别 `git add dist`**，`git checkout HEAD -- dist` + `git clean -fd dist` 还原即可（CI 用 `webDir: .output/public`，不吃 dist）。
 
 ## 离线日语 TTS（sherpa-onnx + Supertonic-3，安卓内置发音）
+- **模型是内置的（v1.2.18 起）**：CI 把官方包解压成 7 个文件放进 `android/app/src/main/assets/tts-ja/`（约 145MB，`.gitignore` 里排除，不入库），
+  App 首次启动调 `installFromAssets()` 一次性拷到 `filesDir/tts-ja`（不联网）。「我的」页那个 123MB 下载入口保留为兜底，装好就不显示。
+  `isReady()` 的语义要记牢：**`ready` 只表示 filesDir 里现在就能用**（`initTts()` 只从 filesDir 读模型），`bundled` 只是提示前端去拷贝一次；
+  早期把 ready 写成 `downloaded || bundled`，结果新装机报 ready=true 但文件还不在 → 每次合成必失败。
+- **预生成音频不再进 APK**：CI 在 `cap sync` 之前 `rm -rf .output/public/audio`（讯飞 mp3，实测占 APK 71.8MB / 10625 个文件）。
+  **仓库与网页端仍保留这些 mp3**（`public/audio/` 未删除），网页体验不变；APK 里 0 个音频文件，全靠内置引擎发音。
 - 原生插件 `android/app/src/main/java/com/jplingo/app/JpTtsPlugin.java`（Capacitor 名 `JpTts`，`MainActivity` 注册）：
-  `isReady` / `installModel`（把 filesDir 下的 .tar.bz2 解压到 `filesDir/tts-ja`）/ `prepare`（预热）/ `speak`（合成 WAV 到 `cacheDir/tts/<md5(text|sid|speed|steps)>.wav`，并回传音频 `duration`）/ `release`。`initTts` 必须保持 `synchronized`。
+  `isReady` / `installFromAssets`（内置模型拷进 filesDir）/ `installModel`（解压用户下载的 .tar.bz2，兜底路径）/
+  `prepare`（预热）/ `speak`（WAV 写到 `cacheDir/tts/<md5(text|sid|speed|steps)>.wav`，回传音频 `duration`）/ `release`。`initTts` 必须保持 `synchronized`。
 - 运行时用官方 `sherpa-onnx-1.13.8.aar`（CI 下载 + sha256 校验；`android/app/build.gradle` 里走 flatDir `implementation(name:'sherpa-onnx', ext:'aar')`，
   **必须同时带 `kotlin-stdlib`**，否则运行时 `kotlin/jvm/internal/Intrinsics` 找不到）。v1.13.8 的 API 是 Kotlin setter 风格：
   `new OfflineTts(null, config)`（只有 `(AssetManager, OfflineTtsConfig)` 构造，传 null 走 `newFromFile`）、`setExtra(Map<String,String>)`、
   `generateWithConfig(text, gen)`；master 文档里的 builder / 单参构造 / `OfflineTtsCallback` 都是更新版本，别照抄。
 - 模型 `sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2`（128,774,318 B ≈ 123MiB，GitHub Release `tts-models`）：
   `lang=ja`、语者 sid 0–9、采样率 44100（实测；官方文档页写的 24000 已过时）；7 个文件 = duration_predictor / text_encoder / vector_estimator / vocoder 的 `.int8.onnx` + `tts.json` + `unicode_indexer.bin` + `voice.bin`（按顶层目录整体解压，插件会剥掉包内第一层目录）。
-- 前端：`app/composables/jp/useJpTts.ts`（插件桥接 + `@capacitor/filesystem` 原生下载：镜像优先/官方兜底、进度事件、大小校验 → `installModel`；合成结果按句缓存）；
-  发音链在 `app/composables/jp/useJpSound.ts` 的 `speakJapanese`：**预生成音频 → 内置离线引擎 → 系统 TTS → 浏览器 TTS**；
-  UI 在「我的」页「离线发音」卡片（下载进度 / 试听 / 删除）。
-- 模型地址默认官方 Release，可用 `NUXT_TTS_MODEL_URL` 覆盖为自托管（如 `https://api.jplingo.cn/tts/...`，大陆下载更快）。
-- 排查：手机装 APK 后进「我的 → 离线发音 → 下载离线语音（约123MB，建议 WiFi）」，装完点「试听」；无声先看该卡片的状态/报错。
-- 自测（改发音链后必跑）：`node tests/offline-tts/run.cjs` —— 用 esbuild 把 `tests/offline-tts/spec.ts`、`spec-sound.ts` 与 mock 的 Capacitor 插件打包后在 Node 里跑，
-  共 87 项断言，覆盖「镜像失败换下一个 / 截断包判失败 / 合成缓存与并发串行 / 语者·步数透传与缓存隔离 / 状态探测自愈 / 发音回退链四级顺序 / 预合成 / 连点作废 / 删除模型 / 自托管地址」（不进 CI）。
+- 前端：`app/composables/jp/useJpTts.ts`（插件桥接：内置模型拷贝优先、`@capacitor/filesystem` 原生下载为兜底——镜像优先/官方兜底、进度事件、大小校验 → `installModel`；合成结果按句缓存）；
+  发音链在 `app/composables/jp/useJpSound.ts` 的 `speakJapanese`：**预生成音频 → 内置离线引擎 → 系统 TTS → 浏览器 TTS**（APK 里没有 mp3 了，实际是后三级）；
+  UI 在「我的」页「离线发音」卡片（内置准备中 / 已就绪（APK 内置）/ 试听 / 语者·步数 / 兜底下载）。
+- 兜底下载地址默认官方 Release，可用 `NUXT_TTS_MODEL_URL` 覆盖为自托管（如 `https://api.jplingo.cn/tts/...`，见 DEPLOY.md）。
+- 排查：装 APK 后首启会自动把内置语音拷到应用目录（「我的 → 离线发音」会显示「正在准备内置语音…」，需约 170MB 空闲）；装完点「试听」；无声先看该卡片的状态/报错。
+- 自测（改发音链后必跑）：`node tests/offline-tts/run.cjs` —— 用 esbuild 把 `tests/offline-tts/{spec,spec-sound,spec-bundled,spec-bundled-fail}.ts` 与 mock 的 Capacitor 插件打包后在 Node 里跑，
+  共 104 项断言，覆盖「镜像失败换下一个 / 截断包判失败 / 合成缓存与并发串行 / 语者·步数透传与缓存隔离 / 状态探测自愈 / 发音回退链四级顺序 / 预合成 / 连点作废 / 内置模型拷贝成功与失败 / 自托管地址」（不进 CI）。
 - 音质与延迟实测（2026-10-01，本机桌面，`scripts/tts-quality-poc.py` 可复现）：采样率 **44100**（文档写的 24000 已过时）、语者 10 个；
   26 字句音频 3.79s / 合成 1.46s（RTF 0.38）；App 里最长的 66 字句音频 11.17s / 合成 3.56s（RTF 0.32，steps=6→2.78s，steps=4→2.00s）。
   → 手机 CPU 更慢，所以切题时会预合成下一句（`prefetchJapanese`），发音按钮在合成期间显示「🔊 合成中…」；
