@@ -62,6 +62,29 @@ jobs:
       - name: Sync Capacitor web assets
         run: npx cap sync android
 
+      # 离线日语 TTS：sherpa-onnx 预编译运行时（arm64-v8a）+ Java API 源码
+      # 语言模型（Supertonic-3 int8，约 123MB）不打进 APK，由 App 首次使用时下载
+      - name: Fetch sherpa-onnx runtime and Java API
+        run: |
+          set -e
+          SHERPA_VERSION="v1.13.8"
+          mkdir -p android/app/src/main/jniLibs/arm64-v8a
+          curl -fsSL -o /tmp/sherpa-android.tar.bz2 \
+            "https://github.com/k2-fsa/sherpa-onnx/releases/download/${SHERPA_VERSION}/sherpa-onnx-${SHERPA_VERSION}-android.tar.bz2"
+          mkdir -p /tmp/sherpa-android
+          tar -xjf /tmp/sherpa-android.tar.bz2 -C /tmp/sherpa-android
+          SO_DIR="$(find /tmp/sherpa-android -type d -name 'arm64-v8a' | head -n 1)"
+          echo "found so dir: ${SO_DIR}"
+          ls -lh "${SO_DIR}"
+          cp "${SO_DIR}"/*.so android/app/src/main/jniLibs/arm64-v8a/
+
+          git clone --depth 1 --branch "${SHERPA_VERSION}" https://github.com/k2-fsa/sherpa-onnx /tmp/sherpa-src
+          JAVA_API_DIR="$(find /tmp/sherpa-src -type d -path '*com/k2fsa/sherpa/onnx' | head -n 1)"
+          echo "found java api dir: ${JAVA_API_DIR}"
+          mkdir -p android/app/src/main/java/com/k2fsa/sherpa
+          cp -r "${JAVA_API_DIR}" android/app/src/main/java/com/k2fsa/sherpa/onnx
+          ls android/app/src/main/java/com/k2fsa/sherpa/onnx | head -n 20
+
       - name: Decode signing keystore
         run: echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > release-key.p12
 
