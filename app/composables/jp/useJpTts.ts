@@ -30,6 +30,45 @@ export const TTS_MODEL_BYTES = 128774318;
 export const TTS_TEST_TEXT = "こんにちは、にほんごのおんせいです。";
 // 语者（Supertonic-3 日语共 10 个语者，0–9）
 export const TTS_DEFAULT_SID = 0;
+// 扩散步数：越少越快、质量略降（实测桌面 66 字长句 steps=8 → 3.56s，4 → 2.00s）
+export const TTS_DEFAULT_STEPS = 8;
+export const TTS_STEP_CHOICES = [4, 6, 8];
+export const TTS_SPEAKER_COUNT = 10;
+
+// 语者/步数可在「我的」页选，存 localStorage（手机上自己 A/B，不用改代码）
+const SID_KEY = "jp-tts-sid";
+const STEPS_KEY = "jp-tts-steps";
+
+function loadNumber(key: string, fallback: number): number {
+  if (typeof window === "undefined") return fallback;
+  try {
+    const v = Number(localStorage.getItem(key));
+    return Number.isFinite(v) && v > 0 ? v : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+function saveNumber(key: string, value: number) {
+  try {
+    localStorage.setItem(key, String(value));
+  } catch {
+    /* 隐私模式忽略 */
+  }
+}
+
+export const ttsSid = ref(loadNumber(SID_KEY, TTS_DEFAULT_SID));
+export const ttsSteps = ref(loadNumber(STEPS_KEY, TTS_DEFAULT_STEPS));
+
+export function setTtsSid(value: number) {
+  ttsSid.value = Math.max(0, Math.min(TTS_SPEAKER_COUNT - 1, Math.round(value)));
+  saveNumber(SID_KEY, ttsSid.value);
+}
+
+export function setTtsSteps(value: number) {
+  ttsSteps.value = Math.max(1, Math.round(value));
+  saveNumber(STEPS_KEY, ttsSteps.value);
+}
 
 export const TTS_MODEL_URL_DEFAULT =
   "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2";
@@ -38,7 +77,7 @@ interface JpTtsPlugin {
   isReady(): Promise<{ ready: boolean; modelDir: string }>;
   installModel(options: { archive?: string }): Promise<{ ok: boolean; files: number }>;
   prepare(): Promise<{ ok: boolean }>;
-  speak(options: { text: string; speed?: number; sid?: number }): Promise<{ path: string }>;
+  speak(options: { text: string; speed?: number; sid?: number; steps?: number }): Promise<{ path: string }>;
   release(): Promise<void>;
 }
 
@@ -136,8 +175,9 @@ export function refreshOfflineTtsStatus(force = false): Promise<boolean> {
   return statusPromise;
 }
 
-// 已合成过的音频：(sid|语速|文本) → cacheDir/tts 下的绝对路径。
-// 原生侧按 md5(text|sid|speed) 命名并写进 cacheDir/tts，重复发音直接复用，省掉几秒合成。
+// 已合成过的音频：(sid|步数|语速|文本) → cacheDir/tts 下的绝对路径。
+// 键必须带上步数：换了步数就是另一份音频，否则会播到旧参数的 WAV。
+// 原生侧按 md5(text|sid|speed|steps) 命名并写进 cacheDir/tts，重复发音直接复用，省掉几秒合成。
 const audioCache = new Map<string, string>();
 
 // 原生合成必须串行：JpTtsPlugin 里是同一个 OfflineTts 实例，并发调用既不安全，
@@ -169,13 +209,14 @@ const inflight = new Map<string, Promise<string | null>>();
 export async function synthesizeOffline(
   text: string,
   rate = 1.0,
-  sid = TTS_DEFAULT_SID,
+  sid = ttsSid.value,
+  steps = ttsSteps.value,
 ): Promise<string | null> {
   if (!text) return null;
   const ready = statusChecked ? installed.value : await refreshOfflineTtsStatus();
   if (!ready) return null;
 
-  const key = `${sid}|${rate}|${text}`;
+  const key = `${sid}|${steps}|${rate}|${text}`;
   const cached = audioCache.get(key);
   if (cached) {
     // 系统可能清过缓存目录，命中也要确认文件还在
@@ -196,7 +237,7 @@ export async function synthesizeOffline(
     try {
       const r = await serializeNative(async () => {
         const t0 = Date.now();
-        const res = await JpTts.speak({ text, speed: rate, sid });
+        const res = await JpTts.speak({ text, speed: rate, sid, steps });
         // 只统计原生合成本身（不含排队等待），手机上诊断用
         lastSynth.value = { text, ms: Date.now() - t0 };
         return res;
@@ -331,6 +372,10 @@ export function useJpTts() {
     synthesizing,
     lastSynth,
     lastPrepare,
+    sid: ttsSid,
+    steps: ttsSteps,
+    setSid: setTtsSid,
+    setSteps: setTtsSteps,
     refreshStatus: refreshOfflineTtsStatus,
     warmUp: warmUpOfflineTts,
     synthesize: synthesizeOffline,

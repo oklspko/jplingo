@@ -214,6 +214,9 @@ public class JpTtsPlugin extends Plugin {
         final float speed = speedArg == null ? 1.0f : speedArg;
         Integer sidArg = call.getInt("sid");
         final int sid = sidArg == null ? 0 : sidArg;
+        // 扩散步数：前端可在「我的」页调（越少越快），缺省 8 保持与之前一致
+        Integer stepsArg = call.getInt("steps");
+        final int steps = stepsArg == null ? 8 : Math.max(1, stepsArg);
 
         new Thread(
             () -> {
@@ -221,7 +224,7 @@ public class JpTtsPlugin extends Plugin {
                     initTts();
                     GenerationConfig gen = new GenerationConfig();
                     gen.setSid(sid);
-                    gen.setNumSteps(8);
+                    gen.setNumSteps(steps);
                     gen.setSpeed(speed);
                     // 官方 AAR 的 setExtra 收 Map<String, String>（早期 Java 版才是 JSON 字符串）
                     Map<String, String> extra = new HashMap<>();
@@ -230,7 +233,9 @@ public class JpTtsPlugin extends Plugin {
                     GeneratedAudio audio = tts.generateWithConfig(text, gen);
                     File cacheDir = new File(getContext().getCacheDir(), "tts");
                     if (!cacheDir.exists()) cacheDir.mkdirs();
-                    File out = new File(cacheDir, md5(text + "|" + sid + "|" + speed) + ".wav");
+                    // 文件名要带 steps：换了步数就是另一份音频，否则会命中旧参数的 WAV
+                    File out =
+                        new File(cacheDir, md5(text + "|" + sid + "|" + speed + "|" + steps) + ".wav");
                     if (!audio.save(out.getAbsolutePath())) {
                         call.reject("音频写入失败");
                         return;

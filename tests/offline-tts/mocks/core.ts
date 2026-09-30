@@ -17,6 +17,8 @@ export const pluginState = {
   // 并发检测：真实插件里是同一个 OfflineTts 实例，并发合成既不安全、也会抢同一个输出文件
   active: 0,
   maxConcurrent: 0,
+  // 最后一次 speak 的入参（验证 sid/steps 有没有透传到原生）
+  lastSpeakArgs: null as null | { text: string; sid?: number; steps?: number; speed?: number },
 };
 
 // speak 成功后回调（spec 用它把 WAV 登记进假文件系统，好让合成缓存命中）
@@ -47,8 +49,9 @@ export const fakePlugin = {
     if (pluginState.prepareShouldFail) throw new Error("模型未安装");
     return { ok: true };
   },
-  async speak(o: { text: string }) {
+  async speak(o: { text: string; sid?: number; steps?: number; speed?: number }) {
     pluginState.calls.push(`speak:${o.text}`);
+    pluginState.lastSpeakArgs = { text: o.text, sid: o.sid, steps: o.steps, speed: o.speed };
     pluginState.active++;
     pluginState.maxConcurrent = Math.max(pluginState.maxConcurrent, pluginState.active);
     try {

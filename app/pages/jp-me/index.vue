@@ -81,6 +81,25 @@
               <div v-else-if="ttsInstalling" class="tts-progress-text">
                 解压中…（约 123MB，请保持 App 在前台）
               </div>
+              <div v-if="ttsInstalled" class="tts-options">
+                <label class="tts-option">
+                  <span>语者</span>
+                  <select :value="ttsSid" @change="onSidChange">
+                    <option v-for="n in TTS_SPEAKER_COUNT" :key="n" :value="n - 1">
+                      {{ n - 1 }} 号
+                    </option>
+                  </select>
+                </label>
+                <label class="tts-option">
+                  <span>步数</span>
+                  <select :value="ttsSteps" @change="onStepsChange">
+                    <option v-for="s in TTS_STEP_CHOICES" :key="s" :value="s">
+                      {{ s }}{{ s === TTS_DEFAULT_STEPS ? "（默认）" : s === 4 ? "（最快）" : "" }}
+                    </option>
+                  </select>
+                </label>
+                <span class="tts-option-hint">改完点「试听」对比；步数越少越快</span>
+              </div>
             </div>
             <div class="tts-actions">
               <button
@@ -277,6 +296,9 @@ import {
   ttsPercent,
   TTS_MODEL_BYTES,
   TTS_TEST_TEXT,
+  TTS_DEFAULT_STEPS,
+  TTS_SPEAKER_COUNT,
+  TTS_STEP_CHOICES,
 } from "~/composables/jp/useJpTts";
 import { speakOfflineNow } from "~/composables/jp/useJpSound";
 
@@ -297,6 +319,10 @@ const {
   error: ttsError,
   lastSynth: ttsLastSynthRaw,
   lastPrepare: ttsLastPrepareRaw,
+  sid: ttsSid,
+  steps: ttsSteps,
+  setSid: setTtsSid,
+  setSteps: setTtsSteps,
   refreshStatus: refreshTtsStatus,
   downloadModel: downloadTtsModel,
   deleteModel: deleteTtsModel,
@@ -359,6 +385,17 @@ async function onDeleteTts() {
   ttsTryMsg.value = "";
   const ok = await deleteTtsModel();
   if (ok) ttsTryMsg.value = "已删除离线语音模型（释放约 123MB）";
+}
+
+// 语者/步数存 localStorage：用户自己 A/B，不用改代码重新打包
+function onSidChange(e: Event) {
+  setTtsSid(Number((e.target as HTMLSelectElement).value));
+  ttsTryMsg.value = `已切到 ${ttsSid.value} 号语者，点「试听」听听`;
+}
+
+function onStepsChange(e: Event) {
+  setTtsSteps(Number((e.target as HTMLSelectElement).value));
+  ttsTryMsg.value = `已切到 ${ttsSteps.value} 步，点「试听」对比速度与音质`;
 }
 
 const {
@@ -838,6 +875,37 @@ function doReset() {
   font-size: 12px;
   color: #0284c7;
   margin-top: 6px;
+}
+
+.tts-options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+  font-size: 13px;
+  color: #0369a1;
+}
+
+.tts-option {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tts-option select {
+  padding: 4px 8px;
+  border: 1px solid #e0f2fe;
+  border-radius: 8px;
+  background: #f5fbff;
+  color: #0369a1;
+  font-size: 13px;
+  font-family: inherit;
+}
+
+.tts-option-hint {
+  font-size: 12px;
+  color: #94a3b8;
 }
 
 .tts-actions {

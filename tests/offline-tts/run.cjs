@@ -37,6 +37,20 @@ const alias = {
   "~/composables/jp/useJpTts": path.join(repoRoot, "app", "composables", "jp", "useJpTts.ts"),
 };
 
+// Node 里没有 window / localStorage：前者是 detectSupported() 的前置，后者是语者/步数持久化要用
+const NODE_BANNER = `
+globalThis.window = globalThis;
+globalThis.__lsStore = new Map();
+globalThis.localStorage = {
+  getItem: (k) => (globalThis.__lsStore.has(k) ? globalThis.__lsStore.get(k) : null),
+  setItem: (k, v) => globalThis.__lsStore.set(k, String(v)),
+  removeItem: (k) => globalThis.__lsStore.delete(k),
+  clear: () => globalThis.__lsStore.clear(),
+  key: (i) => Array.from(globalThis.__lsStore.keys())[i] ?? null,
+  get length() { return globalThis.__lsStore.size; },
+};
+`;
+
 let failed = 0;
 for (const spec of specs) {
   const outfile = path.join(cacheDir, `jplingo-offline-tts-${spec.replace(/\.ts$/, "")}.mjs`);
@@ -47,8 +61,7 @@ for (const spec of specs) {
     platform: "node",
     format: "esm",
     outfile,
-    // Node 里没有 window，而 detectSupported() 会先看 typeof window
-    banner: { js: "globalThis.window = globalThis;" },
+    banner: { js: NODE_BANNER },
     alias,
     logLevel: "warning",
   });

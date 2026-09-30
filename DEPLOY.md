@@ -181,6 +181,50 @@ pnpm generate      # 产出 .output/public（静态文件）
 1. 先绑定自定义域名（Vercel/Netlify/CF 后台均支持）。
 2. 若需大陆稳定访问，可考虑国内云（阿里云/腾讯云的对象存储或云函数托管），需 ICP 备案。
 
+## 离线语音模型自托管（可选，大陆下载更快）
+
+App 首次使用离线发音时，要在手机上拉一个约 123MB 的模型包。默认地址是官方 GitHub
+Release（App 会自动叠加 `gh-proxy.com` / `ghfast.top` / `ghproxy.net` 三个加速镜像）。
+如果你想更快/更可控，可以放到自己的服务器（例如 `api.jplingo.cn`）再让 App 指过来。
+
+**1. 服务器上放文件**（`self-host/Caddyfile` 所在目录旁建一个 `tts/`，无需改后端代码）：
+
+```bash
+mkdir -p /opt/jplingo/tts && cd /opt/jplingo/tts
+curl -fL --retry 3 -o sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2 \
+  "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2"
+# 与官方 Release 的 digest 核对，必须一致
+echo "82fa96f91c4ef8abaae3a14a3f4153facf88bed821d1f7331cec2700f432c427  sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2" | sha256sum -c -
+```
+
+**2. Caddy 加一条静态路由**（在 `self-host/Caddyfile` 的 `{$DOMAIN}` 块里、`handle` 兜底之前加；
+文件名带版本号且内容不变，所以长缓存）：
+
+```caddyfile
+    # 离线语音模型包（约123MB）
+    handle_path /tts/* {
+        root * /srv/tts
+        header Cache-Control "public, max-age=31536000, immutable"
+        file_server
+    }
+```
+
+并在 `self-host/docker-compose.yml` 的 caddy 服务上挂载目录（宿主机目录按实际路径改）：
+
+```yaml
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - /opt/jplingo/tts:/srv/tts:ro   # 新增
+```
+
+`docker compose up -d` 后自测：`curl -sI https://api.jplingo.cn/tts/sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2 | head -3`。
+
+**3. 让 App 用这个地址**：GitHub 仓库 → Settings → Secrets and variables → Actions →
+Variables → 新增 `NUXT_TTS_MODEL_URL` =
+`https://api.jplingo.cn/tts/sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2`，
+然后重跑一次构建（push 或手动触发 workflow）。CI 会把它注入 `nuxt.config.ts` 的
+`runtimeConfig.public.ttsModelUrl`；**变量为空时自动回落到官方 Release + 镜像**，所以随时可以撤回。
+
 ## 常见问题
 
 | 现象 | 原因 | 解决 |

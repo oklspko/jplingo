@@ -55,6 +55,9 @@ jobs:
           # （未配置时登录不可用，但离线功能不受影响）
           NUXT_SUPABASE_URL: ${{ secrets.NUXT_SUPABASE_URL }}
           NUXT_SUPABASE_ANON_KEY: ${{ secrets.NUXT_SUPABASE_ANON_KEY }}
+          # 离线语音模型包地址：默认走官方 Release + 加速镜像；
+          # 想自托管就在仓库 Variables 里设 NUXT_TTS_MODEL_URL（留空即回落默认，见 DEPLOY.md）
+          NUXT_TTS_MODEL_URL: ${{ vars.NUXT_TTS_MODEL_URL }}
 
       - name: Sync APK version from package.json
         run: node scripts/sync-apk-version.cjs
