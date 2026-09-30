@@ -95,7 +95,9 @@
           <button class="jp-btn primary" @click="submitAnswer">
             提交<span class="shortcut">↵</span>
           </button>
-          <button class="jp-btn" @click="playAudio">🔊 发音</button>
+          <button class="jp-btn" @click="playAudio">
+            {{ synthesizing > 0 ? "🔊 合成中…" : "🔊 发音" }}
+          </button>
           <button class="jp-btn" @click="showAnswer = !showAnswer">
             {{ showAnswer ? "隐藏答案" : "显示答案" }}
             <span class="shortcut">Ctrl ;</span>
@@ -165,7 +167,9 @@ import {
   playSuccessSound,
   playErrorSound,
   speakJapanese,
+  prefetchJapanese,
 } from "~/composables/jp/useJpSound";
+import { useJpTts } from "~/composables/jp/useJpTts";
 import { useJpTimer } from "~/composables/jp/useJpTimer";
 import { useJpStorage } from "~/composables/jp/useJpStorage";
 import {
@@ -432,6 +436,8 @@ watch(currentIndex, () => {
   nextTick(() => {
     inputRef.value?.focus();
     setTimeout(() => playAudio(), 200);
+    // 切题后就把下一句的发音准备好（没有预生成音频时靠内置引擎合成，要几秒）
+    prefetchNextAudio();
   });
 });
 
@@ -471,6 +477,7 @@ async function loadCourseData() {
   nextTick(() => {
     inputRef.value?.focus();
     setTimeout(() => playAudio(), 500);
+    prefetchNextAudio();
   });
 }
 
@@ -601,6 +608,15 @@ function playAudio() {
   if (!stmt) return;
   speakJapanese(stmt.kana.replace(/\s+/g, ""));
 }
+
+// 内置离线引擎合成一句要几秒（长句更久），切题时先把下一句合成好，别等点了发音才等
+function prefetchNextAudio() {
+  const next = statements.value[currentIndex.value + 1];
+  if (!next) return;
+  prefetchJapanese(next.kana.replace(/\s+/g, ""));
+}
+
+const { synthesizing } = useJpTts();
 </script>
 
 <style scoped>

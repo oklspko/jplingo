@@ -135,6 +135,22 @@ export function refreshOfflineTtsStatus(force = false): Promise<boolean> {
 // 原生侧按 md5(text|sid|speed) 命名并写进 cacheDir/tts，重复发音直接复用，省掉几秒合成。
 const audioCache = new Map<string, string>();
 
+// 原生合成必须串行：JpTtsPlugin 里是同一个 OfflineTts 实例，并发调用既不安全，
+// 也会让同一句话的两个线程去写同一个 md5 文件。release() 也走这条队列，避免合成中途释放。
+let nativeQueue: Promise<unknown> = Promise.resolve();
+function serializeNative<T>(fn: () => Promise<T>): Promise<T> {
+  const run = nativeQueue.then(fn, fn);
+  nativeQueue = run.catch(() => undefined);
+  return run;
+}
+
+/** 是否正在原生合成（「试听」/发音按钮可以据此显示「合成中…」） */
+export const synthesizing = ref(0);
+
+// 同一句正在合成中的任务：并发请求共用一次原生合成。
+// 真实场景：mp3 播放失败时 error 事件与 play() 拒绝会各触发一次回退，同一句会被请求两次。
+const inflight = new Map<string, Promise<string | null>>();
+
 /**
  * 合成一句话，返回本地 WAV 绝对路径（失败返回 null）。
  * 作为发音链里「预生成音频」之后的兜底，见 useJpSound.speakJapanese。
@@ -161,17 +177,28 @@ export async function synthesizeOffline(
     }
   }
 
-  try {
-    const r = await JpTts.speak({ text, speed: rate, sid });
-    const path = r?.path || null;
-    if (path) audioCache.set(key, path);
-    return path;
-  } catch (err) {
-    console.warn("[jplingo] 离线合成失败：", err);
-    // 手机上没有控制台，「我的」页那张卡片是唯一能看到原生报错的地方
-    error.value = `合成失败：${describe(err)}`;
-    return null;
-  }
+  const running = inflight.get(key);
+  if (running) return running;
+
+  const task = (async () => {
+    synthesizing.value++;
+    try {
+      const r = await serializeNative(() => JpTts.speak({ text, speed: rate, sid }));
+      const path = r?.path || null;
+      if (path) audioCache.set(key, path);
+      return path;
+    } catch (err) {
+      console.warn("[jplingo] 离线合成失败：", err);
+      // 手机上没有控制台，「我的」页那张卡片是唯一能看到原生报错的地方
+      error.value = `合成失败：${describe(err)}`;
+      return null;
+    } finally {
+      synthesizing.value--;
+      inflight.delete(key);
+    }
+  })();
+  inflight.set(key, task);
+  return task;
 }
 
 /** 下载模型包并解压安装；返回是否安装成功 */
@@ -254,7 +281,8 @@ export async function deleteOfflineTtsModel(): Promise<boolean> {
   error.value = "";
   try {
     try {
-      await JpTts.release();
+      // 走同一条串行队列：别在合成进行到一半时释放 OfflineTts
+      await serializeNative(() => JpTts.release());
     } catch {
       /* 未加载时忽略 */
     }
@@ -283,6 +311,7 @@ export function useJpTts() {
     progress,
     receivedBytes,
     error,
+    synthesizing,
     refreshStatus: refreshOfflineTtsStatus,
     warmUp: warmUpOfflineTts,
     synthesize: synthesizeOffline,

@@ -29,7 +29,7 @@ function eq(name: string, actual: unknown, expected: unknown) {
 const callsOf = (prefix: string) => pluginState.calls.filter((c) => c.startsWith(prefix)).length;
 
 async function main() {
-  const { supported, installed, error, progress } = useJpTts();
+  const { supported, installed, error, progress, synthesizing } = useJpTts();
   fsState.fullSize = TTS_MODEL_BYTES;
   const candidates = apkDownloadCandidates(TTS_MODEL_URL_DEFAULT);
 
@@ -132,6 +132,22 @@ async function main() {
   check("调用了原生 release", pluginState.calls.includes("release"));
   check("删除后 installed=false", installed.value === false);
   eq("没模型时合成返回 null", await synthesizeOffline("さようなら"), null);
+
+  console.log("\n[8] 原生合成必须串行（同一个 OfflineTts 实例不能并发）");
+  pluginState.ready = true;
+  await downloadOfflineTtsModel();
+  pluginState.maxConcurrent = 0;
+  pluginState.active = 0;
+  const before8 = callsOf("speak:");
+  const paths = await Promise.all([
+    synthesizeOffline("いちばん"),
+    synthesizeOffline("にばんめ"),
+    synthesizeOffline("さんばんめ"),
+  ]);
+  eq("三句都合成成功", paths.filter((p) => typeof p === "string").length, 3);
+  eq("原生侧确实调了三次", callsOf("speak:") - before8, 3);
+  eq("同时只跑一个原生合成", pluginState.maxConcurrent, 1);
+  eq("合成计数归零", synthesizing.value, 0);
 
   const failed = results.filter((r) => !r.ok);
   console.log(`\n合计 ${results.length} 项，失败 ${failed.length} 项`);

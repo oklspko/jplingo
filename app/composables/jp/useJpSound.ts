@@ -327,15 +327,44 @@ if (typeof window !== "undefined") {
 }
 
 /**
+ * 预合成：考点在于「内置引擎合成一句要几秒」（实测桌面 RTF≈0.32，手机更慢），
+ * 如果等用户点发音才合成，长句会有好几秒静默。这里在切到下一题时就先把下一句合成好，
+ * 等真要播放时直接命中缓存。
+ *
+ * 有预生成音频的句子不需要合成（mp3 是静态文件），没装模型时 synthesizeOffline 内部会直接返回。
+ */
+export function prefetchJapanese(text: string) {
+  if (!text) return;
+  if (typeof window === "undefined") return;
+  if (!Capacitor.isNativePlatform()) return;
+  loadManifest()
+    .then(() => {
+      if (manifest?.[normalizeKey(text)]) return;
+      synthesizeOffline(text);
+    })
+    .catch(() => {});
+}
+
+/**
  * 日语发音
  * 优先级：预生成音频（音质最好）→ 内置离线引擎（离线、无需系统日语音色）
  *        → 系统 TTS（原生 App）→ 浏览器 TTS（网页）
  * @param text 要发音的文本（假名或句子）
  * @param rate 语速（音频按 playbackRate 播放；TTS 走自身语速参数）
  */
+// 每次发音一个序号：过期的回退（例如上一句的错误回调）不再发声，也避免
+// mp3 播放失败时「error 事件 + play() 拒绝」两条回退路径各合成一遍
+let speakToken = 0;
+
 export function speakJapanese(text: string, rate = 1.0) {
   if (!text) return;
   if (typeof window === "undefined") return;
+
+  const token = ++speakToken;
+  const fallbackOnce = () => {
+    if (token !== speakToken) return;
+    speakFallback(text, rate);
+  };
 
   const key = normalizeKey(text);
   loadManifest()
@@ -346,13 +375,13 @@ export function speakJapanese(text: string, rate = 1.0) {
         el.src = `${AUDIO_BASE}/${file}`;
         el.playbackRate = rate;
         el.currentTime = 0;
-        el.addEventListener("error", () => speakFallback(text, rate), { once: true });
-        el.play().catch(() => speakFallback(text, rate));
+        el.addEventListener("error", fallbackOnce, { once: true });
+        el.play().catch(fallbackOnce);
       } else {
-        speakFallback(text, rate);
+        fallbackOnce();
       }
     })
-    .catch(() => speakFallback(text, rate));
+    .catch(fallbackOnce);
 }
 
 /**

@@ -14,6 +14,9 @@ export const pluginState = {
   failSpeak: false,
   failInstall: false,
   prepareShouldFail: false,
+  // 并发检测：真实插件里是同一个 OfflineTts 实例，并发合成既不安全、也会抢同一个输出文件
+  active: 0,
+  maxConcurrent: 0,
 };
 
 // speak 成功后回调（spec 用它把 WAV 登记进假文件系统，好让合成缓存命中）
@@ -46,11 +49,19 @@ export const fakePlugin = {
   },
   async speak(o: { text: string }) {
     pluginState.calls.push(`speak:${o.text}`);
-    if (pluginState.failSpeak) throw new Error("JNI: 模型未加载");
-    // 真实插件把 WAV 写进 cacheDir/tts/<md5(text|sid|speed)>.wav
-    const name = `${o.text.length}-${o.text.charCodeAt(0)}.wav`;
-    speakHook.onResult?.(name);
-    return { path: `/data/data/com.jplingo.app/cache/tts/${name}` };
+    pluginState.active++;
+    pluginState.maxConcurrent = Math.max(pluginState.maxConcurrent, pluginState.active);
+    try {
+      // 留一个窗口，好让「并发进入」在测试里真的能被观察到
+      await new Promise((r) => setTimeout(r, 5));
+      if (pluginState.failSpeak) throw new Error("JNI: 模型未加载");
+      // 真实插件把 WAV 写进 cacheDir/tts/<md5(text|sid|speed)>.wav
+      const name = `${o.text.length}-${o.text.charCodeAt(0)}.wav`;
+      speakHook.onResult?.(name);
+      return { path: `/data/data/com.jplingo.app/cache/tts/${name}` };
+    } finally {
+      pluginState.active--;
+    }
   },
   async release() {
     pluginState.calls.push("release");
