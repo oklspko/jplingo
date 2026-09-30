@@ -1,0 +1,1 @@
+var e=`https://github.com/oklspko/jplingo/releases/latest/download/jp-lingo.apk`,t=[`https://gh-proxy.com/`,`https://gh.llkk.cc/`,`https://ghproxy.net/`];function n(e){let n=(e||``).trim();return n?/^https?:\/\/([^/]*\.)?github\.com\//i.test(n)?[...t.map(e=>e.replace(/\/+$/,``)+`/`+n),n]:[n]:[]}export{n,e as t};
