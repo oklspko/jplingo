@@ -223,24 +223,61 @@ function speakViaWebSpeech(text: string, rate: number) {
 /**
  * 原生端兜底：Capacitor WebView 里 speechSynthesis 往往拿不到日语语音，
  * 改用系统 TTS（@capacitor-community/text-to-speech）。返回是否成功发声。
+ *
+ * 注意：安卓端 setLanguage() 的返回值被插件忽略，系统缺日语语音数据时
+ * speak() 会「静默无声」而不是报错，所以这里先探测语言可用性：
+ * ja-JP 不可用则退到 ja，两者都不可用就引导用户安装语音数据。
  */
+let ttsInstallPrompted = false;
+
+async function promptTtsInstallOnce(tts: {
+  openInstall: () => Promise<void>;
+}): Promise<void> {
+  if (ttsInstallPrompted) return;
+  ttsInstallPrompted = true;
+  try {
+    console.warn(
+      "[jplingo] 系统 TTS 缺少日语语音：已尝试打开语音数据安装界面（也可在 系统设置 → 文字转语音 → 安装日语数据）。",
+    );
+    await tts.openInstall();
+  } catch {
+    /* 仅 Android 有效，其它平台忽略 */
+  }
+}
+
 async function speakViaNativeTts(text: string, rate: number): Promise<boolean> {
   if (!Capacitor.isNativePlatform()) return false;
   try {
     const { TextToSpeech } = await import("@capacitor-community/text-to-speech");
-    const check = await TextToSpeech.isLanguageSupported({ lang: "ja-JP" });
-    if (!check?.supported) return false;
+
+    let lang = "ja-JP";
+    try {
+      const jaJp = await TextToSpeech.isLanguageSupported({ lang: "ja-JP" });
+      if (!jaJp?.supported) {
+        const ja = await TextToSpeech.isLanguageSupported({ lang: "ja" });
+        if (ja?.supported) {
+          lang = "ja";
+        } else {
+          await promptTtsInstallOnce(TextToSpeech);
+          return false;
+        }
+      }
+    } catch {
+      /* 探测失败（引擎未初始化等）时直接尝试合成 */
+    }
+
     await TextToSpeech.stop();
     await TextToSpeech.speak({
       text,
-      lang: "ja-JP",
+      lang,
       rate,
       pitch: 1.0,
       volume: 1.0,
       category: "playback",
     });
     return true;
-  } catch {
+  } catch (err) {
+    console.warn("[jplingo] 系统 TTS 合成失败：", err);
     return false;
   }
 }

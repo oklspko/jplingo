@@ -223,6 +223,9 @@ async function doLoad() {
 
   const rows: CourseRow[] = [];
   const itemRows: ItemRow[] = [];
+  // 去重：词汇课按「每词循环 N 遍」设计（同课内同一 japanese 有多个 id），
+  // 记录列表按 id 匹配会把同一个词显示多次，这里按「课程 + 日语原文」只保留一条。
+  const seenItemKeys = new Set<string>();
 
   for (const cid of record.value.studiedCourses) {
     const packId = packOfCourse.get(cid);
@@ -236,17 +239,21 @@ async function doLoad() {
       const key = `${cid}/${stmt.id}`;
       if (studiedSet.has(key)) {
         learned++;
-        itemRows.push({
-          key,
-          courseId: cid,
-          courseTitle: course.title || cid,
-          packId,
-          packTitle: packTitleMap.get(packId) || packId,
-          japanese: stmt.japanese,
-          kana: stmt.kana,
-          chinese: stmt.chinese,
-          kind: classifyKind(course.coursePackId, cid, stmt.tokens.length),
-        });
+        const dedupKey = `${cid}|${stmt.japanese}`;
+        if (!seenItemKeys.has(dedupKey)) {
+          seenItemKeys.add(dedupKey);
+          itemRows.push({
+            key: dedupKey,
+            courseId: cid,
+            courseTitle: course.title || cid,
+            packId,
+            packTitle: packTitleMap.get(packId) || packId,
+            japanese: stmt.japanese,
+            kana: stmt.kana,
+            chinese: stmt.chinese,
+            kind: classifyKind(course.coursePackId, cid, stmt.tokens.length),
+          });
+        }
       }
       if (masteredSet.has(key)) mastered++;
     }

@@ -6,7 +6,7 @@
  * 并生成 public/audio/manifest.json。前端据此播放，手机和网页语音一致。
  *
  * 用法：
- *   node scripts/generate-tts.cjs [--limit N] [--force] [--test "こんにちは"]
+ *   node scripts/generate-tts.cjs [--limit N] [--force] [--pack jp-growing] [--test "こんにちは"]
  *
  * 密钥通过环境变量或 scripts/.tts.env 提供：
  *   XF_APPID      讯飞应用 AppID
@@ -169,12 +169,14 @@ async function xfTts(appid, apiKey, apiSecret, voice, text) {
   return { ok: false, desc: lastErr ? lastErr.message : "未知错误" };
 }
 
-// 遍历所有课程，按「去掉空白的 kana」去重，得到需要合成的读音集合
-function collectKeys() {
+// 遍历课程，按「去掉空白的 kana」去重，得到需要合成的读音集合
+// onlyPack 非空时只处理该课程包（如 --pack jp-growing），便于只补新增课程的读音
+function collectKeys(onlyPack = null) {
   const packsFile = path.join(COURSES_DIR, "course-packs.json");
   const packs = JSON.parse(fs.readFileSync(packsFile, "utf8")).coursePacks || [];
   const keys = new Set();
   for (const pack of packs) {
+    if (onlyPack && pack.id !== onlyPack) continue;
     for (const courseId of pack.courses) {
       const file = path.join(COURSES_DIR, pack.id, `${courseId}.json`);
       if (!fs.existsSync(file)) continue;
@@ -236,11 +238,18 @@ async function main() {
   const limitIdx = args.indexOf("--limit");
   const limit = limitIdx !== -1 ? parseInt(args[limitIdx + 1], 10) : Infinity;
   const force = args.includes("--force");
+  // --pack <课程包 id>：只补某个课程包（如 --pack jp-growing），便于课程更新后增量补音频
+  const packIdx = args.indexOf("--pack");
+  const onlyPack = packIdx !== -1 ? args[packIdx + 1] : null;
 
   fs.mkdirSync(AUDIO_DIR, { recursive: true });
 
-  const keys = collectKeys();
-  console.log(`共 ${keys.length} 条唯一读音需要合成。`);
+  const keys = collectKeys(onlyPack);
+  console.log(
+    onlyPack
+      ? `课程包 ${onlyPack}：共 ${keys.length} 条唯一读音（已存在的会自动跳过）。`
+      : `共 ${keys.length} 条唯一读音需要合成。`,
+  );
 
   // 续传：已存在的音频跳过
   const manifest = {};
