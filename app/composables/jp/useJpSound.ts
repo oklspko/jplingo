@@ -1,3 +1,4 @@
+import { Capacitor } from "@capacitor/core";
 import { cacheBustUrl } from "~/composables/jp/useJpBuildId";
 
 let audioCtx: AudioContext | null = null;
@@ -220,9 +221,42 @@ function speakViaWebSpeech(text: string, rate: number) {
 }
 
 /**
+ * 原生端兜底：Capacitor WebView 里 speechSynthesis 往往拿不到日语语音，
+ * 改用系统 TTS（@capacitor-community/text-to-speech）。返回是否成功发声。
+ */
+async function speakViaNativeTts(text: string, rate: number): Promise<boolean> {
+  if (!Capacitor.isNativePlatform()) return false;
+  try {
+    const { TextToSpeech } = await import("@capacitor-community/text-to-speech");
+    const check = await TextToSpeech.isLanguageSupported({ lang: "ja-JP" });
+    if (!check?.supported) return false;
+    await TextToSpeech.stop();
+    await TextToSpeech.speak({
+      text,
+      lang: "ja-JP",
+      rate,
+      pitch: 1.0,
+      volume: 1.0,
+      category: "playback",
+    });
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+/** 兜底发声：原生系统 TTS 优先（APK），其次浏览器 TTS（网页） */
+function speakFallback(text: string, rate: number) {
+  speakViaNativeTts(text, rate).then((ok) => {
+    if (!ok) speakViaWebSpeech(text, rate);
+  });
+}
+
+/**
  * 日语发音
+ * 优先级：预生成音频（音质最好、可离线）→ 系统 TTS（原生 App）→ 浏览器 TTS（网页）
  * @param text 要发音的文本（假名或句子）
- * @param rate 语速（仅兜底 TTS 使用；讯飞音频为 1.0 正常速度）
+ * @param rate 语速（音频按 playbackRate 播放；TTS 走自身语速参数）
  */
 export function speakJapanese(text: string, rate = 1.0) {
   if (!text) return;
@@ -237,12 +271,13 @@ export function speakJapanese(text: string, rate = 1.0) {
         el.src = `${AUDIO_BASE}/${file}`;
         el.playbackRate = rate;
         el.currentTime = 0;
-        el.play().catch(() => {});
+        el.addEventListener("error", () => speakFallback(text, rate), { once: true });
+        el.play().catch(() => speakFallback(text, rate));
       } else {
-        speakViaWebSpeech(text, rate);
+        speakFallback(text, rate);
       }
     })
-    .catch(() => speakViaWebSpeech(text, rate));
+    .catch(() => speakFallback(text, rate));
 }
 
 /**
