@@ -29,7 +29,8 @@ function eq(name: string, actual: unknown, expected: unknown) {
 const callsOf = (prefix: string) => pluginState.calls.filter((c) => c.startsWith(prefix)).length;
 
 async function main() {
-  const { supported, installed, error, progress, synthesizing, lastSynth } = useJpTts();
+  const { supported, installed, error, progress, synthesizing, lastSynth, lastPrepare } =
+    useJpTts();
   fsState.fullSize = TTS_MODEL_BYTES;
   const candidates = apkDownloadCandidates(TTS_MODEL_URL_DEFAULT);
 
@@ -152,6 +153,11 @@ async function main() {
     "记录了上次合成耗时（真机诊断数据）",
     lastSynth.value !== null && lastSynth.value.ms >= 5,
     JSON.stringify(lastSynth.value),
+  );
+  check(
+    "记录了模型预热耗时（与逐句合成分开看）",
+    lastPrepare.value !== null && lastPrepare.value.ms >= 0,
+    JSON.stringify(lastPrepare.value),
   );
 
   const failed = results.filter((r) => !r.ok);

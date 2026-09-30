@@ -296,6 +296,7 @@ const {
   receivedBytes: ttsReceivedBytes,
   error: ttsError,
   lastSynth: ttsLastSynthRaw,
+  lastPrepare: ttsLastPrepareRaw,
   refreshStatus: refreshTtsStatus,
   downloadModel: downloadTtsModel,
   deleteModel: deleteTtsModel,
@@ -326,7 +327,9 @@ const ttsProgressWidth = computed(() => `${ttsPercent(ttsProgress.value)}%`);
 const ttsLastSynth = computed(() => {
   const s = ttsLastSynthRaw.value;
   if (!s) return "";
-  return `上次合成：${s.text.length} 字 / ${(s.ms / 1000).toFixed(1)} 秒`;
+  const prepare = ttsLastPrepareRaw.value;
+  const prepareText = prepare ? `（模型加载 ${(prepare.ms / 1000).toFixed(1)} 秒）` : "";
+  return `上次合成：${s.text.length} 字 / ${(s.ms / 1000).toFixed(1)} 秒${prepareText}`;
 });
 
 const ttsProgressText = computed(() => {

@@ -92,11 +92,13 @@ async function removeArchive(): Promise<void> {
 export function warmUpOfflineTts(): Promise<void> {
   if (!installed.value) return Promise.resolve();
   if (preparePromise) return preparePromise;
-  preparePromise = JpTts.prepare()
-    .then(() => undefined)
-    .catch((err) => {
-      console.warn("[jplingo] 离线语音预热失败：", err);
-    });
+  preparePromise = (async () => {
+    const t0 = Date.now();
+    await JpTts.prepare();
+    lastPrepare.value = { ms: Date.now() - t0 };
+  })().catch((err) => {
+    console.warn("[jplingo] 离线语音预热失败：", err);
+  });
   return preparePromise;
 }
 
@@ -149,6 +151,9 @@ export const synthesizing = ref(0);
 
 /** 上一次原生合成的耗时（真机上唯一能拿到的性能数据，用来决定 num_steps 等参数） */
 export const lastSynth = ref<{ text: string; ms: number } | null>(null);
+
+/** 最近一次模型预热耗时（首次加载模型与逐句合成是两个量级，诊断时要分开看） */
+export const lastPrepare = ref<{ ms: number } | null>(null);
 
 // 同一句正在合成中的任务：并发请求共用一次原生合成。
 // 真实场景：mp3 播放失败时 error 事件与 play() 拒绝会各触发一次回退，同一句会被请求两次。
@@ -322,6 +327,7 @@ export function useJpTts() {
     error,
     synthesizing,
     lastSynth,
+    lastPrepare,
     refreshStatus: refreshOfflineTtsStatus,
     warmUp: warmUpOfflineTts,
     synthesize: synthesizeOffline,
