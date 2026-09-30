@@ -7,6 +7,7 @@ import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
 import com.getcapacitor.annotation.CapacitorPlugin;
+import com.k2fsa.sherpa.onnx.GeneratedAudio;
 import com.k2fsa.sherpa.onnx.GenerationConfig;
 import com.k2fsa.sherpa.onnx.OfflineTts;
 import com.k2fsa.sherpa.onnx.OfflineTtsConfig;
@@ -24,6 +25,8 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.security.MessageDigest;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 离线日语发音引擎（sherpa-onnx + Supertonic-3 int8）。
@@ -147,7 +150,9 @@ public class JpTtsPlugin extends Plugin {
         OfflineTtsConfig config = new OfflineTtsConfig();
         config.setModel(modelConfig);
 
-        tts = new OfflineTts(config);
+        // 官方 Android AAR 的 Kotlin 构造签名是 (AssetManager, OfflineTtsConfig)：
+        // 传 null 表示从文件路径加载模型（模型由前端下载到 filesDir，不在 assets 里）
+        tts = new OfflineTts(null, config);
     }
 
     /** 预热：加载模型（首次约需数百毫秒～数秒），失败不抛给前端也能用 */
@@ -198,12 +203,11 @@ public class JpTtsPlugin extends Plugin {
                     gen.setSid(sid);
                     gen.setNumSteps(8);
                     gen.setSpeed(speed);
-                    gen.setExtra("{\"lang\": \"ja\"}");
-                    com.k2fsa.sherpa.onnx.GeneratedAudio audio = tts.generateWithConfigAndCallback(
-                        text,
-                        gen,
-                        samples -> 1
-                    );
+                    // 官方 AAR 的 setExtra 收 Map<String, String>（早期 Java 版才是 JSON 字符串）
+                    Map<String, String> extra = new HashMap<>();
+                    extra.put("lang", "ja");
+                    gen.setExtra(extra);
+                    GeneratedAudio audio = tts.generateWithConfig(text, gen);
                     File cacheDir = new File(getContext().getCacheDir(), "tts");
                     if (!cacheDir.exists()) cacheDir.mkdirs();
                     File out = new File(cacheDir, md5(text + "|" + sid + "|" + speed) + ".wav");

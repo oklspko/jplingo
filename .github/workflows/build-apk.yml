@@ -62,41 +62,66 @@ jobs:
       - name: Sync Capacitor web assets
         run: npx cap sync android
 
-      # 离线日语 TTS：sherpa-onnx 预编译运行时（arm64-v8a）+ Java API 源码
+      # 离线日语 TTS：官方 Android AAR（arm64-v8a 运行时 .so + com.k2fsa.sherpa.onnx API）
       # 语言模型（Supertonic-3 int8，约 123MB）不打进 APK，由 App 首次使用时下载
-      - name: Fetch sherpa-onnx runtime and Java API
+      - name: Fetch sherpa-onnx Android AAR
         run: |
           set -e
-          SHERPA_VERSION="v1.13.8"
-          mkdir -p android/app/src/main/jniLibs/arm64-v8a
-          curl -fsSL -o /tmp/sherpa-android.tar.bz2 \
-            "https://github.com/k2-fsa/sherpa-onnx/releases/download/${SHERPA_VERSION}/sherpa-onnx-${SHERPA_VERSION}-android.tar.bz2"
-          mkdir -p /tmp/sherpa-android
-          tar -xjf /tmp/sherpa-android.tar.bz2 -C /tmp/sherpa-android
-          SO_DIR="$(find /tmp/sherpa-android -type d -name 'arm64-v8a' | head -n 1)"
-          echo "found so dir: ${SO_DIR}"
-          ls -lh "${SO_DIR}"
-          cp "${SO_DIR}"/*.so android/app/src/main/jniLibs/arm64-v8a/
-
-          git clone --depth 1 --branch "${SHERPA_VERSION}" https://github.com/k2-fsa/sherpa-onnx /tmp/sherpa-src
-          JAVA_API_DIR="$(find /tmp/sherpa-src -type d -path '*com/k2fsa/sherpa/onnx' | head -n 1)"
-          echo "found java api dir: ${JAVA_API_DIR}"
-          mkdir -p android/app/src/main/java/com/k2fsa/sherpa
-          cp -r "${JAVA_API_DIR}" android/app/src/main/java/com/k2fsa/sherpa/onnx
-          ls android/app/src/main/java/com/k2fsa/sherpa/onnx | head -n 20
-
+          mkdir -p android/app/libs
+          curl -fsSL -o android/app/libs/sherpa-onnx.aar \
+            "https://github.com/k2-fsa/sherpa-onnx/releases/download/v1.13.8/sherpa-onnx-1.13.8.aar"
+          # 固定 sha256，防止 CDN/代理返回损坏或被替换的产物
+          echo "633c24321e06b1fe79feafa03ea16cbc0f8a286641e2da3559bac91bdb13bd96  android/app/libs/sherpa-onnx.aar" | sha256sum -c -
+          ls -lh android/app/libs/
       - name: Decode signing keystore
         run: echo "${{ secrets.RELEASE_KEYSTORE_BASE64 }}" | base64 -d > release-key.p12
 
       - name: Build release APK
         working-directory: android
         run: |
+          set -o pipefail
           chmod +x gradlew
-          ./gradlew assembleRelease --no-daemon
+          ./gradlew assembleRelease --no-daemon 2>&1 | tee /tmp/gradle-build.log
         env:
           KEYSTORE_PATH: ${{ github.workspace }}/release-key.p12
           KEYSTORE_PASSWORD: ${{ secrets.RELEASE_KEYSTORE_PASSWORD }}
           KEYSTORE_ALIAS: ${{ secrets.RELEASE_KEYSTORE_ALIAS }}
+
+      # 构建失败时把关键报错贴到 commit 评论：本地 gh 取完整日志常被网络/权限挡住，
+      # 评论里直接能看到 javac/gradle 的报错，省一轮来回。
+      - name: Report build failure on commit
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          if [ -f /tmp/gradle-build.log ]; then
+            grep -nE "error:|What went wrong|Execution failed|FAILED|Could not (resolve|find)|Caused by|> Task" \
+              /tmp/gradle-build.log | tail -n 60 > /tmp/digest.txt || true
+            echo "...（完整日志见下方 artifact）" >> /tmp/digest.txt
+            tail -n 25 /tmp/gradle-build.log >> /tmp/digest.txt
+          else
+            echo "失败发生在 gradle 之前，没有 gradle 日志。" > /tmp/digest.txt
+          fi
+          {
+            echo "❌ build-apk 失败：\`${{ github.sha }}\`"
+            echo
+            echo "运行日志：${run_url}"
+            echo
+            echo '```'
+            cat /tmp/digest.txt
+            echo '```'
+          } > /tmp/comment.md
+          jq -Rs '{body: .}' /tmp/comment.md > /tmp/comment.json
+          gh api "repos/${{ github.repository }}/commits/${{ github.sha }}/comments" --input /tmp/comment.json
+
+      - name: Upload gradle log on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gradle-build-log
+          path: /tmp/gradle-build.log
+          if-no-files-found: ignore
 
       - name: Rename APK
         run: cp android/app/build/outputs/apk/release/app-release.apk jp-lingo.apk

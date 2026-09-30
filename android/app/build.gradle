@@ -51,6 +51,12 @@ repositories {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
+    // 离线日语 TTS：官方 sherpa-onnx Android AAR（arm64-v8a 运行时 .so + com.k2fsa.sherpa.onnx API）
+    // 由 CI 下载到 app/libs/sherpa-onnx.aar（见 .github/workflows/build-apk.yml）；
+    // flatDir 仓库见下方 repositories，本地无该文件时只有 JpTtsPlugin 编译不过。
+    implementation(name: 'sherpa-onnx', ext: 'aar')
+    // AAR 里的 API 是 Kotlin 实现（引用了 kotlin/jvm/internal/Intrinsics），运行时必须有 stdlib
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:2.0.21'
     implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
     implementation "androidx.coordinatorlayout:coordinatorlayout:$androidxCoordinatorLayoutVersion"
     implementation "androidx.core:core-splashscreen:$coreSplashScreenVersion"
