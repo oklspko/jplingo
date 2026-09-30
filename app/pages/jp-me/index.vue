@@ -67,62 +67,76 @@
         <!-- ===== 离线发音（安卓端） ===== -->
         <section class="me-section">
           <h2>🔊 离线发音</h2>
-          <div class="tts-card">
-            <div class="tts-info">
-              <div class="tts-title">{{ ttsTitle }}</div>
-              <div class="tts-desc">{{ ttsDesc }}</div>
-              <div v-if="ttsTryMsg" class="tts-msg">{{ ttsTryMsg }}</div>
-              <div v-if="ttsLastSynth" class="tts-msg tts-msg--dim">{{ ttsLastSynth }}</div>
-              <div v-if="ttsError" class="tts-msg tts-msg--err">{{ ttsError }}</div>
-              <div v-if="ttsDownloading || ttsInstalling" class="tts-progress">
-                <div class="tts-progress-bar" :style="{ width: ttsProgressWidth }"></div>
-              </div>
-              <div v-if="ttsDownloading" class="tts-progress-text">{{ ttsProgressText }}</div>
-              <div v-else-if="ttsInstalling" class="tts-progress-text">
-                解压中…（约 123MB，请保持 App 在前台）
-              </div>
-              <div v-else-if="ttsPreparing" class="tts-progress-text">
-                正在把内置语音复制到应用目录（约 145MB，无需联网）…
-              </div>
-              <div v-if="ttsInstalled" class="tts-options">
-                <label class="tts-option">
-                  <span>语者</span>
-                  <select :value="ttsSid" @change="onSidChange">
-                    <option v-for="sid in TTS_SPEAKER_CHOICES" :key="sid" :value="sid">
-                      {{ sid }} 号
-                    </option>
-                  </select>
-                </label>
-                <label class="tts-option">
-                  <span>步数</span>
-                  <select :value="ttsSteps" @change="onStepsChange">
-                    <option v-for="s in TTS_STEP_CHOICES" :key="s" :value="s">
-                      {{ s }}{{ s === TTS_DEFAULT_STEPS ? "（默认）" : s === 4 ? "（最快）" : "" }}
-                    </option>
-                  </select>
-                </label>
-                <span class="tts-option-hint">改完点「试听」对比；步数越少越快</span>
-              </div>
+          <div class="tts-card" :class="ttsCardClass">
+            <div class="tts-head">
+              <span class="tts-dot" aria-hidden="true"></span>
+              <span class="tts-status">{{ ttsTitle }}</span>
             </div>
+            <p class="tts-desc">{{ ttsDesc }}</p>
+
+            <div v-if="ttsTryMsg || ttsLastSynth || ttsError" class="tts-msgs">
+              <p v-if="ttsTryMsg" class="tts-msg">{{ ttsTryMsg }}</p>
+              <p v-if="ttsLastSynth" class="tts-msg tts-msg--dim">{{ ttsLastSynth }}</p>
+              <p v-if="ttsError" class="tts-msg tts-msg--err">{{ ttsError }}</p>
+            </div>
+
+            <div v-if="ttsDownloading || ttsInstalling" class="tts-progress">
+              <div class="tts-progress-bar" :style="{ width: ttsProgressWidth }"></div>
+            </div>
+            <p v-if="ttsDownloading" class="tts-progress-text">{{ ttsProgressText }}</p>
+            <p v-else-if="ttsInstalling" class="tts-progress-text">
+              解压中…（约 123MB，请保持 App 在前台）
+            </p>
+            <p v-else-if="ttsPreparing" class="tts-progress-text">
+              正在把内置语音复制到应用目录（约 145MB，无需联网）…
+            </p>
+
+            <div v-if="ttsInstalled" class="tts-options">
+              <label class="tts-option">
+                <span class="tts-option-label">语者</span>
+                <select :value="ttsSid" @change="onSidChange">
+                  <option v-for="sid in TTS_SPEAKER_CHOICES" :key="sid" :value="sid">
+                    {{ sid }} 号
+                  </option>
+                </select>
+              </label>
+              <label class="tts-option">
+                <span class="tts-option-label">步数</span>
+                <select :value="ttsSteps" @change="onStepsChange">
+                  <option v-for="s in TTS_STEP_CHOICES" :key="s" :value="s">
+                    {{ s }}{{ s === TTS_DEFAULT_STEPS ? "（默认）" : s === 4 ? "（最快）" : "" }}
+                  </option>
+                </select>
+              </label>
+              <span class="tts-option-hint">改完点「试听」对比，步数越少越快</span>
+            </div>
+
             <div class="tts-actions">
               <button
                 v-if="ttsSupported && !ttsInstalled && !ttsPreparing"
-                class="tts-btn tts-btn--go"
+                class="tts-btn tts-btn--primary"
                 :disabled="ttsDownloading || ttsInstalling"
                 @click="onDownloadTts"
               >
+                <span class="tts-btn-icon">⬇</span>
                 {{ ttsDownloading || ttsInstalling ? "处理中…" : "下载离线语音" }}
               </button>
               <template v-else-if="ttsInstalled">
-                <button class="tts-btn" :disabled="ttsTrying" @click="onTryTts">
+                <button
+                  class="tts-btn tts-btn--primary"
+                  :disabled="ttsTrying || ttsPreparing"
+                  @click="onTryTts"
+                >
+                  <span class="tts-btn-icon">{{ ttsTrying ? "⏳" : "▶" }}</span>
                   {{ ttsTrying ? "合成中…" : "试听" }}
                 </button>
                 <button
                   v-if="ttsDownloaded && !ttsBundled"
-                  class="tts-btn tts-btn--danger"
+                  class="tts-btn tts-btn--ghost"
                   :disabled="ttsDownloading || ttsInstalling"
                   @click="onDeleteTts"
                 >
+                  <span class="tts-btn-icon">🗑</span>
                   删除
                 </button>
               </template>
@@ -364,6 +378,13 @@ const ttsDesc = computed(() => {
 });
 
 const ttsProgressWidth = computed(() => `${ttsPercent(ttsProgress.value)}%`);
+
+/** 卡片整体配色随状态变化（就绪=绿、准备中=琥珀、不可用=灰） */
+const ttsCardClass = computed(() => {
+  if (!ttsSupported.value) return "tts-card--off";
+  if (ttsPreparing.value || ttsDownloading.value || ttsInstalling.value) return "tts-card--busy";
+  return ttsInstalled.value ? "tts-card--ready" : "tts-card--idle";
+});
 
 // 真机诊断：把上一次原生合成的耗时/音频长度/RTF 显示出来（手机上唯一能拿到的性能数据）
 const ttsLastSynth = computed(() => {
@@ -828,39 +849,87 @@ function doReset() {
 /* 离线发音 */
 .tts-card {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  padding: 20px 24px;
-  background: #fff;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 22px;
+  background: linear-gradient(160deg, #ffffff 0%, #f7fcff 100%);
   border: 1px solid #e0f2fe;
-  border-radius: 16px;
-  box-shadow: 0 2px 12px rgba(186, 230, 253, 0.15);
+  border-radius: 18px;
+  box-shadow: 0 4px 18px rgba(186, 230, 253, 0.22);
+  transition: border-color 0.25s, box-shadow 0.25s;
 }
 
-.tts-info {
-  flex: 1;
-  min-width: 0;
+.tts-card--ready {
+  border-color: #bbf7d0;
+  box-shadow: 0 4px 18px rgba(187, 247, 208, 0.3);
 }
 
-.tts-title {
+.tts-card--busy {
+  border-color: #fde68a;
+  box-shadow: 0 4px 18px rgba(253, 230, 138, 0.3);
+}
+
+.tts-card--off {
+  border-color: #e2e8f0;
+  box-shadow: none;
+}
+
+.tts-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tts-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #cbd5e1;
+  box-shadow: 0 0 0 4px rgba(203, 213, 225, 0.25);
+  flex-shrink: 0;
+}
+
+.tts-card--ready .tts-dot {
+  background: #22c55e;
+  box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.18);
+}
+
+.tts-card--busy .tts-dot {
+  background: #f59e0b;
+  box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.18);
+  animation: tts-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes tts-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+
+.tts-status {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 700;
   color: #075985;
-  margin-bottom: 6px;
+  letter-spacing: 0.2px;
 }
 
 .tts-desc {
+  margin: 0;
   font-size: 13px;
-  color: #7dd3fc;
-  line-height: 1.6;
+  color: #64748b;
+  line-height: 1.65;
+}
+
+.tts-msgs {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .tts-msg {
+  margin: 0;
   font-size: 12px;
   color: #059669;
-  margin-top: 8px;
+  line-height: 1.5;
 }
 
 .tts-msg--err {
@@ -872,8 +941,7 @@ function doReset() {
 }
 
 .tts-progress {
-  height: 6px;
-  margin-top: 12px;
+  height: 8px;
   background: #e8f6ff;
   border-radius: 999px;
   overflow: hidden;
@@ -887,97 +955,162 @@ function doReset() {
 }
 
 .tts-progress-text {
+  margin: 0;
   font-size: 12px;
   color: #0284c7;
-  margin-top: 6px;
 }
 
 .tts-options {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 12px;
-  margin-top: 12px;
-  font-size: 13px;
-  color: #0369a1;
+  gap: 10px 14px;
+  margin-top: 4px;
+  padding: 12px 14px;
+  background: #f5fbff;
+  border: 1px dashed #dbeafe;
+  border-radius: 14px;
 }
 
 .tts-option {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
+}
+
+.tts-option-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #0369a1;
 }
 
 .tts-option select {
-  padding: 4px 8px;
-  border: 1px solid #e0f2fe;
-  border-radius: 8px;
-  background: #f5fbff;
+  appearance: none;
+  min-height: 38px;
+  padding: 0 30px 0 12px;
+  border: 1px solid #dbeafe;
+  border-radius: 11px;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%230369a1' d='M1.4 0 6 4.6 10.6 0 12 1.4 6 7.4 0 1.4z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 11px center;
   color: #0369a1;
   font-size: 13px;
+  font-weight: 600;
   font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.tts-option select:hover {
+  border-color: #bae6fd;
+}
+
+.tts-option select:focus-visible {
+  outline: none;
+  border-color: #38bdf8;
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.25);
 }
 
 .tts-option-hint {
+  flex: 1 1 100%;
   font-size: 12px;
   color: #94a3b8;
 }
 
 .tts-actions {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 8px;
-  flex-shrink: 0;
+  gap: 10px;
+  margin-top: 4px;
 }
 
 .tts-btn {
-  padding: 10px 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 44px;
+  padding: 0 22px;
   border: 1px solid #e0f2fe;
-  border-radius: 10px;
+  border-radius: 13px;
   background: #f5fbff;
   color: #0369a1;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: transform 0.15s, box-shadow 0.2s, background 0.2s, border-color 0.2s, color 0.2s;
   white-space: nowrap;
   font-family: inherit;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.tts-btn:hover {
+.tts-btn-icon {
+  font-size: 15px;
+  line-height: 1;
+}
+
+.tts-btn:hover:not(:disabled) {
   background: #e0f2fe;
   border-color: #bae6fd;
   color: #0284c7;
+  transform: translateY(-1px);
+}
+
+.tts-btn:active:not(:disabled) {
+  transform: translateY(1px) scale(0.985);
+}
+
+.tts-btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.35);
 }
 
 .tts-btn:disabled {
-  opacity: 0.6;
+  opacity: 0.55;
   cursor: not-allowed;
 }
 
-.tts-btn--go {
-  background: linear-gradient(135deg, #7dd3fc 0%, #0284c7 100%);
+.tts-btn--primary {
   border: none;
-  color: #fff;
-  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
-}
-
-.tts-btn--go:hover {
   background: linear-gradient(135deg, #38bdf8 0%, #0369a1 100%);
   color: #fff;
-  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(2, 132, 199, 0.28);
 }
 
-.tts-btn--danger {
+.tts-btn--primary:hover:not(:disabled) {
+  background: linear-gradient(135deg, #7dd3fc 0%, #0284c7 100%);
+  color: #fff;
+  box-shadow: 0 8px 22px rgba(2, 132, 199, 0.36);
+}
+
+.tts-btn--ghost {
+  background: #fff;
   border-color: #fee2e2;
-  background: #fff5f5;
   color: #dc2626;
 }
 
-.tts-btn--danger:hover {
-  background: #fee2e2;
+.tts-btn--ghost:hover:not(:disabled) {
+  background: #fff5f5;
   border-color: #fca5a5;
-  color: #dc2626;
+  color: #b91c1c;
+}
+
+@media (max-width: 480px) {
+  .tts-card {
+    padding: 18px 16px;
+  }
+
+  .tts-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .tts-btn {
+    width: 100%;
+  }
 }
 
 /* 统计卡片（紧凑横向布局） */
@@ -1261,14 +1394,14 @@ function doReset() {
     text-align: center;
   }
 
-  .tts-card {
-    flex-direction: column;
-    text-align: center;
+  /* 离线发音卡片：本身已是竖排布局，这里只把按钮铺满更利于点按 */
+  .tts-actions {
+    justify-content: flex-start;
+    flex-wrap: wrap;
   }
 
-  .tts-actions {
-    justify-content: center;
-    flex-wrap: wrap;
+  .tts-option-hint {
+    flex-basis: auto;
   }
 
   .update-direct {

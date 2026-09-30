@@ -28,10 +28,10 @@ export const TTS_MODEL_DIR = "tts-ja";
 export const TTS_MODEL_BYTES = 128774318;
 // 试听文本（纯假名，避免依赖模型对汉字的处理）
 export const TTS_TEST_TEXT = "こんにちは、にほんごのおんせいです。";
-// 语者（音色）：Supertonic-3 共 10 个（0–9），这里只保留选定的 4 个，界面上不再出现其余的。
-// 注意：10 个语者共用同一个模型，全部音色数据都在 voice.bin（仅 0.5MB），
-// 所以「少留几个语者」不会让 APK 变小 —— 要省体积得换更小的模型（见 CLAUDE.md）。
-export const TTS_SPEAKER_CHOICES = [3, 4, 7, 9];
+// 语者（音色）：Supertonic-3 共 10 个（0–9），这里全部开放，默认 3 号。
+// 注意：10 个语者共用同一个模型，音色数据全在 voice.bin（仅 0.5MB），
+// 所以「少留几个语者」不会让 APK 变小——要省体积得换更小的模型（见 CLAUDE.md）。
+export const TTS_SPEAKER_CHOICES = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 export const TTS_DEFAULT_SID = 3;
 // 扩散步数：越少越快、质量略降（实测桌面 66 字长句 steps=8 → 3.56s，4 → 2.00s）
 export const TTS_DEFAULT_STEPS = 8;

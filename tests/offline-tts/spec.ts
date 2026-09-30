@@ -177,9 +177,9 @@ async function main() {
   const ls = (globalThis as unknown as { __lsStore: Map<string, string> }).__lsStore;
   eq("默认步数是 8", pluginState.lastSpeakArgs?.steps, TTS_DEFAULT_STEPS);
   eq("默认语者是保留列表里的第一个", pluginState.lastSpeakArgs?.sid, TTS_DEFAULT_SID);
-  eq("保留的语者就是 3/4/7/9", TTS_SPEAKER_CHOICES, [3, 4, 7, 9]);
-  setTtsSid(0); // 旧版本可能存着已去掉的语者 0
-  eq("已去掉的语者会回落到默认", sid.value, TTS_DEFAULT_SID);
+  eq("语者列表是模型的 10 个（0-9）", TTS_SPEAKER_CHOICES, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]);
+  setTtsSid(99); // 超出范围的编号
+  eq("越界编号回落到默认", sid.value, TTS_DEFAULT_SID);
   setTtsSteps(4);
   setTtsSid(9);
   eq("步数写进了 localStorage", ls.get("jp-tts-steps"), "4");
