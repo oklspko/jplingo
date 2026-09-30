@@ -9,10 +9,13 @@ export const mockState = {
 
 export const pluginState = {
   ready: false,
+  /** APK 是否内置了模型（assets/tts-ja 齐全） */
+  bundled: false,
   calls: [] as string[],
   failIsReady: false,
   failSpeak: false,
   failInstall: false,
+  failAssets: false,
   prepareShouldFail: false,
   // 并发检测：真实插件里是同一个 OfflineTts 实例，并发合成既不安全、也会抢同一个输出文件
   active: 0,
@@ -36,7 +39,20 @@ export const fakePlugin = {
   async isReady() {
     pluginState.calls.push("isReady");
     if (pluginState.failIsReady) throw new Error("bridge not ready");
-    return { ready: pluginState.ready, modelDir: "/data/data/com.jplingo.app/files/tts-ja" };
+    return {
+      // ready 只表示「filesDir 里现在就能用」；bundled 只是提示前端去拷贝一次
+      ready: pluginState.ready,
+      downloaded: pluginState.ready,
+      bundled: pluginState.bundled,
+      modelDir: "/data/data/com.jplingo.app/files/tts-ja",
+    };
+  },
+  async installFromAssets() {
+    pluginState.calls.push("installFromAssets");
+    if (pluginState.failAssets) throw new Error("存储空间不足：内置语音需要约 170 MB");
+    if (!pluginState.bundled) throw new Error("APK 未内置离线语音模型");
+    pluginState.ready = true; // 拷贝完成：filesDir 里就有模型了
+    return { ok: true, files: 7 };
   },
   async installModel(_o: { archive?: string }) {
     pluginState.calls.push("installModel");

@@ -28,7 +28,7 @@ try {
 const cacheDir = path.join(repoRoot, "node_modules", ".cache");
 fs.mkdirSync(cacheDir, { recursive: true });
 
-const specs = ["spec.ts", "spec-sound.ts"];
+const specs = ["spec.ts", "spec-sound.ts", "spec-bundled.ts", "spec-bundled-fail.ts"];
 const alias = {
   "@capacitor/core": path.join(here, "mocks", "core.ts"),
   "@capacitor/filesystem": path.join(here, "mocks", "filesystem.ts"),

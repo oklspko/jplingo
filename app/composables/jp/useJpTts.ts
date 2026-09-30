@@ -74,7 +74,13 @@ export const TTS_MODEL_URL_DEFAULT =
   "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2";
 
 interface JpTtsPlugin {
-  isReady(): Promise<{ ready: boolean; modelDir: string }>;
+  isReady(): Promise<{
+    ready: boolean;
+    downloaded?: boolean;
+    bundled?: boolean;
+    modelDir: string;
+  }>;
+  installFromAssets(): Promise<{ ok: boolean; files?: number; already?: boolean }>;
   installModel(options: { archive?: string }): Promise<{ ok: boolean; files: number }>;
   prepare(): Promise<{ ok: boolean }>;
   speak(options: {
@@ -96,6 +102,14 @@ const installing = ref(false);
 const progress = ref(0);
 const receivedBytes = ref(0);
 const error = ref("");
+
+/** 模型来自 APK 内置（装机即有）还是用户下载到 filesDir 的那份 */
+const bundled = ref(false);
+const downloadedModel = ref(false);
+/** 正在把内置模型拷到应用目录（首次启动一次，约 145MB） */
+const preparingAssets = ref(false);
+/** 内置模型准备只尝试一次（失败就让用户走「下载」兜底） */
+let assetInstallTried = false;
 
 /** 供发音链判断「要不要提示去下载内置语音」（useJpSound 用） */
 export const offlineTtsInstalled = installed;
@@ -163,6 +177,8 @@ export function refreshOfflineTtsStatus(force = false): Promise<boolean> {
     try {
       const r = await JpTts.isReady();
       installed.value = !!r?.ready;
+      bundled.value = !!r?.bundled;
+      downloadedModel.value = !!r?.downloaded;
       statusChecked = true;
     } catch (err) {
       console.warn("[jplingo] 离线语音状态检查失败：", err);
@@ -174,10 +190,34 @@ export function refreshOfflineTtsStatus(force = false): Promise<boolean> {
       statusPromise = null;
       return false;
     }
-    if (installed.value) warmUpOfflineTts();
+    if (installed.value) {
+      warmUpOfflineTts();
+    } else if (bundled.value) {
+      // 装机内置了模型：首次启动拷一次（不联网），拷完再报「已就绪」
+      installBundledModel();
+    }
     return installed.value;
   })();
   return statusPromise;
+}
+
+/** 把 APK 内置的模型拷到应用目录（只尝试一次；失败则让用户走「下载」兜底） */
+async function installBundledModel(): Promise<boolean> {
+  if (assetInstallTried || preparingAssets.value) return false;
+  assetInstallTried = true;
+  preparingAssets.value = true;
+  try {
+    await JpTts.installFromAssets();
+    statusPromise = null;
+    const ok = await refreshOfflineTtsStatus(true);
+    return ok;
+  } catch (err) {
+    console.warn("[jplingo] 内置语音准备失败：", err);
+    error.value = `内置语音准备失败：${describe(err)}`;
+    return false;
+  } finally {
+    preparingAssets.value = false;
+  }
 }
 
 // 已合成过的音频：(sid|步数|语速|文本) → cacheDir/tts 下的绝对路径。
@@ -389,6 +429,9 @@ export function useJpTts() {
     synthesizing,
     lastSynth,
     lastPrepare,
+    bundled,
+    downloaded: downloadedModel,
+    preparingAssets,
     sid: ttsSid,
     steps: ttsSteps,
     setSid: setTtsSid,

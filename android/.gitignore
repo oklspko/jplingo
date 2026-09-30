@@ -95,6 +95,9 @@ capacitor-cordova-android-plugins
 # Copied web assets
 app/src/main/assets/public
 
+# 内置离线语音模型（CI 从官方 Release 取，约 145MB，不入库）
+app/src/main/assets/tts-ja/
+
 # Generated Config files
 app/src/main/assets/capacitor.config.json
 app/src/main/assets/capacitor.plugins.json

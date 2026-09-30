@@ -41,6 +41,8 @@ public class JpTtsPlugin extends Plugin {
 
     private static final String TAG = "JpTts";
     private static final String MODEL_DIR = "tts-ja";
+    /** APK 内置模型所在的 assets 目录（CI 把 7 个模型文件放这里） */
+    private static final String BUNDLED_DIR = "tts-ja";
     private static final String[] MODEL_FILES = {
         "duration_predictor.int8.onnx",
         "text_encoder.int8.onnx",
@@ -65,13 +67,104 @@ public class JpTtsPlugin extends Plugin {
         return true;
     }
 
-    /** 模型是否已就绪（前端据此决定是否走内置引擎） */
+    /** APK 是否内置了完整模型（assets/tts-ja 下 7 个文件齐全） */
+    private boolean bundledComplete() {
+        java.util.List<String> names = java.util.Arrays.asList(bundledFiles());
+        for (String name : MODEL_FILES) {
+            if (!names.contains(name)) return false;
+        }
+        return true;
+    }
+
+    private String[] bundledFiles() {
+        try {
+            String[] names = getContext().getAssets().list(BUNDLED_DIR);
+            return names == null ? new String[0] : names;
+        } catch (Exception e) {
+            return new String[0];
+        }
+    }
+
+    /**
+     * 模型是否**现在就能用**（前端据此决定是否走内置引擎）。
+     * ready = filesDir 里那份齐全（下载的或已从内置拷过来的）；
+     * bundled 只说明 APK 内置了模型，前端据此触发一次拷贝——注意此时还不能算 ready，
+     * 因为 initTts() 是从 filesDir 读模型，报 ready=true 会让每次合成都找不到文件。
+     */
     @PluginMethod
     public void isReady(PluginCall call) {
         JSObject ret = new JSObject();
-        ret.put("ready", modelComplete());
+        boolean downloaded = modelComplete();
+        ret.put("ready", downloaded);
+        ret.put("downloaded", downloaded);
+        ret.put("bundled", bundledComplete());
         ret.put("modelDir", modelDir().getAbsolutePath());
         call.resolve(ret);
+    }
+
+    /**
+     * 把 APK 内置的模型（assets/tts-ja/*）拷到 filesDir/tts-ja。
+     * 装机即有的路径：不走网络，只是本地一次拷贝，比让用户在手机上拉 123MB 稳得多。
+     */
+    @PluginMethod
+    public void installFromAssets(final PluginCall call) {
+        new Thread(
+            () -> {
+                try {
+                    if (modelComplete()) {
+                        JSObject done = new JSObject();
+                        done.put("ok", true);
+                        done.put("already", true);
+                        call.resolve(done);
+                        return;
+                    }
+                    if (!bundledComplete()) {
+                        call.reject("APK 未内置离线语音模型");
+                        return;
+                    }
+                    // 内置模型解压后约 145MB，拷贝期间不会同时留压缩包，留点余量即可
+                    long need = 170L * 1024 * 1024;
+                    StatFs stat = new StatFs(getContext().getFilesDir().getAbsolutePath());
+                    long free = stat.getAvailableBytes();
+                    if (free < need) {
+                        call.reject(
+                            String.format(
+                                "存储空间不足：内置语音需要约 %d MB，当前可用 %d MB",
+                                need / 1024 / 1024,
+                                free / 1024 / 1024
+                            )
+                        );
+                        return;
+                    }
+                    File dir = modelDir();
+                    if (!dir.exists() && !dir.mkdirs()) {
+                        throw new Exception("无法创建模型目录");
+                    }
+                    int count = 0;
+                    for (String name : MODEL_FILES) {
+                        try (
+                            InputStream in = getContext().getAssets().open(BUNDLED_DIR + "/" + name);
+                            OutputStream out = new FileOutputStream(new File(dir, name))
+                        ) {
+                            copy(in, out);
+                        }
+                        count++;
+                    }
+                    if (!modelComplete()) {
+                        call.reject("内置语音拷贝后文件不完整");
+                        return;
+                    }
+                    JSObject ret = new JSObject();
+                    ret.put("ok", true);
+                    ret.put("files", count);
+                    call.resolve(ret);
+                } catch (Throwable e) {
+                    Log.e(TAG, "installFromAssets failed", e);
+                    call.reject("内置语音准备失败：" + e.getMessage());
+                }
+            },
+            "JpTts-assets"
+        ).start();
     }
 
     /** 解压已下载到 filesDir 的 .tar.bz2 模型包 */

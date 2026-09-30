@@ -81,6 +81,9 @@
               <div v-else-if="ttsInstalling" class="tts-progress-text">
                 解压中…（约 123MB，请保持 App 在前台）
               </div>
+              <div v-else-if="ttsPreparing" class="tts-progress-text">
+                正在把内置语音复制到应用目录（约 145MB，无需联网）…
+              </div>
               <div v-if="ttsInstalled" class="tts-options">
                 <label class="tts-option">
                   <span>语者</span>
@@ -103,7 +106,7 @@
             </div>
             <div class="tts-actions">
               <button
-                v-if="ttsSupported && !ttsInstalled"
+                v-if="ttsSupported && !ttsInstalled && !ttsPreparing"
                 class="tts-btn tts-btn--go"
                 :disabled="ttsDownloading || ttsInstalling"
                 @click="onDownloadTts"
@@ -115,6 +118,7 @@
                   {{ ttsTrying ? "合成中…" : "试听" }}
                 </button>
                 <button
+                  v-if="ttsDownloaded && !ttsBundled"
                   class="tts-btn tts-btn--danger"
                   :disabled="ttsDownloading || ttsInstalling"
                   @click="onDeleteTts"
@@ -320,6 +324,9 @@ const {
   error: ttsError,
   lastSynth: ttsLastSynthRaw,
   lastPrepare: ttsLastPrepareRaw,
+  bundled: ttsBundled,
+  downloaded: ttsDownloaded,
+  preparingAssets: ttsPreparing,
   sid: ttsSid,
   steps: ttsSteps,
   setSid: setTtsSid,
@@ -335,17 +342,25 @@ const ttsTryMsg = ref("");
 
 const ttsTitle = computed(() => {
   if (!ttsSupported.value) return "不可用";
-  return ttsInstalled.value ? "已就绪 ✅" : "未安装";
+  if (ttsPreparing.value) return "正在准备内置语音…";
+  if (!ttsInstalled.value) return "未安装";
+  return ttsBundled.value ? "已就绪（APK 内置）✅" : "已就绪 ✅";
 });
 
 const ttsDesc = computed(() => {
   if (!ttsSupported.value) {
     return "仅安卓 App 支持：网页端用浏览器自带语音，装到手机后才有内置离线引擎";
   }
+  if (ttsPreparing.value) {
+    return "首次启动会把 App 内置的语音（约 145MB）复制到应用目录，无需联网，稍等片刻即可";
+  }
   if (ttsInstalled.value) {
+    if (ttsBundled.value) {
+      return "语音已随 App 一起安装：没预生成音频的词句也能离线发音，不用下载、也不用联网";
+    }
     return "没有预生成音频的词句也能离线发音，不再依赖系统的日语音色";
   }
-  return "装一次（约 123MB，建议 WiFi）后，没预生成音频的词句也能发音，全程离线";
+  return "App 未内置语音，可手动下载一次（约 123MB，建议 WiFi）";
 });
 
 const ttsProgressWidth = computed(() => `${ttsPercent(ttsProgress.value)}%`);

@@ -62,11 +62,41 @@ jobs:
       - name: Sync APK version from package.json
         run: node scripts/sync-apk-version.cjs
 
+      # 预生成音频（讯飞 mp3，约 72MB）不再进 APK：App 改用内置离线引擎发音。
+      # 只从 APK 载荷里删，仓库与网页端（EdgeOne/自托管）仍保留这些 mp3。
+      - name: Strip pre-generated audio from APK payload
+        run: |
+          if [ -d .output/public/audio ]; then
+            echo "移除 .output/public/audio（$(du -sm .output/public/audio | cut -f1) MB，$(find .output/public/audio -type f | wc -l) 个文件）"
+            rm -rf .output/public/audio
+          fi
+          ls .output/public | head -20
+
       - name: Sync Capacitor web assets
         run: npx cap sync android
 
+      # 内置离线语音模型：解压出 7 个模型文件放进 assets，装机即有，不再依赖手机联网下载
+      # （之前「我的」页那个下载入口保留为兜底，装了就不再显示）
+      - name: Bundle offline TTS model into APK assets
+        run: |
+          set -e
+          TARBALL="sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2"
+          URL="https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/${TARBALL}"
+          curl -fsSL --retry 3 -o "/tmp/${TARBALL}" "https://gh-proxy.com/${URL}" \
+            || curl -fsSL --retry 3 -o "/tmp/${TARBALL}" "${URL}"
+          echo "82fa96f91c4ef8abaae3a14a3f4153facf88bed821d1f7331cec2700f432c427  /tmp/${TARBALL}" | sha256sum -c -
+          tar -xjf "/tmp/${TARBALL}" -C /tmp
+          SRC="/tmp/sherpa-onnx-supertonic-3-tts-int8-2026-05-11"
+          DEST="android/app/src/main/assets/tts-ja"
+          mkdir -p "${DEST}"
+          for f in duration_predictor.int8.onnx text_encoder.int8.onnx vector_estimator.int8.onnx \
+                   vocoder.int8.onnx tts.json unicode_indexer.bin voice.bin; do
+            cp "${SRC}/${f}" "${DEST}/${f}"
+          done
+          ls -lh "${DEST}"
+          du -sh "${DEST}"
+
       # 离线日语 TTS：官方 Android AAR（arm64-v8a 运行时 .so + com.k2fsa.sherpa.onnx API）
-      # 语言模型（Supertonic-3 int8，约 123MB）不打进 APK，由 App 首次使用时下载
       - name: Fetch sherpa-onnx Android AAR
         run: |
           set -e
