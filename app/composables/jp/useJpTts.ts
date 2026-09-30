@@ -164,6 +164,8 @@ export async function synthesizeOffline(
     return path;
   } catch (err) {
     console.warn("[jplingo] 离线合成失败：", err);
+    // 手机上没有控制台，「我的」页那张卡片是唯一能看到原生报错的地方
+    error.value = `合成失败：${describe(err)}`;
     return null;
   }
 }
