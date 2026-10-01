@@ -90,7 +90,10 @@ export function planUpdate(
   remove.sort();
 
   const currentVersion = current?.version ?? null;
-  const hasUpdate = currentVersion !== remote.version || download.length > 0 || remove.length > 0;
+  // 是否需要更新，只看「有没有文件要下 / 要清」——版本号只用于展示。
+  // 这样即使版本记录丢了（换设备、清了缓存、记录文件读不出来），只要本地内容已与远端一致，
+  // 就不会反复提示同一个更新。
+  const hasUpdate = download.length > 0 || remove.length > 0;
 
   return {
     hasUpdate,
@@ -99,6 +102,38 @@ export function planUpdate(
     remove,
     downloadBytes: download.reduce((sum, f) => sum + f.size, 0),
     currentVersion,
+  };
+}
+
+/**
+ * 用「本地缓存的实际内容」过滤更新计划：缓存里已经与远端一致的文件不再下载。
+ *
+ * 为什么需要：更新记录（_applied.json / localStorage）可能丢失或读不出来，
+ * 那样 App 会拿内置清单当基线，把已经下过的文件反复「重新更新」。
+ * 这里按 sha256 逐个核对候选文件，是最可靠的判据（只核对候选，通常就是几个文件）。
+ *
+ * @param readCached 读取缓存文件字节（返回 null 表示缓存里没有）
+ */
+export async function verifyAgainstCache(
+  plan: UpdatePlan,
+  readCached: (path: string) => Promise<Uint8Array | null>,
+): Promise<UpdatePlan> {
+  const still: DataFile[] = [];
+  let matched = 0;
+  for (const f of plan.download) {
+    const bytes = await readCached(f.path);
+    if (bytes && bytes.length === f.size && (await sha256Hex(bytes)) === f.sha256) {
+      matched++;
+      continue;
+    }
+    still.push(f);
+  }
+  if (!matched) return plan;
+  return {
+    ...plan,
+    download: still,
+    downloadBytes: still.reduce((sum, f) => sum + f.size, 0),
+    hasUpdate: still.length > 0 || plan.remove.length > 0,
   };
 }
 

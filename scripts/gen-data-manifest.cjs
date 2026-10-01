@@ -90,7 +90,8 @@ function generate() {
   const fingerprint = sha256(files.map((f) => `${f.path}:${f.sha256}`).join("\n"));
   const manifest = {
     version: `sha256:${fingerprint.slice(0, 32)}`,
-    generatedAt: process.env.SOURCE_DATE || new Date().toISOString(),
+    // generatedAt 只在 CI 显式提供 SOURCE_DATE 时写入：否则每次本地构建都会改动这个文件（无意义 diff）
+    ...(process.env.SOURCE_DATE ? { generatedAt: process.env.SOURCE_DATE } : {}),
     base: "https://www.jplingo.cn",
     bytes: files.reduce((sum, f) => sum + f.size, 0),
     files,

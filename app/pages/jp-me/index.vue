@@ -161,6 +161,7 @@
 
             <div class="tts-msgs">
               <p v-if="dataStatusText" class="tts-msg tts-msg--dim">{{ dataStatusText }}</p>
+              <p class="tts-msg tts-msg--dim">{{ dataVersionLine }}</p>
               <p v-if="dataError && !dataInfo" class="tts-msg tts-msg--err">{{ dataError }}</p>
             </div>
 
@@ -347,7 +348,7 @@ import JpCheckinCalendar from "~/components/jp/JpCheckinCalendar.vue";
 import { useJpAuth } from "~/composables/jp/useJpAuth";
 import { useJpUpdate } from "~/composables/jp/useJpUpdate";
 import { useJpDataUpdate } from "~/composables/jp/useJpDataUpdate";
-import { formatBytes } from "~/utils/jpDataPack";
+import { formatBytes, shortVersion } from "~/utils/jpDataPack";
 import {
   useJpStorage,
   calcStreak,
@@ -439,7 +440,9 @@ const {
   dataInfo,
   hasDataUpdate,
   pendingBytes,
+  remoteVersion,
   currentVersion: dataCurrentVersion,
+  lastCheckedAt,
   dataStatusText,
   checkDataUpdate,
   applyDataUpdate,
@@ -460,6 +463,14 @@ const dataDesc = computed(() =>
 );
 
 const dataPendingText = computed(() => formatBytes(pendingBytes.value));
+
+/** 诊断行：当前版本 / 远端版本 / 上次检查时间——排查「更新完还提示有更新」这类问题靠它 */
+const dataVersionLine = computed(() => {
+  const cur = shortVersion(dataCurrentVersion.value) || "内置";
+  const remote = remoteVersion.value ? shortVersion(remoteVersion.value) : "—";
+  const checked = lastCheckedAt.value ? new Date(lastCheckedAt.value).toLocaleString() : "尚未检查";
+  return `当前数据 ${cur} · 线上 ${remote} · 上次检查 ${checked}`;
+});
 
 const dataProgressWidth = computed(() => {
   const { done, total } = dataProgress.value;

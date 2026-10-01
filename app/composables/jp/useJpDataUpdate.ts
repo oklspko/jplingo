@@ -6,6 +6,7 @@ import {
   DATA_DIR,
   fetchBundledManifest,
   readAppliedManifest,
+  readCachedBytes,
 } from "~/composables/jp/useJpData";
 import {
   base64ToBytes,
@@ -16,6 +17,7 @@ import {
   shortVersion,
   type DataManifest,
   type UpdatePlan,
+  verifyAgainstCache,
   verifySize,
 } from "~/utils/jpDataPack";
 
@@ -79,6 +81,23 @@ function rememberVersion(version: string) {
   }
 }
 
+/** 记录「已应用到哪一版」：写 _applied.json（供下次比对文件集）+ localStorage（快、抗读失败） */
+async function rememberApplied(manifest: DataManifest): Promise<void> {
+  rememberVersion(manifest.version);
+  try {
+    await ensureDir(DATA_DIR);
+    await Filesystem.writeFile({
+      path: APPLIED_FILE,
+      directory: Directory.Data,
+      data: JSON.stringify(manifest),
+      recursive: true,
+    });
+  } catch (err) {
+    // 写不进去也不影响使用：下次检查会用缓存内容逐文件复核，不会再重复提示
+    console.warn("[jp-data] 写入更新记录失败：", err);
+  }
+}
+
 /** 确保目录存在。
  * Capacitor 的 `downloadFile` **没有 recursive 选项、也不会创建父目录**
  * （插件源码里只有显式 mkdir 会 mkdirs），所以首次运行时直接往 `jp-data/...` 下载必定失败。
@@ -134,8 +153,12 @@ export async function checkDataUpdate(force = false): Promise<UpdatePlan | null>
   dataError.value = "";
   try {
     const [bundled, applied] = await Promise.all([fetchBundledManifest(), readAppliedManifest()]);
+    // 展示用版本：已应用记录 → localStorage → 内置
     currentVersion.value =
-      applied?.version || bundled?.version || localStorage.getItem(LS_VERSION) || "";
+      applied?.version ||
+      (typeof localStorage !== "undefined" ? localStorage.getItem(LS_VERSION) : null) ||
+      bundled?.version ||
+      "";
     const remote = await fetchRemoteManifest();
     if (!remote.manifest) {
       // 把真实原因显示出来（首次运行最常见的失败是「父目录不存在」与「网络/域名不可达」）
@@ -144,14 +167,21 @@ export async function checkDataUpdate(force = false): Promise<UpdatePlan | null>
       return null;
     }
     const manifest = remote.manifest;
-    const plan = planUpdate(bundled, applied, manifest);
+    let plan = planUpdate(bundled, applied, manifest);
+    // 关键：用本地缓存的实际内容复核一遍——已经下过且与远端一致的文件不再算「待更新」。
+    // 这样即使版本记录丢了，也不会反复提示同一个更新。
+    plan = await verifyAgainstCache(plan, (p) => readCachedBytes(p));
     hasDataUpdate.value = plan.hasUpdate;
     remoteVersion.value = manifest.version;
     remoteGeneratedAt.value = manifest.generatedAt || "";
     pendingBytes.value = plan.downloadBytes;
-    dataInfo.value = plan.hasUpdate
-      ? `发现新数据：${shortVersion(manifest.version)}（需下载 ${formatBytes(plan.downloadBytes)}，${plan.download.length} 个文件）`
-      : `已是最新（${shortVersion(manifest.version)}）`;
+    if (!plan.hasUpdate) {
+      // 内容已与远端一致：把版本记录补齐（下次检查就不用再逐个核对哈希了）
+      if (currentVersion.value !== manifest.version) await rememberApplied(manifest);
+      dataInfo.value = `已是最新（${shortVersion(manifest.version)}）`;
+    } else {
+      dataInfo.value = `发现新数据：${shortVersion(manifest.version)}（需下载 ${formatBytes(plan.downloadBytes)}，${plan.download.length} 个文件）`;
+    }
     rememberCheck();
     return plan;
   } finally {
@@ -223,18 +253,8 @@ export async function applyDataUpdate(plan?: UpdatePlan | null): Promise<boolean
     }
     // 最后登记版本：此刻缓存已经齐全，读取层可以放心用缓存
     const remote = await fetchRemoteManifest();
-    await ensureDir(DATA_DIR);
-    if (remote.manifest) {
-      await Filesystem.writeFile({
-        path: APPLIED_FILE,
-        directory: Directory.Data,
-        data: JSON.stringify(remote.manifest),
-        recursive: true,
-      });
-      rememberVersion(remote.manifest.version);
-    } else {
-      rememberVersion(todo.version);
-    }
+    if (remote.manifest) await rememberApplied(remote.manifest);
+    else rememberVersion(todo.version);
     hasDataUpdate.value = false;
     dataInfo.value = `数据已更新到 ${shortVersion(todo.version)}（${todo.download.length} 个文件，${formatBytes(todo.downloadBytes)}）`;
     rememberCheck();

@@ -9,6 +9,7 @@ import {
   planUpdate,
   sha256Hex,
   shortVersion,
+  verifyAgainstCache,
   verifySize,
   type DataManifest,
 } from "../../app/utils/jpDataPack";
@@ -247,6 +248,39 @@ async function main() {
     check("先确认缓存存在", (await readAppliedManifest()) !== null);
     await resetDataCache();
     eq("缓存已清空", await readAppliedManifest(), null);
+  }
+
+  console.log("\n[8] 更新记录丢失时不再反复提示：按缓存实际内容复核");
+  {
+    resetFs();
+    // 内置清单是旧的，远端是新版；但缓存里其实已经存着新版内容（模拟记录文件丢失）
+    const bundled: DataManifest = {
+      version: "sha256:old",
+      files: [{ path: COURSE, size: 5, sha256: "old-hash" }],
+    };
+    const newText = '{"v":2}';
+    const newBytes = new TextEncoder().encode(newText);
+    const remote: DataManifest = {
+      version: "sha256:new",
+      files: [{ path: COURSE, size: newBytes.length, sha256: await sha256Hex(newBytes) }],
+    };
+    const plan = planUpdate(bundled, null, remote);
+    eq("按内置基线看：需要更新", plan.hasUpdate, true);
+
+    const verified = await verifyAgainstCache(plan, async (p) =>
+      p === COURSE ? newBytes : null,
+    );
+    eq("按缓存内容复核后：无需更新", verified.hasUpdate, false);
+    eq("待下载清空", verified.download.length, 0);
+
+    const notCached = await verifyAgainstCache(plan, async () => null);
+    eq("缓存里没有该文件时仍然要下载", notCached.hasUpdate, true);
+
+    // 版本号不同但内容一样（只改了生成时间）也算「无需更新」
+    const sameContent: DataManifest = { ...remote, version: "sha256:another" };
+    const samePlan = planUpdate(bundled, null, sameContent);
+    const afterCheck = await verifyAgainstCache(samePlan, async () => newBytes);
+    eq("内容一致就不提示更新（哪怕版本号不同）", afterCheck.hasUpdate, false);
   }
 
   const failed = results.filter((r) => !r.ok);

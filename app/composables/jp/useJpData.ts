@@ -33,14 +33,19 @@ export async function fetchBundledManifest(): Promise<DataManifest | null> {
 
 /** 读取热更新缓存里的文本（没有则返回 null） */
 export async function readCachedText(path: string): Promise<string | null> {
+  const bytes = await readCachedBytes(path);
+  if (!bytes) return null;
+  return new TextDecoder().decode(bytes);
+}
+
+/** 读取热更新缓存里的原始字节（没有/读失败返回 null） */
+export async function readCachedBytes(path: string): Promise<Uint8Array | null> {
   if (!isNative()) return null;
   try {
     const res = await Filesystem.readFile({ path: `${DATA_DIR}/${path}`, directory: Directory.Data });
     // 插件在没指定 encoding 时返回 base64 字符串
-    if (typeof res.data === "string") {
-      return new TextDecoder().decode(base64ToBytes(res.data));
-    }
-    return null;
+    if (typeof res.data !== "string") return null;
+    return base64ToBytes(res.data);
   } catch {
     return null;
   }
