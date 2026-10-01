@@ -5,9 +5,9 @@
       记号：<b>A1</b> = 一类形容词（い形容词）；<b>A2</b> = 二类形容词（な形容词 / 形容动词），接续与名词基本相同。
     </p>
 
-    <!-- 笔记 ① 名词作谓语 -->
+    <!-- 笔记 ① A2 / 名词作谓语（接续相同） -->
     <div class="ps-card">
-      <h3 class="ps-title"><span class="ps-num">1</span>名词作谓语<span class="ps-tag">A2 同理</span></h3>
+      <h3 class="ps-title"><span class="ps-num">1</span>A2 / 名词作谓语<span class="ps-tag">接续相同</span></h3>
 
       <div class="ps-table-scroll">
         <div class="ps-table ps-table--4">
@@ -74,8 +74,26 @@
 
       <p class="ps-example">例：おいしい → おいしくない / おいしかったです</p>
 
+      <!-- A1 的 く形：词尾 い → く（否定、修饰动词都要用它） -->
+      <h4 class="ps-sub-title">📌 关键一步：A1 的「く形」＝ 词尾 い → く</h4>
+      <div class="ps-table-scroll">
+        <div class="ps-table ps-table--3">
+          <div class="ps-row ps-row-head">
+            <span class="ps-cell">用来做什么</span>
+            <span class="ps-cell">形式</span>
+            <span class="ps-cell">例</span>
+          </div>
+          <div v-for="(r, i) in a1KuRows" :key="i" class="ps-row">
+            <span class="ps-cell ps-cell-key">{{ r[0] }}</span>
+            <span class="ps-cell">{{ r[1] }}</span>
+            <span class="ps-cell">{{ r[2] }}</span>
+          </div>
+        </div>
+      </div>
+
       <div class="ps-notes">
-        <p>📌 いい（好）变形用 <b>よい</b>：よくない・よかった。かっこいい 等复合词同此规律，需单独记忆。</p>
+        <p>📌 词尾变化：高い→高<b>く</b>／早い→早<b>く</b>／楽しい→楽し<b>く</b>／新しい→新し<b>く</b>；只有 <b>いい → よく</b> 特殊（不是「いく」，否定是 よ<b>く</b>ない、过去是 よ<b>かっ</b>た，かっこいい 等复合词同此规律）。</p>
+        <p>💬 所以「否定」和「修饰动词」都用同一个 <b>く形</b>：高<b>く</b>ない／早<b>く</b> 起きます。</p>
       </div>
     </div>
 
@@ -118,9 +136,16 @@ const nounRows: string[][] = [
 ];
 
 const a1PlainRows: string[][] = [
-  ["原形", "—", "A1", "—"],
+  ["A1い", "—", "A1", "—"],
   ["简体", "现在时", "A1", "A1く ＋ ない"],
   ["简体", "过去时", "A1かった", "A1く ＋ なかった"],
+];
+
+// A1 的「く形」：词尾 い → く，否定、修饰动词、て形都要先变它
+const a1KuRows: string[][] = [
+  ["接否定", "A1く ＋ ない", "高い → 高くない／いい → よくない"],
+  ["接动词（副词化）", "A1く ＋ 动词", "早い → 早く 起きます／楽しい → 楽しく 話します"],
+  ["接形容词（て形）", "A1く ＋ て", "高い → 高くて 広い"],
 ];
 
 const a1KeigoRows: string[][] = [
@@ -171,6 +196,13 @@ const verbRows: string[][] = [
   color: #075985;
   font-weight: 700;
   margin: 0 0 14px;
+}
+
+.ps-sub-title {
+  margin: 20px 0 10px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #b45309;
 }
 
 .ps-num {

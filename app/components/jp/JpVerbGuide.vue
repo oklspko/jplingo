@@ -79,29 +79,17 @@
         </div>
       </div>
 
-      <!-- 来る 的读音会变 -->
+      <!-- 来る 的读音会变（只保留注音提醒，不铺长表格） -->
       <div class="vg-pattern">
         <h4 class="vg-sub-title">📌 特别提醒：「来る」变形后读音会变</h4>
         <p class="vg-block-intro">
-          「来る」是カ变，光看汉字不行——同一个「来」在不同变形里读 <b>き / こ / く</b>，所以要连假名读音一起记：
+          同一个「来」在不同变形里读 <b>き / こ / く</b>，所以要连假名一起记：
         </p>
-        <div class="vg-table-scroll">
-          <div class="vg-table vg-table--3">
-            <div class="vg-row vg-row-head">
-              <span class="vg-cell">变形</span>
-              <span class="vg-cell">写法</span>
-              <span class="vg-cell">读音</span>
-            </div>
-            <div v-for="r in kuruRows" :key="r.name" class="vg-row">
-              <span class="vg-cell vg-cell-key">{{ r.name }}</span>
-              <span class="vg-cell">{{ r.form }}</span>
-              <span class="vg-cell">{{ r.kana }}</span>
-            </div>
-          </div>
-        </div>
-        <p class="vg-block-intro">
-          对比记忆：<b>来ます＝きます</b>、<b>来ない＝こない</b>、<b>来れば＝くれれば</b>、<b>来い＝こい</b>；而「する」的读音不变（します／しない／すれば…）。
+        <p class="vg-kuru-kana">
+          来ます＝<b>きます</b>　来ない＝<b>こない</b>　来て＝<b>きて</b>　来た＝<b>きた</b>　来れば＝<b>くれば</b>　
+          来よう＝<b>こよう</b>　来られる＝<b>こられる</b>　来させる＝<b>こさせる</b>　来い＝<b>こい</b>
         </p>
+        <p class="vg-block-intro">对比：「する」的读音不变（します／しない／すれば…）。</p>
       </div>
 
       <!-- て形/た形 音便 -->
@@ -163,7 +151,7 @@ const basicForms: VerbForm[] = [
   { name: "ない形", c1: "う段→あ段＋ない（書く→書かない；買う→買わない）", c2: "去る＋ない（食べる→食べない）", c3: "する→しない／来る→来ない（こない）" },
   { name: "て形", c1: "音便（见下表）", c2: "去る＋て（食べる→食べて）", c3: "する→して／来る→来て（きて）" },
   { name: "た形", c1: "音便，て→た・で→だ（書く→書いた）", c2: "去る＋た（食べる→食べた）", c3: "する→した／来る→来た（きた）" },
-  { name: "ば形（假定形）", c1: "う段→え段＋ば（書く→書けば）", c2: "去る＋れば（食べる→食べれば）", c3: "する→すれば／来る→来れば（くれれば）" },
+  { name: "ば形（假定形）", c1: "う段→え段＋ば（書く→書けば）", c2: "去る＋れば（食べる→食べれば）", c3: "する→すれば／来る→来れば（くれば）" },
   { name: "意志形（う/よう形）", c1: "う段→お段＋う（書く→書こう）", c2: "去る＋よう（食べる→食べよう）", c3: "する→しよう／来る→来よう（こよう）" },
 ];
 
@@ -186,21 +174,6 @@ const teFormRows = [
   { type: "一类形容词（い形）", rule: "い → く ＋ て", example: "高い → 高くて" },
   { type: "二类形容词（な形）", rule: "＋ で", example: "きれい → きれいで" },
   { type: "名词", rule: "＋ で", example: "学生 → 学生で" },
-];
-
-// 「来る」各变形的假名读音（读音会变：き／こ／く）
-const kuruRows = [
-  { name: "辞书形", form: "来る", kana: "くる" },
-  { name: "ます形", form: "来ます", kana: "きます" },
-  { name: "ない形", form: "来ない", kana: "こない" },
-  { name: "て形", form: "来て", kana: "きて" },
-  { name: "た形", form: "来た", kana: "きた" },
-  { name: "ば形", form: "来れば", kana: "くれれば" },
-  { name: "意志形", form: "来よう", kana: "こよう" },
-  { name: "可能形", form: "来られる", kana: "こられる" },
-  { name: "被动形", form: "来られる", kana: "こられる" },
-  { name: "使役形", form: "来させる", kana: "こさせる" },
-  { name: "命令形", form: "来い", kana: "こい" },
 ];
 </script>
 
@@ -346,6 +319,22 @@ const kuruRows = [
 .vg-pattern .vg-sub-title {
   margin-top: 0;
   color: #b45309;
+}
+
+/* 「来る」的注音提醒：一行紧凑列出 */
+.vg-kuru-kana {
+  margin: 0 0 8px;
+  padding: 10px 12px;
+  background: #ffffff;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 2;
+  color: #92400e;
+}
+
+.vg-kuru-kana b {
+  color: #b45309;
+  font-weight: 700;
 }
 
 .vg-row {
