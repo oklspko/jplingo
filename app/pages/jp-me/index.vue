@@ -144,6 +144,47 @@
           </div>
         </section>
 
+        <!-- ===== 课程数据（热更新，安卓端） ===== -->
+        <section v-if="dataSupported" class="me-section">
+          <h2>📦 课程数据</h2>
+          <div class="tts-card" :class="dataCardClass">
+            <div class="tts-head">
+              <span class="tts-dot" aria-hidden="true"></span>
+              <span class="tts-status">{{ dataTitle }}</span>
+            </div>
+            <p class="tts-desc">{{ dataDesc }}</p>
+
+            <div v-if="dataUpdating || dataChecking" class="tts-progress">
+              <div class="tts-progress-bar" :style="{ width: dataProgressWidth }"></div>
+            </div>
+            <p v-if="dataProgressText" class="tts-progress-text">{{ dataProgressText }}</p>
+
+            <div class="tts-msgs">
+              <p v-if="dataStatusText" class="tts-msg tts-msg--dim">{{ dataStatusText }}</p>
+              <p v-if="dataError && !dataInfo" class="tts-msg tts-msg--err">{{ dataError }}</p>
+            </div>
+
+            <div class="tts-actions">
+              <button
+                class="tts-btn tts-btn--primary"
+                :disabled="dataChecking || dataUpdating"
+                @click="onApplyDataUpdate"
+              >
+                <span class="tts-btn-icon">{{ dataUpdating ? "⏳" : hasDataUpdate ? "⬇" : "🔄" }}</span>
+                {{ dataUpdating ? "更新中…" : hasDataUpdate ? `立即更新（${dataPendingText}）` : "检查更新" }}
+              </button>
+              <button
+                class="tts-btn tts-btn--ghost"
+                :disabled="dataChecking || dataUpdating || !dataCurrentVersion"
+                @click="onResetData"
+              >
+                <span class="tts-btn-icon">↺</span>
+                恢复内置数据
+              </button>
+            </div>
+          </div>
+        </section>
+
         <!-- ===== 学习统计 ===== -->
         <section class="me-section">
           <h2>📊 学习统计</h2>
@@ -305,6 +346,8 @@ import JpSidebar from "~/components/jp/JpSidebar.vue";
 import JpCheckinCalendar from "~/components/jp/JpCheckinCalendar.vue";
 import { useJpAuth } from "~/composables/jp/useJpAuth";
 import { useJpUpdate } from "~/composables/jp/useJpUpdate";
+import { useJpDataUpdate } from "~/composables/jp/useJpDataUpdate";
+import { formatBytes } from "~/utils/jpDataPack";
 import {
   useJpStorage,
   calcStreak,
@@ -385,6 +428,70 @@ const ttsCardClass = computed(() => {
   if (ttsPreparing.value || ttsDownloading.value || ttsInstalling.value) return "tts-card--busy";
   return ttsInstalled.value ? "tts-card--ready" : "tts-card--idle";
 });
+
+// ===== 课程数据热更新（原生端；网页端数据本来就是最新的）=====
+const dataSupported = computed(() => Capacitor.isNativePlatform());
+const {
+  dataChecking,
+  dataUpdating,
+  dataProgress,
+  dataError,
+  dataInfo,
+  hasDataUpdate,
+  pendingBytes,
+  currentVersion: dataCurrentVersion,
+  dataStatusText,
+  checkDataUpdate,
+  applyDataUpdate,
+  resetDataCache,
+} = useJpDataUpdate();
+
+const dataTitle = computed(() => {
+  if (dataUpdating.value) return "正在更新课程数据…";
+  if (dataChecking.value) return "正在检查更新…";
+  if (hasDataUpdate.value) return "有新课程数据可更新";
+  return dataCurrentVersion.value ? "课程数据已就绪" : "使用 App 内置数据";
+});
+
+const dataDesc = computed(() =>
+  hasDataUpdate.value
+    ? "更新只下载变化的课程文件，不用重装 App；更新后立即可用"
+    : "课程与词库数据可在线更新，装一次 App 就能一直拿到后续新课程",
+);
+
+const dataPendingText = computed(() => formatBytes(pendingBytes.value));
+
+const dataProgressWidth = computed(() => {
+  const { done, total } = dataProgress.value;
+  if (!total) return dataChecking.value ? "35%" : "0%";
+  return `${Math.round((done / total) * 100)}%`;
+});
+
+const dataProgressText = computed(() => {
+  const { done, total, bytes, bytesTotal } = dataProgress.value;
+  if (!total) return "";
+  return `${done} / ${total} 个文件（${formatBytes(bytes)} / ${formatBytes(bytesTotal)}）`;
+});
+
+const dataCardClass = computed(() => {
+  if (dataError.value && !dataInfo.value) return "tts-card--off";
+  if (dataUpdating.value || dataChecking.value) return "tts-card--busy";
+  return hasDataUpdate.value ? "tts-card--idle" : "tts-card--ready";
+});
+
+async function onApplyDataUpdate() {
+  if (hasDataUpdate.value) {
+    await applyDataUpdate();
+    return;
+  }
+  const plan = await checkDataUpdate();
+  if (plan?.hasUpdate) await applyDataUpdate(plan);
+}
+
+async function onResetData() {
+  await resetDataCache();
+  await checkDataUpdate();
+}
 
 // 真机诊断：把上一次原生合成的耗时/音频长度/RTF 显示出来（手机上唯一能拿到的性能数据）
 const ttsLastSynth = computed(() => {

@@ -118,6 +118,7 @@
 import { computed, onMounted, ref } from "vue";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
 import { speakJapanese } from "~/composables/jp/useJpSound";
+import { fetchDataJson } from "~/composables/jp/useJpData";
 import { fuzzyFilter } from "~/utils/jpFuzzy";
 
 interface DictLevel {
@@ -214,9 +215,11 @@ const visibleWords = computed(() => filtered.value.slice(0, visibleCount.value))
 async function load() {
   loading.value = true;
   try {
-    const res = await fetch("/dict/words.json");
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
+    const data = await fetchDataJson<{
+      levels?: DictLevel[];
+      categories?: string[];
+      words?: DictWord[];
+    }>("dict/words.json");
     levels.value = (data.levels || []) as DictLevel[];
     categories.value = (data.categories || []) as string[];
     words.value = (data.words || []) as DictWord[];

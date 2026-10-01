@@ -37,6 +37,7 @@ const specs = [
   "spec-preload.ts",
   "spec-growing.ts",
   "spec-fuzzy.ts",
+  "spec-datapack.ts",
 ];
 const alias = {
   "@capacitor/core": path.join(here, "mocks", "core.ts"),
@@ -52,6 +53,9 @@ const alias = {
     "useJpImportedPacks.ts",
   ),
   "~/composables/jp/useJpRomaji": path.join(repoRoot, "app", "composables", "jp", "useJpRomaji.ts"),
+  "~/composables/jp/useJpData": path.join(repoRoot, "app", "composables", "jp", "useJpData.ts"),
+  "~/utils/jpDataPack": path.join(repoRoot, "app", "utils", "jpDataPack.ts"),
+  "vue": path.join(repoRoot, "node_modules", "vue", "dist", "vue.runtime.esm-bundler.js"),
 };
 
 // Node 里没有 window / localStorage：前者是 detectSupported() 的前置，后者是语者/步数持久化要用

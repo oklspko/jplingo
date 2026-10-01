@@ -225,6 +225,39 @@ Variables → 新增 `NUXT_TTS_MODEL_URL` =
 然后重跑一次构建（push 或手动触发 workflow）。CI 会把它注入 `nuxt.config.ts` 的
 `runtimeConfig.public.ttsModelUrl`；**变量为空时自动回落到官方 Release + 镜像**，所以随时可以撤回。
 
+## 课程数据热更新（App 不重装也能拿到新课）
+
+App 里的课程/词库数据来自打包资源，所以早期「改课程 = 重新发 APK」。现在改成**数据层热更新**：
+
+**原理**
+
+- `scripts/gen-data-manifest.cjs` 在每次构建前自动运行（`package.json` 的 `pregenerate` 钩子），
+  扫描 `public/courses/**` 与 `public/dict/words.json`，生成 `public/data/manifest.json`：
+  `{ version: "sha256:<内容哈希>", generatedAt, files: [{ path, size, sha256 }] }`。
+  版本是**内容哈希**，所以内容没改时版本不变（CI 里稳定，不会因为构建时间不同而误判）。
+- 这个清单同时打进 APK：App 知道自己「内置的数据是哪一版」，离线也能显示版本。
+- App 启动 4 秒后静默检查一次 `https://www.jplingo.cn/data/manifest.json`（地址可用 `NUXT_PUBLIC_DATA_BASE_URL` 覆盖）；
+  有更新时只在「我的 → 📦 课程数据」卡片上提示，用户点「立即更新」才下载。
+- 下载**只取 sha256 变化的文件**（日常改几课就是几百 KB），校验 size + sha256（≤8MB 的文件）后写入
+  `Directory.Data/jp-data/`，最后才写 `_applied.json` 与课程包索引（避免切到还没下完的课）。
+- 读取顺序：**本地缓存 → APK 内置**。缓存缺失/损坏/更新失败都自动退回内置数据，不会白屏。
+
+**发布流程（新增课程时）**
+
+1. 改 `public/courses/**`，本地跑 `node scripts/build-grow.cjs --lesson 0X --write` 之类。
+2. `git push` → EdgeOne 自动重新部署（`pregenerate` 会生成新的 manifest）。
+3. 用户打开 App → 「我的 → 课程数据」出现「有新课程数据可更新」→ 点一下就生效，**不用重装 APK**。
+
+**注意事项**
+
+- 原生端用 `Filesystem.downloadFile`（原生 HTTP）拉数据，**不受 CORS 限制**——这点是必须的：
+  EdgeOne 目前不对这些 JSON 返回 `Access-Control-Allow-Origin`，WebView 里直接 `fetch` 会被拦。
+  如果你想让网页端也能跨域读这些 JSON（例如自建 CDN），需要在托管侧加 `Access-Control-Allow-Origin`。
+- 音频（`public/audio/**`）不参与热更新：APK 里本来就没有 mp3，App 走内置离线语音引擎。
+- kuromoji 分词词典（`public/dict/*.dat.gz`）也不参与：内容静态、体积大，跟 APK 一起发即可。
+- 语法条数据在 `app/data/jp-grammar-points.ts`（TS 模块，编进 JS 包），要热更需先改造成 JSON 资产。
+- 想换成自托管数据源：`NUXT_PUBLIC_DATA_BASE_URL=https://api.jplingo.cn`（那把 `/data/*`、`/courses/*`、`/dict/words.json` 放到该域名下即可）。
+
 ## 常见问题
 
 | 现象 | 原因 | 解决 |

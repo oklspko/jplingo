@@ -27,6 +27,10 @@ export default defineNuxtConfig({
       ttsModelUrl:
         process.env.NUXT_TTS_MODEL_URL ||
         "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2",
+      // 课程数据热更新的数据源根地址（App 拉 /data/manifest.json 与课程 JSON）。
+      // 默认指向网页部署域名：数据随网页一起更新，App 不重装也能拿到新课；
+      // 可用 NUXT_PUBLIC_DATA_BASE_URL 换成自托管（如 https://api.jplingo.cn）。
+      dataBaseUrl: process.env.NUXT_PUBLIC_DATA_BASE_URL || "https://www.jplingo.cn",
     },
   },
   app: {

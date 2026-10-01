@@ -18,6 +18,13 @@ Nuxt 3 日语学习应用：连词成句 + 语法词典 + 答题练习 + 离线�
 2. **答题输入判定是状态机**：`app/composables/jp/useJpInput.ts`（对齐 `earthworm-main` 的 question.ts）。incorrect 只在提交时标记，禁止实时推导；输入层不拦截，空格只跳下一个空、最后一个空才触发提交。改判定时沿用 Input/Fix/Fix_Input 状态机，勿回退到派生 computed 推导 incorrect。
 
 ## 前端几处约定（2026-10-01 加）
+- **课程数据热更新（App 不重装更新课程）**：`scripts/gen-data-manifest.cjs`（`pregenerate` 钩子自动跑）扫描
+  `public/courses/**` + `public/dict/words.json` 生成 `public/data/manifest.json`，**版本 = 内容哈希**（内容不变版本不变，CI 稳定）、文件级 `sha256`。
+  读取层 `app/composables/jp/useJpData.ts`：**本地缓存（`Directory.Data/jp-data/`）→ APK 内置资源**，坏数据自动回退，永不白屏；
+  更新引擎 `app/composables/jp/useJpDataUpdate.ts`：原生 `Filesystem.downloadFile`（**不受 CORS 限制**——www.jplingo.cn 不返回 ACAO，WebView fetch 会被拦）
+  只下 sha256 变化的文件，校验 size + sha256（≤8MB），**索引 `courses/course-packs.json` 最后写**，失败保留旧版本号；
+  启动静默检查在 `app/plugins/jp-data-update.client.ts`（只检查不自动下载），UI 在「我的 → 📦 课程数据」。
+  数据源 `runtimeConfig.public.dataBaseUrl`（默认 `https://www.jplingo.cn`，可用 `NUXT_PUBLIC_DATA_BASE_URL` 覆盖）；详见 DEPLOY.md 与 `tests/offline-tts/spec-datapack.ts`。
 - **模糊查询**：`app/utils/jpFuzzy.ts`（词库 `jp-words`、语法条库 `jp-grammar` 共用）——归一化（NFKC / 大小写 / 片假名→平假名 / 去空格标点）+ `fieldScore` 分级（完全 1000 > 前缀 760 > 包含 620 > 子序列 380）+ 空格分词 AND + 按分数稳定排序。
   两个坑：① **罗马字转假名只对「纯拉丁且含元音」的词做**，否则 `N5` 会被 wanakana 转成「ん5」，等级搜索直接失效；② 命中面要覆盖 `kanji/kana/meaning/pos/category/等级label`（语法条还要 `setsuzoku/note/analysis/例句`），别只搜 pattern。
   自测：`tests/offline-tts/spec-fuzzy.ts`（含真实数据风格用例）。
@@ -63,9 +70,9 @@ Nuxt 3 日语学习应用：连词成句 + 语法词典 + 答题练习 + 离线�
 - 兜底下载地址默认官方 Release，可用 `NUXT_TTS_MODEL_URL` 覆盖为自托管（如 `https://api.jplingo.cn/tts/...`，见 DEPLOY.md）。
 - 排查：装 APK 后首启会自动把内置语音拷到应用目录（「我的 → 离线发音」会显示「正在准备内置语音…」，需约 170MB 空闲）；装完点「试听」；无声先看该卡片的状态/报错。
 - 自测（改发音链或课程顺序后必跑）：`node tests/offline-tts/run.cjs` —— 用 esbuild 把 `tests/offline-tts/` 下的 spec 与 mock 的 Capacitor 插件打包后在 Node 里跑，
-  共 200 项断言：`spec`（下载/解压/缓存/并发/状态自愈）、`spec-sound`（四级发音回退）、`spec-bundled` 与 `spec-bundled-fail`（内置模型拷贝成功/失败）、
+  共 235 项断言：`spec`（下载/解压/缓存/并发/状态自愈）、`spec-sound`（四级发音回退）、`spec-bundled` 与 `spec-bundled-fail`（内置模型拷贝成功/失败）、
   `spec-viewport`（强制移动端布局）、`spec-preload`（学习页按序预加载）、`spec-growing`（**短句在前长句在后 + 五条不变量 + 「と」≤3 + 不重复内容词**，直接读 `public/courses/jp-growing/*.json` 校验真实课程）、
-  `spec-fuzzy`（模糊查询：片假名/罗马字归一、子序列、分词 AND、稳定排序）（不进 CI）。
+  `spec-fuzzy`（模糊查询）、`spec-datapack`（数据热更新：只下变化文件、索引最后、截断中止、缓存优先与回退）（不进 CI）。
 - 音质与延迟实测（2026-10-01，本机桌面，`scripts/tts-quality-poc.py` 可复现）：采样率 **44100**（文档写的 24000 已过时）、语者 10 个；
   26 字句音频 3.79s / 合成 1.46s（RTF 0.38）；App 里最长的 66 字句音频 11.17s / 合成 3.56s（RTF 0.32，steps=6→2.78s，steps=4→2.00s）。
   → 手机 CPU 更慢，所以切题时会预合成下一句（`prefetchJapanese`），发音按钮在合成期间显示「🔊 合成中…」；
