@@ -16,7 +16,7 @@
             <input
               v-model="query"
               type="text"
-              placeholder="搜索日语 / 假名 / 释义 / 词性"
+              placeholder="搜索日语 / 假名 / 罗马字 / 释义（支持模糊匹配）"
               @input="onQuery"
             />
             <button v-if="query" class="clear-btn" @click="query = ''; onQuery()">✕</button>
@@ -84,9 +84,19 @@
               v-for="w in visibleWords"
               :key="`${w.level}-${w.kanji}-${w.kana}`"
               class="word-row"
+              :class="{ 'word-row--playing': playingKey === wordKey(w) }"
+              role="button"
+              tabindex="0"
+              :title="`点击发音：${w.kanji}`"
+              @click="speakWord(w)"
+              @keydown.enter="speakWord(w)"
+              @keydown.space.prevent="speakWord(w)"
             >
               <span class="word-jp">{{ w.kanji }}</span>
               <span class="word-kana">{{ w.kana }}</span>
+              <span class="word-play" :class="{ 'word-play--on': playingKey === wordKey(w) }">
+                {{ playingKey === wordKey(w) ? "🔊" : "🔈" }}
+              </span>
               <span class="word-category">{{ w.category }}</span>
               <span class="word-zh">{{ w.meaning }}</span>
               <span class="word-level">{{ levelLabel(w.level) }}</span>
@@ -107,6 +117,8 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from "vue";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
+import { speakJapanese } from "~/composables/jp/useJpSound";
+import { fuzzyFilter } from "~/utils/jpFuzzy";
 
 interface DictLevel {
   id: string;
@@ -157,7 +169,7 @@ function countByCategory(cat: string): number {
 }
 
 const filtered = computed(() => {
-  const q = query.value.trim().toLowerCase();
+  const q = query.value.trim();
   let list = words.value;
   if (activeLevel.value) {
     list = list.filter((w) => w.level === activeLevel.value);
@@ -165,17 +177,37 @@ const filtered = computed(() => {
   if (activeCategory.value) {
     list = list.filter((w) => w.category === activeCategory.value);
   }
-  if (q) {
-    list = list.filter(
-      (w) =>
-        w.kanji.toLowerCase().includes(q) ||
-        w.kana.toLowerCase().includes(q) ||
-        w.meaning.toLowerCase().includes(q) ||
-        w.pos.toLowerCase().includes(q),
-    );
-  }
-  return list;
+  // 模糊查询：假名/片假名/罗马字互认、子序列、空格分词（详见 utils/jpFuzzy.ts）
+  return fuzzyFilter(list, q, (w) => [
+    w.kanji,
+    w.kana,
+    w.meaning,
+    w.pos,
+    w.category,
+    levelLabel(w.level),
+  ]);
 });
+
+// ===== 点击发音 =====
+const playingKey = ref("");
+
+function wordKey(w: DictWord): string {
+  return `${w.level}-${w.kanji}-${w.kana}`;
+}
+
+async function speakWord(w: DictWord) {
+  const key = wordKey(w);
+  playingKey.value = key;
+  try {
+    // 有预生成音频就直接播，没装离线引擎时自动回退系统/浏览器语音
+    await speakJapanese(w.kana || w.kanji);
+  } finally {
+    // 留一点时间让图标保持高亮（合成较慢时也不会闪一下就没了）
+    setTimeout(() => {
+      if (playingKey.value === key) playingKey.value = "";
+    }, 600);
+  }
+}
 
 const visibleWords = computed(() => filtered.value.slice(0, visibleCount.value));
 
@@ -408,6 +440,42 @@ onMounted(load);
   border-radius: 12px;
   box-shadow: 0 2px 10px rgba(186, 230, 253, 0.12);
   transition: all 0.15s;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.word-row:focus-visible {
+  outline: none;
+  border-color: #38bdf8;
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.25);
+}
+
+/* 正在发音的那一条 */
+.word-row--playing {
+  border-color: #38bdf8;
+  background: #f0f9ff;
+  box-shadow: 0 4px 16px rgba(56, 189, 248, 0.28);
+}
+
+.word-play {
+  font-size: 13px;
+  color: #bae6fd;
+  flex-shrink: 0;
+  transition: color 0.15s, transform 0.15s;
+}
+
+.word-row:hover .word-play {
+  color: #38bdf8;
+}
+
+.word-play--on {
+  color: #0284c7;
+  animation: word-play-pulse 0.9s ease-in-out infinite;
+}
+
+@keyframes word-play-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.18); }
 }
 
 .word-row:hover {

@@ -36,6 +36,7 @@ const specs = [
   "spec-viewport.ts",
   "spec-preload.ts",
   "spec-growing.ts",
+  "spec-fuzzy.ts",
 ];
 const alias = {
   "@capacitor/core": path.join(here, "mocks", "core.ts"),

@@ -58,15 +58,39 @@
           <div class="gg-rule-item">
             <span class="gg-tag">A1</span>
             <div class="gg-rule-body">
-              <span class="gg-rule-label">一类形容词</span>
-              <p>直接接名词；<b>て形</b>接形容词；<b>い → く</b>接动词。</p>
+              <span class="gg-rule-label">一类形容词（词尾是「い」）</span>
+              <ul class="gg-list">
+                <li>
+                  <b>接名词</b>：直接接 → <em>高い</em> 山・<em>おいしい</em> 料理
+                </li>
+                <li>
+                  <b>接形容词（て形）</b>：词尾 <b>い → く</b>，再加 <b>て</b> → 高<b>くて</b> 広い・安<b>くて</b> おいしい
+                </li>
+                <li>
+                  <b>接动词（副词化）</b>：词尾 <b>い → く</b> → <em>早く</em> 起きます・<em>よく</em> 分かります・<em>楽しく</em> 話します
+                </li>
+              </ul>
+              <p class="gg-tip">
+                📌 词尾变化就看最后一个假名：高い→高<b>く</b>／早い→早<b>く</b>／楽しい→楽し<b>く</b>／新しい→新し<b>く</b>；
+                只有 <b>いい → よく</b> 是特殊（不是「いく」）。
+              </p>
             </div>
           </div>
           <div class="gg-rule-item">
             <span class="gg-tag">A2</span>
             <div class="gg-rule-body">
-              <span class="gg-rule-label">二类形容词</span>
-              <p>加<b>な</b>接名词；<b>で形</b>接形容词；加<b>に</b>接动词。</p>
+              <span class="gg-rule-label">二类形容词（词尾不是「い」）</span>
+              <ul class="gg-list">
+                <li>
+                  <b>接名词</b>：加 <b>な</b> → <em>静かな</em> 部屋・<em>きれいな</em> 花
+                </li>
+                <li>
+                  <b>接形容词（で形）</b>：加 <b>で</b> → 静か<b>で</b> 広い
+                </li>
+                <li>
+                  <b>接动词（副词化）</b>：加 <b>に</b> → <em>静かに</em> 歩きます・<em>上手に</em> 書きます
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -145,6 +169,58 @@ const roles = [
 /* ===== 区块 ===== */
 .gg-section {
   margin-bottom: 44px;
+}
+
+/* 形容词接续的具体说明 */
+.gg-list {
+  margin: 6px 0 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+  line-height: 1.75;
+  color: #0369a1;
+}
+
+.gg-list li {
+  position: relative;
+  padding-left: 16px;
+}
+
+.gg-list li::before {
+  content: "・";
+  position: absolute;
+  left: 2px;
+  color: #7dd3fc;
+  font-weight: 700;
+}
+
+.gg-list b {
+  color: #075985;
+  font-weight: 700;
+}
+
+.gg-list em {
+  font-style: normal;
+  font-weight: 700;
+  color: #0284c7;
+  background: #f0f9ff;
+  border-radius: 6px;
+  padding: 1px 6px;
+  margin: 0 1px;
+}
+
+.gg-tip {
+  margin: 10px 0 0;
+  padding: 10px 12px;
+  background: #f5fbff;
+  border-left: 3px solid #7dd3fc;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.75;
+  color: #0369a1;
 }
 
 .gg-section-title {

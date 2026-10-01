@@ -53,7 +53,7 @@
               v-model="keyword"
               class="filter-search"
               type="search"
-              placeholder="输入语法条、接续或释义关键词…"
+              placeholder="输入语法条 / 接续 / 释义 / 例句关键词（支持模糊匹配）…"
             />
           </div>
         </section>
@@ -137,6 +137,7 @@
 import { computed, ref } from "vue";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
 import { grammarPoints, type GrammarPoint } from "~/data/jp-grammar-points";
+import { fuzzyFilter } from "~/utils/jpFuzzy";
 
 const VOWELS = [
   { key: "あ", label: "あ段" },
@@ -190,12 +191,21 @@ function vowelOf(text: string): VowelKey {
 
 const filtered = computed(() => {
   const kw = keyword.value.trim();
-  return grammarPoints.filter((p) => {
+  const base = grammarPoints.filter((p) => {
     if (selectedVowel.value !== "全部" && vowelOf(p.pattern) !== selectedVowel.value) return false;
     if (selectedLevel.value !== "全部" && p.level !== selectedLevel.value) return false;
-    if (kw && !`${p.pattern} ${p.meaning} ${p.setsuzoku} ${p.examples.map(e => e.jp).join(" ")}`.includes(kw)) return false;
     return true;
   });
+  // 模糊查询：假名/罗马字互认、子序列、空格分词，命中面覆盖语法点、意思、接续、例句
+  return fuzzyFilter(base, kw, (p) => [
+    p.pattern,
+    p.meaning,
+    p.setsuzoku,
+    p.note,
+    p.analysis,
+    p.level,
+    ...(p.examples || []).flatMap((e) => [e.jp, e.zh]),
+  ]);
 });
 
 const grouped = computed(() => {

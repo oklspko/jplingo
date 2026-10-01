@@ -56,7 +56,7 @@
           >
             加速下载失败？改用 GitHub 官方直连
           </a>
-          <p class="download-hint">安装包约 95MB，含全部音频与词典</p>
+          <p class="download-hint">{{ apkSizeText }}</p>
         </section>
 
         <section class="release-install">
@@ -77,7 +77,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted } from "vue";
+import { computed, onMounted, ref } from "vue";
 import { Capacitor } from "@capacitor/core";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
 import { apkDownloadCandidates } from "~/composables/jp/useJpApkDownload";
@@ -95,8 +95,73 @@ const hasMirror = _candidates.length > 1;
 onMounted(() => {
   if (Capacitor.isNativePlatform()) {
     navigateTo("/jp-home", { replace: true });
+    return;
   }
+  detectApkInfo();
 });
+
+// ===== 安装包大小：按实际文件读取，而不是写死 =====
+// 优先问 GitHub Releases API（有 CORS，返回资产的真实 size，还能拿到最新版本号），
+// 失败再退到对下载地址发 HEAD 读 content-length；都拿不到就显示不含数字的说明。
+const RELEASE_API = "https://api.github.com/repos/oklspko/jplingo/releases/latest";
+
+const apkSizeBytes = ref(0);
+const latestVersion = ref("");
+
+function formatBytes(bytes: number): string {
+  if (bytes >= 1024 * 1024 * 1024) return `${(bytes / 1024 / 1024 / 1024).toFixed(2)} GB`;
+  if (bytes >= 1024 * 1024) return `${(bytes / 1024 / 1024).toFixed(1)} MB`;
+  return `${Math.max(1, Math.round(bytes / 1024))} KB`;
+}
+
+const apkSizeText = computed(() => {
+  if (!apkSizeBytes.value) return "含离线语音模型与词典，体积较大，建议用 Wi-Fi 下载";
+  const ver = latestVersion.value ? `（${latestVersion.value}）` : "";
+  return `安装包 ${formatBytes(apkSizeBytes.value)}${ver}，含离线语音模型与词典，建议用 Wi-Fi 下载`;
+});
+
+async function sizeFromReleaseApi(): Promise<number> {
+  try {
+    const res = await fetch(RELEASE_API, { headers: { Accept: "application/vnd.github+json" } });
+    if (!res.ok) return 0;
+    const data = (await res.json()) as {
+      tag_name?: string;
+      assets?: Array<{ name?: string; size?: number }>;
+    };
+    const apk = (data.assets || []).find((a) => (a.name || "").toLowerCase().endsWith(".apk"));
+    if (!apk?.size) return 0;
+    if (data.tag_name) latestVersion.value = data.tag_name;
+    return apk.size;
+  } catch {
+    return 0;
+  }
+}
+
+async function sizeFromHead(url: string): Promise<number> {
+  try {
+    const res = await fetch(url, { method: "HEAD", cache: "no-store" });
+    if (!res.ok) return 0;
+    const len = Number(res.headers.get("content-length") || 0);
+    return Number.isFinite(len) && len > 1024 ? len : 0;
+  } catch {
+    return 0;
+  }
+}
+
+async function detectApkInfo() {
+  const fromApi = await sizeFromReleaseApi();
+  if (fromApi) {
+    apkSizeBytes.value = fromApi;
+    return;
+  }
+  for (const url of _candidates.length ? _candidates : [directApkUrl]) {
+    const size = await sizeFromHead(url);
+    if (size) {
+      apkSizeBytes.value = size;
+      return;
+    }
+  }
+}
 </script>
 
 <style scoped>
