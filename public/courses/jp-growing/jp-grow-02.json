@@ -1,0 +1,1591 @@
+{
+  "id": "jp-grow-02",
+  "coursePackId": "jp-growing",
+  "title": "图书馆读书",
+  "order": 2,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "我",
+      "japanese": "私",
+      "kana": "わたし",
+      "romaji": "watashi",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "书",
+      "japanese": "本",
+      "kana": "ほん",
+      "romaji": "hon",
+      "tokens": [
+        {
+          "text": "本",
+          "kana": "ほん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "读",
+      "japanese": "読みます",
+      "kana": "よみます",
+      "romaji": "yomimasu",
+      "tokens": [
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "日语",
+      "japanese": "日本語",
+      "kana": "にほんご",
+      "romaji": "nihongo",
+      "tokens": [
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "图书馆",
+      "japanese": "図書館",
+      "kana": "としょかん",
+      "romaji": "toshokan",
+      "tokens": [
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "每周",
+      "japanese": "毎週",
+      "kana": "まいしゅう",
+      "romaji": "maishuu",
+      "tokens": [
+        {
+          "text": "毎週",
+          "kana": "まいしゅう"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "星期六",
+      "japanese": "土曜日",
+      "kana": "どようび",
+      "romaji": "doyoubi",
+      "tokens": [
+        {
+          "text": "土曜日",
+          "kana": "どようび"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "安静",
+      "japanese": "静か",
+      "kana": "しずか",
+      "romaji": "shizuka",
+      "tokens": [
+        {
+          "text": "静か",
+          "kana": "しずか"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "新的",
+      "japanese": "新しい",
+      "kana": "あたらしい",
+      "romaji": "atarashii",
+      "tokens": [
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "杂志",
+      "japanese": "雑誌",
+      "kana": "ざっし",
+      "romaji": "zasshi",
+      "tokens": [
+        {
+          "text": "雑誌",
+          "kana": "ざっし"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "有趣的",
+      "japanese": "面白い",
+      "kana": "おもしろい",
+      "romaji": "omoshiroi",
+      "tokens": [
+        {
+          "text": "面白い",
+          "kana": "おもしろい"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "朋友",
+      "japanese": "友達",
+      "kana": "ともだち",
+      "romaji": "tomodachi",
+      "tokens": [
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "一起",
+      "japanese": "一緒に",
+      "kana": "いっしょに",
+      "romaji": "issho ni",
+      "tokens": [
+        {
+          "text": "一緒に",
+          "kana": "いっしょに"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "报纸",
+      "japanese": "新聞",
+      "kana": "しんぶん",
+      "romaji": "shinbun",
+      "tokens": [
+        {
+          "text": "新聞",
+          "kana": "しんぶん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "慢慢地",
+      "japanese": "ゆっくり",
+      "kana": "ゆっくり",
+      "romaji": "yukkuri",
+      "tokens": [
+        {
+          "text": "ゆっくり",
+          "kana": "ゆっくり"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "星期日",
+      "japanese": "日曜日",
+      "kana": "にちようび",
+      "romaji": "nichiyoubi",
+      "tokens": [
+        {
+          "text": "日曜日",
+          "kana": "にちようび"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "明亮的",
+      "japanese": "明るい",
+      "kana": "あかるい",
+      "romaji": "akarui",
+      "tokens": [
+        {
+          "text": "明るい",
+          "kana": "あかるい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "房间",
+      "japanese": "部屋",
+      "kana": "へや",
+      "romaji": "heya",
+      "tokens": [
+        {
+          "text": "部屋",
+          "kana": "へや"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "音乐",
+      "japanese": "音楽",
+      "kana": "おんがく",
+      "romaji": "ongaku",
+      "tokens": [
+        {
+          "text": "音楽",
+          "kana": "おんがく"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "听",
+      "japanese": "聞きます",
+      "kana": "ききます",
+      "romaji": "kikimasu",
+      "tokens": [
+        {
+          "text": "聞きます",
+          "kana": "ききます"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "昨天",
+      "japanese": "昨日",
+      "kana": "きのう",
+      "romaji": "kinou",
+      "tokens": [
+        {
+          "text": "昨日",
+          "kana": "きのう"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "公园",
+      "japanese": "公園",
+      "kana": "こうえん",
+      "romaji": "kouen",
+      "tokens": [
+        {
+          "text": "公園",
+          "kana": "こうえん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "照片",
+      "japanese": "写真",
+      "kana": "しゃしん",
+      "romaji": "shashin",
+      "tokens": [
+        {
+          "text": "写真",
+          "kana": "しゃしん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "拍了（照）",
+      "japanese": "撮りました",
+      "kana": "とりました",
+      "romaji": "torimashita",
+      "tokens": [
+        {
+          "text": "撮りました",
+          "kana": "とりました"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "明天",
+      "japanese": "明日",
+      "kana": "あした",
+      "romaji": "ashita",
+      "tokens": [
+        {
+          "text": "明日",
+          "kana": "あした"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "学习",
+      "japanese": "勉強します",
+      "kana": "べんきょうします",
+      "romaji": "benkyou shimasu",
+      "tokens": [
+        {
+          "text": "勉強します",
+          "kana": "べんきょうします"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "每天早上",
+      "japanese": "毎朝",
+      "kana": "まいあさ",
+      "romaji": "maiasa",
+      "tokens": [
+        {
+          "text": "毎朝",
+          "kana": "まいあさ"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "每天晚上",
+      "japanese": "毎晩",
+      "kana": "まいばん",
+      "romaji": "maiban",
+      "tokens": [
+        {
+          "text": "毎晩",
+          "kana": "まいばん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "读了",
+      "japanese": "読みました",
+      "kana": "よみました",
+      "romaji": "yomimashita",
+      "tokens": [
+        {
+          "text": "読みました",
+          "kana": "よみました"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "咖啡",
+      "japanese": "コーヒー",
+      "kana": "こーひー",
+      "romaji": "koohii",
+      "tokens": [
+        {
+          "text": "コーヒー",
+          "kana": "こーひー"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "喝",
+      "japanese": "飲みます",
+      "kana": "のみます",
+      "romaji": "nomimasu",
+      "tokens": [
+        {
+          "text": "飲みます",
+          "kana": "のみます"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "我读书。",
+      "japanese": "私は本を読みます",
+      "kana": "わたしはほんをよみます",
+      "romaji": "watashi wa hon を yomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "本",
+          "kana": "ほん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "我读日语书。",
+      "japanese": "私は日本語の本を読みます",
+      "kana": "わたしはにほんごのほんをよみます",
+      "romaji": "watashi wa nihongo の hon を yomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "本",
+          "kana": "ほん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "我在图书馆读日语书。",
+      "japanese": "私は図書館で日本語の本を読みます",
+      "kana": "わたしはとしょかんでにほんごのほんをよみます",
+      "romaji": "watashi wa toshokan で nihongo の hon を yomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "本",
+          "kana": "ほん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "我每周在图书馆读日语书。",
+      "japanese": "私は毎週図書館で日本語の本を読みます",
+      "kana": "わたしはまいしゅうとしょかんでにほんごのほんをよみます",
+      "romaji": "watashi wa maishuu toshokan で nihongo の hon を yomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎週",
+          "kana": "まいしゅう"
+        },
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "本",
+          "kana": "ほん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "我每周六在图书馆读日语书。",
+      "japanese": "私は毎週土曜日に図書館で日本語の本を読みます",
+      "kana": "わたしはまいしゅうどようびにとしょかんでにほんごのほんをよみます",
+      "romaji": "watashi wa maishuu doyoubi に toshokan で nihongo の hon を yomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎週",
+          "kana": "まいしゅう"
+        },
+        {
+          "text": "土曜日",
+          "kana": "どようび"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "本",
+          "kana": "ほん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "我每周六在安静的图书馆读日语书。",
+      "japanese": "私は毎週土曜日に静かな図書館で日本語の本を読みます",
+      "kana": "わたしはまいしゅうどようびにしずかなとしょかんでにほんごのほんをよみます",
+      "romaji": "watashi wa maishuu doyoubi に shizuka な toshokan で nihongo の hon を yomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎週",
+          "kana": "まいしゅう"
+        },
+        {
+          "text": "土曜日",
+          "kana": "どようび"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "静か",
+          "kana": "しずか"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "本",
+          "kana": "ほん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "我每周六在安静的图书馆读新的日语书。",
+      "japanese": "私は毎週土曜日に静かな図書館で新しい日本語の本を読みます",
+      "kana": "わたしはまいしゅうどようびにしずかなとしょかんであたらしいにほんごのほんをよみます",
+      "romaji": "watashi wa maishuu doyoubi に shizuka な toshokan で atarashii nihongo の hon を yomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎週",
+          "kana": "まいしゅう"
+        },
+        {
+          "text": "土曜日",
+          "kana": "どようび"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "静か",
+          "kana": "しずか"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "本",
+          "kana": "ほん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "我每周六在安静的图书馆读新的日语书和杂志。",
+      "japanese": "私は毎週土曜日に静かな図書館で新しい日本語の本と雑誌を読みます",
+      "kana": "わたしはまいしゅうどようびにしずかなとしょかんであたらしいにほんごのほんとざっしをよみます",
+      "romaji": "watashi wa maishuu doyoubi に shizuka な toshokan で atarashii nihongo の hon と zasshi を yomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎週",
+          "kana": "まいしゅう"
+        },
+        {
+          "text": "土曜日",
+          "kana": "どようび"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "静か",
+          "kana": "しずか"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "本",
+          "kana": "ほん"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "雑誌",
+          "kana": "ざっし"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "我每周六在安静的图书馆读新的日语书和有趣的杂志。",
+      "japanese": "私は毎週土曜日に静かな図書館で新しい日本語の本と面白い雑誌を読みます",
+      "kana": "わたしはまいしゅうどようびにしずかなとしょかんであたらしいにほんごのほんとおもしろいざっしをよみます",
+      "romaji": "watashi wa maishuu doyoubi に shizuka な toshokan で atarashii nihongo の hon と omoshiroi zasshi を yomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎週",
+          "kana": "まいしゅう"
+        },
+        {
+          "text": "土曜日",
+          "kana": "どようび"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "静か",
+          "kana": "しずか"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "本",
+          "kana": "ほん"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "面白い",
+          "kana": "おもしろい"
+        },
+        {
+          "text": "雑誌",
+          "kana": "ざっし"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "我每周六在安静的图书馆和朋友读新的日语书和有趣的杂志。",
+      "japanese": "私は毎週土曜日に静かな図書館で友達と新しい日本語の本と面白い雑誌を読みます",
+      "kana": "わたしはまいしゅうどようびにしずかなとしょかんでともだちとあたらしいにほんごのほんとおもしろいざっしをよみます",
+      "romaji": "watashi wa maishuu doyoubi に shizuka な toshokan で tomodachi と atarashii nihongo の hon と omoshiroi zasshi を yomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎週",
+          "kana": "まいしゅう"
+        },
+        {
+          "text": "土曜日",
+          "kana": "どようび"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "静か",
+          "kana": "しずか"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "本",
+          "kana": "ほん"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "面白い",
+          "kana": "おもしろい"
+        },
+        {
+          "text": "雑誌",
+          "kana": "ざっし"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "我每周六在安静的图书馆和朋友一起读新的日语书和有趣的杂志。",
+      "japanese": "私は毎週土曜日に静かな図書館で友達と一緒に新しい日本語の本と面白い雑誌を読みます",
+      "kana": "わたしはまいしゅうどようびにしずかなとしょかんでともだちといっしょにあたらしいにほんごのほんとおもしろいざっしをよみます",
+      "romaji": "watashi wa maishuu doyoubi に shizuka な toshokan で tomodachi と issho ni atarashii nihongo の hon と omoshiroi zasshi を yomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎週",
+          "kana": "まいしゅう"
+        },
+        {
+          "text": "土曜日",
+          "kana": "どようび"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "静か",
+          "kana": "しずか"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "一緒に",
+          "kana": "いっしょに"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "本",
+          "kana": "ほん"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "面白い",
+          "kana": "おもしろい"
+        },
+        {
+          "text": "雑誌",
+          "kana": "ざっし"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "我每周六在安静的图书馆和朋友一起读新的日语书、有趣的杂志和报纸。",
+      "japanese": "私は毎週土曜日に静かな図書館で友達と一緒に新しい日本語の本と面白い雑誌と新聞を読みます",
+      "kana": "わたしはまいしゅうどようびにしずかなとしょかんでともだちといっしょにあたらしいにほんごのほんとおもしろいざっしとしんぶんをよみます",
+      "romaji": "watashi wa maishuu doyoubi に shizuka な toshokan で tomodachi と issho ni atarashii nihongo の hon と omoshiroi zasshi と shinbun を yomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎週",
+          "kana": "まいしゅう"
+        },
+        {
+          "text": "土曜日",
+          "kana": "どようび"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "静か",
+          "kana": "しずか"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "一緒に",
+          "kana": "いっしょに"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "本",
+          "kana": "ほん"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "面白い",
+          "kana": "おもしろい"
+        },
+        {
+          "text": "雑誌",
+          "kana": "ざっし"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "新聞",
+          "kana": "しんぶん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "我每周六在安静的图书馆和朋友一起慢慢地读新的日语书、有趣的杂志和报纸。",
+      "japanese": "私は毎週土曜日に静かな図書館で友達と一緒に新しい日本語の本と面白い雑誌と新聞をゆっくり読みます",
+      "kana": "わたしはまいしゅうどようびにしずかなとしょかんでともだちといっしょにあたらしいにほんごのほんとおもしろいざっしとしんぶんをゆっくりよみます",
+      "romaji": "watashi wa maishuu doyoubi に shizuka な toshokan で tomodachi と issho ni atarashii nihongo の hon と omoshiroi zasshi と shinbun を yukkuri yomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎週",
+          "kana": "まいしゅう"
+        },
+        {
+          "text": "土曜日",
+          "kana": "どようび"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "静か",
+          "kana": "しずか"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "一緒に",
+          "kana": "いっしょに"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "本",
+          "kana": "ほん"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "面白い",
+          "kana": "おもしろい"
+        },
+        {
+          "text": "雑誌",
+          "kana": "ざっし"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "新聞",
+          "kana": "しんぶん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "ゆっくり",
+          "kana": "ゆっくり"
+        },
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "我每周日在明亮的房间里听音乐。",
+      "japanese": "私は毎週日曜日に明るい部屋で音楽を聞きます",
+      "kana": "わたしはまいしゅうにちようびにあかるいへやでおんがくをききます",
+      "romaji": "watashi wa maishuu nichiyoubi に akarui heya で ongaku を kikimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎週",
+          "kana": "まいしゅう"
+        },
+        {
+          "text": "日曜日",
+          "kana": "にちようび"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "明るい",
+          "kana": "あかるい"
+        },
+        {
+          "text": "部屋",
+          "kana": "へや"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "音楽",
+          "kana": "おんがく"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "聞きます",
+          "kana": "ききます"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "明天我在图书馆学日语。",
+      "japanese": "明日私は図書館で日本語を勉強します",
+      "kana": "あしたわたしはとしょかんでにほんごをべんきょうします",
+      "romaji": "ashita watashi wa toshokan で nihongo を benkyou shimasu",
+      "tokens": [
+        {
+          "text": "明日",
+          "kana": "あした"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "勉強します",
+          "kana": "べんきょうします"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "昨天我和朋友在公园拍了照片。",
+      "japanese": "昨日私は友達と公園で写真を撮りました",
+      "kana": "きのうわたしはともだちとこうえんでしゃしんをとりました",
+      "romaji": "kinou watashi wa tomodachi と kouen で shashin を torimashita",
+      "tokens": [
+        {
+          "text": "昨日",
+          "kana": "きのう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "公園",
+          "kana": "こうえん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "写真",
+          "kana": "しゃしん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "撮りました",
+          "kana": "とりました"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "我每天早上读报纸。",
+      "japanese": "私は毎朝新聞を読みます",
+      "kana": "わたしはまいあさしんぶんをよみます",
+      "romaji": "watashi wa maiasa shinbun を yomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎朝",
+          "kana": "まいあさ"
+        },
+        {
+          "text": "新聞",
+          "kana": "しんぶん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "我每天晚上喝咖啡。",
+      "japanese": "私は毎晩コーヒーを飲みます",
+      "kana": "わたしはまいばんこーひーをのみます",
+      "romaji": "watashi wa maiban koohii を nomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎晩",
+          "kana": "まいばん"
+        },
+        {
+          "text": "コーヒー",
+          "kana": "こーひー"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "飲みます",
+          "kana": "のみます"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "昨天我在图书馆读了书。",
+      "japanese": "昨日私は図書館で本を読みました",
+      "kana": "きのうわたしはとしょかんでほんをよみました",
+      "romaji": "kinou watashi wa toshokan で hon を yomimashita",
+      "tokens": [
+        {
+          "text": "昨日",
+          "kana": "きのう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "本",
+          "kana": "ほん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "読みました",
+          "kana": "よみました"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "我每天早上喝咖啡。",
+      "japanese": "私は毎朝コーヒーを飲みます",
+      "kana": "わたしはまいあさこーひーをのみます",
+      "romaji": "watashi wa maiasa koohii を nomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎朝",
+          "kana": "まいあさ"
+        },
+        {
+          "text": "コーヒー",
+          "kana": "こーひー"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "飲みます",
+          "kana": "のみます"
+        }
+      ]
+    }
+  ]
+}
