@@ -4,6 +4,19 @@ import { resolve } from "node:path";
 // 版本号唯一来源：package.json。发布页 / 侧栏 / 关于页统一读取，改版本只需改 package.json。
 const pkg = JSON.parse(readFileSync(resolve(process.cwd(), "package.json"), "utf8"));
 
+// 构建时重新生成课程数据清单（public/data/manifest.json）。
+// 放在 config 里而不是只靠 npm 的 pregenerate 钩子：这样无论用 `pnpm generate`、
+// `nuxt generate`，还是托管平台自己的构建命令，清单都和本次内容一致——App 的数据热更新依赖它。
+try {
+  const { generate } = require("./scripts/gen-data-manifest.cjs") as {
+    generate: () => { manifest: { version: string; files: unknown[] } };
+  };
+  const { manifest } = generate();
+  console.log(`[data-manifest] ${manifest.version} · ${manifest.files.length} 个文件`);
+} catch (err) {
+  console.warn("[data-manifest] 生成失败（不影响构建，但 App 可能拿不到新数据）：", err);
+}
+
 export default defineNuxtConfig({
   ssr: false,
   // 纯 SPA，产出静态文件，方便 EdgeOne Pages / 静态托管部署

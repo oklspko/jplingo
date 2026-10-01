@@ -1,0 +1,1315 @@
+{
+  "id": "jp-grow-07",
+  "coursePackId": "jp-growing",
+  "title": "我的房间",
+  "order": 7,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "我",
+      "japanese": "私",
+      "kana": "わたし",
+      "romaji": "watashi",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "房间",
+      "japanese": "部屋",
+      "kana": "へや",
+      "romaji": "heya",
+      "tokens": [
+        {
+          "text": "部屋",
+          "kana": "へや"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "桌子",
+      "japanese": "机",
+      "kana": "つくえ",
+      "romaji": "tsukue",
+      "tokens": [
+        {
+          "text": "机",
+          "kana": "つくえ"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "椅子",
+      "japanese": "椅子",
+      "kana": "いす",
+      "romaji": "isu",
+      "tokens": [
+        {
+          "text": "椅子",
+          "kana": "いす"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "书架",
+      "japanese": "本棚",
+      "kana": "ほんだな",
+      "romaji": "hondana",
+      "tokens": [
+        {
+          "text": "本棚",
+          "kana": "ほんだな"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "床",
+      "japanese": "ベッド",
+      "kana": "べっど",
+      "romaji": "beddo",
+      "tokens": [
+        {
+          "text": "ベッド",
+          "kana": "べっど"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "窗户",
+      "japanese": "窓",
+      "kana": "まど",
+      "romaji": "mado",
+      "tokens": [
+        {
+          "text": "窓",
+          "kana": "まど"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "钟表",
+      "japanese": "時計",
+      "kana": "とけい",
+      "romaji": "tokei",
+      "tokens": [
+        {
+          "text": "時計",
+          "kana": "とけい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "电视",
+      "japanese": "テレビ",
+      "kana": "てれび",
+      "romaji": "terebi",
+      "tokens": [
+        {
+          "text": "テレビ",
+          "kana": "てれび"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "花",
+      "japanese": "花",
+      "kana": "はな",
+      "romaji": "hana",
+      "tokens": [
+        {
+          "text": "花",
+          "kana": "はな"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "山",
+      "japanese": "山",
+      "kana": "やま",
+      "romaji": "yama",
+      "tokens": [
+        {
+          "text": "山",
+          "kana": "やま"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "宽敞的",
+      "japanese": "広い",
+      "kana": "ひろい",
+      "romaji": "hiroi",
+      "tokens": [
+        {
+          "text": "広い",
+          "kana": "ひろい"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "宽敞（连用形）",
+      "japanese": "広く",
+      "kana": "ひろく",
+      "romaji": "hiroku",
+      "tokens": [
+        {
+          "text": "広く",
+          "kana": "ひろく"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "明亮的",
+      "japanese": "明るい",
+      "kana": "あかるい",
+      "romaji": "akarui",
+      "tokens": [
+        {
+          "text": "明るい",
+          "kana": "あかるい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "安静",
+      "japanese": "静か",
+      "kana": "しずか",
+      "romaji": "shizuka",
+      "tokens": [
+        {
+          "text": "静か",
+          "kana": "しずか"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "新的",
+      "japanese": "新しい",
+      "kana": "あたらしい",
+      "romaji": "atarashii",
+      "tokens": [
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "旧的",
+      "japanese": "古い",
+      "kana": "ふるい",
+      "romaji": "furui",
+      "tokens": [
+        {
+          "text": "古い",
+          "kana": "ふるい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "漂亮、干净",
+      "japanese": "きれい",
+      "kana": "きれい",
+      "romaji": "kirei",
+      "tokens": [
+        {
+          "text": "きれい",
+          "kana": "きれい"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "大的",
+      "japanese": "大きい",
+      "kana": "おおきい",
+      "romaji": "ookii",
+      "tokens": [
+        {
+          "text": "大きい",
+          "kana": "おおきい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "有（无生命）",
+      "japanese": "あります",
+      "kana": "あります",
+      "romaji": "arimasu",
+      "tokens": [
+        {
+          "text": "あります",
+          "kana": "あります"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "住",
+      "japanese": "住みます",
+      "kana": "すみます",
+      "romaji": "sumimasu",
+      "tokens": [
+        {
+          "text": "住みます",
+          "kana": "すみます"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "买",
+      "japanese": "買います",
+      "kana": "かいます",
+      "romaji": "kaimasu",
+      "tokens": [
+        {
+          "text": "買います",
+          "kana": "かいます"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "看得见",
+      "japanese": "見えます",
+      "kana": "みえます",
+      "romaji": "miemasu",
+      "tokens": [
+        {
+          "text": "見えます",
+          "kana": "みえます"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "喜欢",
+      "japanese": "好き",
+      "kana": "すき",
+      "romaji": "suki",
+      "tokens": [
+        {
+          "text": "好き",
+          "kana": "すき"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "书",
+      "japanese": "本",
+      "kana": "ほん",
+      "romaji": "hon",
+      "tokens": [
+        {
+          "text": "本",
+          "kana": "ほん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "读",
+      "japanese": "読みます",
+      "kana": "よみます",
+      "romaji": "yomimasu",
+      "tokens": [
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "安静地",
+      "japanese": "静かに",
+      "kana": "しずかに",
+      "romaji": "shizuka ni",
+      "tokens": [
+        {
+          "text": "静かに",
+          "kana": "しずかに"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "桌子（餐桌）",
+      "japanese": "テーブル",
+      "kana": "てーぶる",
+      "romaji": "teeburu",
+      "tokens": [
+        {
+          "text": "テーブル",
+          "kana": "てーぶる"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "台灯",
+      "japanese": "ランプ",
+      "kana": "らんぷ",
+      "romaji": "ranpu",
+      "tokens": [
+        {
+          "text": "ランプ",
+          "kana": "らんぷ"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "窗帘",
+      "japanese": "カーテン",
+      "kana": "かーてん",
+      "romaji": "kaaten",
+      "tokens": [
+        {
+          "text": "カーテン",
+          "kana": "かーてん"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "有桌子。",
+      "japanese": "机があります",
+      "kana": "つくえがあります",
+      "romaji": "tsukue が arimasu",
+      "tokens": [
+        {
+          "text": "机",
+          "kana": "つくえ"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "あります",
+          "kana": "あります"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "房间里有桌子。",
+      "japanese": "部屋に机があります",
+      "kana": "へやにつくえがあります",
+      "romaji": "heya に tsukue が arimasu",
+      "tokens": [
+        {
+          "text": "部屋",
+          "kana": "へや"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "机",
+          "kana": "つくえ"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "あります",
+          "kana": "あります"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "房间里有大窗户。",
+      "japanese": "部屋に大きい窓があります",
+      "kana": "へやにおおきいまどがあります",
+      "romaji": "heya に ookii mado が arimasu",
+      "tokens": [
+        {
+          "text": "部屋",
+          "kana": "へや"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "大きい",
+          "kana": "おおきい"
+        },
+        {
+          "text": "窓",
+          "kana": "まど"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "あります",
+          "kana": "あります"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "房间里有旧钟表。",
+      "japanese": "部屋に古い時計があります",
+      "kana": "へやにふるいとけいがあります",
+      "romaji": "heya に furui tokei が arimasu",
+      "tokens": [
+        {
+          "text": "部屋",
+          "kana": "へや"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "古い",
+          "kana": "ふるい"
+        },
+        {
+          "text": "時計",
+          "kana": "とけい"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "あります",
+          "kana": "あります"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "房间里有新电视。",
+      "japanese": "部屋に新しいテレビがあります",
+      "kana": "へやにあたらしいてれびがあります",
+      "romaji": "heya に atarashii terebi が arimasu",
+      "tokens": [
+        {
+          "text": "部屋",
+          "kana": "へや"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "テレビ",
+          "kana": "てれび"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "あります",
+          "kana": "あります"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "我住在宽敞的房间里。",
+      "japanese": "私は広い部屋に住みます",
+      "kana": "わたしはひろいへやにすみます",
+      "romaji": "watashi wa hiroi heya に sumimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "広い",
+          "kana": "ひろい"
+        },
+        {
+          "text": "部屋",
+          "kana": "へや"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "住みます",
+          "kana": "すみます"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "从窗户看得见山。",
+      "japanese": "窓から山が見えます",
+      "kana": "まどからやまがみえます",
+      "romaji": "mado か ら yama が miemasu",
+      "tokens": [
+        {
+          "text": "窓",
+          "kana": "まど"
+        },
+        {
+          "text": "か",
+          "kana": "か"
+        },
+        {
+          "text": "ら",
+          "kana": "ら"
+        },
+        {
+          "text": "山",
+          "kana": "やま"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "見えます",
+          "kana": "みえます"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "我安静地读书。",
+      "japanese": "私は静かに本を読みます",
+      "kana": "わたしはしずかにほんをよみます",
+      "romaji": "watashi wa shizuka ni hon を yomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "静かに",
+          "kana": "しずかに"
+        },
+        {
+          "text": "本",
+          "kana": "ほん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "我的房间里有桌子。",
+      "japanese": "私の部屋に机があります",
+      "kana": "わたしのへやにつくえがあります",
+      "romaji": "watashi の heya に tsukue が arimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "部屋",
+          "kana": "へや"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "机",
+          "kana": "つくえ"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "あります",
+          "kana": "あります"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "我买漂亮的花。",
+      "japanese": "私はきれいな花を買います",
+      "kana": "わたしはきれいなはなをかいます",
+      "romaji": "watashi wa kirei な hana を kaimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "きれい",
+          "kana": "きれい"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "花",
+          "kana": "はな"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "買います",
+          "kana": "かいます"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "房间里有漂亮的窗帘。",
+      "japanese": "部屋にきれいなカーテンがあります",
+      "kana": "へやにきれいなかーてんがあります",
+      "romaji": "heya に kirei な kaaten が arimasu",
+      "tokens": [
+        {
+          "text": "部屋",
+          "kana": "へや"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "きれい",
+          "kana": "きれい"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "カーテン",
+          "kana": "かーてん"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "あります",
+          "kana": "あります"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "我读喜欢的书。",
+      "japanese": "私は好きな本を読みます",
+      "kana": "わたしはすきなほんをよみます",
+      "romaji": "watashi wa suki な hon を yomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "好き",
+          "kana": "すき"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "本",
+          "kana": "ほん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "我宽敞的房间里有桌子。",
+      "japanese": "私の広い部屋に机があります",
+      "kana": "わたしのひろいへやにつくえがあります",
+      "romaji": "watashi の hiroi heya に tsukue が arimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "広い",
+          "kana": "ひろい"
+        },
+        {
+          "text": "部屋",
+          "kana": "へや"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "机",
+          "kana": "つくえ"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "あります",
+          "kana": "あります"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "房间里有新桌子和台灯。",
+      "japanese": "部屋に新しいテーブルとランプがあります",
+      "kana": "へやにあたらしいてーぶるとらんぷがあります",
+      "romaji": "heya に atarashii teeburu と ranpu が arimasu",
+      "tokens": [
+        {
+          "text": "部屋",
+          "kana": "へや"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "テーブル",
+          "kana": "てーぶる"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "ランプ",
+          "kana": "らんぷ"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "あります",
+          "kana": "あります"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "我在安静的房间里读书。",
+      "japanese": "私は静かな部屋で本を読みます",
+      "kana": "わたしはしずかなへやでほんをよみます",
+      "romaji": "watashi wa shizuka な heya で hon を yomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "静か",
+          "kana": "しずか"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "部屋",
+          "kana": "へや"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "本",
+          "kana": "ほん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "我又宽敞又明亮的房间里有桌子。",
+      "japanese": "私の広くて明るい部屋に机があります",
+      "kana": "わたしのひろくてあかるいへやにつくえがあります",
+      "romaji": "watashi の hiroku て akarui heya に tsukue が arimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "広く",
+          "kana": "ひろく"
+        },
+        {
+          "text": "て",
+          "kana": "て"
+        },
+        {
+          "text": "明るい",
+          "kana": "あかるい"
+        },
+        {
+          "text": "部屋",
+          "kana": "へや"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "机",
+          "kana": "つくえ"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "あります",
+          "kana": "あります"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "我又宽敞又明亮的房间里有新桌子。",
+      "japanese": "私の広くて明るい部屋に新しい机があります",
+      "kana": "わたしのひろくてあかるいへやにあたらしいつくえがあります",
+      "romaji": "watashi の hiroku て akarui heya に atarashii tsukue が arimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "広く",
+          "kana": "ひろく"
+        },
+        {
+          "text": "て",
+          "kana": "て"
+        },
+        {
+          "text": "明るい",
+          "kana": "あかるい"
+        },
+        {
+          "text": "部屋",
+          "kana": "へや"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "机",
+          "kana": "つくえ"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "あります",
+          "kana": "あります"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "我又宽敞又明亮的房间里有新桌子和椅子。",
+      "japanese": "私の広くて明るい部屋に新しい机と椅子があります",
+      "kana": "わたしのひろくてあかるいへやにあたらしいつくえといすがあります",
+      "romaji": "watashi の hiroku て akarui heya に atarashii tsukue と isu が arimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "広く",
+          "kana": "ひろく"
+        },
+        {
+          "text": "て",
+          "kana": "て"
+        },
+        {
+          "text": "明るい",
+          "kana": "あかるい"
+        },
+        {
+          "text": "部屋",
+          "kana": "へや"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "机",
+          "kana": "つくえ"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "椅子",
+          "kana": "いす"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "あります",
+          "kana": "あります"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "我又宽敞又明亮的房间里有新桌子、椅子和书架。",
+      "japanese": "私の広くて明るい部屋に新しい机と椅子と本棚があります",
+      "kana": "わたしのひろくてあかるいへやにあたらしいつくえといすとほんだながあります",
+      "romaji": "watashi の hiroku て akarui heya に atarashii tsukue と isu と hondana が arimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "広く",
+          "kana": "ひろく"
+        },
+        {
+          "text": "て",
+          "kana": "て"
+        },
+        {
+          "text": "明るい",
+          "kana": "あかるい"
+        },
+        {
+          "text": "部屋",
+          "kana": "へや"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "机",
+          "kana": "つくえ"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "椅子",
+          "kana": "いす"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "本棚",
+          "kana": "ほんだな"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "あります",
+          "kana": "あります"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "我又宽敞又明亮的房间里有新桌子、椅子、书架和床。",
+      "japanese": "私の広くて明るい部屋に新しい机と椅子と本棚とベッドがあります",
+      "kana": "わたしのひろくてあかるいへやにあたらしいつくえといすとほんだなとべっどがあります",
+      "romaji": "watashi の hiroku て akarui heya に atarashii tsukue と isu と hondana と beddo が arimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "広く",
+          "kana": "ひろく"
+        },
+        {
+          "text": "て",
+          "kana": "て"
+        },
+        {
+          "text": "明るい",
+          "kana": "あかるい"
+        },
+        {
+          "text": "部屋",
+          "kana": "へや"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "机",
+          "kana": "つくえ"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "椅子",
+          "kana": "いす"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "本棚",
+          "kana": "ほんだな"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "ベッド",
+          "kana": "べっど"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "あります",
+          "kana": "あります"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "我安静、宽敞又明亮的房间里有新桌子、椅子、书架和床。",
+      "japanese": "私の静かで広くて明るい部屋に新しい机と椅子と本棚とベッドがあります",
+      "kana": "わたしのしずかでひろくてあかるいへやにあたらしいつくえといすとほんだなとべっどがあります",
+      "romaji": "watashi の shizuka で hiroku て akarui heya に atarashii tsukue と isu と hondana と beddo が arimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "静か",
+          "kana": "しずか"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "広く",
+          "kana": "ひろく"
+        },
+        {
+          "text": "て",
+          "kana": "て"
+        },
+        {
+          "text": "明るい",
+          "kana": "あかるい"
+        },
+        {
+          "text": "部屋",
+          "kana": "へや"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "机",
+          "kana": "つくえ"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "椅子",
+          "kana": "いす"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "本棚",
+          "kana": "ほんだな"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "ベッド",
+          "kana": "べっど"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "あります",
+          "kana": "あります"
+        }
+      ]
+    }
+  ]
+}

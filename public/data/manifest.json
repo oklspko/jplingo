@@ -1,8 +1,8 @@
 {
-  "version": "sha256:180627ff004247101acc83ba05ac3d9a",
-  "generatedAt": "2026-10-01T14:19:58.818Z",
+  "version": "sha256:19ae87f438d7a54e9db2f8012a795103",
+  "generatedAt": "2026-10-01T15:02:16.303Z",
   "base": "https://www.jplingo.cn",
-  "bytes": 6899558,
+  "bytes": 6982766,
   "files": [
     {
       "path": "courses/course-pack.json",
@@ -11,8 +11,8 @@
     },
     {
       "path": "courses/course-packs.json",
-      "size": 11989,
-      "sha256": "61dec0c101d72af6a3500aee71d791f330bef50b30a6fb9de19a760bfea2e1af"
+      "size": 12055,
+      "sha256": "0c136ca00c0851002111c3ab1b922497b7c6fb5f265db73b639cfb67d9135ab0"
     },
     {
       "path": "courses/jp-gaokao/course-pack.json",
@@ -383,6 +383,21 @@
       "path": "courses/jp-growing/jp-grow-05.json",
       "size": 27154,
       "sha256": "a16e3f61628e2415bbb952a31e3da657dd400587562695100cd53fd16de7739f"
+    },
+    {
+      "path": "courses/jp-growing/jp-grow-06.json",
+      "size": 27793,
+      "sha256": "0c8b015aa6ea5c0c1edf622cd25c23f8720909f80517000436bdb1d69162b3db"
+    },
+    {
+      "path": "courses/jp-growing/jp-grow-07.json",
+      "size": 28376,
+      "sha256": "0267495a964c3d73c9d7921482c5961d60d41f4b702138880b703bfb3cad0ca1"
+    },
+    {
+      "path": "courses/jp-growing/jp-grow-08.json",
+      "size": 26973,
+      "sha256": "fa6e52de39fdda2dd5712a9e1c00a29175f3c53c6cefe0af71195d1c0b21bbf5"
     },
     {
       "path": "courses/jp-kana/course-pack.json",

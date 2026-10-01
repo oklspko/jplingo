@@ -1,0 +1,1232 @@
+{
+  "id": "jp-grow-06",
+  "coursePackId": "jp-growing",
+  "title": "每天学习",
+  "order": 6,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "我",
+      "japanese": "私",
+      "kana": "わたし",
+      "romaji": "watashi",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "每天",
+      "japanese": "毎日",
+      "kana": "まいにち",
+      "romaji": "mainichi",
+      "tokens": [
+        {
+          "text": "毎日",
+          "kana": "まいにち"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "日语",
+      "japanese": "日本語",
+      "kana": "にほんご",
+      "romaji": "nihongo",
+      "tokens": [
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "汉字",
+      "japanese": "漢字",
+      "kana": "かんじ",
+      "romaji": "kanji",
+      "tokens": [
+        {
+          "text": "漢字",
+          "kana": "かんじ"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "单词",
+      "japanese": "単語",
+      "kana": "たんご",
+      "romaji": "tango",
+      "tokens": [
+        {
+          "text": "単語",
+          "kana": "たんご"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "学习",
+      "japanese": "勉強します",
+      "kana": "べんきょうします",
+      "romaji": "benkyou shimasu",
+      "tokens": [
+        {
+          "text": "勉強します",
+          "kana": "べんきょうします"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "快乐的",
+      "japanese": "楽しい",
+      "kana": "たのしい",
+      "romaji": "tanoshii",
+      "tokens": [
+        {
+          "text": "楽しい",
+          "kana": "たのしい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "快乐地（修饰动词）",
+      "japanese": "楽しく",
+      "kana": "たのしく",
+      "romaji": "tanoshiku",
+      "tokens": [
+        {
+          "text": "楽しく",
+          "kana": "たのしく"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "早的",
+      "japanese": "早い",
+      "kana": "はやい",
+      "romaji": "hayai",
+      "tokens": [
+        {
+          "text": "早い",
+          "kana": "はやい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "早（修饰动词）",
+      "japanese": "早く",
+      "kana": "はやく",
+      "romaji": "hayaku",
+      "tokens": [
+        {
+          "text": "早く",
+          "kana": "はやく"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "起床",
+      "japanese": "起きます",
+      "kana": "おきます",
+      "romaji": "okimasu",
+      "tokens": [
+        {
+          "text": "起きます",
+          "kana": "おきます"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "睡觉",
+      "japanese": "寝ます",
+      "kana": "ねます",
+      "romaji": "nemasu",
+      "tokens": [
+        {
+          "text": "寝ます",
+          "kana": "ねます"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "晚上",
+      "japanese": "夜",
+      "kana": "よる",
+      "romaji": "yoru",
+      "tokens": [
+        {
+          "text": "夜",
+          "kana": "よる"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "十一点",
+      "japanese": "十一時",
+      "kana": "じゅういちじ",
+      "romaji": "juuichiji",
+      "tokens": [
+        {
+          "text": "十一時",
+          "kana": "じゅういちじ"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "每天早上",
+      "japanese": "毎朝",
+      "kana": "まいあさ",
+      "romaji": "maiasa",
+      "tokens": [
+        {
+          "text": "毎朝",
+          "kana": "まいあさ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "咖啡",
+      "japanese": "コーヒー",
+      "kana": "こーひー",
+      "romaji": "koohii",
+      "tokens": [
+        {
+          "text": "コーヒー",
+          "kana": "こーひー"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "喝",
+      "japanese": "飲みます",
+      "kana": "のみます",
+      "romaji": "nomimasu",
+      "tokens": [
+        {
+          "text": "飲みます",
+          "kana": "のみます"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "图书馆",
+      "japanese": "図書館",
+      "kana": "としょかん",
+      "romaji": "toshokan",
+      "tokens": [
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "新的",
+      "japanese": "新しい",
+      "kana": "あたらしい",
+      "romaji": "atarashii",
+      "tokens": [
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "书",
+      "japanese": "本",
+      "kana": "ほん",
+      "romaji": "hon",
+      "tokens": [
+        {
+          "text": "本",
+          "kana": "ほん"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "读",
+      "japanese": "読みます",
+      "kana": "よみます",
+      "romaji": "yomimasu",
+      "tokens": [
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "一小时",
+      "japanese": "一時間",
+      "kana": "いちじかん",
+      "romaji": "ichijikan",
+      "tokens": [
+        {
+          "text": "一時間",
+          "kana": "いちじかん"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "时间",
+      "japanese": "時間",
+      "kana": "じかん",
+      "romaji": "jikan",
+      "tokens": [
+        {
+          "text": "時間",
+          "kana": "じかん"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "朋友",
+      "japanese": "友達",
+      "kana": "ともだち",
+      "romaji": "tomodachi",
+      "tokens": [
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "老师",
+      "japanese": "先生",
+      "kana": "せんせい",
+      "romaji": "sensei",
+      "tokens": [
+        {
+          "text": "先生",
+          "kana": "せんせい"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "提问",
+      "japanese": "質問します",
+      "kana": "しつもんします",
+      "romaji": "shitsumon shimasu",
+      "tokens": [
+        {
+          "text": "質問します",
+          "kana": "しつもんします"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "安静",
+      "japanese": "静か",
+      "kana": "しずか",
+      "romaji": "shizuka",
+      "tokens": [
+        {
+          "text": "静か",
+          "kana": "しずか"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "擅长",
+      "japanese": "上手",
+      "kana": "じょうず",
+      "romaji": "jouzu",
+      "tokens": [
+        {
+          "text": "上手",
+          "kana": "じょうず"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "说",
+      "japanese": "話します",
+      "kana": "はなします",
+      "romaji": "hanashimasu",
+      "tokens": [
+        {
+          "text": "話します",
+          "kana": "はなします"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "记住",
+      "japanese": "覚えます",
+      "kana": "おぼえます",
+      "romaji": "oboemasu",
+      "tokens": [
+        {
+          "text": "覚えます",
+          "kana": "おぼえます"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "词典",
+      "japanese": "辞書",
+      "kana": "じしょ",
+      "romaji": "jisho",
+      "tokens": [
+        {
+          "text": "辞書",
+          "kana": "じしょ"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "查（词典）",
+      "japanese": "引きます",
+      "kana": "ひきます",
+      "romaji": "hikimasu",
+      "tokens": [
+        {
+          "text": "引きます",
+          "kana": "ひきます"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "我学习。",
+      "japanese": "私は勉強します",
+      "kana": "わたしはべんきょうします",
+      "romaji": "watashi wa benkyou shimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "勉強します",
+          "kana": "べんきょうします"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "我学日语。",
+      "japanese": "私は日本語を勉強します",
+      "kana": "わたしはにほんごをべんきょうします",
+      "romaji": "watashi wa nihongo を benkyou shimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "勉強します",
+          "kana": "べんきょうします"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "我每天早上很早起床。",
+      "japanese": "私は毎朝早く起きます",
+      "kana": "わたしはまいあさはやくおきます",
+      "romaji": "watashi wa maiasa hayaku okimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎朝",
+          "kana": "まいあさ"
+        },
+        {
+          "text": "早く",
+          "kana": "はやく"
+        },
+        {
+          "text": "起きます",
+          "kana": "おきます"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "我向老师提问。",
+      "japanese": "私は先生に質問します",
+      "kana": "わたしはせんせいにしつもんします",
+      "romaji": "watashi wa sensei に shitsumon shimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "先生",
+          "kana": "せんせい"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "質問します",
+          "kana": "しつもんします"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "我记单词。",
+      "japanese": "私は単語を覚えます",
+      "kana": "わたしはたんごをおぼえます",
+      "romaji": "watashi wa tango を oboemasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "単語",
+          "kana": "たんご"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "覚えます",
+          "kana": "おぼえます"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "我每天学日语。",
+      "japanese": "私は毎日日本語を勉強します",
+      "kana": "わたしはまいにちにほんごをべんきょうします",
+      "romaji": "watashi wa mainichi nihongo を benkyou shimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎日",
+          "kana": "まいにち"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "勉強します",
+          "kana": "べんきょうします"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "我晚上十一点睡觉。",
+      "japanese": "私は夜十一時に寝ます",
+      "kana": "わたしはよるじゅういちじにねます",
+      "romaji": "watashi wa yoru juuichiji に nemasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "夜",
+          "kana": "よる"
+        },
+        {
+          "text": "十一時",
+          "kana": "じゅういちじ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "寝ます",
+          "kana": "ねます"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "我每天早上喝咖啡。",
+      "japanese": "私は毎朝コーヒーを飲みます",
+      "kana": "わたしはまいあさこーひーをのみます",
+      "romaji": "watashi wa maiasa koohii を nomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎朝",
+          "kana": "まいあさ"
+        },
+        {
+          "text": "コーヒー",
+          "kana": "こーひー"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "飲みます",
+          "kana": "のみます"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "我在很早的时间起床。",
+      "japanese": "私は早い時間に起きます",
+      "kana": "わたしははやいじかんにおきます",
+      "romaji": "watashi wa hayai jikan に okimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "早い",
+          "kana": "はやい"
+        },
+        {
+          "text": "時間",
+          "kana": "じかん"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "起きます",
+          "kana": "おきます"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "我读有趣的书。",
+      "japanese": "私は楽しい本を読みます",
+      "kana": "わたしはたのしいほんをよみます",
+      "romaji": "watashi wa tanoshii hon を yomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "楽しい",
+          "kana": "たのしい"
+        },
+        {
+          "text": "本",
+          "kana": "ほん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "我每天快乐地学日语。",
+      "japanese": "私は毎日楽しく日本語を勉強します",
+      "kana": "わたしはまいにちたのしくにほんごをべんきょうします",
+      "romaji": "watashi wa mainichi tanoshiku nihongo を benkyou shimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎日",
+          "kana": "まいにち"
+        },
+        {
+          "text": "楽しく",
+          "kana": "たのしく"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "勉強します",
+          "kana": "べんきょうします"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "我安静地读书。",
+      "japanese": "私は静かに本を読みます",
+      "kana": "わたしはしずかにほんをよみます",
+      "romaji": "watashi wa shizuka に hon を yomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "静か",
+          "kana": "しずか"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "本",
+          "kana": "ほん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "読みます",
+          "kana": "よみます"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "我日语说得很好。",
+      "japanese": "私は上手に日本語を話します",
+      "kana": "わたしはじょうずににほんごをはなします",
+      "romaji": "watashi wa jouzu に nihongo を hanashimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "上手",
+          "kana": "じょうず"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "話します",
+          "kana": "はなします"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "我用词典查单词。",
+      "japanese": "私は辞書で単語を引きます",
+      "kana": "わたしはじしょでたんごをひきます",
+      "romaji": "watashi wa jisho で tango を hikimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "辞書",
+          "kana": "じしょ"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "単語",
+          "kana": "たんご"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "引きます",
+          "kana": "ひきます"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "我每天快乐地学一小时日语。",
+      "japanese": "私は毎日一時間楽しく日本語を勉強します",
+      "kana": "わたしはまいにちいちじかんたのしくにほんごをべんきょうします",
+      "romaji": "watashi wa mainichi ichijikan tanoshiku nihongo を benkyou shimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎日",
+          "kana": "まいにち"
+        },
+        {
+          "text": "一時間",
+          "kana": "いちじかん"
+        },
+        {
+          "text": "楽しく",
+          "kana": "たのしく"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "勉強します",
+          "kana": "べんきょうします"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "我每天在图书馆快乐地学一小时日语。",
+      "japanese": "私は毎日図書館で一時間楽しく日本語を勉強します",
+      "kana": "わたしはまいにちとしょかんでいちじかんたのしくにほんごをべんきょうします",
+      "romaji": "watashi wa mainichi toshokan で ichijikan tanoshiku nihongo を benkyou shimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎日",
+          "kana": "まいにち"
+        },
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "一時間",
+          "kana": "いちじかん"
+        },
+        {
+          "text": "楽しく",
+          "kana": "たのしく"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "勉強します",
+          "kana": "べんきょうします"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "我每天和朋友在图书馆快乐地学一小时日语。",
+      "japanese": "私は毎日友達と図書館で一時間楽しく日本語を勉強します",
+      "kana": "わたしはまいにちともだちととしょかんでいちじかんたのしくにほんごをべんきょうします",
+      "romaji": "watashi wa mainichi tomodachi と toshokan で ichijikan tanoshiku nihongo を benkyou shimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎日",
+          "kana": "まいにち"
+        },
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "一時間",
+          "kana": "いちじかん"
+        },
+        {
+          "text": "楽しく",
+          "kana": "たのしく"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "勉強します",
+          "kana": "べんきょうします"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "我每天和朋友在图书馆快乐地学一小时日语和汉字。",
+      "japanese": "私は毎日友達と図書館で一時間楽しく日本語と漢字を勉強します",
+      "kana": "わたしはまいにちともだちととしょかんでいちじかんたのしくにほんごとかんじをべんきょうします",
+      "romaji": "watashi wa mainichi tomodachi と toshokan で ichijikan tanoshiku nihongo と kanji を benkyou shimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎日",
+          "kana": "まいにち"
+        },
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "一時間",
+          "kana": "いちじかん"
+        },
+        {
+          "text": "楽しく",
+          "kana": "たのしく"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "漢字",
+          "kana": "かんじ"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "勉強します",
+          "kana": "べんきょうします"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "我每天和朋友在新的图书馆快乐地学一小时日语和汉字。",
+      "japanese": "私は毎日友達と新しい図書館で一時間楽しく日本語と漢字を勉強します",
+      "kana": "わたしはまいにちともだちとあたらしいとしょかんでいちじかんたのしくにほんごとかんじをべんきょうします",
+      "romaji": "watashi wa mainichi tomodachi と atarashii toshokan で ichijikan tanoshiku nihongo と kanji を benkyou shimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎日",
+          "kana": "まいにち"
+        },
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "一時間",
+          "kana": "いちじかん"
+        },
+        {
+          "text": "楽しく",
+          "kana": "たのしく"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "漢字",
+          "kana": "かんじ"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "勉強します",
+          "kana": "べんきょうします"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "我每天和朋友在新的图书馆快乐地学一小时日语、汉字和单词。",
+      "japanese": "私は毎日友達と新しい図書館で一時間楽しく日本語と漢字と単語を勉強します",
+      "kana": "わたしはまいにちともだちとあたらしいとしょかんでいちじかんたのしくにほんごとかんじとたんごをべんきょうします",
+      "romaji": "watashi wa mainichi tomodachi と atarashii toshokan で ichijikan tanoshiku nihongo と kanji と tango を benkyou shimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎日",
+          "kana": "まいにち"
+        },
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "図書館",
+          "kana": "としょかん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "一時間",
+          "kana": "いちじかん"
+        },
+        {
+          "text": "楽しく",
+          "kana": "たのしく"
+        },
+        {
+          "text": "日本語",
+          "kana": "にほんご"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "漢字",
+          "kana": "かんじ"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "単語",
+          "kana": "たんご"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "勉強します",
+          "kana": "べんきょうします"
+        }
+      ]
+    }
+  ]
+}

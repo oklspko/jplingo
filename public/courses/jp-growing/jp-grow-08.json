@@ -1,0 +1,1237 @@
+{
+  "id": "jp-grow-08",
+  "coursePackId": "jp-growing",
+  "title": "周末的公园",
+  "order": 8,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "我",
+      "japanese": "私",
+      "kana": "わたし",
+      "romaji": "watashi",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "公园",
+      "japanese": "公園",
+      "kana": "こうえん",
+      "romaji": "kouen",
+      "tokens": [
+        {
+          "text": "公園",
+          "kana": "こうえん"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "走",
+      "japanese": "歩きます",
+      "kana": "あるきます",
+      "romaji": "arukimasu",
+      "tokens": [
+        {
+          "text": "歩きます",
+          "kana": "あるきます"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "跑",
+      "japanese": "走ります",
+      "kana": "はしります",
+      "romaji": "hashirimasu",
+      "tokens": [
+        {
+          "text": "走ります",
+          "kana": "はしります"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "宽敞的",
+      "japanese": "広い",
+      "kana": "ひろい",
+      "romaji": "hiroi",
+      "tokens": [
+        {
+          "text": "広い",
+          "kana": "ひろい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "宽敞（连用形）",
+      "japanese": "広く",
+      "kana": "ひろく",
+      "romaji": "hiroku",
+      "tokens": [
+        {
+          "text": "広く",
+          "kana": "ひろく"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "安静",
+      "japanese": "静か",
+      "kana": "しずか",
+      "romaji": "shizuka",
+      "tokens": [
+        {
+          "text": "静か",
+          "kana": "しずか"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "漂亮、干净",
+      "japanese": "きれい",
+      "kana": "きれい",
+      "romaji": "kirei",
+      "tokens": [
+        {
+          "text": "きれい",
+          "kana": "きれい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "快乐地（修饰动词）",
+      "japanese": "楽しく",
+      "kana": "たのしく",
+      "romaji": "tanoshiku",
+      "tokens": [
+        {
+          "text": "楽しく",
+          "kana": "たのしく"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "每周",
+      "japanese": "毎週",
+      "kana": "まいしゅう",
+      "romaji": "maishuu",
+      "tokens": [
+        {
+          "text": "毎週",
+          "kana": "まいしゅう"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "朋友",
+      "japanese": "友達",
+      "kana": "ともだち",
+      "romaji": "tomodachi",
+      "tokens": [
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "一小时",
+      "japanese": "一時間",
+      "kana": "いちじかん",
+      "romaji": "ichijikan",
+      "tokens": [
+        {
+          "text": "一時間",
+          "kana": "いちじかん"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "天气",
+      "japanese": "天気",
+      "kana": "てんき",
+      "romaji": "tenki",
+      "tokens": [
+        {
+          "text": "天気",
+          "kana": "てんき"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "好的",
+      "japanese": "いい",
+      "kana": "いい",
+      "romaji": "ii",
+      "tokens": [
+        {
+          "text": "いい",
+          "kana": "いい"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "日子",
+      "japanese": "日",
+      "kana": "ひ",
+      "romaji": "hi",
+      "tokens": [
+        {
+          "text": "日",
+          "kana": "ひ"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "冷的",
+      "japanese": "寒い",
+      "kana": "さむい",
+      "romaji": "samui",
+      "tokens": [
+        {
+          "text": "寒い",
+          "kana": "さむい"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "暖和的",
+      "japanese": "暖かい",
+      "kana": "あたたかい",
+      "romaji": "atatakai",
+      "tokens": [
+        {
+          "text": "暖かい",
+          "kana": "あたたかい"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "暖和（连用形）",
+      "japanese": "暖かく",
+      "kana": "あたたかく",
+      "romaji": "atatakaku",
+      "tokens": [
+        {
+          "text": "暖かく",
+          "kana": "あたたかく"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "春天",
+      "japanese": "春",
+      "kana": "はる",
+      "romaji": "haru",
+      "tokens": [
+        {
+          "text": "春",
+          "kana": "はる"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "树",
+      "japanese": "木",
+      "kana": "き",
+      "romaji": "ki",
+      "tokens": [
+        {
+          "text": "木",
+          "kana": "き"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "花",
+      "japanese": "花",
+      "kana": "はな",
+      "romaji": "hana",
+      "tokens": [
+        {
+          "text": "花",
+          "kana": "はな"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "大的",
+      "japanese": "大きい",
+      "kana": "おおきい",
+      "romaji": "ookii",
+      "tokens": [
+        {
+          "text": "大きい",
+          "kana": "おおきい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "有（无生命）",
+      "japanese": "あります",
+      "kana": "あります",
+      "romaji": "arimasu",
+      "tokens": [
+        {
+          "text": "あります",
+          "kana": "あります"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "鸟",
+      "japanese": "鳥",
+      "kana": "とり",
+      "romaji": "tori",
+      "tokens": [
+        {
+          "text": "鳥",
+          "kana": "とり"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "叫、鸣",
+      "japanese": "鳴きます",
+      "kana": "なきます",
+      "romaji": "nakimasu",
+      "tokens": [
+        {
+          "text": "鳴きます",
+          "kana": "なきます"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "小孩",
+      "japanese": "子供",
+      "kana": "こども",
+      "romaji": "kodomo",
+      "tokens": [
+        {
+          "text": "子供",
+          "kana": "こども"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "玩",
+      "japanese": "遊びます",
+      "kana": "あそびます",
+      "romaji": "asobimasu",
+      "tokens": [
+        {
+          "text": "遊びます",
+          "kana": "あそびます"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "照片",
+      "japanese": "写真",
+      "kana": "しゃしん",
+      "romaji": "shashin",
+      "tokens": [
+        {
+          "text": "写真",
+          "kana": "しゃしん"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "拍",
+      "japanese": "撮ります",
+      "kana": "とります",
+      "romaji": "torimasu",
+      "tokens": [
+        {
+          "text": "撮ります",
+          "kana": "とります"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "长椅",
+      "japanese": "ベンチ",
+      "kana": "べんち",
+      "romaji": "benchi",
+      "tokens": [
+        {
+          "text": "ベンチ",
+          "kana": "べんち"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "坐",
+      "japanese": "座ります",
+      "kana": "すわります",
+      "romaji": "suwarimasu",
+      "tokens": [
+        {
+          "text": "座ります",
+          "kana": "すわります"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "水",
+      "japanese": "水",
+      "kana": "みず",
+      "romaji": "mizu",
+      "tokens": [
+        {
+          "text": "水",
+          "kana": "みず"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "喝",
+      "japanese": "飲みます",
+      "kana": "のみます",
+      "romaji": "nomimasu",
+      "tokens": [
+        {
+          "text": "飲みます",
+          "kana": "のみます"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "我走路。",
+      "japanese": "私は歩きます",
+      "kana": "わたしはあるきます",
+      "romaji": "watashi wa arukimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "歩きます",
+          "kana": "あるきます"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "我在公园里走。",
+      "japanese": "私は公園を歩きます",
+      "kana": "わたしはこうえんをあるきます",
+      "romaji": "watashi wa kouen を arukimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "公園",
+          "kana": "こうえん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "歩きます",
+          "kana": "あるきます"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "鸟儿好听地叫。",
+      "japanese": "鳥がきれいに鳴きます",
+      "kana": "とりがきれいになきます",
+      "romaji": "tori が kirei に nakimasu",
+      "tokens": [
+        {
+          "text": "鳥",
+          "kana": "とり"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "きれい",
+          "kana": "きれい"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "鳴きます",
+          "kana": "なきます"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "和朋友拍照。",
+      "japanese": "友達と写真を撮ります",
+      "kana": "ともだちとしゃしんをとります",
+      "romaji": "tomodachi と shashin を torimasu",
+      "tokens": [
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "写真",
+          "kana": "しゃしん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "撮ります",
+          "kana": "とります"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "我坐在长椅上。",
+      "japanese": "私はベンチに座ります",
+      "kana": "わたしはべんちにすわります",
+      "romaji": "watashi wa benchi に suwarimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "ベンチ",
+          "kana": "べんち"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "座ります",
+          "kana": "すわります"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "我喝水。",
+      "japanese": "私は水を飲みます",
+      "kana": "わたしはみずをのみます",
+      "romaji": "watashi wa mizu を nomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "水",
+          "kana": "みず"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "飲みます",
+          "kana": "のみます"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "我在宽敞的公园里走。",
+      "japanese": "私は広い公園を歩きます",
+      "kana": "わたしはひろいこうえんをあるきます",
+      "romaji": "watashi wa hiroi kouen を arukimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "広い",
+          "kana": "ひろい"
+        },
+        {
+          "text": "公園",
+          "kana": "こうえん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "歩きます",
+          "kana": "あるきます"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "暖和的日子在公园里走。",
+      "japanese": "暖かい日に公園を歩きます",
+      "kana": "あたたかいひにこうえんをあるきます",
+      "romaji": "atatakai hi に kouen を arukimasu",
+      "tokens": [
+        {
+          "text": "暖かい",
+          "kana": "あたたかい"
+        },
+        {
+          "text": "日",
+          "kana": "ひ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "公園",
+          "kana": "こうえん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "歩きます",
+          "kana": "あるきます"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "公园里有大树。",
+      "japanese": "公園に大きい木があります",
+      "kana": "こうえんにおおきいきがあります",
+      "romaji": "kouen に ookii ki が arimasu",
+      "tokens": [
+        {
+          "text": "公園",
+          "kana": "こうえん"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "大きい",
+          "kana": "おおきい"
+        },
+        {
+          "text": "木",
+          "kana": "き"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "あります",
+          "kana": "あります"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "小孩在公园里快乐地玩。",
+      "japanese": "子供が公園で楽しく遊びます",
+      "kana": "こどもがこうえんでたのしくあそびます",
+      "romaji": "kodomo が kouen で tanoshiku asobimasu",
+      "tokens": [
+        {
+          "text": "子供",
+          "kana": "こども"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "公園",
+          "kana": "こうえん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "楽しく",
+          "kana": "たのしく"
+        },
+        {
+          "text": "遊びます",
+          "kana": "あそびます"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "冷的日子在公园跑步。",
+      "japanese": "寒い日は公園を走ります",
+      "kana": "さむいひはこうえんをはしります",
+      "romaji": "samui hi wa kouen を hashirimasu",
+      "tokens": [
+        {
+          "text": "寒い",
+          "kana": "さむい"
+        },
+        {
+          "text": "日",
+          "kana": "ひ"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "公園",
+          "kana": "こうえん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "走ります",
+          "kana": "はしります"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "我每周在宽敞的公园里跑。",
+      "japanese": "私は毎週広い公園を走ります",
+      "kana": "わたしはまいしゅうひろいこうえんをはしります",
+      "romaji": "watashi wa maishuu hiroi kouen を hashirimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎週",
+          "kana": "まいしゅう"
+        },
+        {
+          "text": "広い",
+          "kana": "ひろい"
+        },
+        {
+          "text": "公園",
+          "kana": "こうえん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "走ります",
+          "kana": "はしります"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "天气好的日子在公园里走。",
+      "japanese": "天気のいい日に公園を歩きます",
+      "kana": "てんきのいいひにこうえんをあるきます",
+      "romaji": "tenki の ii hi に kouen を arukimasu",
+      "tokens": [
+        {
+          "text": "天気",
+          "kana": "てんき"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "いい",
+          "kana": "いい"
+        },
+        {
+          "text": "日",
+          "kana": "ひ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "公園",
+          "kana": "こうえん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "歩きます",
+          "kana": "あるきます"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "我在又宽敞又漂亮的公园里走。",
+      "japanese": "私は広くてきれいな公園を歩きます",
+      "kana": "わたしはひろくてきれいなこうえんをあるきます",
+      "romaji": "watashi wa hiroku て kirei な kouen を arukimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "広く",
+          "kana": "ひろく"
+        },
+        {
+          "text": "て",
+          "kana": "て"
+        },
+        {
+          "text": "きれい",
+          "kana": "きれい"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "公園",
+          "kana": "こうえん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "歩きます",
+          "kana": "あるきます"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "春天暖和，还有漂亮的花。",
+      "japanese": "春は暖かくてきれいな花があります",
+      "kana": "はるはあたたかくてきれいなはながあります",
+      "romaji": "haru wa atatakaku て kirei な hana が arimasu",
+      "tokens": [
+        {
+          "text": "春",
+          "kana": "はる"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "暖かく",
+          "kana": "あたたかく"
+        },
+        {
+          "text": "て",
+          "kana": "て"
+        },
+        {
+          "text": "きれい",
+          "kana": "きれい"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "花",
+          "kana": "はな"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "あります",
+          "kana": "あります"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "我在又宽敞又漂亮的公园里愉快地走。",
+      "japanese": "私は広くてきれいな公園を楽しく歩きます",
+      "kana": "わたしはひろくてきれいなこうえんをたのしくあるきます",
+      "romaji": "watashi wa hiroku て kirei な kouen を tanoshiku arukimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "広く",
+          "kana": "ひろく"
+        },
+        {
+          "text": "て",
+          "kana": "て"
+        },
+        {
+          "text": "きれい",
+          "kana": "きれい"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "公園",
+          "kana": "こうえん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "楽しく",
+          "kana": "たのしく"
+        },
+        {
+          "text": "歩きます",
+          "kana": "あるきます"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "我每周在又宽敞又漂亮的公园里愉快地走。",
+      "japanese": "私は毎週広くてきれいな公園を楽しく歩きます",
+      "kana": "わたしはまいしゅうひろくてきれいなこうえんをたのしくあるきます",
+      "romaji": "watashi wa maishuu hiroku て kirei な kouen を tanoshiku arukimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎週",
+          "kana": "まいしゅう"
+        },
+        {
+          "text": "広く",
+          "kana": "ひろく"
+        },
+        {
+          "text": "て",
+          "kana": "て"
+        },
+        {
+          "text": "きれい",
+          "kana": "きれい"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "公園",
+          "kana": "こうえん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "楽しく",
+          "kana": "たのしく"
+        },
+        {
+          "text": "歩きます",
+          "kana": "あるきます"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "我每周和朋友在又宽敞又漂亮的公园里愉快地走。",
+      "japanese": "私は毎週友達と広くてきれいな公園を楽しく歩きます",
+      "kana": "わたしはまいしゅうともだちとひろくてきれいなこうえんをたのしくあるきます",
+      "romaji": "watashi wa maishuu tomodachi と hiroku て kirei な kouen を tanoshiku arukimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎週",
+          "kana": "まいしゅう"
+        },
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "広く",
+          "kana": "ひろく"
+        },
+        {
+          "text": "て",
+          "kana": "て"
+        },
+        {
+          "text": "きれい",
+          "kana": "きれい"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "公園",
+          "kana": "こうえん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "楽しく",
+          "kana": "たのしく"
+        },
+        {
+          "text": "歩きます",
+          "kana": "あるきます"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "我每周和朋友在又宽敞又漂亮的公园里愉快地走一小时。",
+      "japanese": "私は毎週友達と広くてきれいな公園を一時間楽しく歩きます",
+      "kana": "わたしはまいしゅうともだちとひろくてきれいなこうえんをいちじかんたのしくあるきます",
+      "romaji": "watashi wa maishuu tomodachi と hiroku て kirei な kouen を ichijikan tanoshiku arukimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎週",
+          "kana": "まいしゅう"
+        },
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "広く",
+          "kana": "ひろく"
+        },
+        {
+          "text": "て",
+          "kana": "て"
+        },
+        {
+          "text": "きれい",
+          "kana": "きれい"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "公園",
+          "kana": "こうえん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "一時間",
+          "kana": "いちじかん"
+        },
+        {
+          "text": "楽しく",
+          "kana": "たのしく"
+        },
+        {
+          "text": "歩きます",
+          "kana": "あるきます"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "我每周和朋友在安静、宽敞又漂亮的公园里愉快地走一小时。",
+      "japanese": "私は毎週友達と静かで広くてきれいな公園を一時間楽しく歩きます",
+      "kana": "わたしはまいしゅうともだちとしずかでひろくてきれいなこうえんをいちじかんたのしくあるきます",
+      "romaji": "watashi wa maishuu tomodachi と shizuka で hiroku て kirei な kouen を ichijikan tanoshiku arukimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎週",
+          "kana": "まいしゅう"
+        },
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "静か",
+          "kana": "しずか"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "広く",
+          "kana": "ひろく"
+        },
+        {
+          "text": "て",
+          "kana": "て"
+        },
+        {
+          "text": "きれい",
+          "kana": "きれい"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "公園",
+          "kana": "こうえん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "一時間",
+          "kana": "いちじかん"
+        },
+        {
+          "text": "楽しく",
+          "kana": "たのしく"
+        },
+        {
+          "text": "歩きます",
+          "kana": "あるきます"
+        }
+      ]
+    }
+  ]
+}
