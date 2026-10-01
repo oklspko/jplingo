@@ -74,12 +74,13 @@ function collect() {
     });
 }
 
-function main() {
+/**
+ * 生成清单并落盘（nuxt.config.ts 与命令行都用它）。
+ * @returns {{ files: Array<{path:string,size:number,sha256:string}>, manifest: object, out: string }}
+ */
+function generate() {
   const files = collect();
-  if (!files.length) {
-    console.error("没有找到可热更新的数据（先跑 pnpm generate 生成 public 内容？）");
-    process.exit(1);
-  }
+  if (!files.length) throw new Error("没有找到可热更新的数据（public/courses 不存在？）");
   // 版本 = 内容哈希：与构建时间、文件 mtime 无关，内容不变则版本不变
   const fingerprint = sha256(files.map((f) => `${f.path}:${f.sha256}`).join("\n"));
   const manifest = {
@@ -89,16 +90,24 @@ function main() {
     bytes: files.reduce((sum, f) => sum + f.size, 0),
     files,
   };
-
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
   fs.writeFileSync(OUT, JSON.stringify(manifest, null, 2) + "\n", "utf8");
+  return { files, manifest, out: OUT };
+}
 
+function main() {
+  const summary = generate();
+  const { files, manifest, out } = summary;
   const kb = (manifest.bytes / 1024).toFixed(0);
-  console.log(`数据清单已写出：${path.relative(ROOT, OUT).replace(/\\/g, "/")}`);
+  console.log(`数据清单已写出：${path.relative(ROOT, out).replace(/\\/g, "/")}`);
   console.log(`  版本 ${manifest.version}`);
   console.log(`  ${files.length} 个文件，共 ${kb} KB`);
   for (const f of files.slice(0, 5)) console.log(`    ${f.path}  ${(f.size / 1024).toFixed(1)} KB`);
   if (files.length > 5) console.log(`    … 其余 ${files.length - 5} 个`);
+  return manifest;
 }
 
-main();
+/** 供 nuxt.config.ts 调用：任何 Nuxt 构建都会重新生成清单，保证线上清单不会过时 */
+module.exports = { generate, collect, sha256, normalized, OUT };
+
+if (require.main === module) main();
