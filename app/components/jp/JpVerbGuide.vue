@@ -145,7 +145,7 @@ interface VerbForm {
 }
 
 // 「来る」的读音会随变形改变（き／こ／く），所以每个形式都标上假名读音
-const basicForms: VerbForm[] = [
+const bundledbasicForms: VerbForm[] = [
   { name: "辞书形（原形）", c1: "～う（書く）", c2: "～る（食べる）", c3: "する／来る（くる）" },
   { name: "ます形", c1: "う段→い段＋ます（書く→書きます）", c2: "去る＋ます（食べる→食べます）", c3: "する→します／来る→来ます（きます）" },
   { name: "ない形", c1: "う段→あ段＋ない（書く→書かない；買う→買わない）", c2: "去る＋ない（食べる→食べない）", c3: "する→しない／来る→来ない（こない）" },
@@ -155,14 +155,14 @@ const basicForms: VerbForm[] = [
   { name: "意志形（う/よう形）", c1: "う段→お段＋う（書く→書こう）", c2: "去る＋よう（食べる→食べよう）", c3: "する→しよう／来る→来よう（こよう）" },
 ];
 
-const advancedForms: VerbForm[] = [
+const bundledadvancedForms: VerbForm[] = [
   { name: "可能形", c1: "う段→え段＋る（書く→書ける）", c2: "去る＋られる（食べる→食べられる）", c3: "する→できる／来る→来られる（こられる）" },
   { name: "被动形（受身形）", c1: "う段→あ段＋れる（書く→書かれる；買う→買われる）", c2: "去る＋られる（食べる→食べられる）", c3: "する→される／来る→来られる（こられる）" },
   { name: "使役形", c1: "う段→あ段＋せる（書く→書かせる）", c2: "去る＋させる（食べる→食べさせる）", c3: "する→させる／来る→来させる（こさせる）" },
   { name: "命令形", c1: "う段→え段（書く→書け）", c2: "去る＋ろ（食べる→食べろ）", c3: "する→しろ／来る→来い（こい）" },
 ];
 
-const onbinRows = [
+const bundledonbinRows = [
   { tail: "く", form: "いて", example: "書く → 書いて" },
   { tail: "ぐ", form: "いで", example: "泳ぐ → 泳いで" },
   { tail: "す", form: "して", example: "話す → 話して" },
@@ -170,11 +170,18 @@ const onbinRows = [
   { tail: "ぬ・ぶ・む", form: "んで", example: "読む → 読んで" },
 ];
 
-const teFormRows = [
+const bundledteFormRows = [
   { type: "一类形容词（い形）", rule: "い → く ＋ て", example: "高い → 高くて" },
   { type: "二类形容词（な形）", rule: "＋ で", example: "きれい → きれいで" },
   { type: "名词", rule: "＋ で", example: "学生 → 学生で" },
 ];
+
+// ===== 语法页内容可热更新：远端 JSON 优先，缺失/未加载时用内置默认（模板无需改动）=====
+const grammarContent = useJpGrammarContent();
+const basicForms = computed(() => (grammarContent.value?.verbGuide as Record<string, unknown>)?.basicForms ?? bundledbasicForms);
+const advancedForms = computed(() => (grammarContent.value?.verbGuide as Record<string, unknown>)?.advancedForms ?? bundledadvancedForms);
+const onbinRows = computed(() => (grammarContent.value?.verbGuide as Record<string, unknown>)?.onbinRows ?? bundledonbinRows);
+const teFormRows = computed(() => (grammarContent.value?.verbGuide as Record<string, unknown>)?.teFormRows ?? bundledteFormRows);
 </script>
 
 <style scoped>

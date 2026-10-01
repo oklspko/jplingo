@@ -79,26 +79,46 @@ function rememberVersion(version: string) {
   }
 }
 
+/** 确保目录存在。
+ * Capacitor 的 `downloadFile` **没有 recursive 选项、也不会创建父目录**
+ * （插件源码里只有显式 mkdir 会 mkdirs），所以首次运行时直接往 `jp-data/...` 下载必定失败。
+ */
+async function ensureDir(path: string): Promise<void> {
+  try {
+    await Filesystem.mkdir({ path, directory: Directory.Data, recursive: true });
+  } catch {
+    // 已存在（或并发创建）时插件会抛错，忽略即可
+  }
+}
+
+function parentDir(path: string): string {
+  const i = path.lastIndexOf("/");
+  return i < 0 ? DATA_DIR : `${DATA_DIR}/${path.slice(0, i)}`;
+}
+
 /** 下载远端 manifest：原生走 Filesystem（不受 CORS），网页直接 fetch */
-async function fetchRemoteManifest(): Promise<DataManifest | null> {
+async function fetchRemoteManifest(): Promise<{ manifest?: DataManifest; error?: string }> {
   const url = remoteManifestUrl();
   if (!Capacitor.isNativePlatform()) {
     try {
       const res = await fetch(url, { cache: "no-store" });
-      if (!res.ok) return null;
-      return (await res.json()) as DataManifest;
-    } catch {
-      return null;
+      if (!res.ok) return { error: `清单返回 HTTP ${res.status}` };
+      return { manifest: (await res.json()) as DataManifest };
+    } catch (err) {
+      return { error: err instanceof Error ? err.message : String(err) };
     }
   }
+  const target = `${DATA_DIR}/_remote-manifest.json`;
   try {
-    const target = `${DATA_DIR}/_remote-manifest.json`;
+    await ensureDir(DATA_DIR); // ← 关键：先建目录，否则 downloadFile 必失败
     await Filesystem.downloadFile({ url, path: target, directory: Directory.Data });
     const res = await Filesystem.readFile({ path: target, directory: Directory.Data });
-    if (typeof res.data !== "string") return null;
-    return JSON.parse(new TextDecoder().decode(base64ToBytes(res.data))) as DataManifest;
-  } catch {
-    return null;
+    if (typeof res.data !== "string") return { error: "清单文件读取为空" };
+    const parsed = JSON.parse(new TextDecoder().decode(base64ToBytes(res.data))) as DataManifest;
+    if (!parsed?.files?.length) return { error: "清单内容异常（没有文件列表）" };
+    return { manifest: parsed };
+  } catch (err) {
+    return { error: err instanceof Error ? err.message : String(err) };
   }
 }
 
@@ -117,18 +137,21 @@ export async function checkDataUpdate(force = false): Promise<UpdatePlan | null>
     currentVersion.value =
       applied?.version || bundled?.version || localStorage.getItem(LS_VERSION) || "";
     const remote = await fetchRemoteManifest();
-    if (!remote?.files?.length) {
-      dataError.value = "无法获取数据清单（检查网络或数据地址）";
+    if (!remote.manifest) {
+      // 把真实原因显示出来（首次运行最常见的失败是「父目录不存在」与「网络/域名不可达」）
+      dataError.value = `无法获取数据清单：${remote.error || "未知原因"}`;
+      dataInfo.value = "";
       return null;
     }
-    const plan = planUpdate(bundled, applied, remote);
+    const manifest = remote.manifest;
+    const plan = planUpdate(bundled, applied, manifest);
     hasDataUpdate.value = plan.hasUpdate;
-    remoteVersion.value = remote.version;
-    remoteGeneratedAt.value = remote.generatedAt || "";
+    remoteVersion.value = manifest.version;
+    remoteGeneratedAt.value = manifest.generatedAt || "";
     pendingBytes.value = plan.downloadBytes;
     dataInfo.value = plan.hasUpdate
-      ? `发现新数据：${shortVersion(remote.version)}（需下载 ${formatBytes(plan.downloadBytes)}，${plan.download.length} 个文件）`
-      : `已是最新（${shortVersion(remote.version)}）`;
+      ? `发现新数据：${shortVersion(manifest.version)}（需下载 ${formatBytes(plan.downloadBytes)}，${plan.download.length} 个文件）`
+      : `已是最新（${shortVersion(manifest.version)}）`;
     rememberCheck();
     return plan;
   } finally {
@@ -139,7 +162,9 @@ export async function checkDataUpdate(force = false): Promise<UpdatePlan | null>
 async function downloadOne(file: DataManifest["files"][number], base: string): Promise<void> {
   const url = `${base}/${file.path}`;
   const target = `${DATA_DIR}/${file.path}`;
-  await Filesystem.downloadFile({ url, path: target, directory: Directory.Data, recursive: true });
+  // 先建父目录：downloadFile 不会创建目录，缺目录会直接失败
+  await ensureDir(parentDir(file.path));
+  await Filesystem.downloadFile({ url, path: target, directory: Directory.Data });
   // 安卓 downloadFile 不校验 content-length（读多少写多少，截断也算成功），所以必须自查。
   // 校验值统一按「LF 归一化后」计算（见 jpDataPack.normalizeEol），因此不依赖部署环境的换行符；
   // 数据文件都远小于 HASH_LIMIT，可以整个读进来校验大小 + sha256。
@@ -198,14 +223,15 @@ export async function applyDataUpdate(plan?: UpdatePlan | null): Promise<boolean
     }
     // 最后登记版本：此刻缓存已经齐全，读取层可以放心用缓存
     const remote = await fetchRemoteManifest();
-    if (remote) {
+    await ensureDir(DATA_DIR);
+    if (remote.manifest) {
       await Filesystem.writeFile({
         path: APPLIED_FILE,
         directory: Directory.Data,
-        data: JSON.stringify(remote),
+        data: JSON.stringify(remote.manifest),
         recursive: true,
       });
-      rememberVersion(remote.version);
+      rememberVersion(remote.manifest.version);
     } else {
       rememberVersion(todo.version);
     }

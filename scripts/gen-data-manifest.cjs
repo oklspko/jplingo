@@ -25,7 +25,11 @@ const OUT = path.join(PUBLIC, "data", "manifest.json");
 /** 参与热更新的数据根目录（相对 public/） */
 const DATA_DIRS = ["courses"];
 /** 额外单列的文件（相对 public/） */
-const DATA_FILES = ["dict/words.json"];
+const DATA_FILES = [
+  "dict/words.json",
+  "data/grammar-points.json", // 语法条库（构建时由 gen-content-json.cjs 从 TS 模块导出）
+  "data/grammar-reference.json", // 语法页各标签页的表格/清单数据
+];
 
 function walk(dir, out = []) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {

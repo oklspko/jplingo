@@ -109,29 +109,36 @@
 </template>
 
 <script setup lang="ts">
-const nounRows: string[][] = [
+const bundlednounRows: string[][] = [
   ["简体", "现在时", "名词 ＋ だ", "名词 ＋ ではない"],
   ["简体", "过去时", "名词 ＋ だった", "名词 ＋ ではなかった"],
   ["敬体", "现在时", "名词 ＋ です", "名词 ＋ ではありません"],
   ["敬体", "过去时", "名词 ＋ でした", "名词 ＋ ではありませんでした"],
 ];
 
-const a1PlainRows: string[][] = [
+const bundleda1PlainRows: string[][] = [
   ["A1い（原型）", "现在时", "A1い", "A1い → く ＋ ない"],
   ["A1い → かっ ＋ た", "过去时", "A1かった", "A1い → く ＋ なかった"],
 ];
 
-const a1KeigoRows: string[][] = [
+const bundleda1KeigoRows: string[][] = [
   ["现在时", "A1い ＋ です", "A1い → く ＋ ないです（＝ A1く ＋ ありません）"],
   ["过去时", "A1い → かっ ＋ た ＋ です", "A1い → く ＋ なかったです（＝ A1く ＋ ありませんでした）"],
 ];
 
-const verbRows: string[][] = [
+const bundledverbRows: string[][] = [
   ["简体", "现在时", "动原", "ない形"],
   ["简体", "过去时", "た形", "なかった"],
   ["敬体（ます形）", "现在时", "ます", "ません"],
   ["敬体（ます形）", "过去时", "ました", "ませんでした"],
 ];
+
+// ===== 语法页内容可热更新：远端 JSON 优先，缺失/未加载时用内置默认（模板无需改动）=====
+const grammarContent = useJpGrammarContent();
+const nounRows = computed(() => (grammarContent.value?.predicates as Record<string, unknown>)?.nounRows ?? bundlednounRows);
+const a1PlainRows = computed(() => (grammarContent.value?.predicates as Record<string, unknown>)?.a1PlainRows ?? bundleda1PlainRows);
+const a1KeigoRows = computed(() => (grammarContent.value?.predicates as Record<string, unknown>)?.a1KeigoRows ?? bundleda1KeigoRows);
+const verbRows = computed(() => (grammarContent.value?.predicates as Record<string, unknown>)?.verbRows ?? bundledverbRows);
 </script>
 
 <style scoped>

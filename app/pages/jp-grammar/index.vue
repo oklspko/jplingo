@@ -136,7 +136,8 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
-import { grammarPoints, type GrammarPoint } from "~/data/jp-grammar-points";
+import { grammarPoints as bundledGrammarPoints, type GrammarPoint } from "~/data/jp-grammar-points";
+import { fetchDataJson } from "~/composables/jp/useJpData";
 import { fuzzyFilter } from "~/utils/jpFuzzy";
 
 const VOWELS = [
@@ -154,6 +155,17 @@ const selectedVowel = ref<VowelKey | "全部">("全部");
 const selectedLevel = ref<string>("全部");
 const keyword = ref("");
 const expandedId = ref<string | null>(null);
+
+// 语法条可热更新：先用内置数据渲染，再异步换成远端 JSON（缺失就继续用内置）
+const grammarPoints = ref<GrammarPoint[]>(bundledGrammarPoints);
+void (async () => {
+  try {
+    const data = await fetchDataJson<{ points?: GrammarPoint[] }>("data/grammar-points.json");
+    if (data?.points?.length) grammarPoints.value = data.points;
+  } catch {
+    // 回退内置
+  }
+})();
 const analysisOpen = ref<string | null>(null);
 
 function toggleCard(id: string) {
@@ -191,7 +203,7 @@ function vowelOf(text: string): VowelKey {
 
 const filtered = computed(() => {
   const kw = keyword.value.trim();
-  const base = grammarPoints.filter((p) => {
+  const base = grammarPoints.value.filter((p) => {
     if (selectedVowel.value !== "全部" && vowelOf(p.pattern) !== selectedVowel.value) return false;
     if (selectedLevel.value !== "全部" && p.level !== selectedLevel.value) return false;
     return true;

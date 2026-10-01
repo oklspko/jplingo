@@ -1,8 +1,8 @@
 {
-  "version": "sha256:19ae87f438d7a54e9db2f8012a795103",
-  "generatedAt": "2026-10-01T15:02:16.303Z",
+  "version": "sha256:037c3700c9e11a5c50b93ccd39adb985",
+  "generatedAt": "2026-10-01T15:23:03.723Z",
   "base": "https://www.jplingo.cn",
-  "bytes": 6982766,
+  "bytes": 7775930,
   "files": [
     {
       "path": "courses/course-pack.json",
@@ -2358,6 +2358,16 @@
       "path": "courses/jp-transform/jp-tr-verb-ukemi.json",
       "size": 8574,
       "sha256": "fa4f1ec2d8c025387a17c7c74183d360f93cc39e93149491d21c8f5aee3a823b"
+    },
+    {
+      "path": "data/grammar-points.json",
+      "size": 749648,
+      "sha256": "0674a1730cc9576f2277904a9d5afb5b7e585c00b4a476810097cd2a7c791dad"
+    },
+    {
+      "path": "data/grammar-reference.json",
+      "size": 43516,
+      "sha256": "84d09c07ffa2cd38a1bfd7b59cb117e4c83d2299a1656e2aec1343db488b93f8"
     },
     {
       "path": "dict/words.json",

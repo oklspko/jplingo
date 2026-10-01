@@ -137,7 +137,7 @@
 </template>
 
 <script setup lang="ts">
-const roles = [
+const bundledroles = [
   { name: "主题", desc: "句子在围绕什么讲。" },
   { name: "主语", desc: "动作的发出者。" },
   { name: "补语", desc: "动作的时间、地点、方式。" },
@@ -146,6 +146,10 @@ const roles = [
   { name: "谓语", desc: "句子的核心（动作、状态、判断），放在最后。" },
   { name: "语气词", desc: "表达情感和语气。" },
 ];
+
+// ===== 语法页内容可热更新：远端 JSON 优先，缺失/未加载时用内置默认（模板无需改动）=====
+const grammarContent = useJpGrammarContent();
+const roles = computed(() => (grammarContent.value?.guide as Record<string, unknown>)?.roles ?? bundledroles);
 </script>
 
 <style scoped>
