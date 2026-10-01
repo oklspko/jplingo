@@ -1,0 +1,1736 @@
+{
+  "id": "jp-grow-03",
+  "coursePackId": "jp-growing",
+  "title": "超市购物",
+  "order": 3,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "我",
+      "japanese": "私",
+      "kana": "わたし",
+      "romaji": "watashi",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "家",
+      "japanese": "家",
+      "kana": "いえ",
+      "romaji": "ie",
+      "tokens": [
+        {
+          "text": "家",
+          "kana": "いえ"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "近的",
+      "japanese": "近い",
+      "kana": "ちかい",
+      "romaji": "chikai",
+      "tokens": [
+        {
+          "text": "近い",
+          "kana": "ちかい"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "新的",
+      "japanese": "新しい",
+      "kana": "あたらしい",
+      "romaji": "atarashii",
+      "tokens": [
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "超市",
+      "japanese": "スーパー",
+      "kana": "すーぱー",
+      "romaji": "suupaa",
+      "tokens": [
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "新鲜",
+      "japanese": "新鮮",
+      "kana": "しんせん",
+      "romaji": "shinsen",
+      "tokens": [
+        {
+          "text": "新鮮",
+          "kana": "しんせん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "便宜",
+      "japanese": "安い",
+      "kana": "やすい",
+      "romaji": "yasui",
+      "tokens": [
+        {
+          "text": "安い",
+          "kana": "やすい"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "蔬菜",
+      "japanese": "野菜",
+      "kana": "やさい",
+      "romaji": "yasai",
+      "tokens": [
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "甜的",
+      "japanese": "甘い",
+      "kana": "あまい",
+      "romaji": "amai",
+      "tokens": [
+        {
+          "text": "甘い",
+          "kana": "あまい"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "水果",
+      "japanese": "果物",
+      "kana": "くだもの",
+      "romaji": "kudamono",
+      "tokens": [
+        {
+          "text": "果物",
+          "kana": "くだもの"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "鱼",
+      "japanese": "魚",
+      "kana": "さかな",
+      "romaji": "sakana",
+      "tokens": [
+        {
+          "text": "魚",
+          "kana": "さかな"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "肉",
+      "japanese": "肉",
+      "kana": "にく",
+      "romaji": "niku",
+      "tokens": [
+        {
+          "text": "肉",
+          "kana": "にく"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "蛋",
+      "japanese": "卵",
+      "kana": "たまご",
+      "romaji": "tamago",
+      "tokens": [
+        {
+          "text": "卵",
+          "kana": "たまご"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "很多",
+      "japanese": "たくさん",
+      "kana": "たくさん",
+      "romaji": "takusan",
+      "tokens": [
+        {
+          "text": "たくさん",
+          "kana": "たくさん"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "买",
+      "japanese": "買います",
+      "kana": "かいます",
+      "romaji": "kaimasu",
+      "tokens": [
+        {
+          "text": "買います",
+          "kana": "かいます"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "今天",
+      "japanese": "今日",
+      "kana": "きょう",
+      "romaji": "kyou",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "昨天",
+      "japanese": "昨日",
+      "kana": "きのう",
+      "romaji": "kinou",
+      "tokens": [
+        {
+          "text": "昨日",
+          "kana": "きのう"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "买了",
+      "japanese": "買いました",
+      "kana": "かいました",
+      "romaji": "kaimashita",
+      "tokens": [
+        {
+          "text": "買いました",
+          "kana": "かいました"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "明天",
+      "japanese": "明日",
+      "kana": "あした",
+      "romaji": "ashita",
+      "tokens": [
+        {
+          "text": "明日",
+          "kana": "あした"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "早上",
+      "japanese": "朝",
+      "kana": "あさ",
+      "romaji": "asa",
+      "tokens": [
+        {
+          "text": "朝",
+          "kana": "あさ"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "九点",
+      "japanese": "九時",
+      "kana": "くじ",
+      "romaji": "kuji",
+      "tokens": [
+        {
+          "text": "九時",
+          "kana": "くじ"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "开门、营业",
+      "japanese": "開きます",
+      "kana": "あきます",
+      "romaji": "akimasu",
+      "tokens": [
+        {
+          "text": "開きます",
+          "kana": "あきます"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "钱",
+      "japanese": "お金",
+      "kana": "おかね",
+      "romaji": "okane",
+      "tokens": [
+        {
+          "text": "お金",
+          "kana": "おかね"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "支付",
+      "japanese": "払います",
+      "kana": "はらいます",
+      "romaji": "haraimasu",
+      "tokens": [
+        {
+          "text": "払います",
+          "kana": "はらいます"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "钱包",
+      "japanese": "財布",
+      "kana": "さいふ",
+      "romaji": "saifu",
+      "tokens": [
+        {
+          "text": "財布",
+          "kana": "さいふ"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "放入",
+      "japanese": "入れます",
+      "kana": "いれます",
+      "romaji": "iremasu",
+      "tokens": [
+        {
+          "text": "入れます",
+          "kana": "いれます"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "菜、饭菜",
+      "japanese": "料理",
+      "kana": "りょうり",
+      "romaji": "ryouri",
+      "tokens": [
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "做",
+      "japanese": "作ります",
+      "kana": "つくります",
+      "romaji": "tsukurimasu",
+      "tokens": [
+        {
+          "text": "作ります",
+          "kana": "つくります"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "回家",
+      "japanese": "帰ります",
+      "kana": "かえります",
+      "romaji": "kaerimasu",
+      "tokens": [
+        {
+          "text": "帰ります",
+          "kana": "かえります"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "店员",
+      "japanese": "店員",
+      "kana": "てんいん",
+      "romaji": "tenin",
+      "tokens": [
+        {
+          "text": "店員",
+          "kana": "てんいん"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "袋子",
+      "japanese": "袋",
+      "kana": "ふくろ",
+      "romaji": "fukuro",
+      "tokens": [
+        {
+          "text": "袋",
+          "kana": "ふくろ"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "每天晚上",
+      "japanese": "毎晩",
+      "kana": "まいばん",
+      "romaji": "maiban",
+      "tokens": [
+        {
+          "text": "毎晩",
+          "kana": "まいばん"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "吃",
+      "japanese": "食べます",
+      "kana": "たべます",
+      "romaji": "tabemasu",
+      "tokens": [
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "我买蔬菜。",
+      "japanese": "私は野菜を買います",
+      "kana": "わたしはやさいをかいます",
+      "romaji": "watashi wa yasai を kaimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "買います",
+          "kana": "かいます"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "我付钱。",
+      "japanese": "私はお金を払います",
+      "kana": "わたしはおかねをはらいます",
+      "romaji": "watashi wa okane を haraimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "お金",
+          "kana": "おかね"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "払います",
+          "kana": "はらいます"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "我回家。",
+      "japanese": "私は家に帰ります",
+      "kana": "わたしはいえにかえります",
+      "romaji": "watashi wa ie に kaerimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "家",
+          "kana": "いえ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "帰ります",
+          "kana": "かえります"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "超市早上九点开门。",
+      "japanese": "スーパーは朝九時に開きます",
+      "kana": "すーぱーはあさくじにあきます",
+      "romaji": "suupaa wa asa kuji に akimasu",
+      "tokens": [
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "朝",
+          "kana": "あさ"
+        },
+        {
+          "text": "九時",
+          "kana": "くじ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "開きます",
+          "kana": "あきます"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "我每天晚上吃（自己做的）菜。",
+      "japanese": "私は毎晩料理を食べます",
+      "kana": "わたしはまいばんりょうりをたべます",
+      "romaji": "watashi wa maiban ryouri を tabemasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎晩",
+          "kana": "まいばん"
+        },
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "我在超市买蔬菜。",
+      "japanese": "私はスーパーで野菜を買います",
+      "kana": "わたしはすーぱーでやさいをかいます",
+      "romaji": "watashi wa suupaa で yasai を kaimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "買います",
+          "kana": "かいます"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "我把钱放进钱包。",
+      "japanese": "私は財布にお金を入れます",
+      "kana": "わたしはさいふにおかねをいれます",
+      "romaji": "watashi wa saifu に okane を iremasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "財布",
+          "kana": "さいふ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "お金",
+          "kana": "おかね"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "入れます",
+          "kana": "いれます"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "我在家做菜。",
+      "japanese": "私は家で料理を作ります",
+      "kana": "わたしはいえでりょうりをつくります",
+      "romaji": "watashi wa ie で ryouri を tsukurimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "家",
+          "kana": "いえ"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "作ります",
+          "kana": "つくります"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "店员把蔬菜装进袋子。",
+      "japanese": "店員は袋に野菜を入れます",
+      "kana": "てんいんはふくろにやさいをいれます",
+      "romaji": "tenin wa fukuro に yasai を iremasu",
+      "tokens": [
+        {
+          "text": "店員",
+          "kana": "てんいん"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "袋",
+          "kana": "ふくろ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "入れます",
+          "kana": "いれます"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "我在附近的超市买蔬菜。",
+      "japanese": "私は近いスーパーで野菜を買います",
+      "kana": "わたしはちかいすーぱーでやさいをかいます",
+      "romaji": "watashi wa chikai suupaa で yasai を kaimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "近い",
+          "kana": "ちかい"
+        },
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "買います",
+          "kana": "かいます"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "昨天我在超市买了鱼。",
+      "japanese": "昨日私はスーパーで魚を買いました",
+      "kana": "きのうわたしはすーぱーでさかなをかいました",
+      "romaji": "kinou watashi wa suupaa で sakana を kaimashita",
+      "tokens": [
+        {
+          "text": "昨日",
+          "kana": "きのう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "魚",
+          "kana": "さかな"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "買いました",
+          "kana": "かいました"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "明天我在超市买水果。",
+      "japanese": "明日私はスーパーで果物を買います",
+      "kana": "あしたわたしはすーぱーでくだものをかいます",
+      "romaji": "ashita watashi wa suupaa で kudamono を kaimasu",
+      "tokens": [
+        {
+          "text": "明日",
+          "kana": "あした"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "果物",
+          "kana": "くだもの"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "買います",
+          "kana": "かいます"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "我在离家近的超市买蔬菜。",
+      "japanese": "私は家に近いスーパーで野菜を買います",
+      "kana": "わたしはいえにちかいすーぱーでやさいをかいます",
+      "romaji": "watashi wa ie に chikai suupaa で yasai を kaimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "家",
+          "kana": "いえ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "近い",
+          "kana": "ちかい"
+        },
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "買います",
+          "kana": "かいます"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "今天我在离家近的超市买蔬菜。",
+      "japanese": "今日私は家に近いスーパーで野菜を買います",
+      "kana": "きょうわたしはいえにちかいすーぱーでやさいをかいます",
+      "romaji": "kyou watashi wa ie に chikai suupaa で yasai を kaimasu",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "家",
+          "kana": "いえ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "近い",
+          "kana": "ちかい"
+        },
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "買います",
+          "kana": "かいます"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "今天我在离家近的超市买蔬菜和水果。",
+      "japanese": "今日私は家に近いスーパーで野菜と果物を買います",
+      "kana": "きょうわたしはいえにちかいすーぱーでやさいとくだものをかいます",
+      "romaji": "kyou watashi wa ie に chikai suupaa で yasai と kudamono を kaimasu",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "家",
+          "kana": "いえ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "近い",
+          "kana": "ちかい"
+        },
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "果物",
+          "kana": "くだもの"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "買います",
+          "kana": "かいます"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "今天我在离家近的超市买新鲜的蔬菜和水果。",
+      "japanese": "今日私は家に近いスーパーで新鮮な野菜と果物を買います",
+      "kana": "きょうわたしはいえにちかいすーぱーでしんせんなやさいとくだものをかいます",
+      "romaji": "kyou watashi wa ie に chikai suupaa で shinsen な yasai と kudamono を kaimasu",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "家",
+          "kana": "いえ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "近い",
+          "kana": "ちかい"
+        },
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "新鮮",
+          "kana": "しんせん"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "果物",
+          "kana": "くだもの"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "買います",
+          "kana": "かいます"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "今天我在离家近的超市买又新鲜又便宜的蔬菜和水果。",
+      "japanese": "今日私は家に近いスーパーで新鮮で安い野菜と果物を買います",
+      "kana": "きょうわたしはいえにちかいすーぱーでしんせんでやすいやさいとくだものをかいます",
+      "romaji": "kyou watashi wa ie に chikai suupaa で shinsen で yasui yasai と kudamono を kaimasu",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "家",
+          "kana": "いえ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "近い",
+          "kana": "ちかい"
+        },
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "新鮮",
+          "kana": "しんせん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "安い",
+          "kana": "やすい"
+        },
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "果物",
+          "kana": "くだもの"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "買います",
+          "kana": "かいます"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "今天我在离家近的超市买又新鲜又便宜的蔬菜和甜的水果。",
+      "japanese": "今日私は家に近いスーパーで新鮮で安い野菜と甘い果物を買います",
+      "kana": "きょうわたしはいえにちかいすーぱーでしんせんでやすいやさいとあまいくだものをかいます",
+      "romaji": "kyou watashi wa ie に chikai suupaa で shinsen で yasui yasai と amai kudamono を kaimasu",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "家",
+          "kana": "いえ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "近い",
+          "kana": "ちかい"
+        },
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "新鮮",
+          "kana": "しんせん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "安い",
+          "kana": "やすい"
+        },
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "甘い",
+          "kana": "あまい"
+        },
+        {
+          "text": "果物",
+          "kana": "くだもの"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "買います",
+          "kana": "かいます"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "今天我在离家近的超市买又新鲜又便宜的蔬菜、甜的水果和鱼。",
+      "japanese": "今日私は家に近いスーパーで新鮮で安い野菜と甘い果物と魚を買います",
+      "kana": "きょうわたしはいえにちかいすーぱーでしんせんでやすいやさいとあまいくだものとさかなをかいます",
+      "romaji": "kyou watashi wa ie に chikai suupaa で shinsen で yasui yasai と amai kudamono と sakana を kaimasu",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "家",
+          "kana": "いえ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "近い",
+          "kana": "ちかい"
+        },
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "新鮮",
+          "kana": "しんせん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "安い",
+          "kana": "やすい"
+        },
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "甘い",
+          "kana": "あまい"
+        },
+        {
+          "text": "果物",
+          "kana": "くだもの"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "魚",
+          "kana": "さかな"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "買います",
+          "kana": "かいます"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "今天我在离家近的超市买又新鲜又便宜的蔬菜、甜的水果、鱼和肉。",
+      "japanese": "今日私は家に近いスーパーで新鮮で安い野菜と甘い果物と魚と肉を買います",
+      "kana": "きょうわたしはいえにちかいすーぱーでしんせんでやすいやさいとあまいくだものとさかなとにくをかいます",
+      "romaji": "kyou watashi wa ie に chikai suupaa で shinsen で yasui yasai と amai kudamono と sakana と niku を kaimasu",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "家",
+          "kana": "いえ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "近い",
+          "kana": "ちかい"
+        },
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "新鮮",
+          "kana": "しんせん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "安い",
+          "kana": "やすい"
+        },
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "甘い",
+          "kana": "あまい"
+        },
+        {
+          "text": "果物",
+          "kana": "くだもの"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "魚",
+          "kana": "さかな"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "肉",
+          "kana": "にく"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "買います",
+          "kana": "かいます"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "chinese": "今天我在离家近的超市买又新鲜又便宜的蔬菜、甜的水果、鱼、肉和蛋。",
+      "japanese": "今日私は家に近いスーパーで新鮮で安い野菜と甘い果物と魚と肉と卵を買います",
+      "kana": "きょうわたしはいえにちかいすーぱーでしんせんでやすいやさいとあまいくだものとさかなとにくとたまごをかいます",
+      "romaji": "kyou watashi wa ie に chikai suupaa で shinsen で yasui yasai と amai kudamono と sakana と niku と tamago を kaimasu",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "家",
+          "kana": "いえ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "近い",
+          "kana": "ちかい"
+        },
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "新鮮",
+          "kana": "しんせん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "安い",
+          "kana": "やすい"
+        },
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "甘い",
+          "kana": "あまい"
+        },
+        {
+          "text": "果物",
+          "kana": "くだもの"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "魚",
+          "kana": "さかな"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "肉",
+          "kana": "にく"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "卵",
+          "kana": "たまご"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "買います",
+          "kana": "かいます"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "chinese": "今天我在离家近的新超市买又新鲜又便宜的蔬菜、甜的水果、鱼、肉和蛋。",
+      "japanese": "今日私は家に近い新しいスーパーで新鮮で安い野菜と甘い果物と魚と肉と卵を買います",
+      "kana": "きょうわたしはいえにちかいあたらしいすーぱーでしんせんでやすいやさいとあまいくだものとさかなとにくとたまごをかいます",
+      "romaji": "kyou watashi wa ie に chikai atarashii suupaa で shinsen で yasui yasai と amai kudamono と sakana と niku と tamago を kaimasu",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "家",
+          "kana": "いえ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "近い",
+          "kana": "ちかい"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "新鮮",
+          "kana": "しんせん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "安い",
+          "kana": "やすい"
+        },
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "甘い",
+          "kana": "あまい"
+        },
+        {
+          "text": "果物",
+          "kana": "くだもの"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "魚",
+          "kana": "さかな"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "肉",
+          "kana": "にく"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "卵",
+          "kana": "たまご"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "買います",
+          "kana": "かいます"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "chinese": "今天我在离家近的新超市买了很多又新鲜又便宜的蔬菜、甜的水果、鱼、肉和蛋。",
+      "japanese": "今日私は家に近い新しいスーパーで新鮮で安い野菜と甘い果物と魚と肉と卵をたくさん買います",
+      "kana": "きょうわたしはいえにちかいあたらしいすーぱーでしんせんでやすいやさいとあまいくだものとさかなとにくとたまごをたくさんかいます",
+      "romaji": "kyou watashi wa ie に chikai atarashii suupaa で shinsen で yasui yasai と amai kudamono と sakana と niku と tamago を takusan kaimasu",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "家",
+          "kana": "いえ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "近い",
+          "kana": "ちかい"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "スーパー",
+          "kana": "すーぱー"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "新鮮",
+          "kana": "しんせん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "安い",
+          "kana": "やすい"
+        },
+        {
+          "text": "野菜",
+          "kana": "やさい"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "甘い",
+          "kana": "あまい"
+        },
+        {
+          "text": "果物",
+          "kana": "くだもの"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "魚",
+          "kana": "さかな"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "肉",
+          "kana": "にく"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "卵",
+          "kana": "たまご"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "たくさん",
+          "kana": "たくさん"
+        },
+        {
+          "text": "買います",
+          "kana": "かいます"
+        }
+      ]
+    }
+  ]
+}

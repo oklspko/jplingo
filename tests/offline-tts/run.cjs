@@ -35,6 +35,7 @@ const specs = [
   "spec-bundled-fail.ts",
   "spec-viewport.ts",
   "spec-preload.ts",
+  "spec-growing.ts",
 ];
 const alias = {
   "@capacitor/core": path.join(here, "mocks", "core.ts"),
@@ -42,6 +43,14 @@ const alias = {
   "@capacitor-community/text-to-speech": path.join(here, "mocks", "text-to-speech.ts"),
   "~/composables/jp/useJpBuildId": path.join(repoRoot, "app", "composables", "jp", "useJpBuildId.ts"),
   "~/composables/jp/useJpTts": path.join(repoRoot, "app", "composables", "jp", "useJpTts.ts"),
+  "~/composables/jp/useJpImportedPacks": path.join(
+    repoRoot,
+    "app",
+    "composables",
+    "jp",
+    "useJpImportedPacks.ts",
+  ),
+  "~/composables/jp/useJpRomaji": path.join(repoRoot, "app", "composables", "jp", "useJpRomaji.ts"),
 };
 
 // Node 里没有 window / localStorage：前者是 detectSupported() 的前置，后者是语者/步数持久化要用
@@ -72,7 +81,10 @@ for (const spec of specs) {
     alias,
     logLevel: "warning",
   });
-  const result = spawnSync(process.execPath, [outfile], { stdio: "inherit" });
+  const result = spawnSync(process.execPath, [outfile], {
+    stdio: "inherit",
+    env: { ...process.env, JPLINGO_ROOT: repoRoot },
+  });
   if (result.status !== 0) failed++;
   fs.rmSync(outfile, { force: true });
 }

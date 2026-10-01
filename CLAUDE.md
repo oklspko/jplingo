@@ -3,7 +3,7 @@
 Nuxt 3 日语学习应用：连词成句 + 语法词典 + 答题练习 + 离线安卓 App。自托管后端 api.jplingo.cn，GitHub 仓库 oklspko/jplingo。
 
 ## 必须保持的两条核心逻辑
-1. **句子生长（jp-growing）词先句后 + 一课一句话**：写句子前先练该句用到的、尚未单练过的内容词（按句中出现顺序），已练词不重复单练，助词只随句子出现不单练，孤词最后学。实现在 `app/composables/jp/useJpCourses.ts` 的 `buildGrowingOrder`。**课程形态**：一课只围绕一句话，从「主谓短句」逐词添加、生长成至少 20 个词汇的大长句——中间每一步都是一句语法成立、且是前一句扩充的句子；句子里的内容词 `tokens[].text` 必须与单词的 `japanese` 完全一致——动词形式也要等于该动词单词的形式：原形课程全程原形，敬语课程就把动词单词直接设成ます/ました形（句子动词用ます形、单词却存食べる会导致 token 对不上、学习页/答案显示与 romaji 音频不一致），助词（を/で/は/に/と/の/な/へ 等）只作句内 token、不设独立单词。更新/新增课程必须保持此原则。
+1. **句子生长（jp-growing）短句在前长句在后 + 词先句后 + 一课一句话**：句子按 **token 数升序**出题（同长度的保持数据原顺序，稳定排序），实现于 `buildGrowingOrder` 里对句子的排序；**词先句后**：写句子前先练该句用到的、尚未单练过的内容词（按句中出现顺序），已练词不重复单练，助词只随句子出现不单练，孤词最后学。**课程形态**：一课只围绕一句话，从「主谓短句」逐词添加、生长成至少 20 个词汇的大长句——中间每一步都是一句语法成立、且是前一句扩充的句子；句子里的内容词 `tokens[].text` 必须与单词的 `japanese` 完全一致——动词形式也要等于该动词单词的形式：原形课程全程原形，敬语课程就把动词单词直接设成ます/ました形（句子动词用ます形、单词却存食べる会导致 token 对不上、学习页/答案显示与 romaji 音频不一致），助词（を/で/は/に/と/の/な/へ 等）只作句内 token、不设独立单词。**课程文件里句子也按长度升序排列**（与运行时一致，便于阅读）。生成/校验用 `node scripts/build-grow.cjs --lesson 02|03 [--write]`（自带五条不变量 + 短句在前自检，重排已有课程时会比对内容一致性）。更新/新增课程必须保持以上原则。
 2. **答题输入判定是状态机**：`app/composables/jp/useJpInput.ts`（对齐 `earthworm-main` 的 question.ts）。incorrect 只在提交时标记，禁止实时推导；输入层不拦截，空格只跳下一个空、最后一个空才触发提交。改判定时沿用 Input/Fix/Fix_Input 状态机，勿回退到派生 computed 推导 incorrect。
 
 ## 语法数据管道
@@ -44,8 +44,9 @@ Nuxt 3 日语学习应用：连词成句 + 语法词典 + 答题练习 + 离线�
   UI 在「我的」页「离线发音」卡片（内置准备中 / 已就绪（APK 内置）/ 试听 / 语者·步数 / 兜底下载）。
 - 兜底下载地址默认官方 Release，可用 `NUXT_TTS_MODEL_URL` 覆盖为自托管（如 `https://api.jplingo.cn/tts/...`，见 DEPLOY.md）。
 - 排查：装 APK 后首启会自动把内置语音拷到应用目录（「我的 → 离线发音」会显示「正在准备内置语音…」，需约 170MB 空闲）；装完点「试听」；无声先看该卡片的状态/报错。
-- 自测（改发音链后必跑）：`node tests/offline-tts/run.cjs` —— 用 esbuild 把 `tests/offline-tts/{spec,spec-sound,spec-bundled,spec-bundled-fail}.ts` 与 mock 的 Capacitor 插件打包后在 Node 里跑，
-  共 104 项断言，覆盖「镜像失败换下一个 / 截断包判失败 / 合成缓存与并发串行 / 语者·步数透传与缓存隔离 / 状态探测自愈 / 发音回退链四级顺序 / 预合成 / 连点作废 / 内置模型拷贝成功与失败 / 自托管地址」（不进 CI）。
+- 自测（改发音链或课程顺序后必跑）：`node tests/offline-tts/run.cjs` —— 用 esbuild 把 `tests/offline-tts/` 下的 spec 与 mock 的 Capacitor 插件打包后在 Node 里跑，
+  共 154 项断言：`spec`（下载/解压/缓存/并发/状态自愈）、`spec-sound`（四级发音回退）、`spec-bundled` 与 `spec-bundled-fail`（内置模型拷贝成功/失败）、
+  `spec-viewport`（强制移动端布局）、`spec-preload`（学习页按序预加载）、`spec-growing`（**短句在前长句在后 + 五条不变量**，直接读 `public/courses/jp-growing/*.json` 校验真实课程）（不进 CI）。
 - 音质与延迟实测（2026-10-01，本机桌面，`scripts/tts-quality-poc.py` 可复现）：采样率 **44100**（文档写的 24000 已过时）、语者 10 个；
   26 字句音频 3.79s / 合成 1.46s（RTF 0.38）；App 里最长的 66 字句音频 11.17s / 合成 3.56s（RTF 0.32，steps=6→2.78s，steps=4→2.00s）。
   → 手机 CPU 更慢，所以切题时会预合成下一句（`prefetchJapanese`），发音按钮在合成期间显示「🔊 合成中…」；

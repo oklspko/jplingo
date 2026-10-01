@@ -196,13 +196,22 @@ export function buildGrowingOrder(
     else words.push(s);
   }
 
+  // 核心规则（新增）：句子按「短句在前、长句在后」出题——长度 = token 数；
+  // 同长度的保持数据里的原顺序（稳定排序），因此「一课一句话」的生长链
+  // 天然维持 3→4→…→15 个内容词的递增次序，不会被排序打乱。
+  // 词是先句中抽取的，所以排序只会让「新词+短句」更早出现，不破坏词先句后。
+  const ordered = sentences
+    .map((s, index) => ({ s, index, len: s.tokens?.length || 0 }))
+    .sort((a, b) => a.len - b.len || a.index - b.index)
+    .map((item) => item.s);
+
   const wordByText = new Map<string, JpStatement>();
   for (const w of words) wordByText.set(w.japanese, w);
 
   const learned = new Set<string>(); // 已作为单词单独练过的词
   const out: JpStatement[] = [];
 
-  for (const sentence of sentences) {
+  for (const sentence of ordered) {
     // 本句会用到、且尚未单独练过的单词（按句中出现顺序，同词去重）
     const used: JpStatement[] = [];
     for (const t of sentence.tokens || []) {
