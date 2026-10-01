@@ -5,6 +5,7 @@ import { fsState } from "@capacitor/filesystem";
 import {
   base64ToBytes,
   formatBytes,
+  normalizeEol,
   planUpdate,
   sha256Hex,
   shortVersion,
@@ -125,6 +126,16 @@ async function main() {
     "sha256 空串是已知常量",
     await sha256Hex(new Uint8Array()),
     "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  );
+  eq(
+    "CRLF 与 LF 归一化后哈希相同（不受开发机 core.autocrlf 影响）",
+    await sha256Hex(new TextEncoder().encode('{\r\n  "a": 1\r\n}\r\n')),
+    await sha256Hex(new TextEncoder().encode('{\n  "a": 1\n}\n')),
+  );
+  eq(
+    "normalizeEol 只丢 CR、长度正确",
+    Array.from(normalizeEol(new TextEncoder().encode("a\r\nb\r\n"))),
+    [97, 10, 98, 10],
   );
 
   console.log("\n[3] 引擎：内置与远端一致 → 不更新");

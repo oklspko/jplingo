@@ -123,9 +123,28 @@ export function verifySize(actual: number, expected: number): boolean {
   return actual > 0 && actual === expected;
 }
 
-/** sha256（WebView / Node 18+ 都有 crypto.subtle） */
+/**
+ * 换行归一化（CRLF → LF）。
+ *
+ * 为什么需要：`data/manifest.json` 里的 size/sha256 由 CI（Linux，LF）生成，
+ * 而开发机 git 常带 `core.autocrlf=true`（工作区 CRLF）。若不归一化，
+ * 同名同内容的 JSON 会因为换行符不同算出不同哈希 → 清单版本不一致、误判「有新数据」。
+ * 数据文件全是文本 JSON，统一按 LF 计算，机制就不依赖构建/部署环境。
+ */
+export function normalizeEol(bytes: Uint8Array): Uint8Array {
+  if (bytes.indexOf(13) < 0) return bytes; // 没有 \r 直接返回
+  const out = new Uint8Array(bytes.length);
+  let n = 0;
+  for (let i = 0; i < bytes.length; i++) {
+    if (bytes[i] === 13 && bytes[i + 1] === 10) continue; // 丢弃 CR
+    out[n++] = bytes[i];
+  }
+  return out.slice(0, n);
+}
+
+/** sha256（WebView / Node 18+ 都有 crypto.subtle），先做换行归一化 */
 export async function sha256Hex(data: ArrayBuffer | Uint8Array): Promise<string> {
-  const buf = data instanceof Uint8Array ? data : new Uint8Array(data);
+  const buf = normalizeEol(data instanceof Uint8Array ? data : new Uint8Array(data));
   const digest = await globalThis.crypto.subtle.digest("SHA-256", buf as unknown as ArrayBuffer);
   return Array.from(new Uint8Array(digest))
     .map((b) => b.toString(16).padStart(2, "0"))

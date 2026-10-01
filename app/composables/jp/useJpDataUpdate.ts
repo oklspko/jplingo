@@ -10,6 +10,7 @@ import {
 import {
   base64ToBytes,
   formatBytes,
+  normalizeEol,
   planUpdate,
   sha256Hex,
   shortVersion,
@@ -139,17 +140,23 @@ async function downloadOne(file: DataManifest["files"][number], base: string): P
   const url = `${base}/${file.path}`;
   const target = `${DATA_DIR}/${file.path}`;
   await Filesystem.downloadFile({ url, path: target, directory: Directory.Data, recursive: true });
+  // 安卓 downloadFile 不校验 content-length（读多少写多少，截断也算成功），所以必须自查。
+  // 校验值统一按「LF 归一化后」计算（见 jpDataPack.normalizeEol），因此不依赖部署环境的换行符；
+  // 数据文件都远小于 HASH_LIMIT，可以整个读进来校验大小 + sha256。
+  if (file.size <= HASH_LIMIT) {
+    const res = await Filesystem.readFile({ path: target, directory: Directory.Data });
+    if (typeof res.data !== "string") throw new Error(`${file.path} 读取失败`);
+    const bytes = normalizeEol(base64ToBytes(res.data));
+    if (!verifySize(bytes.length, file.size)) {
+      throw new Error(`${file.path} 下载不完整（${bytes.length}/${file.size} 字节）`);
+    }
+    const got = await sha256Hex(bytes);
+    if (got !== file.sha256) throw new Error(`${file.path} 校验失败（sha256 不符）`);
+    return;
+  }
   const stat = await Filesystem.stat({ path: target, directory: Directory.Data });
   if (!verifySize(stat.size, file.size)) {
     throw new Error(`${file.path} 下载不完整（${stat.size}/${file.size} 字节）`);
-  }
-  // 小文件再做 sha256 校验（安卓 downloadFile 不校验 content-length，size 已能挡住截断，这里是加倍保险）
-  if (file.size <= HASH_LIMIT) {
-    const res = await Filesystem.readFile({ path: target, directory: Directory.Data });
-    if (typeof res.data === "string") {
-      const got = await sha256Hex(base64ToBytes(res.data));
-      if (got !== file.sha256) throw new Error(`${file.path} 校验失败（sha256 不符）`);
-    }
   }
 }
 

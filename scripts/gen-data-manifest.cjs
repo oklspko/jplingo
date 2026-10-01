@@ -40,6 +40,16 @@ function sha256(buf) {
   return crypto.createHash("sha256").update(buf).digest("hex");
 }
 
+/**
+ * 换行归一化（CRLF → LF）后再计算 size/sha256。
+ * 数据文件都是文本 JSON；开发机 git 常带 core.autocrlf=true（工作区 CRLF），
+ * 而 CI/EdgeOne 是 LF。不归一化的话，同内容的文件会算出不同哈希，
+ * 本地生成的清单与线上清单版本不一致（会被误判成「有新数据」）。
+ */
+function normalized(buf) {
+  return buf.includes(13) ? Buffer.from(buf.toString("binary").replace(/\r\n/g, "\n"), "binary") : buf;
+}
+
 function collect() {
   const abs = [];
   for (const d of DATA_DIRS) {
@@ -55,7 +65,7 @@ function collect() {
     .map((p) => p.replace(/\\/g, "/"))
     .sort()
     .map((p) => {
-      const buf = fs.readFileSync(p);
+      const buf = normalized(fs.readFileSync(p));
       return {
         path: path.relative(PUBLIC, p).replace(/\\/g, "/"),
         size: buf.length,

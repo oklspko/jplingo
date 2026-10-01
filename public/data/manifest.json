@@ -1,13 +1,13 @@
 {
-  "version": "sha256:7647996444fd3e588ec21fbc7d0c9763",
-  "generatedAt": "2026-10-01T14:11:10.234Z",
+  "version": "sha256:180627ff004247101acc83ba05ac3d9a",
+  "generatedAt": "2026-10-01T14:19:58.818Z",
   "base": "https://www.jplingo.cn",
-  "bytes": 6899569,
+  "bytes": 6899558,
   "files": [
     {
       "path": "courses/course-pack.json",
-      "size": 265,
-      "sha256": "0e71aa4d2089747800bb05465c2176ee026e0434ff6139e86f43528b876e691f"
+      "size": 254,
+      "sha256": "9f1be91b0992601fe7ba78f39b1502b510883a660dff5d81e9cba2f7fb6ec6ca"
     },
     {
       "path": "courses/course-packs.json",
