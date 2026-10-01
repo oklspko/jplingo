@@ -6,6 +6,7 @@
  *   node scripts/build-grow.cjs --lesson 02            # 只校验 + 预览（不落盘）
  *   node scripts/build-grow.cjs --lesson 02 --write    # 写出 public/courses/jp-growing/jp-grow-02.json
  *   node scripts/build-grow.cjs --lesson 03 --write
+ *   node scripts/build-grow.cjs --reorder 01 --write   # 只把已有课程的句子重排成「短句在前」（内容必须一模一样）
  *
  * 课程结构（与 buildGrowingOrder 的新规则一致）：
  *   - 单词在前（id 从 01 起），句子在后；句子按「短句在前、长句在后」写入文件
@@ -366,6 +367,44 @@ function main() {
     const i = process.argv.indexOf(name);
     return i >= 0 ? process.argv[i + 1] : null;
   };
+
+  // 模式二：只重排已有课程（内容必须逐条一致，仅把句子按长度升序排列并重编 id）
+  const reorderId = arg("--reorder");
+  if (reorderId) {
+    const file = path.join(DIR, `jp-grow-${reorderId}.json`);
+    if (!fs.existsSync(file)) {
+      console.error(`找不到 ${file}`);
+      process.exit(2);
+    }
+    const course = JSON.parse(fs.readFileSync(file, "utf8"));
+    const words = course.statements.filter((s) => !isSentence(s));
+    const sents = course.statements.filter(isSentence);
+    const ordered = sents
+      .map((s, index) => ({ s, index }))
+      .sort((a, b) => a.s.tokens.length - b.s.tokens.length || a.index - b.index)
+      .map((x) => x.s);
+
+    let n = 0;
+    const statements = [...words, ...ordered].map((s) => ({ ...s, id: String(++n).padStart(2, "0") }));
+    const before = course.statements.map((s) => s.japanese).sort();
+    const after = statements.map((s) => s.japanese).sort();
+    const same = before.length === after.length && before.every((v, i) => v === after[i]);
+    const lens = ordered.map((s) => s.tokens.length);
+    const ascending = lens.every((v, i) => i === 0 || v >= lens[i - 1]);
+
+    console.log(`jp-grow-${reorderId}：词 ${words.length} / 句 ${sents.length}`);
+    console.log(`  句长 ${lens[0]} → ${lens[lens.length - 1]} token，短句在前: ${ascending ? "OK" : "违反"}`);
+    console.log(`  内容逐条一致: ${same ? "OK" : "**不一致，拒绝写入**"}`);
+    if (!same || !ascending) process.exit(1);
+    if (process.argv.includes("--write")) {
+      fs.writeFileSync(file, JSON.stringify({ ...course, statements }, null, 2) + "\n", "utf8");
+      console.log(`  已重排写出 ${path.basename(file)}`);
+    } else {
+      console.log("  （预览模式，加 --write 写出）");
+    }
+    return;
+  }
+
   const key = arg("--lesson") || "02";
   const lesson = LESSONS[key];
   if (!lesson) {

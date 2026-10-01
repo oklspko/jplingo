@@ -110,7 +110,13 @@ async function main() {
       const order = buildPracticeOrder("jp-growing", course.statements);
       const lens = lengths(order as never);
       const ok = lens.every((v, i) => i === 0 || v >= lens[i - 1]);
-      check(`${f} 句子长度升序（${lens[0]} → ${lens.at(-1)} token）`, ok, JSON.stringify(lens));
+      check(`${f} 出题顺序句子长度升序（${lens[0]} → ${lens.at(-1)} token）`, ok, JSON.stringify(lens));
+      // 文件里也要短句在前（与运行时一致，便于阅读；用 --reorder 修正）
+      const fileLens = lengths(
+        (course.statements as Array<{ tokens?: unknown[] }>).filter(isSentence) as never,
+      );
+      const fileOk = fileLens.every((v, i) => i === 0 || v >= fileLens[i - 1]);
+      check(`${f} 文件里句子也是短句在前（${fileLens[0]} → ${fileLens.at(-1)} token）`, fileOk, JSON.stringify(fileLens));
       const wordSet = new Set(
         dedupeStatements(course.statements)
           .filter((s: { tokens?: unknown[] }) => !isSentence(s))
