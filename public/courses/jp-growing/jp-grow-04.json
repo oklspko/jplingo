@@ -1,0 +1,1761 @@
+{
+  "id": "jp-grow-04",
+  "coursePackId": "jp-growing",
+  "title": "餐厅吃饭",
+  "order": 4,
+  "statements": [
+    {
+      "id": "01",
+      "chinese": "我",
+      "japanese": "私",
+      "kana": "わたし",
+      "romaji": "watashi",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "chinese": "朋友",
+      "japanese": "友達",
+      "kana": "ともだち",
+      "romaji": "tomodachi",
+      "tokens": [
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "chinese": "车站",
+      "japanese": "駅",
+      "kana": "えき",
+      "romaji": "eki",
+      "tokens": [
+        {
+          "text": "駅",
+          "kana": "えき"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "chinese": "餐厅",
+      "japanese": "レストラン",
+      "kana": "れすとらん",
+      "romaji": "resutoran",
+      "tokens": [
+        {
+          "text": "レストラン",
+          "kana": "れすとらん"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "chinese": "新的",
+      "japanese": "新しい",
+      "kana": "あたらしい",
+      "romaji": "atarashii",
+      "tokens": [
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "chinese": "日本",
+      "japanese": "日本",
+      "kana": "にほん",
+      "romaji": "nihon",
+      "tokens": [
+        {
+          "text": "日本",
+          "kana": "にほん"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "chinese": "菜、饭菜",
+      "japanese": "料理",
+      "kana": "りょうり",
+      "romaji": "ryouri",
+      "tokens": [
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "chinese": "好吃的",
+      "japanese": "おいしい",
+      "kana": "おいしい",
+      "romaji": "oishii",
+      "tokens": [
+        {
+          "text": "おいしい",
+          "kana": "おいしい"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "chinese": "鱼",
+      "japanese": "魚",
+      "kana": "さかな",
+      "romaji": "sakana",
+      "tokens": [
+        {
+          "text": "魚",
+          "kana": "さかな"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "chinese": "天妇罗",
+      "japanese": "天ぷら",
+      "kana": "てんぷら",
+      "romaji": "tenpura",
+      "tokens": [
+        {
+          "text": "天ぷら",
+          "kana": "てんぷら"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "chinese": "寿司",
+      "japanese": "寿司",
+      "kana": "すし",
+      "romaji": "sushi",
+      "tokens": [
+        {
+          "text": "寿司",
+          "kana": "すし"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "chinese": "吃",
+      "japanese": "食べます",
+      "kana": "たべます",
+      "romaji": "tabemasu",
+      "tokens": [
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "chinese": "吃了",
+      "japanese": "食べました",
+      "kana": "たべました",
+      "romaji": "tabemashita",
+      "tokens": [
+        {
+          "text": "食べました",
+          "kana": "たべました"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "chinese": "今天",
+      "japanese": "今日",
+      "kana": "きょう",
+      "romaji": "kyou",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "chinese": "昨天",
+      "japanese": "昨日",
+      "kana": "きのう",
+      "romaji": "kinou",
+      "tokens": [
+        {
+          "text": "昨日",
+          "kana": "きのう"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "chinese": "明天",
+      "japanese": "明日",
+      "kana": "あした",
+      "romaji": "ashita",
+      "tokens": [
+        {
+          "text": "明日",
+          "kana": "あした"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "chinese": "晚上",
+      "japanese": "夜",
+      "kana": "よる",
+      "romaji": "yoru",
+      "tokens": [
+        {
+          "text": "夜",
+          "kana": "よる"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "chinese": "七点",
+      "japanese": "七時",
+      "kana": "しちじ",
+      "romaji": "shichiji",
+      "tokens": [
+        {
+          "text": "七時",
+          "kana": "しちじ"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "chinese": "店",
+      "japanese": "店",
+      "kana": "みせ",
+      "romaji": "mise",
+      "tokens": [
+        {
+          "text": "店",
+          "kana": "みせ"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "chinese": "套餐",
+      "japanese": "定食",
+      "kana": "ていしょく",
+      "romaji": "teishoku",
+      "tokens": [
+        {
+          "text": "定食",
+          "kana": "ていしょく"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "chinese": "热的",
+      "japanese": "熱い",
+      "kana": "あつい",
+      "romaji": "atsui",
+      "tokens": [
+        {
+          "text": "熱い",
+          "kana": "あつい"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "chinese": "冰的",
+      "japanese": "冷たい",
+      "kana": "つめたい",
+      "romaji": "tsumetai",
+      "tokens": [
+        {
+          "text": "冷たい",
+          "kana": "つめたい"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "chinese": "饮料",
+      "japanese": "飲み物",
+      "kana": "のみもの",
+      "romaji": "nomimono",
+      "tokens": [
+        {
+          "text": "飲み物",
+          "kana": "のみもの"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "chinese": "喝",
+      "japanese": "飲みます",
+      "kana": "のみます",
+      "romaji": "nomimasu",
+      "tokens": [
+        {
+          "text": "飲みます",
+          "kana": "のみます"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "chinese": "店员",
+      "japanese": "店員",
+      "kana": "てんいん",
+      "romaji": "tenin",
+      "tokens": [
+        {
+          "text": "店員",
+          "kana": "てんいん"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "chinese": "点餐",
+      "japanese": "注文します",
+      "kana": "ちゅうもんします",
+      "romaji": "chuumon shimasu",
+      "tokens": [
+        {
+          "text": "注文します",
+          "kana": "ちゅうもんします"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "chinese": "等",
+      "japanese": "待ちます",
+      "kana": "まちます",
+      "romaji": "machimasu",
+      "tokens": [
+        {
+          "text": "待ちます",
+          "kana": "まちます"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "chinese": "来",
+      "japanese": "来ます",
+      "kana": "きます",
+      "romaji": "kimasu",
+      "tokens": [
+        {
+          "text": "来ます",
+          "kana": "きます"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "chinese": "宽敞的",
+      "japanese": "広い",
+      "kana": "ひろい",
+      "romaji": "hiroi",
+      "tokens": [
+        {
+          "text": "広い",
+          "kana": "ひろい"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "chinese": "安静",
+      "japanese": "静か",
+      "kana": "しずか",
+      "romaji": "shizuka",
+      "tokens": [
+        {
+          "text": "静か",
+          "kana": "しずか"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "chinese": "我吃菜。",
+      "japanese": "私は料理を食べます",
+      "kana": "わたしはりょうりをたべます",
+      "romaji": "watashi wa ryouri を tabemasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "chinese": "我向店员点餐。",
+      "japanese": "私は店員に注文します",
+      "kana": "わたしはてんいんにちゅうもんします",
+      "romaji": "watashi wa tenin に chuumon shimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "店員",
+          "kana": "てんいん"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "注文します",
+          "kana": "ちゅうもんします"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "chinese": "明天店员来店里。",
+      "japanese": "明日店員が店に来ます",
+      "kana": "あしたてんいんがみせにきます",
+      "romaji": "ashita tenin が mise に kimasu",
+      "tokens": [
+        {
+          "text": "明日",
+          "kana": "あした"
+        },
+        {
+          "text": "店員",
+          "kana": "てんいん"
+        },
+        {
+          "text": "が",
+          "kana": "が"
+        },
+        {
+          "text": "店",
+          "kana": "みせ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "来ます",
+          "kana": "きます"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "chinese": "我喝热饮。",
+      "japanese": "私は熱い飲み物を飲みます",
+      "kana": "わたしはあついのみものをのみます",
+      "romaji": "watashi wa atsui nomimono を nomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "熱い",
+          "kana": "あつい"
+        },
+        {
+          "text": "飲み物",
+          "kana": "のみもの"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "飲みます",
+          "kana": "のみます"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "chinese": "我喝冰饮。",
+      "japanese": "私は冷たい飲み物を飲みます",
+      "kana": "わたしはつめたいのみものをのみます",
+      "romaji": "watashi wa tsumetai nomimono を nomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "冷たい",
+          "kana": "つめたい"
+        },
+        {
+          "text": "飲み物",
+          "kana": "のみもの"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "飲みます",
+          "kana": "のみます"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "chinese": "我在餐厅吃菜。",
+      "japanese": "私はレストランで料理を食べます",
+      "kana": "わたしはれすとらんでりょうりをたべます",
+      "romaji": "watashi wa resutoran で ryouri を tabemasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "レストラン",
+          "kana": "れすとらん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "chinese": "我在店里等店员。",
+      "japanese": "私は店で店員を待ちます",
+      "kana": "わたしはみせでてんいんをまちます",
+      "romaji": "watashi wa mise で tenin を machimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "店",
+          "kana": "みせ"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "店員",
+          "kana": "てんいん"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "待ちます",
+          "kana": "まちます"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "chinese": "昨天我在店里吃了寿司。",
+      "japanese": "昨日私は店で寿司を食べました",
+      "kana": "きのうわたしはみせですしをたべました",
+      "romaji": "kinou watashi wa mise で sushi を tabemashita",
+      "tokens": [
+        {
+          "text": "昨日",
+          "kana": "きのう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "店",
+          "kana": "みせ"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "寿司",
+          "kana": "すし"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "食べました",
+          "kana": "たべました"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "chinese": "我在车站的餐厅吃菜。",
+      "japanese": "私は駅のレストランで料理を食べます",
+      "kana": "わたしはえきのれすとらんでりょうりをたべます",
+      "romaji": "watashi wa eki の resutoran で ryouri を tabemasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "駅",
+          "kana": "えき"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "レストラン",
+          "kana": "れすとらん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "chinese": "我在安静的店里喝饮料。",
+      "japanese": "私は静かな店で飲み物を飲みます",
+      "kana": "わたしはしずかなみせでのみものをのみます",
+      "romaji": "watashi wa shizuka な mise で nomimono を nomimasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "静か",
+          "kana": "しずか"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "店",
+          "kana": "みせ"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "飲み物",
+          "kana": "のみもの"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "飲みます",
+          "kana": "のみます"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "chinese": "我在车站那家新餐厅吃菜。",
+      "japanese": "私は駅の新しいレストランで料理を食べます",
+      "kana": "わたしはえきのあたらしいれすとらんでりょうりをたべます",
+      "romaji": "watashi wa eki の atarashii resutoran で ryouri を tabemasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "駅",
+          "kana": "えき"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "レストラン",
+          "kana": "れすとらん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "chinese": "明天我在车站的餐厅吃套餐。",
+      "japanese": "明日私は駅のレストランで定食を食べます",
+      "kana": "あしたわたしはえきのれすとらんでていしょくをたべます",
+      "romaji": "ashita watashi wa eki の resutoran で teishoku を tabemasu",
+      "tokens": [
+        {
+          "text": "明日",
+          "kana": "あした"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "駅",
+          "kana": "えき"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "レストラン",
+          "kana": "れすとらん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "定食",
+          "kana": "ていしょく"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "chinese": "我在车站那家宽敞的店里吃套餐。",
+      "japanese": "私は駅の広い店で定食を食べます",
+      "kana": "わたしはえきのひろいみせでていしょくをたべます",
+      "romaji": "watashi wa eki の hiroi mise で teishoku を tabemasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "駅",
+          "kana": "えき"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "広い",
+          "kana": "ひろい"
+        },
+        {
+          "text": "店",
+          "kana": "みせ"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "定食",
+          "kana": "ていしょく"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "chinese": "我在车站那家新餐厅吃日本菜。",
+      "japanese": "私は駅の新しいレストランで日本の料理を食べます",
+      "kana": "わたしはえきのあたらしいれすとらんでにほんのりょうりをたべます",
+      "romaji": "watashi wa eki の atarashii resutoran で nihon の ryouri を tabemasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "駅",
+          "kana": "えき"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "レストラン",
+          "kana": "れすとらん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "日本",
+          "kana": "にほん"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "chinese": "我在车站那家新餐厅吃好吃的日本菜。",
+      "japanese": "私は駅の新しいレストランでおいしい日本の料理を食べます",
+      "kana": "わたしはえきのあたらしいれすとらんでおいしいにほんのりょうりをたべます",
+      "romaji": "watashi wa eki の atarashii resutoran で oishii nihon の ryouri を tabemasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "駅",
+          "kana": "えき"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "レストラン",
+          "kana": "れすとらん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "おいしい",
+          "kana": "おいしい"
+        },
+        {
+          "text": "日本",
+          "kana": "にほん"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "今天我在车站那家新餐厅吃好吃的日本菜。",
+      "japanese": "今日私は駅の新しいレストランでおいしい日本の料理を食べます",
+      "kana": "きょうわたしはえきのあたらしいれすとらんでおいしいにほんのりょうりをたべます",
+      "romaji": "kyou watashi wa eki の atarashii resutoran で oishii nihon の ryouri を tabemasu",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "駅",
+          "kana": "えき"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "レストラン",
+          "kana": "れすとらん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "おいしい",
+          "kana": "おいしい"
+        },
+        {
+          "text": "日本",
+          "kana": "にほん"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "chinese": "今天我和朋友在车站那家新餐厅吃好吃的日本菜。",
+      "japanese": "今日私は友達と駅の新しいレストランでおいしい日本の料理を食べます",
+      "kana": "きょうわたしはともだちとえきのあたらしいれすとらんでおいしいにほんのりょうりをたべます",
+      "romaji": "kyou watashi wa tomodachi と eki の atarashii resutoran で oishii nihon の ryouri を tabemasu",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "駅",
+          "kana": "えき"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "レストラン",
+          "kana": "れすとらん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "おいしい",
+          "kana": "おいしい"
+        },
+        {
+          "text": "日本",
+          "kana": "にほん"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "chinese": "今天我和朋友在车站那家新餐厅吃好吃的日本菜和鱼。",
+      "japanese": "今日私は友達と駅の新しいレストランでおいしい日本の料理と魚を食べます",
+      "kana": "きょうわたしはともだちとえきのあたらしいれすとらんでおいしいにほんのりょうりとさかなをたべます",
+      "romaji": "kyou watashi wa tomodachi と eki の atarashii resutoran で oishii nihon の ryouri と sakana を tabemasu",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "駅",
+          "kana": "えき"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "レストラン",
+          "kana": "れすとらん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "おいしい",
+          "kana": "おいしい"
+        },
+        {
+          "text": "日本",
+          "kana": "にほん"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "魚",
+          "kana": "さかな"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "chinese": "今天我和朋友在车站那家新餐厅吃好吃的日本菜、鱼和天妇罗。",
+      "japanese": "今日私は友達と駅の新しいレストランでおいしい日本の料理と魚と天ぷらを食べます",
+      "kana": "きょうわたしはともだちとえきのあたらしいれすとらんでおいしいにほんのりょうりとさかなとてんぷらをたべます",
+      "romaji": "kyou watashi wa tomodachi と eki の atarashii resutoran で oishii nihon の ryouri と sakana と tenpura を tabemasu",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "駅",
+          "kana": "えき"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "レストラン",
+          "kana": "れすとらん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "おいしい",
+          "kana": "おいしい"
+        },
+        {
+          "text": "日本",
+          "kana": "にほん"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "魚",
+          "kana": "さかな"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "天ぷら",
+          "kana": "てんぷら"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "chinese": "今天我和朋友在车站那家新餐厅吃好吃的日本菜、鱼、天妇罗和寿司。",
+      "japanese": "今日私は友達と駅の新しいレストランでおいしい日本の料理と魚と天ぷらと寿司を食べます",
+      "kana": "きょうわたしはともだちとえきのあたらしいれすとらんでおいしいにほんのりょうりとさかなとてんぷらとすしをたべます",
+      "romaji": "kyou watashi wa tomodachi と eki の atarashii resutoran で oishii nihon の ryouri と sakana と tenpura と sushi を tabemasu",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "駅",
+          "kana": "えき"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "レストラン",
+          "kana": "れすとらん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "おいしい",
+          "kana": "おいしい"
+        },
+        {
+          "text": "日本",
+          "kana": "にほん"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "魚",
+          "kana": "さかな"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "天ぷら",
+          "kana": "てんぷら"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "寿司",
+          "kana": "すし"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "chinese": "今天我和朋友七点在车站那家新餐厅吃好吃的日本菜、鱼、天妇罗和寿司。",
+      "japanese": "今日私は友達と駅の新しいレストランで七時においしい日本の料理と魚と天ぷらと寿司を食べます",
+      "kana": "きょうわたしはともだちとえきのあたらしいれすとらんでしちじにおいしいにほんのりょうりとさかなとてんぷらとすしをたべます",
+      "romaji": "kyou watashi wa tomodachi と eki の atarashii resutoran で shichiji に oishii nihon の ryouri と sakana と tenpura と sushi を tabemasu",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "駅",
+          "kana": "えき"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "レストラン",
+          "kana": "れすとらん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "七時",
+          "kana": "しちじ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "おいしい",
+          "kana": "おいしい"
+        },
+        {
+          "text": "日本",
+          "kana": "にほん"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "魚",
+          "kana": "さかな"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "天ぷら",
+          "kana": "てんぷら"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "寿司",
+          "kana": "すし"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "chinese": "今天我和朋友晚上七点在车站那家新餐厅吃好吃的日本菜、鱼、天妇罗和寿司。",
+      "japanese": "今日私は友達と駅の新しいレストランで夜七時においしい日本の料理と魚と天ぷらと寿司を食べます",
+      "kana": "きょうわたしはともだちとえきのあたらしいれすとらんでよるしちじにおいしいにほんのりょうりとさかなとてんぷらとすしをたべます",
+      "romaji": "kyou watashi wa tomodachi と eki の atarashii resutoran で yoru shichiji に oishii nihon の ryouri と sakana と tenpura と sushi を tabemasu",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "駅",
+          "kana": "えき"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "レストラン",
+          "kana": "れすとらん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "夜",
+          "kana": "よる"
+        },
+        {
+          "text": "七時",
+          "kana": "しちじ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "おいしい",
+          "kana": "おいしい"
+        },
+        {
+          "text": "日本",
+          "kana": "にほん"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "魚",
+          "kana": "さかな"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "天ぷら",
+          "kana": "てんぷら"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "寿司",
+          "kana": "すし"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "chinese": "今天我和朋友晚上七点在车站那家新餐厅吃好吃的日本菜、鱼、天妇罗、寿司和套餐。",
+      "japanese": "今日私は友達と駅の新しいレストランで夜七時においしい日本の料理と魚と天ぷらと寿司と定食を食べます",
+      "kana": "きょうわたしはともだちとえきのあたらしいれすとらんでよるしちじにおいしいにほんのりょうりとさかなとてんぷらとすしとていしょくをたべます",
+      "romaji": "kyou watashi wa tomodachi と eki の atarashii resutoran で yoru shichiji に oishii nihon の ryouri と sakana と tenpura と sushi と teishoku を tabemasu",
+      "tokens": [
+        {
+          "text": "今日",
+          "kana": "きょう"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "友達",
+          "kana": "ともだち"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "駅",
+          "kana": "えき"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "新しい",
+          "kana": "あたらしい"
+        },
+        {
+          "text": "レストラン",
+          "kana": "れすとらん"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "夜",
+          "kana": "よる"
+        },
+        {
+          "text": "七時",
+          "kana": "しちじ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "おいしい",
+          "kana": "おいしい"
+        },
+        {
+          "text": "日本",
+          "kana": "にほん"
+        },
+        {
+          "text": "の",
+          "kana": "の"
+        },
+        {
+          "text": "料理",
+          "kana": "りょうり"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "魚",
+          "kana": "さかな"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "天ぷら",
+          "kana": "てんぷら"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "寿司",
+          "kana": "すし"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "定食",
+          "kana": "ていしょく"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    }
+  ]
+}
