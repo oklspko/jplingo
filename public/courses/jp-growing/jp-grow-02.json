@@ -1383,10 +1383,10 @@
     },
     {
       "id": "50",
-      "chinese": "我每周六在安静的图书馆和朋友一起读新的日语书、有趣的杂志和报纸。",
-      "japanese": "私は毎週土曜日に静かな図書館で友達と一緒に新しい日本語の本と面白い雑誌と新聞を読みます",
-      "kana": "わたしはまいしゅうどようびにしずかなとしょかんでともだちといっしょにあたらしいにほんごのほんとおもしろいざっしとしんぶんをよみます",
-      "romaji": "watashi wa maishuu doyoubi に shizuka な toshokan で tomodachi と issho ni atarashii nihongo の hon と omoshiroi zasshi と shinbun を yomimasu",
+      "chinese": "我每周六在安静的图书馆和朋友一起慢慢读新的日语书和有趣的杂志。",
+      "japanese": "私は毎週土曜日に静かな図書館で友達と一緒に新しい日本語の本と面白い雑誌をゆっくり読みます",
+      "kana": "わたしはまいしゅうどようびにしずかなとしょかんでともだちといっしょにあたらしいにほんごのほんとおもしろいざっしをゆっくりよみます",
+      "romaji": "watashi wa maishuu doyoubi に shizuka な toshokan で tomodachi と issho ni atarashii nihongo の hon と omoshiroi zasshi を yukkuri yomimasu",
       "tokens": [
         {
           "text": "私",
@@ -1463,115 +1463,6 @@
         {
           "text": "雑誌",
           "kana": "ざっし"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "新聞",
-          "kana": "しんぶん"
-        },
-        {
-          "text": "を",
-          "kana": "を"
-        },
-        {
-          "text": "読みます",
-          "kana": "よみます"
-        }
-      ]
-    },
-    {
-      "id": "51",
-      "chinese": "我每周六在安静的图书馆和朋友一起慢慢地读新的日语书、有趣的杂志和报纸。",
-      "japanese": "私は毎週土曜日に静かな図書館で友達と一緒に新しい日本語の本と面白い雑誌と新聞をゆっくり読みます",
-      "kana": "わたしはまいしゅうどようびにしずかなとしょかんでともだちといっしょにあたらしいにほんごのほんとおもしろいざっしとしんぶんをゆっくりよみます",
-      "romaji": "watashi wa maishuu doyoubi に shizuka な toshokan で tomodachi と issho ni atarashii nihongo の hon と omoshiroi zasshi と shinbun を yukkuri yomimasu",
-      "tokens": [
-        {
-          "text": "私",
-          "kana": "わたし"
-        },
-        {
-          "text": "は",
-          "kana": "は"
-        },
-        {
-          "text": "毎週",
-          "kana": "まいしゅう"
-        },
-        {
-          "text": "土曜日",
-          "kana": "どようび"
-        },
-        {
-          "text": "に",
-          "kana": "に"
-        },
-        {
-          "text": "静か",
-          "kana": "しずか"
-        },
-        {
-          "text": "な",
-          "kana": "な"
-        },
-        {
-          "text": "図書館",
-          "kana": "としょかん"
-        },
-        {
-          "text": "で",
-          "kana": "で"
-        },
-        {
-          "text": "友達",
-          "kana": "ともだち"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "一緒に",
-          "kana": "いっしょに"
-        },
-        {
-          "text": "新しい",
-          "kana": "あたらしい"
-        },
-        {
-          "text": "日本語",
-          "kana": "にほんご"
-        },
-        {
-          "text": "の",
-          "kana": "の"
-        },
-        {
-          "text": "本",
-          "kana": "ほん"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "面白い",
-          "kana": "おもしろい"
-        },
-        {
-          "text": "雑誌",
-          "kana": "ざっし"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "新聞",
-          "kana": "しんぶん"
         },
         {
           "text": "を",

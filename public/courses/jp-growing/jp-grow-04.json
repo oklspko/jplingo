@@ -1331,10 +1331,10 @@
     },
     {
       "id": "50",
-      "chinese": "今天我和朋友在车站那家新餐厅吃好吃的日本菜、鱼、天妇罗和寿司。",
-      "japanese": "今日私は友達と駅の新しいレストランでおいしい日本の料理と魚と天ぷらと寿司を食べます",
-      "kana": "きょうわたしはともだちとえきのあたらしいれすとらんでおいしいにほんのりょうりとさかなとてんぷらとすしをたべます",
-      "romaji": "kyou watashi wa tomodachi と eki の atarashii resutoran で oishii nihon の ryouri と sakana と tenpura と sushi を tabemasu",
+      "chinese": "今天我和朋友七点在车站那家新餐厅吃好吃的日本菜、鱼和天妇罗。",
+      "japanese": "今日私は友達と駅の新しいレストランで七時においしい日本の料理と魚と天ぷらを食べます",
+      "kana": "きょうわたしはともだちとえきのあたらしいれすとらんでしちじにおいしいにほんのりょうりとさかなとてんぷらをたべます",
+      "romaji": "kyou watashi wa tomodachi と eki の atarashii resutoran で shichiji に oishii nihon の ryouri と sakana と tenpura を tabemasu",
       "tokens": [
         {
           "text": "今日",
@@ -1377,6 +1377,14 @@
           "kana": "で"
         },
         {
+          "text": "七時",
+          "kana": "しちじ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
           "text": "おいしい",
           "kana": "おいしい"
         },
@@ -1407,14 +1415,6 @@
         {
           "text": "天ぷら",
           "kana": "てんぷら"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "寿司",
-          "kana": "すし"
         },
         {
           "text": "を",
@@ -1428,115 +1428,10 @@
     },
     {
       "id": "51",
-      "chinese": "今天我和朋友七点在车站那家新餐厅吃好吃的日本菜、鱼、天妇罗和寿司。",
-      "japanese": "今日私は友達と駅の新しいレストランで七時においしい日本の料理と魚と天ぷらと寿司を食べます",
-      "kana": "きょうわたしはともだちとえきのあたらしいれすとらんでしちじにおいしいにほんのりょうりとさかなとてんぷらとすしをたべます",
-      "romaji": "kyou watashi wa tomodachi と eki の atarashii resutoran で shichiji に oishii nihon の ryouri と sakana と tenpura と sushi を tabemasu",
-      "tokens": [
-        {
-          "text": "今日",
-          "kana": "きょう"
-        },
-        {
-          "text": "私",
-          "kana": "わたし"
-        },
-        {
-          "text": "は",
-          "kana": "は"
-        },
-        {
-          "text": "友達",
-          "kana": "ともだち"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "駅",
-          "kana": "えき"
-        },
-        {
-          "text": "の",
-          "kana": "の"
-        },
-        {
-          "text": "新しい",
-          "kana": "あたらしい"
-        },
-        {
-          "text": "レストラン",
-          "kana": "れすとらん"
-        },
-        {
-          "text": "で",
-          "kana": "で"
-        },
-        {
-          "text": "七時",
-          "kana": "しちじ"
-        },
-        {
-          "text": "に",
-          "kana": "に"
-        },
-        {
-          "text": "おいしい",
-          "kana": "おいしい"
-        },
-        {
-          "text": "日本",
-          "kana": "にほん"
-        },
-        {
-          "text": "の",
-          "kana": "の"
-        },
-        {
-          "text": "料理",
-          "kana": "りょうり"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "魚",
-          "kana": "さかな"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "天ぷら",
-          "kana": "てんぷら"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "寿司",
-          "kana": "すし"
-        },
-        {
-          "text": "を",
-          "kana": "を"
-        },
-        {
-          "text": "食べます",
-          "kana": "たべます"
-        }
-      ]
-    },
-    {
-      "id": "52",
-      "chinese": "今天我和朋友晚上七点在车站那家新餐厅吃好吃的日本菜、鱼、天妇罗和寿司。",
-      "japanese": "今日私は友達と駅の新しいレストランで夜七時においしい日本の料理と魚と天ぷらと寿司を食べます",
-      "kana": "きょうわたしはともだちとえきのあたらしいれすとらんでよるしちじにおいしいにほんのりょうりとさかなとてんぷらとすしをたべます",
-      "romaji": "kyou watashi wa tomodachi と eki の atarashii resutoran で yoru shichiji に oishii nihon の ryouri と sakana と tenpura と sushi を tabemasu",
+      "chinese": "今天我和朋友晚上七点在车站那家新餐厅吃好吃的日本菜、鱼和天妇罗。",
+      "japanese": "今日私は友達と駅の新しいレストランで夜七時においしい日本の料理と魚と天ぷらを食べます",
+      "kana": "きょうわたしはともだちとえきのあたらしいれすとらんでよるしちじにおいしいにほんのりょうりとさかなとてんぷらをたべます",
+      "romaji": "kyou watashi wa tomodachi と eki の atarashii resutoran で yoru shichiji に oishii nihon の ryouri と sakana と tenpura を tabemasu",
       "tokens": [
         {
           "text": "今日",
@@ -1621,131 +1516,6 @@
         {
           "text": "天ぷら",
           "kana": "てんぷら"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "寿司",
-          "kana": "すし"
-        },
-        {
-          "text": "を",
-          "kana": "を"
-        },
-        {
-          "text": "食べます",
-          "kana": "たべます"
-        }
-      ]
-    },
-    {
-      "id": "53",
-      "chinese": "今天我和朋友晚上七点在车站那家新餐厅吃好吃的日本菜、鱼、天妇罗、寿司和套餐。",
-      "japanese": "今日私は友達と駅の新しいレストランで夜七時においしい日本の料理と魚と天ぷらと寿司と定食を食べます",
-      "kana": "きょうわたしはともだちとえきのあたらしいれすとらんでよるしちじにおいしいにほんのりょうりとさかなとてんぷらとすしとていしょくをたべます",
-      "romaji": "kyou watashi wa tomodachi と eki の atarashii resutoran で yoru shichiji に oishii nihon の ryouri と sakana と tenpura と sushi と teishoku を tabemasu",
-      "tokens": [
-        {
-          "text": "今日",
-          "kana": "きょう"
-        },
-        {
-          "text": "私",
-          "kana": "わたし"
-        },
-        {
-          "text": "は",
-          "kana": "は"
-        },
-        {
-          "text": "友達",
-          "kana": "ともだち"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "駅",
-          "kana": "えき"
-        },
-        {
-          "text": "の",
-          "kana": "の"
-        },
-        {
-          "text": "新しい",
-          "kana": "あたらしい"
-        },
-        {
-          "text": "レストラン",
-          "kana": "れすとらん"
-        },
-        {
-          "text": "で",
-          "kana": "で"
-        },
-        {
-          "text": "夜",
-          "kana": "よる"
-        },
-        {
-          "text": "七時",
-          "kana": "しちじ"
-        },
-        {
-          "text": "に",
-          "kana": "に"
-        },
-        {
-          "text": "おいしい",
-          "kana": "おいしい"
-        },
-        {
-          "text": "日本",
-          "kana": "にほん"
-        },
-        {
-          "text": "の",
-          "kana": "の"
-        },
-        {
-          "text": "料理",
-          "kana": "りょうり"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "魚",
-          "kana": "さかな"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "天ぷら",
-          "kana": "てんぷら"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "寿司",
-          "kana": "すし"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "定食",
-          "kana": "ていしょく"
         },
         {
           "text": "を",

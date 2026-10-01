@@ -123,6 +123,25 @@ async function main() {
           .map((s: { japanese: string }) => s.japanese),
       );
       eq(`${f} 五条不变量无违反`, verifyInvariants(order as never, wordSet as Set<string>), []);
+
+      // 自然度条款：全句「と」≤3、同句不重复内容词（长度不设指标，自然优先）
+      const sents = (course.statements as Array<{ japanese: string; tokens: Array<{ text: string }> }>).filter(
+        (s: { tokens?: unknown[] }) => (s.tokens || []).length > 1,
+      );
+      const overTo = sents
+        .map((s: { japanese: string; tokens: Array<{ text: string }> }) => ({
+          ja: s.japanese,
+          n: s.tokens.filter((t) => t.text === "と").length,
+        }))
+        .filter((x: { n: number }) => x.n > 3);
+      eq(`jp-grow ${f} 「と」最多 3 个`, overTo, []);
+      const dupWords = sents
+        .filter((s: { tokens: Array<{ text: string }> }) => {
+          const cs = s.tokens.filter((t) => !PARTICLES.has(t.text)).map((t) => t.text);
+          return cs.length !== new Set(cs).size;
+        })
+        .map((s: { japanese: string }) => s.japanese);
+      eq(`${f} 同句不重复内容词`, dupWords, []);
       eq(`${f} 题数 = 数据条数`, order.length, course.statements.length);
       const terminator = order.filter(isSentence).at(-1) as { tokens?: unknown[] };
       check(

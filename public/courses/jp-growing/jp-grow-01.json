@@ -214,19 +214,6 @@
     },
     {
       "id": "17",
-      "chinese": "筷子",
-      "japanese": "お箸",
-      "kana": "おはし",
-      "romaji": "ohashi",
-      "tokens": [
-        {
-          "text": "お箸",
-          "kana": "おはし"
-        }
-      ]
-    },
-    {
-      "id": "18",
       "chinese": "慢慢地",
       "japanese": "ゆっくり",
       "kana": "ゆっくり",
@@ -239,7 +226,7 @@
       ]
     },
     {
-      "id": "19",
+      "id": "18",
       "chinese": "每天晚上",
       "japanese": "毎晩",
       "kana": "まいばん",
@@ -252,7 +239,7 @@
       ]
     },
     {
-      "id": "20",
+      "id": "19",
       "chinese": "八点",
       "japanese": "八時",
       "kana": "はちじ",
@@ -265,7 +252,7 @@
       ]
     },
     {
-      "id": "21",
+      "id": "20",
       "chinese": "家",
       "japanese": "家",
       "kana": "いえ",
@@ -278,7 +265,7 @@
       ]
     },
     {
-      "id": "22",
+      "id": "21",
       "chinese": "牛奶",
       "japanese": "牛乳",
       "kana": "ぎゅうにゅう",
@@ -291,7 +278,7 @@
       ]
     },
     {
-      "id": "23",
+      "id": "22",
       "chinese": "喝",
       "japanese": "飲みます",
       "kana": "のみます",
@@ -304,7 +291,7 @@
       ]
     },
     {
-      "id": "24",
+      "id": "23",
       "chinese": "今天早上",
       "japanese": "今朝",
       "kana": "けさ",
@@ -317,7 +304,7 @@
       ]
     },
     {
-      "id": "25",
+      "id": "24",
       "chinese": "安静",
       "japanese": "静か",
       "kana": "しずか",
@@ -330,7 +317,7 @@
       ]
     },
     {
-      "id": "26",
+      "id": "25",
       "chinese": "凉",
       "japanese": "冷たい",
       "kana": "つめたい",
@@ -343,7 +330,7 @@
       ]
     },
     {
-      "id": "27",
+      "id": "26",
       "chinese": "茶",
       "japanese": "お茶",
       "kana": "おちゃ",
@@ -356,7 +343,7 @@
       ]
     },
     {
-      "id": "28",
+      "id": "27",
       "chinese": "昨天",
       "japanese": "昨日",
       "kana": "きのう",
@@ -369,7 +356,7 @@
       ]
     },
     {
-      "id": "29",
+      "id": "28",
       "chinese": "吃了",
       "japanese": "食べました",
       "kana": "たべました",
@@ -382,7 +369,7 @@
       ]
     },
     {
-      "id": "30",
+      "id": "29",
       "chinese": "喝了",
       "japanese": "飲みました",
       "kana": "のみました",
@@ -395,11 +382,11 @@
       ]
     },
     {
-      "id": "31",
+      "id": "30",
       "chinese": "我吃米饭。",
       "japanese": "私はご飯を食べます",
       "kana": "わたしはごはんをたべます",
-      "romaji": "watashi wa gohan wo tabemasu",
+      "romaji": "watashi wa gohan を tabemasu",
       "tokens": [
         {
           "text": "私",
@@ -424,11 +411,11 @@
       ]
     },
     {
-      "id": "32",
+      "id": "31",
       "chinese": "我吃面包。",
       "japanese": "私はパンを食べます",
       "kana": "わたしはぱんをたべます",
-      "romaji": "watashi wa pan wo tabemasu",
+      "romaji": "watashi wa pan を tabemasu",
       "tokens": [
         {
           "text": "私",
@@ -453,11 +440,11 @@
       ]
     },
     {
-      "id": "33",
+      "id": "32",
       "chinese": "我吃鸡蛋。",
       "japanese": "私は卵を食べます",
       "kana": "わたしはたまごをたべます",
-      "romaji": "watashi wa tamago wo tabemasu",
+      "romaji": "watashi wa tamago を tabemasu",
       "tokens": [
         {
           "text": "私",
@@ -482,11 +469,11 @@
       ]
     },
     {
-      "id": "34",
+      "id": "33",
       "chinese": "我每天早上吃米饭。",
       "japanese": "私は毎朝ご飯を食べます",
       "kana": "わたしはまいあさごはんをたべます",
-      "romaji": "watashi wa maiasa gohan wo tabemasu",
+      "romaji": "watashi wa maiasa gohan を tabemasu",
       "tokens": [
         {
           "text": "私",
@@ -515,11 +502,11 @@
       ]
     },
     {
-      "id": "35",
+      "id": "34",
       "chinese": "我每天早上七点吃米饭。",
       "japanese": "私は毎朝七時にご飯を食べます",
       "kana": "わたしはまいあさしちじにごはんをたべます",
-      "romaji": "watashi wa maiasa shichiji ni gohan wo tabemasu",
+      "romaji": "watashi wa maiasa shichiji に gohan を tabemasu",
       "tokens": [
         {
           "text": "私",
@@ -556,11 +543,11 @@
       ]
     },
     {
-      "id": "36",
+      "id": "35",
       "chinese": "我每天早上七点在厨房吃米饭。",
       "japanese": "私は毎朝七時に台所でご飯を食べます",
       "kana": "わたしはまいあさしちじにだいどころでごはんをたべます",
-      "romaji": "watashi wa maiasa shichiji ni daidokoro de gohan wo tabemasu",
+      "romaji": "watashi wa maiasa shichiji に daidokoro で gohan を tabemasu",
       "tokens": [
         {
           "text": "私",
@@ -605,11 +592,11 @@
       ]
     },
     {
-      "id": "37",
+      "id": "36",
       "chinese": "我每天早上七点在餐厅吃米饭。",
       "japanese": "私は毎朝七時に食堂でご飯を食べます",
       "kana": "わたしはまいあさしちじにしょくどうでごはんをたべます",
-      "romaji": "watashi wa maiasa shichiji ni shokudou de gohan wo tabemasu",
+      "romaji": "watashi wa maiasa shichiji に shokudou で gohan を tabemasu",
       "tokens": [
         {
           "text": "私",
@@ -654,11 +641,11 @@
       ]
     },
     {
-      "id": "38",
+      "id": "37",
       "chinese": "昨天我在明亮的厨房吃了温热的米饭。",
       "japanese": "昨日私は明るい台所で温かいご飯を食べました",
       "kana": "きのうわたしはあかるいだいどころであたたかいごはんをたべました",
-      "romaji": "kinou watashi wa akarui daidokoro de atatakai gohan wo tabemashita",
+      "romaji": "kinou watashi wa akarui daidokoro で atatakai gohan を tabemashita",
       "tokens": [
         {
           "text": "昨日",
@@ -703,11 +690,11 @@
       ]
     },
     {
-      "id": "39",
+      "id": "38",
       "chinese": "我每天早上七点在明亮的厨房吃米饭。",
       "japanese": "私は毎朝七時に明るい台所でご飯を食べます",
       "kana": "わたしはまいあさしちじにあかるいだいどころでごはんをたべます",
-      "romaji": "watashi wa maiasa shichiji ni akarui daidokoro de gohan wo tabemasu",
+      "romaji": "watashi wa maiasa shichiji に akarui daidokoro で gohan を tabemasu",
       "tokens": [
         {
           "text": "私",
@@ -756,11 +743,11 @@
       ]
     },
     {
-      "id": "40",
+      "id": "39",
       "chinese": "我每天晚上八点在家喝温牛奶。",
       "japanese": "私は毎晩八時に家で温かい牛乳を飲みます",
       "kana": "わたしはまいばんはちじにいえであたたかいぎゅうにゅうをのみます",
-      "romaji": "watashi wa maiban hachiji ni ie de atatakai gyuunyuu wo nomimasu",
+      "romaji": "watashi wa maiban hachiji に ie で atatakai gyuunyuu を nomimasu",
       "tokens": [
         {
           "text": "私",
@@ -809,64 +796,11 @@
       ]
     },
     {
-      "id": "41",
-      "chinese": "今天早上我在安静的餐厅喝了凉茶。",
-      "japanese": "今朝私は静かな食堂で冷たいお茶を飲みました",
-      "kana": "けさわたしはしずかなしょくどうでつめたいおちゃをのみました",
-      "romaji": "kesa watashi wa shizukana shokudou de tsumetai ocha wo nomimashita",
-      "tokens": [
-        {
-          "text": "今朝",
-          "kana": "けさ"
-        },
-        {
-          "text": "私",
-          "kana": "わたし"
-        },
-        {
-          "text": "は",
-          "kana": "は"
-        },
-        {
-          "text": "静か",
-          "kana": "しずか"
-        },
-        {
-          "text": "な",
-          "kana": "な"
-        },
-        {
-          "text": "食堂",
-          "kana": "しょくどう"
-        },
-        {
-          "text": "で",
-          "kana": "で"
-        },
-        {
-          "text": "冷たい",
-          "kana": "つめたい"
-        },
-        {
-          "text": "お茶",
-          "kana": "おちゃ"
-        },
-        {
-          "text": "を",
-          "kana": "を"
-        },
-        {
-          "text": "飲みました",
-          "kana": "のみました"
-        }
-      ]
-    },
-    {
-      "id": "42",
+      "id": "40",
       "chinese": "昨天我在安静的餐厅喝了温茶。",
       "japanese": "昨日私は静かな食堂で温かいお茶を飲みました",
       "kana": "きのうわたしはしずかなしょくどうであたたかいおちゃをのみました",
-      "romaji": "kinou watashi wa shizukana shokudou de atatakai ocha wo nomimashita",
+      "romaji": "kinou watashi wa shizuka な shokudou で atatakai ocha を nomimashita",
       "tokens": [
         {
           "text": "昨日",
@@ -915,11 +849,11 @@
       ]
     },
     {
-      "id": "43",
+      "id": "41",
       "chinese": "我每天早上七点在明亮的厨房吃温热的米饭。",
       "japanese": "私は毎朝七時に明るい台所で温かいご飯を食べます",
       "kana": "わたしはまいあさしちじにあかるいだいどころであたたかいごはんをたべます",
-      "romaji": "watashi wa maiasa shichiji ni akarui daidokoro de atatakai gohan wo tabemasu",
+      "romaji": "watashi wa maiasa shichiji に akarui daidokoro で atatakai gohan を tabemasu",
       "tokens": [
         {
           "text": "私",
@@ -972,11 +906,68 @@
       ]
     },
     {
-      "id": "44",
+      "id": "42",
+      "chinese": "今天早上我在安静的食堂慢慢喝了冰茶。",
+      "japanese": "今朝私は静かな食堂で冷たいお茶をゆっくり飲みました",
+      "kana": "けさわたしはしずかなしょくどうでつめたいおちゃをゆっくりのみました",
+      "romaji": "kesa watashi wa shizuka な shokudou で tsumetai ocha を yukkuri nomimashita",
+      "tokens": [
+        {
+          "text": "今朝",
+          "kana": "けさ"
+        },
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "静か",
+          "kana": "しずか"
+        },
+        {
+          "text": "な",
+          "kana": "な"
+        },
+        {
+          "text": "食堂",
+          "kana": "しょくどう"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "冷たい",
+          "kana": "つめたい"
+        },
+        {
+          "text": "お茶",
+          "kana": "おちゃ"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "ゆっくり",
+          "kana": "ゆっくり"
+        },
+        {
+          "text": "飲みました",
+          "kana": "のみました"
+        }
+      ]
+    },
+    {
+      "id": "43",
       "chinese": "我每天早上七点在明亮的厨房和家人吃温热的米饭。",
       "japanese": "私は毎朝七時に明るい台所で家族と温かいご飯を食べます",
       "kana": "わたしはまいあさしちじにあかるいだいどころでかぞくとあたたかいごはんをたべます",
-      "romaji": "watashi wa maiasa shichiji ni akarui daidokoro de kazoku to atatakai gohan wo tabemasu",
+      "romaji": "watashi wa maiasa shichiji に akarui daidokoro で kazoku と atatakai gohan を tabemasu",
       "tokens": [
         {
           "text": "私",
@@ -1037,11 +1028,11 @@
       ]
     },
     {
-      "id": "45",
+      "id": "44",
       "chinese": "我每天早上七点在明亮的厨房和家人一起吃温热的米饭。",
       "japanese": "私は毎朝七時に明るい台所で家族と一緒に温かいご飯を食べます",
       "kana": "わたしはまいあさしちじにあかるいだいどころでかぞくといっしょにあたたかいごはんをたべます",
-      "romaji": "watashi wa maiasa shichiji ni akarui daidokoro de kazoku to isshoni atatakai gohan wo tabemasu",
+      "romaji": "watashi wa maiasa shichiji に akarui daidokoro で kazoku と isshoni atatakai gohan を tabemasu",
       "tokens": [
         {
           "text": "私",
@@ -1106,11 +1097,11 @@
       ]
     },
     {
-      "id": "46",
+      "id": "45",
       "chinese": "我每天早上七点在明亮的厨房和家人一起吃温热的米饭和味噌汤。",
       "japanese": "私は毎朝七時に明るい台所で家族と一緒に温かいご飯と味噌汁を食べます",
       "kana": "わたしはまいあさしちじにあかるいだいどころでかぞくといっしょにあたたかいごはんとみそしるをたべます",
-      "romaji": "watashi wa maiasa shichiji ni akarui daidokoro de kazoku to isshoni atatakai gohan to misoshiru wo tabemasu",
+      "romaji": "watashi wa maiasa shichiji に akarui daidokoro で kazoku と isshoni atatakai gohan と misoshiru を tabemasu",
       "tokens": [
         {
           "text": "私",
@@ -1143,6 +1134,91 @@
         {
           "text": "で",
           "kana": "で"
+        },
+        {
+          "text": "家族",
+          "kana": "かぞく"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "一緒に",
+          "kana": "いっしょに"
+        },
+        {
+          "text": "温かい",
+          "kana": "あたたかい"
+        },
+        {
+          "text": "ご飯",
+          "kana": "ごはん"
+        },
+        {
+          "text": "と",
+          "kana": "と"
+        },
+        {
+          "text": "味噌汁",
+          "kana": "みそしる"
+        },
+        {
+          "text": "を",
+          "kana": "を"
+        },
+        {
+          "text": "食べます",
+          "kana": "たべます"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "chinese": "我每天早上七点在明亮的厨房和最喜欢的家人一起吃温热的米饭和味噌汤。",
+      "japanese": "私は毎朝七時に明るい台所で大好きな家族と一緒に温かいご飯と味噌汁を食べます",
+      "kana": "わたしはまいあさしちじにあかるいだいどころでだいすきなかぞくといっしょにあたたかいごはんとみそしるをたべます",
+      "romaji": "watashi wa maiasa shichiji に akarui daidokoro で daisuki な kazoku と isshoni atatakai gohan と misoshiru を tabemasu",
+      "tokens": [
+        {
+          "text": "私",
+          "kana": "わたし"
+        },
+        {
+          "text": "は",
+          "kana": "は"
+        },
+        {
+          "text": "毎朝",
+          "kana": "まいあさ"
+        },
+        {
+          "text": "七時",
+          "kana": "しちじ"
+        },
+        {
+          "text": "に",
+          "kana": "に"
+        },
+        {
+          "text": "明るい",
+          "kana": "あかるい"
+        },
+        {
+          "text": "台所",
+          "kana": "だいどころ"
+        },
+        {
+          "text": "で",
+          "kana": "で"
+        },
+        {
+          "text": "大好き",
+          "kana": "だいすき"
+        },
+        {
+          "text": "な",
+          "kana": "な"
         },
         {
           "text": "家族",
@@ -1184,95 +1260,10 @@
     },
     {
       "id": "47",
-      "chinese": "我每天早上七点在明亮的厨房和最喜欢的家人一起吃温热的米饭和味噌汤。",
-      "japanese": "私は毎朝七時に明るい台所で大好きな家族と一緒に温かいご飯と味噌汁を食べます",
-      "kana": "わたしはまいあさしちじにあかるいだいどころでだいすきなかぞくといっしょにあたたかいごはんとみそしるをたべます",
-      "romaji": "watashi wa maiasa shichiji ni akarui daidokoro de daisukina kazoku to isshoni atatakai gohan to misoshiru wo tabemasu",
-      "tokens": [
-        {
-          "text": "私",
-          "kana": "わたし"
-        },
-        {
-          "text": "は",
-          "kana": "は"
-        },
-        {
-          "text": "毎朝",
-          "kana": "まいあさ"
-        },
-        {
-          "text": "七時",
-          "kana": "しちじ"
-        },
-        {
-          "text": "に",
-          "kana": "に"
-        },
-        {
-          "text": "明るい",
-          "kana": "あかるい"
-        },
-        {
-          "text": "台所",
-          "kana": "だいどころ"
-        },
-        {
-          "text": "で",
-          "kana": "で"
-        },
-        {
-          "text": "大好き",
-          "kana": "だいすき"
-        },
-        {
-          "text": "な",
-          "kana": "な"
-        },
-        {
-          "text": "家族",
-          "kana": "かぞく"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "一緒に",
-          "kana": "いっしょに"
-        },
-        {
-          "text": "温かい",
-          "kana": "あたたかい"
-        },
-        {
-          "text": "ご飯",
-          "kana": "ごはん"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "味噌汁",
-          "kana": "みそしる"
-        },
-        {
-          "text": "を",
-          "kana": "を"
-        },
-        {
-          "text": "食べます",
-          "kana": "たべます"
-        }
-      ]
-    },
-    {
-      "id": "48",
       "chinese": "我每天早上七点在明亮的厨房和最喜欢的家人一起吃温热的米饭和好喝的味噌汤。",
       "japanese": "私は毎朝七時に明るい台所で大好きな家族と一緒に温かいご飯とおいしい味噌汁を食べます",
       "kana": "わたしはまいあさしちじにあかるいだいどころでだいすきなかぞくといっしょにあたたかいごはんとおいしいみそしるをたべます",
-      "romaji": "watashi wa maiasa shichiji ni akarui daidokoro de daisukina kazoku to isshoni atatakai gohan to oishii misoshiru wo tabemasu",
+      "romaji": "watashi wa maiasa shichiji に akarui daidokoro で daisuki な kazoku と isshoni atatakai gohan と oishii misoshiru を tabemasu",
       "tokens": [
         {
           "text": "私",
@@ -1349,204 +1340,6 @@
         {
           "text": "を",
           "kana": "を"
-        },
-        {
-          "text": "食べます",
-          "kana": "たべます"
-        }
-      ]
-    },
-    {
-      "id": "49",
-      "chinese": "我每天早上七点在明亮的厨房和最喜欢的家人一起用筷子吃温热的米饭和好喝的味噌汤。",
-      "japanese": "私は毎朝七時に明るい台所で大好きな家族と一緒に温かいご飯とおいしい味噌汁をお箸で食べます",
-      "kana": "わたしはまいあさしちじにあかるいだいどころでだいすきなかぞくといっしょにあたたかいごはんとおいしいみそしるをおはしでたべます",
-      "romaji": "watashi wa maiasa shichiji ni akarui daidokoro de daisukina kazoku to isshoni atatakai gohan to oishii misoshiru wo ohashi de tabemasu",
-      "tokens": [
-        {
-          "text": "私",
-          "kana": "わたし"
-        },
-        {
-          "text": "は",
-          "kana": "は"
-        },
-        {
-          "text": "毎朝",
-          "kana": "まいあさ"
-        },
-        {
-          "text": "七時",
-          "kana": "しちじ"
-        },
-        {
-          "text": "に",
-          "kana": "に"
-        },
-        {
-          "text": "明るい",
-          "kana": "あかるい"
-        },
-        {
-          "text": "台所",
-          "kana": "だいどころ"
-        },
-        {
-          "text": "で",
-          "kana": "で"
-        },
-        {
-          "text": "大好き",
-          "kana": "だいすき"
-        },
-        {
-          "text": "な",
-          "kana": "な"
-        },
-        {
-          "text": "家族",
-          "kana": "かぞく"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "一緒に",
-          "kana": "いっしょに"
-        },
-        {
-          "text": "温かい",
-          "kana": "あたたかい"
-        },
-        {
-          "text": "ご飯",
-          "kana": "ごはん"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "おいしい",
-          "kana": "おいしい"
-        },
-        {
-          "text": "味噌汁",
-          "kana": "みそしる"
-        },
-        {
-          "text": "を",
-          "kana": "を"
-        },
-        {
-          "text": "お箸",
-          "kana": "おはし"
-        },
-        {
-          "text": "で",
-          "kana": "で"
-        },
-        {
-          "text": "食べます",
-          "kana": "たべます"
-        }
-      ]
-    },
-    {
-      "id": "50",
-      "chinese": "我每天早上七点在明亮的厨房和最喜欢的家人一起用筷子慢慢吃温热的米饭和好喝的味噌汤。",
-      "japanese": "私は毎朝七時に明るい台所で大好きな家族と一緒に温かいご飯とおいしい味噌汁をお箸でゆっくり食べます",
-      "kana": "わたしはまいあさしちじにあかるいだいどころでだいすきなかぞくといっしょにあたたかいごはんとおいしいみそしるをおはしでゆっくりたべます",
-      "romaji": "watashi wa maiasa shichiji ni akarui daidokoro de daisukina kazoku to isshoni atatakai gohan to oishii misoshiru wo ohashi de yukkuri tabemasu",
-      "tokens": [
-        {
-          "text": "私",
-          "kana": "わたし"
-        },
-        {
-          "text": "は",
-          "kana": "は"
-        },
-        {
-          "text": "毎朝",
-          "kana": "まいあさ"
-        },
-        {
-          "text": "七時",
-          "kana": "しちじ"
-        },
-        {
-          "text": "に",
-          "kana": "に"
-        },
-        {
-          "text": "明るい",
-          "kana": "あかるい"
-        },
-        {
-          "text": "台所",
-          "kana": "だいどころ"
-        },
-        {
-          "text": "で",
-          "kana": "で"
-        },
-        {
-          "text": "大好き",
-          "kana": "だいすき"
-        },
-        {
-          "text": "な",
-          "kana": "な"
-        },
-        {
-          "text": "家族",
-          "kana": "かぞく"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "一緒に",
-          "kana": "いっしょに"
-        },
-        {
-          "text": "温かい",
-          "kana": "あたたかい"
-        },
-        {
-          "text": "ご飯",
-          "kana": "ごはん"
-        },
-        {
-          "text": "と",
-          "kana": "と"
-        },
-        {
-          "text": "おいしい",
-          "kana": "おいしい"
-        },
-        {
-          "text": "味噌汁",
-          "kana": "みそしる"
-        },
-        {
-          "text": "を",
-          "kana": "を"
-        },
-        {
-          "text": "お箸",
-          "kana": "おはし"
-        },
-        {
-          "text": "で",
-          "kana": "で"
-        },
-        {
-          "text": "ゆっくり",
-          "kana": "ゆっくり"
         },
         {
           "text": "食べます",
