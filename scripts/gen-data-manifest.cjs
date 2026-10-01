@@ -19,7 +19,8 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const ROOT = path.resolve(__dirname, "..");
-const PUBLIC = path.join(ROOT, "public");
+// 默认扫仓库的 public/；打 APK 时由 strip-apk-test-data.cjs 指定 .output/public（那里的文件可能被剔除过）
+const PUBLIC = process.env.JPLINGO_PUBLIC_DIR || path.join(ROOT, "public");
 const OUT = path.join(PUBLIC, "data", "manifest.json");
 
 /** 参与热更新的数据根目录（相对 public/） */

@@ -72,6 +72,12 @@ jobs:
           fi
           ls .output/public | head -20
 
+      # 让 APK 只带「上一版」的数据：本次新增的课程/语法内容不打包进去，
+      # 留给 App 启动后的数据热更新拉取——这样「不重装也能拿到新课」才可验证，
+      # 也符合真实发布节奏（内容可以随时更新，不必等用户升级 App）。
+      - name: Strip newest hot-update data from APK payload
+        run: node scripts/strip-apk-test-data.cjs
+
       - name: Sync Capacitor web assets
         run: npx cap sync android
 
