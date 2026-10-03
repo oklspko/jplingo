@@ -27,6 +27,13 @@ async function prepareHotData() {
 
 export default defineNuxtConfig({
   ssr: false,
+  // 兼容微信 X5 / QQ 浏览器等偏旧的国产内核：把构建目标降一档，
+  // 避免产出它们解析不了的新语法（表现为白屏或直接报错）。
+  vite: {
+    build: {
+      target: ["es2019", "chrome80", "safari13"],
+    },
+  },
   hooks: {
     "build:before": prepareHotData,
   },

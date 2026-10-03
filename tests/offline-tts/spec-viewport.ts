@@ -30,8 +30,14 @@ function fakeDoc(hasMeta = true) {
   return { doc, state };
 }
 
-function win(hostname: string, innerWidth: number, userAgent = "Mozilla/5.0 (Linux; Android 13)") {
-  return { location: { hostname }, innerWidth, navigator: { userAgent } };
+function win(
+  hostname: string,
+  innerWidth: number,
+  userAgent = "Mozilla/5.0 (Linux; Android 13)",
+  screenWidth = 0,
+  maxTouchPoints = 0,
+) {
+  return { location: { hostname }, innerWidth, screen: { width: screenWidth }, navigator: { userAgent, maxTouchPoints } };
 }
 
 async function main() {
@@ -102,6 +108,38 @@ async function main() {
       },
     };
     eq("异常被吞掉，不拖垮启动", forceMobileViewport(win("localhost", 980), broken), false);
+  }
+
+  console.log("\n[6] 国产内核 / UA 认不出来也要兜住（微信 X5、QQ、UC…，或靠 screen.width）");
+  {
+    const { doc } = fakeDoc();
+    const wx = win(
+      "www.jplingo.cn",
+      980,
+      "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 Mobile/15E148 MicroMessenger/8.0.44",
+    );
+    eq("微信（980 视口）→ 改写", forceMobileViewport(wx, doc), true);
+  }
+  {
+    const { doc } = fakeDoc();
+    const qq = win(
+      "www.jplingo.cn",
+      980,
+      "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/107 Mobile Safari/537.36 MQQBrowser/6.2",
+    );
+    eq("QQ 浏览器（980 视口）→ 改写", forceMobileViewport(qq, doc), true);
+  }
+  {
+    const { doc } = fakeDoc();
+    // UA 完全认不出来（自定义内核），但屏幕就是 390 → 按手机处理
+    const weird = win("www.jplingo.cn", 980, "SomeCustomKernel/1.0", 390, 5);
+    eq("UA 认不出但 screen.width=390 → 改写", forceMobileViewport(weird, doc), true);
+  }
+  {
+    const { doc } = fakeDoc();
+    // 真桌面：屏宽 1920 且无触控 → 不动
+    const desktop = win("www.jplingo.cn", 1440, "SomeCustomKernel/1.0", 1920, 0);
+    eq("宽屏无触控（认不出 UA）→ 不动", forceMobileViewport(desktop, doc), false);
   }
 
   const failed = results.filter((r) => !r.ok);

@@ -15,14 +15,32 @@ export const MOBILE_MAX_WIDTH = 768;
 interface ViewportWindow {
   location?: { hostname?: string };
   innerWidth?: number;
-  navigator?: { userAgent?: string };
+  screen?: { width?: number };
+  navigator?: { userAgent?: string; maxTouchPoints?: number };
 }
 
 interface ViewportDocument {
   querySelector(selector: string): { setAttribute(name: string, value: string): void } | null;
 }
 
-const MOBILE_UA = /Android|iPhone|iPad|iPod|Mobile|HarmonyOS/i;
+/** 手机/平板 UA。含 QQ、微信（X5/WKWebView）、UC、夸克等国产内核，它们不一定带 Mobile 字样 */
+const MOBILE_UA =
+  /Android|iPhone|iPad|iPod|Mobile|HarmonyOS|MicroMessenger|QQBrowser|MQQBrowser|QBWebView|Weibo|UCBrowser|Quark|AlipayClient|baiduboxapp|baidubrowser|SogouMobileBrowser|XWEB|X5/i;
+/** 屏幕物理宽度到这个值以内，就当手机/竖屏平板处理（比 UA 更可靠：UA 可能被改、可能认不出来） */
+const SMALL_SCREEN = 900;
+
+/**
+ * 判断是不是「小屏设备」：UA 命中，或屏幕（screen.width）本身就窄。
+ * 用 screen.width 而不是 innerWidth，是因为 innerWidth 会受当前 viewport 设置影响（可能正好是 980）。
+ */
+function isSmallScreen(win: ViewportWindow): boolean {
+  if (MOBILE_UA.test(win.navigator?.userAgent || "")) return true;
+  const sw = win.screen?.width || 0;
+  if (sw > 0 && sw <= SMALL_SCREEN) return true;
+  // 触屏设备再多一层兜底：没有鼠标且支持多点触控，基本就是手机/平板
+  const touch = win.navigator?.maxTouchPoints || 0;
+  return touch > 1 && sw > 0 && sw <= 1366;
+}
 
 /** 返回是否改写了 viewport */
 export function forceMobileViewport(
@@ -31,11 +49,10 @@ export function forceMobileViewport(
 ): boolean {
   try {
     const host = win.location?.hostname || "";
-    // Capacitor 原生端从 https://localhost 提供页面；手机浏览器按 UA 判断。
-    // 桌面浏览器（非手机 UA）不动，避免影响电脑上的正常布局。
+    // Capacitor 原生端从 https://localhost 提供页面；手机浏览器按 UA/屏宽判断。
+    // 桌面浏览器（UA 不是手机、屏幕也宽）不动，避免影响电脑上的正常布局。
     const isNative = host === "localhost" || host === "127.0.0.1";
-    const isMobileBrowser = MOBILE_UA.test(win.navigator?.userAgent || "");
-    if (!isNative && !isMobileBrowser) return false;
+    if (!isNative && !isSmallScreen(win)) return false;
 
     const width = win.innerWidth || 0;
     if (width > 0 && width <= MOBILE_MAX_WIDTH) return false; // 本来就是手机宽度，不必动
