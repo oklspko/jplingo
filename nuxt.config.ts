@@ -25,6 +25,34 @@ async function prepareHotData() {
   }
 }
 
+/**
+ * 动态路由的静态页清单（/jp-game/<pack>/<id> 与 /jp-study/<pack>/<id>）。
+ *
+ * 为什么需要：项目是 SPA，动态路由没有对应文件时静态托管只能返回 404——
+ * 而微信等内置浏览器对非 200 会直接显示错误页（用户看到「打不开」）。
+ * 把课程路由交给 Nuxt 预渲染，会为每条路由生成真实的 index.html（200），
+ * 而且这一步在 `nuxt generate` 内部完成，不依赖托管平台的构建命令或额外的构建步骤。
+ * （EdgeOne 的 rewrites 实测不生效，所以选了这条不依赖托管配置的路。）
+ */
+function courseRoutes(): string[] {
+  try {
+    const indexFile = resolve(process.cwd(), "public/courses/course-packs.json");
+    const data = JSON.parse(readFileSync(indexFile, "utf8")) as {
+      coursePacks?: Array<{ id: string; courses?: string[] }>;
+    };
+    const routes: string[] = [];
+    for (const pack of data.coursePacks || []) {
+      for (const courseId of pack.courses || []) {
+        if (courseId.endsWith("-all")) continue; // 虚拟课程没有独立页面
+        routes.push(`/jp-game/${pack.id}/${courseId}`, `/jp-study/${pack.id}/${courseId}`);
+      }
+    }
+    return routes;
+  } catch {
+    return [];
+  }
+}
+
 export default defineNuxtConfig({
   ssr: false,
   // 兼容微信 X5 / QQ 浏览器等偏旧的国产内核：把构建目标降一档，
@@ -40,6 +68,12 @@ export default defineNuxtConfig({
   // 纯 SPA，产出静态文件，方便 EdgeOne Pages / 静态托管部署
   nitro: {
     preset: "static",
+    prerender: {
+      crawlLinks: false,
+      // 为每条课程路由生成静态页（约 900+ 个很小的 HTML），深链路直接 200
+      routes: courseRoutes(),
+      failOnError: false,
+    },
   },
   devtools: { enabled: true },
   runtimeConfig: {
