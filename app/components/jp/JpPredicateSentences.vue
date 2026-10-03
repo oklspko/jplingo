@@ -109,6 +109,7 @@
 </template>
 
 <script setup lang="ts">
+import { useJpGrammarContent } from "~/composables/jp/useJpGrammarContent";
 const bundlednounRows: string[][] = [
   ["简体", "现在时", "名词 ＋ だ", "名词 ＋ ではない"],
   ["简体", "过去时", "名词 ＋ だった", "名词 ＋ ではなかった"],

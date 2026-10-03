@@ -38,6 +38,7 @@ const specs = [
   "spec-growing.ts",
   "spec-fuzzy.ts",
   "spec-datapack.ts",
+  "spec-grammar-wiring.ts",
 ];
 const alias = {
   "@capacitor/core": path.join(here, "mocks", "core.ts"),

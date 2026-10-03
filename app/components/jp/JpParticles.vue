@@ -37,6 +37,7 @@
 </template>
 
 <script setup lang="ts">
+import { useJpGrammarContent } from "~/composables/jp/useJpGrammarContent";
 interface Usage {
   usage: string;
   example: string;

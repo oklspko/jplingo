@@ -137,6 +137,7 @@
 </template>
 
 <script setup lang="ts">
+import { useJpGrammarContent } from "~/composables/jp/useJpGrammarContent";
 const bundledroles = [
   { name: "主题", desc: "句子在围绕什么讲。" },
   { name: "主语", desc: "动作的发出者。" },

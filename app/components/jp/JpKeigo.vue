@@ -37,6 +37,8 @@
 </template>
 
 <script setup lang="ts">
+import { useJpGrammarContent } from "~/composables/jp/useJpGrammarContent";
+
 interface KeigoExample {
   jp: string;
   zh: string;

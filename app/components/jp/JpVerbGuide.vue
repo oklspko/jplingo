@@ -137,6 +137,7 @@
 </template>
 
 <script setup lang="ts">
+import { useJpGrammarContent } from "~/composables/jp/useJpGrammarContent";
 interface VerbForm {
   name: string;
   c1: string;
