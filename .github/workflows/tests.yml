@@ -1,0 +1,56 @@
+name: tests
+
+# 离线 TTS 前端逻辑自测（278 项断言）纳入 CI。
+#
+# 为什么必须先 generate 再跑自测：`spec-build-safety` 的最后一项断言会核对构建产物里
+# 是否生成了课程深链路目录（`.output/public/jp-game`、`.output/public/jp-study`）。
+# 本机 dist 是指向 .output/public 的 junction，提交前必做的 `git clean -fdq dist`
+# 会把这两个未跟踪目录删掉，于是本地直接重跑会看到一次「假红灯」——
+# 所以这里改成**显式声明**才强制核对：带 `JPLINGO_EXPECT_BUILD=1` 即视为「刚构建过」，
+# 此时缺目录就是真的预渲染漏了课程路由，必须失败（护栏保留）。
+# CI 里没有 junction，先 build 再带该变量跑，可以稳定全绿。
+#
+# 分支策略：只跑 push / 手动触发，不发 PR 评论、不部署、不碰 main 的发布流程。
+
+on:
+  push:
+    branches: [main, "refactor/structure-*"]
+  workflow_dispatch:
+
+# 只读仓库内容即可（本 workflow 不写任何东西）
+permissions:
+  contents: read
+
+jobs:
+  offline-tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # 必须先构建：深链路断言依赖 .output/public 里的课程路由产物
+      - name: Generate static site
+        run: pnpm generate
+        env:
+          # 登录/云同步凭据；CI 不配也不影响构建与自测（离线功能不依赖它）
+          NUXT_SUPABASE_URL: ${{ secrets.NUXT_SUPABASE_URL }}
+          NUXT_SUPABASE_ANON_KEY: ${{ secrets.NUXT_SUPABASE_ANON_KEY }}
+          NUXT_TELEMETRY_DISABLED: "1"
+
+      # 带 JPLINGO_EXPECT_BUILD=1：强制核对课程深链路目录（缺了就是预渲染漏课程路由）
+      - name: Run offline TTS self-tests (expect build artifacts)
+        run: node tests/offline-tts/run.cjs
+        env:
+          JPLINGO_EXPECT_BUILD: "1"
