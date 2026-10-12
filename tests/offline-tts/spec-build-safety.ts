@@ -69,6 +69,52 @@ function main() {
     check("pregenerate 仍是清单生成（已改为失败不中止）", (pkg.scripts.pregenerate || "").includes("gen-data-manifest"), pkg.scripts.pregenerate);
   }
 
+  console.log("\n[3] 预渲染清单必须同时覆盖「静态页面」和「课程深链路」");
+  {
+    const cfg = fs.readFileSync(path.join(ROOT, "nuxt.config.ts"), "utf8");
+    // 事故：nitro.prerender.routes 只写课程路由，会顶掉 Nuxt 默认的页面发现，
+    // 导致 /jp-kana-chart/、/jp-grammar/ 这类静态页在线上 404（静态托管没有 SPA 回退）。
+    check(
+      "prerender.routes 同时包含 staticRoutes() 与 courseRoutes()",
+      /routes:\s*\[[^\]]*staticRoutes\(\)[^\]]*courseRoutes\(\)[^\]]*\]/.test(cfg),
+      "nuxt.config.ts 里的 prerender.routes 写法变了",
+    );
+    check(
+      "staticRoutes() 从 app/pages 目录推导（不会漏页面）",
+      /resolve\(process\.cwd\(\), "app\/pages"\)/.test(cfg),
+      "staticRoutes 的实现看起来不再遍历 app/pages",
+    );
+
+    // 有构建产物时做真实核对：每个静态页面都要有 index.html，否则线上就是 404
+    const outDir = path.join(ROOT, ".output", "public");
+    if (fs.existsSync(outDir)) {
+      const pagesDir = path.join(ROOT, "app", "pages");
+      const missing: string[] = [];
+      const walk = (dir: string, prefix: string) => {
+        for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+          if (entry.isDirectory()) {
+            walk(path.join(dir, entry.name), `${prefix}/${entry.name}`);
+          } else if (entry.name.endsWith(".vue") && !entry.name.includes("[")) {
+            const route = `${prefix}${entry.name === "index.vue" ? "" : `/${entry.name.replace(/\.vue$/, "")}`}`;
+            const file = path.join(outDir, route, "index.html");
+            const alt = path.join(outDir, `${route}.html`);
+            if (!fs.existsSync(file) && !fs.existsSync(alt) && route !== "/") missing.push(route);
+          }
+        }
+      };
+      walk(pagesDir, "");
+      check(
+        `构建产物里每个静态页面都有 index.html（${missing.length === 0 ? "全部齐" : "缺 " + missing.join(", ")}）`,
+        missing.length === 0,
+        `缺少：${missing.join(", ")}（线上会 404）`,
+      );
+      const deep = ["jp-game", "jp-study"].filter((d) => fs.existsSync(path.join(outDir, d)));
+      check("课程深链路目录已生成", deep.length === 2, `只有 ${deep.join(",") || "无"}`);
+    } else {
+      console.log("  [skip] 还没有 .output/public（先跑一次构建，这项会做真实核对）");
+    }
+  }
+
   const failed = results.filter((r) => !r.ok);
   console.log(`\n合计 ${results.length} 项，失败 ${failed.length} 项`);
   if (failed.length) {

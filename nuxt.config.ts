@@ -1,4 +1,4 @@
-import { readFileSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
 // 版本号唯一来源：package.json。发布页 / 侧栏 / 关于页统一读取，改版本只需改 package.json。
@@ -23,6 +23,35 @@ async function prepareHotData() {
   } catch (err) {
     console.warn("[data-manifest] 生成失败（不影响构建，但 App 可能拿不到新数据）：", err);
   }
+}
+
+/**
+ * 静态页面路由（按 app/pages 目录自动推导）。
+ *
+ * 为什么必须显式列全：一旦设置了 `nitro.prerender.routes`，就**只**预渲染这里列出的路由
+ * ——Nuxt 默认的页面自动发现会被顶掉。踩过的坑：只列课程路由后，
+ * `/jp-kana-chart/`、`/jp-grammar/` 这些静态页在线上变成 404（静态托管没有 SPA 回退，
+ * 微信等内置浏览器对非 200 会直接显示错误页）。所以静态页 + 课程深链路都要在这里给全。
+ */
+function staticRoutes(): string[] {
+  const out: string[] = [];
+  try {
+    const walk = (dir: string, prefix: string) => {
+      for (const entry of readdirSync(dir, { withFileTypes: true })) {
+        if (entry.isDirectory()) {
+          walk(resolve(dir, entry.name), `${prefix}/${entry.name}`);
+        } else if (entry.name.endsWith(".vue") && !entry.name.includes("[")) {
+          // index.vue 对应目录路由，其余用文件名
+          out.push(`${prefix}${entry.name === "index.vue" ? "" : `/${entry.name.replace(/\.vue$/, "")}`}` || "/");
+        }
+      }
+    };
+    walk(resolve(process.cwd(), "app/pages"), "");
+  } catch {
+    // 目录读不到时保底：至少别把已知静态页漏掉
+    out.push("/", "/jp-editor", "/jp-grammar", "/jp-home", "/jp-kana-chart", "/jp-me", "/jp-record", "/jp-words", "/login", "/release");
+  }
+  return out.map((r) => (r === "" ? "/" : r));
 }
 
 /**
@@ -70,8 +99,8 @@ export default defineNuxtConfig({
     preset: "static",
     prerender: {
       crawlLinks: false,
-      // 为每条课程路由生成静态页（约 900+ 个很小的 HTML），深链路直接 200
-      routes: courseRoutes(),
+      // 静态页面（app/pages 自动推导）+ 每条课程深链路，共约 930+ 个很小的 HTML
+      routes: [...staticRoutes(), ...courseRoutes()],
       failOnError: false,
     },
   },
