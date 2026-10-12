@@ -108,8 +108,26 @@ function main() {
         missing.length === 0,
         `缺少：${missing.join(", ")}（线上会 404）`,
       );
+      // 深链路目录属于**未跟踪**的构建产物（静态页产物是 git 跟踪的，清理后仍在），
+      // 而提交前必做的 `git clean -fdq dist`（dist 是本机指向 .output/public 的 junction）会把它们删掉。
+      // 所以这里只在显式声明「刚构建过」时做强制核对（CI 与本地构建后这么跑）：
+      //   JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs
+      // 否则只提示，避免把「产物被清理」误判成代码回归（这个假红灯曾真实干扰过重构流程）。
       const deep = ["jp-game", "jp-study"].filter((d) => fs.existsSync(path.join(outDir, d)));
-      check("课程深链路目录已生成", deep.length === 2, `只有 ${deep.join(",") || "无"}`);
+      const expectBuild = process.env.JPLINGO_EXPECT_BUILD === "1";
+      if (deep.length === 2) {
+        check("课程深链路目录已生成", true);
+      } else if (expectBuild) {
+        check(
+          "课程深链路目录已生成（声明刚构建过，却缺目录 = 预渲染漏了课程路由）",
+          false,
+          `只有 ${deep.join(",") || "无"}`,
+        );
+      } else {
+        console.log(
+          "  [skip] 未声明刚构建过，跳过深链路目录核对（设 JPLINGO_EXPECT_BUILD=1 可强制核对）",
+        );
+      }
     } else {
       console.log("  [skip] 还没有 .output/public（先跑一次构建，这项会做真实核对）");
     }

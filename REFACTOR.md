@@ -40,8 +40,11 @@
 - 注意：提交信息用中文；`dist/` 是 junction 且被跟踪，**提交前必须** `git checkout HEAD -- dist; git clean -fdq dist`，**永远不要 `git add dist`**。
 
 ### 步骤 3：自测纳入 CI
-- 做：在 `.github/workflows/build-apk.yml` 之外新增一个轻量 job（或在现有 job 里加一步）：`node tests/offline-tts/run.cjs`，失败即红。
-- 通过标志：故意改坏一个断言 → CI 变红 → 改回 → CI 变绿。
+- 做：新增 `.github/workflows/tests.yml`（或复用现有 workflow 加一个 job），步骤为：
+  1. `pnpm install --frozen-lockfile`
+  2. `pnpm generate`（**必须先构建**，深链路断言依赖产物）
+  3. `JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs`（带这个变量才会强制核对构建产物，见步骤 1 备注 4）
+- 通过标志：把 `refactor/structure-*` 分支 push 到 origin（**只推分支，不推 main**），用 `gh run list` / `gh run watch` 看该 workflow 变绿；本地再故意改坏一个断言确认它变红后改回。
 - 为什么先做：现在 278 项断言**不进 CI**，重构时没人拦你，这是最大风险。
 
 ### 步骤 4：渲染快照对比脚本
@@ -155,7 +158,13 @@
 - 提交：`1ac6d75`
 - 自测：`node tests/offline-tts/run.cjs` → 11 个 spec，合计 **278 项断言，0 失败**
 - 线上版本标记：`1.2.38`（部署正常）
-- 体积基线：`app/` 53 个文件 / 16.7k 行；最大页面 `jp-home` 1450、`jp-editor` 1438、`jp-me` 1341
+- 体积基线（口径见下方可复现脚本）：`git ls-files app` = **54 个文件 / 19,146 行（含空行）/ 17,149 行（非空行）**；
+  最大文件：`jp-home` 1634/1458、`jp-editor` 1612/1438、`jp-me` 1539/1345、`jp-game/[coursePackId]/[id]` 1067/946、`JpParticles` 829/802、`jp-record` 825/726、`jp-grammar-points.ts` 692/689、`JpKeigo` 683/651
+
+可复现的重算命令（重构前后都用它对比，别用别的口径）：
+```bash
+node -e "const{execSync}=require('node:child_process');const fs=require('node:fs');const files=execSync('git ls-files app',{encoding:'utf8'}).trim().split(/\r?\n/).filter(Boolean);let raw=0,nb=0;for(const f of files){const l=fs.readFileSync(f,'utf8').split(/\r?\n/);const b=l.length&&l[l.length-1]===''?l.slice(0,-1):l;raw+=b.length;nb+=b.filter(x=>x.trim()!=='').length}console.log('文件',files.length,'含空行',raw,'非空行',nb)"
+```
 
 ### 步骤 1 复核记录（2026-10-12 实测于 `refactor/structure-safety-net`）
 
@@ -169,8 +178,8 @@
 | 自测断言数 | 同上 | **278 项断言，0 失败**（各 spec 明细：55 + 34 + 10 + 7 + 20 + 14 + 62 + 23 + 42 + 10，另 spec-grammar-wiring 为 1 项接线自检） |
 | 线上版本标记 | `curl.exe -s "https://www.jplingo.cn/index.html?cb=1" \| Select-String -Pattern '1\.2\.\d+'` | `appVersion:"1.2.38"` / `buildId:"1.2.38"`（与本地一致） |
 | 构建产物 | `npx nuxi generate` | `Prerendered 933 routes`，退出码 0；`.output/public` 含 `jp-game/`、`jp-study/` 深链路目录（920 条课程路由 + 静态页） |
-| `app/` 规模 | `git ls-files app` + 逐文件行数 | **54 个文件 / 15,520 行**（与基线写的「53 个文件 / 16.7k 行」有出入，见下方备注） |
-| 三大页面行数 | 逐文件统计 | `jp-home` 1450、`jp-editor` 1438、`jp-me` 1341（与基线**完全一致**，可换算成三页合计 4229 行） |
+| `app/` 规模 | 上方「可复现的重算命令」 | **54 个文件 / 19,146 行（含空行）/ 17,149 行（非空行）** |
+| 三大页面行数 | 同上（含空行/非空行） | `jp-home` 1634/1458、`jp-editor` 1612/1438、`jp-me` 1539/1345 |
 
 > **备注（步骤 1 发现的三处基线偏差，留给后续步骤判断）**
 > 1. **`spec-build-safety` 的最后一项断言依赖构建产物**：`node tests/offline-tts/run.cjs` 里的
@@ -193,9 +202,17 @@
 >    提交后直接重跑自测会看到这 1 项红灯，属**本地 junction 产物被清理**造成，不是代码回归。
 >    后续步骤 3（自测搬进 CI）要利用这一点：**CI 里没有 junction，先 build 再跑自测即可稳定全绿**，
 >    不要把这个本地假红灯当成真的红线。
-> 3. **`app/` 行数口径存疑**：`git ls-files app` 恰好 54 个文件；按「非空行」统计为 15,520 行。
->    基线写的「53 个文件 / 16.7k 行」既对不上文件数也对不上行数，但三大页面行数（1450/1438/1341）与实测**逐字一致**。
->    → 重构前后对比**必须以 15,520 行（54 文件）为基准**，不要沿用 16.7k；差异原因未查（可能是当时用了别的工具或口径）。
+> 3. **`app/` 行数口径**（已修）：最初那组「53 个文件 / 16.7k 行」是 PowerShell `-Include` 通配符统计出来的——
+>    含 `[ ]` 的动态页面路径（`jp-game/[coursePackId]/[id].vue` 等）会被当成通配符过滤掉，行数算法也不同。
+>    现已改为上方那段 Node 脚本（`git ls-files app` + 逐文件统计，同时给含空行与非空行两个数），
+>    **重构前后一律用同一段脚本对比**。
+> 4. **`spec-build-safety` 的假红灯已修**（本步顺带修掉）：
+>    深链路目录（`jp-game/`、`jp-study/`）是**未跟踪**的构建产物（静态页产物是 git 跟踪的，清理后仍在），
+>    而提交前必做的 `git clean -fdq dist`（`dist` 是本机指向 `.output/public` 的 junction）会把它们删掉，
+>    于是「generate 后全绿」与「清理后重跑」互相打架。
+>    现改为**显式声明**才强制核对：`JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs`；
+>    不声明时只打印 `[skip]` 提示。三种情形已实测：清理后未声明 → 跳过全绿；构建后声明 → 强制核对通过；
+>    **声明却缺产物 → 报失败**（护栏保留）。CI 里必须「先 generate 再带该变量跑自测」。
 
 ## 进度记录
 
