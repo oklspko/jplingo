@@ -146,8 +146,8 @@ async function main() {
 module.exports = { main };
 
 if (require.main === module) {
+  // 构建期脚本，不能因为内容导出失败就让构建失败（原因同 gen-data-manifest.cjs）。
   main().catch((err) => {
-    console.error("[content] 生成失败：", err.message);
-    process.exit(1);
+    console.warn("[content] 跳过生成（不影响构建，语法内容会退回内置版本）：", err.message);
   });
 }

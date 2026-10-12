@@ -102,15 +102,22 @@ function generate() {
 }
 
 function main() {
-  const summary = generate();
-  const { files, manifest, out } = summary;
-  const kb = (manifest.bytes / 1024).toFixed(0);
-  console.log(`数据清单已写出：${path.relative(ROOT, out).replace(/\\/g, "/")}`);
-  console.log(`  版本 ${manifest.version}`);
-  console.log(`  ${files.length} 个文件，共 ${kb} KB`);
-  for (const f of files.slice(0, 5)) console.log(`    ${f.path}  ${(f.size / 1024).toFixed(1)} KB`);
-  if (files.length > 5) console.log(`    … 其余 ${files.length - 5} 个`);
-  return manifest;
+  // 构建期脚本，不能因为数据缺失就让整个构建失败（pregenerate 失败会中止 pnpm generate，
+  // 托管平台构建失败会保留旧部署，表现为「推了代码线上却不变」）。失败只警告。
+  try {
+    const summary = generate();
+    const { files, manifest, out } = summary;
+    const kb = (manifest.bytes / 1024).toFixed(0);
+    console.log(`数据清单已写出：${path.relative(ROOT, out).replace(/\\/g, "/")}`);
+    console.log(`  版本 ${manifest.version}`);
+    console.log(`  ${files.length} 个文件，共 ${kb} KB`);
+    for (const f of files.slice(0, 5)) console.log(`    ${f.path}  ${(f.size / 1024).toFixed(1)} KB`);
+    if (files.length > 5) console.log(`    … 其余 ${files.length - 5} 个`);
+    return manifest;
+  } catch (err) {
+    console.warn("[data-manifest] 跳过生成（不影响构建，但 App 可能拿不到新数据）：", err.message);
+    return null;
+  }
 }
 
 /** 供 nuxt.config.ts 调用：任何 Nuxt 构建都会重新生成清单，保证线上清单不会过时 */

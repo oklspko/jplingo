@@ -1,13 +1,13 @@
 {
   "name": "jplingo",
-  "version": "1.2.35",
+  "version": "1.2.36",
   "type": "module",
   "private": true,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "pregenerate": "node scripts/gen-data-manifest.cjs",
-    "generate": "nuxt generate && node scripts/gen-route-shells.cjs",
+    "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },

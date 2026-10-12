@@ -40,36 +40,44 @@ function coursePairs() {
 }
 
 function main(outDir = process.argv[2] || path.join(ROOT, ".output", "public")) {
-  if (!fs.existsSync(outDir)) {
-    console.error(`找不到输出目录 ${outDir}`);
-    process.exit(1);
-  }
-  // Nuxt 的 SPA 外壳：200.html（不带预渲染数据，加载后由前端路由接管）
-  const shellCandidates = ["200.html", "index.html"].map((f) => path.join(outDir, f));
-  const shell = shellCandidates.find((f) => fs.existsSync(f));
-  if (!shell) {
-    console.error("找不到 200.html / index.html，无法生成外壳页");
-    process.exit(1);
-  }
-  const html = fs.readFileSync(shell);
-
-  const pairs = coursePairs();
-  let created = 0;
-  for (const [packId, courseId] of pairs) {
-    for (const prefix of ROUTE_PREFIXES) {
-      const dir = path.join(outDir, prefix, packId, courseId);
-      const file = path.join(dir, "index.html");
-      if (fs.existsSync(file)) continue;
-      fs.mkdirSync(dir, { recursive: true });
-      fs.writeFileSync(file, html);
-      created++;
+  // 这是构建期的辅助步骤，**任何情况下都不能让构建失败**：
+  // 托管平台（EdgeOne Pages 等）构建失败时会保留上一次成功的部署，
+  // 表现成「推了代码但线上一直不变」，极难排查。所以这里只警告、不退出非零。
+  try {
+    if (!fs.existsSync(outDir)) {
+      console.warn(`[route-shells] 跳过：找不到输出目录 ${outDir}`);
+      return 0;
     }
+    // Nuxt 的 SPA 外壳：200.html（不带预渲染数据，加载后由前端路由接管）
+    const shellCandidates = ["200.html", "index.html"].map((f) => path.join(outDir, f));
+    const shell = shellCandidates.find((f) => fs.existsSync(f));
+    if (!shell) {
+      console.warn("[route-shells] 跳过：找不到 200.html / index.html");
+      return 0;
+    }
+    const html = fs.readFileSync(shell);
+
+    const pairs = coursePairs();
+    let created = 0;
+    for (const [packId, courseId] of pairs) {
+      for (const prefix of ROUTE_PREFIXES) {
+        const dir = path.join(outDir, prefix, packId, courseId);
+        const file = path.join(dir, "index.html");
+        if (fs.existsSync(file)) continue;
+        fs.mkdirSync(dir, { recursive: true });
+        fs.writeFileSync(file, html);
+        created++;
+      }
+    }
+    console.log(
+      `[route-shells] 用 ${path.basename(shell)} 生成 ${created} 个深链路外壳页` +
+        `（${pairs.length} 门课 × ${ROUTE_PREFIXES.length} 个路由）`,
+    );
+    return created;
+  } catch (err) {
+    console.warn("[route-shells] 生成失败（不影响构建，深链路可能回退为 404）：", err);
+    return 0;
   }
-  console.log(
-    `[route-shells] 用 ${path.basename(shell)} 生成 ${created} 个深链路外壳页` +
-      `（${pairs.length} 门课 × ${ROUTE_PREFIXES.length} 个路由）`,
-  );
-  return created;
 }
 
 module.exports = { main, coursePairs, ROUTE_PREFIXES };
