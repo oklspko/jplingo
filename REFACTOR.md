@@ -214,13 +214,35 @@ node -e "const{execSync}=require('node:child_process');const fs=require('node:fs
 >    不声明时只打印 `[skip]` 提示。三种情形已实测：清理后未声明 → 跳过全绿；构建后声明 → 强制核对通过；
 >    **声明却缺产物 → 报失败**（护栏保留）。CI 里必须「先 generate 再带该变量跑自测」。
 
+### 步骤 3 执行记录（2026-10-12 实测于 `refactor/structure-safety-net`）
+
+新增 `.github/workflows/tests.yml`（job `offline-tts`，`push: [main, refactor/structure-*]` + `workflow_dispatch`，`permissions: contents: read`，`timeout-minutes: 30`）：
+`pnpm install --frozen-lockfile` → `pnpm generate` → `JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs`。
+
+| 项目 | 命令 | 实测结果 |
+|---|---|---|
+| 首次 push 后的 CI（**红灯，暴露真问题**） | `gh run list --branch refactor/structure-safety-net` | run `38257103046` = `failure`，39s；失败步骤正是自测：`找不到 esbuild（应为 Nuxt/Vite 的传递依赖）。先 pnpm install，再重跑。` 退出码 2 —— install 与 generate 都成功 |
+| 根因 | 干净 clone 里 `Test-Path node_modules/esbuild` = `False`（只 `.pnpm/esbuild@0.28.2`） | 本机 `jplingo/node_modules` 是 hoisted（扁平）布局，所以 `require("esbuild")` 能解析到；pnpm 默认**隔离链接**只给直接依赖建顶层 symlink，CI 上 esbuild 是 Nuxt 的传递依赖 → 顶层不存在 → `run.cjs:20-25` 直接 `exit 2` |
+| 修复 | `package.json` devDependencies 增加 `"esbuild": "0.28.2"`（与 lockfile 里已解析的 `esbuild@0.28.2` **同版本**） | `pnpm-lock.yaml` 只多 3 行 importer 声明（`specifier`/`version`），**没有新增重复包实例**；干净 clone 重装后 `require.resolve('esbuild')` → `node_modules/.pnpm/esbuild@0.28.2/node_modules/esbuild/lib/main.js` |
+| 干净环境全流程复现（本机 clone，独立目录） | `pnpm install --frozen-lockfile` → `pnpm generate` → `JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs` | 安装 37.6s、generate 退出码 0、`.output/public/jp-game` 与 `jp-study` 均 `True`；断言 **278 项 0 失败**（含 `[ok] 课程深链路目录已生成`），退出码 0 |
+| 故意改坏 → 必须报错 | 在 clone 里把 `public/courses/jp-growing/jp-grow-01.json` 的两条句子对调（长句挪到最前）后重跑 | `[FAIL] jp-grow-01.json 文件里句子也是短句在前（20 → 5 token）  -> [20,5,5,6,...,19,5]`，`合计 62 项，失败 1 项`，`TESTS_EXIT=1`（CI 步骤会因此变红） |
+| 改回 → 恢复全绿 | `git checkout HEAD -- public/courses/jp-growing/jp-grow-01.json` 后重跑 | `git status --short -- public/courses` 为空；`spec-growing` 回到 `合计 62 项，失败 0 项`，全套 **278 项 0 失败**，退出码 0 |
+
+> **备注（步骤 3 发现）**
+> 5. **本机自测通过 ≠ CI 能跑**：本机 `node_modules` 是历史遗留的扁平（npm 式）布局，掩盖了
+>    「`esbuild` 只是传递依赖」这个事实。凡 CI 要跑的脚本，其 `require()` 的包都必须在本项目
+>    `package.json` 里显式声明——本次已按此修正，并把「干净 clone + frozen-lockfile」当作
+>    上 CI 前的本地预演（放仓库**外面**的目录做，放仓库里会被 Node 向上解析到主仓库的
+>    `node_modules`，验证结果不可信）。
+> 6. CI 只读、不部署、不碰 main 发布流程；`main` 上的 push 也会跑同一套自测（作为合并前护栏）。
+
 ## 进度记录
 
 | 步骤 | 状态 | 提交 | 验证结果 |
 |---|---|---|---|
 | 1 基线记录 | ☑ | 本表下方「步骤 1 复核记录」所在提交 | 版本 1.2.38 / 提交 1ac6d75 / 278 项断言 0 失败（`nuxi generate` 之后测得，退出码 0）/ 线上 1.2.38；提交前清理 `dist` 后该 1 项断言会假红灯，见备注 2 |
-| 2 重构分支 | ☐ | | |
-| 3 自测进 CI | ☐ | | |
+| 2 重构分支 | ☑ | `5b15f0d`（REFACTOR.md + scripts/refactor-orchestrate.js 入库） | 分支 `refactor/structure-safety-net`（已 push 到 origin）；`main` 未动（仍 `1ac6d75`），未 merge、未打 tag |
+| 3 自测进 CI | ☑ | `472ebfe`（workflow）+ `342026f`（esbuild 显式依赖） | 见上方「步骤 3 执行记录」：分支已 push；首次 CI 红灯暴露 esbuild 传递依赖问题 → 修复后干净环境 278/0；故意改坏 → 失败 1 项退出码 1 → 改回全绿 |
 | 4 渲染快照脚本 | ☐ | | |
 | 5 巨型页面回归测试 | ☐ | | |
 | 6 公共工具层 | ☐ | | |
@@ -237,3 +259,40 @@ node -e "const{execSync}=require('node:child_process');const fs=require('node:fs
 | 17 全量 diff 复查 | ☐ | | |
 | 18 端到端验证 | ☐ | | |
 | 19 收口与发版 | ☐ | | |
+
+---
+
+## 暂停点与续跑说明（2026-10-12 暂停）
+
+**当前进度：步骤 1–3 已完成并验证；下一步是步骤 4。**
+
+| 项 | 状态 |
+|---|---|
+| 分支 | `refactor/structure-safety-net`（已 push 到 origin，`main` 未动：仍 `1ac6d75`） |
+| 本分支提交 | `5b15f0d` 基线入库 → `b785f2a` 基线口径修正 + 假红灯修复 → `472ebfe` 自测进 CI → `342026f` esbuild 显式依赖 |
+| 线上/发布 | **没受影响**：`main` 未动，线上仍 1.2.38，Release 仍 v1.2.38 |
+| 工作区 | 干净（本文件所在提交） |
+| CI | `.github/workflows/tests.yml` 在该分支上 **success**（run `38257487220`，38s） |
+
+**续跑步骤 4 的入口**（先确认在分支上、工作区干净）：
+
+```bash
+cd D:/my-project/jplingo
+git switch refactor/structure-safety-net      # 若已在则跳过
+git status --short                            # 期望：空
+git log --oneline -1                          # 期望：342026f（或更新的本分支提交）
+```
+
+然后把 `scripts/refactor-orchestrate.js` 或下面这段最小指令交给 workflow 工具继续（步骤 4、5 均用 Flash 执行 + 独立复核）：
+
+> 仓库 `D:\my-project\jplingo`，分支 `refactor/structure-safety-net`。
+> 先读 `REFACTOR.md`（含步骤 1/3 的实测记录与备注 1–6）与 `jplingo/CLAUDE.md`。
+> 只执行「步骤 4」（渲染快照对比脚本）与「步骤 5」（三个巨型页面回归断言），不要跳步。
+> 规则：只在分支提交；绝不 push main、不 merge、不打 tag；提交前 `git checkout HEAD -- dist; git clean -fdq dist`，永不 `git add dist`；
+> 每步必须带回可核对证据；步骤 4 必须真实做一次「故意改坏 → 脚本报差异 → 改回」。
+> 完成后更新本文件的进度表与实测记录，并提交。
+
+**暂停时的注意事项（留给续跑者）**
+1. 本机 `dist/` 是指向 `.output/public` 的 junction 且被 git 跟踪 → 每次提交前 `git checkout HEAD -- dist; git clean -fdq dist`，**永不 `git add dist`**。
+2. 本机 `node_modules` 是扁平布局，会掩盖「某包只是传递依赖」——凡 CI 要跑的脚本，`require()` 的包必须在 `package.json` 显式声明（步骤 3 的坑）。
+3. 自测判断口径：构建后带 `JPLINGO_EXPECT_BUILD=1` 跑才是完整强制核对（本地清理过产物时会 `[skip]` 深链路那项，属预期）。
