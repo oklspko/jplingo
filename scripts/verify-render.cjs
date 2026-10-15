@@ -69,6 +69,9 @@ const ROUTES = [
  */
 const VOLATILE_RULES = [
   [/[0-9]{4}-[0-9]{2}-[0-9]{2}[T ][0-9:.+\-Z]*/g, "<TS>"],
+  // 练习页的计时器（00:01 → 00:02）与任何 mm:ss / hh:mm:ss 计时：两次抓取必然不同，
+  // 不折掉就会把「页面没变」误判成差异（2026-10-15 CI 与本机各踩一次）。
+  [/\b[0-9]{1,2}:[0-9]{2}(?::[0-9]{2})?\b/g, "<TIME>"],
   [/[0-9]+(?:\.[0-9]+)?\s*(?:毫秒|秒|分钟|小时)/g, "<DUR>"],
   [/[0-9]+(?:\.[0-9]+)?\s*(?:B|KB|MB|GB|TB|字节)/g, "<SIZE>"],
   [/[0-9]+\s*字\s*\/\s*<DUR>/g, "<SYNTH>"],
@@ -655,7 +658,13 @@ function diffLines(baseText, curText) {
   // 若不剥掉行尾 \r，每一行都会假报差异（尽管 .gitattributes 已声明 eol=lf，这里再兜一层）。
   const base = baseText.split(/\r?\n/);
   const cur = curText.split(/\r?\n/);
-  const head = (arr) => arr.filter((l) => l.startsWith("#"));
+  // 头部元信息里有两个**天生随环境/版本浮动**的字段，不能参与比对，否则必然假红灯：
+  //   - html-bytes-bucket：本机 Edge 155 与 CI Chromium 155 渲染体积可差一档（实测 ~6300 vs ~6400）
+  //   - appVersion：每次发版都会变，存进基线等于「发版即红灯」
+  // 它们仍会写进基线文件（留作人工参考），只是不参与判定。
+  const VOLATILE_HEAD = [/^#\s*html-bytes-bucket:/, /^#\s*appVersion:/];
+  const isVolatile = (l) => VOLATILE_HEAD.some((re) => re.test(l));
+  const head = (arr) => arr.filter((l) => l.startsWith("#") && !isVolatile(l));
   const body = (arr) => arr.filter((l) => !l.startsWith("#"));
   const diffs = [];
   for (const a of head(base)) if (!cur.includes(a)) diffs.push(`- ${a}`);
