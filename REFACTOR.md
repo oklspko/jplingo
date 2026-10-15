@@ -214,6 +214,85 @@ node -e "const{execSync}=require('node:child_process');const fs=require('node:fs
 >    不声明时只打印 `[skip]` 提示。三种情形已实测：清理后未声明 → 跳过全绿；构建后声明 → 强制核对通过；
 >    **声明却缺产物 → 报失败**（护栏保留）。CI 里必须「先 generate 再带该变量跑自测」。
 
+### 步骤 4 执行记录（2026-10-12 实测于 `refactor/structure-safety-net`）
+
+新增三个文件：
+
+| 文件 | 作用 |
+|---|---|
+| `scripts/serve-static.cjs` | 极简本地静态服务（无依赖、端口可配、**SPA 回退到 `200.html` 且状态码 200**） |
+| `scripts/verify-render.cjs` | 渲染快照对比脚本（8 条关键路由，只存可见文本 + 元素计数 + 版本标记） |
+| `tests/render-baseline/*.txt` + `guards.json` | 基线（8 份，共 110,255 字节）与独立护栏 |
+| `scripts/README-render-snapshot.md` | 上述工具的用法与踩坑记录 |
+| `.github/workflows/tests.yml` | 新增 `render-snapshot` job（独立于 `offline-tts`，用 `JPLINGO_EDGE` 强制真实浏览器） |
+
+覆盖路由（与本节要求一致）：`/`、`/jp-home/`、`/jp-grammar/`、`/jp-kana-chart/`、
+`/jp-words/`、`/jp-me/`、`/jp-game/jp-growing/jp-grow-01`、`/jp-study/jp-growing/jp-grow-01`。
+
+| 项目 | 命令 | 实测结果 |
+|---|---|---|
+| 构建 | `npx nuxi generate` | `Prerendered 933 routes`，`Generated public .output/public`，退出码 0 |
+| 抓取 | `node scripts/verify-render.cjs --write-baseline` | 8 条路由全部抓到：35 / 35 / 2696 / 40 / 1247 / 117 / 24 / 547 行可见文本 |
+| 基线确定性（关键） | 连续两遍 `--write-baseline` 后逐文件比对 SHA256 | **8 个 `.txt` 全部 IDENTICAL**（见下方原始输出） |
+| 通过标志（无差异） | `node scripts/verify-render.cjs` | `合计 8 条路由，无差异`，退出码 0（连跑 3 次均 0） |
+| **故意改坏 → 报差异** | 把 `app/pages/jp-home/index.vue:8` 的副标题改成 `【快照测试】用连词成句的方式学习日语` → `npx nuxi generate` → `node scripts/verify-render.cjs` | `[FAIL] / 与基线有差异` / `[FAIL] /jp-home/ 与基线有差异`，两处都精确指到 `line 10: - 用连词成句的方式学习日语 / + 【快照测试】用连词成句的方式学习日语`；`合计 8 条路由，差异/问题 2 条`，**退出码 1** |
+| 改回 → 恢复全绿 | `git checkout HEAD -- app/pages/jp-home/index.vue`（`git status --short -- app/` 为空）→ `npx nuxi generate` → 重跑 | `[ok]` ×8，`合计 8 条路由，无差异`，退出码 0 |
+| 自测未受影响 | `JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs` | 11 个 spec **278 项断言 0 失败**，退出码 0 |
+| 降级路径演练 A | `JPLINGO_EDGE=C:\Windows\System32\cmd.exe node scripts/verify-render.cjs --only jp-home` | 静态检查 1 条通过，但脚本判 `[FAIL] 浏览器存在但渲染快照取不到 → 按失败退出`，**退出码 2** |
+| 降级路径演练 B | 同上 + `--allow-degraded` | 打印降级原因后静态检查全绿，退出码 0（降级必须显式声明） |
+| 降级路径演练 C | 在 `guards.json` 里给 `/jp-home/` 加一条不存在的必备文案后跑降级 | `[FAIL] /jp-home/ -> 产物 chunk 中找不到文案「这条文案不存在」`，退出码 1（静态检查真的会红） |
+
+原始输出（基线确定性 + 改坏/改回）：
+
+```
+=== 两遍基线逐字节比较 ===
+jp-game__jp-growing__jp-grow-01.txt                  IDENTICAL
+jp-grammar.txt                                       IDENTICAL
+jp-home.txt                                          IDENTICAL
+jp-kana-chart.txt                                    IDENTICAL
+jp-me.txt                                            IDENTICAL
+jp-study__jp-growing__jp-grow-01.txt                 IDENTICAL
+jp-words.txt                                         IDENTICAL
+root.txt                                             IDENTICAL
+
+### 重跑快照脚本（期望：报差异，退出码 1）
+[5/5] 与基线对比（D:\my-project\jplingo\tests\render-baseline）
+  [FAIL] / 与基线有差异：
+        line 10:
+    - 用连词成句的方式学习日语
+    + 【快照测试】用连词成句的方式学习日语
+  [FAIL] /jp-home/ 与基线有差异：
+        line 10:
+    - 用连词成句的方式学习日语
+    + 【快照测试】用连词成句的方式学习日语
+  [ok] /jp-grammar/ 无差异（2696 行可见文本）
+  ...
+合计 8 条路由，差异/问题 2 条
+SNAPSHOT_EXIT=1
+
+### 改回原样 → 重新构建 → 再跑快照
+  [ok] / 无差异（35 行可见文本）
+  [ok] /jp-home/ 无差异（35 行可见文本）
+  ...
+合计 8 条路由，无差异
+SNAPSHOT_EXIT=0
+```
+
+> **备注（步骤 4 发现，留给后续步骤）**
+> 7. **本机 `--dump-dom` 输出 0 字节（重要偏差）**：Edge 155/154 的
+>    `--headless=new --dump-dom` 无论管道还是重定向到文件都是 0 字节，同参数 `--screenshot` 能出图，
+>    说明渲染引擎正常、只是 dump 通道在本机不可用。改为**同等的 CDP 通道**
+>    （`--remote-debugging-port` → `Runtime.evaluate` 取 DOM），口径没有放宽；
+>    根因未查明（疑似本机 Edge 策略/沙箱），后续若有人修好 dump-dom 也不影响现有基线。
+> 8. **`--write-baseline` 必须「先构建再写」**：产物与源码不一致时写出来的基线就是错的，
+>    所以重建基线的正确姿势是 `--build --write-baseline`（脚本默认要求显式 `--write-baseline` 才会写）。
+> 9. **降级不能静默变绿**：最初实现里「浏览器起不来」也会走静态检查并以 0 退出，
+>    等于给重构开了一个假绿灯。现已改为：浏览器存在却取不到渲染结果 → **退出码 2**；
+>    确实要接受降级必须显式 `--allow-degraded`（CI 用 `JPLINGO_EDGE` 强制要真浏览器）。
+> 10. **异步卡片会让快照抖**：只等「文本不变」不够——`/jp-me/` 的「检查更新」卡片
+>     会因 GitHub Releases 接口快慢而出现/不出现，实测 5 次里 3 次报差异。
+>     现改为**等网络空闲 + 文本稳定**双条件，并把该卡片归一化成 `<更新检查>`。
+
 ### 步骤 3 执行记录（2026-10-12 实测于 `refactor/structure-safety-net`）
 
 新增 `.github/workflows/tests.yml`（job `offline-tts`，`push: [main, refactor/structure-*]` + `workflow_dispatch`，`permissions: contents: read`，`timeout-minutes: 30`）：
@@ -243,7 +322,7 @@ node -e "const{execSync}=require('node:child_process');const fs=require('node:fs
 | 1 基线记录 | ☑ | 本表下方「步骤 1 复核记录」所在提交 | 版本 1.2.38 / 提交 1ac6d75 / 278 项断言 0 失败（`nuxi generate` 之后测得，退出码 0）/ 线上 1.2.38；提交前清理 `dist` 后该 1 项断言会假红灯，见备注 2 |
 | 2 重构分支 | ☑ | `5b15f0d`（REFACTOR.md + scripts/refactor-orchestrate.js 入库） | 分支 `refactor/structure-safety-net`（已 push 到 origin）；`main` 未动（仍 `1ac6d75`），未 merge、未打 tag |
 | 3 自测进 CI | ☑ | `472ebfe`（workflow）+ `342026f`（esbuild 显式依赖） | 见上方「步骤 3 执行记录」：分支已 push；首次 CI 红灯暴露 esbuild 传递依赖问题 → 修复后干净环境 278/0；故意改坏 → 失败 1 项退出码 1 → 改回全绿 |
-| 4 渲染快照脚本 | ☐ | | |
+| 4 渲染快照脚本 | ☑ | 见本表下方「步骤 4 执行记录」所在提交 | 8 条关键路由渲染快照全绿（退出码 0）；两遍基线逐字节 IDENTICAL；**故意改坏 jp-home 副标题 → 精确报出 2 条差异 / 退出码 1 → 改回后全绿**；降级路径三种情形实测（浏览器起不来 = 退出码 2，不静默变绿）；自测仍 278/0 |
 | 5 巨型页面回归测试 | ☐ | | |
 | 6 公共工具层 | ☐ | | |
 | 7 拆 jp-me | ☐ | | |
@@ -262,37 +341,37 @@ node -e "const{execSync}=require('node:child_process');const fs=require('node:fs
 
 ---
 
-## 暂停点与续跑说明（2026-10-12 暂停）
+## 暂停点与续跑说明（2026-10-12 步骤 4 完成后更新）
 
-**当前进度：步骤 1–3 已完成并验证；下一步是步骤 4。**
+**当前进度：步骤 1–4 已完成并验证；下一步是步骤 5（给 jp-home / jp-editor / jp-me 补最小回归测试）。**
 
 | 项 | 状态 |
 |---|---|
 | 分支 | `refactor/structure-safety-net`（已 push 到 origin，`main` 未动：仍 `1ac6d75`） |
-| 本分支提交 | `5b15f0d` 基线入库 → `b785f2a` 基线口径修正 + 假红灯修复 → `472ebfe` 自测进 CI → `342026f` esbuild 显式依赖 |
+| 本分支提交 | `5b15f0d` 基线入库 → `b785f2a` 基线口径修正 + 假红灯修复 → `472ebfe` 自测进 CI → `342026f` esbuild 显式依赖 → 步骤 4 记录所在提交（快照脚本 + 基线 + CI job） |
 | 线上/发布 | **没受影响**：`main` 未动，线上仍 1.2.38，Release 仍 v1.2.38 |
-| 工作区 | 干净（本文件所在提交） |
-| CI | `.github/workflows/tests.yml` 在该分支上 **success**（run `38257487220`，38s） |
+| 工作区 | 干净（本文件所在提交；`dist/` 的构建噪声已按规则还原，未提交） |
+| CI | `offline-tts` job 在该分支 **success**（run `38257487220`）；步骤 4 新增 `render-snapshot` job，需 push 后看实际结果 |
 
-**续跑步骤 4 的入口**（先确认在分支上、工作区干净）：
+**续跑步骤 5 的入口**（先确认在分支上、工作区干净）：
 
 ```bash
 cd D:/my-project/jplingo
 git switch refactor/structure-safety-net      # 若已在则跳过
 git status --short                            # 期望：空
-git log --oneline -1                          # 期望：342026f（或更新的本分支提交）
+git log --oneline -1                          # 期望：步骤 4 的提交
 ```
 
-然后把 `scripts/refactor-orchestrate.js` 或下面这段最小指令交给 workflow 工具继续（步骤 4、5 均用 Flash 执行 + 独立复核）：
-
-> 仓库 `D:\my-project\jplingo`，分支 `refactor/structure-safety-net`。
-> 先读 `REFACTOR.md`（含步骤 1/3 的实测记录与备注 1–6）与 `jplingo/CLAUDE.md`。
-> 只执行「步骤 4」（渲染快照对比脚本）与「步骤 5」（三个巨型页面回归断言），不要跳步。
-> 规则：只在分支提交；绝不 push main、不 merge、不打 tag；提交前 `git checkout HEAD -- dist; git clean -fdq dist`，永不 `git add dist`；
-> 每步必须带回可核对证据；步骤 4 必须真实做一次「故意改坏 → 脚本报差异 → 改回」。
-> 完成后更新本文件的进度表与实测记录，并提交。
+步骤 5 的三条「结构存在性」断言可以直接加进 `tests/render-baseline/guards.json`
+（走 `scripts/verify-render.cjs` 的护栏，重新生成基线也不会被抹掉），或按需新增 spec；
+jp-home 已经有一条现成护栏（`导入课程包` / `新建文件夹` / `分组管理` / `单词课程`）。
 
 **暂停时的注意事项（留给续跑者）**
 1. 本机 `dist/` 是指向 `.output/public` 的 junction 且被 git 跟踪 → 每次提交前 `git checkout HEAD -- dist; git clean -fdq dist`，**永不 `git add dist`**。
 2. 本机 `node_modules` 是扁平布局，会掩盖「某包只是传递依赖」——凡 CI 要跑的脚本，`require()` 的包必须在 `package.json` 显式声明（步骤 3 的坑）。
+   步骤 4 的两个脚本只用 Node 内置模块（`http`/`net`/`crypto`/`fs`……），**不新增任何依赖**，所以没有这个坑。
 3. 自测判断口径：构建后带 `JPLINGO_EXPECT_BUILD=1` 跑才是完整强制核对（本地清理过产物时会 `[skip]` 深链路那项，属预期）。
+4. 快照判断口径：`node scripts/verify-render.cjs` 必须在 `nuxi generate` **之后**跑（脚本默认复用 `.output/public`）。
+   重建基线只有两种合法姿势：`--build --write-baseline`，或先 `nuxi generate` 再 `--write-baseline`；
+   任何情况下**不要为了消红而重建基线**，先用 `--only <路由>` 看差异是不是真回归。
+5. 本机 `--dump-dom` 输出 0 字节（见步骤 4 备注 7），脚本走 CDP；CI 上用 `JPLINGO_EDGE` 指向 chromium。
