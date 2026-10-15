@@ -341,19 +341,30 @@ SNAPSHOT_EXIT=0
 
 ---
 
-## 暂停点与续跑说明（2026-10-12 步骤 4 完成后更新）
+## 阶段① 完成记录与续跑说明（2026-10-15 更新）
 
-**当前进度：步骤 1–4 已完成并验证；下一步是步骤 5（给 jp-home / jp-editor / jp-me 补最小回归测试）。**
+**当前进度：步骤 1–5 全部完成并验证；阶段①（安全网）结束；下一步是步骤 6（抽公共工具层，进入阶段②）。**
 
 | 项 | 状态 |
 |---|---|
-| 分支 | `refactor/structure-safety-net`（已 push 到 origin，`main` 未动：仍 `1ac6d75`） |
-| 本分支提交 | `5b15f0d` 基线入库 → `b785f2a` 基线口径修正 + 假红灯修复 → `472ebfe` 自测进 CI → `342026f` esbuild 显式依赖 → 步骤 4 记录所在提交（快照脚本 + 基线 + CI job） |
+| 分支 | `refactor/structure-safety-net`（已 push 到 origin；**`main` 未动**：仍 `1ac6d75`） |
+| 本分支提交 | `5b15f0d` 基线 → `b785f2a` 口径修正+假红灯 → `472ebfe` 自测进 CI → `342026f` esbuild 显式依赖 → `09d1c42`/`943f926`/`d0b41bf` 快照脚本+CI job+证据 → `13230c7` 步骤 5（`/jp-editor/` + `.gitattributes`）→ `4b3d2b4` 快照比对排除环境相关字段 |
 | 线上/发布 | **没受影响**：`main` 未动，线上仍 1.2.38，Release 仍 v1.2.38 |
-| 工作区 | 干净（本文件所在提交；`dist/` 的构建噪声已按规则还原，未提交） |
-| CI | `offline-tts` job 在该分支 **success**（run `38257487220`）；步骤 4 新增 `render-snapshot` job，需 push 后看实际结果 |
+| 工作区 | 干净（`dist/` 构建噪声按规则还原，未提交） |
+| CI | 该分支 `tests` workflow **success**（最近 run `38746449348`）：`offline-tts`（278 项断言）+ `render-snapshot`（9 条路由）两个 job 都绿 |
 
-**续跑步骤 5 的入口**（先确认在分支上、工作区干净）：
+**阶段① 的护栏现在能拦住什么**（重构期间每次提交都该跑）：
+
+```bash
+cd D:/my-project/jplingo
+node scripts/verify-render.cjs --build        # 9 条关键路由的渲染快照对比（含 3 个巨型页面）
+JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs   # 278 项断言（含构建产物核对）
+```
+
+**阶段② 起的分工（需要切换模型时先确认）**：步骤 6–11 由 **Flash 执行**，但**每一步的 diff 建议由 Pro 审查**——
+判断「拆页面时有没有顺手改掉行为」，这是阶段②唯一的高风险点。执行前请决定：切到 Pro 同时执行+审查，或保持 Flash 执行、每步结束时切 Pro 审一次。
+
+**续跑步骤 6 的入口**（先确认在分支上、工作区干净）：
 
 ```bash
 cd D:/my-project/jplingo
