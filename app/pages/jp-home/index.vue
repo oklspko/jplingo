@@ -338,6 +338,7 @@ import {
   getImportedCourse,
 } from "~/composables/jp/useJpImportedPacks";
 import type { JpCoursePack } from "~/types/jp";
+import { toggleSet } from "~/utils/jpCollection";
 
 interface CourseIndex {
   [key: string]: { title: string; count: number };
@@ -382,14 +383,9 @@ function isExpanded(packId: string): boolean {
 }
 
 function togglePack(packId: string) {
-  const newSet = new Set(expandedPacks.value);
-  if (newSet.has(packId)) {
-    newSet.delete(packId);
-  } else {
-    newSet.add(packId);
-    loadPackMeta(packId); // 展开时按需加载该包课程标题/题数
-  }
-  expandedPacks.value = newSet;
+  expandedPacks.value = toggleSet(expandedPacks.value, packId);
+  // 展开时按需加载该包课程标题/题数
+  if (expandedPacks.value.has(packId)) loadPackMeta(packId);
 }
 
 // 并发上限：一次最多同时请求的课程数，避免展开大包时瞬间发出上百个请求

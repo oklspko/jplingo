@@ -133,6 +133,7 @@ import {
   type LearnedKind,
 } from "~/composables/jp/useJpCourses";
 import type { JpCourse, JpCoursePack } from "~/types/jp";
+import { toggleSet } from "~/utils/jpCollection";
 
 const { record } = useJpStorage();
 
@@ -334,24 +335,15 @@ const activePackGroups = computed(() => {
 });
 
 function toggleGroup(courseId: string) {
-  const next = new Set(openGroups.value);
-  if (next.has(courseId)) next.delete(courseId);
-  else next.add(courseId);
-  openGroups.value = next;
+  openGroups.value = toggleSet(openGroups.value, courseId);
 }
 
 function toggleCoursePack(packId: string) {
-  const next = new Set(openCoursePacks.value);
-  if (next.has(packId)) next.delete(packId);
-  else next.add(packId);
-  openCoursePacks.value = next;
+  openCoursePacks.value = toggleSet(openCoursePacks.value, packId);
 }
 
 function toggleRecordPack(packId: string) {
-  const next = new Set(openRecordPacks.value);
-  if (next.has(packId)) next.delete(packId);
-  else next.add(packId);
-  openRecordPacks.value = next;
+  openRecordPacks.value = toggleSet(openRecordPacks.value, packId);
 }
 
 function pct(c: CourseRow) {

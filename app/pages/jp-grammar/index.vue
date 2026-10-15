@@ -138,6 +138,7 @@ import { computed, ref } from "vue";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
 import { grammarPoints as bundledGrammarPoints, type GrammarPoint } from "~/data/jp-grammar-points";
 import { fetchDataJson } from "~/composables/jp/useJpData";
+import { katakanaToHiragana } from "~/composables/jp/useJpRomaji";
 import { fuzzyFilter } from "~/utils/jpFuzzy";
 
 const VOWELS = [
@@ -182,11 +183,9 @@ function toggleAnalysis(id: string) {
   analysisOpen.value = analysisOpen.value === id ? null : id;
 }
 
+/** 单字片假名 → 平假名（取首个假名判五段用）；整体转换见 useJpRomaji 的 katakanaToHiragana */
 function toHiragana(ch: string): string {
-  const code = ch.charCodeAt(0);
-  // 片假名 → 平假名（ァ～ヶ 区间整体平移）
-  if (code >= 0x30a1 && code <= 0x30f6) return String.fromCharCode(code - 0x60);
-  return ch;
+  return katakanaToHiragana(ch);
 }
 
 /** 取语法条首个假名，归入五段（あいうえお）。 */
