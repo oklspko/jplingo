@@ -367,7 +367,13 @@ SNAPSHOT_EXIT=0
 | `2aa6751` | 字节格式化 | `app/utils/jpFormat.ts`（`formatBytes`） | +24 / −18（7 文件） |
 | `01bc1cb` | 本地日期键 | `app/utils/jpDate.ts`（`dayKey` / `todayKey` / `dayKeyOffset`） | +41 / −22（3 文件） |
 | `3109fc5` | Set 切换 + 假名平移 | `app/utils/jpCollection.ts`（`toggleSet`） | +30 / −24（4 文件） |
-| | **合计** | 4 个工具函数 | **+95 / −64，净减 31 行** |
+| | **合计** | 4 个工具函数 | app/ 内 **+91 / −63（净 +28 行）** |
+
+> **行数口径要如实记**：调用点净减 **−29 行**（25 增 / 54 删），但新增 3 个工具文件带来 **+57 行**（含函数注释），
+> 所以 app/ 总行数从基线 **54 文件 / 19,146 行（含空行）· 17,149（非空行）**
+> 变为 **57 文件 / 19,174 · 17,175**（净 +28 / +26）。
+> 步骤 6 的目标是**消除重复**（4 处 × 2～5 遍 → 各 1 处），不是压缩总行数；重复确实消失了，总行数因新文件与注释略增，
+> 这是符合预期的。后续步骤（7–9 拆巨型页面）才应看到总行数明显下降。
 
 > 抽取中**没有改任何可见文案**，因此**不需要** `--write-baseline`；基线文件本次零改动。
 
@@ -412,23 +418,44 @@ JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs
 ---
 
 
-**当前进度：步骤 1–5 全部完成并验证；阶段①（安全网）结束；下一步是步骤 6（抽公共工具层，进入阶段②）。**
+## 交接点（2026-10-15 收工：步骤 1–6 完成，等 Pro 审步骤 6 的 diff）
+
+**当前进度：步骤 1–6 全部完成并验证（阶段① 安全网 + 阶段② 第一步）。下一步 = 用 Pro 审步骤 6 的 diff，然后做步骤 7（拆 `jp-me`）。**
 
 | 项 | 状态 |
 |---|---|
 | 分支 | `refactor/structure-safety-net`（已 push 到 origin；**`main` 未动**：仍 `1ac6d75`） |
-| 本分支提交 | `5b15f0d` 基线 → `b785f2a` 口径修正+假红灯 → `472ebfe` 自测进 CI → `342026f` esbuild 显式依赖 → `09d1c42`/`943f926`/`d0b41bf` 快照脚本+CI job+证据 → `13230c7` 步骤 5（`/jp-editor/` + `.gitattributes`）→ `4b3d2b4` 快照比对排除环境相关字段 |
+| 本分支提交 | `5b15f0d` 基线 → `b785f2a` 口径+假红灯 → `472ebfe` 自测进 CI → `342026f` esbuild 显式依赖 → `09d1c42`/`943f926`/`d0b41bf` 快照脚本+CI job → `13230c7` 步骤 5 → `4b3d2b4` 排除环境相关字段 → `1f3b808` 阶段①记录 → 步骤 6：`2aa6751`/`01bc1cb`/`3109fc5`/`59613fb` |
 | 线上/发布 | **没受影响**：`main` 未动，线上仍 1.2.38，Release 仍 v1.2.38 |
 | 工作区 | 干净（`dist/` 构建噪声按规则还原，未提交） |
-| CI | 该分支 `tests` workflow **success**（最近 run `38746449348`）：`offline-tts`（278 项断言）+ `render-snapshot`（9 条路由）两个 job 都绿 |
+| CI | 该分支 `tests` workflow 绿（最近 `38746449348`）：`offline-tts`（278 断言）+ `render-snapshot`（9 路由） |
+| 步骤 6 的独立验证 | 两条护栏实测绿：`verify-render.cjs --build` = 9/9 无差异；`JPLINGO_EXPECT_BUILD=1 run.cjs` = 278 项 0 失败。人工逐字核对 `formatBytes` 纯搬移、`loadPackMeta` 副作用保留 ✓ |
 
-**阶段① 的护栏现在能拦住什么**（重构期间每次提交都该跑）：
+### 下次开工先做这两件事
+
+1. **切 Pro 审步骤 6 的 diff**（阶段②约定：每步 diff 由 Pro 复核一次，只出结论、不改代码）：
+
+```
+审查分支 refactor/structure-safety-net 上 1f3b808..HEAD 的改动（步骤 6：抽公共工具层）。
+逐文件看 diff，判断是否与重构前语义等价，特别注意：有没有改默认值/文案/副作用/边界处理。
+重点核对 app/utils/jpFormat.ts、jpDate.ts、jpCollection.ts 与它们替换掉的旧实现；
+以及 app/composables/jp/useJpDataUpdate.ts 的那 1 行改动（formatBytes 来源变了）。
+已知的一处「严格来说行为不同」：jp-record 的片假名→平假名改为复用 useJpRomaji 的
+katakanaToHiragana，覆盖范围比原来的 U+30A1–30F6 更宽（如 ヷ）。请判断是否可接受。
+结论给出「可接受」或「需回退某一处 + 理由」。
+```
+
+2. **然后做步骤 7（拆 `jp-me`，1341 行）**：执行仍用 Flash，做完跑两条护栏（都要绿）+ 提交，再切 Pro 审 diff。
+
+**阶段① 的护栏（重构期间每次提交都该跑）**：
 
 ```bash
 cd D:/my-project/jplingo
-node scripts/verify-render.cjs --build        # 9 条关键路由的渲染快照对比（含 3 个巨型页面）
-JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs   # 278 项断言（含构建产物核对）
+git switch refactor/structure-safety-net && git status --short   # 期望：干净
+node scripts/verify-render.cjs --build                          # 9 条关键路由渲染快照对比
+JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs           # 278 项断言（含构建产物核对）
 ```
+
 
 **阶段② 起的分工（需要切换模型时先确认）**：步骤 6–11 由 **Flash 执行**，但**每一步的 diff 建议由 Pro 审查**——
 判断「拆页面时有没有顺手改掉行为」，这是阶段②唯一的高风险点。执行前请决定：切到 Pro 同时执行+审查，或保持 Flash 执行、每步结束时切 Pro 审一次。
