@@ -49,10 +49,11 @@ const EDGE_CANDIDATES = [
   "/usr/bin/google-chrome",
 ];
 
-/** 关键路由（REFACTOR.md 步骤 4 点名的那 8 条） */
+/** 关键路由（REFACTOR.md 步骤 4 的 8 条 + 步骤 5 补入 jp-editor） */
 const ROUTES = [
   "/",
   "/jp-home/",
+  "/jp-editor/",
   "/jp-grammar/",
   "/jp-kana-chart/",
   "/jp-words/",
@@ -650,8 +651,10 @@ function bucket(n) {
 }
 
 function diffLines(baseText, curText) {
-  const base = baseText.split("\n");
-  const cur = curText.split("\n");
+  // 按行拆时容忍 CR：本机 git 的 core.autocrlf=true 会把基线检出成 CRLF，
+  // 若不剥掉行尾 \r，每一行都会假报差异（尽管 .gitattributes 已声明 eol=lf，这里再兜一层）。
+  const base = baseText.split(/\r?\n/);
+  const cur = curText.split(/\r?\n/);
   const head = (arr) => arr.filter((l) => l.startsWith("#"));
   const body = (arr) => arr.filter((l) => !l.startsWith("#"));
   const diffs = [];
@@ -872,7 +875,7 @@ async function main() {
       for (const d of diffs) log(`      ${d}`);
       problems++;
     } else {
-      log(`  [ok] ${route} 无差异（${baseText.split("\n").filter((l) => l && !l.startsWith("#")).length} 行可见文本）`);
+      log(`  [ok] ${route} 无差异（${baseText.split(/\r?\n/).filter((l) => l && !l.startsWith("#")).length} 行可见文本）`);
     }
     jsonOut.push({ route, file: path.relative(ROOT, file), wrote: false, diffs });
   }

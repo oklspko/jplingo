@@ -1,0 +1,14 @@
+# 渲染快照基线（tests/render-baseline/*.txt）按 LF 存取。
+#
+# 为什么必须声明：本机 git 配置 core.autocrlf=true，检出时会把文本文件转成 CRLF；
+# 而 scripts/verify-render.cjs 是按行比对基线文本的 —— 一旦有文件被转成 CRLF，
+# 每一行都会带上看不见的 \r，于是「看起来完全一样」的行也全部假报差异
+# （2026-10-15 实际踩到：9 条路由里 4 条假差异，全部是 -/+ 同文本）。
+tests/render-baseline/** text eol=lf
+
+# 课程/词库/清单等数据文件同理：内容变了才该有 diff，别被换行符转换干扰。
+# （生成 data/manifest.json 的 scripts/gen-data-manifest.cjs 已对 size/sha256 做 LF 归一化，
+#   两边一起保证「内容不变 → 字节不变」。）
+public/courses/** text eol=lf
+public/dict/** text eol=lf
+public/data/** text eol=lf
