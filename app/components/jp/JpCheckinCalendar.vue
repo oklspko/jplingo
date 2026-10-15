@@ -37,19 +37,17 @@
 
 <script setup lang="ts">
 import { computed, ref } from "vue";
+import { dayKey, todayKey } from "~/utils/jpDate";
 
 const props = defineProps<{ days: string[] }>();
 
 const WEEK = ["一", "二", "三", "四", "五", "六", "日"];
 
-const pad = (n: number) => String(n).padStart(2, "0");
-const toStr = (y: number, m: number, d: number) => `${y}-${pad(m + 1)}-${pad(d)}`;
-
 const now = new Date();
 const viewYear = ref(now.getFullYear());
 const viewMonth = ref(now.getMonth()); // 0-based
 
-const todayStr = toStr(now.getFullYear(), now.getMonth(), now.getDate());
+const todayStr = todayKey();
 const checkedSet = computed(() => new Set(props.days));
 
 const monthLabel = computed(() => `${viewYear.value} 年 ${viewMonth.value + 1} 月`);
@@ -61,7 +59,7 @@ const cells = computed(() => {
   const arr: Array<{ day: number; dateStr: string; isChecked: boolean; isToday: boolean; isFuture: boolean } | null> = [];
   for (let i = 0; i < startOffset; i++) arr.push(null);
   for (let d = 1; d <= daysInMonth; d++) {
-    const ds = toStr(viewYear.value, viewMonth.value, d);
+    const ds = dayKey(new Date(viewYear.value, viewMonth.value, d));
     arr.push({
       day: d,
       dateStr: ds,

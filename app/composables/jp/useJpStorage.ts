@@ -1,5 +1,6 @@
 import { ref, onMounted, watch } from "vue";
 import { useJpSupabaseClient, getCurrentUserId, currentUser } from "~/composables/jp/useJpAuth";
+import { dayKeyOffset, todayKey } from "~/utils/jpDate";
 
 const STORAGE_KEY = "jp-lingo-study-record";
 
@@ -33,18 +34,13 @@ const defaultRecord = (): StudyRecord => ({
   completedCourses: [],
 });
 
-function todayStr(): string {
-  const d = new Date();
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
-}
-
 function loadRecord(): StudyRecord {
   if (typeof window === "undefined") return defaultRecord();
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return defaultRecord();
     const data = JSON.parse(raw);
-    const today = todayStr();
+    const today = todayKey();
     if (data.lastActiveDate !== today) {
       data.todaySeconds = 0;
       data.todayStatements = 0;
@@ -146,7 +142,7 @@ export function useJpStorage() {
   });
 
   function recordStatement(courseId: string, statementId: string) {
-    const today = todayStr();
+    const today = todayKey();
     const r = record.value;
     if (r.lastActiveDate !== today) {
       r.todaySeconds = 0;
@@ -186,7 +182,7 @@ export function useJpStorage() {
   }
 
   function addStudyTime(seconds: number) {
-    const today = todayStr();
+    const today = todayKey();
     const r = record.value;
     if (r.lastActiveDate !== today) {
       r.todaySeconds = 0;
@@ -236,12 +232,8 @@ export function formatDuration(seconds: number): string {
 export function calcStreak(days: string[]): number {
   if (days.length === 0) return 0;
   const sorted = [...days].sort().reverse();
-  const today = todayStr();
-  const yesterday = (() => {
-    const d = new Date();
-    d.setDate(d.getDate() - 1);
-    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
-  })();
+  const today = todayKey();
+  const yesterday = dayKeyOffset(-1);
 
   if (sorted[0] !== today && sorted[0] !== yesterday) return 0;
 
@@ -250,9 +242,7 @@ export function calcStreak(days: string[]): number {
   for (const day of sorted) {
     if (day === current) {
       streak++;
-      const d = new Date(current);
-      d.setDate(d.getDate() - 1);
-      current = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+      current = dayKeyOffset(-1, new Date(current));
     } else break;
   }
   return streak;
