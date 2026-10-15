@@ -54,3 +54,46 @@ jobs:
         run: node tests/offline-tts/run.cjs
         env:
           JPLINGO_EXPECT_BUILD: "1"
+
+  # 渲染快照对比（REFACTOR.md 步骤 4）：8 条关键路由的真实无头浏览器渲染结果 vs 基线。
+  # 与上面的自测分开成独立 job：自测是纯逻辑断言，快照是整页渲染，失败原因互不干扰。
+  #
+  # 注意 JPLINGO_EDGE 的语义：设了它就等于「本机必须有这个浏览器」——
+  # scripts/verify-render.cjs 起不来浏览器时会**按失败退出（退出码 2）**，
+  # 不会静默退化成静态检查（降级必须显式加 --allow-degraded）。
+  render-snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # 无头浏览器（Chromium 内核；本机是 Edge，二者同源，快照口径一致）
+      - name: Install headless browser
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser || sudo snap install chromium
+
+      - name: Generate static site
+        run: pnpm generate
+        env:
+          NUXT_SUPABASE_URL: ${{ secrets.NUXT_SUPABASE_URL }}
+          NUXT_SUPABASE_ANON_KEY: ${{ secrets.NUXT_SUPABASE_ANON_KEY }}
+          NUXT_TELEMETRY_DISABLED: "1"
+
+      # 复用刚构建的产物：--no-build，直接与 tests/render-baseline 里的基线对比
+      - name: Render snapshot diff
+        run: node scripts/verify-render.cjs --no-build
+        env:
+          JPLINGO_EDGE: /usr/bin/chromium-browser
