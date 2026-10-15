@@ -10,7 +10,6 @@ import {
 } from "~/composables/jp/useJpData";
 import {
   base64ToBytes,
-  formatBytes,
   normalizeEol,
   planUpdate,
   sha256Hex,
@@ -20,6 +19,7 @@ import {
   verifyAgainstCache,
   verifySize,
 } from "~/utils/jpDataPack";
+import { formatBytes } from "~/utils/jpFormat";
 
 /**
  * 课程数据热更新。

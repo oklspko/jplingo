@@ -57,6 +57,9 @@ const alias = {
   "~/composables/jp/useJpRomaji": path.join(repoRoot, "app", "composables", "jp", "useJpRomaji.ts"),
   "~/composables/jp/useJpData": path.join(repoRoot, "app", "composables", "jp", "useJpData.ts"),
   "~/utils/jpDataPack": path.join(repoRoot, "app", "utils", "jpDataPack.ts"),
+  "~/utils/jpFormat": path.join(repoRoot, "app", "utils", "jpFormat.ts"),
+  "~/utils/jpDate": path.join(repoRoot, "app", "utils", "jpDate.ts"),
+  "~/utils/jpCollection": path.join(repoRoot, "app", "utils", "jpCollection.ts"),
   "vue": path.join(repoRoot, "node_modules", "vue", "dist", "vue.runtime.esm-bundler.js"),
 };
 

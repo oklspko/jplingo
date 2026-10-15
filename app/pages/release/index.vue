@@ -81,6 +81,7 @@ import { computed, onMounted, ref } from "vue";
 import { Capacitor } from "@capacitor/core";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
 import { apkDownloadCandidates } from "~/composables/jp/useJpApkDownload";
+import { formatBytes } from "~/utils/jpFormat";
 
 const config = useRuntimeConfig();
 const directApkUrl = config.public.apkUrl as string;
@@ -107,12 +108,6 @@ const RELEASE_API = "https://api.github.com/repos/oklspko/jplingo/releases/lates
 
 const apkSizeBytes = ref(0);
 const latestVersion = ref("");
-
-function formatBytes(bytes: number): string {
-  if (bytes >= 1024 * 1024 * 1024) return `${(bytes / 1024 / 1024 / 1024).toFixed(2)} GB`;
-  if (bytes >= 1024 * 1024) return `${(bytes / 1024 / 1024).toFixed(1)} MB`;
-  return `${Math.max(1, Math.round(bytes / 1024))} KB`;
-}
 
 const apkSizeText = computed(() => {
   if (!apkSizeBytes.value) return "含离线语音模型与词典，体积较大，建议用 Wi-Fi 下载";

@@ -348,7 +348,8 @@ import JpCheckinCalendar from "~/components/jp/JpCheckinCalendar.vue";
 import { useJpAuth } from "~/composables/jp/useJpAuth";
 import { useJpUpdate } from "~/composables/jp/useJpUpdate";
 import { useJpDataUpdate } from "~/composables/jp/useJpDataUpdate";
-import { formatBytes, shortVersion } from "~/utils/jpDataPack";
+import { formatBytes } from "~/utils/jpFormat";
+import { shortVersion } from "~/utils/jpDataPack";
 import {
   useJpStorage,
   calcStreak,

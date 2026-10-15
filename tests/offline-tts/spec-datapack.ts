@@ -4,7 +4,6 @@ import { mockState } from "@capacitor/core";
 import { fsState } from "@capacitor/filesystem";
 import {
   base64ToBytes,
-  formatBytes,
   normalizeEol,
   planUpdate,
   sha256Hex,
@@ -13,6 +12,7 @@ import {
   verifySize,
   type DataManifest,
 } from "../../app/utils/jpDataPack";
+import { formatBytes } from "../../app/utils/jpFormat";
 import { fetchDataJson, readAppliedManifest } from "../../app/composables/jp/useJpData";
 import {
   applyDataUpdate,

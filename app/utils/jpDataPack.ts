@@ -137,15 +137,6 @@ export async function verifyAgainstCache(
   };
 }
 
-/** 字节数展示：1.2 MB / 345 KB */
-export function formatBytes(bytes: number): string {
-  if (!bytes || bytes < 0) return "0 KB";
-  if (bytes >= 1024 * 1024 * 1024) return `${(bytes / 1024 / 1024 / 1024).toFixed(2)} GB`;
-  if (bytes >= 1024 * 1024) return `${(bytes / 1024 / 1024).toFixed(1)} MB`;
-  if (bytes >= 1024) return `${(bytes / 1024).toFixed(0)} KB`;
-  return `${bytes} B`;
-}
-
 /** 版本号缩短显示：sha256:7647996444fd3e58… → 76479964 */
 export function shortVersion(version: string | null | undefined): string {
   if (!version) return "—";
