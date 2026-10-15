@@ -1,0 +1,49 @@
+# route: /jp-kana-chart/
+# source: headless-browser-cdp
+# appVersion: 1.2.38
+# title: jp-lingo · 日语连词成句
+# visible-nodes: 41
+# html-bytes-bucket: ~190000
+# tags: a=10 aside=1 body=1 div=12 footer=1 h1=1 h2=7 header=1 img=1 main=1 nav=1 p=3 section=7 span=36
+# ids: [role=button]=7 #__nuxt=1 #teleports=1
+# --- visible text ---
+📚
+课程
+📋
+记录
+📖
+语法
+👤
+我的
+📖 内容学习
+日语连词成句 · 语法学习
+按顺序学：先会「输入」→ 再会「造句」→ 再学「动词」→ 会用「助词」→ 最后懂「逻辑」
+🔎
+语法条词典
+按五十音（あいうえお）· 能力考等级（N5–N1）检索语法条
+→
+一
+日语输入法
+▸ 展开
+二
+三类谓语句
+▸ 展开
+三
+动词
+▸ 展开
+四
+助词
+▸ 展开
+五
+核心逻辑
+▸ 展开
+六
+数量词
+▸ 展开
+七
+尊他·自谦
+▸ 展开
+📮 意见反馈：
+1661769641@qq.com
+赣ICP备2026023858号
+赣公网安备36072202000346号

@@ -1,0 +1,78 @@
+{
+  "_comment": [
+    "渲染快照的护栏（REFACTOR.md 步骤 4/5 用）。",
+    "mustContain / mustNotContain 是**独立于基线文本**的硬断言：",
+    "改动页面结构时即使重新生成基线，这几条也必须仍然成立（例如「我的」页不能丢标题、",
+    "jp-game 深链路不能丢壳），所以它们不会随 --write-baseline 被抹掉。",
+    "静态降级路径复用同一份文件（见 scripts/verify-render.cjs 里的 staticCheck）。"
+  ],
+  "_global": {
+    "forbiddenArtifacts": [
+      "JpParticlesDataUndefined",
+      "useJpGrammarContentInline",
+      "参考文献_未定义"
+    ]
+  },
+  "/": {
+    "mustContain": [
+      "jp-lingo",
+      "导入课程包",
+      "新建文件夹",
+      "分组管理",
+      "单词课程",
+      "赣ICP备2026023858号"
+    ],
+    "mustNotContain": []
+  },
+  "/jp-home/": {
+    "mustContain": [
+      "jp-lingo",
+      "导入课程包",
+      "新建文件夹",
+      "分组管理",
+      "单词课程"
+    ],
+    "mustNotContain": []
+  },
+  "/jp-grammar/": {
+    "mustContain": [
+      "语法条词典"
+    ],
+    "mustNotContain": []
+  },
+  "/jp-kana-chart/": {
+    "mustContain": [
+      "日语连词成句 · 语法学习",
+      "三类谓语句",
+      "助词",
+      "核心逻辑",
+      "尊他·自谦"
+    ],
+    "mustNotContain": []
+  },
+  "/jp-words/": {
+    "mustContain": [
+      "词库"
+    ],
+    "mustNotContain": []
+  },
+  "/jp-me/": {
+    "mustContain": [
+      "我的"
+    ],
+    "mustNotContain": []
+  },
+  "/jp-game/jp-growing/jp-grow-01": {
+    "mustContain": [
+      "日语连词成句"
+    ],
+    "mustNotContain": []
+  },
+  "/jp-study/jp-growing/jp-grow-01": {
+    "mustContain": [
+      "课程列表",
+      "进入练习"
+    ],
+    "mustNotContain": []
+  }
+}

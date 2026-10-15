@@ -1,0 +1,44 @@
+# route: /jp-home/
+# source: headless-browser-cdp
+# appVersion: 1.2.38
+# title: jp-lingo · 日语连词成句
+# visible-nodes: 36
+# html-bytes-bucket: ~100000
+# tags: a=9 aside=1 body=1 button=4 circle=3 div=23 footer=1 h1=1 h2=4 header=1 img=1 line=3 main=2 nav=1 p=4 path=5 section=4 span=19 strong=1 svg=3
+# ids: [role=button]=4 #__nuxt=1 #teleports=1
+# --- visible text ---
+📚
+课程
+📋
+记录
+📖
+语法
+👤
+我的
+jp-lingo
+用连词成句的方式学习日语
+💡
+不会日语输入法？从
+五十音
+开始，边练边熟悉罗马字输入
+×
+导入课程包
+新建文件夹
+分组管理
+▶
+五十音
+入门
+▶
+变形练习
+入门
+▶
+句子生长
+入门
+▶
+📚
+单词课程
+高考日语 · N1–N5 · 共 6 个课程包
+📮 意见反馈：
+1661769641@qq.com
+赣ICP备2026023858号
+赣公网安备36072202000346号
