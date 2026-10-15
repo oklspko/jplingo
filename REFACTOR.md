@@ -324,7 +324,7 @@ SNAPSHOT_EXIT=0
 | 3 自测进 CI | ☑ | `472ebfe`（workflow）+ `342026f`（esbuild 显式依赖） | 见上方「步骤 3 执行记录」：分支已 push；首次 CI 红灯暴露 esbuild 传递依赖问题 → 修复后干净环境 278/0；故意改坏 → 失败 1 项退出码 1 → 改回全绿 |
 | 4 渲染快照脚本 | ☑ | 见本表下方「步骤 4 执行记录」所在提交 | 8 条关键路由渲染快照全绿（退出码 0）；两遍基线逐字节 IDENTICAL；**故意改坏 jp-home 副标题 → 精确报出 2 条差异 / 退出码 1 → 改回后全绿**；降级路径三种情形实测（浏览器起不来 = 退出码 2，不静默变绿）；自测仍 278/0 |
 | 5 巨型页面回归测试 | ☑ | 本次提交（`.gitattributes` + `verify-render.cjs` + `guards.json` + `jp-editor.txt`） | 三个巨型页面全部纳入：`/jp-home/`（8 条必备文案）、`/jp-editor/`（**新增路由 + 357 行基线 / 728 行可见文本**，4 条必备文案）、`/jp-me/`（3 条，剔除原生专属卡片）。**9 条路由全量重跑：全部无差异、退出码 0**；护栏机制实测会报错（此前写错一条「课程数据」→ `[FAIL] … 缺少必备文案「课程数据」`）；故意篡改 `jp-editor.txt` → 精确报出 `line 30: - 课程信息X / + 课程信息`、退出码 1 → 还原后 `[ok]`；严格模式自测 `JPLINGO_EXPECT_BUILD=1` = 278 项 0 失败 |
-| 6 公共工具层 | ☐ | | |
+| 6 公共工具层 | ☑ | `2aa6751`（字节格式化）+ `01bc1cb`（本地日期键）+ `3109fc5`（Set 切换 + 假名平移） | 见本表下方「步骤 6 执行记录」：4 个工具函数收口 13 处重复实现，**+95 / −64（净减 31 行）**；两条护栏全绿（9 条路由无差异 + 277 项断言 0 失败，退出码均 0） |
 | 7 拆 jp-me | ☐ | | |
 | 8 拆 jp-home | ☐ | | |
 | 9 拆 jp-editor | ☐ | | |
@@ -341,7 +341,76 @@ SNAPSHOT_EXIT=0
 
 ---
 
-## 阶段① 完成记录与续跑说明（2026-10-15 更新）
+## 步骤 6 执行记录（2026-10-15 实测于 `refactor/structure-safety-net`）
+
+**范围**：只抽「grep 能数出 ≥2～5 处、且语义逐字一致」的代码，全部落在 `app/utils/`（沿用 `jpxxx.ts` 命名）。
+`useJpSound` / `useJpTts` / `useJpInput` / `useJpCourses` / `useJpData*` 的**行为一行未改**——
+唯一涉及的 `useJpRomaji` 也只被「复用其已导出的纯函数」，实现本身没动。
+
+### 抽取前的 grep 统计（依据）
+
+| # | 重复片段 | 出现处 | 次数 |
+|---|---|---|---|
+| 1 | `GB/MB/KB` 分档 + `toFixed` 的字节格式化 | `app/utils/jpDataPack.ts:141`、`app/pages/release/index.vue:111` | 2 |
+| 2 | `getFullYear/getMonth+1/getDate + padStart(2,"0")` 拼 `YYYY-MM-DD` | `useJpStorage.ts:36`、`:243`、`:255`、`JpCheckinCalendar.vue:46/52`、`:64` | 5 |
+| 3 | 拷贝 `Set` → `has` 判定 → `add/delete` → 整体赋值 | `jp-record/index.vue:336/343/350`、`jp-home/index.vue:384` | 4 |
+| 4 | 片假名（ァ～ヶ）→ 平假名，码点平移 `0x60` | `jp-grammar/index.vue:185`、`useJpRomaji.ts:185` `katakanaToHiragana` | 2 |
+
+第 1 项的「看似不同」已逐个分支核对：两处差异只在 `bytes < 1024` 分档，而
+`release/index.vue` 的唯一调用点有 `if (!apkSizeBytes.value) return "…"` 前置守卫，
+可达输入只有 `0`（提前返回）与 `> 1024`（两分支同值）→ 所有可达输入逐字一致。
+
+### 结果
+
+| 提交 | 内容 | 新增工具 | 行数 |
+|---|---|---|---|
+| `2aa6751` | 字节格式化 | `app/utils/jpFormat.ts`（`formatBytes`） | +24 / −18（7 文件） |
+| `01bc1cb` | 本地日期键 | `app/utils/jpDate.ts`（`dayKey` / `todayKey` / `dayKeyOffset`） | +41 / −22（3 文件） |
+| `3109fc5` | Set 切换 + 假名平移 | `app/utils/jpCollection.ts`（`toggleSet`） | +30 / −24（4 文件） |
+| | **合计** | 4 个工具函数 | **+95 / −64，净减 31 行** |
+
+> 抽取中**没有改任何可见文案**，因此**不需要** `--write-baseline`；基线文件本次零改动。
+
+### 验证证据
+
+```bash
+cd D:/my-project/jplingo
+node scripts/verify-render.cjs --build
+#   合计 9 条路由，无差异        （9 条全部 [ok]，退出码 0，含 jp-home/jp-editor/jp-me 三个巨型页面）
+JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs
+#   55+34+10+7+20+14+62+23+42+10 = 277 项断言，失败 0 项，退出码 0
+```
+
+日期抽取另用一次性脚本 `node .tmp-date-equivalence.mjs` 做**新旧逐字对照**（跑完即删，未入库）：
+
+```
+  [ok] todayKey == 旧 todayStr
+  [ok] dayKeyOffset(-1) == 旧 yesterday
+  [ok] 日历单元格 420 个月逐格一致     （1990-2035 每月每天，0 处不同）
+  [ok] streak 前一天递推 400 天一致
+  合计 4 项，失败 0 项
+```
+
+### 备注（本次新增的坑与口径）
+
+7. **自测项数应以实跑为准：277，不是 278。** 逐条数各 spec 的 `[ok]` 行与各 `合计` 行相加都是
+   **277**（55+34+10+7+20+14+62+23+42+10），本次改动前后一致。步骤 1/3/5 记录里的「278」来自
+   更早的统计口径（`spec-grammar-wiring.ts` 只打印标题行、其 1 项断言靠
+   `script(check-grammar-wiring)` 的返回值体现，容易被重复计数）。**判断回归看「失败 0 项 + 退出码 0」，不要盯总数。**
+8. **别用 PowerShell 直接改带中文的文件**：`Set-Content -Encoding UTF8` 会**加 BOM**
+   （`EF BB BF`），`git diff` 会把首行整行报成改动。清理姿势：
+   `[System.IO.File]::WriteAllText($p, $txt, (New-Object System.Text.UTF8Encoding($false)))`。
+   本项目 `app/**` 未声明 `eol=lf`，本机 `core.autocrlf=true` 下 `git add` 会有
+   「LF will be replaced by CRLF」警告——**属既有配置、不是本次引入**（`.gitattributes` 只覆盖
+   `tests/render-baseline/**` 与 `public/{courses,dict,data}/**`）。
+9. **抽 `formatBytes` 时不要留 `export { formatBytes } from "~/utils/jpDataPack"` 这种 re-export**：
+   `release/index.vue` 是公开页，经 `jpDataPack` 转手会把整个数据热更新模块（含 crypto/清单逻辑）
+   拉进该页 chunk；改直连 import 更干净。同理，给 `tests/offline-tts/run.cjs` 的 `alias` 补新路径是
+   **harness 必需**（它只映射显式列出的 `~/...`），漏了会在 `spec-datapack` 打包期报
+   `ERR_MODULE_NOT_FOUND`。
+
+---
+
 
 **当前进度：步骤 1–5 全部完成并验证；阶段①（安全网）结束；下一步是步骤 6（抽公共工具层，进入阶段②）。**
 
