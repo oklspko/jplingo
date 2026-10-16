@@ -104,10 +104,16 @@ async function main() {
     extractBlocks("app/components/jp/JpGrammarGuide.vue", ["roles"]),
     "guide",
   );
-  const particleKeys = ["groups"];
-  const keigoKeys = ["groups"];
-  const particles = await loadModule(extractBlocks("app/components/jp/JpParticles.vue", particleKeys), "particles");
-  const keigo = await loadModule(extractBlocks("app/components/jp/JpKeigo.vue", keigoKeys), "keigo");
+  // 助词 / 敬语数据已搬到 app/data/（步骤 10：数据与展示分离），直接从数据模块读取；
+  // 这里统一导出成 `groups`，让下面组装 reference 的代码保持原样。
+  const particles = await loadModule(
+    `import { particleGroups } from "./app/data/jp-particles";\nexport const groups = particleGroups;`,
+    "particles",
+  );
+  const keigo = await loadModule(
+    `import { keigoGroups } from "./app/data/jp-keigo";\nexport const groups = keigoGroups;`,
+    "keigo",
+  );
 
   // 助词/敬语组件里的变量名都是 groups，导出后分别放在各自键下
   const reference = {

@@ -40,25 +40,57 @@ function stripComments(code: string): string {
   return code.replace(/\/\*[\s\S]*?\*\//g, "").replace(/(^|[^:])\/\/[^\n]*/g, "$1");
 }
 
-/** 抽出源码里引用的裸包名（去掉 node: 内建、相对路径、~ 别名） */
+/**
+ * 抽出源码里引用的裸包名（去掉 node: 内建、相对路径、~ 别名）。
+ *
+ * 必须只认**语句级** import/require：早期版本用 `from\s+"…"` 全局匹配，
+ * 把字符串/模板字符串里的文字也当成了依赖（真实误报：check-grammar-wiring.mjs 的提示文案里
+ * 含 “import ... as ...”，匹配出一个包名 `),`，让 CI 白红一次）。
+ * 现改为逐行状态机：只处理行首是 import/export 的语句（跨行时把续行拼起来），
+ * 其余行只认 require(...) / import(...)。这样绝不会看进字符串内部。
+ */
 function bareImports(code: string): Set<string> {
   const names = new Set<string>();
-  const src = stripComments(code);
-  const patterns = [
-    /require\(\s*["']([^"']+)["']\s*\)/g, // require("x")
-    /from\s+["']([^"']+)["']/g, // import x from "x"
-    /import\(\s*["']([^"']+)["']\s*\)/g, // import("x")
-  ];
-  for (const re of patterns) {
-    for (const m of src.matchAll(re)) {
-      const spec = m[1];
-      if (spec.startsWith(".") || spec.startsWith("/") || spec.startsWith("~")) continue;
-      // 取包名：@scope/name → @scope/name；name/sub → name
-      const parts = spec.split("/");
-      const name = spec.startsWith("@") ? parts.slice(0, 2).join("/") : parts[0];
-      if (BUILTINS.has(name)) continue;
-      names.add(name);
+  const add = (spec: string) => {
+    if (!spec || spec.startsWith(".") || spec.startsWith("/") || spec.startsWith("~")) return;
+    const parts = spec.split("/");
+    const name = spec.startsWith("@") ? parts.slice(0, 2).join("/") : parts[0];
+    if (BUILTINS.has(name)) return;
+    names.add(name);
+  };
+
+  const handleStatement = (t: string) => {
+    const m = t.match(/\bfrom\s+["']([^"']+)["']/);
+    if (m) add(m[1]);
+    const sideEffect = t.match(/^(?:import|export)\s+["']([^"']+)["']/);
+    if (sideEffect) add(sideEffect[1]);
+  };
+
+  let pending = "";
+  for (const raw of stripComments(code).split("\n")) {
+    const t = raw.trim();
+    if (!t) continue;
+
+    if (pending) {
+      pending += " " + t;
+      if (/["']\s*;?\s*$/.test(t)) {
+        handleStatement(pending);
+        pending = "";
+      }
+      continue;
     }
+
+    // 语句级 import/export：单行直接处理，跨行先攒着
+    if (/^(import|export)\b/.test(t)) {
+      if (/\bfrom\s+["'][^"']+["']/.test(t) || /^(?:import|export)\s+["'][^"']+["']/.test(t)) {
+        handleStatement(t);
+      } else if (!t.endsWith(";")) {
+        pending = t;
+      }
+    }
+
+    for (const m of raw.matchAll(/(?:^|[^\w$.])require\(\s*["']([^"']+)["']\s*\)/g)) add(m[1]);
+    for (const m of raw.matchAll(/\bimport\(\s*["']([^"']+)["']\s*\)/g)) add(m[1]);
   }
   return names;
 }

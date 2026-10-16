@@ -51,8 +51,17 @@ export function check() {
         problems.push(`${rel}: 找不到 const ${name} = computed(...)`);
         continue;
       }
-      if (!lines.some((l) => l.startsWith(`const bundled${name}`))) {
-        problems.push(`${rel}: 找不到 const bundled${name}`);
+      // 内置兜底数据必须存在：可以是组件内声明的 `const bundledX`（小数组），
+      // 也可以是从 app/data/ import 进来并别名为 bundledX（步骤 10 把大数组搬出组件后的形态）。
+      const hasBundledDecl = lines.some((l) => l.startsWith(`const bundled${name}`));
+      const bundled = `bundled${name}`;
+      const hasBundledImport = lines.some(
+        (l) => l.includes("import") && l.includes(" as " + bundled) && l.includes(" from "),
+      );
+      if (!hasBundledDecl && !hasBundledImport) {
+        problems.push(
+          `${rel}: 找不到内置兜底数据（既没有 const ${bundled}，也没有 import ... as ${bundled}）`,
+        );
       }
       // computed 声明之前（script 内）不能引用这个名字，否则运行时 TDZ 报错
       for (let i = scriptStart + 1; i < computedAt; i++) {
