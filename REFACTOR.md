@@ -453,6 +453,19 @@ JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs
 
 ---
 
+## 步骤 7 Pro 审查记录（2026-10-16，deepseek-v4-pro）
+
+**结论：可接受。** 逐项核实如下（重点三处风险点，均为代码级证据，非仅快照）：
+
+1. **挂载顺序** ✓：拆分前 `onMounted(() => { checkUpdate(); refreshTtsStatus(); })`；拆分后 `useJpMeUpdate`（onMounted→checkUpdate）在 `useJpMeTts`（onMounted→refreshTtsStatus）**之前**调用，Vue 按注册顺序执行 onMounted → 顺序不变。
+2. **`showResetModal` 解构 ref 的模板赋值** ✓：用 `@vue/compiler-sfc` 对比编译产物——拆分前 binding 为 `setup-ref`、拆分后为 `setup-maybe-ref`，但**两者的 `@click.self` / 「取消」生成的赋值表达式逐字一致**（都是 `$setup.showResetModal = false`，走 setup 代理；`proxyRefs` 的 set 会写入 `.value`）。`_cache[14]` vs `_cache[1]` 只是缓存槽位号。→ 解构 ref 前后写入语义零变化。
+   > 订正执行者一句话：执行者说「编译为 `showResetModal.value = false`」不精确——实际是 `$setup.showResetModal = false`（与拆分前完全相同），结论不变。
+3. **单一数据源** ✓：`useJpStorage` / `useJpAuth` / `useJpTts` / `useJpDataUpdate` / `useJpUpdate` 各自**只被调用一次**；`record/resetRecord/syncNow` 由页面调用一次 `useJpStorage()` 后作为参数注入 `useJpMeStats` / `useJpMeAccount`，二者内部不再调用 `useJpStorage()`。无第二份状态。
+4. **逐行等价** ✓：抽查 `ttsTitle` / `ttsDesc` / `ttsProgressWidth` / `ttsCardClass` 与拆分前**逐字一致**；其余块由执行者的 26 块比对 + 两条护栏（9 路由无差异 + 278 项 0 失败，编排方已重跑）兜底。
+5. **文案/默认值/进度条/静默检查语义** ✓：`dataSupported = computed(() => Capacitor.isNativePlatform())` 原样；`useJpMeDataUpdate` 无 `onMounted`（静默检查仍在 `app/plugins/jp-data-update.client.ts`）；`dataProgressWidth` 的 `35%/0%`、TTS 的「约 145MB/123MB」等逐字未改。
+
+---
+
 ## 步骤 6 Pro 审查记录（2026-10-15，deepseek-v4-pro）
 
 **结论：可接受。** 四个抽取均与重构前语义等价；三个观察点都不可达或有益，不构成回退理由。
