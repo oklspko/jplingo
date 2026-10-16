@@ -491,6 +491,91 @@ function killTree(child) {
   }
 }
 
+/** 同步等待：杀进程后句柄不会立刻释放，直接删目录会失败 */
+function sleepSync(ms) {
+  Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms);
+}
+
+/**
+ * 删除无头浏览器的临时 profile（每个约 400+ MB，必须确认删掉）。
+ *
+ * 2026-10-16 实测教训：早期版本 killTree 之后立刻 rmSync，且把失败注释成「profile 可能仍被占用，
+ * 留着无害」——**这个假设是错的**：每跑一次就留下约 436 MB，本机因此攒了 ~16.6 GB
+ * （C:\...\AppData\Local\Temp 下几十个 jplingo-render-*）。现在改为重试 + 失败出声。
+ */
+function removeProfileDir(dir, log) {
+  for (let i = 0; i < 8; i++) {
+    try {
+      fs.rmSync(dir, { recursive: true, force: true });
+      return true;
+    } catch {
+      sleepSync(250);
+    }
+  }
+  // 最后再试一次 force，并把失败**明确报出来**（不要静默留垃圾）
+  try {
+    fs.rmSync(dir, { recursive: true, force: true, maxRetries: 3 });
+    return true;
+  } catch (err) {
+    log(`[!] 临时 profile 删除失败（${dir}）：${err.message}，请手动清理（约 400MB）`);
+    return false;
+  }
+}
+
+/** 启动时清扫历史遗留的 jplingo-render-* profile（上次异常退出/删除失败留下的） */
+function sweepStaleProfiles(log) {
+  const tmp = os.tmpdir();
+  let swept = 0;
+  let freed = 0;
+  try {
+    for (const name of fs.readdirSync(tmp)) {
+      if (!name.startsWith("jplingo-render-")) continue;
+      const p = path.join(tmp, name);
+      let st;
+      try {
+        st = fs.statSync(p);
+      } catch {
+        continue;
+      }
+      // 只清扫 10 分钟前的（避免误删同时在跑的另一个实例）
+      if (Date.now() - st.mtimeMs < 10 * 60 * 1000) continue;
+      const before = dirSizeBytes(p);
+      if (removeProfileDir(p, log)) {
+        swept++;
+        freed += before;
+      }
+    }
+  } catch {
+    /* 读不到 tmpdir 就跳过 */
+  }
+  if (swept) log(`[0/5] 清扫历史遗留的无头浏览器 profile：${swept} 个，释放 ${(freed / 1048576).toFixed(0)} MB`);
+}
+
+/** 粗略统计目录字节数（用于报告释放量） */
+function dirSizeBytes(dir) {
+  let total = 0;
+  const stack = [dir];
+  while (stack.length) {
+    const cur = stack.pop();
+    let ents;
+    try {
+      ents = fs.readdirSync(cur, { withFileTypes: true });
+    } catch {
+      continue;
+    }
+    for (const e of ents) {
+      const p = path.join(cur, e.name);
+      try {
+        if (e.isDirectory()) stack.push(p);
+        else if (e.isFile()) total += fs.statSync(p).size;
+      } catch {
+        /* 忽略 */
+      }
+    }
+  }
+  return total;
+}
+
 /** 打开一个可复用的页面 target，返回连好的 MiniWs */
 async function openPage(cdpPort) {
   const list = await cdpJson(cdpPort, "/json/list");
@@ -763,6 +848,8 @@ async function main() {
   log(`[3/5] 本地静态服务 http://127.0.0.1:${port}（SPA 回退 200.html）`);
 
   const edgePath = findEdge(args.edge);
+  // 先清扫历史遗留（上次异常退出留下的 ~400MB profile），再建本轮的
+  sweepStaleProfiles(log);
   const profileDir = fs.mkdtempSync(path.join(os.tmpdir(), `jplingo-render-${Date.now()}-`));
   let degraded = null;
   let degradedKind = null;
@@ -807,11 +894,8 @@ async function main() {
     if (page) page.close();
     if (browser) killTree(browser.child);
     if (!args.keepOut) {
-      try {
-        fs.rmSync(profileDir, { recursive: true, force: true });
-      } catch {
-        /* profile 可能仍被占用，留着无害 */
-      }
+      // 杀进程后句柄不会立刻释放：交给 removeProfileDir 重试，失败会明确报警（不再静默留垃圾）
+      removeProfileDir(profileDir, log);
     }
     server.close();
   }
