@@ -119,7 +119,7 @@
 已是<LATEST>
 <更新检查>
 📱 下载 Android App
-jp-lingo v1.2.38
+jp-lingo v<VERSION>
 📮 意见反馈：
 1661769641@qq.com
 赣ICP备2026023858号
