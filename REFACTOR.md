@@ -500,6 +500,19 @@ JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs
 
 ---
 
+## 步骤 11 Pro 审查记录（2026-10-16，deepseek-v4-pro）
+
+**结论：可接受。** 纯改名 + 纯类型合并，无运行时字符串变动。
+
+| 核对点 | 结论 |
+|---|---|
+| 改名 | `bundled<小写>` → `bundled<Upper>` 仅发生在 5 个组件的 import 别名与 computed 兜底表达式里，语义未变；检查器 `check-grammar-wiring.mjs` 同步按 camelCase 拼名，反测（注释 import → 报错）通过 |
+| 类型合并 | `GrammarExample`/`KeigoExample` → `app/types/jp.ts` 的 `JpBilingualExample`（形状 `{jp,zh}` 一致、grep 确认无外部引用、用 `import type` 引入会被擦除） |
+| 运行时字符串 | 逐行 grep 无 localStorage key / 路由名 / `jp-data/_applied.json` / 插件名 `JpTts` 的改动 |
+| 生成物 | `grammar-reference.json` / `grammar-points.json` 与改动前逐字节一致（类型被擦除） |
+
+---
+
 ## 步骤 10 Pro 审查记录（2026-10-16，deepseek-v4-pro）
 
 **结论：可接受（含一处已修复的护栏回归）。**
