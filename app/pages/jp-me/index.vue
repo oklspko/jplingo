@@ -350,10 +350,8 @@ import { useJpUpdate } from "~/composables/jp/useJpUpdate";
 import { useJpDataUpdate } from "~/composables/jp/useJpDataUpdate";
 import { formatBytes } from "~/utils/jpFormat";
 import { shortVersion } from "~/utils/jpDataPack";
-import {
-  useJpStorage,
-  calcStreak,
-} from "~/composables/jp/useJpStorage";
+import { useJpStorage } from "~/composables/jp/useJpStorage";
+import { useJpMeStats } from "~/composables/jp/useJpMeStats";
 import {
   useJpTts,
   ttsPercent,
@@ -367,6 +365,9 @@ import {
 import { speakOfflineNow } from "~/composables/jp/useJpSound";
 
 const { record, resetRecord, syncNow } = useJpStorage();
+// 学习统计与「重置学习记录」：record / resetRecord 都是上面这一份，传进去而不是另起一份
+const { streak, todayMinutes, totalDuration, showResetModal, confirmReset, doReset } =
+  useJpMeStats(record, resetRecord);
 const { user, signOut } = useJpAuth();
 const isNative = Capacitor.isNativePlatform();
 const runtimeConfig = useRuntimeConfig();
@@ -598,27 +599,6 @@ async function onSync() {
   setTimeout(() => {
     syncMsg.value = "";
   }, 3000);
-}
-
-const streak = computed(() => calcStreak(record.value.days));
-const todayMinutes = computed(() => Math.floor(record.value.todaySeconds / 60));
-const totalDuration = computed(() => {
-  const s = record.value.totalSeconds;
-  if (s < 3600) return `${Math.floor(s / 60)} 分`;
-  const h = Math.floor(s / 3600);
-  const m = Math.floor((s % 3600) / 60);
-  return `${h}h${m}m`;
-});
-
-const showResetModal = ref(false);
-
-function confirmReset() {
-  showResetModal.value = true;
-}
-
-function doReset() {
-  resetRecord();
-  showResetModal.value = false;
 }
 </script>
 
