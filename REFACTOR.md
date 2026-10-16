@@ -450,6 +450,19 @@ JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs
 两次都是编排方从半成品里接手：先查自洽性（模板标识符、悬空引用）→ 跑三条护栏 → 清理残留 → 提交。
 **结论：步骤 9 起，每个子代理交付后必须先跑 `check-template-bindings.mjs` + 渲染快照 + 自测，再人工抽查 diff，才允许提交。**
 
+### 第三个问题：CI 红灯（属步骤 3 同类坑的复现）
+
+推分支后 CI 报 `Cannot find module '@vue/compiler-sfc'` —— 新写的 `check-template-bindings.mjs` 依赖它，
+而它只是 Nuxt/Vue 的**传递依赖**：本机 `node_modules` 是扁平（npm 式）布局能解析，CI 的 pnpm 隔离链接下解析不到。
+（步骤 3 的 esbuild 就是这么翻车的，**同一个坑踩了两次**。）
+
+- 修复：把 `@vue/compiler-sfc@3.5.42`（与 lockfile 已解析版本一致）加进 `devDependencies`；
+  lockfile 改动经核对良性（只多该包 importer 声明 + pnpm 规范了一条 ioredis peer 签名，**无版本升级**）。
+- **新增护栏 `tests/offline-tts/spec-explicit-deps.ts`**：扫描 `scripts/` 与 `tests/` 里的裸包引用，
+  凡不在 `package.json` 的 deps/devDeps 中即报错（排除 Node 内建、相对路径、`~` 别名、注释内示例）。
+  反向验证：临时移除 `@vue/compiler-sfc` → 精确报出 1 处、无误报。
+- 自测现共 **282 项断言**；CI（`tests` workflow）已绿。
+
 ---
 
 ## 步骤 7 执行记录（2026-10-15）与 7b 交接点
