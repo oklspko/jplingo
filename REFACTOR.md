@@ -325,7 +325,7 @@ SNAPSHOT_EXIT=0
 | 4 渲染快照脚本 | ☑ | 见本表下方「步骤 4 执行记录」所在提交 | 8 条关键路由渲染快照全绿（退出码 0）；两遍基线逐字节 IDENTICAL；**故意改坏 jp-home 副标题 → 精确报出 2 条差异 / 退出码 1 → 改回后全绿**；降级路径三种情形实测（浏览器起不来 = 退出码 2，不静默变绿）；自测仍 278/0 |
 | 5 巨型页面回归测试 | ☑ | 本次提交（`.gitattributes` + `verify-render.cjs` + `guards.json` + `jp-editor.txt`） | 三个巨型页面全部纳入：`/jp-home/`（8 条必备文案）、`/jp-editor/`（**新增路由 + 357 行基线 / 728 行可见文本**，4 条必备文案）、`/jp-me/`（3 条，剔除原生专属卡片）。**9 条路由全量重跑：全部无差异、退出码 0**；护栏机制实测会报错（此前写错一条「课程数据」→ `[FAIL] … 缺少必备文案「课程数据」`）；故意篡改 `jp-editor.txt` → 精确报出 `line 30: - 课程信息X / + 课程信息`、退出码 1 → 还原后 `[ok]`；严格模式自测 `JPLINGO_EXPECT_BUILD=1` = 278 项 0 失败 |
 | 6 公共工具层 | ☑ | `2aa6751`（字节格式化）+ `01bc1cb`（本地日期键）+ `3109fc5`（Set 切换 + 假名平移） | 见本表下方「步骤 6 执行记录」：4 个工具函数收口 13 处重复实现，**+95 / −64（净减 31 行）**；两条护栏全绿（9 条路由无差异 + 277 项断言 0 失败，退出码均 0） |
-| 7 拆 jp-me | ☐ | | |
+| 7 拆 jp-me | ◐ | `14f6d4d`/`e4846ac`/`5300993`/`fc0d7e2`/`1161c80` | **逻辑部分完成**：script 282 → 88 行，抽出 5 个 `useJpMe*` composable（417 行）；template(1–341) 与 style(625–1540) **逐字节未动**（style 哈希 `7f8c4d74642e7e75` 双方吻合）。两条护栏独立复跑全绿：9 路由无差异 + 278 项 0 失败。**未达成「单文件 ≤300 行」**（页面仍 1346 行 = template 341 + script 88 + style 916）→ 需步骤 7b 拆卡片组件 |
 | 8 拆 jp-home | ☐ | | |
 | 9 拆 jp-editor | ☐ | | |
 | 10 数据与展示分离 | ☐ | | |
@@ -417,6 +417,41 @@ JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs
 
 ---
 
+
+## 步骤 7 执行记录（2026-10-15）与 7b 交接点
+
+**先纠正一个统计口径**：`jp-me/index.vue` 拆分前的真实构成是 **template 341 + script 282 + style 916 = 1539 行**（不是我最初报告的「script 约 1200 行」——那是我误把 SFC 里第一个 `</template>`（嵌套模板）当成模板结束位置导致的误读）。
+
+### 已完成：逻辑抽到 composables（template / style 一字未动）
+
+| 提交 | composable | 抽出内容 | 行数 |
+|---|---|---|---|
+| `14f6d4d` | `useJpMeStats.ts` | streak / todayMinutes / totalDuration / showResetModal / confirmReset / doReset | 42 |
+| `e4846ac` | `useJpMeTts.ts` | 离线发音：标题·描述·配色·进度文案 / 试听·下载·删除 / 语者·步数切换 | 166 |
+| `5300993` | `useJpMeDataUpdate.ts` | 课程数据：版本行·进度·卡片配色 / 立即更新·恢复内置 | 114 |
+| `fc0d7e2` | `useJpMeUpdate.ts` | App 更新：检查更新 / 立即更新 | 51 |
+| `1161c80` | `useJpMeAccount.ts` | 账号：user / 退出登录 / 立即同步 / syncing / syncMsg | 44 |
+
+结果：**script 282 → 88 行**，页面 1539 → 1346 行；`git diff --stat 49aff75..HEAD` = 6 files, +482 / −259。
+
+**独立复核（编排方亲自做，不采信执行者自述）**：
+- `git diff -U0` 的全部 hunk 都落在旧行 344–448（script 段）→ template(1–341)、style(625–1540) 无任何 +/− ✓
+- style 段 sha256 前后一致 `7f8c4d74642e7e75` ✓；template 段一致 ✓
+- 两条护栏**由编排方重跑**：`verify-render.cjs --build` = 9/9 无差异（exit 0）；`JPLINGO_EXPECT_BUILD=1 run.cjs` = 278 项 0 失败（exit 0）✓
+
+**执行者主动上报、留待 Pro 复核的点**：
+1. 为保持「先 `checkUpdate()` 再 `refreshTtsStatus()`」的原挂载顺序，页面把 `useJpMeUpdate(appVersion)` 挪到 `useJpMeTts()` 之前（两者不共享状态；中间提交里顺序还是反的，只有最终 `1161c80` 与原顺序一致）。
+2. `showResetModal` 由页面本地 `ref` 变为 composable 返回后解构（SETUP_REF → SETUP_MAYBE_REF）——执行者用 `@vue/compiler-sfc` 实证写入仍编译为 `.value = false`、读取为 `_unref(...)`；**这类改动渲染快照抓不到，需要 Pro 看源码 diff 确认**。
+3. 单一数据源：`record/resetRecord/syncNow` 只由页面调一次 `useJpStorage()` 再注入两个 composable（若各自再调一次会新建 record ref，「立即同步」就会与页面显示分家）——这条约束已满足，但**后续步骤不要破坏它**。
+
+### 交接点：步骤 7b（未做）
+
+页面的 1346 行里 **style 占 916 行（68%）**，template 341 行。要达成步骤 7 的「单文件 ≤ 300 行」，必须把每张卡片拆成
+`app/components/jp/JpMe*Card.vue`（**template + 对应 style 一起搬走**），页面只留编排。
+风险与护栏：CSS 搬到子组件（`scoped` 保持）→ 渲染快照比对可见文本仍有效，但**样式层变化快照抓不到**，
+所以 7b 必须人工看「有没有元素被漏搬 / 样式作用域变化」，建议 7b 做完先由 Pro 审 diff 再合并。
+
+---
 
 ## 步骤 6 Pro 审查记录（2026-10-15，deepseek-v4-pro）
 
