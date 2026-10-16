@@ -37,6 +37,7 @@ const specs = [
   "spec-preload.ts",
   "spec-growing.ts",
   "spec-growing-order.ts",
+  "spec-input.ts",
   "spec-fuzzy.ts",
   "spec-datapack.ts",
   "spec-grammar-wiring.ts",
