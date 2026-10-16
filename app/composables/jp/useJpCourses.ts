@@ -181,6 +181,54 @@ export function buildChunkedOrder(
 // （A、B）按句中顺序练一遍，再进入句子；更长的句子（CでAをB）同理先练 C、A、B。
 // 已练过的词不再重复单练（避免「同一个词刚练完紧接着又出现」），
 // 而是之后在句子里以「出现在句子中」的方式被反复复习，形成词→句→词→句的循环。
+
+/** 把（去重后的）语句拆成「单词」与「句子」：tokens > 1 视为句子，其余为单词 */
+export function splitWordsAndSentences(
+  unique: JpStatement[],
+): { words: JpStatement[]; sentences: JpStatement[] } {
+  const words: JpStatement[] = [];
+  const sentences: JpStatement[] = [];
+  for (const s of unique) {
+    if ((s.tokens?.length || 1) > 1) sentences.push(s);
+    else words.push(s);
+  }
+  return { words, sentences };
+}
+
+/**
+ * 句子按「短句在前、长句在后」排序：长度 = token 数，同长度保持数据原顺序（稳定排序）。
+ * 这样「一课一句话」的生长链天然维持 3→4→…→N 的递增次序，不会被排序打乱。
+ */
+export function sortSentencesShortToLong(sentences: JpStatement[]): JpStatement[] {
+  return sentences
+    .map((s, index) => ({ s, index, len: s.tokens?.length || 0 }))
+    .sort((a, b) => a.len - b.len || a.index - b.index)
+    .map((item) => item.s);
+}
+
+/** 单词表索引：japanese → 语句。句子里的 token 必须**精确匹配**单词的 japanese 才会被单练（助词不在表里）。 */
+export function buildWordIndex(words: JpStatement[]): Map<string, JpStatement> {
+  const index = new Map<string, JpStatement>();
+  for (const w of words) index.set(w.japanese, w);
+  return index;
+}
+
+/** 本句会用到、且尚未单练过的单词（按句中出现顺序，同词去重） */
+export function unlearnedWordsIn(
+  sentence: JpStatement,
+  wordByText: Map<string, JpStatement>,
+  learned: ReadonlySet<string>,
+): JpStatement[] {
+  const used: JpStatement[] = [];
+  for (const t of sentence.tokens || []) {
+    const w = wordByText.get(t.text);
+    if (w && !learned.has(w.japanese) && !used.some((u) => u.japanese === w.japanese)) {
+      used.push(w);
+    }
+  }
+  return used;
+}
+
 export function buildGrowingOrder(
   statements: JpStatement[],
   _chunkSize = 6,
@@ -188,42 +236,16 @@ export function buildGrowingOrder(
   const unique = dedupeStatements(statements);
   if (unique.length === 0) return [];
 
-  const words: JpStatement[] = [];
-  const sentences: JpStatement[] = [];
-  for (const s of unique) {
-    if ((s.tokens?.length || 1) > 1) sentences.push(s);
-    else words.push(s);
-  }
-
-  // 核心规则（新增）：句子按「短句在前、长句在后」出题——长度 = token 数；
-  // 同长度的保持数据里的原顺序（稳定排序），因此「一课一句话」的生长链
-  // 天然维持 3→4→…→15 个内容词的递增次序，不会被排序打乱。
-  // 词是先句中抽取的，所以排序只会让「新词+短句」更早出现，不破坏词先句后。
-  const ordered = sentences
-    .map((s, index) => ({ s, index, len: s.tokens?.length || 0 }))
-    .sort((a, b) => a.len - b.len || a.index - b.index)
-    .map((item) => item.s);
-
-  const wordByText = new Map<string, JpStatement>();
-  for (const w of words) wordByText.set(w.japanese, w);
+  const { words, sentences } = splitWordsAndSentences(unique);
+  // 句子按短句在前长句在后排序（词是先从句中抽取的，所以排序只会让「新词+短句」更早出现，不破坏词先句后）
+  const ordered = sortSentencesShortToLong(sentences);
+  const wordByText = buildWordIndex(words);
 
   const learned = new Set<string>(); // 已作为单词单独练过的词
   const out: JpStatement[] = [];
 
   for (const sentence of ordered) {
-    // 本句会用到、且尚未单独练过的单词（按句中出现顺序，同词去重）
-    const used: JpStatement[] = [];
-    for (const t of sentence.tokens || []) {
-      const w = wordByText.get(t.text);
-      if (
-        w &&
-        !learned.has(w.japanese) &&
-        !used.some((u) => u.japanese === w.japanese)
-      ) {
-        used.push(w);
-      }
-    }
-    for (const w of used) {
+    for (const w of unlearnedWordsIn(sentence, wordByText, learned)) {
       out.push(w);
       learned.add(w.japanese);
     }
