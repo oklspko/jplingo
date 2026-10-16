@@ -41,6 +41,7 @@ const specs = [
   "spec-grammar-wiring.ts",
   "spec-build-safety.ts",
   "spec-template-bindings.ts",
+  "spec-explicit-deps.ts",
 ];
 const alias = {
   "@capacitor/core": path.join(here, "mocks", "core.ts"),

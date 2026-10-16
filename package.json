@@ -27,6 +27,7 @@
   "devDependencies": {
     "@capacitor/android": "^8.5.2",
     "@capacitor/cli": "^8.5.2",
+    "@vue/compiler-sfc": "3.5.42",
     "esbuild": "0.28.2"
   }
 }
