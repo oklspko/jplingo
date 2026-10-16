@@ -500,6 +500,25 @@ JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs
 
 ---
 
+## 步骤 8 Pro 审查记录（2026-10-16，deepseek-v4-pro）
+
+**结论：可接受。** 6 个 composable 均为逐字搬移，单一数据源 / 异步时序 / 事件处理均未变；两处已修的已知问题修得正确。
+
+| 核对点 | 证据 |
+|---|---|
+| `mapConcurrent` / `loadPackMeta` / `loadAll` / `getCourseTitle` / `courseMetaText` / `courseTitleOf` | 与拆分前（49aff75）**逐字一致**（含 `META_CONCURRENCY=6`、worker 循环、`loadPackMeta` 的 `finally` 清理、`loadAll` 的「先 sort 后按需加载已展开包」顺序） |
+| `useJpHomeImport` / `useJpHomeManage` / `useJpHomeTip` / `useJpHomeUiState` / `useJpHomePacks` | prompt/confirm 文案、错误兜底、localStorage key（`jp-beginner-tip-dismissed`）逐字一致 |
+| 单一数据源 | `expandedPacks`/`tipConfirmOpen` 各由页面建一份、以 ref 注入；`loadAll`/`loadPackMeta`/`courseTitleOf` 依赖注入；`packTitles` 用 getter（`() => coursePacks.value…`）读最新值而非快照；无第二处 `fetchCoursePacks()` |
+| 异步时序 | `doImportUrl`/`doImportFile`/`removePack`/`renameCourse`/`sortPackByName`/`moveCourseTo`/`deleteCourse`/`renamePack`/`createFolder` 均 `await loadAll()`；`togglePack` 展开时 `onToggleExpand`(=loadPackMeta) 不 await，与拆分前一致 |
+| 事件处理 | `document click → closeAllMenus`（onMounted 注册 + onUnmounted 移除）；`closeAllMenus` 清三个菜单 id + `tipConfirmOpen`（共享 ref）；菜单 toggle 逻辑（`=== id ? "" : id`）不变 |
+| 已知修复 | ① `isVocabPack` 已恢复 import（模板 L93/L182 仍用）；② 页面 onMounted 里重复的 localStorage 判断已删（归 `useJpHomeTip` 所有） |
+
+**一处无影响的顺序变化**（如实记录）：原页面 onMounted 顺序是「loadAll → (addEventListener + localStorage 判断)」，
+现在因为 `useJpHomeTip` 在 setup 阶段先注册了它的 onMounted，localStorage 判断**先于** loadAll 执行。
+三者互相独立（提示条显隐、课程数据加载、点击监听之间无依赖），且同步 setup 阶段不可能发生点击，故无可观察影响。
+
+---
+
 ## 步骤 7 Pro 审查记录（2026-10-16，deepseek-v4-pro）
 
 **结论：可接受。** 逐项核实如下（重点三处风险点，均为代码级证据，非仅快照）：
