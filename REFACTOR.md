@@ -326,7 +326,7 @@ SNAPSHOT_EXIT=0
 | 5 巨型页面回归测试 | ☑ | 本次提交（`.gitattributes` + `verify-render.cjs` + `guards.json` + `jp-editor.txt`） | 三个巨型页面全部纳入：`/jp-home/`（8 条必备文案）、`/jp-editor/`（**新增路由 + 357 行基线 / 728 行可见文本**，4 条必备文案）、`/jp-me/`（3 条，剔除原生专属卡片）。**9 条路由全量重跑：全部无差异、退出码 0**；护栏机制实测会报错（此前写错一条「课程数据」→ `[FAIL] … 缺少必备文案「课程数据」`）；故意篡改 `jp-editor.txt` → 精确报出 `line 30: - 课程信息X / + 课程信息`、退出码 1 → 还原后 `[ok]`；严格模式自测 `JPLINGO_EXPECT_BUILD=1` = 278 项 0 失败 |
 | 6 公共工具层 | ☑ | `2aa6751`（字节格式化）+ `01bc1cb`（本地日期键）+ `3109fc5`（Set 切换 + 假名平移） | 见本表下方「步骤 6 执行记录」：4 个工具函数收口 13 处重复实现，**+95 / −64（净减 31 行）**；两条护栏全绿（9 条路由无差异 + 277 项断言 0 失败，退出码均 0） |
 | 7 拆 jp-me | ◐ | `14f6d4d`/`e4846ac`/`5300993`/`fc0d7e2`/`1161c80` | **逻辑部分完成**：script 282 → 88 行，抽出 5 个 `useJpMe*` composable（417 行）；template(1–341) 与 style(625–1540) **逐字节未动**（style 哈希 `7f8c4d74642e7e75` 双方吻合）。两条护栏独立复跑全绿：9 路由无差异 + 278 项 0 失败。**未达成「单文件 ≤300 行」**（页面仍 1346 行 = template 341 + script 88 + style 916）→ 需步骤 7b 拆卡片组件 |
-| 8 拆 jp-home | ☐ | | |
+| 8 拆 jp-home | ☑ | `b7c206e`（课程与元数据）+ `231afb0`（Packs 抢救 + 模板护栏）+ `05ff7b3`（其余四组 + 残留清理） | **逻辑抽取完成**：抽出 6 个 `useJpHome*` composable（421 行），页面 1630 → 1434 行；template 与 style 一字未改。三条护栏编排方亲跑全绿：`check-template-bindings` 0 可疑、9 路由渲染快照无差异、自测 **280 项** 0 失败。过程中抓到并修掉两个真问题（详见「步骤 8 执行记录」）|
 | 9 拆 jp-editor | ☐ | | |
 | 10 数据与展示分离 | ☐ | | |
 | 11 类型集中 | ☐ | | |
@@ -417,6 +417,40 @@ JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs
 
 ---
 
+
+## 步骤 8 执行记录（2026-10-16）与「代理不可信、必须验收」的教训
+
+**结果**：`jp-home/index.vue` 的脚本逻辑抽成 6 个 composable（421 行），页面 1630 → 1434 行，template/style 一字未改。
+三条护栏全绿（`check-template-bindings` 0 可疑 / 9 路由快照无差异 / 280 项断言 0 失败）。
+
+| composable | 行数 | 内容 |
+|---|---|---|
+| `useJpHomeCourses.ts` | 107 | coursePacks / courseIndex / loadAll / loadPackMeta / mapConcurrent / getCourseTitle / courseMetaText / courseTitleOf |
+| `useJpHomeImport.ts` | 86 | 导入弹窗（URL / 文件）与删除课程包 |
+| `useJpHomeManage.ts` | 82 | 分组管理：重命名/移动/排序/删除课程、重命名/新建文件夹 |
+| `useJpHomeUiState.ts` | 70 | 折叠状态、三处「⋯」菜单、`closeAllMenus()` |
+| `useJpHomeTip.ts` | 40 | 新手提示条与「不再显示」本地记忆 |
+| `useJpHomePacks.ts` | 36 | 词汇包收纳、分类派生、已导入文件夹 |
+
+单一数据源设计：`expandedPacks` / `tipConfirmOpen` 由页面各建一份、同一个 ref 注入相关 composable；
+`loadPackMeta` / `loadAll` / `courseTitleOf` 依赖注入（避免 composable 互相循环依赖）；`packTitles` 用 getter 而非快照。
+
+### ⚠️ 两个「代理留下的真问题」（都由编排方验收时抓到，说明护栏有效）
+
+1. **模板漏 import**（构建抓不到）：`isVocabPack` 被移进 composable 后页面删掉了 import，
+   但模板里还有两处 `v-if="isVocabPack(pack.id)"` → 运行时 undefined，**vite 构建全绿**。
+   → 修复：恢复 import 并加注释；**并新增通用护栏 `scripts/check-template-bindings.mjs`**（编译模板，凡出现 `_ctx.xxx` 即报错），
+   已接入自测。反向验证：注释掉该 import → 精确报出；全项目 27 个文件扫描 0 可疑。
+2. **抽取残留**：页面 `onMounted` 里还留着新手提示的 localStorage 判断（已移进 `useJpHomeTip`），两处都跑。
+   幂等所以不改行为，但属没抽干净 → 已删除页面那三行并注明归属。
+
+### 教训：执行代理不可信，验收必须靠护栏 + 人工
+
+本步先后用了两个子代理：**第一个中途失败（无收尾消息）**、**第二个卡死**（0 个 node 进程却残留 155 个 headless 浏览器，6.5 分钟无文件变动）。
+两次都是编排方从半成品里接手：先查自洽性（模板标识符、悬空引用）→ 跑三条护栏 → 清理残留 → 提交。
+**结论：步骤 9 起，每个子代理交付后必须先跑 `check-template-bindings.mjs` + 渲染快照 + 自测，再人工抽查 diff，才允许提交。**
+
+---
 
 ## 步骤 7 执行记录（2026-10-15）与 7b 交接点
 
