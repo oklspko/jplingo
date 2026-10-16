@@ -418,6 +418,30 @@ JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs
 ---
 
 
+## 步骤 6 Pro 审查记录（2026-10-15，deepseek-v4-pro）
+
+**结论：可接受。** 四个抽取均与重构前语义等价；三个观察点都不可达或有益，不构成回退理由。
+
+| 核对点 | 结论 |
+|---|---|
+| `formatBytes` 定义（jpFormat.ts vs jpDataPack.ts 旧版） | 逐字一致 ✓（`!bytes \|\| bytes<0 → 0 KB`、GB/MB/KB/B 四档、`toFixed` 位数全部相同） |
+| `dayKey` / `todayKey` / `dayKeyOffset`（vs useJpStorage 的 todayStr/昨天 IIFE/循环、JpCheckinCalendar 的 pad/toStr） | 逐字等价 ✓（都读本地时间字段；`dayKeyOffset(-1, new Date(current))` 与旧循环的 `setDate(getDate()-1)` 一致；`new Date(y, m, d)` 因 d 恒为合法日不触发跨月归一化） |
+| `toggleSet`（vs jp-record 3 处 + jp-home 1 处的 5 行样板） | 等价 ✓；`jp-home` 的 `loadPackMeta` 副作用保留（旧在 else 分支调用、新在 toggle 后按 `has(packId)` 调用，都在「未展开→展开」时触发一次） |
+| `useJpDataUpdate.ts` / `jp-me` / `release` / `spec-datapack` 的 formatBytes 来源 | 全部改从 `~/utils/jpFormat` 导入，无残留、无本地重定义 ✓（grep 复核过） |
+
+三个如实记录的观察点（都「不可达」或「有益」）：
+
+1. **`release/index.vue` 的 `<1KB` 分支语义变了**：旧内联版是 `Math.max(1, Math.round(bytes/1024)) KB`（最小显示 1 KB），
+   共享版在 `<1024` 时显示 `N B`。但该调用点有 `if (!apkSizeBytes.value)` 前置守卫，真实 APK ~170MB，
+   永远命中 `>=1MB` 分支 → 可达输入逐字一致。共享函数已不再有「最小 1KB」语义，后人复用注意即可。
+2. **`jp-grammar` 的 `toHiragana` 改为复用 `katakanaToHiragana`**：转换范围**完全相同**（U+30A1–U+30F6，`-0x60`），
+   额外多一步 `.replace(/゜/g, "ー")`（修复历史数据把长音 ー 错存成 ゜ 的 bug）。
+   对「取首个假名判五段」的调用点不可达，且该修复有益。
+   > 修正：上一轮交接点里写的「覆盖范围更宽（如 ヷ U+30F7）」是**错误**的，已删除——范围一致，差别只在 ゜→ー 修复。
+3. 无。
+
+---
+
 ## 交接点（2026-10-15 收工：步骤 1–6 完成，等 Pro 审步骤 6 的 diff）
 
 **当前进度：步骤 1–6 全部完成并验证（阶段① 安全网 + 阶段② 第一步）。下一步 = 用 Pro 审步骤 6 的 diff，然后做步骤 7（拆 `jp-me`）。**
@@ -440,9 +464,8 @@ JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs
 逐文件看 diff，判断是否与重构前语义等价，特别注意：有没有改默认值/文案/副作用/边界处理。
 重点核对 app/utils/jpFormat.ts、jpDate.ts、jpCollection.ts 与它们替换掉的旧实现；
 以及 app/composables/jp/useJpDataUpdate.ts 的那 1 行改动（formatBytes 来源变了）。
-已知的一处「严格来说行为不同」：jp-record 的片假名→平假名改为复用 useJpRomaji 的
-katakanaToHiragana，覆盖范围比原来的 U+30A1–30F6 更宽（如 ヷ）。请判断是否可接受。
-结论给出「可接受」或「需回退某一处 + 理由」。
+
+（Pro 审查已于 2026-10-15 完成，结论「可接受」，详见下方「步骤 6 Pro 审查记录」。）
 ```
 
 2. **然后做步骤 7（拆 `jp-me`，1341 行）**：执行仍用 Flash，做完跑两条护栏（都要绿）+ 提交，再切 Pro 审 diff。
