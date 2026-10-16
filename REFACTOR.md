@@ -500,6 +500,28 @@ JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs
 
 ---
 
+## 步骤 10 Pro 审查记录（2026-10-16，deepseek-v4-pro）
+
+**结论：可接受（含一处已修复的护栏回归）。**
+
+| 核对点 | 结论 |
+|---|---|
+| 最强等价证据 | 独立重跑 `gen-content-json.cjs`，`grammar-reference.json`(43,516B) / `grammar-points.json`(749,648B) 与改动前（222d9ee）**逐字节一致**（sha256 `84d09c07…` / `0674a173…`）✓ |
+| 改动范围 | 仅 5 个组件 + 3 个新 `app/data/*.ts` + 3 个脚本/测试，**未误碰** `useJpExport` / `useJpCourses` / `useJpData` ✓ |
+| 组件接线 | 5 个组件均改为别名 import（`particleGroups as bundledgroups` 等），组件内变量名与兜底表达式（`?? bundledgroups`）逐字未变 ✓ |
+| 生成器重构 | `gen-content-json.cjs` 改为 import 数据模块、`extractBlocks()` 删除；`reference` 的键名与顺序（predicates/verbGuide/guide/particles/keigo）未变 ✓ |
+
+**审查中发现并修复的一个护栏回归（重要）**：
+步骤 10 改 `check-grammar-wiring.mjs` 时，把「缺 import」判定弄成了 `l.includes(IMPORT)` 子串匹配——
+把 import 注释成 `// import { useJpGrammarContent }…` 后该行**仍包含**这个子串 → 检查失效，反测抓不到「缺 import」。
+已修为 `l.trim().startsWith(...)` 行首锚定，并对 bundled import 同样收紧。三向反测全过：
+注释 useJpGrammarContent import → 报「运行时会 500」；注释 bundled import → 报「找不到内置兜底数据」；正常 → 通过。
+
+> 备注（假红灯，非回归）：审阅中途一次 `JPLINGO_EXPECT_BUILD=1` 自测报了 1 失败，是 `git clean -fdq dist`
+> 删了构建产物导致「深链路目录已生成」找不到目录；重建后 10/10 通过、exit 0。
+
+---
+
 ## 步骤 9 Pro 审查记录（2026-10-16，deepseek-v4-pro）
 
 **结论：可接受。** 5 个 composable 为逐字搬移，单一数据源 / 生命周期 / 监听清理 / 导出字段顺序均保持。
