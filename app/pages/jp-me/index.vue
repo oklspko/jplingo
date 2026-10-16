@@ -341,13 +341,13 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
+import { ref } from "vue";
 import { Capacitor } from "@capacitor/core";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
 import JpCheckinCalendar from "~/components/jp/JpCheckinCalendar.vue";
 import { useJpAuth } from "~/composables/jp/useJpAuth";
-import { useJpUpdate } from "~/composables/jp/useJpUpdate";
 import { useJpStorage } from "~/composables/jp/useJpStorage";
+import { useJpMeUpdate } from "~/composables/jp/useJpMeUpdate";
 import { useJpMeDataUpdate } from "~/composables/jp/useJpMeDataUpdate";
 import { useJpMeStats } from "~/composables/jp/useJpMeStats";
 import { useJpMeTts } from "~/composables/jp/useJpMeTts";
@@ -360,6 +360,19 @@ const { user, signOut } = useJpAuth();
 const isNative = Capacitor.isNativePlatform();
 const runtimeConfig = useRuntimeConfig();
 const appVersion = runtimeConfig.public.appVersion;
+
+/* ---------- 版本更新（onMounted 里自动检查一次） ---------- */
+// 先调用它再调用 useJpMeTts：保持拆分前 onMounted 里「先 checkUpdate() 再 refreshTtsStatus()」的顺序
+const {
+  checking,
+  checked,
+  hasUpdate,
+  latestVersion,
+  errorMsg,
+  directApkUrl,
+  onCheckUpdate,
+  onUpdateNow,
+} = useJpMeUpdate(appVersion);
 
 /* ---------- 离线发音引擎（sherpa-onnx 内置 TTS） ---------- */
 // 状态与动作全在 composable 内部（模块级单例状态，不在这里另存一份）；onMounted 也在里面
@@ -415,30 +428,6 @@ const {
 } = useJpMeDataUpdate();
 
 // 真机诊断：上一次原生合成的耗时/音频长度/RTF 由 useJpMeTts 提供（ttsLastSynth）
-
-const {
-  checking,
-  checked,
-  hasUpdate,
-  latestVersion,
-  errorMsg,
-  directApkUrl,
-  checkUpdate,
-  openDownload,
-} = useJpUpdate(appVersion);
-
-// 进入页面自动检测一次更新；用户也可点「检查更新」手动再查
-onMounted(() => {
-  checkUpdate();
-});
-
-function onCheckUpdate() {
-  checkUpdate();
-}
-
-function onUpdateNow() {
-  openDownload();
-}
 
 const syncing = ref(false);
 const syncMsg = ref("");
