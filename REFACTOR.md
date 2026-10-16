@@ -500,6 +500,22 @@ JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs
 
 ---
 
+## 步骤 9 Pro 审查记录（2026-10-16，deepseek-v4-pro）
+
+**结论：可接受。** 5 个 composable 为逐字搬移，单一数据源 / 生命周期 / 监听清理 / 导出字段顺序均保持。
+
+| 核对点 | 证据 |
+|---|---|
+| 单一数据源 | `course` 由页面建一份（L367）注入全部 5 个 composable；`packs`/`courseOptions`/`selectedKey`/`groupOpen` 归 picker 持有，注入 create/import；页面无第二处 `fetchCoursePacks()`/`fetchCourse()` |
+| 挂载顺序 | `useJpEditorStatements`（内部注册 tokenizer 的 onMounted）先于 `useJpEditorPicker`（`onMounted(loadCourseOptions)`）调用 → 与拆分前同序（页面注释已写明） |
+| 监听清理 | `onMounted(addEventListener)` + `onBeforeUnmount(removeEventListener)` 与拆分前（49aff75 L449–450）完全一致，**不是新增的泄漏修复** |
+| 导出字段顺序 | `useJpEditorExport` 只做薄封装，JSON 组装全在 `useJpExport`（该文件**未改动**）→ 字段顺序/格式天然保持 |
+| 课程切换重置 | `selectCourse → loadSelectedCourse → loadCourse`（fetchCourse + catch→alert+`course=null`）；`loadCourseOptions → refreshCourseOptions`（拉包重建选项、无自动选中副作用）均原样 |
+| 代码级等价 | 20 个函数：17 个逐行一致、2 个仅 `course.value`→`deps.course.value`（依赖注入改名）、`copyPrompt` 留页面（14 行逐行一致）；`nextTick` 原在 `createCourse` 内、随函数搬走，页面无残留 import |
+| 改动范围 | `git diff --stat` 仅 5 个新 composable + `jp-editor/index.vue`，未误碰 `useJpExport`/`useJpTokenizer` 等 |
+
+---
+
 ## 步骤 8 Pro 审查记录（2026-10-16，deepseek-v4-pro）
 
 **结论：可接受。** 6 个 composable 均为逐字搬移，单一数据源 / 异步时序 / 事件处理均未变；两处已修的已知问题修得正确。
