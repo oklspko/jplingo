@@ -41,7 +41,9 @@ export function check() {
       continue;
     }
     const lines = fs.readFileSync(file, "utf8").split("\n");
-    if (!lines.some((l) => l.includes(IMPORT))) {
+    // 必须**真的** import（不能是被注释掉的行）——用行首锚定，别用 includes 子串匹配，
+    // 否则 `// import { useJpGrammarContent }…` 也会被当成有效 import，检查就失效了。
+    if (!lines.some((l) => l.trim().startsWith(IMPORT))) {
       problems.push(`${rel}: 缺少 useJpGrammarContent 的显式 import（运行时会 500）`);
     }
     const scriptStart = lines.findIndex((l) => l.includes("<script"));
@@ -56,7 +58,7 @@ export function check() {
       const hasBundledDecl = lines.some((l) => l.startsWith(`const bundled${name}`));
       const bundled = `bundled${name}`;
       const hasBundledImport = lines.some(
-        (l) => l.includes("import") && l.includes(" as " + bundled) && l.includes(" from "),
+        (l) => l.trim().startsWith("import") && l.includes(" as " + bundled) && l.includes(" from "),
       );
       if (!hasBundledDecl && !hasBundledImport) {
         problems.push(
