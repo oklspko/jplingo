@@ -316,41 +316,35 @@
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, ref } from "vue";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
-import {
-  fetchCoursePacks,
-  fetchCourseMeta,
-  sortCoursePacks,
-  isVocabPack,
-  mixedCourseIdOf,
-} from "~/composables/jp/useJpCourses";
+import { isVocabPack, mixedCourseIdOf } from "~/composables/jp/useJpCourses";
 import { useJpVocabMemory } from "~/composables/jp/useJpGaokaoMemory";
 import {
   importPackFromUrl,
   importPackFromFile,
   removeImportedPack,
-  listImportedPacks,
   createImportedPack,
   renameImportedPack,
   removeImportedCourse,
   moveImportedCourse,
   renameImportedCourse,
   sortImportedCoursesByName,
-  getImportedCourse,
 } from "~/composables/jp/useJpImportedPacks";
-import type { JpCoursePack } from "~/types/jp";
 import { toggleSet } from "~/utils/jpCollection";
+import { useJpHomeCourses } from "~/composables/jp/useJpHomeCourses";
 
-interface CourseIndex {
-  [key: string]: { title: string; count: number };
-}
-
-const coursePacks = ref<JpCoursePack[]>([]);
-const courseIndex = ref<CourseIndex>({});
-const loading = ref(true);
-const importedPackIds = ref<Set<string>>(new Set());
-// 已加载过元数据的课程包（避免重复请求）／正在加载中的课程包（用于「加载中…」提示）
-const loadedPacks = ref<Set<string>>(new Set());
-const loadingPacks = ref<Set<string>>(new Set());
+// 展开状态（`expandedPacks`）在 useJpHomeUiState 里持有；这里把同一个 ref 传进课程 composable，
+// 因为 loadAll() 只需要给「当前已展开的课程包」加载元数据（单一数据源，页面不新建第二份）。
+const expandedPacks = ref<Set<string>>(new Set());
+const {
+  coursePacks,
+  loading,
+  importedPackIds,
+  loadingPacks,
+  loadAll,
+  loadPackMeta,
+  getCourseTitle,
+  courseMetaText,
+} = useJpHomeCourses(expandedPacks);
 
 // 单词课程收纳：把 6 个词汇包（高考日语 + N5–N1）归为一组，点开使用
 const collectionExpanded = ref(false);
@@ -376,8 +370,6 @@ const importError = ref("");
 const importOk = ref("");
 
 // 展开状态：默认第一个展开
-const expandedPacks = ref<Set<string>>(new Set());
-
 function isExpanded(packId: string): boolean {
   return expandedPacks.value.has(packId);
 }
@@ -388,82 +380,7 @@ function togglePack(packId: string) {
   if (expandedPacks.value.has(packId)) loadPackMeta(packId);
 }
 
-// 并发上限：一次最多同时请求的课程数，避免展开大包时瞬间发出上百个请求
-const META_CONCURRENCY = 6;
-
-async function mapConcurrent<T, R>(
-  items: T[],
-  limit: number,
-  fn: (item: T) => Promise<R>,
-): Promise<R[]> {
-  const out: R[] = new Array(items.length);
-  let i = 0;
-  const workers = Array.from({ length: Math.min(limit, items.length) }, async () => {
-    while (i < items.length) {
-      const idx = i++;
-      out[idx] = await fn(items[idx]);
-    }
-  });
-  await Promise.all(workers);
-  return out;
-}
-
-// 加载某个课程包下所有课程的标题+题数（并行、带并发上限，结果合并进 courseIndex）
-async function loadPackMeta(packId: string) {
-  if (loadedPacks.value.has(packId) || loadingPacks.value.has(packId)) return;
-  const pack = coursePacks.value.find((p) => p.id === packId);
-  if (!pack || pack.courses.length === 0) return;
-
-  loadingPacks.value = new Set([...loadingPacks.value, packId]);
-  try {
-    const metas = await mapConcurrent(pack.courses, META_CONCURRENCY, (courseId) =>
-      fetchCourseMeta(packId, courseId).then((meta) => ({ courseId, meta })),
-    );
-    const next = { ...courseIndex.value };
-    for (const { courseId, meta } of metas) {
-      next[`${packId}/${courseId}`] = meta;
-    }
-    courseIndex.value = next;
-    loadedPacks.value = new Set([...loadedPacks.value, packId]);
-  } finally {
-    const s = new Set(loadingPacks.value);
-    s.delete(packId);
-    loadingPacks.value = s;
-  }
-}
-
-async function loadAll() {
-  loading.value = true;
-  try {
-    const packs = sortCoursePacks(await fetchCoursePacks());
-    coursePacks.value = packs;
-    importedPackIds.value = new Set(listImportedPacks().map((p) => p.id));
-
-    // 默认全部折叠，由用户自行展开
-
-    // 课程元数据按需加载：只请求当前已展开的课程包，其余在展开时再加载
-    courseIndex.value = {};
-    loadedPacks.value = new Set();
-    loadingPacks.value = new Set();
-    await Promise.all([...expandedPacks.value].map(loadPackMeta));
-  } catch (err) {
-    console.error("加载课程失败：", err);
-  } finally {
-    loading.value = false;
-  }
-}
-
 onMounted(loadAll);
-
-function getCourseTitle(packId: string, courseId: string) {
-  return courseIndex.value[`${packId}/${courseId}`]?.title || courseId;
-}
-
-function courseMetaText(packId: string, courseId: string): string {
-  const meta = courseIndex.value[`${packId}/${courseId}`];
-  if (meta) return `${meta.count} 题`;
-  return loadingPacks.value.has(packId) ? "加载中…" : "0 题";
-}
 
 function isImported(packId: string): boolean {
   return importedPackIds.value.has(packId);
