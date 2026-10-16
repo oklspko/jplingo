@@ -341,16 +341,14 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, ref } from "vue";
+import { onMounted, ref } from "vue";
 import { Capacitor } from "@capacitor/core";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
 import JpCheckinCalendar from "~/components/jp/JpCheckinCalendar.vue";
 import { useJpAuth } from "~/composables/jp/useJpAuth";
 import { useJpUpdate } from "~/composables/jp/useJpUpdate";
-import { useJpDataUpdate } from "~/composables/jp/useJpDataUpdate";
-import { formatBytes } from "~/utils/jpFormat";
-import { shortVersion } from "~/utils/jpDataPack";
 import { useJpStorage } from "~/composables/jp/useJpStorage";
+import { useJpMeDataUpdate } from "~/composables/jp/useJpMeDataUpdate";
 import { useJpMeStats } from "~/composables/jp/useJpMeStats";
 import { useJpMeTts } from "~/composables/jp/useJpMeTts";
 
@@ -395,78 +393,26 @@ const {
 } = useJpMeTts();
 
 // ===== 课程数据热更新（原生端；网页端数据本来就是最新的）=====
-const dataSupported = computed(() => Capacitor.isNativePlatform());
+// 状态与动作全在 composable 内部（模块级单例状态，不在这里另存一份）
 const {
+  dataSupported,
   dataChecking,
   dataUpdating,
-  dataProgress,
   dataError,
   dataInfo,
   hasDataUpdate,
-  pendingBytes,
-  remoteVersion,
-  currentVersion: dataCurrentVersion,
-  lastCheckedAt,
+  dataCurrentVersion,
   dataStatusText,
-  checkDataUpdate,
-  applyDataUpdate,
-  resetDataCache,
-} = useJpDataUpdate();
-
-const dataTitle = computed(() => {
-  if (dataUpdating.value) return "正在更新课程数据…";
-  if (dataChecking.value) return "正在检查更新…";
-  if (hasDataUpdate.value) return "有新课程数据可更新";
-  return dataCurrentVersion.value ? "课程数据已就绪" : "使用 App 内置数据";
-});
-
-const dataDesc = computed(() =>
-  hasDataUpdate.value
-    ? "更新只下载变化的课程文件，不用重装 App；更新后立即可用"
-    : "课程与词库数据可在线更新，装一次 App 就能一直拿到后续新课程",
-);
-
-const dataPendingText = computed(() => formatBytes(pendingBytes.value));
-
-/** 诊断行：当前版本 / 远端版本 / 上次检查时间——排查「更新完还提示有更新」这类问题靠它 */
-const dataVersionLine = computed(() => {
-  const cur = shortVersion(dataCurrentVersion.value) || "内置";
-  const remote = remoteVersion.value ? shortVersion(remoteVersion.value) : "—";
-  const checked = lastCheckedAt.value ? new Date(lastCheckedAt.value).toLocaleString() : "尚未检查";
-  return `当前数据 ${cur} · 线上 ${remote} · 上次检查 ${checked}`;
-});
-
-const dataProgressWidth = computed(() => {
-  const { done, total } = dataProgress.value;
-  if (!total) return dataChecking.value ? "35%" : "0%";
-  return `${Math.round((done / total) * 100)}%`;
-});
-
-const dataProgressText = computed(() => {
-  const { done, total, bytes, bytesTotal } = dataProgress.value;
-  if (!total) return "";
-  return `${done} / ${total} 个文件（${formatBytes(bytes)} / ${formatBytes(bytesTotal)}）`;
-});
-
-const dataCardClass = computed(() => {
-  if (dataError.value && !dataInfo.value) return "tts-card--off";
-  if (dataUpdating.value || dataChecking.value) return "tts-card--busy";
-  return hasDataUpdate.value ? "tts-card--idle" : "tts-card--ready";
-});
-
-async function onApplyDataUpdate() {
-  if (hasDataUpdate.value) {
-    await applyDataUpdate();
-    return;
-  }
-  const plan = await checkDataUpdate();
-  if (plan?.hasUpdate) await applyDataUpdate(plan);
-}
-
-async function onResetData() {
-  await resetDataCache();
-  await checkDataUpdate();
-}
+  dataTitle,
+  dataDesc,
+  dataPendingText,
+  dataVersionLine,
+  dataProgressWidth,
+  dataProgressText,
+  dataCardClass,
+  onApplyDataUpdate,
+  onResetData,
+} = useJpMeDataUpdate();
 
 // 真机诊断：上一次原生合成的耗时/音频长度/RTF 由 useJpMeTts 提供（ttsLastSynth）
 
