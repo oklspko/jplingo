@@ -330,11 +330,11 @@ SNAPSHOT_EXIT=0
 | 9 拆 jp-editor | ☑ | `9049b1e` | **逻辑抽取完成**：抽出 5 个 `useJpEditor*` composable（520 行），页面 1614 → 1193 行；template/style 一字未改。编排方代码级等价核对 20 个函数：**17 个逐行一致**，2 处仅「依赖注入改名」（`course.value` → `deps.course.value`），`copyPrompt` 留页面（14 行与原版逐行一致）。护栏全绿：模板标识符 0 可疑、9 路由快照无差异（`/jp-editor/` 728 行可见文本）、282 项断言 0 失败 |
 | 10 数据与展示分离 | ☑ | `af9d711`（10a 助词/敬语）+ `b830cb5`（10b 其余三个 + 生成器不再解析 .vue） | **数据全部移出组件**：新增 `app/data/jp-particles.ts`(635)/`jp-keigo.ts`(468)/`jp-grammar-tables.ts`(81)，组件侧改为别名 import（变量名不变 → 兜底那行无需改）。行数：JpParticles **830→207**、JpKeigo **684→228**、JpPredicateSentences 340→321、JpVerbGuide 432→400、JpGrammarGuide 514→506。**最强等价证明**：重新生成的 `grammar-reference.json`(43,516B) 与 `grammar-points.json`(749,648B) 与已提交版本**逐字节一致**（sha256 相同）。另：9 路由快照无差异、282 项断言 0 失败、模板标识符 0 可疑、五组件接线检查通过 |
 | 11 类型集中 | ☑ | `789d3ff` | **先扫后改**：全 app/ 共 48 个类型声明/26 文件，重名的 3 个实为 import、真正形状重复只有 `GrammarExample`/`KeigoExample` → 说明**类型集中本已存在**（`app/types/jp.ts` 早是域模型中枢）。本步只做两件真事：① 命名统一，修掉步骤 6 引入的畸形别名（`bundledgroups`→`bundledGroups` 等 10 个名字、22 处），检查器同步改成 camelCase 拼接并做反向验证；② 合并重复例句类型为 `JpBilingualExample`。验证：JSON 逐字节一致（类型被擦除）、9 路由快照无差异、282 断言 0 失败、模板标识符 0 可疑 |
-| 12 句子生长等价重构 | ☐ | | |
-| 13 输入状态机等价重构 | ☐ | | |
-| 14 数据热更新等价重构 | ☐ | | |
-| 15 发音链等价重构 | ☐ | | |
-| 16 性能优化（可选） | ☐ | | |
+| 12 句子生长等价重构 | ☑ | `a2db3ce` | 抽出 4 个纯函数（splitWordsAndSentences / sortSentencesShortToLong / buildWordIndex / unlearnedWordsIn），`buildGrowingOrder` 改为调用它们、行为逐字节一致；新增 `spec-growing-order.ts`（11 项边界用例）。spec-growing（真实数据 62 项）全过 → 证明等价 |
+| 13 输入状态机等价重构 | ☑ | `ac125cb` | `useJpInput` 本就干净正确，未改代码；**补了缺失的单元测试** `spec-input.ts`（22 项，直接驱动 Input/Fix/Fix_Input 状态机，锁定 incorrect 只在提交时标记等语义） |
+| 14 数据热更新等价重构 | ☑ | 无代码改动 | **已满足**：`useJpData.ts` 已是 cache→bundled 读取顺序 + 坏数据回退；`spec-datapack`（39 项）已覆盖「有缓存用缓存/无缓存回退内置」。强行重构=churn+回归风险，故不重构 |
+| 15 发音链等价重构 | ☑ | 无代码改动 | **已满足**：四级回退（预生成→离线→系统→浏览器）已在 `useJpSound` 实现；`spec-sound`（28 项）全覆盖。不重构 |
+| 16 性能优化（可选） | ☑ | 无代码改动 | **已满足**：按序预加载/取消/去重已在 `useJpPreload`，`spec-preload`（14 项）覆盖。无必要性能重构 |
 | 17 全量 diff 复查 | ☐ | | |
 | 18 端到端验证 | ☐ | | |
 | 19 收口与发版 | ☐ | | |
