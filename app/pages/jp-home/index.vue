@@ -314,7 +314,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, onUnmounted, ref } from "vue";
+import { onMounted, onUnmounted, ref } from "vue";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
 import {
   importPackFromUrl,
@@ -333,10 +333,17 @@ import { toggleSet } from "~/utils/jpCollection";
 import { isVocabPack } from "~/composables/jp/useJpCourses";
 import { useJpHomeCourses } from "~/composables/jp/useJpHomeCourses";
 import { useJpHomePacks } from "~/composables/jp/useJpHomePacks";
+import { useJpHomeUiState } from "~/composables/jp/useJpHomeUiState";
+import { useJpHomeImport } from "~/composables/jp/useJpHomeImport";
+import { useJpHomeManage } from "~/composables/jp/useJpHomeManage";
+import { useJpHomeTip } from "~/composables/jp/useJpHomeTip";
 
-// 展开状态（`expandedPacks`）在 useJpHomeUiState 里持有；这里把同一个 ref 传进课程 composable，
+// 展开状态（`expandedPacks`）归 useJpHomeUiState 所有；这里把同一个 ref 传进课程 composable，
 // 因为 loadAll() 只需要给「当前已展开的课程包」加载元数据（单一数据源，页面不新建第二份）。
 const expandedPacks = ref<Set<string>>(new Set());
+// 新手提示「不再显示」确认框的开关：归 useJpHomeTip 使用，useJpHomeUiState 的 closeAllMenus()
+// 末尾要把它清掉（点击页面任意处收起），所以同样只建这一份、两边共用。
+const tipConfirmOpen = ref(false);
 const {
   coursePacks,
   loading,
@@ -346,6 +353,7 @@ const {
   loadPackMeta,
   getCourseTitle,
   courseMetaText,
+  courseTitleOf,
 } = useJpHomeCourses(expandedPacks);
 
 // 单词课程收纳 / 课程包分类（词汇包、非词汇包、已导入文件夹）
@@ -359,178 +367,62 @@ const {
   isImported,
 } = useJpHomePacks(coursePacks, importedPackIds);
 
-// 导入弹窗状态
-const showImport = ref(false);
-const importTab = ref<"url" | "file">("url");
-const importUrl = ref("");
-const importing = ref(false);
-const importError = ref("");
-const importOk = ref("");
+// 折叠状态 + 三处「⋯」菜单状态（togglePack 展开时按需加载元数据，注入 loadPackMeta）
+const {
+  isExpanded,
+  togglePack,
+  openMenuId,
+  openManageMenuId,
+  openManageCourseMenuId,
+  collectionMenuOpen,
+  togglePackMenu,
+  toggleManageMenu,
+  toggleManageCourseMenu,
+  closeAllMenus,
+} = useJpHomeUiState(expandedPacks, loadPackMeta, vocabPacks, tipConfirmOpen);
 
-// 展开状态：默认第一个展开
-function isExpanded(packId: string): boolean {
-  return expandedPacks.value.has(packId);
-}
+// 导入课程包弹窗（导入成功后刷新课程包列表）
+const {
+  showImport,
+  importTab,
+  importUrl,
+  importing,
+  importError,
+  importOk,
+  openImport,
+  doImportUrl,
+  doImportFile,
+  removePack,
+} = useJpHomeImport(loadAll);
 
-function togglePack(packId: string) {
-  expandedPacks.value = toggleSet(expandedPacks.value, packId);
-  // 展开时按需加载该包课程标题/题数
-  if (expandedPacks.value.has(packId)) loadPackMeta(packId);
-}
+// 分组管理（重命名/移动/排序/删除，courseTitleOf 来自 useJpHomeCourses）
+const {
+  showManage,
+  openManage,
+  renameCourse,
+  sortPackByName,
+  moveCourseTo,
+  deleteCourse,
+  renamePack,
+  createFolder,
+} = useJpHomeManage(
+  () => coursePacks.value.map((p) => ({ id: p.id, title: p.title })),
+  loadAll,
+  courseTitleOf,
+);
+
+// 新手提示条（showBeginnerTip / 关闭与不再显示；tipConfirmOpen 由上面共用）
+const { showBeginnerTip, toggleTipConfirm, dismissTipForever, dismissTipOnce } =
+  useJpHomeTip(tipConfirmOpen);
 
 onMounted(loadAll);
 
-function openImport() {
-  showImport.value = true;
-  importError.value = "";
-  importOk.value = "";
-}
-
-async function doImportUrl() {
-  const url = importUrl.value.trim();
-  if (!url) {
-    importError.value = "请输入课程包 URL";
-    return;
-  }
-  importing.value = true;
-  importError.value = "";
-  importOk.value = "";
-  try {
-    const added = await importPackFromUrl(url);
-    importOk.value = `已导入：${added.map((p) => p.title).join("、")}`;
-    importUrl.value = "";
-    await loadAll();
-  } catch (err) {
-    importError.value = (err as Error).message || "导入失败";
-  } finally {
-    importing.value = false;
-  }
-}
-
-async function doImportFile(event: Event) {
-  const input = event.target as HTMLInputElement;
-  const file = input.files?.[0];
-  if (!file) return;
-  importing.value = true;
-  importError.value = "";
-  importOk.value = "";
-  try {
-    const added = await importPackFromFile(file);
-    importOk.value = `已导入：${added.map((p) => p.title).join("、")}`;
-    await loadAll();
-  } catch (err) {
-    importError.value = (err as Error).message || "导入失败";
-  } finally {
-    importing.value = false;
-    input.value = "";
-  }
-}
-
-async function removePack(packId: string) {
-  if (!confirm("确定删除该课程包？")) return;
-  removeImportedPack(packId);
-  await loadAll();
-}
-
-// ===== 分组管理（仅导入的课程包） =====
-const showManage = ref(false);
-
-function openManage() {
-  showManage.value = true;
-}
-
-// ===== 三点拓展菜单（首页课程包 / 分组管理） =====
-const openMenuId = ref("");
-const openManageMenuId = ref("");
-const openManageCourseMenuId = ref("");
-// 词汇收纳里是否有某个课程包菜单展开（用于临时放开收纳容器的 overflow 裁剪）
-const collectionMenuOpen = computed(() => vocabPacks.value.some((p) => openMenuId.value === p.id));
-
-function togglePackMenu(id: string) {
-  openMenuId.value = openMenuId.value === id ? "" : id;
-}
-function toggleManageMenu(id: string) {
-  openManageMenuId.value = openManageMenuId.value === id ? "" : id;
-}
-function toggleManageCourseMenu(key: string) {
-  openManageCourseMenuId.value = openManageCourseMenuId.value === key ? "" : key;
-}
-function closeAllMenus() {
-  openMenuId.value = "";
-  openManageMenuId.value = "";
-  openManageCourseMenuId.value = "";
-  tipConfirmOpen.value = false;
-}
-
-// ===== 新手提示条：可关闭 × + 「是否不再显示」询问 =====
-const showBeginnerTip = ref(true);
-const tipConfirmOpen = ref(false);
-
-function toggleTipConfirm() {
-  tipConfirmOpen.value = !tipConfirmOpen.value;
-}
-function dismissTipForever() {
-  showBeginnerTip.value = false;
-  tipConfirmOpen.value = false;
-  localStorage.setItem("jp-beginner-tip-dismissed", "true");
-}
-function dismissTipOnce() {
-  showBeginnerTip.value = false;
-  tipConfirmOpen.value = false;
-}
-
 onMounted(() => {
   document.addEventListener("click", closeAllMenus);
-  if (localStorage.getItem("jp-beginner-tip-dismissed") === "true") {
-    showBeginnerTip.value = false;
-  }
+  // 新手提示「不再显示」的本地记忆：已移进 useJpHomeTip 的 onMounted（它拥有 showBeginnerTip），
+  // 这里不要再读一次 localStorage，否则同一段判断会跑两遍。
 });
 onUnmounted(() => document.removeEventListener("click", closeAllMenus));
-
-function courseTitleOf(packId: string, courseId: string): string {
-  return getImportedCourse(packId, courseId)?.title || courseId;
-}
-
-async function renameCourse(packId: string, courseId: string) {
-  const name = prompt("重命名课程：", courseTitleOf(packId, courseId));
-  if (!name) return;
-  renameImportedCourse(packId, courseId, name);
-  await loadAll();
-}
-
-async function sortPackByName(packId: string) {
-  sortImportedCoursesByName(packId);
-  await loadAll();
-}
-
-async function moveCourseTo(packId: string, courseId: string, event: Event) {
-  const sel = event.target as HTMLSelectElement;
-  const toPackId = sel.value;
-  if (!toPackId) return;
-  moveImportedCourse(courseId, packId, toPackId);
-  await loadAll();
-}
-
-async function deleteCourse(packId: string, courseId: string) {
-  if (!confirm(`确定删除课程「${courseTitleOf(packId, courseId)}」？`)) return;
-  removeImportedCourse(packId, courseId);
-  await loadAll();
-}
-
-async function renamePack(packId: string) {
-  const p = coursePacks.value.find((x) => x.id === packId);
-  const name = prompt("重命名文件夹：", p?.title || packId);
-  if (!name) return;
-  renameImportedPack(packId, name);
-  await loadAll();
-}
-
-async function createFolder() {
-  const name = prompt("新建文件夹名称：", "新建文件夹");
-  if (!name) return;
-  createImportedPack(name);
-  await loadAll();
-}
 </script>
 
 <style scoped>
