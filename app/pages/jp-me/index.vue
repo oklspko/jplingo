@@ -341,12 +341,11 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
 import { Capacitor } from "@capacitor/core";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
 import JpCheckinCalendar from "~/components/jp/JpCheckinCalendar.vue";
-import { useJpAuth } from "~/composables/jp/useJpAuth";
 import { useJpStorage } from "~/composables/jp/useJpStorage";
+import { useJpMeAccount } from "~/composables/jp/useJpMeAccount";
 import { useJpMeUpdate } from "~/composables/jp/useJpMeUpdate";
 import { useJpMeDataUpdate } from "~/composables/jp/useJpMeDataUpdate";
 import { useJpMeStats } from "~/composables/jp/useJpMeStats";
@@ -356,7 +355,8 @@ const { record, resetRecord, syncNow } = useJpStorage();
 // 学习统计与「重置学习记录」：record / resetRecord 都是上面这一份，传进去而不是另起一份
 const { streak, todayMinutes, totalDuration, showResetModal, confirmReset, doReset } =
   useJpMeStats(record, resetRecord);
-const { user, signOut } = useJpAuth();
+// 账号：user / signOut 来自 useJpAuth；「立即同步」复用上面这一份 syncNow（别再造第二个 record）
+const { user, syncing, syncMsg, onLogout, onSync } = useJpMeAccount(syncNow);
 const isNative = Capacitor.isNativePlatform();
 const runtimeConfig = useRuntimeConfig();
 const appVersion = runtimeConfig.public.appVersion;
@@ -426,29 +426,6 @@ const {
   onApplyDataUpdate,
   onResetData,
 } = useJpMeDataUpdate();
-
-// 真机诊断：上一次原生合成的耗时/音频长度/RTF 由 useJpMeTts 提供（ttsLastSynth）
-
-const syncing = ref(false);
-const syncMsg = ref("");
-
-async function onLogout() {
-  await signOut();
-}
-
-async function onSync() {
-  if (syncing.value) return;
-  syncing.value = true;
-  syncMsg.value = "";
-  const r = await syncNow();
-  syncing.value = false;
-  if (r === "synced") syncMsg.value = "✅ 已同步到云端";
-  else if (r === "noop") syncMsg.value = "请先登录后再同步";
-  else syncMsg.value = "⚠️ 同步失败，请检查网络后重试";
-  setTimeout(() => {
-    syncMsg.value = "";
-  }, 3000);
-}
 </script>
 
 <style scoped>
