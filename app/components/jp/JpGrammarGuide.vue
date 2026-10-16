@@ -138,15 +138,7 @@
 
 <script setup lang="ts">
 import { useJpGrammarContent } from "~/composables/jp/useJpGrammarContent";
-const bundledroles = [
-  { name: "主题", desc: "句子在围绕什么讲。" },
-  { name: "主语", desc: "动作的发出者。" },
-  { name: "补语", desc: "动作的时间、地点、方式。" },
-  { name: "宾语", desc: "动作的承受者。" },
-  { name: "修饰语", desc: "修饰名词（定语）或修饰谓语（状语）。" },
-  { name: "谓语", desc: "句子的核心（动作、状态、判断），放在最后。" },
-  { name: "语气词", desc: "表达情感和语气。" },
-];
+import { roles as bundledroles } from "~/data/jp-grammar-tables";
 
 // ===== 语法页内容可热更新：远端 JSON 优先，缺失/未加载时用内置默认（模板无需改动）=====
 const grammarContent = useJpGrammarContent();

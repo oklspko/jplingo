@@ -42,29 +42,6 @@ async function loadModule(entrySource, name) {
   return mod;
 }
 
-/** 从 .vue 文件里抽出 `const NAME ... = [ ... ];` 数据块，拼成可执行 TS。
- * 组件里的内置默认值可能被命名为 `bundledNAME`（远端 JSON 覆盖时用），两种都认。 */
-function extractBlocks(vueFile, names) {
-  const src = fs.readFileSync(path.join(ROOT, vueFile), "utf8");
-  const lines = src.split("\n");
-  const parts = [];
-  for (const name of names) {
-    const start = lines.findIndex(
-      (l) => l.startsWith("const " + name) || l.startsWith("const bundled" + name),
-    );
-    if (start < 0) throw new Error(vueFile + " 里找不到 " + name);
-    // 数据块的结尾是行首的 "];"
-    let end = start;
-    while (end < lines.length && !/^\];?\s*$/.test(lines[end])) end++;
-    if (end >= lines.length) throw new Error(name + " 没找到结尾的 ];");
-    const body = lines.slice(start, end + 1).join("\n");
-    const eq = body.indexOf("=");
-    const value = body.slice(eq + 1).trim().replace(/;$/, "");
-    parts.push("export const " + name + " = " + value + ";");
-  }
-  return parts.join("\n\n");
-}
-
 async function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
 
@@ -81,31 +58,12 @@ async function main() {
   );
   console.log(`[content] data/grammar-points.json · ${grammarPoints.length} 条`);
 
-  // 2) 语法页各组件的表格/清单数据
-  const predicates = await loadModule(
-    extractBlocks("app/components/jp/JpPredicateSentences.vue", [
-      "nounRows",
-      "a1PlainRows",
-      "a1KeigoRows",
-      "verbRows",
-    ]),
-    "predicates",
-  );
-  const verbGuide = await loadModule(
-    extractBlocks("app/components/jp/JpVerbGuide.vue", [
-      "basicForms",
-      "advancedForms",
-      "onbinRows",
-      "teFormRows",
-    ]),
-    "verbguide",
-  );
-  const guide = await loadModule(
-    extractBlocks("app/components/jp/JpGrammarGuide.vue", ["roles"]),
-    "guide",
-  );
-  // 助词 / 敬语数据已搬到 app/data/（步骤 10：数据与展示分离），直接从数据模块读取；
-  // 这里统一导出成 `groups`，让下面组装 reference 的代码保持原样。
+  // 2) 语法页的表格/清单数据
+  //
+  // 步骤 10 之后，这些数组已全部搬到 app/data/ 下（数据与展示分离），
+  // 所以这里直接 import 数据模块即可 —— 不再从 .vue 文件里做文本抽取
+  // （那种做法脆：解析失败只会在运行时暴露，而且组件一改动就会静默失配）。
+  const tables = await loadModule(`export * from "./app/data/jp-grammar-tables";`, "tables");
   const particles = await loadModule(
     `import { particleGroups } from "./app/data/jp-particles";\nexport const groups = particleGroups;`,
     "particles",
@@ -115,21 +73,21 @@ async function main() {
     "keigo",
   );
 
-  // 助词/敬语组件里的变量名都是 groups，导出后分别放在各自键下
+  // 数据来源统一为 app/data/*.ts；键名沿用原来的结构，保持生成的 JSON 完全一致
   const reference = {
     predicates: {
-      nounRows: predicates.nounRows,
-      a1PlainRows: predicates.a1PlainRows,
-      a1KeigoRows: predicates.a1KeigoRows,
-      verbRows: predicates.verbRows,
+      nounRows: tables.nounRows,
+      a1PlainRows: tables.a1PlainRows,
+      a1KeigoRows: tables.a1KeigoRows,
+      verbRows: tables.verbRows,
     },
     verbGuide: {
-      basicForms: verbGuide.basicForms,
-      advancedForms: verbGuide.advancedForms,
-      onbinRows: verbGuide.onbinRows,
-      teFormRows: verbGuide.teFormRows,
+      basicForms: tables.basicForms,
+      advancedForms: tables.advancedForms,
+      onbinRows: tables.onbinRows,
+      teFormRows: tables.teFormRows,
     },
-    guide: { roles: guide.roles },
+    guide: { roles: tables.roles },
     particles: { groups: particles.groups },
     keigo: { groups: keigo.groups },
   };

@@ -110,29 +110,10 @@
 
 <script setup lang="ts">
 import { useJpGrammarContent } from "~/composables/jp/useJpGrammarContent";
-const bundlednounRows: string[][] = [
-  ["简体", "现在时", "名词 ＋ だ", "名词 ＋ ではない"],
-  ["简体", "过去时", "名词 ＋ だった", "名词 ＋ ではなかった"],
-  ["敬体", "现在时", "名词 ＋ です", "名词 ＋ ではありません"],
-  ["敬体", "过去时", "名词 ＋ でした", "名词 ＋ ではありませんでした"],
-];
+import { nounRows as bundlednounRows, a1PlainRows as bundleda1PlainRows, a1KeigoRows as bundleda1KeigoRows, verbRows as bundledverbRows } from "~/data/jp-grammar-tables";
 
-const bundleda1PlainRows: string[][] = [
-  ["A1い（原型）", "现在时", "A1い", "A1い → く ＋ ない"],
-  ["A1い → かっ ＋ た", "过去时", "A1かった", "A1い → く ＋ なかった"],
-];
 
-const bundleda1KeigoRows: string[][] = [
-  ["现在时", "A1い ＋ です", "A1い → く ＋ ないです（＝ A1く ＋ ありません）"],
-  ["过去时", "A1い → かっ ＋ た ＋ です", "A1い → く ＋ なかったです（＝ A1く ＋ ありませんでした）"],
-];
 
-const bundledverbRows: string[][] = [
-  ["简体", "现在时", "动原", "ない形"],
-  ["简体", "过去时", "た形", "なかった"],
-  ["敬体（ます形）", "现在时", "ます", "ません"],
-  ["敬体（ます形）", "过去时", "ました", "ませんでした"],
-];
 
 // ===== 语法页内容可热更新：远端 JSON 优先，缺失/未加载时用内置默认（模板无需改动）=====
 const grammarContent = useJpGrammarContent();
