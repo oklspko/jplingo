@@ -335,7 +335,7 @@ SNAPSHOT_EXIT=0
 | 14 数据热更新等价重构 | ☑ | 无代码改动 | **已满足**：`useJpData.ts` 已是 cache→bundled 读取顺序 + 坏数据回退；`spec-datapack`（39 项）已覆盖「有缓存用缓存/无缓存回退内置」。强行重构=churn+回归风险，故不重构 |
 | 15 发音链等价重构 | ☑ | 无代码改动 | **已满足**：四级回退（预生成→离线→系统→浏览器）已在 `useJpSound` 实现；`spec-sound`（28 项）全覆盖。不重构 |
 | 16 性能优化（可选） | ☑ | 无代码改动 | **已满足**：按序预加载/取消/去重已在 `useJpPreload`，`spec-preload`（14 项）覆盖。无必要性能重构 |
-| 17 全量 diff 复查 | ☐ | | |
+| 17 全量 diff 复查 | ☑ | 见「步骤 17 Pro 全量 diff 终审记录」 | **可接受**：45 提交/69 文件逐层核对无异常；`public/` 零改动（数据 JSON 逐字节一致）；8 个运行关键文件与 main 逐字节一致；「意外」修改文件均为步骤 6 工具抽取。一处无害的 formatBytes 语义漂移已记录 |
 | 18 端到端验证 | ☐ | | |
 | 19 收口与发版 | ☐ | | |
 
@@ -497,6 +497,24 @@ JPLINGO_EXPECT_BUILD=1 node tests/offline-tts/run.cjs
 `app/components/jp/JpMe*Card.vue`（**template + 对应 style 一起搬走**），页面只留编排。
 风险与护栏：CSS 搬到子组件（`scoped` 保持）→ 渲染快照比对可见文本仍有效，但**样式层变化快照抓不到**，
 所以 7b 必须人工看「有没有元素被漏搬 / 样式作用域变化」，建议 7b 做完先由 Pro 审 diff 再合并。
+
+---
+
+## 步骤 17 Pro 全量 diff 终审记录（2026-10-16，deepseek-v4-pro）
+
+**结论：可接受，可进入收口（步骤 18/19）。** 整条分支（`main..HEAD`，45 提交 / 69 文件 / +11522 −2398）逐层核对无异常。
+
+| 核对维度 | 结论 |
+|---|---|
+| 提交/文件归属 | 45 个提交全部有明确归属；69 个文件 = 21 composable + 3 数据模块 + 3 工具 + 5 脚本 + 9 渲染基线 + 15 测试/文档，无不明的改动 |
+| **public/ 零改动** | `git diff main...HEAD -- public/` 为空 → 生成的 `grammar-reference.json` / `grammar-points.json` 与 main **逐字节一致**，数据管道无漂移 |
+| **运行关键文件未碰** | `useJpInput`（状态机）、`useJpSound`（发音回退）、`useJpData`（读取顺序）、`useJpExport`（导出 JSON）、`useJpRomaji`、`useJpTokenizer`、`app.vue`、`nuxt.config.ts` **全部与 main 逐字节一致** |
+| 「意外」修改文件 | `JpCheckinCalendar`/`useJpStorage`/`jp-record`/`release`/`jpDataPack`/`useJpDataUpdate` 均为**步骤 6 工具层抽取**（`dayKey`/`todayKey`/`dayKeyOffset`/`toggleSet`/`formatBytes`），逐字等价 |
+| `jp-grammar` 页 | 本地片假名→平假名函数换成共享 `katakanaToHiragana`（步骤 6 已审，范围 U+30A1–30F6 相同） |
+
+**一处如实记录的小语义漂移（无害）**：`formatBytes` 抽取到 `app/utils/jpFormat.ts` 后，release 页原来的**本地版**没有「<1KB 显示 B」分支与「0 值守卫」，共享版有。但 release 页只显示 APK 体积（恒 >1MB），小字节分支是死代码，实际行为不变。
+
+**护栏现状（全部通过）**：315 项断言、9 路由渲染快照、模板标识符、脚本依赖声明、五组件接线；CI 绿。`main` 未动（`1ac6d75`）。
 
 ---
 
