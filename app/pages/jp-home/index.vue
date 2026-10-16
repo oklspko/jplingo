@@ -316,8 +316,6 @@
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, ref } from "vue";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
-import { isVocabPack, mixedCourseIdOf } from "~/composables/jp/useJpCourses";
-import { useJpVocabMemory } from "~/composables/jp/useJpGaokaoMemory";
 import {
   importPackFromUrl,
   importPackFromFile,
@@ -330,7 +328,11 @@ import {
   sortImportedCoursesByName,
 } from "~/composables/jp/useJpImportedPacks";
 import { toggleSet } from "~/utils/jpCollection";
+// 模板里有 `v-if="isVocabPack(pack.id)"`（两处）——它必须留在页面作用域里，
+// 不能只放进 useJpHomePacks（那样模板绑定会变成未定义，运行时才炸，构建不报错）。
+import { isVocabPack } from "~/composables/jp/useJpCourses";
 import { useJpHomeCourses } from "~/composables/jp/useJpHomeCourses";
+import { useJpHomePacks } from "~/composables/jp/useJpHomePacks";
 
 // 展开状态（`expandedPacks`）在 useJpHomeUiState 里持有；这里把同一个 ref 传进课程 composable，
 // 因为 loadAll() 只需要给「当前已展开的课程包」加载元数据（单一数据源，页面不新建第二份）。
@@ -346,20 +348,16 @@ const {
   courseMetaText,
 } = useJpHomeCourses(expandedPacks);
 
-// 单词课程收纳：把 6 个词汇包（高考日语 + N5–N1）归为一组，点开使用
-const collectionExpanded = ref(false);
-const vocabPacks = computed(() => coursePacks.value.filter((p) => isVocabPack(p.id)));
-const nonVocabPacks = computed(() => coursePacks.value.filter((p) => !isVocabPack(p.id)));
-// 已导入的课程包（文件夹），供「移动到文件夹」下拉选择
-const importedPacks = computed(() => coursePacks.value.filter((p) => importedPackIds.value.has(p.id)));
-
-// 各词汇包「无分类测试」进度（已掌握词数）
-function mixedGameUrl(packId: string) {
-  return `/jp-game/${packId}/${mixedCourseIdOf(packId)}`;
-}
-function mixedMasteredCount(packId: string) {
-  return useJpVocabMemory(packId).masteredCount();
-}
+// 单词课程收纳 / 课程包分类（词汇包、非词汇包、已导入文件夹）
+const {
+  collectionExpanded,
+  vocabPacks,
+  nonVocabPacks,
+  importedPacks,
+  mixedGameUrl,
+  mixedMasteredCount,
+  isImported,
+} = useJpHomePacks(coursePacks, importedPackIds);
 
 // 导入弹窗状态
 const showImport = ref(false);
@@ -381,10 +379,6 @@ function togglePack(packId: string) {
 }
 
 onMounted(loadAll);
-
-function isImported(packId: string): boolean {
-  return importedPackIds.value.has(packId);
-}
 
 function openImport() {
   showImport.value = true;
