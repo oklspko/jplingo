@@ -138,11 +138,11 @@
 
 <script setup lang="ts">
 import { useJpGrammarContent } from "~/composables/jp/useJpGrammarContent";
-import { roles as bundledroles } from "~/data/jp-grammar-tables";
+import { roles as bundledRoles } from "~/data/jp-grammar-tables";
 
 // ===== 语法页内容可热更新：远端 JSON 优先，缺失/未加载时用内置默认（模板无需改动）=====
 const grammarContent = useJpGrammarContent();
-const roles = computed(() => (grammarContent.value?.guide as Record<string, unknown>)?.roles ?? bundledroles);
+const roles = computed(() => (grammarContent.value?.guide as Record<string, unknown>)?.roles ?? bundledRoles);
 </script>
 
 <style scoped>

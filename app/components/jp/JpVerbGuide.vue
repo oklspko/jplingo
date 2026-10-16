@@ -138,7 +138,7 @@
 
 <script setup lang="ts">
 import { useJpGrammarContent } from "~/composables/jp/useJpGrammarContent";
-import { basicForms as bundledbasicForms, advancedForms as bundledadvancedForms, onbinRows as bundledonbinRows, teFormRows as bundledteFormRows } from "~/data/jp-grammar-tables";
+import { basicForms as bundledBasicForms, advancedForms as bundledAdvancedForms, onbinRows as bundledOnbinRows, teFormRows as bundledTeFormRows } from "~/data/jp-grammar-tables";
 
 // 「来る」的读音会随变形改变（き／こ／く），所以每个形式都标上假名读音
 
@@ -147,10 +147,10 @@ import { basicForms as bundledbasicForms, advancedForms as bundledadvancedForms,
 
 // ===== 语法页内容可热更新：远端 JSON 优先，缺失/未加载时用内置默认（模板无需改动）=====
 const grammarContent = useJpGrammarContent();
-const basicForms = computed(() => (grammarContent.value?.verbGuide as Record<string, unknown>)?.basicForms ?? bundledbasicForms);
-const advancedForms = computed(() => (grammarContent.value?.verbGuide as Record<string, unknown>)?.advancedForms ?? bundledadvancedForms);
-const onbinRows = computed(() => (grammarContent.value?.verbGuide as Record<string, unknown>)?.onbinRows ?? bundledonbinRows);
-const teFormRows = computed(() => (grammarContent.value?.verbGuide as Record<string, unknown>)?.teFormRows ?? bundledteFormRows);
+const basicForms = computed(() => (grammarContent.value?.verbGuide as Record<string, unknown>)?.basicForms ?? bundledBasicForms);
+const advancedForms = computed(() => (grammarContent.value?.verbGuide as Record<string, unknown>)?.advancedForms ?? bundledAdvancedForms);
+const onbinRows = computed(() => (grammarContent.value?.verbGuide as Record<string, unknown>)?.onbinRows ?? bundledOnbinRows);
+const teFormRows = computed(() => (grammarContent.value?.verbGuide as Record<string, unknown>)?.teFormRows ?? bundledTeFormRows);
 </script>
 
 <style scoped>

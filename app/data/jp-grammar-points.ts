@@ -1,11 +1,6 @@
-export type JlptLevel = "N5" | "N4" | "N3" | "N2" | "N1";
+import type { JpBilingualExample } from "~/types/jp";
 
-export interface GrammarExample {
-  /** 例句（日文） */
-  jp: string;
-  /** 例句翻译 */
-  zh: string;
-}
+export type JlptLevel = "N5" | "N4" | "N3" | "N2" | "N1";
 
 export interface GrammarPoint {
   id: string;
@@ -15,8 +10,8 @@ export interface GrammarPoint {
   setsuzoku: string;
   /** 中文释义 */
   meaning: string;
-  /** 例句（最多 3 条） */
-  examples: GrammarExample[];
+  /** 例句（最多 3 条）；用的共享类型 JpBilingualExample（原先这里有一份同形状的 GrammarExample） */
+  examples: JpBilingualExample[];
   /** 补充说明（可选） */
   note?: string;
   /** 语法解析：修饰谁、连接谁、句中位置 */

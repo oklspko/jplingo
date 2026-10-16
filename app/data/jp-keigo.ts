@@ -8,15 +8,14 @@
  * （供 App 数据热更新），组件侧以本文件为**内置兜底**——远端 JSON 拿不到时用它，永不空白。
  */
 
-export interface KeigoExample {
-  jp: string;
-  zh: string;
-}
+import type { JpBilingualExample } from "~/types/jp";
+
 export interface KeigoEntry {
   pattern: string;
   setsuzoku?: string;
   meaning: string;
-  examples: KeigoExample[];
+  /** 例句；用的共享类型 JpBilingualExample（原先这里有一份同形状的 KeigoExample） */
+  examples: JpBilingualExample[];
   note?: string;
 }
 export interface KeigoSubsection {

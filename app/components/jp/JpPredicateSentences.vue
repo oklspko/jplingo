@@ -110,17 +110,17 @@
 
 <script setup lang="ts">
 import { useJpGrammarContent } from "~/composables/jp/useJpGrammarContent";
-import { nounRows as bundlednounRows, a1PlainRows as bundleda1PlainRows, a1KeigoRows as bundleda1KeigoRows, verbRows as bundledverbRows } from "~/data/jp-grammar-tables";
+import { nounRows as bundledNounRows, a1PlainRows as bundledA1PlainRows, a1KeigoRows as bundledA1KeigoRows, verbRows as bundledVerbRows } from "~/data/jp-grammar-tables";
 
 
 
 
 // ===== 语法页内容可热更新：远端 JSON 优先，缺失/未加载时用内置默认（模板无需改动）=====
 const grammarContent = useJpGrammarContent();
-const nounRows = computed(() => (grammarContent.value?.predicates as Record<string, unknown>)?.nounRows ?? bundlednounRows);
-const a1PlainRows = computed(() => (grammarContent.value?.predicates as Record<string, unknown>)?.a1PlainRows ?? bundleda1PlainRows);
-const a1KeigoRows = computed(() => (grammarContent.value?.predicates as Record<string, unknown>)?.a1KeigoRows ?? bundleda1KeigoRows);
-const verbRows = computed(() => (grammarContent.value?.predicates as Record<string, unknown>)?.verbRows ?? bundledverbRows);
+const nounRows = computed(() => (grammarContent.value?.predicates as Record<string, unknown>)?.nounRows ?? bundledNounRows);
+const a1PlainRows = computed(() => (grammarContent.value?.predicates as Record<string, unknown>)?.a1PlainRows ?? bundledA1PlainRows);
+const a1KeigoRows = computed(() => (grammarContent.value?.predicates as Record<string, unknown>)?.a1KeigoRows ?? bundledA1KeigoRows);
+const verbRows = computed(() => (grammarContent.value?.predicates as Record<string, unknown>)?.verbRows ?? bundledVerbRows);
 </script>
 
 <style scoped>

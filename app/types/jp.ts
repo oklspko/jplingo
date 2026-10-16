@@ -28,3 +28,14 @@ export interface JpCoursePack {
   description: string;
   courses: string[];
 }
+
+/**
+ * 中日对照的例句。
+ *
+ * 语法条（app/data/jp-grammar-points.ts）与敬语（app/data/jp-keigo.ts）原先各自声明了一份
+ * 形状完全相同的 `GrammarExample` / `KeigoExample`（步骤 11 合并到这里，避免重复定义）。
+ */
+export interface JpBilingualExample {
+  jp: string;
+  zh: string;
+}

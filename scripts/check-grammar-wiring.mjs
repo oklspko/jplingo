@@ -55,8 +55,9 @@ export function check() {
       }
       // 内置兜底数据必须存在：可以是组件内声明的 `const bundledX`（小数组），
       // 也可以是从 app/data/ import 进来并别名为 bundledX（步骤 10 把大数组搬出组件后的形态）。
-      const hasBundledDecl = lines.some((l) => l.startsWith(`const bundled${name}`));
-      const bundled = `bundled${name}`;
+      // 步骤 11 起别名统一成规范 camelCase：bundled + 首字母大写（bundledGroups / bundledNounRows）。
+      const bundled = "bundled" + name.charAt(0).toUpperCase() + name.slice(1);
+      const hasBundledDecl = lines.some((l) => l.startsWith(`const ${bundled}`));
       const hasBundledImport = lines.some(
         (l) => l.trim().startsWith("import") && l.includes(" as " + bundled) && l.includes(" from "),
       );
@@ -68,7 +69,7 @@ export function check() {
       // computed 声明之前（script 内）不能引用这个名字，否则运行时 TDZ 报错
       for (let i = scriptStart + 1; i < computedAt; i++) {
         const line = lines[i];
-        if (line.includes(`bundled${name}`)) continue;
+        if (line.includes(bundled)) continue;
         const used = new RegExp(`(^|[^.\\w$])${name}\\s*[.\\[()]`).test(line);
         if (used) {
           problems.push(

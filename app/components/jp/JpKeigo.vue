@@ -39,11 +39,11 @@
 <script setup lang="ts">
 import { useJpGrammarContent } from "~/composables/jp/useJpGrammarContent";
 
-import { keigoGroups as bundledgroups } from "~/data/jp-keigo";
+import { keigoGroups as bundledGroups } from "~/data/jp-keigo";
 
 // ===== 语法页内容可热更新：远端 JSON 优先，缺失/未加载时用内置默认（模板无需改动）=====
 const grammarContent = useJpGrammarContent();
-const groups = computed(() => (grammarContent.value?.keigo as Record<string, unknown>)?.groups ?? bundledgroups);
+const groups = computed(() => (grammarContent.value?.keigo as Record<string, unknown>)?.groups ?? bundledGroups);
 </script>
 
 <style scoped>
