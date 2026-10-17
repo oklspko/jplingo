@@ -1,6 +1,6 @@
 # route: /jp-grammar/
 # source: headless-browser-cdp
-# appVersion: 1.2.38
+# appVersion: 1.2.39
 # title: jp-lingo · 日语连词成句
 # visible-nodes: 2697
 # html-bytes-bucket: ~1100000

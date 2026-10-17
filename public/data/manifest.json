@@ -1,7 +1,7 @@
 {
-  "version": "sha256:037c3700c9e11a5c50b93ccd39adb985",
+  "version": "sha256:323f6a5c4d935fb96cbb0b496d7baab0",
   "base": "https://www.jplingo.cn",
-  "bytes": 7775930,
+  "bytes": 7785544,
   "files": [
     {
       "path": "courses/course-pack.json",
@@ -2365,8 +2365,8 @@
     },
     {
       "path": "data/grammar-reference.json",
-      "size": 43516,
-      "sha256": "84d09c07ffa2cd38a1bfd7b59cb117e4c83d2299a1656e2aec1343db488b93f8"
+      "size": 53130,
+      "sha256": "16133f12e099428496b98e289f196bfcb334ca3c931e24689ca8588a65f2484d"
     },
     {
       "path": "dict/words.json",

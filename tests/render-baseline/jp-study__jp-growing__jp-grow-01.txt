@@ -1,6 +1,6 @@
 # route: /jp-study/jp-growing/jp-grow-01
 # source: headless-browser-cdp
-# appVersion: 1.2.38
+# appVersion: 1.2.39
 # title: jp-lingo · 日语连词成句
 # visible-nodes: 620
 # html-bytes-bucket: ~37000
