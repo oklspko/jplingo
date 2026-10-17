@@ -42,11 +42,46 @@
             <span class="gg-chip"><span class="gg-chip-txt">语气词</span></span>
           </div>
         </div>
-        <p class="gg-formula-legend">
-          简写：主题＝主题语，主＝主语，补＝补语，宾＝宾语，谓＝谓语，修＝修饰语（可修饰该成分）<br />
-          助词：主题「は」、主语「が」、宾语「を」，补语常用「に・で・と・へ」，语气词如「よ・ね・か」<br />
-          谓语：承载「时态（现在/过去）」与「敬简（敬体 です・ます／简体 だ・る）」等变化，放在句末
-        </p>
+      </div>
+
+      <!-- 简写对照：单独一块，逐条列出（不和公式混在一起） -->
+      <div class="gg-legend">
+        <p class="gg-legend-title">简写对照</p>
+        <div class="gg-legend-row">
+          <span class="gg-legend-abbr">主题</span>
+          <span class="gg-legend-full">主题语</span>
+          <span class="gg-legend-desc">句子围绕什么讲；助词「は」</span>
+        </div>
+        <div class="gg-legend-row">
+          <span class="gg-legend-abbr">主</span>
+          <span class="gg-legend-full">主语</span>
+          <span class="gg-legend-desc">动作的发出者；助词「が」</span>
+        </div>
+        <div class="gg-legend-row">
+          <span class="gg-legend-abbr">补</span>
+          <span class="gg-legend-full">补语</span>
+          <span class="gg-legend-desc">动作的时间、地点、方式；常用助词「に・で・と・へ」</span>
+        </div>
+        <div class="gg-legend-row">
+          <span class="gg-legend-abbr">宾</span>
+          <span class="gg-legend-full">宾语</span>
+          <span class="gg-legend-desc">动作的承受者；助词「を」</span>
+        </div>
+        <div class="gg-legend-row">
+          <span class="gg-legend-abbr">谓</span>
+          <span class="gg-legend-full">谓语</span>
+          <span class="gg-legend-desc">句子的核心（动作、状态、判断），放句末；承载时态（现在/过去）与敬简（敬体 です・ます／简体 だ・る）等变化</span>
+        </div>
+        <div class="gg-legend-row">
+          <span class="gg-legend-abbr">语气词</span>
+          <span class="gg-legend-full">终助词</span>
+          <span class="gg-legend-desc">表达情感和语气；如「よ・ね・か」</span>
+        </div>
+        <div class="gg-legend-row">
+          <span class="gg-legend-abbr">修</span>
+          <span class="gg-legend-full">修饰语</span>
+          <span class="gg-legend-desc">修饰名词（定语）或修饰谓语（状语）；主题、主语、宾语、谓语都可以被修饰</span>
+        </div>
       </div>
 
       <!-- 修饰语能修饰谁：主语 / 宾语 / 谓语 都可以 -->
@@ -384,12 +419,51 @@ const roles = computed(() => (grammarContent.value?.guide as Record<string, unkn
   line-height: 1.3;
 }
 
-/* 公式简写对照 + 助词说明 */
-.gg-formula-legend {
-  margin: 10px 0 0;
+/* ===== 简写对照（独立一块，逐条列出） ===== */
+.gg-legend {
+  margin-top: 16px;
+  padding: 14px 16px;
+  border: 1px solid #e0f2fe;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.gg-legend-title {
+  margin: 0 0 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #0369a1;
+}
+
+.gg-legend-row {
+  display: grid;
+  grid-template-columns: 56px 64px 1fr;
+  align-items: baseline;
+  gap: 10px;
+  padding: 7px 0;
+  border-top: 1px dashed #eef8ff;
+}
+
+.gg-legend-row:first-of-type {
+  border-top: 0;
+}
+
+.gg-legend-abbr {
+  font-size: 13px;
+  font-weight: 700;
+  color: #075985;
+}
+
+.gg-legend-full {
   font-size: 12px;
-  line-height: 1.7;
+  font-weight: 600;
+  color: #0284c7;
+}
+
+.gg-legend-desc {
+  font-size: 12px;
   color: #5b7a8c;
+  line-height: 1.6;
 }
 
 /* 谓語格子里的括注（时态·敬简等） */
@@ -707,6 +781,21 @@ const roles = computed(() => (grammarContent.value?.guide as Record<string, unkn
 
   .gg-stack-row {
     font-size: 13px;
+  }
+
+  /* 简写对照：手机上两列（简写 | 全称＋说明） */
+  .gg-legend {
+    padding: 12px;
+  }
+
+  .gg-legend-row {
+    grid-template-columns: 46px 1fr;
+    gap: 2px 8px;
+    padding: 8px 0;
+  }
+
+  .gg-legend-desc {
+    grid-column: 2;
   }
 
   .gg-rule {
