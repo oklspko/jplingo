@@ -22,20 +22,27 @@
       <h2 class="gg-section-title"><span class="gg-num">2</span>句子基本结构</h2>
       <div class="gg-formula-card">
         <div class="gg-formula">
-          <span class="gg-chip"><span class="gg-chip-txt">主题</span><b class="gg-p">は</b></span>
+          <span class="gg-chip"><span class="gg-mod-mark">修</span><span class="gg-chip-txt">主题</span><b class="gg-p">は</b></span>
           <span class="gg-plus">＋</span>
-          <span class="gg-chip"><span class="gg-chip-txt">主语</span><b class="gg-p">が</b></span>
+          <span class="gg-chip"><span class="gg-mod-mark">修</span><span class="gg-chip-txt">主</span><b class="gg-p">が</b></span>
           <span class="gg-plus">＋</span>
-          <span class="gg-chip"><span class="gg-chip-txt">补语</span></span>
+          <span class="gg-chip"><span class="gg-chip-txt">补</span></span>
           <span class="gg-plus">＋</span>
-          <span class="gg-chip"><span class="gg-chip-txt">宾语</span><b class="gg-p">を</b></span>
+          <span class="gg-chip"><span class="gg-mod-mark">修</span><span class="gg-chip-txt">宾</span><b class="gg-p">を</b></span>
           <span class="gg-plus">＋</span>
-          <span class="gg-chip"><span class="gg-chip-txt">修饰语</span></span>
-          <span class="gg-plus">＋</span>
-          <span class="gg-chip gg-chip-core"><span class="gg-chip-txt">谓语</span></span>
+          <span class="gg-chip gg-chip-core">
+            <span class="gg-mod-mark">修</span>
+            <span class="gg-chip-txt">谓</span>
+            <span class="gg-chip-sub">（时态·敬简等）</span>
+          </span>
           <span class="gg-plus">＋</span>
           <span class="gg-chip"><span class="gg-chip-txt">语气词</span></span>
         </div>
+        <p class="gg-formula-legend">
+          简写：主题＝主题语，主＝主语，补＝补语，宾＝宾语，谓＝谓语，修＝修饰语（可修饰该成分）<br />
+          助词：主题「は」、主语「が」、宾语「を」，补语常用「に・で・と・へ」，语气词如「よ・ね・か」<br />
+          谓语：承载「时态（现在/过去）」与「敬简（敬体 です・ます／简体 だ・る）」等变化，放在句末
+        </p>
 
         <!-- 按公式顺序逐步扩容：主题 → 补语 → 宾语 → 修饰语 → 谓语 → 语气词 -->
         <div class="gg-stack">
@@ -367,12 +374,46 @@ const roles = computed(() => (grammarContent.value?.guide as Record<string, unkn
   color: #0369a1;
 }
 
+/* 「修」标记：表示这一格可以被修饰语修饰（主题 / 主语 / 宾语 / 谓语） */
+.gg-mod-mark {
+  display: inline-block;
+  padding: 0 4px;
+  border-radius: 4px;
+  background: #fef3c7;
+  color: #b45309;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
 .gg-p {
   font-size: 20px;
   color: #0284c7;
   font-weight: 700;
   font-family: "Yu Gothic UI", "Meiryo", "Hiragino Kaku Gothic ProN", "Hiragino Sans GB", "Noto Sans JP", sans-serif;
   line-height: 1;
+}
+
+/* 多个助词并列时字号略小（补语：に・で・と） */
+.gg-p--multi {
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+/* 公式简写对照 + 助词说明 */
+.gg-formula-legend {
+  margin: 10px 0 0;
+  font-size: 12px;
+  line-height: 1.7;
+  color: #5b7a8c;
+}
+
+/* 谓語格子里的括注（时态·敬简等） */
+.gg-chip-sub {
+  font-size: 10px;
+  line-height: 1.4;
+  color: #0369a1;
+  white-space: nowrap;
 }
 
 .gg-plus {
