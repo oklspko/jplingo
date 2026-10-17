@@ -301,19 +301,35 @@ const verbRows = computed(() => (grammarContent.value?.predicates as Record<stri
 
 @media (max-width: 768px) {
   .ps-card {
-    padding: 18px;
+    padding: 16px 14px;
   }
 
   .ps-title {
-    font-size: 19px;
+    font-size: 17px;
+  }
+
+  /* 手机上取消 460px 最小宽度：四列直接铺满屏宽，
+     否则第 4 列（否定形式）会被推出屏幕，必须横向拖动才看得到。 */
+  .ps-table {
+    min-width: 0;
   }
 
   .ps-table--4 .ps-row {
-    grid-template-columns: 100px 64px 1.2fr 1.2fr;
+    grid-template-columns: 62px 44px 1fr 1fr;
+  }
+
+  .ps-table--3 .ps-row {
+    grid-template-columns: 62px 1fr 1fr;
   }
 
   .ps-cell {
-    padding: 8px 10px;
+    padding: 7px 7px;
+    font-size: 12px;
+    line-height: 1.45;
+    word-break: break-word;
+  }
+
+  .ps-cell-key {
     font-size: 12px;
   }
 }

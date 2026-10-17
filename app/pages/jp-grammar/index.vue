@@ -53,7 +53,7 @@
               v-model="keyword"
               class="filter-search"
               type="search"
-              placeholder="输入语法条 / 接续 / 释义 / 例句关键词（支持模糊匹配）…"
+              placeholder="搜索语法条 / 接续 / 释义 / 例句…"
             />
           </div>
         </section>
@@ -471,20 +471,24 @@ function resetFilters() {
 
 .point-head {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  align-items: flex-start;
+  gap: 8px;
 }
 
 .point-pattern {
   flex: 1;
+  min-width: 0;
   font-size: 17px;
   font-weight: 700;
   color: #075985;
+  line-height: 1.4;
+  word-break: break-word;
   font-family: "Yu Gothic UI", "Meiryo", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
 }
 
 .point-level {
   flex-shrink: 0;
+  margin-top: 1px;
   padding: 3px 10px;
   border-radius: 999px;
   font-size: 12px;
@@ -500,6 +504,7 @@ function resetFilters() {
 
 .point-arrow {
   flex-shrink: 0;
+  margin-top: 2px;
   color: #7dd3fc;
   font-size: 14px;
   transition: transform 0.2s;
@@ -509,11 +514,23 @@ function resetFilters() {
   transform: rotate(180deg);
 }
 
+/* 折叠状态下释义最多 2 行：语法条常有很长的解释，全铺开会把列表撑得很乱
+   （用户反馈「一句话过长显得十分混乱」）。展开后显示全文。 */
 .point-meaning {
-  margin: 8px 0 0;
+  margin: 6px 0 0;
   font-size: 14px;
   color: #0369a1;
   line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.point-card.expanded .point-meaning {
+  display: block;
+  -webkit-line-clamp: unset;
+  overflow: visible;
 }
 
 /* ===== 展开详情 ===== */
@@ -645,36 +662,127 @@ function resetFilters() {
   font-size: 14px;
 }
 
-/* ===== 响应式 ===== */
+/* ===== 响应式（移动端：压缩头部与筛选，卡片更紧凑，底部避开导航栏） ===== */
 @media (max-width: 768px) {
   .grammar-container {
-    padding: 32px 20px 60px;
+    padding: 20px 14px calc(88px + env(safe-area-inset-bottom));
+  }
+
+  .page-header {
+    margin-bottom: 16px;
+  }
+
+  .page-badge {
+    padding: 4px 12px;
+    font-size: 12px;
   }
 
   .page-title {
-    font-size: 26px;
+    margin: 8px 0 6px;
+    font-size: 22px;
   }
 
   .page-sub {
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 1.6;
   }
 
   .filter-panel {
-    padding: 16px 18px;
+    padding: 10px 14px;
+    border-radius: 14px;
   }
 
   .filter-row {
     flex-direction: column;
-    gap: 8px;
+    gap: 6px;
+    padding: 8px 0;
   }
 
   .filter-label {
-    width: auto;
     padding-top: 0;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+  }
+
+  .filter-chips {
+    gap: 5px;
+  }
+
+  /* 小一号的胶囊：让 6 个「五十音」/「等级」都能各占一行，不再出现单个换行 */
+  .filter-chip {
+    padding: 4px 10px;
+    font-size: 12px;
+  }
+
+  /* 列方向布局下 flex:1 只会拉高不会拉宽，输入框会缩成窄条 → 显式撑满 */
+  .filter-search {
+    flex: none;
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+
+  .result-bar {
+    padding: 2px 2px 10px;
+    font-size: 12px;
+  }
+
+  .vowel-group-title {
+    margin-bottom: 8px;
+  }
+
+  .vowel-badge {
+    min-width: 44px;
+    font-size: 14px;
+  }
+
+  .point-list {
+    gap: 8px;
+  }
+
+  .point-card {
+    padding: 13px 14px;
+    border-radius: 12px;
   }
 
   .point-pattern {
-    font-size: 16px;
+    font-size: 15px;
+  }
+
+  .point-level {
+    padding: 2px 8px;
+    font-size: 11px;
+  }
+
+  .point-meaning {
+    font-size: 13px;
+  }
+
+  .point-setsuzoku-text {
+    font-size: 12.5px;
+  }
+
+  .point-example {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+  .point-translation {
+    font-size: 12px;
+  }
+
+  .point-note {
+    font-size: 12px;
+  }
+
+  .point-analysis {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+
+  .analysis-toggle {
+    padding: 7px 10px;
+    font-size: 12px;
   }
 }
 </style>

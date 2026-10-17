@@ -388,12 +388,29 @@ const teFormRows = computed(() => (grammarContent.value?.verbGuide as Record<str
   }
 
   .vg-class {
-    padding: 14px 16px;
+    padding: 14px 14px;
+  }
+
+  /* 手机上取消 620/460px 固定最小宽度：变形表 4 列直接铺满屏宽，
+     否则列会被推出屏幕，必须横向拖动。 */
+  .vg-table,
+  .vg-table--3 {
+    min-width: 0;
+  }
+
+  .vg-row {
+    grid-template-columns: 54px 1fr 1fr 1fr;
+  }
+
+  .vg-table--3 .vg-row {
+    grid-template-columns: 54px 88px 1fr;
   }
 
   .vg-cell {
-    padding: 8px 10px;
+    padding: 7px 7px;
     font-size: 12px;
+    line-height: 1.45;
+    word-break: break-word;
   }
 }
 </style>
