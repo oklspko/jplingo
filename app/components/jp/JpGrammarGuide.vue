@@ -21,55 +21,32 @@
     <section class="gg-section">
       <h2 class="gg-section-title"><span class="gg-num">2</span>句子基本结构</h2>
       <div class="gg-formula-card">
+        <!-- 公式分段显示：太长时按「主题/主/补」「宾/谓/语气词」两组，避免挤在一行 -->
         <div class="gg-formula">
-          <span class="gg-chip"><span class="gg-mod-mark">修</span><span class="gg-chip-txt">主题</span><b class="gg-p">は</b></span>
-          <span class="gg-plus">＋</span>
-          <span class="gg-chip"><span class="gg-mod-mark">修</span><span class="gg-chip-txt">主</span><b class="gg-p">が</b></span>
-          <span class="gg-plus">＋</span>
-          <span class="gg-chip"><span class="gg-chip-txt">补</span></span>
-          <span class="gg-plus">＋</span>
-          <span class="gg-chip"><span class="gg-mod-mark">修</span><span class="gg-chip-txt">宾</span><b class="gg-p">を</b></span>
-          <span class="gg-plus">＋</span>
-          <span class="gg-chip gg-chip-core">
-            <span class="gg-mod-mark">修</span>
-            <span class="gg-chip-txt">谓</span>
-            <span class="gg-chip-sub">（时态·敬简等）</span>
-          </span>
-          <span class="gg-plus">＋</span>
-          <span class="gg-chip"><span class="gg-chip-txt">语气词</span></span>
+          <div class="gg-formula-seg">
+            <span class="gg-chip"><span class="gg-mod-mark">修</span><span class="gg-chip-txt">主题</span><b class="gg-p">は</b></span>
+            <span class="gg-plus">＋</span>
+            <span class="gg-chip"><span class="gg-mod-mark">修</span><span class="gg-chip-txt">主</span><b class="gg-p">が</b></span>
+            <span class="gg-plus">＋</span>
+            <span class="gg-chip"><span class="gg-chip-txt">补</span></span>
+          </div>
+          <div class="gg-formula-seg">
+            <span class="gg-chip"><span class="gg-mod-mark">修</span><span class="gg-chip-txt">宾</span><b class="gg-p">を</b></span>
+            <span class="gg-plus">＋</span>
+            <span class="gg-chip gg-chip-core">
+              <span class="gg-mod-mark">修</span>
+              <span class="gg-chip-txt">谓</span>
+              <span class="gg-chip-sub">（时态·敬简等）</span>
+            </span>
+            <span class="gg-plus">＋</span>
+            <span class="gg-chip"><span class="gg-chip-txt">语气词</span></span>
+          </div>
         </div>
         <p class="gg-formula-legend">
           简写：主题＝主题语，主＝主语，补＝补语，宾＝宾语，谓＝谓语，修＝修饰语（可修饰该成分）<br />
           助词：主题「は」、主语「が」、宾语「を」，补语常用「に・で・と・へ」，语气词如「よ・ね・か」<br />
           谓语：承载「时态（现在/过去）」与「敬简（敬体 です・ます／简体 だ・る）」等变化，放在句末
         </p>
-
-        <!-- 按公式顺序逐步扩容：主题 → 补语 → 宾语 → 修饰语 → 谓语 → 语气词 -->
-        <div class="gg-stack">
-          <p class="gg-stack-title">按公式顺序逐步扩容（橙色＝这一步新增）</p>
-          <div class="gg-stack-row">
-            <b>1</b><span>私は食べます。<em class="gg-base">主题＋谓语</em></span>
-          </div>
-          <div class="gg-stack-row">
-            <b>2</b><span>私は<em>毎朝</em>食べます。<i class="gg-add-tag">＋补语</i></span>
-          </div>
-          <div class="gg-stack-row">
-            <b>3</b><span>私は毎朝<em>ご飯を</em>食べます。<i class="gg-add-tag">＋宾语</i></span>
-          </div>
-          <div class="gg-stack-row">
-            <b>4</b><span>私は毎朝<em>温かい</em>ご飯を食べます。<i class="gg-add-tag">＋修饰语</i></span>
-          </div>
-          <div class="gg-stack-row gg-stack-row--full">
-            <b>5</b><span>私は毎朝温かいご飯を食べます<em>よ</em>。<i class="gg-add-tag">＋语气词</i></span>
-          </div>
-        </div>
-      </div>
-
-      <div class="gg-roles">
-        <div v-for="role in roles" :key="role.name" class="gg-role">
-          <div class="gg-role-name">{{ role.name }}</div>
-          <div class="gg-role-desc">{{ role.desc }}</div>
-        </div>
       </div>
 
       <!-- 修饰语能修饰谁：主语 / 宾语 / 谓语 都可以 -->
@@ -87,8 +64,8 @@
         </div>
         <div class="gg-mod-row">
           <span class="gg-mod-tag">修饰谓语</span>
-          <span class="gg-mod-ex"><em>ゆっくり</em>歩きます。<em>毎朝</em>食べます。</span>
-          <span class="gg-mod-note">状语：副词／イ形→く／ナ形→に／时间词</span>
+          <span class="gg-mod-ex"><em>ゆっくり</em>歩きます。<em>毎朝</em>食べます。<em>たくさん</em>食べます。</span>
+          <span class="gg-mod-note">状语：副词／イ形→く／ナ形→に／时间词／数量词</span>
         </div>
       </div>
     </section>
@@ -340,11 +317,18 @@ const roles = computed(() => (grammarContent.value?.guide as Record<string, unkn
 
 .gg-formula {
   display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+/* 公式分段：每段自己换行，段与段之间上下排列，避免整行挤在一起 */
+.gg-formula-seg {
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 8px;
-  min-width: max-content;
 }
 
 .gg-chip {
