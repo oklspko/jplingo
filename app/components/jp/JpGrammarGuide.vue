@@ -37,15 +37,15 @@
           <span class="gg-chip"><span class="gg-chip-txt">语气词</span></span>
         </div>
 
-        <!-- 单词 → 句子的堆叠：每行高亮「这一步新增的部分」，直观看出句子怎么长出来 -->
+        <!-- 完整主谓句逐步扩容：每行都是语法完整的句子，橙色＝这一步新增 -->
         <div class="gg-stack">
-          <p class="gg-stack-title">单词堆叠成句子（橙色＝这一步新增）</p>
-          <div class="gg-stack-row"><b>1</b><span>私</span></div>
-          <div class="gg-stack-row"><b>2</b><span>私<em>は</em></span></div>
-          <div class="gg-stack-row"><b>3</b><span>私<em>は</em><em>家族と</em></span></div>
-          <div class="gg-stack-row"><b>4</b><span>私<em>は</em><em>家族と</em><em>ご飯を</em></span></div>
+          <p class="gg-stack-title">完整句子逐步扩容（橙色＝这一步新增）</p>
+          <div class="gg-stack-row"><b>1</b><span>私はご飯を食べます。<em class="gg-base">基础句</em></span></div>
+          <div class="gg-stack-row"><b>2</b><span>私は<em>毎朝</em>ご飯を食べます。</span></div>
+          <div class="gg-stack-row"><b>3</b><span>私は毎朝<em>七時に</em>ご飯を食べます。</span></div>
+          <div class="gg-stack-row"><b>4</b><span>私は毎朝七時に<em>家族と</em>ご飯を食べます。</span></div>
           <div class="gg-stack-row gg-stack-row--full">
-            <b>5</b><span>私<em>は</em><em>家族と</em><em>ご飯を</em><em>食べます</em></span>
+            <b>5</b><span>私は毎朝七時に家族と<em>温かい</em>ご飯を食べます。</span>
           </div>
         </div>
       </div>
@@ -531,6 +531,14 @@ const roles = computed(() => (grammarContent.value?.guide as Record<string, unkn
   background: #fffbeb;
   border-radius: 4px;
   padding: 0 3px;
+}
+
+/* 第 1 步是基础句，不要「新增」高亮，用浅色小标签标注 */
+.gg-stack-row em.gg-base {
+  margin-left: 6px;
+  background: #e0f2fe;
+  color: #0284c7;
+  font-size: 11px;
 }
 
 .gg-stack-row--full {
