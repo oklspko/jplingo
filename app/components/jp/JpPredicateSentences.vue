@@ -7,7 +7,16 @@
 
     <!-- 笔记 ① A2 / 名词作谓语（接续相同） -->
     <div class="ps-card">
-      <h3 class="ps-title"><span class="ps-num">1</span>A2 / 名词作谓语<span class="ps-tag">接续相同</span></h3>
+      <h3
+        class="ps-title"
+        role="button"
+        tabindex="0"
+        :aria-expanded="isOpen('ps:1')"
+        @click="toggle('ps:1')"
+        @keydown.enter.prevent="toggle('ps:1')"
+        @keydown.space.prevent="toggle('ps:1')"
+      ><span class="ps-num">1</span>A2 / 名词作谓语<span class="ps-tag">接续相同</span>  <span class="ps-chevron">▾</span></h3>
+      <div v-show="isOpen('ps:1')" class="ps-body">
 
       <div class="ps-table-scroll">
         <div class="ps-table ps-table--4">
@@ -32,11 +41,21 @@
         <p>💬 口语简化：把 <b>では</b> 换成 <b>じゃ</b>（じゃない・じゃありません）。</p>
         <p>📌 A2（形容动词）接续规则多与名词相同，且 A2 以词干形式出现（不带 だ），可视作有部分名词词性（不严谨）。</p>
       </div>
+      </div>
     </div>
 
     <!-- 笔记 ② A1 作谓语句 -->
     <div class="ps-card">
-      <h3 class="ps-title"><span class="ps-num">2</span>A1 作谓语句<span class="ps-tag">い形容词</span></h3>
+      <h3
+        class="ps-title"
+        role="button"
+        tabindex="0"
+        :aria-expanded="isOpen('ps:2')"
+        @click="toggle('ps:2')"
+        @keydown.enter.prevent="toggle('ps:2')"
+        @keydown.space.prevent="toggle('ps:2')"
+      ><span class="ps-num">2</span>A1 作谓语句<span class="ps-tag">い形容词</span>  <span class="ps-chevron">▾</span></h3>
+      <div v-show="isOpen('ps:2')" class="ps-body">
 
       <div class="ps-table-scroll">
         <div class="ps-table ps-table--4">
@@ -76,11 +95,21 @@
         <p>📌 <b>いい（好）的变形要用「よい」</b>：「いい」只有「现在肯定」这一形，其余活用全部来自「よい」——否定 <b>よく</b>ない／过去 <b>よかっ</b>た／过去否定 <b>よく</b>なかった／て形 <b>よく</b>て；敬体 いいです → <b>よくないです</b>。复合词同理：かっこいい → かっこ<b>よく</b>ない（✗ かっこいくない）。</p>
         <p>📌 <b>两个「以 い 结尾、其实是 A2（な形容词）」的词：きれい、嫌い</b>——接名词要加 <b>な</b>（きれい<b>な</b>花・嫌い<b>な</b>食べ物）；否定和过去按名词那套（きれい<b>じゃない</b>／きれい<b>だった</b>・嫌い<b>じゃない</b>／嫌い<b>だった</b>）；✗ 不能说「きれい<b>く</b>ない」「嫌い<b>かっ</b>た」。</p>
       </div>
+      </div>
     </div>
 
     <!-- 笔记 ③ 动词谓语句 -->
     <div class="ps-card">
-      <h3 class="ps-title"><span class="ps-num">3</span>动词谓语句<span class="ps-tag">動詞</span></h3>
+      <h3
+        class="ps-title"
+        role="button"
+        tabindex="0"
+        :aria-expanded="isOpen('ps:3')"
+        @click="toggle('ps:3')"
+        @keydown.enter.prevent="toggle('ps:3')"
+        @keydown.space.prevent="toggle('ps:3')"
+      ><span class="ps-num">3</span>动词谓语句<span class="ps-tag">動詞</span>  <span class="ps-chevron">▾</span></h3>
+      <div v-show="isOpen('ps:3')" class="ps-body">
 
       <div class="ps-table-scroll">
         <div class="ps-table ps-table--4">
@@ -104,12 +133,14 @@
       <div class="ps-notes">
         <p>📌 ない 对应否定，た 对应过去。先否定再过去：ない（一类形容词）→ なかった。</p>
       </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import { useJpGrammarContent } from "~/composables/jp/useJpGrammarContent";
+import { useJpCollapse } from "~/composables/jp/useJpCollapse";
 import { nounRows as bundledNounRows, a1PlainRows as bundledA1PlainRows, a1KeigoRows as bundledA1KeigoRows, verbRows as bundledVerbRows } from "~/data/jp-grammar-tables";
 
 
@@ -121,6 +152,9 @@ const nounRows = computed(() => (grammarContent.value?.predicates as Record<stri
 const a1PlainRows = computed(() => (grammarContent.value?.predicates as Record<string, unknown>)?.a1PlainRows ?? bundledA1PlainRows);
 const a1KeigoRows = computed(() => (grammarContent.value?.predicates as Record<string, unknown>)?.a1KeigoRows ?? bundledA1KeigoRows);
 const verbRows = computed(() => (grammarContent.value?.predicates as Record<string, unknown>)?.verbRows ?? bundledVerbRows);
+
+// ===== 收纳式折叠：3 张笔记卡片默认收起 =====
+const { isOpen, toggle } = useJpCollapse();
 </script>
 
 <style scoped>
@@ -316,5 +350,23 @@ const verbRows = computed(() => (grammarContent.value?.predicates as Record<stri
     padding: 8px 10px;
     font-size: 12px;
   }
+}
+
+/* ===== 收纳式折叠（三张笔记卡片默认收起） ===== */
+.ps-title {
+  cursor: pointer;
+  user-select: none;
+}
+
+.ps-chevron {
+  flex-shrink: 0;
+  margin-left: auto;
+  color: #7dd3fc;
+  font-size: 13px;
+  transition: transform 0.2s;
+}
+
+.ps-title[aria-expanded="true"] .ps-chevron {
+  transform: rotate(180deg);
 }
 </style>

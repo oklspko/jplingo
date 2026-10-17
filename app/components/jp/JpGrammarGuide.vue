@@ -479,23 +479,51 @@ const roles = computed(() => (grammarContent.value?.guide as Record<string, unkn
   }
 
   .gg-section {
-    margin-bottom: 32px;
+    margin-bottom: 28px;
   }
 
   .gg-section-title {
-    font-size: 19px;
+    font-size: 17px;
   }
 
+  /* 公式在手机上改为「竖排列表」：不再横向滚动，每个成分独占一行，
+     名称在左、助词在右，彻底避免被卡片/屏幕边缘遮挡。 */
   .gg-formula-card {
-    padding: 20px 16px;
+    padding: 14px 12px;
+    overflow-x: visible;
+  }
+
+  .gg-formula {
+    min-width: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+  }
+
+  .gg-plus {
+    display: none;
   }
 
   .gg-chip {
-    padding: 8px 12px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 8px 14px;
+    border-radius: 10px;
+  }
+
+  .gg-chip-txt {
+    font-size: 13px;
+    color: #0369a1;
+  }
+
+  .gg-chip-core .gg-chip-txt {
+    color: #075985;
   }
 
   .gg-rule {
-    padding: 18px;
+    padding: 16px;
   }
 
   .gg-rule-body p {

@@ -53,7 +53,7 @@
               v-model="keyword"
               class="filter-search"
               type="search"
-              placeholder="输入语法条 / 接续 / 释义 / 例句关键词（支持模糊匹配）…"
+              placeholder="搜索语法条 / 接续 / 释义 / 例句…"
             />
           </div>
         </section>
@@ -509,11 +509,23 @@ function resetFilters() {
   transform: rotate(180deg);
 }
 
+/* 折叠时释义只显示 2 行（想「收纳」的效果）；展开后显示全文。
+   用 CSS 截断，文字仍在 DOM 里，不会丢内容，也不影响可见文本快照。 */
 .point-meaning {
-  margin: 8px 0 0;
+  margin: 6px 0 0;
   font-size: 14px;
   color: #0369a1;
   line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.point-card.expanded .point-meaning {
+  display: block;
+  -webkit-line-clamp: unset;
+  overflow: visible;
 }
 
 /* ===== 展开详情 ===== */
@@ -648,33 +660,114 @@ function resetFilters() {
 /* ===== 响应式 ===== */
 @media (max-width: 768px) {
   .grammar-container {
-    padding: 32px 20px 60px;
+    padding: 24px 14px calc(88px + env(safe-area-inset-bottom));
+  }
+
+  .page-header {
+    padding-bottom: 18px;
   }
 
   .page-title {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .page-sub {
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 1.6;
   }
 
   .filter-panel {
-    padding: 16px 18px;
+    padding: 10px 14px;
   }
 
   .filter-row {
     flex-direction: column;
-    gap: 8px;
+    gap: 6px;
+    padding: 8px 0;
   }
 
   .filter-label {
     width: auto;
     padding-top: 0;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+  }
+
+  .filter-chips {
+    gap: 5px;
+  }
+
+  /* 胶囊小一号：6 个「五十音」/ 6 个「等级」正好各占一行，不再单个换到下一行 */
+  .filter-chip {
+    padding: 4px 10px;
+    font-size: 12px;
+  }
+
+  /* 列方向下 flex:1 只会拉高不会拉宽，输入框会缩成窄条 → 显式撑满 */
+  .filter-search {
+    flex: none;
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+
+  .result-bar {
+    padding: 2px 2px 10px;
+    font-size: 12px;
+  }
+
+  .vowel-group-title {
+    margin-bottom: 8px;
+  }
+
+  .vowel-badge {
+    min-width: 44px;
+    font-size: 14px;
+  }
+
+  .point-list {
+    gap: 8px;
+  }
+
+  .point-card {
+    padding: 13px 14px;
+    border-radius: 12px;
   }
 
   .point-pattern {
-    font-size: 16px;
+    font-size: 15px;
+  }
+
+  .point-level {
+    padding: 2px 8px;
+    font-size: 11px;
+  }
+
+  .point-meaning {
+    font-size: 13px;
+  }
+
+  .point-example {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+  .point-translation {
+    font-size: 12px;
+  }
+
+  .point-note {
+    font-size: 12px;
+  }
+
+  .point-analysis {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+
+  .analysis-toggle {
+    padding: 7px 10px;
+    font-size: 12px;
   }
 }
 </style>
