@@ -37,15 +37,23 @@
           <span class="gg-chip"><span class="gg-chip-txt">语气词</span></span>
         </div>
 
-        <!-- 完整主谓句逐步扩容：每行都是语法完整的句子，橙色＝这一步新增 -->
+        <!-- 按公式顺序逐步扩容：主题 → 补语 → 宾语 → 修饰语 → 谓语 → 语气词 -->
         <div class="gg-stack">
-          <p class="gg-stack-title">完整句子逐步扩容（橙色＝这一步新增）</p>
-          <div class="gg-stack-row"><b>1</b><span>私はご飯を食べます。<em class="gg-base">基础句</em></span></div>
-          <div class="gg-stack-row"><b>2</b><span>私は<em>毎朝</em>ご飯を食べます。</span></div>
-          <div class="gg-stack-row"><b>3</b><span>私は毎朝<em>七時に</em>ご飯を食べます。</span></div>
-          <div class="gg-stack-row"><b>4</b><span>私は毎朝七時に<em>家族と</em>ご飯を食べます。</span></div>
+          <p class="gg-stack-title">按公式顺序逐步扩容（橙色＝这一步新增）</p>
+          <div class="gg-stack-row">
+            <b>1</b><span>私は食べます。<em class="gg-base">主题＋谓语</em></span>
+          </div>
+          <div class="gg-stack-row">
+            <b>2</b><span>私は<em>毎朝</em>食べます。<i class="gg-add-tag">＋补语</i></span>
+          </div>
+          <div class="gg-stack-row">
+            <b>3</b><span>私は毎朝<em>ご飯を</em>食べます。<i class="gg-add-tag">＋宾语</i></span>
+          </div>
+          <div class="gg-stack-row">
+            <b>4</b><span>私は毎朝<em>温かい</em>ご飯を食べます。<i class="gg-add-tag">＋修饰语</i></span>
+          </div>
           <div class="gg-stack-row gg-stack-row--full">
-            <b>5</b><span>私は毎朝七時に家族と<em>温かい</em>ご飯を食べます。</span>
+            <b>5</b><span>私は毎朝温かいご飯を食べます<em>よ</em>。<i class="gg-add-tag">＋语气词</i></span>
           </div>
         </div>
       </div>
@@ -539,6 +547,19 @@ const roles = computed(() => (grammarContent.value?.guide as Record<string, unkn
   background: #e0f2fe;
   color: #0284c7;
   font-size: 11px;
+}
+
+/* 每行末尾标注「这一步加的是公式里的哪个成分」 */
+.gg-add-tag {
+  margin-left: 6px;
+  padding: 0 5px;
+  border-radius: 4px;
+  border: 1px solid #e0f2fe;
+  background: #f0f9ff;
+  color: #0284c7;
+  font-size: 11px;
+  font-style: normal;
+  white-space: nowrap;
 }
 
 .gg-stack-row--full {
