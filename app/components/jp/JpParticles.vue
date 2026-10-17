@@ -11,19 +11,37 @@
       :key="group.category"
       class="jp-particles-group"
     >
-      <h3 class="jp-particles-group-title">
+      <h3
+        class="jp-particles-group-title"
+        role="button"
+        tabindex="0"
+        :aria-expanded="isOpen('g:' + group.category)"
+        @click="toggle('g:' + group.category)"
+        @keydown.enter.prevent="toggle('g:' + group.category)"
+        @keydown.space.prevent="toggle('g:' + group.category)"
+      >
         <span class="jp-particles-group-icon">{{ group.icon }}</span>
         <span>{{ group.category }}</span>
         <span class="jp-particles-group-tag">{{ group.desc }}</span>
+        <span class="jp-chevron">▾</span>
       </h3>
 
-      <div class="jp-particles-grid">
+      <div v-show="isOpen('g:' + group.category)" class="jp-particles-grid">
         <article v-for="p in group.particles" :key="p.p" class="jp-particle-card">
-          <div class="jp-particle-head">
+          <div
+            class="jp-particle-head"
+            role="button"
+            tabindex="0"
+            :aria-expanded="isOpen('p:' + group.category + '|' + p.p)"
+            @click="toggle('p:' + group.category + '|' + p.p)"
+            @keydown.enter.prevent="toggle('p:' + group.category + '|' + p.p)"
+            @keydown.space.prevent="toggle('p:' + group.category + '|' + p.p)"
+          >
             <span class="jp-particle-kana">{{ p.p }}</span>
             <span class="jp-particle-name">{{ p.name }}</span>
+            <span class="jp-chevron jp-chevron--sm">▾</span>
           </div>
-          <ul class="jp-particle-usages">
+          <ul v-show="isOpen('p:' + group.category + '|' + p.p)" class="jp-particle-usages">
             <li v-for="(u, i) in p.usages" :key="i" class="jp-particle-usage">
               <span class="jp-particle-usage-label">{{ u.usage }}</span>
               <span class="jp-particle-example">{{ u.example }}</span>
@@ -38,11 +56,15 @@
 
 <script setup lang="ts">
 import { useJpGrammarContent } from "~/composables/jp/useJpGrammarContent";
+import { useJpCollapse } from "~/composables/jp/useJpCollapse";
 import { particleGroups as bundledGroups } from "~/data/jp-particles";
 
 // ===== 语法页内容可热更新：远端 JSON 优先，缺失/未加载时用内置默认（模板无需改动）=====
 const grammarContent = useJpGrammarContent();
 const groups = computed(() => (grammarContent.value?.particles as Record<string, unknown>)?.groups ?? bundledGroups);
+
+// ===== 收纳式折叠：分组 + 单个助词，默认全部收起 =====
+const { isOpen, toggle } = useJpCollapse();
 </script>
 
 <style scoped>
@@ -182,6 +204,34 @@ const groups = computed(() => (grammarContent.value?.particles as Record<string,
   font-size: 12px;
   color: #7dd3fc;
   line-height: 1.5;
+}
+
+/* ===== 收纳式折叠 ===== */
+.jp-particles-group-title {
+  cursor: pointer;
+  user-select: none;
+}
+
+.jp-chevron {
+  flex-shrink: 0;
+  margin-left: auto;
+  color: #7dd3fc;
+  font-size: 13px;
+  transition: transform 0.2s;
+}
+
+.jp-chevron--sm {
+  font-size: 12px;
+}
+
+.jp-particles-group-title[aria-expanded="true"] .jp-chevron,
+.jp-particle-head[aria-expanded="true"] .jp-chevron {
+  transform: rotate(180deg);
+}
+
+.jp-particle-head {
+  cursor: pointer;
+  user-select: none;
 }
 
 @media (max-width: 768px) {
