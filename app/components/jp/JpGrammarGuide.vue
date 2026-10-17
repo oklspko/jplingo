@@ -36,6 +36,18 @@
           <span class="gg-plus">＋</span>
           <span class="gg-chip"><span class="gg-chip-txt">语气词</span></span>
         </div>
+
+        <!-- 单词 → 句子的堆叠：每行高亮「这一步新增的部分」，直观看出句子怎么长出来 -->
+        <div class="gg-stack">
+          <p class="gg-stack-title">单词堆叠成句子（橙色＝这一步新增）</p>
+          <div class="gg-stack-row"><b>1</b><span>私</span></div>
+          <div class="gg-stack-row"><b>2</b><span>私<em>は</em></span></div>
+          <div class="gg-stack-row"><b>3</b><span>私<em>は</em><em>家族と</em></span></div>
+          <div class="gg-stack-row"><b>4</b><span>私<em>は</em><em>家族と</em><em>ご飯を</em></span></div>
+          <div class="gg-stack-row gg-stack-row--full">
+            <b>5</b><span>私<em>は</em><em>家族と</em><em>ご飯を</em><em>食べます</em></span>
+          </div>
+        </div>
       </div>
 
       <div class="gg-roles">
@@ -472,6 +484,60 @@ const roles = computed(() => (grammarContent.value?.guide as Record<string, unkn
   font-weight: 700;
 }
 
+/* ===== 单词 → 句子的堆叠示例 ===== */
+.gg-stack {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px dashed #bae6fd;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.gg-stack-title {
+  margin: 0 0 2px;
+  font-size: 12px;
+  color: #7dd3fc;
+  font-weight: 600;
+}
+
+.gg-stack-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 14px;
+  line-height: 1.55;
+  color: #075985;
+  font-family: "Yu Gothic UI", "Meiryo", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+}
+
+.gg-stack-row > b {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  border-radius: 6px;
+  background: #e0f2fe;
+  color: #0284c7;
+  font-size: 11px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.gg-stack-row em {
+  font-style: normal;
+  color: #b45309;
+  background: #fffbeb;
+  border-radius: 4px;
+  padding: 0 3px;
+}
+
+.gg-stack-row--full {
+  font-weight: 700;
+  color: #0369a1;
+}
+
 /* ===== 响应式 ===== */
 @media (max-width: 768px) {
   .gg-lead {
@@ -486,8 +552,7 @@ const roles = computed(() => (grammarContent.value?.guide as Record<string, unkn
     font-size: 17px;
   }
 
-  /* 公式在手机上改为「竖排列表」：不再横向滚动，每个成分独占一行，
-     名称在左、助词在右，彻底避免被卡片/屏幕边缘遮挡。 */
+  /* 公式：手机上允许换行铺开（原来 min-width: max-content + 横向滚动，会被卡片边缘挡住） */
   .gg-formula-card {
     padding: 14px 12px;
     overflow-x: visible;
@@ -495,31 +560,24 @@ const roles = computed(() => (grammarContent.value?.guide as Record<string, unkn
 
   .gg-formula {
     min-width: 0;
-    flex-direction: column;
-    align-items: stretch;
+    flex-wrap: wrap;
     gap: 6px;
   }
 
-  .gg-plus {
-    display: none;
-  }
-
   .gg-chip {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    padding: 8px 14px;
-    border-radius: 10px;
+    padding: 7px 11px;
   }
 
   .gg-chip-txt {
-    font-size: 13px;
-    color: #0369a1;
+    font-size: 12px;
   }
 
-  .gg-chip-core .gg-chip-txt {
-    color: #075985;
+  .gg-p {
+    font-size: 17px;
+  }
+
+  .gg-stack-row {
+    font-size: 13px;
   }
 
   .gg-rule {

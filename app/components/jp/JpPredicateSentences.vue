@@ -339,7 +339,7 @@ const { isOpen, toggle } = useJpCollapse();
   }
 
   .ps-title {
-    font-size: 19px;
+    font-size: 16px;
   }
 
   .ps-table--4 .ps-row {

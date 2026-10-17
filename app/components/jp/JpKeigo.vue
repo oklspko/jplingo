@@ -214,7 +214,7 @@ function verbGroups(sub: SubLike): Array<{ key: string; base: string; entries: S
 .jk-group-name {
   flex: 1;
   min-width: 0;
-  font-size: 17px;
+  font-size: 15px;
   color: #075985;
   font-weight: 700;
 }
@@ -481,7 +481,7 @@ function verbGroups(sub: SubLike): Array<{ key: string; base: string; entries: S
   }
 
   .jk-group-name {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .jk-group-body {

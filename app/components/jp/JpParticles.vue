@@ -244,7 +244,7 @@ const { isOpen, toggle } = useJpCollapse();
   }
 
   .jp-particles-group-title {
-    font-size: 17px;
+    font-size: 15px;
     flex-wrap: wrap;
   }
 
