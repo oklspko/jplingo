@@ -64,6 +64,26 @@
           <div class="gg-role-desc">{{ role.desc }}</div>
         </div>
       </div>
+
+      <!-- 修饰语能修饰谁：主语 / 宾语 / 谓语 都可以 -->
+      <div class="gg-mod">
+        <p class="gg-mod-title">修饰语可以放在三个位置</p>
+        <div class="gg-mod-row">
+          <span class="gg-mod-tag">修饰主语</span>
+          <span class="gg-mod-ex"><em>元気な</em>学生が来ました。</span>
+          <span class="gg-mod-note">定语：ナ形＋な／イ形直接／名词＋の</span>
+        </div>
+        <div class="gg-mod-row">
+          <span class="gg-mod-tag">修饰宾语</span>
+          <span class="gg-mod-ex"><em>温かい</em>ご飯を食べます。</span>
+          <span class="gg-mod-note">定语：同上，放在名词前</span>
+        </div>
+        <div class="gg-mod-row">
+          <span class="gg-mod-tag">修饰谓语</span>
+          <span class="gg-mod-ex"><em>ゆっくり</em>歩きます。<em>毎朝</em>食べます。</span>
+          <span class="gg-mod-note">状语：副词／イ形→く／ナ形→に／时间词</span>
+        </div>
+      </div>
     </section>
 
     <!-- 三、单词的连接规则（接续） -->
@@ -565,6 +585,61 @@ const roles = computed(() => (grammarContent.value?.guide as Record<string, unkn
 .gg-stack-row--full {
   font-weight: 700;
   color: #0369a1;
+}
+
+/* ===== 修饰语能修饰谁 ===== */
+.gg-mod {
+  margin-top: 16px;
+  padding: 14px 16px;
+  border: 1px dashed #bae6fd;
+  border-radius: 12px;
+  background: #fbfeff;
+}
+
+.gg-mod-title {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #0369a1;
+}
+
+.gg-mod-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 0;
+  border-top: 1px dashed #eef8ff;
+}
+
+.gg-mod-row:first-of-type {
+  border-top: 0;
+}
+
+.gg-mod-tag {
+  font-size: 12px;
+  font-weight: 700;
+  color: #0284c7;
+}
+
+.gg-mod-ex {
+  font-size: 14px;
+  color: #075985;
+  line-height: 1.65;
+  font-family: "Yu Gothic UI", "Meiryo", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+}
+
+.gg-mod-ex em {
+  font-style: normal;
+  color: #b45309;
+  background: #fffbeb;
+  border-radius: 4px;
+  padding: 0 3px;
+}
+
+.gg-mod-note {
+  font-size: 11.5px;
+  color: #7dd3fc;
+  line-height: 1.5;
 }
 
 /* ===== 响应式 ===== */
