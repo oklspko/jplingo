@@ -4,7 +4,14 @@
 
     <!-- 一、核心原则 -->
     <section class="gg-section">
-      <h2 class="gg-section-title"><span class="gg-num">1</span>核心原则</h2>
+      <h2 class="gg-section-title"
+        role="button"
+        tabindex="0"
+        :aria-expanded="isOpen('ggs:1')"
+        @click="toggle('ggs:1')"
+        @keydown.enter.prevent="toggle('ggs:1')"
+        @keydown.space.prevent="toggle('ggs:1')"><span class="gg-num">1</span>核心原则  <span class="gg-chevron">▾</span></h2>
+      <div v-show="isOpen('ggs:1')">
       <div class="gg-principles">
         <div class="gg-principle">
           <span class="gg-principle-icon">🔗</span>
@@ -15,11 +22,19 @@
           <p>不要死记语法公式，<strong>记单词怎么用</strong>就行。</p>
         </div>
       </div>
+      </div>
     </section>
 
     <!-- 二、句子基本结构 -->
     <section class="gg-section">
-      <h2 class="gg-section-title"><span class="gg-num">2</span>句子基本结构</h2>
+      <h2 class="gg-section-title"
+        role="button"
+        tabindex="0"
+        :aria-expanded="isOpen('ggs:2')"
+        @click="toggle('ggs:2')"
+        @keydown.enter.prevent="toggle('ggs:2')"
+        @keydown.space.prevent="toggle('ggs:2')"><span class="gg-num">2</span>句子基本结构  <span class="gg-chevron">▾</span></h2>
+      <div v-show="isOpen('ggs:2')">
       <div class="gg-formula-card">
         <!-- 公式分段显示：太长时按「主题/主/补」「宾/谓/语气词」两组，避免挤在一行 -->
         <div class="gg-formula">
@@ -103,11 +118,19 @@
           <span class="gg-mod-note">状语：副词／イ形→く／ナ形→に／时间词／数量词</span>
         </div>
       </div>
+      </div>
     </section>
 
     <!-- 三、单词的连接规则（接续） -->
     <section class="gg-section">
-      <h2 class="gg-section-title"><span class="gg-num">3</span>单词的连接规则（接续）</h2>
+      <h2 class="gg-section-title"
+        role="button"
+        tabindex="0"
+        :aria-expanded="isOpen('ggs:3')"
+        @click="toggle('ggs:3')"
+        @keydown.enter.prevent="toggle('ggs:3')"
+        @keydown.space.prevent="toggle('ggs:3')"><span class="gg-num">3</span>单词的连接规则（接续）  <span class="gg-chevron">▾</span></h2>
+      <div v-show="isOpen('ggs:3')">
       <p class="gg-section-intro">日语是黏着语，单词后面要加助词提示作用。怎么接，看词性：</p>
 
       <div class="gg-rules">
@@ -191,17 +214,22 @@
           </div>
         </div>
       </div>
+      </div>
     </section>
   </div>
 </template>
 
 <script setup lang="ts">
 import { useJpGrammarContent } from "~/composables/jp/useJpGrammarContent";
+import { useJpCollapse } from "~/composables/jp/useJpCollapse";
 import { roles as bundledRoles } from "~/data/jp-grammar-tables";
 
 // ===== 语法页内容可热更新：远端 JSON 优先，缺失/未加载时用内置默认（模板无需改动）=====
 const grammarContent = useJpGrammarContent();
 const roles = computed(() => (grammarContent.value?.guide as Record<string, unknown>)?.roles ?? bundledRoles);
+
+// ===== 收纳式折叠：各小节默认收起 =====
+const { isOpen, toggle } = useJpCollapse();
 </script>
 
 <style scoped>
@@ -805,5 +833,22 @@ const roles = computed(() => (grammarContent.value?.guide as Record<string, unkn
   .gg-rule-body p {
     font-size: 14px;
   }
+}
+/* ===== 收纳式折叠 ===== */
+.gg-section-title {
+  cursor: pointer;
+  user-select: none;
+}
+
+.gg-chevron {
+  flex-shrink: 0;
+  margin-left: auto;
+  color: #7dd3fc;
+  font-size: 13px;
+  transition: transform 0.2s;
+}
+
+.gg-section-title[aria-expanded="true"] .gg-chevron {
+  transform: rotate(180deg);
 }
 </style>

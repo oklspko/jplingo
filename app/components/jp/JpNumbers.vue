@@ -7,7 +7,14 @@
 
     <!-- 一、基数词 -->
     <section class="jn-block">
-      <h3 class="jn-block-title"><span class="jn-num">1</span>基数词</h3>
+      <h3 class="jn-block-title"
+        role="button"
+        tabindex="0"
+        :aria-expanded="isOpen('jnb:1')"
+        @click="toggle('jnb:1')"
+        @keydown.enter.prevent="toggle('jnb:1')"
+        @keydown.space.prevent="toggle('jnb:1')"><span class="jn-num">1</span>基数词  <span class="jn-chevron">▾</span></h3>
+      <div v-show="isOpen('jnb:1')">
       <p class="jn-block-intro">单纯用以计数的数词，表示事物的具体数量。十一以下的基数词有<b>音读</b>和<b>训读</b>两种，十一以上采取音读。</p>
 
       <h4 class="jn-sub-title">① 十一以下的训读</h4>
@@ -38,11 +45,19 @@
           <span class="jn-reading">{{ r[1] }}</span>
         </div>
       </div>
+      </div>
     </section>
 
     <!-- 二、序数词 -->
     <section class="jn-block">
-      <h3 class="jn-block-title"><span class="jn-num">2</span>序数词</h3>
+      <h3 class="jn-block-title"
+        role="button"
+        tabindex="0"
+        :aria-expanded="isOpen('jnb:2')"
+        @click="toggle('jnb:2')"
+        @keydown.enter.prevent="toggle('jnb:2')"
+        @keydown.space.prevent="toggle('jnb:2')"><span class="jn-num">2</span>序数词  <span class="jn-chevron">▾</span></h3>
+      <div v-show="isOpen('jnb:2')">
       <p class="jn-block-intro">
         序数词表示事物的顺序。一般由基数词前加接头词<b>「第」</b>，或其后加接尾词<b>「番」「目」</b>等构成。
       </p>
@@ -63,11 +78,19 @@
           </div>
         </div>
       </div>
+      </div>
     </section>
 
     <!-- 三、常用助数词 -->
     <section class="jn-block">
-      <h3 class="jn-block-title"><span class="jn-num">3</span>常用助数词</h3>
+      <h3 class="jn-block-title"
+        role="button"
+        tabindex="0"
+        :aria-expanded="isOpen('jnb:3')"
+        @click="toggle('jnb:3')"
+        @keydown.enter.prevent="toggle('jnb:3')"
+        @keydown.space.prevent="toggle('jnb:3')"><span class="jn-num">3</span>常用助数词  <span class="jn-chevron">▾</span></h3>
+      <div v-show="isOpen('jnb:3')">
       <p class="jn-block-intro">助数词是表示事物计量名称的数词，也就是中文通常所说的<b>量词</b>。基数词一般借助助数词才能准确地表达事物的数量。</p>
 
       <h4 class="jn-sub-title">① 基数词与助数词结合的读法</h4>
@@ -98,11 +121,17 @@
           <span class="jn-counter-meaning">{{ c.meaning }}</span>
         </div>
       </div>
+      </div>
     </section>
   </div>
 </template>
 
 <script setup lang="ts">
+import { useJpCollapse } from "~/composables/jp/useJpCollapse";
+
+// ===== 收纳式折叠：三块（基数词/序数词/助数词）默认收起 =====
+const { isOpen, toggle } = useJpCollapse();
+
 const kunWords = ["一つ", "二つ", "三つ", "四つ", "五つ", "六つ", "七つ", "八つ", "九つ", "十"];
 
 const kazu100: [string, string][] = [
@@ -440,5 +469,22 @@ const counterList = [
   .jn-counter-list {
     grid-template-columns: 1fr 1fr;
   }
+}
+/* ===== 收纳式折叠 ===== */
+.jn-block-title {
+  cursor: pointer;
+  user-select: none;
+}
+
+.jn-chevron {
+  flex-shrink: 0;
+  margin-left: auto;
+  color: #7dd3fc;
+  font-size: 13px;
+  transition: transform 0.2s;
+}
+
+.jn-block-title[aria-expanded="true"] .jn-chevron {
+  transform: rotate(180deg);
 }
 </style>

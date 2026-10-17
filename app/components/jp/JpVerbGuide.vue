@@ -6,7 +6,14 @@
 
     <!-- 一、动词分类 -->
     <section class="vg-block">
-      <h3 class="vg-block-title"><span class="vg-num">1</span>动词分类</h3>
+      <h3 class="vg-block-title"
+        role="button"
+        tabindex="0"
+        :aria-expanded="isOpen('vgb:1')"
+        @click="toggle('vgb:1')"
+        @keydown.enter.prevent="toggle('vgb:1')"
+        @keydown.space.prevent="toggle('vgb:1')"><span class="vg-num">1</span>动词分类  <span class="vg-chevron">▾</span></h3>
+      <div v-show="isOpen('vgb:1')">
 
       <h4 class="vg-sub-title">按活用方式（三类）</h4>
       <div class="vg-classes">
@@ -36,11 +43,19 @@
         </div>
       </div>
       <p class="vg-note">📌 有的动词自他两用，如 <b>開く</b>。词表里的 <b>自一 / 他二 / 自他三</b>，正是「自他 ＋ 一/二/三类」的组合。</p>
+      </div>
     </section>
 
     <!-- 二、动词变形 -->
     <section class="vg-block">
-      <h3 class="vg-block-title"><span class="vg-num">2</span>动词变形（活用）</h3>
+      <h3 class="vg-block-title"
+        role="button"
+        tabindex="0"
+        :aria-expanded="isOpen('vgb:2')"
+        @click="toggle('vgb:2')"
+        @keydown.enter.prevent="toggle('vgb:2')"
+        @keydown.space.prevent="toggle('vgb:2')"><span class="vg-num">2</span>动词变形（活用）  <span class="vg-chevron">▾</span></h3>
+      <div v-show="isOpen('vgb:2')">
       <p class="vg-block-intro">示例动词：<b>書く</b>（一类）· <b>食べる</b>（二类）· <b>する / 来る</b>（三类）。</p>
 
       <h4 class="vg-sub-title">基础变形</h4>
@@ -132,12 +147,14 @@
         </div>
         <p class="vg-note">例：<b>安くて</b>おいしい（又便宜又好吃）・<b>きれいで</b>静かだ（又漂亮又安静）・<b>学生で</b>、二十歳です（是学生，二十岁）。</p>
       </div>
+      </div>
     </section>
   </div>
 </template>
 
 <script setup lang="ts">
 import { useJpGrammarContent } from "~/composables/jp/useJpGrammarContent";
+import { useJpCollapse } from "~/composables/jp/useJpCollapse";
 import { basicForms as bundledBasicForms, advancedForms as bundledAdvancedForms, onbinRows as bundledOnbinRows, teFormRows as bundledTeFormRows } from "~/data/jp-grammar-tables";
 
 // 「来る」的读音会随变形改变（き／こ／く），所以每个形式都标上假名读音
@@ -151,6 +168,9 @@ const basicForms = computed(() => (grammarContent.value?.verbGuide as Record<str
 const advancedForms = computed(() => (grammarContent.value?.verbGuide as Record<string, unknown>)?.advancedForms ?? bundledAdvancedForms);
 const onbinRows = computed(() => (grammarContent.value?.verbGuide as Record<string, unknown>)?.onbinRows ?? bundledOnbinRows);
 const teFormRows = computed(() => (grammarContent.value?.verbGuide as Record<string, unknown>)?.teFormRows ?? bundledTeFormRows);
+
+// ===== 收纳式折叠：两块默认收起 =====
+const { isOpen, toggle } = useJpCollapse();
 </script>
 
 <style scoped>
@@ -395,5 +415,22 @@ const teFormRows = computed(() => (grammarContent.value?.verbGuide as Record<str
     padding: 8px 10px;
     font-size: 12px;
   }
+}
+/* ===== 收纳式折叠 ===== */
+.vg-block-title {
+  cursor: pointer;
+  user-select: none;
+}
+
+.vg-chevron {
+  flex-shrink: 0;
+  margin-left: auto;
+  color: #7dd3fc;
+  font-size: 13px;
+  transition: transform 0.2s;
+}
+
+.vg-block-title[aria-expanded="true"] .vg-chevron {
+  transform: rotate(180deg);
 }
 </style>
