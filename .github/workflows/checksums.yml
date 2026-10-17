@@ -1,0 +1,61 @@
+# 计算 Release 里 APK 的校验值（md5 / sha1 / sha256）。
+# 用途：App 备案「新增版本号」表单要求填文件包 md5 或 sha1，而 GitHub Release 只记录 sha256。
+# 在 CI 内部下载资源很快（本机访问 GitHub 太慢），所以用这个工作流算。
+#
+# 触发：Actions → "Release checksums" → Run workflow → 填 tag（如 v1.2.41）
+name: Release checksums
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag（例如 v1.2.41）"
+        required: true
+        type: string
+      asset:
+        description: "资产名（默认 jp-lingo.apk）"
+        required: false
+        default: "jp-lingo.apk"
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  checksums:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.tag }}
+          ASSET: ${{ inputs.asset }}
+        run: |
+          set -euo pipefail
+          echo "tag=$TAG asset=$ASSET"
+          gh release download "$TAG" --repo "$GITHUB_REPOSITORY" --pattern "$ASSET" --dir ./dl --clobber
+          ls -l ./dl
+
+      - name: Compute and print checksums
+        env:
+          ASSET: ${{ inputs.asset }}
+        run: |
+          set -euo pipefail
+          f="./dl/$ASSET"
+          echo "=========== CHECKSUMS ==========="
+          echo "file:   $ASSET"
+          echo "size:   $(stat -c %s "$f") bytes"
+          echo "md5:    $(md5sum "$f" | cut -d' ' -f1)"
+          echo "sha1:   $(sha1sum "$f" | cut -d' ' -f1)"
+          echo "sha256: $(sha256sum "$f" | cut -d' ' -f1)"
+          echo "================================="
+          {
+            echo "### $ASSET 校验值"
+            echo ""
+            echo "| 算法 | 值 |"
+            echo "|---|---|"
+            echo "| MD5 | \`$(md5sum "$f" | cut -d' ' -f1)\` |"
+            echo "| SHA1 | \`$(sha1sum "$f" | cut -d' ' -f1)\` |"
+            echo "| SHA256 | \`$(sha256sum "$f" | cut -d' ' -f1)\` |"
+            echo "| 字节数 | $(stat -c %s "$f") |"
+          } >> "$GITHUB_STEP_SUMMARY"
