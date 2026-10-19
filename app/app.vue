@@ -40,10 +40,13 @@ import { Capacitor } from "@capacitor/core";
 //    且**同一主体项下不同网站/App 的公安备案号各自独立**——也就是说网站那个
 //    赣公网安备36072202000346号 不能直接当作 App 的公安备案号。
 const ICP_SITE = "赣ICP备2026023858号"; // 网站（www.jplingo.cn）
-const ICP_APP = "赣ICP备2026023858号-2A"; // 安卓 App
+const ICP_APP = "赣ICP备2026023858号-2A"; // 安卓 App（已确认，备案系统里的实际编号）
 const GONGAN_WEB = { code: "36072202000346", label: "赣公网安备36072202000346号" };
-// 在 beian.mps.gov.cn 以同一主体新增「APP」备案项后，把拿到的编号填在这里，
-// App 内会优先展示它（网站仍展示上面那个），编号不同不冲突。
+// ⚠️ 2026-10-19 实测结论：在 beian.mps.gov.cn 完成「APP」备案并通过后，平台详情只显示
+//    「注册状态：有效」+「注册完成时间」，**并不发放单独的 APP 公网安备号**；
+//    官方公开查询（按 APP 名称查）也只返回：名称 / 主体类型 / 开办者 / 注册地公安机关 / 注册时间。
+//    所以 App 内继续展示本站的公安备案号即可（下面的回退逻辑），不要再去找「App 专用编号」。
+//    如果将来平台开始发放 APP 专用编号，把 { code, label } 填到这里即可，无需改模板。
 const GONGAN_APP: { code: string; label: string } | null = null;
 
 const isApp = computed(() => {
