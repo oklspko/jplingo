@@ -1,10 +1,10 @@
 # route: /jp-me/
 # source: headless-browser-cdp
-# appVersion: 1.2.39
+# appVersion: 1.2.42
 # title: jp-lingo · 日语连词成句
-# visible-nodes: 118
-# html-bytes-bucket: ~16000
-# tags: a=14 aside=1 body=1 button=5 div=74 footer=1 h1=1 h2=6 header=1 img=1 main=1 nav=1 p=4 section=8 span=103
+# visible-nodes: 123
+# html-bytes-bucket: ~17000
+# tags: a=18 aside=1 body=1 button=5 div=75 footer=1 h1=1 h2=6 header=1 img=1 main=1 nav=1 p=5 section=8 span=104
 # ids: #__nuxt=1 #teleports=1
 # --- visible text ---
 📚
@@ -21,6 +21,8 @@
 未登录
 登录后学习记录云端同步、换设备不丢
 登录 / 注册
+隐私政策
+用户协议
 🧭 更多入口
 🗂️
 词库
@@ -122,5 +124,7 @@
 jp-lingo v<VERSION>
 📮 意见反馈：
 1661769641@qq.com
+隐私政策
+用户协议
 赣ICP备2026023858号
 赣公网安备36072202000346号

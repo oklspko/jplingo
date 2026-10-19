@@ -58,6 +58,9 @@ const ROUTES = [
   "/jp-kana-chart/",
   "/jp-words/",
   "/jp-me/",
+  // 合规页面：法规要求必须可访问且内容完整，纳入快照防止被误改/删
+  "/privacy/",
+  "/terms/",
   "/jp-game/jp-growing/jp-grow-01",
   "/jp-study/jp-growing/jp-grow-01",
 ];

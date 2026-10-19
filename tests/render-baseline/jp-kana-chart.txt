@@ -1,10 +1,10 @@
 # route: /jp-kana-chart/
 # source: headless-browser-cdp
-# appVersion: 1.2.39
+# appVersion: 1.2.42
 # title: jp-lingo · 日语连词成句
-# visible-nodes: 41
-# html-bytes-bucket: ~200000
-# tags: a=10 aside=1 body=1 div=12 footer=1 h1=1 h2=7 header=1 img=1 main=1 nav=1 p=3 section=7 span=36
+# visible-nodes: 44
+# html-bytes-bucket: ~230000
+# tags: a=12 aside=1 body=1 div=12 footer=1 h1=1 h2=7 header=1 img=1 main=1 nav=1 p=4 section=7 span=37
 # ids: [role=button]=7 #__nuxt=1 #teleports=1
 # --- visible text ---
 📚
@@ -45,5 +45,7 @@
 ▸ 展开
 📮 意见反馈：
 1661769641@qq.com
+隐私政策
+用户协议
 赣ICP备2026023858号
 赣公网安备36072202000346号

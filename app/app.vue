@@ -5,6 +5,11 @@
       📮 意见反馈：
       <a class="beian-link" href="mailto:1661769641@qq.com">1661769641@qq.com</a>
     </p>
+    <p class="footer-legal">
+      <NuxtLink to="/privacy" class="beian-link">隐私政策</NuxtLink>
+      <span class="beian-sep">·</span>
+      <NuxtLink to="/terms" class="beian-link">用户协议</NuxtLink>
+    </p>
     <p class="footer-beian">
       <a
         class="beian-link"
@@ -123,5 +128,11 @@ const gonganLabel = computed(() => gongan.value.label);
   .site-footer {
     padding-bottom: calc(76px + env(safe-area-inset-bottom));
   }
+}
+.footer-legal {
+  margin: 0 0 8px;
+  text-align: center;
+  font-size: 12px;
+  color: #7dd3fc;
 }
 </style>

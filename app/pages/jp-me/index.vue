@@ -31,6 +31,13 @@
             </div>
             <span class="account-btn">登录 / 注册</span>
           </a>
+
+          <!-- 合规入口：注销账号（登录后可用）+ 隐私政策 / 用户协议（未登录也可查看） -->
+          <div class="account-legal">
+            <button v-if="user" class="account-legal-btn" @click="onDeleteAccount">注销账号</button>
+            <NuxtLink to="/privacy" class="account-legal-link">隐私政策</NuxtLink>
+            <NuxtLink to="/terms" class="account-legal-link">用户协议</NuxtLink>
+          </div>
         </section>
 
         <!-- ===== 更多入口 ===== -->
@@ -356,7 +363,7 @@ const { record, resetRecord, syncNow } = useJpStorage();
 const { streak, todayMinutes, totalDuration, showResetModal, confirmReset, doReset } =
   useJpMeStats(record, resetRecord);
 // 账号：user / signOut 来自 useJpAuth；「立即同步」复用上面这一份 syncNow（别再造第二个 record）
-const { user, syncing, syncMsg, onLogout, onSync } = useJpMeAccount(syncNow);
+const { user, syncing, syncMsg, onLogout, onDeleteAccount, onSync } = useJpMeAccount(syncNow);
 const isNative = Capacitor.isNativePlatform();
 const runtimeConfig = useRuntimeConfig();
 const appVersion = runtimeConfig.public.appVersion;
@@ -1342,5 +1349,40 @@ const {
   .modal-box {
     padding: 24px 20px;
   }
+}
+/* ===== 合规入口（注销账号 / 隐私政策 / 用户协议） ===== */
+.account-legal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-top: 10px;
+  padding: 10px 2px 0;
+  border-top: 1px dashed #e0f2fe;
+}
+
+.account-legal-btn {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #94a3b8;
+  font-size: 12px;
+  font-family: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.account-legal-btn:hover {
+  color: #dc2626;
+}
+
+.account-legal-link {
+  color: #0284c7;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.account-legal-link:hover {
+  text-decoration: underline;
 }
 </style>

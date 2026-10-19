@@ -1,10 +1,10 @@
 # route: /jp-study/jp-growing/jp-grow-01
 # source: headless-browser-cdp
-# appVersion: 1.2.39
+# appVersion: 1.2.42
 # title: jp-lingo · 日语连词成句
-# visible-nodes: 620
-# html-bytes-bucket: ~37000
-# tags: a=13 aside=1 body=1 div=244 footer=1 h1=1 header=1 img=1 main=1 nav=2 p=3 rt=228 ruby=228 span=58
+# visible-nodes: 623
+# html-bytes-bucket: ~38000
+# tags: a=15 aside=1 body=1 div=244 footer=1 h1=1 header=1 img=1 main=1 nav=2 p=4 rt=228 ruby=228 span=59
 # ids: #__nuxt=1 #teleports=1
 # --- visible text ---
 📚
@@ -552,5 +552,7 @@ watashihamaiasashichijiniakaruidaidokorodedaisukinakazokutoisshoniatatakaigohant
 进入练习 →
 📮 意见反馈：
 1661769641@qq.com
+隐私政策
+用户协议
 赣ICP备2026023858号
 赣公网安备36072202000346号

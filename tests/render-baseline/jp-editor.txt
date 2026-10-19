@@ -1,10 +1,10 @@
 # route: /jp-editor/
 # source: headless-browser-cdp
-# appVersion: 1.2.39
+# appVersion: 1.2.42
 # title: jp-lingo · 日语连词成句
-# visible-nodes: 867
+# visible-nodes: 870
 # html-bytes-bucket: ~110000
-# tags: a=9 aside=1 body=1 button=332 div=937 footer=1 h1=1 h2=2 h3=3 header=1 img=1 input=279 label=187 main=1 nav=1 p=6 pre=1 section=3 span=151
+# tags: a=11 aside=1 body=1 button=332 div=937 footer=1 h1=1 h2=2 h3=3 header=1 img=1 input=279 label=187 main=1 nav=1 p=7 pre=1 section=3 span=152
 # ids: #__nuxt=1 #teleports=1
 # --- visible text ---
 📚
@@ -779,5 +779,7 @@
 ん
 📮 意见反馈：
 1661769641@qq.com
+隐私政策
+用户协议
 赣ICP备2026023858号
 赣公网安备36072202000346号

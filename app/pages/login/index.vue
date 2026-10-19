@@ -46,6 +46,13 @@
         </button>
       </form>
 
+      <p class="login-consent">
+        {{ mode === "register" ? "注册" : "登录" }}即表示你已阅读并同意
+        <NuxtLink to="/terms" class="login-consent-link">《用户协议》</NuxtLink>
+        与
+        <NuxtLink to="/privacy" class="login-consent-link">《隐私政策》</NuxtLink>
+      </p>
+
       <a class="login-skip" href="/jp-home">先离线学习，暂不登录 →</a>
       <p class="login-hint">登录后学习记录云端保存、换设备自动同步；不登录也能离线学习，记录存本地。</p>
     </div>
@@ -232,5 +239,21 @@ async function onSubmit() {
   color: #7dd3fc;
   line-height: 1.6;
   margin: 12px 0 0;
+}
+.login-consent {
+  margin: 12px 0 0;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #7dd3fc;
+}
+
+.login-consent-link {
+  color: #0284c7;
+  text-decoration: none;
+}
+
+.login-consent-link:hover {
+  text-decoration: underline;
 }
 </style>
