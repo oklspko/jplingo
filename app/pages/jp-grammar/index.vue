@@ -91,9 +91,9 @@
                 </div>
                 <p class="point-meaning">{{ p.meaning }}</p>
 
-                <!-- 第一次展开：接续 + 例句 + 注意 -->
+                <!-- 第一次展开：接续（为空则不显示，很多 N5 语法条的形态已含在语法条本身里）+ 例句 + 注意 -->
                 <div v-show="expandedId === p.id" class="point-detail">
-                  <div class="point-setsuzoku">
+                  <div v-if="p.setsuzoku && p.setsuzoku.trim()" class="point-setsuzoku">
                     <span class="point-setsuzoku-label">接续</span>
                     <span class="point-setsuzoku-text">{{ p.setsuzoku }}</span>
                   </div>
@@ -118,6 +118,11 @@
                     <span class="analysis-toggle-arrow">{{ analysisOpen === p.id ? '▾' : '▸' }}</span>
                   </button>
                   <p v-show="analysisOpen === p.id" class="point-analysis">{{ p.analysis }}</p>
+                  <!-- 原始详细解析：保留重写前的完整说明（同样按语义单元分行） -->
+                  <div v-show="analysisOpen === p.id && p.analysisDetail" class="point-analysis-detail">
+                    <span class="point-analysis-detail-label">详细解析</span>
+                    <p class="point-analysis-detail-text">{{ p.analysisDetail }}</p>
+                  </div>
                 </div>
               </article>
             </div>
@@ -593,6 +598,8 @@ function resetFilters() {
   font-size: 12px;
   color: #5b7a8c;
   line-height: 1.7;
+  /* 长注释在数据里已插入 \n（编号 / △ 例句 / 句末断行），这里让它生效 */
+  white-space: pre-line;
 }
 
 /* ===== 语法解析按钮 ===== */
@@ -639,6 +646,37 @@ function resetFilters() {
   font-size: 13px;
   color: #92400e;
   line-height: 1.7;
+  /* 解析在数据里已按「拆解 / ①②③ / 语感来源 / 位置」分行，这里让换行生效 */
+  white-space: pre-line;
+}
+
+/* 原始详细解析（保留重写前的完整说明） */
+.point-analysis-detail {
+  margin: 8px 0 0;
+  padding: 10px 14px;
+  background: #fffdf7;
+  border: 1px dashed #fde68a;
+  border-radius: 10px;
+}
+
+.point-analysis-detail-label {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 1px 8px;
+  background: #fef3c7;
+  color: #b45309;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.point-analysis-detail-text {
+  margin: 0;
+  font-size: 12.5px;
+  color: #a16207;
+  line-height: 1.75;
+  /* 与结构化解析一致：按语义单元分行 */
+  white-space: pre-line;
 }
 
 /* ===== 空状态 ===== */

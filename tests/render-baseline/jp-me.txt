@@ -1,10 +1,10 @@
 # route: /jp-me/
 # source: headless-browser-cdp
-# appVersion: 1.2.42
+# appVersion: 1.2.43
 # title: jp-lingo · 日语连词成句
-# visible-nodes: 123
+# visible-nodes: 122
 # html-bytes-bucket: ~17000
-# tags: a=18 aside=1 body=1 button=5 div=75 footer=1 h1=1 h2=6 header=1 img=1 main=1 nav=1 p=5 section=8 span=104
+# tags: a=18 aside=1 body=1 button=5 div=77 footer=1 h1=1 h2=6 header=1 img=1 main=1 nav=1 p=5 section=8 span=103
 # ids: #__nuxt=1 #teleports=1
 # --- visible text ---
 📚
@@ -68,7 +68,7 @@
 0 课
 📅 打卡日历
 ‹
-2026 年 10 月
+2026 年 11 月
 今天
 ›
 一
@@ -108,7 +108,6 @@
 28
 29
 30
-31
 已打卡
 今天
 本月打卡 0 天

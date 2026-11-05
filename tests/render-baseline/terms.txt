@@ -1,6 +1,6 @@
 # route: /terms/
 # source: headless-browser-cdp
-# appVersion: 1.2.42
+# appVersion: 1.2.43
 # title: 用户协议 · jp-lingo
 # visible-nodes: 59
 # html-bytes-bucket: ~9300
