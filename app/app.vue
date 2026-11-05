@@ -2,7 +2,7 @@
   <NuxtPage />
   <footer class="site-footer">
     <p class="footer-feedback">
-      📮 意见反馈：
+      <span class="footer-feedback-label">📮 意见反馈：</span>
       <a class="beian-link" href="mailto:1661769641@qq.com">1661769641@qq.com</a>
     </p>
     <p class="footer-legal">
@@ -134,5 +134,14 @@ const gonganLabel = computed(() => gongan.value.label);
   text-align: center;
   font-size: 12px;
   color: #7dd3fc;
+}
+
+/* 反馈块：标签与邮箱**确定性地各占一行**。
+   否则是否折行取决于字体/字宽（本机一行、CI 折行），渲染快照会因行数差 1 假红。 */
+.footer-feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
 }
 </style>

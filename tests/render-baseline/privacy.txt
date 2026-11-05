@@ -1,10 +1,10 @@
 # route: /privacy/
 # source: headless-browser-cdp
-# appVersion: 1.2.43
+# appVersion: 1.2.44
 # title: 隐私政策 · jp-lingo
 # visible-nodes: 95
-# html-bytes-bucket: ~10000
-# tags: a=15 aside=1 b=24 body=1 br=2 div=5 footer=2 h1=1 h2=9 header=1 img=1 li=18 main=1 nav=1 ol=4 p=13 section=9 span=10 ul=1
+# html-bytes-bucket: ~11000
+# tags: a=15 aside=1 b=24 body=1 br=2 div=5 footer=2 h1=1 h2=9 header=1 img=1 li=18 main=1 nav=1 ol=4 p=13 section=9 span=11 ul=1
 # ids: #__nuxt=1 #teleports=1
 # --- visible text ---
 📚
