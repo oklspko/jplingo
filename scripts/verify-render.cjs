@@ -72,6 +72,9 @@ const ROUTES = [
  */
 const VOLATILE_RULES = [
   [/[0-9]{4}-[0-9]{2}-[0-9]{2}[T ][0-9:.+\-Z]*/g, "<TS>"],
+  // 练习页顶栏图标：抓取时机不同，可能停在「← 返回」或已进入计时「⏱」，
+  // 这会让 visible-nodes 差 1、文本差一个图标。统一折成占位符（2026-11-06 v1.2.45 踩到）。
+  [/[←⏱⏰→↩↪]/g, "<ICON>"],
   // 页脚「📮 意见反馈：」是否与邮箱同行取决于字体/字宽（本机一行、CI 折行），
   // 已改为在 app.vue 里用 flex 纵向排列**确定性换行**，这里不再做归一化（曾试过抹掉该行，
   // 会触发「缺少必备文案『意见反馈』」护栏，2026-11-05 v1.2.44 踩到）。
@@ -758,7 +761,7 @@ function diffLines(baseText, curText) {
   //   - html-bytes-bucket：本机 Edge 155 与 CI Chromium 155 渲染体积可差一档（实测 ~6300 vs ~6400）
   //   - appVersion：每次发版都会变，存进基线等于「发版即红灯」
   // 它们仍会写进基线文件（留作人工参考），只是不参与判定。
-  const VOLATILE_HEAD = [/^#\s*html-bytes-bucket:/, /^#\s*appVersion:/];
+  const VOLATILE_HEAD = [/^#\s*html-bytes-bucket:/, /^#\s*appVersion:/, /^#\s*visible-nodes:/];
   const isVolatile = (l) => VOLATILE_HEAD.some((re) => re.test(l));
   const head = (arr) => arr.filter((l) => l.startsWith("#") && !isVolatile(l));
   const body = (arr) => arr.filter((l) => !l.startsWith("#"));
