@@ -105,7 +105,9 @@
                     </li>
                   </ul>
 
-                  <p v-if="p.note" class="point-note">{{ p.note }}</p>
+                  <div v-if="p.note" class="point-note">
+                    <span v-for="(line, li) in splitLines(p.note)" :key="li" class="pa-line">{{ line }}</span>
+                  </div>
 
                   <!-- 第二次展开：语法解析 -->
                   <button
@@ -117,11 +119,16 @@
                     <span>语法解析</span>
                     <span class="analysis-toggle-arrow">{{ analysisOpen === p.id ? '▾' : '▸' }}</span>
                   </button>
-                  <p v-show="analysisOpen === p.id" class="point-analysis">{{ p.analysis }}</p>
+                  <!-- 逐行渲染成块：不依赖 CSS white-space，换行一定生效 -->
+                  <div v-show="analysisOpen === p.id" class="point-analysis">
+                    <span v-for="(line, li) in splitLines(p.analysis)" :key="li" class="pa-line">{{ line }}</span>
+                  </div>
                   <!-- 原始详细解析：保留重写前的完整说明（同样按语义单元分行） -->
                   <div v-show="analysisOpen === p.id && p.analysisDetail" class="point-analysis-detail">
                     <span class="point-analysis-detail-label">详细解析</span>
-                    <p class="point-analysis-detail-text">{{ p.analysisDetail }}</p>
+                    <div class="point-analysis-detail-text">
+                      <span v-for="(line, li) in splitLines(p.analysisDetail)" :key="li" class="pa-line">{{ line }}</span>
+                    </div>
                   </div>
                 </div>
               </article>
@@ -173,6 +180,11 @@ void (async () => {
   }
 })();
 const analysisOpen = ref<string | null>(null);
+
+/** 把带 \n 的文本拆成行数组，模板里逐行渲染成块（不依赖 white-space: pre-line） */
+function splitLines(text?: string): string[] {
+  return (text || "").split("\n").filter((l, i, arr) => l.trim() !== "" || arr.length === 1);
+}
 
 function toggleCard(id: string) {
   if (expandedId.value === id) {
@@ -648,6 +660,11 @@ function resetFilters() {
   line-height: 1.7;
   /* 解析在数据里已按「拆解 / ①②③ / 语感来源 / 位置」分行，这里让换行生效 */
   white-space: pre-line;
+}
+
+/* 逐行渲染的每一行（解析 / 详细解析 / 注释通用）：块级，保证一定换行 */
+.pa-line {
+  display: block;
 }
 
 /* 原始详细解析（保留重写前的完整说明） */
