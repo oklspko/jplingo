@@ -1,9 +1,9 @@
 # route: /jp-me/
 # source: headless-browser-cdp
-# appVersion: 1.2.44
+# appVersion: 1.2.45
 # title: jp-lingo · 日语连词成句
 # visible-nodes: 122
-# html-bytes-bucket: ~18000
+# html-bytes-bucket: ~17000
 # tags: a=18 aside=1 body=1 button=5 div=77 footer=1 h1=1 h2=6 header=1 img=1 main=1 nav=1 p=5 section=8 span=104
 # ids: #__nuxt=1 #teleports=1
 # --- visible text ---
@@ -27,15 +27,12 @@
 🗂️
 词库
 单词检索 · 按等级词性浏览
-→
 ✏️
 编辑器
 课程制作 · 自定义课程包
-→
 🔎
 语法条词典
 按五十音 · N5–N1 检索语法条
-→
 🔊 离线发音
 不可用
 仅安卓 App 支持：网页端用浏览器自带语音，装到手机后才有内置离线引擎
@@ -57,7 +54,6 @@
 ⭐
 0
 已掌握
-⏱
 0 分
 总学习时长
 今日已学

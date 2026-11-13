@@ -98,9 +98,11 @@ export async function fetchCourseMeta(
 ): Promise<{ title: string; count: number }> {
   try {
     const course = await fetchCourse(packId, courseId);
+    // 无分类测试是考试场景：题数按「每词 1 遍」计算，与练习页实际出题一致
+    const mixed = isMixedCourse(packId, courseId);
     return {
       title: course.title || courseId,
-      count: getPracticeCount(course.coursePackId || packId, course.statements || []),
+      count: getPracticeCount(course.coursePackId || packId, course.statements || [], mixed ? 1 : undefined),
     };
   } catch {
     return { title: courseId, count: 0 };
@@ -261,16 +263,23 @@ export function buildGrowingOrder(
 }
 
 // 统一练习顺序入口：句子生长走词句循环，高考走分块循环，其余保持数据原序
+// exposures：覆盖「每个内容在整节课里出现几遍」。词汇课默认 3 遍（学 1 + 组内循环 + 整体复习），
+// 但「无分类测试」是考试场景，必须每词只考 1 遍，否则同一词会反复出现（用户反馈的「单词重复」）。
 export function buildPracticeOrder(
   packId: string,
   statements: JpStatement[],
   chunkSize = 6,
+  exposures?: number,
 ): JpStatement[] {
   if (packId === "jp-growing") return buildGrowingOrder(statements, chunkSize);
-  return buildChunkedOrder(statements, chunkSize, getCourseExposures(packId));
+  return buildChunkedOrder(statements, chunkSize, exposures ?? getCourseExposures(packId));
 }
 
 // 实际练习题数（含记忆曲线复习循环）
-export function getPracticeCount(packId: string, statements: JpStatement[]): number {
-  return buildPracticeOrder(packId, statements).length;
+export function getPracticeCount(
+  packId: string,
+  statements: JpStatement[],
+  exposures?: number,
+): number {
+  return buildPracticeOrder(packId, statements, 6, exposures).length;
 }

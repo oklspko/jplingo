@@ -1,6 +1,6 @@
 # route: /jp-kana-chart/
 # source: headless-browser-cdp
-# appVersion: 1.2.44
+# appVersion: 1.2.45
 # title: jp-lingo · 日语连词成句
 # visible-nodes: 44
 # html-bytes-bucket: ~230000
@@ -17,11 +17,10 @@
 我的
 📖 内容学习
 日语连词成句 · 语法学习
-按顺序学：先会「输入」→ 再会「造句」→ 再学「动词」→ 会用「助词」→ 最后懂「逻辑」
+按顺序学：先会「输入」<ICON> 再会「造句」<ICON> 再学「动词」<ICON> 会用「助词」<ICON> 最后懂「逻辑」
 🔎
 语法条词典
 按五十音（あいうえお）· 能力考等级（N5–N1）检索语法条
-→
 一
 日语输入法
 ▸ 展开

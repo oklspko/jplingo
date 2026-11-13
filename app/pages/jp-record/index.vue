@@ -130,6 +130,8 @@ import {
   fetchCoursePacks,
   fetchCourse,
   classifyKind,
+  isVocabPack,
+  mixedCourseIdOf,
   type LearnedKind,
 } from "~/composables/jp/useJpCourses";
 import type { JpCourse, JpCoursePack } from "~/types/jp";
@@ -216,6 +218,9 @@ async function doLoad() {
   for (const p of packs) {
     packTitleMap.set(p.id, p.title || p.id);
     for (const cid of p.courses || []) packOfCourse.set(cid, p.id);
+    // 词汇包还有虚拟的「无分类测试」课程（id = <pack>-all，不在 p.courses 里）。
+    // 不登记它，记录页就会在下面 `if (!packId) continue` 处把它的记录整批丢掉。
+    if (isVocabPack(p.id)) packOfCourse.set(mixedCourseIdOf(p.id), p.id);
   }
 
   const studiedSet = new Set(record.value.studiedStatements);
@@ -239,7 +244,11 @@ async function doLoad() {
     let mastered = 0;
     for (const stmt of course.statements || []) {
       const key = `${cid}/${stmt.id}`;
-      if (studiedSet.has(key)) {
+      // 兼容旧数据：无分类测试早期把 japanese 当语句 id 写进记录，这里一并认
+      const legacyKey = `${cid}/${stmt.japanese}`;
+      const studied = studiedSet.has(key) || studiedSet.has(legacyKey);
+      const masteredNow = masteredSet.has(key) || masteredSet.has(legacyKey);
+      if (studied) {
         learned++;
         const kind = classifyKind(course.coursePackId, cid, stmt.tokens.length);
         const dedupKey = `${kind}|${stmt.japanese}`;
@@ -258,7 +267,7 @@ async function doLoad() {
           });
         }
       }
-      if (masteredSet.has(key)) mastered++;
+      if (masteredNow) mastered++;
     }
 
     rows.push({

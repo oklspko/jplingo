@@ -474,7 +474,7 @@ async function loadCourseData() {
     // 已掌握（连续答对 5 次）的词不再进入测试；无分类则打乱全部词库
     list = shuffle(list.filter((s) => !vocabMemory.isMastered(s.japanese)));
   }
-  statements.value = buildPracticeOrder(packId, list, 6).map((s) => ({
+  statements.value = buildPracticeOrder(packId, list, 6, isMixed.value ? 1 : undefined).map((s) => ({
     ...s,
     // 提示用罗马字须是「可输入的」IME 拼写（づ→du、っち→cchi、ん+元音→n' 等），
     // 存储的 romaji 是 Hepburn 展示写法，照着打不出正确假名，故运行时按 kana 重算。
@@ -549,10 +549,11 @@ function onCorrect(stmt: JpStatement) {
   result.value = "correct";
   playSuccessSound(); playAudio();
   if (isMixed.value) {
-    recordStatement(courseId.value, stmt.japanese);
+    // 记录一律用 stmt.id：记录页是按 `课程id/语句id` 反查的，早先这里写 japanese 导致 key 对不上、记录整批不显示
+    recordStatement(courseId.value, stmt.id);
     const newCount = vocabMemory.recordCorrect(stmt.japanese);
     if (newCount >= GAOKAO_MASTER_THRESHOLD) {
-      recordMastered(courseId.value, stmt.japanese);
+      recordMastered(courseId.value, stmt.id);
       removeFutureCopies(stmt.japanese);
     }
   } else {

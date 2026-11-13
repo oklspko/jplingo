@@ -1,6 +1,6 @@
 # route: /jp-words/
 # source: headless-browser-cdp
-# appVersion: 1.2.44
+# appVersion: 1.2.45
 # title: jp-lingo · 日语连词成句
 # visible-nodes: 1251
 # html-bytes-bucket: ~92000
