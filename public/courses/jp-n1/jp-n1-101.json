@@ -319,12 +319,12 @@
     {
       "id": "25",
       "chinese": "捧举；献上；献出",
-      "japanese": "捧[ささ]げる",
+      "japanese": "捧げる",
       "kana": "ささげる",
       "romaji": "sasageru",
       "tokens": [
         {
-          "text": "捧[ささ]げる",
+          "text": "捧げる",
           "kana": "ささげる"
         }
       ]

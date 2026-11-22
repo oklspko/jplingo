@@ -280,12 +280,12 @@
     {
       "id": "22",
       "chinese": "尖；紧张；不高兴，发火",
-      "japanese": "尖[とが]る",
+      "japanese": "尖る",
       "kana": "とがる",
       "romaji": "togaru",
       "tokens": [
         {
-          "text": "尖[とが]る",
+          "text": "尖る",
           "kana": "とがる"
         }
       ]

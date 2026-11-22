@@ -189,12 +189,12 @@
     {
       "id": "15",
       "chinese": "对峙，相持",
-      "japanese": "対 峙[じ]",
+      "japanese": "対峙",
       "kana": "たいじ",
       "romaji": "taiji",
       "tokens": [
         {
-          "text": "対 峙[じ]",
+          "text": "対峙",
           "kana": "たいじ"
         }
       ]
@@ -384,12 +384,12 @@
     {
       "id": "30",
       "chinese": "较量，对抗",
-      "japanese": "拮[きっ]抗",
+      "japanese": "拮抗",
       "kana": "きっこう",
       "romaji": "kikkou",
       "tokens": [
         {
-          "text": "拮[きっ]抗",
+          "text": "拮抗",
           "kana": "きっこう"
         }
       ]

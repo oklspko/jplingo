@@ -33,12 +33,12 @@
     {
       "id": "03",
       "chinese": "银杏树",
-      "japanese": "銀杏[いちょう]",
+      "japanese": "銀杏",
       "kana": "いちょう",
       "romaji": "ichou",
       "tokens": [
         {
-          "text": "銀杏[いちょう]",
+          "text": "銀杏",
           "kana": "いちょう"
         }
       ]
@@ -59,12 +59,12 @@
     {
       "id": "05",
       "chinese": "莺；歌喉好的人",
-      "japanese": "鶯[うぐいす]",
+      "japanese": "鶯",
       "kana": "うぐいす",
       "romaji": "uguisu",
       "tokens": [
         {
-          "text": "鶯[うぐいす]",
+          "text": "鶯",
           "kana": "うぐいす"
         }
       ]
@@ -85,12 +85,12 @@
     {
       "id": "07",
       "chinese": "雁，大雁",
-      "japanese": "雁[がん]",
+      "japanese": "雁",
       "kana": "がん",
       "romaji": "gan",
       "tokens": [
         {
-          "text": "雁[がん]",
+          "text": "雁",
           "kana": "がん"
         }
       ]
@@ -293,12 +293,12 @@
     {
       "id": "23",
       "chinese": "（戏剧的）幕间（休息）",
-      "japanese": "幕 間[あい]",
+      "japanese": "幕間",
       "kana": "まくあい",
       "romaji": "makuai",
       "tokens": [
         {
-          "text": "幕 間[あい]",
+          "text": "幕間",
           "kana": "まくあい"
         }
       ]

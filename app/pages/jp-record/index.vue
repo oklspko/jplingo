@@ -219,8 +219,21 @@ async function doLoad() {
     packTitleMap.set(p.id, p.title || p.id);
     for (const cid of p.courses || []) packOfCourse.set(cid, p.id);
     // 词汇包还有虚拟的「无分类测试」课程（id = <pack>-all，不在 p.courses 里）。
-    // 不登记它，记录页就会在下面 `if (!packId) continue` 处把它的记录整批丢掉。
+    // 不登记它，记录页就会把它的记录整批丢掉。
     if (isVocabPack(p.id)) packOfCourse.set(mixedCourseIdOf(p.id), p.id);
+  }
+
+  // 兜底：课程 id → 课程包的映射不能只依赖 p.courses（热更新缓存里的 course-packs.json
+  // 可能与课程文件不同步，导致老课/新课取不到 packId 而被 `continue` 静默丢弃）。
+  // 这里按「课程包 id 作为前缀」再匹一次：jp-n5-01 / jp-n5-all → jp-n5，jp-gaokao-07 → jp-gaokao。
+  const packIdsByLen = packs.map((p) => p.id).sort((a, b) => b.length - a.length);
+  function inferPackId(cid: string): string | undefined {
+    const mapped = packOfCourse.get(cid);
+    if (mapped && packTitleMap.has(mapped)) return mapped;
+    for (const pid of packIdsByLen) {
+      if (cid === pid || cid.startsWith(`${pid}-`)) return pid;
+    }
+    return mapped;
   }
 
   const studiedSet = new Set(record.value.studiedStatements);
@@ -235,13 +248,66 @@ async function doLoad() {
   const seenItemKeys = new Set<string>();
 
   for (const cid of record.value.studiedCourses) {
-    const packId = packOfCourse.get(cid);
-    if (!packId) continue;
+    const packId = inferPackId(cid);
+    if (!packId) {
+      // 前缀也推不出来（课程包已被删除/改名）：仍然把记录显示出来，用课程 id 当标题。
+      rows.push({
+        id: cid,
+        title: cid,
+        packId: "unknown",
+        packTitle: "其他课程",
+        total: 0,
+        learned: 0,
+        mastered: 0,
+        completed: completedSet.has(cid),
+      });
+      continue;
+    }
+    const packTitle = packTitleMap.get(packId) || packId;
     const course = await getCourse(packId, cid);
-    if (!course) continue;
+
+    // 记录里属于这门课的 key（cid/xxx）
+    const prefix = `${cid}/`;
+    const keysOfCourse = record.value.studiedStatements.filter((k) => k.startsWith(prefix));
+    const masteredKeysOfCourse = record.value.masteredStatements.filter((k) => k.startsWith(prefix));
+
+    if (!course) {
+      // 课程数据暂时取不到（离线缺包/缓存损坏）：课程行照常显示，词数用记录条数兜底，
+      // 并把记录里的词也列出来，避免「做过却什么都没有」。
+      for (const key of keysOfCourse) {
+        const sid = key.slice(prefix.length);
+        if (!sid) continue;
+        const dedupKey = `word|${sid}`;
+        if (seenItemKeys.has(dedupKey)) continue;
+        seenItemKeys.add(dedupKey);
+        itemRows.push({
+          key: dedupKey,
+          courseId: cid,
+          courseTitle: cid,
+          packId,
+          packTitle,
+          japanese: sid,
+          kana: "",
+          chinese: "（课程数据缺失，仅显示记录）",
+          kind: "word",
+        });
+      }
+      rows.push({
+        id: cid,
+        title: cid,
+        packId,
+        packTitle,
+        total: keysOfCourse.length,
+        learned: keysOfCourse.length,
+        mastered: masteredKeysOfCourse.length,
+        completed: completedSet.has(cid),
+      });
+      continue;
+    }
 
     let learned = 0;
     let mastered = 0;
+    const matched = new Set<string>();
     for (const stmt of course.statements || []) {
       const key = `${cid}/${stmt.id}`;
       // 兼容旧数据：无分类测试早期把 japanese 当语句 id 写进记录，这里一并认
@@ -250,7 +316,9 @@ async function doLoad() {
       const masteredNow = masteredSet.has(key) || masteredSet.has(legacyKey);
       if (studied) {
         learned++;
-        const kind = classifyKind(course.coursePackId, cid, stmt.tokens.length);
+        matched.add(stmt.id);
+        matched.add(stmt.japanese);
+        const kind = classifyKind(course.coursePackId, cid, (stmt.tokens || []).length);
         const dedupKey = `${kind}|${stmt.japanese}`;
         if (!seenItemKeys.has(dedupKey)) {
           seenItemKeys.add(dedupKey);
@@ -259,7 +327,7 @@ async function doLoad() {
             courseId: cid,
             courseTitle: course.title || cid,
             packId,
-            packTitle: packTitleMap.get(packId) || packId,
+            packTitle,
             japanese: stmt.japanese,
             kana: stmt.kana,
             chinese: stmt.chinese,
@@ -270,11 +338,32 @@ async function doLoad() {
       if (masteredNow) mastered++;
     }
 
+    // 兜底：记录里有、但当前课程数据里找不到的 key（数据版本不一致 / 旧 id）也显示出来，
+    // 否则用户会看到「明明做过却什么都没有」。
+    for (const key of keysOfCourse) {
+      const sid = key.slice(prefix.length);
+      if (!sid || matched.has(sid)) continue;
+      const dedupKey = `word|${sid}`;
+      if (seenItemKeys.has(dedupKey)) continue;
+      seenItemKeys.add(dedupKey);
+      itemRows.push({
+        key: dedupKey,
+        courseId: cid,
+        courseTitle: course.title || cid,
+        packId,
+        packTitle,
+        japanese: sid,
+        kana: "",
+        chinese: "（该词在当前课程数据中未找到）",
+        kind: "word",
+      });
+    }
+
     rows.push({
       id: cid,
       title: course.title || cid,
       packId,
-      packTitle: packTitleMap.get(packId) || packId,
+      packTitle,
       total: (course.statements || []).length,
       learned,
       mastered,

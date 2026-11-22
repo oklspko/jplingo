@@ -189,12 +189,12 @@
     {
       "id": "15",
       "chinese": "敲打；指责",
-      "japanese": "叩[たた]く",
+      "japanese": "叩く",
       "kana": "たたく",
       "romaji": "tataku",
       "tokens": [
         {
-          "text": "叩[たた]く",
+          "text": "叩く",
           "kana": "たたく"
         }
       ]
@@ -228,12 +228,12 @@
     {
       "id": "18",
       "chinese": "抚摸",
-      "japanese": "撫[な]でる",
+      "japanese": "撫でる",
       "kana": "なでる",
       "romaji": "naderu",
       "tokens": [
         {
-          "text": "撫[な]でる",
+          "text": "撫でる",
           "kana": "なでる"
         }
       ]

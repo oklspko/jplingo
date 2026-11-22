@@ -98,12 +98,12 @@
     {
       "id": "08",
       "chinese": "使……合适",
-      "japanese": "適[かな]える",
+      "japanese": "適える",
       "kana": "かなえる",
       "romaji": "kanaeru",
       "tokens": [
         {
-          "text": "適[かな]える",
+          "text": "適える",
           "kana": "かなえる"
         }
       ]
@@ -254,12 +254,12 @@
     {
       "id": "20",
       "chinese": "讴歌，颂扬；主张，强调",
-      "japanese": "謳[うた]う",
+      "japanese": "謳う",
       "kana": "うたう",
       "romaji": "utau",
       "tokens": [
         {
-          "text": "謳[うた]う",
+          "text": "謳う",
           "kana": "うたう"
         }
       ]

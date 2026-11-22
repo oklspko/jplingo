@@ -358,12 +358,12 @@
     {
       "id": "28",
       "chinese": "偏爱，偏袒，袒护",
-      "japanese": "贔屓[ひいき]",
+      "japanese": "贔屓",
       "kana": "ひいき",
       "romaji": "hiiki",
       "tokens": [
         {
-          "text": "贔屓[ひいき]",
+          "text": "贔屓",
           "kana": "ひいき"
         }
       ]
@@ -384,12 +384,12 @@
     {
       "id": "30",
       "chinese": "欣赏；疼爱",
-      "japanese": "愛[め]でる",
+      "japanese": "愛でる",
       "kana": "めでる",
       "romaji": "mederu",
       "tokens": [
         {
-          "text": "愛[め]でる",
+          "text": "愛でる",
           "kana": "めでる"
         }
       ]

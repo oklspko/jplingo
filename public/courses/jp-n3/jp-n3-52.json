@@ -46,12 +46,12 @@
     {
       "id": "04",
       "chinese": "叫，吼",
-      "japanese": "吠[ほ]える",
+      "japanese": "吠える",
       "kana": "ほえる",
       "romaji": "hoeru",
       "tokens": [
         {
-          "text": "吠[ほ]える",
+          "text": "吠える",
           "kana": "ほえる"
         }
       ]
@@ -150,12 +150,12 @@
     {
       "id": "12",
       "chinese": "炒（菜）",
-      "japanese": "炒[いた]める",
+      "japanese": "炒める",
       "kana": "いためる",
       "romaji": "itameru",
       "tokens": [
         {
-          "text": "炒[いた]める",
+          "text": "炒める",
           "kana": "いためる"
         }
       ]

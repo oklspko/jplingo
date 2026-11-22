@@ -85,12 +85,12 @@
     {
       "id": "07",
       "chinese": "编纂",
-      "japanese": "編 纂[さん]",
+      "japanese": "編纂",
       "kana": "へんさん",
       "romaji": "hensan",
       "tokens": [
         {
-          "text": "編 纂[さん]",
+          "text": "編纂",
           "kana": "へんさん"
         }
       ]
@@ -176,12 +176,12 @@
     {
       "id": "14",
       "chinese": "泄漏",
-      "japanese": "漏 洩[えい]",
+      "japanese": "漏洩",
       "kana": "ろうえい",
       "romaji": "rouei",
       "tokens": [
         {
-          "text": "漏 洩[えい]",
+          "text": "漏洩",
           "kana": "ろうえい"
         }
       ]

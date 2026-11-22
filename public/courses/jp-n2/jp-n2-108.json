@@ -359,12 +359,12 @@
       "id": "28",
       "chinese": "准……，次于……",
       "japanese": "準〜",
-      "kana": "準〜",
-      "romaji": "準~",
+      "kana": "じゅん〜",
+      "romaji": "jun~",
       "tokens": [
         {
           "text": "準〜",
-          "kana": "準〜"
+          "kana": "じゅん〜"
         }
       ]
     },
@@ -372,12 +372,12 @@
       "id": "29",
       "chinese": "诸……，各种……",
       "japanese": "諸〜",
-      "kana": "諸〜",
-      "romaji": "諸~",
+      "kana": "しょ〜",
+      "romaji": "sho~",
       "tokens": [
         {
           "text": "諸〜",
-          "kana": "諸〜"
+          "kana": "しょ〜"
         }
       ]
     },
@@ -385,12 +385,12 @@
       "id": "30",
       "chinese": "纯；真；正",
       "japanese": "真〜",
-      "kana": "真〜",
-      "romaji": "真~",
+      "kana": "ま〜",
+      "romaji": "ma~",
       "tokens": [
         {
           "text": "真〜",
-          "kana": "真〜"
+          "kana": "ま〜"
         }
       ]
     }

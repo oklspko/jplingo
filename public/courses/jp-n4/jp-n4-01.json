@@ -59,12 +59,12 @@
     {
       "id": "05",
       "chinese": "糖果",
-      "japanese": "飴[あめ]",
+      "japanese": "飴",
       "kana": "あめ",
       "romaji": "ame",
       "tokens": [
         {
-          "text": "飴[あめ]",
+          "text": "飴",
           "kana": "あめ"
         }
       ]
@@ -176,12 +176,12 @@
     {
       "id": "14",
       "chinese": "荞麦面",
-      "japanese": "蕎麦[そば]",
+      "japanese": "蕎麦",
       "kana": "そば",
       "romaji": "soba",
       "tokens": [
         {
-          "text": "蕎麦[そば]",
+          "text": "蕎麦",
           "kana": "そば"
         }
       ]

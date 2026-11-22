@@ -215,12 +215,12 @@
     {
       "id": "17",
       "chinese": "茫然；发呆",
-      "japanese": "茫[ぼう]然",
+      "japanese": "茫然",
       "kana": "ぼうぜん",
       "romaji": "bouzen",
       "tokens": [
         {
-          "text": "茫[ぼう]然",
+          "text": "茫然",
           "kana": "ぼうぜん"
         }
       ]
@@ -228,12 +228,12 @@
     {
       "id": "18",
       "chinese": "愕然，吃惊，目瞪口呆",
-      "japanese": "呆[ぼう]然",
+      "japanese": "呆然",
       "kana": "ぼうぜん",
       "romaji": "bouzen",
       "tokens": [
         {
-          "text": "呆[ぼう]然",
+          "text": "呆然",
           "kana": "ぼうぜん"
         }
       ]

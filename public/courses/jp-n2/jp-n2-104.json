@@ -228,12 +228,12 @@
     {
       "id": "18",
       "chinese": "自然地，自动地",
-      "japanese": "自[おの]ずから",
+      "japanese": "自ずから",
       "kana": "おのずから",
       "romaji": "onozukara",
       "tokens": [
         {
-          "text": "自[おの]ずから",
+          "text": "自ずから",
           "kana": "おのずから"
         }
       ]

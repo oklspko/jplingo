@@ -280,12 +280,12 @@
     {
       "id": "22",
       "chinese": "乖离，背离",
-      "japanese": "乖[かい]離",
+      "japanese": "乖離",
       "kana": "かいり",
       "romaji": "kairi",
       "tokens": [
         {
-          "text": "乖[かい]離",
+          "text": "乖離",
           "kana": "かいり"
         }
       ]

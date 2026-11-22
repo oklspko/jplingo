@@ -163,12 +163,12 @@
     {
       "id": "13",
       "chinese": "爬行动物",
-      "japanese": "爬[は]虫類",
+      "japanese": "爬虫類",
       "kana": "はちゅうるい",
       "romaji": "hachuurui",
       "tokens": [
         {
-          "text": "爬[は]虫類",
+          "text": "爬虫類",
           "kana": "はちゅうるい"
         }
       ]

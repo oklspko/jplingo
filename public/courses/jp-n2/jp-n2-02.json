@@ -137,12 +137,12 @@
     {
       "id": "11",
       "chinese": "碗，木碗",
-      "japanese": "椀[わん]",
+      "japanese": "椀",
       "kana": "わん",
       "romaji": "wan",
       "tokens": [
         {
-          "text": "椀[わん]",
+          "text": "椀",
           "kana": "わん"
         }
       ]

@@ -111,12 +111,12 @@
     {
       "id": "09",
       "chinese": "紧锁眉头",
-      "japanese": "眉を 顰[ひそ]める",
+      "japanese": "眉を顰める",
       "kana": "まゆをひそめる",
       "romaji": "mayuwohisomeru",
       "tokens": [
         {
-          "text": "眉を 顰[ひそ]める",
+          "text": "眉を顰める",
           "kana": "まゆをひそめる"
         }
       ]

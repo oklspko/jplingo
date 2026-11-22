@@ -7,12 +7,12 @@
     {
       "id": "01",
       "chinese": "流畅，流利",
-      "japanese": "流 暢[ちょう]",
+      "japanese": "流暢",
       "kana": "りゅうちょう",
       "romaji": "ryuuchou",
       "tokens": [
         {
-          "text": "流 暢[ちょう]",
+          "text": "流暢",
           "kana": "りゅうちょう"
         }
       ]
@@ -20,12 +20,12 @@
     {
       "id": "02",
       "chinese": "显露，表露；公然，公开；露骨，显然",
-      "japanese": "顕[あら]わ",
+      "japanese": "顕わ",
       "kana": "あらわ",
       "romaji": "arawa",
       "tokens": [
         {
-          "text": "顕[あら]わ",
+          "text": "顕わ",
           "kana": "あらわ"
         }
       ]
@@ -33,12 +33,12 @@
     {
       "id": "03",
       "chinese": "嫌麻烦，懒得",
-      "japanese": "億劫[おっくう]",
+      "japanese": "億劫",
       "kana": "おっくう",
       "romaji": "okkuu",
       "tokens": [
         {
-          "text": "億劫[おっくう]",
+          "text": "億劫",
           "kana": "おっくう"
         }
       ]

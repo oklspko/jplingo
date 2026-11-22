@@ -371,12 +371,12 @@
     {
       "id": "29",
       "chinese": "癌症；祸害",
-      "japanese": "癌[がん]",
+      "japanese": "癌",
       "kana": "がん",
       "romaji": "gan",
       "tokens": [
         {
-          "text": "癌[がん]",
+          "text": "癌",
           "kana": "がん"
         }
       ]

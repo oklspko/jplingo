@@ -20,12 +20,12 @@
     {
       "id": "02",
       "chinese": "沙尘",
-      "japanese": "砂 塵[じん]",
+      "japanese": "砂塵",
       "kana": "さじん",
       "romaji": "sajin",
       "tokens": [
         {
-          "text": "砂 塵[じん]",
+          "text": "砂塵",
           "kana": "さじん"
         }
       ]
@@ -163,12 +163,12 @@
     {
       "id": "13",
       "chinese": "古董，骨董，古玩",
-      "japanese": "骨 董[とう]",
+      "japanese": "骨董",
       "kana": "こっとう",
       "romaji": "kottou",
       "tokens": [
         {
-          "text": "骨 董[とう]",
+          "text": "骨董",
           "kana": "こっとう"
         }
       ]

@@ -241,12 +241,12 @@
     {
       "id": "19",
       "chinese": "熟悉，熟人",
-      "japanese": "馴[な]染み",
+      "japanese": "馴染み",
       "kana": "なじみ",
       "romaji": "najimi",
       "tokens": [
         {
-          "text": "馴[な]染み",
+          "text": "馴染み",
           "kana": "なじみ"
         }
       ]

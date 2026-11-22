@@ -124,12 +124,12 @@
     {
       "id": "10",
       "chinese": "肥皂",
-      "japanese": "石 鹸[けん]",
+      "japanese": "石鹸",
       "kana": "せっけん",
       "romaji": "sekken",
       "tokens": [
         {
-          "text": "石 鹸[けん]",
+          "text": "石鹸",
           "kana": "せっけん"
         }
       ]

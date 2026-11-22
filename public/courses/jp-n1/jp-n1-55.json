@@ -85,12 +85,12 @@
     {
       "id": "07",
       "chinese": "搅乱，捣乱，扰乱",
-      "japanese": "攪[かく]乱",
+      "japanese": "攪乱",
       "kana": "かくらん",
       "romaji": "kakuran",
       "tokens": [
         {
-          "text": "攪[かく]乱",
+          "text": "攪乱",
           "kana": "かくらん"
         }
       ]
@@ -98,12 +98,12 @@
     {
       "id": "08",
       "chinese": "痉挛，抽搐，抽筋",
-      "japanese": "痙攣[けいれん]",
+      "japanese": "痙攣",
       "kana": "けいれん",
       "romaji": "keiren",
       "tokens": [
         {
-          "text": "痙攣[けいれん]",
+          "text": "痙攣",
           "kana": "けいれん"
         }
       ]

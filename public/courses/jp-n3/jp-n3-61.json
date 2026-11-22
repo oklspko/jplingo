@@ -216,12 +216,12 @@
       "id": "17",
       "chinese": "各，每个",
       "japanese": "各〜",
-      "kana": "各〜",
-      "romaji": "各~",
+      "kana": "かく〜",
+      "romaji": "kaku~",
       "tokens": [
         {
           "text": "各〜",
-          "kana": "各〜"
+          "kana": "かく〜"
         }
       ]
     },
@@ -242,12 +242,12 @@
       "id": "19",
       "chinese": "反……",
       "japanese": "反〜",
-      "kana": "反〜",
-      "romaji": "反~",
+      "kana": "はん〜",
+      "romaji": "han~",
       "tokens": [
         {
           "text": "反〜",
-          "kana": "反〜"
+          "kana": "はん〜"
         }
       ]
     },
@@ -255,12 +255,12 @@
       "id": "20",
       "chinese": "不……",
       "japanese": "不〜",
-      "kana": "不〜",
-      "romaji": "不~",
+      "kana": "ふ〜",
+      "romaji": "fu~",
       "tokens": [
         {
           "text": "不〜",
-          "kana": "不〜"
+          "kana": "ふ〜"
         }
       ]
     },

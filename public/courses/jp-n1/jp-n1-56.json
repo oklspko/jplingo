@@ -293,12 +293,12 @@
     {
       "id": "23",
       "chinese": "踌躇，犹豫",
-      "japanese": "躊躇[ちゅうちょ]",
+      "japanese": "躊躇",
       "kana": "ちゅうちょ",
       "romaji": "chuucho",
       "tokens": [
         {
-          "text": "躊躇[ちゅうちょ]",
+          "text": "躊躇",
           "kana": "ちゅうちょ"
         }
       ]

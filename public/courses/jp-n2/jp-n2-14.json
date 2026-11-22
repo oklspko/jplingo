@@ -137,12 +137,12 @@
     {
       "id": "11",
       "chinese": "尘埃，灰尘",
-      "japanese": "埃[ほこり]",
+      "japanese": "埃",
       "kana": "ほこり",
       "romaji": "hokori",
       "tokens": [
         {
-          "text": "埃[ほこり]",
+          "text": "埃",
           "kana": "ほこり"
         }
       ]

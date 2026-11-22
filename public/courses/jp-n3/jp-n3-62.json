@@ -47,12 +47,12 @@
       "id": "04",
       "chinese": "一个……，整个……；稍微……",
       "japanese": "一〜",
-      "kana": "一〜",
-      "romaji": "一~",
+      "kana": "いち〜",
+      "romaji": "ichi~",
       "tokens": [
         {
           "text": "一〜",
-          "kana": "一〜"
+          "kana": "いち〜"
         }
       ]
     },
@@ -60,12 +60,12 @@
       "id": "05",
       "chinese": "数个……，若干……",
       "japanese": "数〜",
-      "kana": "数〜",
-      "romaji": "数~",
+      "kana": "すう〜",
+      "romaji": "suu~",
       "tokens": [
         {
           "text": "数〜",
-          "kana": "数〜"
+          "kana": "すう〜"
         }
       ]
     },
@@ -86,12 +86,12 @@
       "id": "07",
       "chinese": "未……，没……",
       "japanese": "未〜",
-      "kana": "未〜",
-      "romaji": "未~",
+      "kana": "み〜",
+      "romaji": "mi~",
       "tokens": [
         {
           "text": "未〜",
-          "kana": "未〜"
+          "kana": "み〜"
         }
       ]
     },
@@ -99,12 +99,12 @@
       "id": "08",
       "chinese": "翌，下一个……",
       "japanese": "翌〜",
-      "kana": "翌〜",
-      "romaji": "翌~",
+      "kana": "よく〜",
+      "romaji": "yoku~",
       "tokens": [
         {
           "text": "翌〜",
-          "kana": "翌〜"
+          "kana": "よく〜"
         }
       ]
     },
@@ -112,12 +112,12 @@
       "id": "09",
       "chinese": "下个……",
       "japanese": "来〜",
-      "kana": "来〜",
-      "romaji": "来~",
+      "kana": "らい〜",
+      "romaji": "rai~",
       "tokens": [
         {
           "text": "来〜",
-          "kana": "来〜"
+          "kana": "らい〜"
         }
       ]
     },

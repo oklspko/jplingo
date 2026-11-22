@@ -189,12 +189,12 @@
     {
       "id": "15",
       "chinese": "青蛙，蛤蟆",
-      "japanese": "蛙[かえる]",
+      "japanese": "蛙",
       "kana": "かえる",
       "romaji": "kaeru",
       "tokens": [
         {
-          "text": "蛙[かえる]",
+          "text": "蛙",
           "kana": "かえる"
         }
       ]

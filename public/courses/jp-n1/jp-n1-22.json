@@ -384,12 +384,12 @@
     {
       "id": "30",
       "chinese": "好坏，善恶；有好也有坏，有利也有弊",
-      "japanese": "善し 悪[あ]し",
+      "japanese": "善し悪し",
       "kana": "よしあし",
       "romaji": "yoshiashi",
       "tokens": [
         {
-          "text": "善し 悪[あ]し",
+          "text": "善し悪し",
           "kana": "よしあし"
         }
       ]

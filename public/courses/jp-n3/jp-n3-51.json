@@ -384,12 +384,12 @@
     {
       "id": "30",
       "chinese": "点燃；打开（电源）",
-      "japanese": "点[つ]ける",
+      "japanese": "点ける",
       "kana": "つける",
       "romaji": "tsukeru",
       "tokens": [
         {
-          "text": "点[つ]ける",
+          "text": "点ける",
           "kana": "つける"
         }
       ]

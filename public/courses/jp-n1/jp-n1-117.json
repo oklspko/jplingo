@@ -163,12 +163,12 @@
     {
       "id": "13",
       "chinese": "十分惊讶，惊讶到极点",
-      "japanese": "呆[あき]れ果てる",
+      "japanese": "呆れ果てる",
       "kana": "あきれはてる",
       "romaji": "akirehateru",
       "tokens": [
         {
-          "text": "呆[あき]れ果てる",
+          "text": "呆れ果てる",
           "kana": "あきれはてる"
         }
       ]
@@ -228,12 +228,12 @@
     {
       "id": "18",
       "chinese": "充满，挤满",
-      "japanese": "溢[あふ]れ返る",
+      "japanese": "溢れ返る",
       "kana": "あふれかえる",
       "romaji": "afurekaeru",
       "tokens": [
         {
-          "text": "溢[あふ]れ返る",
+          "text": "溢れ返る",
           "kana": "あふれかえる"
         }
       ]

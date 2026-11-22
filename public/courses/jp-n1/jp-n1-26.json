@@ -319,12 +319,12 @@
     {
       "id": "25",
       "chinese": "铁锤；（すぐ水に沈むことから）不会游泳的人",
-      "japanese": "金 槌[づち]",
+      "japanese": "金槌",
       "kana": "かなづち",
       "romaji": "kanazuchi",
       "tokens": [
         {
-          "text": "金 槌[づち]",
+          "text": "金槌",
           "kana": "かなづち"
         }
       ]

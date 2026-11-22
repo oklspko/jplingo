@@ -124,12 +124,12 @@
     {
       "id": "10",
       "chinese": "匹敌，并肩",
-      "japanese": "敵[かな]う",
+      "japanese": "敵う",
       "kana": "かなう",
       "romaji": "kanau",
       "tokens": [
         {
-          "text": "敵[かな]う",
+          "text": "敵う",
           "kana": "かなう"
         }
       ]
@@ -137,12 +137,12 @@
     {
       "id": "11",
       "chinese": "符合，合乎",
-      "japanese": "適[かな]う",
+      "japanese": "適う",
       "kana": "かなう",
       "romaji": "kanau",
       "tokens": [
         {
-          "text": "適[かな]う",
+          "text": "適う",
           "kana": "かなう"
         }
       ]
@@ -163,12 +163,12 @@
     {
       "id": "13",
       "chinese": "投函，投进邮筒，寄出",
-      "japanese": "投 函[かん]",
+      "japanese": "投函",
       "kana": "とうかん",
       "romaji": "toukan",
       "tokens": [
         {
-          "text": "投 函[かん]",
+          "text": "投函",
           "kana": "とうかん"
         }
       ]

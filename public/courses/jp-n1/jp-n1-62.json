@@ -254,12 +254,12 @@
     {
       "id": "20",
       "chinese": "混沌，混乱",
-      "japanese": "混 沌[とん]",
+      "japanese": "混沌",
       "kana": "こんとん",
       "romaji": "konton",
       "tokens": [
         {
-          "text": "混 沌[とん]",
+          "text": "混沌",
           "kana": "こんとん"
         }
       ]
@@ -345,12 +345,12 @@
     {
       "id": "27",
       "chinese": "趋势，趋向，动向，倾向",
-      "japanese": "趨[すう]勢",
+      "japanese": "趨勢",
       "kana": "すうせい",
       "romaji": "suusei",
       "tokens": [
         {
-          "text": "趨[すう]勢",
+          "text": "趨勢",
           "kana": "すうせい"
         }
       ]

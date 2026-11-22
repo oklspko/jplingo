@@ -384,12 +384,12 @@
     {
       "id": "30",
       "chinese": "道歉，赔罪",
-      "japanese": "詫[わ]び",
+      "japanese": "詫び",
       "kana": "わび",
       "romaji": "wabi",
       "tokens": [
         {
-          "text": "詫[わ]び",
+          "text": "詫び",
           "kana": "わび"
         }
       ]

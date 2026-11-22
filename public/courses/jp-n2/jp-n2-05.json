@@ -20,12 +20,12 @@
     {
       "id": "02",
       "chinese": "流行，时髦；（疾病）流行",
-      "japanese": "流行[はや]り",
+      "japanese": "流行り",
       "kana": "はやり",
       "romaji": "hayari",
       "tokens": [
         {
-          "text": "流行[はや]り",
+          "text": "流行り",
           "kana": "はやり"
         }
       ]

@@ -176,12 +176,12 @@
     {
       "id": "14",
       "chinese": "微笑；花蕾绽放",
-      "japanese": "微[ほほ]笑む",
+      "japanese": "微笑む",
       "kana": "ほほえむ",
       "romaji": "hohoemu",
       "tokens": [
         {
-          "text": "微[ほほ]笑む",
+          "text": "微笑む",
           "kana": "ほほえむ"
         }
       ]
@@ -241,12 +241,12 @@
     {
       "id": "19",
       "chinese": "做，为",
-      "japanese": "為[な]す",
+      "japanese": "為す",
       "kana": "なす",
       "romaji": "nasu",
       "tokens": [
         {
-          "text": "為[な]す",
+          "text": "為す",
           "kana": "なす"
         }
       ]
@@ -254,12 +254,12 @@
     {
       "id": "20",
       "chinese": "道歉，谢罪",
-      "japanese": "詫[わ]びる",
+      "japanese": "詫びる",
       "kana": "わびる",
       "romaji": "wabiru",
       "tokens": [
         {
-          "text": "詫[わ]びる",
+          "text": "詫びる",
           "kana": "わびる"
         }
       ]

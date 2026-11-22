@@ -46,12 +46,12 @@
     {
       "id": "04",
       "chinese": "咬住；猛烈地反驳",
-      "japanese": "嚙[か]み付く",
+      "japanese": "嚙み付く",
       "kana": "かみつく",
       "romaji": "kamitsuku",
       "tokens": [
         {
-          "text": "嚙[か]み付く",
+          "text": "嚙み付く",
           "kana": "かみつく"
         }
       ]
@@ -163,12 +163,12 @@
     {
       "id": "13",
       "chinese": "启蒙，启发",
-      "japanese": "啓 蒙[もう]",
+      "japanese": "啓蒙",
       "kana": "けいもう",
       "romaji": "keimou",
       "tokens": [
         {
-          "text": "啓 蒙[もう]",
+          "text": "啓蒙",
           "kana": "けいもう"
         }
       ]
@@ -306,12 +306,12 @@
     {
       "id": "24",
       "chinese": "滤，过滤",
-      "japanese": "濾[こ]す",
+      "japanese": "濾す",
       "kana": "こす",
       "romaji": "kosu",
       "tokens": [
         {
-          "text": "濾[こ]す",
+          "text": "濾す",
           "kana": "こす"
         }
       ]
@@ -358,12 +358,12 @@
     {
       "id": "28",
       "chinese": "孵，孵化",
-      "japanese": "孵[かえ]す",
+      "japanese": "孵す",
       "kana": "かえす",
       "romaji": "kaesu",
       "tokens": [
         {
-          "text": "孵[かえ]す",
+          "text": "孵す",
           "kana": "かえす"
         }
       ]

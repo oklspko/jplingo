@@ -665,6 +665,14 @@ function resetFilters() {
 /* 逐行渲染的每一行（解析 / 详细解析 / 注释通用）：块级，保证一定换行 */
 .pa-line {
   display: block;
+  /* 长串（片假名 / 连续汉字）在窄屏也要能断行，否则会顶出卡片 */
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+/* 行与行之间留一点呼吸，手机上「位置 / 修饰 / 连接 / 语感」更好读 */
+.pa-line + .pa-line {
+  margin-top: 2px;
 }
 
 /* 原始详细解析（保留重写前的完整说明） */
@@ -813,11 +821,23 @@ function resetFilters() {
 
   .point-note {
     font-size: 12px;
+    line-height: 1.75;
   }
 
   .point-analysis {
     padding: 10px 12px;
+    font-size: 12.5px;
+    line-height: 1.8;
+  }
+
+  .point-analysis-detail-text {
     font-size: 12px;
+    line-height: 1.85;
+  }
+
+  /* 手机上每行更松一点，长句自动折行不顶出卡片 */
+  .pa-line {
+    line-height: 1.8;
   }
 
   .analysis-toggle {

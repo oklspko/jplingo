@@ -176,12 +176,12 @@
     {
       "id": "14",
       "chinese": "灰尘，污垢，垃圾；少许，丝毫（不）",
-      "japanese": "塵[ちり]",
+      "japanese": "塵",
       "kana": "ちり",
       "romaji": "chiri",
       "tokens": [
         {
-          "text": "塵[ちり]",
+          "text": "塵",
           "kana": "ちり"
         }
       ]
@@ -241,12 +241,12 @@
     {
       "id": "19",
       "chinese": "雏鸟；（三月三日女儿节陈列的）古装玩偶；小而可爱",
-      "japanese": "雛[ひな]",
+      "japanese": "雛",
       "kana": "ひな",
       "romaji": "hina",
       "tokens": [
         {
-          "text": "雛[ひな]",
+          "text": "雛",
           "kana": "ひな"
         }
       ]

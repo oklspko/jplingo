@@ -176,12 +176,12 @@
     {
       "id": "14",
       "chinese": "仰面朝天",
-      "japanese": "仰[あお]向け",
+      "japanese": "仰向け",
       "kana": "あおむけ",
       "romaji": "aomuke",
       "tokens": [
         {
-          "text": "仰[あお]向け",
+          "text": "仰向け",
           "kana": "あおむけ"
         }
       ]

@@ -111,12 +111,12 @@
     {
       "id": "09",
       "chinese": "消失",
-      "japanese": "失[う]せる",
+      "japanese": "失せる",
       "kana": "うせる",
       "romaji": "useru",
       "tokens": [
         {
-          "text": "失[う]せる",
+          "text": "失せる",
           "kana": "うせる"
         }
       ]

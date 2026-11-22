@@ -20,12 +20,12 @@
     {
       "id": "02",
       "chinese": "多疑",
-      "japanese": "疑[うたぐ]り深い",
+      "japanese": "疑り深い",
       "kana": "うたぐりぶかい",
       "romaji": "utaguribukai",
       "tokens": [
         {
-          "text": "疑[うたぐ]り深い",
+          "text": "疑り深い",
           "kana": "うたぐりぶかい"
         }
       ]
@@ -163,12 +163,12 @@
     {
       "id": "13",
       "chinese": "坚牢，坚固，牢固",
-      "japanese": "堅 牢[ろう]",
+      "japanese": "堅牢",
       "kana": "けんろう",
       "romaji": "kenrou",
       "tokens": [
         {
-          "text": "堅 牢[ろう]",
+          "text": "堅牢",
           "kana": "けんろう"
         }
       ]
@@ -371,12 +371,12 @@
     {
       "id": "29",
       "chinese": "奇怪，诧异，疑惑",
-      "japanese": "怪訝[けげん]",
+      "japanese": "怪訝",
       "kana": "けげん",
       "romaji": "kegen",
       "tokens": [
         {
-          "text": "怪訝[けげん]",
+          "text": "怪訝",
           "kana": "けげん"
         }
       ]

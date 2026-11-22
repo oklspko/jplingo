@@ -46,12 +46,12 @@
     {
       "id": "04",
       "chinese": "蚂蚁",
-      "japanese": "蟻[あり]",
+      "japanese": "蟻",
       "kana": "あり",
       "romaji": "ari",
       "tokens": [
         {
-          "text": "蟻[あり]",
+          "text": "蟻",
           "kana": "あり"
         }
       ]
@@ -176,12 +176,12 @@
     {
       "id": "14",
       "chinese": "锈",
-      "japanese": "錆[さび]",
+      "japanese": "錆",
       "kana": "さび",
       "romaji": "sabi",
       "tokens": [
         {
-          "text": "錆[さび]",
+          "text": "錆",
           "kana": "さび"
         }
       ]

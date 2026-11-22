@@ -70,6 +70,7 @@ import {
   getPracticeCount,
   buildPracticeOrder,
   isMixedCourse,
+  isVocabPack,
 } from "~/composables/jp/useJpCourses";
 import { isSingleKanaCourseId, kanaToInputRomaji } from "~/composables/jp/useJpRomaji";
 import { preloadJapaneseInOrder, preloadProgress } from "~/composables/jp/useJpSound";
@@ -104,12 +105,13 @@ const gameUrl = computed(() => `/jp-game/${coursePackId.value}/${courseId.value}
 // 高考单词课同一词循环 3 遍，学习页按词去重展示
 const uniqueStatements = computed<JpStatement[]>(() => dedupeStatements(statements.value));
 
-// 实际练习题数（含记忆曲线复习循环）；无分类测试是考试场景，每词只考 1 遍
+// 练习题数：词汇课（含无分类测试）现在走「循环测试」——每词先排一次，
+// 是否追加取决于答题情况，所以列表/题数按「词数（每词 1 遍）」显示。
 const practiceCount = computed(() =>
   getPracticeCount(
     coursePackId.value,
     statements.value,
-    isMixedCourse(coursePackId.value, courseId.value) ? 1 : undefined,
+    isVocabPack(coursePackId.value) ? 1 : undefined,
   ),
 );
 
@@ -141,13 +143,13 @@ onMounted(async () => {
   }
 });
 
-/** 学习页提前预加载：顺序 = 练习页实际出题顺序（buildPracticeOrder），逐句合成 */
+/** 学习页提前预加载：顺序 = 练习页实际出题顺序（词汇课每词 1 遍，循环追加发生在练习页） */
 function startAudioPreload(packId: string, list: JpStatement[]) {
   const ordered = buildPracticeOrder(
     packId,
     list,
     6,
-    isMixedCourse(packId, courseId.value) ? 1 : undefined,
+    isVocabPack(packId) ? 1 : undefined,
   );
   preloadJapaneseInOrder(ordered.map((s) => s.kana.replace(/\s+/g, "")));
 }

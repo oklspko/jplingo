@@ -280,12 +280,12 @@
     {
       "id": "22",
       "chinese": "蛾",
-      "japanese": "蛾[が]",
+      "japanese": "蛾",
       "kana": "が",
       "romaji": "ga",
       "tokens": [
         {
-          "text": "蛾[が]",
+          "text": "蛾",
           "kana": "が"
         }
       ]

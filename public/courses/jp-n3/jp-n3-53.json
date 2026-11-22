@@ -202,12 +202,12 @@
     {
       "id": "16",
       "chinese": "（以强硬的语气）询问",
-      "japanese": "訊[たず]ねる",
+      "japanese": "訊ねる",
       "kana": "たずねる",
       "romaji": "tazuneru",
       "tokens": [
         {
-          "text": "訊[たず]ねる",
+          "text": "訊ねる",
           "kana": "たずねる"
         }
       ]
@@ -254,12 +254,12 @@
     {
       "id": "20",
       "chinese": "孵化",
-      "japanese": "孵[かえ]る",
+      "japanese": "孵る",
       "kana": "かえる",
       "romaji": "kaeru",
       "tokens": [
         {
-          "text": "孵[かえ]る",
+          "text": "孵る",
           "kana": "かえる"
         }
       ]

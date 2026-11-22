@@ -332,12 +332,12 @@
     {
       "id": "26",
       "chinese": "体积大，占地方",
-      "japanese": "嵩張[かさば]る",
+      "japanese": "嵩張る",
       "kana": "かさばる",
       "romaji": "kasabaru",
       "tokens": [
         {
-          "text": "嵩張[かさば]る",
+          "text": "嵩張る",
           "kana": "かさばる"
         }
       ]

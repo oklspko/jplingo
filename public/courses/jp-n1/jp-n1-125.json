@@ -85,12 +85,12 @@
     {
       "id": "07",
       "chinese": "愕然",
-      "japanese": "愕[がく]然",
+      "japanese": "愕然",
       "kana": "がくぜん",
       "romaji": "gakuzen",
       "tokens": [
         {
-          "text": "愕[がく]然",
+          "text": "愕然",
           "kana": "がくぜん"
         }
       ]
@@ -358,12 +358,12 @@
     {
       "id": "28",
       "chinese": "细微，琐细，微不足道",
-      "japanese": "些[さ]細",
+      "japanese": "些細",
       "kana": "ささい",
       "romaji": "sasai",
       "tokens": [
         {
-          "text": "些[さ]細",
+          "text": "些細",
           "kana": "ささい"
         }
       ]

@@ -111,12 +111,12 @@
     {
       "id": "09",
       "chinese": "带子，细绳",
-      "japanese": "紐[ひも]",
+      "japanese": "紐",
       "kana": "ひも",
       "romaji": "himo",
       "tokens": [
         {
-          "text": "紐[ひも]",
+          "text": "紐",
           "kana": "ひも"
         }
       ]

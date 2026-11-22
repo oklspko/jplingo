@@ -137,12 +137,12 @@
     {
       "id": "11",
       "chinese": "生鲜食品",
-      "japanese": "生物[なまもの]",
+      "japanese": "生物",
       "kana": "なまもの",
       "romaji": "namamono",
       "tokens": [
         {
-          "text": "生物[なまもの]",
+          "text": "生物",
           "kana": "なまもの"
         }
       ]

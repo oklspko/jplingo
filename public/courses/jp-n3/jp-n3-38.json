@@ -111,12 +111,12 @@
     {
       "id": "09",
       "chinese": "原因，理由",
-      "japanese": "所以[ゆえん]",
+      "japanese": "所以",
       "kana": "ゆえん",
       "romaji": "yuen",
       "tokens": [
         {
-          "text": "所以[ゆえん]",
+          "text": "所以",
           "kana": "ゆえん"
         }
       ]
@@ -137,12 +137,12 @@
     {
       "id": "11",
       "chinese": "牡蛎，生蚝",
-      "japanese": "牡蠣[かき]",
+      "japanese": "牡蠣",
       "kana": "かき",
       "romaji": "kaki",
       "tokens": [
         {
-          "text": "牡蠣[かき]",
+          "text": "牡蠣",
           "kana": "かき"
         }
       ]

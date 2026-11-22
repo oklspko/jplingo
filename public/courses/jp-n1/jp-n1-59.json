@@ -20,12 +20,12 @@
     {
       "id": "02",
       "chinese": "蟹，螃蟹",
-      "japanese": "蟹[かに]",
+      "japanese": "蟹",
       "kana": "かに",
       "romaji": "kani",
       "tokens": [
         {
-          "text": "蟹[かに]",
+          "text": "蟹",
           "kana": "かに"
         }
       ]

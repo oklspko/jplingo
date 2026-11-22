@@ -332,12 +332,12 @@
     {
       "id": "26",
       "chinese": "仇人；仇恨；报复；危害",
-      "japanese": "仇[あだ]",
+      "japanese": "仇",
       "kana": "あだ",
       "romaji": "ada",
       "tokens": [
         {
-          "text": "仇[あだ]",
+          "text": "仇",
           "kana": "あだ"
         }
       ]
@@ -384,12 +384,12 @@
     {
       "id": "30",
       "chinese": "钻研，研究",
-      "japanese": "研 鑽[さん]",
+      "japanese": "研鑽",
       "kana": "けんさん",
       "romaji": "kensan",
       "tokens": [
         {
-          "text": "研 鑽[さん]",
+          "text": "研鑽",
           "kana": "けんさん"
         }
       ]

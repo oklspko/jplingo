@@ -85,12 +85,12 @@
     {
       "id": "07",
       "chinese": "岔道；繁华街；场所；社会",
-      "japanese": "巷[ちまた]",
+      "japanese": "巷",
       "kana": "ちまた",
       "romaji": "chimata",
       "tokens": [
         {
-          "text": "巷[ちまた]",
+          "text": "巷",
           "kana": "ちまた"
         }
       ]
@@ -124,12 +124,12 @@
     {
       "id": "10",
       "chinese": "彗星",
-      "japanese": "彗[すい]星",
+      "japanese": "彗星",
       "kana": "すいせい",
       "romaji": "suisei",
       "tokens": [
         {
-          "text": "彗[すい]星",
+          "text": "彗星",
           "kana": "すいせい"
         }
       ]
@@ -189,12 +189,12 @@
     {
       "id": "15",
       "chinese": "人品，体面，身价，尊严",
-      "japanese": "沽[こ]券",
+      "japanese": "沽券",
       "kana": "こけん",
       "romaji": "koken",
       "tokens": [
         {
-          "text": "沽[こ]券",
+          "text": "沽券",
           "kana": "こけん"
         }
       ]
@@ -332,12 +332,12 @@
     {
       "id": "26",
       "chinese": "自相矛盾",
-      "japanese": "自家 撞[どう]着",
+      "japanese": "自家撞着",
       "kana": "じかどうちゃく",
       "romaji": "jikadouchaku",
       "tokens": [
         {
-          "text": "自家 撞[どう]着",
+          "text": "自家撞着",
           "kana": "じかどうちゃく"
         }
       ]

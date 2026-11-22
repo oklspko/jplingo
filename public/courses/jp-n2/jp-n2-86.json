@@ -306,12 +306,12 @@
     {
       "id": "24",
       "chinese": "咬合；吻合",
-      "japanese": "嚙[か]み合う",
+      "japanese": "嚙み合う",
       "kana": "かみあう",
       "romaji": "kamiau",
       "tokens": [
         {
-          "text": "嚙[か]み合う",
+          "text": "嚙み合う",
           "kana": "かみあう"
         }
       ]

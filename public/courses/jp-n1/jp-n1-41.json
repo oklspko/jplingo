@@ -189,12 +189,12 @@
     {
       "id": "15",
       "chinese": "放心，安心",
-      "japanese": "安 堵[ど]",
+      "japanese": "安堵",
       "kana": "あんど",
       "romaji": "ando",
       "tokens": [
         {
-          "text": "安 堵[ど]",
+          "text": "安堵",
           "kana": "あんど"
         }
       ]
@@ -384,12 +384,12 @@
     {
       "id": "30",
       "chinese": "一见钟情",
-      "japanese": "一目 惚[ぼ]れ",
+      "japanese": "一目惚れ",
       "kana": "ひとめぼれ",
       "romaji": "hitomebore",
       "tokens": [
         {
-          "text": "一目 惚[ぼ]れ",
+          "text": "一目惚れ",
           "kana": "ひとめぼれ"
         }
       ]

@@ -111,12 +111,12 @@
     {
       "id": "09",
       "chinese": "点着；（灯）开着",
-      "japanese": "点[つ]く",
+      "japanese": "点く",
       "kana": "つく",
       "romaji": "tsuku",
       "tokens": [
         {
-          "text": "点[つ]く",
+          "text": "点く",
           "kana": "つく"
         }
       ]
@@ -241,12 +241,12 @@
     {
       "id": "19",
       "chinese": "剥",
-      "japanese": "剝[む]く",
+      "japanese": "剝く",
       "kana": "むく",
       "romaji": "muku",
       "tokens": [
         {
-          "text": "剝[む]く",
+          "text": "剝く",
           "kana": "むく"
         }
       ]

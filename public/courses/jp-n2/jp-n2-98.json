@@ -371,12 +371,12 @@
     {
       "id": "29",
       "chinese": "稀里糊涂，粗心大意，马虎",
-      "japanese": "迂闊[うかつ]",
+      "japanese": "迂闊",
       "kana": "うかつ",
       "romaji": "ukatsu",
       "tokens": [
         {
-          "text": "迂闊[うかつ]",
+          "text": "迂闊",
           "kana": "うかつ"
         }
       ]

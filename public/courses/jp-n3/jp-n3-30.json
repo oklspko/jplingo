@@ -124,12 +124,12 @@
     {
       "id": "10",
       "chinese": "侄女，外甥女",
-      "japanese": "姪[めい]",
+      "japanese": "姪",
       "kana": "めい",
       "romaji": "mei",
       "tokens": [
         {
-          "text": "姪[めい]",
+          "text": "姪",
           "kana": "めい"
         }
       ]

@@ -345,12 +345,12 @@
     {
       "id": "27",
       "chinese": "包装并捆扎，打包",
-      "japanese": "梱[こん]包",
+      "japanese": "梱包",
       "kana": "こんぽう",
       "romaji": "konpou",
       "tokens": [
         {
-          "text": "梱[こん]包",
+          "text": "梱包",
           "kana": "こんぽう"
         }
       ]

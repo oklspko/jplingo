@@ -124,12 +124,12 @@
     {
       "id": "10",
       "chinese": "沾湿，弄湿",
-      "japanese": "濡[ぬ]らす",
+      "japanese": "濡らす",
       "kana": "ぬらす",
       "romaji": "nurasu",
       "tokens": [
         {
-          "text": "濡[ぬ]らす",
+          "text": "濡らす",
           "kana": "ぬらす"
         }
       ]
@@ -163,12 +163,12 @@
     {
       "id": "13",
       "chinese": "流行；（疾病等）蔓延；繁荣，兴旺",
-      "japanese": "流行[はや]る",
+      "japanese": "流行る",
       "kana": "はやる",
       "romaji": "hayaru",
       "tokens": [
         {
-          "text": "流行[はや]る",
+          "text": "流行る",
           "kana": "はやる"
         }
       ]

@@ -267,12 +267,12 @@
     {
       "id": "21",
       "chinese": "倒入，注入",
-      "japanese": "注[つ]ぐ",
+      "japanese": "注ぐ",
       "kana": "つぐ",
       "romaji": "tsugu",
       "tokens": [
         {
-          "text": "注[つ]ぐ",
+          "text": "注ぐ",
           "kana": "つぐ"
         }
       ]

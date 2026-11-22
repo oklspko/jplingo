@@ -111,12 +111,12 @@
     {
       "id": "09",
       "chinese": "自然而然地",
-      "japanese": "自[おの]ずと",
+      "japanese": "自ずと",
       "kana": "おのずと",
       "romaji": "onozuto",
       "tokens": [
         {
-          "text": "自[おの]ずと",
+          "text": "自ずと",
           "kana": "おのずと"
         }
       ]
@@ -358,12 +358,12 @@
     {
       "id": "28",
       "chinese": "匆忙，仓皇",
-      "japanese": "急 遽[きょ]",
+      "japanese": "急遽",
       "kana": "きゅうきょ",
       "romaji": "kyuukyo",
       "tokens": [
         {
-          "text": "急 遽[きょ]",
+          "text": "急遽",
           "kana": "きゅうきょ"
         }
       ]

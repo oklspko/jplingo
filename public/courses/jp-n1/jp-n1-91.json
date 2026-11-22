@@ -7,12 +7,12 @@
     {
       "id": "01",
       "chinese": "妖怪，鬼怪",
-      "japanese": "物の 怪[け]",
+      "japanese": "物の怪",
       "kana": "もののけ",
       "romaji": "mononoke",
       "tokens": [
         {
-          "text": "物の 怪[け]",
+          "text": "物の怪",
           "kana": "もののけ"
         }
       ]
@@ -215,12 +215,12 @@
     {
       "id": "17",
       "chinese": "俯瞰，俯视",
-      "japanese": "俯瞰[ふかん]",
+      "japanese": "俯瞰",
       "kana": "ふかん",
       "romaji": "fukan",
       "tokens": [
         {
-          "text": "俯瞰[ふかん]",
+          "text": "俯瞰",
           "kana": "ふかん"
         }
       ]
@@ -228,12 +228,12 @@
     {
       "id": "18",
       "chinese": "嘲弄，讥讽，揶揄",
-      "japanese": "揶揄[やゆ]",
+      "japanese": "揶揄",
       "kana": "やゆ",
       "romaji": "yayu",
       "tokens": [
         {
-          "text": "揶揄[やゆ]",
+          "text": "揶揄",
           "kana": "やゆ"
         }
       ]
@@ -254,12 +254,12 @@
     {
       "id": "20",
       "chinese": "龃龉，摩擦，冲突",
-      "japanese": "軋轢[あつれき]",
+      "japanese": "軋轢",
       "kana": "あつれき",
       "romaji": "atsureki",
       "tokens": [
         {
-          "text": "軋轢[あつれき]",
+          "text": "軋轢",
           "kana": "あつれき"
         }
       ]
@@ -267,12 +267,12 @@
     {
       "id": "21",
       "chinese": "隘路，狭路；难关，障碍",
-      "japanese": "隘[あい]路",
+      "japanese": "隘路",
       "kana": "あいろ",
       "romaji": "airo",
       "tokens": [
         {
-          "text": "隘[あい]路",
+          "text": "隘路",
           "kana": "あいろ"
         }
       ]

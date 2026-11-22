@@ -332,12 +332,12 @@
     {
       "id": "26",
       "chinese": "燕子",
-      "japanese": "燕[つばめ]",
+      "japanese": "燕",
       "kana": "つばめ",
       "romaji": "tsubame",
       "tokens": [
         {
-          "text": "燕[つばめ]",
+          "text": "燕",
           "kana": "つばめ"
         }
       ]
@@ -345,12 +345,12 @@
     {
       "id": "27",
       "chinese": "屏风",
-      "japanese": "屏[びょう]風",
+      "japanese": "屏風",
       "kana": "びょうぶ",
       "romaji": "byoubu",
       "tokens": [
         {
-          "text": "屏[びょう]風",
+          "text": "屏風",
           "kana": "びょうぶ"
         }
       ]

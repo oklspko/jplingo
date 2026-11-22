@@ -59,12 +59,12 @@
     {
       "id": "05",
       "chinese": "极其，非常；（强调普通的样子）极其，非常",
-      "japanese": "極[ごく]",
+      "japanese": "極",
       "kana": "ごく",
       "romaji": "goku",
       "tokens": [
         {
-          "text": "極[ごく]",
+          "text": "極",
           "kana": "ごく"
         }
       ]

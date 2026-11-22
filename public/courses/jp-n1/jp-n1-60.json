@@ -46,12 +46,12 @@
     {
       "id": "04",
       "chinese": "陷阱；圈套",
-      "japanese": "罠[わな]",
+      "japanese": "罠",
       "kana": "わな",
       "romaji": "wana",
       "tokens": [
         {
-          "text": "罠[わな]",
+          "text": "罠",
           "kana": "わな"
         }
       ]

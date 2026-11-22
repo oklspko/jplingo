@@ -111,12 +111,12 @@
     {
       "id": "09",
       "chinese": "淋湿，弄湿",
-      "japanese": "濡[ぬ]れる",
+      "japanese": "濡れる",
       "kana": "ぬれる",
       "romaji": "nureru",
       "tokens": [
         {
-          "text": "濡[ぬ]れる",
+          "text": "濡れる",
           "kana": "ぬれる"
         }
       ]

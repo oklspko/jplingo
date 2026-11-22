@@ -254,12 +254,12 @@
     {
       "id": "20",
       "chinese": "遵守，遵照，遵循",
-      "japanese": "則[のっと]る",
+      "japanese": "則る",
       "kana": "のっとる",
       "romaji": "nottoru",
       "tokens": [
         {
-          "text": "則[のっと]る",
+          "text": "則る",
           "kana": "のっとる"
         }
       ]

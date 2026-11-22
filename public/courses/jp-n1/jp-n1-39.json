@@ -176,12 +176,12 @@
     {
       "id": "14",
       "chinese": "可爱之处，魅力；好感，亲切",
-      "japanese": "愛 嬌[きょう]",
+      "japanese": "愛嬌",
       "kana": "あいきょう",
       "romaji": "aikyou",
       "tokens": [
         {
-          "text": "愛 嬌[きょう]",
+          "text": "愛嬌",
           "kana": "あいきょう"
         }
       ]
@@ -228,12 +228,12 @@
     {
       "id": "18",
       "chinese": "囫囵吞枣",
-      "japanese": "鵜呑[うの]み",
+      "japanese": "鵜呑み",
       "kana": "うのみ",
       "romaji": "unomi",
       "tokens": [
         {
-          "text": "鵜呑[うの]み",
+          "text": "鵜呑み",
           "kana": "うのみ"
         }
       ]

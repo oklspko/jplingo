@@ -176,12 +176,12 @@
     {
       "id": "14",
       "chinese": "珊瑚",
-      "japanese": "珊瑚[さんご]",
+      "japanese": "珊瑚",
       "kana": "さんご",
       "romaji": "sango",
       "tokens": [
         {
-          "text": "珊瑚[さんご]",
+          "text": "珊瑚",
           "kana": "さんご"
         }
       ]
@@ -332,12 +332,12 @@
     {
       "id": "26",
       "chinese": "拦河坝，堰堤",
-      "japanese": "堰[せき]",
+      "japanese": "堰",
       "kana": "せき",
       "romaji": "seki",
       "tokens": [
         {
-          "text": "堰[せき]",
+          "text": "堰",
           "kana": "せき"
         }
       ]

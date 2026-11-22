@@ -124,12 +124,12 @@
     {
       "id": "10",
       "chinese": "谎言，假话",
-      "japanese": "嘘[うそ]",
+      "japanese": "嘘",
       "kana": "うそ",
       "romaji": "uso",
       "tokens": [
         {
-          "text": "嘘[うそ]",
+          "text": "嘘",
           "kana": "うそ"
         }
       ]

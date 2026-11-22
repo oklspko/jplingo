@@ -332,12 +332,12 @@
     {
       "id": "26",
       "chinese": "碗，茶杯，饭碗",
-      "japanese": "茶 碗[わん]",
+      "japanese": "茶碗",
       "kana": "ちゃわん",
       "romaji": "chawan",
       "tokens": [
         {
-          "text": "茶 碗[わん]",
+          "text": "茶碗",
           "kana": "ちゃわん"
         }
       ]

@@ -189,12 +189,12 @@
     {
       "id": "15",
       "chinese": "患（病），遭（灾）",
-      "japanese": "罹[かか]る",
+      "japanese": "罹る",
       "kana": "かかる",
       "romaji": "kakaru",
       "tokens": [
         {
-          "text": "罹[かか]る",
+          "text": "罹る",
           "kana": "かかる"
         }
       ]
@@ -202,12 +202,12 @@
     {
       "id": "16",
       "chinese": "搔；扒；出（汗）",
-      "japanese": "搔[か]く",
+      "japanese": "搔く",
       "kana": "かく",
       "romaji": "kaku",
       "tokens": [
         {
-          "text": "搔[か]く",
+          "text": "搔く",
           "kana": "かく"
         }
       ]

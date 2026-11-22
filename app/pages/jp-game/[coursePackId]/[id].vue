@@ -4,8 +4,8 @@
       <JpTopbar
         :course-title="courseTitle"
         :course-pack-id="coursePackId"
-        :current-index="currentIndex"
-        :total="statements.length"
+        :current-index="isCycleTest ? cyclePassed.length - 1 : currentIndex"
+        :total="isCycleTest ? cycleTotal : statements.length"
         :progress-percent="progressPercent"
         :show-romaji="showRomajiHint"
         :show-kana="showKanaHint"
@@ -20,6 +20,17 @@
 
       <main v-if="currentStatement" class="jp-main">
         <div class="jp-chinese">{{ currentStatement.chinese }}</div>
+
+        <div v-if="isCycleTest" class="jp-cycle-tip">
+          <span class="jp-cycle-rule">连续答对 <b>3</b> 次才通过并计入记录</span>
+          <span class="jp-cycle-now">
+            当前连续
+            <span class="jp-cycle-dots">
+              <i v-for="n in 3" :key="n" :class="{ on: n <= currentStreak }"></i>
+            </span>
+            <b>{{ currentStreak }}/3</b>
+          </span>
+        </div>
 
         <JpHints
           :romaji="currentStatement.romaji"
@@ -146,7 +157,7 @@
       <div v-else-if="allMastered" class="jp-all-mastered">
         <div class="all-mastered-icon">🎉</div>
         <h2 class="all-mastered-title">全部词汇已掌握！</h2>
-        <p class="all-mastered-desc">连续答对 5 次的词会从测试中移除，当前词库已全部掌握。</p>
+        <p class="all-mastered-desc">累计通过 5 轮的词会从无分类测试中移除，当前词库已全部掌握。</p>
         <button class="jp-btn primary" @click="resetMixedMemory">🔄 重新开始（清空记忆）</button>
       </div>
 
@@ -165,7 +176,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, nextTick, onMounted, onUnmounted, ref, watch } from "vue";
+import { computed, nextTick, onMounted, onUnmounted, reactive, ref, watch } from "vue";
 import { useRoute } from "vue-router";
 import JpTopbar from "~/components/jp/game/JpTopbar.vue";
 import JpHints from "~/components/jp/game/JpHints.vue";
@@ -196,7 +207,16 @@ import {
   buildPracticeOrder,
   shuffle,
   isMixedCourse,
+  isVocabPack,
 } from "~/composables/jp/useJpCourses";
+import {
+  CYCLE_PASS_STREAK,
+  CYCLE_EXTRA_BATCH,
+  CYCLE_MAX_EXTRA_BATCHES,
+  buildCycleQueue,
+  insertSpacedCopies,
+  dropFutureCopies,
+} from "~/composables/jp/useJpCycleTest";
 import { useJpVocabMemory, GAOKAO_MASTER_THRESHOLD } from "~/composables/jp/useJpGaokaoMemory";
 import type { JpStatement } from "~/types/jp";
 
@@ -223,6 +243,29 @@ const isSingleKana = computed(() => isSingleKanaCourseId(courseId.value));
 const isMixed = computed(
   () => isMixedCourse(coursePackId.value, courseId.value),
 );
+
+// ===== 单词「循环测试」：连续答对 3 次才通过并写入记录（分类单词课 + 无分类测试共用）=====
+const isCycleTest = computed(() => isVocabPack(coursePackId.value));
+/** 每个词的连续答对计数（reactive，供界面显示「当前连续 N 次」） */
+const cycleStreak = reactive<Record<string, number>>({});
+/** 每个词已追加过的批次（上限 CYCLE_MAX_EXTRA_BATCHES） */
+const cycleExtras = reactive<Record<string, number>>({});
+/** 已通过（连续答对 3 次）的词 */
+const cyclePassed = ref<string[]>([]);
+const cycleTotal = ref(0);
+
+/** 当前题这个词已连续答对几次 */
+const currentStreak = computed(() => {
+  const s = currentStatement.value;
+  if (!s) return 0;
+  return cycleStreak[s.japanese] || 0;
+});
+
+function resetCycleState() {
+  for (const k of Object.keys(cycleStreak)) delete cycleStreak[k];
+  for (const k of Object.keys(cycleExtras)) delete cycleExtras[k];
+  cyclePassed.value = [];
+}
 
 const showSpaceHintCard = computed(() => {
   const stmt = currentStatement.value;
@@ -282,6 +325,11 @@ const input = useJpInput({
 const { inputValue, userInputWords } = input;
 
 const progressPercent = computed(() => {
+  // 循环测试：题目会随答错动态追加，用「已通过词数 / 总词数」算进度，避免进度条倒退
+  if (isCycleTest.value) {
+    if (cycleTotal.value === 0) return 0;
+    return (cyclePassed.value.length / cycleTotal.value) * 100;
+  }
   if (statements.value.length === 0) return 0;
   return ((currentIndex.value + 1) / statements.value.length) * 100;
 });
@@ -471,10 +519,18 @@ async function loadCourseData() {
   let list = data.statements || [];
   allMastered.value = false;
   if (isMixed.value) {
-    // 已掌握（连续答对 5 次）的词不再进入测试；无分类则打乱全部词库
-    list = shuffle(list.filter((s) => !vocabMemory.isMastered(s.japanese)));
+    // 已掌握（连续答对 5 次）的词不再进入测试；其余词打乱顺序
+    list = list.filter((s) => !vocabMemory.isMastered(s.japanese));
   }
-  statements.value = buildPracticeOrder(packId, list, 6, isMixed.value ? 1 : undefined).map((s) => ({
+  resetCycleState();
+  if (isCycleTest.value) {
+    // 循环测试：每个词先只排一次，之后按「连续答对 3 次」动态追加（见 onCorrect / onWrong）
+    list = buildCycleQueue(list, shuffle, isMixed.value);
+    cycleTotal.value = list.length;
+  }
+  statements.value = (
+    isCycleTest.value ? list : buildPracticeOrder(packId, list, 6)
+  ).map((s) => ({
     ...s,
     // 提示用罗马字须是「可输入的」IME 拼写（づ→du、っち→cchi、ん+元音→n' 等），
     // 存储的 romaji 是 Hepburn 展示写法，照着打不出正确假名，故运行时按 kana 重算。
@@ -548,8 +604,22 @@ function onInput(e: Event) {
 function onCorrect(stmt: JpStatement) {
   result.value = "correct";
   playSuccessSound(); playAudio();
-  if (isMixed.value) {
-    // 记录一律用 stmt.id：记录页是按 `课程id/语句id` 反查的，早先这里写 japanese 导致 key 对不上、记录整批不显示
+  if (isCycleTest.value) {
+    // 循环测试：连续答对 3 次才通过并写入记录；不足 3 次则 5–7 词后再出现一次
+    const key = stmt.japanese;
+    const streak = (cycleStreak[key] || 0) + 1;
+    cycleStreak[key] = streak;
+    if (streak >= CYCLE_PASS_STREAK) {
+      if (!cyclePassed.value.includes(key)) cyclePassed.value = [...cyclePassed.value, key];
+      recordStatement(courseId.value, stmt.id);
+      recordMastered(courseId.value, stmt.id);
+      vocabMemory.recordCorrect(key);
+      // 已通过：把后面还会出现的同一个词删掉，不再重复考
+      dropFutureCopies(statements.value, currentIndex.value, key);
+    } else {
+      insertSpacedCopies(statements.value, currentIndex.value, stmt, 1);
+    }
+  } else if (isMixed.value) {
     recordStatement(courseId.value, stmt.id);
     const newCount = vocabMemory.recordCorrect(stmt.japanese);
     if (newCount >= GAOKAO_MASTER_THRESHOLD) {
@@ -573,7 +643,19 @@ function onWrong(stmt: JpStatement) {
   result.value = "wrong";
   hadWrongAttempt.value = true;
   playErrorSound();
-  if (isMixed.value) vocabMemory.recordWrong(stmt.japanese);
+  if (isCycleTest.value) {
+    // 答错：连续计数清零，并自动追加 5 次重复（每次间隔 5–7 个词），批数有上限防死循环
+    const key = stmt.japanese;
+    cycleStreak[key] = 0;
+    vocabMemory.recordWrong(key);
+    const batches = cycleExtras[key] || 0;
+    if (batches < CYCLE_MAX_EXTRA_BATCHES) {
+      cycleExtras[key] = batches + 1;
+      insertSpacedCopies(statements.value, currentIndex.value, stmt, CYCLE_EXTRA_BATCH);
+    }
+  } else if (isMixed.value) {
+    vocabMemory.recordWrong(stmt.japanese);
+  }
 }
 
 function submitAnswer() {
@@ -698,6 +780,59 @@ const { synthesizing } = useJpTts();
   font-family: "Noto Sans JP", sans-serif;
   line-height: 1.2;
   word-break: break-word;
+}
+
+/* 循环测试提示条：连续答对 3 次才通过 */
+.jp-cycle-tip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-top: -10px;
+  padding: 7px 16px;
+  border-radius: 999px;
+  background: #f0f9ff;
+  border: 1px solid #dbeafe;
+  font-size: 13px;
+  color: #0369a1;
+}
+
+.jp-cycle-rule b {
+  color: #b45309;
+}
+
+.jp-cycle-now {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #075985;
+}
+
+.jp-cycle-dots {
+  display: inline-flex;
+  gap: 4px;
+}
+
+.jp-cycle-dots i {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #cfe3f2;
+  display: inline-block;
+  transition: background 0.2s;
+}
+
+.jp-cycle-dots i.on {
+  background: #16a34a;
+}
+
+@media (max-width: 768px) {
+  .jp-cycle-tip {
+    font-size: 12px;
+    padding: 6px 12px;
+    gap: 6px 12px;
+  }
 }
 
 .space-hint {

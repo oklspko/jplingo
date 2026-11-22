@@ -124,12 +124,12 @@
     {
       "id": "10",
       "chinese": "迈进，挺进",
-      "japanese": "邁[まい]進",
+      "japanese": "邁進",
       "kana": "まいしん",
       "romaji": "maishin",
       "tokens": [
         {
-          "text": "邁[まい]進",
+          "text": "邁進",
           "kana": "まいしん"
         }
       ]
@@ -267,12 +267,12 @@
     {
       "id": "21",
       "chinese": "讴歌，歌颂",
-      "japanese": "謳[おう]歌",
+      "japanese": "謳歌",
       "kana": "おうか",
       "romaji": "ouka",
       "tokens": [
         {
-          "text": "謳[おう]歌",
+          "text": "謳歌",
           "kana": "おうか"
         }
       ]

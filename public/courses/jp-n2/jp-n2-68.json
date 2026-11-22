@@ -137,12 +137,12 @@
     {
       "id": "11",
       "chinese": "掌舵（的人）；领导，指挥（的人）",
-      "japanese": "舵[かじ]取り",
+      "japanese": "舵取り",
       "kana": "かじとり",
       "romaji": "kajitori",
       "tokens": [
         {
-          "text": "舵[かじ]取り",
+          "text": "舵取り",
           "kana": "かじとり"
         }
       ]

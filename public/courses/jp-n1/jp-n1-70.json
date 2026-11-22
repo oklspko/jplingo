@@ -319,12 +319,12 @@
     {
       "id": "25",
       "chinese": "桩子",
-      "japanese": "杭[くい]",
+      "japanese": "杭",
       "kana": "くい",
       "romaji": "kui",
       "tokens": [
         {
-          "text": "杭[くい]",
+          "text": "杭",
           "kana": "くい"
         }
       ]

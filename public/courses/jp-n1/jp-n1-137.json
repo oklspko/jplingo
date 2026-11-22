@@ -177,12 +177,12 @@
       "id": "14",
       "chinese": "古老，陈旧的，以前的",
       "japanese": "古〜",
-      "kana": "古〜",
-      "romaji": "古~",
+      "kana": "ふる〜",
+      "romaji": "furu~",
       "tokens": [
         {
           "text": "古〜",
-          "kana": "古〜"
+          "kana": "ふる〜"
         }
       ]
     },
@@ -229,12 +229,12 @@
       "id": "18",
       "chinese": "特别……；超……",
       "japanese": "超〜",
-      "kana": "超〜",
-      "romaji": "超~",
+      "kana": "ちょう〜",
+      "romaji": "chou~",
       "tokens": [
         {
           "text": "超〜",
-          "kana": "超〜"
+          "kana": "ちょう〜"
         }
       ]
     },

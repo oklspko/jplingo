@@ -267,12 +267,12 @@
     {
       "id": "21",
       "chinese": "实现，达到",
-      "japanese": "叶[かな]う",
+      "japanese": "叶う",
       "kana": "かなう",
       "romaji": "kanau",
       "tokens": [
         {
-          "text": "叶[かな]う",
+          "text": "叶う",
           "kana": "かなう"
         }
       ]
@@ -280,12 +280,12 @@
     {
       "id": "22",
       "chinese": "实现",
-      "japanese": "叶[かな]える",
+      "japanese": "叶える",
       "kana": "かなえる",
       "romaji": "kanaeru",
       "tokens": [
         {
-          "text": "叶[かな]える",
+          "text": "叶える",
           "kana": "かなえる"
         }
       ]
@@ -332,12 +332,12 @@
     {
       "id": "26",
       "chinese": "捞，舀；抄起",
-      "japanese": "掬[すく]う",
+      "japanese": "掬う",
       "kana": "すくう",
       "romaji": "sukuu",
       "tokens": [
         {
-          "text": "掬[すく]う",
+          "text": "掬う",
           "kana": "すくう"
         }
       ]
@@ -345,12 +345,12 @@
     {
       "id": "27",
       "chinese": "剥落，脱落",
-      "japanese": "剝[む]ける",
+      "japanese": "剝ける",
       "kana": "むける",
       "romaji": "mukeru",
       "tokens": [
         {
-          "text": "剝[む]ける",
+          "text": "剝ける",
           "kana": "むける"
         }
       ]

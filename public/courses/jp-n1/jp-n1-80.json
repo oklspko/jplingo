@@ -306,12 +306,12 @@
     {
       "id": "24",
       "chinese": "年龄，年纪",
-      "japanese": "齢[よわい]",
+      "japanese": "齢",
       "kana": "よわい",
       "romaji": "yowai",
       "tokens": [
         {
-          "text": "齢[よわい]",
+          "text": "齢",
           "kana": "よわい"
         }
       ]
@@ -319,12 +319,12 @@
     {
       "id": "25",
       "chinese": "秘诀，窍门",
-      "japanese": "秘 訣[けつ]",
+      "japanese": "秘訣",
       "kana": "ひけつ",
       "romaji": "hiketsu",
       "tokens": [
         {
-          "text": "秘 訣[けつ]",
+          "text": "秘訣",
           "kana": "ひけつ"
         }
       ]

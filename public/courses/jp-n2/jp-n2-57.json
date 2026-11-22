@@ -150,12 +150,12 @@
     {
       "id": "12",
       "chinese": "家常的熟食",
-      "japanese": "惣[そう]菜",
+      "japanese": "惣菜",
       "kana": "そうざい",
       "romaji": "souzai",
       "tokens": [
         {
-          "text": "惣[そう]菜",
+          "text": "惣菜",
           "kana": "そうざい"
         }
       ]
@@ -332,12 +332,12 @@
     {
       "id": "26",
       "chinese": "蝴蝶，蝶类",
-      "japanese": "蝶[ちょう]",
+      "japanese": "蝶",
       "kana": "ちょう",
       "romaji": "chou",
       "tokens": [
         {
-          "text": "蝶[ちょう]",
+          "text": "蝶",
           "kana": "ちょう"
         }
       ]

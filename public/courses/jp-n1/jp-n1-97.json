@@ -20,12 +20,12 @@
     {
       "id": "02",
       "chinese": "冷峭；清澈；（头脑）清醒；精巧，灵敏",
-      "japanese": "冴[さ]える",
+      "japanese": "冴える",
       "kana": "さえる",
       "romaji": "saeru",
       "tokens": [
         {
-          "text": "冴[さ]える",
+          "text": "冴える",
           "kana": "さえる"
         }
       ]
@@ -85,12 +85,12 @@
     {
       "id": "07",
       "chinese": "（用线）装订，缝上；写，作；拼写",
-      "japanese": "綴[つづ]る",
+      "japanese": "綴る",
       "kana": "つづる",
       "romaji": "tsuzuru",
       "tokens": [
         {
-          "text": "綴[つづ]る",
+          "text": "綴る",
           "kana": "つづる"
         }
       ]
@@ -163,12 +163,12 @@
     {
       "id": "13",
       "chinese": "驱车，策马；驰名",
-      "japanese": "馳[は]せる",
+      "japanese": "馳せる",
       "kana": "はせる",
       "romaji": "haseru",
       "tokens": [
         {
-          "text": "馳[は]せる",
+          "text": "馳せる",
           "kana": "はせる"
         }
       ]

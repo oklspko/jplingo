@@ -59,12 +59,12 @@
     {
       "id": "05",
       "chinese": "在背后议论别人；传闻，风言风语",
-      "japanese": "噂[うわさ]",
+      "japanese": "噂",
       "kana": "うわさ",
       "romaji": "uwasa",
       "tokens": [
         {
-          "text": "噂[うわさ]",
+          "text": "噂",
           "kana": "うわさ"
         }
       ]
@@ -85,12 +85,12 @@
     {
       "id": "07",
       "chinese": "外甥，侄子",
-      "japanese": "甥[おい]",
+      "japanese": "甥",
       "kana": "おい",
       "romaji": "oi",
       "tokens": [
         {
-          "text": "甥[おい]",
+          "text": "甥",
           "kana": "おい"
         }
       ]

@@ -332,12 +332,12 @@
     {
       "id": "26",
       "chinese": "过滤",
-      "japanese": "濾[ろ]過",
+      "japanese": "濾過",
       "kana": "ろか",
       "romaji": "roka",
       "tokens": [
         {
-          "text": "濾[ろ]過",
+          "text": "濾過",
           "kana": "ろか"
         }
       ]

@@ -98,11 +98,11 @@ export async function fetchCourseMeta(
 ): Promise<{ title: string; count: number }> {
   try {
     const course = await fetchCourse(packId, courseId);
-    // 无分类测试是考试场景：题数按「每词 1 遍」计算，与练习页实际出题一致
-    const mixed = isMixedCourse(packId, courseId);
+    // 词汇课（含无分类测试）走循环测试：题数按「每词 1 遍」显示，追加由练习页按答题情况决定
+    const vocab = isVocabPack(packId);
     return {
       title: course.title || courseId,
-      count: getPracticeCount(course.coursePackId || packId, course.statements || [], mixed ? 1 : undefined),
+      count: getPracticeCount(course.coursePackId || packId, course.statements || [], vocab ? 1 : undefined),
     };
   } catch {
     return { title: courseId, count: 0 };

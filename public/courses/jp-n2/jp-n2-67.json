@@ -20,12 +20,12 @@
     {
       "id": "02",
       "chinese": "鲑鱼，大马哈鱼，三文鱼",
-      "japanese": "鮭[さけ]",
+      "japanese": "鮭",
       "kana": "さけ",
       "romaji": "sake",
       "tokens": [
         {
-          "text": "鮭[さけ]",
+          "text": "鮭",
           "kana": "さけ"
         }
       ]

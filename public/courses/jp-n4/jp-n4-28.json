@@ -21,12 +21,12 @@
       "id": "02",
       "chinese": "全……，全部……",
       "japanese": "全〜",
-      "kana": "全〜",
-      "romaji": "全~",
+      "kana": "ぜん〜",
+      "romaji": "zen~",
       "tokens": [
         {
           "text": "全〜",
-          "kana": "全〜"
+          "kana": "ぜん〜"
         }
       ]
     },
@@ -73,12 +73,12 @@
       "id": "06",
       "chinese": "（数量）多；（程度）甚",
       "japanese": "大〜",
-      "kana": "大〜",
-      "romaji": "大~",
+      "kana": "だい〜",
+      "romaji": "dai~",
       "tokens": [
         {
           "text": "大〜",
-          "kana": "大〜"
+          "kana": "だい〜"
         }
       ]
     },

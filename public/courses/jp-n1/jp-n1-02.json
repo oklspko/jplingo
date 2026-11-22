@@ -215,12 +215,12 @@
     {
       "id": "17",
       "chinese": "胡子；（动物的）须",
-      "japanese": "髭[ひげ]",
+      "japanese": "髭",
       "kana": "ひげ",
       "romaji": "hige",
       "tokens": [
         {
-          "text": "髭[ひげ]",
+          "text": "髭",
           "kana": "ひげ"
         }
       ]

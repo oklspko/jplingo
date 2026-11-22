@@ -293,12 +293,12 @@
     {
       "id": "23",
       "chinese": "说谎，说谎的人",
-      "japanese": "嘘[うそ]つき",
+      "japanese": "嘘つき",
       "kana": "うそつき",
       "romaji": "usotsuki",
       "tokens": [
         {
-          "text": "嘘[うそ]つき",
+          "text": "嘘つき",
           "kana": "うそつき"
         }
       ]
@@ -358,12 +358,12 @@
     {
       "id": "28",
       "chinese": "纽带，羁绊",
-      "japanese": "絆[きずな]",
+      "japanese": "絆",
       "kana": "きずな",
       "romaji": "kizuna",
       "tokens": [
         {
-          "text": "絆[きずな]",
+          "text": "絆",
           "kana": "きずな"
         }
       ]
@@ -371,12 +371,12 @@
     {
       "id": "29",
       "chinese": "嗜好，爱好",
-      "japanese": "嗜[し]好",
+      "japanese": "嗜好",
       "kana": "しこう",
       "romaji": "shikou",
       "tokens": [
         {
-          "text": "嗜[し]好",
+          "text": "嗜好",
           "kana": "しこう"
         }
       ]
@@ -384,12 +384,12 @@
     {
       "id": "30",
       "chinese": "麻雀",
-      "japanese": "雀[すずめ]",
+      "japanese": "雀",
       "kana": "すずめ",
       "romaji": "suzume",
       "tokens": [
         {
-          "text": "雀[すずめ]",
+          "text": "雀",
           "kana": "すずめ"
         }
       ]

@@ -333,12 +333,12 @@
       "id": "26",
       "chinese": "第",
       "japanese": "第〜",
-      "kana": "第〜",
-      "romaji": "第~",
+      "kana": "だい〜",
+      "romaji": "dai~",
       "tokens": [
         {
           "text": "第〜",
-          "kana": "第〜"
+          "kana": "だい〜"
         }
       ]
     },

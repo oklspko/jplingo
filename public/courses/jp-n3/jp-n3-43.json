@@ -85,12 +85,12 @@
     {
       "id": "07",
       "chinese": "嚼，咬",
-      "japanese": "嚙[か]む",
+      "japanese": "嚙む",
       "kana": "かむ",
       "romaji": "kamu",
       "tokens": [
         {
-          "text": "嚙[か]む",
+          "text": "嚙む",
           "kana": "かむ"
         }
       ]

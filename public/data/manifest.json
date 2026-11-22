@@ -1,7 +1,7 @@
 {
-  "version": "sha256:28f270bc1db49deecfde5c124821f0b3",
+  "version": "sha256:1de178f3b72727e829ac0de5085fa962",
   "base": "https://www.jplingo.cn",
-  "bytes": 7783311,
+  "bytes": 7780078,
   "files": [
     {
       "path": "courses/course-pack.json",
@@ -130,8 +130,8 @@
     },
     {
       "path": "courses/jp-gaokao/jp-gaokao-23.json",
-      "size": 24286,
-      "sha256": "6a648bd826a8f915a346d94d739c989df7ea71219bd41ea5e9290466c2fd46f1"
+      "size": 24241,
+      "sha256": "caef9dad28478813fa8c1340986026a2bc27c15ae9e32b267e6337a052314396"
     },
     {
       "path": "courses/jp-gaokao/jp-gaokao-24.json",
@@ -440,8 +440,8 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-02.json",
-      "size": 8039,
-      "sha256": "21b0b296fa8c848ff74d15a4fbfdfd07f127448bb7fa26899fab1be55d17d694"
+      "size": 8023,
+      "sha256": "df51703003760df33b4a89aabad9bcbd266dc6970353ce51d21021e4fcbe28b8"
     },
     {
       "path": "courses/jp-n1/jp-n1-03.json",
@@ -450,8 +450,8 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-04.json",
-      "size": 7784,
-      "sha256": "ea3501bab66798212e617c1ec25b43ff4c37a57572b1fd18a3e75928aa93f04c"
+      "size": 7768,
+      "sha256": "8bfb13b787ddb02511cf16938439ad57c151e75c8a2eeefdaeb24b949c3e8f28"
     },
     {
       "path": "courses/jp-n1/jp-n1-05.json",
@@ -475,8 +475,8 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-09.json",
-      "size": 8326,
-      "sha256": "a8cb316310b8ff0b529f98943a9d80474f683a89f15bb7eed4572702766be5da"
+      "size": 8276,
+      "sha256": "0800189852cff5d645b9312130124bdd46290811732ef3eceb6af187668dd864"
     },
     {
       "path": "courses/jp-n1/jp-n1-10.json",
@@ -490,13 +490,13 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-101.json",
-      "size": 8251,
-      "sha256": "ad85e0b801360373ac15fcc31a8f7c0f7a3ae644aad550bc1da30e611df57351"
+      "size": 8235,
+      "sha256": "1db7d20780708360d2c48796bffbae1856643a9a779d09125928299f8a2fba05"
     },
     {
       "path": "courses/jp-n1/jp-n1-102.json",
-      "size": 8605,
-      "sha256": "dc06c6c592a1960d1d86b6434dfbcfc0efd80087102c840bb63ddd03cdf43510"
+      "size": 8573,
+      "sha256": "cdd7be5009ff16ea979d4b1ba0434119f10bc68af5f8e3eb4082bc083d7f7439"
     },
     {
       "path": "courses/jp-n1/jp-n1-103.json",
@@ -510,8 +510,8 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-105.json",
-      "size": 8570,
-      "sha256": "1f4a7cd82226628abf23921e6c211494ff70c3a1d436c303bc5bba7adbece4dd"
+      "size": 8548,
+      "sha256": "9714018121c46c8e4368e06bf47787b2e1cd9cc26ad361caf7923c6a822fb70d"
     },
     {
       "path": "courses/jp-n1/jp-n1-106.json",
@@ -525,13 +525,13 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-108.json",
-      "size": 8020,
-      "sha256": "63d3c733abb57fb02c60183a210b12e1126e7441135690e618fd1037a3c02ab7"
+      "size": 8010,
+      "sha256": "36f28075e6a5adf984a62adc7c291e9a333633e02bdfa18248b4faa9ff331c55"
     },
     {
       "path": "courses/jp-n1/jp-n1-109.json",
-      "size": 8307,
-      "sha256": "84df1fa5b57519367d1b00d40682f4912ac019703c8a785fe2924a3566a9034f"
+      "size": 8271,
+      "sha256": "03f595aeff8a1655b85041e1987dbb500769c860538092ec59ba2afadf213b2d"
     },
     {
       "path": "courses/jp-n1/jp-n1-11.json",
@@ -545,8 +545,8 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-111.json",
-      "size": 8657,
-      "sha256": "deee203f7649a39e6ca044cb05fd248563c51904e75e9e3c423bddf604bb9056"
+      "size": 8647,
+      "sha256": "3915625b066b5cb4d4171370cfa37d43d40c983f33d06f97103f0fb17f4dc2b3"
     },
     {
       "path": "courses/jp-n1/jp-n1-112.json",
@@ -565,18 +565,18 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-115.json",
-      "size": 8522,
-      "sha256": "f634dd33fa641bdfd31c0fca7211ec56c08b911c4b27d4135b0e8df34029d2de"
+      "size": 8490,
+      "sha256": "ef009bad29ca07bcdd22117439fc18f3664fcc2d0c6a40bfc9f5f15c65640af7"
     },
     {
       "path": "courses/jp-n1/jp-n1-116.json",
-      "size": 8358,
-      "sha256": "89bf5568980024be32be3e27e9799a7b3263ab20eda30f7f0e59d11f5fe1cae4"
+      "size": 8304,
+      "sha256": "b83774599d6c54282509c87b6f18106ac7094a154bac8ef0cf61e88f4f3ccdb5"
     },
     {
       "path": "courses/jp-n1/jp-n1-117.json",
-      "size": 8561,
-      "sha256": "b961db1a2c6d6d34d2e6f7f265861cfae5ec14a5343d91611b27c2f8b3f55d54"
+      "size": 8529,
+      "sha256": "b513339efb02dc44f195dce2d1b85256d67880f25ef5f869a6ef862d6eeb16c9"
     },
     {
       "path": "courses/jp-n1/jp-n1-118.json",
@@ -595,13 +595,13 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-120.json",
-      "size": 8459,
-      "sha256": "0285d10069a774459c7e3406fb90e11f2307f45123f1effe1981f333243fd06f"
+      "size": 8449,
+      "sha256": "0800d04615477408eaa4ac0fa6d75a9a6521422fdeb85f00eac153576acc4ed2"
     },
     {
       "path": "courses/jp-n1/jp-n1-121.json",
-      "size": 8692,
-      "sha256": "edc4a904c169515b58ebff31a3d23ea6ab66df17afb4c4e89908258f30fb18e9"
+      "size": 8660,
+      "sha256": "22338a884510ed867161ff7cb0e95efd620ad5a36038dec18b522c2595bd94d0"
     },
     {
       "path": "courses/jp-n1/jp-n1-122.json",
@@ -610,8 +610,8 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-123.json",
-      "size": 8415,
-      "sha256": "115178cb707ec6dd473cee0a8ef4bdc3a643a2910f392d6e7dc645cb15ad3551"
+      "size": 8347,
+      "sha256": "61f998e6d6ff95129a0687099fb1dc48ef94df224279eef4735196d0b0c14818"
     },
     {
       "path": "courses/jp-n1/jp-n1-124.json",
@@ -620,8 +620,8 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-125.json",
-      "size": 8317,
-      "sha256": "813538e52d118363426b1b1ade434df9f5ebb1feef9c687d99f5094eaf8183f8"
+      "size": 8291,
+      "sha256": "b795864a752556b3fcd7277063413f0682ad2983547bd6d4488d69bca687cf8b"
     },
     {
       "path": "courses/jp-n1/jp-n1-126.json",
@@ -630,8 +630,8 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-127.json",
-      "size": 8547,
-      "sha256": "827b39b4e71c28ee65f3ad139c8f54862e261ec6b354e710371941f2eda5a8e3"
+      "size": 8525,
+      "sha256": "5313f1f5dc83f88abf0ea12751141266a03a55341860eed286746e25dc9cd3db"
     },
     {
       "path": "courses/jp-n1/jp-n1-128.json",
@@ -640,8 +640,8 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-129.json",
-      "size": 8683,
-      "sha256": "5505b7c25c9ae62c409e83f6a890d6e54e8fd1f77d14223e6b3096c799ce915f"
+      "size": 8621,
+      "sha256": "c87fb1146ecd87db36b38b4a5a495eec99346a64f8c5f2b875e498b2b31ee704"
     },
     {
       "path": "courses/jp-n1/jp-n1-13.json",
@@ -650,8 +650,8 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-130.json",
-      "size": 929,
-      "sha256": "632cd0c4b88298045dfd2189669c11b696c895e9497b8acc9e8f56b8c8491ccd"
+      "size": 897,
+      "sha256": "5917aec4c63f1c1594726d00ddbd32dd8d8206db8a78a7271cc90f977ff5495b"
     },
     {
       "path": "courses/jp-n1/jp-n1-131.json",
@@ -665,8 +665,8 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-133.json",
-      "size": 8695,
-      "sha256": "2354b881be7caad4f38b4fc5e530dec6fae6f538c9343662ccbf7338688c2db6"
+      "size": 8661,
+      "sha256": "85f795d6a09a909e3cadb33eaef25ca3fb6161707bff4e25daca32e971d67f00"
     },
     {
       "path": "courses/jp-n1/jp-n1-134.json",
@@ -685,23 +685,23 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-137.json",
-      "size": 8377,
-      "sha256": "99b65a3e5de6c6a485f0f49900e4f3193a2351e6d49592e07dcf21fea4a13f2b"
+      "size": 8397,
+      "sha256": "0ed58e883512c0e5971b848b34833956398b11c74aa5bcdf82851644cd90baf0"
     },
     {
       "path": "courses/jp-n1/jp-n1-138.json",
-      "size": 7766,
-      "sha256": "0ab30afe1af920b9165f3b35e804a97f7d88898074312678927009f176b55bb9"
+      "size": 7748,
+      "sha256": "d37d80ba1af812538a33bf103d6a0556e8e4f91cdb97b78c38d7f499cab0bd48"
     },
     {
       "path": "courses/jp-n1/jp-n1-14.json",
-      "size": 7998,
-      "sha256": "42d68dd8bb72e4aaec2909b292a0e276d99bd802d5f244ef23c77457da901ccf"
+      "size": 7928,
+      "sha256": "14cf78ecca42056a8ac183004c2567f3f5af5fe0211463aede8ade60c11694f2"
     },
     {
       "path": "courses/jp-n1/jp-n1-15.json",
-      "size": 8015,
-      "sha256": "5c5f6c122428dc844f92696ac754262abed97d45642c9d627c7935494ea5cc1d"
+      "size": 7999,
+      "sha256": "f14b25dd44a574b0df275c66fc47fb565e23a9c812d982eb889cc52397727b6f"
     },
     {
       "path": "courses/jp-n1/jp-n1-16.json",
@@ -720,8 +720,8 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-19.json",
-      "size": 7880,
-      "sha256": "2b2bf00411dec3ea74ec466e0ecf72ee40c192d321bf7a8535af0022fcd5d632"
+      "size": 7894,
+      "sha256": "bdba649b0c960a3fa380092c649f07e5738c958043ce269d101ab829e064bc07"
     },
     {
       "path": "courses/jp-n1/jp-n1-20.json",
@@ -730,13 +730,13 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-21.json",
-      "size": 8249,
-      "sha256": "8357fc8eb1cc431824b82fb27033c31962dd7a20a0f31c53fb018c35066f7647"
+      "size": 8221,
+      "sha256": "a57f068d8437a21fc35fda014b5df3c91802ccefdbde25310fc7c93731c909bd"
     },
     {
       "path": "courses/jp-n1/jp-n1-22.json",
-      "size": 8586,
-      "sha256": "99569d6c7402de4953fa221b79d779e1f7b114c841ef4f9f444d57bdbe708e82"
+      "size": 8574,
+      "sha256": "9c55d55e587665c4fb7569e2c21c6b7c8d2666801f5de7b06073b5277e4ac907"
     },
     {
       "path": "courses/jp-n1/jp-n1-23.json",
@@ -755,8 +755,8 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-26.json",
-      "size": 8087,
-      "sha256": "ff12c5e05883228ca80690c4700ccd1dd79e27e6aacf707a7a86626a4a908c3d"
+      "size": 8069,
+      "sha256": "10b92466cc3a4c977b8e90eb132ee3a2890f384c50042fa5b20950d73036713c"
     },
     {
       "path": "courses/jp-n1/jp-n1-27.json",
@@ -820,18 +820,18 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-39.json",
-      "size": 8428,
-      "sha256": "33238e9e99f2996de6408d56b687b35fe1b48c481a65ceaa40efcc02de55bb68"
+      "size": 8388,
+      "sha256": "cd987504dd058035cc0b63a9113ec635edfc848b2556d2dcd62639b32473e3d1"
     },
     {
       "path": "courses/jp-n1/jp-n1-40.json",
-      "size": 8381,
-      "sha256": "22406370bd0be87d29d7b1f07cb67ae983064d2f1f89d11155ee98a161f4c4ca"
+      "size": 8371,
+      "sha256": "743946d058f577bd924a2b7635a515db38ecf8b0f0fecbd8f428e9fdea183751"
     },
     {
       "path": "courses/jp-n1/jp-n1-41.json",
-      "size": 8481,
-      "sha256": "671910beb3b73b09125e3b93089b03bc6605c748c71a5a49508c8adaa7ec42f3"
+      "size": 8457,
+      "sha256": "b60ecc3f36e354b9ce3df8f25e595dee1a546642a4e7b981009b0b977673bc94"
     },
     {
       "path": "courses/jp-n1/jp-n1-42.json",
@@ -865,8 +865,8 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-48.json",
-      "size": 8181,
-      "sha256": "4848c4716a66a3609825db27825e727c7459a8ca7b54616fc52a370fa3af4b0c"
+      "size": 8149,
+      "sha256": "98a905f4c650c151ae14c97df87cdf879b4d625384e09580b0346537269a4304"
     },
     {
       "path": "courses/jp-n1/jp-n1-49.json",
@@ -895,18 +895,18 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-54.json",
-      "size": 8089,
-      "sha256": "c4493af0625fcd69340eb12c6227e4baf91ed2b28e6ecf3b4e8b27131b5e4645"
+      "size": 8061,
+      "sha256": "ca0533860e9cc3a8234490c6808a669541450d1f930d326e54a14e2e77f74a57"
     },
     {
       "path": "courses/jp-n1/jp-n1-55.json",
-      "size": 7998,
-      "sha256": "36b962205f75615bf299489aa6d6cb4ce60b74b74120acf9fd3a25a3bbfea64a"
+      "size": 7954,
+      "sha256": "768c5c7dfe210f5cf716a0c8da05579dd7f025cc635b79ceb5ab69dd15b8448c"
     },
     {
       "path": "courses/jp-n1/jp-n1-56.json",
-      "size": 8114,
-      "sha256": "ed72bdfd608b127638ed8c7dbb3089678c316359f244d33070d4c72523e9e9db"
+      "size": 8080,
+      "sha256": "b361703ced86d0a3598e3c7716543da783f95e4818b252d13d14cc7f97e9a2b4"
     },
     {
       "path": "courses/jp-n1/jp-n1-57.json",
@@ -915,33 +915,33 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-58.json",
-      "size": 8155,
-      "sha256": "4592416a17f8eaf1dae9ac05ad7d1f96a350d09d8eb33d0da84f960de5163279"
+      "size": 8123,
+      "sha256": "a1fe7b34b95c1b3df3b8f3d08e1cea6f62ba204a727306ac1de19b9b38ec8c3c"
     },
     {
       "path": "courses/jp-n1/jp-n1-59.json",
-      "size": 8082,
-      "sha256": "efe0c2ed92e99b7843cd55768e6d0b5b138c17d667a2484397d7377db28e7f3a"
+      "size": 8066,
+      "sha256": "af4975103faa734e74b5bdec05bb42a3e4dcfe038fa2a0953223ee6d649e3fa3"
     },
     {
       "path": "courses/jp-n1/jp-n1-60.json",
-      "size": 8310,
-      "sha256": "16c1f76345b19ffe35c28b31bcfe7055aa9c6a40aa27e0acf77c44f244f5c557"
+      "size": 8294,
+      "sha256": "29623f7c298dba4d53a685c425d4cb410448b40f15fa7c1feac1298fac86bc3b"
     },
     {
       "path": "courses/jp-n1/jp-n1-61.json",
-      "size": 8150,
-      "sha256": "5e1f0ca858bc0fce01a6fa6b6aa417a22ffedf121656ec4c681aa2a8f76e0fca"
+      "size": 8140,
+      "sha256": "08e046abeca300d6313697b3f3dbf02aafe187295b3793a2167315096b1f535e"
     },
     {
       "path": "courses/jp-n1/jp-n1-62.json",
-      "size": 8164,
-      "sha256": "4fb5d91bcb7aecf78da57d58543c4c22faca1d82dd1a255f5a2b977a1adb407d"
+      "size": 8130,
+      "sha256": "6f6af91f0ef677e1cf9e6caf7d80fa8936bf362135f8b3d7dad60feb93ae7571"
     },
     {
       "path": "courses/jp-n1/jp-n1-63.json",
-      "size": 8297,
-      "sha256": "a27054f33c14288f12245080b402efc0bfb0d5313c8097664313e7aee3625a13"
+      "size": 8231,
+      "sha256": "510c751e0eaea3256c826e32ac403d2dada63db1d37eff3e4d1742520b1a87e1"
     },
     {
       "path": "courses/jp-n1/jp-n1-64.json",
@@ -950,33 +950,33 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-65.json",
-      "size": 8427,
-      "sha256": "434f4437b951a246ff46cfb421073e1885d9631ed9fdda80217db1b092920fc5"
+      "size": 8405,
+      "sha256": "617b7939a2c0db7a5a7fbbd90341da2af59c0679e3a3e7b6bb7faaa9b844e8fd"
     },
     {
       "path": "courses/jp-n1/jp-n1-66.json",
-      "size": 8098,
-      "sha256": "2588d2c3af2af2b97dcb97e5fd7cbc1f88427dde146b5a74821e5a8ad3b0e07a"
+      "size": 8082,
+      "sha256": "221cdab2a32ab922f480a7f25348fa6704319b8d8db397b26231e8db91cceb1b"
     },
     {
       "path": "courses/jp-n1/jp-n1-67.json",
-      "size": 8055,
-      "sha256": "af0f889ede4867f5f031755025ac9482edeb3b5a76bc363ce2caee21610e75fd"
+      "size": 8033,
+      "sha256": "036f8b7ba5e03361783259ade5a91eb07d070f52742c08bf8723275e8d73e028"
     },
     {
       "path": "courses/jp-n1/jp-n1-68.json",
-      "size": 8265,
-      "sha256": "6b2f6d1611a74597dda96ee77162a3576e04f305169b54c6cfd4a3648a1b59ad"
+      "size": 8243,
+      "sha256": "3206e021af5c5981ded0f3f4487168b40cb13482324426c2799ae791ac8c8d78"
     },
     {
       "path": "courses/jp-n1/jp-n1-69.json",
-      "size": 8246,
-      "sha256": "70e9ee13455bfa108ba5619db1a5b0a5c7b640e35859a0ac2c6102b826398897"
+      "size": 8210,
+      "sha256": "34d8a7a6732519a5acffd670dc6cb9cb5a42dde457fa67ba5c84a2952250d4e2"
     },
     {
       "path": "courses/jp-n1/jp-n1-70.json",
-      "size": 8071,
-      "sha256": "a57317135659d07239912d18bcc9ec22bfdc382f0665e5164d68a6ba27838d73"
+      "size": 8055,
+      "sha256": "2d11a387560499b06511d58adfe27858b2c979d2b1fb5a423120406d27145004"
     },
     {
       "path": "courses/jp-n1/jp-n1-71.json",
@@ -995,8 +995,8 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-74.json",
-      "size": 8140,
-      "sha256": "f481c1253c4223c85e6e1b37ebc9f17d9d8d2c565e55ccd12844a4b8fca609e1"
+      "size": 8118,
+      "sha256": "fcfe337dfeb7b1c77d01132d7b08d37e2ef6a1b09b395e772e7b65a090af574c"
     },
     {
       "path": "courses/jp-n1/jp-n1-75.json",
@@ -1005,8 +1005,8 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-76.json",
-      "size": 8027,
-      "sha256": "4e1eaf8a3ae443747f2c34a7b0534a9f2bb97b6bbea77f061910f300059dc32f"
+      "size": 8017,
+      "sha256": "39af633493a2380a0e058358d8dddfa0d2a19f16d84e6c26e0bbb760d1912d19"
     },
     {
       "path": "courses/jp-n1/jp-n1-77.json",
@@ -1015,33 +1015,33 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-78.json",
-      "size": 8043,
-      "sha256": "80a236853dd51804194c21ab2fafb9dfbb5dcb19dce4962e63f449e9279f40b1"
+      "size": 7999,
+      "sha256": "f346a72b3abf9abbfcf9bd6805623a7e6bb164cc03fffb46052a7d80d082bb36"
     },
     {
       "path": "courses/jp-n1/jp-n1-79.json",
-      "size": 8214,
-      "sha256": "6a0f9b6fdbdf9a7e8cf3906217b150eaca28aec3f0ed9db1969eb9b82c76cbf0"
+      "size": 8186,
+      "sha256": "21c22a320419178a7a95a9b45f3244814e40ecdeec000317c9de0d3d91273088"
     },
     {
       "path": "courses/jp-n1/jp-n1-80.json",
-      "size": 8308,
-      "sha256": "1af2bb5be87e9032b88c8077a628561d07ac9adc4886457becc019f62b7ea47a"
+      "size": 8268,
+      "sha256": "7a0439edb737708d627d62e276a4c3f199601a05b83102700a619590f8455bd2"
     },
     {
       "path": "courses/jp-n1/jp-n1-81.json",
-      "size": 8382,
-      "sha256": "b5de0862f1e23f4e24dc4499d7352bac18fd47011dc9799773e7c756d983c083"
+      "size": 8344,
+      "sha256": "e66148032f9e678779d4cd8157928d6125613f8cff057ac5abfdc5b7e3f2737d"
     },
     {
       "path": "courses/jp-n1/jp-n1-82.json",
-      "size": 8260,
-      "sha256": "c9d826a9213909bef5089acde780fb20c227fa469f7db171a3c2c823e7c457df"
+      "size": 8170,
+      "sha256": "d9cb084a2a426c23aa7671812cb5074268158853c1c71ccd2550715ce91922f1"
     },
     {
       "path": "courses/jp-n1/jp-n1-83.json",
-      "size": 8377,
-      "sha256": "a17ac2e4873e8463c4dc636025204958b8f5275992aa76918b6537dd387e7f41"
+      "size": 8353,
+      "sha256": "4709de3a573eeb855363b7f9db2fc0394a3f6afba9aec9ec6ac3fd9e6d1f3822"
     },
     {
       "path": "courses/jp-n1/jp-n1-84.json",
@@ -1050,8 +1050,8 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-85.json",
-      "size": 7928,
-      "sha256": "ce7499b2d4ad606b95536e9781b2dc302ba1ed9948e3fc04138502f8133586f6"
+      "size": 7856,
+      "sha256": "4cb6f3d61fba2965436be160b42a3382fa8add0123eb5eb61f669dc95ad1a959"
     },
     {
       "path": "courses/jp-n1/jp-n1-86.json",
@@ -1060,28 +1060,28 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-87.json",
-      "size": 8599,
-      "sha256": "ec11d950fde703d012475bd173c64259e5cf37e5382bc4b21835301b9c9d2690"
+      "size": 8589,
+      "sha256": "697f89804a737c5aec6c35dfdc0f20e7e5eeb2310b6a11fc2537b27c73e1e617"
     },
     {
       "path": "courses/jp-n1/jp-n1-88.json",
-      "size": 8699,
-      "sha256": "5294a3e8c15c165e16d74238454acfcde219c1f70434432fa40768617c011deb"
+      "size": 8675,
+      "sha256": "c0943d5b837361783583fe913183d4e259db3ba59d1ff63a69c314bd3bff28d5"
     },
     {
       "path": "courses/jp-n1/jp-n1-89.json",
-      "size": 8335,
-      "sha256": "e2fdd2bbe25b4c09490ce0ebb65d857bfe3ef81ae3c8857a99db108890a9754f"
+      "size": 8301,
+      "sha256": "b95fa387952fdae20e4b6e7168003f03a73ead336cc650bb88d5ceeca5713c9d"
     },
     {
       "path": "courses/jp-n1/jp-n1-90.json",
-      "size": 8081,
-      "sha256": "83d922041c1664c89a4957baa31fa2d3b915ee274a9741a6395dbdc86380a497"
+      "size": 8059,
+      "sha256": "14822634d46bb5053de4bb376c22698469b63e9e5f4a65eb5ba3afc1c5d609a7"
     },
     {
       "path": "courses/jp-n1/jp-n1-91.json",
-      "size": 6031,
-      "sha256": "6608fe012594949cc6466e84c6a927e0e51f644f0de20d274d4079493735f05b"
+      "size": 5937,
+      "sha256": "e2af05434357d0e78f7bf186befedf7ef2a9de5c78e9591bbb9cddc430986d1e"
     },
     {
       "path": "courses/jp-n1/jp-n1-92.json",
@@ -1090,13 +1090,13 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-93.json",
-      "size": 8552,
-      "sha256": "a89e723cfabdcaa0da56139cd66e067b02f0dde4693be697ead99609fe23c52e"
+      "size": 8516,
+      "sha256": "c9180c5b383f73d91469905c0302476c861ecaff62dc1c83e97c4141479294f5"
     },
     {
       "path": "courses/jp-n1/jp-n1-94.json",
-      "size": 8578,
-      "sha256": "d19dd01284f67262255c202ee4e583e37d2e8f5c660569dc2b44dfa224829c83"
+      "size": 8562,
+      "sha256": "28df461000b1d50690464b2ceb02158564511b28ec92a0a21131a30fdadcc8d1"
     },
     {
       "path": "courses/jp-n1/jp-n1-95.json",
@@ -1105,13 +1105,13 @@
     },
     {
       "path": "courses/jp-n1/jp-n1-96.json",
-      "size": 8598,
-      "sha256": "34d00df2b3d0c9782c093a6b212e4ec37ad7c6dc18a4e4466e87f8d1733ecd21"
+      "size": 8576,
+      "sha256": "6bb820ffad14d7a2a1c96ab972bd82306084a3376ca963ba753f9f95db9fc5f1"
     },
     {
       "path": "courses/jp-n1/jp-n1-97.json",
-      "size": 8336,
-      "sha256": "88a88f4d39ed6d812fc3e290cdac42511785200f90d2744e304fa0e027df8733"
+      "size": 8300,
+      "sha256": "2245da17b44aedc9781d81cd00a55522b37a08e7946f7acccb37ecb579ffad19"
     },
     {
       "path": "courses/jp-n1/jp-n1-98.json",
@@ -1130,13 +1130,13 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-01.json",
-      "size": 7899,
-      "sha256": "331e6d2c12f9711ecc00af9960054cfe3bb5d2c2854ba9dcf8ea23dd67ab22e7"
+      "size": 7881,
+      "sha256": "eaecb2c70789f36fa224d17cf1ec7ec08786acc294174494dc7d6868c38a7c8c"
     },
     {
       "path": "courses/jp-n2/jp-n2-02.json",
-      "size": 8070,
-      "sha256": "78d65a1a6de911005e140111d4e4e9c4a5b42528e4c24af1072b862cc86cf5ff"
+      "size": 8054,
+      "sha256": "f9647c1ff14aabf49cd5de3e7f06f7404d41e4088ff551e2f5bfdd3c2133518d"
     },
     {
       "path": "courses/jp-n2/jp-n2-03.json",
@@ -1145,13 +1145,13 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-04.json",
-      "size": 8412,
-      "sha256": "dc4ce156cfc860d81617ef4de96190680d313c351245e9071a790a764750d0da"
+      "size": 8396,
+      "sha256": "2ced5696000db68bf339818f0bf1600741ed3067e5831949b35becff737df0dd"
     },
     {
       "path": "courses/jp-n2/jp-n2-05.json",
-      "size": 7975,
-      "sha256": "a3ccb48d97652761b56f18247320f59a775c858bff23f769f08554383c2248a5"
+      "size": 7959,
+      "sha256": "18743e8a798ac6d12e3f0d64f6b3e90d5592bae08e8bc0af8d2e02cfe3a393df"
     },
     {
       "path": "courses/jp-n2/jp-n2-06.json",
@@ -1195,13 +1195,13 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-103.json",
-      "size": 8665,
-      "sha256": "a8878a785fb2ccfa852f1c872f558f8556f7eec622cdebbf93a72528c4da3290"
+      "size": 8649,
+      "sha256": "33d883e4e264d15140eb19ade465178e2b2e1edec5295ccfe6740822cce136bb"
     },
     {
       "path": "courses/jp-n2/jp-n2-104.json",
-      "size": 8467,
-      "sha256": "afb3c2fdab8f8efcb0d053c813323c5abe8fa8bd056385d51e3bd839d52e62fc"
+      "size": 8451,
+      "sha256": "c70d87f417239473f23e7970f0ed5ebce46ffb5ee9773f53315e903ee2b948b2"
     },
     {
       "path": "courses/jp-n2/jp-n2-105.json",
@@ -1220,13 +1220,13 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-108.json",
-      "size": 8400,
-      "sha256": "a0795cc7cdb2b356121295bc59fd1f157a4dffc5fda1b40f8bcb186d845d9026"
+      "size": 8417,
+      "sha256": "34b8038863f2d9c9f458cc361b873eff02e2d68ba29571527d01ee605a9c8578"
     },
     {
       "path": "courses/jp-n2/jp-n2-109.json",
-      "size": 8592,
-      "sha256": "06332b9269afe4b8cf15d7545bba122e903d0221adc55e736997402043205f48"
+      "size": 8599,
+      "sha256": "407bcbf0986e57958c1fa79f99aa3da70a800f288b672d1948ace1d207bef01b"
     },
     {
       "path": "courses/jp-n2/jp-n2-11.json",
@@ -1235,8 +1235,8 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-110.json",
-      "size": 365,
-      "sha256": "71ce74b442c533b9122e3c8e7e99e8823f1482d2b442369524b9eba34576a3c8"
+      "size": 371,
+      "sha256": "1ed1f135aab24f5437389c468bfa2dc938229412e420d2da983098e8faeae175"
     },
     {
       "path": "courses/jp-n2/jp-n2-12.json",
@@ -1250,8 +1250,8 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-14.json",
-      "size": 8111,
-      "sha256": "0a8c7487a9911d77f82c0d666de6803121ad3bb4d78a9553960761f64291d5ab"
+      "size": 8089,
+      "sha256": "ac085e55ec402a5a8e3d48535536f925da91ceaf7583406151f63c10699300c2"
     },
     {
       "path": "courses/jp-n2/jp-n2-15.json",
@@ -1335,8 +1335,8 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-31.json",
-      "size": 7821,
-      "sha256": "30392a9f957b5c756224b01c80c814e8ecdd335e8dd88b1cd43594c192a3ec4c"
+      "size": 7799,
+      "sha256": "745c39db316c6eae45fee7e0715f74c3e48311dbb5b1536072069ec2c4f4faad"
     },
     {
       "path": "courses/jp-n2/jp-n2-32.json",
@@ -1360,8 +1360,8 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-36.json",
-      "size": 8269,
-      "sha256": "9c86444ad141edd5847e16d0e573fa852ee232eb9f782c5a7a5df8157e954cdf"
+      "size": 8237,
+      "sha256": "2f50e1ac0286939dad109886c9d531a4acc6b83fa3460b782a447175d947e650"
     },
     {
       "path": "courses/jp-n2/jp-n2-37.json",
@@ -1400,8 +1400,8 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-44.json",
-      "size": 8272,
-      "sha256": "0c3c6456465c8821d849df24e1a218198048ac616a128d3e226592e189e8caab"
+      "size": 8262,
+      "sha256": "6b15dc716657551ec57e31a84a40b54b1f2ffe5197e5a17ae83c630ac6b6225e"
     },
     {
       "path": "courses/jp-n2/jp-n2-45.json",
@@ -1410,8 +1410,8 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-46.json",
-      "size": 7856,
-      "sha256": "14831bf55daafcc54f01ed188032041297c8ac4b93733c161e6dc19518f075f7"
+      "size": 7840,
+      "sha256": "faf59833fd4d767a48144de6bafa4d5f616639c4dff479e32bbddba68fcdf5c4"
     },
     {
       "path": "courses/jp-n2/jp-n2-47.json",
@@ -1445,8 +1445,8 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-53.json",
-      "size": 8763,
-      "sha256": "8007f0596802d14a492b2f86ca7c0c273cfd75bd5967f5e5591806bd73b2c17e"
+      "size": 8741,
+      "sha256": "5c36a6854d599cf3d7a0ef36b3920e323b385a9673e989d93fe967767268588e"
     },
     {
       "path": "courses/jp-n2/jp-n2-54.json",
@@ -1455,8 +1455,8 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-55.json",
-      "size": 8005,
-      "sha256": "3cd80c070da114efc61e310e5320134422bd1d5faa972381f808b57c099e7050"
+      "size": 7989,
+      "sha256": "eb8574dba86c4f68f7b2c4a880af03bc99c62bff59dab2c86a8a59d363c6f190"
     },
     {
       "path": "courses/jp-n2/jp-n2-56.json",
@@ -1465,8 +1465,8 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-57.json",
-      "size": 7953,
-      "sha256": "41acce61d28658417f1591eabd366dee6d17bd5728e367344d6c6ea10b6c0206"
+      "size": 7915,
+      "sha256": "5b4f2e748bb300483893231b643bcc5b3471493f080a94fee4866f4e7f8e8bbb"
     },
     {
       "path": "courses/jp-n2/jp-n2-58.json",
@@ -1510,23 +1510,23 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-66.json",
-      "size": 8078,
-      "sha256": "9169a7ef7dee743d3cfeeb9313e68f2761568b1bcec10d3b5248447d4073a49e"
+      "size": 8056,
+      "sha256": "78dafb1b74eb2033fed90b12c877b94b9264725699ef150d910e9b8d17f2d8c9"
     },
     {
       "path": "courses/jp-n2/jp-n2-67.json",
-      "size": 8046,
-      "sha256": "f8bff6d1cd303fdb721ae3d50de9d106ed0368e16bc7ecac8f814564a5162809"
+      "size": 8030,
+      "sha256": "c0295767674ec3fde9d11a19ed49d97e78f7025fc1af970533abcb6d3daf6fb3"
     },
     {
       "path": "courses/jp-n2/jp-n2-68.json",
-      "size": 8377,
-      "sha256": "7730666cc23f0549a4acb13aef6ce6a134f8d37f37f4eeda74159e5b2c8aad13"
+      "size": 8361,
+      "sha256": "94ab1cd3e85d355ef776a0bec7b1491fcd8cd7cd998d5b9e4eaa2f9c24acfcaa"
     },
     {
       "path": "courses/jp-n2/jp-n2-69.json",
-      "size": 8002,
-      "sha256": "9cdedf28a72c14c62445cbcc5682dc7c3eb460dc89bd694efd725d03e832c72e"
+      "size": 7986,
+      "sha256": "a6d28d0d6971701496eb8a069cce40aecb2d1d065183e35e68dcf4c92bf91c59"
     },
     {
       "path": "courses/jp-n2/jp-n2-70.json",
@@ -1540,8 +1540,8 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-72.json",
-      "size": 8212,
-      "sha256": "4ab9169f52a28625f2747b6b41445ccee42b454f0bc86aae0e1c41f6fd9d016f"
+      "size": 8202,
+      "sha256": "df607963f6db390419b9e5069dfa120d0f3db94741faea18dea9e7247cceca84"
     },
     {
       "path": "courses/jp-n2/jp-n2-73.json",
@@ -1550,8 +1550,8 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-74.json",
-      "size": 8251,
-      "sha256": "617f6b973ff7befbf851c6bd6d69c73e7991a8f32755af1904244066ce384045"
+      "size": 8235,
+      "sha256": "7bc8c8fd898c7f3a16d5fa986e5571cc360f3705fbb2ff8a61a5740b48a1e6fd"
     },
     {
       "path": "courses/jp-n2/jp-n2-75.json",
@@ -1565,8 +1565,8 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-77.json",
-      "size": 8478,
-      "sha256": "b5676d1e32a370de29673b41bb5de87f56699f28ebb145d5b86a44d4ce53e27b"
+      "size": 8452,
+      "sha256": "9c1d3d0e0c2eac184f5e8e019fa378689fcbe4fda95d805bfa45b7bb42bc06bc"
     },
     {
       "path": "courses/jp-n2/jp-n2-78.json",
@@ -1580,8 +1580,8 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-80.json",
-      "size": 8346,
-      "sha256": "d4bfd157f36c244a88eca98b038cc89b7220a4f9cf7df4496431e3b50a218bf3"
+      "size": 8288,
+      "sha256": "27038d7cd86109894bddc0e0486b1746dc624c9c96c9e5a06f135b4bd56bbb5f"
     },
     {
       "path": "courses/jp-n2/jp-n2-81.json",
@@ -1610,8 +1610,8 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-86.json",
-      "size": 8364,
-      "sha256": "cef5a511557a0ef4836e23114800a57c7e09a630e3a46e272bbbe58e56a63f92"
+      "size": 8354,
+      "sha256": "9d4be4bf3f31109dba455dc50f09a0f31e478035a8b4e7e8aca700fe7cb58201"
     },
     {
       "path": "courses/jp-n2/jp-n2-87.json",
@@ -1620,8 +1620,8 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-88.json",
-      "size": 8481,
-      "sha256": "0ad249b33916aba5712a3f369e42925814ff2b66f6e1aaccead37430fd6d341c"
+      "size": 8431,
+      "sha256": "9dfb8ac4b1f0ce9301c390d33e3e29547bbedb891c46d1557d7d9c0087172caf"
     },
     {
       "path": "courses/jp-n2/jp-n2-89.json",
@@ -1635,8 +1635,8 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-91.json",
-      "size": 8619,
-      "sha256": "87632a27f4f79f69aa6822cb04caca85a071ce6c764834a7d8b85cc36e6e15df"
+      "size": 8591,
+      "sha256": "8d687526c3be7e857613911eaed01604f2fa2afe94eee852e5bf90948c4f712c"
     },
     {
       "path": "courses/jp-n2/jp-n2-92.json",
@@ -1655,8 +1655,8 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-95.json",
-      "size": 8564,
-      "sha256": "5f659c184c5ff975b86fdd1cff09dd23aa5ec5acdff577245007dca198b87abc"
+      "size": 8548,
+      "sha256": "e9cd0df9ffd04d5c279aeb63d69eb3dce5821a20b868a5f77ecebc074e5bb87e"
     },
     {
       "path": "courses/jp-n2/jp-n2-96.json",
@@ -1670,8 +1670,8 @@
     },
     {
       "path": "courses/jp-n2/jp-n2-98.json",
-      "size": 8352,
-      "sha256": "f6135ddc7ec4ff00c24b3bc05f2c9b6b0817261fb3e17cfdee66241e2f49484b"
+      "size": 8330,
+      "sha256": "e9daeb216df2a817f96db4a27e50dc75ff71c61ec2adcb406f46c15834313e40"
     },
     {
       "path": "courses/jp-n2/jp-n2-99.json",
@@ -1690,8 +1690,8 @@
     },
     {
       "path": "courses/jp-n3/jp-n3-02.json",
-      "size": 7863,
-      "sha256": "e86fc2061c29c8824e10b179bb4efc2ab3747f7d02cb7cd193420c5e84d290ee"
+      "size": 7845,
+      "sha256": "50c68c731df49b9156fe282b9d0289136ebbd8ad0e480af85590d406d96a0d24"
     },
     {
       "path": "courses/jp-n3/jp-n3-03.json",
@@ -1700,8 +1700,8 @@
     },
     {
       "path": "courses/jp-n3/jp-n3-04.json",
-      "size": 8062,
-      "sha256": "63d6ced606efef355178a802a546e9a87b39d4c8bdbb5a0d88d14f532e9a6a66"
+      "size": 8030,
+      "sha256": "33bbf36fcb25f8e401e1ee6f9d3486b9d67c292b4f64c5dcf471bb8780127a41"
     },
     {
       "path": "courses/jp-n3/jp-n3-05.json",
@@ -1710,8 +1710,8 @@
     },
     {
       "path": "courses/jp-n3/jp-n3-06.json",
-      "size": 7923,
-      "sha256": "89f8b7d850bd118205b9eb42822d0b87794a5c39482ae801d751737ec6c787d9"
+      "size": 7901,
+      "sha256": "385f4125c22ee04591030c1aaddb817e059f7cca62ee84cb88b54229110d9ccc"
     },
     {
       "path": "courses/jp-n3/jp-n3-07.json",
@@ -1735,8 +1735,8 @@
     },
     {
       "path": "courses/jp-n3/jp-n3-11.json",
-      "size": 8237,
-      "sha256": "08d4e1c9d79f064bce82d1f0f543564ed8f60dccb5d081ef49f5e700790e0b1a"
+      "size": 8199,
+      "sha256": "fae6a5a7c396c6851141164f1d2b4680c6b56ec88bbebc63d6ade56eae8817a4"
     },
     {
       "path": "courses/jp-n3/jp-n3-12.json",
@@ -1790,8 +1790,8 @@
     },
     {
       "path": "courses/jp-n3/jp-n3-22.json",
-      "size": 7655,
-      "sha256": "b749b6fe364a3e814895bfc9d8e30880d9aa760692585dbff034565b38e10120"
+      "size": 7639,
+      "sha256": "87d1ea3f6e443cc1252a2a78c47344c212686be595bf12c096a0668f89e83b58"
     },
     {
       "path": "courses/jp-n3/jp-n3-23.json",
@@ -1830,8 +1830,8 @@
     },
     {
       "path": "courses/jp-n3/jp-n3-30.json",
-      "size": 8390,
-      "sha256": "be4c43e8a2d4fe5763e5fbf823e41a923660e1fa97ff084bd587f26a9f5770b0"
+      "size": 8374,
+      "sha256": "86e858196542dbab7d81d9e19e8ea0df06d19bfd3c8af9597cc6bec691c8d9a2"
     },
     {
       "path": "courses/jp-n3/jp-n3-31.json",
@@ -1870,8 +1870,8 @@
     },
     {
       "path": "courses/jp-n3/jp-n3-38.json",
-      "size": 8047,
-      "sha256": "0725fbb8039189f9746e8df22b00422db124c809ee0682e3128fe03bf5a0c2bf"
+      "size": 8009,
+      "sha256": "66b4ef703c68be2d8e0c1d24a9bc1a158b2fa1502449337992d3f4819c2e6024"
     },
     {
       "path": "courses/jp-n3/jp-n3-39.json",
@@ -1895,8 +1895,8 @@
     },
     {
       "path": "courses/jp-n3/jp-n3-43.json",
-      "size": 7989,
-      "sha256": "1f5d17e9487865b099316b0b5f7b49bc4023e6280c579c589cf8aa5d17381be6"
+      "size": 7979,
+      "sha256": "9cb2884210f5768f815efb397651f26b7c8f853236a5f3e4bb7e58814b65cdb3"
     },
     {
       "path": "courses/jp-n3/jp-n3-44.json",
@@ -1905,8 +1905,8 @@
     },
     {
       "path": "courses/jp-n3/jp-n3-45.json",
-      "size": 8232,
-      "sha256": "e163816f90c0aaf830592c38f87de1413fc1d6ff36b7cf59a43a45984f5866fa"
+      "size": 8206,
+      "sha256": "1fd39039a26429b0a959b9133b52a589845ae1a9d4ea336463be9fe6b83fe80d"
     },
     {
       "path": "courses/jp-n3/jp-n3-46.json",
@@ -1920,13 +1920,13 @@
     },
     {
       "path": "courses/jp-n3/jp-n3-48.json",
-      "size": 8037,
-      "sha256": "d8c654fbf75b5054ee2bd852111976104697be0aa835f7c4db3137498de3aa51"
+      "size": 8017,
+      "sha256": "61e78314f905541b762c2ee839ae8cb190fee2f5efc86b122bbbc4ea0034b9b8"
     },
     {
       "path": "courses/jp-n3/jp-n3-49.json",
-      "size": 8142,
-      "sha256": "0482988e19813aa77a55dfdb00e7383a228401aea478db9c278c00cdf7386972"
+      "size": 8116,
+      "sha256": "eb4a3bfb0e8ba618a7d8df627ba6f2a6dbd53a0b2d057eec7216966df7744085"
     },
     {
       "path": "courses/jp-n3/jp-n3-50.json",
@@ -1935,18 +1935,18 @@
     },
     {
       "path": "courses/jp-n3/jp-n3-51.json",
-      "size": 8208,
-      "sha256": "52c67170773412ee1c4ddd904fc2cf163c6065eddb77bb744e44c8aa997ceeef"
+      "size": 8198,
+      "sha256": "ee1007645bfa316196c1f207eb4fede125674666fd5702a4b478734a3be10a74"
     },
     {
       "path": "courses/jp-n3/jp-n3-52.json",
-      "size": 8402,
-      "sha256": "d76fa508678c809645da05cefb64774b34db9e36929a11cec055f60627a82d18"
+      "size": 8376,
+      "sha256": "e3f687634e2f4006c07b094f40866a84d4ee5d9b0c37fb98f5766d733255152a"
     },
     {
       "path": "courses/jp-n3/jp-n3-53.json",
-      "size": 6275,
-      "sha256": "bcb5f2df75895fcc3cc7261bbbc7ee17b3f6c4d3b18c63025798831731ef950a"
+      "size": 6243,
+      "sha256": "a8f52807935ad5f0738fc4c0b21e7e3fb1dd2ed9baaadd1c6cef85ee4527331e"
     },
     {
       "path": "courses/jp-n3/jp-n3-54.json",
@@ -1980,18 +1980,18 @@
     },
     {
       "path": "courses/jp-n3/jp-n3-60.json",
-      "size": 8139,
-      "sha256": "94073b5e21663236228ec52e551a60ffda6132df75162be13e803d8da16cae09"
+      "size": 8138,
+      "sha256": "38dbaae609c47f69b085d264ceda74d455f2bc7fa5b5dcde471874e8031d4639"
     },
     {
       "path": "courses/jp-n3/jp-n3-61.json",
-      "size": 8063,
-      "sha256": "f7ff1b8a8663d4986329cefab9061fc6a46b3ae85bb8e6b6a05d92defee055ad"
+      "size": 8075,
+      "sha256": "d86165ccdd1e9440f5c84202b47d02616775ea692f13d2e1d1547dc70ff23a54"
     },
     {
       "path": "courses/jp-n3/jp-n3-62.json",
-      "size": 7055,
-      "sha256": "95fd6fc73f4627995b4bb0dac172b4dfc513e9077d6efadd9d15be7d2d6530e8"
+      "size": 7080,
+      "sha256": "2ef9c261ee758bed1ea00cd292de9a0b96aef30a4d3fb94a92a4c0e52c9a75f3"
     },
     {
       "path": "courses/jp-n4/course-pack.json",
@@ -2000,8 +2000,8 @@
     },
     {
       "path": "courses/jp-n4/jp-n4-01.json",
-      "size": 8032,
-      "sha256": "8aaa496c7d94f31ff0bb9b0730de6f54ec173e9316e18c9dfda52a33c9954ff5"
+      "size": 8000,
+      "sha256": "e72bd80edbc16e8c3c5289aac5055e218436d32063cc9c80cd26456334e495f9"
     },
     {
       "path": "courses/jp-n4/jp-n4-02.json",
@@ -2015,8 +2015,8 @@
     },
     {
       "path": "courses/jp-n4/jp-n4-04.json",
-      "size": 8088,
-      "sha256": "5f6375d4a69285b2072307b0589ab5b77ea5cce643f70d21fa8b0ae527be1676"
+      "size": 8072,
+      "sha256": "3a27a8003b1c8d723ee38432b9b1bbbe5cc324191fde09f289c809829ee61735"
     },
     {
       "path": "courses/jp-n4/jp-n4-05.json",
@@ -2075,8 +2075,8 @@
     },
     {
       "path": "courses/jp-n4/jp-n4-16.json",
-      "size": 7729,
-      "sha256": "96f9105efd0abbf96a67aecea42c827ad2b96322038094add54bc74423891861"
+      "size": 7735,
+      "sha256": "bb54f7fe0fd3019cbeefe05a334ed6aef025456b77458da4c98be15a13be0488"
     },
     {
       "path": "courses/jp-n4/jp-n4-17.json",
@@ -2090,8 +2090,8 @@
     },
     {
       "path": "courses/jp-n4/jp-n4-19.json",
-      "size": 8113,
-      "sha256": "3ca144036a5e0802dad1696d1760d8b01ad2c041636c5e34a64d0f68f2f2cb8d"
+      "size": 8103,
+      "sha256": "2bfe7f60d7b0071b83e2f88c1b135d8aa064f943366c4b45373388b5f957fb4f"
     },
     {
       "path": "courses/jp-n4/jp-n4-20.json",
@@ -2135,8 +2135,8 @@
     },
     {
       "path": "courses/jp-n4/jp-n4-28.json",
-      "size": 2778,
-      "sha256": "403b019644ebb98d94284af192da1b9b594be53fc00e810d02fba912b396baca"
+      "size": 2790,
+      "sha256": "430e93f551e116a5ba1a6fd2ec10dc487daad91e8f4d223179f3692b2d6b923b"
     },
     {
       "path": "courses/jp-n5/course-pack.json",
@@ -2360,8 +2360,8 @@
     },
     {
       "path": "data/grammar-points.json",
-      "size": 747367,
-      "sha256": "eec5e4046bbd5945938132cfe954b78e278db0e7f09a014c18f5a671479f4b85"
+      "size": 746987,
+      "sha256": "a3a6a9c18693acb39a5d648fbb942135181ce2f7b06abd865999dfe2e4784ac9"
     },
     {
       "path": "data/grammar-reference.json",

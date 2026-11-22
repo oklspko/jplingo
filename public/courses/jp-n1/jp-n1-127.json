@@ -215,12 +215,12 @@
     {
       "id": "17",
       "chinese": "形迹可疑，奇怪，蹊跷",
-      "japanese": "胡散[うさん]臭い",
+      "japanese": "胡散臭い",
       "kana": "うさんくさい",
       "romaji": "usankusai",
       "tokens": [
         {
-          "text": "胡散[うさん]臭い",
+          "text": "胡散臭い",
           "kana": "うさんくさい"
         }
       ]

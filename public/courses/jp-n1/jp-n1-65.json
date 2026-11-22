@@ -371,12 +371,12 @@
     {
       "id": "29",
       "chinese": "日本扁柏；桧木",
-      "japanese": "檜[ひのき]",
+      "japanese": "檜",
       "kana": "ひのき",
       "romaji": "hinoki",
       "tokens": [
         {
-          "text": "檜[ひのき]",
+          "text": "檜",
           "kana": "ひのき"
         }
       ]

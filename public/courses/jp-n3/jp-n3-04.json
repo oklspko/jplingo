@@ -176,12 +176,12 @@
     {
       "id": "14",
       "chinese": "咳嗽",
-      "japanese": "咳[せき]",
+      "japanese": "咳",
       "kana": "せき",
       "romaji": "seki",
       "tokens": [
         {
-          "text": "咳[せき]",
+          "text": "咳",
           "kana": "せき"
         }
       ]
@@ -254,12 +254,12 @@
     {
       "id": "20",
       "chinese": "海苔；紫菜",
-      "japanese": "海苔[のり]",
+      "japanese": "海苔",
       "kana": "のり",
       "romaji": "nori",
       "tokens": [
         {
-          "text": "海苔[のり]",
+          "text": "海苔",
           "kana": "のり"
         }
       ]

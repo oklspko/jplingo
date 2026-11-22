@@ -46,12 +46,12 @@
     {
       "id": "04",
       "chinese": "错误，谬误",
-      "japanese": "誤 謬[びゅう]",
+      "japanese": "誤謬",
       "kana": "ごびゅう",
       "romaji": "gobyuu",
       "tokens": [
         {
-          "text": "誤 謬[びゅう]",
+          "text": "誤謬",
           "kana": "ごびゅう"
         }
       ]

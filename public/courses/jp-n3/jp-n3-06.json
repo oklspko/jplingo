@@ -98,12 +98,12 @@
     {
       "id": "08",
       "chinese": "吵架，打架",
-      "japanese": "喧嘩[けんか]",
+      "japanese": "喧嘩",
       "kana": "けんか",
       "romaji": "kenka",
       "tokens": [
         {
-          "text": "喧嘩[けんか]",
+          "text": "喧嘩",
           "kana": "けんか"
         }
       ]
