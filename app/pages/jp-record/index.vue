@@ -132,6 +132,7 @@ import {
   classifyKind,
   isVocabPack,
   mixedCourseIdOf,
+  isMixedCourse,
   type LearnedKind,
 } from "~/composables/jp/useJpCourses";
 import type { JpCourse, JpCoursePack } from "~/types/jp";
@@ -242,13 +243,16 @@ async function doLoad() {
 
   const rows: CourseRow[] = [];
   const itemRows: ItemRow[] = [];
-  // 自动去重：同一个「单词/句子/假名」在记录里只保留一条。
-  // 来源有两类：① 词汇课按「每词循环 N 遍」设计，同课内同一 japanese 有多个 id；
-  //          ② 同一个词出现在多个课程包里。这里按「类型 + 日语原文」全局去重。
-  const seenItemKeys = new Set<string>();
 
   for (const cid of record.value.studiedCourses) {
+    // 去重必须是**每门课**独立：词汇课按「每词循环 N 遍」设计，同一课内同一 japanese 会有多个 id。
+    // 早期这里用的是全局 set，结果「无分类测试」先把词全占了，分类课程的词一条都登记不上
+    // （表现就是：已学记录里只有无分类的词，分类单词课做完不显示）。
+    const seenItemKeys = new Set<string>();
+
     const packId = inferPackId(cid);
+    // 无分类测试（虚拟课程 <pack>-all）
+    const mixed = !!packId && isMixedCourse(packId, cid);
     if (!packId) {
       // 前缀也推不出来（课程包已被删除/改名）：仍然把记录显示出来，用课程 id 当标题。
       rows.push({
@@ -277,11 +281,12 @@ async function doLoad() {
       for (const key of keysOfCourse) {
         const sid = key.slice(prefix.length);
         if (!sid) continue;
+        if (mixed && !sid.includes("#")) continue;   // 无分类旧格式的歧义 id（01/02…），别当词显示
         const dedupKey = `word|${sid}`;
         if (seenItemKeys.has(dedupKey)) continue;
         seenItemKeys.add(dedupKey);
         itemRows.push({
-          key: dedupKey,
+          key: `${cid}|${dedupKey}`,
           courseId: cid,
           courseTitle: cid,
           packId,
@@ -323,7 +328,7 @@ async function doLoad() {
         if (!seenItemKeys.has(dedupKey)) {
           seenItemKeys.add(dedupKey);
           itemRows.push({
-            key: dedupKey,
+            key: `${cid}|${dedupKey}`,
             courseId: cid,
             courseTitle: course.title || cid,
             packId,
@@ -343,11 +348,14 @@ async function doLoad() {
     for (const key of keysOfCourse) {
       const sid = key.slice(prefix.length);
       if (!sid || matched.has(sid)) continue;
+      // 无分类旧格式（jp-n5-all/01）有歧义：一个 id 对应几十个不同的词，无法确定是哪个，
+      // 宁可不当成「词」显示，也不要把整个词库塞进已学记录。
+      if (mixed && !sid.includes("#")) continue;
       const dedupKey = `word|${sid}`;
       if (seenItemKeys.has(dedupKey)) continue;
       seenItemKeys.add(dedupKey);
       itemRows.push({
-        key: dedupKey,
+        key: `${cid}|${dedupKey}`,
         courseId: cid,
         courseTitle: course.title || cid,
         packId,
@@ -381,8 +389,13 @@ const recordSig = computed(
 );
 watch(recordSig, () => load(), { immediate: true });
 
+// 概览计数：同一个词可能出现在多门课里，这里按「类型 + 日语原文」去重后再数
 function countByKind(kind: LearnedKind) {
-  return items.value.filter((i) => i.kind === kind).length;
+  const seen = new Set<string>();
+  for (const i of items.value) {
+    if (i.kind === kind) seen.add(i.japanese);
+  }
+  return seen.size;
 }
 
 const wordCount = computed(() => countByKind("word"));

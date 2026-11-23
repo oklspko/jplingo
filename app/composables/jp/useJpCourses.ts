@@ -84,7 +84,13 @@ export async function fetchMixedStatements(packId: string): Promise<JpStatement[
   for (const id of courseIds) {
     try {
       const course = await fetchCourse(packId, id);
-      all.push(...(course.statements || []));
+      for (const s of course.statements || []) {
+        // 语句 id 只在**各自课程内**唯一（每课都是 01、02…），直接拼起来会撞车：
+        // 记录页按「课程id/语句id」反查，一条 `jp-n5-all/01` 会同时命中几十个不同的词，
+        // 表现就是「只做对几个词，记录里却把整个无分类词库都列出来了」。
+        // 这里给聚合后的语句换成「来源课程id#语句id」的唯一 id。
+        all.push({ ...s, id: `${id}#${s.id}` });
+      }
     } catch {
       // 单个课程加载失败时跳过，不阻断整体测试
     }
