@@ -40,12 +40,6 @@
         />
 
         <transition name="pop">
-          <div v-if="mixedResetNotice" class="jp-reset-notice">
-            🎉 全部单词已掌握，已为你重置词库，重新开始测试
-          </div>
-        </transition>
-
-        <transition name="pop">
           <div v-if="showSpaceHint && showSpaceHintCard" class="space-hint">
             <div class="space-hint-icon">⌨️</div>
             <div class="space-hint-text">
@@ -160,11 +154,24 @@
         </transition>
       </main>
 
+      <div v-else-if="mixedEmpty" class="jp-empty-panel">
+        <div class="jp-empty-icon">🎯</div>
+        <h2 class="jp-empty-title">无分类测试已全部掌握</h2>
+        <p class="jp-empty-text">
+          这个词库里已经没有需要考的单词了（连对 5 次或循环测试连对 3 次都算已掌握）。<br />
+          要不要重置一次，把整库重新从头测一遍？
+        </p>
+        <div class="jp-empty-actions">
+          <button class="jp-btn primary" @click="confirmResetMixed">🔄 重置并重新测试</button>
+          <button class="jp-btn" @click="leaveMixed">返回课程</button>
+        </div>
+      </div>
+
       <div v-else-if="allMastered" class="jp-all-mastered">
         <div class="all-mastered-icon">🎉</div>
-        <h2 class="all-mastered-title">全部词汇已掌握！</h2>
-        <p class="all-mastered-desc">累计通过 5 轮的词会从无分类测试中移除，当前词库已全部掌握。</p>
-        <button class="jp-btn primary" @click="resetMixedMemory">🔄 重新开始（清空记忆）</button>
+        <h2 class="all-mastered-title">当前词库是空的</h2>
+        <p class="all-mastered-desc">这个词汇包没有可测试的单词。</p>
+        <button class="jp-btn primary" @click="goHome">返回首页</button>
       </div>
 
       <div v-else class="jp-loading">加载中…</div>
@@ -240,8 +247,8 @@ const courseTitle = ref("");
 const showSpaceHint = ref(true);
 const hadWrongAttempt = ref(false);
 const allMastered = ref(false);
-// 「全部词已掌握 → 自动重置」的提示条（几秒后自动消失）
-const mixedResetNotice = ref(false);
+// 无分类测试里已经没有要考的单词（全部已掌握）→ 询问是否重置
+const mixedEmpty = ref(false);
 
 const vocabMemory = useJpVocabMemory(route.params.coursePackId as string);
 
@@ -526,16 +533,13 @@ async function loadCourseData() {
   const data = await fetchCourse(packId, id);
   let list = data.statements || [];
   allMastered.value = false;
-  mixedResetNotice.value = false;
+  mixedEmpty.value = false;
   if (isMixed.value) {
-    // 已通过循环测试（连对 3 次）的词视为已掌握，不再进入无分类测试
-    list = list.filter((s) => !vocabMemory.isPassed(s.japanese));
+    // 已掌握 = 连对 5 次（原有规则）或 循环测试连对 3 次通过（辅助规则），两者都不再出现在测试里
+    list = list.filter((s) => !vocabMemory.isKnown(s.japanese));
     if (list.length === 0 && (data.statements || []).length > 0) {
-      // 全部词都已掌握：再次进入无分类测试时自动重置，重新从整库开始考
-      vocabMemory.resetAll();
-      mixedResetNotice.value = true;
-      list = data.statements || [];
-      setTimeout(() => (mixedResetNotice.value = false), 6000);
+      // 整个词库都掌握了：不自动重置，先询问用户（见模板里的重置面板）
+      mixedEmpty.value = true;
     }
   }
   resetCycleState();
@@ -621,19 +625,30 @@ function onCorrect(stmt: JpStatement) {
   result.value = "correct";
   playSuccessSound(); playAudio();
   if (isCycleTest.value) {
-    // 循环测试：连续答对 3 次才通过并写入记录；不足 3 次则 5–7 词后再出现一次
+    // 循环测试：连续答对 3 次即通过（辅助判定），不足 3 次则 5–7 词后再出现一次
     const key = stmt.japanese;
     const streak = (cycleStreak[key] || 0) + 1;
     cycleStreak[key] = streak;
+    // 每一次答对都累加「连续答对次数」——原有「连对 5 次即已掌握」的规则照旧生效
+    const newCount = vocabMemory.recordCorrect(key);
     if (streak >= CYCLE_PASS_STREAK) {
       if (!cyclePassed.value.includes(key)) cyclePassed.value = [...cyclePassed.value, key];
+      // 规则②：循环测试通过 → 记为已掌握
+      vocabMemory.markPassed(key);
       recordStatement(courseId.value, stmt.id);
       recordMastered(courseId.value, stmt.id);
-      vocabMemory.recordCorrect(key);
       // 已通过：把后面还会出现的同一个词删掉，不再重复考
       dropFutureCopies(statements.value, currentIndex.value, key);
     } else {
-      insertSpacedCopies(statements.value, currentIndex.value, stmt, 1);
+      if (newCount >= GAOKAO_MASTER_THRESHOLD) {
+        // 规则①：这一轮里已经连对 5 次 → 直接算掌握，不必等循环通过
+        vocabMemory.markPassed(key);
+        recordStatement(courseId.value, stmt.id);
+        recordMastered(courseId.value, stmt.id);
+        dropFutureCopies(statements.value, currentIndex.value, key);
+      } else {
+        insertSpacedCopies(statements.value, currentIndex.value, stmt, 1);
+      }
     }
   } else if (isMixed.value) {
     recordStatement(courseId.value, stmt.id);
@@ -707,9 +722,20 @@ function removeFutureCopies(japanese: string) {
 async function resetMixedMemory() {
   vocabMemory.resetAll();
   allMastered.value = false;
+  mixedEmpty.value = false;
   courseCompleted.value = false;
   clearResume();
   await loadCourseData();
+}
+
+/** 无分类测试「已全部掌握」面板：确认重置并重新测试 */
+async function confirmResetMixed() {
+  await resetMixedMemory();
+}
+
+/** 无分类测试「已全部掌握」面板：不重置，回课程列表 */
+function leaveMixed() {
+  goHome();
 }
 
 // 「去装内置语音」的提示只在用户没关过时出现（关过一次就不再打扰）
@@ -798,18 +824,47 @@ const { synthesizing } = useJpTts();
   word-break: break-word;
 }
 
-/* 无分类测试「全部已掌握 → 自动重置」提示 */
-.jp-reset-notice {
-  margin: 8px auto 0;
-  max-width: 94%;
-  padding: 8px 14px;
-  border-radius: 999px;
-  background: #ecfdf5;
-  border: 1px solid #a7f3d0;
-  color: #047857;
-  font-size: 13px;
+/* 无分类测试「已全部掌握 → 是否重置」面板 */
+.jp-empty-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: clamp(24px, 8vh, 90px) auto 0;
+  max-width: 560px;
+  padding: 28px 24px;
+  border-radius: 18px;
+  background: #fff;
+  border: 1px solid #e2eef7;
+  box-shadow: 0 10px 30px rgba(15, 80, 120, 0.08);
   text-align: center;
-  line-height: 1.5;
+}
+
+.jp-empty-icon {
+  font-size: 44px;
+  line-height: 1;
+}
+
+.jp-empty-title {
+  margin: 0;
+  font-size: 20px;
+  color: #075985;
+}
+
+.jp-empty-text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.75;
+  color: #5b7a8c;
+}
+
+.jp-empty-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 6px;
 }
 
 /* 循环测试提示条：连续答对 3 次才通过 */

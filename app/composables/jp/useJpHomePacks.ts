@@ -23,8 +23,8 @@ export function useJpHomePacks(coursePacks: Ref<JpCoursePack[]>, importedPackIds
     return `/jp-game/${packId}/${mixedCourseIdOf(packId)}`;
   }
   function mixedMasteredCount(packId: string) {
-    // 与练习页的过滤口径保持一致：通过一次（连对 3 次）就算掌握、不再进无分类测试
-    return useJpVocabMemory(packId).passedCount();
+    // 与练习页口径一致：连对 5 次（原有规则）或循环测试连对 3 次通过（辅助规则）都算已掌握
+    return useJpVocabMemory(packId).knownCount();
   }
 
   function isImported(packId: string): boolean {
