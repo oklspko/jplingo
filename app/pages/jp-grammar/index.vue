@@ -58,14 +58,29 @@
           </div>
         </section>
 
-        <!-- 结果统计 -->
+        <!-- 结果统计 + 复习遮挡开关 -->
         <div class="result-bar">
           <span>共 <b>{{ filtered.length }}</b> 条</span>
+          <div class="mask-chips" role="group" aria-label="复习遮挡">
+            <button
+              v-for="m in MASK_MODES"
+              :key="m.key"
+              class="mask-chip"
+              :class="{ on: maskMode === m.key }"
+              @click="maskMode = m.key"
+            >{{ m.label }}</button>
+          </div>
           <button
             v-if="selectedVowel !== '全部' || selectedLevel !== '全部' || keyword"
             class="result-clear"
             @click="resetFilters"
           >清除筛选</button>
+        </div>
+
+        <div v-if="maskMode !== 'off'" class="mask-bar">
+          <span class="mask-bar-hint">👁 已开启遮挡：点一下被盖住的内容即可显示</span>
+          <button class="mask-action" @click="revealAll">全部显示</button>
+          <button class="mask-action ghost" @click="maskAll">重新遮住</button>
         </div>
 
         <!-- 语法条列表（按元音分组） -->
@@ -85,11 +100,21 @@
                 @click="toggleCard(p.id)"
               >
                 <div class="point-head">
-                  <span class="point-pattern">{{ p.pattern }}</span>
+                  <span
+                    class="point-pattern"
+                    :class="{ masked: isMasked('pattern', p.id) }"
+                    :title="isMasked('pattern', p.id) ? '点击显示语法条' : undefined"
+                    @click.stop="revealItem('pattern', p.id)"
+                  >{{ p.pattern }}</span>
                   <span class="point-level" :class="`lv-${p.level.toLowerCase()}`">{{ p.level }}</span>
                   <span class="point-arrow" :class="{ rotated: expandedId === p.id }">▾</span>
                 </div>
-                <p class="point-meaning">{{ p.meaning }}</p>
+                <p
+                  class="point-meaning"
+                  :class="{ masked: isMasked('meaning', p.id) }"
+                  :title="isMasked('meaning', p.id) ? '点击显示意思' : undefined"
+                  @click.stop="revealItem('meaning', p.id)"
+                >{{ p.meaning }}</p>
 
                 <!-- 第一次展开：接续（为空则不显示，很多 N5 语法条的形态已含在语法条本身里）+ 例句 + 注意 -->
                 <div v-show="expandedId === p.id" class="point-detail">
@@ -146,7 +171,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { computed, onMounted, ref, watch } from "vue";
 import JpSidebar from "~/components/jp/JpSidebar.vue";
 import { grammarPoints as bundledGrammarPoints, type GrammarPoint } from "~/data/jp-grammar-points";
 import { fetchDataJson } from "~/composables/jp/useJpData";
@@ -168,6 +193,70 @@ const selectedVowel = ref<VowelKey | "全部">("全部");
 const selectedLevel = ref<string>("全部");
 const keyword = ref("");
 const expandedId = ref<string | null>(null);
+
+// ===== 复习遮挡：把「语法条 / 意思」盖住，点一下才显示 =====
+type MaskMode = "off" | "pattern" | "meaning" | "both";
+const MASK_MODES = [
+  { key: "off", label: "不遮挡" },
+  { key: "pattern", label: "遮语法条" },
+  { key: "meaning", label: "遮意思" },
+  { key: "both", label: "两者都遮" },
+] as const;
+const MASK_STORAGE_KEY = "jp-grammar-mask-mode";
+const maskMode = ref<MaskMode>("off");
+/** 已点开的条目（`pattern:<id>` / `meaning:<id>`），刷新页面即恢复遮挡 */
+const revealed = ref<Set<string>>(new Set());
+const revealedCount = computed(() => revealed.value.size);
+
+onMounted(() => {
+  try {
+    const saved = localStorage.getItem(MASK_STORAGE_KEY);
+    if (saved === "off" || saved === "pattern" || saved === "meaning" || saved === "both") {
+      maskMode.value = saved;
+    }
+  } catch {
+    // 忽略：隐私模式下不可用
+  }
+});
+watch(maskMode, (v) => {
+  try {
+    localStorage.setItem(MASK_STORAGE_KEY, v);
+  } catch {
+    // 忽略
+  }
+  revealed.value = new Set();   // 切换遮挡方式时重新遮住
+});
+
+function isMasked(kind: "pattern" | "meaning", id: string): boolean {
+  if (maskMode.value === "off") return false;
+  if (revealed.value.has(`${kind}:${id}`)) return false;
+  if (maskMode.value === "both") return true;
+  return maskMode.value === kind;
+}
+
+function revealItem(kind: "pattern" | "meaning", id: string) {
+  if (!isMasked(kind, id)) {
+    // 已经显示出来了：这一次点击就交回给卡片本身（展开/收起）
+    toggleCard(id);
+    return;
+  }
+  const next = new Set(revealed.value);
+  next.add(`${kind}:${id}`);
+  revealed.value = next;
+}
+
+function revealAll() {
+  const next = new Set(revealed.value);
+  for (const p of filtered.value) {
+    next.add(`pattern:${p.id}`);
+    next.add(`meaning:${p.id}`);
+  }
+  revealed.value = next;
+}
+
+function maskAll() {
+  revealed.value = new Set();
+}
 
 // 语法条可热更新：先用内置数据渲染，再异步换成远端 JSON（缺失就继续用内置）
 const grammarPoints = ref<GrammarPoint[]>(bundledGrammarPoints);
@@ -397,9 +486,135 @@ function resetFilters() {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
   padding: 4px 4px 14px;
   font-size: 13px;
   color: #5b7a8c;
+}
+
+/* ===== 复习遮挡 ===== */
+
+.mask-chips {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+
+.mask-chip {
+  padding: 5px 11px;
+  border: 1px solid #e2eef6;
+  border-radius: 999px;
+  background: #f7fbfe;
+  color: #5b7a8c;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+  transition: all 0.15s;
+}
+
+.mask-chip:hover {
+  border-color: #bae6fd;
+  color: #0369a1;
+}
+
+.mask-chip.on {
+  background: #0ea5e9;
+  border-color: #0ea5e9;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(14, 165, 233, 0.3);
+}
+
+.mask-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: -4px 0 14px;
+  padding: 9px 12px;
+  border-radius: 10px;
+  background: #f0f9ff;
+  border: 1px solid #dbeafe;
+}
+
+.mask-bar-hint {
+  flex: 1;
+  min-width: 180px;
+  font-size: 12px;
+  color: #0369a1;
+}
+
+.mask-action {
+  padding: 5px 12px;
+  border: 1px solid #bae6fd;
+  border-radius: 8px;
+  background: #fff;
+  color: #0369a1;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+  transition: all 0.15s;
+}
+
+.mask-action:hover {
+  background: #e0f2fe;
+}
+
+.mask-action.ghost {
+  background: transparent;
+  color: #5b7a8c;
+  border-color: #e2eef6;
+}
+
+/* 被遮挡的内容：文字变透明，留一条「涂黑条」，点一下才显示 */
+.masked {
+  color: transparent !important;
+  background: repeating-linear-gradient(
+    135deg,
+    #dfe8f3 0 6px,
+    #d3dfec 6px 12px
+  );
+  border-radius: 6px;
+  box-shadow: inset 0 0 0 1px rgba(120, 150, 180, 0.35);
+  cursor: pointer;
+  user-select: none;
+  caret-color: transparent;
+  transition: filter 0.15s, opacity 0.15s;
+}
+
+.masked:hover {
+  filter: brightness(0.95);
+}
+
+.masked::after {
+  content: "🔍";
+  color: #64748b;
+  font-size: 0.85em;
+  margin-left: 4px;
+}
+
+/* 被遮挡的语法条不要在选择/搜索时泄漏宽度信息也没关系，这里只保证不可读 */
+@media (max-width: 768px) {
+  .mask-chips {
+    margin-left: 0;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .mask-chip {
+    padding: 4px 10px;
+    font-size: 11.5px;
+  }
+
+  .mask-bar {
+    padding: 8px 10px;
+  }
 }
 
 .result-bar b {

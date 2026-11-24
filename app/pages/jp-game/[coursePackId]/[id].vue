@@ -40,6 +40,12 @@
         />
 
         <transition name="pop">
+          <div v-if="mixedResetNotice" class="jp-reset-notice">
+            🎉 全部单词已掌握，已为你重置词库，重新开始测试
+          </div>
+        </transition>
+
+        <transition name="pop">
           <div v-if="showSpaceHint && showSpaceHintCard" class="space-hint">
             <div class="space-hint-icon">⌨️</div>
             <div class="space-hint-text">
@@ -234,6 +240,8 @@ const courseTitle = ref("");
 const showSpaceHint = ref(true);
 const hadWrongAttempt = ref(false);
 const allMastered = ref(false);
+// 「全部词已掌握 → 自动重置」的提示条（几秒后自动消失）
+const mixedResetNotice = ref(false);
 
 const vocabMemory = useJpVocabMemory(route.params.coursePackId as string);
 
@@ -518,9 +526,17 @@ async function loadCourseData() {
   const data = await fetchCourse(packId, id);
   let list = data.statements || [];
   allMastered.value = false;
+  mixedResetNotice.value = false;
   if (isMixed.value) {
-    // 已掌握（连续答对 5 次）的词不再进入测试；其余词打乱顺序
-    list = list.filter((s) => !vocabMemory.isMastered(s.japanese));
+    // 已通过循环测试（连对 3 次）的词视为已掌握，不再进入无分类测试
+    list = list.filter((s) => !vocabMemory.isPassed(s.japanese));
+    if (list.length === 0 && (data.statements || []).length > 0) {
+      // 全部词都已掌握：再次进入无分类测试时自动重置，重新从整库开始考
+      vocabMemory.resetAll();
+      mixedResetNotice.value = true;
+      list = data.statements || [];
+      setTimeout(() => (mixedResetNotice.value = false), 6000);
+    }
   }
   resetCycleState();
   if (isCycleTest.value) {
@@ -780,6 +796,20 @@ const { synthesizing } = useJpTts();
   font-family: "Noto Sans JP", sans-serif;
   line-height: 1.2;
   word-break: break-word;
+}
+
+/* 无分类测试「全部已掌握 → 自动重置」提示 */
+.jp-reset-notice {
+  margin: 8px auto 0;
+  max-width: 94%;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  color: #047857;
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.5;
 }
 
 /* 循环测试提示条：连续答对 3 次才通过 */

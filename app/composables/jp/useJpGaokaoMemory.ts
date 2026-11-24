@@ -1,6 +1,7 @@
 // 「无分类测试」的自动识别记忆（高考 + N5–N1 每个词汇包各一份）。
-// 记录每个词「连续答对次数」：连续答对 5 次即视为已掌握，之后不再出现在测试里；
-// 一旦答错则连续次数清零，需要重新连对 5 次。
+// 记录每个词「通过循环测试的次数」：通过一次（连续答对 3 次）即视为已掌握，
+// 之后不再出现在无分类测试里；全部词都掌握后再次进入会重置、重新从整库开始。
+// 一旦答错则计数清零，需要重新连对 3 次。
 import { ref, type Ref } from "vue";
 
 const STORAGE_PREFIX = "jp-vocab-mixed-memory:";
@@ -66,6 +67,21 @@ export function useJpVocabMemory(packId: string) {
     return count(japanese) >= GAOKAO_MASTER_THRESHOLD;
   }
 
+  // 「已通过」= 通过过一次循环测试（连续答对 3 次，每通过一次计 1）。
+  // 无分类测试用它来决定某词要不要继续考：通过即视为已掌握、不再出现。
+  function isPassed(japanese: string): boolean {
+    return count(japanese) >= 1;
+  }
+
+  function passedCount(): number {
+    ensureLoaded();
+    let n = 0;
+    for (const k in memory.value) {
+      if ((memory.value[k] ?? 0) >= 1) n++;
+    }
+    return n;
+  }
+
   function masteredCount(): number {
     ensureLoaded();
     let n = 0;
@@ -98,7 +114,7 @@ export function useJpVocabMemory(packId: string) {
     saveMemory(key, memory.value);
   }
 
-  return { count, isMastered, masteredCount, recordCorrect, recordWrong, resetAll };
+  return { count, isMastered, isPassed, masteredCount, passedCount, recordCorrect, recordWrong, resetAll };
 }
 
 // 兼容旧调用（高考词库）

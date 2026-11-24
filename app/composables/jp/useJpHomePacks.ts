@@ -18,12 +18,13 @@ export function useJpHomePacks(coursePacks: Ref<JpCoursePack[]>, importedPackIds
   // 已导入的课程包（文件夹），供「移动到文件夹」下拉选择
   const importedPacks = computed(() => coursePacks.value.filter((p) => importedPackIds.value.has(p.id)));
 
-  // 各词汇包「无分类测试」进度（已掌握词数）
+  // 各词汇包「无分类测试」进度（已通过循环测试 / 已掌握的词数）
   function mixedGameUrl(packId: string) {
     return `/jp-game/${packId}/${mixedCourseIdOf(packId)}`;
   }
   function mixedMasteredCount(packId: string) {
-    return useJpVocabMemory(packId).masteredCount();
+    // 与练习页的过滤口径保持一致：通过一次（连对 3 次）就算掌握、不再进无分类测试
+    return useJpVocabMemory(packId).passedCount();
   }
 
   function isImported(packId: string): boolean {
